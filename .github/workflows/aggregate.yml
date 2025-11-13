@@ -1,0 +1,50 @@
+name: Aggregate data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'items/**'
+      - 'quests/**'
+      - 'hideout/**'
+      - '.github/workflows/aggregate.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'items/**'
+      - 'quests/**'
+      - 'hideout/**'
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Aggregate directories
+        run: node scripts/aggregate.mjs
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: aggregate data (CI)"
+          git push
