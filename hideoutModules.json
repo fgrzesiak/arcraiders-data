@@ -1,78 +1,5 @@
 [
   {
-    "id": "explosives_bench",
-    "name": {
-      "en": "Explosives Station",
-      "de": "Sprengstoffstation",
-      "fr": "Station à explosifs",
-      "es": "Estación de explosivos",
-      "pt": "Estação de explosivos",
-      "pl": "Stacja materiałów wybuchowych",
-      "no": "Eksplosivstasjon",
-      "da": "Sprængstofstation",
-      "ru": "Станция взрывчатки",
-      "ja": "爆発物ステーション",
-      "it": "Stazione Esplosivi",
-      "kr": "폭발물 제작소",
-      "zh-CN": "爆炸物工作站",
-      "zh-TW": "爆裂物工作站",
-      "uk": "Станція вибухівки",
-      "tr": "Patlayıcı İstasyonu",
-      "hr": "Stanica za eksploziv",
-      "sr": "Stanica za eksploziv"
-    },
-    "maxLevel": 3,
-    "levels": [
-      {
-        "level": 1,
-        "requirementItemIds": [
-          {
-            "itemId": "rubber_parts",
-            "quantity": 50
-          },
-          {
-            "itemId": "arc_alloy",
-            "quantity": 6
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "requirementItemIds": [
-          {
-            "itemId": "synthesized_fuel",
-            "quantity": 3
-          },
-          {
-            "itemId": "crude_explosives",
-            "quantity": 5
-          },
-          {
-            "itemId": "pop_trigger",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "requirementItemIds": [
-          {
-            "itemId": "laboratory_reagents",
-            "quantity": 3
-          },
-          {
-            "itemId": "explosive_compound",
-            "quantity": 5
-          },
-          {
-            "itemId": "rocketeer_driver",
-            "quantity": 3
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "equipment_bench",
     "name": {
       "en": "Gear Bench",
@@ -146,26 +73,26 @@
     ]
   },
   {
-    "id": "weapon_bench",
+    "id": "explosives_bench",
     "name": {
-      "en": "Gunsmith",
-      "de": "Waffenschmied",
-      "fr": "Armurier",
-      "es": "Armero",
-      "pt": "Armeiro",
-      "pl": "Rusznikarz",
-      "no": "Våpenmaker",
-      "da": "Våbensmed",
-      "ru": "Оружейная",
-      "ja": "ガンスミス",
-      "it": "Armaiolo",
-      "kr": "총기 제작대",
-      "zh-CN": "枪械工坊",
-      "zh-TW": "槍械工坊",
-      "uk": "Зброярня",
-      "tr": "Silah Tezgahı",
-      "hr": "Oružar",
-      "sr": "Oružar"
+      "en": "Explosives Station",
+      "de": "Sprengstoffstation",
+      "fr": "Station à explosifs",
+      "es": "Estación de explosivos",
+      "pt": "Estação de explosivos",
+      "pl": "Stacja materiałów wybuchowych",
+      "no": "Eksplosivstasjon",
+      "da": "Sprængstofstation",
+      "ru": "Станция взрывчатки",
+      "ja": "爆発物ステーション",
+      "it": "Stazione Esplosivi",
+      "kr": "폭발물 제작소",
+      "zh-CN": "爆炸物工作站",
+      "zh-TW": "爆裂物工作站",
+      "uk": "Станція вибухівки",
+      "tr": "Patlayıcı İstasyonu",
+      "hr": "Stanica za eksploziv",
+      "sr": "Stanica za eksploziv"
     },
     "maxLevel": 3,
     "levels": [
@@ -173,12 +100,12 @@
         "level": 1,
         "requirementItemIds": [
           {
-            "itemId": "metal_parts",
-            "quantity": 20
+            "itemId": "rubber_parts",
+            "quantity": 50
           },
           {
-            "itemId": "rubber_parts",
-            "quantity": 30
+            "itemId": "arc_alloy",
+            "quantity": 6
           }
         ]
       },
@@ -186,16 +113,16 @@
         "level": 2,
         "requirementItemIds": [
           {
-            "itemId": "rusted_tools",
+            "itemId": "synthesized_fuel",
             "quantity": 3
           },
           {
-            "itemId": "mechanical_components",
+            "itemId": "crude_explosives",
             "quantity": 5
           },
           {
-            "itemId": "wasp_driver",
-            "quantity": 8
+            "itemId": "pop_trigger",
+            "quantity": 5
           }
         ]
       },
@@ -203,16 +130,16 @@
         "level": 3,
         "requirementItemIds": [
           {
-            "itemId": "rusted_gear",
+            "itemId": "laboratory_reagents",
             "quantity": 3
           },
           {
-            "itemId": "advanced_mechanical_components",
+            "itemId": "explosive_compound",
             "quantity": 5
           },
           {
-            "itemId": "sentinel_firing_core",
-            "quantity": 4
+            "itemId": "rocketeer_driver",
+            "quantity": 3
           }
         ]
       }
@@ -620,6 +547,79 @@
           },
           {
             "itemId": "leaper_pulse_unit",
+            "quantity": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "weapon_bench",
+    "name": {
+      "en": "Gunsmith",
+      "de": "Waffenschmied",
+      "fr": "Armurier",
+      "es": "Armero",
+      "pt": "Armeiro",
+      "pl": "Rusznikarz",
+      "no": "Våpenmaker",
+      "da": "Våbensmed",
+      "ru": "Оружейная",
+      "ja": "ガンスミス",
+      "it": "Armaiolo",
+      "kr": "총기 제작대",
+      "zh-CN": "枪械工坊",
+      "zh-TW": "槍械工坊",
+      "uk": "Зброярня",
+      "tr": "Silah Tezgahı",
+      "hr": "Oružar",
+      "sr": "Oružar"
+    },
+    "maxLevel": 3,
+    "levels": [
+      {
+        "level": 1,
+        "requirementItemIds": [
+          {
+            "itemId": "metal_parts",
+            "quantity": 20
+          },
+          {
+            "itemId": "rubber_parts",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "requirementItemIds": [
+          {
+            "itemId": "rusted_tools",
+            "quantity": 3
+          },
+          {
+            "itemId": "mechanical_components",
+            "quantity": 5
+          },
+          {
+            "itemId": "wasp_driver",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "requirementItemIds": [
+          {
+            "itemId": "rusted_gear",
+            "quantity": 3
+          },
+          {
+            "itemId": "advanced_mechanical_components",
+            "quantity": 5
+          },
+          {
+            "itemId": "sentinel_firing_core",
             "quantity": 4
           }
         ]
