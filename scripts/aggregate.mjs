@@ -35,18 +35,32 @@ async function readJsonDir(dir) {
   const entries = await readdir(dirPath);
   const files = entries
     .filter((f) => f.toLowerCase().endsWith(".json"))
-    .filter((f) => f.toLowerCase() !== "all.json")
+    // Exclude any previously aggregated files: all.json, all_#.json
+    .filter((f) => !/^all(_\d+)?\.json$/i.test(f))
     .sort((a, b) => a.localeCompare(b, "en"));
   const out = [];
+  const debugInfo = [];
   for (const f of files) {
     const p = path.join(dirPath, f);
     try {
       const raw = await readFile(p, "utf8");
       const json = JSON.parse(raw);
-      if (json && typeof json === "object") out.push(json);
+      if (json && typeof json === "object") {
+        out.push(json);
+        if (Array.isArray(json)) {
+          debugInfo.push({ file: f, type: "array", length: json.length });
+        } else {
+          debugInfo.push({ file: f, type: typeof json });
+        }
+      }
     } catch (e) {
       console.warn(`[aggregate] Skip invalid JSON: ${dir}/${f}`, e.message);
     }
+  }
+  console.log(`[aggregate] readJsonDir(${dir}) files=${files.length} objects=${out.length}`);
+  if (debugInfo.length) {
+    console.log(`[aggregate] detail ${dir}:`, debugInfo.slice(0, 10));
+    if (debugInfo.length > 10) console.log(`[aggregate] ... ${debugInfo.length - 10} more entries`);
   }
   return out;
 }
@@ -105,6 +119,7 @@ async function writeChunkedAll(dir, values) {
   const n = values.length;
   const full = Math.floor(n / MAX_ITEMS_PER_FILE);
   const rest = n % MAX_ITEMS_PER_FILE;
+  console.log(`[aggregate] chunking ${dir}: total=${n} fullChunks=${full} rest=${rest}`);
 
   for (let i = 0; i < full; i++) {
     const start = i * MAX_ITEMS_PER_FILE;
@@ -132,6 +147,7 @@ async function writeChunkedAll(dir, values) {
     await writeJson(path.join(dir, chunkName), chunkArrays[i]);
     chunkFiles.push(chunkName);
   }
+  console.log(`[aggregate] wrote ${dir} chunks:`, chunkArrays.map((c) => c.length));
 
   if (chunkArrays.length === 1) {
     // Backward compatible: write all.json with the single chunk's array
