@@ -11,7 +11,7 @@ import path from "node:path";
 const ROOT = process.cwd();
 const VERSION = process.env.GITHUB_SHA || null;
 const MAX_CHUNK_BYTES = Number.parseInt(
-  process.env.AGGREGATE_MAX_CHUNK_BYTES || "1800000",
+  process.env.AGGREGATE_MAX_CHUNK_BYTES || "1000000",
   10
 ); // ~1.8MB default
 
