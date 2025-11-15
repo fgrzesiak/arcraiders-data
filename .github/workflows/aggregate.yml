@@ -3,7 +3,7 @@ name: Aggregate data
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, test]
     paths:
       - "items/**"
       - "quests/**"
@@ -11,7 +11,7 @@ on:
       - ".github/workflows/aggregate.yml"
       - "scripts/aggregate.mjs"
   pull_request:
-    branches: [main]
+    branches: [main, test]
     paths:
       - "items/**"
       - "quests/**"
