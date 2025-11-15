@@ -10,10 +10,15 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const VERSION = process.env.GITHUB_SHA || null;
-const MAX_CHUNK_BYTES = Number.parseInt(
-  process.env.AGGREGATE_MAX_CHUNK_BYTES || "1000000",
+// Count-based chunking configuration
+const MAX_ITEMS_PER_FILE = Number.parseInt(
+  process.env.AGGREGATE_MAX_ITEMS_PER_FILE || "100",
   10
-); // ~1.8MB default
+); // Hard limit per file
+const MIN_ITEMS_PER_FILE = Number.parseInt(
+  process.env.AGGREGATE_MIN_ITEMS_PER_FILE || "10",
+  10
+); // Minimum for last file; rest gets merged into previous
 
 /**
  * Read all direct child JSON files of a directory, excluding all.json (if present).
@@ -76,9 +81,12 @@ async function cleanAllFiles(dir) {
 
 /**
  * Write an array into chunked JSON files inside a directory.
+ * Count-based policy:
+ *  - Max per file = MAX_ITEMS_PER_FILE (default 100)
+ *  - Last file must have >= MIN_ITEMS_PER_FILE (default 10), otherwise leftover is merged into previous file
  * Produces all_1.json, all_2.json, ... and handles an all.json helper.
  * - If only one chunk: write all.json as the array (backward compatible)
- * - If multiple chunks: write all.json as a small manifest { chunks, count, version?, maxChunkBytes }
+ * - If multiple chunks: write all.json as a small manifest { chunks, count, policy, version? }
  * Returns list of chunk file names written.
  */
 async function writeChunkedAll(dir, values) {
@@ -94,32 +102,29 @@ async function writeChunkedAll(dir, values) {
   }
 
   const chunkArrays = [];
-  let current = [];
+  const n = values.length;
+  const full = Math.floor(n / MAX_ITEMS_PER_FILE);
+  const rest = n % MAX_ITEMS_PER_FILE;
 
-  const fitsWith = (arr, item) => {
-    try {
-      const s = JSON.stringify([...arr, item], null, 2) + "\n";
-      return Buffer.byteLength(s, "utf8") <= MAX_CHUNK_BYTES;
-    } catch {
-      return false;
-    }
-  };
+  for (let i = 0; i < full; i++) {
+    const start = i * MAX_ITEMS_PER_FILE;
+    const end = start + MAX_ITEMS_PER_FILE;
+    chunkArrays.push(values.slice(start, end));
+  }
 
-  for (const v of values) {
-    if (current.length === 0) {
-      current.push(v);
-      // Edge: single item larger than limit — allow it as a single-item chunk.
-      // We still proceed; consumers should handle rare oversize items.
-      continue;
-    }
-    if (fitsWith(current, v)) {
-      current.push(v);
+  if (rest > 0) {
+    if (rest >= MIN_ITEMS_PER_FILE || chunkArrays.length === 0) {
+      // Rest is acceptable as a separate chunk (or it's the only chunk)
+      chunkArrays.push(values.slice(full * MAX_ITEMS_PER_FILE));
     } else {
-      chunkArrays.push(current);
-      current = [v];
+      // Rest smaller than minimum: merge into previous chunk
+      const lastIdx = chunkArrays.length - 1;
+      const merged = chunkArrays[lastIdx].concat(
+        values.slice(full * MAX_ITEMS_PER_FILE)
+      );
+      chunkArrays[lastIdx] = merged; // may exceed MAX_ITEMS_PER_FILE (up to +MIN-1)
     }
   }
-  if (current.length) chunkArrays.push(current);
 
   const chunkFiles = [];
   for (let i = 0; i < chunkArrays.length; i++) {
@@ -136,7 +141,11 @@ async function writeChunkedAll(dir, values) {
     const manifest = {
       chunks: chunkFiles,
       count: values.length,
-      maxChunkBytes: MAX_CHUNK_BYTES,
+      policy: {
+        type: "count",
+        maxItemsPerFile: MAX_ITEMS_PER_FILE,
+        minItemsPerFile: MIN_ITEMS_PER_FILE,
+      },
       ...(VERSION ? { version: VERSION } : {}),
     };
     await writeJson(path.join(dir, "all.json"), manifest);
