@@ -57,10 +57,13 @@ async function readJsonDir(dir) {
       console.warn(`[aggregate] Skip invalid JSON: ${dir}/${f}`, e.message);
     }
   }
-  console.log(`[aggregate] readJsonDir(${dir}) files=${files.length} objects=${out.length}`);
+  console.log(
+    `[aggregate] readJsonDir(${dir}) files=${files.length} objects=${out.length}`
+  );
   if (debugInfo.length) {
     console.log(`[aggregate] detail ${dir}:`, debugInfo.slice(0, 10));
-    if (debugInfo.length > 10) console.log(`[aggregate] ... ${debugInfo.length - 10} more entries`);
+    if (debugInfo.length > 10)
+      console.log(`[aggregate] ... ${debugInfo.length - 10} more entries`);
   }
   return out;
 }
@@ -119,7 +122,9 @@ async function writeChunkedAll(dir, values) {
   const n = values.length;
   const full = Math.floor(n / MAX_ITEMS_PER_FILE);
   const rest = n % MAX_ITEMS_PER_FILE;
-  console.log(`[aggregate] chunking ${dir}: total=${n} fullChunks=${full} rest=${rest}`);
+  console.log(
+    `[aggregate] chunking ${dir}: total=${n} fullChunks=${full} rest=${rest}`
+  );
 
   for (let i = 0; i < full; i++) {
     const start = i * MAX_ITEMS_PER_FILE;
@@ -147,7 +152,10 @@ async function writeChunkedAll(dir, values) {
     await writeJson(path.join(dir, chunkName), chunkArrays[i]);
     chunkFiles.push(chunkName);
   }
-  console.log(`[aggregate] wrote ${dir} chunks:`, chunkArrays.map((c) => c.length));
+  console.log(
+    `[aggregate] wrote ${dir} chunks:`,
+    chunkArrays.map((c) => c.length)
+  );
 
   if (chunkArrays.length === 1) {
     // Backward compatible: write all.json with the single chunk's array
