@@ -1,0 +1,1567 @@
+[
+  {
+    "id": "ss7",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "The Right Tool",
+      "de": "Das richtige Werkzeug",
+      "fr": "Le bon outil",
+      "es": "La herramienta adecuada",
+      "pt": "A ferramenta certa",
+      "pl": "Właściwe narzędzie",
+      "no": "Det rette verktøyet",
+      "da": "Det rigtige værktøj",
+      "it": "Lo strumento giusto",
+      "uk": "Правильний інструмент",
+      "kr": "적절한 도구",
+      "ru": "Правильный инструмент",
+      "zh-CN": "正确的工具",
+      "ja": "適切な道具",
+      "tr": "Doğru Araç",
+      "zh-TW": "正確的工具",
+      "sr": "Pravi Alat",
+      "hr": "Pravi Alat"
+    },
+    "trader": "Tian Wen",
+    "objectives": [
+      {
+        "en": "Destroy a Fireball",
+        "de": "Zerstöre einen Feuerball",
+        "fr": "Détruisez un Fireball",
+        "es": "Destruye un Fireball",
+        "pt": "Destrua um Fireball",
+        "pl": "Zniszcz Fireball",
+        "no": "Ødelegg en Fireball",
+        "da": "Ødelæg en Fireball",
+        "it": "Distruggi un Fireball",
+        "uk": "Знищте Вогняну кулю",
+        "kr": "파이어볼 파괴",
+        "ru": "Уничтожьте Огненный шар",
+        "zh-CN": "摧毁火球",
+        "ja": "ファイアボールを破壊する",
+        "tr": "Bir Fireball'u yok et",
+        "zh-TW": "摧毀火球",
+        "sr": "Uništite Vatrenu Kuglu",
+        "hr": "Uništite Vatrenu Kuglu"
+      },
+      {
+        "en": "Destroy a Hornet",
+        "de": "Zerstöre eine Hornisse",
+        "fr": "Détruisez un Hornet",
+        "es": "Destruye un Hornet",
+        "pt": "Destrua um Hornet",
+        "pl": "Zniszcz Hornet",
+        "no": "Ødelegg en Hornet",
+        "da": "Ødelæg en Hornet",
+        "it": "Distruggi un Hornet",
+        "uk": "Знищте Шершня",
+        "kr": "호넷 파괴",
+        "ru": "Уничтожьте Шершня",
+        "zh-CN": "摧毁大黄蜂",
+        "ja": "ホーネットを破壊する",
+        "tr": "Bir Hornet'i yok et",
+        "zh-TW": "摧毀大黃蜂",
+        "sr": "Uništite Stršljena",
+        "hr": "Uništite Stršljena"
+      },
+      {
+        "en": "Destroy a Turret",
+        "de": "Zerstöre einen Geschützturm",
+        "fr": "Détruisez une tourelle",
+        "es": "Destruye una torreta",
+        "pt": "Destrua uma torreta",
+        "pl": "Zniszcz wieżyczkę",
+        "no": "Ødelegg et tårn",
+        "da": "Ødelæg et tårn",
+        "it": "Distruggi una torretta",
+        "uk": "Знищте турель",
+        "kr": "포탑 파괴",
+        "ru": "Уничтожьте турель",
+        "zh-CN": "摧毁炮塔",
+        "ja": "タレットを破壊する",
+        "tr": "Bir Taret'i yok et",
+        "zh-TW": "摧毀砲塔",
+        "sr": "Uništite Kupolu",
+        "hr": "Uništite Kupolu"
+      }
+    ],
+    "grantedItemIds": [
+      {
+        "itemId": "ferro_iv",
+        "quantity": 1
+      },
+      {
+        "itemId": "heavy_ammo",
+        "quantity": 20
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "stitcher_ii",
+        "quantity": 1
+      },
+      {
+        "itemId": "extended_light_mag_i",
+        "quantity": 1
+      },
+      {
+        "itemId": "cheer_emote",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss5"
+    ],
+    "nextQuestIds": [
+      "ss10"
+    ]
+  },
+  {
+    "id": "ss10x3",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "The Root of the Matter",
+      "de": "Der Kern der Sache",
+      "fr": "Le cœur du problème",
+      "es": "La raíz del asunto",
+      "pt": "A raiz da questão",
+      "pl": "Sedno sprawy",
+      "no": "Roten til problemet",
+      "da": "Sagens kerne",
+      "it": "La radice del problema",
+      "zh-TW": "問題的根源",
+      "kr": "문제의 근원",
+      "hr": "Korijen problema",
+      "uk": "Корінь проблеми",
+      "ru": "Корень проблемы",
+      "tr": "Meselenin Özü",
+      "ja": "問題の根源",
+      "zh-CN": "问题的根源",
+      "sr": "Корен проблема"
+    },
+    "trader": "Celeste",
+    "description": {
+      "en": "We're in luck. The notes you found last time were written by the lead researcher. When the project went under, it seems she took some of the seed samples and sealed them away in a secure location.",
+      "de": "Wir haben Glück. Die Notizen, die du letztes Mal gefunden hast, wurden von der leitenden Forscherin geschrieben. Als das Projekt scheiterte, scheint sie einige der Samenproben genommen und an einem sicheren Ort versiegelt zu haben.",
+      "fr": "Nous avons de la chance. Les notes que tu as trouvées la dernière fois ont été écrites par la chercheuse principale. Quand le projet a coulé, il semble qu'elle ait pris certains des échantillons de graines et les ait scellés dans un endroit sûr.",
+      "es": "Tenemos suerte. Las notas que encontraste la última vez fueron escritas por la investigadora principal. Cuando el proyecto se hundió, parece que tomó algunas de las muestras de semillas y las selló en un lugar seguro.",
+      "pt": "Temos sorte. As notas que encontraste da última vez foram escritas pela investigadora principal. Quando o projeto foi abaixo, parece que ela levou algumas das amostras de sementes e selou-as num local seguro.",
+      "pl": "Mamy szczęście. Notatki, które znalazłeś ostatnim razem, zostały napisane przez główną badaczkę. Kiedy projekt upadł, wygląda na to, że zabrała część próbek nasion i zapieczętowała je w bezpiecznym miejscu.",
+      "no": "Vi har flaks. Notatene du fant sist gang ble skrevet av hovedforskeren. Da prosjektet gikk under, ser det ut til at hun tok noen av frøprøvene og forseglet dem på et sikkert sted.",
+      "da": "Vi er heldige. Noterne du fandt sidst blev skrevet af hovedforskeren. Da projektet gik under, ser det ud til, at hun tog nogle af frøprøverne og forseglede dem på et sikkert sted.",
+      "it": "Siamo fortunati. Le note che hai trovato l'ultima volta sono state scritte dalla ricercatrice principale. Quando il progetto è andato a rotoli, sembra che abbia preso alcuni campioni di semi e li abbia sigillati in un luogo sicuro.",
+      "zh-TW": "我們很幸運。你上次找到的筆記是首席研究員寫的。當專案終止時，她似乎帶走了一些種子樣本，並將它們封存在一個安全的地方。",
+      "kr": "운이 좋군요. 지난번에 찾은 메모는 수석 연구원이 작성한 것입니다. 프로젝트가 중단되었을 때, 그녀는 일부 종자 샘플을 가져가 안전한 장소에 봉인한 것 같습니다.",
+      "hr": "Imamo sreće. Bilješke koje ste pronašli prošli put napisala je glavna istraživačica. Kada je projekt propao, čini se da je uzela neke uzorke sjemena i zapečatila ih na sigurnom mjestu.",
+      "uk": "Нам пощастило. Записи, які ви знайшли минулого разу, були написані головним дослідником. Коли проект закрили, схоже, вона взяла деякі зразки насіння і запечатала їх у безпечному місці.",
+      "ru": "Нам повезло. Записи, которые вы нашли в прошлый раз, были написаны главным исследователем. Когда проект закрыли, похоже, она взяла несколько образцов семян и запечатала их в безопасном месте.",
+      "tr": "Şanslıyız. Geçen sefer bulduğunuz notlar baş araştırmacı tarafından yazılmış. Proje iptal edildiğinde, tohum örneklerinden bazılarını alıp güvenli bir yere mühürlemiş gibi görünüyor.",
+      "ja": "運が良かった。前回見つけたメモは主任研究員が書いたものだ。プロジェクトが中止になったとき、彼女は種子サンプルのいくつかを持ち出し、安全な場所に封印したようだ。",
+      "zh-CN": "我们很幸运。你上次找到的笔记是首席研究员写的。当项目终止时，她似乎带走了一些种子样本，并将它们封存在一个安全的地方。",
+      "sr": "Имамо среће. Белешке које сте пронашли прошли put написала је главна истраживачица. Када је пројекат пропао, изгледа да је узела неке узорке семена и запечатила их на сигурном месту."
+    },
+    "objectives": [
+      {
+        "en": "Go to the Research Building",
+        "de": "Gehe zum Forschungsgebäude",
+        "fr": "Aller au Bâtiment de Recherche",
+        "es": "Ve al Edificio de Investigación",
+        "pt": "Vai ao Edifício de Investigação",
+        "pl": "Udaj się do Budynku Badawczego",
+        "no": "Gå til Forskningsbygningen",
+        "da": "Gå til Forskningsbygningen",
+        "it": "Vai all'Edificio di Ricerca",
+        "zh-TW": "前往研究大樓",
+        "kr": "연구동으로 가기",
+        "hr": "Idite do Istraživačke zgrade",
+        "uk": "Йдіть до Дослідницької будівлі",
+        "ru": "Отправляйтесь в Исследовательское здание",
+        "tr": "Araştırma Binasına git",
+        "ja": "研究棟に向かう",
+        "zh-CN": "前往研究大楼",
+        "sr": "Идите до Истраживачке зграде"
+      },
+      {
+        "en": "Search for the seed vault in the \"room with a great view\"",
+        "de": "Suche nach dem Saatguttresor im \"Raum mit toller Aussicht\"",
+        "fr": "Chercher la chambre forte des graines dans la \"pièce avec une belle vue\"",
+        "es": "Busca la bóveda de semillas en la \"habitación con una gran vista\"",
+        "pt": "Procura o cofre de sementes na \"sala com uma ótima vista\"",
+        "pl": "Poszukaj skarbca nasion w \"pokoju ze wspaniałym widokiem\"",
+        "no": "Søk etter frøhvelvet i \"rommet med flott utsikt\"",
+        "da": "Søg efter frøhvælvingen i \"rummet med en fantastisk udsigt\"",
+        "it": "Cerca il caveau dei semi nella \"stanza con una bella vista\"",
+        "zh-TW": "在「景觀絕佳的房間」中尋找種子庫",
+        "kr": "\"멋진 전망이 있는 방\"에서 종자 보관소 찾기",
+        "hr": "Potražite trezor sa sjemenom u \"sobi s prekrasnim pogledom\"",
+        "uk": "Шукайте сховище насіння в \"кімнаті з чудовим виглядом\"",
+        "ru": "Ищите хранилище семян в \"комнате с прекрасным видом\"",
+        "tr": "\"Harika manzaralı odada\" tohum kasasını ara",
+        "ja": "「素晴らしい景色の部屋」で種子保管庫を探す",
+        "zh-CN": "在「景观绝佳的房间」中寻找种子库",
+        "sr": "Потражите трезор са семеном у \"соби са прелепим погледом\""
+      },
+      {
+        "en": "Deliver the Experimental Seed Sample to Celeste",
+        "de": "Liefere die experimentelle Samenprobe an Celeste",
+        "fr": "Livre l'échantillon de graines expérimental à Celeste",
+        "es": "Entrega la muestra de semillas experimental a Celeste",
+        "pt": "Entrega a amostra de sementes experimental a Celeste",
+        "pl": "Dostarcz eksperymentalną próbkę nasion do Celeste",
+        "no": "Lever den eksperimentelle frøprøven til Celeste",
+        "da": "Lever den eksperimentelle frøprøve til Celeste",
+        "it": "Consegna il campione di semi sperimentale a Celeste",
+        "zh-TW": "將實驗種子樣本交給塞萊斯特",
+        "kr": "실험용 종자 샘플을 셀레스트에게 전달하세요",
+        "hr": "Dostavite eksperimentalni uzorak sjemena Celeste",
+        "uk": "Доставте експериментальний зразок насіння Селесті",
+        "ru": "Доставьте экспериментальный образец семян Селесте",
+        "tr": "Deneysel Tohum Örneğini Celeste'e teslim et",
+        "ja": "実験用種子サンプルをセレステに届ける",
+        "zh-CN": "将实验种子样本交给塞莱斯特",
+        "sr": "Доставите експериментални узорак семена Celeste"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "succulent",
+        "quantity": 1
+      },
+      {
+        "itemId": "coins",
+        "quantity": 1000
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10x2"
+    ],
+    "nextQuestIds": [
+      "ss10x4"
+    ]
+  },
+  {
+    "id": "ss9",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "The Trifecta",
+      "de": "Die Trifecta",
+      "fr": "Le Trifecta",
+      "es": "La Trifecta",
+      "pt": "A Trifecta",
+      "pl": "Trifecta",
+      "no": "Trifecta",
+      "da": "Trifecta",
+      "it": "La Trifecta",
+      "uk": "Трифекта",
+      "kr": "삼관왕",
+      "ru": "Трифекта",
+      "zh-CN": "三连胜",
+      "ja": "三連勝",
+      "tr": "Üçlü Zafer",
+      "zh-TW": "三連勝",
+      "sr": "Trifekta",
+      "hr": "Trifekta"
+    },
+    "trader": "Shani",
+    "description": {
+      "en": "Intel's all well and good, but it only gets us so far. If ARC's truly closing in, I need every Raider to prove they can handle their drones in a fight.",
+      "de": "Informationen sind ja schön und gut, aber sie bringen uns nur bis zu einem gewissen Punkt. Wenn ARC wirklich näher kommt, muss jeder Raider beweisen, dass er ihre Drohnen im Kampf bewältigen kann.",
+      "fr": "Les renseignements c'est bien beau, mais ça ne nous mène que jusqu'à un certain point. Si ARC se rapproche vraiment, j'ai besoin que chaque Raider prouve qu'il peut gérer leurs drones au combat.",
+      "es": "La información está muy bien, pero solo nos lleva hasta cierto punto. Si ARC realmente se está acercando, necesito que cada Raider demuestre que puede manejar sus drones en combate.",
+      "pt": "Inteligência é bom e tudo mais, mas só nos leva até certo ponto. Se a ARC está realmente se aproximando, preciso que cada Raider prove que pode lidar com seus drones numa luta.",
+      "pl": "Wywiad to wszystko fajnie, ale zaprowadzi nas tylko do pewnego momentu. Jeśli ARC naprawdę się zbliża, potrzebuję, żeby każdy Raider udowodnił, że potrafi poradzić sobie z ich dronami w walce.",
+      "no": "Etterretning er bra og vel det, men det tar oss bare så langt. Hvis ARC virkelig nærmer seg, trenger jeg at hver Raider beviser at de kan håndtere dronene deres i kamp.",
+      "da": "Efterretninger er fint nok, men det bringer os kun så langt. Hvis ARC virkelig nærmer sig, har jeg brug for, at hver Raider beviser, at de kan håndtere deres droner i kamp.",
+      "it": "Le informazioni vanno bene, ma ci portano solo fino a un certo punto. Se ARC si sta davvero avvicinando, ho bisogno che ogni Raider dimostri di saper gestire i loro droni in combattimento.",
+      "uk": "Розвідка — це добре, але вона допомагає лише до певної міри. Якщо ARC справді наближається, мені потрібно, щоб кожен Рейдер довів, що може впоратися з їхніми дронами в бою.",
+      "kr": "정보는 좋지만, 그것만으로는 한계가 있어. ARC가 정말로 접근하고 있다면, 모든 레이더가 전투에서 드론을 처리할 수 있다는 걸 증명해야 해.",
+      "ru": "Разведка — это хорошо, но она помогает лишь до определённой степени. Если ARC действительно приближается, мне нужно, чтобы каждый Рейдер доказал, что может справиться с их дронами в бою.",
+      "zh-CN": "情报固然很好，但只能帮我们到这里。如果ARC真的逼近了，我需要每个掠夺者证明他们能在战斗中对付那些无人机。",
+      "ja": "情報は重要だが、それだけでは限界がある。ARCが本当に迫っているなら、すべてのレイダーが戦闘でドローンを処理できることを証明する必要がある。",
+      "tr": "İstihbarat iyi güzel ama bizi ancak buraya kadar getirir. Eğer ARC gerçekten yaklaşıyorsa, her Raider'ın bir çatışmada drone'larıyla başa çıkabileceğini kanıtlaması gerekiyor.",
+      "zh-TW": "情報固然很好，但只能幫我們到這裡。如果ARC真的逼近了，我需要每個掠奪者證明他們能在戰鬥中對付那些無人機。",
+      "sr": "Informacije su dobre i korisne, ali nas samo donekle dovode. Ako se ARC zaista približava, potrebno mi je da svaki Raider dokaže da može da se nosi sa njihovim dronovima u borbi.",
+      "hr": "Informacije su dobre i korisne, ali nas samo donekle dovode. Ako se ARC zaista približava, potrebno mi je da svaki Raider dokaže da se može nositi s njihovim dronovima u borbi."
+    },
+    "objectives": [
+      {
+        "en": "Destroy 2 Wasps",
+        "de": "Zerstöre 2 Wasps",
+        "fr": "Détruisez 2 Wasps",
+        "es": "Destruye 2 Wasps",
+        "pt": "Destrua 2 Wasps",
+        "pl": "Zniszcz 2 Waspy",
+        "no": "Ødelegg 2 Wasps",
+        "da": "Ødelæg 2 Wasps",
+        "it": "Distruggi 2 Wasp",
+        "uk": "Знищити 2 Wasp",
+        "kr": "Wasp 2대 파괴",
+        "ru": "Уничтожить 2 Wasp",
+        "zh-CN": "摧毁2个黄蜂",
+        "ja": "Waspを2機破壊する",
+        "tr": "2 Wasp yok et",
+        "zh-TW": "摧毀2個黃蜂",
+        "sr": "Uništi 2 Waspa",
+        "hr": "Uništi 2 Waspa"
+      },
+      {
+        "en": "Destroy 2 Hornets",
+        "de": "Zerstöre 2 Hornets",
+        "fr": "Détruisez 2 Hornets",
+        "es": "Destruye 2 Hornets",
+        "pt": "Destrua 2 Hornets",
+        "pl": "Zniszcz 2 Hornety",
+        "no": "Ødelegg 2 Hornets",
+        "da": "Ødelæg 2 Hornets",
+        "it": "Distruggi 2 Hornet",
+        "uk": "Знищити 2 Hornet",
+        "kr": "Hornet 2대 파괴",
+        "ru": "Уничтожить 2 Hornet",
+        "zh-CN": "摧毁2个大黄蜂",
+        "ja": "Hornetを2機破壊する",
+        "tr": "2 Hornet yok et",
+        "zh-TW": "摧毀2個大黃蜂",
+        "sr": "Uništi 2 Horneta",
+        "hr": "Uništi 2 Horneta"
+      },
+      {
+        "en": "Destroy 2 Snitches",
+        "de": "Zerstöre 2 Snitches",
+        "fr": "Détruisez 2 Snitches",
+        "es": "Destruye 2 Snitches",
+        "pt": "Destrua 2 Snitches",
+        "pl": "Zniszcz 2 Snitche",
+        "no": "Ødelegg 2 Snitches",
+        "da": "Ødelæg 2 Snitches",
+        "it": "Distruggi 2 Snitch",
+        "uk": "Знищити 2 Snitch",
+        "kr": "Snitch 2대 파괴",
+        "ru": "Уничтожить 2 Snitch",
+        "zh-CN": "摧毁2个告密者",
+        "ja": "Snitchを2機破壊する",
+        "tr": "2 Snitch yok et",
+        "zh-TW": "摧毀2個告密者",
+        "sr": "Uništi 2 Snitcha",
+        "hr": "Uništi 2 Snitcha"
+      },
+      {
+        "en": "Get 2 Snitch Scanner for Shani",
+        "de": "Besorge 2 Snitch-Scanner für Shani",
+        "fr": "Obtenez 2 Snitch Scanner pour Shani",
+        "es": "Consigue 2 Snitch Scanner para Shani",
+        "pt": "Consiga 2 Snitch Scanner para Shani",
+        "pl": "Zdobądź 2 Snitch Scannery dla Shani",
+        "no": "Skaff 2 Snitch Scanner til Shani",
+        "da": "Skaff 2 Snitch Scanner til Shani",
+        "it": "Ottieni 2 Snitch Scanner per Shani",
+        "uk": "Отримати 2 Snitch Scanner для Шані",
+        "kr": "Shani를 위한 Snitch Scanner 2개 획득",
+        "ru": "Получить 2 Snitch Scanner для Шани",
+        "zh-CN": "为莎妮获取2个告密者扫描仪",
+        "ja": "ShaniのためにSnitch Scannerを2個入手する",
+        "tr": "Shani için 2 Snitch Scanner al",
+        "zh-TW": "為莎妮獲取2個告密者掃描儀",
+        "sr": "Nabavi 2 Snitch Scannera za Shani",
+        "hr": "Nabavi 2 Snitch Scannera za Shani"
+      },
+      {
+        "en": "Get 2 Wasp Driver for Shani",
+        "de": "Besorge 2 Wasp-Treiber für Shani",
+        "fr": "Obtenez 2 Wasp Driver pour Shani",
+        "es": "Consigue 2 Wasp Driver para Shani",
+        "pt": "Consiga 2 Wasp Driver para Shani",
+        "pl": "Zdobądź 2 Wasp Drivery dla Shani",
+        "no": "Skaff 2 Wasp Driver til Shani",
+        "da": "Skaff 2 Wasp Driver til Shani",
+        "it": "Ottieni 2 Wasp Driver per Shani",
+        "uk": "Отримати 2 Wasp Driver для Шані",
+        "kr": "Shani를 위한 Wasp Driver 2개 획득",
+        "ru": "Получить 2 Wasp Driver для Шани",
+        "zh-CN": "为莎妮获取2个黄蜂驱动器",
+        "ja": "ShaniのためにWasp Driverを2個入手する",
+        "tr": "Shani için 2 Wasp Driver al",
+        "zh-TW": "為莎妮獲取2個黃蜂驅動器",
+        "sr": "Nabavi 2 Wasp Drivera za Shani",
+        "hr": "Nabavi 2 Wasp Drivera za Shani"
+      },
+      {
+        "en": "Get 2 Hornet Driver for Shani",
+        "de": "Besorge 2 Hornet-Treiber für Shani",
+        "fr": "Obtenez 2 Hornet Driver pour Shani",
+        "es": "Consigue 2 Hornet Driver para Shani",
+        "pt": "Consiga 2 Hornet Driver para Shani",
+        "pl": "Zdobądź 2 Hornet Drivery dla Shani",
+        "no": "Skaff 2 Hornet Driver til Shani",
+        "da": "Skaff 2 Hornet Driver til Shani",
+        "it": "Ottieni 2 Hornet Driver per Shani",
+        "uk": "Отримати 2 Hornet Driver для Шані",
+        "kr": "Shani를 위한 Hornet Driver 2개 획득",
+        "ru": "Получить 2 Hornet Driver для Шани",
+        "zh-CN": "为莎妮获取2个大黄蜂驱动器",
+        "ja": "ShaniのためにHornet Driverを2個入手する",
+        "tr": "Shani için 2 Hornet Driver al",
+        "zh-TW": "為莎妮獲取2個大黃蜂驅動器",
+        "sr": "Nabavi 2 Hornet Drivera za Shani",
+        "hr": "Nabavi 2 Hornet Drivera za Shani"
+      }
+    ],
+    "requiredItemIds": [
+      {
+        "itemId": "snitch_scanner",
+        "quantity": 2
+      },
+      {
+        "itemId": "wasp_driver",
+        "quantity": 2
+      },
+      {
+        "itemId": "hornet_driver",
+        "quantity": 2
+      }
+    ],
+    "grantedItemIds": [
+      {
+        "itemId": "remote_raider_flare",
+        "quantity": 3
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "raider_hatch_key",
+        "quantity": 1
+      },
+      {
+        "itemId": "defibrillator",
+        "quantity": 2
+      },
+      {
+        "itemId": "dam_control_tower_key",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss6"
+    ],
+    "nextQuestIds": [
+      "ss10b"
+    ]
+  },
+  {
+    "id": "ss3",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "Trash Into Treasure",
+      "de": "Müll zu Schätzen",
+      "fr": "Des déchets aux trésors",
+      "es": "Basura en tesoro",
+      "pt": "Lixo em tesouro",
+      "pl": "Ze śmieci w skarb",
+      "no": "Søppel til skatt",
+      "da": "Skrald til skat",
+      "it": "Da spazzatura a tesoro",
+      "uk": "Зі сміття у скарб",
+      "kr": "쓰레기를 보물로",
+      "ru": "Из мусора в сокровище",
+      "zh-CN": "变废为宝",
+      "ja": "ゴミを宝に",
+      "tr": "Çöpten Hazineye",
+      "zh-TW": "變廢為寶",
+      "sr": "Od Otpada do Blaga",
+      "hr": "Od Smeća do Blaga"
+    },
+    "trader": "Shani",
+    "objectives": [
+      {
+        "en": "Obtain 6 Wires",
+        "de": "Besorge 6 Drähte",
+        "fr": "Obtenez 6 fils",
+        "es": "Consigue 6 cables",
+        "pt": "Obtenha 6 fios",
+        "pl": "Zdobądź 6 przewodów",
+        "no": "Skaff 6 ledninger",
+        "da": "Skaff 6 ledninger",
+        "it": "Ottieni 6 fili",
+        "uk": "Отримайте 6 дротів",
+        "kr": "전선 6개를 획득하세요",
+        "ru": "Получите 6 проводов",
+        "zh-CN": "获取6根电线",
+        "ja": "ワイヤーを6つ入手する",
+        "tr": "6 Kablo edin",
+        "zh-TW": "獲取6根電線",
+        "sr": "Nabavite 6 žica",
+        "hr": "Nabavite 6 žica"
+      },
+      {
+        "en": "Obtain 1 Battery",
+        "de": "Besorge 1 Batterie",
+        "fr": "Obtenez 1 batterie",
+        "es": "Consigue 1 batería",
+        "pt": "Obtenha 1 bateria",
+        "pl": "Zdobądź 1 baterię",
+        "no": "Skaff 1 batteri",
+        "da": "Skaff 1 batteri",
+        "it": "Ottieni 1 batteria",
+        "uk": "Отримайте 1 батарею",
+        "kr": "배터리 1개를 획득하세요",
+        "ru": "Получите 1 батарею",
+        "zh-CN": "获取1个电池",
+        "ja": "バッテリーを1つ入手する",
+        "tr": "1 Pil edin",
+        "zh-TW": "獲取1個電池",
+        "sr": "Nabavite 1 bateriju",
+        "hr": "Nabavite 1 bateriju"
+      }
+    ],
+    "requiredItemIds": [
+      {
+        "itemId": "wires",
+        "quantity": 6
+      },
+      {
+        "itemId": "battery",
+        "quantity": 1
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "tactical_mk1",
+        "quantity": 1
+      },
+      {
+        "itemId": "adrenaline_shot",
+        "quantity": 3
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss1"
+    ],
+    "nextQuestIds": [
+      "ss4"
+    ]
+  },
+  {
+    "id": "ss10x15",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "Tribute to Toledo",
+      "de": "Tribut an Toledo",
+      "fr": "Tribut à Toledo",
+      "es": "Tributo a Toledo",
+      "pt": "Tributo a Toledo",
+      "pl": "Trybut dla Toledo",
+      "no": "Tribut til Toledo",
+      "da": "Tribut til Toledo",
+      "it": "Tributo a Toledo",
+      "uk": "Данина Толедо",
+      "kr": "톨레도에 바치는 공물",
+      "ru": "Дань Толедо",
+      "zh-CN": "托莱多的贡品",
+      "ja": "トレドへの貢ぎ物",
+      "tr": "Toledo'ya Haraç",
+      "zh-TW": "托萊多的貢品",
+      "sr": "Danak Toledu",
+      "hr": "Danak Toledu"
+    },
+    "trader": "Celeste",
+    "description": {
+      "en": "The Official Toledo Tubes Management is demanding one of our Power Rods for usage of \"their\" Slingshot tubes. Don't let the name fool you, they're in no way official; just thugs with lots of power. Could you help me with this?",
+      "de": "Die Official Toledo Tubes Management verlangt eine unserer Energiestäbe für die Nutzung \"ihrer\" Schleuderröhren. Lass dich vom Namen nicht täuschen, sie sind keineswegs offiziell; nur Schläger mit viel Macht. Könntest du mir dabei helfen?",
+      "fr": "L'Official Toledo Tubes Management exige l'une de nos Tiges d'Énergie pour l'utilisation de \"leurs\" tubes Slingshot. Ne vous laissez pas tromper par le nom, ils ne sont en aucun cas officiels ; juste des voyous avec beaucoup de pouvoir. Pourriez-vous m'aider avec ça ?",
+      "es": "La Gestión Oficial de Tubos de Toledo exige una de nuestras Barras de Energía para usar \"sus\" tubos Slingshot. No te dejes engañar por el nombre, no son oficiales en absoluto; solo matones con mucho poder. ¿Podrías ayudarme con esto?",
+      "pt": "A Gestão Oficial dos Tubos de Toledo está exigindo uma das nossas Hastes de Energia para uso dos tubos Slingshot \"deles\". Não se deixe enganar pelo nome, eles não são oficiais de forma alguma; apenas bandidos com muito poder. Você poderia me ajudar com isso?",
+      "pl": "Oficjalny Zarząd Rur Toledo żąda jednego z naszych Prętów Energetycznych za korzystanie z \"ich\" rur Slingshot. Nie daj się zwieść nazwie, w żaden sposób nie są oficjalni; to tylko bandyci z dużą władzą. Czy mógłbyś mi w tym pomóc?",
+      "no": "Official Toledo Tubes Management krever en av våre Kraftstaver for bruk av \"deres\" Slingshot-rør. Ikke la navnet lure deg, de er på ingen måte offisielle; bare kjeltringer med mye makt. Kan du hjelpe meg med dette?",
+      "da": "Official Toledo Tubes Management kræver en af vores Kraftstave for brug af \"deres\" Slingshot-rør. Lad dig ikke narre af navnet, de er på ingen måde officielle; bare bøller med masser af magt. Kan du hjælpe mig med dette?",
+      "it": "L'Official Toledo Tubes Management sta richiedendo una delle nostre Barre di Energia per l'utilizzo dei \"loro\" tubi Slingshot. Non lasciarti ingannare dal nome, non sono affatto ufficiali; solo teppisti con molto potere. Potresti aiutarmi con questo?",
+      "uk": "Офіційне управління труб Толедо вимагає один з наших енергетичних стрижнів за використання \"їхніх\" труб-рогаток. Не дайте назві себе обдурити, вони зовсім не офіційні; просто бандити з великою владою. Ви могли б мені з цим допомогти?",
+      "kr": "공식 톨레도 튜브 관리국이 \"그들의\" 슬링샷 튜브 사용료로 우리 파워 로드 하나를 요구하고 있어요. 이름에 속지 마세요, 그들은 전혀 공식적이지 않아요. 그냥 권력이 많은 깡패들이죠. 이 일 좀 도와주시겠어요?",
+      "ru": "Официальное управление труб Толедо требует один из наших энергетических стержней за использование \"их\" труб-рогаток. Не дайте названию себя обмануть, они совсем не официальные; просто бандиты с большой властью. Не могли бы вы мне с этим помочь?",
+      "zh-CN": "托莱多官方管道管理局要求我们交出一根能量棒，以换取使用\"他们的\"弹弓管道。别被名字骗了，他们根本不是什么官方机构；只是一群有权势的暴徒。你能帮我处理这件事吗？",
+      "ja": "トレド公式チューブ管理局が「彼らの」スリングショットチューブの使用料として、我々のパワーロッドの1本を要求している。名前に騙されるな、彼らは決して公式ではない。ただの権力を持った悪党だ。この件を手伝ってくれないか？",
+      "tr": "Resmi Toledo Tüp Yönetimi, \"onların\" Sapan tüplerini kullanmak için Güç Çubuklarımızdan birini talep ediyor. İsim sizi yanıltmasın, hiçbir şekilde resmi değiller; sadece çok güce sahip haydutlar. Bu konuda bana yardım edebilir misin?",
+      "zh-TW": "托萊多官方管道管理局要求我們交出一根能量棒，以換取使用\"他們的\"彈弓管道。別被名字騙了，他們根本不是什麼官方機構；只是一群有權勢的暴徒。你能幫我處理這件事嗎？",
+      "sr": "Zvanična Toledo Tubes uprava zahteva jedan od naših Power Rod-ova za korišćenje \"njihovih\" Slingshot cevi. Nemoj da te ime zavara, oni ni na koji način nisu zvanični; samo nasilnici sa puno moći. Možeš li mi pomoći oko ovoga?",
+      "hr": "Službeni Toledo Tubes Management zahtijeva jedan od naših Power Rod-ova za korištenje \"njihovih\" Slingshot cijevi. Nemoj da te ime zavara, oni ni na koji način nisu službeni; samo nasilnici s puno moći. Možeš li mi pomoći oko ovoga?"
+    },
+    "objectives": [
+      {
+        "en": "Get a Power Rod for Celeste",
+        "de": "Besorge einen Energiestab für Celeste",
+        "fr": "Obtenez une Tige d'Énergie pour Celeste",
+        "es": "Consigue una Barra de Energía para Celeste",
+        "pt": "Consiga uma Haste de Energia para Celeste",
+        "pl": "Zdobądź Pręt Energetyczny dla Celeste",
+        "no": "Skaff en Kraftstav til Celeste",
+        "da": "Skaff en Kraftstav til Celeste",
+        "it": "Procura una Barra di Energia per Celeste",
+        "uk": "Дістаньте енергетичний стрижень для Селесті",
+        "kr": "셀레스트를 위한 파워 로드를 구하세요",
+        "ru": "Достаньте энергетический стержень для Селесты",
+        "zh-CN": "为塞莱斯特获取一根能量棒",
+        "ja": "セレステのためにパワーロッドを手に入れる",
+        "tr": "Celeste için bir Güç Çubuğu al",
+        "zh-TW": "為塞萊斯特獲取一根能量棒",
+        "sr": "Nabavi Power Rod za Celeste",
+        "hr": "Nabavi Power Rod za Celeste"
+      }
+    ],
+    "requiredItemIds": [
+      {
+        "itemId": "power_rod",
+        "quantity": 1
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "magnet",
+        "quantity": 5
+      },
+      {
+        "itemId": "advanced_mechanical_components",
+        "quantity": 2
+      },
+      {
+        "itemId": "synthesized_fuel",
+        "quantity": 3
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10x14"
+    ],
+    "nextQuestIds": [
+      "ss10x16"
+    ]
+  },
+  {
+    "id": "ss10x17",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "Turnabout",
+      "de": "Umschwung",
+      "fr": "Retournement",
+      "es": "Cambio de tornas",
+      "pt": "Reviravolta",
+      "pl": "Odwrócenie sytuacji",
+      "no": "Snuoperasjon",
+      "da": "Vendepunkt",
+      "it": "Capovolgimento",
+      "uk": "Переворот",
+      "kr": "역전",
+      "ru": "Переворот",
+      "zh-CN": "逆转",
+      "ja": "逆転",
+      "tr": "Tersine Çevirme",
+      "zh-TW": "逆轉",
+      "sr": "Preokret",
+      "hr": "Preokret"
+    },
+    "trader": "Celeste",
+    "description": {
+      "en": "I got a plan. If we recover the evidence against the OTTM before they get to it, we might get them off our backs once and for all.",
+      "de": "Ich habe einen Plan. Wenn wir die Beweise gegen die OTTM bergen, bevor sie sie bekommen, könnten wir sie ein für alle Mal loswerden.",
+      "fr": "J'ai un plan. Si nous récupérons les preuves contre l'OTTM avant qu'ils ne les obtiennent, nous pourrions nous en débarrasser une fois pour toutes.",
+      "es": "Tengo un plan. Si recuperamos las pruebas contra la OTTM antes de que ellos las consigan, podríamos quitárnoslos de encima de una vez por todas.",
+      "pt": "Tenho um plano. Se recuperarmos as evidências contra a OTTM antes que eles as peguem, podemos nos livrar deles de uma vez por todas.",
+      "pl": "Mam plan. Jeśli odzyskamy dowody przeciwko OTTM zanim oni do nich dotrą, możemy pozbyć się ich raz na zawsze.",
+      "no": "Jeg har en plan. Hvis vi henter bevisene mot OTTM før de får tak i dem, kan vi kanskje bli kvitt dem en gang for alle.",
+      "da": "Jeg har en plan. Hvis vi genvinder beviserne mod OTTM før de får fat i dem, kan vi måske slippe af med dem en gang for alle.",
+      "it": "Ho un piano. Se recuperiamo le prove contro l'OTTM prima che ci arrivino loro, potremmo toglierceli di dosso una volta per tutte.",
+      "uk": "У мене є план. Якщо ми знайдемо докази проти OTTM раніше, ніж вони до них доберуться, ми зможемо позбутися їх раз і назавжди.",
+      "kr": "계획이 있어. OTTM이 증거를 손에 넣기 전에 우리가 먼저 회수하면, 그들을 영원히 따돌릴 수 있을 거야.",
+      "ru": "У меня есть план. Если мы найдём улики против OTTM раньше, чем они доберутся до них, мы сможем избавиться от них раз и навсегда.",
+      "zh-CN": "我有个计划。如果我们能在OTTM之前找到对他们不利的证据，我们就能彻底摆脱他们。",
+      "ja": "計画がある。OTTMが証拠を手に入れる前に回収できれば、奴らを完全に追い払えるかもしれない。",
+      "tr": "Bir planım var. OTTM'ye karşı kanıtları onlar ele geçirmeden önce kurtarırsak, onları sonsuza kadar başımızdan atabiliriz.",
+      "zh-TW": "我有個計畫。如果我們能在OTTM之前找到對他們不利的證據，我們就能徹底擺脫他們。",
+      "sr": "Imam plan. Ako povratimo dokaze protiv OTTM-a pre nego što oni dođu do njih, možda ćemo ih se rešiti jednom zauvek.",
+      "hr": "Imam plan. Ako povratimo dokaze protiv OTTM-a prije nego što oni dođu do njih, možda ćemo ih se riješiti jednom zauvijek."
+    },
+    "objectives": [
+      {
+        "en": "Go to the North Trench Tower",
+        "de": "Gehe zum Nordgraben-Turm",
+        "fr": "Allez à la Tour de la Tranchée Nord",
+        "es": "Ve a la Torre de la Trinchera Norte",
+        "pt": "Vá para a Torre da Trincheira Norte",
+        "pl": "Idź do Wieży Północnego Rowu",
+        "no": "Gå til Nord-skyttergravstårnet",
+        "da": "Gå til Nordlige Skyttegravstårn",
+        "it": "Vai alla Torre della Trincea Nord",
+        "uk": "Йдіть до Північної Траншейної Вежі",
+        "kr": "북쪽 참호 타워로 가기",
+        "ru": "Отправляйтесь к Северной Траншейной Башне",
+        "zh-CN": "前往北方战壕塔",
+        "ja": "北トレンチタワーへ向かう",
+        "tr": "Kuzey Siper Kulesi'ne git",
+        "zh-TW": "前往北方戰壕塔",
+        "sr": "Idi do Severne kule rova",
+        "hr": "Idi do Sjeverne kule rova"
+      },
+      {
+        "en": "Locate and upload the blackmail files to Celeste",
+        "de": "Finde und lade die Erpressungsdateien zu Celeste hoch",
+        "fr": "Localisez et téléchargez les fichiers de chantage à Celeste",
+        "es": "Localiza y sube los archivos de chantaje a Celeste",
+        "pt": "Localize e envie os arquivos de chantagem para Celeste",
+        "pl": "Zlokalizuj i prześlij pliki szantażu do Celeste",
+        "no": "Finn og last opp utpressingsfilene til Celeste",
+        "da": "Find og upload afpresningsfilerne til Celeste",
+        "it": "Localizza e carica i file di ricatto a Celeste",
+        "uk": "Знайдіть і завантажте файли шантажу до Селесті",
+        "kr": "협박 파일을 찾아 셀레스트에 업로드하기",
+        "ru": "Найдите и загрузите файлы шантажа Селесте",
+        "zh-CN": "找到勒索文件并上传给塞莱斯特",
+        "ja": "脅迫ファイルを見つけてセレステにアップロードする",
+        "tr": "Şantaj dosyalarını bul ve Celeste'e yükle",
+        "zh-TW": "找到勒索檔案並上傳給賽蕾絲特",
+        "sr": "Pronađi i otpremi datoteke ucene Celeste",
+        "hr": "Pronađi i otpremi datoteke ucjene Celeste"
+      }
+    ],
+    "grantedItemIds": [
+      {
+        "itemId": "spaceport_trench_tower_key",
+        "quantity": 1
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "heavy_gun_parts",
+        "quantity": 2
+      },
+      {
+        "itemId": "medium_gun_parts",
+        "quantity": 2
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10x16"
+    ],
+    "nextQuestIds": []
+  },
+  {
+    "id": "ss10q",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "Unexpected Initiative",
+      "de": "Unerwartete Initiative",
+      "fr": "Initiative inattendue",
+      "es": "Iniciativa inesperada",
+      "pt": "Iniciativa Inesperada",
+      "pl": "Nieoczekiwana inicjatywa",
+      "no": "Uventet initiativ",
+      "da": "Uventet initiativ",
+      "it": "Iniziativa inaspettata",
+      "uk": "Несподівана Ініціатива",
+      "kr": "예상치 못한 주도권",
+      "ru": "Неожиданная Инициатива",
+      "zh-CN": "意外的主动",
+      "ja": "予期せぬイニシアチブ",
+      "tr": "Beklenmedik Girişim",
+      "zh-TW": "意外的主動",
+      "sr": "Neočekivana inicijativa",
+      "hr": "Neočekivana inicijativa"
+    },
+    "trader": "Tian Wen",
+    "description": {
+      "en": "I'm setting up a greenhouse, to help boost our food production. I'm doing Celeste a solid, alright? That's all. But enough about that. I've got all the details worked out, but I'll need supplies, and I'm not hauling them alone.",
+      "de": "Ich richte ein Gewächshaus ein, um unsere Nahrungsproduktion anzukurbeln. Ich tue Celeste einen Gefallen, okay? Das ist alles. Aber genug davon. Ich habe alle Details ausgearbeitet, aber ich brauche Vorräte, und ich werde sie nicht alleine schleppen.",
+      "fr": "Je mets en place une serre pour augmenter notre production alimentaire. Je rends service à Celeste, d'accord ? C'est tout. Mais assez parlé de ça. J'ai tous les détails réglés, mais j'aurai besoin de fournitures, et je ne vais pas les transporter seul.",
+      "es": "Estoy montando un invernadero para aumentar nuestra producción de alimentos. Le estoy haciendo un favor a Celeste, ¿vale? Eso es todo. Pero basta de eso. Tengo todos los detalles resueltos, pero necesitaré suministros, y no los voy a transportar solo.",
+      "pt": "Estou a montar uma estufa para ajudar a aumentar a nossa produção de alimentos. Estou a fazer um favor à Celeste, está bem? É só isso. Mas chega disso. Tenho todos os detalhes resolvidos, mas vou precisar de suprimentos, e não os vou transportar sozinho.",
+      "pl": "Buduję szklarnię, żeby zwiększyć naszą produkcję żywności. Wyświadczam Celeste przysługę, jasne? To wszystko. Ale dość o tym. Mam wszystkie szczegóły dopracowane, ale będę potrzebował zapasów i nie zamierzam ich sam dźwigać.",
+      "no": "Jeg setter opp et drivhus for å øke matproduksjonen vår. Jeg gjør Celeste en tjeneste, greit? Det er alt. Men nok om det. Jeg har alle detaljene klare, men jeg trenger forsyninger, og jeg skal ikke frakte dem alene.",
+      "da": "Jeg sætter et drivhus op for at øge vores madproduktion. Jeg gør Celeste en tjeneste, okay? Det er alt. Men nok om det. Jeg har alle detaljerne på plads, men jeg får brug for forsyninger, og jeg slæber dem ikke alene.",
+      "it": "Sto allestendo una serra per aumentare la nostra produzione alimentare. Sto facendo un favore a Celeste, va bene? È tutto. Ma basta parlarne. Ho tutti i dettagli sistemati, ma avrò bisogno di rifornimenti e non li trasporterò da solo.",
+      "uk": "Я налаштовую теплицю, щоб допомогти збільшити наше виробництво їжі. Я роблю Селесті послугу, зрозуміло? Це все. Але досить про це. Я все детально продумав, але мені потрібні припаси, і я не буду тягти їх сам.",
+      "kr": "식량 생산을 늘리기 위해 온실을 설치하고 있어. 셀레스트한테 도움을 주는 거야, 알겠어? 그게 다야. 그건 그렇고. 모든 세부 사항은 다 정리했는데, 보급품이 필요해. 그리고 혼자서 나르지는 않을 거야.",
+      "ru": "Я устанавливаю теплицу, чтобы помочь увеличить производство продовольствия. Я делаю Селесте одолжение, понятно? Вот и всё. Но хватит об этом. Я всё детально продумал, но мне нужны припасы, и я не буду тащить их один.",
+      "zh-CN": "我正在建造一个温室，以帮助提高我们的食物产量。我是在帮塞莱斯特一个忙，明白吗？就是这样。但别再说这个了。我已经把所有细节都安排好了，但我需要补给品，而且我不会一个人搬运它们。",
+      "ja": "温室を設置して、食料生産を増やそうとしているんだ。セレステに恩を売ってるんだよ、いいか？それだけだ。でも、その話はもういい。細かいことは全部考えてあるが、物資が必要で、一人で運ぶつもりはない。",
+      "tr": "Gıda üretimimizi artırmaya yardımcı olmak için bir sera kuruyorum. Celeste'e iyilik yapıyorum, tamam mı? Hepsi bu. Ama bu kadar yeter. Tüm detayları hallettim ama malzemelere ihtiyacım var ve onları tek başıma taşımayacağım.",
+      "zh-TW": "我正在建造一個溫室，以幫助提高我們的食物產量。我是在幫塞萊斯特一個忙，明白嗎？就是這樣。但別再說這個了。我已經把所有細節都安排好了，但我需要補給品，而且我不會一個人搬運它們。",
+      "sr": "Postavljam staklenicu, da pomognem u povećanju naše proizvodnje hrane. Činim Celeste uslugu, u redu? To je sve. Ali dosta o tome. Razradio sam sve detalje, ali će mi trebati zalihe, i neću ih nositi sam.",
+      "hr": "Postavljam staklenicu, da pomognem u povećanju naše proizvodnje hrane. Činim Celeste uslugu, u redu? To je sve. Ali dosta o tome. Razradio sam sve detalje, ali trebat će mi zalihe, i neću ih nositi sam."
+    },
+    "objectives": [
+      {
+        "en": "Reach the Grandioso Apartments in Buried City",
+        "de": "Erreiche die Grandioso-Apartments in der Begrabenen Stadt",
+        "fr": "Atteindre les appartements Grandioso dans Buried City",
+        "es": "Llega a los Apartamentos Grandioso en Buried City",
+        "pt": "Chega aos Apartamentos Grandioso em Buried City",
+        "pl": "Dotrzyj do apartamentów Grandioso w Buried City",
+        "no": "Nå Grandioso-leilighetene i Buried City",
+        "da": "Nå Grandioso-lejlighederne i Buried City",
+        "it": "Raggiungi gli Appartamenti Grandioso in Buried City",
+        "uk": "Дістатися Апартаментів Грандіозо в Похованому Місті",
+        "kr": "매장된 도시의 그란디오소 아파트에 도달",
+        "ru": "Добраться до Апартаментов Грандиозо в Погребённом Городе",
+        "zh-CN": "到达埋没之城的格兰迪奥索公寓",
+        "ja": "埋もれた街のグランディオーソ・アパートメントに到達する",
+        "tr": "Gömülü Şehir'deki Grandioso Apartmanları'na ulaş",
+        "zh-TW": "到達埋沒之城的格蘭迪奧索公寓",
+        "sr": "Stigni do Grandioso apartmana u Zakopanom gradu",
+        "hr": "Stigni do Grandioso apartmana u Zakopanom gradu"
+      },
+      {
+        "en": "Search for Fertilizer on the rooftop of the Grandioso Apartments",
+        "de": "Suche nach Dünger auf dem Dach der Grandioso-Apartments",
+        "fr": "Chercher de l'engrais sur le toit des appartements Grandioso",
+        "es": "Busca fertilizante en la azotea de los Apartamentos Grandioso",
+        "pt": "Procura fertilizante no telhado dos Apartamentos Grandioso",
+        "pl": "Poszukaj nawozu na dachu apartamentów Grandioso",
+        "no": "Søk etter gjødsel på taket av Grandioso-leilighetene",
+        "da": "Søg efter gødning på taget af Grandioso-lejlighederne",
+        "it": "Cerca fertilizzante sul tetto degli Appartamenti Grandioso",
+        "uk": "Шукати Добриво на даху Апартаментів Грандіозо",
+        "kr": "그란디오소 아파트 옥상에서 비료 찾기",
+        "ru": "Найти Удобрение на крыше Апартаментов Грандиозо",
+        "zh-CN": "在格兰迪奥索公寓的屋顶搜寻肥料",
+        "ja": "グランディオーソ・アパートメントの屋上で肥料を探す",
+        "tr": "Grandioso Apartmanları'nın çatısında Gübre ara",
+        "zh-TW": "在格蘭迪奧索公寓的屋頂搜尋肥料",
+        "sr": "Traži đubrivo na krovu Grandioso apartmana",
+        "hr": "Traži gnojivo na krovu Grandioso apartmana"
+      },
+      {
+        "en": "Reach Piazza Roma in Buried City",
+        "de": "Erreiche Piazza Roma in der Begrabenen Stadt",
+        "fr": "Atteindre Piazza Roma dans Buried City",
+        "es": "Llega a Piazza Roma en Buried City",
+        "pt": "Chega à Piazza Roma em Buried City",
+        "pl": "Dotrzyj do Piazza Roma w Buried City",
+        "no": "Nå Piazza Roma i Buried City",
+        "da": "Nå Piazza Roma i Buried City",
+        "it": "Raggiungi Piazza Roma in Buried City",
+        "uk": "Дістатися Площі Рома в Похованому Місті",
+        "kr": "매장된 도시의 피아자 로마에 도달",
+        "ru": "Добраться до Пьяцца Рома в Погребённом Городе",
+        "zh-CN": "到达埋没之城的罗马广场",
+        "ja": "埋もれた街のピアッツァ・ローマに到達する",
+        "tr": "Gömülü Şehir'deki Piazza Roma'ya ulaş",
+        "zh-TW": "到達埋沒之城的羅馬廣場",
+        "sr": "Stigni do Piazza Roma u Zakopanom gradu",
+        "hr": "Stigni do Piazza Roma u Zakopanom gradu"
+      },
+      {
+        "en": "Search for a Water Pump in the broken rooftop gardens at Piazza Roma",
+        "de": "Suche nach einer Wasserpumpe in den zerstörten Dachgärten der Piazza Roma",
+        "fr": "Chercher une pompe à eau dans les jardins sur toit endommagés de Piazza Roma",
+        "es": "Busca una bomba de agua en los jardines de azotea destruidos de Piazza Roma",
+        "pt": "Procura uma bomba de água nos jardins de telhado destruídos na Piazza Roma",
+        "pl": "Poszukaj pompy wodnej w zniszczonych ogrodach dachowych na Piazza Roma",
+        "no": "Søk etter en vannpumpe i de ødelagte takhagene på Piazza Roma",
+        "da": "Søg efter en vandpumpe i de ødelagte taghaver på Piazza Roma",
+        "it": "Cerca una pompa dell'acqua nei giardini pensili distrutti di Piazza Roma",
+        "uk": "Шукати Водяний Насос у зруйнованих садах на даху Площі Рома",
+        "kr": "피아자 로마의 부서진 옥상 정원에서 물 펌프 찾기",
+        "ru": "Найти Водяной Насос в разрушенных садах на крыше Пьяцца Рома",
+        "zh-CN": "在罗马广场破损的屋顶花园中搜寻水泵",
+        "ja": "ピアッツァ・ローマの壊れた屋上庭園で水ポンプを探す",
+        "tr": "Piazza Roma'daki kırık çatı bahçelerinde Su Pompası ara",
+        "zh-TW": "在羅馬廣場破損的屋頂花園中搜尋水泵",
+        "sr": "Traži vodenu pumpu u uništenim baštama na krovu u Piazza Roma",
+        "hr": "Traži vodenu pumpu u uništenim vrtovima na krovu u Piazza Roma"
+      },
+      {
+        "en": "Deliver a Water Pump to Tian Wen",
+        "de": "Liefere eine Wasserpumpe an Tian Wen",
+        "fr": "Livrer une pompe à eau à Tian Wen",
+        "es": "Entrega una bomba de agua a Tian Wen",
+        "pt": "Entrega uma bomba de água a Tian Wen",
+        "pl": "Dostarcz pompę wodną do Tian Wen",
+        "no": "Lever en vannpumpe til Tian Wen",
+        "da": "Lever en vandpumpe til Tian Wen",
+        "it": "Consegna una pompa dell'acqua a Tian Wen",
+        "uk": "Доставити Водяний Насос Тянь Веню",
+        "kr": "티안 웬에게 물 펌프 전달",
+        "ru": "Доставить Водяной Насос Тянь Вэню",
+        "zh-CN": "将水泵交给田文",
+        "ja": "ティアン・ウェンに水ポンプを届ける",
+        "tr": "Tian Wen'e Su Pompası teslim et",
+        "zh-TW": "將水泵交給田文",
+        "sr": "Dostavi vodenu pumpu Tian Wenu",
+        "hr": "Dostavi vodenu pumpu Tian Wenu"
+      },
+      {
+        "en": "Deliver Fertilizer to Tian Wen",
+        "de": "Liefere Dünger an Tian Wen",
+        "fr": "Livrer de l'engrais à Tian Wen",
+        "es": "Entrega fertilizante a Tian Wen",
+        "pt": "Entrega fertilizante a Tian Wen",
+        "pl": "Dostarcz nawóz do Tian Wen",
+        "no": "Lever gjødsel til Tian Wen",
+        "da": "Lever gødning til Tian Wen",
+        "it": "Consegna fertilizzante a Tian Wen",
+        "uk": "Доставити Добриво Тянь Веню",
+        "kr": "티안 웬에게 비료 전달",
+        "ru": "Доставить Удобрение Тянь Вэню",
+        "zh-CN": "将肥料交给田文",
+        "ja": "ティアン・ウェンに肥料を届ける",
+        "tr": "Tian Wen'e Gübre teslim et",
+        "zh-TW": "將肥料交給田文",
+        "sr": "Dostavi đubrivo Tian Wenu",
+        "hr": "Dostavi gnojivo Tian Wenu"
+      }
+    ],
+    "requiredItemIds": [
+      {
+        "itemId": "water_pump",
+        "quantity": 1
+      },
+      {
+        "itemId": "fertilizer",
+        "quantity": 1
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "il_toro_i",
+        "quantity": 1
+      },
+      {
+        "itemId": "shotgun_ammo",
+        "quantity": 40
+      },
+      {
+        "itemId": "shotgun_choke_ii",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10p",
+      "ss10n"
+    ],
+    "nextQuestIds": [
+      "ss10r"
+    ]
+  },
+  {
+    "id": "ss10x2",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "Untended Garden",
+      "de": "Ungepflegter Garten",
+      "fr": "Jardin à l'abandon",
+      "es": "Jardín descuidado",
+      "pt": "Jardim abandonado",
+      "pl": "Zaniedbany ogród",
+      "no": "Forsømt hage",
+      "da": "Forsømt have",
+      "it": "Giardino trascurato",
+      "uk": "Недоглянутий сад",
+      "kr": "방치된 정원",
+      "ru": "Заброшенный сад",
+      "zh-CN": "无人照料的花园",
+      "ja": "手入れされていない庭園",
+      "tr": "Bakımsız Bahçe",
+      "zh-TW": "無人照料的花園",
+      "sr": "Neobrađena bašta",
+      "hr": "Neobrađeni vrt"
+    },
+    "trader": "Celeste",
+    "description": {
+      "en": "According to the files you found in the lab, the cultivation researchers were actually the ones who set up the hydroponic domes out in the swamp. Sounds like the most obvious place to search next, don't you think?",
+      "de": "Laut den Akten, die du im Labor gefunden hast, waren die Anbauforscher tatsächlich diejenigen, die die hydroponischen Kuppeln draußen im Sumpf errichtet haben. Klingt nach dem naheliegendsten Ort für die nächste Suche, findest du nicht?",
+      "fr": "D'après les dossiers que tu as trouvés dans le labo, ce sont les chercheurs en culture qui ont installé les dômes hydroponiques dans le marais. Ça semble être l'endroit le plus évident où chercher ensuite, tu ne crois pas ?",
+      "es": "Según los archivos que encontraste en el laboratorio, los investigadores de cultivo fueron en realidad quienes instalaron los domos hidropónicos en el pantano. Suena como el lugar más obvio para buscar a continuación, ¿no crees?",
+      "pt": "De acordo com os ficheiros que encontraste no laboratório, os investigadores de cultivo foram na verdade os que montaram as cúpulas hidropónicas no pântano. Parece o lugar mais óbvio para procurar a seguir, não achas?",
+      "pl": "Zgodnie z plikami, które znalazłeś w laboratorium, to badacze upraw faktycznie założyli hydroponiczne kopuły na bagnach. Brzmi jak najbardziej oczywiste miejsce do przeszukania, nie sądzisz?",
+      "no": "I følge filene du fant i laboratoriet, var det faktisk dyrkningsforskerne som satte opp de hydroponiske kuplene ute i sumpen. Høres ut som det mest åpenbare stedet å søke videre, synes du ikke?",
+      "da": "Ifølge filerne du fandt i laboratoriet, var det faktisk dyrkningsforskerne, der satte de hydroponiske kupler op ude i sumpen. Lyder som det mest oplagte sted at søge næste gang, synes du ikke?",
+      "it": "Secondo i file che hai trovato nel laboratorio, i ricercatori di coltivazione erano in realtà quelli che hanno installato le cupole idroponiche nella palude. Sembra il posto più ovvio dove cercare dopo, non credi?",
+      "uk": "Згідно з файлами, які ви знайшли в лабораторії, дослідники з культивації насправді були тими, хто встановив гідропонні купола на болоті. Звучить як найочевидніше місце для наступного пошуку, чи не так?",
+      "kr": "연구실에서 찾은 파일에 따르면, 재배 연구원들이 실제로 늪지대에 수경재배 돔을 설치한 사람들이었대요. 다음에 수색할 가장 확실한 장소인 것 같지 않나요?",
+      "ru": "Согласно файлам, которые вы нашли в лаборатории, исследователи по культивации на самом деле были теми, кто установил гидропонные купола на болоте. Звучит как самое очевидное место для следующего поиска, не так ли?",
+      "zh-CN": "根据你在实验室找到的文件，栽培研究人员实际上就是在沼泽地建立水培穹顶的人。听起来这是下一个最明显的搜索地点，你不觉得吗？",
+      "ja": "研究室で見つけたファイルによると、栽培研究者たちが実際に沼地に水耕栽培ドームを設置した人たちだったんだ。次に探すべき最も明白な場所だと思わない？",
+      "tr": "Laboratuvarda bulduğun dosyalara göre, bataklıktaki hidroponik kubbelerini kuranlar aslında yetiştirme araştırmacılarıymış. Bir sonraki aramak için en bariz yer gibi görünüyor, sence de öyle değil mi?",
+      "zh-TW": "根據你在實驗室找到的文件，栽培研究人員實際上就是在沼澤地建立水培穹頂的人。聽起來這是下一個最明顯的搜索地點，你不覺得嗎？",
+      "sr": "Prema dokumentima koje si pronašao u laboratoriji, istraživači uzgoja su zapravo bili oni koji su postavili hidroponske kupole tamo u močvari. Zvuči kao najočiglednije mesto za sledeću pretragu, zar ne misliš?",
+      "hr": "Prema dokumentima koje si pronašao u laboratoriju, istraživači uzgoja su zapravo bili oni koji su postavili hidroponske kupole tamo u močvari. Zvuči kao najočiglednije mjesto za sljedeću pretragu, zar ne misliš?"
+    },
+    "objectives": [
+      {
+        "en": "Go to the Hydroponic Dome Complex",
+        "de": "Gehe zum hydroponischen Kuppelkomplex",
+        "fr": "Aller au Complexe de Dômes Hydroponiques",
+        "es": "Ve al Complejo de Domos Hidropónicos",
+        "pt": "Vai ao Complexo de Cúpulas Hidropónicas",
+        "pl": "Udaj się do Kompleksu Hydroponicznych Kopuł",
+        "no": "Gå til det Hydroponiske Kuppelkomplekset",
+        "da": "Gå til det Hydroponiske Kuppelkompleks",
+        "it": "Vai al Complesso di Cupole Idroponiche",
+        "uk": "Йдіть до комплексу гідропонних куполів",
+        "kr": "수경재배 돔 단지로 가기",
+        "ru": "Отправляйтесь в комплекс гидропонных куполов",
+        "zh-CN": "前往水培穹顶综合体",
+        "ja": "水耕栽培ドーム複合施設に向かう",
+        "tr": "Hidroponik Kubbe Kompleksine git",
+        "zh-TW": "前往水培穹頂綜合體",
+        "sr": "Idi do Kompleksa hidroponskih kupola",
+        "hr": "Idi do Kompleksa hidroponskih kupola"
+      },
+      {
+        "en": "Access the data archive in one of the domes",
+        "de": "Greife auf das Datenarchiv in einer der Kuppeln zu",
+        "fr": "Accéder aux archives de données dans l'un des dômes",
+        "es": "Accede al archivo de datos en uno de los domos",
+        "pt": "Acede ao arquivo de dados numa das cúpulas",
+        "pl": "Uzyskaj dostęp do archiwum danych w jednej z kopuł",
+        "no": "Få tilgang til dataarkivet i en av kuplene",
+        "da": "Få adgang til dataarkivet i en af kuplerne",
+        "it": "Accedi all'archivio dati in una delle cupole",
+        "uk": "Отримайте доступ до архіву даних в одному з куполів",
+        "kr": "돔 중 하나에서 데이터 아카이브에 접근하기",
+        "ru": "Получите доступ к архиву данных в одном из куполов",
+        "zh-CN": "访问其中一个穹顶内的数据档案",
+        "ja": "ドームの1つにあるデータアーカイブにアクセスする",
+        "tr": "Kubbelerden birindeki veri arşivine eriş",
+        "zh-TW": "訪問其中一個穹頂內的數據檔案",
+        "sr": "Pristupi arhivi podataka u jednoj od kupola",
+        "hr": "Pristupi arhivi podataka u jednoj od kupola"
+      },
+      {
+        "en": "Upload the data to the computer terminal in any Field Depot",
+        "de": "Lade die Daten am Computerterminal in einem beliebigen Felddepot hoch",
+        "fr": "Téléchargez les données sur le terminal informatique de n'importe quel dépôt de terrain",
+        "es": "Sube los datos al terminal del ordenador en cualquier depósito de campo",
+        "pt": "Carregue os dados para o terminal de computador em qualquer Depósito de Campo",
+        "pl": "Prześlij dane do terminala komputerowego w dowolnym magazynie polowym",
+        "no": "Last opp dataene til dataterminalen i et hvilket som helst feltdepot",
+        "da": "Upload dataene til computerterminalen i et hvilket som helst feltdepot",
+        "it": "Carica i dati sul terminale del computer in un qualsiasi deposito da campo",
+        "uk": "Завантажте дані на комп'ютерний термінал у будь-якому польовому депо",
+        "kr": "아무 야전 보급소의 컴퓨터 터미널에 데이터 업로드하기",
+        "ru": "Загрузите данные на компьютерный терминал в любом полевом депо",
+        "zh-CN": "将数据上传到任意野外仓库的计算机终端",
+        "ja": "任意のフィールドデポのコンピュータ端末にデータをアップロードする",
+        "tr": "Verileri herhangi bir Saha Deposundaki bilgisayar terminaline yükle",
+        "zh-TW": "將數據上傳到任意野外倉庫的計算機終端",
+        "sr": "Otpremi podatke na kompjuterski terminal u bilo kom Terenskom Depou",
+        "hr": "Otpremi podatke na računalni terminal u bilo kojem Terenskom Depou"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "advanced_mechanical_components",
+        "quantity": 3
+      },
+      {
+        "itemId": "heavy_gun_parts",
+        "quantity": 3
+      },
+      {
+        "itemId": "canister",
+        "quantity": 5
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10x"
+    ],
+    "nextQuestIds": [
+      "ss10x3"
+    ]
+  },
+  {
+    "id": "ss10x4",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "Water Troubles",
+      "de": "Wasserprobleme",
+      "fr": "Problèmes d'eau",
+      "es": "Problemas de agua",
+      "pt": "Problemas de água",
+      "pl": "Kłopoty z wodą",
+      "no": "Vannproblemer",
+      "da": "Vandproblemer",
+      "it": "Problemi d'acqua",
+      "zh-TW": "水源問題",
+      "kr": "물 문제",
+      "hr": "Problemi s vodom",
+      "uk": "Проблеми з водою",
+      "ru": "Проблемы с водой",
+      "tr": "Su Sorunları",
+      "ja": "水のトラブル",
+      "zh-CN": "水源问题",
+      "sr": "Проблеми са водом"
+    },
+    "trader": "Celeste",
+    "description": {
+      "en": "If you're here to complain about the water, join the club. I've been fielding complaints all day. Something is definitely up with it, and I need some help to sort it out.",
+      "de": "Wenn du hier bist, um dich über das Wasser zu beschweren, bist du nicht allein. Ich habe den ganzen Tag Beschwerden entgegengenommen. Irgendetwas stimmt definitiv nicht damit, und ich brauche Hilfe, um das zu klären.",
+      "fr": "Si tu es là pour te plaindre de l'eau, bienvenue au club. J'ai reçu des plaintes toute la journée. Il y a définitivement un problème avec elle, et j'ai besoin d'aide pour régler ça.",
+      "es": "Si estás aquí para quejarte del agua, únete al club. He estado recibiendo quejas todo el día. Definitivamente algo anda mal con ella, y necesito ayuda para resolverlo.",
+      "pt": "Se estás aqui para te queixar da água, junta-te ao clube. Tenho recebido queixas o dia todo. Definitivamente há algo errado com ela, e preciso de ajuda para resolver isto.",
+      "pl": "Jeśli jesteś tu, żeby narzekać na wodę, dołącz do klubu. Cały dzień przyjmuję skargi. Coś z nią zdecydowanie jest nie tak i potrzebuję pomocy, żeby to wyjaśnić.",
+      "no": "Hvis du er her for å klage på vannet, bli med i klubben. Jeg har mottatt klager hele dagen. Det er definitivt noe galt med det, og jeg trenger hjelp til å ordne det.",
+      "da": "Hvis du er her for at klage over vandet, så velkommen i klubben. Jeg har modtaget klager hele dagen. Der er helt sikkert noget galt med det, og jeg har brug for hjælp til at løse det.",
+      "it": "Se sei qui per lamentarti dell'acqua, unisciti al club. Ho ricevuto lamentele tutto il giorno. C'è decisamente qualcosa che non va, e ho bisogno di aiuto per sistemare la cosa.",
+      "zh-TW": "如果你是來抱怨水的問題，那你來對地方了。我整天都在處理投訴。水源肯定出了問題，我需要一些幫助來解決這個問題。",
+      "kr": "물에 대해 불평하러 오셨다면, 저도 마찬가지입니다. 하루 종일 불만을 접수하고 있었어요. 분명히 뭔가 문제가 있는데, 해결하려면 도움이 필요합니다.",
+      "hr": "Ako si ovdje da se žališ na vodu, dobrodošao u klub. Cijeli dan primam pritužbe. Nešto definitivno nije u redu s njom, i trebam pomoć da to riješim.",
+      "uk": "Якщо ви тут, щоб поскаржитися на воду, приєднуйтесь до клубу. Я весь день приймаю скарги. З нею точно щось не так, і мені потрібна допомога, щоб це з'ясувати.",
+      "ru": "Если вы здесь, чтобы пожаловаться на воду, добро пожаловать в клуб. Я весь день принимаю жалобы. С ней определённо что-то не так, и мне нужна помощь, чтобы разобраться.",
+      "tr": "Su hakkında şikayet etmek için geldiyseniz, kulübe hoş geldiniz. Bütün gün şikayetlerle uğraşıyorum. Kesinlikle bir sorun var ve bunu çözmek için yardıma ihtiyacım var.",
+      "ja": "水について文句を言いに来たなら、仲間に入ってくれ。一日中苦情を受け付けてるんだ。確実に何かがおかしいんだが、解決するには助けが必要なんだ。",
+      "zh-CN": "如果你是来抱怨水的问题，那你来对地方了。我整天都在处理投诉。水源肯定出了问题，我需要一些帮助来解决这个问题。",
+      "sr": "Ако си овде да се жалиш на воду, добродошао у клуб. Цео дан примам притужбе. Нешто дефинитивно није у реду са њом, и требам помоћ да то решим."
+    },
+    "objectives": [
+      {
+        "en": "Locate the Flood Access Tunnel under the Red Lake Balcony",
+        "de": "Finde den Flutzugangstunnel unter dem Roten-See-Balkon",
+        "fr": "Localiser le Tunnel d'Accès aux Inondations sous le Balcon du Lac Rouge",
+        "es": "Localiza el Túnel de Acceso a Inundaciones bajo el Balcón del Lago Rojo",
+        "pt": "Localiza o Túnel de Acesso a Inundações sob a Varanda do Lago Vermelho",
+        "pl": "Zlokalizuj Tunel Dostępu Powodziowego pod Balkonem Czerwonego Jeziora",
+        "no": "Finn Flomtilgangstunnelen under Rødsjøbalkongen",
+        "da": "Find Oversvømmelsesadgangstunnelen under Rødsjøbalkonen",
+        "it": "Individua il Tunnel di Accesso alle Inondazioni sotto il Balcone del Lago Rosso",
+        "zh-TW": "找到紅湖陽台下方的洪水通道",
+        "kr": "레드 레이크 발코니 아래의 홍수 접근 터널을 찾으세요",
+        "hr": "Pronađi pristupni tunel za poplave ispod Balkona Crvenog jezera",
+        "uk": "Знайдіть тунель доступу до повені під балконом Червоного озера",
+        "ru": "Найдите туннель доступа к затоплению под балконом Красного озера",
+        "tr": "Kızıl Göl Balkonu altındaki Sel Erişim Tünelini bul",
+        "ja": "レッドレイク・バルコニーの下にある洪水アクセストンネルを見つける",
+        "zh-CN": "找到红湖阳台下方的洪水通道",
+        "sr": "Пронађи приступни тунел за поплаве испод Балкона Црвеног језера"
+      },
+      {
+        "en": "Find the intake to the District's Water Supply",
+        "de": "Finde die Zuleitung zur Wasserversorgung des Bezirks",
+        "fr": "Trouver l'entrée de l'Approvisionnement en Eau du District",
+        "es": "Encuentra la toma del Suministro de Agua del Distrito",
+        "pt": "Encontra a entrada do Abastecimento de Água do Distrito",
+        "pl": "Znajdź ujęcie do Zaopatrzenia w Wodę Dzielnicy",
+        "no": "Finn inntaket til Distriktets Vannforsyning",
+        "da": "Find indtagelsen til Distriktets Vandforsyning",
+        "it": "Trova l'ingresso della Fornitura Idrica del Distretto",
+        "zh-TW": "找到區域供水系統的進水口",
+        "kr": "지구 급수 시설의 취수구를 찾으세요",
+        "hr": "Pronađi dovod za vodoopskrbu Distrikta",
+        "uk": "Знайдіть водозабір системи водопостачання Округу",
+        "ru": "Найдите водозабор системы водоснабжения Района",
+        "tr": "Bölgenin Su Kaynağına giden girişi bul",
+        "ja": "地区の給水口を見つける",
+        "zh-CN": "找到区域供水系统的进水口",
+        "sr": "Пронађи довод за водоснабдевање Дистрикта"
+      },
+      {
+        "en": "Sample the water",
+        "de": "Nimm eine Wasserprobe",
+        "fr": "Prélever un échantillon d'eau",
+        "es": "Toma una muestra del agua",
+        "pt": "Recolhe uma amostra da água",
+        "pl": "Pobierz próbkę wody",
+        "no": "Ta en vannprøve",
+        "da": "Tag en vandprøve",
+        "it": "Preleva un campione d'acqua",
+        "zh-TW": "採集水樣",
+        "kr": "물 샘플을 채취하세요",
+        "hr": "Uzmi uzorak vode",
+        "uk": "Візьміть пробу води",
+        "ru": "Возьмите образец воды",
+        "tr": "Sudan numune al",
+        "ja": "水のサンプルを採取する",
+        "zh-CN": "采集水样",
+        "sr": "Узми узорак воде"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "mechanical_components",
+        "quantity": 3
+      },
+      {
+        "itemId": "simple_gun_parts",
+        "quantity": 3
+      },
+      {
+        "itemId": "steel_spring",
+        "quantity": 3
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10x3"
+    ],
+    "nextQuestIds": [
+      "ss10x6"
+    ]
+  },
+  {
+    "id": "ss8a",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "What Goes Around",
+      "de": "Was herumgeht",
+      "fr": "Tout finit par revenir",
+      "es": "Lo que va, vuelve",
+      "pt": "O que vai, volta",
+      "pl": "Co się odwlecze",
+      "no": "Det som går rundt",
+      "da": "Hvad der går rundt",
+      "it": "Ciò che gira",
+      "uk": "Що посієш, те й пожнеш",
+      "kr": "돌고 도는 것",
+      "ru": "Что посеешь, то и пожнёшь",
+      "zh-CN": "周而复始",
+      "ja": "因果応報",
+      "tr": "Dönen Dolaplar",
+      "zh-TW": "周而復始",
+      "sr": "Što ide okolo",
+      "hr": "Što ide okolo"
+    },
+    "trader": "Apollo",
+    "description": {
+      "en": "We can't build ARC tech from scratch, but there's plenty I can tinker from the pieces you salvage. I'm currently trying to repurpose different ARC parts. Would you mind running some experiments for me?",
+      "de": "Wir können ARC-Technologie nicht von Grund auf bauen, aber es gibt vieles, das ich aus den Teilen basteln kann, die du bergst. Ich versuche gerade, verschiedene ARC-Teile umzufunktionieren. Würdest du ein paar Experimente für mich durchführen?",
+      "fr": "Nous ne pouvons pas construire de technologie ARC à partir de zéro, mais il y a beaucoup de choses que je peux bricoler à partir des pièces que tu récupères. J'essaie actuellement de réutiliser différentes pièces ARC. Ça te dérangerait de faire quelques expériences pour moi ?",
+      "es": "No podemos construir tecnología ARC desde cero, pero hay mucho que puedo arreglar con las piezas que recuperas. Actualmente estoy intentando reutilizar diferentes partes ARC. ¿Te importaría hacer algunos experimentos para mí?",
+      "pt": "Não podemos construir tecnologia ARC do zero, mas há muito que posso mexer com as peças que você recupera. Atualmente estou tentando reaproveitar diferentes partes ARC. Você se importaria de fazer alguns experimentos para mim?",
+      "pl": "Nie możemy zbudować technologii ARC od podstaw, ale jest wiele rzeczy, które mogę majstrować z części, które odzyskujesz. Obecnie próbuję przekształcić różne części ARC. Mógłbyś przeprowadzić dla mnie kilka eksperymentów?",
+      "no": "Vi kan ikke bygge ARC-teknologi fra bunnen av, men det er mye jeg kan fikle med fra delene du berger. Jeg prøver for tiden å gjenbruke forskjellige ARC-deler. Kan du kjøre noen eksperimenter for meg?",
+      "da": "Vi kan ikke bygge ARC-teknologi fra bunden, men der er meget jeg kan pille ved fra de dele, du bjærger. Jeg forsøger i øjeblikket at genbruge forskellige ARC-dele. Vil du køre nogle eksperimenter for mig?",
+      "it": "Non possiamo costruire tecnologia ARC da zero, ma c'è molto che posso armeggiare con i pezzi che recuperi. Sto attualmente cercando di riutilizzare diverse parti ARC. Ti dispiacerebbe fare alcuni esperimenti per me?",
+      "uk": "Ми не можемо створити технології ARC з нуля, але я можу багато чого зробити з деталей, які ти здобудеш. Зараз я намагаюся переробити різні частини ARC. Не міг би ти провести для мене кілька експериментів?",
+      "kr": "ARC 기술을 처음부터 만들 수는 없지만, 네가 회수한 부품들로 손볼 수 있는 게 많아. 지금 다양한 ARC 부품들을 재활용하려고 하는 중이야. 나를 위해 실험 좀 해줄 수 있어?",
+      "ru": "Мы не можем создать технологии ARC с нуля, но я могу многое сделать из деталей, которые ты добудешь. Сейчас я пытаюсь переделать различные части ARC. Не мог бы ты провести для меня несколько экспериментов?",
+      "zh-CN": "我们无法从零开始制造ARC科技，但我可以用你回收的零件进行改造。我目前正在尝试改装不同的ARC部件。你能帮我做些实验吗？",
+      "ja": "ARCの技術をゼロから作ることはできないが、君がサルベージした部品から色々と改造できる。今、様々なARCパーツの再利用を試みているんだ。いくつか実験を手伝ってくれないか？",
+      "tr": "ARC teknolojisini sıfırdan inşa edemeyiz ama senin kurtardığın parçalardan kurcalayabileceğim çok şey var. Şu anda farklı ARC parçalarını yeniden kullanmaya çalışıyorum. Benim için birkaç deney yapmana sakıncası var mı?",
+      "zh-TW": "我們無法從零開始製造ARC科技，但我可以用你回收的零件進行改造。我目前正在嘗試改裝不同的ARC部件。你能幫我做些實驗嗎？",
+      "sr": "Ne možemo graditi ARC tehnologiju od nule, ali ima dosta toga što mogu da majstorim od delova koje spašavaš. Trenutno pokušavam da prenamenim različite ARC delove. Bi li mogao da izvedeš neke eksperimente za mene?",
+      "hr": "Ne možemo graditi ARC tehnologiju od nule, ali ima dosta toga što mogu petljati od dijelova koje spašavaš. Trenutno pokušavam prenamjeniti različite ARC dijelove. Bi li mogao izvesti neke eksperimente za mene?"
+    },
+    "objectives": [
+      {
+        "en": "Destroy any ARC enemy using a Fireball Burner",
+        "de": "Zerstöre einen beliebigen ARC-Gegner mit einem Feuerball-Brenner",
+        "fr": "Détruisez n'importe quel ennemi ARC avec un lance-flammes Fireball",
+        "es": "Destruye cualquier enemigo ARC usando un lanzallamas Fireball",
+        "pt": "Destrua qualquer inimigo ARC usando um lança-chamas Fireball",
+        "pl": "Zniszcz dowolnego wroga ARC używając miotacza ognia Fireball",
+        "no": "Ødelegg en hvilken som helst ARC-fiende ved å bruke en Fireball-brenner",
+        "da": "Ødelæg en hvilken som helst ARC-fjende ved at bruge en Fireball-brænder",
+        "it": "Distruggi qualsiasi nemico ARC usando un lanciafiamme Fireball",
+        "uk": "Знищити будь-якого ворога ARC за допомогою Fireball Burner",
+        "kr": "Fireball Burner를 사용하여 ARC 적 처치",
+        "ru": "Уничтожить любого врага ARC с помощью Fireball Burner",
+        "zh-CN": "使用火球燃烧器摧毁任意ARC敌人",
+        "ja": "Fireball Burnerを使ってARCの敵を倒す",
+        "tr": "Fireball Burner kullanarak herhangi bir ARC düşmanını yok et",
+        "zh-TW": "使用火球燃燒器摧毀任意ARC敵人",
+        "sr": "Uništi bilo kog ARC neprijatelja koristeći Fireball Burner",
+        "hr": "Uništi bilo kojeg ARC neprijatelja koristeći Fireball Burner"
+      }
+    ],
+    "grantedItemIds": [
+      {
+        "itemId": "red_light_stick",
+        "quantity": 5
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "cans_cosmetic",
+        "quantity": 1
+      },
+      {
+        "itemId": "blaze_grenade",
+        "quantity": 3
+      },
+      {
+        "itemId": "noisemaker",
+        "quantity": 2
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss8"
+    ],
+    "nextQuestIds": [
+      "ss8b"
+    ]
+  },
+  {
+    "id": "ss10e",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "What We Left Behind",
+      "de": "Was wir zurückgelassen haben",
+      "fr": "Ce que nous avons laissé derrière",
+      "es": "Lo que dejamos atrás",
+      "pt": "O que deixamos para trás",
+      "pl": "Co zostawiliśmy za sobą",
+      "no": "Det vi forlot",
+      "da": "Hvad vi efterlod",
+      "it": "Ciò che abbiamo lasciato",
+      "uk": "Те, що ми залишили",
+      "kr": "우리가 남긴 것",
+      "ru": "То, что мы оставили",
+      "zh-CN": "我们留下的东西",
+      "ja": "置き去りにしたもの",
+      "tr": "Geride Bıraktıklarımız",
+      "zh-TW": "我們留下的東西",
+      "sr": "Šta Smo Ostavili",
+      "hr": "Što Smo Ostavili"
+    },
+    "trader": "Tian Wen",
+    "description": {
+      "en": "Celeste told me you're the one who helped her hound me about pitching in more. I'll say this once: I don't appreciate the meddling, and I have my own reasons for refusing. I do, however, appreciate the scrap. Since you're apparently good at tracking it down, I may have a task for you.",
+      "de": "Celeste hat mir erzählt, dass du derjenige bist, der ihr geholfen hat, mich wegen mehr Mithilfe zu bedrängen. Ich sage das nur einmal: Ich schätze die Einmischung nicht, und ich habe meine eigenen Gründe für die Ablehnung. Ich schätze jedoch den Schrott. Da du anscheinend gut darin bist, ihn aufzuspüren, habe ich vielleicht eine Aufgabe für dich.",
+      "fr": "Celeste m'a dit que c'est vous qui l'avez aidée à me harceler pour que je contribue davantage. Je ne le dirai qu'une fois : je n'apprécie pas cette ingérence, et j'ai mes propres raisons de refuser. J'apprécie cependant la ferraille. Puisque vous êtes apparemment doué pour la dénicher, j'ai peut-être une tâche pour vous.",
+      "es": "Celeste me dijo que tú eres quien la ayudó a presionarme para que contribuyera más. Lo diré una vez: no aprecio la intromisión, y tengo mis propias razones para negarme. Sin embargo, aprecio la chatarra. Ya que aparentemente eres bueno rastreándola, puede que tenga una tarea para ti.",
+      "pt": "Celeste me disse que você é quem a ajudou a me pressionar para contribuir mais. Vou dizer isso uma vez: não aprecio a intromissão, e tenho minhas próprias razões para recusar. No entanto, aprecio a sucata. Já que você aparentemente é bom em rastreá-la, posso ter uma tarefa para você.",
+      "pl": "Celeste powiedziała mi, że to ty pomogłeś jej mnie nękać, żebym więcej się angażował. Powiem to raz: nie doceniam wtrącania się, i mam swoje własne powody odmowy. Doceniam jednak złom. Skoro najwyraźniej jesteś dobry w jego tropienie, mogę mieć dla ciebie zadanie.",
+      "no": "Celeste fortalte meg at du er den som hjalp henne med å plage meg om å bidra mer. Jeg sier dette én gang: Jeg setter ikke pris på innblandingen, og jeg har mine egne grunner for å nekte. Jeg setter imidlertid pris på skrapmetallet. Siden du tydeligvis er flink til å spore det opp, kan jeg ha en oppgave til deg.",
+      "da": "Celeste fortalte mig, at du er den, der hjælp hende med at presse mig til at bidrage mere. Jeg siger det én gang: Jeg sætter ikke pris på indblanding, og jeg har mine egne grunde til at afslå. Jeg sætter dog pris på skrot. Siden du tilsyneladende er god til at spore det op, har jeg måske en opgave til dig.",
+      "it": "Celeste mi ha detto che sei tu quello che l'ha aiutata a tormentarmi per contribuire di più. Lo dirò una volta sola: non apprezzo l'intromissione, e ho le mie ragioni per rifiutare. Tuttavia, apprezzo i rottami. Dato che sei evidentemente bravo a rintracciarli, potrei avere un compito per te.",
+      "uk": "Селеста сказала мені, що це ти допоміг їй докучати мені про більшу участь. Скажу один раз: я не ціную втручання, і в мене є свої причини для відмови. Проте я ціную брухт. Оскільки ти, очевидно, добре вмієш його знаходити, у мене може бути для тебе завдання.",
+      "kr": "셀레스트가 말하더군요. 당신이 그녀가 나에게 더 기여하라고 조르는 걸 도왔다고요. 한 번만 말하겠습니다. 참견은 고맙지 않고, 거절하는 데는 나만의 이유가 있습니다. 하지만 고철은 고맙게 생각합니다. 당신이 그걸 찾는 데 능숙한 것 같으니, 부탁할 일이 있을지도 모르겠군요.",
+      "ru": "Селеста сказала мне, что это ты помог ей донимать меня насчет большего участия. Скажу один раз: я не ценю вмешательство, и у меня есть свои причины для отказа. Однако я ценю металлолом. Поскольку ты, очевидно, хорош в его поиске, у меня может быть для тебя задание.",
+      "zh-CN": "塞莱斯特告诉我，是你帮她催促我多做贡献。我只说一次：我不喜欢别人多管闲事，而且我有自己拒绝的理由。不过，我很感激那些废料。既然你显然擅长找到它们，我可能有个任务给你。",
+      "ja": "セレステから聞いた。お前が彼女を手伝って、俺にもっと協力しろと言ってきたそうだな。一度だけ言う：余計な世話は感謝しないし、断る理由は俺にある。だが、スクラップには感謝している。お前はそれを見つけるのが得意なようだから、頼みたいことがあるかもしれない。",
+      "tr": "Celeste bana daha fazla katkıda bulunmam için onu kışkırtmana yardım edenin sen olduğunu söyledi. Bunu bir kez söyleyeceğim: Karışmayı takdir etmiyorum ve reddetmek için kendi nedenlerim var. Ancak hurdayı takdir ediyorum. Görünüşe göre onu bulmakta iyisin, senin için bir görevim olabilir.",
+      "zh-TW": "塞萊斯特告訴我，是你幫她催促我多做貢獻。我只說一次：我不喜歡別人多管閒事，而且我有自己拒絕的理由。不過，我很感激那些廢料。既然你顯然擅長找到它們，我可能有個任務給你。",
+      "sr": "Celeste mi je rekla da si ti taj koji joj je pomogao da me gnjavi da se više uključim. Reći ću ovo jednom: ne cenim mešanje, i imam svoje razloge za odbijanje. Međutim, cenim otpatke. Pošto si očigledno dobar u pronalaženju istih, možda imam zadatak za tebe.",
+      "hr": "Celeste mi je rekla da si ti taj koji joj je pomogao da me gnjavi da se više uključim. Reći ću ovo jednom: ne cijenim miješanje, i imam svoje razloge za odbijanje. Međutim, cijenim otpatke. Budući da si očito dobar u pronalaženju istih, možda imam zadatak za tebe."
+    },
+    "objectives": [
+      {
+        "en": "On Buried City, search 2 containers in the Raider Camp beneath the Parking Garage",
+        "de": "Durchsuche in der Begrabenen Stadt 2 Container im Räuberlager unter dem Parkhaus",
+        "fr": "Sur Buried City, fouillez 2 conteneurs dans le camp de Raiders sous le parking",
+        "es": "En Ciudad Enterrada, registra 2 contenedores en el campamento Raider bajo el estacionamiento",
+        "pt": "Em Cidade Enterrada, procure em 2 contêineres no acampamento Raider sob a garagem",
+        "pl": "W Buried City przeszukaj 2 kontenery w obozie Najeźdźców pod parkingiem",
+        "no": "På Buried City, søk gjennom 2 containere i Raider-leiren under parkeringshuset",
+        "da": "På Buried City, gennemsøg 2 containere i Raider-lejren under parkeringshuset",
+        "it": "A Città Sepolta, perquisisci 2 container nell'accampamento Raider sotto il parcheggio",
+        "uk": "У Похованому місті обшукати 2 контейнери в таборі Рейдерів під паркінгом",
+        "kr": "매장된 도시에서 주차장 아래 레이더 캠프의 컨테이너 2개 수색",
+        "ru": "В Погребенном городе обыскать 2 контейнера в лагере Рейдеров под парковкой",
+        "zh-CN": "在掩埋之城，搜索停车场下方掠夺者营地的2个集装箱",
+        "ja": "ベリード・シティで、駐車場の下にあるレイダーキャンプのコンテナを2つ調べる",
+        "tr": "Gömülü Şehir'de, Otopark'ın altındaki Raider Kampı'nda 2 konteyner ara",
+        "zh-TW": "在掩埋之城，搜索停車場下方掠奪者營地的2個貨櫃",
+        "sr": "U Zakopanom Gradu, pretraži 2 kontejnera u Pljačkaškom Kampu ispod Parking Garaže",
+        "hr": "U Zakopanom Gradu, pretraži 2 kontejnera u Pljačkaškom Kampu ispod Parking Garaže"
+      },
+      {
+        "en": "On Dam Battlegrounds, search for anything significant in the South Swamp Outpost",
+        "de": "Suche auf Dam Battlegrounds nach etwas Bedeutendem im Südlichen Sumpf-Außenposten",
+        "fr": "Sur Dam Battlegrounds, cherchez quelque chose d'important dans l'avant-poste du marais sud",
+        "es": "En Campo de Batalla de la Presa, busca algo significativo en el puesto del pantano sur",
+        "pt": "Em Campo de Batalha da Represa, procure por algo significativo no posto avançado do pântano sul",
+        "pl": "Na Dam Battlegrounds poszukaj czegoś istotnego w południowej placówce na bagnach",
+        "no": "På Dam Battlegrounds, søk etter noe betydningsfullt i den sørlige sumpeutposten",
+        "da": "På Dam Battlegrounds, søg efter noget betydningsfuldt i den sydlige sump-udpost",
+        "it": "A Campi di Battaglia della Diga, cerca qualcosa di significativo nell'avamposto della palude sud",
+        "kr": "댐 전장에서 남쪽 늪지 전초기지에서 중요한 물건 수색",
+        "uk": "На Полі бою біля дамби шукати щось значуще в Південному болотному форпості",
+        "ru": "На Поле боя у дамбы искать что-нибудь значимое в Южном болотном форпосте",
+        "zh-CN": "在大坝战场，在南部沼泽前哨站搜索任何重要物品",
+        "ja": "ダム・バトルグラウンドで、サウス・スワンプ前哨基地で重要なものを探す",
+        "tr": "Baraj Savaş Alanı'nda, Güney Bataklık Karakolu'nda önemli bir şey ara",
+        "zh-TW": "在大壩戰場，在南部沼澤前哨站搜索任何重要物品",
+        "sr": "Na Bojnom Polju Brane, traži bilo šta značajno u Južnoj Močvarnoj Ispostavi",
+        "hr": "Na Bojnom Polju Brane, traži bilo što značajno u Južnoj Močvarnoj Ispostavi"
+      },
+      {
+        "en": "On Spaceport, search for anything significant in Bilguun's Hideout, next to the Container Storage",
+        "de": "Suche auf Spaceport nach etwas Bedeutendem in Bilguuns Versteck, neben dem Containerlager",
+        "fr": "Sur Spaceport, cherchez quelque chose d'important dans la cachette de Bilguun, à côté de l'entrepôt de conteneurs",
+        "es": "En Puerto Espacial, busca algo significativo en el escondite de Bilguun, junto al almacén de contenedores",
+        "pt": "Em Porto Espacial, procure por algo significativo no esconderijo de Bilguun, ao lado do armazenamento de contêineres",
+        "pl": "Na Spaceport poszukaj czegoś istotnego w kryjówce Bilguuna, obok magazynu kontenerów",
+        "no": "På Spaceport, søk etter noe betydningsfullt i Bilguuns skjulested, ved siden av containerlager",
+        "da": "På Spaceport, søg efter noget betydningsfuldt i Bilguuns skjulested, ved siden af containeropbevaringen",
+        "it": "A Spazioporto, cerca qualcosa di significativo nel nascondiglio di Bilguun, accanto al deposito container",
+        "uk": "У Космопорту шукати щось значуще в Схованці Білгууна, біля складу контейнерів",
+        "kr": "우주 정거장에서 컨테이너 보관소 옆 빌군의 은신처에서 중요한 물건 수색",
+        "ru": "В Космопорту искать что-нибудь значимое в Убежище Билгууна, рядом с контейнерным складом",
+        "zh-CN": "在太空港，在集装箱仓库旁边的比尔贡藏身处搜索任何重要物品",
+        "ja": "スペースポートで、コンテナ保管所の隣にあるビルグーンの隠れ家で重要なものを探す",
+        "tr": "Uzay Limanı'nda, Konteyner Deposu'nun yanındaki Bilguun'un Sığınağı'nda önemli bir şey ara",
+        "zh-TW": "在太空港，在貨櫃倉庫旁邊的比爾貢藏身處搜索任何重要物品",
+        "sr": "Na Svemirskoj Luci, traži bilo šta značajno u Bilguunovom Skrovištu, pored Skladišta Kontejnera",
+        "hr": "Na Svemirskoj Luci, traži bilo što značajno u Bilguunovom Skrovištu, pored Skladišta Kontejnera"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "muzzle_brake_ii",
+        "quantity": 1
+      },
+      {
+        "itemId": "vertical_grip_ii",
+        "quantity": 1
+      },
+      {
+        "itemId": "stable_stock_ii",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10b"
+    ],
+    "nextQuestIds": [
+      "ss10h"
+    ]
+  },
+  {
+    "id": "ss11bx",
+    "updatedAt": "11/06/2025",
+    "name": {
+      "en": "With a Trace",
+      "de": "Mit einer Spur",
+      "fr": "Avec une trace",
+      "es": "Con un rastro",
+      "pt": "Com um rastro",
+      "pl": "Ze śladem",
+      "no": "Med et spor",
+      "da": "Med et spor",
+      "it": "Con una traccia",
+      "uk": "Зі слідом",
+      "kr": "흔적과 함께",
+      "ru": "Со следом",
+      "zh-CN": "追寻踪迹",
+      "ja": "痕跡と共に",
+      "tr": "Bir İzle",
+      "zh-TW": "追尋蹤跡",
+      "sr": "Sa tragom",
+      "hr": "Sa tragom"
+    },
+    "trader": "Shani",
+    "description": {
+      "en": "That downed machine... We weren't the ones who did that. We know that there are stray survivors out there, but this? This goes far beyond a single person.",
+      "de": "Diese abgestürzte Maschine... Wir waren das nicht. Wir wissen, dass es da draußen vereinzelte Überlebende gibt, aber das? Das geht weit über eine einzelne Person hinaus.",
+      "fr": "Cette machine abattue... Ce n'est pas nous qui avons fait ça. Nous savons qu'il y a des survivants isolés là-bas, mais ça ? Ça va bien au-delà d'une seule personne.",
+      "es": "Esa máquina derribada... No fuimos nosotros quienes hicimos eso. Sabemos que hay supervivientes dispersos por ahí, pero ¿esto? Esto va mucho más allá de una sola persona.",
+      "pt": "Aquela máquina abatida... Não fomos nós que fizemos isso. Sabemos que há sobreviventes dispersos por aí, mas isso? Isso vai muito além de uma única pessoa.",
+      "pl": "Ta zestrzelona maszyna... To nie my to zrobiliśmy. Wiemy, że są tam samotni ocaleni, ale to? To wykracza daleko poza jedną osobę.",
+      "no": "Den nedskutte maskinen... Det var ikke vi som gjorde det. Vi vet at det er spredte overlevende der ute, men dette? Dette går langt utover en enkelt person.",
+      "da": "Den nedskudte maskine... Det var ikke os, der gjorde det. Vi ved, at der er spredte overlevende derude, men dette? Dette går langt ud over en enkelt person.",
+      "it": "Quella macchina abbattuta... Non siamo stati noi a farlo. Sappiamo che ci sono sopravvissuti dispersi là fuori, ma questo? Questo va ben oltre una singola persona.",
+      "uk": "Та збита машина... Це зробили не ми. Ми знаємо, що десь є вцілілі, але це? Це далеко виходить за межі можливостей однієї людини.",
+      "kr": "저 파괴된 기계... 우리가 한 게 아니야. 밖에 생존자들이 있다는 건 알지만, 이건? 이건 한 사람이 할 수 있는 일을 훨씬 넘어서.",
+      "ru": "Эта сбитая машина... Это сделали не мы. Мы знаем, что где-то есть выжившие, но это? Это далеко за пределами возможностей одного человека.",
+      "zh-CN": "那台被击落的机器……不是我们干的。我们知道外面有幸存者，但这个？这远远超出了一个人的能力。",
+      "ja": "あの破壊された機械は……我々がやったのではない。生存者がいることは知っているが、これは？これは一人の人間の仕業を遥かに超えている。",
+      "tr": "Şu düşürülmüş makine... Bunu yapan biz değildik. Dışarıda başıboş hayatta kalanlar olduğunu biliyoruz ama bu mu? Bu tek bir kişinin çok ötesine geçiyor.",
+      "zh-TW": "那台被擊落的機器……不是我們幹的。我們知道外面有倖存者，但這個？這遠遠超出了一個人的能力。",
+      "sr": "Ta oborena mašina... Mi nismo to učinili. Znamo da tamo ima preživelih lutalica, ali ovo? Ovo daleko prevazilazi jednu osobu.",
+      "hr": "Taj oboreni stroj... Mi nismo to učinili. Znamo da tamo ima preživjelih lutalica, ali ovo? Ovo daleko nadilazi jednu osobu."
+    },
+    "objectives": [
+      {
+        "en": "Reach the Barren Clearing",
+        "de": "Erreiche die kahle Lichtung",
+        "fr": "Atteindre la clairière stérile",
+        "es": "Alcanza el claro árido",
+        "pt": "Alcance a clareira árida",
+        "pl": "Dotrzyj do jałowej polany",
+        "no": "Nå den golde lysningen",
+        "da": "Nå den golde lysning",
+        "it": "Raggiungi la radura brulla",
+        "uk": "Дістатися до Порожньої Галявини",
+        "kr": "황량한 공터에 도달하기",
+        "ru": "Добраться до Пустынной Поляны",
+        "zh-CN": "到达荒芜空地",
+        "ja": "荒涼とした空き地に到達する",
+        "tr": "Çorak Açıklığa Ulaş",
+        "zh-TW": "到達荒蕪空地",
+        "sr": "Stigni do Puste čistine",
+        "hr": "Stigni do Puste čistine"
+      },
+      {
+        "en": "Find signs of who brought down the ARC machines",
+        "de": "Finde Hinweise darauf, wer die ARC-Maschinen zu Fall gebracht hat",
+        "fr": "Trouver des indices sur qui a abattu les machines ARC",
+        "es": "Encuentra señales de quién derribó las máquinas ARC",
+        "pt": "Encontre sinais de quem derrubou as máquinas ARC",
+        "pl": "Znajdź ślady tego, kto zestrzelił maszyny ARC",
+        "no": "Finn tegn på hvem som skjøt ned ARC-maskinene",
+        "da": "Find tegn på, hvem der skød ARC-maskinerne ned",
+        "it": "Trova segni di chi ha abbattuto le macchine ARC",
+        "uk": "Знайти ознаки того, хто збив машини ARC",
+        "kr": "ARC 기계를 격추시킨 자의 흔적 찾기",
+        "ru": "Найти следы тех, кто сбил машины ARC",
+        "zh-CN": "寻找击落ARC机器的人的线索",
+        "ja": "ARCマシンを撃墜した者の痕跡を見つける",
+        "tr": "ARC makinelerini düşürenlerin izlerini bul",
+        "zh-TW": "尋找擊落ARC機器的人的線索",
+        "sr": "Pronađi znakove ko je oborio ARC mašine",
+        "hr": "Pronađi znakove tko je oborio ARC strojeve"
+      },
+      {
+        "en": "Inspect the Adorned Wreckage",
+        "de": "Untersuche das geschmückte Wrack",
+        "fr": "Inspecter l'épave ornée",
+        "es": "Inspecciona los restos adornados",
+        "pt": "Inspecione os destroços adornados",
+        "pl": "Zbadaj ozdobione wraki",
+        "no": "Inspiser det pyntede vraket",
+        "da": "Inspicér det prydede vrag",
+        "it": "Ispeziona il relitto adornato",
+        "uk": "Оглянути Прикрашені Уламки",
+        "kr": "장식된 잔해 조사하기",
+        "ru": "Осмотреть Украшенные Обломки",
+        "zh-CN": "检查装饰过的残骸",
+        "ja": "装飾された残骸を調べる",
+        "tr": "Süslenmiş Enkazı İncele",
+        "zh-TW": "檢查裝飾過的殘骸",
+        "sr": "Preglédaj ukrašene olupine",
+        "hr": "Preglédaj ukrašene olupine"
+      },
+      {
+        "en": "Inspect the communications device",
+        "de": "Untersuche das Kommunikationsgerät",
+        "fr": "Inspecter le dispositif de communication",
+        "es": "Inspecciona el dispositivo de comunicaciones",
+        "pt": "Inspecione o dispositivo de comunicações",
+        "pl": "Zbadaj urządzenie komunikacyjne",
+        "no": "Inspiser kommunikasjonsenheten",
+        "da": "Inspicér kommunikationsenheden",
+        "it": "Ispeziona il dispositivo di comunicazione",
+        "uk": "Оглянути пристрій зв'язку",
+        "kr": "통신 장치 조사하기",
+        "ru": "Осмотреть устройство связи",
+        "zh-CN": "检查通讯设备",
+        "ja": "通信装置を調べる",
+        "tr": "İletişim cihazını incele",
+        "zh-TW": "檢查通訊設備",
+        "sr": "Preglédaj komunikacijski uređaj",
+        "hr": "Preglédaj komunikacijski uređaj"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "looting_mk2",
+        "quantity": 1
+      },
+      {
+        "itemId": "medium_shield",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss11a"
+    ],
+    "nextQuestIds": []
+  }
+]
