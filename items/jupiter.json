@@ -155,7 +155,7 @@
       "value": "Experimental"
     }
   },
-  "weight": 9.0,
+  "weightKg": 9.0,
   "value": 27500,
   "recipe": {
     "magnetic_accelerator": 3,
@@ -169,11 +169,11 @@
     "magnetic_accelerator": 2,
     "complex_gun_parts": 1
   },
-  "recycledMaterial": {
+  "recyclesInto": {
     "magnetic_accelerator": 2,
     "complex_gun_parts": 1
   },
-  "salvagedMaterial": {
+  "salvagesInto": {
     "advanced_mechanical_components": 3
   },
   "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
