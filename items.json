@@ -1,5 +1,5 @@
 {
-  "version": "f2f158597158b687b1cb2f1cdd911641b29ceb14",
+  "version": "0f9787a82b349f3a1fc68190d3a47a002c034e5c",
   "items": [
     {
       "id": "adrenaline_shot",
@@ -132,7 +132,7 @@
         "de": "Fortschrittliche ARC-Energiezelle",
         "fr": "Cellule d'énergie ARC avancée",
         "es": "Celda de energía ARC avanzada",
-        "pt": "Célula de energia ARC avançada",
+        "pt": "Bateria ARC avançada",
         "pl": "Zaawansowane ogniwo zasilające ARC",
         "no": "Avansert ARC-kraftcelle",
         "da": "Avanceret ARC-kraftcelle",
@@ -532,7 +532,7 @@
       "name": {
         "en": "Angled Grip I",
         "de": "Abgewinkelter Griff I",
-        "fr": "Poignée angulaire I",
+        "fr": "Poignée coudée I",
         "es": "Empuñadura angular I",
         "pt": "Punho angular I",
         "pl": "Chwyt kątowy I",
@@ -609,7 +609,7 @@
       "name": {
         "en": "Angled Grip II",
         "de": "Abgewinkelter Griff II",
-        "fr": "Poignée angulaire II",
+        "fr": "Poignée coudée II",
         "es": "Empuñadura angular II",
         "pt": "Punho angular II",
         "pl": "Chwyt kątowy II",
@@ -697,7 +697,7 @@
       "name": {
         "en": "Angled Grip III",
         "de": "Abgewinkelter Griff III",
-        "fr": "Poignée angulaire III",
+        "fr": "Poignée coudée III",
         "es": "Empuñadura angular III",
         "pt": "Punho angular III",
         "pl": "Chwyt kątowy III",
@@ -783,7 +783,11 @@
         }
       },
       "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
-      "updatedAt": "10/30/2025"
+      "updatedAt": "10/30/2025",
+      "recyclesInto": {
+        "mod_components": 1,
+        "duct_tape": 2
+      }
     },
     {
       "id": "antiseptic",
@@ -810,7 +814,7 @@
       "description": {
         "en": "Used to craft medical supplies. Can be recycled into chemicals. Used to craft: Sterilized Bandage, Vita Spray, Vita Shot",
         "de": "Wird zur Herstellung medizinischer Vorräte verwendet. Kann zu Chemikalien recycelt werden. Wird verwendet für: Sterilisierter Verband, Vita-Spray, Vita-Spritze",
-        "fr": "Permet de fabriquer des fournitures médicales. Peut être recyclé en produits chimiques. Permet de fabriquer : Bandage stérilisé, Vita Spray, Vita Shot",
+        "fr": "Permet de fabriquer des fournitures médicales. Peut être recyclé en produits chimiques. Permet de fabriquer : Bandage stérilisé, Spray de Vita, Dose de Vita",
         "es": "Se usa para fabricar suministros médicos. Se puede reciclar en productos químicos. Se usa para fabricar: Vendaje esterilizado, Aerosol Vita, Inyección Vita",
         "pt": "Usado para fabricar suprimentos médicos. Pode ser reciclado em produtos químicos. Usado para fabricar: Bandagem esterilizada, Spray Vita, Injeção Vita",
         "pl": "Używany do wytwarzania zapasów medycznych. Można przetworzyć na chemikalia. Używany do wytworzenia: Sterylny bandaż, Spray Vita, Zastrzyk Vita",
@@ -2229,7 +2233,7 @@
         "de": "ARC-Energiezelle",
         "fr": "Cellule d'énergie ARC",
         "es": "Celda de energía ARC",
-        "pt": "Célula de energia ARC",
+        "pt": "Bateria ARC",
         "pl": "Ogniwo zasilające ARC",
         "no": "ARC-kraftcelle",
         "da": "ARC-kraftcelle",
@@ -3221,6 +3225,10 @@
       "upgradeCost": {
         "mechanical_components": 5,
         "medium_gun_parts": 1
+      },
+      "recyclesInto": {
+        "mechanical_components": 5,
+        "simple_gun_parts": 5
       }
     },
     {
@@ -3318,6 +3326,7 @@
         "sr": "Kozmetički Ranac"
       },
       "type": "Cosmetic",
+      "rarity": "Common",
       "updatedAt": "10/30/2025"
     },
     {
@@ -3392,7 +3401,7 @@
       "description": {
         "en": "A medical item that gradually restores health over time.",
         "de": "Ein medizinischer Gegenstand, der Gesundheit allmählich über Zeit wiederherstellt.",
-        "fr": "Un objet médical qui restaure progressivement la santé au fil du temps.",
+        "fr": "Un objet médical qui restaure progressivement de la santé.",
         "es": "Un objeto médico que restaura gradualmente la salud con el tiempo.",
         "pt": "Um item médico que restaura gradualmente a vida ao longo do tempo.",
         "pl": "Przedmiot medyczny, który stopniowo przywraca zdrowie w czasie.",
@@ -3517,7 +3526,7 @@
       "description": {
         "en": "A deployable cover that can block incoming damage until it breaks.",
         "de": "Eine einsetzbare Deckung, die eingehenden Schaden blockieren kann, bis sie zerstört wird.",
-        "fr": "Une couverture déployable qui peut bloquer les dégâts entrants jusqu'à ce qu'elle se brise.",
+        "fr": "Un abri déployable qui bloque les dégâts jusqu'à sa destruction.",
         "es": "Una cobertura desplegable que puede bloquear el daño entrante hasta que se rompa.",
         "pt": "Uma cobertura implantável que pode bloquear dano recebido até quebrar.",
         "pl": "Rozmieszczalna osłona, która może blokować nadchodzące obrażenia, dopóki się nie zniszczy.",
@@ -3566,7 +3575,7 @@
       "description": {
         "en": "A deployable cover that can block incoming damage until it breaks.",
         "de": "Eine einsetzbare Deckung, die eingehenden Schaden blockieren kann, bis sie zerstört wird.",
-        "fr": "Une couverture déployable qui peut bloquer les dégâts entrants jusqu'à ce qu'elle se brise.",
+        "fr": "Un abri déployable qui bloque les dégâts jusqu'à sa destruction.",
         "es": "Una cobertura desplegable que puede bloquear el daño entrante hasta que se rompa.",
         "pt": "Uma cobertura implantável que pode bloquear dano recebido até quebrar.",
         "pl": "Rozmieszczalna osłona, która może blokować nadchodzące obrażenia, dopóki się nie zniszczy.",
@@ -3615,6 +3624,23 @@
         },
         "Duration": {
           "en": "Duration",
+          "pl": "Czas trwania",
+          "it": "Durata",
+          "zh-CN": "持续时间",
+          "kr": "지속 시간",
+          "hr": "Trajanje",
+          "de": "Dauer",
+          "ru": "Длительность",
+          "es": "Duración",
+          "zh-TW": "持續時間",
+          "pt": "Duração",
+          "sr": "Trajanje",
+          "ja": "持続時間",
+          "da": "Varighed",
+          "tr": "Süre",
+          "uk": "Тривалість",
+          "no": "Varighet",
+          "fr": "Durée",
           "value": "500 Health"
         }
       },
@@ -3653,6 +3679,9 @@
       "value": 5000,
       "recyclesInto": {
         "arc_alloy": 2,
+        "advanced_mechanical_components": 2
+      },
+      "salvagesInto": {
         "advanced_mechanical_components": 2
       },
       "description": {
@@ -3785,7 +3814,7 @@
       "weightKg": 0,
       "rarity": "Legendary",
       "station": "Gunsmith III",
-      "crafting": {
+      "recipe": {
         "advanced_mechanical_components": 3,
         "heavy_gun_parts": 3,
         "canister": 3
@@ -5061,6 +5090,56 @@
       "updatedAt": "10/30/2025"
     },
     {
+      "id": "blue_gate_communication_tower_key",
+      "name": {
+        "en": "Blue Gate Communication Tower Key",
+        "pl": "Klucz do Wieży Komunikacyjnej przy Niebieskiej Bramie",
+        "fr": "Clé de la Tour de Communication de la Porte Bleue",
+        "pt": "Chave da Torre de Comunicação do Portão Azul",
+        "zh-CN": "蓝门通讯塔钥匙",
+        "zh-TW": "藍門通訊塔鑰匙",
+        "es": "Llave de la Torre de Comunicación de la Puerta Azul",
+        "it": "Chiave della Torre di Comunicazione del Cancello Blu",
+        "kr": "블루 게이트 통신탑 열쇠",
+        "hr": "Ključ Komunikacijskog Tornja Plavih Vrata",
+        "ru": "Ключ от Коммуникационной Башни у Синих Ворот",
+        "sr": "Кључ Комуникационог Торња Плавих Врата",
+        "uk": "Ключ від Комунікаційної Вежі біля Синіх Воріт",
+        "de": "Schlüssel zum Kommunikationsturm am Blauen Tor",
+        "da": "Nøgle til Kommunikationstårnet ved den Blå Port",
+        "no": "Nøkkel til Kommunikasjonstårnet ved den Blå Porten",
+        "tr": "Mavi Kapı İletişim Kulesi Anahtarı",
+        "ja": "ブルーゲート通信塔の鍵"
+      },
+      "description": {
+        "en": "Unlocks a door by the Communication Tower near the Blue Gate",
+        "pl": "Otwiera drzwi przy Wieży Komunikacyjnej w pobliżu Niebieskiej Bramy",
+        "fr": "Déverrouille une porte près de la Tour de Communication à proximité de la Porte Bleue",
+        "pt": "Desbloqueia uma porta junto à Torre de Comunicação perto do Portão Azul",
+        "zh-CN": "解锁蓝门附近通讯塔旁的一扇门",
+        "zh-TW": "解鎖藍門附近通訊塔旁的一扇門",
+        "es": "Desbloquea una puerta junto a la Torre de Comunicación cerca de la Puerta Azul",
+        "it": "Sblocca una porta presso la Torre di Comunicazione vicino al Cancello Blu",
+        "kr": "블루 게이트 근처 통신탑 옆 문을 엽니다",
+        "hr": "Otključava vrata kod Komunikacijskog Tornja blizu Plavih Vrata",
+        "ru": "Открывает дверь у Коммуникационной Башни рядом с Синими Воротами",
+        "sr": "Откључава врата код Комуникационог Торња близу Плавих Врата",
+        "uk": "Відмикає двері біля Комунікаційної Вежі поблизу Синіх Воріт",
+        "de": "Öffnet eine Tür beim Kommunikationsturm in der Nähe des Blauen Tors",
+        "da": "Låser en dør op ved Kommunikationstårnet nær den Blå Port",
+        "no": "Låser opp en dør ved Kommunikasjonstårnet nær den Blå Porten",
+        "tr": "Mavi Kapı yakınındaki İletişim Kulesi yanındaki bir kapıyı açar",
+        "ja": "ブルーゲート近くの通信塔のそばにあるドアを開錠する"
+      },
+      "type": "Key",
+      "rarity": "Rare",
+      "weightKg": 0.25,
+      "stackSize": 1,
+      "value": 100,
+      "imageFilename": "https://cdn.arctracker.io/items/blue_gate_communication_tower_key.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
       "id": "blue_gate_confiscation_room_key",
       "name": {
         "en": "Blue Gate Confiscation Room Key",
@@ -5134,7 +5213,7 @@
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
         "de": "Ein werfbares chemisches Licht, das die Umgebung beleuchtet.",
-        "fr": "Une lumière chimique jetable qui illumine la zone autour d'elle.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
         "pl": "Rzucany chemiczny patyk świetlny, który oświetla obszar wokół niego.",
@@ -5184,7 +5263,7 @@
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
         "de": "Ein werfbares chemisches Licht, das die Umgebung beleuchtet.",
-        "fr": "Une lumière chimique jetable qui illumine la zone autour d'elle.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
         "pl": "Rzucane światło chemiczne, które oświetla obszar wokół niego.",
@@ -5261,7 +5340,7 @@
       "name": {
         "en": "Blue (Radio Renegade Color)",
         "de": "Blau (Radio Renegade-Farbe)",
-        "fr": "Bleu (couleur Radio Renegade)",
+        "fr": "Bleu (couleur Radio Renégat)",
         "es": "Azul (color Radio Renegade)",
         "pt": "Azul (cor Radio Renegade)",
         "pl": "Niebieski (kolor Radio Renegade)",
@@ -5512,10 +5591,14 @@
       "type": "Recyclable",
       "rarity": "Rare",
       "foundIn": "Exodus",
+      "value": 1000,
+      "recyclesInto": {
+        "processor": 4
+      },
       "weightKg": 3,
       "stackSize": 3,
       "imageFilename": "https://cdn.arctracker.io/items/broken_guidance_system.png",
-      "updatedAt": "10/30/2025"
+      "updatedAt": "11/14/2025"
     },
     {
       "id": "broken_handheld_radio",
@@ -5593,6 +5676,26 @@
         "tr": "Kırık Şok Tabancası",
         "hr": "Pokvareni taser",
         "sr": "Pokvareni tejzer"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
       },
       "rarity": "Rare",
       "type": "Recyclable",
@@ -5745,8 +5848,12 @@
         "sr": "Glavni ključ za stambena područja u Zakopanom Gradu."
       },
       "type": "Key",
-      "_note": "not_in_serverslam",
-      "updatedAt": "10/30/2025"
+      "value": 100,
+      "weightKg": 0.25,
+      "rarity": "Uncommon",
+      "stackSize": 1,
+      "updatedAt": "11/13/2025",
+      "imageFilename": "https://cdn.arctracker.io/items/buried_city_residential_master_key.png"
     },
     {
       "id": "buried_city_town_hall_key",
@@ -6168,6 +6275,55 @@
       "updatedAt": "10/30/2025"
     },
     {
+      "id": "burned_arc_circuit",
+      "name": {
+        "en": "Burned Arc Circuit",
+        "de": "Verbrannter Arc-Schaltkreis",
+        "fr": "Circuit Arc brûlé",
+        "es": "Circuito Arc quemado",
+        "pt": "Circuito Arc queimado",
+        "pl": "Spalony obwód Arc",
+        "no": "Brent Arc-krets",
+        "da": "Brændt Arc-kredsløb",
+        "it": "Circuito Arc bruciato",
+        "ja": "焼損したアークサーキット",
+        "kr": "타버린 아크 회로",
+        "zh-CN": "烧毁的电弧电路",
+        "zh-TW": "燒毀的電弧電路",
+        "ru": "Сгоревшая Arc-схема",
+        "tr": "Yanmış Arc Devresi",
+        "uk": "Згоріла Arc-схема",
+        "sr": "Izgorela Arc struja",
+        "hr": "Izgoreli Arc sklop"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux de fabrication.",
+        "es": "Puede reciclarse en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可以回收为制作材料。",
+        "zh-TW": "可以回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "İşleme malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "type": "Recyclable",
+      "rarity": "Uncommon",
+      "weightKg": 1,
+      "foundIn": "ARC",
+      "imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuit.png",
+      "updatedAt": "11/04/2025"
+    },
+    {
       "id": "burned_arc_circuitry",
       "name": {
         "en": "Burned Arc Circuitry",
@@ -6435,6 +6591,7 @@
         "sr": "Kozmetički Dodatak za Ranac"
       },
       "type": "Cosmetic",
+      "rarity": "Common",
       "updatedAt": "11/10/2025",
       "imageFilename": "https://cdn.arctracker.io/items/cans.png"
     },
@@ -6536,6 +6693,101 @@
       "imageFilename": "https://cdn.arctracker.io/items/celestes_journal.png",
       "rarity": "Common",
       "updatedAt": "11/09/2025"
+    },
+    {
+      "id": "celestes_journal",
+      "name": {
+        "en": "Celeste's Journal",
+        "de": "Celestes Tagebuch",
+        "fr": "Journal de Celeste",
+        "es": "Diario de Celeste",
+        "pt": "Diário de Celeste",
+        "pl": "Dziennik Celeste",
+        "no": "Celestes dagbok",
+        "da": "Celestes dagbog",
+        "it": "Diario di Celeste",
+        "ja": "セレステの日記",
+        "kr": "셀레스테의 일지",
+        "zh-CN": "塞莱斯特的日记",
+        "zh-TW": "賽蕾絲特的日記",
+        "ru": "Дневник Селесты",
+        "tr": "Celeste'in Günlüğü",
+        "uk": "Щоденник Селести",
+        "sr": "Celestin dnevnik",
+        "hr": "Celestin dnevnik"
+      },
+      "description": {
+        "en": "Battered and torn, you can see the faint outline of doodles along the edges.",
+        "de": "Abgenutzt und zerrissen, man kann die schwachen Umrisse von Kritzeleien an den Rändern erkennen.",
+        "fr": "Abîmé et déchiré, vous pouvez voir les contours faibles de gribouillis le long des bords.",
+        "es": "Maltratado y rasgado, puedes ver el tenue contorno de garabatos en los bordes.",
+        "pt": "Surrado e rasgado, você pode ver o contorno fraco de rabiscos nas bordas.",
+        "pl": "Zniszczony i podarty, widać słabe kontury bazgrołów wzdłuż krawędzi.",
+        "no": "Slitt og revet, du kan se svake omriss av kritterier langs kantene.",
+        "da": "Medtaget og revet, du kan se svage omrids af kruseduller langs kanterne.",
+        "it": "Malconcio e strappato, puoi vedere i deboli contorni di scarabocchi lungo i bordi.",
+        "ja": "ボロボロで破れており、端に沿ってかすかな落書きの輪郭が見える。",
+        "kr": "낡고 찢어져 있으며, 가장자리를 따라 희미한 낙서 윤곽을 볼 수 있다.",
+        "zh-CN": "破旧不堪，你可以看到边缘处隐约的涂鸦轮廓。",
+        "zh-TW": "破舊不堪，你可以看到邊緣處隱約的塗鴉輪廓。",
+        "ru": "Потрепанный и порванный, вы можете разглядеть слабые очертания каракулей по краям.",
+        "tr": "Hırpalanmış ve yırtılmış, kenarlar boyunca karalamalarının soluk hatlarını görebilirsiniz.",
+        "uk": "Потріпаний і порваний, ви можете побачити ледь помітні обриси каракулів по краях.",
+        "sr": "Oštećen i pocepan, možete videti slabe obrise šaranja duž ivica.",
+        "hr": "Oštećen i poderan, možete vidjeti slabe obrise škrabotina duž rubova."
+      },
+      "type": "Trinket",
+      "weightKg": 0.25,
+      "imageFilename": "https://cdn.arctracker.io/items/celestes_journal.png",
+      "rarity": "Common",
+      "updatedAt": "11/09/2025"
+    },
+    {
+      "id": "cheer",
+      "name": {
+        "en": "Cheer",
+        "de": "Jubel",
+        "fr": "Acclamation",
+        "es": "Ánimo",
+        "pt": "Comemoração",
+        "pl": "Doping",
+        "no": "Heiarop",
+        "da": "Tilråb",
+        "it": "Incitamento",
+        "ja": "応援",
+        "kr": "응원",
+        "zh-CN": "欢呼",
+        "zh-TW": "歡呼",
+        "ru": "Приветствие",
+        "tr": "Tezahürat",
+        "uk": "Вітання",
+        "sr": "Bodрenje",
+        "hr": "Bodрenje"
+      },
+      "description": {
+        "en": "A new cosmetic will be added to your collection.",
+        "de": "Ein neues Kosmetikitem wird deiner Sammlung hinzugefügt.",
+        "fr": "Un nouveau cosmétique sera ajouté à votre collection.",
+        "es": "Se añadirá un nuevo cosmético a tu colección.",
+        "pt": "Um novo cosmético será adicionado à sua coleção.",
+        "pl": "Nowy przedmiot kosmetyczny zostanie dodany do twojej kolekcji.",
+        "no": "Et nytt kosmetisk gjenstand vil bli lagt til samlingen din.",
+        "da": "Et nyt kosmetisk genstand vil blive tilføjet til din samling.",
+        "it": "Un nuovo cosmetico verrà aggiunto alla tua collezione.",
+        "ja": "新しいコスメティックがコレクションに追加されます。",
+        "kr": "새로운 코스메틱이 컬렉션에 추가됩니다.",
+        "zh-CN": "一个新的装饰品将被添加到你的收藏中。",
+        "zh-TW": "一個新的裝飾品將被添加到你的收藏中。",
+        "ru": "Новый косметический предмет будет добавлен в вашу коллекцию.",
+        "tr": "Koleksiyonunuza yeni bir kozmetik eklenecek.",
+        "uk": "Новий косметичний предмет буде додано до вашої колекції.",
+        "sr": "Novi kozmetički predmet biće dodat u vašu kolekciju.",
+        "hr": "Novi kozmetički predmet bit će dodan u vašu kolekciju."
+      },
+      "type": "Cosmetic",
+      "imageFilename": "https://cdn.arctracker.io/items/cheer.png",
+      "rarity": "Common",
+      "updatedAt": "11/16/2025"
     },
     {
       "id": "chemicals",
@@ -6897,11 +7149,299 @@
           "value": "Light, Medium, Heavy"
         }
       },
+      "recyclesInto": {
+        "magnet": 1,
+        "electrical_components": 1
+      },
       "recipe": {
         "electrical_components": 2,
         "magnet": 3
       },
       "craftBench": "equipment_bench"
+    },
+    {
+      "id": "combat_mk3_aggressive_blueprint",
+      "name": {
+        "en": "Combat Mk. 3 (Aggressive) Blueprint",
+        "de": "Kampf Mk. 3 (Aggressiv) Blaupause",
+        "tr": "Savaş Mk. 3 (Agresif) Planı",
+        "da": "Kamp Mk. 3 (Aggressiv) Tegning",
+        "hr": "Borbeni Mk. 3 (Agresivni) Nacrt",
+        "pl": "Bojowy Mk. 3 (Agresywny) Projekt",
+        "zh-TW": "戰鬥 Mk. 3（進攻型）藍圖",
+        "fr": "Plan de Combat 3 (agression)",
+        "zh-CN": "战斗 Mk. 3（进攻型）蓝图",
+        "no": "Kamp Mk. 3 (Aggressiv) Tegning",
+        "ru": "Чертёж Боевой Mk. 3 (Агрессивный)",
+        "it": "Progetto Combattimento Mk. 3 (Aggressivo)",
+        "uk": "Креслення Бойовий Mk. 3 (Агресивний)",
+        "sr": "Borbeni Mk. 3 (Agresivni) Nacrt",
+        "ja": "コンバット Mk. 3（アグレッシブ）設計図",
+        "kr": "전투 Mk. 3 (공격형) 설계도",
+        "pt": "Projeto de Combate Mk. 3 (Agressivo)",
+        "es": "Plano de Combate Mk. 3 (Agresivo)"
+      },
+      "description": {
+        "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades.",
+        "de": "Eine verbesserte Version des Kampf II-Augments. Unterstützt mehr Schildtypen und bietet zusätzlichen Platz für Granaten.",
+        "tr": "Savaş II güçlendirmesinin geliştirilmiş versiyonu. Daha fazla kalkan türünü destekler ve el bombaları için ekstra alan sunar.",
+        "da": "En forbedret version af Kamp II-forstærkningen. Understøtter flere skjoldtyper og kommer med ekstra plads til granater.",
+        "hr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi s dodatnim prostorom pentru granate.",
+        "pl": "Ulepszona wersja augmentacji Bojowy II. Obsługuje więcej typów tarcz i zapewnia dodatkowe miejsce na granaty.",
+        "zh-TW": "戰鬥 II 增強裝置的改良版本。支援更多護盾類型，並提供額外的手榴彈空間。",
+        "fr": "Une version améliorée de l'augmentation Combat II. Prend en charge plus de types de boucliers et offre un espace supplémentaire pour les grenades.",
+        "zh-CN": "战斗 II 增强装置的改进版本。支持更多护盾类型，并提供额外的手榴弹空间。",
+        "no": "En forbedret versjon av Kamp II-forsterkningen. Støtter flere skjoldtyper og kommer med ekstra plass til granater.",
+        "ru": "Улучшенная версия аугментации Боевой II. Поддерживает больше типов щитов и имеет дополнительное место для гранат.",
+        "it": "Una versione migliorata dell'aumento Combattimento II. Supporta più tipi di scudi e include spazio extra per le granate.",
+        "uk": "Покращена версія аугментації Бойовий II. Підтримує більше типів щитів і має додатковий простір для гранат.",
+        "sr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi sa dodatnim prostorom za granate.",
+        "ja": "コンバット II オーグメントの改良版。より多くのシールドタイプに対応し、グレネード用の追加スペースを備えています。",
+        "kr": "전투 II 증강의 개선된 버전입니다. 더 많은 방패 유형을 지원하며 수류탄을 위한 추가 공간이 있습니다.",
+        "pt": "Uma versão melhorada do aumento Combate II. Suporta mais tipos de escudos e vem com espaço extra para granadas.",
+        "es": "Una versión mejorada del aumento Combate II. Soporta más tipos de escudos y viene con espacio extra para granadas."
+      },
+      "type": "Blueprint",
+      "rarity": "Legendary",
+      "value": 5000,
+      "weightKg": 0,
+      "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
+      "id": "combat_mk3_aggressive",
+      "name": {
+        "en": "Combat Mk. 3 (Aggressive)",
+        "de": "Kampf Mk. 3 (Aggressiv)",
+        "tr": "Savaş Mk. 3 (Agresif)",
+        "da": "Kamp Mk. 3 (Aggressiv)",
+        "hr": "Borbeni Mk. 3 (Agresivni)",
+        "pl": "Bojowy Mk. 3 (Agresywny)",
+        "zh-TW": "戰鬥 Mk. 3（進攻型）",
+        "fr": "Combat 3 (agression)",
+        "zh-CN": "战斗 Mk. 3（进攻型）",
+        "no": "Kamp Mk. 3 (Aggressiv)",
+        "ru": "Боевой Mk. 3 (Агрессивный)",
+        "it": "Combattimento Mk. 3 (Aggressivo)",
+        "uk": "Бойовий Mk. 3 (Агресивний)",
+        "sr": "Borbeni Mk. 3 (Agresivni)",
+        "ja": "コンバット Mk. 3（アグレッシブ）",
+        "kr": "전투 Mk. 3 (공격형)",
+        "pt": "Combate Mk. 3 (Agressivo)",
+        "es": "Combate Mk. 3 (Agresivo)"
+      },
+      "description": {
+        "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades.",
+        "de": "Eine verbesserte Version des Kampf II-Augments. Unterstützt mehr Schildtypen und bietet zusätzlichen Platz für Granaten.",
+        "tr": "Savaş II güçlendirmesinin geliştirilmiş versiyonu. Daha fazla kalkan türünü destekler ve el bombaları için ekstra alan sunar.",
+        "da": "En forbedret version af Kamp II-forstærkningen. Understøtter flere skjoldtyper og kommer med ekstra plads til granater.",
+        "hr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi s dodatnim prostorom za granate.",
+        "pl": "Ulepszona wersja augmentacji Bojowy II. Obsługuje więcej typów tarcz i zapewnia dodatkowe miejsce na granaty.",
+        "zh-TW": "戰鬥 II 增強裝置的改良版本。支援更多護盾類型，並提供額外的手榴彈空間。",
+        "fr": "Une version améliorée de l'augmentation Combat II. Prend en charge plus de types de boucliers et offre un espace supplémentaire pour les grenades.",
+        "zh-CN": "战斗 II 增强装置的改进版本。支持更多护盾类型，并提供额外的手榴弹空间。",
+        "no": "En forbedret versjon av Kamp II-forsterkningen. Støtter flere skjoldtyper og kommer med ekstra plass til granater.",
+        "ru": "Улучшенная версия аугментации Боевой II. Поддерживает больше типов щитов и имеет дополнительное место для гранат.",
+        "it": "Una versione migliorata dell'aumento Combattimento II. Supporta più tipi di scudi e include spazio extra per le granate.",
+        "uk": "Покращена версія аугментації Бойовий II. Підтримує більше типів щитів і має додатковий простір для гранат.",
+        "sr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi sa dodatnim prostorom za granate.",
+        "ja": "コンバット II オーグメントの改良版。より多くのシールドタイプに対応し、グレネード用の追加スペースを備えています。",
+        "kr": "전투 II 증강의 개선된 버전입니다. 더 많은 방패 유형을 지원하며 수류탄을 위한 추가 공간이 있습니다.",
+        "pt": "Uma versão melhorada do aumento Combate II. Suporta mais tipos de escudos e vem com espaço extra para granadas.",
+        "es": "Una versión mejorada del aumento Combate II. Soporta más tipos de escudos y viene con espacio extra para granadas."
+      },
+      "type": "Augment",
+      "rarity": "Epic",
+      "effects": {
+        "Health Regeneration": {
+          "en": "Health Regeneration",
+          "de": "Gesundheitsregeneration",
+          "tr": "Sağlık Yenilemesi",
+          "da": "Sundhedsregenerering",
+          "hr": "Regeneracija Zdravlja",
+          "pl": "Regeneracja Zdrowia",
+          "zh-TW": "生命再生",
+          "fr": "Régénération de Santé",
+          "zh-CN": "生命再生",
+          "no": "Helseregenering",
+          "ru": "Регенерация Здоровья",
+          "it": "Rigenerazione Salute",
+          "uk": "Регенерація Здоров'я",
+          "sr": "Regeneracija Zdravlja",
+          "ja": "体力再生",
+          "kr": "체력 재생",
+          "pt": "Regeneração de Saúde",
+          "es": "Regeneración de Salud",
+          "value": "Restores 2 health every 5 seconds. When damage is taken the effect is paused for 30 seconds."
+        },
+        "Backpack Slots": {
+          "en": "Backpack Slots",
+          "de": "Rucksackplätze",
+          "tr": "Sırt Çantası Yuvaları",
+          "da": "Rygsækpladser",
+          "hr": "Mjesta u Ruksaku",
+          "pl": "Miejsca w Plecaku",
+          "zh-TW": "背包欄位",
+          "fr": "Emplacements de Sac à Dos",
+          "zh-CN": "背包栏位",
+          "no": "Ryggsekk-plasser",
+          "ru": "Слоты Рюкзака",
+          "it": "Slot Zaino",
+          "uk": "Слоти Рюкзака",
+          "sr": "Mesta u Rancu",
+          "ja": "バックパックスロット",
+          "kr": "배낭 슬롯",
+          "pt": "Espaços de Mochila",
+          "es": "Espacios de Mochila",
+          "value": 18
+        },
+        "Safe Pocket Slots": {
+          "en": "Safe Pocket Slots",
+          "de": "Sichere Taschenplätze",
+          "tr": "Güvenli Cep Yuvaları",
+          "da": "Sikre Lommepladser",
+          "hr": "Sigurna Mjesta u Džepu",
+          "pl": "Bezpieczne Miejsca w Kieszeni",
+          "zh-TW": "安全口袋欄位",
+          "fr": "Emplacements de Poche Sécurisée",
+          "zh-CN": "安全口袋栏位",
+          "no": "Sikre Lommeplasser",
+          "ru": "Слоты Безопасного Кармана",
+          "it": "Slot Tasca Sicura",
+          "uk": "Слоти Безпечної Кишені",
+          "sr": "Sigurna Mesta u Džepu",
+          "ja": "セーフポケットスロット",
+          "kr": "안전 주머니 슬롯",
+          "pt": "Espaços de Bolso Seguro",
+          "es": "Espacios de Bolsillo Seguro",
+          "value": 1
+        },
+        "Quick Use Slots": {
+          "en": "Quick Use Slots",
+          "de": "Schnellzugriffsplätze",
+          "tr": "Hızlı Kullanım Yuvaları",
+          "da": "Hurtigbrugspladser",
+          "hr": "Mjesta za Brzu Upotrebu",
+          "pl": "Miejsca Szybkiego Użycia",
+          "zh-TW": "快速使用欄位",
+          "fr": "Emplacements d'Utilisation Rapide",
+          "zh-CN": "快速使用栏位",
+          "no": "Hurtigbruksplasser",
+          "ru": "Слоты Быстрого Использования",
+          "it": "Slot Uso Rapido",
+          "uk": "Слоти Швидкого Використання",
+          "sr": "Mesta za Brzu Upotrebu",
+          "ja": "クイック使用スロット",
+          "kr": "빠른 사용 슬롯",
+          "pt": "Espaços de Uso Rápido",
+          "es": "Espacios de Uso Rápido",
+          "value": 4
+        },
+        "Weapon Slots": {
+          "en": "Weapon Slots",
+          "de": "Waffenplätze",
+          "tr": "Silah Yuvaları",
+          "da": "Våbenpladser",
+          "hr": "Mjesta za Oružje",
+          "pl": "Miejsca na Broń",
+          "zh-TW": "武器欄位",
+          "fr": "Emplacements d'Armes",
+          "zh-CN": "武器栏位",
+          "no": "Våpenplasser",
+          "ru": "Слоты Оружия",
+          "it": "Slot Armi",
+          "uk": "Слоти Зброї",
+          "sr": "Mesta za Oružje",
+          "ja": "武器スロット",
+          "kr": "무기 슬롯",
+          "pt": "Espaços de Armas",
+          "es": "Espacios de Armas",
+          "value": 2
+        },
+        "Grenade Use Slots": {
+          "en": "Grenade Use Slots",
+          "de": "Granaten-Nutzungsplätze",
+          "tr": "El Bombası Kullanım Yuvaları",
+          "da": "Granatbrugspladser",
+          "hr": "Mjesta za Upotrebu Granata",
+          "pl": "Miejsca Użycia Granatów",
+          "zh-TW": "手榴彈使用欄位",
+          "fr": "Emplacements d'Utilisation de Grenades",
+          "zh-CN": "手榴弹使用栏位",
+          "no": "Granatbruksplasser",
+          "ru": "Слоты Использования Гранат",
+          "it": "Slot Uso Granate",
+          "uk": "Слоти Використання Гранат",
+          "sr": "Mesta za Upotrebu Granata",
+          "ja": "グレネード使用スロット",
+          "kr": "수류탄 사용 슬롯",
+          "pt": "Espaços de Uso de Granadas",
+          "es": "Espacios de Uso de Granadas",
+          "value": 2
+        },
+        "Weight Limit": {
+          "en": "Weight Limit",
+          "de": "Gewichtslimit",
+          "tr": "Ağırlık Sınırı",
+          "da": "Vægtgrænse",
+          "hr": "Ograničenje Težine",
+          "pl": "Limit Wagi",
+          "zh-TW": "重量限制",
+          "fr": "Limite de Poids",
+          "zh-CN": "重量限制",
+          "no": "Vektgrense",
+          "ru": "Лимит Веса",
+          "it": "Limite di Peso",
+          "uk": "Ліміт Ваги",
+          "sr": "Ograničenje Težine",
+          "ja": "重量制限",
+          "kr": "무게 제한",
+          "pt": "Limite de Peso",
+          "es": "Límite de Peso",
+          "value": 65
+        },
+        "Shield Compatibility": {
+          "en": "Shield Compatibility",
+          "de": "Schildkompatibilität",
+          "tr": "Kalkan Uyumluluğu",
+          "da": "Skjoldkompatibilitet",
+          "hr": "Kompatibilnost Štita",
+          "pl": "Kompatybilność Tarczy",
+          "zh-TW": "護盾相容性",
+          "fr": "Compatibilité de Bouclier",
+          "zh-CN": "护盾兼容性",
+          "no": "Skjoldkompatibilitet",
+          "ru": "Совместимость со Щитом",
+          "it": "Compatibilità Scudo",
+          "uk": "Сумісність зі Щитом",
+          "sr": "Kompatibilnost Štita",
+          "ja": "シールド互換性",
+          "kr": "방패 호환성",
+          "pt": "Compatibilidade de Escudo",
+          "es": "Compatibilidad de Escudo",
+          "value": "Light, Medium, Heavy"
+        }
+      },
+      "weightKg": 5,
+      "value": 5000,
+      "recipe": {
+        "advanced_electrical_components": 2,
+        "processor": 3
+      },
+      "craftBench": "equipment_bench",
+      "stationLevelRequired": 3,
+      "blueprintLocked": true,
+      "repairCost": {
+        "advanced_electrical_components": 1,
+        "processor": 2
+      },
+      "repairDurability": 50,
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "processor": 1
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
+      "updatedAt": "11/13/2025"
     },
     {
       "id": "compensator_i",
@@ -6964,10 +7504,6 @@
         "Bobcat",
         "Tempest"
       ],
-      "crafting": {
-        "metal_parts": 6,
-        "wires": 1
-      },
       "recyclesInto": {
         "metal_parts": 5
       },
@@ -7622,10 +8158,10 @@
       },
       "rarity": "Rare",
       "type": "Recyclable",
-      "value": 640,
+      "value": 1000,
       "recyclesInto": {
         "rubber_parts": 3,
-        "battery": 5
+        "battery": 3
       },
       "description": {
         "en": "Can be recycled into crafting materials.",
@@ -7649,7 +8185,7 @@
       },
       "foundIn": "Medical",
       "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
-      "updatedAt": "10/30/2025"
+      "updatedAt": "11/14/2025"
     },
     {
       "id": "crude_explosives",
@@ -7838,7 +8374,7 @@
       "description": {
         "en": "Unlocks a door to the Control Tower on Dam Battlegrounds.",
         "de": "Öffnet eine Tür zum Kontrollturm auf dem Damm-Schlachtfeld.",
-        "fr": "Déverrouille une porte vers la tour de contrôle sur le champ de bataille du barrage.",
+        "fr": "Déverrouille une porte de la Tour de Contrôle au Champ de Bataille du Barrage.",
         "es": "Desbloquea una puerta a la torre de control en el campo de batalla de la presa.",
         "pt": "Desbloqueia uma porta para a torre de controle no campo de batalha da represa.",
         "pl": "Otwiera drzwi do wieży kontrolnej na polu bitwy tamy.",
@@ -7965,7 +8501,7 @@
       "name": {
         "en": "Dam Testing Annex Key",
         "de": "Damm-Testannex-Schlüssel",
-        "fr": "Clé de l'annexe de test du barrage",
+        "fr": "Clé de l'annexe d'essai du barrage",
         "es": "Llave del anexo de pruebas de la presa",
         "pt": "Chave do anexo de testes da barragem",
         "pl": "Klucz do aneksu testowego zapory",
@@ -7985,7 +8521,7 @@
       "description": {
         "en": "Unlocks a door in the Testing Annex on Dam Battlegrounds.",
         "de": "Öffnet eine Tür im Testannex auf dem Damm-Schlachtfeld.",
-        "fr": "Déverrouille une porte dans l'annexe de test sur le champ de bataille du barrage.",
+        "fr": "Déverrouille une porte de l'annexe d'Essai au Champ de Bataille du Barrage.",
         "es": "Desbloquea una puerta en el anexo de pruebas en el campo de batalla de la presa.",
         "pt": "Desbloqueia uma porta no anexo de testes no campo de batalha da barragem.",
         "pl": "Otwiera drzwi w aneksie testowym na polu bitwy zapory.",
@@ -8121,7 +8657,7 @@
         "de": "Beschädigte ARC-Energiezelle",
         "fr": "Cellule d'énergie ARC endommagée",
         "es": "Celda de energía ARC dañada",
-        "pt": "Célula de energia ARC danificada",
+        "pt": "Bateria ARC danificada",
         "pl": "Uszkodzone ogniwo zasilające ARC",
         "no": "Skadet ARC-energicelle",
         "da": "Beskadiget ARC-energicelle",
@@ -8170,6 +8706,56 @@
       "foundIn": "ARC",
       "updatedAt": "11/10/2025",
       "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_powercell.png"
+    },
+    {
+      "id": "damaged_fireball_burner",
+      "name": {
+        "en": "Damaged Fireball Burner",
+        "de": "Beschädigter Feuerball-Brenner",
+        "fr": "Brûleur de boule de feu endommagé",
+        "es": "Quemador de bola de fuego dañado",
+        "pt": "Queimador de bola de fogo danificado",
+        "pl": "Uszkodzony palnik ognistej kuli",
+        "no": "Skadet ildkulebrenner",
+        "da": "Beskadiget ildkuglebrænder",
+        "it": "Bruciatore di palla di fuoco danneggiato",
+        "ja": "破損したファイアボールバーナー",
+        "kr": "손상된 화염구 버너",
+        "zh-CN": "损坏的火球燃烧器",
+        "zh-TW": "損壞的火球燃燒器",
+        "ru": "Поврежденная горелка огненного шара",
+        "tr": "Hasarlı Ateş Topu Yakıcı",
+        "uk": "Пошкоджений вогняний палач",
+        "sr": "Оштећени бацач ватрених лопти",
+        "hr": "Oštećeni bacač vatrenih kugli"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可以回收为制作材料。",
+        "zh-TW": "可以回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "İşleme malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Може се рециклирати у материјале за израду.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "type": "Recyclable",
+      "rarity": "Common",
+      "weightKg": 1,
+      "stackSize": 3,
+      "foundIn": "ARC",
+      "imageFilename": "https://cdn.arctracker.io/items/damaged_fireball_burner.png",
+      "updatedAt": "11/16/2025"
     },
     {
       "id": "damaged_heat_sink",
@@ -8392,6 +8978,56 @@
       "updatedAt": "10/30/2025"
     },
     {
+      "id": "damaged_wasp_drive",
+      "name": {
+        "en": "Damaged Wasp Drive",
+        "de": "Beschädigter Wespen-Antrieb",
+        "fr": "Propulseur Wasp endommagé",
+        "es": "Propulsor Wasp dañado",
+        "pt": "Propulsor Wasp danificado",
+        "pl": "Uszkodzony napęd Wasp",
+        "no": "Skadet Wasp-drift",
+        "da": "Beskadiget Wasp-drev",
+        "it": "Propulsore Wasp danneggiato",
+        "ja": "破損したワスプドライブ",
+        "kr": "손상된 와스프 드라이브",
+        "zh-CN": "损坏的黄蜂驱动器",
+        "zh-TW": "損壞的黃蜂驅動器",
+        "ru": "Поврежденный привод Wasp",
+        "tr": "Hasarlı Wasp Sürücüsü",
+        "uk": "Пошкоджений привід Wasp",
+        "sr": "Oštećeni Wasp pogon",
+        "hr": "Oštećeni Wasp pogon"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux de fabrication.",
+        "es": "Puede reciclarse en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "type": "Recyclable",
+      "rarity": "Common",
+      "weightKg": 0.25,
+      "stackSize": 3,
+      "foundIn": "ARC",
+      "imageFilename": "https://cdn.arctracker.io/items/damaged_wasp_drive.png",
+      "updatedAt": "11/04/2025"
+    },
+    {
       "id": "damaged_wasp_driver",
       "name": {
         "en": "Damaged Wasp Driver",
@@ -8493,6 +9129,124 @@
       "updatedAt": "11/06/2025"
     },
     {
+      "name": {
+        "en": "Deadline",
+        "de": "Frist",
+        "fr": "Mine à retardement",
+        "es": "Plazo límite",
+        "pt": "Prazo final",
+        "pl": "Termin",
+        "no": "Tidsfrist",
+        "da": "Deadline",
+        "it": "Scadenza",
+        "ja": "デッドライン",
+        "kr": "데드라인",
+        "zh-CN": "最后期限",
+        "zh-TW": "最後期限",
+        "ru": "Крайний срок",
+        "tr": "Son Tarih",
+        "uk": "Кінцевий термін",
+        "sr": "Rok",
+        "hr": "Rok"
+      },
+      "description": {
+        "en": "A mine that deals damage to anything within its radius once the timer runs out.",
+        "de": "Eine Mine, die allem in ihrem Radius Schaden zufügt, sobald der Timer abläuft.",
+        "fr": "Une mine qui inflige des dégâts à tout ce qui se trouve dans son rayon une fois le compte à rebours terminé.",
+        "es": "Una mina que inflige daño a todo lo que esté dentro de su radio cuando se agota el temporizador.",
+        "pt": "Uma mina que causa dano a tudo dentro do seu raio quando o temporizador acaba.",
+        "pl": "Mina zadająca obrażenia wszystkiemu w swoim promieniu po upływie czasu.",
+        "no": "En mine som gjør skade på alt innenfor dens radius når tidtakeren løper ut.",
+        "da": "En mine der giver skade til alt inden for dens radius når timeren udløber.",
+        "it": "Una mina che infligge danni a tutto ciò che si trova nel suo raggio quando il timer scade.",
+        "ja": "タイマーが切れると範囲内のすべてにダメージを与える地雷。",
+        "kr": "타이머가 끝나면 반경 내의 모든 것에 피해를 입히는 지뢰입니다.",
+        "zh-CN": "一种在计时器耗尽后对半径内的任何目标造成伤害的地雷。",
+        "zh-TW": "一種在計時器耗盡後對半徑內的任何目標造成傷害的地雷。",
+        "ru": "Мина, которая наносит урон всему в радиусе действия после истечения таймера.",
+        "tr": "Zamanlayıcı bittiğinde yarıçapı içindeki her şeye hasar veren bir mayın.",
+        "uk": "Міна, яка завдає шкоди всьому в радіусі дії після закінчення таймера.",
+        "sr": "Mina koja nanosi štetu svemu u svom radijusu kada istekne tajmer.",
+        "hr": "Mina koja nanosi štetu svemu u svom radijusu kada istekne mjerač vremena."
+      },
+      "id": "deadline",
+      "type": "Quick Use",
+      "value": 2700,
+      "rarity": "Epic",
+      "weightKg": 1,
+      "stackSize": 1,
+      "effects": {
+        "Damage": {
+          "en": "Damage",
+          "de": "Schaden",
+          "fr": "Dégâts",
+          "es": "Daño",
+          "pt": "Dano",
+          "pl": "Obrażenia",
+          "no": "Skade",
+          "da": "Skade",
+          "it": "Danno",
+          "ja": "ダメージ",
+          "kr": "피해",
+          "zh-CN": "伤害",
+          "zh-TW": "傷害",
+          "ru": "Урон",
+          "tr": "Hasar",
+          "uk": "Шкода",
+          "sr": "Šteta",
+          "hr": "Šteta",
+          "value": 1000
+        },
+        "Radius": {
+          "en": "Radius",
+          "de": "Radius",
+          "fr": "Rayon",
+          "es": "Radio",
+          "pt": "Raio",
+          "pl": "Promień",
+          "no": "Radius",
+          "da": "Radius",
+          "it": "Raggio",
+          "ja": "範囲",
+          "kr": "반경",
+          "zh-CN": "半径",
+          "zh-TW": "半徑",
+          "ru": "Радиус",
+          "tr": "Yarıçap",
+          "uk": "Радіус",
+          "sr": "Radijus",
+          "hr": "Radijus",
+          "value": "10m"
+        },
+        "Timer Duration": {
+          "en": "Timer Duration",
+          "de": "Timer-Dauer",
+          "fr": "Chrono",
+          "es": "Duración del temporizador",
+          "pt": "Duração do temporizador",
+          "pl": "Czas trwania timera",
+          "no": "Tidtakervarighet",
+          "da": "Timervarighed",
+          "it": "Durata timer",
+          "ja": "タイマー時間",
+          "kr": "타이머 지속시간",
+          "zh-CN": "计时器持续时间",
+          "zh-TW": "計時器持續時間",
+          "ru": "Длительность таймера",
+          "tr": "Zamanlayıcı Süresi",
+          "uk": "Тривалість таймера",
+          "sr": "Trajanje tajmera",
+          "hr": "Trajanje mjerača vremena",
+          "value": "6s"
+        }
+      },
+      "recyclesInto": {
+        "explosive_compound": 1
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
       "id": "defibrillator_blueprint",
       "name": {
         "en": "Defibrillator Blueprint",
@@ -8517,7 +9271,7 @@
       "description": {
         "en": "An injection that quickly revives downed raiders and restores some health.",
         "de": "Eine Injektion, die niedergeschlagene Raider schnell wiederbelebt und etwas Gesundheit wiederherstellt.",
-        "fr": "Une injection qui ranime rapidement les raiders tombés et restaure un peu de santé.",
+        "fr": "Une injection qui permet de réanimer rapidement les Raiders à terre et de leur redonner quelques points de santé.",
         "es": "Una inyección que revive rápidamente a los saqueadores caídos y restaura algo de salud.",
         "pt": "Uma injeção que revive rapidamente saqueadores caídos e restaura um pouco de saúde.",
         "pl": "Zastrzyk, który szybko przywraca do życia powalonych najeźdźców i przywraca trochę zdrowia.",
@@ -8567,7 +9321,7 @@
       "description": {
         "en": "An injection that quickly revives downed raiders and restores some health.",
         "de": "Eine Injektion, die niedergeschlagene Raider schnell wiederbelebt und etwas Gesundheit wiederherstellt.",
-        "fr": "Une injection qui ranime rapidement les raiders tombés et restaure un peu de santé.",
+        "fr": "Une injection qui permet de réanimer rapidement les Raiders à terre et de leur redonner quelques points de santé.",
         "es": "Una inyección que revive rápidamente a los saqueadores caídos y restaura algo de salud.",
         "pt": "Uma injeção que revive rapidamente saqueadores caídos e restaura um pouco de saúde.",
         "pl": "Zastrzyk, który szybko przywraca do życia powalonych najeźdźców i przywraca trochę zdrowia.",
@@ -8891,7 +9645,7 @@
       "description": {
         "en": "A locking mechanism that can be placed on large metal doors to limit access.",
         "de": "Ein Verriegelungsmechanismus, der an großen Metalltüren angebracht werden kann, um den Zugang zu beschränken.",
-        "fr": "Un mécanisme de verrouillage qui peut être placé sur de grandes portes métalliques pour limiter l'accès.",
+        "fr": "Un mécanisme de verrouillage à placer sur les grandes portes métalliques pour en limiter l'accès.",
         "es": "Un mecanismo de bloqueo que se puede colocar en puertas metálicas grandes para limitar el acceso.",
         "pt": "Um mecanismo de travamento que pode ser colocado em grandes portas de metal para limitar o acesso.",
         "pl": "Mechanizm blokujący, który można umieścić na dużych metalowych drzwiach, aby ograniczyć dostęp.",
@@ -9004,7 +9758,7 @@
       "description": {
         "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II",
         "de": "Wird zur Herstellung einer Vielzahl von Gegenständen verwendet. Kann zu Handwerksmaterialien recycelt werden. Wird verwendet für: Stabiler Schaft I, Vertikalgriff I, Abgewinkelter Griff I, Vertikalgriff II, Abgewinkelter Griff II",
-        "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Crosse stable I, Poignée verticale I, Poignée angulaire I, Poignée verticale II, Poignée angulaire II",
+        "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Crosse stable I, Poignée verticale I, Poignée coudée I, Poignée verticale II, Poignée coudée II",
         "es": "Se usa para fabricar una amplia gama de objetos. Se puede reciclar en materiales de fabricación. Se usa para fabricar: Culata estable I, Empuñadura vertical I, Empuñadura angular I, Empuñadura vertical II, Empuñadura angular II",
         "pt": "Usada para fabricar uma ampla gama de itens. Pode ser reciclada em materiais de fabricação. Usada para fabricar: Coronha estável I, Empunhadura vertical I, Empunhadura angular I, Empunhadura vertical II, Empunhadura angular II",
         "pl": "Używana do wytwarzania szerokiej gamy przedmiotów. Można przetworzyć na materiały rzemieślnicze. Używana do wytworzenia: Stabilna kolba I, Chwyt pionowy I, Chwyt skośny I, Chwyt pionowy II, Chwyt skośny II",
@@ -9111,7 +9865,7 @@
       "description": {
         "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade",
         "de": "Wird zur Herstellung einer Vielzahl von Gegenständen verwendet. Kann zu Handwerksmaterialien recycelt werden. Wird verwendet für: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge-Schildauflader, Köder-Granate",
-        "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Tactical Mk. 2, Combat 2, Looting Mk. 2, Rechargeur de bouclier Surge, Grenade leurre",
+        "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Tactique 2, Combat 2, Butin 2, Rechargeur de bouclier d'impulsion, Grenade leurre",
         "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Recargador de escudo Surge, Granada señuelo",
         "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Recarregador de escudo Surge, Granada isca",
         "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Ładowarka tarczy Surge, Granat wabik",
@@ -9248,10 +10002,6 @@
         "Jupiter"
       ],
       "imageFilename": "https://cdn.arctracker.io/items/energy_clip.png",
-      "crafting": {
-        "metal_parts": 4,
-        "chemicals": 2
-      },
       "value": 5,
       "weightKg": 0.3,
       "stackSize": 5,
@@ -9284,6 +10034,26 @@
         "hr": "Nacrt Izjednačivača",
         "pt": "Projeto do Equalizador",
         "da": "Equalizer-tegning"
+      },
+      "description": {
+        "en": "A high capacity experimental beam rifle.",
+        "de": "Ein experimentelles Strahlengewehr mit hoher Kapazität.",
+        "uk": "Експериментальна променева гвинтівка великої ємності.",
+        "ru": "Экспериментальная лучевая винтовка большой ёмкости.",
+        "zh-TW": "一把高容量的實驗性光束步槍。",
+        "tr": "Yüksek kapasiteli deneysel bir ışın tüfeği.",
+        "zh-CN": "一把高容量的实验性光束步枪。",
+        "it": "Un fucile a raggi sperimentale ad alta capacità.",
+        "kr": "고용량 실험용 빔 라이플.",
+        "sr": "Eksperimentalna zrakasta puška velikog kapaciteta.",
+        "pl": "Eksperymentalna strzelba wiązkowa o dużej pojemności.",
+        "no": "En eksperimentell strålerifle med høy kapasitet.",
+        "ja": "高容量の実験的ビームライフル。",
+        "fr": "Un fusil à faisceau expérimental de grande capacité.",
+        "es": "Un rifle de rayos experimental de alta capacidad.",
+        "hr": "Eksperimentalna zrakasta puška velikog kapaciteta.",
+        "pt": "Um rifle de raios experimental de alta capacidade.",
+        "da": "En eksperimentel stråleriffel med høj kapacitet."
       },
       "type": "Blueprint",
       "rarity": "Legendary",
@@ -9428,7 +10198,7 @@
           "value": "Very Strong"
         }
       },
-      "weight": 14,
+      "weightKg": 14,
       "value": 27500,
       "recipe": {
         "magnetic_accelerator": 3,
@@ -9438,11 +10208,11 @@
       "craftBench": "weapon_bench",
       "stationLevelRequired": 3,
       "blueprintLocked": true,
-      "recycledMaterial": {
+      "recyclesInto": {
         "magnetic_accelerator": 2,
         "complex_gun_parts": 1
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "magnetic_accelerator": 1
       },
       "repairCost": {
@@ -9495,7 +10265,8 @@
         "sr": "Specijalizovan medicinski uređaj za analizu brzine sedimentacije eritrocita."
       },
       "type": "Misc",
-      "updatedAt": "10/30/2025"
+      "updatedAt": "10/30/2025",
+      "rarity": "Common"
     },
     {
       "id": "exodus_modules",
@@ -9504,7 +10275,7 @@
         "de": "Exodus-Module",
         "fr": "Modules de l'Exode",
         "es": "Módulos Exodus",
-        "pt": "Módulos Exodus",
+        "pt": "Módulos de Êxodo",
         "pl": "Moduły Exodus",
         "no": "Exodus-moduler",
         "da": "Exodus-moduler",
@@ -9522,7 +10293,7 @@
       "description": {
         "en": "Used to craft a wide range of items. Used to craft: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
         "de": "Wird zur Herstellung verschidenster Gegenstände verwendet. Wird verwendet für: Tempest, Vulcano, Hüllenbrecher, Bobcat, Karabinerhacken",
-        "fr": "Permet de fabriquer une large gamme d'objets. Permet de fabriquer : Tempête, Vulcano, Brise-fuselage, Bobcat, Snap Hook",
+        "fr": "Permet de fabriquer toute une panoplie d'objets. Permet de fabriquer : Tempête, Vulcano, Brise-fuselage, Lynx, Mousqueton",
         "es": "Se usa para fabricar una amplia gama de objetos. Se usa para fabricar: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
         "pt": "Usado para fabricar uma ampla variedade de itens. Usado para fabricar: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
         "pl": "Używane do wytwarzania szerokiej gamy przedmiotów. Używane do wytworzenia: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
@@ -9545,7 +10316,7 @@
       "stackSize": 3,
       "foundIn": "Exodus",
       "recyclesInto": {
-        "wires": 2,
+        "magnet": 2,
         "processor": 2
       },
       "salvagesInto": {
@@ -9699,6 +10470,9 @@
         "rubber_parts": 8,
         "fabric": 4
       },
+      "salvagesInto": {
+        "rubber_parts": 5
+      },
       "weightKg": 2,
       "stackSize": 3,
       "foundIn": "Medical",
@@ -9759,53 +10533,107 @@
         "crude_explosives": 2,
         "oil": 2
       },
+      "recyclesInto": {
+        "chemicals": 2
+      },
       "craftBench": "refiner"
     },
     {
-      "id": "explosive_mixture",
       "name": {
-        "en": "Explosive Mixture",
-        "de": "Explosivgemisch",
-        "fr": "Mélange explosif",
-        "es": "Mezcla explosiva",
-        "pt": "Mistura explosiva",
-        "pl": "Mieszanka wybuchowa",
-        "no": "Eksplosiv blanding",
-        "da": "Eksplosiv blanding",
-        "it": "Miscela esplosiva",
-        "ru": "Взрывчатая смесь",
-        "ja": "爆発性混合物",
-        "zh-TW": "爆炸混合物",
-        "uk": "Вибухова суміш",
-        "zh-CN": "爆炸混合物",
-        "kr": "폭발성 혼합물",
-        "tr": "Patlayıcı Karışım",
-        "hr": "Eksplozivna Mješavina",
-        "sr": "Eksplozivna Mešavina"
+        "en": "Extended Barrel",
+        "de": "Verlängerter Lauf",
+        "fr": "Canon prolongé",
+        "es": "Cañón extendido",
+        "pt": "Cano estendido",
+        "pl": "Wydłużona lufa",
+        "no": "Forlenget løp",
+        "da": "Forlænget løb",
+        "it": "Canna estesa",
+        "ja": "延長バレル",
+        "kr": "연장 총열",
+        "zh-CN": "加长枪管",
+        "zh-TW": "加長槍管",
+        "ru": "Удлиненный ствол",
+        "tr": "Uzatılmış Namlu",
+        "uk": "Подовжений ствол",
+        "sr": "Produžena cev",
+        "hr": "Produžena cijev"
       },
       "description": {
-        "en": "A volatile crafting component.",
-        "de": "Eine volatile Handwerkskomponente.",
-        "fr": "Un composant de fabrication volatile.",
-        "es": "Un componente de fabricación volátil.",
-        "pt": "Um componente de fabricação volátil.",
-        "pl": "Niestabilny komponent rzemieślniczy.",
-        "no": "En flyktig håndverkskomponent.",
-        "da": "En flygtig håndværkskomponent.",
-        "it": "Un componente da crafting volatile.",
-        "ru": "Нестабильный компонент для крафта.",
-        "ja": "不安定な製作素材。",
-        "zh-TW": "不穩定的製作材料。",
-        "uk": "Нестабільний компонент для крафту.",
-        "zh-CN": "不稳定的制作材料。",
-        "kr": "불안정한 제작 재료입니다.",
-        "tr": "Uçucu bir üretim bileşeni.",
-        "hr": "Nestabilna komponenta za izradu.",
-        "sr": "Nestabilna komponenta za izradu."
+        "en": "Moderately increases bullet velocity. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "de": "Erhöht die Geschossgeschwindigkeit mäßig. Kompatibel mit: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "fr": "Augmente modérément la vélocité des balles. Compatible avec : Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "es": "Aumenta moderadamente la velocidad de las balas. Compatible con: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "pt": "Aumenta moderadamente a velocidade das balas. Compatível com: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "pl": "Umiarkowanie zwiększa prędkość pocisku. Kompatybilny z: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "no": "Øker kulehastigheten moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "da": "Øger kuglehastigheden moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "it": "Aumenta moderatamente la velocità dei proiettili. Compatibile con: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "ja": "弾速を適度に増加させます。対応武器：Tempest、Arpeggio、Ferro、Renegade、Anvil",
+        "kr": "탄환 속도를 적당히 증가시킵니다. 호환 무기: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "zh-CN": "适度提升子弹速度。兼容武器：Tempest、Arpeggio、Ferro、Renegade、Anvil",
+        "zh-TW": "適度提升子彈速度。相容武器：Tempest、Arpeggio、Ferro、Renegade、Anvil",
+        "ru": "Умеренно увеличивает скорость пули. Совместимо с: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "tr": "Mermi hızını orta düzeyde artırır. Uyumlu silahlar: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "uk": "Помірно збільшує швидкість кулі. Сумісно з: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "sr": "Umereno povećava brzinu metka. Kompatibilno sa: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+        "hr": "Umjereno povećava brzinu metka. Kompatibilno s: Tempest, Arpeggio, Ferro, Renegade, Anvil"
       },
-      "type": "Material",
-      "imageFilename": "https://cdn.arctracker.io/items/explosive_mixture.png",
-      "updatedAt": "10/30/2025"
+      "id": "extended_barrel",
+      "type": "Modification",
+      "value": 5000,
+      "rarity": "Epic",
+      "weightKg": 0.5,
+      "effects": {
+        "Increased Bullet Velocity": {
+          "en": "Increased Bullet Velocity",
+          "de": "Erhöhte Geschossgeschwindigkeit",
+          "fr": "Vélocité des balles augmentée",
+          "es": "Velocidad de bala aumentada",
+          "pt": "Velocidade de bala aumentada",
+          "pl": "Zwiększona prędkość pocisku",
+          "no": "Økt kulehastighet",
+          "da": "Øget kuglehastighed",
+          "it": "Velocità proiettile aumentata",
+          "ja": "弾速増加",
+          "kr": "탄환 속도 증가",
+          "zh-CN": "子弹速度提升",
+          "zh-TW": "子彈速度提升",
+          "ru": "Увеличенная скорость пули",
+          "tr": "Artırılmış Mermi Hızı",
+          "uk": "Збільшена швидкість кулі",
+          "sr": "Povećana brzina metka",
+          "hr": "Povećana brzina metka",
+          "value": "25%"
+        },
+        "Increased Vertical Recoil": {
+          "en": "Increased Vertical Recoil",
+          "de": "Erhöhter vertikaler Rückstoß",
+          "fr": "Recul vertical augmenté",
+          "es": "Retroceso vertical aumentado",
+          "pt": "Recuo vertical aumentado",
+          "pl": "Zwiększony odrzut pionowy",
+          "no": "Økt vertikal rekyl",
+          "da": "Øget lodret rekyl",
+          "it": "Rinculo verticale aumentato",
+          "ja": "垂直反動増加",
+          "kr": "수직 반동 증가",
+          "zh-CN": "垂直后坐力增加",
+          "zh-TW": "垂直後座力增加",
+          "ru": "Увеличенная вертикальная отдача",
+          "tr": "Artırılmış Dikey Tepme",
+          "uk": "Збільшена вертикальна віддача",
+          "sr": "Povećan vertikalni trzaj",
+          "hr": "Povećan vertikalni trzaj",
+          "value": "15%"
+        }
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/extended_barrel.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "mod_components": 1,
+        "wires": 1
+      }
     },
     {
       "id": "extended_light_mag_i",
@@ -9860,10 +10688,6 @@
         "Burletta",
         "Bobcat"
       ],
-      "crafting": {
-        "plastic_parts": 6,
-        "steel_spring": 1
-      },
       "recyclesInto": {
         "plastic_parts": 6
       },
@@ -10043,7 +10867,11 @@
       },
       "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_iii.png",
       "value": 5000,
-      "updatedAt": "10/30/2025"
+      "updatedAt": "10/30/2025",
+      "recyclesInto": {
+        "mod_components": 1,
+        "steel_spring": 2
+      }
     },
     {
       "id": "extended_medium_mag_i",
@@ -10070,7 +10898,7 @@
       "description": {
         "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente",
         "de": "Erweitert die Munitionskapazität kompatibler Waffen mit mittlerer Munition mäßig. Kompatibel mit: Arpeggio, Renegade, Venator, Tempest, Torrente",
-        "fr": "Augmente modérément la capacité de munitions des armes compatibles utilisant des munitions moyennes. Compatible avec : Arpeggio, Renegade, Venator, Tempest, Torrente",
+        "fr": "Augmente modérément la capacité de munitions des armes compatibles utilisant des munitions moyennes. Compatible avec : Arpège, Renégat, Venator, Tempête, Torrente",
         "es": "Extiende moderadamente la capacidad de munición de armas compatibles que usan munición mediana. Compatible con: Arpeggio, Renegade, Venator, Tempest, Torrente",
         "pt": "Estende moderadamente a capacidade de munição de armas compatíveis que usam munição média. Compatível com: Arpeggio, Renegade, Venator, Tempest, Torrente",
         "pl": "Umiarkowanie zwiększa pojemność amunicji kompatybilnej broni używającej średniej amunicji. Kompatybilny z: Arpeggio, Renegade, Venator, Tempest, Torrente",
@@ -10941,7 +11769,7 @@
       "type": "Battle Rifle",
       "rarity": "Common",
       "value": 475,
-      "recyleInto": {
+      "recycleInto": {
         "metal_parts": 2,
         "rubber_parts": 1
       },
@@ -11968,6 +12796,190 @@
       "updatedAt": "11/04/2025"
     },
     {
+      "name": {
+        "en": "Flow Controller",
+        "de": "Durchflussregler",
+        "fr": "Régulateur de Flux",
+        "es": "Controlador de Flujo",
+        "pt": "Controlador de Fluxo",
+        "pl": "Regulator Przepływu",
+        "no": "Strømningskontroller",
+        "da": "Strømningskontroller",
+        "it": "Regolatore di Flusso",
+        "ja": "フローコントローラー",
+        "kr": "유량 조절기",
+        "zh-CN": "流量控制器",
+        "zh-TW": "流量控制器",
+        "ru": "Регулятор Потока",
+        "tr": "Akış Kontrolcüsü",
+        "uk": "Регулятор Потоку",
+        "sr": "Kontroler Protoka",
+        "hr": "Regulator Protoka"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "flow_controller",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "value": 3000,
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "advanced_mechanical_components": 1,
+        "sensors": 1
+      }
+    },
+    {
+      "id": "free_loadout_augment",
+      "name": {
+        "en": "Free Loadout Augment",
+        "de": "Kostenlose Ausrüstungserweiterung",
+        "fr": "Amélioration de chargement gratuite",
+        "es": "Aumento de equipamiento gratuito",
+        "pt": "Aumento de equipamento gratuito",
+        "pl": "Darmowe ulepszenie wyposażenia",
+        "no": "Gratis utstyrsforsterkning",
+        "da": "Gratis udstyrsforbedring",
+        "it": "Potenziamento equipaggiamento gratuito",
+        "ja": "無料ロードアウト強化",
+        "kr": "무료 장비 강화",
+        "zh-CN": "免费装备增强",
+        "zh-TW": "免費裝備增強",
+        "ru": "Бесплатное улучшение снаряжения",
+        "tr": "Ücretsiz donanım güçlendirmesi",
+        "uk": "Безкоштовне покращення спорядження",
+        "sr": "Besplatno poboljšanje opreme",
+        "hr": "Besplatno poboljšanje opreme"
+      },
+      "description": {
+        "en": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
+        "de": "Grundlegende Erweiterung für Anfänger-Raider, bietet etwas mehr Rucksackplatz und Tragekapazität.",
+        "fr": "Amélioration basique pour les Raiders débutants, offrant un peu plus d'espace de sac à dos et de capacité de transport.",
+        "es": "Aumento básico para Raiders novatos, ofrece un poco más de espacio en la mochila y capacidad de carga.",
+        "pt": "Aumento básico para Raiders iniciantes, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+        "pl": "Podstawowe ulepszenie dla początkujących Raiderów, oferujące nieco więcej miejsca w plecaku i pojemności ładunkowej.",
+        "no": "Grunnleggende forsterkning for nybegynnere Raiders, gir litt mer sekkeplassplass og bærekapasitet.",
+        "da": "Grundlæggende forbedring til nybegynder Raiders, tilbyder lidt mere rygsækplads og bærekapacitet.",
+        "it": "Potenziamento base per Raiders principianti, offre un po' più di spazio nello zaino e capacità di carico.",
+        "ja": "初心者レイダー向けの基本強化で、バックパックスペースと運搬容量がわずかに増加します。",
+        "kr": "초보 레이더를 위한 기본 강화로, 배낭 공간과 운반 용량이 약간 증가합니다.",
+        "zh-CN": "新手掠夺者的基础增强，提供稍多的背包空间和负重能力。",
+        "zh-TW": "新手掠奪者的基礎增強，提供稍多的背包空間和負重能力。",
+        "ru": "Базовое улучшение для новичков-рейдеров, предоставляющее немного больше места в рюкзаке и грузоподъемности.",
+        "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
+        "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
+        "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
+        "hr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u ruksaku i nosivosti."
+      },
+      "type": "Augment",
+      "rarity": "Common",
+      "effects": {
+        "Durability": {
+          "en": "Durability",
+          "de": "Haltbarkeit",
+          "fr": "Durabilité",
+          "es": "Durabilidad",
+          "pt": "Durabilidade",
+          "pl": "Wytrzymałość",
+          "no": "Holdbarhet",
+          "da": "Holdbarhed",
+          "it": "Durabilità",
+          "ja": "耐久性",
+          "kr": "내구성",
+          "zh-CN": "耐久度",
+          "zh-TW": "耐久度",
+          "ru": "Прочность",
+          "tr": "Dayanıklılık",
+          "uk": "Міцність",
+          "sr": "Izdržljivost",
+          "hr": "Izdržljivost",
+          "value": 100
+        },
+        "Max Loadout Weight": null,
+        "Shield Compatibility": null
+      },
+      "value": 100,
+      "weightKg": 1,
+      "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
+      "updatedAt": "11/16/2025"
+    },
+    {
+      "name": {
+        "en": "Frequency Modulation Box",
+        "de": "Frequenzmodulationsbox",
+        "fr": "Boîte de modulation de fréquence",
+        "es": "Caja de modulación de frecuencia",
+        "pt": "Caixa de modulação de frequência",
+        "pl": "Skrzynka modulacji częstotliwości",
+        "no": "Frekvensmodulasjonsboks",
+        "da": "Frekvensmodulationsboks",
+        "it": "Scatola di modulazione di frequenza",
+        "ja": "周波数変調ボックス",
+        "kr": "주파수 변조 박스",
+        "zh-CN": "频率调制盒",
+        "zh-TW": "頻率調變盒",
+        "ru": "Коробка частотной модуляции",
+        "tr": "Frekans Modülasyon Kutusu",
+        "uk": "Коробка частотної модуляції",
+        "sr": "Kutija za modulaciju frekvencije",
+        "hr": "Kutija za modulaciju frekvencije"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "frequency_modulation_box",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/frequency_modulation_box.png",
+      "updatedAt": "11/14/2025",
+      "value": 3000,
+      "stackSize": 3,
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "speaker_component": 1
+      }
+    },
+    {
       "id": "fried_motherboard",
       "name": {
         "en": "Fried Motherboard",
@@ -12067,7 +13079,7 @@
       },
       "type": "Quick Use",
       "rarity": "Uncommon",
-      "weight": 0.3,
+      "weightKg": 0.3,
       "stackSize": 5,
       "value": 1800,
       "effects": {
@@ -12399,7 +13411,7 @@
       "description": {
         "en": "A grenade that emits a lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect.",
         "de": "Eine Granate, die bei Aufprall eine anhaltende Giftwolke freisetzt und die Ausdauer aller Raider in ihrem Wirkungsbereich entzieht.",
-        "fr": "Une grenade qui émet un nuage toxique persistant à l'impact, drainant l'endurance de tous les Raiders dans sa zone d'effet.",
+        "fr": "Une grenade qui génère un nuage toxique persistant à l'impact, drainant l'endurance de tous les Raiders se trouvant dans sa zone d'effet.",
         "es": "Una granada que emite una nube tóxica persistente al impactar, drenando la resistencia de cualquier saqueador dentro de su área de efecto.",
         "pt": "Uma granada que emite uma nuvem tóxica persistente no impacto, drenando a resistência de qualquer saqueador dentro de sua área de efeito.",
         "pl": "Granat, który emituje utrzymującą się toksyczną chmurę po uderzeniu, wyczerpując wytrzymałość wszystkich najeźdźców w swoim obszarze działania.",
@@ -12499,6 +13511,180 @@
       "craftBench": "explosives_bench"
     },
     {
+      "name": {
+        "en": "Gas Mine",
+        "de": "Gasmine",
+        "fr": "Mine à gaz",
+        "es": "Mina de gas",
+        "pt": "Mina de gás",
+        "pl": "Mina gazowa",
+        "no": "Gassmine",
+        "da": "Gasmine",
+        "it": "Mina a gas",
+        "ja": "ガス地雷",
+        "kr": "가스 지뢰",
+        "zh-CN": "毒气地雷",
+        "zh-TW": "毒氣地雷",
+        "ru": "Газовая мина",
+        "tr": "Gaz Mayını",
+        "uk": "Газова міна",
+        "sr": "Gasna mina",
+        "hr": "Plinska mina"
+      },
+      "description": {
+        "en": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
+        "de": "Eine annäherungsgesteuerte Mine, die hochschnellt und eine Gaswolke freisetzt, die schnell Ausdauer entzieht.",
+        "fr": "Une mine à déclenchement de proximité qui surgit et déploie un nuage de gaz qui draine rapidement l'endurance.",
+        "es": "Una mina activada por proximidad que emerge y despliega una nube de gas que drena rápidamente la resistencia.",
+        "pt": "Uma mina ativada por proximidade que surge e libera uma nuvem de gás que drena rapidamente a stamina.",
+        "pl": "Mina aktywowana zbliżeniem, która wyskakuje i uwalnia chmurę gazu szybko wyczerpującego wytrzymałość.",
+        "no": "En nærhetsaktivert mine som spretter opp og utløser en gassky som raskt tømmer utholdenhet.",
+        "da": "En nærhedsudløst mine der popper op og frigiver en gassky der hurtigt dræner udholdenhed.",
+        "it": "Una mina attivata dalla prossimità che emerge e rilascia una nube di gas che drena rapidamente la resistenza.",
+        "ja": "近接起動する地雷で、飛び出してスタミナを急速に消耗させるガス雲を展開する。",
+        "kr": "근접 감지로 작동하여 튀어나와 스태미나를 빠르게 소모시키는 가스 구름을 전개하는 지뢰입니다.",
+        "zh-CN": "一种近距离触发的地雷，会弹出并释放快速消耗耐力的毒气云。",
+        "zh-TW": "一種近距離觸發的地雷，會彈出並釋放快速消耗耐力的毒氣雲。",
+        "ru": "Мина с датчиком приближения, которая выскакивает и выпускает облако газа, быстро истощающее выносливость.",
+        "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak dayanıklılığı hızla tüketen bir gaz bulutu yayar.",
+        "uk": "Міна з датчиком наближення, яка вистрибує і випускає газову хмару, що швидко виснажує витривалість.",
+        "sr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak gasa koji brzo iscrpljuje izdržljivost.",
+        "hr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak plina koji brzo iscrpljuje izdržljivost."
+      },
+      "id": "gas_mine",
+      "type": "Quick Use",
+      "value": 270,
+      "rarity": "Common",
+      "weightKg": 0.25,
+      "stackSize": 3,
+      "effects": {
+        "Stamina Drain": {
+          "en": "Stamina Drain",
+          "de": "Ausdauerentzug",
+          "fr": "Drain d'endurance",
+          "es": "Drenaje de resistencia",
+          "pt": "Dreno de stamina",
+          "pl": "Wyczerpanie wytrzymałości",
+          "no": "Utholdenhetstap",
+          "da": "Udholdenhedstab",
+          "it": "Drenaggio resistenza",
+          "ja": "スタミナ消耗",
+          "kr": "스태미나 소모",
+          "zh-CN": "耐力消耗",
+          "zh-TW": "耐力消耗",
+          "ru": "Истощение выносливости",
+          "tr": "Dayanıklılık Tüketimi",
+          "uk": "Виснаження витривалості",
+          "sr": "Iscrpljivanje izdržljivosti",
+          "hr": "Iscrpljivanje izdržljivosti",
+          "value": "25/s"
+        },
+        "Duration": {
+          "en": "Duration",
+          "de": "Dauer",
+          "fr": "Durée",
+          "es": "Duración",
+          "pt": "Duração",
+          "pl": "Czas trwania",
+          "no": "Varighet",
+          "da": "Varighed",
+          "it": "Durata",
+          "ja": "持続時間",
+          "kr": "지속시간",
+          "zh-CN": "持续时间",
+          "zh-TW": "持續時間",
+          "ru": "Длительность",
+          "tr": "Süre",
+          "uk": "Тривалість",
+          "sr": "Trajanje",
+          "hr": "Trajanje",
+          "value": "20s"
+        },
+        "Radius": {
+          "en": "Radius",
+          "de": "Radius",
+          "fr": "Rayon",
+          "es": "Radio",
+          "pt": "Raio",
+          "pl": "Promień",
+          "no": "Radius",
+          "da": "Radius",
+          "it": "Raggio",
+          "ja": "範囲",
+          "kr": "반경",
+          "zh-CN": "半径",
+          "zh-TW": "半徑",
+          "ru": "Радиус",
+          "tr": "Yarıçap",
+          "uk": "Радіус",
+          "sr": "Radijus",
+          "hr": "Radijus",
+          "value": "7.5m"
+        }
+      },
+      "recyclesInto": {
+        "chemicals": 1,
+        "rubber_parts": 1
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
+      "name": {
+        "en": "Geiger Counter",
+        "de": "Geigerzähler",
+        "fr": "Compteur Geiger",
+        "es": "Contador Geiger",
+        "pt": "Contador Geiger",
+        "pl": "Licznik Geigera",
+        "no": "Geigerteller",
+        "da": "Geigertæller",
+        "it": "Contatore Geiger",
+        "ja": "ガイガーカウンター",
+        "kr": "가이거 계수기",
+        "zh-CN": "盖革计数器",
+        "zh-TW": "蓋革計數器",
+        "ru": "Счётчик Гейгера",
+        "tr": "Geiger Sayacı",
+        "uk": "Лічильник Гейгера",
+        "sr": "Gajgerov Brojač",
+        "hr": "Geigerov Brojač"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "geiger_counter",
+      "type": "Recyclable",
+      "value": 3500,
+      "rarity": "Epic",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/geiger_counter.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "battery": 3,
+        "exodus_modules": 1
+      }
+    },
+    {
       "id": "great_mullein",
       "name": {
         "en": "Great Mullein",
@@ -12577,7 +13763,7 @@
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
         "de": "Ein werfbares chemisches Licht, das die Umgebung beleuchtet.",
-        "fr": "Une lumière chimique jetable qui illumine la zone autour d'elle.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao redor.",
         "pl": "Rzucany chemiczny świecący patyk, który oświetla obszar wokół siebie.",
@@ -12627,7 +13813,7 @@
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
         "de": "Ein werfbares chemisches Licht, das die Umgebung beleuchtet.",
-        "fr": "Une lumière chimique jetable qui illumine la zone autour d'elle.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
         "pl": "Rzucane światło chemiczne, które oświetla obszar wokół niego.",
@@ -13704,7 +14890,7 @@
       "name": {
         "en": "Heavy Fuze Grenade",
         "de": "Schwere Zündergranate",
-        "fr": "Grenade à fusée lourde",
+        "fr": "Grenade lourde à retardement",
         "es": "Granada de mecha pesada",
         "pt": "Granada de fusível pesado",
         "pl": "Ciężki granat zapalnikowy",
@@ -13724,7 +14910,7 @@
       "description": {
         "en": "A grenade that detonates after a delay, dealing explosive damage in its radius.",
         "de": "Eine Granate, die nach einer Verzögerung detoniert und explosiven Schaden in ihrem Radius verursacht.",
-        "fr": "Une grenade qui détone après un délai, infligeant des dégâts explosifs dans son rayon.",
+        "fr": "Une grenade qui explose après un certain délai, infligeant des dégâts explosifs.",
         "es": "Una granada que detona tras un retraso, causando daño explosivo en su radio.",
         "pt": "Uma granada que detona após um atraso, causando dano explosivo em seu raio.",
         "pl": "Granat, który detonuje po opóźnieniu, zadając obrażenia wybuchowe w swoim zasięgu.",
@@ -13793,7 +14979,8 @@
       "imageFilename": "https://cdn.arctracker.io/items/heavy_fuze_grenade.png",
       "updatedAt": "11/03/2025",
       "recyclesInto": {
-        "oil": 3
+        "oil": 1,
+        "rubber_parts": 2
       },
       "recipe": {
         "explosive_compound": 1,
@@ -14171,7 +15358,11 @@
         "durable_cloth": 1,
         "great_mullein": 1
       },
-      "craftBench": "med_station"
+      "craftBench": "med_station",
+      "recyclesInto": {
+        "assorted_seeds": 2,
+        "fabric": 5
+      }
     },
     {
       "id": "horizontal_grip_blueprint",
@@ -14194,6 +15385,26 @@
         "kr": "수평 손잡이 설계도",
         "pl": "Projekt Chwytu Horyzontalnego",
         "hr": "Nacrt Horizontalnog Rukohvata"
+      },
+      "description": {
+        "en": "Moderately reduces per-shot dispersion.",
+        "it": "Riduce moderatamente la dispersione dei colpi.",
+        "da": "Reducerer moderat spredningen pr. skud.",
+        "uk": "Помірно зменшує розсіювання куль за постріл.",
+        "zh-TW": "適度降低每次射擊的彈著分散。",
+        "pt": "Reduz moderadamente a dispersão por disparo.",
+        "ru": "Умеренно снижает разброс пуль за выстрел.",
+        "de": "Reduziert die Streuung pro Schuss moderat.",
+        "fr": "Réduit modérément la dispersion par tir.",
+        "zh-CN": "适度降低每次射击的弹着分散。",
+        "no": "Reduserer moderat spredning per skudd.",
+        "tr": "Her atış başına saçılmayı orta düzeyde azaltır.",
+        "es": "Reduce moderadamente la dispersión por disparo.",
+        "sr": "Umereno smanjuje rasipanje metaka po hicu.",
+        "ja": "1発ごとの弾のばらつきを適度に軽減します。",
+        "kr": "발사당 탄 퍼짐을 적당히 감소시킵니다.",
+        "pl": "Umiarkowanie zmniejsza rozrzut pocisków na strzał.",
+        "hr": "Umjereno smanjuje rasipanje metaka po ispaljenom hicu."
       },
       "type": "Blueprint",
       "rarity": "Legendary",
@@ -14225,24 +15436,24 @@
         "hr": "Horizontalni Rukohvat"
       },
       "description": {
-        "en": "Moderately reduces both vertical and horizontal recoil.",
-        "it": "Riduce moderatamente sia il rinculo verticale che orizzontale.",
-        "da": "Reducerer moderat både lodret og vandret rekyl.",
-        "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
-        "zh-TW": "適度降低垂直和水平後座力。",
-        "pt": "Reduz moderadamente o recuo vertical e horizontal.",
-        "ru": "Умеренно снижает вертикальную и горизонтальную отдачу.",
-        "de": "Reduziert vertikalen und horizontalen Rückstoß moderat.",
-        "fr": "Réduit modérément le recul vertical et horizontal.",
-        "zh-CN": "适度降低垂直和水平后坐力。",
-        "no": "Reduserer moderat både vertikal og horisontal rekyl.",
-        "tr": "Hem dikey hem de yatay geri tepmesini orta düzeyde azaltır.",
-        "es": "Reduce moderadamente el retroceso vertical y horizontal.",
-        "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
-        "ja": "垂直および水平反動を適度に軽減します。",
-        "kr": "수직 및 수평 반동을 적당히 감소시킵니다.",
-        "pl": "Umiarkowanie redukuje odrzut pionowy i poziomy.",
-        "hr": "Umjereno smanjuje i vertikalni i horizontalni trzaj."
+        "en": "Moderately reduces per-shot dispersion.",
+        "it": "Riduce moderatamente la dispersione dei colpi.",
+        "da": "Reducerer moderat spredningen pr. skud.",
+        "uk": "Помірно зменшує розсіювання куль за постріл.",
+        "zh-TW": "適度降低每次射擊的彈著分散。",
+        "pt": "Reduz moderadamente a dispersão por disparo.",
+        "ru": "Умеренно снижает разброс пуль за выстрел.",
+        "de": "Reduziert die Streuung pro Schuss moderat.",
+        "fr": "Réduit modérément la dispersion par tir.",
+        "zh-CN": "适度降低每次射击的弹着分散。",
+        "no": "Reduserer moderat spredning per skudd.",
+        "tr": "Her atış başına saçılmayı orta düzeyde azaltır.",
+        "es": "Reduce moderadamente la dispersión por disparo.",
+        "sr": "Umereno smanjuje rasipanje metaka po hicu.",
+        "ja": "1発ごとの弾のばらつきを適度に軽減します。",
+        "kr": "발사당 탄 퍼짐을 적당히 감소시킵니다.",
+        "pl": "Umiarkowanie zmniejsza rozrzut pocisków na strzał.",
+        "hr": "Umjereno smanjuje rasipanje metaka po ispaljenom hicu."
       },
       "type": "Modification",
       "rarity": "Epic",
@@ -14312,7 +15523,7 @@
         }
       },
       "value": 7000,
-      "weight": 0.5,
+      "weightKg": 0.5,
       "recipe": {
         "mod_components": 2,
         "duct_tape": 5
@@ -14522,6 +15733,55 @@
       "updatedAt": "11/03/2025"
     },
     {
+      "id": "hullcracker_blueprint",
+      "name": {
+        "en": "Hullcracker Blueprint",
+        "it": "Progetto Hullcracker",
+        "da": "Hullcracker Blåtryk",
+        "uk": "Креслення Hullcracker",
+        "zh-TW": "碎艦者藍圖",
+        "pt": "Plano de Hullcracker",
+        "ru": "Чертёж Hullcracker",
+        "de": "Hullcracker-Bauplan",
+        "fr": "Plan de Brise-fuselage",
+        "zh-CN": "碎舰者蓝图",
+        "no": "Hullcracker-Blåkopi",
+        "tr": "Hullcracker Planı",
+        "es": "Planos de Hullcracker",
+        "sr": "Нацрт Хулкракера",
+        "ja": "ハルクラッカー設計図",
+        "kr": "헐크래커 설계도",
+        "pl": "Plan Hullcrackera",
+        "hr": "Nacrt Hullcrackera"
+      },
+      "description": {
+        "en": "Anti-ARC payloads used mainly by the Hullcracker.",
+        "it": "Carichi anti-ARC utilizzati principalmente dall'Hullcracker.",
+        "da": "Anti-ARC ladninger brugt primært af Hullcracker.",
+        "uk": "Протидіючі ARC боєприпаси, що переважно використовує Hullcracker.",
+        "zh-TW": "主要由碎艦者使用的反 ARC 彈頭。",
+        "pt": "Cargas anti-ARC usadas principalmente pelo Hullcracker.",
+        "ru": "Боеприпасы против ARC, используемые в основном Hullcracker.",
+        "de": "Anti-ARC-Nutzlasten, die hauptsächlich vom Hullcracker verwendet werden.",
+        "fr": "Charges anti-ARC principalement utilisées par le Brise-fuselage.",
+        "zh-CN": "主要由碎舰者使用的反 ARC 弹头。",
+        "no": "Anti-ARC-laster brukt hovedsakelig av Hullcracker.",
+        "tr": "Hullcracker tarafından ağırlıklı olarak kullanılan Anti-ARC mühimmatı.",
+        "es": "Cargas anti-ARC utilizadas principalmente por el Hullcracker.",
+        "sr": "Анти-ARC пројектили које углавном користи Хулкракер.",
+        "ja": "主にハルクラッカーが使用する対ARC弾頭。",
+        "kr": "주로 헐크래커가 사용하는 대-ARC 탄두입니다.",
+        "pl": "Ładunki przeciw ARC używane głównie przez Hullcrackera.",
+        "hr": "Anti-ARC punjenja koja uglavnom koristi Hullcracker."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "imageFilename": "https://cdn.arctracker.io/items/hullcracker_blueprint.png",
+      "rarity": "Legendary",
+      "updatedAt": "11/16/2025"
+    },
+    {
       "id": "hullcracker_i",
       "name": {
         "en": "Hullcracker I",
@@ -14675,6 +15935,10 @@
         }
       },
       "weightKg": 7,
+      "recyclesInto": {
+        "advanced_mechanical_components": 2,
+        "heavy_gun_parts": 2
+      },
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
       "updatedAt": "11/12/2025",
       "recipe": {
@@ -14701,7 +15965,7 @@
         "pl": "Łamacz Kadłubów II",
         "no": "Skrogknuser II",
         "ja": "ハルクラッカー II",
-        "fr": "Brise-coque II",
+        "fr": "Brise-fuselage II",
         "es": "Rompe Cascos II",
         "hr": "Lomač Trupa II",
         "pt": "Quebra-cascos II",
@@ -14842,11 +16106,11 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 2,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 2,
         "heavy_gun_parts": 3
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "heavy_gun_parts": 3
       },
       "description": {
@@ -14877,7 +16141,7 @@
       "stability": 97.2,
       "agility": 67.9,
       "stealth": 1,
-      "weight": 7,
+      "weightKg": 7,
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
       "updatedAt": "11/12/2025"
     },
@@ -14897,7 +16161,7 @@
         "pl": "Łamacz Kadłubów III",
         "no": "Skrogknuser III",
         "ja": "ハルクラッカー III",
-        "fr": "Brise-coque III",
+        "fr": "Brise-fuselage III",
         "es": "Rompe Cascos III",
         "hr": "Lomač Trupa III",
         "pt": "Quebra-cascos III",
@@ -15038,11 +16302,11 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 2,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 3,
         "heavy_gun_parts": 4
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "heavy_gun_parts": 4
       },
       "description": {
@@ -15073,7 +16337,7 @@
       "stability": 97.2,
       "agility": 67.9,
       "stealth": 1,
-      "weight": 7,
+      "weightKg": 7,
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
       "updatedAt": "11/12/2025"
     },
@@ -15093,7 +16357,7 @@
         "pl": "Łamacz Kadłubów IV",
         "no": "Skrogknuser IV",
         "ja": "ハルクラッカー IV",
-        "fr": "Brise-coque IV",
+        "fr": "Brise-fuselage IV",
         "es": "Rompe Cascos IV",
         "hr": "Lomač Trupa IV",
         "pt": "Quebra-cascos IV",
@@ -15234,7 +16498,7 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 2,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 4,
         "heavy_gun_parts": 5
       },
@@ -15266,7 +16530,7 @@
       "stability": 97.2,
       "agility": 67.9,
       "stealth": 1,
-      "weight": 7,
+      "weightKg": 7,
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
       "updatedAt": "11/12/2025"
     },
@@ -15584,6 +16848,10 @@
           "sr": "ARC probijanje oklopa",
           "value": "Weak"
         }
+      },
+      "recyclesInto": {
+        "mechanical_components": 2,
+        "simple_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
       "updatedAt": "11/12/2025",
@@ -15934,7 +17202,7 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "mechanical_components": 4,
         "simple_gun_parts": 4
       },
@@ -15966,7 +17234,7 @@
       "stability": 80.6,
       "agility": 61.1,
       "stealth": 18,
-      "weight": 8,
+      "weightKg": 8,
       "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
       "updatedAt": "11/12/2025"
     },
@@ -16127,7 +17395,7 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "mechanical_components": 5,
         "simple_gun_parts": 5
       },
@@ -16159,7 +17427,7 @@
       "stability": 80.6,
       "agility": 61.1,
       "stealth": 18,
-      "weight": 8,
+      "weightKg": 8,
       "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
       "updatedAt": "11/12/2025"
     },
@@ -16392,6 +17660,61 @@
       "updatedAt": "10/30/2025"
     },
     {
+      "name": {
+        "en": "Ion Sputter",
+        "de": "Ionenzerstäuber",
+        "fr": "Pulvérisateur ionique",
+        "es": "Pulverizador iónico",
+        "pt": "Pulverizador de Íons",
+        "pl": "Rozpylacz jonowy",
+        "no": "Ionesputter",
+        "da": "Ionesputter",
+        "it": "Polverizzatore ionico",
+        "ja": "イオンスパッタ",
+        "kr": "이온 스퍼터",
+        "zh-CN": "离子溅射器",
+        "zh-TW": "離子濺射器",
+        "ru": "Ионный распылитель",
+        "tr": "İyon Püskürtücü",
+        "uk": "Іонний розпилювач",
+        "sr": "Jonski raspršivač",
+        "hr": "Ionski raspršivač"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "ion_sputter",
+      "type": "Recyclable",
+      "rarity": "Epic",
+      "weightKg": 3,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/ion_sputter.png",
+      "updatedAt": "11/14/2025",
+      "value": 6000,
+      "recyclesInto": {
+        "voltage_converter": 4,
+        "exodus_modules": 1
+      }
+    },
+    {
       "id": "jolt_mine_blueprint",
       "name": {
         "en": "Jolt Mine Blueprint",
@@ -16608,7 +17931,8 @@
         "sr": "Kozmetičko Odelo"
       },
       "type": "Cosmetic",
-      "updatedAt": "10/30/2025"
+      "updatedAt": "10/30/2025",
+      "rarity": "Common"
     },
     {
       "id": "jupiter_blueprint",
@@ -16631,6 +17955,26 @@
         "hr": "Jupiter nacrt",
         "pt": "Projeto do Júpiter",
         "da": "Jupiter-tegning"
+      },
+      "description": {
+        "en": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling.",
+        "de": "Ein Repetier-Scharfschützengewehr mit außergewöhnlicher Schadensleistung und Genauigkeit, aber langsamer Handhabung.",
+        "uk": "Снайперська гвинтівка з ручним перезарядженням з виключною потужністю пошкоджень та точністю, але повільним керуванням.",
+        "ru": "Снайперская винтовка с продольно-скользящим затвором с исключительным уроном и точностью, но медленным обращением.",
+        "zh-TW": "一把栓動式狙擊步槍，擁有卓越的傷害輸出和精準度，但操作緩慢。",
+        "tr": "Olağanüstü hasar çıktısı ve isabetliliğe sahip ancak yavaş kullanımlı sürgülü keskin nişancı tüfeği.",
+        "zh-CN": "一把栓动式狙击步枪，拥有卓越的伤害输出和精准度，但操作缓慢。",
+        "it": "Un fucile da cecchino a otturatore girevole-scorrevole con danni e precisione eccezionali, ma maneggevolezza lenta.",
+        "kr": "뛰어난 피해량과 정확도를 가진 볼트액션 저격소총이지만, 조작이 느립니다.",
+        "sr": "Repetirna snajperska puška sa izuzetnom snagom i preciznošću, ali sporim rukovanjem.",
+        "pl": "Karabin snajperski z zamkiem ryglowym o wyjątkowych obrażeniach i celności, ale powolnej obsłudze.",
+        "no": "En repeterrifle med eksepsjonell skadeeffekt og nøyaktighet, men treg håndtering.",
+        "ja": "優れたダメージ出力と精度を持つボルトアクション式スナイパーライフルですが、取り回しが遅いです。",
+        "fr": "Un fusil de sniper à verrou avec des dégâts et une précision exceptionnels, mais un maniement lent.",
+        "es": "Un rifle de francotirador de cerrojo con daño y precisión excepcionales, pero manejo lento.",
+        "hr": "Repetirna snajperska puška s iznimnom snagom i preciznošću, ali sporim rukovanjem.",
+        "pt": "Um rifle sniper de ferrolho com dano e precisão excepcionais, mas manuseio lento.",
+        "da": "En bolt-action sniperriffel med exceptionel skadeeffekt og præcision, men langsom håndtering."
       },
       "type": "Blueprint",
       "rarity": "Legendary",
@@ -16796,7 +18140,7 @@
           "value": "Experimental"
         }
       },
-      "weight": 9,
+      "weightKg": 9,
       "value": 27500,
       "recipe": {
         "magnetic_accelerator": 3,
@@ -16810,11 +18154,11 @@
         "magnetic_accelerator": 2,
         "complex_gun_parts": 1
       },
-      "recycledMaterial": {
+      "recyclesInto": {
         "magnetic_accelerator": 2,
         "complex_gun_parts": 1
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "advanced_mechanical_components": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
@@ -17689,7 +19033,7 @@
         "sr": "Anti-ARC projektili koje uglavnom koristi Hullcracker. Kompatibilno sa: Hullcracker"
       },
       "type": "Ammunition",
-      "value": 10,
+      "value": 200,
       "rarity": "Rare",
       "weightKg": 0.1,
       "stackSize": 24,
@@ -17897,6 +19241,100 @@
       "updatedAt": "11/01/2025"
     },
     {
+      "id": "li_l_smoke_grenade",
+      "name": {
+        "en": "Li'l Smoke Grenade",
+        "de": "Kleine Rauchgranate",
+        "fr": "Petite grenade fumigène",
+        "es": "Granada de humo pequeña",
+        "pt": "Pequena granada de fumaça",
+        "pl": "Mała granat dymny",
+        "no": "Liten røykgranat",
+        "da": "Lille røggranat",
+        "it": "Piccola granata fumogena",
+        "ja": "小型スモークグレネード",
+        "kr": "소형 연막탄",
+        "zh-CN": "小型烟雾弹",
+        "zh-TW": "小型煙霧彈",
+        "ru": "Малая дымовая граната",
+        "tr": "Küçük sis bombası",
+        "uk": "Мала димова граната",
+        "sr": "Mala dimna granata",
+        "hr": "Mala dimna granata"
+      },
+      "description": {
+        "en": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
+        "de": "Eine Granate, die bei Aufprall eine dichte, aber kleine Rauchwolke erzeugt und die Sicht von ARC und anderen Raidern blockiert.",
+        "fr": "Une grenade qui produit un nuage de fumée épais mais petit à l'impact, bloquant la visibilité d'ARC et des autres Raiders.",
+        "es": "Una granada que genera una nube de humo densa pero pequeña al impactar, bloqueando la visibilidad de ARC y otros Raiders.",
+        "pt": "Uma granada que cria uma nuvem de fumaça densa mas pequena ao impactar, bloqueando a visibilidade de ARC e outros Raiders.",
+        "pl": "Granat, który tworzy gęstą, ale małą chmurę dymu przy uderzeniu, blokując widoczność dla ARC i innych Raiderów.",
+        "no": "En granat som lager en tykk men liten røyksky ved treff, som blokkerer sikt fra ARC og andre Raiders.",
+        "da": "En granat der skaber en tyk men lille røgsky ved nedslag, som blokerer sigt fra ARC og andre Raiders.",
+        "it": "Una granata che crea una nuvola di fumo densa ma piccola all'impatto, bloccando la visibilità di ARC e altri Raiders.",
+        "ja": "着弾時に濃密だが小さな煙幕を展開し、ARCや他のレイダーからの視界を遮断するグレネード。",
+        "kr": "충격 시 짙지만 작은 연막을 생성하여 ARC와 다른 레이더의 시야를 차단하는 수류탄.",
+        "zh-CN": "一种在撞击时产生浓密但较小烟雾云的手榴弹，可阻挡ARC和其他掠夺者的视线。",
+        "zh-TW": "一種在撞擊時產生濃密但較小煙霧雲的手榴彈，可阻擋ARC和其他掠奪者的視線。",
+        "ru": "Граната, которая создает густое, но небольшое облако дыма при ударе, блокируя видимость для ARC и других рейдеров.",
+        "tr": "Çarpma anında kalın ama küçük bir duman bulutu oluşturan ve ARC ile diğer Akıncıların görüşünü engelleyen bir bomba.",
+        "uk": "Граната, яка створює густу, але невелику димову хмару при ударі, блокуючи видимість для ARC та інших рейдерів.",
+        "sr": "Granata koja stvara gustu ali malu dimnu oblak pri udaru, blokirajući vidljivost od ARC-a i drugih Raidera.",
+        "hr": "Granata koja stvara gusti ali mali oblak dima pri udaru, blokirajući vidljivost od ARC-a i drugih Raidera."
+      },
+      "type": "Quick Use",
+      "rarity": "Common",
+      "value": 1,
+      "weightKg": 0.15,
+      "stackSize": 5,
+      "effects": {
+        "Duration": {
+          "en": "Duration",
+          "de": "Dauer",
+          "fr": "Durée",
+          "es": "Duración",
+          "pt": "Duração",
+          "pl": "Czas trwania",
+          "no": "Varighet",
+          "da": "Varighed",
+          "it": "Durata",
+          "ja": "持続時間",
+          "kr": "지속 시간",
+          "zh-CN": "持续时间",
+          "zh-TW": "持續時間",
+          "ru": "Длительность",
+          "tr": "Süre",
+          "uk": "Тривалість",
+          "sr": "Trajanje",
+          "hr": "Trajanje",
+          "value": "5s"
+        },
+        "Radius": {
+          "en": "Radius",
+          "de": "Radius",
+          "fr": "Rayon",
+          "es": "Radio",
+          "pt": "Raio",
+          "pl": "Zasięg",
+          "no": "Radius",
+          "da": "Radius",
+          "it": "Raggio",
+          "ja": "半径",
+          "kr": "반경",
+          "zh-CN": "半径",
+          "zh-TW": "半徑",
+          "ru": "Радиус",
+          "tr": "Yarıçap",
+          "uk": "Радіус",
+          "sr": "Radijus",
+          "hr": "Radijus",
+          "value": "2m"
+        }
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/li_l_smoke_grenade.png",
+      "updatedAt": "11/16/2025"
+    },
+    {
       "id": "light_ammo",
       "name": {
         "en": "Light Ammo",
@@ -17939,6 +19377,7 @@
         "sr": "Laki meci koji se uglavnom koriste sa automatskim pištoljima i lakim pištoljima. Kompatibilno sa: Burletta, Stitcher, Kettle, Hairpin, Bobcat"
       },
       "type": "Ammunition",
+      "rarity": "Common",
       "imageFilename": "https://cdn.arctracker.io/items/light_ammo.png",
       "compatibleWith": [
         "Kettle",
@@ -19031,7 +20470,7 @@
       "name": {
         "en": "Looting Mk. 3 (Survivor) Blueprint",
         "de": "Plünderungs-Mk. 3 (Überlebender) Blaupause",
-        "fr": "Plan Pillage Mk. 3 (Survivant)",
+        "fr": "Plan Butin 3 (survie)",
         "es": "Plano Saqueo Mk. 3 (Superviviente)",
         "pt": "Projeto Saque Mk. 3 (Sobrevivente)",
         "pl": "Projekt Grabież Mk. 3 (Ocalały)",
@@ -19080,7 +20519,7 @@
       "name": {
         "en": "Looting Mk. 3 (Survivor)",
         "de": "Plünderungs-Mk. 3 (Überlebender)",
-        "fr": "Pillage Mk. 3 (Survivant)",
+        "fr": "Butin 3 (survie)",
         "es": "Saqueo Mk. 3 (Superviviente)",
         "pt": "Saque Mk. 3 (Sobrevivente)",
         "pl": "Grabież Mk. 3 (Ocalały)",
@@ -19187,6 +20626,10 @@
       "value": 5000,
       "weightKg": 4,
       "stackSize": 1,
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "processor": 1
+      },
       "craftBench": "equipment_bench",
       "recipe": {
         "advanced_mechanical_components": 2,
@@ -19241,7 +20684,7 @@
       "value": 5000,
       "weightKg": 0,
       "rarity": "Legendary",
-      "imageFilename": "https://cdn.arctracker.io/items/lure_grenade_blueprint.png",
+      "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
       "updatedAt": "11/12/2025"
     },
     {
@@ -19363,7 +20806,7 @@
       "description": {
         "en": "A noise device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
         "de": "Ein Geräuschgerät, das an Oberflächen haftet, nahegelegene ARC-Maschinen ablenkt und ihr Feuer auf sich zieht.",
-        "fr": "Un dispositif sonore qui adhère aux surfaces, distrayant les machines ARC à proximité et attirant leur feu.",
+        "fr": "Un appareil bruyant qui adhère aux surfaces. Distrait les machines ARC à proximité et attire leurs tirs.",
         "es": "Un dispositivo de ruido que se adhiere a las superficies, distrayendo a las máquinas ARC cercanas y atrayendo su fuego.",
         "pt": "Um dispositivo de ruído que gruda em superfícies, distraindo máquinas ARC próximas e atraindo seu fogo.",
         "pl": "Urządzenie dźwiękowe, które przykleja się do powierzchni, rozpraszając pobliskie maszyny ARC i przyciągając ich ogień.",
@@ -19389,7 +20832,10 @@
         "speaker_component": 1,
         "electrical_components": 1
       },
-      "craftBench": "utility_bench"
+      "craftBench": "utility_bench",
+      "recyclesInto": {
+        "speaker_component": 1
+      }
     },
     {
       "id": "magnet",
@@ -19437,7 +20883,7 @@
       "rarity": "Uncommon",
       "value": 300,
       "recyclesInto": {
-        "metal_parts": 3
+        "metal_parts": 2
       },
       "updatedAt": "10/31/2025",
       "weightKg": 0.25,
@@ -19450,7 +20896,7 @@
       "name": {
         "en": "Magnetic Accelerator",
         "de": "Magnetischer Beschleuniger",
-        "fr": "Accélérateur Magnétique",
+        "fr": "Accélérateur magnétique",
         "es": "Acelerador Magnético",
         "pt": "Acelerador Magnético",
         "pl": "Akcelerator Magnetyczny",
@@ -19477,7 +20923,7 @@
       "description": {
         "en": "Used to craft advanced weapons. Used to craft: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
         "de": "Wird zur Herstellung von fortschrittlichen Waffen verwendet. Wird verwendet für: Tempest, Equalizer, Vulcano, Jupiter, Hüllenbrecher",
-        "fr": "Permet de fabriquer des armes avancées. Permet de fabriquer : Tempête, Equalizer, Vulcano, Jupiter, Brise-fuselage",
+        "fr": "Permet de fabriquer des armes avancées. Permet de fabriquer : Tempête, Égaliseur, Vulcano, Aphelion, Jupiter",
         "es": "Usado para fabricar armas avanzadas. Usado para fabricar: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
         "pt": "Usado para fabricar armas avançadas. Usado para fabricar: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
         "pl": "Używany do wytwarzania zaawansowanej broni. Używany do wytworzenia: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
@@ -19504,6 +20950,118 @@
         "arc_motion_core": 2
       },
       "craftBench": "refiner"
+    },
+    {
+      "name": {
+        "en": "Magnetron",
+        "de": "Magnetron",
+        "fr": "Magnétron",
+        "es": "Magnetrón",
+        "pt": "Magnetron",
+        "pl": "Magnetron",
+        "no": "Magnetron",
+        "da": "Magnetron",
+        "it": "Magnetron",
+        "ja": "マグネトロン",
+        "kr": "마그네트론",
+        "zh-CN": "磁控管",
+        "zh-TW": "磁控管",
+        "ru": "Магнетрон",
+        "tr": "Magnetron",
+        "uk": "Магнетрон",
+        "sr": "Magnetron",
+        "hr": "Magnetron"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "magnetron",
+      "type": "Recyclable",
+      "rarity": "Epic",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/magnetron.png",
+      "updatedAt": "11/14/2025",
+      "value": 6000,
+      "recyclesInto": {
+        "magnetic_accelerator": 1,
+        "spring": 1
+      }
+    },
+    {
+      "id": "matriarch_reactor",
+      "name": {
+        "en": "Matriarch Reactor",
+        "pl": "Reaktor Matriarchy",
+        "it": "Reattore della Matriarca",
+        "zh-CN": "母巢反应堆",
+        "kr": "여왕 반응로",
+        "hr": "Matrijarhalni Reaktor",
+        "de": "Matriarchenreaktor",
+        "ru": "Реактор Матриарха",
+        "es": "Reactor de la Matriarca",
+        "zh-TW": "母巢反應爐",
+        "pt": "Reator da Matriarca",
+        "sr": "Matrijarhalni Reaktor",
+        "ja": "マトリアーク・リアクター",
+        "da": "Matriarkreactor",
+        "tr": "Anaerkil Reaktör",
+        "uk": "Реактор Матріарха",
+        "no": "Matriarkreactor",
+        "fr": "Réacteur de la Matriarche"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "pl": "Można przetworzyć na materiały do wytwarzania.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "zh-CN": "可回收为制作材料。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "hr": "Može se reciklirati u materijale za izradu.",
+        "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+        "ru": "Можно переработать в материалы для крафта.",
+        "es": "Puede reciclarse en materiales de fabricación.",
+        "zh-TW": "可回收為製作材料。",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "fr": "Peut être recyclé en matériaux d'artisanat."
+      },
+      "type": "Material",
+      "rarity": "Legendary",
+      "weightKg": 10,
+      "stackSize": 1,
+      "value": 13000,
+      "recyclesInto": {
+        "power_rod": 1,
+        "magnetic_accelerator": 1
+      },
+      "salvagesInto": {
+        "power_rod": 1
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/matriarch_reactor.png",
+      "updatedAt": "11/13/2025"
     },
     {
       "id": "mechanical_components",
@@ -19616,10 +21174,6 @@
         "Torrente"
       ],
       "imageFilename": "https://cdn.arctracker.io/items/medium_ammo.png",
-      "crafting": {
-        "metal_parts": 4,
-        "chemicals": 2
-      },
       "value": 6,
       "weightKg": 0.025,
       "stackSize": 80,
@@ -19993,6 +21547,116 @@
       "foundIn": "Mechanical, Industrial, Electrical, Technological",
       "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
       "updatedAt": "11/03/2025"
+    },
+    {
+      "name": {
+        "en": "Microscope",
+        "de": "Mikroskop",
+        "fr": "Microscope",
+        "es": "Microscopio",
+        "pt": "Microscópio",
+        "pl": "Mikroskop",
+        "no": "Mikroskop",
+        "da": "Mikroskop",
+        "it": "Microscopio",
+        "ja": "顕微鏡",
+        "kr": "현미경",
+        "zh-CN": "显微镜",
+        "zh-TW": "顯微鏡",
+        "ru": "Микроскоп",
+        "tr": "Mikroskop",
+        "uk": "Мікроскоп",
+        "sr": "Mikroskop",
+        "hr": "Mikroskop"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可以回收为制作材料。",
+        "zh-TW": "可以回收為製作材料。",
+        "ru": "Можно переработать в крафтовые материалы.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "microscope",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
+      "updatedAt": "11/14/2025",
+      "value": 3000,
+      "recyclesInto": {
+        "advanced_mechanical_components": 1,
+        "magnet": 3
+      }
+    },
+    {
+      "name": {
+        "en": "Mini Centrifuge",
+        "de": "Mini-Zentrifuge",
+        "fr": "Mini centrifugeuse",
+        "es": "Minicentrífuga",
+        "pt": "Minicentrífuga",
+        "pl": "Mini wirówka",
+        "no": "Minisentrifuge",
+        "da": "Minicentrifuge",
+        "it": "Minicentrifuga",
+        "ja": "ミニ遠心分離機",
+        "kr": "미니 원심분리기",
+        "zh-CN": "迷你离心机",
+        "zh-TW": "迷你離心機",
+        "ru": "Мини-центрифуга",
+        "tr": "Mini Santrifüj",
+        "uk": "Міні-центрифуга",
+        "sr": "Mini centrifuga",
+        "hr": "Mini centrifuga"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "mini_centrifuge",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
+      "updatedAt": "11/14/2025",
+      "value": 3000,
+      "stackSize": 3,
+      "recyclesInto": {
+        "advanced_mechanical_components": 1,
+        "canister": 2
+      }
     },
     {
       "id": "mod_components",
@@ -21395,7 +23059,7 @@
         "pl": "Osprey II",
         "no": "Osprey II",
         "ja": "オスプレイ II",
-        "fr": "Osprey II",
+        "fr": "Balbuzard II",
         "es": "Osprey II",
         "hr": "Osprey II",
         "pt": "Osprey II",
@@ -21578,11 +23242,11 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 2,
         "medium_gun_parts": 2
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "medium_gun_parts": 2
       },
       "description": {
@@ -21613,7 +23277,7 @@
       "stability": 89.4,
       "agility": 45.9,
       "stealth": 12,
-      "weight": 7,
+      "weightKg": 7,
       "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
       "updatedAt": "11/12/2025"
     },
@@ -21633,7 +23297,7 @@
         "pl": "Osprey III",
         "no": "Osprey III",
         "ja": "オスプレイ III",
-        "fr": "Osprey III",
+        "fr": "Balbuzard III",
         "es": "Osprey III",
         "hr": "Osprey III",
         "pt": "Osprey III",
@@ -21816,11 +23480,11 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 2,
         "medium_gun_parts": 3
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "medium_gun_parts": 3
       },
       "description": {
@@ -21851,7 +23515,7 @@
       "stability": 89.4,
       "agility": 45.9,
       "stealth": 12,
-      "weight": 7,
+      "weightKg": 7,
       "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
       "updatedAt": "11/12/2025"
     },
@@ -21871,7 +23535,7 @@
         "pl": "Osprey IV",
         "no": "Osprey IV",
         "ja": "オスプレイ IV",
-        "fr": "Osprey IV",
+        "fr": "Balbuzard IV",
         "es": "Osprey IV",
         "hr": "Osprey IV",
         "pt": "Osprey IV",
@@ -22054,11 +23718,11 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 3,
         "medium_gun_parts": 3
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "medium_gun_parts": 3
       },
       "description": {
@@ -22089,7 +23753,7 @@
       "stability": 89.4,
       "agility": 45.9,
       "stealth": 12,
-      "weight": 7,
+      "weightKg": 7,
       "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
       "updatedAt": "11/12/2025"
     },
@@ -22117,7 +23781,7 @@
       "description": {
         "en": "Significantly improves stability. Compatible with: Arpeggio, Rattler, Ferro, Renegade, Torrente",
         "de": "Verbessert die Stabilität erheblich. Kompatibel mit: Arpeggio, Rattler, Ferro, Renegade, Torrente",
-        "fr": "Améliore considérablement la stabilité. Compatible avec : Arpeggio, Rattler, Ferro, Renegade, Torrente",
+        "fr": "Améliore considérablement la stabilité. Compatible avec : Arpège, Crotale, Ferro, Renégat, Torrente",
         "es": "Mejora significativamente la estabilidad. Compatible con: Arpeggio, Rattler, Ferro, Renegade, Torrente",
         "pt": "Melhora significativamente a estabilidade. Compatível com: Arpeggio, Rattler, Ferro, Renegade, Torrente",
         "pl": "Znacznie poprawia stabilność. Kompatybilny z: Arpeggio, Rattler, Ferro, Renegade, Torrente",
@@ -22347,7 +24011,7 @@
       "description": {
         "en": "A gadget that allows the user to conceal themselves from ARC.",
         "de": "Ein Gerät, das es dem Benutzer ermöglicht, sich vor ARC zu verbergen.",
-        "fr": "Un gadget qui permet à l'utilisateur de se dissimuler d'ARC.",
+        "fr": "Un gadget qui permet d'échapper à la vigilance de l'ARC.",
         "es": "Un dispositivo que permite al usuario ocultarse de ARC.",
         "pt": "Um dispositivo que permite ao usuário se ocultar do ARC.",
         "pl": "Gadżet, który pozwala użytkownikowi ukryć się przed ARC.",
@@ -22532,6 +24196,26 @@
         "hr": "Filter za Zagađeni Zrak",
         "sr": "Filter za Zagađeni Vazduh"
       },
+      "description": {
+        "en": "Can be recycled into crafting components.",
+        "de": "Kann zu Handwerkskomponenten recycelt werden.",
+        "fr": "Peut être recyclé en composants de fabrication.",
+        "es": "Puede reciclarse en componentes de fabricación.",
+        "pt": "Pode ser reciclado em componentes de fabricação.",
+        "pl": "Można przetworzyć na komponenty rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverkskomponenter.",
+        "da": "Kan genbruges til håndværkskomponenter.",
+        "it": "Può essere riciclato in componenti da crafting.",
+        "ru": "Можно переработать в компоненты для крафта.",
+        "ja": "製作部品にリサイクルできる。",
+        "zh-TW": "可回收為製作組件。",
+        "uk": "Можна переробити на компоненти для крафту.",
+        "zh-CN": "可回收为制作组件。",
+        "kr": "제작 부품으로 재활용할 수 있습니다.",
+        "tr": "Üretim bileşenlerine geri dönüştürülebilir.",
+        "hr": "Može se reciklirati u komponente za izradu.",
+        "sr": "Može se reciklirati u komponente za izradu."
+      },
       "rarity": "Rare",
       "type": "Recyclable",
       "value": 1000,
@@ -22555,7 +24239,7 @@
         "de": "Direktabzug",
         "fr": "Gâchette pop",
         "es": "Gatillo pop",
-        "pt": "Gatilho pop",
+        "pt": "Gatilho de Estalinho",
         "pl": "Spust pop",
         "no": "Pop-utløser",
         "da": "Pop-udløser",
@@ -23091,6 +24775,82 @@
       "updatedAt": "11/04/2025"
     },
     {
+      "name": {
+        "en": "Pulse Mine",
+        "de": "Pulsmine",
+        "fr": "Mine à impulsion",
+        "es": "Mina de pulso",
+        "pt": "Mina de pulso",
+        "pl": "Mina pulsacyjna",
+        "no": "Pulsmine",
+        "da": "Pulsmine",
+        "it": "Mina a impulsi",
+        "ja": "パルスマイン",
+        "kr": "펄스 지뢰",
+        "zh-CN": "脉冲地雷",
+        "zh-TW": "脈衝地雷",
+        "ru": "Импульсная мина",
+        "tr": "Nabız Mayını",
+        "uk": "Імпульсна міна",
+        "sr": "Pulsna mina",
+        "hr": "Pulsna mina"
+      },
+      "description": {
+        "en": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
+        "de": "Eine annäherungsgesteuerte Mine, die hochschnellt und alles in ihrem Radius zurückstößt.",
+        "fr": "Une mine à déclenchement de proximité qui surgit et repousse tout ce qui se trouve dans son rayon.",
+        "es": "Una mina activada por proximidad que salta y empuja hacia atrás todo lo que esté dentro de su radio.",
+        "pt": "Uma mina ativada por proximidade que salta e empurra tudo dentro do seu raio.",
+        "pl": "Mina aktywowana zbliżeniem, która wyskakuje i odpycha wszystko w swoim promieniu.",
+        "no": "En nærhetsaktivert mine som spretter opp og slår tilbake alt innenfor dens radius.",
+        "da": "En nærhedsudløst mine, der springer op og slår alt tilbage inden for dens radius.",
+        "it": "Una mina attivata dalla prossimità che salta fuori e respinge tutto nel suo raggio.",
+        "ja": "近接起動する地雷で、範囲内のあらゆるものを跳ね上げてノックバックさせる。",
+        "kr": "근접 감지로 작동하여 튀어 오르고 반경 내의 모든 것을 밀쳐내는 지뢰.",
+        "zh-CN": "一种近距离触发的地雷，会弹起并击退半径内的任何目标。",
+        "zh-TW": "一種近距離觸發的地雷，會彈起並擊退半徑內的任何目標。",
+        "ru": "Мина с датчиком приближения, которая выскакивает и отбрасывает всё в радиусе действия.",
+        "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak yarıçapı içindeki her şeyi geri iter.",
+        "uk": "Міна з датчиком наближення, яка вистрибує і відкидає все в радіусі дії.",
+        "sr": "Mina aktivirana blizinom koja iskoči i odbaci sve u svom radijusu.",
+        "hr": "Mina aktivirana blizinom koja iskoči i odbaci sve u svom radijusu."
+      },
+      "id": "pulse_mine",
+      "type": "Quick Use",
+      "value": 470,
+      "rarity": "Uncommon",
+      "weightKg": 0.25,
+      "stackSize": 3,
+      "effects": {
+        "Radius": {
+          "en": "Radius",
+          "de": "Radius",
+          "fr": "Rayon",
+          "es": "Radio",
+          "pt": "Raio",
+          "pl": "Promień",
+          "no": "Radius",
+          "da": "Radius",
+          "it": "Raggio",
+          "ja": "範囲",
+          "kr": "반경",
+          "zh-CN": "半径",
+          "zh-TW": "半徑",
+          "ru": "Радиус",
+          "tr": "Yarıçap",
+          "uk": "Радіус",
+          "sr": "Radijus",
+          "hr": "Radijus",
+          "value": "7.5m"
+        }
+      },
+      "recyclesInto": {
+        "chemicals": 6
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
       "id": "queen_reactor",
       "tip": "The Queen Reactor is a legendary item only acquired by defeating The Queen that can be recycled into crafting materials.",
       "name": {
@@ -23142,6 +24902,61 @@
       },
       "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
       "updatedAt": "10/30/2025"
+    },
+    {
+      "name": {
+        "en": "Radio Relay",
+        "de": "Funkrelais",
+        "fr": "Relais radio",
+        "es": "Relé de radio",
+        "pt": "Repetidor de Rádio",
+        "pl": "Przekaźnik radiowy",
+        "no": "Radiorelé",
+        "da": "Radiorelæ",
+        "it": "Relè radio",
+        "ja": "無線中継器",
+        "kr": "무선 중계기",
+        "zh-CN": "无线电中继器",
+        "zh-TW": "無線電中繼器",
+        "ru": "Радиорелейная станция",
+        "tr": "Radyo Rölesi",
+        "uk": "Радіорелейна станція",
+        "sr": "Radio relej",
+        "hr": "Radio relej"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "radio_relay",
+      "type": "Recyclable",
+      "value": 3000,
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/radio_relay.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "speaker_component": 2,
+        "sensors": 2
+      }
     },
     {
       "id": "radio_renegade",
@@ -23274,7 +25089,7 @@
       "description": {
         "en": "Unlocks a Raider Hatch.",
         "de": "Öffnet eine Raider-Luke.",
-        "fr": "Déverrouille une trappe de Raider.",
+        "fr": "Débloque une trappe de Raider.",
         "es": "Desbloquea una escotilla de saqueador.",
         "pt": "Desbloqueia uma escotilha de saqueador.",
         "pl": "Otwiera właz najeźdźcy.",
@@ -23479,7 +25294,7 @@
         "pt": "Rattler II",
         "ru": "Rattler II",
         "de": "Rattler II",
-        "fr": "Rattler II",
+        "fr": "Crotale II",
         "zh-CN": "响尾蛇 II",
         "no": "Rattler II",
         "tr": "Rattler II",
@@ -23603,10 +25418,10 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "metal_parts": 12
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "metal_parts": 8
       },
       "description": {
@@ -23637,7 +25452,7 @@
       "stability": 72.2,
       "agility": 54.8,
       "stealth": 14,
-      "weight": 6,
+      "weightKg": 6,
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
       "updatedAt": "11/12/2025"
     },
@@ -23652,7 +25467,7 @@
         "pt": "Rattler III",
         "ru": "Rattler III",
         "de": "Rattler III",
-        "fr": "Rattler III",
+        "fr": "Crotale III",
         "zh-CN": "响尾蛇 III",
         "no": "Rattler III",
         "tr": "Rattler III",
@@ -23666,7 +25481,7 @@
       "description": {
         "en": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time.",
         "de": "Eine günstige Offensivoption, muss aber 2 Kugeln auf einmal nachgeladen werden.",
-        "fr": "Une option offensive bon marché, mais doit être rechargée 2 balles à la fois.",
+        "fr": "Une option offensive bon marché, mais il faut le recharger deux balles à la fois.",
         "es": "Una opción ofensiva económica, pero debe recargarse de 2 balas a la vez.",
         "pt": "Uma opção ofensiva barata, mas precisa ser recarregada com 2 balas por vez.",
         "pl": "Tania opcja ofensywna, ale musi być przeładowywana po 2 pociski na raz.",
@@ -23835,7 +25650,7 @@
         "pt": "Rattler IV",
         "ru": "Rattler IV",
         "de": "Rattler IV",
-        "fr": "Rattler IV",
+        "fr": "Crotale IV",
         "zh-CN": "响尾蛇 IV",
         "no": "Rattler IV",
         "tr": "Rattler IV",
@@ -23960,11 +25775,11 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "mechanical_components": 4,
         "simple_gun_parts": 2
       },
-      "salvagedMaterial": {
+      "salvagesInto": {
         "metal_parts": 14
       },
       "description": {
@@ -23995,7 +25810,7 @@
       "stability": 72.2,
       "agility": 54.8,
       "stealth": 14,
-      "weight": 6,
+      "weightKg": 6,
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
       "updatedAt": "11/12/2025"
     },
@@ -24152,7 +25967,7 @@
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
         "de": "Ein werfbares chemisches Licht, das die Umgebung beleuchtet.",
-        "fr": "Une lumière chimique jetable qui illumine la zone autour d'elle.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
         "pl": "Rzucane światło chemiczne, które oświetla obszar wokół niego.",
@@ -24494,6 +26309,10 @@
       },
       "value": 7000,
       "weightKg": 10,
+      "recyclesInto": {
+        "advanced_mechanical_components": 1,
+        "medium_gun_parts": 2
+      },
       "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
       "updatedAt": "11/12/2025",
       "recipe": {
@@ -24520,7 +26339,7 @@
         "pl": "Renegade II",
         "no": "Renegade II",
         "ja": "レネゲード II",
-        "fr": "Renegade II",
+        "fr": "Renégat II",
         "es": "Renegade II",
         "hr": "Renegade II",
         "pt": "Renegade II",
@@ -24729,7 +26548,7 @@
         "pl": "Renegade III",
         "no": "Renegade III",
         "ja": "レネゲード III",
-        "fr": "Renegade III",
+        "fr": "Renégat III",
         "es": "Renegade III",
         "hr": "Renegade III",
         "pt": "Renegade III",
@@ -24938,7 +26757,7 @@
         "pl": "Renegade IV",
         "no": "Renegade IV",
         "ja": "レネゲード IV",
-        "fr": "Renegade IV",
+        "fr": "Renégat IV",
         "es": "Renegade IV",
         "hr": "Renegade IV",
         "pt": "Renegade IV",
@@ -25518,6 +27337,61 @@
       "updatedAt": "11/11/2025"
     },
     {
+      "name": {
+        "en": "Rotary Encoder",
+        "de": "Drehgeber",
+        "fr": "Encodeur rotatif",
+        "es": "Codificador rotatorio",
+        "pt": "Codificador rotativo",
+        "pl": "Enkoder obrotowy",
+        "no": "Rotasjonsenkoder",
+        "da": "Roterende encoder",
+        "it": "Encoder rotativo",
+        "ja": "ロータリーエンコーダー",
+        "kr": "로터리 엔코더",
+        "zh-CN": "旋转编码器",
+        "zh-TW": "旋轉編碼器",
+        "ru": "Поворотный энкодер",
+        "tr": "Döner Kodlayıcı",
+        "uk": "Поворотний енкодер",
+        "sr": "Rotacioni enkoder",
+        "hr": "Rotacijski enkoder"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可以回收为制作材料。",
+        "zh-TW": "可以回收為製作材料。",
+        "ru": "Можно переработать в крафтовые материалы.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "rotary_encoder",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/rotary_encoder.png",
+      "updatedAt": "11/14/2025",
+      "value": 3000,
+      "stackSize": 3,
+      "recyclesInto": {
+        "electrical_components": 2,
+        "processor": 2
+      }
+    },
+    {
       "id": "rubber_duck",
       "name": {
         "en": "Rubber Duck",
@@ -25758,7 +27632,7 @@
         "sr": "Uništena Palica"
       },
       "description": {
-        "en": "Can be recyled into crafting materials",
+        "en": "Can be recycled into crafting materials",
         "de": "Kann zu Handwerksmaterialien recycelt werden",
         "fr": "Peut être recyclé en matériaux d'artisanat",
         "es": "Se puede reciclar en materiales de fabricación",
@@ -25889,7 +27763,7 @@
       "name": {
         "en": "Ruined Riot Shield",
         "de": "Ruinierter Schutzschild",
-        "fr": "Bouclier anti-émeute détruit",
+        "fr": "Bouclier anti-émeute abîmé",
         "es": "Escudo antidisturbios arruinado",
         "pt": "Escudo de choque arruinado",
         "pl": "Zniszczona tarcza ochronna",
@@ -26042,7 +27916,7 @@
       },
       "type": "Recyclable",
       "rarity": "Rare",
-      "value": 3000,
+      "value": 2000,
       "recyclesInto": {
         "metal_parts": 4,
         "mechanical_components": 2
@@ -26161,6 +28035,158 @@
       "updatedAt": "10/30/2025"
     },
     {
+      "name": {
+        "en": "Sample Cleaner",
+        "de": "Probenreiniger",
+        "fr": "Nettoyeur d'échantillons",
+        "es": "Limpiador de muestras",
+        "pt": "Purificador de amostras",
+        "pl": "Oczyszczacz próbek",
+        "no": "Prøverenser",
+        "da": "Prøverenser",
+        "it": "Pulitore di campioni",
+        "ja": "サンプルクリーナー",
+        "kr": "샘플 클리너",
+        "zh-CN": "样本清洁器",
+        "zh-TW": "樣本清潔器",
+        "ru": "Очиститель образцов",
+        "tr": "Numune Temizleyici",
+        "uk": "Очисник зразків",
+        "sr": "Čistač uzoraka",
+        "hr": "Čistač uzoraka"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "sample_cleaner",
+      "type": "Recyclable",
+      "value": 3000,
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/sample_cleaner.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "electrical_components": 2,
+        "assorted_seeds": 14
+      }
+    },
+    {
+      "name": {
+        "en": "Seeker Grenade",
+        "de": "Suchgranate",
+        "fr": "Grenade chercheuse",
+        "es": "Granada rastreadora",
+        "pt": "Granada rastreadora",
+        "pl": "Granat naprowadzany",
+        "no": "Søkergranат",
+        "da": "Søgergranат",
+        "it": "Granata cercatrice",
+        "ja": "シーカーグレネード",
+        "kr": "추적 수류탄",
+        "zh-CN": "追踪手榴弹",
+        "zh-TW": "追蹤手榴彈",
+        "ru": "Самонаводящаяся граната",
+        "tr": "İzleyici Bomba",
+        "uk": "Самонавідна граната",
+        "sr": "Tragačka granata",
+        "hr": "Tragačka granata"
+      },
+      "description": {
+        "en": "A homing grenade that targets a single nearby ARC dealing explosive damage on impact.",
+        "de": "Eine zielsuchende Granate, die einen einzelnen ARC in der Nähe anvisiert und bei Aufprall explosiven Schaden verursacht.",
+        "fr": "Une grenade à tête chercheuse qui cible un seul ARC à proximité et inflige des dégâts explosifs à l'impact.",
+        "es": "Una granada guiada que apunta a un único ARC cercano e inflige daño explosivo al impactar.",
+        "pt": "Uma granada guiada que mira num único ARC próximo causando dano explosivo no impacto.",
+        "pl": "Granat naprowadzany, który celuje w pojedynczy pobliski ARC, zadając obrażenia wybuchowe przy trafieniu.",
+        "no": "En målsøkende granat som retter seg mot en enkelt ARC i nærheten og gjør eksplosiv skade ved treff.",
+        "da": "En målsøgende granat, der retter sig mod en enkelt ARC i nærheden og giver eksplosiv skade ved træffer.",
+        "it": "Una granata a ricerca che prende di mira un singolo ARC nelle vicinanze infliggendo danni esplosivi all'impatto.",
+        "ja": "近くの単一のARCを標的とし、着弾時に爆発ダメージを与える誘導グレネード。",
+        "kr": "근처의 단일 ARC를 추적하여 충돌 시 폭발 피해를 입히는 유도 수류탄.",
+        "zh-CN": "一种追踪手榴弹，锁定附近单个ARC并在撞击时造成爆炸伤害。",
+        "zh-TW": "一種追蹤手榴彈，鎖定附近單個ARC並在撞擊時造成爆炸傷害。",
+        "ru": "Самонаводящаяся граната, которая нацеливается на одного ближайшего ARC и наносит взрывной урон при попадании.",
+        "tr": "Yakındaki tek bir ARC'yi hedef alan ve çarpma anında patlayıcı hasar veren güdümlü bomba.",
+        "uk": "Самонавідна граната, яка наводиться на одного найближчого ARC і завдає вибухової шкоди при влученні.",
+        "sr": "Granata sa navođenjem koja cilja jedan obližnji ARC i nanosi eksplozivnu štetu pri udaru.",
+        "hr": "Granata s navođenjem koja cilja jedan obližnji ARC i nanosi eksplozivnu štetu pri udaru."
+      },
+      "id": "seeker_grenade",
+      "type": "Quick Use",
+      "value": 640,
+      "rarity": "Uncommon",
+      "weightKg": 0.2,
+      "stackSize": 5,
+      "effects": {
+        "Damage": {
+          "en": "Damage",
+          "de": "Schaden",
+          "fr": "Dégâts",
+          "es": "Daño",
+          "pt": "Dano",
+          "pl": "Obrażenia",
+          "no": "Skade",
+          "da": "Skade",
+          "it": "Danno",
+          "ja": "ダメージ",
+          "kr": "피해",
+          "zh-CN": "伤害",
+          "zh-TW": "傷害",
+          "ru": "Урон",
+          "tr": "Hasar",
+          "uk": "Шкода",
+          "sr": "Šteta",
+          "hr": "Šteta",
+          "value": 50
+        },
+        "Homing Range": {
+          "en": "Homing Range",
+          "de": "Zielsuchreichweite",
+          "fr": "Portée de guidage",
+          "es": "Alcance de rastreo",
+          "pt": "Alcance de rastreio",
+          "pl": "Zasięg naprowadzania",
+          "no": "Målsøkingsrekkevidde",
+          "da": "Målsøgningsrækkevidde",
+          "it": "Raggio di ricerca",
+          "ja": "追尾範囲",
+          "kr": "추적 범위",
+          "zh-CN": "追踪范围",
+          "zh-TW": "追蹤範圍",
+          "ru": "Дальность наведения",
+          "tr": "Güdüm Menzili",
+          "uk": "Дальність наведення",
+          "sr": "Domet navođenja",
+          "hr": "Domet navođenja",
+          "value": "20m"
+        }
+      },
+      "recyclesInto": {
+        "chemicals": 1
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
       "id": "sensors",
       "name": {
         "en": "Sensors",
@@ -26243,9 +28269,14 @@
       "rarity": "Rare",
       "type": "Recyclable",
       "value": 3000,
+      "weightKg": 1,
+      "stackSize": 3,
       "recyclesInto": {
         "arc_alloy": 2,
         "mechanical_components": 3
+      },
+      "salvagesInto": {
+        "mechanical_components": 2
       },
       "description": {
         "en": "Can be recycled into crafting materials.",
@@ -26269,53 +28300,6 @@
       },
       "foundIn": "ARC",
       "imageFilename": "https://cdn.arctracker.io/items/sentinel_firing_core.png",
-      "updatedAt": "10/30/2025"
-    },
-    {
-      "id": "sentinel_part",
-      "name": {
-        "en": "Sentinel Part",
-        "de": "Wächterteil",
-        "fr": "Pièce de sentinelle",
-        "es": "Pieza de centinela",
-        "pt": "Peça de sentinela",
-        "pl": "Część strażnika",
-        "no": "Vakterdel",
-        "da": "Vægter-del",
-        "it": "Parte sentinella",
-        "ru": "Деталь стража",
-        "ja": "センチネルパーツ",
-        "zh-TW": "哨兵零件",
-        "uk": "Деталь вартового",
-        "zh-CN": "哨兵零件",
-        "kr": "센티넬 부품",
-        "tr": "Nöbetçi Parçası",
-        "hr": "Dio Stražara",
-        "sr": "Deo Stražara"
-      },
-      "description": {
-        "en": "A salvaged component from a Sentinel unit.",
-        "de": "Eine geborgene Komponente einer Wächtereinheit.",
-        "fr": "Un composant récupéré d'une unité Sentinelle.",
-        "es": "Un componente recuperado de una unidad Centinela.",
-        "pt": "Um componente recuperado de uma unidade Sentinela.",
-        "pl": "Uratowany komponent z jednostki Strażnika.",
-        "no": "En berget komponent fra en Vakter-enhet.",
-        "da": "En bjærget komponent fra en Vægter-enhed.",
-        "it": "Un componente recuperato da un'unità Sentinella.",
-        "ru": "Спасённый компонент от юнита-стража.",
-        "ja": "センチネルユニットから回収した部品。",
-        "zh-TW": "從哨兵單位回收的組件。",
-        "uk": "Врятований компонент від юніта-вартового.",
-        "zh-CN": "从哨兵单位回收的组件。",
-        "kr": "센티넬 유닛에서 회수한 부품.",
-        "tr": "Bir Nöbetçi ünitesinden kurtarılmış bileşen.",
-        "hr": "Spašena komponenta iz jedinice Stražara.",
-        "sr": "Spašena komponenta iz jedinice Stražara."
-      },
-      "type": "Material",
-      "_note": "not_in_serverslam",
-      "imageFilename": "https://cdn.arctracker.io/items/sentinel_part.png",
       "updatedAt": "10/30/2025"
     },
     {
@@ -26439,7 +28423,10 @@
       "craftBench": [
         "workbench",
         "med_station"
-      ]
+      ],
+      "recyclesInto": {
+        "rubber_parts": 4
+      }
     },
     {
       "id": "shotgun_ammo",
@@ -27062,6 +29049,116 @@
       "imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png"
     },
     {
+      "name": {
+        "en": "Shredder Gyro",
+        "de": "Shredder-Gyroskop",
+        "fr": "Gyroscope Shredder",
+        "es": "Giroscopio Shredder",
+        "pt": "Giroscópio Shredder",
+        "pl": "Żyroskop Shreddера",
+        "no": "Shredder-gyroskop",
+        "da": "Shredder-gyroskop",
+        "it": "Giroscopio Shredder",
+        "ja": "シュレッダージャイロ",
+        "kr": "슈레더 자이로",
+        "zh-CN": "粉碎者陀螺仪",
+        "zh-TW": "粉碎者陀螺儀",
+        "ru": "Гироскоп шреддера",
+        "tr": "Parçalayıcı Jiroskop",
+        "uk": "Гіроскоп шредера",
+        "sr": "Shredder žiroskop",
+        "hr": "Shredder žiroskop"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Puede reciclarse en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "shredder_gyro",
+      "type": "Recyclable",
+      "value": 3000,
+      "rarity": "Uncommon",
+      "weightKg": 1,
+      "stackSize": 3,
+      "foundIn": "ARC",
+      "imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "mechanical_components": 3,
+        "arc_alloy": 3
+      }
+    },
+    {
+      "name": {
+        "en": "Signal Amplifier",
+        "de": "Signalverstärker",
+        "fr": "Amplificateur de signal",
+        "es": "Amplificador de señal",
+        "pt": "Amplificador de sinal",
+        "pl": "Wzmacniacz sygnału",
+        "no": "Signalforsterker",
+        "da": "Signalforstærker",
+        "it": "Amplificatore di segnale",
+        "ja": "信号増幅器",
+        "kr": "신호 증폭기",
+        "zh-CN": "信号放大器",
+        "zh-TW": "訊號放大器",
+        "ru": "Усилитель сигнала",
+        "tr": "Sinyal Yükseltici",
+        "uk": "Підсилювач сигналу",
+        "sr": "Pojačivač signala",
+        "hr": "Pojačalo signala"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da costruzione.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "signal_amplifier",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/signal_amplifier.png",
+      "updatedAt": "11/14/2025",
+      "value": 3000,
+      "stackSize": 3,
+      "recyclesInto": {
+        "electrical_components": 2,
+        "voltage_converter": 2
+      }
+    },
+    {
       "id": "silencer_i_blueprint",
       "name": {
         "en": "Silencer I Blueprint",
@@ -27181,6 +29278,55 @@
       "value": 2000,
       "weightKg": 0.25,
       "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png"
+    },
+    {
+      "id": "silencer_ii_blueprint",
+      "name": {
+        "en": "Silencer II Blueprint",
+        "de": "Schalldämpfer II Blaupause",
+        "fr": "Plan Silencieux II",
+        "es": "Plano de Silenciador II",
+        "pt": "Projeto de Silenciador II",
+        "pl": "Projekt Tłumika II",
+        "no": "Lyddemper II Tegning",
+        "da": "Lyddæmper II Tegning",
+        "it": "Progetto Silenziatore II",
+        "ru": "Чертёж глушителя II",
+        "ja": "サイレンサー II 設計図",
+        "zh-TW": "消音器 II 藍圖",
+        "uk": "Креслення глушника II",
+        "zh-CN": "消音器 II 蓝图",
+        "kr": "소음기 II 설계도",
+        "tr": "Susturucu II Planı",
+        "hr": "Nacrt za Prigušivač II",
+        "sr": "Nacrt za Prigušivač II"
+      },
+      "description": {
+        "en": "A blueprint to craft the Silencer II.",
+        "de": "Eine Blaupause zur Herstellung des Schalldämpfers II.",
+        "fr": "Un plan pour fabriquer le Silencieux II.",
+        "es": "Un plano para fabricar el Silenciador II.",
+        "pt": "Um projeto para fabricar o Silenciador II.",
+        "pl": "Projekt do wytworzenia Tłumika II.",
+        "no": "En tegning for å lage Lyddemper II.",
+        "da": "En tegning til at lave Lyddæmper II.",
+        "it": "Un progetto per creare il Silenziatore II.",
+        "ru": "Чертёж для создания глушителя II.",
+        "ja": "サイレンサー II を製作するための設計図。",
+        "zh-TW": "用於製作消音器 II 的藍圖。",
+        "uk": "Креслення для створення глушника II.",
+        "zh-CN": "用于制作消音器 II 的蓝图。",
+        "kr": "소음기 II을 제작하기 위한 설계도.",
+        "tr": "Susturucu II üretmek için bir plan.",
+        "hr": "Nacrt za izradu Prigušivača II.",
+        "sr": "Nacrt za izradu Prigušivača II."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "rarity": "Legendary",
+      "imageFilename": "https://cdn.arctracker.io/items/silencer_ii.png",
+      "updatedAt": "11/14/2025"
     },
     {
       "id": "silencer_ii",
@@ -27359,8 +29505,8 @@
         "mod_components": 1
       },
       "craftBench": "weapon_bench",
-      "benchLevel": 3,
-      "updatedAt": "11/05/2025",
+      "stationLevelRequired": 3,
+      "updatedAt": "11/16/2025",
       "imageFilename": "https://cdn.arctracker.io/items/silencer_iii.png"
     },
     {
@@ -27587,7 +29733,7 @@
       "description": {
         "en": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from ARC and other Raiders.",
         "de": "Eine Granate, die beim Aufprall eine anhaltende Rauchwolke erzeugt und die Sicht von ARC und anderen Plünderern blockiert.",
-        "fr": "Une grenade qui crée un nuage de fumée persistant à l'impact, bloquant la visibilité d'ARC et des autres Raiders.",
+        "fr": "Une grenade qui génère un nuage de fumée persistant à l'impact, obstruant la visibilité des machines ARC et des autres Raiders.",
         "es": "Una granada que crea una nube de humo persistente al impactar, bloqueando la visibilidad de ARC y otros Saqueadores.",
         "pt": "Uma granada que cria uma nuvem de fumaça persistente no impacto, bloqueando a visibilidade de ARC e outros Saqueadores.",
         "pl": "Granat, który tworzy utrzymującą się chmurę dymu po uderzeniu, blokując widoczność dla ARC i innych Najeźdźców.",
@@ -27764,13 +29910,62 @@
       "craftBench": "explosives_bench"
     },
     {
+      "id": "snap_hook_blueprint",
+      "name": {
+        "en": "Snap Hook Blueprint",
+        "de": "Snap-Haken-Blaupause",
+        "fr": "Plan de Snap Hook",
+        "es": "Plano de Snap Hook",
+        "pt": "Projeto de Snap Hook",
+        "pl": "Projekt Snap Hook",
+        "no": "Snap Hook-tegning",
+        "da": "Snap Hook-tegning",
+        "it": "Progetto Snap Hook",
+        "ru": "Чертёж Snap Hook",
+        "ja": "スナップフック設計図",
+        "zh-TW": "Snap Hook 藍圖",
+        "uk": "Креслення Snap Hook",
+        "zh-CN": "Snap Hook 蓝图",
+        "kr": "Snap Hook 설계도",
+        "tr": "Snap Hook Planı",
+        "hr": "Nacrt Snap Hook",
+        "sr": "Nacrt Snap Hook"
+      },
+      "description": {
+        "en": "A gadget that allows the user to scale structures and cover large distances.",
+        "de": "Ein Gerät, das es dem Benutzer ermöglicht, Strukturen zu erklimmen und große Entfernungen zu überwinden.",
+        "fr": "Un gadget qui permet à l'utilisateur d'escalader des structures et de couvrir de grandes distances.",
+        "es": "Un dispositivo que permite al usuario escalar estructuras y cubrir grandes distancias.",
+        "pt": "Um dispositivo que permite ao usuário escalar estruturas e cobrir grandes distâncias.",
+        "pl": "Gadżet pozwalający użytkownikowi wspinać się na konstrukcje i pokonywać duże odległości.",
+        "no": "En gjenstand som lar brukeren klatre på strukturer og dekke store avstander.",
+        "da": "En genstand der gør det muligt for brugeren at klatre på strukturer og dække store afstande.",
+        "it": "Un dispositivo che permette all'utente di scalare strutture e coprire grandi distanze.",
+        "ru": "Устройство, позволяющее пользователю взбираться на строения и преодолевать большие расстояния.",
+        "ja": "構造物を登ったり、長距離を移動したりできるガジェット。",
+        "zh-TW": "一種讓使用者能夠攀爬建築物和跨越長距離的裝置。",
+        "uk": "Пристрій, що дозволяє користувачу підійматися на споруди та долати великі відстані.",
+        "zh-CN": "一种让使用者能够攀爬建筑物和跨越长距离的装置。",
+        "kr": "사용자가 구조물을 오르고 먼 거리를 이동할 수 있게 해주는 장치.",
+        "tr": "Kullanıcının yapılara tırmanmasını ve büyük mesafeleri kat etmesini sağlayan bir alet.",
+        "hr": "Naprava koja korisniku omogućuje penjanje po strukturama i prelaženje velikih udaljenosti.",
+        "sr": "Naprava koja korisniku omogućava penjanje po strukturama i prelaženje velikih udaljenosti."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "rarity": "Legendary",
+      "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+      "updatedAt": "11/14/2025"
+    },
+    {
       "id": "snap_hook",
       "name": {
         "en": "Snap Hook",
         "de": "Karabinerhaken",
         "fr": "Mousqueton",
         "es": "Gancho de seguridad",
-        "pt": "Gancho de pressão",
+        "pt": "Mosquetão",
         "pl": "Karabińczyk",
         "no": "Karabinkrok",
         "da": "Karabinkrog",
@@ -27914,7 +30109,7 @@
         "arc_alloy": 1,
         "electrical_components": 2
       },
-      "salvageInto": {
+      "salvagesInto": {
         "electrical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/snitch_scanner.png",
@@ -28028,7 +30223,7 @@
       "name": {
         "en": "Spaceport Trench Tower Key",
         "de": "Raumhafen-Grabentürme Schlüssel",
-        "fr": "Clé de la tour des tranchées du spatioport",
+        "fr": "Clé de la tour de tranchée du port spatial",
         "es": "Llave de la torre de trincheras del espaciopuerto",
         "pt": "Chave da torre de trincheiras do espaçoporto",
         "pl": "Klucz do wieży okopów portu kosmicznego",
@@ -28048,7 +30243,7 @@
       "description": {
         "en": "Unlocks a door to the Trench Towers in Spaceport",
         "de": "Öffnet eine Tür zu den Grabentürmen im Raumhafen",
-        "fr": "Déverrouille une porte vers les tours des tranchées du spatioport",
+        "fr": "Déverrouille une porte des tours de tranchées dans le port spatial.",
         "es": "Desbloquea una puerta a las torres de trincheras en el espaciopuerto",
         "pt": "Desbloqueia uma porta para as torres de trincheiras no espaçoporto",
         "pl": "Otwiera drzwi do wież okopów w porcie kosmicznym",
@@ -28077,7 +30272,7 @@
       "name": {
         "en": "Spaceport Warehouse Key",
         "de": "Raumhafen-Lagerhaus-Schlüssel",
-        "fr": "Clé de l'entrepôt du spatioport",
+        "fr": "Clé de l'entrepôt du port spatial",
         "es": "Llave del almacén del espaciopuerto",
         "pt": "Chave do armazém do espaçoporto",
         "pl": "Klucz do magazynu portu kosmicznego",
@@ -28097,7 +30292,7 @@
       "description": {
         "en": "A key to a warehouse in the Spaceport.",
         "de": "Ein Schlüssel zu einem Lagerhaus im Raumhafen.",
-        "fr": "Une clé d'un entrepôt dans le spatioport.",
+        "fr": "Déverrouille une porte de l'entrepôt d'expédition dans le port spatial.",
         "es": "Una llave de un almacén en el espaciopuerto.",
         "pt": "Uma chave para um armazém no espaçoporto.",
         "pl": "Klucz do magazynu w porcie kosmicznym.",
@@ -28117,7 +30312,8 @@
       "type": "Key",
       "value": 100,
       "weightKg": 0.25,
-      "updatedAt": "11/07/2025",
+      "updatedAt": "11/16/2025",
+      "rarity": "Uncommon",
       "imageFilename": "https://cdn.arctracker.io/items/spaceport_trench_tower_key.png"
     },
     {
@@ -28174,6 +30370,115 @@
       "foundIn": "Commercial",
       "imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
       "updatedAt": "11/03/2025"
+    },
+    {
+      "name": {
+        "en": "Spectrometer",
+        "de": "Spektrometer",
+        "fr": "Spectromètre",
+        "es": "Espectrómetro",
+        "pt": "Espectrômetro",
+        "pl": "Spektrometr",
+        "no": "Spektrometer",
+        "da": "Spektrometer",
+        "it": "Spettrometro",
+        "ja": "分光計",
+        "kr": "분광계",
+        "zh-CN": "光谱仪",
+        "zh-TW": "光譜儀",
+        "ru": "Спектрометр",
+        "tr": "Spektrometre",
+        "uk": "Спектрометр",
+        "sr": "Spektrometar",
+        "hr": "Spektrometar"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "spectrometer",
+      "type": "Recyclable",
+      "value": 3000,
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/spectrometer.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "sensors": 1
+      }
+    },
+    {
+      "name": {
+        "en": "Spectrum Analyzer",
+        "de": "Spektrumanalysator",
+        "fr": "Analyseur de spectre",
+        "es": "Analizador de espectro",
+        "pt": "Analisador de espectro",
+        "pl": "Analizator spektrum",
+        "no": "Spektrumanalysator",
+        "da": "Spektrumanalysator",
+        "it": "Analizzatore di spettro",
+        "ja": "スペクトラムアナライザー",
+        "kr": "스펙트럼 분석기",
+        "zh-CN": "频谱分析仪",
+        "zh-TW": "頻譜分析儀",
+        "ru": "Анализатор спектра",
+        "tr": "Spektrum Analizörü",
+        "uk": "Аналізатор спектра",
+        "sr": "Analizator spektra",
+        "hr": "Analizator spektra"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmaterialer.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da crafting.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "spectrum_analyzer",
+      "type": "Recyclable",
+      "value": 3500,
+      "rarity": "Epic",
+      "weightKg": 1.5,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/spectrum_analyzer.png",
+      "updatedAt": "11/14/2025",
+      "recyclesInto": {
+        "sensors": 1,
+        "exodus_modules": 1
+      }
     },
     {
       "id": "spotter_relay",
@@ -28289,53 +30594,6 @@
       "updatedAt": "11/04/2025"
     },
     {
-      "id": "spring",
-      "name": {
-        "en": "Spring",
-        "de": "Feder",
-        "fr": "Ressort",
-        "es": "Resorte",
-        "pt": "Mola",
-        "pl": "Sprężyna",
-        "no": "Fjær",
-        "da": "Fjeder",
-        "it": "Molla",
-        "ru": "Пружина",
-        "ja": "スプリング",
-        "zh-TW": "彈簧",
-        "uk": "Пружина",
-        "zh-CN": "弹簧",
-        "kr": "스프링",
-        "tr": "Yay",
-        "hr": "Opruga",
-        "sr": "Opruga"
-      },
-      "description": {
-        "en": "A tightly wound coil of metal, useful for crafting mechanisms.",
-        "de": "Eine fest gewickelte Metallspirale, nützlich für die Herstellung von Mechanismen.",
-        "fr": "Une bobine de métal étroitement enroulée, utile pour fabriquer des mécanismes.",
-        "es": "Una bobina de metal enrollada firmemente, útil para fabricar mecanismos.",
-        "pt": "Uma bobina de metal firmemente enrolada, útil para fabricar mecanismos.",
-        "pl": "Ciasno zwinięta spirala metalowa, przydatna do wytwarzania mechanizmów.",
-        "no": "En tett viklet metallspiral, nyttig for å lage mekanismer.",
-        "da": "En stramt viklet metalspiral, nyttig til at lave mekanismer.",
-        "it": "Una bobina di metallo strettamente avvolta, utile per creare meccanismi.",
-        "ru": "Плотно скрученная металлическая спираль, полезная для создания механизмов.",
-        "ja": "しっかりと巻かれた金属コイル。メカニズムの製作に役立つ。",
-        "zh-TW": "緊密纏繞的金屬線圈，可用於製作機械裝置。",
-        "uk": "Щільно скручена металева спіраль, корисна для створення механізмів.",
-        "zh-CN": "紧密缠绕的金属线圈，可用于制作机械装置。",
-        "kr": "단단히 감긴 금속 코일로, 기계 장치 제작에 유용합니다.",
-        "tr": "Sıkıca sarılmış metal bobin, mekanizma üretimi için kullanışlıdır.",
-        "hr": "Čvrsto namotana metalna spirala, korisna za izradu mehanizama.",
-        "sr": "Čvrsto namotana metalna spirala, korisna za izradu mehanizama."
-      },
-      "type": "Material",
-      "_note": "not_in_serverslam",
-      "imageFilename": "https://cdn.arctracker.io/items/spring.png",
-      "updatedAt": "10/30/2025"
-    },
-    {
       "id": "stable_stock_i",
       "name": {
         "en": "Stable Stock I",
@@ -28388,7 +30646,7 @@
         "Arpeggio",
         "Bettina"
       ],
-      "crafting": {
+      "recipe": {
         "rubber_parts": 6,
         "duct_tape": 1
       },
@@ -28444,10 +30702,6 @@
         }
       },
       "updatedAt": "11/03/2025",
-      "recipe": {
-        "rubber_parts": 7,
-        "duct_tape": 1
-      },
       "craftBench": "weapon_bench"
     },
     {
@@ -28809,7 +31063,7 @@
       "rarity": "Uncommon",
       "value": 300,
       "recyclesInto": {
-        "metal_parts": 3
+        "metal_parts": 2
       },
       "salvagesInto": {
         "metal_parts": 2
@@ -28818,6 +31072,249 @@
       "stackSize": 15,
       "foundIn": "Industrial",
       "updatedAt": "11/03/2025"
+    },
+    {
+      "id": "stella_montis_archives_key",
+      "name": {
+        "en": "Stella Montis Archives Key",
+        "pl": "Klucz do Archiwum Stella Montis",
+        "it": "Chiave degli Archivi di Stella Montis",
+        "zh-CN": "星山档案室钥匙",
+        "kr": "스텔라 몬티스 기록보관소 열쇠",
+        "hr": "Ključ Arhiva Stella Montis",
+        "de": "Stella Montis Archivschlüssel",
+        "ru": "Ключ от архива Стелла Монтис",
+        "es": "Llave de los Archivos de Stella Montis",
+        "zh-TW": "星山檔案室鑰匙",
+        "pt": "Chave dos Arquivos de Stella Montis",
+        "sr": "Кључ Архива Стела Монтис",
+        "ja": "ステラ・モンティス記録保管所の鍵",
+        "da": "Stella Montis Arkivnøgle",
+        "tr": "Stella Montis Arşiv Anahtarı",
+        "uk": "Ключ від архіву Стелла Монтіс",
+        "no": "Stella Montis Arkivnøkkel",
+        "fr": "Clé des Archives de Stella Montis"
+      },
+      "description": {
+        "en": "Unlocks a door in Medical Research in Stella Montis",
+        "pl": "Otwiera drzwi w Badaniach Medycznych w Stella Montis",
+        "it": "Sblocca una porta nella Ricerca Medica a Stella Montis",
+        "zh-CN": "解锁星山医学研究区的一扇门",
+        "kr": "스텔라 몬티스 의학 연구소의 문을 엽니다",
+        "hr": "Otključava vrata u Medicinskim Istraživanjima u Stella Montis",
+        "de": "Öffnet eine Tür in der Medizinischen Forschung in Stella Montis",
+        "ru": "Открывает дверь в Медицинских исследованиях в Стелла Монтис",
+        "es": "Desbloquea una puerta en Investigación Médica en Stella Montis",
+        "zh-TW": "解鎖星山醫學研究區的一扇門",
+        "pt": "Desbloqueia uma porta na Pesquisa Médica em Stella Montis",
+        "sr": "Откључава врата у Медицинским Истраживањима у Стела Монтис",
+        "ja": "ステラ・モンティスの医学研究所の扉を開ける",
+        "da": "Låser en dør op i Medicinsk Forskning i Stella Montis",
+        "tr": "Stella Montis'teki Tıbbi Araştırma bölümünde bir kapıyı açar",
+        "uk": "Відмикає двері в Медичних дослідженнях у Стелла Монтіс",
+        "no": "Låser opp en dør i Medisinsk Forskning i Stella Montis",
+        "fr": "Déverrouille une porte dans la Recherche Médicale à Stella Montis"
+      },
+      "type": "Key",
+      "rarity": "Uncommon",
+      "weightKg": 0.25,
+      "stackSize": 1,
+      "value": 100,
+      "effects": {
+        "Opens a door": {
+          "en": "Opens a door somewhere on",
+          "pl": "Otwiera drzwi gdzieś na",
+          "it": "Apre una porta da qualche parte su",
+          "zh-CN": "在某处打开一扇门",
+          "kr": "어딘가의 문을 엽니다",
+          "hr": "Otvara vrata negdje na",
+          "de": "Öffnet eine Tür irgendwo auf",
+          "ru": "Открывает дверь где-то на",
+          "es": "Abre una puerta en algún lugar de",
+          "zh-TW": "在某處打開一扇門",
+          "pt": "Abre uma porta em algum lugar em",
+          "sr": "Отвара врата негде на",
+          "ja": "どこかの扉を開ける",
+          "da": "Åbner en dør et sted på",
+          "tr": "Bir yerde bir kapı açar",
+          "uk": "Відчиняє двері десь на",
+          "no": "Åpner en dør et sted på",
+          "fr": "Ouvre une porte quelque part sur",
+          "value": "Stella Montis"
+        }
+      },
+      "updatedAt": "11/13/2025"
+    },
+    {
+      "name": {
+        "en": "Stella Montis Assembly Admin Key",
+        "de": "Stella Montis Montage-Administratorschlüssel",
+        "fr": "Clé de l'administration du site d'assemblage de Stella Montis",
+        "es": "Llave de Administrador del Ensamblaje de Stella Montis",
+        "pt": "Chave de Administrador da Montagem de Stella Montis",
+        "pl": "Klucz Administratora Montażu Stella Montis",
+        "no": "Stella Montis Monteringsadministratornøkkel",
+        "da": "Stella Montis Samlings-Administratornøgle",
+        "it": "Chiave Amministratore dell'Assemblaggio di Stella Montis",
+        "ja": "ステラ・モンティス組立管理者キー",
+        "kr": "스텔라 몬티스 조립 관리자 열쇠",
+        "zh-CN": "星山组装区管理员钥匙",
+        "zh-TW": "星山組裝區管理員鑰匙",
+        "ru": "Административный Ключ Сборочного Цеха Стелла Монтис",
+        "tr": "Stella Montis Montaj Yönetici Anahtarı",
+        "uk": "Адміністративний Ключ Складального Цеху Стелла Монтіс",
+        "sr": "Административни Кључ Монтаже Стела Монтис",
+        "hr": "Administratorski Ključ Montaže Stella Montis"
+      },
+      "description": {
+        "en": "Unlocks a door in Assembly in Stella Montis",
+        "de": "Öffnet eine Tür in der Montage in Stella Montis",
+        "fr": "Déverrouille une porte dans le site d'assemblage de Stella Montis.",
+        "es": "Desbloquea una puerta en el Ensamblaje en Stella Montis",
+        "pt": "Desbloqueia uma porta na Montagem em Stella Montis",
+        "pl": "Otwiera drzwi w Montażu w Stella Montis",
+        "no": "Låser opp en dør i Monteringen i Stella Montis",
+        "da": "Låser en dør op i Samlingen i Stella Montis",
+        "it": "Sblocca una porta nell'Assemblaggio a Stella Montis",
+        "ja": "ステラ・モンティスの組立エリアのドアを開錠する",
+        "kr": "스텔라 몬티스의 조립 구역 문을 엽니다",
+        "zh-CN": "解锁星山组装区的一扇门",
+        "zh-TW": "解鎖星山組裝區的一扇門",
+        "ru": "Открывает дверь в Сборочном Цехе в Стелла Монтис",
+        "tr": "Stella Montis'teki Montaj bölümünde bir kapıyı açar",
+        "uk": "Відмикає двері у Складальному Цеху в Стелла Монтіс",
+        "sr": "Откључава врата у Монтажи у Стела Монтис",
+        "hr": "Otključava vrata u Montaži u Stella Montis"
+      },
+      "id": "stella_montis_assembly_admin_key",
+      "type": "Key",
+      "rarity": "Uncommon",
+      "weightKg": 0.25,
+      "value": 100,
+      "imageFilename": "https://cdn.arctracker.io/items/stella_montis_assembly_admin_key.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
+      "id": "stella_montis_medical_storage_key",
+      "name": {
+        "en": "Stella Montis Medical Storage Key",
+        "pl": "Klucz do Magazynu Medycznego Stella Montis",
+        "it": "Chiave del Deposito Medico di Stella Montis",
+        "zh-CN": "星山医疗储藏室钥匙",
+        "kr": "스텔라 몬티스 의료 창고 열쇠",
+        "hr": "Ključ Medicinskog Skladišta Stella Montis",
+        "de": "Stella Montis Medizinlager-Schlüssel",
+        "ru": "Ключ от медицинского склада Стелла Монтис",
+        "es": "Llave del Almacén Médico de Stella Montis",
+        "zh-TW": "星山醫療儲藏室鑰匙",
+        "pt": "Chave do Armazém Médico de Stella Montis",
+        "sr": "Кључ Медицинског Складишта Стела Монтис",
+        "ja": "ステラ・モンティス医療保管庫の鍵",
+        "da": "Stella Montis Medicinsk Lagernøgle",
+        "tr": "Stella Montis Tıbbi Depo Anahtarı",
+        "uk": "Ключ від медичного складу Стелла Монтіс",
+        "no": "Stella Montis Medisinsk Lagernøkkel",
+        "fr": "Clé du Stockage Médical de Stella Montis"
+      },
+      "description": {
+        "en": "Unlocks a door in the Archives in Stella Montis",
+        "pl": "Otwiera drzwi w Archiwum w Stella Montis",
+        "it": "Sblocca una porta negli Archivi a Stella Montis",
+        "zh-CN": "解锁星山档案室的一扇门",
+        "kr": "스텔라 몬티스 기록보관소의 문을 엽니다",
+        "hr": "Otključava vrata u Arhivima u Stella Montis",
+        "de": "Öffnet eine Tür im Archiv in Stella Montis",
+        "ru": "Открывает дверь в архиве в Стелла Монтис",
+        "es": "Desbloquea una puerta en los Archivos en Stella Montis",
+        "zh-TW": "解鎖星山檔案室的一扇門",
+        "pt": "Desbloqueia uma porta nos Arquivos em Stella Montis",
+        "sr": "Откључава врата у Архивима у Стела Монтис",
+        "ja": "ステラ・モンティスの記録保管所の扉を開ける",
+        "da": "Låser en dør op i Arkivet i Stella Montis",
+        "tr": "Stella Montis'teki Arşiv'de bir kapıyı açar",
+        "uk": "Відмикає двері в архіві у Стелла Монтіс",
+        "no": "Låser opp en dør i Arkivet i Stella Montis",
+        "fr": "Déverrouille une porte dans les Archives à Stella Montis"
+      },
+      "type": "Key",
+      "rarity": "Epic",
+      "weightKg": 0.25,
+      "stackSize": 1,
+      "value": 100,
+      "effects": {
+        "Opens a door somewhere on": {
+          "en": "Opens a door somewhere on",
+          "pl": "Otwiera drzwi gdzieś na",
+          "it": "Apre una porta da qualche parte su",
+          "zh-CN": "在某处打开一扇门",
+          "kr": "어딘가의 문을 엽니다",
+          "hr": "Otvara vrata negdje na",
+          "de": "Öffnet eine Tür irgendwo auf",
+          "ru": "Открывает дверь где-то на",
+          "es": "Abre una puerta en algún lugar de",
+          "zh-TW": "在某處打開一扇門",
+          "pt": "Abre uma porta em algum lugar em",
+          "sr": "Отвара врата негде на",
+          "ja": "どこかの扉を開ける",
+          "da": "Åbner en dør et sted på",
+          "tr": "Bir yerde bir kapı açar",
+          "uk": "Відчиняє двері десь на",
+          "no": "Åpner en dør et sted på",
+          "fr": "Ouvre une porte quelque part sur",
+          "value": "Stella Montis"
+        }
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/stella_montis_medical_storage_key.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
+      "name": {
+        "en": "Stella Montis Security Checkpoint Key",
+        "de": "Stella Montis Sicherheitskontrollpunkt-Schlüssel",
+        "fr": "Clé du point de contrôle de sécurité de Stella Montis",
+        "es": "Llave del puesto de control de seguridad de Stella Montis",
+        "pt": "Chave do Posto de Controle de Segurança de Stella Montis",
+        "pl": "Klucz do punktu kontrolnego w Stella Montis",
+        "no": "Stella Montis sikkerhetskontrollpunkt-nøkkel",
+        "da": "Stella Montis sikkerhedskontrolpunkt-nøgle",
+        "it": "Chiave del checkpoint di sicurezza di Stella Montis",
+        "ja": "ステラ・モンティス セキュリティチェックポイントの鍵",
+        "kr": "스텔라 몬티스 보안 검문소 열쇠",
+        "zh-CN": "星山安全检查站钥匙",
+        "zh-TW": "星山安全檢查站鑰匙",
+        "ru": "Ключ от контрольно-пропускного пункта Стелла Монтис",
+        "tr": "Stella Montis Güvenlik Kontrol Noktası Anahtarı",
+        "uk": "Ключ від контрольно-перепускного пункту Стелла Монтіс",
+        "sr": "Ključ bezbednosne kontrolne tačke Stella Montis",
+        "hr": "Ključ sigurnosne kontrolne točke Stella Montis"
+      },
+      "description": {
+        "en": "Unlocks a door in the Security Checkpoint in Stella Montis",
+        "de": "Öffnet eine Tür am Sicherheitskontrollpunkt in Stella Montis",
+        "fr": "Déverrouille une porte au point de contrôle de sécurité de Stella Montis",
+        "es": "Desbloquea una puerta en el puesto de control de seguridad de Stella Montis",
+        "pt": "Desbloqueia uma porta no Posto de Controle de Segurança em Stella Montis",
+        "pl": "Otwiera drzwi w punkcie kontrolnym w Stella Montis",
+        "no": "Låser opp en dør i sikkerhetskontrollpunktet i Stella Montis",
+        "da": "Låser en dør op i sikkerhedskontrolpunktet i Stella Montis",
+        "it": "Sblocca una porta nel checkpoint di sicurezza di Stella Montis",
+        "ja": "ステラ・モンティスのセキュリティチェックポイントの扉を開ける",
+        "kr": "스텔라 몬티스 보안 검문소의 문을 엽니다",
+        "zh-CN": "解锁星山安全检查站的一扇门",
+        "zh-TW": "解鎖星山安全檢查站的一扇門",
+        "ru": "Открывает дверь на контрольно-пропускном пункте в Стелла Монтис",
+        "tr": "Stella Montis'teki Güvenlik Kontrol Noktasında bir kapıyı açar",
+        "uk": "Відкриває двері на контрольно-перепускному пункті в Стелла Монтіс",
+        "sr": "Otključava vrata na bezbednosnoj kontrolnoj tački u Stella Montis",
+        "hr": "Otključava vrata na sigurnosnoj kontrolnoj točki u Stella Montis"
+      },
+      "id": "stella_montis_security_checkpoint_key",
+      "type": "Key",
+      "rarity": "Rare",
+      "value": 100,
+      "weightKg": 0.25,
+      "imageFilename": "https://cdn.arctracker.io/items/stella_montis_security_checkpoint_key.png",
+      "updatedAt": "11/13/2025"
     },
     {
       "id": "sterilized_bandage",
@@ -29417,7 +31914,7 @@
       "description": {
         "en": "A handheld kit that recharges a shield on use.",
         "de": "Ein tragbares Kit, das bei Verwendung einen Schild auflädt.",
-        "fr": "Un kit portable qui recharge un bouclier à l'utilisation.",
+        "fr": "Un kit portatif qui recharge un bouclier.",
         "es": "Un kit portátil que recarga un escudo al usarse.",
         "pt": "Um kit portátil que recarrega um escudo ao ser usado.",
         "pl": "Przenośny zestaw, który ładuje tarczę po użyciu.",
@@ -29501,7 +31998,7 @@
         "de": "Beobachtertresor",
         "fr": "Coffre de l'Arpenteur",
         "es": "Bóveda del Topógrafo",
-        "pt": "Cofre do Agrimensor",
+        "pt": "Cofre de Inspetor",
         "pl": "Skarbiec Geodety",
         "no": "Landmåler-hvelv",
         "da": "Landmåler-hvælv",
@@ -29895,6 +32392,10 @@
         }
       },
       "weightKg": 2,
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "processor": 1
+      },
       "recipe": {
         "electrical_components": 2,
         "magnet": 3
@@ -29906,7 +32407,7 @@
       "name": {
         "en": "Tactical Mk. 3 (Defensive)",
         "de": "Taktisch Mk. 3 (Verteidigung)",
-        "fr": "Tactique Mk. 3 (Défensif)",
+        "fr": "Tactique 3 (défense)",
         "es": "Táctico Mk. 3 (Defensivo)",
         "pt": "Tático Mk. 3 (Defensivo)",
         "pl": "Taktyczny Mk. 3 (Obronny)",
@@ -30029,7 +32530,7 @@
       "name": {
         "en": "Tactical Mk. 3 (Healing) Blueprint",
         "de": "Taktisch Mk. 3 (Heilung) Blaupause",
-        "fr": "Plan Tactique Mk. 3 (Soin)",
+        "fr": "Plan Tactique 3 (soins)",
         "es": "Plano Táctico Mk. 3 (Curación)",
         "pt": "Projeto Tático Mk. 3 (Cura)",
         "pl": "Projekt Taktyczny Mk. 3 (Leczenie)",
@@ -30373,6 +32874,26 @@
         "hr": "Pocijepana odjeća",
         "sr": "Pocepana odeća"
       },
+      "description": {
+        "en": "Can be recycled into fabric.",
+        "de": "Kann in Stoff recycelt werden.",
+        "fr": "Peut être recyclé en tissu.",
+        "es": "Puede reciclarse en tela.",
+        "pt": "Pode ser reciclado em tecido.",
+        "pl": "Można przetworzyć na tkaninę.",
+        "no": "Kan resirkuleres til stoff.",
+        "da": "Kan genbruges til stof.",
+        "it": "Può essere riciclato in tessuto.",
+        "ru": "Можно переработать в ткань.",
+        "ja": "布にリサイクルできます。",
+        "zh-TW": "可回收為布料。",
+        "uk": "Можна переробити на тканину.",
+        "zh-CN": "可回收为布料。",
+        "kr": "천으로 재활용할 수 있습니다.",
+        "tr": "Kumaşa dönüştürülmek üzere geri dönüştürülebilir.",
+        "hr": "Može se reciklirati u tkaninu.",
+        "sr": "Može se reciklirati u tkaninu."
+      },
       "rarity": "Uncommon",
       "type": "Recyclable",
       "value": 270,
@@ -30384,6 +32905,61 @@
       },
       "imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
       "updatedAt": "11/10/2025"
+    },
+    {
+      "name": {
+        "en": "Telemetry Transceiver",
+        "de": "Telemetrie-Transceiver",
+        "fr": "Émetteur-récepteur de télémétrie",
+        "es": "Transceptor de telemetría",
+        "pt": "Transceptor de telemetria",
+        "pl": "Nadajnik-odbiornik telemetryczny",
+        "no": "Telemetri-transceiver",
+        "da": "Telemetri-transceiver",
+        "it": "Ricetrasmettitore telemetrico",
+        "ja": "テレメトリー送受信機",
+        "kr": "원격 측정 송수신기",
+        "zh-CN": "遥测收发器",
+        "zh-TW": "遙測收發器",
+        "ru": "Телеметрический приемопередатчик",
+        "tr": "Telemetri Alıcı-Verici",
+        "uk": "Телеметричний приймач-передавач",
+        "sr": "Telemetrijski primopredajnik",
+        "hr": "Telemetrijski primopredajnik"
+      },
+      "description": {
+        "en": "Can be recycled into crafting materials.",
+        "de": "Kann zu Handwerksmaterialien recycelt werden.",
+        "fr": "Peut être recyclé en matériaux d'artisanat.",
+        "es": "Se puede reciclar en materiales de fabricación.",
+        "pt": "Pode ser reciclado em materiais de fabricação.",
+        "pl": "Można przetworzyć na materiały rzemieślnicze.",
+        "no": "Kan resirkuleres til håndverksmateriell.",
+        "da": "Kan genbruges til håndværksmaterialer.",
+        "it": "Può essere riciclato in materiali da costruzione.",
+        "ja": "クラフト素材にリサイクルできます。",
+        "kr": "제작 재료로 재활용할 수 있습니다.",
+        "zh-CN": "可回收为制作材料。",
+        "zh-TW": "可回收為製作材料。",
+        "ru": "Можно переработать в материалы для крафта.",
+        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+        "uk": "Можна переробити на матеріали для крафту.",
+        "sr": "Može se reciklirati u materijale za izradu.",
+        "hr": "Može se reciklirati u materijale za izradu."
+      },
+      "id": "telemetry_transceiver",
+      "type": "Recyclable",
+      "rarity": "Rare",
+      "weightKg": 1.5,
+      "stackSize": 3,
+      "foundIn": "Exodus",
+      "imageFilename": "https://cdn.arctracker.io/items/telemetry_transceiver.png",
+      "updatedAt": "11/14/2025",
+      "value": 3000,
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "processor": 1
+      }
     },
     {
       "id": "tempest_i",
@@ -32213,6 +34789,103 @@
       "weightKg": 12
     },
     {
+      "name": {
+        "en": "Trailblazer",
+        "de": "Wegbereiter",
+        "fr": "Brûleuse",
+        "es": "Pionero",
+        "pt": "Desbravador",
+        "pl": "Pionier",
+        "no": "Banebryter",
+        "da": "Banebryder",
+        "it": "Apripista",
+        "ja": "トレイルブレイザー",
+        "kr": "선구자",
+        "zh-CN": "开拓者",
+        "zh-TW": "開拓者",
+        "ru": "Первопроходец",
+        "tr": "Öncü",
+        "uk": "Першопрохідець",
+        "sr": "Tragač",
+        "hr": "Tragač"
+      },
+      "description": {
+        "en": "A grenade that emits a trail of flammable gas along its path, causing an explosive chain reaction when it ignites.",
+        "de": "Eine Granate, die entlang ihrer Flugbahn eine Spur aus brennbarem Gas freisetzt und beim Entzünden eine explosive Kettenreaktion auslöst.",
+        "fr": "Une grenade qui laisse une traînée de gaz enflammable sur sa trajectoire, provoquant une réaction en chaîne explosive lorsqu'elle s'enflamme.",
+        "es": "Una granada que emite un rastro de gas inflamable a lo largo de su trayectoria, causando una reacción en cadena explosiva cuando se enciende.",
+        "pt": "Uma granada que emite um rastro de gás inflamável ao longo de seu caminho, causando uma reação em cadeia explosiva quando se inflama.",
+        "pl": "Granat emitujący ślad łatwopalnego gazu wzdłuż swojej ścieżki, powodujący wybuchową reakcję łańcuchową po zapłonie.",
+        "no": "En granat som avgir et spor av brennbar gass langs banen sin, og forårsaker en eksplosiv kjedereaksjon når den antennes.",
+        "da": "En granat der udsender et spor af brændbar gas langs sin bane, hvilket forårsager en eksplosiv kædereaktion når den antændes.",
+        "it": "Una granata che emette una scia di gas infiammabile lungo il suo percorso, causando una reazione esplosiva a catena quando si accende.",
+        "ja": "軌道に沿って可燃性ガスの軌跡を放出し、着火時に爆発的な連鎖反応を引き起こす手榴弾。",
+        "kr": "경로를 따라 가연성 가스 흔적을 방출하여 점화 시 폭발적인 연쇄 반응을 일으키는 수류탄.",
+        "zh-CN": "一种沿路径释放易燃气体轨迹的手榴弹，点燃时会引发爆炸性连锁反应。",
+        "zh-TW": "一種沿路徑釋放易燃氣體軌跡的手榴彈，點燃時會引發爆炸性連鎖反應。",
+        "ru": "Граната, выделяющая след горючего газа по своей траектории, вызывающая взрывную цепную реакцию при воспламенении.",
+        "tr": "Yolu boyunca yanıcı gaz izi bırakan ve ateşlendiğinde patlayıcı bir zincirleme reaksiyona neden olan bir el bombası.",
+        "uk": "Граната, що виділяє слід горючого газу вздовж своєї траєкторії, викликаючи вибухову ланцюгову реакцію при займанні.",
+        "sr": "Granata koja emituje trag zapaljivog gasa duž svoje putanje, izazivajući eksplozivnu lančanu reakciju kada se zapali.",
+        "hr": "Granata koja emitira trag zapaljivog plina duž svoje putanje, uzrokujući eksplozivnu lančanu reakciju kada se zapali."
+      },
+      "id": "trailblazer",
+      "type": "Quick Use",
+      "value": 1600,
+      "rarity": "Rare",
+      "weightKg": 1,
+      "stackSize": 3,
+      "effects": {
+        "Damage": {
+          "en": "Damage",
+          "de": "Schaden",
+          "fr": "Dégâts",
+          "es": "Daño",
+          "pt": "Dano",
+          "pl": "Obrażenia",
+          "no": "Skade",
+          "da": "Skade",
+          "it": "Danno",
+          "ja": "ダメージ",
+          "kr": "피해",
+          "zh-CN": "伤害",
+          "zh-TW": "傷害",
+          "ru": "Урон",
+          "tr": "Hasar",
+          "uk": "Шкода",
+          "sr": "Šteta",
+          "hr": "Šteta",
+          "value": 20
+        },
+        "Radius": {
+          "en": "Radius",
+          "de": "Radius",
+          "fr": "Rayon",
+          "es": "Radio",
+          "pt": "Raio",
+          "pl": "Promień",
+          "no": "Radius",
+          "da": "Radius",
+          "it": "Raggio",
+          "ja": "半径",
+          "kr": "반경",
+          "zh-CN": "半径",
+          "zh-TW": "半徑",
+          "ru": "Радиус",
+          "tr": "Yarıçap",
+          "uk": "Радіус",
+          "sr": "Radijus",
+          "hr": "Radijus",
+          "value": "2m"
+        }
+      },
+      "recyclesInto": {
+        "crude_explosives": 2
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
+      "updatedAt": "11/14/2025"
+    },
+    {
       "id": "trigger_nade_blueprint",
       "name": {
         "en": "Trigger Nade Blueprint",
@@ -33609,7 +36282,7 @@
       "name": {
         "en": "Vertical Grip III Blueprint",
         "de": "Vertikalgriff III Blaupause",
-        "fr": "Plan de Poignée Verticale III",
+        "fr": "Plan de Poignée verticale III",
         "es": "Plano de Empuñadura Vertical III",
         "pt": "Projeto de Empunhadura Vertical III",
         "pl": "Projekt Chwytu Pionowego III",
@@ -33658,7 +36331,7 @@
       "name": {
         "en": "Vertical Grip III",
         "de": "Vertikalgriff III",
-        "fr": "Poignée Verticale III",
+        "fr": "Poignée verticale III",
         "es": "Empuñadura Vertical III",
         "pt": "Empunhadura Vertical III",
         "pl": "Chwyt Pionowy III",
@@ -33807,7 +36480,7 @@
       "name": {
         "en": "Vita Shot",
         "de": "Vita-Spritze",
-        "fr": "Injection Vita",
+        "fr": "Dose de Vita",
         "es": "Inyección Vita",
         "pt": "Injeção Vita",
         "pl": "Zastrzyk Vita",
@@ -33953,7 +36626,7 @@
       "name": {
         "en": "Vita Spray",
         "de": "Vita-Spray",
-        "fr": "Spray Vita",
+        "fr": "Spray de Vita",
         "es": "Aerosol Vita",
         "pt": "Spray Vita",
         "pl": "Spray Vita",
@@ -33973,7 +36646,7 @@
       "description": {
         "en": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
         "de": "Ein medizinischer Gegenstand, der während der Anwendung kontinuierlich Gesundheit wiederherstellt. Kann bei sich selbst oder Verbündeten angewendet werden.",
-        "fr": "Un objet médical qui restaure continuellement la santé pendant l'utilisation. Peut être utilisé sur vous-même ou vos alliés.",
+        "fr": "Un objet médical qui restaure de la santé en continu pendant l'utilisation. Il peut aussi bien vous servir à vous qu'à vos alliés.",
         "es": "Un objeto médico que restaura salud continuamente durante el uso. Puede usarse en ti mismo o en tus aliados.",
         "pt": "Um item médico que restaura saúde continuamente durante o uso. Pode ser usado em você mesmo ou em seus aliados.",
         "pl": "Przedmiot medyczny, który stale przywraca zdrowie podczas użycia. Może być użyty na sobie lub sojusznikach.",
@@ -34249,7 +36922,6 @@
       },
       "type": "Shotgun",
       "rarity": "Epic",
-      "_note": "not_in_serverslam",
       "damage": 58.5,
       "fireRate": 8.3,
       "range": 22.1,
@@ -34263,6 +36935,10 @@
       "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
       "updatedAt": "11/12/2025",
       "value": 10000,
+      "recyclesInto": {
+        "advanced_mechanical_components": 2,
+        "heavy_gun_parts": 2
+      },
       "recipe": {
         "magnetic_accelerator": 1,
         "heavy_gun_parts": 3,
@@ -34421,7 +37097,6 @@
       },
       "type": "Shotgun",
       "rarity": "Epic",
-      "_note": "not_in_serverslam",
       "damage": 58.5,
       "fireRate": 14.3,
       "range": 22.1,
@@ -34431,15 +37106,15 @@
       "increasedFireRate": 20,
       "reducedReloadTime": 26,
       "reducedDurabilityBurnRate": 46,
-      "crafting": {
-        "mechanical_components": 1,
-        "simple_gun_parts": 3
-      },
       "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
       "updatedAt": "11/12/2025",
       "value": 13000,
       "weightKg": 9.25,
       "stackSize": 1,
+      "recyclesInto": {
+        "advanced_mechanical_components": 2,
+        "heavy_gun_parts": 3
+      },
       "effects": {
         "Durability": {
           "en": "Durability",
@@ -34642,6 +37317,10 @@
       "rarity": "Epic",
       "value": 17000,
       "weightKg": 8,
+      "recyclesInto": {
+        "advanced_mechanical_components": 3,
+        "heavy_gun_parts": 4
+      },
       "effects": {
         "Durability": {
           "en": "Durability",
@@ -35020,7 +37699,7 @@
       },
       "craftBench": "weapon_bench",
       "stationLevelRequired": 1,
-      "recycledMaterial": {
+      "recyclesInto": {
         "advanced_mechanical_components": 4,
         "heavy_gun_parts": 5
       },
@@ -35052,7 +37731,7 @@
       "stability": 68.6,
       "agility": 70.3,
       "stealth": 15,
-      "weight": 8,
+      "weightKg": 8,
       "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
       "updatedAt": "11/12/2025"
     },
@@ -35242,7 +37921,7 @@
       "description": {
         "en": "Can be recycled into crafting materials.",
         "de": "Kann zu Handwerksmaterialien recycelt werden.",
-        "fr": "Peut être recyclée en matériaux de fabrication.",
+        "fr": "Peut être recyclée en matériaux d'artisanat.",
         "es": "Se puede reciclar en materiales de fabricación.",
         "pt": "Pode ser reciclada em materiais de fabricação.",
         "pl": "Można przetworzyć na materiały rzemieślnicze.",
@@ -35387,7 +38066,7 @@
       "name": {
         "en": "Wolfpack",
         "de": "Wolfsrudel",
-        "fr": "Meute de loups",
+        "fr": "Meute",
         "es": "Manada de lobos",
         "pt": "Alcateia",
         "pl": "Wataha",
@@ -35407,7 +38086,7 @@
       "description": {
         "en": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
         "de": "Eine Granate, die sich in mehrere zielsuchende Raketen aufteilt, die jeweils ARC anvisieren und bei Aufprall explosiven Schaden verursachen.",
-        "fr": "Une grenade qui se disperse en plusieurs missiles à tête chercheuse, chacun ciblant ARC et infligeant des dégâts explosifs à l'impact.",
+        "fr": "Une grenade qui se disperse en plusieurs missiles à tête chercheuse, chacun ciblant les machines ARC et infligeant des dégâts explosifs à l'impact.",
         "es": "Una granada que se dispersa en múltiples misiles teledirigidos, cada uno apuntando a ARC y causando daño explosivo al impactar.",
         "pt": "Uma granada que se dispersa em múltiplos mísseis teleguiados, cada um mirando ARC e causando dano explosivo no impacto.",
         "pl": "Granat rozpraszający się na wiele rakiet naprowadzanych, z których każda celuje w ARC i zadaje obrażenia wybuchowe przy uderzeniu.",
@@ -35484,6 +38163,56 @@
       "craftBench": "explosives_bench"
     },
     {
+      "id": "yellow_light_stick_blueprint",
+      "name": {
+        "en": "Yellow Light Stick Blueprint",
+        "de": "Gelber Leuchtstab",
+        "fr": "Bâton lumineux jaune",
+        "es": "Barra de luz amarilla",
+        "pt": "Bastão de luz amarelo",
+        "pl": "Żółty patyk świetlny",
+        "no": "Gul lysstav",
+        "da": "Gul lysstav",
+        "it": "Bastoncino luminoso giallo",
+        "ru": "Жёлтая светящаяся палочка",
+        "ja": "イエローライトスティック",
+        "zh-TW": "黃色螢光棒",
+        "uk": "Жовта світлова паличка",
+        "zh-CN": "黄色荧光棒",
+        "kr": "노란색 라이트 스틱",
+        "tr": "Sarı Işık Çubuğu",
+        "hr": "Žuta svjetleća štapić",
+        "sr": "Žuti svetleći štapić"
+      },
+      "description": {
+        "en": "A throwable chemical light that illuminates the area around it.",
+        "de": "Ein werfbares Chemielicht, das die Umgebung erhellt.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
+        "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
+        "pt": "Uma luz química arremessável que ilumina a área ao redor.",
+        "pl": "Rzucane światło chemiczne, które oświetla obszar wokół siebie.",
+        "no": "Et kastbart kjemisk lys som lyser opp området rundt det.",
+        "da": "Et kastbart kemisk lys, der oplyser området omkring det.",
+        "it": "Una luce chimica lanciabile che illumina l'area circostante.",
+        "ru": "Бросаемый химический источник света, освещающий область вокруг себя.",
+        "ja": "投げることができる化学発光体で、周囲のエリアを照らす。",
+        "zh-TW": "可投擲的化學光源，照亮周圍區域。",
+        "uk": "Хімічне джерело світла, що кидається і освітлює область навколо себе.",
+        "zh-CN": "可投掷的化学光源，照亮周围区域。",
+        "kr": "주변 지역을 밝히는 투척 가능한 화학 조명입니다.",
+        "tr": "Etrafındaki alanı aydınlatan fırlatılabilir kimyasal ışık.",
+        "hr": "Kemijsko svjetlo za bacanje koje osvjetljava područje oko sebe.",
+        "sr": "Hemijsko svetlo za bacanje koje osvetljava oblast oko sebe."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "rarity": "Legendary",
+      "weightKg": 0,
+      "stackSize": 1,
+      "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
+      "updatedAt": "11/13/2025"
+    },
+    {
       "id": "yellow_light_stick",
       "name": {
         "en": "Yellow Light Stick",
@@ -35508,7 +38237,7 @@
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
         "de": "Ein werfbares Chemielicht, das die Umgebung erhellt.",
-        "fr": "Une lumière chimique jetable qui illumine la zone autour d'elle.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao redor.",
         "pl": "Rzucane światło chemiczne, które oświetla obszar wokół siebie.",
@@ -35607,7 +38336,7 @@
       "description": {
         "en": "A deployable zipline that allows you to quickly move between two locations.",
         "de": "Eine einsetzbare Seilrutsche, die es Ihnen ermöglicht, sich schnell zwischen zwei Orten zu bewegen.",
-        "fr": "Une tyrolienne déployable qui vous permet de vous déplacer rapidement entre deux emplacements.",
+        "fr": "Une tyrolienne déployable qui vous permet de vous déplacer rapidement entre deux endroits.",
         "es": "Una tirolina desplegable que te permite moverte rápidamente entre dos ubicaciones.",
         "pt": "Uma tirolesa implantável que permite mover-se rapidamente entre dois locais.",
         "pl": "Rozkładana tyrolka, która pozwala szybko przemieszczać się między dwoma lokalizacjami.",
@@ -35624,8 +38353,7 @@
         "hr": "Postavljiva užad koja vam omogućuje brzo kretanje između dvije lokacije.",
         "sr": "Postavljiva užad koja vam omogućava brzo kretanje između dve lokacije."
       },
-      "rangeMeters": 60,
-      "weight": 0.4,
+      "weightKg": 0.4,
       "value": 1000,
       "imageFilename": "https://cdn.arctracker.io/items/zipline.png",
       "updatedAt": "11/05/2025",
@@ -35634,7 +38362,7 @@
         "metal_parts": 1
       },
       "craftBench": "utility_bench",
-      "craftMaterials": {
+      "recipe": {
         "rope": 1,
         "mechanical_components": 1
       }
