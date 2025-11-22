@@ -11,7 +11,7 @@
       "no": "Nøkkel til dammens overvåkning",
       "da": "Nøgle til dæmningens overvågning",
       "it": "Chiave di sorveglianza della diga",
-      "ru": "Ключ от наблюдательного пункта дамбы",
+      "ru": "Ключ от комнаты наблюдения дамбы",
       "ja": "ダム監視室の鍵",
       "zh-TW": "水壩監控鑰匙",
       "uk": "Ключ від спостережного пункту дамби",
@@ -163,7 +163,7 @@
       "kr": "손상된 ARC 모션 코어",
       "zh-CN": "损坏的ARC运动核心",
       "zh-TW": "損壞的ARC動力核心",
-      "ru": "Поврежденное ядро движения ARC",
+      "ru": "Поврежденное движущее ядро ARC",
       "tr": "Hasarlı ARC Hareket Çekirdeği",
       "uk": "Пошкоджене ядро руху ARC",
       "sr": "Oštećeno ARC jezgro pokreta",
@@ -380,7 +380,7 @@
       "no": "Skadet Hornet-driver",
       "da": "Beskadiget Hornet-driver",
       "it": "Propulsore Hornet danneggiato",
-      "ru": "Повреждённый драйвер Hornet",
+      "ru": "Поврежденный драйвер Шершня",
       "ja": "破損したホーネットドライバー",
       "zh-TW": "損壞的黃蜂驅動器",
       "uk": "Пошкоджений драйвер Hornet",
@@ -437,7 +437,7 @@
       "no": "Skadet rakettdriver",
       "da": "Beskadiget raketdriver",
       "it": "Propulsore a razzo danneggiato",
-      "ru": "Повреждённый ракетный драйвер",
+      "ru": "Поврежденный драйвер Ракетчика",
       "ja": "破損したロケッティアドライバー",
       "zh-TW": "損壞的火箭手驅動器",
       "uk": "Пошкоджений ракетний драйвер",
@@ -491,7 +491,7 @@
       "no": "Skadet flåttkapsel",
       "da": "Beskadiget flåtkapsel",
       "it": "Capsula di zecca danneggiata",
-      "ru": "Поврежденная капсула клеща",
+      "ru": "Поврежденная оболочка Блохи",
       "ja": "破損したティックポッド",
       "zh-TW": "損壞的蜱蟲莢",
       "uk": "Пошкоджена капсула кліща",
@@ -593,7 +593,7 @@
       "no": "Skadet vepsdriver",
       "da": "Beskadiget hvepsedriver",
       "it": "Propulsore vespa danneggiato",
-      "ru": "Повреждённый драйвер Wasp",
+      "ru": "Поврежденная оболочка Осы",
       "ja": "破損したワスプドライバー",
       "zh-TW": "損壞的黃蜂驅動器",
       "uk": "Пошкоджений драйвер Wasp",
@@ -643,7 +643,7 @@
       "no": "Dartskive",
       "da": "Dartskive",
       "it": "Bersaglio per freccette",
-      "ru": "Мишень для дартс",
+      "ru": "Мишень для дартса",
       "ja": "ダーツボード",
       "zh-TW": "飛鏢靶",
       "uk": "Мішень для дартс",
@@ -681,6 +681,56 @@
     "imageFilename": "https://cdn.arctracker.io/items/dart_board.png",
     "value": 2000,
     "updatedAt": "11/06/2025"
+  },
+  {
+    "id": "deadline_blueprint",
+    "name": {
+      "en": "Deadline Blueprint",
+      "de": "Bauplan: Deadline",
+      "fr": "Plan de Deadline",
+      "es": "Plano de Deadline",
+      "pt": "Projeto de Deadline",
+      "pl": "Schemat: Deadline",
+      "no": "Deadline-blåkopi",
+      "da": "Deadline-blåtryk",
+      "it": "Progetto Deadline",
+      "ru": "Чертеж Deadline",
+      "ja": "デッドライン設計図",
+      "zh-CN": "最后期限蓝图",
+      "zh-TW": "最後期限藍圖",
+      "kr": "데드라인 설계도",
+      "tr": "Deadline Planı",
+      "uk": "Креслення Deadline",
+      "sr": "Nacrt za Deadline",
+      "hr": "Nacrt za Deadline"
+    },
+    "description": {
+      "en": "Unlocks the ability to craft Deadline mines at the explosives bench.",
+      "de": "Schaltet die Möglichkeit frei, Deadline-Minen an der Sprengstoffwerkbank herzustellen.",
+      "fr": "Déverrouille la fabrication des mines Deadline à l'établi d'explosifs.",
+      "es": "Desbloquea la fabricación de minas Deadline en el banco de explosivos.",
+      "pt": "Desbloqueia a fabricação de minas Deadline na bancada de explosivos.",
+      "pl": "Odblokowuje możliwość wytwarzania min Deadline przy stole materiałów wybuchowych.",
+      "no": "Låser opp muligheten til å lage Deadline-miner ved sprengstoffbenken.",
+      "da": "Låser op for muligheden for at fremstille Deadline-miner ved sprængstofsbænken.",
+      "it": "Sblocca la possibilità di creare mine Deadline al banco esplosivi.",
+      "ru": "Открывает возможность создавать мины Deadline на верстаке взрывчатки.",
+      "ja": "爆発物作業台でデッドライン地雷を作成できるようになります。",
+      "zh-CN": "解锁在爆炸物工作台制造最后期限地雷的能力。",
+      "zh-TW": "解鎖在爆裂物工作台製作最後期限地雷的能力。",
+      "kr": "폭발물 작업대에서 데드라인 지뢰를 제작할 수 있게 해줍니다.",
+      "tr": "Patlayıcı tezgahında Deadline mayınları üretme olanağını açar.",
+      "uk": "Розблоковує можливість створювати міни Deadline на верстаку вибухівки.",
+      "sr": "Otključava mogućnost izrade Deadline mina na klupi za eksplozive.",
+      "hr": "Otključava mogućnost izrade mina Deadline na klupi za eksplozive."
+    },
+    "type": "Blueprint",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
+    "rarity": "Legendary",
+    "updatedAt": "11/20/2025"
   },
   {
     "name": {
@@ -725,7 +775,7 @@
     },
     "id": "deadline",
     "type": "Quick Use",
-    "value": 2700,
+    "value": 5000,
     "rarity": "Epic",
     "weightKg": 1,
     "stackSize": 1,
@@ -797,8 +847,13 @@
     "recyclesInto": {
       "explosive_compound": 1
     },
+    "craftBench": "explosives_bench",
+    "recipe": {
+      "explosive_compound": 3,
+      "arc_circuitry": 2
+    },
     "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
-    "updatedAt": "11/13/2025"
+    "updatedAt": "11/20/2025"
   },
   {
     "id": "defibrillator_blueprint",
@@ -812,7 +867,7 @@
       "no": "Hjertestarter-tegning",
       "da": "Hjertestarter-tegning",
       "it": "Progetto defibrillatore",
-      "ru": "Чертёж дефибриллятора",
+      "ru": "Чертеж — Дефибриллятор",
       "ja": "除細動器の設計図",
       "zh-TW": "除顫器藍圖",
       "uk": "Креслення дефібрилятора",
@@ -965,7 +1020,7 @@
       "no": "Punktert fotball",
       "da": "Punkteret fodbold",
       "it": "Pallone da calcio sgonfio",
-      "ru": "Сдувшийся футбольный мяч",
+      "ru": "Сдутый футбольный мяч",
       "ja": "空気の抜けたフットボール",
       "zh-TW": "洩氣的足球",
       "uk": "Здутий футбольний м'яч",
@@ -1022,7 +1077,7 @@
       "no": "Nedbrutt ARC-gummi",
       "da": "Nedbrudt ARC-gummi",
       "it": "Gomma ARC degradata",
-      "ru": "Деградировавшая резина ARC",
+      "ru": "Изношенная резина ARC",
       "ja": "劣化したARCゴム",
       "zh-TW": "劣化的ARC橡膠",
       "uk": "Деградована гума ARC",
@@ -1079,7 +1134,7 @@
       "no": "Dykkerbriller",
       "da": "Dykkerbriller",
       "it": "Occhiali da sub",
-      "ru": "Водолазные очки",
+      "ru": "Очки для плавания",
       "ja": "ダイビングゴーグル",
       "zh-TW": "潛水護目鏡",
       "uk": "Водолазні окуляри",
@@ -1187,7 +1242,7 @@
       "no": "Dørblokker",
       "da": "Dørblokering",
       "it": "Bloccaporta",
-      "ru": "Блокиратор двери",
+      "ru": "Блокиратор дверей",
       "ja": "ドアブロッカー",
       "zh-TW": "門鎖",
       "uk": "Блокувач дверей",
@@ -1295,7 +1350,7 @@
       "no": "Gaffateip",
       "da": "Gaffatape",
       "it": "Nastro adesivo",
-      "ru": "Клейкая лента",
+      "ru": "Скотч",
       "ja": "ダクトテープ",
       "zh-TW": "強力膠帶",
       "uk": "Клейка стрічка",
@@ -1470,7 +1525,7 @@
       "no": "Tom vinflaske",
       "da": "Tom vinflaske",
       "it": "Bottiglia di vino vuota",
-      "ru": "Пустая винная бутылка",
+      "ru": "Пустая бутылка из-под вина",
       "ja": "空のワインボトル",
       "zh-TW": "空酒瓶",
       "uk": "Порожня пляшка вина",
@@ -1775,7 +1830,8 @@
       "complex_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "esr_analyzer",
@@ -1943,7 +1999,7 @@
       "no": "Utgått pasta",
       "da": "Udløbet pasta",
       "it": "Pasta scaduta",
-      "ru": "Просроченная паста",
+      "ru": "Просроченные макароны",
       "ja": "期限切れパスタ",
       "zh-TW": "過期義大利麵",
       "uk": "Прострочена паста",
@@ -2252,7 +2308,7 @@
       "no": "Utvidet lett magasin I",
       "da": "Udvidet let magasin I",
       "it": "Caricatore leggero esteso I",
-      "ru": "Расширенный лёгкий магазин I",
+      "ru": "Увеличенный магазин для легкого оружия I",
       "ja": "拡張ライトマガジン I",
       "zh-TW": "延長輕型彈匣 I",
       "uk": "Розширений легкий магазин I",
@@ -2342,7 +2398,7 @@
       "no": "Utvidet lett magasin II",
       "da": "Udvidet let magasin II",
       "it": "Caricatore leggero esteso II",
-      "ru": "Расширенный легкий магазин II",
+      "ru": "Увеличенный магазин для легкого оружия II",
       "ja": "拡張ライトマガジンII",
       "zh-TW": "延長輕型彈匣 II",
       "uk": "Розширений легкий магазин II",
@@ -2414,7 +2470,7 @@
       "no": "Utvidet lett magasin III",
       "da": "Udvidet let magasin III",
       "it": "Caricatore leggero esteso III",
-      "ru": "Расширенный лёгкий магазин III",
+      "ru": "Увеличенный магазин для легкого оружия III",
       "ja": "拡張ライトマガジン III",
       "zh-TW": "延長輕型彈匣 III",
       "uk": "Розширений легкий магазин III",
@@ -2490,7 +2546,7 @@
       "no": "Utvidet middels magasin I",
       "da": "Udvidet mellemstort magasin I",
       "it": "Caricatore medio esteso I",
-      "ru": "Расширенный средний магазин I",
+      "ru": "Увеличенный магазин для оружия среднего калибра I",
       "ja": "拡張ミディアムマガジンI",
       "zh-TW": "延長中型彈匣 I",
       "uk": "Розширений середній магазин I",
@@ -2567,7 +2623,7 @@
       "no": "Utvidet medium magasin II-tegning",
       "da": "Udvidet medium magasin II-tegning",
       "it": "Progetto caricatore medio esteso II",
-      "ru": "Чертёж расширенного среднего магазина II",
+      "ru": "Чертеж — Увеличенный магазин для оружия среднего калибра II",
       "ja": "拡張ミディアムマガジンII設計図",
       "zh-TW": "延長中型彈匣II藍圖",
       "uk": "Креслення розширеного середнього магазину II",
@@ -2616,7 +2672,7 @@
       "no": "Utvidet middels magasin II",
       "da": "Udvidet mellemstort magasin II",
       "it": "Caricatore medio esteso II",
-      "ru": "Расширенный средний магазин II",
+      "ru": "Увеличенный магазин для оружия среднего калибра II",
       "ja": "拡張ミディアムマガジンII",
       "zh-TW": "延長中型彈匣 II",
       "uk": "Розширений середній магазин II",
@@ -2693,7 +2749,7 @@
       "no": "Utvidet medium magasin III-tegning",
       "da": "Udvidet medium magasin III-tegning",
       "it": "Progetto caricatore medio esteso III",
-      "ru": "Чертеж расширенного среднего магазина III",
+      "ru": "Чертеж — Увеличенный магазин для оружия среднего калибра III",
       "ja": "拡張ミディアムマガジンIII設計図",
       "zh-TW": "延長中型彈匣III藍圖",
       "uk": "Креслення розширеного середнього магазину III",
@@ -2766,7 +2822,7 @@
       "no": "Utvidet medium magasin III",
       "da": "Udvidet medium magasin III",
       "it": "Caricatore medio esteso III",
-      "ru": "Расширенный средний магазин III",
+      "ru": "Увеличенный магазин для оружия среднего калибра III",
       "ja": "拡張ミディアムマガジン III",
       "zh-TW": "延長中型彈匣 III",
       "uk": "Розширений середній магазин III",
@@ -2847,7 +2903,7 @@
       "no": "Utvidet haglemagasin I",
       "da": "Udvidet haglmagasin I",
       "it": "Caricatore fucile esteso I",
-      "ru": "Расширенный магазин для дробовика I",
+      "ru": "Увеличенный магазин дробовика II",
       "ja": "拡張ショットガンマガジン I",
       "zh-TW": "延長霰彈槍彈匣 I",
       "uk": "Розширений магазин для дробовика I",
@@ -2977,7 +3033,7 @@
       "no": "Utvidet haglemagasin II",
       "da": "Udvidet haglgevær-magasin II",
       "it": "Caricatore da fucile esteso II",
-      "ru": "Расширенный магазин для дробовика II",
+      "ru": "Увеличенный магазин дробовика II",
       "ja": "拡張ショットガンマガジンII",
       "zh-TW": "延長霰彈槍彈匣 II",
       "uk": "Розширений магазин для дробовика II",
@@ -3344,7 +3400,7 @@
       "no": "Ferro I",
       "da": "Ferro I",
       "it": "Ferro I",
-      "ru": "Ferro I",
+      "ru": "Ферро I",
       "ja": "Ferro I",
       "zh-TW": "Ferro I",
       "uk": "Ferro I",
@@ -3505,7 +3561,8 @@
     "craftBench": [
       "workbench",
       "weapon_bench"
-    ]
+    ],
+    "isWeapon": true
   },
   {
     "id": "ferro_ii",
@@ -3519,7 +3576,7 @@
       "no": "Ferro II",
       "da": "Ferro II",
       "it": "Ferro II",
-      "ru": "Ferro II",
+      "ru": "Ферро II",
       "ja": "Ferro II",
       "zh-TW": "Ferro II",
       "uk": "Ferro II",
@@ -3661,7 +3718,8 @@
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
-    "updatedAt": "10/31/2025"
+    "updatedAt": "10/31/2025",
+    "isWeapon": true
   },
   {
     "id": "ferro_iii",
@@ -3675,7 +3733,7 @@
       "no": "Ferro III",
       "da": "Ferro III",
       "it": "Ferro III",
-      "ru": "Ferro III",
+      "ru": "Ферро III",
       "ja": "Ferro III",
       "zh-TW": "Ferro III",
       "uk": "Ferro III",
@@ -3846,7 +3904,8 @@
     "upgradeCost": {
       "mechanical_components": 1,
       "simple_gun_parts": 1
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "ferro_iv",
@@ -3860,7 +3919,7 @@
       "no": "Ferro IV",
       "da": "Ferro IV",
       "it": "Ferro IV",
-      "ru": "Ferro IV",
+      "ru": "Ферро IV",
       "ja": "Ferro IV",
       "zh-TW": "Ferro IV",
       "uk": "Ferro IV",
@@ -4035,7 +4094,8 @@
         "sr": "Modifikatori Nadogradnje",
         "value": "39% Reduced Reload Time"
       }
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "fertilizer",
@@ -4103,7 +4163,7 @@
       "no": "Filmrull",
       "da": "Filmrulle",
       "it": "Bobina di pellicola",
-      "ru": "Киноплёнка",
+      "ru": "Кинопленка",
       "ja": "フィルムリール",
       "zh-TW": "膠片捲軸",
       "uk": "Кіноплівка",
@@ -4206,7 +4266,7 @@
       "no": "Ildkulebrenne",
       "da": "Ildkuglebrænder",
       "it": "Bruciatore palla di fuoco",
-      "ru": "Огненный шар",
+      "ru": "Горелка Огнешара",
       "ja": "ファイアボールバーナー",
       "zh-TW": "火球燃燒器",
       "uk": "Вогняна куля",
@@ -4470,7 +4530,7 @@
       "no": "Flammekaster",
       "da": "Flammekaster",
       "it": "Lanciafiamme",
-      "ru": "Огненный распылитель",
+      "ru": "Пламенный балончик",
       "ja": "フレイムスプレー",
       "zh-TW": "火焰噴射器",
       "uk": "Вогняний розпилювач",
@@ -4983,7 +5043,7 @@
       "no": "Hvitløkspresse",
       "da": "Hvidløgspresser",
       "it": "Spremiaglio",
-      "ru": "Давилка для чеснока",
+      "ru": "Пресс для чеснока",
       "ja": "ガーリックプレス",
       "zh-TW": "大蒜壓榨器",
       "uk": "Давилка для часнику",
@@ -5040,7 +5100,7 @@
       "no": "Gassgranatefelle",
       "da": "Gasgranatefælde",
       "it": "Trappola con granata a gas",
-      "ru": "Ловушка с газовой гранатой",
+      "ru": "Лазерная ловушка: Газ",
       "ja": "ガスグレネードトラップ",
       "zh-TW": "毒氣手榴彈陷阱",
       "uk": "Пастка з газовою гранатою",
@@ -5453,7 +5513,7 @@
       "no": "Kongslys",
       "da": "Kongelys",
       "it": "Verbasco",
-      "ru": "Коровяк обыкновенный",
+      "ru": "Коровяк",
       "ja": "ビロードモウズイカ",
       "zh-TW": "毛蕊花",
       "uk": "Коров'як звичайний",
@@ -5557,7 +5617,7 @@
       "no": "Grønn lysstav",
       "da": "Grøn lysstav",
       "it": "Bastoncino luminoso verde",
-      "ru": "Зелёная светящаяся палочка",
+      "ru": "Зеленый химический фонарь",
       "ja": "緑色ライトスティック",
       "zh-TW": "綠色螢光棒",
       "uk": "Зелена світлова паличка",
@@ -5655,7 +5715,7 @@
       "no": "Hårnål I",
       "da": "Hårnål I",
       "it": "Forcina I",
-      "ru": "Шпилька I",
+      "ru": "Заколка I",
       "ja": "ヘアピン I",
       "zh-TW": "髮夾 I",
       "uk": "Шпилька I",
@@ -5833,7 +5893,8 @@
     "craftBench": [
       "workbench",
       "weapon_bench"
-    ]
+    ],
+    "isWeapon": true
   },
   {
     "id": "hairpin_ii",
@@ -5847,7 +5908,7 @@
       "no": "Hårnål II",
       "da": "Hårnål II",
       "it": "Forcina II",
-      "ru": "Шпилька II",
+      "ru": "Заколка II",
       "ja": "ヘアピン II",
       "zh-TW": "髮夾 II",
       "uk": "Шпилька II",
@@ -6063,7 +6124,8 @@
     "craftBench": "weapon_bench",
     "upgradeCost": {
       "metal_parts": 8
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "hairpin_iii",
@@ -6077,7 +6139,7 @@
       "no": "Hårnål III",
       "da": "Hårnål III",
       "it": "Forcina III",
-      "ru": "Шпилька III",
+      "ru": "Заколка III",
       "ja": "ヘアピン III",
       "zh-TW": "髮夾 III",
       "uk": "Шпилька III",
@@ -6294,7 +6356,8 @@
     "upgradeCost": {
       "metal_parts": 6,
       "simple_gun_parts": 1
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "hairpin_iv",
@@ -6308,7 +6371,7 @@
       "no": "Hårnål IV",
       "da": "Hårnål IV",
       "it": "Forcina IV",
-      "ru": "Шпилька IV",
+      "ru": "Заколка IV",
       "ja": "ヘアピン IV",
       "zh-TW": "髮夾 IV",
       "uk": "Шпилька IV",
@@ -6525,7 +6588,8 @@
     "upgradeCost": {
       "mechanical_components": 1,
       "simple_gun_parts": 1
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "headphones",
@@ -6594,7 +6658,7 @@
       "no": "Tung ammunisjon",
       "da": "Tung ammunition",
       "it": "Munizioni pesanti",
-      "ru": "Тяжелые патроны",
+      "ru": "Тяжелый патрон",
       "ja": "ヘビー弾薬",
       "zh-TW": "重型彈藥",
       "uk": "Важкі патрони",
@@ -6654,7 +6718,7 @@
       "no": "Tung lunte-granat",
       "da": "Tung luntetgranat",
       "it": "Granata a miccia pesante",
-      "ru": "Тяжёлая граната с запалом",
+      "ru": "Тяжелая граната с детонатором",
       "ja": "ヘビーヒューズグレネード",
       "zh-TW": "重型定時手榴彈",
       "uk": "Важка граната з запалом",
@@ -6807,7 +6871,7 @@
       "no": "Tunge våpendeler",
       "da": "Tunge våbendele",
       "it": "Parti di arma pesante",
-      "ru": "Детали тяжелого оружия",
+      "ru": "Детали для тяжелого оружия",
       "ja": "ヘビーガンパーツ",
       "zh-TW": "重型槍械零件",
       "uk": "Деталі важкої зброї",
@@ -7009,7 +7073,7 @@
       "no": "Urtebandasje",
       "da": "Urtebandage",
       "it": "Benda alle erbe",
-      "ru": "Травяная повязка",
+      "ru": "Травяной бинт",
       "ja": "ハーブ包帯",
       "zh-TW": "草藥繃帶",
       "uk": "Трав'яна пов'язка",
@@ -7323,7 +7387,7 @@
       "no": "Vepsedriver",
       "da": "Hvepsedriver",
       "it": "Propulsore calabrone",
-      "ru": "Драйвер шершня",
+      "ru": "Драйвер Шершня",
       "ja": "ホーネットドライバー",
       "zh-TW": "黃蜂驅動器",
       "uk": "Драйвер шершня",
@@ -7447,7 +7511,7 @@
       "no": "Husholdningsrengjøring",
       "da": "Husholdningsrengøringsmiddel",
       "it": "Detergente per la Casa",
-      "ru": "Бытовое чистящее средство",
+      "ru": "Чистящее средство",
       "ja": "家庭用洗剤",
       "zh-TW": "家用清潔劑",
       "uk": "Побутовий засіб для чищення",
@@ -7550,7 +7614,7 @@
       "no": "Hullcracker I",
       "da": "Hullcracker I",
       "it": "Hullcracker I",
-      "ru": "Hullcracker I",
+      "ru": "Взломщик корпусов I",
       "ja": "Hullcracker I",
       "zh-TW": "Hullcracker I",
       "uk": "Hullcracker I",
@@ -7704,7 +7768,8 @@
       "exodus_modules": 1
     },
     "craftBench": "weapon_bench",
-    "stationLevelRequired": 3
+    "stationLevelRequired": 3,
+    "isWeapon": true
   },
   {
     "id": "hullcracker_ii",
@@ -7712,7 +7777,7 @@
       "en": "Hullcracker II",
       "de": "Rumpfknacker II",
       "uk": "Корпусолом II",
-      "ru": "Корпусолом II",
+      "ru": "Взломщик корпусов II",
       "zh-TW": "破殼者 II",
       "tr": "Gövde Kırıcı II",
       "zh-CN": "破壳者 II",
@@ -7900,7 +7965,8 @@
     "stealth": 1,
     "weightKg": 7,
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "hullcracker_iii",
@@ -7908,7 +7974,7 @@
       "en": "Hullcracker III",
       "de": "Rumpfknacker III",
       "uk": "Корпусолом III",
-      "ru": "Корпусолом III",
+      "ru": "Взломщик корпусов III",
       "zh-TW": "破殼者 III",
       "tr": "Gövde Kırıcı III",
       "zh-CN": "破壳者 III",
@@ -8096,7 +8162,8 @@
     "stealth": 1,
     "weightKg": 7,
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "hullcracker_iv",
@@ -8104,7 +8171,7 @@
       "en": "Hullcracker IV",
       "de": "Rumpfknacker IV",
       "uk": "Корпусолом IV",
-      "ru": "Корпусолом IV",
+      "ru": "Взломщик корпусов IV",
       "zh-TW": "破殼者 IV",
       "tr": "Gövde Kırıcı IV",
       "zh-CN": "破壳者 IV",
@@ -8289,7 +8356,8 @@
     "stealth": 1,
     "weightKg": 7,
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "humidifier",
@@ -8402,55 +8470,5 @@
     "foundIn": "Commercial",
     "imageFilename": "https://cdn.arctracker.io/items/ice_cream_scooper.png",
     "updatedAt": "11/04/2025"
-  },
-  {
-    "id": "il_toro_blueprint",
-    "name": {
-      "en": "Il Toro Blueprint",
-      "de": "Il Toro Blaupause",
-      "fr": "Schéma d'Il Toro",
-      "es": "Plano de Il Toro",
-      "pt": "Projeto do Il Toro",
-      "pl": "Projekt Il Toro",
-      "no": "Il Toro-tegning",
-      "da": "Il Toro-tegning",
-      "it": "Progetto Il Toro",
-      "ru": "Чертёж Il Toro",
-      "ja": "イル・トロ設計図",
-      "zh-TW": "Il Toro藍圖",
-      "uk": "Креслення Il Toro",
-      "zh-CN": "Il Toro蓝图",
-      "kr": "일 토로 설계도",
-      "tr": "Il Toro Planı",
-      "hr": "Nacrt za Il Toro",
-      "sr": "Nacrt za Il Toro"
-    },
-    "description": {
-      "en": "Has a large bullet spread, sharp falloff, and high damage output.",
-      "de": "Hat eine große Streuung, starken Abfall und hohen Schadensausstoß.",
-      "fr": "A une large dispersion des balles, une chute brutale et des dégâts élevés.",
-      "es": "Tiene una gran dispersión de balas, caída pronunciada y alto daño.",
-      "pt": "Tem grande dispersão de balas, queda acentuada e alto dano.",
-      "pl": "Ma duży rozrzut pocisków, ostry spadek i wysokie obrażenia.",
-      "no": "Har stor kulespredning, kraftig falloff og høy skadeeffekt.",
-      "da": "Har stor kuglespredning, kraftigt fald og høj skadeeffekt.",
-      "it": "Ha un'ampia dispersione dei proiettili, caduta netta e alto danno.",
-      "ru": "Имеет большой разброс пуль, резкое падение урона и высокий урон.",
-      "ja": "弾丸の拡散が大きく、急激な減衰と高いダメージ出力を持つ。",
-      "zh-TW": "具有大範圍彈道擴散、急劇衰減和高傷害輸出。",
-      "uk": "Має великий розкид куль, різке падіння пошкоджень та високий урон.",
-      "zh-CN": "具有大范围弹道扩散、急剧衰减和高伤害输出。",
-      "kr": "넓은 탄 퍼짐, 급격한 감쇠, 높은 데미지를 가지고 있습니다.",
-      "tr": "Geniş mermi yayılımı, keskin düşüş ve yüksek hasar çıkışına sahiptir.",
-      "hr": "Ima veliko rasipanje metaka, oštar pad štete i visoku izlaznu štetu.",
-      "sr": "Ima veliko rasipanje metaka, oštar pad štete i visoku izlaznu štetu."
-    },
-    "type": "Blueprint",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-    "rarity": "Legendary",
-    "updatedAt": "11/12/2025"
   }
 ]
