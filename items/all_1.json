@@ -138,7 +138,7 @@
       "no": "Avansert ARC-kraftcelle",
       "da": "Avanceret ARC-kraftcelle",
       "it": "Cella di alimentazione ARC avanzata",
-      "ru": "Продвинутый энергоблок ARC",
+      "ru": "Продвинутая энергоячейка ARC",
       "ja": "高度なARCパワーセル",
       "zh-TW": "高級ARC能量電池",
       "uk": "Просунутий енергоблок ARC",
@@ -540,7 +540,7 @@
       "no": "Vinklet grep I",
       "da": "Vinklet greb I",
       "it": "Impugnatura angolata I",
-      "ru": "Угловая рукоять I",
+      "ru": "Угловая рукоятка I",
       "ja": "アングルグリップ I",
       "zh-TW": "斜角握把 I",
       "uk": "Кутова рукоятка I",
@@ -617,7 +617,7 @@
       "no": "Vinklet grep II",
       "da": "Vinklet greb II",
       "it": "Impugnatura angolata II",
-      "ru": "Угловая рукоять II",
+      "ru": "Угловая рукоятка II",
       "ja": "アングルグリップ II",
       "zh-TW": "斜角握把 II",
       "uk": "Кутова рукоятка II",
@@ -705,7 +705,7 @@
       "no": "Vinklet grep III",
       "da": "Vinklet greb III",
       "it": "Impugnatura angolata III",
-      "ru": "Угловая рукоять III",
+      "ru": "Угловая рукоятка III",
       "ja": "アングルグリップ III",
       "zh-TW": "斜角握把 III",
       "uk": "Кутова рукоятка III",
@@ -861,7 +861,7 @@
       "no": "Anvil-tegning",
       "da": "Anvil-tegning",
       "it": "Progetto Anvil",
-      "ru": "Чертеж Anvil",
+      "ru": "Чертеж — Наковальня",
       "ja": "Anvil設計図",
       "zh-TW": "鐵砧藍圖",
       "uk": "Креслення Anvil",
@@ -1064,7 +1064,8 @@
     },
     "salvagesInto": {
       "simple_gun_parts": 2
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "anvil_ii",
@@ -1273,7 +1274,8 @@
       "simple_gun_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-    "updatedAt": "11/06/2025"
+    "updatedAt": "11/06/2025",
+    "isWeapon": true
   },
   {
     "id": "anvil_iii",
@@ -1482,7 +1484,8 @@
       "simple_gun_parts": 4
     },
     "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-    "updatedAt": "11/06/2025"
+    "updatedAt": "11/06/2025",
+    "isWeapon": true
   },
   {
     "id": "anvil_iv",
@@ -1691,7 +1694,8 @@
       "simple_gun_parts": 5
     },
     "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-    "updatedAt": "11/06/2025"
+    "updatedAt": "11/06/2025",
+    "isWeapon": true
   },
   {
     "id": "anvil_splitter",
@@ -1898,7 +1902,7 @@
       "no": "ARC-legering",
       "da": "ARC-legering",
       "it": "Lega ARC",
-      "ru": "ARC сплав",
+      "ru": "Сплав ARC",
       "ja": "ARC合金",
       "zh-TW": "ARC合金",
       "uk": "ARC сплав",
@@ -1952,7 +1956,7 @@
       "no": "ARC-kretser",
       "da": "ARC-kredsløb",
       "it": "Circuiti ARC",
-      "ru": "Схемы ARC",
+      "ru": "Электронная схема ARC",
       "ja": "ARC回路",
       "zh-TW": "ARC電路",
       "uk": "Схеми ARC",
@@ -2010,7 +2014,7 @@
       "no": "ARC-kjølevæske",
       "da": "ARC-kølevæske",
       "it": "Refrigerante ARC",
-      "ru": "Охлаждающая жидкость ARC",
+      "ru": "Охлаждающее вещество ARC",
       "ja": "ARCクーラント",
       "zh-TW": "ARC冷卻劑",
       "uk": "Охолоджувальна рідина ARC",
@@ -2124,7 +2128,7 @@
       "no": "ARC-bevegelseskjerne",
       "da": "ARC-bevægelseskerne",
       "it": "Nucleo di movimento ARC",
-      "ru": "Ядро движения ARC",
+      "ru": "Движущее ядро ARC",
       "ja": "ARCモーションコア",
       "zh-TW": "ARC動力核心",
       "uk": "Ядро руху ARC",
@@ -2182,7 +2186,7 @@
       "no": "ARC-ytelsestål",
       "da": "ARC-ydelsesstål",
       "it": "Acciaio ad alte prestazioni ARC",
-      "ru": "Высокопроизводительная сталь ARC",
+      "ru": "Высокопрочная сталь ARC",
       "ja": "ARC高性能スチール",
       "zh-TW": "ARC高性能鋼材",
       "uk": "Високопродуктивна сталь ARC",
@@ -2271,9 +2275,10 @@
     },
     "type": "Topside Material",
     "rarity": "Common",
-    "value": 640,
+    "value": 270,
     "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/arc_powercell.png",
+    "updatedAt": "11/20/2025",
     "weightKg": 0.5,
     "stackSize": 5,
     "foundIn": "ARC",
@@ -2341,8 +2346,7 @@
         "sr": "Vreme Korišćenja",
         "value": "3s"
       }
-    },
-    "updatedAt": "11/03/2025"
+    }
   },
   {
     "id": "arc_synthetic_resin",
@@ -2617,7 +2621,8 @@
       "mechanical_components": 6,
       "simple_gun_parts": 6
     },
-    "craftBench": "weapon_bench"
+    "craftBench": "weapon_bench",
+    "isWeapon": true
   },
   {
     "id": "arpeggio_ii",
@@ -2820,7 +2825,8 @@
     "upgradeCost": {
       "mechanical_components": 4,
       "simple_gun_parts": 1
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "arpeggio_iii",
@@ -3023,7 +3029,8 @@
     "upgradeCost": {
       "mechanical_components": 5,
       "medium_gun_parts": 1
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "arpeggio_iv",
@@ -3230,7 +3237,8 @@
     "recyclesInto": {
       "mechanical_components": 5,
       "simple_gun_parts": 5
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "assorted_seeds",
@@ -3244,7 +3252,7 @@
       "no": "Blandede frø",
       "da": "Blandede frø",
       "it": "Semi assortiti",
-      "ru": "Разные семена",
+      "ru": "Различные семена",
       "ja": "各種の種",
       "zh-TW": "各式種子",
       "uk": "Різні насіння",
@@ -3665,7 +3673,7 @@
       "no": "Bastioncelle",
       "da": "Bastioncelle",
       "it": "Cella del bastione",
-      "ru": "Ячейка бастиона",
+      "ru": "Ячейка Бастиона",
       "ja": "バスティオンセル",
       "zh-TW": "堡壘電池",
       "uk": "Комірка бастіону",
@@ -3780,7 +3788,7 @@
       "no": "Bettina-tegning",
       "da": "Bettina-tegning",
       "it": "Progetto Bettina",
-      "ru": "Чертёж Беттины",
+      "ru": "Чертеж — Беттина",
       "ja": "ベッティーナ設計図",
       "zh-TW": "貝蒂娜藍圖",
       "uk": "Креслення Беттіни",
@@ -3983,7 +3991,8 @@
       "heavy_gun_parts": 3,
       "canister": 3
     },
-    "craftBench": "weapon_bench"
+    "craftBench": "weapon_bench",
+    "isWeapon": true
   },
   {
     "id": "bettina_ii",
@@ -3997,7 +4006,7 @@
       "no": "Bettina II",
       "da": "Bettina II",
       "it": "Bettina II",
-      "ru": "Bettina II",
+      "ru": "Беттина II",
       "ja": "Bettina II",
       "zh-TW": "Bettina II",
       "uk": "Bettina II",
@@ -4186,7 +4195,8 @@
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "bettina_iii",
@@ -4200,7 +4210,7 @@
       "no": "Bettina III",
       "da": "Bettina III",
       "it": "Bettina III",
-      "ru": "Bettina III",
+      "ru": "Беттина III",
       "ja": "Bettina III",
       "zh-TW": "Bettina III",
       "uk": "Bettina III",
@@ -4389,7 +4399,8 @@
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "bettina_iv",
@@ -4403,7 +4414,7 @@
       "no": "Bettina IV",
       "da": "Bettina IV",
       "it": "Bettina IV",
-      "ru": "Bettina IV",
+      "ru": "Беттина IV",
       "ja": "Bettina IV",
       "zh-TW": "Bettina IV",
       "uk": "Bettina IV",
@@ -4592,7 +4603,8 @@
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 2
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "bicycle_pump",
@@ -4794,7 +4806,7 @@
       "no": "Flammegranatefelle",
       "da": "Flammegranatefælde",
       "it": "Trappola con granata incendiaria",
-      "ru": "Ловушка с огненной гранатой",
+      "ru": "Лазерная ловушка: Огонь",
       "ja": "ブレイズグレネードトラップ",
       "zh-TW": "烈焰手榴彈陷阱",
       "uk": "Пастка з вогняною гранатою",
@@ -4888,7 +4900,7 @@
       "no": "Flammegranate",
       "da": "Flammegranate",
       "it": "Granata incendiaria",
-      "ru": "Огненная граната",
+      "ru": "Пламенная граната",
       "ja": "ブレイズグレネード",
       "zh-TW": "烈焰手榴彈",
       "uk": "Вогняна граната",
@@ -5251,7 +5263,7 @@
       "no": "Blå lysstav",
       "da": "Blå lysstav",
       "it": "Bastoncino luminoso blu",
-      "ru": "Синяя светящаяся палочка",
+      "ru": "Синий химический фонарь",
       "ja": "青色ライトスティック",
       "zh-TW": "藍色螢光棒",
       "uk": "Синя світлова паличка",
@@ -5395,7 +5407,7 @@
       "no": "Bombardør-celle",
       "da": "Bombardør-celle",
       "it": "Cella del bombardiere",
-      "ru": "Ячейка бомбардира",
+      "ru": "Ячейка Бомбардира",
       "ja": "ボンバルディアセル",
       "zh-TW": "轟炸者電池",
       "uk": "Осередок бомбардира",
@@ -5616,7 +5628,7 @@
       "no": "Ødelagt håndholdt radio",
       "da": "Ødelagt håndholdt radio",
       "it": "Radio portatile rotta",
-      "ru": "Сломанная портативная рация",
+      "ru": "Сломанное портативное радио",
       "ja": "壊れた携帯無線機",
       "zh-TW": "損壞的手持無線電",
       "uk": "Зламана портативна рація",
@@ -5726,7 +5738,7 @@
       "no": "Burgerboy",
       "da": "Burgerboy",
       "it": "Burgerboy",
-      "ru": "Бургербой",
+      "ru": "Фанат бургеров",
       "ja": "バーガーボーイ",
       "zh-TW": "漢堡男孩",
       "uk": "Бургербой",
@@ -5872,7 +5884,7 @@
       "no": "Begravd by rådhus-nøkkel",
       "da": "Begravet by rådhus-nøgle",
       "it": "Chiave del municipio della città sepolta",
-      "ru": "Ключ от ратуши Погребённого города",
+      "ru": "Ключ от мэрии в Погребенном городе",
       "ja": "埋もれた街の市庁舎の鍵",
       "zh-TW": "埋沒之城市政廳鑰匙",
       "uk": "Ключ від ратуші Похованого міста",
@@ -6121,7 +6133,8 @@
       "mechanical_components": 3,
       "simple_gun_parts": 3
     },
-    "craftBench": "weapon_bench"
+    "craftBench": "weapon_bench",
+    "isWeapon": true
   },
   {
     "id": "burletta_ii",
@@ -6568,7 +6581,7 @@
       "no": "Bokser ryggsekk-tilbehør",
       "da": "Dåser rygsæk-tilbehør",
       "it": "Accessorio zaino lattine",
-      "ru": "Навесные банки для рюкзака",
+      "ru": "Банки",
       "ja": "缶バックパックアタッチメント",
       "zh-TW": "罐頭背包掛件",
       "uk": "Навісні банки для рюкзака",
@@ -6912,7 +6925,7 @@
       "no": "Kamp Mk. 1",
       "da": "Kamp Mk. 1",
       "it": "Combattimento Mk. 1",
-      "ru": "Боевой Mk. 1",
+      "ru": "Бой 1",
       "ja": "コンバット Mk. 1",
       "zh-TW": "戰鬥型 Mk. 1",
       "uk": "Бойовий Mk. 1",
@@ -7035,7 +7048,7 @@
       "no": "Kamp Mk. 2",
       "da": "Kamp Mk. 2",
       "it": "Combattimento Mk. 2",
-      "ru": "Боевой Mk. 2",
+      "ru": "Бой 2",
       "ja": "コンバット Mk. 2",
       "zh-TW": "戰鬥型 Mk. 2",
       "uk": "Бойовий Mk. 2",
@@ -8100,7 +8113,7 @@
       "no": "Kjølevifte",
       "da": "Køleventilator",
       "it": "Ventola di raffreddamento",
-      "ru": "Охлаждающий вентилятор",
+      "ru": "Вентилятор охлаждения",
       "ja": "冷却ファン",
       "zh-TW": "冷卻風扇",
       "uk": "Охолоджувальний вентилятор",
@@ -8370,7 +8383,7 @@
       "no": "Nøkkel til dammens kontrolltårn",
       "da": "Nøgle til dæmningens kontroltårn",
       "it": "Chiave della torre di controllo della diga",
-      "ru": "Ключ от диспетчерской башни дамбы",
+      "ru": "Ключ от диспетчерской вышки у дамбы",
       "ja": "ダム管理塔の鍵",
       "zh-TW": "水壩控制塔鑰匙",
       "uk": "Ключ від диспетчерської вежі дамби",

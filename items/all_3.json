@@ -1,5 +1,55 @@
 [
   {
+    "id": "il_toro_blueprint",
+    "name": {
+      "en": "Il Toro Blueprint",
+      "de": "Il Toro Blaupause",
+      "fr": "Schéma d'Il Toro",
+      "es": "Plano de Il Toro",
+      "pt": "Projeto do Il Toro",
+      "pl": "Projekt Il Toro",
+      "no": "Il Toro-tegning",
+      "da": "Il Toro-tegning",
+      "it": "Progetto Il Toro",
+      "ru": "Чертеж — Эль-Торо",
+      "ja": "イル・トロ設計図",
+      "zh-TW": "Il Toro藍圖",
+      "uk": "Креслення Il Toro",
+      "zh-CN": "Il Toro蓝图",
+      "kr": "일 토로 설계도",
+      "tr": "Il Toro Planı",
+      "hr": "Nacrt za Il Toro",
+      "sr": "Nacrt za Il Toro"
+    },
+    "description": {
+      "en": "Has a large bullet spread, sharp falloff, and high damage output.",
+      "de": "Hat eine große Streuung, starken Abfall und hohen Schadensausstoß.",
+      "fr": "A une large dispersion des balles, une chute brutale et des dégâts élevés.",
+      "es": "Tiene una gran dispersión de balas, caída pronunciada y alto daño.",
+      "pt": "Tem grande dispersão de balas, queda acentuada e alto dano.",
+      "pl": "Ma duży rozrzut pocisków, ostry spadek i wysokie obrażenia.",
+      "no": "Har stor kulespredning, kraftig falloff og høy skadeeffekt.",
+      "da": "Har stor kuglespredning, kraftigt fald og høj skadeeffekt.",
+      "it": "Ha un'ampia dispersione dei proiettili, caduta netta e alto danno.",
+      "ru": "Имеет большой разброс пуль, резкое падение урона и высокий урон.",
+      "ja": "弾丸の拡散が大きく、急激な減衰と高いダメージ出力を持つ。",
+      "zh-TW": "具有大範圍彈道擴散、急劇衰減和高傷害輸出。",
+      "uk": "Має великий розкид куль, різке падіння пошкоджень та високий урон.",
+      "zh-CN": "具有大范围弹道扩散、急剧衰减和高伤害输出。",
+      "kr": "넓은 탄 퍼짐, 급격한 감쇠, 높은 데미지를 가지고 있습니다.",
+      "tr": "Geniş mermi yayılımı, keskin düşüş ve yüksek hasar çıkışına sahiptir.",
+      "hr": "Ima veliko rasipanje metaka, oštar pad štete i visoku izlaznu štetu.",
+      "sr": "Ima veliko rasipanje metaka, oštar pad štete i visoku izlaznu štetu."
+    },
+    "type": "Blueprint",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "rarity": "Legendary",
+    "updatedAt": "11/12/2025"
+  },
+  {
     "id": "il_toro_i",
     "name": {
       "en": "Il Toro I",
@@ -11,7 +61,7 @@
       "no": "Il Toro I",
       "da": "Il Toro I",
       "it": "Il Toro I",
-      "ru": "Il Toro I",
+      "ru": "Эль-Торо I",
       "ja": "Il Toro I",
       "zh-TW": "Il Toro I",
       "uk": "Il Toro I",
@@ -163,7 +213,8 @@
       "simple_gun_parts": 6
     },
     "craftBench": "weapon_bench",
-    "stationLevelRequired": 1
+    "stationLevelRequired": 1,
+    "isWeapon": true
   },
   {
     "id": "il_toro_ii",
@@ -177,7 +228,7 @@
       "no": "Il Toro II",
       "da": "Il Toro II",
       "it": "Il Toro II",
-      "ru": "Il Toro II",
+      "ru": "Эль-Торо II",
       "ja": "イル・トロII",
       "zh-TW": "Il Toro II",
       "uk": "Il Toro II",
@@ -346,7 +397,8 @@
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
-    "stationLevelRequired": 1
+    "stationLevelRequired": 1,
+    "isWeapon": true
   },
   {
     "id": "il_toro_iii",
@@ -539,7 +591,8 @@
     "stealth": 18,
     "weightKg": 8,
     "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "il_toro_iv",
@@ -732,7 +785,8 @@
     "stealth": 18,
     "weightKg": 8,
     "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "impure_arc_coolant",
@@ -746,7 +800,7 @@
       "no": "Uren ARC-kjølevæske",
       "da": "Uren ARC-kølevæske",
       "it": "Refrigerante ARC Impuro",
-      "ru": "Нечистый хладагент ARC",
+      "ru": "Загрязненное охлаждающее вещество ARC",
       "ja": "不純なARC冷却液",
       "zh-TW": "不純ARC冷卻液",
       "uk": "Нечистий охолоджувач ARC",
@@ -1029,7 +1083,7 @@
       "no": "Sjokk-mine tegning",
       "da": "Chok-mine tegning",
       "it": "Progetto mina stordente",
-      "ru": "Чертёж мины-оглушителя",
+      "ru": "Чертеж — Электрическая мина",
       "ja": "ジョルトマイン設計図",
       "zh-TW": "震盪地雷藍圖",
       "uk": "Креслення міни-оглушувача",
@@ -1079,7 +1133,7 @@
       "no": "Jolt-mine",
       "da": "Jolt-mine",
       "it": "Mina Jolt",
-      "ru": "Шоковая мина",
+      "ru": "Электрическая мина",
       "ja": "ジョルトマイン",
       "zh-TW": "電擊地雷",
       "uk": "Шокова міна",
@@ -1465,7 +1519,8 @@
       "advanced_mechanical_components": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "kettle_i",
@@ -1633,7 +1688,8 @@
         "sr": "ARC probijanje oklopa",
         "value": "Very Weak"
       }
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "kettle_ii",
@@ -1700,7 +1756,7 @@
       "no": "Kettle III",
       "da": "Kettle III",
       "it": "Kettle III",
-      "ru": "Kettle III",
+      "ru": "Чайник III",
       "ja": "Kettle III",
       "zh-TW": "Kettle III",
       "uk": "Kettle III",
@@ -1866,7 +1922,8 @@
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-    "updatedAt": "10/31/2025"
+    "updatedAt": "10/31/2025",
+    "isWeapon": true
   },
   {
     "id": "kettle_iv",
@@ -1880,7 +1937,7 @@
       "no": "Kettle IV",
       "da": "Kettle IV",
       "it": "Kettle IV",
-      "ru": "Kettle IV",
+      "ru": "Чайник IV",
       "ja": "Kettle IV",
       "zh-TW": "Kettle IV",
       "uk": "Kettle IV",
@@ -2022,7 +2079,8 @@
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-    "updatedAt": "10/31/2025"
+    "updatedAt": "10/31/2025",
+    "isWeapon": true
   },
   {
     "id": "kinetic_converter",
@@ -2307,7 +2365,7 @@
       "no": "Utskytningsammunisjon",
       "da": "Affyringsammunition",
       "it": "Munizioni lanciatore",
-      "ru": "Патроны для гранатомета",
+      "ru": "Патрон для ракетницы",
       "ja": "ランチャー弾薬",
       "zh-TW": "發射器彈藥",
       "uk": "Патрони для гранатомета",
@@ -2338,15 +2396,15 @@
       "sr": "Anti-ARC projektili koje uglavnom koristi Hullcracker. Kompatibilno sa: Hullcracker"
     },
     "type": "Ammunition",
-    "value": 200,
+    "value": 250,
     "rarity": "Rare",
     "weightKg": 0.1,
     "stackSize": 24,
     "imageFilename": "https://cdn.arctracker.io/items/launcher_ammo.png",
-    "updatedAt": "11/03/2025",
+    "updatedAt": "11/20/2025",
     "recipe": {
-      "metal_parts": 4,
-      "explosive_compound": 1
+      "arc_motion_core": 1,
+      "crude_explosives": 2
     },
     "craftBench": "workbench"
   },
@@ -2362,7 +2420,7 @@
       "no": "Hopper-pulsenhet",
       "da": "Springer-pulsenhed",
       "it": "Unità a impulsi del saltatore",
-      "ru": "Импульсный блок прыгуна",
+      "ru": "Импульсный блок Прыгуна",
       "ja": "リーパーパルスユニット",
       "zh-TW": "跳躍者脈衝裝置",
       "uk": "Імпульсний блок стрибуна",
@@ -2699,7 +2757,7 @@
       "no": "Lett ammunisjon",
       "da": "Let ammunition",
       "it": "Munizioni leggere",
-      "ru": "Легкие патроны",
+      "ru": "Легкий патрон",
       "ja": "ライト弾薬",
       "zh-TW": "輕型彈藥",
       "uk": "Легкі патрони",
@@ -2812,7 +2870,7 @@
       "no": "Lette våpendeler-tegning",
       "da": "Lette våbendele-tegning",
       "it": "Progetto parti di armi leggere",
-      "ru": "Чертёж лёгких деталей оружия",
+      "ru": "Чертеж — Детали для легкого оружия",
       "ja": "軽火器パーツ設計図",
       "zh-TW": "輕型槍械零件藍圖",
       "uk": "Креслення легких деталей зброї",
@@ -2861,7 +2919,7 @@
       "no": "Lette Våpendeler",
       "da": "Lette Våbendele",
       "it": "Parti di Armi Leggere",
-      "ru": "Детали лёгкого оружия",
+      "ru": "Детали для легкого оружия",
       "ja": "軽火器パーツ",
       "zh-TW": "輕型槍械零件",
       "uk": "Деталі легкої зброї",
@@ -2919,7 +2977,7 @@
       "no": "Lett slagggranat",
       "da": "Let slagggranat",
       "it": "Granata a impatto leggera",
-      "ru": "Лёгкая ударная граната",
+      "ru": "Легкая граната",
       "ja": "軽量衝撃グレネード",
       "zh-TW": "輕型衝擊手榴彈",
       "uk": "Легка ударна граната",
@@ -3363,7 +3421,7 @@
       "no": "Liten røykgranat",
       "da": "Lille røggranat",
       "it": "Piccola granata fumogena",
-      "ru": "Малая дымовая граната",
+      "ru": "Маленькая дымовая граната",
       "ja": "リトルスモークグレネード",
       "zh-TW": "小型煙霧彈",
       "uk": "Мала димова граната",
@@ -3466,7 +3524,7 @@
       "no": "Plyndring Mk. 1",
       "da": "Plyndring Mk. 1",
       "it": "Saccheggio Mk. 1",
-      "ru": "Грабёж Mk. 1",
+      "ru": "Добыча 1",
       "ja": "ルーティング Mk. 1",
       "zh-TW": "掠奪 Mk. 1",
       "uk": "Мародерство Mk. 1",
@@ -3592,7 +3650,7 @@
       "no": "Plyndring Mk. 2",
       "da": "Plyndring Mk. 2",
       "it": "Saccheggio Mk. 2",
-      "ru": "Мародёрство Mk. 2",
+      "ru": "Добыча 2",
       "ja": "ルーティング Mk. 2",
       "zh-TW": "掠奪 Mk. 2",
       "uk": "Мародерство Mk. 2",
@@ -3883,7 +3941,7 @@
       "kr": "약탈 Mk. 3 (생존자)",
       "zh-CN": "掠夺 Mk. 3（幸存者）",
       "zh-TW": "掠奪 Mk. 3（倖存者）",
-      "ru": "Грабительский Mk. 3 (выживший)",
+      "ru": "Добыча 3 (Выживший)",
       "tr": "Yağmalama Mk. 3 (Hayatta Kalan)",
       "uk": "Мародерський Mk. 3 (вижилий)",
       "sr": "Pljačkaški Mk. 3 (Preživeli)",
@@ -4003,7 +4061,7 @@
       "no": "Lokkegranattegning",
       "da": "Lokkegranattegning",
       "it": "Progetto granata esca",
-      "ru": "Чертёж приманки-гранаты",
+      "ru": "Чертеж — Граната-приманка",
       "ja": "囮グレネード設計図",
       "zh-TW": "誘餌手榴彈藍圖",
       "uk": "Креслення гранати-принади",
@@ -4052,7 +4110,7 @@
       "no": "Lokkegranатfelle",
       "da": "Lokkegranатfælde",
       "it": "Trappola granata esca",
-      "ru": "Ловушка с приманочной гранатой",
+      "ru": "Лазерная ловушка: Приманка",
       "ja": "ルアーグレネードトラップ",
       "zh-TW": "誘餌手榴彈陷阱",
       "uk": "Пастка з принадною гранатою",
@@ -4146,7 +4204,7 @@
       "no": "Lokkegranate",
       "da": "Lokkegranate",
       "it": "Granata esca",
-      "ru": "Приманочная граната",
+      "ru": "Граната-приманка",
       "ja": "おとり手榴弾",
       "zh-TW": "誘餌手榴彈",
       "uk": "Принадна граната",
@@ -4560,7 +4618,7 @@
       "no": "Middels ammunisjon",
       "da": "Mellem ammunition",
       "it": "Munizioni medie",
-      "ru": "Средние патроны",
+      "ru": "Патрон среднего калибра",
       "ja": "ミディアム弾薬",
       "zh-TW": "中型彈藥",
       "uk": "Середні патрони",
@@ -4671,7 +4729,7 @@
       "no": "Medium våpendeler",
       "da": "Medium våbendele",
       "it": "Parti di armi medie",
-      "ru": "Средние оружейные детали",
+      "ru": "Детали для оружия среднего калибра",
       "ja": "中型銃パーツ",
       "zh-TW": "中型槍械零件",
       "uk": "Середні зброярські деталі",
@@ -4880,7 +4938,7 @@
       "kr": "금속 브래킷",
       "zh-CN": "金属支架",
       "zh-TW": "金屬支架",
-      "ru": "Металлические кронштейны",
+      "ru": "Металлические скобы",
       "tr": "Metal Braketler",
       "uk": "Металеві кронштейни",
       "hr": "Metalne konzole",
@@ -5095,7 +5153,7 @@
       "no": "Mod-komponenter",
       "da": "Mod-komponenter",
       "it": "Componenti mod",
-      "ru": "Компоненты модификаций",
+      "ru": "Компоненты для модификаций",
       "ja": "モッドコンポーネント",
       "zh-TW": "改裝組件",
       "uk": "Компоненти модифікацій",
@@ -5945,7 +6003,7 @@
       "no": "Støymaker",
       "da": "Støjgenerator",
       "it": "Generatore di rumore",
-      "ru": "Шумоглушитель",
+      "ru": "Шумелка",
       "ja": "ノイズメーカー",
       "zh-TW": "噪音製造器",
       "uk": "Шумовик",
@@ -6248,7 +6306,7 @@
       "no": "Osprey-tegning",
       "da": "Osprey-tegning",
       "it": "Progetto Osprey",
-      "ru": "Чертеж Osprey",
+      "ru": "Чертеж — Ястреб",
       "ja": "Osprey設計図",
       "zh-TW": "Osprey藍圖",
       "uk": "Креслення Osprey",
@@ -6297,7 +6355,7 @@
       "no": "Osprey I",
       "da": "Osprey I",
       "it": "Osprey I",
-      "ru": "Оспрей I",
+      "ru": "Ястреб I",
       "ja": "オスプレイ I",
       "zh-TW": "魚鷹 I",
       "uk": "Оспрей I",
@@ -6467,7 +6525,8 @@
       "wires": 7
     },
     "craftBench": "weapon_bench",
-    "stationLevelRequired": 2
+    "stationLevelRequired": 2,
+    "isWeapon": true
   },
   {
     "id": "osprey_ii",
@@ -6475,7 +6534,7 @@
       "en": "Osprey II",
       "de": "Osprey II",
       "uk": "Osprey II",
-      "ru": "Osprey II",
+      "ru": "Ястреб II",
       "zh-TW": "魚鷹 II",
       "tr": "Osprey II",
       "zh-CN": "鱼鹰 II",
@@ -6705,7 +6764,8 @@
     "stealth": 12,
     "weightKg": 7,
     "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "osprey_iii",
@@ -6713,7 +6773,7 @@
       "en": "Osprey III",
       "de": "Osprey III",
       "uk": "Osprey III",
-      "ru": "Osprey III",
+      "ru": "Ястреб III",
       "zh-TW": "魚鷹 III",
       "tr": "Osprey III",
       "zh-CN": "鱼鹰 III",
@@ -6943,7 +7003,8 @@
     "stealth": 12,
     "weightKg": 7,
     "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "osprey_iv",
@@ -6951,7 +7012,7 @@
       "en": "Osprey IV",
       "de": "Osprey IV",
       "uk": "Osprey IV",
-      "ru": "Osprey IV",
+      "ru": "Ястреб IV",
       "zh-TW": "魚鷹 IV",
       "tr": "Osprey IV",
       "zh-CN": "鱼鹰 IV",
@@ -7181,7 +7242,8 @@
     "stealth": 12,
     "weightKg": 7,
     "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "padded_stock_blueprint",
@@ -7421,7 +7483,7 @@
       "no": "Malt boks",
       "da": "Malet kasse",
       "it": "Scatola dipinta",
-      "ru": "Расписная шкатулка",
+      "ru": "Расписная коробка",
       "ja": "彩色の箱",
       "zh-TW": "彩繪盒子",
       "uk": "Розписна скринька",
@@ -7661,7 +7723,7 @@
       "no": "Forurenset luftfilter",
       "da": "Forurenet luftfilter",
       "it": "Filtro dell'aria inquinato",
-      "ru": "Фильтр загрязнённого воздуха",
+      "ru": "Загрязненный воздушный фильтр",
       "ja": "汚染空気フィルター",
       "zh-TW": "污染空氣過濾器",
       "uk": "Фільтр забрудненого повітря",
@@ -7828,7 +7890,7 @@
       "no": "Plakat av naturens underverker",
       "da": "Plakat af naturens vidundere",
       "it": "Poster delle meraviglie naturali",
-      "ru": "Плакат природных чудес",
+      "ru": "Плакат Чудеса природы",
       "ja": "自然の驚異のポスター",
       "zh-TW": "自然奇觀海報",
       "uk": "Плакат природних чудес",
@@ -7879,7 +7941,7 @@
       "no": "Keramikk",
       "da": "Keramik",
       "it": "Ceramica",
-      "ru": "Керамика",
+      "ru": "Глиняная посуда",
       "ja": "陶器",
       "zh-TW": "陶器",
       "uk": "Кераміка",
@@ -7931,7 +7993,7 @@
       "no": "Powerbank",
       "da": "Powerbank",
       "it": "Power Bank",
-      "ru": "Внешний аккумулятор",
+      "ru": "Портативный аккумулятор",
       "ja": "モバイルバッテリー",
       "zh-TW": "行動電源",
       "uk": "Зовнішній акумулятор",
@@ -7989,7 +8051,7 @@
       "no": "Strømkabel",
       "da": "Strømkabel",
       "it": "Cavo di alimentazione",
-      "ru": "Силовой кабель",
+      "ru": "Кабель питания",
       "ja": "電力ケーブル",
       "zh-TW": "電力電纜",
       "uk": "Силовий кабель",
@@ -8544,60 +8606,5 @@
     "stackSize": 3,
     "foundIn": "Commercial, Residential",
     "imageFilename": "https://cdn.arctracker.io/items/radio.png"
-  },
-  {
-    "id": "raider_hatch_key",
-    "name": {
-      "en": "Raider Hatch Key",
-      "de": "Raider-Lukenschlüssel",
-      "fr": "Clé de trappe de Raider",
-      "es": "Llave de trampilla de raider",
-      "pt": "Chave de escotilha de saqueador",
-      "pl": "Klucz do włazu najeźdźcy",
-      "no": "Raider lukenøkkel",
-      "da": "Raider lugenøgle",
-      "it": "Chiave del portello del predone",
-      "ru": "Ключ от люка рейдера",
-      "ja": "レイダーハッチキー",
-      "zh-TW": "掠奪者艙門鑰匙",
-      "uk": "Ключ від люка рейдера",
-      "zh-CN": "掠夺者舱门钥匙",
-      "kr": "레이더 해치 키",
-      "tr": "Akıncı Ambar Kapağı Anahtarı",
-      "hr": "Ključ Raiderskog Otvora",
-      "sr": "Ključ Rejderskog Otvora"
-    },
-    "type": "Key",
-    "description": {
-      "en": "Unlocks a Raider Hatch.",
-      "de": "Öffnet eine Raider-Luke.",
-      "fr": "Débloque une trappe de Raider.",
-      "es": "Desbloquea una escotilla de saqueador.",
-      "pt": "Desbloqueia uma escotilha de saqueador.",
-      "pl": "Otwiera właz najeźdźcy.",
-      "no": "Låser opp en Raider-luke.",
-      "da": "Låser en Raider-luge op.",
-      "it": "Sblocca un portello del predone.",
-      "ru": "Открывает люк рейдера.",
-      "ja": "レイダーハッチを開錠する。",
-      "zh-TW": "解鎖掠奪者艙門。",
-      "uk": "Відкриває люк рейдера.",
-      "zh-CN": "解锁掠夺者舱门。",
-      "kr": "레이더 해치를 엽니다.",
-      "tr": "Bir Akıncı Ambar Kapağını açar.",
-      "hr": "Otključava Raiderski Otvor.",
-      "sr": "Otključava Rejderski Otvor."
-    },
-    "rarity": "Rare",
-    "value": 1000,
-    "recyclesInto": {},
-    "weightKg": 0.01,
-    "imageFilename": "https://cdn.arctracker.io/items/raider_hatch_key.png",
-    "updatedAt": "11/03/2025",
-    "recipe": {
-      "advanced_electrical_components": 1,
-      "sensors": 3
-    },
-    "craftBench": "utility_bench"
   }
 ]

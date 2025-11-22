@@ -1,5 +1,213 @@
 [
   {
+    "id": "temptest_ii",
+    "name": {
+      "en": "Tempest II",
+      "de": "Sturm II",
+      "fr": "Tempête II",
+      "es": "Tempestad II",
+      "pt": "Tempestade II",
+      "pl": "Burza II",
+      "no": "Storm II",
+      "da": "Storm II",
+      "it": "Tempesta II",
+      "ru": "Буря II",
+      "ja": "テンペスト II",
+      "zh-TW": "風暴 II",
+      "uk": "Буря II",
+      "zh-CN": "风暴 II",
+      "kr": "템페스트 II",
+      "tr": "Fırtına II",
+      "hr": "Oluja II",
+      "sr": "Олуја II"
+    },
+    "description": {
+      "en": "Fully automatic assault rifle with moderate fire rate and accuracy.",
+      "de": "Vollautomatisches Sturmgewehr mit mittlerer Feuerrate und Genauigkeit.",
+      "fr": "Fusil d'assaut entièrement automatique avec cadence de tir et précision modérées.",
+      "es": "Rifle de asalto totalmente automático con una cadencia de fuego y precisión moderadas.",
+      "pt": "Rifle de assalto totalmente automático com taxa de disparo e precisão moderadas.",
+      "pl": "W pełni automatyczny karabin szturmowy o umiarkowanej szybkostrzelności i celności.",
+      "no": "Helautomatisk angrepsrifle med moderat skuddtakt og presisjon.",
+      "da": "Fuldt automatisk angrebsriffel med moderat skudhastighed og præcision.",
+      "it": "Fucile d'assalto completamente automatico con cadenza di fuoco e precisione moderate.",
+      "ru": "Полностью автоматическая штурмовая винтовка с умеренной скорострельностью и точностью.",
+      "ja": "完全自動のアサルトライフル。連射速度と精度は中程度。",
+      "zh-TW": "全自動突擊步槍，射速和精準度適中。",
+      "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкістю стрільби та точністю.",
+      "zh-CN": "全自动突击步枪，射速和精度适中。",
+      "kr": "완전 자동 돌격소총으로, 발사 속도와 정확도가 보통입니다.",
+      "tr": "Tam otomatik bir saldırı tüfeği, orta düzeyde atış hızı ve isabet oranına sahiptir.",
+      "hr": "Potpuno automatska jurišna puška s umjerenom brzinom paljbe i preciznošću.",
+      "sr": "Потпуно аутоматска јуришна пушка са умереном брзином паљбе и прецизношћу."
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "effects": {
+      "Durability": {
+        "en": "Durability",
+        "de": "Haltbarkeit",
+        "fr": "Durabilité",
+        "es": "Durabilidad",
+        "pt": "Durabilidade",
+        "pl": "Wytrzymałość",
+        "no": "Holdbarhet",
+        "da": "Holdbarhed",
+        "it": "Durabilità",
+        "ru": "Прочность",
+        "ja": "耐久性",
+        "zh-TW": "耐久度",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "kr": "내구도",
+        "tr": "Dayanıklılık",
+        "hr": "Izdržljivost",
+        "sr": "Izdržljivost",
+        "value": "110/110"
+      },
+      "Ammo Type": {
+        "en": "Ammo Type",
+        "de": "Munitionstyp",
+        "fr": "Type de munitions",
+        "es": "Tipo de munición",
+        "pt": "Tipo de munição",
+        "pl": "Typ amunicji",
+        "no": "Ammunisjonstype",
+        "da": "Ammunitionstype",
+        "it": "Tipo di munizioni",
+        "ru": "Тип патронов",
+        "ja": "弾薬タイプ",
+        "zh-TW": "彈藥類型",
+        "uk": "Тип патронів",
+        "zh-CN": "弹药类型",
+        "kr": "탄약 유형",
+        "tr": "Mermi Türü",
+        "hr": "Vrsta Streljiva",
+        "sr": "Vrsta Streljiva",
+        "value": "Medium Ammo"
+      },
+      "Magazine Size": {
+        "en": "Magazine Size",
+        "de": "Magazingröße",
+        "fr": "Taille du chargeur",
+        "es": "Tamaño del cargador",
+        "pt": "Tamanho do carregador",
+        "pl": "Rozmiar magazynka",
+        "no": "Magasinstørrelse",
+        "da": "Magasinstørrelse",
+        "it": "Dimensione caricatore",
+        "ru": "Размер магазина",
+        "ja": "マガジンサイズ",
+        "zh-TW": "彈匣容量",
+        "uk": "Розмір магазину",
+        "zh-CN": "弹匣容量",
+        "kr": "탄창 크기",
+        "tr": "Şarjör Boyutu",
+        "hr": "Veličina Spremnika",
+        "sr": "Veličina Spremnika",
+        "value": 25
+      },
+      "Firing Mode": {
+        "en": "Firing Mode",
+        "de": "Feuermodus",
+        "fr": "Mode de tir",
+        "es": "Modo de disparo",
+        "pt": "Modo de disparo",
+        "pl": "Tryb ognia",
+        "no": "Skyttemodus",
+        "da": "Skydetilstand",
+        "it": "Modalità di fuoco",
+        "ru": "Режим стрельбы",
+        "ja": "射撃モード",
+        "zh-TW": "射擊模式",
+        "uk": "Режим стрільби",
+        "zh-CN": "射击模式",
+        "kr": "발사 모드",
+        "tr": "Atış Modu",
+        "hr": "Način Pucanja",
+        "sr": "Način Pucanja",
+        "value": "Fully-Automatic"
+      },
+      "ARC Armor Penetration": {
+        "en": "ARC Armor Penetration",
+        "de": "ARC-Rüstungsdurchdringung",
+        "fr": "Pénétration d'armure ARC",
+        "es": "Penetración de armadura ARC",
+        "pt": "Penetração de armadura ARC",
+        "pl": "Przebicie pancerza ARC",
+        "no": "ARC-rustningspenetrering",
+        "da": "ARC-rustningspenetrering",
+        "it": "Penetrazione armatura ARC",
+        "ru": "Пробитие брони ARC",
+        "ja": "ARC装甲貫通",
+        "zh-TW": "ARC護甲穿透",
+        "uk": "Пробиття броні ARC",
+        "zh-CN": "ARC护甲穿透",
+        "kr": "ARC 방어구 관통",
+        "tr": "ARC Zırh Delme",
+        "hr": "ARC Probijanje Oklopa",
+        "sr": "ARC Probijanje Oklopa",
+        "value": "Moderate"
+      },
+      "Reduced Horizontal Recoil": {
+        "en": "Reduced Horizontal Recoil",
+        "de": "Reduzierter horizontaler Rückstoß",
+        "fr": "Recul horizontal réduit",
+        "es": "Retroceso horizontal reducido",
+        "pt": "Recuo horizontal reduzido",
+        "pl": "Zmniejszony odrzut poziomy",
+        "no": "Redusert horisontal rekyl",
+        "da": "Reduceret horisontal rekyl",
+        "it": "Rinculo orizzontale ridotto",
+        "ru": "Снижение горизонтальной отдачи",
+        "ja": "水平反動軽減",
+        "zh-TW": "降低水平後座力",
+        "uk": "Зменшення горизонтальної віддачі",
+        "zh-CN": "降低水平后坐力",
+        "kr": "수평 반동 감소",
+        "tr": "Azaltılmış Yatay Tepme",
+        "hr": "Smanjen horizontalni trzaj",
+        "sr": "Smanjen horizontalni trzaj",
+        "value": "16.6%"
+      },
+      "Reduced Reload Time": {
+        "en": "Reduced Reload Time",
+        "de": "Verringerte Nachladezeit",
+        "fr": "Temps de rechargement réduit",
+        "es": "Tiempo de recarga reducido",
+        "pt": "Tempo de recarga reduzido",
+        "pl": "Skrócony czas przeładowania",
+        "no": "Redusert ladetid",
+        "da": "Reduceret genindlæsningstid",
+        "it": "Tempo di ricarica ridotto",
+        "ru": "Сокращённое время перезарядки",
+        "ja": "リロード時間短縮",
+        "zh-TW": "降低換彈時間",
+        "uk": "Скорочений час перезаряджання",
+        "zh-CN": "缩短装填时间",
+        "kr": "재장전 시간 감소",
+        "tr": "Azaltılmış yeniden doldurma süresi",
+        "hr": "Smanjeno vrijeme punjenja",
+        "sr": "Smanjeno vrijeme punjenja",
+        "value": "13%"
+      }
+    },
+    "value": 17000,
+    "weightKg": 11,
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "craftBench": "weapon_bench",
+    "upgradeCost": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+    "updatedAt": "11/11/2025",
+    "isWeapon": true
+  },
+  {
     "id": "temptest_iii",
     "name": {
       "en": "Tempest III",
@@ -204,7 +412,8 @@
       "medium_gun_parts": 4
     },
     "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
-    "updatedAt": "11/11/2025"
+    "updatedAt": "11/11/2025",
+    "isWeapon": true
   },
   {
     "id": "temptest_iv",
@@ -411,7 +620,8 @@
       "medium_gun_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
-    "updatedAt": "11/11/2025"
+    "updatedAt": "11/11/2025",
+    "isWeapon": true
   },
   {
     "id": "thermostat",
@@ -480,7 +690,7 @@
       "no": "Flåttkapsel",
       "da": "Flåtkapsel",
       "it": "Capsula di zecca",
-      "ru": "Капсула клеща",
+      "ru": "Оболочка Блохи",
       "ja": "ティックポッド",
       "zh-TW": "蜱蟲莢",
       "uk": "Капсула кліща",
@@ -748,7 +958,7 @@
       "no": "Torrente I",
       "da": "Torrente I",
       "it": "Torrente I",
-      "ru": "Torrente I",
+      "ru": "Торренте I",
       "ja": "トレンテ I",
       "zh-TW": "奔流藍圖 I",
       "uk": "Torrente I",
@@ -900,7 +1110,8 @@
       "steel_spring": 6
     },
     "craftBench": "weapon_bench",
-    "weightKg": 12
+    "weightKg": 12,
+    "isWeapon": true
   },
   {
     "id": "torrente_ii",
@@ -914,7 +1125,7 @@
       "no": "Torrente II",
       "da": "Torrente II",
       "it": "Torrente II",
-      "ru": "Torrente II",
+      "ru": "Торренте II",
       "ja": "トレンテ II",
       "zh-TW": "奔流藍圖 II",
       "uk": "Torrente II",
@@ -1085,7 +1296,8 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
     "updatedAt": "11/06/2025",
-    "weightKg": 12
+    "weightKg": 12,
+    "isWeapon": true
   },
   {
     "id": "torrente_iii",
@@ -1099,7 +1311,7 @@
       "no": "Torrente III",
       "da": "Torrente III",
       "it": "Torrente III",
-      "ru": "Torrente III",
+      "ru": "Торренте III",
       "ja": "トレンテ III",
       "zh-TW": "奔流藍圖 III",
       "uk": "Torrente III",
@@ -1270,7 +1482,8 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
     "updatedAt": "11/06/2025",
-    "weightKg": 12
+    "weightKg": 12,
+    "isWeapon": true
   },
   {
     "id": "torrente_iv",
@@ -1284,7 +1497,7 @@
       "no": "Torrente IV",
       "da": "Torrente IV",
       "it": "Torrente IV",
-      "ru": "Torrente IV",
+      "ru": "Торренте IV",
       "ja": "トレンテ IV",
       "zh-TW": "奔流藍圖 IV",
       "uk": "Torrente IV",
@@ -1455,7 +1668,8 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
     "updatedAt": "11/06/2025",
-    "weightKg": 12
+    "weightKg": 12,
+    "isWeapon": true
   },
   {
     "name": {
@@ -1566,7 +1780,7 @@
       "no": "Utløsergranattegning",
       "da": "Udløsergranattegning",
       "it": "Progetto granata ad attivazione",
-      "ru": "Чертёж триггерной гранаты",
+      "ru": "Чертеж — Триггер-граната",
       "ja": "トリガーグレネード設計図",
       "zh-TW": "觸發手榴彈藍圖",
       "uk": "Креслення тригерної гранати",
@@ -1882,7 +2096,7 @@
       "no": "Venator-tegning",
       "da": "Venator-tegning",
       "it": "Progetto Venator",
-      "ru": "Чертеж Venator",
+      "ru": "Чертеж — Охотник",
       "ja": "Venator設計図",
       "zh-TW": "Venator藍圖",
       "uk": "Креслення Venator",
@@ -1930,7 +2144,7 @@
       "no": "Venator I",
       "da": "Venator I",
       "it": "Venator I",
-      "ru": "Venator I",
+      "ru": "Охотник I",
       "ja": "Venator I",
       "zh-TW": "Venator I",
       "uk": "Venator I",
@@ -2091,7 +2305,7 @@
       }
     },
     "value": 7000,
-    "weightKg": 2,
+    "weightKg": 5,
     "recipe": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3,
@@ -2104,7 +2318,8 @@
     "craftBench": "weapon_bench",
     "stationLevelRequired": 2,
     "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-    "updatedAt": "11/11/2025"
+    "updatedAt": "11/20/2025",
+    "isWeapon": true
   },
   {
     "id": "venator_ii",
@@ -2118,7 +2333,7 @@
       "no": "Venator II",
       "da": "Venator II",
       "it": "Venator II",
-      "ru": "Venator II",
+      "ru": "Охотник II",
       "ja": "Venator II",
       "zh-TW": "Venator II",
       "uk": "Venator II",
@@ -2296,7 +2511,7 @@
         "tr": "Artırılmış atış hızı",
         "hr": "Povećana brzina paljbe",
         "sr": "Povećana brzina paljbe",
-        "value": "22%"
+        "value": "13%"
       },
       "Reduced Reload Time": {
         "en": "Reduced Reload Time",
@@ -2321,18 +2536,19 @@
       }
     },
     "value": 10000,
-    "weightKg": 2,
+    "weightKg": 5,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
     },
     "craftBench": "weapon_bench",
+    "updatedAt": "11/20/2025",
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-    "updatedAt": "11/11/2025"
+    "isWeapon": true
   },
   {
     "id": "venator_iii",
@@ -2524,7 +2740,7 @@
         "tr": "Artırılmış atış hızı",
         "hr": "Povećana brzina paljbe",
         "sr": "Povećana brzina paljbe",
-        "value": "44%"
+        "value": "26%"
       },
       "Reduced Reload Time": {
         "en": "Reduced Reload Time",
@@ -2549,18 +2765,19 @@
       }
     },
     "value": 13000,
-    "weightKg": 2,
+    "weightKg": 5,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3
     },
     "craftBench": "weapon_bench",
+    "updatedAt": "11/20/2025",
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-    "updatedAt": "11/11/2025"
+    "isWeapon": true
   },
   {
     "id": "venator_iv",
@@ -2574,7 +2791,7 @@
       "no": "Venator IV",
       "da": "Venator IV",
       "it": "Venator IV",
-      "ru": "Venator IV",
+      "ru": "Охотник IV",
       "ja": "Venator IV",
       "zh-TW": "Venator IV",
       "uk": "Venator IV",
@@ -2752,7 +2969,7 @@
         "tr": "Artırılmış atış hızı",
         "hr": "Povećana brzina paljbe",
         "sr": "Povećana brzina paljbe",
-        "value": "66%"
+        "value": "40%"
       },
       "Reduced Reload Time": {
         "en": "Reduced Reload Time",
@@ -2777,18 +2994,19 @@
       }
     },
     "value": 17000,
-    "weightKg": 2,
+    "weightKg": 5,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "medium_gun_parts": 3
     },
     "craftBench": "weapon_bench",
+    "updatedAt": "11/20/2025",
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-    "updatedAt": "11/11/2025"
+    "isWeapon": true
   },
   {
     "id": "vertical_grip_i",
@@ -2802,7 +3020,7 @@
       "no": "Vertikalt grep I",
       "da": "Vertikalt greb I",
       "it": "Impugnatura verticale I",
-      "ru": "Вертикальная рукоять I",
+      "ru": "Вертикальная рукоятка I",
       "ja": "バーティカルグリップ I",
       "zh-TW": "垂直握把 I",
       "uk": "Вертикальна рукоятка I",
@@ -2879,7 +3097,7 @@
       "no": "Vertikalt grep II",
       "da": "Vertikalt greb II",
       "it": "Impugnatura verticale II",
-      "ru": "Вертикальная рукоять II",
+      "ru": "Вертикальная рукоятка II",
       "ja": "バーティカルグリップ II",
       "zh-TW": "垂直握把 II",
       "uk": "Вертикальна рукоятка II",
@@ -3015,7 +3233,7 @@
       "kr": "수직 손잡이 III",
       "zh-CN": "垂直握把III",
       "zh-TW": "垂直握把III",
-      "ru": "Вертикальная рукоять III",
+      "ru": "Вертикальная рукоятка III",
       "tr": "Dikey Kabza III",
       "uk": "Вертикальна рукоятка III",
       "sr": "Vertikalni rukohvat III",
@@ -3209,7 +3427,7 @@
       "no": "Vita-sprøyte",
       "da": "Vita-indsprøjtning",
       "it": "Iniezione Vita",
-      "ru": "Вита-инъекция",
+      "ru": "Витаминная сыворотка",
       "ja": "ヴィタショット",
       "zh-TW": "活力注射劑",
       "uk": "Віта-ін'єкція",
@@ -3613,7 +3831,7 @@
       "no": "Vulcano I",
       "da": "Vulcano I",
       "it": "Vulcano I",
-      "ru": "Vulcano I",
+      "ru": "Вулкан I",
       "ja": "Vulcano I",
       "zh-TW": "Vulcano I",
       "uk": "Vulcano I",
@@ -3775,7 +3993,8 @@
         "da": "ARC rustningspenetration",
         "value": "Weak"
       }
-    }
+    },
+    "isWeapon": true
   },
   {
     "id": "vulcano_ii",
@@ -3789,7 +4008,7 @@
       "no": "Vulcano II",
       "da": "Vulcano II",
       "it": "Vulcano II",
-      "ru": "Vulcano II",
+      "ru": "Вулкан II",
       "ja": "Vulcano II",
       "zh-TW": "Vulcano II",
       "uk": "Vulcano II",
@@ -3993,7 +4212,8 @@
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
     },
-    "stationLevelRequired": 1
+    "stationLevelRequired": 1,
+    "isWeapon": true
   },
   {
     "id": "vulcano_iii",
@@ -4007,7 +4227,7 @@
       "no": "Vulcano III",
       "da": "Vulcano III",
       "it": "Vulcano III",
-      "ru": "Vulcano III",
+      "ru": "Вулкан III",
       "ja": "ヴルカノ III",
       "zh-TW": "Vulcano III",
       "uk": "Vulcano III",
@@ -4243,7 +4463,8 @@
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 1
     },
-    "stationLevelRequired": 1
+    "stationLevelRequired": 1,
+    "isWeapon": true
   },
   {
     "id": "vulcano_iv",
@@ -4457,7 +4678,8 @@
     "stealth": 15,
     "weightKg": 8,
     "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
-    "updatedAt": "11/12/2025"
+    "updatedAt": "11/12/2025",
+    "isWeapon": true
   },
   {
     "id": "wasp_driver",
@@ -4471,7 +4693,7 @@
       "no": "Vepsdriver",
       "da": "Hvepsedriver",
       "it": "Propulsore vespa",
-      "ru": "Осиный драйвер",
+      "ru": "Драйвер Осы",
       "ja": "ワスプドライバー",
       "zh-TW": "黃蜂驅動器",
       "uk": "Осиний драйвер",
@@ -4748,7 +4970,7 @@
       "no": "Wolfpack-tegning",
       "da": "Wolfpack-tegning",
       "it": "Progetto Wolfpack",
-      "ru": "Чертёж Волчьей стаи",
+      "ru": "Чертеж — Волчья стая",
       "ja": "ウルフパック設計図",
       "zh-TW": "狼群藍圖",
       "uk": "Креслення Зграї вовків",
@@ -4948,7 +5170,7 @@
       "no": "Gul lysstav",
       "da": "Gul lysstav",
       "it": "Bastoncino luminoso giallo",
-      "ru": "Жёлтая светящаяся палочка",
+      "ru": "Желтый химический фонарь",
       "ja": "イエローライトスティック",
       "zh-TW": "黃色螢光棒",
       "uk": "Жовта світлова паличка",
@@ -5045,7 +5267,7 @@
       "no": "Zipline",
       "da": "Zipline",
       "it": "Zipline",
-      "ru": "Тросовая дорога",
+      "ru": "Зиплайн",
       "ja": "ジップライン",
       "zh-TW": "滑索",
       "uk": "Тросова дорога",
