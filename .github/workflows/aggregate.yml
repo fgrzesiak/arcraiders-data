@@ -3,7 +3,7 @@ name: Aggregate data
 on:
   workflow_dispatch:
   push:
-    branches: [main, test]
+    branches: [main, test, mainv2]
     paths:
       - "items/**"
       - "quests/**"
