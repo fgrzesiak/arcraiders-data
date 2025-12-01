@@ -3,7 +3,7 @@
     "name": {
       "en": "Pulse Mine",
       "de": "Sprungmine: Impuls",
-      "fr": "Mine à impulsion",
+      "fr": "Mine Bondissante : Impulsion",
       "es": "Mina de pulso",
       "pt": "Mina de pulso",
       "pl": "Mina pulsacyjna",
@@ -23,7 +23,7 @@
     "description": {
       "en": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
       "de": "Eine Mine, die bei Annäherung explodiert und dabei alle in ihrem Radius zurückstößt.",
-      "fr": "Une mine à déclenchement de proximité qui surgit et repousse tout ce qui se trouve dans son rayon.",
+      "fr": "Une mine de proximité qui jaillit et repousse tout ce qui se trouve dans son rayon.",
       "es": "Una mina activada por proximidad que salta y empuja hacia atrás todo lo que esté dentro de su radio.",
       "pt": "Uma mina ativada por proximidade que salta e empurra tudo dentro do seu raio.",
       "pl": "Mina aktywowana zbliżeniem, która wyskakuje i odpycha wszystko w swoim promieniu.",
@@ -84,7 +84,7 @@
     "name": {
       "en": "Queen Reactor",
       "de": "Königin-Reaktor",
-      "fr": "Réacteur de reine",
+      "fr": "Réacteur de Reine",
       "es": "Reactor de reina",
       "pt": "Reator da rainha",
       "pl": "Reaktor królowej",
@@ -137,7 +137,7 @@
     "name": {
       "en": "Radio Relay",
       "de": "Radio-Relais",
-      "fr": "Relais radio",
+      "fr": "Relais Radio",
       "es": "Relé de radio",
       "pt": "Repetidor de Rádio",
       "pl": "Przekaźnik radiowy",
@@ -193,7 +193,7 @@
     "name": {
       "en": "Radio Renegade",
       "de": "Radio-Rebell",
-      "fr": "Renégat radio",
+      "fr": "Renégat Radio",
       "es": "Renegado de radio",
       "pt": "Renegado do rádio",
       "pl": "Radiowy renegat",
@@ -298,7 +298,7 @@
     "name": {
       "en": "Raider Hatch Key",
       "de": "Raider-Lukenschlüssel",
-      "fr": "Clé de trappe de Raider",
+      "fr": "Clé de Trappe de Raider",
       "es": "Llave de trampilla de raider",
       "pt": "Chave De Escotilha De Combatente",
       "pl": "Klucz do włazu najeźdźcy",
@@ -1053,7 +1053,7 @@
     "name": {
       "en": "Recorder",
       "de": "Spielbare Flöte",
-      "fr": "Flûte à bec",
+      "fr": "Flûte Jouable",
       "es": "Flauta",
       "pt": "Flauta doce",
       "pl": "Flet prosty",
@@ -1129,7 +1129,7 @@
     "name": {
       "en": "Red Coral Jewelry",
       "de": "Rote Korallenschmuck",
-      "fr": "Bijoux en corail rouge",
+      "fr": "Bijoux en Corail Rouge",
       "es": "Joyería de coral rojo",
       "pt": "Joias de coral vermelho",
       "pl": "Biżuteria z czerwonego koralu",
@@ -1181,7 +1181,7 @@
     "name": {
       "en": "Red Light Stick",
       "de": "Roter Leuchtstab",
-      "fr": "Bâton lumineux rouge",
+      "fr": "Bâton Lumineux Rouge",
       "es": "Barra luminosa roja",
       "pt": "Bastão luminoso vermelho",
       "pl": "Czerwony patyk świetlny",
@@ -1336,7 +1336,7 @@
     "name": {
       "en": "Remote Raider Flare Blueprint",
       "de": "Bauplan: Raider-Leuchtfackel mit Fernzündung",
-      "fr": "Schéma de fusée éclairante télécommandée",
+      "fr": "Schéma de Fusée Éclairante Télécommandée",
       "es": "Plano de Bengala de asaltante remota",
       "pt": "Plano do Sinalizador de invasor remoto",
       "pl": "Projekt zdalnej flary najeźdźcy",
@@ -1385,7 +1385,7 @@
     "name": {
       "en": "Remote Raider Flare",
       "de": "Raider-Leuchtfackel mit Fernzündung",
-      "fr": "Fusée éclairante télécommandée",
+      "fr": "Fusée Éclairante Télécommandée",
       "es": "Bengala de asaltante remota",
       "pt": "Sinalizador de invasor remoto",
       "pl": "Zdalna flara najeźdźcy",
@@ -2358,11 +2358,68 @@
     "imageFilename": "https://cdn.arctracker.io/items/resin.png"
   },
   {
+    "id": "ripped_safety_vest",
+    "name": {
+      "en": "Ripped Safety Vest",
+      "de": "Zerfetzte Sicherheitsweste",
+      "fr": "Gilet de sécurité déchiré",
+      "es": "Chaleco de seguridad rasgado",
+      "pt": "Colete de segurança rasgado",
+      "pl": "Podarty kamizelka odblaskowa",
+      "no": "Rivd sikkerhetsvest",
+      "da": "Flænget sikkerhedsvest",
+      "it": "Gilet di sicurezza strappato",
+      "ja": "破れたセーフティベスト",
+      "kr": "찢어진 안전 조끼",
+      "zh-CN": "破损的安全背心",
+      "zh-TW": "破損的安全背心",
+      "ru": "Рваный сигнальный жилет",
+      "tr": "Yırtık güvenlik yeleği",
+      "uk": "Розірваний сигнальний жилет",
+      "sr": "Iscepan sigurnosni prsluk",
+      "hr": "Isparani sigurnosni prsluk"
+    },
+    "description": {
+      "en": "Can be recycled into crafting materials.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "fr": "Peut être recyclé en matériaux de fabrication.",
+      "es": "Puede reciclarse en materiales de fabricación.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pl": "Można przetworzyć na materiały rzemieślnicze.",
+      "no": "Kan resirkuleres til håndverksmaterialer.",
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "it": "Può essere riciclato in materiali da crafting.",
+      "ja": "クラフト素材にリサイクルできます。",
+      "kr": "제작 재료로 재활용할 수 있습니다.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。",
+      "ru": "Можно переработать в материалы для крафта.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для крафту.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "hr": "Može se reciklirati u materijale za izradu."
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "value": 640,
+    "recyclesInto": {
+      "durable_cloth": 1,
+      "magnet": 1
+    },
+    "salvagesInto": {
+      "fabric": 8
+    },
+    "weightKg": 0.8,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/ripped_safety_vest.png",
+    "updatedAt": "11/29/2025"
+  },
+  {
     "id": "rocket_thruster",
     "name": {
       "en": "Rocket Thruster",
       "de": "Raketentriebwerk",
-      "fr": "Propulseur de fusée",
+      "fr": "Propulseur de Fusée",
       "es": "Propulsor de cohetero",
       "pt": "Propulsor de foguete",
       "pl": "Silnik rakietowy",
@@ -2630,7 +2687,7 @@
     "name": {
       "en": "Rotary Encoder",
       "de": "Drehgeber",
-      "fr": "Encodeur rotatif",
+      "fr": "Encodeur Rotatif",
       "es": "Codificador rotatorio",
       "pt": "Codificador rotativo",
       "pl": "Enkoder obrotowy",
@@ -2686,7 +2743,7 @@
     "name": {
       "en": "Rubber Duck",
       "de": "Quietscheente",
-      "fr": "Canard en plastique",
+      "fr": "Canard en Plastique",
       "es": "Pato de goma",
       "pt": "Pato de borracha",
       "pl": "Gumowa kaczka",
@@ -2737,7 +2794,7 @@
     "name": {
       "en": "Rubber Pad",
       "de": "Gummimatte",
-      "fr": "Tapis en caoutchouc",
+      "fr": "Tapis en Caoutchouc",
       "es": "Almohadilla de Goma",
       "pt": "Almofada de Borracha",
       "pl": "Gumowa Podkładka",
@@ -2794,7 +2851,7 @@
     "name": {
       "en": "Rubber Parts",
       "de": "Gummiteile",
-      "fr": "Pièces en caoutchouc",
+      "fr": "Pièces en Caoutchouc",
       "es": "Piezas de goma",
       "pt": "Peças de borracha",
       "pl": "Części gumowe",
@@ -2846,7 +2903,7 @@
     "name": {
       "en": "Ruined Accordion",
       "de": "Kaputtes Akkordeon",
-      "fr": "Accordéon en ruine",
+      "fr": "Accordéon en Ruine",
       "es": "Acordeón arruinado",
       "pt": "Acordeão arruinado",
       "pl": "Zrujnowana harmonia",
@@ -2904,7 +2961,7 @@
     "name": {
       "en": "Ruined Baton",
       "de": "Kaputter Schlagstock",
-      "fr": "Matraque en ruine",
+      "fr": "Matraque en Ruine",
       "es": "Bastón arruinado",
       "pt": "Bastão arruinado",
       "pl": "Zrujnowana pałka",
@@ -2955,7 +3012,7 @@
     "name": {
       "en": "Ruined Handcuffs",
       "de": "Kaputte Handschellen",
-      "fr": "Menottes abîmées",
+      "fr": "Menottes Abîmées",
       "es": "Esposas arruinadas",
       "pt": "Algemas arruinadas",
       "pl": "Zrujnowane kajdanki",
@@ -3006,7 +3063,7 @@
     "name": {
       "en": "Ruined Parachute",
       "de": "Kaputter Fallschirm",
-      "fr": "Parachute cassé",
+      "fr": "Parachute Cassé",
       "es": "Paracaídas arruinado",
       "pt": "Paraquedas arruinado",
       "pl": "Zrujnowany spadochron",
@@ -3057,7 +3114,7 @@
     "name": {
       "en": "Ruined Riot Shield",
       "de": "Kaputtes Schutzschild",
-      "fr": "Bouclier anti-émeute abîmé",
+      "fr": "Bouclier Anti-émeute Abîmé",
       "es": "Escudo antidisturbios arruinado",
       "pt": "Escudo de choque arruinado",
       "pl": "Zniszczona tarcza ochronna",
@@ -3113,7 +3170,7 @@
     "name": {
       "en": "Ruined Tactical Vest",
       "de": "Zerfetzte taktische Weste",
-      "fr": "Gilet tactique en ruine",
+      "fr": "Gilet Tactique en Ruine",
       "es": "Chaleco táctico arruinado",
       "pt": "Colete tático arruinado",
       "pl": "Zniszczona kamizelka taktyczna",
@@ -3229,7 +3286,7 @@
     "name": {
       "en": "Rusted Gear",
       "de": "Verrostetes Zahnrad",
-      "fr": "Engrenage rouillé",
+      "fr": "Engrenage Rouillé",
       "es": "Engranaje oxidado",
       "pt": "Engrenagem enferrujada",
       "pl": "Zardzewiałe koło zębate",
@@ -3284,7 +3341,7 @@
     "name": {
       "en": "Rusted Shut Medical Kit",
       "de": "Verrosteter verschlossener Verbandkasten",
-      "fr": "Kit médical rouillé fermé",
+      "fr": "Trousse de Secours Fermée par la Rouille",
       "es": "Botiquín oxidado cerrado",
       "pt": "Kit médico enferrujado fechado",
       "pl": "Zardzewiały zestaw medyczny",
@@ -3338,7 +3395,7 @@
     "name": {
       "en": "Rusted Tools",
       "de": "Verrostete Werkzeuge",
-      "fr": "Outils rouillés",
+      "fr": "Outils Rouillés",
       "es": "Herramientas oxidadas",
       "pt": "Ferramentas enferrujadas",
       "pl": "Zardzewiałe narzędzia",
@@ -3399,7 +3456,7 @@
       "pt": "Aço ARC Enferrujado",
       "kr": "녹슨 ARC 강철",
       "ru": "Ржавая сталь ARC",
-      "fr": "Acier ARC rouillé",
+      "fr": "Acier ARC Rouillé",
       "tr": "Paslı ARC Çeliği",
       "sr": "Zahrđali ARC čelik",
       "hr": "Zahrđali ARC čelik",
@@ -3434,7 +3491,7 @@
     },
     "type": "Recyclable",
     "rarity": "Uncommon",
-    "weight": 1,
+    "weightKg": 1,
     "stackSize": 3,
     "value": 640,
     "foundIn": "ARC",
@@ -3451,7 +3508,7 @@
     "name": {
       "en": "Sample Cleaner",
       "de": "Probenreiniger",
-      "fr": "Nettoyeur d'échantillons",
+      "fr": "Nettoyeur d'Échantillons",
       "es": "Limpiador de muestras",
       "pt": "Purificador de amostras",
       "pl": "Oczyszczacz próbek",
@@ -3506,7 +3563,7 @@
     "name": {
       "en": "Seeker Grenade",
       "de": "Suchgranate",
-      "fr": "Grenade chercheuse",
+      "fr": "Grenade Traqueuse",
       "es": "Granada rastreadora",
       "pt": "Granada rastreadora",
       "pl": "Granat naprowadzany",
@@ -3526,7 +3583,7 @@
     "description": {
       "en": "A homing grenade that targets a single nearby ARC dealing explosive damage on impact.",
       "de": "Eine Zielsuchgranate, die auf einzelne ARC in der Nähe abzielt und beim Aufprall Explosionsschaden verursacht.",
-      "fr": "Une grenade à tête chercheuse qui cible un seul ARC à proximité et inflige des dégâts explosifs à l'impact.",
+      "fr": "Une grenade à tête chercheuse qui cible un ARC à proximité et inflige des dégâts explosifs à l'impact.",
       "es": "Una granada guiada que apunta a un único ARC cercano e inflige daño explosivo al impactar.",
       "pt": "Uma granada guiada que mira num único ARC próximo causando dano explosivo no impacto.",
       "pl": "Granat naprowadzany, który celuje w pojedynczy pobliski ARC, zadając obrażenia wybuchowe przy trafieniu.",
@@ -3662,7 +3719,7 @@
     "name": {
       "en": "Sentinel Firing Core",
       "de": "Wächter-Feuerkern",
-      "fr": "Noyau de tir de sentinelle",
+      "fr": "Noyau de Tir de Sentinelle",
       "es": "Núcleo de disparo de centinela",
       "pt": "Núcleo de disparo de sentinela",
       "pl": "Rdzeń strzelecki strażnika",
@@ -3720,7 +3777,7 @@
     "name": {
       "en": "Shield Recharger",
       "de": "Schildauflader",
-      "fr": "Chargeur de bouclier",
+      "fr": "Chargeur de Bouclier",
       "es": "Cargador de escudos",
       "pt": "Recarregador de escudo",
       "pl": "Ładowarka tarczy",
@@ -3846,7 +3903,7 @@
     "name": {
       "en": "Shotgun Ammo",
       "de": "Schrotflintenmunition",
-      "fr": "Cartouches de pompe",
+      "fr": "Cartouches de Pompe",
       "es": "Munición de escopeta",
       "pt": "Munição de espingarda",
       "pl": "Amunicja do strzelby",
@@ -3905,7 +3962,7 @@
     "name": {
       "en": "Shotgun Choke I",
       "de": "Schrotflintenchoke I",
-      "fr": "Choke de fusil à pompe I",
+      "fr": "Choke de Fusil à Pompe I",
       "es": "Estrangulador de escopeta I",
       "pt": "Afogador de espingarda I",
       "pl": "Dławik strzelby I",
@@ -3982,7 +4039,7 @@
     "name": {
       "en": "Shotgun Choke II",
       "de": "Schrotflintenchoke II",
-      "fr": "Choke de fusil à pompe II",
+      "fr": "Choke de Fusil à Pompe II",
       "es": "Estrangulador de escopeta II",
       "pt": "Afogador de espingarda II",
       "pl": "Dławik do strzelby II",
@@ -4062,7 +4119,7 @@
     "name": {
       "en": "Shotgun Choke III",
       "de": "Schrotflintenchoke III",
-      "fr": "Choke de fusil à pompe III",
+      "fr": "Choke de Fusil à Pompe III",
       "es": "Estrangulador de escopeta III",
       "pt": "Afogador de espingarda III",
       "pl": "Dławik strzelby III",
@@ -4176,7 +4233,7 @@
     "name": {
       "en": "Shotgun Silencer",
       "de": "Schrotflinten-Schalldämpfer",
-      "fr": "Silencieux de fusil à pompe",
+      "fr": "Silencieux de Fusil à Pompe",
       "es": "Silenciador de escopeta",
       "pt": "Silenciador de espingarda",
       "pl": "Tłumik do strzelby",
@@ -4248,7 +4305,7 @@
     "name": {
       "en": "Showstopper",
       "de": "Showstopper",
-      "fr": "Showstopper",
+      "fr": "Soufflante",
       "es": "Aguafiestas",
       "pt": "Showstopper",
       "pl": "Showstopper",
@@ -4367,7 +4424,7 @@
     "name": {
       "en": "Shrapnel Grenade",
       "de": "Schrapnellgranate",
-      "fr": "Grenade à fragmentation",
+      "fr": "Grenade à Éclats",
       "es": "Granada de metralla",
       "pt": "Granada de estilhaços",
       "pl": "Granat odłamkowy",
@@ -4524,7 +4581,7 @@
     "name": {
       "en": "Signal Amplifier",
       "de": "Signalverstärker",
-      "fr": "Amplificateur de signal",
+      "fr": "Amplificateur de Signal",
       "es": "Amplificador de señal",
       "pt": "Amplificador de sinal",
       "pl": "Wzmacniacz sygnału",
@@ -4580,7 +4637,7 @@
     "name": {
       "en": "Silencer I Blueprint",
       "de": "Bauplan: Schalldämpfer I",
-      "fr": "Schéma silencieux I",
+      "fr": "Schéma Silencieux I",
       "es": "Plano de Silenciador I",
       "pt": "Projeto de Silenciador I",
       "pl": "Projekt Tłumika I",
@@ -4701,7 +4758,7 @@
     "name": {
       "en": "Silencer II Blueprint",
       "de": "Bauplan: Schalldämpfer II",
-      "fr": "Schéma silencieux II",
+      "fr": "Schéma Silencieux II",
       "es": "Plano de Silenciador II",
       "pt": "Projeto de Silenciador II",
       "pl": "Projekt Tłumika II",
@@ -4931,7 +4988,7 @@
     "name": {
       "en": "Silver Teaspoon Set",
       "de": "Silberne Teelöffelt",
-      "fr": "Service de cuillères à café en argent",
+      "fr": "Service de Cuillères à Café en Argent",
       "es": "Juego de cucharitas de plata",
       "pt": "Conjunto de colheres de chá de prata",
       "pl": "Zestaw srebrnych łyżeczek",
@@ -4983,7 +5040,7 @@
     "name": {
       "en": "Simple Gun Parts",
       "de": "Einfache Waffenteile",
-      "fr": "Pièces de pistolet simple",
+      "fr": "Pièces de Pistolet Simple",
       "es": "Piezas de arma básica",
       "pt": "Peças de armas simples",
       "pl": "Proste części broni",
@@ -5037,7 +5094,7 @@
     "name": {
       "en": "Smoke Grenade Trap",
       "de": "Laserfalle: Rauch",
-      "fr": "Piège à grenade fumigène",
+      "fr": "Piège à Grenade Fumigène",
       "es": "Trampa de granada de humo",
       "pt": "Armadilha de granada de fumaça",
       "pl": "Pułapka z granatem dymnym",
@@ -5130,7 +5187,7 @@
     "name": {
       "en": "Smoke Grenade",
       "de": "Rauchgranate",
-      "fr": "Grenade fumigène",
+      "fr": "Grenade Fumigène",
       "es": "Granada de humo",
       "pt": "Granada de fumaça",
       "pl": "Granat dymny",
@@ -5228,7 +5285,7 @@
     "name": {
       "en": "Snap Blast Grenade",
       "de": "Snapshot-Granate",
-      "fr": "Grenade à explosion rapide",
+      "fr": "Grenade Adhésive",
       "es": "Granada de ráfaga",
       "pt": "Granada de explosão rápida",
       "pl": "Granat błyskawicznej eksplozji",
@@ -5248,7 +5305,7 @@
     "description": {
       "en": "A grenade that sticks to surfaces, dealing explosive damage after a short delay.",
       "de": "Eine Granate, die an Oberflächen haftet und nach kurzer Verzögerung Explosionsschaden verursacht.",
-      "fr": "Une grenade qui adhère aux surfaces, infligeant des dégâts explosifs après un court délai.",
+      "fr": "Une grenade qui adhère aux surfaces et inflige des dégâts explosifs après un court délai.",
       "es": "Una granada que se adhiere a las superficies, causando daño explosivo tras un breve retraso.",
       "pt": "Uma granada que gruda em superfícies, causando dano explosivo após um breve atraso.",
       "pl": "Granat, który przykleja się do powierzchni, zadając obrażenia wybuchowe po krótkim opóźnieniu.",
@@ -5331,7 +5388,7 @@
     "name": {
       "en": "Snap Hook Blueprint",
       "de": "Bauplan: Karabinerhaken",
-      "fr": "Schéma de Snap Hook",
+      "fr": "Schéma de Mousqueton",
       "es": "Proyecto del mosquetón",
       "pt": "Projeto de Snap Hook",
       "pl": "Projekt Snap Hook",
@@ -5482,7 +5539,7 @@
     "name": {
       "en": "Snitch Scanner",
       "de": "Spitzel-Scanner",
-      "fr": "Scanner de mouchard",
+      "fr": "Scanner de Mouchard",
       "es": "Escáner de delator",
       "pt": "Scanner Snitch",
       "pl": "Skaner Snitch",
@@ -5738,7 +5795,7 @@
     "name": {
       "en": "Speaker Component",
       "de": "Lautsprecher-Komponente",
-      "fr": "Composant de haut-parleur",
+      "fr": "Composant de Haut-Parleur",
       "es": "Componente de altavoz",
       "pt": "Componente de alto-falante",
       "pl": "Komponent głośnika",
@@ -5847,7 +5904,7 @@
     "name": {
       "en": "Spectrum Analyzer",
       "de": "Spektrumanalysator",
-      "fr": "Analyseur de spectre",
+      "fr": "Analyseur de Spectre",
       "es": "Analizador de espectro",
       "pt": "Analisador de espectro",
       "pl": "Analizator spektrum",
@@ -5902,7 +5959,7 @@
     "name": {
       "en": "Spotter Relay",
       "de": "Aufklärer-Relais",
-      "fr": "Relais de Repérage",
+      "fr": "Relais d'Observateur",
       "es": "Repetidor de Vigía",
       "pt": "Relé de Observação",
       "pl": "Przekaźnik Obserwacyjny",
@@ -5957,7 +6014,7 @@
     "name": {
       "en": "Spring Cushion",
       "de": "Sprungfederkissen",
-      "fr": "Coussin à ressorts",
+      "fr": "Coussin à Ressorts",
       "es": "Cojín de Muelles",
       "pt": "Almofada de Molas",
       "pl": "Poduszka Sprężynowa",
@@ -6015,7 +6072,7 @@
     "name": {
       "en": "Stable Stock I",
       "de": "Stabiler Kolben I",
-      "fr": "Crosse stable I",
+      "fr": "Crosse Stable I",
       "es": "Culata estable I",
       "pt": "Coronha estável I",
       "pl": "Stabilna kolba I",
@@ -6126,7 +6183,7 @@
     "name": {
       "en": "Stable Stock II",
       "de": "Stabiler Kolben II",
-      "fr": "Crosse stable II",
+      "fr": "Crosse Stable II",
       "es": "Culata estable II",
       "pt": "Coronha estável II",
       "pl": "Stabilna kolba II",
@@ -6251,7 +6308,7 @@
     "name": {
       "en": "Stable Stock III",
       "de": "Stabiler Kolben III",
-      "fr": "Crosse stable III",
+      "fr": "Crosse Stable III",
       "es": "Culata estable III",
       "pt": "Coronha estável III",
       "pl": "Stabilna kolba III",
@@ -6438,7 +6495,7 @@
     "name": {
       "en": "Steel Spring",
       "de": "Stahlfeder",
-      "fr": "Ressort en acier",
+      "fr": "Ressort en Acier",
       "es": "Resorte de acero",
       "pt": "Mola de aço",
       "pl": "Stalowa sprężyna",
@@ -6738,7 +6795,7 @@
     "name": {
       "en": "Sterilized Bandage",
       "de": "Steriler Verband",
-      "fr": "Bandage stérilisé",
+      "fr": "Bandage Stérilisé",
       "es": "Venda esterilizada",
       "pt": "Bandagem esterilizada",
       "pl": "Sterylny bandaż",
@@ -7660,7 +7717,7 @@
     "name": {
       "en": "Surge Shield Recharger",
       "de": "Sturm-Schildauflader",
-      "fr": "Rechargeur de bouclier d'impulsion",
+      "fr": "Chargeur de Bouclier d'Impulsion",
       "es": "Cargador de escudos de sobrecarga",
       "pt": "Recarregador de escudo de impulso",
       "pl": "Ładowarka tarczy impulsowej",
@@ -7820,7 +7877,7 @@
     "name": {
       "en": "Synthesized Fuel",
       "de": "Synthetischer Treibstoff",
-      "fr": "Combustible synthétisé",
+      "fr": "Combustible Synthétisé",
       "es": "Combustible sintetizado",
       "pt": "Combustível sintetizado",
       "pl": "Syntetyczne paliwo",
@@ -8344,123 +8401,5 @@
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing_blueprint.png",
     "rarity": "Legendary",
     "updatedAt": "11/11/2025"
-  },
-  {
-    "id": "tactical_mk3_healing",
-    "name": {
-      "en": "Tactical Mk. 3 (Healing)",
-      "de": "Taktisch-Marke 3 (Heilung)",
-      "fr": "Tactique 3 (soins)",
-      "es": "Táctico Ver. 3 (Curación)",
-      "pt": "Tático Mk. 3 (Cura)",
-      "pl": "Taktyczny Mk. 3 (Leczenie)",
-      "no": "Taktisk Mk. 3 (Helbredelse)",
-      "da": "Taktisk Mk. 3 (Helbredelse)",
-      "it": "Tattico Mk. 3 (Guarigione)",
-      "ru": "Стратегия 3 (Лечение)",
-      "ja": "戦術MK3 (回復)",
-      "zh-TW": "戰術型 Mk. 3 (治療)",
-      "uk": "Тактичний Mk. 3 (Лікування)",
-      "zh-CN": "战术型 Mk. 3 (治疗)",
-      "kr": "전술형 Mk. 3 (치유)",
-      "tr": "Taktik Mk. 3 (İyileştirme)",
-      "hr": "Taktički Mk. 3 (Liječenje)",
-      "sr": "Taktički Mk. 3 (Lečenje)"
-    },
-    "description": {
-      "en": "A healing-focused augment which adds extra slots for healing items. When revived from being downed, releases a healing cloud that restores 20 health over 10 seconds. Has a 30-second cooldown.",
-      "de": "Ein heilungsorientiertes Aufment, das zusätzliche Plätze für heilende Gegenstände hinzufügt. Wenn du entkräftet bist und wiederbelebt wirst, wird eine Heilungswolke ausgelöst, die über 10 Sekunden 20 Gesundheit wiederherstellt. Hat eine Abklingzeit von 30 Sekunden.",
-      "fr": "Une amélioration axée sur les soins qui ajoute des emplacements supplémentaires pour les objets de soin. Lors de la réanimation, libère un nuage de soin qui restaure 20 points de vie sur 10 secondes. A un temps de recharge de 30 secondes.",
-      "es": "Un aumento centrado en la curación que añade ranuras adicionales para objetos de curación. Al ser reanimado, libera una nube curativa que restaura 20 de salud durante 10 segundos. Tiene un tiempo de reutilización de 30 segundos.",
-      "pt": "Um aumento focado em cura que adiciona espaços extras para itens de cura. Ao ser reanimado, libera uma nuvem curativa que restaura 20 de vida ao longo de 10 segundos. Tem um tempo de recarga de 30 segundos.",
-      "pl": "Augmentacja skupiona na leczeniu, która dodaje dodatkowe sloty na przedmioty lecznicze. Po podniesieniu z ziemi uwalnia chmurę leczniczą, która przywraca 20 zdrowia przez 10 sekund. Ma 30-sekundowy czas odnowienia.",
-      "no": "En helbredelsesrettet forsterkning som legger til ekstra plasser for helbredelsesgjenstander. Når gjenopplivet fra å være nede, frigjør en helbredende sky som gjenoppretter 20 helse over 10 sekunder. Har en 30-sekunders nedkjølingstid.",
-      "da": "En helbredelsesrettet forstærkning som tilføjer ekstra pladser til helbredelsesitems. Når genoplivet fra at være nede, frigiver en helbredende sky der gendanner 20 helbred over 10 sekunder. Har en 30-sekunders afkølingstid.",
-      "it": "Un potenziamento incentrato sulla guarigione che aggiunge slot extra per oggetti curativi. Quando rianimato dopo essere stato abbattuto, rilascia una nuvola curativa che ripristina 20 punti salute in 10 secondi. Ha un tempo di ricarica di 30 secondi.",
-      "ru": "Усиление, ориентированное на лечение, добавляющее дополнительные слоты для лечебных предметов. При поднятии из состояния нокдауна выпускает лечебное облако, восстанавливающее 20 здоровья за 10 секунд. Перезарядка 30 секунд.",
-      "ja": "治療に特化した強化装備で、治療アイテム用の追加スロットを提供。ダウン状態から復活すると、10秒間で20の体力を回復する治療クラウドを放出。クールダウン30秒。",
-      "zh-TW": "專注於治療的強化裝備，增加治療物品欄位。從倒地狀態復活時，釋放治療雲霧，在10秒內恢復20點生命值。冷卻時間30秒。",
-      "uk": "Посилення, орієнтоване на лікування, що додає додаткові слоти для лікувальних предметів. При підйомі зі стану нокдауну випускає лікувальну хмару, що відновлює 20 здоров'я за 10 секунд. Перезарядка 30 секунд.",
-      "zh-CN": "专注于治疗的强化装备，增加治疗物品栏位。从倒地状态复活时，释放治疗云雾，在10秒内恢复20点生命值。冷却时间30秒。",
-      "kr": "치유에 특화된 증강 장비로 치유 아이템 슬롯을 추가합니다. 다운 상태에서 소생하면 10초에 걸쳐 20의 체력을 회복하는 치유 구름을 방출합니다. 재사용 대기시간 30초.",
-      "tr": "İyileştirme öğeleri için ekstra yuva ekleyen iyileştirme odaklı bir güçlendirme. Yere düşmüş haldeyken canlandırıldığında, 10 saniye boyunca 20 can yenileyen bir iyileştirme bulutu salar. 30 saniyelik bekleme süresi vardır.",
-      "hr": "Nadogradnja fokusirana na liječenje koja dodaje dodatne slotove za predmete liječenja. Kada se oživite nakon obaranja, oslobađa oblak liječenja koji vraća 20 zdravlja tijekom 10 sekundi. Ima vrijeme ponovnog punjenja od 30 sekundi.",
-      "sr": "Nadogradnja fokusirana na lečenje koja dodaje dodatne slotove za predmete lečenja. Kada se oživite nakon obaranja, oslobađa oblak lečenja koji vraća 20 zdravlja tokom 10 sekundi. Ima vreme ponovnog punjenja od 30 sekundi."
-    },
-    "type": "Augment",
-    "rarity": "Epic",
-    "recyclesInto": {
-      "advanced_electrical_components": 1,
-      "processor": 1
-    },
-    "effects": {
-      "Durability": {
-        "en": "Durability",
-        "de": "Haltbarkeit",
-        "fr": "Durabilité",
-        "es": "Durabilidad",
-        "pt": "Durabilidade",
-        "pl": "Wytrzymałość",
-        "no": "Holdbarhet",
-        "da": "Holdbarhed",
-        "it": "Durabilità",
-        "ru": "Прочность",
-        "ja": "耐久性",
-        "zh-TW": "耐久度",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "kr": "내구도",
-        "tr": "Dayanıklılık",
-        "hr": "Izdržljivost",
-        "sr": "Izdržljivost",
-        "value": "100/100"
-      },
-      "Max Loadout Weight": {
-        "en": "Max Loadout Weight",
-        "de": "Max. Loadout-Gewicht",
-        "fr": "Poids max. de l'équipement",
-        "es": "Peso máximo del equipamiento",
-        "pt": "Peso máximo do equipamento",
-        "pl": "Maks. waga ekwipunku",
-        "no": "Maks utstyrsvekt",
-        "da": "Maks. udstyrsvægt",
-        "it": "Peso massimo equipaggiamento",
-        "ru": "Макс. вес снаряжения",
-        "ja": "最大装備重量",
-        "zh-TW": "最大裝備重量",
-        "uk": "Макс. вага спорядження",
-        "zh-CN": "最大装备重量",
-        "kr": "최대 장비 무게",
-        "tr": "Maks. Donanım Ağırlığı",
-        "hr": "Maks. Težina Opreme",
-        "sr": "Maks. Težina Opreme",
-        "value": 55
-      },
-      "Shield Compatibility": {
-        "en": "Shield Compatibility",
-        "de": "Schildkompatibilität",
-        "fr": "Compatibilité bouclier",
-        "es": "Compatibilidad con escudo",
-        "pt": "Compatibilidade com escudo",
-        "pl": "Kompatybilność z tarczą",
-        "no": "Skjoldkompatibilitet",
-        "da": "Skjoldkompatibilitet",
-        "it": "Compatibilità scudo",
-        "ru": "Совместимость со щитом",
-        "ja": "シールド互換性",
-        "zh-TW": "護盾相容性",
-        "uk": "Сумісність зі щитом",
-        "zh-CN": "护盾兼容性",
-        "kr": "실드 호환성",
-        "tr": "Kalkan Uyumluluğu",
-        "hr": "Kompatibilnost Štita",
-        "sr": "Kompatibilnost Štita",
-        "value": "Light, Medium"
-      }
-    },
-    "weightKg": 4,
-    "value": 5000,
-    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-    "updatedAt": "11/05/2025"
   }
 ]

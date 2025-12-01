@@ -1,10 +1,128 @@
 [
   {
+    "id": "tactical_mk3_healing",
+    "name": {
+      "en": "Tactical Mk. 3 (Healing)",
+      "de": "Taktisch-Marke 3 (Heilung)",
+      "fr": "Tactique 3 (soins)",
+      "es": "Táctico Ver. 3 (Curación)",
+      "pt": "Tático Mk. 3 (Cura)",
+      "pl": "Taktyczny Mk. 3 (Leczenie)",
+      "no": "Taktisk Mk. 3 (Helbredelse)",
+      "da": "Taktisk Mk. 3 (Helbredelse)",
+      "it": "Tattico Mk. 3 (Guarigione)",
+      "ru": "Стратегия 3 (Лечение)",
+      "ja": "戦術MK3 (回復)",
+      "zh-TW": "戰術型 Mk. 3 (治療)",
+      "uk": "Тактичний Mk. 3 (Лікування)",
+      "zh-CN": "战术型 Mk. 3 (治疗)",
+      "kr": "전술형 Mk. 3 (치유)",
+      "tr": "Taktik Mk. 3 (İyileştirme)",
+      "hr": "Taktički Mk. 3 (Liječenje)",
+      "sr": "Taktički Mk. 3 (Lečenje)"
+    },
+    "description": {
+      "en": "A healing-focused augment which adds extra slots for healing items. When revived from being downed, releases a healing cloud that restores 20 health over 10 seconds. Has a 30-second cooldown.",
+      "de": "Ein heilungsorientiertes Aufment, das zusätzliche Plätze für heilende Gegenstände hinzufügt. Wenn du entkräftet bist und wiederbelebt wirst, wird eine Heilungswolke ausgelöst, die über 10 Sekunden 20 Gesundheit wiederherstellt. Hat eine Abklingzeit von 30 Sekunden.",
+      "fr": "Une amélioration axée sur les soins qui ajoute des emplacements supplémentaires pour les objets de soin. Lors de la réanimation, libère un nuage de soin qui restaure 20 points de vie sur 10 secondes. A un temps de recharge de 30 secondes.",
+      "es": "Un aumento centrado en la curación que añade ranuras adicionales para objetos de curación. Al ser reanimado, libera una nube curativa que restaura 20 de salud durante 10 segundos. Tiene un tiempo de reutilización de 30 segundos.",
+      "pt": "Um aumento focado em cura que adiciona espaços extras para itens de cura. Ao ser reanimado, libera uma nuvem curativa que restaura 20 de vida ao longo de 10 segundos. Tem um tempo de recarga de 30 segundos.",
+      "pl": "Augmentacja skupiona na leczeniu, która dodaje dodatkowe sloty na przedmioty lecznicze. Po podniesieniu z ziemi uwalnia chmurę leczniczą, która przywraca 20 zdrowia przez 10 sekund. Ma 30-sekundowy czas odnowienia.",
+      "no": "En helbredelsesrettet forsterkning som legger til ekstra plasser for helbredelsesgjenstander. Når gjenopplivet fra å være nede, frigjør en helbredende sky som gjenoppretter 20 helse over 10 sekunder. Har en 30-sekunders nedkjølingstid.",
+      "da": "En helbredelsesrettet forstærkning som tilføjer ekstra pladser til helbredelsesitems. Når genoplivet fra at være nede, frigiver en helbredende sky der gendanner 20 helbred over 10 sekunder. Har en 30-sekunders afkølingstid.",
+      "it": "Un potenziamento incentrato sulla guarigione che aggiunge slot extra per oggetti curativi. Quando rianimato dopo essere stato abbattuto, rilascia una nuvola curativa che ripristina 20 punti salute in 10 secondi. Ha un tempo di ricarica di 30 secondi.",
+      "ru": "Усиление, ориентированное на лечение, добавляющее дополнительные слоты для лечебных предметов. При поднятии из состояния нокдауна выпускает лечебное облако, восстанавливающее 20 здоровья за 10 секунд. Перезарядка 30 секунд.",
+      "ja": "治療に特化した強化装備で、治療アイテム用の追加スロットを提供。ダウン状態から復活すると、10秒間で20の体力を回復する治療クラウドを放出。クールダウン30秒。",
+      "zh-TW": "專注於治療的強化裝備，增加治療物品欄位。從倒地狀態復活時，釋放治療雲霧，在10秒內恢復20點生命值。冷卻時間30秒。",
+      "uk": "Посилення, орієнтоване на лікування, що додає додаткові слоти для лікувальних предметів. При підйомі зі стану нокдауну випускає лікувальну хмару, що відновлює 20 здоров'я за 10 секунд. Перезарядка 30 секунд.",
+      "zh-CN": "专注于治疗的强化装备，增加治疗物品栏位。从倒地状态复活时，释放治疗云雾，在10秒内恢复20点生命值。冷却时间30秒。",
+      "kr": "치유에 특화된 증강 장비로 치유 아이템 슬롯을 추가합니다. 다운 상태에서 소생하면 10초에 걸쳐 20의 체력을 회복하는 치유 구름을 방출합니다. 재사용 대기시간 30초.",
+      "tr": "İyileştirme öğeleri için ekstra yuva ekleyen iyileştirme odaklı bir güçlendirme. Yere düşmüş haldeyken canlandırıldığında, 10 saniye boyunca 20 can yenileyen bir iyileştirme bulutu salar. 30 saniyelik bekleme süresi vardır.",
+      "hr": "Nadogradnja fokusirana na liječenje koja dodaje dodatne slotove za predmete liječenja. Kada se oživite nakon obaranja, oslobađa oblak liječenja koji vraća 20 zdravlja tijekom 10 sekundi. Ima vrijeme ponovnog punjenja od 30 sekundi.",
+      "sr": "Nadogradnja fokusirana na lečenje koja dodaje dodatne slotove za predmete lečenja. Kada se oživite nakon obaranja, oslobađa oblak lečenja koji vraća 20 zdravlja tokom 10 sekundi. Ima vreme ponovnog punjenja od 30 sekundi."
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "effects": {
+      "Durability": {
+        "en": "Durability",
+        "de": "Haltbarkeit",
+        "fr": "Durabilité",
+        "es": "Durabilidad",
+        "pt": "Durabilidade",
+        "pl": "Wytrzymałość",
+        "no": "Holdbarhet",
+        "da": "Holdbarhed",
+        "it": "Durabilità",
+        "ru": "Прочность",
+        "ja": "耐久性",
+        "zh-TW": "耐久度",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "kr": "내구도",
+        "tr": "Dayanıklılık",
+        "hr": "Izdržljivost",
+        "sr": "Izdržljivost",
+        "value": "100/100"
+      },
+      "Max Loadout Weight": {
+        "en": "Max Loadout Weight",
+        "de": "Max. Loadout-Gewicht",
+        "fr": "Poids max. de l'équipement",
+        "es": "Peso máximo del equipamiento",
+        "pt": "Peso máximo do equipamento",
+        "pl": "Maks. waga ekwipunku",
+        "no": "Maks utstyrsvekt",
+        "da": "Maks. udstyrsvægt",
+        "it": "Peso massimo equipaggiamento",
+        "ru": "Макс. вес снаряжения",
+        "ja": "最大装備重量",
+        "zh-TW": "最大裝備重量",
+        "uk": "Макс. вага спорядження",
+        "zh-CN": "最大装备重量",
+        "kr": "최대 장비 무게",
+        "tr": "Maks. Donanım Ağırlığı",
+        "hr": "Maks. Težina Opreme",
+        "sr": "Maks. Težina Opreme",
+        "value": 55
+      },
+      "Shield Compatibility": {
+        "en": "Shield Compatibility",
+        "de": "Schildkompatibilität",
+        "fr": "Compatibilité bouclier",
+        "es": "Compatibilidad con escudo",
+        "pt": "Compatibilidade com escudo",
+        "pl": "Kompatybilność z tarczą",
+        "no": "Skjoldkompatibilitet",
+        "da": "Skjoldkompatibilitet",
+        "it": "Compatibilità scudo",
+        "ru": "Совместимость со щитом",
+        "ja": "シールド互換性",
+        "zh-TW": "護盾相容性",
+        "uk": "Сумісність зі щитом",
+        "zh-CN": "护盾兼容性",
+        "kr": "실드 호환성",
+        "tr": "Kalkan Uyumluluğu",
+        "hr": "Kompatibilnost Štita",
+        "sr": "Kompatibilnost Štita",
+        "value": "Light, Medium"
+      }
+    },
+    "weightKg": 4,
+    "value": 5000,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
+    "updatedAt": "11/05/2025"
+  },
+  {
     "id": "tagging_grenade",
     "name": {
       "en": "Tagging Grenade",
       "de": "Markierungsgranate",
-      "fr": "Grenade de marquage",
+      "fr": "Grenade de Marquage",
       "es": "Granada de marcaje",
       "pt": "Granada marcadora",
       "pl": "Granat znacznikowy",
@@ -218,7 +336,7 @@
     "name": {
       "en": "Telemetry Transceiver",
       "de": "Telemetrie-Empfänger",
-      "fr": "Émetteur-récepteur de télémétrie",
+      "fr": "Émetteur-récepteur de Télémétrie",
       "es": "Transceptor de telemetría",
       "pt": "Transceptor de telemetria",
       "pl": "Nadajnik-odbiornik telemetryczny",
@@ -437,7 +555,7 @@
     "isWeapon": true
   },
   {
-    "id": "temptest_ii",
+    "id": "tempest_ii",
     "name": {
       "en": "Tempest II",
       "de": "Tempest II",
@@ -645,7 +763,7 @@
     "isWeapon": true
   },
   {
-    "id": "temptest_iii",
+    "id": "tempest_iii",
     "name": {
       "en": "Tempest III",
       "de": "Tempest III",
@@ -853,7 +971,7 @@
     "isWeapon": true
   },
   {
-    "id": "temptest_iv",
+    "id": "tempest_iv",
     "name": {
       "en": "Tempest IV",
       "de": "Tempest IV",
@@ -1233,7 +1351,7 @@
     "name": {
       "en": "Torn Blanket",
       "de": "Zerrissene Decke",
-      "fr": "Couverture déchirée",
+      "fr": "Couverture Déchirée",
       "es": "Manta rasgada",
       "pt": "Cobertor rasgado",
       "pl": "Podarta kołdra",
@@ -1287,7 +1405,7 @@
     "name": {
       "en": "Torn Book",
       "de": "Zerrissenes Buch",
-      "fr": "Livre déchiré",
+      "fr": "Livre Déchiré",
       "es": "Libro rasgado",
       "pt": "Livro rasgado",
       "pl": "Rozdarta książka",
@@ -2210,7 +2328,7 @@
     "name": {
       "en": "Trigger Nade Blueprint",
       "de": "Bauplan: Abzuggranate",
-      "fr": "Schéma de grenade à déclenchement",
+      "fr": "Schéma de Grenade à Déclenchement",
       "es": "Plano de Granada de gatillo",
       "pt": "Projeto de granada de ativação",
       "pl": "Projekt granatu wyzwalającego",
@@ -2417,7 +2535,7 @@
     "name": {
       "en": "Unusable Weapon",
       "de": "Unbrauchbare Waffe",
-      "fr": "Arme inutilisable",
+      "fr": "Arme Inutilisable",
       "es": "Arma inutilizable",
       "pt": "Arma inutilizável",
       "pl": "Niezdatna broń",
@@ -3527,7 +3645,7 @@
     "name": {
       "en": "Vertical Grip II",
       "de": "Vertikaler Griff II",
-      "fr": "Poignée verticale II",
+      "fr": "Poignée Verticale II",
       "es": "Empuñadura vertical II",
       "pt": "Punho Vertical II",
       "pl": "Chwyt pionowy II",
@@ -3610,7 +3728,7 @@
     "name": {
       "en": "Vertical Grip III Blueprint",
       "de": "Bauplan: Vertikaler Griff III",
-      "fr": "Schéma de poignée verticale III",
+      "fr": "Schéma de Poignée Verticale III",
       "es": "Plano de Empuñadura Vertical III",
       "pt": "Projeto de Empunhadura Vertical III",
       "pl": "Projekt Chwytu Pionowego III",
@@ -3659,7 +3777,7 @@
     "name": {
       "en": "Vertical Grip III",
       "de": "Vertikaler Griff III",
-      "fr": "Poignée verticale III",
+      "fr": "Poignée Verticale III",
       "es": "Empuñadura Vertical III",
       "pt": "Empunhadura Vertical III",
       "pl": "Chwyt Pionowy III",
@@ -3757,7 +3875,7 @@
     "name": {
       "en": "Very Comfortable Pillow",
       "de": "Ultragemütliches Kissen",
-      "fr": "Oreiller très confortable",
+      "fr": "Oreiller très Confortable",
       "es": "Almohada muy cómoda",
       "pt": "Travesseiro muito confortável",
       "pl": "Bardzo wygodna poduszka",
@@ -3777,7 +3895,7 @@
     "description": {
       "en": "The envy of every Raider. Like sleeping on an especially ergonomic cloud.",
       "de": "Macht jeden Raider neidisch. Darauf schläfst du wie auf einer besonders ergonomischen Wolke.",
-      "fr": "L'envie de tous les Raiders. Comme dormir sur un nuage particulièrement ergonomique.",
+      "fr": "Envié par tous les Raiders. Il donne l'impression de dormir sur un nuage particulièrement ergonomique.",
       "es": "La envidia de todos los saqueadores. Como dormir en una nube especialmente ergonómica.",
       "pt": "A inveja de todos os saqueadores. Como dormir em uma nuvem especialmente ergonômica.",
       "pl": "Zazdrość każdego Najeźdźcy. Jak spanie na szczególnie ergonomicznej chmurze.",
@@ -3960,7 +4078,7 @@
     "name": {
       "en": "Vita Spray Blueprint",
       "de": "Bauplan: Vita-Spray",
-      "fr": "Schéma de spray Vita",
+      "fr": "Schéma de Spray de Vita",
       "es": "Plano de aerosol Vita",
       "pt": "Projeto de spray Vita",
       "pl": "Projekt sprayu Vita",
@@ -4135,7 +4253,7 @@
     "name": {
       "en": "Volcanic Rock",
       "de": "Vulkangestein",
-      "fr": "Roche volcanique",
+      "fr": "Roche Volcanique",
       "es": "Roca volcánica",
       "pt": "Rocha vulcânica",
       "pl": "Skała wulkaniczna",
@@ -4210,7 +4328,7 @@
     "name": {
       "en": "Voltage Converter",
       "de": "Spannungswandler",
-      "fr": "Transformateur de tension",
+      "fr": "Transformateur de Tension",
       "es": "Convertidor de voltaje",
       "pt": "Conversor de voltagem",
       "pl": "Przetwornica napięcia",
@@ -5127,7 +5245,7 @@
     "name": {
       "en": "Wasp Driver",
       "de": "Wespentreiber",
-      "fr": "Pilote de guêpe",
+      "fr": "Pilote de Guêpe",
       "es": "Controlador de Avispa",
       "pt": "Propulsor de vespa",
       "pl": "Napęd osy",
@@ -5230,7 +5348,7 @@
     "name": {
       "en": "Water Filter",
       "de": "Wasserfilter",
-      "fr": "Filtre à eau",
+      "fr": "Filtre à Eau",
       "es": "Filtro de agua",
       "pt": "Filtro de água",
       "pl": "Filtr do wody",
@@ -5288,7 +5406,7 @@
     "name": {
       "en": "Water Pump",
       "de": "Wasserpumpe",
-      "fr": "Pompe à eau",
+      "fr": "Pompe à Eau",
       "es": "Bomba de agua",
       "pt": "Bomba d'água",
       "pl": "Pompa wodna",
@@ -5404,7 +5522,7 @@
     "name": {
       "en": "Wolfpack Blueprint",
       "de": "Bauplan: Wolfpack",
-      "fr": "Schéma Wolfpack",
+      "fr": "Schéma de Meute",
       "es": "Plano Wolfpack",
       "pt": "Projeto Wolfpack",
       "pl": "Projekt Wolfpack",
@@ -5556,7 +5674,7 @@
     "name": {
       "en": "Yellow Light Stick Blueprint",
       "de": "Bauplan: Gelber Leuchtstab",
-      "fr": "Bâton lumineux jaune",
+      "fr": "Schéma de Bâton Lumineux Jaune",
       "es": "Barra de luz amarilla",
       "pt": "Bastão de luz amarelo",
       "pl": "Żółty patyk świetlny",
@@ -5606,7 +5724,7 @@
     "name": {
       "en": "Yellow Light Stick",
       "de": "Gelber Leuchtstab",
-      "fr": "Bâton lumineux jaune",
+      "fr": "Bâton Lumineux Jaune",
       "es": "Barra de luz amarilla",
       "pt": "Bastão de luz amarelo",
       "pl": "Żółty patyk świetlny",

@@ -312,7 +312,7 @@
   },
   {
     "id": "ss11",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "A First Foothold",
       "de": "Der erste Schritt",
@@ -333,6 +333,9 @@
       "sr": "Prvo Uporište",
       "hr": "Prvo Uporište"
     },
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "description": {
       "en": "We've only just finished expanding the Tube network towards the Blue Gate, and we're still laboring away at the rest. My crew's been building new infrastructure around the valley to safeguard our Raiders, but the constant ARC threat has made it difficult to get anything done.",
@@ -467,12 +470,12 @@
   },
   {
     "id": "ss10k",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "A Lay of the Land",
       "de": "Eine Lagebeschreibung",
       "fr": "Un aperçu du terrain",
-      "es": "Un reconocimiento del terreno",
+      "es": "Reconociendo el terreno",
       "pt": "Um reconhecimento do terreno",
       "pl": "Rozpoznanie terenu",
       "no": "Et overblikk over terrenget",
@@ -488,6 +491,9 @@
       "sr": "Pregled terena",
       "hr": "Pregled terena"
     },
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Shani",
     "videoUrl": "https://youtu.be/pWXjplDChHc",
     "description": {
@@ -720,12 +726,12 @@
   },
   {
     "id": "ss10g",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "A Reveal in Ruins",
       "de": "Eine Enthüllung in Trümmern",
       "fr": "Ruines révélatrices",
-      "es": "Una revelación en ruinas",
+      "es": "Descubrimiento en ruinas",
       "pt": "Uma revelação nas ruínas",
       "pl": "Odkrycie w ruinach",
       "no": "En avsløring i ruiner",
@@ -741,6 +747,9 @@
       "sr": "Otkrivanje u ruševinama",
       "hr": "Otkrivanje u ruševinama"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Lance",
     "description": {
       "en": "I got my hands on a fancy new ESR analyzer; had a whole big reveal planned. One minute it's here, next minute—poof. Please help?",
@@ -824,7 +833,7 @@
   },
   {
     "id": "ss10r",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "A Symbol of Unification",
       "de": "Ein Symbol der Einheit",
@@ -845,6 +854,9 @@
       "sr": "Simbol ujedinjenja",
       "hr": "Simbol ujedinjenja"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "Y'know, back in the day we actually used to have a flag - well, a scrap of cloth more than anything. Still, seeing it meant you knew you had allies nearby, that you were on your own home turf. So, I was thinking...",
@@ -955,7 +967,7 @@
   },
   {
     "id": "ss10x8",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "A Warm Place to Rest",
       "de": "Ein warmer Ort zum Ausruhen",
@@ -976,6 +988,9 @@
       "sr": "Toplo mesto za odmor",
       "hr": "Toplo mjesto za odmor"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Apollo",
     "description": {
       "en": "A customer of mine saw a family taking cover in an old encampment in Buried City. I'll pay anyone who manages to find them and escort them back to safety.",
@@ -1107,7 +1122,7 @@
   },
   {
     "id": "ss10y",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "After Rain Comes",
       "de": "Nach dem Regen kommt",
@@ -1128,6 +1143,9 @@
       "sr": "Posle kiše dolazi",
       "hr": "Nakon kiše dolazi"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Celeste",
     "videoUrl": "https://youtu.be/jP__SkIV-9E",
     "description": {
@@ -1230,7 +1248,7 @@
   },
   {
     "id": "ss10x20",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Armored Transports",
       "de": "Gepanzerte Transporter",
@@ -1251,6 +1269,9 @@
       "sr": "Oklopni Transporti",
       "hr": "Oklopni Transporti"
     },
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "description": {
       "en": "Ever since we expanded the tunnels to the Blue Gate, some rare pieces have started appearing on the black market.\n\nMeanwhile, I'm stuck here peddling battered old Rattlers. If I don't find new supply lines, I'll be left in the dust.",
@@ -1398,6 +1419,12 @@
       "sr": "Ponovo na Vrhu",
       "hr": "Ponovno na Vrhu"
     },
+    "map": [
+      "the_blue_gate",
+      "dam_battlegrounds",
+      "buried_city",
+      "the_spaceport"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "Guess what? Shani asked me to help out with something, and for once, I'm actually glad she did. We're setting up new outposts topside! Or, planning to, at least. Can you believe it?",
@@ -1526,7 +1553,7 @@
   },
   {
     "id": "ss10x12",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Bees!",
       "de": "Bienen!",
@@ -1547,6 +1574,9 @@
       "sr": "Pčele!",
       "hr": "Pčele!"
     },
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "Bees! There are bees still around! While I'm no expert, our greenhouse crew desperately wants some.",
@@ -1641,7 +1671,7 @@
       "en": "Broken Monument",
       "de": "Zerstörtes Monument",
       "fr": "Monument brisé",
-      "es": "Monumento roto",
+      "es": "Monumento destrozado",
       "pt": "Monumento quebrado",
       "pl": "Zrujnowany pomnik",
       "no": "Ødelagt monument",
@@ -1859,7 +1889,7 @@
   },
   {
     "id": "ss10x18",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Building a Library",
       "de": "Eine Bibliothek aufbauen",
@@ -1880,6 +1910,9 @@
       "sr": "Izgradnja biblioteke",
       "hr": "Izgradnja knjižnice"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Apollo",
     "description": {
       "en": "Our library selection has grown pretty stale. Could you head out to Buried City, and find something more for us to read? Make sure you bring something for everyone.",
@@ -2166,7 +2199,7 @@
       "en": "Clearer Skies",
       "de": "Klarer Himmel",
       "fr": "Cieux plus clairs",
-      "es": "Cielos más despejados",
+      "es": "Cielos despejados",
       "pt": "Céus mais claros",
       "pl": "Jaśniejsze niebo",
       "no": "Klarere himmel",
@@ -2255,7 +2288,7 @@
   },
   {
     "id": "12_cold_storage",
-    "updatedAt": "11/20/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Cold Storage",
       "de": "Tiefkühllagerung",
@@ -2276,6 +2309,9 @@
       "sr": "Hladnjača",
       "hr": "Hladnjača"
     },
+    "map": [
+      "stella_montis"
+    ],
     "trader": "Celeste",
     "videoUrl": "https://youtu.be/tc7nK7AmixQ",
     "description": {
@@ -2361,7 +2397,7 @@
   },
   {
     "id": "ss11b2",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Communication Hideout",
       "de": "Kommunikationsversteck",
@@ -2382,7 +2418,9 @@
       "sr": "Komunikaciono skrovište",
       "hr": "Komunikacijsko skrovište"
     },
-    "map": "buried_city",
+    "map": [
+      "buried_city"
+    ],
     "trader": "Shani",
     "description": {
       "en": "We've been losing signals in some areas of Buried City—my guess is that our equipment is acting up. You're quite skilled with repairs, aren't you? Could you check it out?",
@@ -2532,7 +2570,7 @@
   },
   {
     "id": "ss10x16",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Digging Up Dirt",
       "de": "Schmutz ausgraben",
@@ -2553,6 +2591,9 @@
       "sr": "Iskopavanje prljavštine",
       "hr": "Iskopavanje prljavštine"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "We caught a break. One of our scouts saw a member of the Tubes Management make a dead drop inside the Santa Maria Houses in the Buried City. This might be our chance to dig up some dirt on them for a change. You in?",
@@ -2642,7 +2683,7 @@
       "en": "Doctor's Orders",
       "de": "Ärztliche Anweisung",
       "fr": "Consignes du docteur",
-      "es": "Órdenes del doctor",
+      "es": "Receta del doctor",
       "pt": "Ordens do doutor",
       "pl": "Rozkazy doktora",
       "no": "Doktorens ordre",
@@ -2808,7 +2849,7 @@
       "en": "Dormant Barons",
       "de": "Schlafende Barone",
       "fr": "Barons dormants",
-      "es": "Barones inactivos",
+      "es": "Barones durmientes",
       "pt": "Barões adormecidos",
       "pl": "Uśpieni Baronowie",
       "no": "Sovende baroner",
@@ -3006,7 +3047,7 @@
       "en": "Echoes of Victory Ridge",
       "de": "Echos vom Siegeskamm",
       "fr": "Échos de la crête de la victoire",
-      "es": "Ecos de Victory Ridge",
+      "es": "Ecos de la Cordillera Victoriosa",
       "pt": "Ecos de Victory Ridge",
       "pl": "Echa Victory Ridge",
       "no": "Ekko fra Victory Ridge",
@@ -3129,7 +3170,7 @@
   },
   {
     "id": "ss10x13",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Espresso",
       "de": "Espresso",
@@ -3150,6 +3191,9 @@
       "sr": "Espresso",
       "hr": "Espresso"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Apollo",
     "description": {
       "en": "A Raider came into my shop earlier, to trade some grenades for a machine she found in Buried City. She said it makes coffee, but it seems to be missing a few parts. Up for a job?",
@@ -3254,6 +3298,11 @@
       "sr": "Oči na nebu",
       "hr": "Oči na nebu"
     },
+    "map": [
+      "dam_battlegrounds",
+      "the_spaceport",
+      "buried_city"
+    ],
     "trader": "Shani",
     "description": {
       "en": "Requires a zipline to get on top of the tower. Those LiDAR scanners you found work best when put in high locations. I've identified a few good spots around the Rust Belt; hope you're surefooted.",
@@ -3369,7 +3418,7 @@
   },
   {
     "id": "ss10m",
-    "updatedAt": "11/12/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Eyes on the Prize",
       "de": "Die Augen auf den Preis",
@@ -3390,6 +3439,9 @@
       "sr": "Oči na Nagradi",
       "hr": "Oči na Nagradi"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "Everything's been calm around my drop-offs since you helped out, but that doesn't mean it'll stay that way for long. I've set up surveillance at one of my most used spots in Buried City, to prevent future tampering. Only problem is, it needs power to go live.",
@@ -3627,7 +3679,7 @@
   },
   {
     "id": "ss10a",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/25/2025",
     "name": {
       "en": "Greasing Her Palms",
       "de": "Hände gerieben",
@@ -3648,6 +3700,11 @@
       "sr": "Podmazivanje Njenih Dlanova",
       "hr": "Podmazivanje Njezinih Dlanova"
     },
+    "map": [
+      "dam_battlegrounds",
+      "the_spaceport",
+      "buried_city"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "Recently, I've been trying and failing to get Tian Wen to join our community projects. I may have to sweeten the deal. She's been complaining about the quality of salvage found on the market; think we could do her a solid?",
@@ -3844,12 +3901,12 @@
   },
   {
     "id": "12_in_my_image",
-    "updatedAt": "11/14/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "In My Image",
       "de": "Mein Ebenbild",
       "fr": "À mon image",
-      "es": "A mi imagen",
+      "es": "A mi semejanza",
       "pt": "À Minha Imagem",
       "pl": "Na mój obraz",
       "no": "I mitt bilde",
@@ -3865,6 +3922,9 @@
       "sr": "Po Mom Liku",
       "hr": "Po Mom Liku"
     },
+    "map": [
+      "stella_montis"
+    ],
     "trader": "Lance",
     "description": {
       "en": "I just treated one of the first Raiders who visited Stella Montis, and she said that she saw... others. Androids, very much like me.",
@@ -4204,7 +4264,7 @@
       "en": "Keeping the Memory",
       "de": "Die Erinnerung bewahren",
       "fr": "Conservation mémorielle",
-      "es": "Guardando la memoria",
+      "es": "Preservar la memoria",
       "pt": "Guardando a memória",
       "pl": "Zachowanie pamięci",
       "no": "Bevare minnet",
@@ -4495,7 +4555,7 @@
   },
   {
     "id": "ss11b",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Lost in Transmission",
       "de": "Übertragung unterbrochen",
@@ -4516,6 +4576,9 @@
       "sr": "Izgubljeno u prenosu",
       "hr": "Izgubljeno u prijenosu"
     },
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Shani",
     "description": {
       "en": "I have equipment set up at the Spaceport, to monitor ARC's movements. My connection broke down just now — I need you to head to the Control Towers and help me retrieve my logs.",
@@ -4621,7 +4684,7 @@
   },
   {
     "id": "ss10i",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Marked for Death",
       "de": "Zum Tode verurteilt",
@@ -4642,6 +4705,9 @@
       "sr": "Obeležen za Smrt",
       "hr": "Obilježen za Smrt"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "Someone has been lifting supplies from my drop-off point in Buried City. I've set up a trap, but I need someone to check it for me.",
@@ -4853,7 +4919,7 @@
   },
   {
     "id": "ss10f",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/25/2025",
     "name": {
       "en": "Medical Merchandise",
       "de": "Medizinisches Merchandise",
@@ -4874,6 +4940,11 @@
       "sr": "Medicinska Roba",
       "hr": "Medicinska Roba"
     },
+    "map": [
+      "dam_battlegrounds",
+      "the_spaceport",
+      "buried_city"
+    ],
     "trader": "Lance",
     "description": {
       "en": "I've become quite crafty at weaving bandages from Fabric, but to my shame, I haven't quite mastered weaving an x-ray machine or a pulse oximiter.",
@@ -5192,7 +5263,7 @@
       "en": "Our Presence Up There",
       "de": "Unsere Präsenz dort oben",
       "fr": "Retour à la surface",
-      "es": "Nuestra presencia allá arriba",
+      "es": "Afianzando la presencia",
       "pt": "A nossa presença lá em cima",
       "pl": "Nasza obecność tam na górze",
       "no": "Vår tilstedeværelse der oppe",
@@ -5321,7 +5392,7 @@
       "en": "Out of the Shadows",
       "de": "Aus den Schatten",
       "fr": "Hors de l'ombre",
-      "es": "Fuera de las sombras",
+      "es": "Saliendo de las sombras",
       "pt": "Fora das sombras",
       "pl": "Z cienia",
       "no": "Ut av skyggene",
@@ -5537,7 +5608,7 @@
   },
   {
     "id": "ss10x10",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Power Out",
       "de": "Stromausfall",
@@ -5558,6 +5629,9 @@
       "sr": "Nestanak struje",
       "hr": "Nestanak struje"
     },
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "This goes beyond bad luck. Something—or someone—has knocked out some of our electrical substations. The engineer I sent out to fix it hasn't returned, so I need all available Raiders to look into it. That includes you.",
@@ -5689,7 +5763,7 @@
   },
   {
     "id": "ss10x9",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Prescriptions of the Past",
       "de": "Rezepte der Vergangenheit",
@@ -5710,6 +5784,9 @@
       "sr": "Recepti iz prošlosti",
       "hr": "Recepti iz prošlosti"
     },
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Lance",
     "description": {
       "en": "I've been curious about the medical area in the Spaceport for a while now. Something tells me it's got just what I need to become the undeniable champion of this place.",
@@ -6048,7 +6125,7 @@
   },
   {
     "id": "12_snap_and_salvage",
-    "updatedAt": "11/14/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Snap and Salvage",
       "de": "Schnappen und Ausschlachten",
@@ -6069,6 +6146,9 @@
       "sr": "Slikaj i Spasi",
       "hr": "Slikaj i Spasi"
     },
+    "map": [
+      "stella_montis"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "All of Speranza is buzzing about Stella Montis right now, and I admit it's caught my attention. Let the others sort out the whats and hows; I'm interested in the tech inside.",
@@ -6342,7 +6422,7 @@
       "en": "Sparks Fly",
       "de": "Fliegende Funken",
       "fr": "Pluie d'étincelles",
-      "es": "Chispas",
+      "es": "Las chispas vuelan",
       "pt": "Faíscas",
       "pl": "Iskry lecą",
       "no": "Gnister flyr",
@@ -6433,7 +6513,7 @@
   },
   {
     "id": "ss10j",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Straight Record",
       "de": "Gute Aufnahme",
@@ -6454,6 +6534,9 @@
       "sr": "Čist Račun",
       "hr": "Čist Račun"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "Back during the First Wave, my squad and I built a trap out by the Dam. Overloaded a generator, turned it into a makeshift ARC trap. Now I hear Raiders are using it to cut comms and spring ambushes on each other. I need you to end it.",
@@ -6627,7 +6710,7 @@
   },
   {
     "id": "ss10x7",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Switching the Supply",
       "de": "Umstellung der Versorgung",
@@ -6648,6 +6731,9 @@
       "sr": "Promena Snabdevanja",
       "hr": "Promjena Opskrbe"
     },
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "There is a reservoir beneath the Spaceport; if we manage to rout that water here, that should buy us time to deal with the contamination.",
@@ -6827,7 +6913,7 @@
     ],
     "rewardItemIds": [
       {
-        "itemId": "launcher_ammo_blueprint",
+        "itemId": "hullcracker_blueprint",
         "quantity": 1
       }
     ],
@@ -7623,7 +7709,7 @@
   },
   {
     "id": "ss10q",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "11/23/2025",
     "name": {
       "en": "Unexpected Initiative",
       "de": "Unerwartete Initiative",
@@ -7644,6 +7730,9 @@
       "sr": "Neočekivana inicijativa",
       "hr": "Neočekivana inicijativa"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "I'm setting up a greenhouse, to help boost our food production. I'm doing Celeste a solid, alright? That's all. But enough about that. I've got all the details worked out, but I'll need supplies, and I'm not hauling them alone.",
@@ -8193,6 +8282,11 @@
       "sr": "Šta Smo Ostavili",
       "hr": "Što Smo Ostavili"
     },
+    "map": [
+      "dam_battlegrounds",
+      "the_spaceport",
+      "buried_city"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "Celeste told me you're the one who helped her hound me about pitching in more. I'll say this once: I don't appreciate the meddling, and I have my own reasons for refusing. I do, however, appreciate the scrap. Since you're apparently good at tracking it down, I may have a task for you.",
@@ -8305,7 +8399,7 @@
       "en": "With a Trace",
       "de": "Mit einer Spur",
       "fr": "Avec une trace",
-      "es": "Con un rastro",
+      "es": "Buscando un rastro",
       "pt": "Com um rastro",
       "pl": "Ze śladem",
       "no": "Med et spor",
