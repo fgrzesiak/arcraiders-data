@@ -1,5 +1,5 @@
 {
-  "version": "7e438ef42fdbafec0edab1b284a991038d9a9c98",
+  "version": "dd3ca230471427026900a0c724636d5576c9e7ae",
   "items": [
     {
       "id": "adrenaline_shot",
@@ -7729,55 +7729,6 @@
       "updatedAt": "11/24/2025"
     },
     {
-      "id": "burned_arc_circuit",
-      "name": {
-        "en": "Burned Arc Circuit",
-        "de": "Verbrannter Arc-Schaltkreis",
-        "fr": "Circuit Arc Brûlé",
-        "es": "Circuito Arc quemado",
-        "pt": "Circuito Arc queimado",
-        "pl": "Spalony obwód Arc",
-        "no": "Brent Arc-krets",
-        "da": "Brændt Arc-kredsløb",
-        "it": "Circuito Arc bruciato",
-        "ja": "焼損したアークサーキット",
-        "kr": "타버린 아크 회로",
-        "zh-CN": "烧毁的电弧电路",
-        "zh-TW": "燒毀的電弧電路",
-        "ru": "Сгоревшая Arc-схема",
-        "tr": "Yanmış Arc Devresi",
-        "uk": "Згоріла Arc-схема",
-        "sr": "Izgorela Arc struja",
-        "hr": "Izgoreli Arc sklop"
-      },
-      "description": {
-        "en": "Can be recycled into crafting materials.",
-        "de": "Kann zu Handwerksmaterialien recycelt werden.",
-        "fr": "Peut être recyclé en matériaux de fabrication.",
-        "es": "Puede reciclarse en materiales de fabricación.",
-        "pt": "Pode ser reciclado em materiais de fabricação.",
-        "pl": "Można przetworzyć na materiały rzemieślnicze.",
-        "no": "Kan resirkuleres til håndverksmaterialer.",
-        "da": "Kan genbruges til håndværksmaterialer.",
-        "it": "Può essere riciclato in materiali da crafting.",
-        "ja": "クラフト素材にリサイクルできます。",
-        "kr": "제작 재료로 재활용할 수 있습니다.",
-        "zh-CN": "可以回收为制作材料。",
-        "zh-TW": "可以回收為製作材料。",
-        "ru": "Можно переработать в материалы для крафта.",
-        "tr": "İşleme malzemelerine geri dönüştürülebilir.",
-        "uk": "Можна переробити на матеріали для крафту.",
-        "sr": "Može se reciklirati u materijale za izradu.",
-        "hr": "Može se reciklirati u materijale za izradu."
-      },
-      "type": "Recyclable",
-      "rarity": "Uncommon",
-      "weightKg": 1,
-      "foundIn": "ARC",
-      "imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuit.png",
-      "updatedAt": "11/04/2025"
-    },
-    {
       "id": "burned_arc_circuitry",
       "name": {
         "en": "Burned Arc Circuitry",
@@ -10435,57 +10386,6 @@
       "foundIn": "ARC",
       "imageFilename": "https://cdn.arctracker.io/items/damaged_tick_pod.png",
       "updatedAt": "10/30/2025"
-    },
-    {
-      "id": "damaged_wasp_drive",
-      "name": {
-        "en": "Damaged Wasp Drive",
-        "de": "Beschädigter Wespen-Antrieb",
-        "fr": "Pilote de Guêpe Endommagé",
-        "es": "Propulsor de Avispa dañado",
-        "pt": "Propulsor Wasp danificado",
-        "pl": "Uszkodzony napęd Wasp",
-        "no": "Skadet Wasp-drift",
-        "da": "Beskadiget Wasp-drev",
-        "it": "Propulsore Wasp danneggiato",
-        "ja": "破損したワスプドライブ",
-        "kr": "손상된 와스프 드라이브",
-        "zh-CN": "损坏的黄蜂驱动器",
-        "zh-TW": "損壞的黃蜂驅動器",
-        "ru": "Поврежденный привод Wasp",
-        "tr": "Hasarlı Wasp Sürücüsü",
-        "uk": "Пошкоджений привід Wasp",
-        "sr": "Oštećeni Wasp pogon",
-        "hr": "Oštećeni Wasp pogon"
-      },
-      "description": {
-        "en": "Can be recycled into crafting materials.",
-        "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-        "fr": "Peut être recyclé en matériaux de fabrication.",
-        "es": "Puede reciclarse en materiales de fabricación.",
-        "pt": "Pode ser reciclado em materiais de fabricação.",
-        "pl": "Można przetworzyć na materiały rzemieślnicze.",
-        "no": "Kan resirkuleres til håndverksmateriell.",
-        "da": "Kan genbruges til håndværksmaterialer.",
-        "it": "Può essere riciclato in materiali da crafting.",
-        "ja": "クラフト素材にリサイクルできます。",
-        "kr": "제작 재료로 재활용할 수 있습니다.",
-        "zh-CN": "可回收为制作材料。",
-        "zh-TW": "可回收為製作材料。",
-        "ru": "Можно переработать в материалы для крафта.",
-        "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-        "uk": "Можна переробити на матеріали для крафту.",
-        "sr": "Može se reciklirati u materijale za izradu.",
-        "hr": "Može se reciklirati u materijale za izradu."
-      },
-      "type": "Recyclable",
-      "rarity": "Common",
-      "value": 270,
-      "weightKg": 0.25,
-      "stackSize": 3,
-      "foundIn": "ARC",
-      "imageFilename": "https://cdn.arctracker.io/items/damaged_wasp_drive.png",
-      "updatedAt": "11/04/2025"
     },
     {
       "id": "damaged_wasp_driver",
@@ -35076,7 +34976,7 @@
       },
       "weightKg": 5,
       "value": 5000,
-      "imageFilename": "https://cdn.arctracker.io/items/tactical_iii_defensive.png",
+      "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
       "updatedAt": "11/05/2025"
     },
     {
@@ -39149,8 +39049,8 @@
       "stationLevelRequired": 3,
       "effects": {
         "Healing": {
-          "en": "Heilen",
-          "de": "Heilung",
+          "en": "Healing",
+          "de": "Heilen",
           "fr": "Soins",
           "es": "Curación",
           "pt": "Cura",
