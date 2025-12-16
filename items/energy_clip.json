@@ -15,7 +15,7 @@
     "zh-TW": "能量夾",
     "uk": "Енергетичний затискач",
     "zh-CN": "能量夹",
-    "kr": "에너지 클립",
+    "kr": "에너지 탄창",
     "tr": "Enerji Klipsi",
     "hr": "Energetska kopča",
     "sr": "Енергетска копча"
@@ -35,7 +35,7 @@
     "zh-TW": "相容武器：Equalizer、Jupiter",
     "uk": "Сумісно з: Equalizer, Jupiter",
     "zh-CN": "兼容武器：Equalizer、Jupiter",
-    "kr": "호환 무기: Equalizer, Jupiter",
+    "kr": "호환 무기: 이퀄라이저, 주피터",
     "tr": "Uyumlu silahlar: Equalizer, Jupiter",
     "hr": "Kompatibilno s: Equalizer, Jupiter",
     "sr": "Kompatibilno sa: Equalizer, Jupiter"
@@ -46,14 +46,15 @@
     "Jupiter"
   ],
   "imageFilename": "https://cdn.arctracker.io/items/energy_clip.png",
-  "value": 5,
+  "value": 1000,
   "weightKg": 0.3,
   "stackSize": 5,
   "rarity": "Rare",
-  "updatedAt": "11/11/2025",
+  "updatedAt": "12/07/2025",
   "recipe": {
     "advanced_arc_powercell": 1,
     "battery": 2
   },
-  "craftBench": "workbench"
+  "craftBench": "workbench",
+  "craftQuantity": 5
 }
