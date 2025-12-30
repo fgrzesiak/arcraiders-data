@@ -1,6 +1,57 @@
 {
-  "version": "12dc5da06fd07251525746a367b674bb09dcac69",
+  "version": "730f8b9c6168a484a7a08ab86344a0e4f48dab8b",
   "items": [
+    {
+      "id": "acoustic_guitar",
+      "name": {
+        "en": "Acoustic Guitar",
+        "de": "Akustikgitarre",
+        "fr": "Guitare acoustique",
+        "es": "Guitarra acústica",
+        "pt": "Violão",
+        "pl": "Gitara akustyczna",
+        "no": "Akustisk gitar",
+        "da": "Akustisk guitar",
+        "it": "Chitarra acustica",
+        "ru": "Акустическая гитара",
+        "ja": "アコースティックギター",
+        "zh-TW": "木吉他",
+        "uk": "Акустична гітара",
+        "zh-CN": "木吉他",
+        "kr": "어쿠스틱 기타",
+        "tr": "Akustik Gitar",
+        "hr": "Akustična gitara",
+        "sr": "Akustična gitara"
+      },
+      "description": {
+        "en": "A playable acoustic guitar used to attract ARC's attention, and impress other Raiders.",
+        "de": "Eine spielbare Akustikgitarre, um ARCs Aufmerksamkeit zu erregen und andere Raider zu beeindrucken.",
+        "fr": "Une guitare acoustique jouable, utilisée pour attirer l'attention d'ARC et impressionner les autres Raiders.",
+        "es": "Una guitarra acústica tocable, usada para atraer la atención de ARC e impresionar a otros Raiders.",
+        "pt": "Um violão tocável usado para atrair a atenção da ARC e impressionar outros Raiders.",
+        "pl": "Grywalna gitara akustyczna, używana do przyciągania uwagi ARC i imponowania innym Raiderom.",
+        "no": "En spillbar akustisk gitar som brukes til å tiltrekke ARCs oppmerksomhet og imponere andre raiders.",
+        "da": "En spilbar akustisk guitar, der bruges til at tiltrække ARCs opmærksomhed og imponere andre raiders.",
+        "it": "Una chitarra acustica suonabile, usata per attirare l'attenzione di ARC e impressionare gli altri Raiders.",
+        "ru": "Играбельная акустическая гитара, чтобы привлечь внимание ARC и впечатлить других рейдеров.",
+        "ja": "ARCの注意を引き、ほかのレイダーに自慢できる、演奏可能なアコースティックギター。",
+        "zh-TW": "一把可彈奏的木吉他，用來吸引ARC的注意並讓其他掠奪者刮目相看。",
+        "uk": "Гральна акустична гітара, щоб привернути увагу ARC і вразити інших рейдерів.",
+        "zh-CN": "一把可弹奏的木吉他，用来吸引ARC的注意并让其他掠夺者刮目相看。",
+        "kr": "ARC의 관심을 끌고 다른 레이더들에게 깊은 인상을 남기기 위해 연주할 수 있는 어쿠스틱 기타입니다.",
+        "tr": "ARC'nin dikkatini çekmek ve diğer Raider'ları etkilemek için kullanılan, çalınabilir bir akustik gitar.",
+        "hr": "Akustična gitara na kojoj se može svirati, koristi se za privlačenje ARC-ove pažnje i impresioniranje drugih Raidera.",
+        "sr": "Akustična gitara na kojoj se može svirati, koristi se za privlačenje ARC-ove pažnje i impresioniranje drugih Rajdera."
+      },
+      "type": "Quick Use",
+      "rarity": "Legendary",
+      "value": 7000,
+      "recyclesInto": {},
+      "weightKg": 1,
+      "stackSize": 1,
+      "imageFilename": "https://cdn.arctracker.io/items/acoustic_guitar.png",
+      "updatedAt": "12/17/2025"
+    },
     {
       "id": "adrenaline_shot",
       "name": {
@@ -3627,7 +3678,7 @@
       },
       "description": {
         "en": "Cosmetic Backpack",
-        "de": "Kosmetischer Rucksack",
+        "de": "Deiner Sammlung wird eine neue Variante eines kosmetischen Gegenstands hinzugefügt.",
         "fr": "Sac à dos cosmétique",
         "es": "Mochila cosmética",
         "pt": "Mochila cosmética",
@@ -3673,7 +3724,7 @@
       },
       "description": {
         "en": "A new cosmetic will be added to your collection.",
-        "de": "Ein neues Kosmetikitem wird deiner Sammlung hinzugefügt.",
+        "de": "Ein neuer kosmetischer Gegenstand wird deiner Sammlung hinzugefügt.",
         "fr": "Un nouvel objet cosmétique sera ajouté à votre collection.",
         "es": "Se añadirá un nuevo objeto estético a tu colección.",
         "pt": "Um novo cosmético será adicionado à sua coleção.",
@@ -5191,7 +5242,13 @@
         }
       },
       "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade_trap.png",
-      "updatedAt": "10/30/2025"
+      "updatedAt": "12/19/2025",
+      "recipe": {
+        "blaze_grenade": 1,
+        "wires": 1
+      },
+      "craftBench": "workbench",
+      "stationLevelRequired": 1
     },
     {
       "id": "blaze_grenade",
@@ -5630,7 +5687,7 @@
       },
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
-        "de": "Ein werfbares chemisches Licht, das die Umgebung erhellt.",
+        "de": "Ein werfbares chemisches Licht, das seine Umgebung erhellt.",
         "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
@@ -5651,7 +5708,7 @@
       "type": "Blueprint",
       "value": 5000,
       "weightKg": 0,
-      "foundIn": "",
+      "stackSize": 1,
       "imageFilename": "https://cdn.arctracker.io/items/blue_light_stick_blueprint.png",
       "rarity": "Legendary",
       "updatedAt": "11/04/2025"
@@ -5843,7 +5900,7 @@
         "sr": "Potpuno automatski SMG sa visokom brzinom paljbe ali niskom preciznošću."
       },
       "type": "Blueprint",
-      "value": 15000,
+      "value": 5000,
       "weightKg": 0,
       "rarity": "Legendary",
       "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
@@ -5873,7 +5930,7 @@
       },
       "description": {
         "en": "Fully automatic SMG with high fire rate but low accuracy.",
-        "de": "Vollautomatische MP mit hoher Feuerrate, aber geringer Genauigkeit.",
+        "de": "Hat eine hohe Feuerrate, aber eine niedrige Genauigkeit.",
         "fr": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision.",
         "es": "SMG totalmente automático con alta cadencia de fuego pero baja precisión.",
         "pt": "SMG totalmente automática com alta taxa de disparo mas baixa precisão.",
@@ -6172,7 +6229,7 @@
       },
       "description": {
         "en": "Fully automatic SMG with high fire rate but low accuracy.",
-        "de": "Vollautomatische MP mit hoher Feuerrate, aber geringer Genauigkeit.",
+        "de": "Hat eine hohe Feuerrate, aber eine niedrige Genauigkeit.",
         "fr": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision.",
         "es": "SMG totalmente automático con alta cadencia de fuego pero baja precisión.",
         "pt": "SMG totalmente automática com alta taxa de disparo mas baixa precisão.",
@@ -6529,7 +6586,7 @@
       },
       "description": {
         "en": "Fully automatic SMG with high fire rate but low accuracy.",
-        "de": "Vollautomatische MP mit hoher Feuerrate, aber geringer Genauigkeit.",
+        "de": "Hat eine hohe Feuerrate, aber eine niedrige Genauigkeit.",
         "fr": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision.",
         "es": "SMG totalmente automático con alta cadencia de fuego pero baja precisión.",
         "pt": "SMG totalmente automática com alta taxa de disparo mas baixa precisão.",
@@ -6886,7 +6943,7 @@
       },
       "description": {
         "en": "Fully automatic SMG with high fire rate but low accuracy.",
-        "de": "Vollautomatische MP mit hoher Feuerrate, aber geringer Genauigkeit.",
+        "de": "Hat eine hohe Feuerrate, aber eine niedrige Genauigkeit.",
         "fr": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision.",
         "es": "SMG totalmente automático con alta cadencia de fuego pero baja precisión.",
         "pt": "SMG totalmente automática com alta taxa de disparo mas baixa precisão.",
@@ -7223,7 +7280,7 @@
       "id": "bombardier_cell",
       "name": {
         "en": "Bombardier Cell",
-        "de": "Bombardier-Zelle",
+        "de": "Kanonierzelle",
         "fr": "Cellule de Bombardier",
         "es": "Célula de bombardero",
         "pt": "Célula de bombardeiro",
@@ -7291,7 +7348,7 @@
         "zh-TW": "令人驚嘆的雪球",
         "uk": "Захоплюючий сніжний шар",
         "zh-CN": "令人惊叹的雪球",
-        "kr": "숨막히는 스노우 글로브",
+        "kr": "숨막히게 멋진 스노우 글로브",
         "tr": "Nefes Kesici Kar Küresi",
         "hr": "Zadivljujuća Snježna Kugla",
         "sr": "Zadivljujuća Snežna Kugla"
@@ -7651,7 +7708,7 @@
       "id": "buried_city_jkv_employee_access_card",
       "name": {
         "en": "Buried City JKV Employee Access Card",
-        "de": "JKV-Mitarbeiterzugangskarte (Begrabene Stadt)",
+        "de": "Schlüsselkarte für JKV-Angestellte (Begrabene Stadt)",
         "fr": "Carte d'accès employé JKV de la ville enfouie",
         "es": "Tarjeta de acceso de empleado JKV de la ciudad enterrada",
         "pt": "Cartão de acesso de funcionário JKV da cidade enterrada",
@@ -8241,6 +8298,57 @@
       "updatedAt": "12/07/2025"
     },
     {
+      "id": "burnt_out_candles",
+      "name": {
+        "en": "Burnt-Out Candles",
+        "de": "Ausgebrannte Kerzen",
+        "fr": "Bougies Consumées",
+        "es": "Velas Consumidas",
+        "pt": "Velas Queimadas",
+        "pl": "Wypalone Świece",
+        "no": "Utbrente Stearinlys",
+        "da": "Udbrændte Stearinlys",
+        "it": "Candele Esaurite",
+        "ru": "Сгоревшие свечи",
+        "ja": "燃え尽きたロウソク",
+        "zh-TW": "燒盡的蠟燭",
+        "uk": "Згорілі свічки",
+        "zh-CN": "烧尽的蜡烛",
+        "kr": "다 탄 양초",
+        "tr": "Yanmış Mumlar",
+        "hr": "Izgorjele Svijeće",
+        "sr": "Izgorele Sveće"
+      },
+      "description": {
+        "en": "After the grid fell candles became the preferred source of light for many. Unlike electricity, a good old candle will never fail you. Unless it's windy. Or raining. Or...",
+        "de": "Nach dem Zusammenbruch des Stromnetzes wurden Kerzen für viele zur bevorzugten Lichtquelle. Im Gegensatz zu Elektrizität wird dich eine gute alte Kerze nie im Stich lassen. Es sei denn, es ist windig. Oder es regnet. Oder...",
+        "fr": "Après la chute du réseau, les bougies sont devenues la source de lumière préférée de beaucoup. Contrairement à l'électricité, une bonne vieille bougie ne vous laissera jamais tomber. Sauf s'il y a du vent. Ou de la pluie. Ou...",
+        "es": "Después de que cayó la red, las velas se convirtieron en la fuente de luz preferida para muchos. A diferencia de la electricidad, una buena vela nunca te fallará. A menos que haya viento. O lluvia. O...",
+        "pt": "Depois que a rede caiu, as velas se tornaram a fonte de luz preferida para muitos. Ao contrário da eletricidade, uma boa e velha vela nunca vai te falhar. A menos que esteja ventando. Ou chovendo. Ou...",
+        "pl": "Po upadku sieci świece stały się preferowanym źródłem światła dla wielu. W przeciwieństwie do elektryczności, dobra stara świeca nigdy cię nie zawiedzie. Chyba że wieje. Albo pada. Albo...",
+        "no": "Etter at strømnettet falt, ble stearinlys den foretrukne lyskilden for mange. I motsetning til elektrisitet vil et godt gammelt stearinlys aldri svikte deg. Med mindre det blåser. Eller regner. Eller...",
+        "da": "Efter at elnettet faldt, blev stearinlys den foretrukne lyskilde for mange. I modsætning til elektricitet vil et godt gammelt stearinlys aldrig svigte dig. Medmindre det blæser. Eller regner. Eller...",
+        "it": "Dopo il crollo della rete, le candele sono diventate la fonte di luce preferita da molti. A differenza dell'elettricità, una buona vecchia candela non ti deluderà mai. A meno che non ci sia vento. O pioggia. O...",
+        "ru": "После падения сети свечи стали предпочтительным источником света для многих. В отличие от электричества, старая добрая свеча никогда тебя не подведёт. Если только не ветрено. Или не идёт дождь. Или...",
+        "ja": "電力網が落ちた後、多くの人にとってロウソクが好まれる光源となった。電気と違って、昔ながらのロウソクは決して裏切らない。風が吹いていなければ。雨が降っていなければ。あるいは...",
+        "zh-TW": "電網崩潰後，蠟燭成為許多人首選的光源。與電力不同，一根好蠟燭永遠不會讓你失望。除非有風。或者下雨。或者...",
+        "uk": "Після падіння мережі свічки стали улюбленим джерелом світла для багатьох. На відміну від електрики, стара добра свічка ніколи тебе не підведе. Хіба що вітряно. Або йде дощ. Або...",
+        "zh-CN": "电网崩溃后，蜡烛成为许多人首选的光源。与电力不同，一根好蜡烛永远不会让你失望。除非有风。或者下雨。或者...",
+        "kr": "전력망이 무너진 후, 양초는 많은 사람들에게 선호되는 광원이 되었다. 전기와 달리, 좋은 양초는 절대 당신을 실망시키지 않는다. 바람이 불지 않는다면. 비가 오지 않는다면. 아니면...",
+        "tr": "Şebeke çöktükten sonra mumlar birçokları için tercih edilen ışık kaynağı oldu. Elektriğin aksine, iyi bir mum sizi asla yarı yolda bırakmaz. Rüzgarlı değilse. Ya da yağmurlu. Ya da...",
+        "hr": "Nakon što je mreža pala, svijeće su postale preferiran izvor svjetla za mnoge. Za razliku od električne energije, dobra stara svijeća te nikada neće iznevjeriti. Osim ako je vjetrovito. Ili kiši. Ili...",
+        "sr": "Nakon pada mreže, sveće su postale preferirani izvor svetla za mnoge. Za razliku od električne energije, dobra stara sveća te nikada neće izneveriti. Osim ako je vetrovito. Ili pada kiša. Ili..."
+      },
+      "type": "Trinket",
+      "rarity": "Common",
+      "weightKg": 0.2,
+      "foundIn": "Residential, Old World",
+      "stackSize": 15,
+      "value": 640,
+      "imageFilename": "https://cdn.arctracker.io/items/burnt_out_candles.png",
+      "updatedAt": "12/16/2025"
+    },
+    {
       "id": "camera_lens",
       "name": {
         "en": "Camera Lens",
@@ -8314,7 +8422,7 @@
         "zh-TW": "燭台",
         "uk": "Свічник",
         "zh-CN": "烛台",
-        "kr": "촛대",
+        "kr": "양초 홀더",
         "tr": "Şamdan",
         "hr": "Svijećnjak",
         "sr": "Svećnjak"
@@ -8355,12 +8463,66 @@
       }
     },
     {
+      "id": "candleberries",
+      "name": {
+        "en": "Candleberries",
+        "de": "Kerzenbeeren",
+        "fr": "Baies de bougie",
+        "es": "Bayas de vela",
+        "pt": "Bagas de vela",
+        "pl": "Jagody świecowe",
+        "no": "Stearinbær",
+        "da": "Lysbær",
+        "it": "Bacche di candela",
+        "ru": "Свечные ягоды",
+        "ja": "キャンドルベリー",
+        "zh-TW": "蠟莓",
+        "uk": "Свічкові ягоди",
+        "zh-CN": "蜡莓",
+        "kr": "캔들베리",
+        "tr": "Mum Meyveleri",
+        "hr": "Svijećne bobice",
+        "sr": "Svećne bobice"
+      },
+      "description": {
+        "en": "A waxy berry that grows only during a small window each year. People have depended on them to make candles, foods and medicine for ages.",
+        "de": "Eine wachsartige Beere, die nur in einem kurzen Zeitfenster im Jahr wächst. Die Menschen haben sich seit jeher auf sie verlassen, um Kerzen, Lebensmittel und Medizin herzustellen.",
+        "fr": "Une baie cireuse qui ne pousse que pendant une courte période chaque année. Les gens en dépendent depuis des lustres pour fabriquer des bougies, des aliments et des médicaments.",
+        "es": "Una baya cerosa que crece solo durante una pequeña ventana cada año. La gente ha dependido de ellas durante siglos para hacer velas, alimentos y medicinas.",
+        "pt": "Uma baga cerosa que cresce apenas durante uma pequena janela a cada ano. As pessoas dependem delas há séculos para fazer velas, alimentos e remédios.",
+        "pl": "Woskowa jagoda, która rośnie tylko przez krótki okres w roku. Ludzie od wieków polegają na nich do wyrobu świec, żywności i leków.",
+        "no": "Et voksaktig bær som bare vokser i en kort periode hvert år. Folk har vært avhengige av dem i generasjoner for å lage lys, mat og medisin.",
+        "da": "Et voksagtigt bær, der kun vokser i en kort periode hvert år. Folk har i generationer været afhængige af dem til at lave lys, mad og medicin.",
+        "it": "Una bacca cerosa che cresce solo durante un breve periodo ogni anno. Le persone le hanno usate per secoli per fare candele, cibo e medicine.",
+        "ru": "Восковая ягода, которая растёт только в течение короткого периода каждый год. Люди веками использовали её для изготовления свечей, продуктов питания и лекарств.",
+        "ja": "毎年わずかな期間にしか実らないワックス状の果実。人々は古くからこれを使ってろうそくや食品、薬を作ってきた。",
+        "zh-TW": "一種每年只在短暫時間內生長的蠟質漿果。人們長久以來一直依賴它來製作蠟燭、食物和藥品。",
+        "uk": "Воскова ягода, яка росте лише протягом короткого періоду щороку. Люди століттями використовували її для виготовлення свічок, їжі та ліків.",
+        "zh-CN": "一种每年只在短暂时间内生长的蜡质浆果。人们长久以来一直依赖它来制作蜡烛、食物和药品。",
+        "kr": "매년 짧은 기간에만 자라는 왁스 같은 열매. 사람들은 오랫동안 이것으로 양초, 음식, 약을 만들어 왔다.",
+        "tr": "Her yıl yalnızca kısa bir süre yetişen mumsu bir meyve. İnsanlar yüzyıllardır mum, yiyecek ve ilaç yapmak için bunlara bağımlı olmuştur.",
+        "hr": "Voštana bobica koja raste samo u kratkom razdoblju svake godine. Ljudi su je oduvijek koristili za izradu svijeća, hrane i lijekova.",
+        "sr": "Voštana bobica koja raste samo u kratkom periodu svake godine. Ljudi su je oduvijek koristili za izradu sveća, hrane i lekova."
+      },
+      "type": "Nature",
+      "rarity": "Rare",
+      "value": 460,
+      "recyclesInto": {
+        "assorted_seeds": 2
+      },
+      "weightKg": 0.5,
+      "stackSize": 10,
+      "foundIn": "Nature",
+      "updatedAt": "12/16/2025",
+      "imageFilename": "https://cdn.arctracker.io/items/candleberries.png"
+    },
+    {
       "id": "canister",
       "name": {
         "en": "Canister",
         "de": "Kanister",
         "fr": "Bonbonne",
-        "es": "Bidón",
+        "es": "Lata",
         "pt": "Vasilhame",
         "pl": "Kanister",
         "no": "Beholder",
@@ -8371,7 +8533,7 @@
         "zh-TW": "罐子",
         "uk": "Каністра",
         "zh-CN": "罐子",
-        "kr": "캐니스터",
+        "kr": "캔",
         "tr": "Kapsül",
         "hr": "Kanister",
         "sr": "Kanister"
@@ -8412,7 +8574,7 @@
       "id": "cans_backpack_attachment",
       "name": {
         "en": "Cans Backpack Attachment",
-        "de": "Dosen-Rucksackanhänger",
+        "de": "Dosen",
         "fr": "Accessoire de sac à dos canettes",
         "es": "Accesorio de mochila de latas",
         "pt": "Acessório de mochila de latas",
@@ -8432,7 +8594,7 @@
       },
       "description": {
         "en": "Cosmetic Backpack Attachment",
-        "de": "Kosmetischer Rucksackanhänger",
+        "de": "Ein neuer kosmetischer Gegenstand wird deiner Sammlung hinzugefügt.",
         "fr": "Accessoire de sac à dos cosmétique",
         "es": "Accesorio de mochila cosmético",
         "pt": "Acessório de mochila cosmético",
@@ -10256,7 +10418,7 @@
       "value": 2000,
       "recyclesInto": {
         "plastic_parts": 14,
-        "battery": 4
+        "wires": 4
       },
       "description": {
         "en": "Can be recycled into crafting materials.",
@@ -10290,7 +10452,7 @@
         "en": "Cracked Bioscanner",
         "de": "Angeschlagener Bioscanner",
         "fr": "Bioscanner Fêlé",
-        "es": "Bioescáner agrietado",
+        "es": "Bioescaner roto",
         "pt": "Bioescâner rachado",
         "pl": "Pęknięty bioskaner",
         "no": "Sprukket bioskanner",
@@ -10875,7 +11037,7 @@
         "da": "Beskadiget ildkuglebrænder",
         "it": "Bruciatore di palla di fuoco danneggiato",
         "ja": "破損したファイアボールバーナー",
-        "kr": "손상된 화염구 버너",
+        "kr": "손상된 파이어볼 버너",
         "zh-CN": "损坏的火球燃烧器",
         "zh-TW": "損壞的火球燃燒器",
         "ru": "Поврежденная горелка огненного шара",
@@ -10933,7 +11095,7 @@
         "zh-TW": "損壞的散熱器",
         "uk": "Пошкоджений радіатор",
         "zh-CN": "损坏的散热器",
-        "kr": "손상된 히트 싱크",
+        "kr": "손상된 방열판",
         "tr": "Hasarlı Soğutucu",
         "hr": "Oštećeni Hladnjak",
         "sr": "Oštećeni Hladnjak"
@@ -12854,7 +13016,7 @@
       },
       "description": {
         "en": "A proximity-triggered explosive device that detonates when enemies approach.",
-        "de": "Ein naherungsaktiviertes Sprengstoffgerat, das bei Annaherung von Feinden detoniert.",
+        "de": "Eine Mine, die bei Annäherung explodiert und dabei alles beschädigt, was sich in ihrem Radius befindet.",
         "fr": "Un dispositif explosif a declenchement de proximite qui detone a l'approche des ennemis.",
         "es": "Un dispositivo explosivo activado por proximidad que detona cuando los enemigos se acercan.",
         "pt": "Um dispositivo explosivo ativado por proximidade que detona quando inimigos se aproximam.",
@@ -12875,6 +13037,7 @@
       "type": "Blueprint",
       "rarity": "Legendary",
       "value": 5000,
+      "stackSize": 1,
       "weightKg": 0,
       "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
       "updatedAt": "12/07/2025"
@@ -12903,7 +13066,7 @@
       },
       "description": {
         "en": "A proximity-triggered explosive device that detonates when enemies approach.",
-        "de": "Ein naherungsaktiviertes Sprengstoffgerat, das bei Annaherung von Feinden detoniert.",
+        "de": "Eine Mine, die bei Annäherung explodiert und dabei alles beschädigt, was sich in ihrem Radius befindet.",
         "fr": "Un dispositif explosif a declenchement de proximite qui detone a l'approche des ennemis.",
         "es": "Un dispositivo explosivo activado por proximidad que detona cuando los enemigos se acercan.",
         "pt": "Um dispositivo explosivo ativado por proximidade que detona quando inimigos se aproximam.",
@@ -15343,6 +15506,203 @@
       "updatedAt": "12/07/2025"
     },
     {
+      "id": "firecracker",
+      "name": {
+        "en": "Firecracker",
+        "de": "Böller",
+        "fr": "Pétard",
+        "es": "Petardo",
+        "pt": "Estalinho",
+        "pl": "Petarda",
+        "no": "Kinaputt",
+        "da": "Kinaput",
+        "it": "Petardo",
+        "ru": "Петарда",
+        "ja": "爆竹",
+        "zh-TW": "爆竹",
+        "uk": "Петарда",
+        "zh-CN": "爆竹",
+        "kr": "폭죽",
+        "tr": "Maytap",
+        "hr": "Petarda",
+        "sr": "Petarda"
+      },
+      "description": {
+        "en": "A device that sparks and pops in a pleasant manner.",
+        "de": "Ein Gerät, das angenehm funkelt und knallt.",
+        "fr": "Un dispositif qui crépite et claque agréablement.",
+        "es": "Un dispositivo que chisporrotea y estalla de forma agradable.",
+        "pt": "Um dispositivo que faisca e estala de forma agradável.",
+        "pl": "Urządzenie, które przyjemnie iskrzy i strzela.",
+        "no": "En enhet som gnistrer og smeller på en behagelig måte.",
+        "da": "En enhed, der gnistrer og knalder på en behagelig måde.",
+        "it": "Un dispositivo che scintilla e scoppietta in modo piacevole.",
+        "ru": "Устройство, которое приятно искрит и хлопает.",
+        "ja": "心地よく火花が散り、パチパチと音を立てる装置。",
+        "zh-TW": "一種會發出火花並帶來悅耳劈啪聲的裝置。",
+        "uk": "Пристрій, який приємно іскрить і тріщить.",
+        "zh-CN": "一种会迸发火花并发出悦耳噼啪声的装置。",
+        "kr": "불꽃이 튀고 기분 좋게 톡톡 터지는 장치.",
+        "tr": "Hoş bir şekilde kıvılcımlanan ve patlayan bir cihaz.",
+        "hr": "Uređaj koji ugodno iskri i puca.",
+        "sr": "Uređaj koji prijatno varniči i puca."
+      },
+      "type": "Quick Use",
+      "rarity": "Common",
+      "value": 270,
+      "recyclesInto": {
+        "plastic_parts": 3
+      },
+      "salvagesInto": {
+        "plastic_parts": 1
+      },
+      "weightKg": 0.05,
+      "stackSize": 5,
+      "effects": {
+        "Duration": {
+          "en": "Duration",
+          "de": "Dauer",
+          "fr": "Durée",
+          "es": "Duración",
+          "pt": "Duração",
+          "pl": "Czas trwania",
+          "no": "Varighet",
+          "da": "Varighed",
+          "it": "Durata",
+          "ru": "Длительность",
+          "ja": "持続時間",
+          "zh-TW": "持續時間",
+          "uk": "Тривалість",
+          "zh-CN": "持续时间",
+          "kr": "지속 시간",
+          "tr": "Süre",
+          "hr": "Trajanje",
+          "sr": "Trajanje",
+          "value": "7.5s"
+        }
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/firecracker.png",
+      "updatedAt": "12/16/2025",
+      "recipe": {
+        "plastic_parts": 4,
+        "chemicals": 2
+      },
+      "craftBench": "utility_bench",
+      "stationLevelRequired": 1
+    },
+    {
+      "id": "fireworks_box_blueprint",
+      "name": {
+        "en": "Fireworks Box Blueprint",
+        "de": "Bauplan: Feuerwerkskiste",
+        "fr": "Schéma de Boîte de feux d'artifice",
+        "es": "Plano de caja de fuegos artificiales",
+        "pt": "Projeto de caixa de fogos de artifício",
+        "pl": "Projekt pudełka fajerwerków",
+        "no": "Fyrverkeribokstegning",
+        "da": "Fyrværkerikassetegning",
+        "it": "Progetto scatola di fuochi d'artificio",
+        "ru": "Чертеж — Коробка фейерверков",
+        "ja": "花火箱の設計図",
+        "zh-TW": "煙火箱藍圖",
+        "uk": "Креслення коробки феєрверків",
+        "zh-CN": "烟花箱蓝图",
+        "kr": "불꽃놀이 상자 설계도",
+        "tr": "Havai Fişek Kutusu Planı",
+        "hr": "Nacrt Kutije Vatrometa",
+        "sr": "Nacrt Kutije Vatrometa"
+      },
+      "description": {
+        "en": "Unlocks the crafting blueprint for the Fireworks Box.",
+        "de": "Schaltet den Herstellungsbauplan für die Feuerwerkskiste frei.",
+        "fr": "Débloque le schéma de fabrication de la Boîte de feux d'artifice.",
+        "es": "Desbloquea el plano de fabricación de la caja de fuegos artificiales.",
+        "pt": "Desbloqueia o projeto de fabricação da caixa de fogos de artifício.",
+        "pl": "Odblokowuje projekt wytwarzania Pudełka fajerwerków.",
+        "no": "Låser opp oppskriften for Fyrverkeriboksen.",
+        "da": "Låser opskriften til Fyrværkerikassen op.",
+        "it": "Sblocca il progetto di creazione per la Scatola di fuochi d'artificio.",
+        "ru": "Открывает чертеж для создания Коробки фейерверков.",
+        "ja": "花火箱のクラフト設計図をアンロックする。",
+        "zh-TW": "解鎖煙火箱的製作藍圖。",
+        "uk": "Відкриває креслення для створення Коробки феєрверків.",
+        "zh-CN": "解锁烟花箱的制作蓝图。",
+        "kr": "불꽃놀이 상자 제작 설계도를 해금합니다.",
+        "tr": "Havai Fişek Kutusu için üretim planını açar.",
+        "hr": "Otključava nacrt izrade za Kutiju vatrometa.",
+        "sr": "Otključava nacrt izrade za Kutiju vatrometa."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "rarity": "Legendary",
+      "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
+      "updatedAt": "12/16/2025"
+    },
+    {
+      "id": "fireworks_box",
+      "name": {
+        "en": "Fireworks Box",
+        "de": "Feuerwerkskiste",
+        "fr": "Boîte de feux d'artifice",
+        "es": "Caja de fuegos artificiales",
+        "pt": "Caixa de fogos de artifício",
+        "pl": "Pudełko fajerwerków",
+        "no": "Fyrverkeriboks",
+        "da": "Fyrværkerikasse",
+        "it": "Scatola di fuochi d'artificio",
+        "ru": "Коробка фейерверков",
+        "ja": "花火箱",
+        "zh-TW": "煙火箱",
+        "uk": "Коробка феєрверків",
+        "zh-CN": "烟花箱",
+        "kr": "불꽃놀이 상자",
+        "tr": "Havai Fişek Kutusu",
+        "hr": "Kutija vatrometa",
+        "sr": "Kutija vatrometa"
+      },
+      "description": {
+        "en": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
+        "de": "Eine ferngesteuerte Anordnung funkelnder Feuerwerkskörper – garantiert ein Spektakel.",
+        "fr": "Un assortiment de feux d'artifice éblouissants déclenché à distance, parfait pour faire le spectacle.",
+        "es": "Un conjunto de fuegos artificiales deslumbrantes activados a distancia, perfecto para dar espectáculo.",
+        "pt": "Um conjunto de fogos de artifício deslumbrantes acionado remotamente, feito para dar um show.",
+        "pl": "Zdalnie odpalany zestaw olśniewających fajerwerków — na pewno zrobi wrażenie.",
+        "no": "Et fjernutløst oppsett med blendende fyrverkeri – garantert show.",
+        "da": "Et fjernudløst arrangement af blændende fyrværkeri – helt sikkert et show.",
+        "it": "Un assortimento di fuochi d'artificio abbaglianti attivato a distanza, pronto a mettere in scena uno spettacolo.",
+        "ru": "Дистанционно запускаемый набор ослепительных фейерверков — настоящее шоу.",
+        "ja": "遠隔で起動する、まばゆい花火のセット。きっとショーになる。",
+        "zh-TW": "可遠端觸發的絢麗煙火組合，保證帶來一場表演。",
+        "uk": "Набір яскравих феєрверків із дистанційним запуском — справжнє шоу.",
+        "zh-CN": "可远程触发的绚丽烟花组合，保证带来一场表演。",
+        "kr": "원격으로 작동하는 눈부신 불꽃놀이 세트. 확실히 쇼를 보여줍니다.",
+        "tr": "Uzaktan tetiklenen göz kamaştırıcı havai fişek düzeni; tam bir gösteri.",
+        "hr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu.",
+        "sr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu."
+      },
+      "type": "Quick Use",
+      "rarity": "Rare",
+      "value": 2000,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "recyclesInto": {
+        "explosive_compound": 1
+      },
+      "salvagesInto": {
+        "explosive_compound": 1
+      },
+      "recipe": {
+        "explosive_compound": 1,
+        "pop_trigger": 3
+      },
+      "craftBench": "explosives_bench",
+      "stationLevelRequired": 2,
+      "blueprintLocked": true,
+      "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
+      "updatedAt": "12/16/2025"
+    },
+    {
       "name": {
         "en": "First Wave Compass",
         "de": "Erste-Welle-Kompass",
@@ -15633,6 +15993,110 @@
         "advanced_mechanical_components": 1,
         "sensors": 1
       }
+    },
+    {
+      "id": "flushing_terminal_key",
+      "name": {
+        "en": "Flushing Terminal Key",
+        "de": "Schlüssel für das Flushing-Terminal",
+        "fr": "Clé du terminal de purge",
+        "es": "Llave del Terminal de Flushing",
+        "pt": "Chave do Terminal de Flushing",
+        "pl": "Klucz do Terminala Flushing",
+        "no": "Nøkkel til Flushing-terminalen",
+        "da": "Nøgle til Flushing-terminalen",
+        "it": "Chiave del Terminale Flushing",
+        "ru": "Ключ от терминала Flushing",
+        "ja": "フラッシング端末の鍵",
+        "zh-TW": "沖洗終端機鑰匙",
+        "uk": "Ключ від термінала Flushing",
+        "zh-CN": "冲洗终端钥匙",
+        "kr": "플러싱 터미널 열쇠",
+        "tr": "Flushing Terminali Anahtarı",
+        "hr": "Ključ Flushing Terminala",
+        "sr": "Ključ Flushing Terminala"
+      },
+      "description": {
+        "en": "This key is used for the quest The Stench of Corruption to activate the Flushing Terminal",
+        "de": "Dieser Schlüssel wird für die Quest \"The Stench of Corruption\" verwendet, um das Flushing Terminal zu aktivieren",
+        "fr": "Cette clé est utilisée pour la quête \"The Stench of Corruption\" afin d'activer le terminal de purge",
+        "es": "Esta llave se usa para la misión \"The Stench of Corruption\" para activar el Terminal de Flushing",
+        "pt": "Esta chave é usada na missão \"The Stench of Corruption\" para ativar o Terminal de Flushing",
+        "pl": "Ten klucz jest używany w zadaniu \"The Stench of Corruption\", aby aktywować Terminal Flushing",
+        "no": "Denne nøkkelen brukes i oppdraget \"The Stench of Corruption\" for å aktivere Flushing-terminalen",
+        "da": "Denne nøgle bruges til opgaven \"The Stench of Corruption\" for at aktivere Flushing-terminalen",
+        "it": "Questa chiave viene usata nella missione \"The Stench of Corruption\" per attivare il Terminale Flushing",
+        "ru": "Этот ключ используется в задании \"The Stench of Corruption\", чтобы активировать терминал Flushing",
+        "ja": "この鍵はクエスト\"The Stench of Corruption\"でフラッシング端末を起動するために使用される",
+        "zh-TW": "此鑰匙用於任務「The Stench of Corruption」，用來啟動沖洗終端機",
+        "uk": "Цей ключ використовується в завданні \"The Stench of Corruption\", щоб активувати термінал Flushing",
+        "zh-CN": "此钥匙用于任务「The Stench of Corruption」，用于激活冲洗终端",
+        "kr": "이 열쇠는 퀘스트 \"The Stench of Corruption\"에서 플러싱 터미널을 활성화하는 데 사용됩니다",
+        "tr": "Bu anahtar, Flushing Terminalini etkinleştirmek için \"The Stench of Corruption\" görevinde kullanılır",
+        "hr": "Ovaj se ključ koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala",
+        "sr": "Ovaj ključ se koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala"
+      },
+      "type": "Trinket",
+      "updatedAt": "12/16/2025",
+      "imageFilename": "https://cdn.arctracker.io/items/flushing_terminal_key.png",
+      "value": 0,
+      "weightKg": 0.25,
+      "stackSize": 1,
+      "rarity": "Common"
+    },
+    {
+      "id": "fossilized_lightning",
+      "name": {
+        "en": "Fossilized Lightning",
+        "de": "Versteinerter Blitz",
+        "fr": "Foudre Fossilisée",
+        "es": "Rayo fosilizado",
+        "pt": "Relâmpago fossilizado",
+        "pl": "Skamieniały piorun",
+        "no": "Fossilisert lyn",
+        "da": "Fossiliseret lyn",
+        "it": "Fulmine fossilizzato",
+        "ru": "Окаменевшая молния",
+        "ja": "化石化した稲妻",
+        "zh-TW": "化石閃電",
+        "uk": "Скам'яніла блискавка",
+        "zh-CN": "化石闪电",
+        "kr": "화석화된 번개",
+        "tr": "Fosilleşmiş Yıldırım",
+        "hr": "Fosilizirana munja",
+        "sr": "Fosilizovana munja"
+      },
+      "description": {
+        "en": "An item that has a chance to spawn after lightning strikes.",
+        "de": "Ein Gegenstand, der nach Blitzeinschlägen mit einer gewissen Chance erscheinen kann.",
+        "fr": "Un objet qui a une chance d'apparaître après un coup de foudre.",
+        "es": "Un objeto que tiene la posibilidad de aparecer tras una caída de rayo.",
+        "pt": "Um item que tem chance de aparecer após quedas de raio.",
+        "pl": "Przedmiot, który ma szansę pojawić się po uderzeniu pioruna.",
+        "no": "En gjenstand som kan dukke opp med en viss sjanse etter lynnedslag.",
+        "da": "En genstand, der har en chance for at dukke op efter lynnedslag.",
+        "it": "Un oggetto che ha la possibilità di apparire dopo un fulmine.",
+        "ru": "Предмет, который с некоторым шансом может появиться после удара молнии.",
+        "ja": "落雷のあとに一定確率で出現するアイテム。",
+        "zh-TW": "在雷擊後有機會生成的物品。",
+        "uk": "Предмет, який має шанс з'явитися після удару блискавки.",
+        "zh-CN": "在雷击后有几率生成的物品。",
+        "kr": "번개가 내리친 후 일정 확률로 생성되는 아이템입니다.",
+        "tr": "Yıldırım düştükten sonra ortaya çıkma şansı olan bir eşya.",
+        "hr": "Predmet koji ima šansu pojaviti se nakon udara munje.",
+        "sr": "Predmet koji ima šansu da se pojavi nakon udara munje."
+      },
+      "type": "Topside Material",
+      "rarity": "Epic",
+      "weightKg": 0.25,
+      "stackSize": 3,
+      "foundIn": "Nature",
+      "imageFilename": "https://cdn.arctracker.io/items/fossilized_lightning.png",
+      "value": 4000,
+      "recyclesInto": {
+        "explosive_compound": 3
+      },
+      "updatedAt": "12/16/2025"
     },
     {
       "id": "free_loadout_augment",
@@ -16170,7 +16634,13 @@
       },
       "imageFilename": "https://cdn.arctracker.io/items/gas_grenade_trap.png",
       "stackSize": 3,
-      "updatedAt": "10/30/2025"
+      "updatedAt": "12/19/2025",
+      "recipe": {
+        "gas_grenade": 1,
+        "wires": 1
+      },
+      "craftBench": "workbench",
+      "stationLevelRequired": 1
     },
     {
       "id": "gas_grenade",
@@ -16297,6 +16767,55 @@
       "craftBench": "explosives_bench"
     },
     {
+      "id": "gas_mine_blueprint",
+      "name": {
+        "en": "Gas Mine Blueprint",
+        "de": "Bauplan: Sprungmine: Ausdauerverlust über Zeit",
+        "fr": "Schema Mine Bondissance : Dégâts d'Endurance sur la Durée",
+        "es": "Plano de Mina de gas",
+        "pt": "Projeto de Mina de gás",
+        "pl": "Projekt Mina gazowa",
+        "no": "Gassmine-tegning",
+        "da": "Gasmine-tegning",
+        "it": "Progetto Mina a gas",
+        "ja": "ガス地雷 設計図",
+        "kr": "가스 지뢰 설계도",
+        "zh-CN": "毒气地雷 蓝图",
+        "zh-TW": "毒氣地雷 藍圖",
+        "ru": "Чертеж — Газовая мина",
+        "tr": "Gaz Mayını Planı",
+        "uk": "Креслення Газова міна",
+        "sr": "Gasna mina Nacrt",
+        "hr": "Plinska mina Nacrt"
+      },
+      "description": {
+        "en": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
+        "de": "Eine Mine, die bei Annäherung explodiert und dabei eine Gaswolke erzeugt, welche schnell Ausdauer absaugt.",
+        "fr": "Une mine à déclenchement de proximité qui surgit et déploie un nuage de gaz qui draine rapidement l'endurance.",
+        "es": "Una mina activada por proximidad que emerge y despliega una nube de gas que drena rápidamente la resistencia.",
+        "pt": "Uma mina ativada por proximidade que surge e libera uma nuvem de gás que drena rapidamente a stamina.",
+        "pl": "Mina aktywowana zbliżeniem, która wyskakuje i uwalnia chmurę gazu szybko wyczerpującego wytrzymałość.",
+        "no": "En nærhetsaktivert mine som spretter opp og utløser en gassky som raskt tømmer utholdenhet.",
+        "da": "En nærhedsudløst mine der popper op og frigiver en gassky der hurtigt dræner udholdenhed.",
+        "it": "Una mina attivata dalla prossimità che emerge e rilascia una nube di gas che drena rapidamente la resistenza.",
+        "ja": "近接起動する地雷で、飛び出してスタミナを急速に消耗させるガス雲を展開する。",
+        "kr": "근접 감지로 작동하여 튀어나와 스태미나를 빠르게 소모시키는 가스 구름을 전개하는 지뢰입니다.",
+        "zh-CN": "一种近距离触发的地雷，会弹出并释放快速消耗耐力的毒气云。",
+        "zh-TW": "一種近距離觸發的地雷，會彈出並釋放快速消耗耐力的毒氣雲。",
+        "ru": "Мина с датчиком приближения, которая выскакивает и выпускает облако газа, быстро истощающее выносливость.",
+        "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak dayanıklılığı hızla tüketen bir gaz bulutu yayar.",
+        "uk": "Міна з датчиком наближення, яка вистрибує і випускає газову хмару, що швидко виснажує витривалість.",
+        "sr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak gasa koji brzo iscrpljuje izdržljivost.",
+        "hr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak plina koji brzo iscrpljuje izdržljivost."
+      },
+      "type": "Blueprint",
+      "rarity": "Legendary",
+      "value": 5000,
+      "weightKg": 0,
+      "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+      "updatedAt": "12/25/2025"
+    },
+    {
       "name": {
         "en": "Gas Mine",
         "de": "Sprungmine: Ausdauerverlust über Zeit",
@@ -16412,8 +16931,15 @@
         "chemicals": 1,
         "rubber_parts": 1
       },
+      "recipe": {
+        "chemicals": 4,
+        "rubber_parts": 2
+      },
+      "craftBench": "explosives_bench",
+      "stationLevelRequired": 1,
+      "blueprintLocked": true,
       "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
-      "updatedAt": "11/13/2025"
+      "updatedAt": "12/25/2025"
     },
     {
       "name": {
@@ -18074,7 +18600,7 @@
         "sr": "Improvizovana medicinska stavka koja postepeno obnavlja zdravlje tokom vremena."
       },
       "type": "Quick Use",
-      "value": 640,
+      "value": 900,
       "rarity": "Uncommon",
       "weightKg": 0.15,
       "stackSize": 5,
@@ -18178,24 +18704,24 @@
         "hr": "Nacrt Horizontalnog Rukohvata"
       },
       "description": {
-        "en": "Moderately reduces per-shot dispersion.",
-        "it": "Riduce moderatamente la dispersione dei colpi.",
-        "da": "Reducerer moderat spredningen pr. skud.",
-        "uk": "Помірно зменшує розсіювання куль за постріл.",
-        "zh-TW": "適度降低每次射擊的彈著分散。",
-        "pt": "Reduz moderadamente a dispersão por disparo.",
-        "ru": "Умеренно снижает разброс пуль за выстрел.",
-        "de": "Verringert die Streuung pro Schuss moderat.",
-        "fr": "Réduit modérément la dispersion par tir.",
-        "zh-CN": "适度降低每次射击的弹着分散。",
-        "no": "Reduserer moderat spredning per skudd.",
-        "tr": "Her atış başına saçılmayı orta düzeyde azaltır.",
-        "es": "Reduce moderadamente la dispersión por disparo.",
-        "sr": "Umereno smanjuje rasipanje metaka po hicu.",
-        "ja": "1発ごとの弾のばらつきを適度に軽減します。",
-        "kr": "발사당 탄 퍼짐을 적당히 감소시킵니다.",
-        "pl": "Umiarkowanie zmniejsza rozrzut pocisków na strzał.",
-        "hr": "Umjereno smanjuje rasipanje metaka po ispaljenom hicu."
+        "en": "Moderately reduces both vertical recoil and horizontal recoil.",
+        "it": "Riduce moderatamente sia il rinculo verticale che quello orizzontale.",
+        "da": "Reducerer moderat både lodret og vandret rekyl.",
+        "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
+        "zh-TW": "適度降低垂直和水平後座力。",
+        "pt": "Reduz moderadamente o recuo vertical e horizontal.",
+        "ru": "Умеренно снижает как вертикальную, так и горизонтальную отдачу.",
+        "de": "Verringert sowohl den vertikalen als auch den horizontalen Rückstoß moderat.",
+        "fr": "Réduit modérément le recul vertical et horizontal.",
+        "zh-CN": "适度降低垂直和水平后坐力。",
+        "no": "Reduserer moderat både vertikal og horisontal rekyl.",
+        "tr": "Hem dikey hem de yatay geri tepmeyi orta düzeyde azaltır.",
+        "es": "Reduce moderadamente el retroceso vertical y horizontal.",
+        "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
+        "ja": "垂直反動と水平反動を適度に軽減します。",
+        "kr": "수직 반동과 수평 반동을 적당히 감소시킵니다.",
+        "pl": "Umiarkowanie zmniejsza odrzut pionowy i poziomy.",
+        "hr": "Umjereno smanjuje i vertikalni i horizontalni trzaj."
       },
       "type": "Blueprint",
       "rarity": "Legendary",
@@ -18227,24 +18753,24 @@
         "hr": "Horizontalni Rukohvat"
       },
       "description": {
-        "en": "Moderately reduces per-shot dispersion.",
-        "it": "Riduce moderatamente la dispersione dei colpi.",
-        "da": "Reducerer moderat spredningen pr. skud.",
-        "uk": "Помірно зменшує розсіювання куль за постріл.",
-        "zh-TW": "適度降低每次射擊的彈著分散。",
-        "pt": "Reduz moderadamente a dispersão por disparo.",
-        "ru": "Умеренно снижает разброс пуль за выстрел.",
-        "de": "Verringert die Streuung pro Schuss moderat.",
-        "fr": "Réduit modérément la dispersion par tir.",
-        "zh-CN": "适度降低每次射击的弹着分散。",
-        "no": "Reduserer moderat spredning per skudd.",
-        "tr": "Her atış başına saçılmayı orta düzeyde azaltır.",
-        "es": "Reduce moderadamente la dispersión por disparo.",
-        "sr": "Umereno smanjuje rasipanje metaka po hicu.",
-        "ja": "1発ごとの弾のばらつきを適度に軽減します。",
-        "kr": "발사당 탄 퍼짐을 적당히 감소시킵니다.",
-        "pl": "Umiarkowanie zmniejsza rozrzut pocisków na strzał.",
-        "hr": "Umjereno smanjuje rasipanje metaka po ispaljenom hicu."
+        "en": "Moderately reduces both vertical recoil and horizontal recoil.",
+        "it": "Riduce moderatamente sia il rinculo verticale che quello orizzontale.",
+        "da": "Reducerer moderat både lodret og vandret rekyl.",
+        "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
+        "zh-TW": "適度降低垂直和水平後座力。",
+        "pt": "Reduz moderadamente o recuo vertical e horizontal.",
+        "ru": "Умеренно снижает как вертикальную, так и горизонтальную отдачу.",
+        "de": "Verringert sowohl den vertikalen als auch den horizontalen Rückstoß moderat.",
+        "fr": "Réduit modérément le recul vertical et horizontal.",
+        "zh-CN": "适度降低垂直和水平后坐力。",
+        "no": "Reduserer moderat både vertikal og horisontal rekyl.",
+        "tr": "Hem dikey hem de yatay geri tepmeyi orta düzeyde azaltır.",
+        "es": "Reduce moderadamente el retroceso vertical y horizontal.",
+        "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
+        "ja": "垂直反動と水平反動を適度に軽減します。",
+        "kr": "수직 반동과 수평 반동을 적당히 감소시킵니다.",
+        "pl": "Umiarkowanie zmniejsza odrzut pionowy i poziomy.",
+        "hr": "Umjereno smanjuje i vertikalni i horizontalni trzaj."
       },
       "type": "Modification",
       "rarity": "Epic",
@@ -21810,7 +22336,7 @@
       "id": "leaper_pulse_unit",
       "name": {
         "en": "Leaper Pulse Unit",
-        "de": "Springer-Pulseinheit",
+        "de": "Springer-Impulseinheit",
         "fr": "Unité à Impulsion de Bondisseur",
         "es": "Unidad de pulso de saltador",
         "pt": "Unidade de pulso de saltador",
@@ -21882,7 +22408,7 @@
       "updatedAt": "11/03/2025",
       "description": {
         "en": "Can be recycled into crafting materials. Can be thrown to create a violent singularity.",
-        "de": "Kann zu Herstellungsmaterialien recycelt werden. Kann geworfen werden, um eine heftige Singularität zu erzeugen.",
+        "de": "Kann zu Herstellungsmaterialien recycelt werden. Kann geworfen werden, um eine brutale Singularität zu erzeugen.",
         "fr": "Peut être recyclé en matériaux d'artisanat. Peut être lancé pour créer une singularité violente.",
         "es": "Se puede reciclar para obtener materiales de fabricación. Se puede lanzar para crear una singularidad violenta.",
         "pt": "Pode ser reciclado em materiais de fabricação. Pode ser arremessado para criar uma singularidade violenta.",
@@ -22169,7 +22695,7 @@
       "id": "light_gun_parts_blueprint",
       "name": {
         "en": "Light Gun Parts Blueprint",
-        "de": "Bauplan: Teile für Waffe mit leichter Munition",
+        "de": "Bauplan: Leichte Waffenteile",
         "fr": "Schéma de Pièces d'Arme Légère",
         "es": "Plano de piezas de armas ligeras",
         "pt": "Projeto de peças de armas leves",
@@ -22189,7 +22715,7 @@
       },
       "description": {
         "en": "Assorted spare parts used for pistols and SMGs.",
-        "de": "Verschiedenste Ersatzteile, die in Pistolen und MPs zum Einsatz kommen. Zur Herstellung von: Bobcat, Komplexe Waffenteile",
+        "de": "Verschiedenste Ersatzteile, die in Pistolen und MPs zum Einsatz kommen.",
         "fr": "Pièces de rechange assorties utilisées pour les pistolets et les mitraillettes.",
         "es": "Piezas de repuesto variadas usadas para pistolas y subfusiles.",
         "pt": "Peças sobressalentes variadas usadas para pistolas e submetralhadoras.",
@@ -22210,6 +22736,7 @@
       "type": "Blueprint",
       "value": 5000,
       "weightKg": 0,
+      "stackSize": 1,
       "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts_blueprint.png",
       "rarity": "Legendary",
       "updatedAt": "11/12/2025"
@@ -23195,7 +23722,7 @@
       "id": "looting_mk3_survivor_blueprint",
       "name": {
         "en": "Looting Mk. 3 (Survivor) Blueprint",
-        "de": "Bauplan: Beute-Marke 3 (Überlebend)",
+        "de": "Bauplan: Beute-Marke 3 (Überleben)",
         "fr": "Schéma : Butin 3 (Survie)",
         "es": "Plano Saqueo Ver. 3 (Superviviente)",
         "pt": "Projeto Saque Mk. 3 (Sobrevivente)",
@@ -23215,7 +23742,7 @@
       },
       "description": {
         "en": "A heavy-duty pack mule augment. Large weight capacity and large backpack space.",
-        "de": "Ein robustes Packesel-Augment. Große Gewichtskapazität und viel Platz im Rucksack. Im entkräfteten und bewegungslosen Zustand erholt sich die Gesundheit auf bis zu 75% der max. Gesundheit im entkräfteten Zustand.",
+        "de": "Ein robustes Packesel-Augment. Große Tragekapazität und viel Platz im Rucksack. Im entkräfteten und bewegungslosen Zustand erholt sich die Gesundheit auf bis zu 75% der max. Gesundheit im entkräfteten Zustand.",
         "fr": "Une amélioration de mulet de bât robuste. Grande capacité de poids et grand espace de sac à dos.",
         "es": "Un aumento de mula de carga resistente. Gran capacidad de peso y gran espacio de mochila.",
         "pt": "Um aumento de mula de carga resistente. Grande capacidade de peso e grande espaço de mochila.",
@@ -23244,7 +23771,7 @@
       "id": "looting_mk3_survivor",
       "name": {
         "en": "Looting Mk. 3 (Survivor)",
-        "de": "Beute-Marke 3 (Überlebend)",
+        "de": "Beute-Marke 3 (Überleben)",
         "fr": "Butin 3 (Survie)",
         "es": "Saqueo Ver. 3 (Superviviente)",
         "pt": "Saque Mk. 3 (Sobrevivente)",
@@ -23264,7 +23791,7 @@
       },
       "description": {
         "en": "A heavy-duty pack mule augment. Large weight capacity and large backpack space. While downed and stationary, health regenerates up to 75% of max downed health.",
-        "de": "Ein robustes Packesel-Augment. Große Gewichtskapazität und viel Platz im Rucksack. Im entkräfteten und bewegungslosen Zustand erholt sich die Gesundheit auf bis zu 75% der max. Gesundheit im entkräfteten Zustand.",
+        "de": "Ein robustes Packesel-Augment. Große Tragekapazität und viel Platz im Rucksack. Im entkräfteten und bewegungslosen Zustand erholt sich die Gesundheit auf bis zu 75% der max. Gesundheit im entkräfteten Zustand.",
         "fr": "Une amélioration de mulet de bât robuste. Grande capacité de poids et grand espace de sac à dos. Lorsque vous êtes à terre et immobile, la santé se régénère jusqu'à 75% de la santé maximale à terre.",
         "es": "Un aumento de mula de carga resistente. Gran capacidad de peso y gran espacio de mochila. Mientras estás derribado e inmóvil, la salud se regenera hasta el 75% de la salud máxima derribado.",
         "pt": "Um aumento de mula de carga resistente. Grande capacidade de peso e grande espaço de mochila. Enquanto caído e parado, a saúde regenera até 75% da saúde máxima caído.",
@@ -23505,7 +24032,13 @@
         }
       },
       "imageFilename": "https://cdn.arctracker.io/items/lure_grenade_trap.png",
-      "updatedAt": "11/01/2025"
+      "updatedAt": "12/19/2025",
+      "recipe": {
+        "lure_grenade": 1,
+        "wires": 1
+      },
+      "craftBench": "workbench",
+      "stationLevelRequired": 1
     },
     {
       "id": "lure_grenade",
@@ -24892,7 +25425,8 @@
       "weightKg": 0.4,
       "stackSize": 3,
       "foundIn": "Old World, Residential, Commercial",
-      "updatedAt": "11/03/2025"
+      "imageFilename": "https://cdn.arctracker.io/items/music_box.png",
+      "updatedAt": "12/16/2025"
     },
     {
       "id": "muzzle_brake_i",
@@ -25084,6 +25618,7 @@
       "type": "Blueprint",
       "value": 5000,
       "weightKg": 0,
+      "stackSize": 1,
       "rarity": "Legendary",
       "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
       "updatedAt": "11/12/2025"
@@ -25694,7 +26229,7 @@
       },
       "description": {
         "en": "Has reliable damage output and accuracy.",
-        "de": "Hat zuverlässigen Schadensausstoß und Präzision.",
+        "de": "Verursacht verlässlichen Schaden bei annehmbarer Genauigkeit.",
         "fr": "A des dégâts et une précision fiables.",
         "es": "Tiene daño y precisión confiables.",
         "pt": "Tem dano e precisão confiáveis.",
@@ -25743,7 +26278,7 @@
       },
       "description": {
         "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-        "de": "Hat zuverlässige Schadensleistung und Genauigkeit.",
+        "de": "Verursacht verlässlichen Schaden bei annehmbarer Genauigkeit.",
         "fr": "Possède des dégâts et une précision fiables.",
         "es": "Tiene una salida de daño y precisión confiables.",
         "pt": "Tem dano e precisão confiáveis.",
@@ -26112,7 +26647,7 @@
       },
       "description": {
         "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-        "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, zuverlässiger Schadensleistung und Präzision.",
+        "de": "Verursacht verlässlichen Schaden bei annehmbarer Genauigkeit.",
         "uk": "Гвинтівка снайперська з затворним механізмом та оптичним прицілом з надійною потужністю та точністю.",
         "ru": "Снайперская винтовка с продольно-скользящим затвором и оптическим прицелом с надёжным уроном и точностью.",
         "zh-TW": "一把配備瞄準鏡的栓動式狙擊步槍，具有可靠的傷害輸出和精準度。",
@@ -26351,7 +26886,7 @@
       },
       "description": {
         "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-        "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, zuverlässiger Schadensleistung und Präzision.",
+        "de": "Verursacht verlässlichen Schaden bei annehmbarer Genauigkeit.",
         "uk": "Гвинтівка снайперська з затворним механізмом та оптичним прицілом з надійною потужністю та точністю.",
         "ru": "Снайперская винтовка с продольно-скользящим затвором и оптическим прицелом с надёжным уроном и точностью.",
         "zh-TW": "一把配備瞄準鏡的栓動式狙擊步槍，具有可靠的傷害輸出和精準度。",
@@ -26590,7 +27125,7 @@
       },
       "description": {
         "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-        "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, zuverlässiger Schadensleistung und Präzision.",
+        "de": "Verursacht verlässlichen Schaden bei annehmbarer Genauigkeit.",
         "uk": "Гвинтівка снайперська з затворним механізмом та оптичним прицілом з надійною потужністю пошкоджень та точністю.",
         "ru": "Снайперская винтовка с продольно-скользящим затвором и оптическим прицелом с надежным уроном и точностью.",
         "zh-TW": "一把配備瞄準鏡的栓動式狙擊步槍，具有可靠的傷害輸出和精準度。",
@@ -26864,7 +27399,7 @@
         "zh-TW": "彩繪盒子",
         "uk": "Розписна скринька",
         "zh-CN": "彩绘盒子",
-        "kr": "채색된 상자",
+        "kr": "페인트 묻은 상자",
         "tr": "Boyalı Kutu",
         "hr": "Oslikana Kutija",
         "sr": "Oslikana Kutija"
@@ -26916,7 +27451,7 @@
         "zh-TW": "巡邏車鑰匙",
         "uk": "Ключ від патрульної машини",
         "zh-CN": "巡逻车钥匙",
-        "kr": "순찰차 키",
+        "kr": "순찰차 열쇠",
         "tr": "Devriye Arabası Anahtarı",
         "hr": "Ključ Patrolnog Automobila",
         "sr": "Ključ Patrolnog Automobila"
@@ -26974,7 +27509,7 @@
       },
       "description": {
         "en": "A gadget that allows the user to conceal themselves from ARC.",
-        "de": "Ein Gerät, das es dem Benutzer ermöglicht, sich vor ARC zu verbergen.",
+        "de": "Ein Gadget, mit dem der Benutzer sich vor ARC verstecken kann.",
         "fr": "Un gadget qui permet d'échapper à la vigilance de l'ARC.",
         "es": "Un dispositivo que permite al usuario ocultarse de ARC.",
         "pt": "Um dispositivo que permite ao usuário se ocultar do ARC.",
@@ -27103,7 +27638,7 @@
         "zh-TW": "撲克牌",
         "uk": "Гральні карти",
         "zh-CN": "扑克牌",
-        "kr": "카드 놀이",
+        "kr": "트럼프 카드",
         "tr": "Oyun Kağıtları",
         "hr": "Igraće Karte",
         "sr": "Igraće Karte"
@@ -27200,7 +27735,7 @@
       "id": "pop_trigger",
       "name": {
         "en": "Pop Trigger",
-        "de": "Direktabzug",
+        "de": "Pop-Auslöser",
         "fr": "Gâchette Pop",
         "es": "Gatillo de tronador",
         "pt": "Gatilho de Estalinho",
@@ -27218,7 +27753,7 @@
         "hr": "Pop Okidač",
         "sr": "Pop Okidač"
       },
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "type": "Recyclable",
       "value": 640,
       "recyclesInto": {
@@ -27566,6 +28101,7 @@
       "type": "Refined Material",
       "rarity": "Epic",
       "weightKg": 2,
+      "stackSize": 3,
       "value": 5000,
       "recyclesInto": {
         "advanced_electrical_components": 1,
@@ -27747,6 +28283,55 @@
       "updatedAt": "11/04/2025"
     },
     {
+      "id": "pulse_mine_blueprint",
+      "name": {
+        "en": "Pulse Mine Blueprint",
+        "de": "Bauplan: Sprungmine: Impuls",
+        "fr": "Schéma de Mine Bondissante : Impulsion",
+        "es": "Plano de mina de pulso",
+        "pt": "Projeto de mina de pulso",
+        "pl": "Projekt miny pulsacyjnej",
+        "no": "Pulsmine-tegning",
+        "da": "Pulsmine-tegning",
+        "it": "Progetto mina a impulsi",
+        "ru": "Чертеж — Импульсная мина",
+        "ja": "パルスマイン設計図",
+        "zh-TW": "脈衝地雷藍圖",
+        "uk": "Креслення імпульсної міни",
+        "zh-CN": "脉冲地雷蓝图",
+        "kr": "펄스 지뢰 설계도",
+        "tr": "Nabız Mayını Planı",
+        "hr": "Nacrt za pulsnu minu",
+        "sr": "Nacrt za pulsnu minu"
+      },
+      "description": {
+        "en": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
+        "de": "Eine Mine, die bei Annäherung explodiert und dabei alle in ihrem Radius zurückstößt.",
+        "fr": "Une mine de proximité qui jaillit et repousse tout ce qui se trouve dans son rayon.",
+        "es": "Una mina activada por proximidad que salta y empuja hacia atrás todo lo que esté dentro de su radio.",
+        "pt": "Uma mina ativada por proximidade que salta e empurra tudo dentro do seu raio.",
+        "pl": "Mina aktywowana zbliżeniem, która wyskakuje i odpycha wszystko w swoim promieniu.",
+        "no": "En nærhetsaktivert mine som spretter opp og slår tilbake alt innenfor dens radius.",
+        "da": "En nærhedsudløst mine, der springer op og slår alt tilbage inden for dens radius.",
+        "it": "Una mina attivata dalla prossimità che salta fuori e respinge tutto nel suo raggio.",
+        "ru": "Мина с датчиком приближения, которая выскакивает и отбрасывает всё в радиусе действия.",
+        "ja": "近接起動する地雷で、範囲内のあらゆるものを跳ね上げてノックバックさせる。",
+        "zh-TW": "一種近距離觸發的地雷，會彈起並擊退半徑內的任何目標。",
+        "uk": "Міна з датчиком наближення, яка вистрибує і відкидає все в радіусі дії.",
+        "zh-CN": "一种近距离触发的地雷，会弹起并击退半径内的任何目标。",
+        "kr": "근접 감지로 작동하여 튀어 오르고 반경 내의 모든 것을 밀쳐내는 지뢰.",
+        "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak yarıçapı içindeki her şeyi geri iter.",
+        "hr": "Mina aktivirana blizinom koja iskoči i odbaci sve u svom radijusu.",
+        "sr": "Mina aktivirana blizinom koja iskoči i odbaci sve u svom radijusu."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+      "rarity": "Legendary",
+      "updatedAt": "12/16/2025"
+    },
+    {
       "name": {
         "en": "Pulse Mine",
         "de": "Sprungmine: Impuls",
@@ -27823,7 +28408,9 @@
         "chemicals": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
-      "updatedAt": "11/17/2025"
+      "updatedAt": "12/16/2025",
+      "craftBench": "explosives_bench",
+      "blueprintLocked": true
     },
     {
       "id": "queen_reactor",
@@ -28207,7 +28794,7 @@
           "tr": "Şarjör Boyutu",
           "hr": "Veličina Spremnika",
           "sr": "Veličina Spremnika",
-          "value": 10
+          "value": 12
         },
         "Firing Mode": {
           "en": "Firing Mode",
@@ -28252,7 +28839,7 @@
           "value": "Moderate"
         }
       },
-      "updatedAt": "11/12/2025",
+      "updatedAt": "12/16/2025",
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
       "recipe": {
         "metal_parts": 16,
@@ -28304,7 +28891,7 @@
           "kr": "탄창 크기",
           "pl": "Pojemność Magazynka",
           "hr": "Veličina Okvira",
-          "value": 14
+          "value": 16
         },
         "Durability": {
           "en": "Durability",
@@ -28433,7 +29020,7 @@
       "stealth": 14,
       "weightKg": 6,
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-      "updatedAt": "11/12/2025",
+      "updatedAt": "12/16/2025",
       "isWeapon": true
     },
     {
@@ -28542,7 +29129,7 @@
           "tr": "Şarjör Boyutu",
           "hr": "Veličina Spremnika",
           "sr": "Veličina Okvira",
-          "value": 18
+          "value": 20
         },
         "Firing Mode": {
           "en": "Firing Mode",
@@ -28610,7 +29197,7 @@
       },
       "weightKg": 6,
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-      "updatedAt": "11/12/2025",
+      "updatedAt": "12/16/2025",
       "value": 5000,
       "craftBench": "weapon_bench",
       "upgradeCost": {
@@ -28662,7 +29249,7 @@
           "kr": "탄창 크기",
           "pl": "Pojemność Magazynka",
           "hr": "Veličina Okvira",
-          "value": 22
+          "value": 24
         },
         "Durability": {
           "en": "Durability",
@@ -28793,7 +29380,7 @@
       "stealth": 14,
       "weightKg": 6,
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-      "updatedAt": "11/12/2025",
+      "updatedAt": "12/16/2025",
       "isWeapon": true
     },
     {
@@ -28925,6 +29512,56 @@
       "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png"
     },
     {
+      "id": "red_light_stick_blueprint",
+      "name": {
+        "en": "Red Light Stick Blueprint",
+        "de": "Bauplan: Roter Leuchtstab",
+        "fr": "Schéma de Bâton Lumineux Rouge",
+        "es": "Plano de barra luminosa roja",
+        "pt": "Projeto de bastão luminoso vermelho",
+        "pl": "Projekt czerwonego patyka świetlnego",
+        "no": "Rød lysstav-tegning",
+        "da": "Rød lysstav-tegning",
+        "it": "Progetto bastoncino luminoso rosso",
+        "ru": "Чертёж красной светящейся палочки",
+        "ja": "赤色のグロースティック設計図",
+        "zh-TW": "紅色螢光棒藍圖",
+        "uk": "Креслення червоної світлової палички",
+        "zh-CN": "红色荧光棒蓝图",
+        "kr": "빨간 야광봉 설계도",
+        "tr": "Kırmızı Işık Çubuğu Planı",
+        "hr": "Nacrt za Crvenu Svjetleću Štapić",
+        "sr": "Nacrt za Crvenu Svetleću Štapić"
+      },
+      "description": {
+        "en": "A throwable chemical light that illuminates the area around it.",
+        "de": "Ein werfbares chemisches Licht, das die Umgebung erhellt.",
+        "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
+        "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
+        "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
+        "pl": "Rzucane światło chemiczne, które oświetla obszar wokół niego.",
+        "no": "Et kastbart kjemisk lys som lyser opp området rundt det.",
+        "da": "Et kastbart kemisk lys der oplyser området omkring det.",
+        "it": "Una luce chimica lanciabile che illumina l'area circostante.",
+        "ru": "Бросаемый химический источник света, освещающий область вокруг себя.",
+        "ja": "投擲可能な化学発光体で、周囲のエリアを照らす。",
+        "zh-TW": "可投擲的化學光源，能照亮周圍區域。",
+        "uk": "Хімічне джерело світла, що кидається і освітлює навколишню область.",
+        "zh-CN": "可投掷的化学光源，能照亮周围区域。",
+        "kr": "던질 수 있는 화학 조명으로 주변 지역을 밝힙니다.",
+        "tr": "Etrafındaki alanı aydınlatan fırlatılabilir kimyasal ışık.",
+        "hr": "Kemijsko svjetlo za bacanje koje osvjetljava područje oko sebe.",
+        "sr": "Hemijsko svetlo za bacanje koje osvetljava područje oko sebe."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "stackSize": 1,
+      "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
+      "rarity": "Legendary",
+      "updatedAt": "12/16/2025"
+    },
+    {
       "id": "red_light_stick",
       "name": {
         "en": "Red Light Stick",
@@ -29019,7 +29656,12 @@
         }
       },
       "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
-      "updatedAt": "11/03/2025"
+      "updatedAt": "11/03/2025",
+      "recipe": {
+        "chemicals": 3
+      },
+      "craftBench": "utility_bench",
+      "stationLevelRequired": 1
     },
     {
       "id": "remote_control",
@@ -31378,6 +32020,55 @@
       }
     },
     {
+      "id": "seeker_grenade_blueprint",
+      "name": {
+        "en": "Seeker Grenade Blueprint",
+        "de": "Bauplan: Suchgranate",
+        "fr": "Schéma de Grenade Traqueuse",
+        "es": "Plano de granada rastreadora",
+        "pt": "Projeto de granada rastreadora",
+        "pl": "Projekt granatu naprowadzanego",
+        "no": "Søkergranat-tegning",
+        "da": "Søgergranat-tegning",
+        "it": "Progetto granata cercatrice",
+        "ru": "Чертёж — Самонаводящаяся граната",
+        "ja": "シーカーグレネード設計図",
+        "zh-TW": "追蹤手榴彈藍圖",
+        "uk": "Креслення самонавідної гранати",
+        "zh-CN": "追踪手榴弹蓝图",
+        "kr": "추적 수류탄 설계도",
+        "tr": "İzleyici Bomba Planı",
+        "hr": "Nacrt Tragačke granate",
+        "sr": "Nacrt Tragačke granate"
+      },
+      "description": {
+        "en": "Unlocks the crafting blueprint for the Seeker Grenade.",
+        "de": "Schaltet den Herstellungsbauplan für die Suchgranate frei.",
+        "fr": "Débloque le schéma de fabrication de la Grenade Traqueuse.",
+        "es": "Desbloquea el plano de fabricación de la granada rastreadora.",
+        "pt": "Desbloqueia o projeto de fabricação da granada rastreadora.",
+        "pl": "Odblokowuje projekt wytwarzania Granatu naprowadzanego.",
+        "no": "Låser opp oppskriften for Søkergranaten.",
+        "da": "Låser opskriften til Søgergranaten op.",
+        "it": "Sblocca il progetto di creazione per la Granata cercatrice.",
+        "ru": "Открывает чертеж для создания Самонаводящейся гранаты.",
+        "ja": "シーカーグレネードのクラフト設計図をアンロックする。",
+        "zh-TW": "解鎖追蹤手榴彈的製作藍圖。",
+        "uk": "Відкриває креслення для створення Самонавідної гранати.",
+        "zh-CN": "解锁追踪手榴弹的制作蓝图。",
+        "kr": "추적 수류탄 제작 설계도를 해금합니다.",
+        "tr": "İzleyici Bomba için üretim planını açar.",
+        "hr": "Otključava nacrt izrade za Tragačku granatu.",
+        "sr": "Otključava nacrt izrade za Tragačku granatu."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
+      "rarity": "Legendary",
+      "updatedAt": "12/17/2025"
+    },
+    {
       "name": {
         "en": "Seeker Grenade",
         "de": "Suchgranate",
@@ -31472,7 +32163,14 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
-      "updatedAt": "11/13/2025"
+      "updatedAt": "11/13/2025",
+      "recipe": {
+        "crude_explosives": 1,
+        "arc_alloy": 2
+      },
+      "craftBench": "explosives_bench",
+      "stationLevelRequired": 1,
+      "blueprintLocked": true
     },
     {
       "id": "sensors",
@@ -31589,6 +32287,57 @@
       "foundIn": "ARC",
       "imageFilename": "https://cdn.arctracker.io/items/sentinel_firing_core.png",
       "updatedAt": "10/30/2025"
+    },
+    {
+      "id": "shaker",
+      "name": {
+        "en": "Shaker",
+        "de": "Shaker",
+        "fr": "Shaker",
+        "es": "Shaker",
+        "pt": "Shaker",
+        "pl": "Shaker",
+        "no": "Shaker",
+        "da": "Shaker",
+        "it": "Shaker",
+        "ru": "Шейкер",
+        "ja": "シェイカー",
+        "zh-TW": "沙鈴",
+        "uk": "Шейкер",
+        "zh-CN": "沙铃",
+        "kr": "셰이커",
+        "tr": "Shaker",
+        "hr": "Shaker",
+        "sr": "Shaker"
+      },
+      "description": {
+        "en": "A rhythmic instrument used to attract ARC's attention, and impress other Raiders.",
+        "de": "Ein rhythmisches Instrument, das die Aufmerksamkeit von ARC anzieht und andere Raiders beeindruckt.",
+        "fr": "Un instrument rythmique utilisé pour attirer l'attention d'ARC et impressionner les autres Raiders.",
+        "es": "Un instrumento rítmico usado para atraer la atención de ARC e impresionar a otros Raiders.",
+        "pt": "Um instrumento rítmico usado para atrair a atenção de ARC e impressionar outros Raiders.",
+        "pl": "Rytmiczny instrument używany do przyciągnięcia uwagi ARC i zaimponowania innym Raidersom.",
+        "no": "Et rytmisk instrument brukt for å tiltrekke ARCs oppmerksomhet og imponere andre Raiders.",
+        "da": "Et rytmisk instrument brugt til at tiltrække ARCs opmærksomhed og imponere andre Raiders.",
+        "it": "Uno strumento ritmico usato per attirare l'attenzione di ARC e impressionare altri Raiders.",
+        "ru": "Ритмичный инструмент, используемый для привлечения внимания ARC и впечатления других Рейдеров.",
+        "ja": "ARCの注意を引き、他のレイダーを感心させるためのリズム楽器。",
+        "zh-TW": "一種節奏樂器，用於吸引ARC的注意並給其他掠奪者留下深刻印象。",
+        "uk": "Ритмічний інструмент, який використовується для привернення уваги ARC та враження інших Рейдерів.",
+        "zh-CN": "一种节奏乐器，用于吸引ARC的注意并给其他掠夺者留下深刻印象。",
+        "kr": "ARC의 주의를 끌고 다른 레이더들에게 깊은 인상을 주기 위해 사용되는 리듬 악기.",
+        "tr": "ARC'nin dikkatini çekmek ve diğer Akıncıları etkilemek için kullanılan ritmik bir enstrüman.",
+        "hr": "Ritmički instrument koji se koristi za privlačenje pažnje ARC-a i impresioniranje drugih Raidera.",
+        "sr": "Ritmički instrument koji se koristi za privlačenje pažnje ARC-a i impresioniranje drugih Raidera."
+      },
+      "type": "Quick Use",
+      "rarity": "Uncommon",
+      "foundIn": "Residential",
+      "weightKg": 0.2,
+      "stackSize": 1,
+      "value": 1000,
+      "imageFilename": "https://cdn.arctracker.io/items/shaker.png",
+      "updatedAt": "12/16/2025"
     },
     {
       "id": "shield_recharger",
@@ -32609,7 +33358,7 @@
       "id": "shredder_gyro",
       "type": "Recyclable",
       "value": 3000,
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "weightKg": 1,
       "stackSize": 3,
       "foundIn": "ARC",
@@ -33227,6 +33976,7 @@
       "rarity": "Rare",
       "weightKg": 0.3,
       "stackSize": 3,
+      "value": 640,
       "effects": {
         "Duration": {
           "en": "Duration",
@@ -33272,7 +34022,13 @@
         }
       },
       "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade_trap.png",
-      "updatedAt": "11/01/2025"
+      "updatedAt": "12/19/2025",
+      "recipe": {
+        "smoke_grenade": 1,
+        "wires": 1
+      },
+      "craftBench": "workbench",
+      "stationLevelRequired": 1
     },
     {
       "id": "smoke_grenade",
@@ -33693,10 +34449,62 @@
       "foundIn": "ARC"
     },
     {
+      "id": "snowball",
+      "name": {
+        "en": "Snowball",
+        "de": "Schneeball",
+        "fr": "Boule de neige",
+        "es": "Bola de nieve",
+        "pt": "Bola de neve",
+        "pl": "Kula śnieżna",
+        "no": "Snøball",
+        "da": "Snebold",
+        "it": "Palla di neve",
+        "ru": "Снежок",
+        "ja": "雪玉",
+        "zh-TW": "雪球",
+        "uk": "Сніжка",
+        "zh-CN": "雪球",
+        "kr": "눈덩이",
+        "tr": "Kartopu",
+        "hr": "Snježna gruda",
+        "sr": "Snežna grudva"
+      },
+      "description": {
+        "en": "A compact snowball.",
+        "de": "Ein kompakter Schneeball.",
+        "fr": "Une boule de neige compacte.",
+        "es": "Una bola de nieve compacta.",
+        "pt": "Uma bola de neve compacta.",
+        "pl": "Zbita kula śnieżna.",
+        "no": "En kompakt snøball.",
+        "da": "En kompakt snebold.",
+        "it": "Una palla di neve compatta.",
+        "ru": "Плотный снежок.",
+        "ja": "固く握り固めた雪玉。",
+        "zh-TW": "一顆緊實的雪球。",
+        "uk": "Щільно зліплена сніжка.",
+        "zh-CN": "一个紧实的雪球。",
+        "kr": "단단히 뭉친 눈덩이.",
+        "tr": "Sıkıca yapılmış bir kartopu.",
+        "hr": "Zbijena snježna gruda.",
+        "sr": "Zbijena snežna grudva."
+      },
+      "imageFilename": "https://cdn.arctracker.io/items/snowball.png",
+      "rarity": "Common",
+      "type": "Quick Use",
+      "value": 10,
+      "recyclesInto": {},
+      "weightKg": 0.4,
+      "stackSize": 5,
+      "foundIn": "Nature",
+      "updatedAt": "12/17/2025"
+    },
+    {
       "id": "spaceport_container_storage_key",
       "name": {
         "en": "Spaceport Container Storage Key",
-        "de": "Raumhafen-Containerlager-Schlüssel",
+        "de": "Containerlagerschlüssel (Raumhafen)",
         "fr": "Clé de l'entrepôt de conteneurs du spatioport",
         "es": "Llave del almacén de contenedores del espaciopuerto",
         "pt": "Chave do armazém de contêineres do espaçoporto",
@@ -33796,7 +34604,7 @@
       "id": "spaceport_trench_tower_key",
       "name": {
         "en": "Spaceport Trench Tower Key",
-        "de": "Raumhafen-Grabentürme Schlüssel",
+        "de": "Grabenturmschlüssel (Raumhafen)",
         "fr": "Clé de la tour de tranchée du port spatial",
         "es": "Llave de la torre de trincheras del espaciopuerto",
         "pt": "Chave da torre de trincheiras do espaçoporto",
@@ -33845,7 +34653,7 @@
       "id": "spaceport_warehouse_key",
       "name": {
         "en": "Spaceport Warehouse Key",
-        "de": "Raumhafen-Lagerhaus-Schlüssel",
+        "de": "Lagerhausschlüssel (Raumhafen)",
         "fr": "Clé de l'entrepôt du port spatial",
         "es": "Llave del almacén del espaciopuerto",
         "pt": "Chave do armazém do espaçoporto",
@@ -33865,7 +34673,7 @@
       },
       "description": {
         "en": "A key to a warehouse in the Spaceport.",
-        "de": "Ein Schlüssel zu einem Lagerhaus im Raumhafen.",
+        "de": "Öffnet eine Tür im Versandlager im Raumhafen.",
         "fr": "Déverrouille une porte de l'entrepôt d'expédition dans le port spatial.",
         "es": "Una llave de un almacén en el espaciopuerto.",
         "pt": "Uma chave para um armazém no espaçoporto.",
@@ -34890,7 +35698,7 @@
         "zh-CN": "星山医疗储藏室钥匙",
         "kr": "스텔라 몬티스 의료 창고 열쇠",
         "hr": "Ključ Medicinskog Skladišta Stella Montis",
-        "de": "Stella Montis Medizinlager-Schlüssel",
+        "de": "Schlüssel zum medizinischen Lagerraum in Stella Montis",
         "ru": "Ключ от медицинского склада Стелла Монтис",
         "es": "Llave del Almacén Médico de Stella Montis",
         "zh-TW": "星山醫療儲藏室鑰匙",
@@ -34910,7 +35718,7 @@
         "zh-CN": "解锁星山档案室的一扇门",
         "kr": "스텔라 몬티스 기록보관소의 문을 엽니다",
         "hr": "Otključava vrata u Arhivima u Stella Montis",
-        "de": "Öffnet eine Tür im Archiv in Stella Montis",
+        "de": "Öffnet eine Tür in der medizinischen Forschungseinrichtung in Stella Montis",
         "ru": "Открывает дверь в архиве в Стелла Монтис",
         "es": "Desbloquea una puerta en los Archivos en Stella Montis",
         "zh-TW": "解鎖星山檔案室的一扇門",
@@ -36033,7 +36841,7 @@
         "en": "Surveyor Vault",
         "de": "Beobachtertresor",
         "fr": "Coffre de l'Arpenteur",
-        "es": "Bóveda del Topógrafo",
+        "es": "Depósito de Vigilante",
         "pt": "Cofre de Inspetor",
         "pl": "Skarbiec Geodety",
         "no": "Landmåler-hvelv",
@@ -38070,7 +38878,7 @@
         "en": "Toaster",
         "de": "Toaster",
         "fr": "Grille-pain",
-        "es": "Tostadora",
+        "es": "Tostador",
         "pt": "Torradeira",
         "pl": "Toster",
         "no": "Brødrister",
@@ -39003,6 +39811,55 @@
       "isWeapon": true
     },
     {
+      "id": "trailblazer_blueprint",
+      "name": {
+        "en": "Trailblazer Blueprint",
+        "de": "Bauplan: Trailblazer",
+        "fr": "Schéma de Trailblazer",
+        "es": "Plano de Trailblazer",
+        "pt": "Projeto de Trailblazer",
+        "pl": "Projekt Trailblazera",
+        "no": "Trailblazer-tegning",
+        "da": "Trailblazer-tegning",
+        "it": "Progetto Trailblazer",
+        "ru": "Чертёж — Trailblazer",
+        "ja": "トレイルブレイザー設計図",
+        "zh-TW": "開拓者藍圖",
+        "uk": "Креслення Trailblazer",
+        "zh-CN": "开拓者蓝图",
+        "kr": "트레일블레이저 설계도",
+        "tr": "Trailblazer Planı",
+        "hr": "Nacrt Trailblazera",
+        "sr": "Nacrt Trailblazera"
+      },
+      "description": {
+        "en": "Unlocks the crafting blueprint for the Trailblazer.",
+        "de": "Schaltet den Herstellungsbauplan für den Trailblazer frei.",
+        "fr": "Débloque le schéma de fabrication de Trailblazer.",
+        "es": "Desbloquea el plano de fabricación de Trailblazer.",
+        "pt": "Desbloqueia o projeto de fabricação de Trailblazer.",
+        "pl": "Odblokowuje projekt wytwarzania Trailblazera.",
+        "no": "Låser opp oppskriften for Trailblazer.",
+        "da": "Låser opskriften til Trailblazer op.",
+        "it": "Sblocca il progetto di creazione per Trailblazer.",
+        "ru": "Открывает чертеж для создания Trailblazer.",
+        "ja": "トレイルブレイザーのクラフト設計図をアンロックする。",
+        "zh-TW": "解鎖開拓者的製作藍圖。",
+        "uk": "Відкриває креслення для створення Trailblazer.",
+        "zh-CN": "解锁开拓者的制作蓝图。",
+        "kr": "트레일블레이저 제작 설계도를 해금합니다.",
+        "tr": "Trailblazer için üretim planını açar.",
+        "hr": "Otključava nacrt izrade za Trailblazer.",
+        "sr": "Otključava nacrt izrade za Trailblazer."
+      },
+      "type": "Blueprint",
+      "value": 5000,
+      "weightKg": 0,
+      "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
+      "rarity": "Legendary",
+      "updatedAt": "12/17/2025"
+    },
+    {
       "name": {
         "en": "Trailblazer",
         "de": "Trailblazer",
@@ -39049,6 +39906,12 @@
       "rarity": "Rare",
       "weightKg": 1,
       "stackSize": 3,
+      "recipe": {
+        "synthesized_fuel": 1,
+        "explosive_compound": 1
+      },
+      "craftBench": "explosives_bench",
+      "stationLevelRequired": 3,
       "effects": {
         "Damage": {
           "en": "Damage",
@@ -39144,6 +40007,7 @@
       "type": "Blueprint",
       "value": 5000,
       "weightKg": 0,
+      "stackSize": 1,
       "rarity": "Legendary",
       "imageFilename": "https://cdn.arctracker.io/items/trigger_nade_blueprint.png",
       "updatedAt": "11/12/2025"
@@ -39487,7 +40351,7 @@
       },
       "description": {
         "en": "Semi-automatic pistol. Fires two shots at a time.",
-        "de": "Halbautomatische Pistole. Feuert zwei Schüsse gleichzeitig ab.",
+        "de": "Feuert zwei Schüsse gleichzeitig.",
         "fr": "Pistolet semi-automatique. Tire deux coups à la fois.",
         "es": "Pistola semiautomática. Dispara dos tiros a la vez.",
         "pt": "Pistola semiautomática. Dispara dois tiros de cada vez.",
@@ -39676,7 +40540,7 @@
       },
       "description": {
         "en": "Semi-automatic pistol. Fires two shots at a time.",
-        "de": "Halbautomatische Pistole. Feuert zwei Schüsse gleichzeitig ab.",
+        "de": "Feuert zwei Schüsse gleichzeitig.",
         "fr": "Pistolet semi-automatique. Tire deux coups à la fois.",
         "es": "Pistola semiautomática. Dispara dos tiros a la vez.",
         "pt": "Pistola semiautomática. Dispara dois tiros de cada vez.",
@@ -39905,7 +40769,7 @@
       },
       "description": {
         "en": "Semi-automatic pistol. Fires two shots at a time.",
-        "de": "Halbautomatische Pistole. Feuert zwei Schüsse gleichzeitig ab.",
+        "de": "Feuert zwei Schüsse gleichzeitig.",
         "fr": "Pistolet semi-automatique. Tire deux coups à la fois.",
         "es": "Pistola semiautomática. Dispara dos tiros a la vez.",
         "pt": "Pistola semiautomática. Dispara dois tiros de cada vez.",
@@ -40134,7 +40998,7 @@
       },
       "description": {
         "en": "Semi-automatic pistol. Fires two shots at a time.",
-        "de": "Halbautomatische Pistole. Feuert zwei Schüsse gleichzeitig ab.",
+        "de": "Feuert zwei Schüsse gleichzeitig.",
         "fr": "Pistolet semi-automatique. Tire deux coups à la fois.",
         "es": "Pistola semiautomática. Dispara dos tiros a la vez.",
         "pt": "Pistola semiautomática. Dispara dois tiros de cada vez.",
@@ -40440,7 +41304,7 @@
       },
       "description": {
         "en": "Moderately reduces vertical recoil. Compatible with: Arpeggio, Ferro, Venator, Il Toro, Stitcher",
-        "de": "Verringert den vertikalen Ruckstoss moderat. Kompatibel mit: Arpeggio, Ferro, Venator, Il Toro, Stitcher",
+        "de": "Verringert den vertikalen Ruckstoß moderat.",
         "fr": "Reduit moderement le recul vertical. Compatible avec : Arpege, Ferro, Venator, Il Toro, Sutureur",
         "es": "Reduce moderadamente el retroceso vertical. Compatible con: Arpeggio, Ferro, Venator, Il Toro, Costurero",
         "pt": "Reduz moderadamente o recuo vertical. Compativel com: Arpeggio, Ferro, Venator, Il Toro, Stitcher",
@@ -40462,6 +41326,7 @@
       "rarity": "Legendary",
       "value": 5000,
       "weightKg": 0,
+      "stackSize": 1,
       "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_ii.png",
       "updatedAt": "12/07/2025"
     },
@@ -40579,7 +41444,7 @@
       },
       "description": {
         "en": "Significantly reduces vertical recoil.",
-        "de": "Verringert den vertikalen Rückstoß erheblich. Kompatibel mit: Tempest, Kettle, Hullcracker, Venator, Il Toro",
+        "de": "Verringert den vertikalen Rückstoß erheblich.",
         "fr": "Réduit considérablement le recul vertical.",
         "es": "Reduce significativamente el retroceso vertical.",
         "pt": "Reduz significativamente o recuo vertical.",
@@ -40599,6 +41464,7 @@
       },
       "type": "Blueprint",
       "value": 5000,
+      "stackSize": 1,
       "weightKg": 0,
       "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii_blueprint.png",
       "rarity": "Legendary",
@@ -40896,7 +41762,7 @@
       },
       "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
       "recipe": {
-        "antiseptic": 1,
+        "antiseptic": 2,
         "syringe": 1
       },
       "recyclesInto": {
@@ -41283,7 +42149,7 @@
       },
       "description": {
         "en": "Semi-automatic shotgun with good bullet spread but sharp falloff",
-        "de": "Halbautomatische Schrotflinte mit guter Streuung, aber starkem Abfall.",
+        "de": "Hat eine gute Streuung, aber eine geringe Reichweite.",
         "fr": "Fusil à pompe semi-automatique avec une bonne dispersion mais une chute brutale.",
         "es": "Escopeta semiautomática con buena dispersión pero caída pronunciada.",
         "pt": "Espingarda semiautomática com boa dispersão mas queda acentuada.",
@@ -41461,7 +42327,7 @@
       },
       "description": {
         "en": "Semi-automatic shotgun with good bullet spread but sharp falloff",
-        "de": "Hat gute Streuung, aber starken Abfall.",
+        "de": "Hat eine gute Streuung, aber eine geringe Reichweite.",
         "fr": "A une bonne dispersion mais une chute brutale.",
         "es": "Tiene buena dispersión pero caída pronunciada.",
         "pt": "Tem boa dispersão mas queda acentuada.",
@@ -41680,7 +42546,7 @@
       },
       "description": {
         "en": "Semi-automatic shotgun with good bullet spread but sharp falloff",
-        "de": "Hat eine gute Streuung, aber einen starken Abfall.",
+        "de": "Hat eine gute Streuung, aber eine geringe Reichweite.",
         "fr": "A une bonne dispersion des balles mais une chute brutale.",
         "es": "Tiene buena dispersión de balas pero caída brusca.",
         "pt": "Tem boa dispersão de balas, mas queda acentuada.",
@@ -42091,7 +42957,7 @@
       },
       "description": {
         "en": "Semi-automatic shotgun with good bullet spread but sharp falloff",
-        "de": "Halbautomatische Schrotflinte mit guter Streuung, aber starkem Schadensabfall",
+        "de": "Hat eine gute Streuung, aber eine geringe Reichweite.",
         "uk": "Напівавтоматичний дробовик з хорошим розкидом, але різким спадом пошкоджень",
         "ru": "Полуавтоматическое ружьё с хорошим разбросом, но резким спадом урона",
         "zh-TW": "半自動霰彈槍，擴散良好但傷害衰減明顯",
@@ -42242,7 +43108,7 @@
         "zh-TW": "濾水器",
         "uk": "Водяний фільтр",
         "zh-CN": "滤水器",
-        "kr": "정수 필터",
+        "kr": "물 필터",
         "tr": "Su Filtresi",
         "hr": "Filter za Vodu",
         "sr": "Filter za Vodu"
@@ -42575,7 +43441,7 @@
       },
       "description": {
         "en": "A throwable chemical light that illuminates the area around it.",
-        "de": "Ein werfbares chemisches Licht, das die Umgebung erhellt.",
+        "de": "Ein werfbares chemisches Licht, das seine Umgebung erhellt.",
         "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
         "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
         "pt": "Uma luz química arremessável que ilumina a área ao redor.",
