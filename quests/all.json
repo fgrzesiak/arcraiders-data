@@ -113,6 +113,9 @@
       "sr": "Uravnotežena žetva",
       "hr": "Uravnotežena žetva"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "videoUrl": "https://youtu.be/VYI9tJsScmg",
     "description": {
@@ -242,6 +245,12 @@
       "sr": "Bolja Upotreba",
       "hr": "Bolja Uporaba"
     },
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "the_blue_gate",
+      "dam_battlegrounds"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "We're short on everything but mouths to feed, yet Celeste's launching precious supplies into the air for Raiders to claw over. I'm done letting the good stuff go to waste.",
@@ -984,7 +993,7 @@
   },
   {
     "id": "a_toxic_trail",
-    "updatedAt": "12/16/2025",
+    "updatedAt": "12/29/2025",
     "name": {
       "en": "A Toxic Trail",
       "de": "Eine giftige Spur",
@@ -1130,8 +1139,12 @@
       }
     ],
     "xp": 0,
-    "previousQuestIds": [],
-    "nextQuestIds": []
+    "previousQuestIds": [
+      "ss10x14"
+    ],
+    "nextQuestIds": [
+      "ss10x17"
+    ]
   },
   {
     "id": "ss10x8",
@@ -1568,7 +1581,7 @@
   },
   {
     "id": "ss10w",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "12/29/2025",
     "name": {
       "en": "Back on Top",
       "de": "Wieder an der Spitze",
@@ -1857,6 +1870,9 @@
       "sr": "Slomljeni Spomenik",
       "hr": "Slomljeni Spomenik"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "I have another special site I need you to search for me. An old battlegrounds, from the First Wave. Raiders nowadays usually pick places like that clean, despite the significance they once held. People forget quickly. Quicker than they should.",
@@ -2251,6 +2267,9 @@
       "sr": "Celestini Dnevnici",
       "hr": "Celestini Dnevnici"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "Okay, so this is awkward... I lost two of my journals during some outpost inspections last time I went topside. Could you head out there and try to find them back before someone else stumbles on them?",
@@ -2761,7 +2780,7 @@
   },
   {
     "id": "deciphering_the_data",
-    "updatedAt": "12/16/2025",
+    "updatedAt": "12/29/2025",
     "name": {
       "en": "Deciphering the Data",
       "zh-CN": "破译数据",
@@ -2871,9 +2890,11 @@
     ],
     "xp": 0,
     "previousQuestIds": [
-      "a_toxic_trail"
+      "paving_the_way"
     ],
-    "nextQuestIds": []
+    "nextQuestIds": [
+      "groundbreaking"
+    ]
   },
   {
     "id": "ss10x16",
@@ -3172,6 +3193,11 @@
       "sr": "Uspavani Baroni",
       "hr": "Uspavani Baroni"
     },
+    "map": [
+      "the_spaceport",
+      "dam_battlegrounds",
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "description": {
       "en": "During the First Wave, the Barons did more damage than all the other machines combined. Now they're mere husks; fixed in place where they once fell... Still, their internals might hold the answer to keeping ARC at bay. So open one up, and bring me whatever is inside.",
@@ -3257,6 +3283,11 @@
       "sr": "Spuštanje na Zemlju",
       "hr": "Spuštanje na Zemlju"
     },
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "dam_battlegrounds"
+    ],
     "trader": "Shani",
     "description": {
       "de": "Raider berichten schon lange von seltsam aussehenden Kisten, die aus defekten ARC-Sondern fallen. Wenn wir die irgendwie öffnen könnten, verstehen wir vielleicht, wonach sie suchen."
@@ -3370,6 +3401,9 @@
       "sr": "Odjeci Pobedničkog grebena",
       "hr": "Odjeci Pobjedničkog grebena"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "Did you feel any tremors last night? Me neither. But apparently the ground shifted at some point, and in the process it unearthed an old First Wave outpost that'd been blocked by debris. I'd like you to get in there quick, before anyone else does.",
@@ -3606,9 +3640,9 @@
       "hr": "Oči na nebu"
     },
     "map": [
-      "dam_battlegrounds",
+      "buried_city",
       "the_spaceport",
-      "buried_city"
+      "dam_battlegrounds"
     ],
     "trader": "Shani",
     "description": {
@@ -3814,7 +3848,7 @@
     ],
     "requiredItemIds": [
       {
-        "itemId": "wire",
+        "itemId": "wires",
         "quantity": 3
       }
     ],
@@ -3859,6 +3893,9 @@
       "sr": "Treperава Pretnja",
       "hr": "Treperава Prijetnja"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "My usual engineer is still healing from his wounds, and has been loopy for days. We can't afford to be at half-grid until he heals; I need someone to pick up his wrench in the mean time.",
@@ -4489,6 +4526,9 @@
       "sr": "Industrijska Špijunaža",
       "hr": "Industrijska Špijunaža"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "With my own stashes secured, I think it might be time to keep a closer eye on the competition so this doesn't happen again.",
@@ -4602,7 +4642,7 @@
   },
   {
     "id": "ss10x5",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "12/29/2025",
     "name": {
       "en": "Into the Fray",
       "de": "Mitten ins Gefecht",
@@ -4715,7 +4755,9 @@
       "ss10x4",
       "ss11b2"
     ],
-    "nextQuestIds": []
+    "nextQuestIds": [
+      "paving_the_way"
+    ]
   },
   {
     "id": "ss10o",
@@ -4740,6 +4782,9 @@
       "sr": "Čuvanje Uspomene",
       "hr": "Čuvanje Uspomene"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "I lost my cool a bit when I sent you after that trap. I don't usually lose my temper, but the First Wave... We went through a lot, back then. Lost a lot of people. It's still a bit of a raw wound for me, but I want you to understand.",
@@ -4847,7 +4892,7 @@
   },
   {
     "id": "ss10x14",
-    "updatedAt": "11/06/2025",
+    "updatedAt": "12/29/2025",
     "name": {
       "en": "Life of a Pharmacist",
       "de": "Leben eines Apothekers",
@@ -4868,6 +4913,9 @@
       "sr": "Život farmaceuta",
       "hr": "Život farmaceuta"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Lance",
     "description": {
       "en": "This place could use a makeover, but I don't want it looking like your raggedy Raider Dens. See if you can find out how my fellow medical greats used to live.",
@@ -5010,7 +5058,8 @@
       "ss10x13"
     ],
     "nextQuestIds": [
-      "ss10x15"
+      "ss10x15",
+      "a_toxic_trail"
     ]
   },
   {
@@ -5292,6 +5341,9 @@
       "sr": "Tržišna Korekcija",
       "hr": "Tržišna Korekcija"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "That theft before? Doesn't look like a coincidence anymore. Some of the competition from Toledo is setting up shop where they don't belong. I want their cache sabotaged, preferably before they get too comfortable.",
@@ -5533,6 +5585,12 @@
       "sr": "Mešoviti Signali",
       "hr": "Miješani Signali"
     },
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "the_blue_gate",
+      "dam_battlegrounds"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "Have you spotted any Surveyors; the big round ones? They seem to be transmitting data back into orbit, and I can't help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?",
@@ -5651,6 +5709,11 @@
       "sr": "Van Radara",
       "hr": "Izvan Radara"
     },
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "dam_battlegrounds"
+    ],
     "trader": "Shani",
     "description": {
       "de": "Der Schaden hier unten war ziemlich übel, aber die Infrastruktur oben hat es noch schlimmer erwischt. Ich hab noch einige Antennen, die seit dem Sturm nicht mehr funktionieren."
@@ -5741,6 +5804,9 @@
       "sr": "Naše Prisustvo Tamo Gore",
       "hr": "Naša Prisutnost Tamo Gore"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Shani",
     "videoUrl": "https://youtu.be/FNe2C3gde68",
     "description": {
@@ -5870,6 +5936,12 @@
       "sr": "Iz Senki",
       "hr": "Iz Sjene"
     },
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "the_blue_gate",
+      "dam_battlegrounds"
+    ],
     "trader": "Shani",
     "description": {
       "en": "Did you see the flags? The time for cowering is over. You've been more than battle-tested, from what I hear; think you can take on a Rocketeer?",
@@ -5967,7 +6039,7 @@
   },
   {
     "id": "paving_the_way",
-    "updatedAt": "12/16/2025",
+    "updatedAt": "12/29/2025",
     "name": {
       "en": "Paving the Way",
       "de": "Den Weg ebnen",
@@ -6111,8 +6183,12 @@
       }
     ],
     "xp": 0,
-    "previousQuestIds": [],
-    "nextQuestIds": []
+    "previousQuestIds": [
+      "ss10x5"
+    ],
+    "nextQuestIds": [
+      "deciphering_the_data"
+    ]
   },
   {
     "id": "ss1",
@@ -6522,6 +6598,9 @@
       "sr": "Svedeno na Ruševine",
       "hr": "Svedeno na Ruševine"
     },
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "description": {
       "en": "That collapsed highway worries me; it looks to be recent. Much of Topside may be in ruins, but most of it is from ages ago.",
@@ -6921,6 +7000,9 @@
       "sr": "Izvor Kontaminacije",
       "hr": "Izvor Kontaminacije"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "I'm not saying our water's been tampered with, but based on your samples, I can't rule out the possibility either. Would you return to the Dam and see what's wrong?",
@@ -7538,6 +7620,46 @@
         "zh-TW": "在藍色之門，前往維修地堡",
         "sr": "Na Blue Gate, poseti Bunker za održavanje",
         "hr": "Na Blue Gate, posjeti Bunker za održavanje"
+      },
+      {
+        "en": "Monitor the Purification System in the bunker",
+        "de": "Überwache das Reinigungssystem im Bunker",
+        "fr": "Surveillez le système de purification dans le bunker",
+        "es": "Supervisa el sistema de purificación en el búnker",
+        "pt": "Monitore o sistema de purificação no bunker",
+        "pl": "Monitoruj system oczyszczania w bunkrze",
+        "no": "Overvåk rensesystemet i bunkeren",
+        "da": "Overvåg rensningssystemet i bunkeren",
+        "it": "Monitora il sistema di purificazione nel bunker",
+        "uk": "Відстежуйте систему очищення в бункері",
+        "kr": "벙커에서 정화 시스템을 모니터링하세요",
+        "ru": "Отслеживайте систему очистки в бункере",
+        "zh-CN": "在地堡中监控净化系统",
+        "ja": "バンカー内の浄化システムを監視する",
+        "tr": "Sığınakta Arıtma Sistemini izle",
+        "zh-TW": "在地堡中監控淨化系統",
+        "sr": "Nadgledaj sistem za prečišćavanje u bunkeru",
+        "hr": "Nadgledaj sustav pročišćavanja u bunkeru"
+      },
+      {
+        "en": "Find and photograph the blueprints in the bunker",
+        "de": "Finde und fotografiere die Baupläne im Bunker",
+        "fr": "Trouvez et photographiez les plans dans le bunker",
+        "es": "Encuentra y fotografía los planos en el búnker",
+        "pt": "Encontre e fotografe as plantas no bunker",
+        "pl": "Znajdź i sfotografuj plany w bunkrze",
+        "no": "Finn og fotografer tegningene i bunkeren",
+        "da": "Find og fotografer tegningerne i bunkeren",
+        "it": "Trova e fotografa i progetti nel bunker",
+        "uk": "Знайдіть і сфотографуйте креслення в бункері",
+        "kr": "벙커에서 설계도를 찾아 사진을 찍으세요",
+        "ru": "Найдите и сфотографируйте чертежи в бункере",
+        "zh-CN": "在地堡中找到并拍摄蓝图",
+        "ja": "バンカー内で設計図を見つけて撮影する",
+        "tr": "Sığınakta planları bul ve fotoğrafla",
+        "zh-TW": "在地堡中找到並拍攝藍圖",
+        "sr": "Pronađi i fotografiši nacrte u bunkeru",
+        "hr": "Pronađi i fotografiraj nacrte u bunkeru"
       }
     ],
     "grantedItemIds": [
@@ -7589,6 +7711,9 @@
       "sr": "Majorov sanduk",
       "hr": "Majorov sanduk"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Tian Wen",
     "description": {
       "en": "I have another job. It's.. about my mom. Those First Wave sites I sent you to before? I actually hoped you'd find something of my mother's. She fought in the Raider resistance. It was a long shot; but now I've got an actual lead.",
@@ -7831,6 +7956,9 @@
       "zh-CN": "问题的根源",
       "sr": "Корен проблема"
     },
+    "map": [
+      "buried_city"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "We're in luck. The notes you found last time were written by the lead researcher. When the project went under, it seems she took some of the seed samples and sealed them away in a secure location.",
@@ -8133,6 +8261,12 @@
       "sr": "Trifekta",
       "hr": "Trifekta"
     },
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "the_blue_gate",
+      "dam_battlegrounds"
+    ],
     "trader": "Shani",
     "description": {
       "en": "Intel's all well and good, but it only gets us so far. If ARC's truly closing in, I need every Raider to prove they can handle their drones in a fight.",
@@ -8553,6 +8687,9 @@
       "sr": "Preokret",
       "hr": "Preokret"
     },
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "I got a plan. If we recover the evidence against the OTTM before they get to it, we might get them off our backs once and for all.",
@@ -8863,6 +9000,9 @@
       "sr": "Neobrađena bašta",
       "hr": "Neobrađeni vrt"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "According to the files you found in the lab, the cultivation researchers were actually the ones who set up the hydroponic domes out in the swamp. Sounds like the most obvious place to search next, don't you think?",
@@ -8991,6 +9131,9 @@
       "zh-CN": "水源问题",
       "sr": "Проблеми са водом"
     },
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Celeste",
     "description": {
       "en": "If you're here to complain about the water, join the club. I've been fielding complaints all day. Something is definitely up with it, and I need some help to sort it out.",
@@ -9216,9 +9359,9 @@
       "hr": "Što Smo Ostavili"
     },
     "map": [
-      "dam_battlegrounds",
+      "buried_city",
       "the_spaceport",
-      "buried_city"
+      "dam_battlegrounds"
     ],
     "trader": "Tian Wen",
     "description": {
@@ -9348,6 +9491,9 @@
       "sr": "Sa tragom",
       "hr": "Sa tragom"
     },
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "description": {
       "en": "That downed machine... We weren't the ones who did that. We know that there are stray survivors out there, but this? This goes far beyond a single person.",
