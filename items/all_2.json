@@ -19,7 +19,9 @@
       "ja": "戦闘MK3（回り込み）",
       "kr": "전투 마크 3 (측면기동)",
       "pt": "Combate Mk. 3 (Flanqueamento)",
-      "es": "Combate Ver. 3 (Flanqueo)"
+      "es": "Combate Ver. 3 (Flanqueo)",
+      "pt-BR": "Combate Mk. 3 (Flanqueamento)",
+      "he": "Combat Mk. 3 (איגוף)"
     },
     "description": {
       "en": "An improved version of the Combat II augment. Designed for flanking maneuvers with enhanced mobility.",
@@ -39,7 +41,9 @@
       "ja": "コンバット II オーグメントの改良版。機動性が向上したフランキング作戦用に設計されています。",
       "kr": "전투 II 증강의 개선된 버전입니다. 향상된 기동성으로 측면 기동을 위해 설계되었습니다.",
       "pt": "Uma versao melhorada do aumento Combate II. Projetada para manobras de flanqueamento com mobilidade aprimorada.",
-      "es": "Una version mejorada del aumento Combate II. Disenada para maniobras de flanqueo con movilidad mejorada."
+      "es": "Una version mejorada del aumento Combate II. Disenada para maniobras de flanqueo con movilidad mejorada.",
+      "pt-BR": "Uma versão aprimorada do aprimoramento de Combate II. Projetada para manobras de flanqueamento com mobilidade aprimorada.",
+      "he": "גרסה משופרת של תוסף ה-Combat II. מיועדת לתמרוני איגוף עם ניידות משופרת."
     },
     "type": "Augment",
     "rarity": "Epic",
@@ -63,7 +67,9 @@
         "kr": "체력 재생",
         "pt": "Regeneracao de Saude",
         "es": "Regeneracion de Salud",
-        "value": "Restores 2 health every 5 seconds. When damage is taken the effect is paused for 30 seconds."
+        "value": "Restores 2 health every 5 seconds. When damage is taken the effect is paused for 30 seconds.",
+        "pt-BR": "Regeneração de Saúde",
+        "he": "חידוש בריאות"
       },
       "Backpack Slots": {
         "en": "Backpack Slots",
@@ -84,7 +90,9 @@
         "kr": "배낭 슬롯",
         "pt": "Espacos de Mochila",
         "es": "Espacios de Mochila",
-        "value": 18
+        "value": 18,
+        "pt-BR": "Slots da Mochila",
+        "he": "חריצי תרמיל"
       },
       "Safe Pocket Slots": {
         "en": "Safe Pocket Slots",
@@ -105,7 +113,9 @@
         "kr": "안전 포켓 슬롯",
         "pt": "Espacos de Bolso Seguro",
         "es": "Espacios de Bolsillo Seguro",
-        "value": 1
+        "value": 1,
+        "pt-BR": "Slots do Bolso Seguro",
+        "he": "חריצי כיס בטוח"
       },
       "Quick Use Slots": {
         "en": "Quick Use Slots",
@@ -126,7 +136,9 @@
         "kr": "빠른 사용 슬롯",
         "pt": "Espacos de Uso Rapido",
         "es": "Espacios de Uso Rapido",
-        "value": 4
+        "value": 4,
+        "pt-BR": "Slots de Uso Rápido",
+        "he": "חריצי שימוש מהיר"
       },
       "Weapon Slots": {
         "en": "Weapon Slots",
@@ -147,7 +159,9 @@
         "kr": "무기 슬롯",
         "pt": "Espacos de Armas",
         "es": "Espacios de Armas",
-        "value": 2
+        "value": 2,
+        "pt-BR": "Slots de Arma",
+        "he": "חריצי נשק"
       },
       "Grenade Use Slots": {
         "en": "Grenade Use Slots",
@@ -168,7 +182,9 @@
         "kr": "수류탄 사용 슬롯",
         "pt": "Espacos de Uso de Granadas",
         "es": "Espacios de Uso de Granadas",
-        "value": 2
+        "value": 2,
+        "pt-BR": "Slots de Uso de Granadas",
+        "he": "חריצי רימונים"
       },
       "Weight Limit": {
         "en": "Weight Limit",
@@ -189,7 +205,9 @@
         "kr": "무게 제한",
         "pt": "Limite de Peso",
         "es": "Limite de Peso",
-        "value": 65
+        "value": 65,
+        "pt-BR": "Limite de Peso",
+        "he": "מגבלת משקל"
       },
       "Shield Compatibility": {
         "en": "Shield Compatibility",
@@ -210,7 +228,9 @@
         "kr": "실드 호환성",
         "pt": "Compatibilidade de Escudo",
         "es": "Compatibilidad de Escudo",
-        "value": "Light, Medium, Heavy"
+        "value": "Light, Medium, Heavy",
+        "pt-BR": "Compatibilidade de Escudo",
+        "he": "תאימות מגן"
       }
     },
     "weightKg": 5,
@@ -254,7 +274,9 @@
       "kr": "보정기 I",
       "tr": "Kompansatör I",
       "hr": "Kompenzator I",
-      "sr": "Kompenzator I"
+      "sr": "Kompenzator I",
+      "pt-BR": "Compensador I",
+      "he": "מפצה I"
     },
     "description": {
       "en": "Slightly reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
@@ -274,7 +296,9 @@
       "kr": "발사당 분산도를 약간 감소시킵니다. 호환 무기: 아르페지오, 페로, 레니게이드, 앤빌, 스티처",
       "tr": "Atış başına dağılımı hafifçe azaltır. Uyumlu silahlar: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
       "hr": "Blago smanjuje raspršenje po hicu. Kompatibilno s: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "sr": "Blago smanjuje rasipanje po hicu. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+      "sr": "Blago smanjuje rasipanje po hicu. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
+      "pt-BR": "Reduz de maneira sutil a dispersão por disparo. Compatível com: Arpeggio, Bettina, Ferro, Renegado, Bigorna",
+      "he": "מפחית מעט את הפיזור בכל ירייה. תואם ל: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
     },
     "type": "Modification",
     "rarity": "Common",
@@ -322,7 +346,9 @@
         "tr": "Atış Başına Dağılım Azaltma",
         "hr": "Smanjeno Raspršenje po Hicu",
         "sr": "Smanjeno Rasipanje po Hicu",
-        "value": "20%"
+        "value": "20%",
+        "pt-BR": "Redução na Dispersão por Disparo",
+        "he": "פיזור מופחת בכל ירייה"
       },
       "Reduced Max Shot Dispersion": {
         "en": "Reduced Max Shot Dispersion",
@@ -343,7 +369,9 @@
         "tr": "Maksimum Atış Dağılımı Azaltma",
         "hr": "Smanjeno Maks. Raspršenje Hica",
         "sr": "Smanjeno Maks. Rasipanje Hica",
-        "value": "10%"
+        "value": "10%",
+        "pt-BR": "Redução na Dispersão do máximo de Disparos",
+        "he": "פיזור ירי מרבי מופחת"
       }
     },
     "updatedAt": "10/30/2025",
@@ -373,7 +401,9 @@
       "kr": "보정기 II 설계도",
       "tr": "Kompansatör II Planı",
       "hr": "Nacrt za Kompenzator II",
-      "sr": "Nacrt za Kompenzator II"
+      "sr": "Nacrt za Kompenzator II",
+      "pt-BR": "Diagrama de Compensador II",
+      "he": "שרטוט מפצה סטייה II"
     },
     "description": {
       "en": "Moderately reduces per-shot dispersion.",
@@ -393,7 +423,9 @@
       "kr": "발사당 분산을 적당히 감소시킵니다.",
       "tr": "Atış başına dağılımı orta düzeyde azaltır.",
       "hr": "Umjereno smanjuje rasipanje po hicu.",
-      "sr": "Umereno smanjuje rasipanje po hicu."
+      "sr": "Umereno smanjuje rasipanje po hicu.",
+      "pt-BR": "Reduz moderadamente a dispersão por disparo.",
+      "he": "מפחית באופן בינוני את פיזור הירי."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -422,7 +454,9 @@
       "kr": "보정기 II",
       "tr": "Kompansatör II",
       "hr": "Kompenzator II",
-      "sr": "Kompenzator II"
+      "sr": "Kompenzator II",
+      "pt-BR": "Compensador II",
+      "he": "מפצה סטייה II"
     },
     "description": {
       "en": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
@@ -442,7 +476,9 @@
       "kr": "발사당 분산도를 적당히 감소시킵니다. 호환 무기: 아르페지오, 페로, 레니게이드, 앤빌, 스티처",
       "tr": "Atış başına dağılmayı orta düzeyde azaltır. Uyumlu: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
       "hr": "Umjereno smanjuje raspršenje po pucnju. Kompatibilno s: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "sr": "Umereno smanjuje raspršenje po pucnju. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+      "sr": "Umereno smanjuje raspršenje po pucnju. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
+      "pt-BR": "Reduz moderadamente a dispersão por disparo. Compatível com: Arpeggio, Bettina, Ferro, Renegado, Bigorna",
+      "he": "מפחית באופן בינוני את פיזור הירי. תואם ל: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
     },
     "type": "Modification",
     "value": 2000,
@@ -468,7 +504,9 @@
         "tr": "Azaltılmış Atış Başına Dağılma",
         "hr": "Smanjeno Raspršenje po Pucnju",
         "sr": "Smanjeno Raspršenje po Pucnju",
-        "value": "40%"
+        "value": "40%",
+        "pt-BR": "Redução na Dispersão por Disparo",
+        "he": "פיזור לכל ירייה מופחת"
       },
       "Reduced Max Shot Dispersion": {
         "en": "Reduced Max Shot Dispersion",
@@ -489,7 +527,9 @@
         "tr": "Azaltılmış Maksimum Atış Dağılması",
         "hr": "Smanjeno Maksimalno Raspršenje Pucnja",
         "sr": "Smanjeno Maksimalno Raspršenje Pucnja",
-        "value": "20%"
+        "value": "20%",
+        "pt-BR": "Redução na Dispersão do máximo de Disparos",
+        "he": "פיזור ירי מרבי מופחת"
       }
     },
     "recyclesInto": {
@@ -531,7 +571,9 @@
       "kr": "보정기 III 설계도",
       "tr": "Kompansator III Plani",
       "hr": "Kompenzator III Nacrt",
-      "sr": "Kompenzator III Nacrt"
+      "sr": "Kompenzator III Nacrt",
+      "pt-BR": "Diagrama de Compensador III",
+      "he": "שרטוט מפצה סטייה III"
     },
     "description": {
       "en": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
@@ -551,7 +593,9 @@
       "kr": "발사당 분산도를 적당히 감소시킵니다. 호환 무기: 아르페지오, 페로, 레니게이드, 앤빌, 스티처",
       "tr": "Atis basina dagilmayi orta duzeyde azaltir. Uyumlu: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
       "hr": "Umjereno smanjuje rasprsenje po pucnju. Kompatibilno s: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "sr": "Umereno smanjuje rasprsenje po pucnju. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+      "sr": "Umereno smanjuje rasprsenje po pucnju. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
+      "pt-BR": "Reduz moderadamente a dispersão por disparo. Compatível com: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
+      "he": "מפחית באופן בינוני את פיזור הירי. תואם ל: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -580,7 +624,9 @@
       "kr": "보정기 III",
       "tr": "Kompansatör III",
       "hr": "Kompenzator III",
-      "sr": "Kompenzator III"
+      "sr": "Kompenzator III",
+      "pt-BR": "Compensador III",
+      "he": "מפצה סטייה III"
     },
     "description": {
       "en": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
@@ -600,7 +646,9 @@
       "kr": "발사당 분산도를 적당히 감소시킵니다. 호환 무기: 아르페지오, 페로, 레니게이드, 앤빌, 스티처",
       "tr": "Atış başına dağılmayı orta düzeyde azaltır. Uyumlu: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
       "hr": "Umjereno smanjuje raspršenje po pucnju. Kompatibilno s: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "sr": "Umereno smanjuje raspršenje po pucnju. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+      "sr": "Umereno smanjuje raspršenje po pucnju. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
+      "pt-BR": "Reduz moderadamente a dispersão por disparo. Compatível com: Arpeggio, Bettina, Ferro, Renegado, Bigorna",
+      "he": "מפחית באופן בינוני את פיזור הירי. תואם ל: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
     },
     "type": "Modification",
     "value": 5000,
@@ -626,7 +674,9 @@
         "tr": "Azaltılmış Atış Başına Dağılma",
         "hr": "Smanjeno Raspršenje po Pucnju",
         "sr": "Smanjeno Raspršenje po Pucnju",
-        "value": "60%"
+        "value": "60%",
+        "pt-BR": "Redução na Dispersão por Disparo",
+        "he": "פיזור לכל ירייה מופחת"
       },
       "Reduced Max Shot Dispersion": {
         "en": "Reduced Max Shot Dispersion",
@@ -647,7 +697,9 @@
         "tr": "Azaltılmış Maksimum Atış Dağılması",
         "hr": "Smanjeno Maksimalno Raspršenje Pucnja",
         "sr": "Smanjeno Maksimalno Raspršenje Pucnja",
-        "value": "30%"
+        "value": "30%",
+        "pt-BR": "Redução na Dispersão do máximo de Disparos",
+        "he": "פיזור ירי מרבי מופחת"
       },
       "Increased Durability Burn Rate": {
         "en": "Increased Durability Burn Rate",
@@ -668,7 +720,9 @@
         "tr": "Artırılmış Dayanıklılık Tükenme Oranı",
         "hr": "Povećana stopa trošenja izdržljivosti",
         "sr": "Povećana stopa trošenja izdržljivosti",
-        "value": "20%"
+        "value": "20%",
+        "pt-BR": "Taxa de Desgaste de Durabilidade Aumentada",
+        "he": "קצב שחיקת עמידות מוגבר"
       }
     },
     "recyclesInto": {
@@ -721,7 +775,9 @@
       "kr": "정교한 총기 부품 설계도",
       "tr": "Karmaşık Silah Parçaları Planı",
       "hr": "Nacrt za složene dijelove oružja",
-      "sr": "Nacrt za složene delove oružja"
+      "sr": "Nacrt za složene delove oružja",
+      "pt-BR": "Diagrama de Peças de Arma Complexas",
+      "he": "שרטוט חלקי נשק מורכבים"
     },
     "description": {
       "en": "Used to craft advanced weapons.",
@@ -741,7 +797,9 @@
       "kr": "고급 무기 제작에 사용됩니다.",
       "tr": "Gelişmiş silahlar üretmek için kullanılır.",
       "hr": "Koristi se za izradu naprednog oružja.",
-      "sr": "Koristi se za izradu naprednog oružja."
+      "sr": "Koristi se za izradu naprednog oružja.",
+      "pt-BR": "Usado para fabricar armas avançadas.",
+      "he": "משמש לייצור כלי נשק מתקדמים."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -761,7 +819,7 @@
       "pl": "Złożone części broni",
       "no": "Komplekse våpendeler",
       "da": "Komplekse våbendele",
-      "it": "Parti di arma complesse",
+      "it": "Parti di armi complesse",
       "ru": "Сложные детали оружия",
       "ja": "複雑な銃の部品",
       "zh-TW": "複雜槍械零件",
@@ -770,7 +828,9 @@
       "kr": "정교한 총기 부품",
       "tr": "Karmaşık Silah Parçaları",
       "hr": "Složeni Dijelovi Oružja",
-      "sr": "Složeni Delovi Oružja"
+      "sr": "Složeni Delovi Oružja",
+      "pt-BR": "Peças de Arma Complexas",
+      "he": "חלקי נשק מורכבים"
     },
     "description": {
       "en": "Used to craft advanced weapons. Used to craft: Equalizer, Jupiter",
@@ -781,7 +841,7 @@
       "pl": "Używane do wytwarzania zaawansowanej broni. Używane do wytworzenia: Equalizer, Jupiter",
       "no": "Brukes til å lage avanserte våpen. Brukes til å lage: Equalizer, Jupiter",
       "da": "Bruges til at lave avancerede våben. Bruges til at lave: Equalizer, Jupiter",
-      "it": "Si usa per creare armi avanzate. Si usa per creare: Equalizer, Jupiter",
+      "it": "Si usa per creare armi avanzate. Si usa per creare: Equalizzatore, Aphelion, Giove",
       "ru": "Используется для создания продвинутого оружия. Используется для крафта: Equalizer, Jupiter",
       "ja": "高度な武器の製作に使用。製作可能: Equalizer、Jupiter",
       "zh-TW": "用於製作高級武器。可製作：Equalizer、Jupiter",
@@ -790,7 +850,9 @@
       "kr": "고급 무기 제작에 사용. 제작 가능: 이퀄라이저, 주피터",
       "tr": "Gelişmiş silahlar üretmek için kullanılır. Üretilebilir: Equalizer, Jupiter",
       "hr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Equalizer, Jupiter",
-      "sr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Equalizer, Jupiter"
+      "sr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Equalizer, Jupiter",
+      "pt-BR": "Usado para fabricar armas avançadas. Usado para fabricar: Equalizer, Jupiter",
+      "he": "משמש לייצור כלי נשק מתקדמים. משמש לייצור: Equalizer, Jupiter"
     },
     "type": "Topside Material",
     "rarity": "Epic",
@@ -830,7 +892,9 @@
       "tr": "Soğutucu",
       "uk": "Охолоджувальна рідина",
       "sr": "Rashladna tečnost",
-      "hr": "Rashladna tekućina"
+      "hr": "Rashladna tekućina",
+      "pt-BR": "Refrigerante",
+      "he": "נוזל קירור"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -850,7 +914,9 @@
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для створення.",
       "sr": "Može se reciklirati u materijale za izradu.",
-      "hr": "Može se reciklirati u materijale za izradu."
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "value": 1000,
@@ -888,7 +954,9 @@
       "kr": "냉각 코일",
       "tr": "Soğutma Bobini",
       "hr": "Rashladna zavojnica",
-      "sr": "Rashladna zavojnica"
+      "sr": "Rashladna zavojnica",
+      "pt-BR": "Bobina de Resfriamento",
+      "he": "סליל קירור"
     },
     "rarity": "Rare",
     "type": "Recyclable",
@@ -915,7 +983,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "weightKg": 2,
     "stackSize": 3,
@@ -943,7 +1013,9 @@
       "kr": "냉각 팬",
       "tr": "Soğutma Fanı",
       "hr": "Rashladni ventilator",
-      "sr": "Rashladni ventilator"
+      "sr": "Rashladni ventilator",
+      "pt-BR": "Ventoinha de Resfriamento",
+      "he": "מאוורר קירור"
     },
     "rarity": "Rare",
     "type": "Recyclable",
@@ -970,7 +1042,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "weightKg": 3,
     "stackSize": 3,
@@ -998,7 +1072,9 @@
       "kr": "깨진 바이오 스캐너",
       "tr": "Çatlak Biyotarayıcı",
       "hr": "Napukli bioskener",
-      "sr": "Napukli bioskener"
+      "sr": "Napukli bioskener",
+      "pt-BR": "Bioscanner Rachado",
+      "he": "ביו-סורק סדוק"
     },
     "rarity": "Rare",
     "type": "Recyclable",
@@ -1027,7 +1103,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "foundIn": "Medical",
     "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
@@ -1053,7 +1131,9 @@
       "kr": "조잡한 폭발물",
       "tr": "Ham Patlayıcılar",
       "hr": "Sirovi eksploziv",
-      "sr": "Sirovi eksploziv"
+      "sr": "Sirovi eksploziv",
+      "pt-BR": "Explosivos Rudimentares",
+      "he": "חומרי נפץ גולמיים"
     },
     "description": {
       "en": "Used to craft explosives. Can be recycled into crafting materials. Used to craft: Launcher Ammo, Explosive Compound, Snap Blast Grenade, Shrapnel Grenade, Trigger 'Nade",
@@ -1073,7 +1153,9 @@
       "kr": "폭발물 제작에 사용됩니다. 제작 재료로 재활용할 수 있습니다. 제작 가능: 발사기 탄약, 혼합 화약, 스냅 블라스트 수류탄, 파편 수류탄, 트리거 수류탄",
       "tr": "Patlayıcı üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretilebilir: Fırlatıcı Mühimmatı, Patlayıcı Bileşik, Ani Patlama Bombası, Şarapnel Bombası, Tetikli Bomba",
       "hr": "Koristi se za izradu eksploziva. Može se reciklirati u materijale za izradu. Koristi se za izradu: Municija za bacač, Eksplozivna smjesa, Snap Blast granata, Šrapnel granata, Trigger 'Nade",
-      "sr": "Koristi se za izradu eksploziva. Može se reciklirati u materijale za izradu. Koristi se za izradu: Municija za bacač, Eksplozivna smeša, Snap Blast granata, Šrapnel granata, Trigger 'Nade"
+      "sr": "Koristi se za izradu eksploziva. Može se reciklirati u materijale za izradu. Koristi se za izradu: Municija za bacač, Eksplozivna smeša, Snap Blast granata, Šrapnel granata, Trigger 'Nade",
+      "pt-BR": "Usado para fabricar explosivos. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Munição de Lançador, Composto Explosivo, Granada de Impacto, Granada de Estilhaços, Granada de Acionamento",
+      "he": "משמש ליצירת חומרי נפץ. ניתן למיחזור לחומרי יצירה. משמש ליצירת: תחמושת משגר, תרכובת נפץ, רימון פיצוץ מהיר, רימון רסס, רימון הפעלה"
     },
     "rarity": "Uncommon",
     "type": "Refined Material",
@@ -1105,7 +1187,9 @@
         "tr": "Hasar",
         "hr": "Šteta",
         "sr": "Šteta",
-        "value": 15
+        "value": 15,
+        "pt-BR": "Dano",
+        "he": "נזק"
       },
       "Radius": {
         "en": "Radius",
@@ -1126,7 +1210,9 @@
         "tr": "Yarıçap",
         "hr": "Radijus",
         "sr": "Radijus",
-        "value": "1.5m"
+        "value": "1.5m",
+        "pt-BR": "Raio",
+        "he": "רדיוס"
       }
     },
     "foundIn": "Industrial, Security",
@@ -1158,7 +1244,9 @@
       "kr": "구겨진 플라스틱 병",
       "tr": "Ezilmiş Plastik Şişe",
       "hr": "Zgužvana plastična boca",
-      "sr": "Zgužvana plastična flaša"
+      "sr": "Zgužvana plastična flaša",
+      "pt-BR": "Garrafa de Plástico Amassada",
+      "he": "בקבוק פלסטיק מעוך"
     },
     "rarity": "Uncommon",
     "weightKg": 0.8,
@@ -1183,7 +1271,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "value": 270,
@@ -1215,7 +1305,9 @@
       "kr": "댐 관제탑 열쇠",
       "tr": "Baraj Kontrol Kulesi Anahtarı",
       "hr": "Ključ kontrolnog tornja brane",
-      "sr": "Ključ kontrolnog tornja brane"
+      "sr": "Ključ kontrolnog tornja brane",
+      "pt-BR": "Chave da Torre de Controle da Represa",
+      "he": "מפתח מגדל הבקרה בסכר"
     },
     "description": {
       "en": "Unlocks a door to the Control Tower on Dam Battlegrounds.",
@@ -1235,7 +1327,9 @@
       "kr": "댐 전장의 관제탑 문을 엽니다.",
       "tr": "Baraj Savaş Alanı'ndaki Kontrol Kulesi'nin kapısını açar.",
       "hr": "Otključava vrata kontrolnog tornja na bojnom polju brane.",
-      "sr": "Otključava vrata kontrolnog tornja na bojnom polju brane."
+      "sr": "Otključava vrata kontrolnog tornja na bojnom polju brane.",
+      "pt-BR": "Destranca uma porta para a Torre de Controle no Campo de Batalha da Represa.",
+      "he": "פותח דלת למגדל הבקרה במפת Dam Battlegrounds."
     },
     "type": "Key",
     "rarity": "Epic",
@@ -1264,7 +1358,9 @@
       "kr": "댐 직원실 열쇠",
       "tr": "Baraj Personel Odası Anahtarı",
       "hr": "Ključ Sobe Osoblja Brane",
-      "sr": "Ključ Sobe Osoblja Brane"
+      "sr": "Ključ Sobe Osoblja Brane",
+      "pt-BR": "Chave da Sala dos Funcionários da Represa",
+      "he": "מפתח חדר צוות בסכר"
     },
     "description": {
       "en": "A key to the staff room in The Dam.",
@@ -1284,7 +1380,9 @@
       "kr": "댐의 직원실 열쇠.",
       "tr": "Baraj'daki personel odasının anahtarı.",
       "hr": "Ključ za sobu osoblja u Brani.",
-      "sr": "Ključ za sobu osoblja u Brani."
+      "sr": "Ključ za sobu osoblja u Brani.",
+      "pt-BR": "Uma chave para a sala dos funcionários na Represa.",
+      "he": "מפתח לחדר הצוות בסכר."
     },
     "type": "Key",
     "updatedAt": "11/10/2025",
@@ -1314,7 +1412,9 @@
       "kr": "댐 감시실 열쇠",
       "tr": "Baraj Gözetleme Anahtarı",
       "hr": "Ključ Nadzora Brane",
-      "sr": "Ključ Nadzora Brane"
+      "sr": "Ključ Nadzora Brane",
+      "pt-BR": "Chave da Vigilância da Represa",
+      "he": "מפתח חדר ניטור בסכר"
     },
     "description": {
       "en": "Unlocks a door in the Water Treatment Control building on Dam Battlegrounds.",
@@ -1334,7 +1434,9 @@
       "kr": "댐 전장의 수처리 관제 건물 문을 엽니다.",
       "tr": "Baraj Savaş Alanı'ndaki Su Arıtma Kontrol binasında bir kapıyı açar.",
       "hr": "Otključava vrata u zgradi Kontrole Prečišćavanja Vode na Bojnom Polju Brane.",
-      "sr": "Otključava vrata u zgradi Kontrole Prečišćavanja Vode na Bojnom Polju Brane."
+      "sr": "Otključava vrata u zgradi Kontrole Prečišćavanja Vode na Bojnom Polju Brane.",
+      "pt-BR": "Destranca uma porta no prédio de Controle de Tratamento de Água no Campo de Batalha da Represa.",
+      "he": "פותח דלת בבניין בקרת הטיפול במים במפת Dam Battlegrounds."
     },
     "type": "Key",
     "value": 100,
@@ -1363,7 +1465,9 @@
       "kr": "댐 테스트 별관 열쇠",
       "tr": "Baraj Test Eki Anahtarı",
       "hr": "Ključ za testni aneks brane",
-      "sr": "Ključ za testni aneks brane"
+      "sr": "Ključ za testni aneks brane",
+      "pt-BR": "Chave do Anexo de Testes da Represa",
+      "he": "מפתח אגף הבדיקות בסכר"
     },
     "description": {
       "en": "Unlocks a door in the Testing Annex on Dam Battlegrounds.",
@@ -1383,7 +1487,9 @@
       "kr": "댐 전장의 테스트 별관에 있는 문을 엽니다.",
       "tr": "Baraj Savaş Alanı'ndaki Test Eki'nde bir kapıyı açar.",
       "hr": "Otključava vrata u testnom aneksu na bojnom polju brane.",
-      "sr": "Otključava vrata u testnom aneksu na bojnom polju brane."
+      "sr": "Otključava vrata u testnom aneksu na bojnom polju brane.",
+      "pt-BR": "Destranca uma porta no Anexo de Testes no Campo de Batalha da Represa.",
+      "he": "פותח דלת באגף הבדיקות במפת Dam Battlegrounds."
     },
     "type": "Key",
     "rarity": "Rare",
@@ -1412,7 +1518,9 @@
       "kr": "댐 시설 열쇠",
       "tr": "Baraj Tesis Anahtarı",
       "hr": "Ključ pomoćnih prostorija brane",
-      "sr": "Ključ pomoćnih prostorija brane"
+      "sr": "Ključ pomoćnih prostorija brane",
+      "pt-BR": "Chave de Serviços da Represa",
+      "he": "מפתח חדר שירות בסכר"
     },
     "description": {
       "en": "A key for utility access in The Dam.",
@@ -1432,7 +1540,9 @@
       "kr": "댐의 시설 접근용 열쇠.",
       "tr": "Baraj'daki tesis erişimi için bir anahtar.",
       "hr": "Ključ za pristup pomoćnim prostorijama u brani.",
-      "sr": "Ključ za pristup pomoćnim prostorijama u brani."
+      "sr": "Ključ za pristup pomoćnim prostorijama u brani.",
+      "pt-BR": "Uma chave para acesso de serviços na Represa.",
+      "he": "מפתח לגישת שירות בסכר."
     },
     "type": "Key",
     "updatedAt": "11/10/2025",
@@ -1462,7 +1572,9 @@
       "tr": "Hasarlı ARC Hareket Çekirdeği",
       "uk": "Пошкоджене ядро руху ARC",
       "sr": "Oštećeno ARC jezgro pokreta",
-      "hr": "Oštećena ARC jezgra pokreta"
+      "hr": "Oštećena ARC jezgra pokreta",
+      "pt-BR": "Núcleo de Movimento ARC Danificado",
+      "he": "ליבת תנועת ARC פגומה"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1482,7 +1594,9 @@
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
       "sr": "Može se reciklirati u materijale za izradu.",
-      "hr": "Može se reciklirati u materijale za izradu."
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Uncommon",
@@ -1519,7 +1633,9 @@
       "tr": "Hasarlı ARC Güç Hücresi",
       "uk": "Пошкоджена енергоклітина ARC",
       "hr": "Oštećena ARC energetska ćelija",
-      "sr": "Oštećena ARC energetska ćelija"
+      "sr": "Oštećena ARC energetska ćelija",
+      "pt-BR": "Célula de Energia ARC Danificada",
+      "he": "תא כוח ARC פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1539,7 +1655,9 @@
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1576,7 +1694,9 @@
       "tr": "Hasarlı Ateş Topu Yakıcı",
       "uk": "Пошкоджений вогняний палач",
       "sr": "Оштећени бацач ватрених лопти",
-      "hr": "Oštećeni bacač vatrenih kugli"
+      "hr": "Oštećeni bacač vatrenih kugli",
+      "pt-BR": "Queimador de Bola de Fogo Danificado",
+      "he": "מבער כדור-אש פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1596,7 +1716,9 @@
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
       "sr": "Може се рециклирати у материјале за израду.",
-      "hr": "Može se reciklirati u materijale za izradu."
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1630,7 +1752,9 @@
       "kr": "손상된 방열판",
       "tr": "Hasarlı Soğutucu",
       "hr": "Oštećeni Hladnjak",
-      "sr": "Oštećeni Hladnjak"
+      "sr": "Oštećeni Hladnjak",
+      "pt-BR": "Dissipador de Calor Danificado",
+      "he": "גוף קירור פגום"
     },
     "type": "Recyclable",
     "rarity": "Rare",
@@ -1652,7 +1776,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "weightKg": 2,
     "value": 1000,
@@ -1688,7 +1814,9 @@
       "kr": "손상된 호넷 드라이버",
       "tr": "Hasarlı Hornet Sürücüsü",
       "hr": "Oštećeni Hornet Pokretač",
-      "sr": "Oštećeni Hornet Pokretač"
+      "sr": "Oštećeni Hornet Pokretač",
+      "pt-BR": "Controlador de Hornet Danificado",
+      "he": "דרייבר הורנט פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1708,7 +1836,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1745,7 +1875,9 @@
       "kr": "손상된 로켓티어 드라이버",
       "tr": "Hasarlı Roketçi Sürücüsü",
       "hr": "Oštećeni Rocketeer Pokretač",
-      "sr": "Oštećeni Rocketeer Pokretač"
+      "sr": "Oštećeni Rocketeer Pokretač",
+      "pt-BR": "Controlador de Rocketeer Danificado",
+      "he": "דרייבר רוקטיר פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1765,7 +1897,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1799,7 +1933,9 @@
       "kr": "손상된 스니치 스캐너",
       "tr": "Hasarlı Snitch Tarayıcı",
       "hr": "Oštećeni Snitch Skener",
-      "sr": "Oštećeni Snitch Skener"
+      "sr": "Oštećeni Snitch Skener",
+      "pt-BR": "Scanner de Snitch Danificado",
+      "he": "סורק סניץ' פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1819,7 +1955,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1850,7 +1988,9 @@
       "kr": "손상된 틱 포드",
       "tr": "Hasarlı Kene Kapsülü",
       "hr": "Oštećena Mahuna Krpelja",
-      "sr": "Oštećena Mahuna Krpelja"
+      "sr": "Oštećena Mahuna Krpelja",
+      "pt-BR": "Cápsula de Tick Danificada",
+      "he": "תרמיל טיק פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1870,7 +2010,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "İşleme malzemelerine dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1907,7 +2049,9 @@
       "kr": "손상된 와스프 드라이버",
       "tr": "Hasarlı Wasp Sürücüsü",
       "hr": "Oštećeni Wasp pogon",
-      "sr": "Oštećeni Wasp pogon"
+      "sr": "Oštećeni Wasp pogon",
+      "pt-BR": "Controlador de Wasp Danificado",
+      "he": "דרייבר וואספ פגום"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -1927,7 +2071,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Common",
@@ -1964,7 +2110,9 @@
       "kr": "다트판",
       "tr": "Dart Tahtası",
       "hr": "Daska za pikado",
-      "sr": "Daska za pikado"
+      "sr": "Daska za pikado",
+      "pt-BR": "Alvo de Dardos",
+      "he": "לוח חיצים"
     },
     "description": {
       "en": "Some Raiders use it to practice dexterity. Others just like throwing things at other things.",
@@ -1984,7 +2132,9 @@
       "kr": "일부 레이더는 손재주를 연습하는 데 사용합니다. 다른 이들은 그냥 물건을 다른 물건에 던지는 걸 좋아합니다.",
       "tr": "Bazı Akıncılar beceri geliştirmek için kullanır. Diğerleri sadece bir şeyleri başka şeylere fırlatmayı sever.",
       "hr": "Neki Raidersi je koriste za vježbanje spretnosti. Drugi jednostavno vole bacati stvari u druge stvari.",
-      "sr": "Neki Rajderi je koriste za vežbanje spretnosti. Drugi jednostavno vole da bacaju stvari u druge stvari."
+      "sr": "Neki Rajderi je koriste za vežbanje spretnosti. Drugi jednostavno vole da bacaju stvari u druge stvari.",
+      "pt-BR": "Alguns Raiders o usam para praticar destreza. Outros só gostam de jogar coisas em outras coisas.",
+      "he": "חלק מהריידרים משתמשים בזה כדי לתרגל זריזות. אחרים פשוט נהנים לזרוק דברים על דברים אחרים."
     },
     "type": "Trinket",
     "rarity": "Uncommon",
@@ -2015,7 +2165,9 @@
       "tr": "Deadline Planı",
       "uk": "Креслення Deadline",
       "sr": "Nacrt za Deadline",
-      "hr": "Nacrt za Deadline"
+      "hr": "Nacrt za Deadline",
+      "pt-BR": "Diagrama da Prazo",
+      "he": "שרטוט דדליין"
     },
     "description": {
       "en": "Unlocks the ability to craft Deadline mines at the explosives bench.",
@@ -2035,7 +2187,9 @@
       "tr": "Patlayıcı tezgahında Deadline mayınları üretme olanağını açar.",
       "uk": "Розблоковує можливість створювати міни Deadline на верстаку вибухівки.",
       "sr": "Otključava mogućnost izrade Deadline mina na klupi za eksplozive.",
-      "hr": "Otključava mogućnost izrade mina Deadline na klupi za eksplozive."
+      "hr": "Otključava mogućnost izrade mina Deadline na klupi za eksplozive.",
+      "pt-BR": "Desbloqueia a habilidade de fabricar minas Prazo na bancada de explosivos.",
+      "he": "פותח את האפשרות לייצר מוקשי דדליין בעמדת החבלה."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -2064,7 +2218,9 @@
       "tr": "Son Tarih",
       "uk": "Кінцевий термін",
       "sr": "Rok",
-      "hr": "Rok"
+      "hr": "Rok",
+      "pt-BR": "Prazo",
+      "he": "דדליין"
     },
     "description": {
       "en": "A mine that deals damage to anything within its radius once the timer runs out.",
@@ -2084,7 +2240,9 @@
       "tr": "Zamanlayıcı bittiğinde yarıçapı içindeki her şeye hasar veren bir mayın.",
       "uk": "Міна, яка завдає шкоди всьому в радіусі дії після закінчення таймера.",
       "sr": "Mina koja nanosi štetu svemu u svom radijusu kada istekne tajmer.",
-      "hr": "Mina koja nanosi štetu svemu u svom radijusu kada istekne mjerač vremena."
+      "hr": "Mina koja nanosi štetu svemu u svom radijusu kada istekne mjerač vremena.",
+      "pt-BR": "Mina que causa dano a tudo dentro do seu alcance quando o tempo se esgota.",
+      "he": "מוקש הגורם נזק לכל דבר ברדיוס שלו ברגע שהטיימר נגמר."
     },
     "id": "deadline",
     "type": "Quick Use",
@@ -2112,7 +2270,9 @@
         "uk": "Шкода",
         "sr": "Šteta",
         "hr": "Šteta",
-        "value": 1000
+        "value": 1000,
+        "pt-BR": "Dano",
+        "he": "נזק"
       },
       "Radius": {
         "en": "Radius",
@@ -2133,7 +2293,9 @@
         "uk": "Радіус",
         "sr": "Radijus",
         "hr": "Radijus",
-        "value": "10m"
+        "value": "10m",
+        "pt-BR": "Raio",
+        "he": "רדיוס"
       },
       "Timer Duration": {
         "en": "Timer Duration",
@@ -2154,7 +2316,9 @@
         "uk": "Тривалість таймера",
         "sr": "Trajanje tajmera",
         "hr": "Trajanje mjerača vremena",
-        "value": "6s"
+        "value": "6s",
+        "pt-BR": "Duração do temporizador",
+        "he": "משך טיימר"
       }
     },
     "recyclesInto": {
@@ -2188,7 +2352,9 @@
       "kr": "제세동기 설계도",
       "tr": "Defibrilatör Planı",
       "hr": "Nacrt za Defibrilator",
-      "sr": "Nacrt za Defibrilator"
+      "sr": "Nacrt za Defibrilator",
+      "pt-BR": "Diagrama do Desfibrilador",
+      "he": "שרטוט דפיברילטור"
     },
     "description": {
       "en": "An injection that quickly revives downed raiders and restores some health.",
@@ -2208,7 +2374,9 @@
       "kr": "쓰러진 레이더를 빠르게 소생시키고 일부 체력을 회복시키는 주사제.",
       "tr": "Yere düşmüş akıncıları hızlıca canlandıran ve biraz sağlık kazandıran bir enjeksiyon.",
       "hr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja dio zdravlja.",
-      "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja."
+      "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja.",
+      "pt-BR": "Injeção que revive Combatentes derrubados com rapidez e recupera um pouco de vida.",
+      "he": "זריקה המקימה במהירות ריידרים מנוטרלים ומשיבה מעט בריאות."
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -2238,7 +2406,9 @@
       "kr": "제세동기",
       "tr": "Defibrilatör",
       "hr": "Defibrilator",
-      "sr": "Defibrilator"
+      "sr": "Defibrilator",
+      "pt-BR": "Desfibrilador",
+      "he": "דפיברילטור"
     },
     "description": {
       "en": "An injection that quickly revives downed raiders and restores some health.",
@@ -2258,7 +2428,9 @@
       "kr": "쓰러진 레이더를 빠르게 소생시키고 일부 체력을 회복시키는 주사제.",
       "tr": "Yere düşmüş akıncıları hızlıca canlandıran ve biraz sağlık kazandıran bir enjeksiyon.",
       "hr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja dio zdravlja.",
-      "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja."
+      "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja.",
+      "pt-BR": "Injeção que revive Combatentes derrubados com rapidez e recupera um pouco de vida.",
+      "he": "זריקה המקימה במהירות ריידרים מנוטרלים ומשיבה מעט בריאות."
     },
     "type": "Quick Use",
     "rarity": "Rare",
@@ -2294,7 +2466,9 @@
         "tr": "İyileştirme",
         "hr": "Liječenje",
         "sr": "Lečenje",
-        "value": 50
+        "value": 50,
+        "pt-BR": "Cura",
+        "he": "ריפוי"
       },
       "Use Time": {
         "en": "Use Time",
@@ -2315,7 +2489,9 @@
         "tr": "Kullanım Süresi",
         "hr": "Vrijeme Korištenja",
         "sr": "Vreme Korišćenja",
-        "value": "1.5s"
+        "value": "1.5s",
+        "pt-BR": "Tempo de uso",
+        "he": "זמן שימוש"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
@@ -2341,7 +2517,9 @@
       "kr": "바람 빠진 축구공",
       "tr": "İnmiş Futbol Topu",
       "hr": "Ispuhana Nogometna Lopta",
-      "sr": "Ispuhana Fudbalska Lopta"
+      "sr": "Ispuhana Fudbalska Lopta",
+      "pt-BR": "Bola de Futebol Murcha",
+      "he": "כדורגל מרוקן"
     },
     "description": {
       "en": "Just by looking at this, you too start to feel slightly deflated.",
@@ -2361,7 +2539,9 @@
       "kr": "이것을 보는 것만으로도 당신도 약간 기운이 빠지기 시작합니다.",
       "tr": "Buna bakmak bile sizi biraz içiniz sönük hissettirmeye başlıyor.",
       "hr": "Samo gledajući ovo, i ti se počneš osjećati pomalo ispuhano.",
-      "sr": "Samo gledajući ovo, i ti se počneš osećati pomalo ispuhano."
+      "sr": "Samo gledajući ovo, i ti se počneš osećati pomalo ispuhano.",
+      "pt-BR": "Só de olhar para isso, você também começa a se sentir um pouco murcho.",
+      "he": "רק מלהביט בו, גם אתה מתחיל להרגיש מעט מרוקן."
     },
     "type": "Recyclable",
     "recyclesInto": {
@@ -2398,7 +2578,9 @@
       "kr": "타버린 아크 고무",
       "tr": "Bozulmuş ARC Kauçuğu",
       "hr": "Degradirana ARC Guma",
-      "sr": "Degradirana ARC Guma"
+      "sr": "Degradirana ARC Guma",
+      "pt-BR": "Borracha ARC Degradada",
+      "he": "גומי ARC שחוק"
     },
     "description": {
       "en": "Obtained from ARC enemies or activities. Can be recycled into rubber.",
@@ -2418,7 +2600,9 @@
       "kr": "아크 적이나 활동에서 획득. 고무로 재활용 가능.",
       "tr": "ARC düşmanlarından veya etkinliklerden elde edilir. Kauçuğa geri dönüştürülebilir.",
       "hr": "Dobiva se od ARC neprijatelja ili aktivnosti. Može se reciklirati u gumu.",
-      "sr": "Dobija se od ARC neprijatelja ili aktivnosti. Može se reciklirati u gumu."
+      "sr": "Dobija se od ARC neprijatelja ili aktivnosti. Može se reciklirati u gumu.",
+      "pt-BR": "Obtida de inimigos ou atividades ARC. Pode ser reciclada em borracha.",
+      "he": "מתקבל מאויבי ARC או מפעילויות. ניתן למיחזור לגומי."
     },
     "type": "Recyclable",
     "rarity": "Uncommon",
@@ -2455,7 +2639,9 @@
       "kr": "다이빙 고글",
       "tr": "Dalış Gözlüğü",
       "hr": "Ronilačke Naočale",
-      "sr": "Ronilačke Naočare"
+      "sr": "Ronilačke Naočare",
+      "pt-BR": "Óculos de Mergulho",
+      "he": "משקפת צלילה"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -2475,7 +2661,9 @@
       "kr": "제작 재료로 재활용 가능.",
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de criação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Rare",
@@ -2509,7 +2697,9 @@
       "kr": "개 목걸이",
       "tr": "Köpek Tasması",
       "hr": "Pasja Ogrlica",
-      "sr": "Pasja Ogrlica"
+      "sr": "Pasja Ogrlica",
+      "pt-BR": "Coleira de Cachorro",
+      "he": "קולר כלב"
     },
     "description": {
       "en": "After all this time, you can still smell the goodness.",
@@ -2529,7 +2719,9 @@
       "kr": "이 모든 시간이 지났지만, 여전히 좋은 냄새가 납니다.",
       "tr": "Bunca zamandan sonra hala iyiliğin kokusunu alabiliyorsun.",
       "hr": "Nakon svog ovog vremena, još uvijek možeš osjetiti dobrotu.",
-      "sr": "Posle svog ovog vremena, još uvek možeš osetiti dobrotu."
+      "sr": "Posle svog ovog vremena, još uvek možeš osetiti dobrotu.",
+      "pt-BR": "Depois de todo esse tempo, você ainda consegue sentir o cheiro de bondade.",
+      "he": "אחרי כל הזמן הזה, עדיין אפשר להריח את הטוב."
     },
     "type": "Recyclable",
     "rarity": "Rare",
@@ -2567,7 +2759,9 @@
       "kr": "문 차단기",
       "tr": "Kapı Engelleyici",
       "hr": "Blokator Vrata",
-      "sr": "Blokator Vrata"
+      "sr": "Blokator Vrata",
+      "pt-BR": "Bloqueador de Porta",
+      "he": "חוסם דלתות"
     },
     "description": {
       "en": "A locking mechanism that can be placed on large metal doors to limit access.",
@@ -2587,7 +2781,9 @@
       "kr": "대형 금속 문에 설치하여 접근을 제한할 수 있는 잠금 장치.",
       "tr": "Erişimi sınırlamak için büyük metal kapılara yerleştirilebilen bir kilitleme mekanizması.",
       "hr": "Mehanizam za zaključavanje koji se može postaviti na velika metalna vrata kako bi se ograničio pristup.",
-      "sr": "Mehanizam za zaključavanje koji se može postaviti na velika metalna vrata kako bi se ograničio pristup."
+      "sr": "Mehanizam za zaključavanje koji se može postaviti na velika metalna vrata kako bi se ograničio pristup.",
+      "pt-BR": "Mecanismo de travamento que pode ser colocado em portas grandes de metal para limitar o acesso.",
+      "he": "מנגנון נעילה שניתן להציב על דלתות מתכת גדולות כדי להגביל גישה."
     },
     "type": "Quick Use",
     "rarity": "Common",
@@ -2625,7 +2821,9 @@
       "kr": "말라버린 아크 수지",
       "tr": "Kurumuş ARC Reçinesi",
       "hr": "Isušena ARC Smola",
-      "sr": "Isušena ARC Smola"
+      "sr": "Isušena ARC Smola",
+      "pt-BR": "Resina ARC Ressecada",
+      "he": "שרף ARC מיובש"
     },
     "description": {
       "en": "Obtained from ARC enemies or activities. Can be recycled into plastic.",
@@ -2645,7 +2843,9 @@
       "kr": "아크 적이나 활동에서 획득. 플라스틱으로 재활용 가능.",
       "tr": "ARC düşmanlarından veya etkinliklerden elde edilir. Plastiğe geri dönüştürülebilir.",
       "hr": "Dobiva se od ARC neprijatelja ili aktivnosti. Može se reciklirati u plastiku.",
-      "sr": "Dobija se od ARC neprijatelja ili aktivnosti. Može se reciklirati u plastiku."
+      "sr": "Dobija se od ARC neprijatelja ili aktivnosti. Može se reciklirati u plastiku.",
+      "pt-BR": "Obtido de inimigos ou atividades da ARC. Pode ser reciclado em plástico.",
+      "he": "מתקבל מאויבי ARC או מפעילויות. ניתן למיחזור לפלסטיק."
     },
     "type": "Recyclable",
     "rarity": "Uncommon",
@@ -2679,7 +2879,9 @@
       "kr": "덕트 테이프",
       "tr": "Tamir Bandı",
       "hr": "Ljepljiva Traka",
-      "sr": "Lepljiva Traka"
+      "sr": "Lepljiva Traka",
+      "pt-BR": "Fita Adesiva",
+      "he": "סרט הדבקה"
     },
     "imageFilename": "https://cdn.arctracker.io/items/duct_tape.png",
     "value": 300,
@@ -2704,7 +2906,9 @@
       "kr": "다양한 아이템을 제작하는 데 사용됩니다. 제작 재료로 재활용할 수 있습니다. 제작 용도: 안정형 개머리판 I, 수직 그립 I, 앵글 그립 I, 수직 그립 II, 앵글 그립 II",
       "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Şunları üretmek için kullanılır: Sabit Dipçik I, Dikey Kabza I, Açılı Kabza I, Dikey Kabza II, Açılı Kabza II",
       "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II",
-      "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II"
+      "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II",
+      "pt-BR": "Usado para criar uma grande variedade de itens. Pode ser reciclado em materiais de criação. Usado para criar: Coronha Estável I, Empunhadura Vertical I, Empunhadura Angular I, Empunhadura Vertical II, Empunhadura Angular II",
+      "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: קת יציבה I, ידית אחיזה אנכית I, ידית אחיזה זוויתית I, ידית אחיזה אנכית II, ידית אחיזה זוויתית II"
     },
     "type": "Topside Material",
     "rarity": "Uncommon",
@@ -2733,7 +2937,9 @@
       "kr": "질긴 천",
       "tr": "Dayanıklı Kumaş",
       "hr": "Izdržljiva Tkanina",
-      "sr": "Izdržljiva Tkanina"
+      "sr": "Izdržljiva Tkanina",
+      "pt-BR": "Tecido Durável",
+      "he": "בד עמיד"
     },
     "description": {
       "en": "Used to craft medical supplies. Used to craft: Herbal Bandage, Sterilized Bandage",
@@ -2753,7 +2959,9 @@
       "kr": "의료 용품 제작에 사용됨. 제작 가능: 허브 붕대, 멸균 붕대",
       "tr": "Tıbbi malzeme üretmek için kullanılır. Üretilebilir: Bitkisel Bandaj, Sterilize Bandaj",
       "hr": "Koristi se za izradu medicinskih potrepština. Koristi se za izradu: Biljni Zavoj, Sterilizirani Zavoj",
-      "sr": "Koristi se za izradu medicinskih potrepština. Koristi se za izradu: Biljni Zavoj, Sterilizovani Zavoj"
+      "sr": "Koristi se za izradu medicinskih potrepština. Koristi se za izradu: Biljni Zavoj, Sterilizovani Zavoj",
+      "pt-BR": "Serve para fabricar suprimentos médicos. Usado para fabricar: Atadura de Ervas, Atadura Esterilizada",
+      "he": "משמש ליצירת ציוד רפואי. משמש ליצירת: תחבושת צמחים, תחבושת סטרילית"
     },
     "type": "Refined Material",
     "rarity": "Uncommon",
@@ -2791,7 +2999,9 @@
       "kr": "전기 부품",
       "tr": "Elektrik Bileşenleri",
       "hr": "Električne Komponente",
-      "sr": "Električne Komponente"
+      "sr": "Električne Komponente",
+      "pt-BR": "Componentes Elétricos",
+      "he": "רכיבים חשמליים"
     },
     "description": {
       "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade",
@@ -2811,7 +3021,9 @@
       "kr": "다양한 아이템 제작에 사용. 제작 재료로 재활용 가능. 제작 용도: 전술 마크 2, 전투 마크 2, 노획 마크 2, 급속 실드 충전기, 미끼 수류탄",
       "tr": "Çok çeşitli eşyalar üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Kalkan Şarj Cihazı, Yem Bombası",
       "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
-      "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata"
+      "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
+      "pt-BR": "Usado para criar uma grande variedade de itens. Pode ser reciclado em materiais de criação. Usado para criar: Tático Mk. 2, Combate Mk. 2, Saque Mk. 2, Recarregador de Escudo de Surto, Granada de Isca",
+      "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למיחזור לחומרי יצירה. משמש ליצירת: טקטי Mk. 2, קרבי Mk. 2, ביזה Mk. 2, מטען מגן נחשול, רימון פיתיון"
     },
     "type": "Refined Material",
     "value": 640,
@@ -2854,7 +3066,9 @@
       "kr": "빈 와인병",
       "tr": "Boş Şarap Şişesi",
       "hr": "Prazna Boca Vina",
-      "sr": "Prazna Flaša Vina"
+      "sr": "Prazna Flaša Vina",
+      "pt-BR": "Garrafa de Vinho Vazia",
+      "he": "בקבוק יין ריק"
     },
     "description": {
       "en": "Yes, it really is empty.",
@@ -2874,7 +3088,9 @@
       "kr": "네, 정말로 비어 있습니다.",
       "tr": "Evet, gerçekten boş.",
       "hr": "Da, stvarno je prazna.",
-      "sr": "Da, zaista je prazna."
+      "sr": "Da, zaista je prazna.",
+      "pt-BR": "Sim, está realmente vazia.",
+      "he": "כן, הוא באמת ריק."
     },
     "type": "Trinket",
     "value": 1000,
@@ -2905,7 +3121,9 @@
       "kr": "에너지 탄창",
       "tr": "Enerji Klipsi",
       "hr": "Energetska kopča",
-      "sr": "Енергетска копча"
+      "sr": "Енергетска копча",
+      "pt-BR": "Pente de Energia",
+      "he": "מחסנית אנרגיה"
     },
     "description": {
       "en": "Compatible with: Equalizer, Jupiter",
@@ -2925,7 +3143,9 @@
       "kr": "호환 무기: 이퀄라이저, 주피터",
       "tr": "Uyumlu silahlar: Equalizer, Jupiter",
       "hr": "Kompatibilno s: Equalizer, Jupiter",
-      "sr": "Kompatibilno sa: Equalizer, Jupiter"
+      "sr": "Kompatibilno sa: Equalizer, Jupiter",
+      "pt-BR": "Compatível com: Equalizer, Jupiter",
+      "he": "תואם ל: אקוולייזר, יופיטר"
     },
     "type": "Ammunition",
     "compatibleWith": [
@@ -2965,7 +3185,9 @@
       "es": "Plano del Ecualizador",
       "hr": "Nacrt Izjednačivača",
       "pt": "Projeto do Equalizador",
-      "da": "Equalizer-tegning"
+      "da": "Equalizer-tegning",
+      "pt-BR": "Diagrama da Equalizer",
+      "he": "שרטוט Equalizer"
     },
     "description": {
       "en": "A high capacity experimental beam rifle.",
@@ -2985,7 +3207,9 @@
       "es": "Un rifle de rayos experimental de alta capacidad.",
       "hr": "Eksperimentalna zrakasta puška velikog kapaciteta.",
       "pt": "Um rifle de raios experimental de alta capacidade.",
-      "da": "En eksperimentel stråleriffel med høj kapacitet."
+      "da": "En eksperimentel stråleriffel med høj kapacitet.",
+      "pt-BR": "Um rifle de feixe experimental de alta capacidade.",
+      "he": "רובה קרן ניסיוני בעל קיבולת גבוהה."
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -3014,7 +3238,9 @@
       "es": "Ecualizador",
       "hr": "Izjednačivač",
       "pt": "Equalizador",
-      "da": "Equalizer"
+      "da": "Equalizer",
+      "pt-BR": "Equalizer",
+      "he": "אקוולייזר"
     },
     "description": {
       "en": "A high capacity experimental beam rifle.",
@@ -3034,7 +3260,9 @@
       "es": "Un rifle de rayos experimental de alta capacidad.",
       "hr": "Eksperimentalna zrakasta puška velikog kapaciteta.",
       "pt": "Um rifle de raios experimental de alta capacidade.",
-      "da": "En eksperimentel stråleriffel med høj kapacitet."
+      "da": "En eksperimentel stråleriffel med høj kapacitet.",
+      "pt-BR": "Um rifle de feixe experimental de alta capacidade.",
+      "he": "רובה קרן ניסיוני בעל קיבולת גבוהה."
     },
     "type": "LMG",
     "rarity": "Legendary",
@@ -3064,7 +3292,9 @@
         "hr": "Tip streljiva",
         "pt": "Tipo de munição",
         "da": "Ammunitionstype",
-        "value": "Energy Clip"
+        "value": "Energy Clip",
+        "pt-BR": "Tipo de munição",
+        "he": "סוג תחמושת"
       },
       "Magazine Size": {
         "en": "Magazine Size",
@@ -3085,7 +3315,9 @@
         "hr": "Veličina spremnika",
         "pt": "Tamanho do carregador",
         "da": "Magasinstørrelse",
-        "value": 50
+        "value": 50,
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       },
       "Firing Mode": {
         "en": "Firing Mode",
@@ -3106,7 +3338,9 @@
         "hr": "Način paljbe",
         "pt": "Modo de disparo",
         "da": "Skydemetode",
-        "value": "Fully-Automatic"
+        "value": "Fully-Automatic",
+        "pt-BR": "Modo de disparo",
+        "he": "מצב ירי"
       },
       "ARC Armor Penetration": {
         "en": "ARC Armor Penetration",
@@ -3127,7 +3361,9 @@
         "hr": "ARC probijanje oklopa",
         "pt": "Penetração de armadura ARC",
         "da": "ARC rustningspenetrering",
-        "value": "Very Strong"
+        "value": "Very Strong",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "he": "חדירת שריון ARC"
       }
     },
     "weightKg": 14,
@@ -3175,7 +3411,9 @@
       "kr": "ESR 분석기",
       "tr": "ESR Analizörü",
       "hr": "ESR Analizator",
-      "sr": "ESR Analizator"
+      "sr": "ESR Analizator",
+      "pt-BR": "Analisador ESR",
+      "he": "מנתח ESR"
     },
     "description": {
       "en": "A portable analyzer from the world before, complete with several spare tubes.",
@@ -3195,13 +3433,16 @@
       "kr": "적혈구 침강 속도를 분석하기 위한 전문 의료 기기.",
       "tr": "Eritrosit sedimentasyon hızını analiz etmek için özel bir tıbbi cihaz.",
       "hr": "Specijaliziran medicinski uređaj za analizu brzine sedimentacije eritrocita.",
-      "sr": "Specijalizovan medicinski uređaj za analizu brzine sedimentacije eritrocita."
+      "sr": "Specijalizovan medicinski uređaj za analizu brzine sedimentacije eritrocita.",
+      "pt-BR": "Um analisador portátil do mundo antigo, completo com vários tubos sobressalentes.",
+      "he": "מכשיר אנליזה נייד מהעולם הקודם, כולל מספר שפופרות רזרביות."
     },
     "type": "Trinket",
     "updatedAt": "11/17/2025",
     "rarity": "Common",
     "weightKg": 0.25,
-    "imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png"
+    "imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png",
+    "questItem": true
   },
   {
     "id": "exodus_modules",
@@ -3223,7 +3464,9 @@
       "kr": "엑소더스 모듈",
       "tr": "Exodus Modülleri",
       "hr": "Exodus Moduli",
-      "sr": "Exodus Moduli"
+      "sr": "Exodus Moduli",
+      "pt-BR": "Módulos Exodus",
+      "he": "מודולי Exodus"
     },
     "description": {
       "en": "Used to craft a wide range of items. Used to craft: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
@@ -3243,7 +3486,9 @@
       "kr": "다양한 아이템 제작에 사용됨. 제작 가능: 템페스트, 불카노, 헐크래커, 밥캣, 스냅 훅",
       "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretilebilir: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
       "hr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
-      "sr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook"
+      "sr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
+      "pt-BR": "Usado para fabricar uma ampla gama de itens. Usado para fabricar: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
+      "he": "משמש ליצירת מגוון רחב של פריטים. משמש ליצירת: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook"
     },
     "type": "Topside Material",
     "rarity": "Epic",
@@ -3280,7 +3525,9 @@
       "tr": "Deneysel Tohum Örneği",
       "uk": "Експериментальний зразок насіння",
       "sr": "Eksperimentalni uzorak semena",
-      "hr": "Eksperimentalni uzorak sjemena"
+      "hr": "Eksperimentalni uzorak sjemena",
+      "pt-BR": "Amostra de Semente Experimental",
+      "he": "דגימת זרעים ניסיונית"
     },
     "description": {
       "en": "A cryogenically frozen research sample of an experimental crop.",
@@ -3300,7 +3547,9 @@
       "tr": "Deneysel bir mahsulün kriyojenik olarak dondurulmuş araştırma örneği.",
       "uk": "Кріогенно заморожений дослідний зразок експериментальної культури.",
       "sr": "Kriogenski zamrznut istraživački uzorak eksperimentalne kulture.",
-      "hr": "Kriogenski zamrznuti istraživački uzorak eksperimentalne kulture."
+      "hr": "Kriogenski zamrznuti istraživački uzorak eksperimentalne kulture.",
+      "pt-BR": "Uma amostra de pesquisa criogenicamente congelada de uma cultura experimental.",
+      "he": "דגימת מחקר של יבול ניסיוני שהוקפאה בהקפאה קריוגנית."
     },
     "id": "experimental_seed_sample",
     "type": "Trinket",
@@ -3329,7 +3578,9 @@
       "kr": "유통기한 지난 파스타",
       "tr": "Son Kullanma Tarihi Geçmiş Makarna",
       "hr": "Istekle Tjestenine",
-      "sr": "Istekle Testenine"
+      "sr": "Istekle Testenine",
+      "pt-BR": "Macarrão Vencido",
+      "he": "פסטה פגת תוקף"
     },
     "description": {
       "en": "Way pasta its prime. Can (reluctantly) be consumed to restore small amounts of health.",
@@ -3349,7 +3600,9 @@
       "kr": "유통기한이 한참 지났다. (마지못해) 섭취하여 소량의 체력을 회복할 수 있다.",
       "tr": "En iyi dönemini çoktan geçmiş. Küçük miktarda can yenilemek için (isteksizce) tüketilebilir.",
       "hr": "Daleko prošao rok trajanja. Može se (nevoljko) konzumirati za obnavljanje male količine zdravlja.",
-      "sr": "Daleko prošao rok trajanja. Može se (nevoljko) konzumirati za obnavljanje male količine zdravlja."
+      "sr": "Daleko prošao rok trajanja. Može se (nevoljko) konzumirati za obnavljanje male količine zdravlja.",
+      "pt-BR": "Já passou (e muito) da validade. Pode ser consumido (a contragosto) para restaurar pequenas quantidades de saúde.",
+      "he": "עברה את שיאה ממזמן. ניתנת (בחוסר רצון) לאכילה כדי להשיב כמות קטנה של בריאות."
     },
     "type": "Trinket",
     "value": 1000,
@@ -3376,7 +3629,9 @@
         "tr": "İyileştirme",
         "hr": "Liječenje",
         "sr": "Lečenje",
-        "value": 15
+        "value": 15,
+        "pt-BR": "Cura",
+        "he": "ריפוי"
       },
       "Use Time": {
         "en": "Use Time",
@@ -3397,7 +3652,9 @@
         "tr": "Kullanım Süresi",
         "hr": "Vrijeme Korištenja",
         "sr": "Vreme Korišćenja",
-        "value": "1s"
+        "value": "1s",
+        "pt-BR": "Tempo de uso",
+        "he": "זמן שימוש"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/expired_pasta.png",
@@ -3424,7 +3681,9 @@
       "kr": "유통기한 지난 인공호흡기",
       "tr": "Süresi Dolmuş Solunum Cihazı",
       "hr": "Istekli respirator",
-      "sr": "Istekli respirator"
+      "sr": "Istekli respirator",
+      "pt-BR": "Respirador Vencido",
+      "he": "מנשם פג תוקף"
     },
     "description": {
       "en": "The filters are clogged with sand and noxious fumes. Long past its lifespan.",
@@ -3444,7 +3703,9 @@
       "kr": "필터가 모래와 유독 가스로 막혀 있습니다. 수명이 한참 지났습니다.",
       "tr": "Filtreler kum ve zararlı dumanlarla tıkanmış. Ömrünü çoktan doldurmuş.",
       "hr": "Filteri su začepljeni pijeskom i otrovnim isparenjima. Davno je prošao svoj vijek trajanja.",
-      "sr": "Filteri su začepljeni peskom i otrovnim isparenjima. Davno je prošao svoj vek trajanja."
+      "sr": "Filteri su začepljeni peskom i otrovnim isparenjima. Davno je prošao svoj vek trajanja.",
+      "pt-BR": "Os filtros estão entupidos com areia e vapores nocivos. Muito além de sua vida útil.",
+      "he": "המסננים סתומים בחול ובאדים רעילים. עבר זמן רב מאז תום תוחלת החיים שלו."
     },
     "type": "Recyclable",
     "rarity": "Rare",
@@ -3482,7 +3743,9 @@
       "kr": "혼합 화약",
       "tr": "Patlayıcı Bileşik",
       "hr": "Eksplozivna smjesa",
-      "sr": "Eksplozivna smesa"
+      "sr": "Eksplozivna smesa",
+      "pt-BR": "Composto Explosivo",
+      "he": "תרכובת נפץ"
     },
     "description": {
       "en": "Used to craft explosives. Used to craft: Wolfpack, Explosive Mine, Blaze Grenade, Heavy Fuze Grenade",
@@ -3502,7 +3765,9 @@
       "kr": "폭발물 제작에 사용됩니다. 제작 가능: 울프팩, 폭발 지뢰, 블레이즈 수류탄, 헤비 퓨즈 수류탄",
       "tr": "Patlayıcı üretmek için kullanılır. Üretilebilir: Wolfpack, Patlayıcı Mayın, Alev Bombası, Ağır Fünye Bombası",
       "hr": "Koristi se za izradu eksploziva. Koristi se za izradu: Wolfpack, Eksplozivna mina, Blaze granata, Teška Fuze granata",
-      "sr": "Koristi se za izradu eksploziva. Koristi se za izradu: Wolfpack, Eksplozivna mina, Blaze granata, Teška Fuze granata"
+      "sr": "Koristi se za izradu eksploziva. Koristi se za izradu: Wolfpack, Eksplozivna mina, Blaze granata, Teška Fuze granata",
+      "pt-BR": "Usado para fabricar explosivos. Usado para fabricar: Wolfpack, Mina Explosiva, Granada Incendiária, Granada de Espoleta Pesada",
+      "he": "משמש ליצירת חומרי נפץ. משמש ליצירת: Wolfpack, Explosive Mine, Blaze Grenade, Heavy Fuze Grenade"
     },
     "type": "Refined Material",
     "rarity": "Rare",
@@ -3544,7 +3809,9 @@
       "kr": "폭발 지뢰 설계도",
       "tr": "Patlayici Mayin Plani",
       "hr": "Eksplozivna mina Nacrt",
-      "sr": "Eksplozivna mina Nacrt"
+      "sr": "Eksplozivna mina Nacrt",
+      "pt-BR": "Projeto de Mina Explosiva",
+      "he": "שרטוט למוקש נפיץ"
     },
     "description": {
       "en": "A proximity-triggered explosive device that detonates when enemies approach.",
@@ -3564,7 +3831,9 @@
       "kr": "적이 접근하면 폭발하는 근접 감지 폭발 장치입니다.",
       "tr": "Dusmanlar yaklastiginda patlayan yakinlik tetiklemeli patlayici cihaz.",
       "hr": "Eksplozivni uredaj aktiviran blizinom koji detonira kada se neprijatelji priblize.",
-      "sr": "Eksplozivni uredaj aktiviran blizinom koji detonira kada se neprijatelji priblize."
+      "sr": "Eksplozivni uredaj aktiviran blizinom koji detonira kada se neprijatelji priblize.",
+      "pt-BR": "Mina de proximidade que se eleva e explode, causando dano a tudo dentro do seu alcance.",
+      "he": "מוקש נפיץ המופעל בקרבה ומתפוצץ כאשר אויבים מתקרבים."
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -3594,7 +3863,9 @@
       "kr": "폭발 지뢰",
       "tr": "Patlayici Mayin",
       "hr": "Eksplozivna mina",
-      "sr": "Eksplozivna mina"
+      "sr": "Eksplozivna mina",
+      "pt-BR": "Mina Explosiva",
+      "he": "מוקש נפיץ"
     },
     "description": {
       "en": "A proximity-triggered explosive device that detonates when enemies approach.",
@@ -3614,7 +3885,9 @@
       "kr": "적이 접근하면 폭발하는 근접 감지 폭발 장치입니다.",
       "tr": "Dusmanlar yaklastiginda patlayan yakinlik tetiklemeli patlayici cihaz.",
       "hr": "Eksplozivni uredaj aktiviran blizinom koji detonira kada se neprijatelji priblize.",
-      "sr": "Eksplozivni uredaj aktiviran blizinom koji detonira kada se neprijatelji priblize."
+      "sr": "Eksplozivni uredaj aktiviran blizinom koji detonira kada se neprijatelji priblize.",
+      "pt-BR": "Mina de proximidade que se eleva e explode, causando dano a tudo dentro do seu alcance.",
+      "he": "מוקש נפיץ המופעל בקרבה ומתפוצץ כאשר אויבים מתקרבים."
     },
     "type": "Quick Use",
     "rarity": "Rare",
@@ -3652,7 +3925,9 @@
         "tr": "Hasar",
         "hr": "Steta",
         "sr": "Steta",
-        "value": 100
+        "value": 100,
+        "pt-BR": "Dano",
+        "he": "נזק"
       },
       "Radius": {
         "en": "Radius",
@@ -3673,7 +3948,9 @@
         "tr": "Yaricap",
         "hr": "Radijus",
         "sr": "Radijus",
-        "value": "5m"
+        "value": "5m",
+        "pt-BR": "Raio",
+        "he": "רדיוס"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
@@ -3699,7 +3976,9 @@
       "kr": "확장형 총열 설계도",
       "tr": "Uzatilmis Namlu Plani",
       "hr": "Produzena cijev Nacrt",
-      "sr": "Produzena cev Nacrt"
+      "sr": "Produzena cev Nacrt",
+      "pt-BR": "Projeto de Cano Estendido",
+      "he": "שרטוט לקנה מוארך"
     },
     "description": {
       "en": "Moderately increases bullet velocity. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -3719,7 +3998,9 @@
       "kr": "탄환 속도를 적당히 증가시킵니다. 호환 무기: 템페스트, 아르페지오, 페로, 레니게이드, 앤빌",
       "tr": "Mermi hizini orta duzeyde artirir. Uyumlu silahlar: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "hr": "Umjereno povecava brzinu metka. Kompatibilno s: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-      "sr": "Umereno povecava brzinu metka. Kompatibilno sa: Tempest, Arpeggio, Ferro, Renegade, Anvil"
+      "sr": "Umereno povecava brzinu metka. Kompatibilno sa: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+      "pt-BR": "Aumenta moderadamente a velocidade do projétil. Compatível com: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+      "he": "מגביר באופן מתון את מהירות הקליע. תואם ל: Tempest, Arpeggio, Ferro, Renegade, Anvil"
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -3747,7 +4028,9 @@
       "tr": "Uzatılmış Namlu",
       "uk": "Подовжений ствол",
       "sr": "Produžena cev",
-      "hr": "Produžena cijev"
+      "hr": "Produžena cijev",
+      "pt-BR": "Cano Estendido",
+      "he": "קנה מוארך"
     },
     "description": {
       "en": "Moderately increases bullet velocity. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -3767,7 +4050,9 @@
       "tr": "Mermi hızını orta düzeyde artırır. Uyumlu silahlar: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "uk": "Помірно збільшує швидкість кулі. Сумісно з: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "sr": "Umereno povećava brzinu metka. Kompatibilno sa: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-      "hr": "Umjereno povećava brzinu metka. Kompatibilno s: Tempest, Arpeggio, Ferro, Renegade, Anvil"
+      "hr": "Umjereno povećava brzinu metka. Kompatibilno s: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+      "pt-BR": "Aumenta moderadamente a velocidade do projétil. Compatível com: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+      "he": "מגביר באופן מתון את מהירות הקליע. תואם ל: Tempest, Arpeggio, Ferro, Renegade, Anvil"
     },
     "id": "extended_barrel",
     "type": "Modification",
@@ -3794,7 +4079,9 @@
         "uk": "Збільшена швидкість кулі",
         "sr": "Povećana brzina metka",
         "hr": "Povećana brzina metka",
-        "value": "25%"
+        "value": "25%",
+        "pt-BR": "Aumento da Velocidade do Projétil",
+        "he": "מהירות קליע מוגברת"
       },
       "Increased Vertical Recoil": {
         "en": "Increased Vertical Recoil",
@@ -3815,7 +4102,9 @@
         "uk": "Збільшена вертикальна віддача",
         "sr": "Povećan vertikalni trzaj",
         "hr": "Povećan vertikalni trzaj",
-        "value": "15%"
+        "value": "15%",
+        "pt-BR": "Aumento do Recuo Vertical",
+        "he": "רתע אנכי מוגבר"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_barrel.png",
@@ -3852,7 +4141,9 @@
       "kr": "확장형 경량 탄창 I",
       "tr": "Uzatılmış Hafif Şarjör I",
       "hr": "Produženi Laki Spremnik I",
-      "sr": "Produženi Laki Okvir I"
+      "sr": "Produženi Laki Okvir I",
+      "pt-BR": "Carregador Estendido Leve I",
+      "he": "מחסנית קלה מורחבת I"
     },
     "description": {
       "en": "Slightly extends the ammo capacity of compatible weapons that use light ammo. Compatible with: Kettle, Burletta, Hairpin, Bobcat, Stitcher",
@@ -3872,7 +4163,9 @@
       "kr": "경량 탄약을 사용하는 호환 무기의 탄약 용량을 약간 증가시킵니다. 호환 무기: 케틀, 부를레타, 헤어핀, 밥캣, 스티처",
       "tr": "Hafif mermi kullanan uyumlu silahların mermi kapasitesini hafifçe artırır. Uyumlu silahlar: Kettle, Burletta, Hairpin, Bobcat, Stitcher",
       "hr": "Blago povećava kapacitet streljiva kompatibilnog oružja koje koristi lako streljivo. Kompatibilno s: Kettle, Burletta, Hairpin, Bobcat, Stitcher",
-      "sr": "Blago povećava kapacitet municije kompatibilnog oružja koje koristi laku municiju. Kompatibilno sa: Kettle, Burletta, Hairpin, Bobcat, Stitcher"
+      "sr": "Blago povećava kapacitet municije kompatibilnog oružja koje koristi laku municiju. Kompatibilno sa: Kettle, Burletta, Hairpin, Bobcat, Stitcher",
+      "pt-BR": "Aumenta de maneira sutil a capacidade de munição de armas compatíveis que utilizam munição leve. Compatível com: Burletta, Lince, Costurador, Chaleira, Grampo de Cabelo",
+      "he": "מגדיל מעט את קיבולת התחמושת של כלי נשק תואמים המשתמשים בתחמושת קלה. תואם ל: Kettle, Burletta, Hairpin, Bobcat, Stitcher"
     },
     "type": "Modification",
     "rarity": "Common",
@@ -3912,7 +4205,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina Spremnika",
         "sr": "Veličina Okvira",
-        "value": "+5"
+        "value": "+5",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "updatedAt": "11/03/2025",
@@ -3942,7 +4237,9 @@
       "kr": "확장형 경량 탄창 II 설계도",
       "tr": "Genisletilmis Hafif Sarjor II Plani",
       "hr": "Produzeni laki spremnik II Nacrt",
-      "sr": "Produzeni laki okvir II Nacrt"
+      "sr": "Produzeni laki okvir II Nacrt",
+      "pt-BR": "Projeto de Carregador Leve Estendido II",
+      "he": "שרטוט מחסנית קלה מוגדלת II"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of compatible weapons that use light ammo.",
@@ -3962,7 +4259,9 @@
       "kr": "경량 탄약을 사용하는 호환 무기의 탄약 용량을 적당히 확장합니다.",
       "tr": "Hafif mermi kullanan uyumlu silahlarin mermi kapasitesini orta duzeyde artirir.",
       "hr": "Umjereno povecava kapacitet streljiva kompatibilnog oruzja koje koristi lako streljivo.",
-      "sr": "Umereno povecava kapacitet municije kompatibilnog oruzja koje koristi laku municiju."
+      "sr": "Umereno povecava kapacitet municije kompatibilnog oruzja koje koristi laku municiju.",
+      "pt-BR": "Aumenta moderadamente a capacidade de munição de armas compatíveis que usam munição leve.",
+      "he": "מגדיל באופן מתון את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת קלה."
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -3991,7 +4290,9 @@
       "kr": "확장형 경량 탄창 II",
       "tr": "Genişletilmiş Hafif Şarjör II",
       "hr": "Produženi laki spremnik II",
-      "sr": "Produženi laki okvir II"
+      "sr": "Produženi laki okvir II",
+      "pt-BR": "Carregador Estendido Leve II",
+      "he": "מחסנית קלה מורחבת II"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of compatible weapons that use light ammo. Compatible with: Stitcher, Kettle, Burletta, Hairpin, Bobcat",
@@ -4011,7 +4312,9 @@
       "kr": "경량 탄약을 사용하는 호환 무기의 탄약 용량을 적당히 확장합니다. 호환 무기: 스티처, 케틀, 부를레타, 헤어핀, 밥캣",
       "tr": "Hafif mermi kullanan uyumlu silahların mermi kapasitesini orta düzeyde artırır. Uyumlu silahlar: Stitcher, Kettle, Burletta, Hairpin, Bobcat",
       "hr": "Umjereno povećava kapacitet streljiva kompatibilnog oružja koje koristi lako streljivo. Kompatibilno s: Stitcher, Kettle, Burletta, Hairpin, Bobcat",
-      "sr": "Umereno povećava kapacitet municije kompatibilnog oružja koje koristi laku municiju. Kompatibilno sa: Stitcher, Kettle, Burletta, Hairpin, Bobcat"
+      "sr": "Umereno povećava kapacitet municije kompatibilnog oružja koje koristi laku municiju. Kompatibilno sa: Stitcher, Kettle, Burletta, Hairpin, Bobcat",
+      "pt-BR": "Estende moderadamente a capacidade de munição de armas compatíveis que usam munição leve. Compatível com: Stitcher, Kettle, Burletta, Hairpin, Bobcat",
+      "he": "מגדיל באופן מתון את קיבולת התחמושת של כלי נשק תואמים המשתמשים בתחמושת קלה. תואם ל: Stitcher, Kettle, Burletta, Hairpin, Bobcat"
     },
     "type": "Modification",
     "rarity": "Uncommon",
@@ -4037,7 +4340,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": "+10"
+        "value": "+10",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "recyclesInto": {
@@ -4074,7 +4379,9 @@
       "kr": "확장형 경량 탄창 III 설계도",
       "tr": "Genisletilmis Hafif Sarjor III Plani",
       "hr": "Produzeni laki spremnik III Nacrt",
-      "sr": "Produzeni laki spremnik III Nacrt"
+      "sr": "Produzeni laki spremnik III Nacrt",
+      "pt-BR": "Projeto de Carregador Leve Estendido III",
+      "he": "שרטוט מחסנית קלה מוגדלת III"
     },
     "description": {
       "en": "Significantly extends the ammo capacity of compatible weapons that use light ammo.",
@@ -4094,7 +4401,9 @@
       "kr": "경량 탄약을 사용하는 호환 무기의 탄약 용량을 크게 확장합니다.",
       "tr": "Hafif mermi kullanan uyumlu silahlarin muhimmat kapasitesini onemli olcude genisletir.",
       "hr": "Znacajno povecava kapacitet streljiva kompatibilnog oruzja koje koristi lako streljivo.",
-      "sr": "Znacajno povecava kapacitet streljiva kompatibilnog oruzja koje koristi lako streljivo."
+      "sr": "Znacajno povecava kapacitet streljiva kompatibilnog oruzja koje koristi lako streljivo.",
+      "pt-BR": "Aumenta significativamente a capacidade de munição de armas compatíveis que usam munição leve.",
+      "he": "מגדיל משמעותית את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת קלה."
     },
     "type": "Blueprint",
     "rarity": "Legendary",
@@ -4123,7 +4432,9 @@
       "kr": "확장형 경량 탄창 III",
       "tr": "Genişletilmiş Hafif Şarjör III",
       "hr": "Produženi laki spremnik III",
-      "sr": "Produženi laki spremnik III"
+      "sr": "Produženi laki spremnik III",
+      "pt-BR": "Carregador Estendido Leve III",
+      "he": "מחסנית קלה מורחבת III"
     },
     "description": {
       "en": "Significantly extends the ammo capacity of compatible weapons that use light ammo.",
@@ -4143,7 +4454,9 @@
       "kr": "경량 탄약을 사용하는 호환 무기의 탄약 용량을 크게 확장합니다.",
       "tr": "Hafif mermi kullanan uyumlu silahların mühimmat kapasitesini önemli ölçüde genişletir.",
       "hr": "Značajno povećava kapacitet streljiva kompatibilnog oružja koje koristi lako streljivo.",
-      "sr": "Značajno povećava kapacitet streljiva kompatibilnog oružja koje koristi lako streljivo."
+      "sr": "Značajno povećava kapacitet streljiva kompatibilnog oružja koje koristi lako streljivo.",
+      "pt-BR": "Estende significativamente a capacidade de munição de armas compatíveis que usam munição leve.",
+      "he": "מגדיל באופן משמעותי את קיבולת התחמושת של כלי נשק תואמים המשתמשים בתחמושת קלה."
     },
     "type": "Modification",
     "rarity": "Rare",
@@ -4168,7 +4481,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina spremnika",
-        "value": "+15"
+        "value": "+15",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_iii.png",
@@ -4206,7 +4521,9 @@
       "kr": "확장형 중량 탄창 I",
       "tr": "Genişletilmiş Orta Şarjör I",
       "hr": "Produženi srednji spremnik I",
-      "sr": "Produženi srednji okvir I"
+      "sr": "Produženi srednji okvir I",
+      "pt-BR": "Carregador Estendido Médio I",
+      "he": "מחסנית בינונית מוגדלת I"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente",
@@ -4226,7 +4543,9 @@
       "kr": "중량 탄약을 사용하는 호환 무기의 탄약 용량을 적당히 확장합니다. 호환 무기: 아르페지오, 레니게이드, 베나토르, 템페스트, 토렌테",
       "tr": "Orta mermi kullanan uyumlu silahların mermi kapasitesini orta düzeyde artırır. Uyumlu silahlar: Arpeggio, Renegade, Venator, Tempest, Torrente",
       "hr": "Umjereno povećava kapacitet streljiva kompatibilnog oružja koje koristi srednje streljivo. Kompatibilno s: Arpeggio, Renegade, Venator, Tempest, Torrente",
-      "sr": "Umereno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno sa: Arpeggio, Renegade, Venator, Tempest, Torrente"
+      "sr": "Umereno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno sa: Arpeggio, Renegade, Venator, Tempest, Torrente",
+      "pt-BR": "Aumenta moderadamente a capacidade de munição de armas compatíveis que usam munição média. Compatível com: Arpeggio, Renegade, Venator, Tempest, Torrente",
+      "he": "מגדיל באופן מתון את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת בינונית. תואם ל: ארפג'יו, רנגייד, ונטור, טמפסט, טורנטה"
     },
     "type": "Modification",
     "rarity": "Common",
@@ -4252,7 +4571,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": "+4"
+        "value": "+4",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_i.png",
@@ -4283,7 +4604,9 @@
       "kr": "확장형 중량 탄창 II 설계도",
       "tr": "Genişletilmiş Orta Boy Şarjör II Planı",
       "hr": "Nacrt za Prošireni Srednji Spremnik II",
-      "sr": "Nacrt za Prošireni Srednji Spremnik II"
+      "sr": "Nacrt za Prošireni Srednji Spremnik II",
+      "pt-BR": "Projeto de Carregador Médio Estendido II",
+      "he": "שרטוט מחסנית בינונית מוגדלת II"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo.",
@@ -4303,7 +4626,9 @@
       "kr": "중량 탄약을 사용하는 호환 무기의 탄약 용량을 적당히 확장합니다.",
       "tr": "Orta boy mühimmat kullanan uyumlu silahların mermi kapasitesini orta düzeyde artırır.",
       "hr": "Umjereno proširuje kapacitet streljiva kompatibilnog oružja koje koristi srednje streljivo.",
-      "sr": "Umereno proširuje kapacitet streljiva kompatibilnog oružja koje koristi srednje streljivo."
+      "sr": "Umereno proširuje kapacitet streljiva kompatibilnog oružja koje koristi srednje streljivo.",
+      "pt-BR": "Aumenta moderadamente a capacidade de munição de armas compatíveis que usam munição média.",
+      "he": "מגדיל באופן מתון את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת בינונית."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -4332,7 +4657,9 @@
       "kr": "확장형 중량 탄창 II",
       "tr": "Genişletilmiş Orta Şarjör II",
       "hr": "Produženi srednji spremnik II",
-      "sr": "Produženi srednji okvir II"
+      "sr": "Produženi srednji okvir II",
+      "pt-BR": "Carregador Estendido Médio II",
+      "he": "מחסנית בינונית מוגדלת II"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente",
@@ -4352,7 +4679,9 @@
       "kr": "중량 탄약을 사용하는 호환 무기의 탄약 용량을 적당히 확장합니다. 호환 무기: 아르페지오, 레니게이드, 베나토르, 템페스트, 토렌테",
       "tr": "Orta mermi kullanan uyumlu silahların mermi kapasitesini orta düzeyde artırır. Uyumlu silahlar: Arpeggio, Renegade, Venator, Tempest, Torrente",
       "hr": "Umjereno povećava kapacitet streljiva kompatibilnog oružja koje koristi srednje streljivo. Kompatibilno s: Arpeggio, Renegade, Venator, Tempest, Torrente",
-      "sr": "Umereno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno sa: Arpeggio, Renegade, Venator, Tempest, Torrente"
+      "sr": "Umereno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno sa: Arpeggio, Renegade, Venator, Tempest, Torrente",
+      "pt-BR": "Aumenta moderadamente a capacidade de munição de armas compatíveis que usam munição média. Compatível com: Arpeggio, Renegade, Venator, Tempest, Torrente",
+      "he": "מגדיל באופן מתון את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת בינונית. תואם ל: ארפג'יו, רנגייד, ונטור, טמפסט, טורנטה"
     },
     "type": "Modification",
     "rarity": "Uncommon",
@@ -4378,7 +4707,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": "+8"
+        "value": "+8",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii.png",
@@ -4409,7 +4740,9 @@
       "kr": "확장형 중량 탄창 III 설계도",
       "tr": "Genişletilmiş Orta Şarjör III Planı",
       "hr": "Nacrt za produženi srednji spremnik III",
-      "sr": "Nacrt za produženi srednji spremnik III"
+      "sr": "Nacrt za produženi srednji spremnik III",
+      "pt-BR": "Projeto de Carregador Médio Estendido III",
+      "he": "שרטוט מחסנית בינונית מוגדלת III"
     },
     "description": {
       "en": "Significantly extends the ammo capacity of compataible weapons that use medium ammo.",
@@ -4429,7 +4762,9 @@
       "kr": "중량 탄약을 사용하는 호환 무기의 탄약 용량을 크게 확장합니다.",
       "tr": "Orta mermi kullanan uyumlu silahların mermi kapasitesini önemli ölçüde artırır.",
       "hr": "Značajno povećava kapacitet streljiva kompatibilnog oružja koje koristi srednje streljivo.",
-      "sr": "Značajno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju."
+      "sr": "Značajno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju.",
+      "pt-BR": "Aumenta significativamente a capacidade de munição de armas compatíveis que usam munição média.",
+      "he": "מגדיל משמעותית את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת בינונית."
     },
     "type": "Blueprint",
     "effects": {
@@ -4452,7 +4787,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": "+12"
+        "value": "+12",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "value": 5000,
@@ -4482,7 +4819,9 @@
       "kr": "확장형 중량 탄창 III",
       "tr": "Uzatılmış Orta Şarjör III",
       "hr": "Produženi Srednji Spremnik III",
-      "sr": "Produženi Srednji Spremnik III"
+      "sr": "Produženi Srednji Spremnik III",
+      "pt-BR": "Carregador Estendido Médio III",
+      "he": "מחסנית בינונית מוגדלת III"
     },
     "description": {
       "en": "Significantly extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente",
@@ -4502,7 +4841,9 @@
       "kr": "중량 탄약을 사용하는 호환 무기의 탄약 용량을 크게 확장합니다. 호환 무기: 아르페지오, 레니게이드, 베나토르, 템페스트, 토렌테",
       "tr": "Orta mermi kullanan uyumlu silahların mermi kapasitesini önemli ölçüde artırır. Uyumlu: Arpeggio, Renegade, Venator, Tempest, Torrente",
       "hr": "Značajno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno s: Arpeggio, Renegade, Venator, Tempest, Torrente",
-      "sr": "Značajno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno sa: Arpeggio, Renegade, Venator, Tempest, Torrente"
+      "sr": "Značajno povećava kapacitet municije kompatibilnog oružja koje koristi srednju municiju. Kompatibilno sa: Arpeggio, Renegade, Venator, Tempest, Torrente",
+      "pt-BR": "Aumenta significativamente a capacidade de munição de armas compatíveis que usam munição média. Compatível com: Arpeggio, Renegade, Venator, Tempest, Torrente",
+      "he": "מגדיל משמעותית את קיבולת התחמושת של נשקים תואמים המשתמשים בתחמושת בינונית. תואם ל: ארפג'יו, רנגייד, ונטור, טמפסט, טורנטה"
     },
     "type": "Modification",
     "value": 5000,
@@ -4528,7 +4869,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina Spremnika",
         "sr": "Veličina Spremnika",
-        "value": "+12"
+        "value": "+12",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_iii.png",
@@ -4546,7 +4889,7 @@
   {
     "id": "extended_shotgun_mag_i",
     "name": {
-      "en": "Extended Shotgun Mag I",
+      "en": " Extended Shotgun Mag I",
       "de": "Erweitertes Schrotflintenmagazin I",
       "fr": "Chargeur de Fusil à Pompe Étendu I",
       "es": "Cargador de escopeta extendido I",
@@ -4563,7 +4906,9 @@
       "kr": "확장형 산탄총 탄창 I",
       "tr": "Uzatılmış Pompalı Şarjör I",
       "hr": "Produženi Sačmarski Spremnik I",
-      "sr": "Produženi Sačmarski Spremnik I"
+      "sr": "Produženi Sačmarski Spremnik I",
+      "pt-BR": "Carregador Estendido de Escopeta I",
+      "he": "מחסנית רובה ציד מוגדלת I"
     },
     "description": {
       "en": "Slightly extends the ammo capacity of shotguns. Compatible with: Il Toro, Vulcano",
@@ -4583,7 +4928,9 @@
       "kr": "산탄총의 탄약 용량을 약간 확장한다. 호환 무기: 일 토로, 불카노",
       "tr": "Pompalı tüfeklerin mermi kapasitesini hafifçe artırır. Uyumlu: Il Toro, Vulcano",
       "hr": "Blago povećava kapacitet streljiva sačmarica. Kompatibilno s: Il Toro, Vulcano",
-      "sr": "Blago povećava kapacitet streljiva sačmarica. Kompatibilno sa: Il Toro, Vulcano"
+      "sr": "Blago povećava kapacitet streljiva sačmarica. Kompatibilno sa: Il Toro, Vulcano",
+      "pt-BR": "Aumenta de maneira sutil a capacidade de munição de escopetas. Compatível com: Vulcão, Il Toro",
+      "he": "מגדיל מעט את קיבולת התחמושת של רובי ציד. תואם ל: איל טורו, וולקנו"
     },
     "type": "Modification",
     "rarity": "Common",
@@ -4609,7 +4956,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina Spremnika",
         "sr": "Veličina Spremnika",
-        "value": "+2"
+        "value": "+2",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_i.png",
@@ -4643,7 +4992,9 @@
       "kr": "확장형 산탄총 탄창 II 설계도",
       "tr": "Uzatılmış Pompalı Tüfek Şarjörü II Planı",
       "hr": "Nacrt za produženi sačmarski spremnik II",
-      "sr": "Nacrt za produženi sacmarski okvir II"
+      "sr": "Nacrt za produženi sacmarski okvir II",
+      "pt-BR": "Diagrama de Carregador Estendido de Escopeta II",
+      "he": "שרטוט מחסנית מוגדלת לרובה ציד II"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of shotguns.",
@@ -4663,7 +5014,9 @@
       "kr": "산탄총의 탄약 용량을 적당히 증가시킵니다.",
       "tr": "Pompalı tüfeklerin mermi kapasitesini orta düzeyde artırır.",
       "hr": "Umjereno povećava kapacitet streljiva sačmarica.",
-      "sr": "Umereno povećava kapacitet municije sacmarica."
+      "sr": "Umereno povećava kapacitet municije sacmarica.",
+      "pt-BR": "Aumenta de forma moderada a capacidade de munição de escopetas. Compatível com: Vulcão, Il Toro",
+      "he": "מגדיל בצורה מתונה את קיבולת התחמושת של רובי ציד."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -4693,7 +5046,9 @@
       "kr": "확장형 산탄총 탄창 II",
       "tr": "Genişletilmiş Av Tüfeği Şarjörü II",
       "hr": "Produženi sačmarski spremnik II",
-      "sr": "Produženi sačmarni okvir II"
+      "sr": "Produženi sačmarni okvir II",
+      "pt-BR": "Carregador Estendido de Escopeta II",
+      "he": "מחסנית מוגדלת לרובה ציד II"
     },
     "description": {
       "en": "Moderately extends the ammo capacity of shotguns. Compatible with: Il Toro, Vulcano",
@@ -4713,7 +5068,9 @@
       "kr": "산탄총의 탄약 용량을 적당히 확장합니다. 호환 무기: 일 토로, 불카노",
       "tr": "Av tüfeklerinin mermi kapasitesini orta düzeyde artırır. Uyumlu silahlar: Il Toro, Vulcano",
       "hr": "Umjereno povećava kapacitet streljiva sačmarica. Kompatibilno s: Il Toro, Vulcano",
-      "sr": "Umereno povećava kapacitet municije sačmarica. Kompatibilno sa: Il Toro, Vulcano"
+      "sr": "Umereno povećava kapacitet municije sačmarica. Kompatibilno sa: Il Toro, Vulcano",
+      "pt-BR": "Aumenta de forma moderada a capacidade de munição de escopetas. Compatível com: Vulcão, Il Toro",
+      "he": "מגדיל בצורה מתונה את קיבולת התחמושת של רובי ציד. תואם ל: Il Toro, Vulcano"
     },
     "type": "Modification",
     "value": 2000,
@@ -4739,11 +5096,19 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": "+4"
+        "value": "+4",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_ii.png",
-    "updatedAt": "11/02/2025"
+    "updatedAt": "12/31/2025",
+    "recipe": {
+      "mechanical_components": 2,
+      "steel_spring": 3
+    },
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 2
   },
   {
     "id": "extended_shotgun_mag_iii_blueprint",
@@ -4765,7 +5130,9 @@
       "tr": "Genişletilmiş Pompalı Şarjör III Planı",
       "uk": "Креслення розширеного магазину для дробовика III",
       "sr": "Produženi šaržer za sačmaru III Nacrt",
-      "hr": "Produženi šaržer za sačmaru III Nacrt"
+      "hr": "Produženi šaržer za sačmaru III Nacrt",
+      "pt-BR": "Diagrama de Carregador Estendido de Escopeta III",
+      "he": "שרטוט מחסנית מוגדלת לרובה ציד III"
     },
     "description": {
       "en": "Significantly extends the ammo capacity of shotguns.",
@@ -4785,7 +5152,9 @@
       "tr": "Pompalı tüfeklerin mermi kapasitesini önemli ölçüde artırır.",
       "uk": "Значно збільшує ємність боєприпасів дробовиків.",
       "sr": "Značajno proširuje kapacitet municije za sačmare.",
-      "hr": "Značajno proširuje kapacitet municije za sačmare."
+      "hr": "Značajno proširuje kapacitet municije za sačmare.",
+      "pt-BR": "Aumenta significativamente a capacidade de munição de escopetas.",
+      "he": "מגדיל באופן משמעותי את קיבולת התחמושת של רובי ציד."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -4815,7 +5184,9 @@
       "tr": "Genişletilmiş Pompalı Şarjör III",
       "uk": "Розширений магазин для дробовика III",
       "sr": "Produženi šaržer za sačmaru III",
-      "hr": "Produženi šaržer za sačmaru III"
+      "hr": "Produženi šaržer za sačmaru III",
+      "pt-BR": "Carregador Estendido de Escopeta III",
+      "he": "מחסנית מוגדלת לרובה ציד III"
     },
     "description": {
       "en": "Significantly extends the ammo capacity of shotguns. Compatible with: Il Toro, Vulcano",
@@ -4835,7 +5206,9 @@
       "tr": "Pompalı tüfeklerin mermi kapasitesini önemli ölçüde artırır. Uyumlu: Il Toro, Vulcano",
       "uk": "Значно збільшує ємність боєприпасів дробовиків. Сумісно з: Il Toro, Vulcano",
       "sr": "Značajno proširuje kapacitet municije za sačmare. Kompatibilno sa: Il Toro, Vulcano",
-      "hr": "Značajno proširuje kapacitet municije za sačmare. Kompatibilno s: Il Toro, Vulcano"
+      "hr": "Značajno proširuje kapacitet municije za sačmare. Kompatibilno s: Il Toro, Vulcano",
+      "pt-BR": "Aumenta significativamente a capacidade de munição de escopetas. Compatível com: Il Toro, Vulcano",
+      "he": "מגדיל באופן משמעותי את קיבולת התחמושת של רובי ציד. תואם ל: Il Toro, Vulcano"
     },
     "type": "Modification",
     "value": 5000,
@@ -4861,7 +5234,9 @@
         "uk": "Розмір магазину",
         "sr": "Veličina šaržera",
         "hr": "Veličina šaržera",
-        "value": "+6"
+        "value": "+6",
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       }
     },
     "upgradeCost": {
@@ -4891,7 +5266,9 @@
       "kr": "직물",
       "tr": "Kumaş",
       "hr": "Tkanina",
-      "sr": "Tkanina"
+      "sr": "Tkanina",
+      "pt-BR": "Tecido",
+      "he": "בד"
     },
     "description": {
       "en": "Used to craft medical supplies and shields. Can be used to slowly restore small amounts of health.",
@@ -4911,7 +5288,9 @@
       "kr": "의료 용품과 방어막 제작에 사용됩니다. 사용하면 소량의 체력을 천천히 회복할 수 있습니다.",
       "tr": "Tıbbi malzeme ve kalkan üretmek için kullanılır. Küçük miktarda canı yavaşça yenilemek için kullanılabilir.",
       "hr": "Koristi se za izradu medicinskih potrepština i štitova. Može se koristiti za polaganu obnovu malih količina zdravlja.",
-      "sr": "Koristi se za izradu medicinskih potrepština i štitova. Može se koristiti za polaganu obnovu malih količina zdravlja."
+      "sr": "Koristi se za izradu medicinskih potrepština i štitova. Može se koristiti za polaganu obnovu malih količina zdravlja.",
+      "pt-BR": "Serve para fabricar suprimentos médicos e escudos. Pode usar para recuperar lentamente um pouco de vida.",
+      "he": "משמש ליצירת ציוד רפואי ומגנים. יכול לשמש לשחזור איטי של כמות קטנה של בריאות."
     },
     "type": "Basic Material",
     "rarity": "Common",
@@ -4941,7 +5320,9 @@
         "tr": "İyileştirme",
         "hr": "Liječenje",
         "sr": "Lečenje",
-        "value": "0.4/s"
+        "value": "0.4/s",
+        "pt-BR": "Cura",
+        "he": "ריפוי"
       },
       "Duration": {
         "en": "Duration",
@@ -4962,7 +5343,9 @@
         "tr": "Süre",
         "hr": "Trajanje",
         "sr": "Trajanje",
-        "value": "25s"
+        "value": "25s",
+        "pt-BR": "Duração",
+        "he": "משך זמן"
       },
       "Use Time": {
         "en": "Use Time",
@@ -4983,7 +5366,9 @@
         "tr": "Kullanım Süresi",
         "hr": "Vrijeme Korištenja",
         "sr": "Vreme Korišćenja",
-        "value": "1s"
+        "value": "1s",
+        "pt-BR": "Tempo de uso",
+        "he": "זמן שימוש"
       }
     },
     "updatedAt": "10/30/2025"
@@ -5008,7 +5393,9 @@
       "kr": "바랜 사진",
       "tr": "Solmuş Fotoğraf",
       "hr": "Izblijedjela fotografija",
-      "sr": "Izbledela fotografija"
+      "sr": "Izbledela fotografija",
+      "pt-BR": "Fotografia Desbotada",
+      "he": "תצלום דהוי"
     },
     "description": {
       "en": "A snapshot of the world before, faded by sunlight and time.",
@@ -5028,7 +5415,9 @@
       "kr": "햇빛과 시간에 바랜 과거 세계의 스냅샷.",
       "tr": "Güneş ışığı ve zaman tarafından solmuş, önceki dünyanın bir anlık görüntüsü.",
       "hr": "Snimak svijeta od prije, izblijedio od sunčeve svjetlosti i vremena.",
-      "sr": "Snimak sveta od ranije, izbledeo od sunčeve svetlosti i vremena."
+      "sr": "Snimak sveta od ranije, izbledeo od sunčeve svetlosti i vremena.",
+      "pt-BR": "Um retrato do mundo antigo, desbotado pela luz do sol e pelo tempo.",
+      "he": "תצלום מהעולם שלפני, שדהה בשל אור השמש והזמן."
     },
     "type": "Trinket",
     "rarity": "Common",
@@ -5060,7 +5449,9 @@
       "kr": "페로 I",
       "tr": "Ferro I",
       "hr": "Ferro I",
-      "sr": "Ferro I"
+      "sr": "Ferro I",
+      "pt-BR": "Ferro I",
+      "he": "Ferro I"
     },
     "description": {
       "en": "Packs a punch, but must be reloaded between every shot.",
@@ -5080,7 +5471,9 @@
       "kr": "강력한 한 방을 날리지만, 매 발사마다 재장전이 필요합니다.",
       "tr": "Güçlü bir darbe indirir, ancak her atıştan sonra yeniden doldurulmalıdır.",
       "hr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
-      "sr": "Zadaje snažan udarac, ali se mora puniti između svakog hica."
+      "sr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
+      "pt-BR": "Tem forte impacto, mas precisa ser recarregado após cada disparo.",
+      "he": "רב עוצמה, אך דורש טעינה מחדש בין כל ירייה."
     },
     "type": "Battle Rifle",
     "rarity": "Common",
@@ -5119,7 +5512,9 @@
         "tr": "Dayanıklılık",
         "hr": "Izdržljivost",
         "sr": "Izdržljivost",
-        "value": "100/100"
+        "value": "100/100",
+        "pt-BR": "Durabilidade",
+        "he": "עמידות"
       },
       "Ammo Type": {
         "en": "Ammo Type",
@@ -5140,7 +5535,9 @@
         "tr": "Mermi Türü",
         "hr": "Vrsta streljiva",
         "sr": "Vrsta streljiva",
-        "value": "Heavy Ammo"
+        "value": "Heavy Ammo",
+        "pt-BR": "Tipo de munição",
+        "he": "סוג תחמושת"
       },
       "Magazine Size": {
         "en": "Magazine Size",
@@ -5161,7 +5558,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": 1
+        "value": 1,
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       },
       "Firing Mode": {
         "en": "Firing Mode",
@@ -5182,7 +5581,9 @@
         "tr": "Atış Modu",
         "hr": "Način paljbe",
         "sr": "Način paljbe",
-        "value": "Break-Action"
+        "value": "Break-Action",
+        "pt-BR": "Modo de disparo",
+        "he": "מצב ירי"
       },
       "ARC Armor Penetration": {
         "en": "ARC Armor Penetration",
@@ -5203,7 +5604,9 @@
         "tr": "ARC Zırh Delme",
         "hr": "ARC probijanje oklopa",
         "sr": "ARC probijanje oklopa",
-        "value": "Strong"
+        "value": "Strong",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "he": "חדירת שריון ARC"
       }
     },
     "recipe": {
@@ -5236,7 +5639,9 @@
       "kr": "페로 II",
       "tr": "Ferro II",
       "hr": "Ferro II",
-      "sr": "Ferro II"
+      "sr": "Ferro II",
+      "pt-BR": "Ferro II",
+      "he": "פרו II"
     },
     "description": {
       "en": "Packs a punch, but must be reloaded between every shot.",
@@ -5256,7 +5661,9 @@
       "kr": "강력한 한 방을 날리지만, 매 발사마다 재장전이 필요합니다.",
       "tr": "Güçlü bir darbe indirir, ancak her atıştan sonra yeniden doldurulmalıdır.",
       "hr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
-      "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica."
+      "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica.",
+      "pt-BR": "Tem forte impacto, mas precisa ser recarregado após cada disparo.",
+      "he": "עוצמתי במיוחד, אך דורש טעינה מחדש בין כל ירייה."
     },
     "type": "Battle Rifle",
     "rarity": "Common",
@@ -5282,7 +5689,9 @@
         "tr": "Dayanıklılık",
         "hr": "Izdržljivost",
         "sr": "Izdržljivost",
-        "value": "110/110"
+        "value": "110/110",
+        "pt-BR": "Durabilidade",
+        "he": "עמידות"
       },
       "Ammo Type": {
         "en": "Ammo Type",
@@ -5303,7 +5712,9 @@
         "tr": "Mermi Türü",
         "hr": "Vrsta streljiva",
         "sr": "Vrsta municije",
-        "value": "Heavy Ammo"
+        "value": "Heavy Ammo",
+        "pt-BR": "Tipo de munição",
+        "he": "סוג תחמושת"
       },
       "Magazine Size": {
         "en": "Magazine Size",
@@ -5324,7 +5735,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": 1
+        "value": 1,
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       },
       "Firing Mode": {
         "en": "Firing Mode",
@@ -5345,7 +5758,9 @@
         "tr": "Atış Modu",
         "hr": "Način pucanja",
         "sr": "Režim pucanja",
-        "value": "Break-Action"
+        "value": "Break-Action",
+        "pt-BR": "Modo de disparo",
+        "he": "מצב ירי"
       },
       "ARC Armor Penetration": {
         "en": "ARC Armor Penetration",
@@ -5366,7 +5781,9 @@
         "tr": "ARC Zırh Delme",
         "hr": "ARC probijanje oklopa",
         "sr": "ARC probijanje oklopa",
-        "value": "Strong"
+        "value": "Strong",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "he": "חדירת שריון ARC"
       }
     },
     "upgradeCost": {
@@ -5400,7 +5817,9 @@
       "kr": "페로 III",
       "tr": "Ferro III",
       "hr": "Ferro III",
-      "sr": "Ferro III"
+      "sr": "Ferro III",
+      "pt-BR": "Ferro III",
+      "he": "פרו III"
     },
     "description": {
       "en": "Packs a punch, but must be reloaded between every shot.",
@@ -5420,7 +5839,9 @@
       "kr": "강력한 한 방을 날리지만, 매 발사마다 재장전이 필요합니다.",
       "tr": "Güçlü bir darbe indirir, ancak her atıştan sonra yeniden doldurulmalıdır.",
       "hr": "Zadaje snažan udarac, ali se mora puniti između svakog hica.",
-      "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica."
+      "sr": "Zadaje snažan udarac, ali mora da se punjenje između svakog hica.",
+      "pt-BR": "Tem forte impacto, mas precisa ser recarregado após cada disparo.",
+      "he": "עוצמתי במיוחד, אך דורש טעינה מחדש בין כל ירייה."
     },
     "type": "Battle Rifle",
     "rarity": "Common",
@@ -5446,7 +5867,9 @@
         "tr": "Dayanıklılık",
         "hr": "Izdržljivost",
         "sr": "Izdržljivost",
-        "value": "120/120"
+        "value": "120/120",
+        "pt-BR": "Durabilidade",
+        "he": "עמידות"
       },
       "Ammo Type": {
         "en": "Ammo Type",
@@ -5467,7 +5890,9 @@
         "tr": "Mermi Türü",
         "hr": "Vrsta streljiva",
         "sr": "Vrsta municije",
-        "value": "Heavy Ammo"
+        "value": "Heavy Ammo",
+        "pt-BR": "Tipo de munição",
+        "he": "סוג תחמושת"
       },
       "Magazine Size": {
         "en": "Magazine Size",
@@ -5488,7 +5913,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina spremnika",
         "sr": "Veličina okvira",
-        "value": 1
+        "value": 1,
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       },
       "Firing Mode": {
         "en": "Firing Mode",
@@ -5509,7 +5936,9 @@
         "tr": "Atış Modu",
         "hr": "Način pucanja",
         "sr": "Režim pucanja",
-        "value": "Break-Action"
+        "value": "Break-Action",
+        "pt-BR": "Modo de disparo",
+        "he": "מצב ירי"
       },
       "ARC Armor Penetration": {
         "en": "ARC Armor Penetration",
@@ -5530,7 +5959,9 @@
         "tr": "ARC Zırh Delme",
         "hr": "ARC probijanje oklopa",
         "sr": "ARC probijanje oklopa",
-        "value": "Strong"
+        "value": "Strong",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "he": "חדירת שריון ARC"
       },
       "Upgrade Modifiers": {
         "en": "Upgrade Modifiers",
@@ -5551,7 +5982,9 @@
         "tr": "Yükseltme Değiştiricileri",
         "hr": "Modifikatori nadogradnje",
         "sr": "Modifikatori nadogradnje",
-        "value": "26% Reduced Reload Time"
+        "value": "26% Reduced Reload Time",
+        "pt-BR": "Modificadores de Melhoria",
+        "he": "משתני שדרוג"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
@@ -5586,7 +6019,9 @@
       "kr": "페로 IV",
       "tr": "Ferro IV",
       "hr": "Ferro IV",
-      "sr": "Ferro IV"
+      "sr": "Ferro IV",
+      "pt-BR": "Ferro IV",
+      "he": "פרו IV"
     },
     "description": {
       "en": "Packs a punch, but must be reloaded between every shot.",
@@ -5606,7 +6041,9 @@
       "kr": "강력한 한 방을 날리지만, 매 발사마다 재장전이 필요합니다.",
       "tr": "Güçlü bir darbe indirir, ancak her atıştan sonra yeniden doldurulmalıdır.",
       "hr": "Zadaje snažan udarac, ali se mora puniti nakon svakog hica.",
-      "sr": "Zadaje snažan udarac, ali se mora puniti nakon svakog hica."
+      "sr": "Zadaje snažan udarac, ali se mora puniti nakon svakog hica.",
+      "pt-BR": "Tem forte impacto, mas precisa ser recarregado após cada disparo.",
+      "he": "מכה חזק, אך דורש טעינה מחדש בין כל ירייה."
     },
     "type": "Battle Rifle",
     "rarity": "Common",
@@ -5650,7 +6087,9 @@
         "tr": "Dayanıklılık",
         "hr": "Izdržljivost",
         "sr": "Izdržljivost",
-        "value": "130/130"
+        "value": "130/130",
+        "pt-BR": "Durabilidade",
+        "he": "עמידות"
       },
       "Ammo Type": {
         "en": "Ammo Type",
@@ -5671,7 +6110,9 @@
         "tr": "Mermi Türü",
         "hr": "Vrsta Streljiva",
         "sr": "Vrsta Streljiva",
-        "value": "Heavy Ammo"
+        "value": "Heavy Ammo",
+        "pt-BR": "Tipo de munição",
+        "he": "סוג תחמושת"
       },
       "Magazine Size": {
         "en": "Magazine Size",
@@ -5692,7 +6133,9 @@
         "tr": "Şarjör Boyutu",
         "hr": "Veličina Spremnika",
         "sr": "Veličina Spremnika",
-        "value": 1
+        "value": 1,
+        "pt-BR": "Tamanho do Pente",
+        "he": "גודל מחסנית"
       },
       "Firing Mode": {
         "en": "Firing Mode",
@@ -5713,7 +6156,9 @@
         "tr": "Atış Modu",
         "hr": "Način Pucanja",
         "sr": "Način Pucanja",
-        "value": "Break-Action"
+        "value": "Break-Action",
+        "pt-BR": "Modo de disparo",
+        "he": "מצב ירי"
       },
       "ARC Armor Penetration": {
         "en": "ARC Armor Penetration",
@@ -5734,7 +6179,9 @@
         "tr": "ARC Zırh Delme",
         "hr": "ARC Probijanje Oklopa",
         "sr": "ARC Probijanje Oklopa",
-        "value": "Strong"
+        "value": "Strong",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "he": "חדירת שריון ARC"
       },
       "Upgrade Modifiers": {
         "en": "Upgrade Modifiers",
@@ -5755,7 +6202,9 @@
         "tr": "Yükseltme Değiştiricileri",
         "hr": "Modifikatori Nadogradnje",
         "sr": "Modifikatori Nadogradnje",
-        "value": "39% Reduced Reload Time"
+        "value": "39% Reduced Reload Time",
+        "pt-BR": "Modificadores de Melhoria",
+        "he": "משני שדרוג"
       }
     },
     "isWeapon": true
@@ -5780,7 +6229,9 @@
       "kr": "비료",
       "tr": "Gübre",
       "hr": "Gnojivo",
-      "sr": "Đubrivo"
+      "sr": "Đubrivo",
+      "pt-BR": "Fertilizante",
+      "he": "דשן"
     },
     "description": {
       "en": "May be worth a few coins.",
@@ -5800,7 +6251,9 @@
       "kr": "몇 개의 동전 정도의 가치가 있을 수 있습니다.",
       "tr": "Birkaç madeni paraya değer olabilir.",
       "hr": "Moglo bi vrijediti nekoliko novčića.",
-      "sr": "Moglo bi vredeti nekoliko novčića."
+      "sr": "Moglo bi vredeti nekoliko novčića.",
+      "pt-BR": "Pode valer algumas moedas.",
+      "he": "עשוי להיות שווה כמה מטבעות."
     },
     "type": "Nature",
     "rarity": "Uncommon",
@@ -5834,7 +6287,9 @@
       "kr": "필름 릴",
       "tr": "Film Makarası",
       "hr": "Filmska Rolna",
-      "sr": "Filmska Rolna"
+      "sr": "Filmska Rolna",
+      "pt-BR": "Rolo de Filme",
+      "he": "סליל סרט"
     },
     "description": {
       "en": "May be worth a few coins.",
@@ -5854,7 +6309,9 @@
       "kr": "몇 코인의 가치가 있을 수 있습니다.",
       "tr": "Birkaç madeni paraya değer olabilir.",
       "hr": "Možda vrijedi nekoliko novčića.",
-      "sr": "Možda vredi nekoliko novčića."
+      "sr": "Možda vredi nekoliko novčića.",
+      "pt-BR": "Pode valer algumas moedas.",
+      "he": "עשוי להיות שווה כמה מטבעות."
     },
     "type": "Trinket",
     "value": 2000,
@@ -5886,7 +6343,9 @@
       "kr": "고급 손목시계",
       "tr": "Kaliteli Kol Saati",
       "hr": "Fini Ručni Sat",
-      "sr": "Fini Ručni Sat"
+      "sr": "Fini Ručni Sat",
+      "pt-BR": "Relógio de Pulso Fino",
+      "he": "שעון יד משובח"
     },
     "description": {
       "en": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person.",
@@ -5906,7 +6365,9 @@
       "kr": "시간을 확인하고 당신이 매우 품위 있는 사람임을 보여주기에 완벽합니다.",
       "tr": "Zamanı söylemek ve son derece saygın bir insan olduğunuzu sergilemek için mükemmel.",
       "hr": "Savršen za očitavanje vremena i pokazivanje da ste iznimno dostojanstvena osoba.",
-      "sr": "Savršen za očitavanje vremena i pokazivanje da ste izuzetno dostojanstvena osoba."
+      "sr": "Savršen za očitavanje vremena i pokazivanje da ste izuzetno dostojanstvena osoba.",
+      "pt-BR": "Perfeito para ver as horas e mostrar que você é uma pessoa extremamente distinta.",
+      "he": "מושלם לקריאת השעה, ולהראות שאתה אדם מכובד ביותר."
     },
     "type": "Trinket",
     "weightKg": 0.2,
@@ -5937,7 +6398,9 @@
       "kr": "파이어볼 버너",
       "tr": "Ateş Topu Yakıcı",
       "hr": "Vatrena Kugla",
-      "sr": "Vatrena Kugla"
+      "sr": "Vatrena Kugla",
+      "pt-BR": "Queimador Bola de Fogo",
+      "he": "מבער כדור אש"
     },
     "description": {
       "en": "Can be recycled into ARC Alloy. Can be thrown to create small fires.",
@@ -5957,7 +6420,9 @@
       "kr": "아크 합금으로 재활용 가능. 투척하여 작은 불을 일으킬 수 있습니다.",
       "tr": "ARC Alaşımına geri dönüştürülebilir. Küçük yangınlar çıkarmak için fırlatılabilir.",
       "hr": "Može se reciklirati u ARC leguru. Može se baciti kako bi se stvorile male vatre.",
-      "sr": "Može se reciklirati u ARC leguru. Može se baciti kako bi se stvorile male vatre."
+      "sr": "Može se reciklirati u ARC leguru. Može se baciti kako bi se stvorile male vatre.",
+      "pt-BR": "Pode ser reciclado em Liga ARC. Pode ser arremessado para criar pequenos focos de incêndio.",
+      "he": "ניתן למיחזור לסגסוגת ARC. ניתן לזריקה ליצירת שריפות קטנות."
     },
     "type": "Recyclable",
     "rarity": "Uncommon",
@@ -5990,7 +6455,9 @@
         "tr": "Hasar",
         "hr": "Šteta",
         "sr": "Šteta",
-        "value": "5/s"
+        "value": "5/s",
+        "pt-BR": "Dano",
+        "he": "נזק"
       },
       "Duration": {
         "en": "Duration",
@@ -6011,7 +6478,9 @@
         "tr": "Süre",
         "hr": "Trajanje",
         "sr": "Trajanje",
-        "value": "10s"
+        "value": "10s",
+        "pt-BR": "Duração",
+        "he": "משך זמן"
       },
       "Radius": {
         "en": "Radius",
@@ -6032,7 +6501,9 @@
         "tr": "Yarıçap",
         "hr": "Radijus",
         "sr": "Radijus",
-        "value": "2m"
+        "value": "2m",
+        "pt-BR": "Raio",
+        "he": "רדיוס"
       }
     },
     "updatedAt": "12/07/2025"
@@ -6057,7 +6528,9 @@
       "kr": "폭죽",
       "tr": "Maytap",
       "hr": "Petarda",
-      "sr": "Petarda"
+      "sr": "Petarda",
+      "pt-BR": "Bombinha",
+      "he": "חזיז"
     },
     "description": {
       "en": "A device that sparks and pops in a pleasant manner.",
@@ -6077,7 +6550,9 @@
       "kr": "불꽃이 튀고 기분 좋게 톡톡 터지는 장치.",
       "tr": "Hoş bir şekilde kıvılcımlanan ve patlayan bir cihaz.",
       "hr": "Uređaj koji ugodno iskri i puca.",
-      "sr": "Uređaj koji prijatno varniči i puca."
+      "sr": "Uređaj koji prijatno varniči i puca.",
+      "pt-BR": "Dispositivo que solta faíscas e estoura de forma agradável.",
+      "he": "מכשיר שיוצר ניצוצות ופיצפוצים בצורה נעימה."
     },
     "type": "Quick Use",
     "rarity": "Common",
@@ -6110,7 +6585,9 @@
         "tr": "Süre",
         "hr": "Trajanje",
         "sr": "Trajanje",
-        "value": "7.5s"
+        "value": "7.5s",
+        "pt-BR": "Duração",
+        "he": "משך"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/firecracker.png",
@@ -6142,7 +6619,9 @@
       "kr": "불꽃놀이 상자 설계도",
       "tr": "Havai Fişek Kutusu Planı",
       "hr": "Nacrt Kutije Vatrometa",
-      "sr": "Nacrt Kutije Vatrometa"
+      "sr": "Nacrt Kutije Vatrometa",
+      "pt-BR": "Projeto da Caixa de Fogos de Artifício",
+      "he": "שרטוט קופסת זיקוקים"
     },
     "description": {
       "en": "Unlocks the crafting blueprint for the Fireworks Box.",
@@ -6162,7 +6641,9 @@
       "kr": "불꽃놀이 상자 제작 설계도를 해금합니다.",
       "tr": "Havai Fişek Kutusu için üretim planını açar.",
       "hr": "Otključava nacrt izrade za Kutiju vatrometa.",
-      "sr": "Otključava nacrt izrade za Kutiju vatrometa."
+      "sr": "Otključava nacrt izrade za Kutiju vatrometa.",
+      "pt-BR": "Conjunto de fogos de artifício acionado remotamente, perfeito para dar um show.",
+      "he": "פותח את שרטוט הייצור עבור קופסת זיקוקים."
     },
     "type": "Blueprint",
     "value": 5000,
@@ -6191,7 +6672,9 @@
       "kr": "불꽃놀이 상자",
       "tr": "Havai Fişek Kutusu",
       "hr": "Kutija vatrometa",
-      "sr": "Kutija vatrometa"
+      "sr": "Kutija vatrometa",
+      "pt-BR": "Caixa de Fogos de Artifício",
+      "he": "קופסת זיקוקים"
     },
     "description": {
       "en": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
@@ -6211,7 +6694,9 @@
       "kr": "원격으로 작동하는 눈부신 불꽃놀이 세트. 확실히 쇼를 보여줍니다.",
       "tr": "Uzaktan tetiklenen göz kamaştırıcı havai fişek düzeni; tam bir gösteri.",
       "hr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu.",
-      "sr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu."
+      "sr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu.",
+      "pt-BR": "Conjunto de fogos de artifício acionado remotamente, perfeito para dar um show.",
+      "he": "סידור של זיקוקים מרהיבים המופעל מרחוק, שבטוח ייתן הופעה."
     },
     "type": "Quick Use",
     "rarity": "Rare",
@@ -6253,7 +6738,9 @@
       "tr": "İlk Dalga Pusulası",
       "uk": "Компас Першої Хвилі",
       "sr": "Kompas Prvog Talasa",
-      "hr": "Kompas Prvog Vala"
+      "hr": "Kompas Prvog Vala",
+      "pt-BR": "Bússola da Primeira Onda",
+      "he": "מצפן מהגל הראשון"
     },
     "description": {
       "en": "Dusty but functional, these helped chart a course when all seemed lost.",
@@ -6273,14 +6760,17 @@
       "tr": "Tozlu ama işlevsel, her şey kaybolmuş gibi göründüğünde rotayı belirlemeye yardımcı oldular.",
       "uk": "Запилені, але функціональні, вони допомогли прокласти курс, коли все здавалося втраченим.",
       "sr": "Prašnjavi ali funkcionalni, pomogli su da se odredi kurs kada se sve činilo izgubljenim.",
-      "hr": "Prašnjavi ali funkcionalni, pomogli su odrediti smjer kada se sve činilo izgubljenim."
+      "hr": "Prašnjavi ali funkcionalni, pomogli su odrediti smjer kada se sve činilo izgubljenim.",
+      "pt-BR": "Empoeiradas mas funcionais, elas ajudaram a traçar um curso quando tudo parecia perdido.",
+      "he": "מאובקים אך מתפקדים, אלו עזרו לתוות מסלול כשנראה היה שהכול אבוד."
     },
     "id": "first_wave_compass",
     "type": "Trinket",
     "weightKg": 0.25,
     "imageFilename": "https://cdn.arctracker.io/items/first_wave_compass.png",
     "rarity": "Common",
-    "updatedAt": "11/17/2025"
+    "updatedAt": "11/17/2025",
+    "questItem": true
   },
   {
     "name": {
@@ -6301,7 +6791,9 @@
       "tr": "İlk Dalga Erzakı",
       "uk": "Пайки Першої Хвилі",
       "sr": "Obroci Prvog Talasa",
-      "hr": "Obroci Prvog Vala"
+      "hr": "Obroci Prvog Vala",
+      "pt-BR": "Rações da Primeira Onda",
+      "he": "מנות מזון מהגל הראשון"
     },
     "description": {
       "en": "Often heated above discreet fires, these meager provisions are said to have fueled a resistance.",
@@ -6321,14 +6813,17 @@
       "tr": "Genellikle gizli ateşlerde ısıtılan bu yetersiz erzakın bir direnişi beslediği söylenir.",
       "uk": "Ці мізерні запаси, що часто підігрівалися над непомітними вогнищами, як кажуть, підтримували опір.",
       "sr": "Često zagrevani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor.",
-      "hr": "Često zagrijavani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor."
+      "hr": "Često zagrijavani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor.",
+      "pt-BR": "Frequentemente aquecidas sobre fogueiras discretas, dizem que essas provisões escassas alimentaram uma resistência.",
+      "he": "חוממו לעתים קרובות מעל מדורות נסתרות; נאמר על המצרכים הדלים הללו שהזינו את ההתנגדות."
     },
     "id": "first_wave_rations",
     "type": "Trinket",
     "weightKg": 0.25,
     "imageFilename": "https://cdn.arctracker.io/items/first_wave_rations.png",
     "rarity": "Common",
-    "updatedAt": "11/17/2025"
+    "updatedAt": "11/17/2025",
+    "questItem": true
   },
   {
     "name": {
@@ -6349,7 +6844,9 @@
       "tr": "İlk Dalga Kaseti",
       "uk": "Касета Першої Хвилі",
       "sr": "Traka Prvog Talasa",
-      "hr": "Traka Prvog Vala"
+      "hr": "Traka Prvog Vala",
+      "pt-BR": "Fita da Primeira Onda",
+      "he": "קלטת מהגל הראשון"
     },
     "description": {
       "en": "An old tape found inside a battered old camcorder.",
@@ -6369,14 +6866,17 @@
       "tr": "Hırpalanmış eski bir kameranın içinde bulunan eski bir kaset.",
       "uk": "Стара касета, знайдена всередині пошарпаної старої відеокамери.",
       "sr": "Stara traka pronađena unutar oštećene stare kamere.",
-      "hr": "Stara traka pronađena unutar oštećene stare kamere."
+      "hr": "Stara traka pronađena unutar oštećene stare kamere.",
+      "pt-BR": "Uma fita velha encontrada dentro de uma filmadora antiga e surrada.",
+      "he": "קלטת ישנה שנמצאה בתוך מצלמת וידאו ישנה וחבוטה."
     },
     "id": "first_wave_tape",
     "type": "Trinket",
     "weightKg": 0.25,
     "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
     "rarity": "Common",
-    "updatedAt": "11/17/2025"
+    "updatedAt": "11/17/2025",
+    "questItem": true
   },
   {
     "id": "flame_spray",
@@ -6398,7 +6898,9 @@
       "kr": "화염 분사기",
       "tr": "Alev Püskürtücü",
       "hr": "Plamen Sprej",
-      "sr": "Plamen Sprej"
+      "sr": "Plamen Sprej",
+      "pt-BR": "Spray de Chamas",
+      "he": "תרסיס להבה"
     },
     "description": {
       "en": "A classic makeshift weapon, sure to leave scorch marks.",
@@ -6418,7 +6920,9 @@
       "kr": "그을린 자국을 남길 것이 확실한 고전적인 즉석 무기.",
       "tr": "Yanık izleri bırakacağı kesin klasik derme çatma bir silah.",
       "hr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina.",
-      "sr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina."
+      "sr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina.",
+      "pt-BR": "Uma arma improvisada clássica, com certeza deixará marcas de queimadura.",
+      "he": "נשק מאולתר קלאסי, בטוח שישאיר סימני חריכה."
     },
     "type": "Quick Use",
     "rarity": "Uncommon",
@@ -6444,7 +6948,9 @@
         "tr": "Dayanıklılık",
         "hr": "Izdržljivost",
         "sr": "Izdržljivost",
-        "value": "100/100"
+        "value": "100/100",
+        "pt-BR": "Durabilidade",
+        "he": "עמידות"
       },
       "Damage": {
         "en": "Damage",
@@ -6465,11 +6971,18 @@
         "tr": "Hasar",
         "hr": "Šteta",
         "sr": "Šteta",
-        "value": "10/s"
+        "value": "10/s",
+        "pt-BR": "Dano",
+        "he": "נזק"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
-    "updatedAt": "11/04/2025"
+    "updatedAt": "12/31/2025",
+    "recipe": {
+      "air_freshener": 1,
+      "fireball_burner": 1
+    },
+    "craftBench": "in_raid"
   },
   {
     "name": {
@@ -6490,7 +7003,9 @@
       "tr": "Akış Kontrolcüsü",
       "uk": "Регулятор Потоку",
       "sr": "Kontroler Protoka",
-      "hr": "Regulator Protoka"
+      "hr": "Regulator Protoka",
+      "pt-BR": "Controlador de Fluxo",
+      "he": "בקר זרימה"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -6510,7 +7025,9 @@
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
       "sr": "Može se reciklirati u materijale za izradu.",
-      "hr": "Može se reciklirati u materijale za izradu."
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למחזור לחומרי יצירה."
     },
     "id": "flow_controller",
     "type": "Recyclable",
@@ -6546,7 +7063,9 @@
       "kr": "플러싱 터미널 열쇠",
       "tr": "Flushing Terminali Anahtarı",
       "hr": "Ključ Flushing Terminala",
-      "sr": "Ključ Flushing Terminala"
+      "sr": "Ključ Flushing Terminala",
+      "pt-BR": "Chave do Terminal de Descarga",
+      "he": "מפתח מסוף השטיפה"
     },
     "description": {
       "en": "This key is used for the quest The Stench of Corruption to activate the Flushing Terminal",
@@ -6566,7 +7085,9 @@
       "kr": "이 열쇠는 퀘스트 \"The Stench of Corruption\"에서 플러싱 터미널을 활성화하는 데 사용됩니다",
       "tr": "Bu anahtar, Flushing Terminalini etkinleştirmek için \"The Stench of Corruption\" görevinde kullanılır",
       "hr": "Ovaj se ključ koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala",
-      "sr": "Ovaj ključ se koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala"
+      "sr": "Ovaj ključ se koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala",
+      "pt-BR": "Esta chave é usada na missão O Fedor da Corrupção para ativar o Terminal de Descarga",
+      "he": "מפתח זה משמש למשימה צחנת השחיתות כדי להפעיל את מסוף השטיפה"
     },
     "type": "Trinket",
     "updatedAt": "12/16/2025",
@@ -6596,7 +7117,9 @@
       "kr": "화석화된 번개",
       "tr": "Fosilleşmiş Yıldırım",
       "hr": "Fosilizirana munja",
-      "sr": "Fosilizovana munja"
+      "sr": "Fosilizovana munja",
+      "pt-BR": "Relâmpago Fossilizado",
+      "he": "ברק מאובן"
     },
     "description": {
       "en": "An item that has a chance to spawn after lightning strikes.",
@@ -6616,7 +7139,9 @@
       "kr": "번개가 내리친 후 일정 확률로 생성되는 아이템입니다.",
       "tr": "Yıldırım düştükten sonra ortaya çıkma şansı olan bir eşya.",
       "hr": "Predmet koji ima šansu pojaviti se nakon udara munje.",
-      "sr": "Predmet koji ima šansu da se pojavi nakon udara munje."
+      "sr": "Predmet koji ima šansu da se pojavi nakon udara munje.",
+      "pt-BR": "Um item que tem chance de aparecer após a queda de um raio.",
+      "he": "פריט שיש לו סיכוי להופיע לאחר פגיעת ברק."
     },
     "type": "Topside Material",
     "rarity": "Epic",
@@ -6650,7 +7175,9 @@
       "tr": "Ücretsiz donanım güçlendirmesi",
       "uk": "Безкоштовне покращення спорядження",
       "sr": "Besplatno poboljšanje opreme",
-      "hr": "Besplatno poboljšanje opreme"
+      "hr": "Besplatno poboljšanje opreme",
+      "pt-BR": "Aprimoramento de Equipamento Gratuito",
+      "he": "שדרוג ציוד חינם"
     },
     "description": {
       "en": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
@@ -6670,7 +7197,9 @@
       "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
       "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
       "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
-      "hr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u ruksaku i nosivosti."
+      "hr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u ruksaku i nosivosti.",
+      "pt-BR": "Aprimoramento básico para Raiders novatos, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+      "he": "שדרוג בסיסי לריידרים מתחילים, המציע מעט יותר מקום בתיק וקיבולת נשיאה."
     },
     "type": "Augment",
     "rarity": "Common",
@@ -6694,7 +7223,9 @@
         "uk": "Міцність",
         "sr": "Izdržljivost",
         "hr": "Izdržljivost",
-        "value": 100
+        "value": 100,
+        "pt-BR": "Durabilidade",
+        "he": "עמידות"
       },
       "Max Loadout Weight": null,
       "Shield Compatibility": null
@@ -6723,7 +7254,9 @@
       "tr": "Frekans Modülasyon Kutusu",
       "uk": "Коробка частотної модуляції",
       "sr": "Kutija za modulaciju frekvencije",
-      "hr": "Kutija za modulaciju frekvencije"
+      "hr": "Kutija za modulaciju frekvencije",
+      "pt-BR": "Caixa de Modulação de Frequência",
+      "he": "קופסת אפנון תדר"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -6743,7 +7276,9 @@
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
       "sr": "Može se reciklirati u materijale za izradu.",
-      "hr": "Može se reciklirati u materijale za izradu."
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "id": "frequency_modulation_box",
     "type": "Recyclable",
@@ -6779,7 +7314,9 @@
       "kr": "타버린 메인보드",
       "tr": "Yanmış Anakart",
       "hr": "Pregrijana Matična Ploča",
-      "sr": "Pregrejana Matična Ploča"
+      "sr": "Pregrejana Matična Ploča",
+      "pt-BR": "Placa-Mãe Queimada",
+      "he": "לוח אם שרוף"
     },
     "description": {
       "en": "Can be recycled into crafting materials.",
@@ -6799,7 +7336,9 @@
       "kr": "제작 재료로 재활용할 수 있습니다.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "type": "Recyclable",
     "rarity": "Rare",
@@ -6837,7 +7376,9 @@
       "hr": "Mješavina voća",
       "zh-CN": "水果拼盘",
       "tr": "Meyve Karışımı",
-      "fr": "Mélange de Fruits"
+      "fr": "Mélange de Fruits",
+      "pt-BR": "Mix de Frutas",
+      "he": "תערובת פירות"
     },
     "description": {
       "en": "A food item that moderately increases both health and stamina.",
@@ -6857,7 +7398,9 @@
       "hr": "Hrana koja umjereno povećava i zdravlje i izdržljivost.",
       "zh-CN": "一种能适度增加生命值和耐力的食物。",
       "tr": "Hem sağlığı hem de dayanıklılığı orta düzeyde artıran bir yiyecek.",
-      "fr": "Un aliment qui augmente modérément la santé et l'endurance."
+      "fr": "Un aliment qui augmente modérément la santé et l'endurance.",
+      "pt-BR": "Um alimento que aumenta moderadamente a saúde e o vigor.",
+      "he": "פריט מזון המגדיל במידה בינונית את הבריאות והסיבולת."
     },
     "type": "Quick Use",
     "rarity": "Uncommon",
@@ -6884,7 +7427,9 @@
         "zh-CN": "治疗",
         "tr": "İyileştirme",
         "fr": "Soin",
-        "value": 25
+        "value": 25,
+        "pt-BR": "Cura",
+        "he": "ריפוי"
       },
       "Stamina": {
         "en": "Stamina",
@@ -6905,7 +7450,9 @@
         "zh-CN": "耐力",
         "tr": "Dayanıklılık",
         "fr": "Endurance",
-        "value": 50
+        "value": 50,
+        "pt-BR": "Vigor",
+        "he": "סיבולת"
       },
       "Use Time": {
         "en": "Use Time",
@@ -6926,7 +7473,9 @@
         "zh-CN": "使用时间",
         "tr": "Kullanım Süresi",
         "fr": "Temps d'Utilisation",
-        "value": "2s"
+        "value": "2s",
+        "pt-BR": "Tempo de uso",
+        "he": "זמן שימוש"
       }
     },
     "recipe": {
@@ -6934,7 +7483,7 @@
       "apricot": 1,
       "prickly_pear": 1
     },
-    "craftBench": "Inventory",
+    "craftBench": "in_raid",
     "blueprintLocked": false,
     "imageFilename": "https://cdn.arctracker.io/items/fruit_mix.png",
     "updatedAt": "11/12/2025"
@@ -6959,7 +7508,9 @@
       "kr": "프라이팬",
       "tr": "Tava",
       "hr": "Tava",
-      "sr": "Tiganj"
+      "sr": "Tiganj",
+      "pt-BR": "Frigideira",
+      "he": "מחבת"
     },
     "rarity": "Rare",
     "type": "Recyclable",
@@ -6988,7 +7539,9 @@
       "kr": "제작 재료로 재활용할 수 있다.",
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "hr": "Može se reciklirati u materijale za izradu.",
-      "sr": "Može se reciklirati u materijale za izradu."
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "he": "ניתן למיחזור לחומרי יצירה."
     },
     "weightKg": 2,
     "foundIn": "Residential",
@@ -7016,7 +7569,9 @@
       "kr": "마늘 다지개",
       "tr": "Sarımsak Presi",
       "hr": "Preša za češnjak",
-      "sr": "Presa za beli luk"
+      "sr": "Presa za beli luk",
+      "pt-BR": "Espremedor de Alho",
+      "he": "כותש שום"
     },
     "description": {
       "en": "It'll press garlic, olives, and probably many other things.",
@@ -7036,7 +7591,9 @@
       "kr": "마늘, 올리브, 그리고 아마도 많은 다른 것들을 압착할 수 있습니다.",
       "tr": "Sarımsak, zeytin ve muhtemelen daha birçok şeyi presleyebilir.",
       "hr": "Prešat će češnjak, masline i vjerojatno mnoge druge stvari.",
-      "sr": "Presaće beli luk, masline i verovatno mnoge druge stvari."
+      "sr": "Presaće beli luk, masline i verovatno mnoge druge stvari.",
+      "pt-BR": "Ele espreme alho, azeitonas e provavelmente muitas outras coisas.",
+      "he": "זה יכתוש שום, זיתים, וכנראה עוד הרבה דברים אחרים."
     },
     "rarity": "Uncommon",
     "type": "Recyclable",
@@ -7073,7 +7630,9 @@
       "kr": "가스 수류탄 함정",
       "tr": "Gaz Bombası Tuzağı",
       "hr": "Zamka s Plinskom Granatom",
-      "sr": "Zamka sa Gasnom Granatom"
+      "sr": "Zamka sa Gasnom Granatom",
+      "pt-BR": "Armadilha de Granada de Gás",
+      "he": "מלכודת רימון גז"
     },
     "description": {
       "en": "A laser trip wire that detonates a Gas Grenade.",
@@ -7093,7 +7652,9 @@
       "kr": "가스 수류탄을 폭발시키는 레이저 트립 와이어.",
       "tr": "Bir Gaz Bombasını patlatan lazer tuzak teli.",
       "hr": "Laserska žica zamka koja detonira Plinsku Granatu.",
-      "sr": "Laserska žica zamka koja detonira Gasnu Granatu."
+      "sr": "Laserska žica zamka koja detonira Gasnu Granatu.",
+      "pt-BR": "Um fio de acionamento a laser que detona uma Granada de Gás.",
+      "he": "חוט תיל לייזר המפוצץ רימון גז."
     },
     "type": "Quick Use",
     "rarity": "Common",
@@ -7119,7 +7680,9 @@
         "tr": "Dayanıklılık Tükenmesi",
         "hr": "Iscrpljivanje Izdržljivosti",
         "sr": "Iscrpljivanje Izdržljivosti",
-        "value": "25/s"
+        "value": "25/s",
+        "pt-BR": "Drenagem de Estamina",
+        "he": "דלדול סיבולת"
       },
       "Duration": {
         "en": "Duration",
@@ -7140,7 +7703,9 @@
         "tr": "Süre",
         "hr": "Trajanje",
         "sr": "Trajanje",
-        "value": "20s"
+        "value": "20s",
+        "pt-BR": "Duração",
+        "he": "משך"
       },
       "Radius": {
         "en": "Radius",
@@ -7161,7 +7726,9 @@
         "tr": "Yarıçap",
         "hr": "Radijus",
         "sr": "Radijus",
-        "value": "7.5m"
+        "value": "7.5m",
+        "pt-BR": "Raio",
+        "he": "רדיוס"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/gas_grenade_trap.png",
@@ -7194,7 +7761,9 @@
       "kr": "가스 수류탄",
       "tr": "Gaz Bombası",
       "hr": "Plinska granata",
-      "sr": "Plinska granata"
+      "sr": "Plinska granata",
+      "pt-BR": "Granada de Gás",
+      "he": "רימון גז"
     },
     "description": {
       "en": "A grenade that emits a lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect.",
@@ -7214,7 +7783,9 @@
       "kr": "충돌 시 지속되는 독성 구름을 방출하여 효과 범위 내의 모든 레이더의 스태미나를 소모시키는 수류탄.",
       "tr": "Çarpma anında kalıcı zehirli bir bulut yayan ve etki alanındaki tüm Akıncıların dayanıklılığını tüketen bir bomba.",
       "hr": "Granata koja pri udaru ispušta dugotrajni otrovni oblak, iscrpljujući izdržljivost svih pljačkaša unutar svog područja djelovanja.",
-      "sr": "Granata koja pri udaru ispušta dugotrajni otrovni oblak, iscrpljujući izdržljivost svih pljačkaša unutar svog područja dejstva."
+      "sr": "Granata koja pri udaru ispušta dugotrajni otrovni oblak, iscrpljujući izdržljivost svih pljačkaša unutar svog područja dejstva.",
+      "pt-BR": "Uma granada que emite uma nuvem tóxica persistente no impacto, drenando o vigor de quaisquer Raiders dentro de sua área de efeito.",
+      "he": "רימון הפולט ענן רעיל מתמשך בעת הפגיעה, ומרוקן את הסיבולת של כל ריידר הנמצא בטווח ההשפעה שלו."
     },
     "type": "Quick Use",
     "rarity": "Common",
@@ -7245,7 +7816,9 @@
         "tr": "Dayanıklılık Tüketimi",
         "hr": "Iscrpljivanje izdržljivosti",
         "sr": "Iscrpljivanje izdržljivosti",
-        "value": "25/s"
+        "value": "25/s",
+        "pt-BR": "Drenagem de Estamina",
+        "he": "דלדול סיבולת"
       },
       "Duration": {
         "en": "Duration",
@@ -7266,7 +7839,9 @@
         "tr": "Süre",
         "hr": "Trajanje",
         "sr": "Trajanje",
-        "value": "20s"
+        "value": "20s",
+        "pt-BR": "Duração",
+        "he": "משך"
       },
       "Radius": {
         "en": "Radius",
@@ -7287,7 +7862,9 @@
         "tr": "Yarıçap",
         "hr": "Radijus",
         "sr": "Radijus",
-        "value": "7.5m"
+        "value": "7.5m",
+        "pt-BR": "Raio",
+        "he": "רדיוס"
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/gas_grenade.png",
@@ -7318,7 +7895,9 @@
       "tr": "Gaz Mayını Planı",
       "uk": "Креслення Газова міна",
       "sr": "Gasna mina Nacrt",
-      "hr": "Plinska mina Nacrt"
+      "hr": "Plinska mina Nacrt",
+      "pt-BR": "Projeto de Mina de Gás",
+      "he": "שרטוט מוקש גז"
     },
     "description": {
       "en": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
@@ -7338,7 +7917,9 @@
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak dayanıklılığı hızla tüketen bir gaz bulutu yayar.",
       "uk": "Міна з датчиком наближення, яка вистрибує і випускає газову хмару, що швидко виснажує витривалість.",
       "sr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak gasa koji brzo iscrpljuje izdržljivost.",
-      "hr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak plina koji brzo iscrpljuje izdržljivost."
+      "hr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak plina koji brzo iscrpljuje izdržljivost.",
+      "pt-BR": "Uma mina acionada por proximidade que salta e libera uma nuvem de gás que drena estamina rapidamente.",
+      "he": "מוקש המופעל בקרבה, הקופץ מעלה ומפזר ענן גז המדלדל את הסיבולת במהירות."
     },
     "type": "Blueprint",
     "rarity": "Legendary",
