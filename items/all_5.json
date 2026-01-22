@@ -1,5 +1,172 @@
 [
   {
+    "id": "snap_hook_blueprint",
+    "name": {
+      "da": "Snap Hook-tegning",
+      "de": "Bauplan: Karabinerhaken",
+      "en": "Snap Hook Blueprint",
+      "es": "Proyecto del mosquetón",
+      "fr": "Schéma de Mousqueton",
+      "he": "שרטוט וו קפיצי",
+      "hr": "Nacrt Snap Hook",
+      "it": "Progetto Snap Hook",
+      "ja": "スナップ・フック設計図",
+      "kr": "스냅 훅 설계도",
+      "no": "Snap Hook-tegning",
+      "pl": "Projekt Snap Hook",
+      "pt": "Projeto de Snap Hook",
+      "pt-BR": "Diagrama do Gancho de Engate",
+      "ru": "Чертёж Snap Hook",
+      "sr": "Nacrt Snap Hook",
+      "tr": "Snap Hook Planı",
+      "uk": "Креслення Snap Hook",
+      "zh-CN": "Snap Hook 蓝图",
+      "zh-TW": "Snap Hook 藍圖"
+    },
+    "description": {
+      "da": "En genstand der gør det muligt for brugeren at klatre på strukturer og dække store afstande.",
+      "de": "Ein Gadget, mit dem der Benutzer Gebäude erklimmen und große Entfernungen zurücklegen kann.",
+      "en": "A gadget that allows the user to scale structures and cover large distances.",
+      "es": "Un artilugio que permite al usuario escalar estructuras, edificios y recorrer grandes distancias.",
+      "fr": "Un gadget qui permet à l'utilisateur d'escalader des structures et de couvrir de grandes distances.",
+      "he": "גאדג'ט המאפשר למשתמש לטפס על מבנים ולעבור מרחקים גדולים.",
+      "hr": "Naprava koja korisniku omogućuje penjanje po strukturama i prelaženje velikih udaljenosti.",
+      "it": "Un dispositivo che permette all'utente di scalare strutture e coprire grandi distanze.",
+      "ja": "構造物を登ったり、長距離を移動したりできるガジェット。",
+      "kr": "사용자가 구조물을 오르고 먼 거리를 이동할 수 있게 해주는 장치.",
+      "no": "En gjenstand som lar brukeren klatre på strukturer og dekke store avstander.",
+      "pl": "Gadżet pozwalający użytkownikowi wspinać się na konstrukcje i pokonywać duże odległości.",
+      "pt": "Um dispositivo que permite ao usuário escalar estruturas e cobrir grandes distâncias.",
+      "pt-BR": "Acessório que permite ao usuário escalar estruturas e cobrir grandes distâncias.",
+      "ru": "Устройство, позволяющее пользователю взбираться на строения и преодолевать большие расстояния.",
+      "sr": "Naprava koja korisniku omogućava penjanje po strukturama i prelaženje velikih udaljenosti.",
+      "tr": "Kullanıcının yapılara tırmanmasını ve büyük mesafeleri kat etmesini sağlayan bir alet.",
+      "uk": "Пристрій, що дозволяє користувачу підійматися на споруди та долати великі відстані.",
+      "zh-CN": "一种让使用者能够攀爬建筑物和跨越长距离的装置。",
+      "zh-TW": "一種讓使用者能夠攀爬建築物和跨越長距離的裝置。"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+    "updatedAt": "11/14/2025"
+  },
+  {
+    "id": "snap_hook",
+    "name": {
+      "da": "Karabinkrog",
+      "de": "Karabinerhaken",
+      "en": "Snap Hook",
+      "es": "Mosquetón",
+      "fr": "Mousqueton",
+      "he": "קרס תפיסה",
+      "hr": "Brza Kuka",
+      "it": "Moschettone",
+      "ja": "スナップ・フック",
+      "kr": "스냅 훅",
+      "no": "Karabinkrok",
+      "pl": "Karabińczyk",
+      "pt": "Mosquetão",
+      "pt-BR": "Mosquetão",
+      "ru": "Крюк с защелкой",
+      "sr": "Brza Kuka",
+      "tr": "Mandal Kancası",
+      "uk": "Карабін",
+      "zh-CN": "快扣钩",
+      "zh-TW": "扣鉤藍圖"
+    },
+    "description": {
+      "da": "En genstand der gør det muligt for brugeren at klatre på strukturer og dække store afstande.",
+      "de": "Ein Gadget, mit dem der Benutzer Gebäude erklimmen und große Entfernungen zurücklegen kann.",
+      "en": "A gadget that allows the user to scale structures and cover large distances.",
+      "es": "Un dispositivo que permite al usuario escalar estructuras, edificios y recorrer grandes distancias.",
+      "fr": "Un gadget qui permet à l'utilisateur d'escalader des structures et de couvrir de grandes distances.",
+      "he": "גאדג'ט המאפשר למשתמש לטפס על מבנים ולעבור מרחקים גדולים.",
+      "hr": "Naprava koja korisniku omogućuje penjanje po strukturama i prelaženje velikih udaljenosti.",
+      "it": "Un dispositivo che permette all'utente di scalare strutture e coprire grandi distanze.",
+      "ja": "構造物を登ったり、長距離を移動したりできるガジェット。",
+      "kr": "사용자가 구조물을 오르고 먼 거리를 이동할 수 있게 해주는 장치.",
+      "no": "En gjenstand som lar brukeren klatre på strukturer og dekke store avstander.",
+      "pl": "Gadżet pozwalający użytkownikowi wspinać się na konstrukcje i pokonywać duże odległości.",
+      "pt": "Um dispositivo que permite ao usuário escalar estruturas e cobrir grandes distâncias.",
+      "pt-BR": "Acessório que permite ao usuário escalar estruturas e cobrir grandes distâncias.",
+      "ru": "Устройство, позволяющее пользователю взбираться на строения и преодолевать большие расстояния.",
+      "sr": "Naprava koja korisniku omogućava penjanje po strukturama i prelaženje velikih udaljenosti.",
+      "tr": "Kullanıcının yapılara tırmanmasını ve büyük mesafeleri kat etmesini sağlayan bir alet.",
+      "uk": "Пристрій, що дозволяє користувачу підійматися на споруди та долати великі відстані.",
+      "zh-CN": "一种让使用者能够攀爬建筑物和跨越长距离的装置。",
+      "zh-TW": "一種讓使用者能夠攀爬建築物和跨越長距離的裝置。"
+    },
+    "type": "Quick Use",
+    "rarity": "Legendary",
+    "value": 14000,
+    "weightKg": 5,
+    "effects": {
+      "Durability": {
+        "value": "100/100",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "kr": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Range": {
+        "value": "20m",
+        "da": "Rækkevidde",
+        "de": "Reichweite",
+        "en": "Range",
+        "es": "Alcance",
+        "fr": "Portée",
+        "he": "טווח",
+        "hr": "Domet",
+        "it": "Portata",
+        "ja": "射程",
+        "kr": "사거리",
+        "no": "Rekkevidde",
+        "pl": "Zasięg",
+        "pt": "Alcance",
+        "pt-BR": "Alcance",
+        "ru": "Дальность",
+        "sr": "Domet",
+        "tr": "Menzil",
+        "uk": "Дальність",
+        "zh-CN": "范围",
+        "zh-TW": "範圍"
+      }
+    },
+    "craftBench": "utility_bench",
+    "recipe": {
+      "exodus_modules": 1,
+      "power_rod": 2,
+      "rope": 3
+    },
+    "recyclesInto": {
+      "power_rod": 1,
+      "rope": 3
+    },
+    "salvagesInto": {
+      "advanced_electrical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+    "updatedAt": "01/09/2026"
+  },
+  {
     "id": "snitch_scanner",
     "name": {
       "da": "Snitch-scanner",
@@ -1707,7 +1874,7 @@
       "sr": "Stitcher I",
       "tr": "Stitcher I",
       "uk": "Зшивач I",
-      "zh-CN": "缝合者 I",
+      "zh-CN": "钉机 I",
       "zh-TW": "縫合者 I"
     },
     "description": {
@@ -1893,7 +2060,7 @@
       "sr": "Stitcher II",
       "tr": "Stitcher II",
       "uk": "Зшивач II",
-      "zh-CN": "缝合者 II",
+      "zh-CN": "钉机 II",
       "zh-TW": "縫合者 II"
     },
     "description": {
@@ -2121,7 +2288,7 @@
       "sr": "Stitcher III",
       "tr": "Stitcher III",
       "uk": "Зшивач III",
-      "zh-CN": "缝合者 III",
+      "zh-CN": "钉机 III",
       "zh-TW": "縫合者 III"
     },
     "description": {
@@ -2349,7 +2516,7 @@
       "sr": "Stitcher IV",
       "tr": "Stitcher IV",
       "uk": "Зшивач IV",
-      "zh-CN": "缝合者 IV",
+      "zh-CN": "钉机 IV",
       "zh-TW": "縫合者 IV"
     },
     "description": {
@@ -2905,6 +3072,7 @@
     "rarity": "Uncommon",
     "value": 640,
     "weightKg": 2,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -2989,7 +3157,7 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-    "updatedAt": "01/09/2026"
+    "updatedAt": "01/20/2026"
   },
   {
     "id": "tactical_mk2",
@@ -3041,6 +3209,7 @@
     "rarity": "Rare",
     "value": 2000,
     "weightKg": 2,
+    "stackSize": 1,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -3125,7 +3294,7 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-    "updatedAt": "01/09/2026"
+    "updatedAt": "01/20/2026"
   },
   {
     "id": "tactical_mk3_defensive_blueprint",
@@ -3230,6 +3399,7 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 5,
+    "stackSize": 1,
     "blueprintLocked": true,
     "effects": {
       "Durability": {
@@ -3316,7 +3486,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-    "updatedAt": "01/09/2026"
+    "updatedAt": "01/20/2026"
   },
   {
     "id": "tactical_mk3_healing_blueprint",
@@ -3421,6 +3591,8 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 4,
+    "stackSize": 1,
+    "blueprintLocked": true,
     "effects": {
       "Durability": {
         "value": "100/100",
@@ -3506,7 +3678,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-    "updatedAt": "01/13/2026"
+    "updatedAt": "01/20/2026"
   },
   {
     "id": "tagging_grenade_blueprint",
@@ -5109,8 +5281,8 @@
       "sr": "Torrente Nacrt",
       "tr": "Torrente Planı",
       "uk": "Креслення Torrente",
-      "zh-CN": "Torrente蓝图",
-      "zh-TW": "Torrente藍圖"
+      "zh-CN": "奔流蓝图",
+      "zh-TW": "奔流藍圖"
     },
     "description": {
       "da": "Har stor ammunitionskapacitet, men er kun præcis når man sidder på hug.",
@@ -5162,8 +5334,8 @@
       "sr": "Torrente I",
       "tr": "Torrente I",
       "uk": "Torrente I",
-      "zh-CN": "Torrente I",
-      "zh-TW": "奔流藍圖 I"
+      "zh-CN": "奔流 I",
+      "zh-TW": "奔流 I"
     },
     "description": {
       "da": "Har stor ammunitionskapacitet, men er kun præcis, når du sidder på hug.",
@@ -5346,8 +5518,8 @@
       "sr": "Torrente II",
       "tr": "Torrente II",
       "uk": "Torrente II",
-      "zh-CN": "Torrente II",
-      "zh-TW": "奔流藍圖 II"
+      "zh-CN": "奔流 II",
+      "zh-TW": "奔流 II"
     },
     "description": {
       "da": "Har en stor ammunitionskapacitet, men er kun præcis i hugsiddende stilling.",
@@ -5551,8 +5723,8 @@
       "sr": "Torrente III",
       "tr": "Torrente III",
       "uk": "Torrente III",
-      "zh-CN": "Torrente III",
-      "zh-TW": "奔流藍圖 III"
+      "zh-CN": "奔流 III",
+      "zh-TW": "奔流 III"
     },
     "description": {
       "da": "Har en stor ammunitionskapacitet, men er kun præcis i hugsiddende stilling.",
@@ -5756,8 +5928,8 @@
       "sr": "Torrente IV",
       "tr": "Torrente IV",
       "uk": "Torrente IV",
-      "zh-CN": "Torrente IV",
-      "zh-TW": "奔流藍圖 IV"
+      "zh-CN": "奔流 IV",
+      "zh-TW": "奔流 IV"
     },
     "description": {
       "da": "Har en stor ammunitionskapacitet, men er kun præcis i hugsiddende stilling.",
@@ -6349,7 +6521,7 @@
       "hr": "Neupotrebljivo oružje",
       "it": "Arma inutilizzabile",
       "ja": "使い物にならない武器",
-      "kr": "사용 불가능한 무기",
+      "kr": "망가진 무기",
       "no": "Ubrukelig våpen",
       "pl": "Niezdatna broń",
       "pt": "Arma inutilizável",
@@ -6396,7 +6568,7 @@
       "simple_gun_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/unusable_weapon.png",
-    "updatedAt": "11/09/2025"
+    "updatedAt": "01/13/2026"
   },
   {
     "id": "vase",
@@ -6475,8 +6647,8 @@
       "sr": "Venator Nacrt",
       "tr": "Venator Planı",
       "uk": "Креслення Venator",
-      "zh-CN": "Venator蓝图",
-      "zh-TW": "Venator藍圖"
+      "zh-CN": "复仇者蓝图",
+      "zh-TW": "复仇者藍圖"
     },
     "description": {
       "da": "Affyrer to skud ad gangen.",
@@ -6527,8 +6699,8 @@
       "sr": "Venator I",
       "tr": "Venator I",
       "uk": "Venator I",
-      "zh-CN": "Venator I",
-      "zh-TW": "Venator I"
+      "zh-CN": "复仇者 I",
+      "zh-TW": "复仇者 I"
     },
     "description": {
       "da": "Halvautomatisk pistol. Affyrer to skud ad gangen.",
@@ -6735,8 +6907,8 @@
       "sr": "Venator II",
       "tr": "Venator II",
       "uk": "Venator II",
-      "zh-CN": "Venator II",
-      "zh-TW": "Venator II"
+      "zh-CN": "复仇者 II",
+      "zh-TW": "复仇者 II"
     },
     "description": {
       "da": "Halvautomatisk pistol. Affyrer to skud ad gangen.",
@@ -6987,8 +7159,8 @@
       "sr": "Venator III",
       "tr": "Venator III",
       "uk": "Venator III",
-      "zh-CN": "Venator III",
-      "zh-TW": "Venator III"
+      "zh-CN": "复仇者 III",
+      "zh-TW": "复仇者 III"
     },
     "description": {
       "da": "Halvautomatisk pistol. Affyrer to skud ad gangen.",
@@ -7239,8 +7411,8 @@
       "sr": "Venator IV",
       "tr": "Venator IV",
       "uk": "Venator IV",
-      "zh-CN": "Venator IV",
-      "zh-TW": "Venator IV"
+      "zh-CN": "复仇者 IV",
+      "zh-TW": "复仇者 IV"
     },
     "description": {
       "da": "Halvautomatisk pistol. Affyrer to skud ad gangen.",
@@ -8454,8 +8626,8 @@
       "sr": "Vulcano Nacrt",
       "tr": "Vulcano Plani",
       "uk": "Креслення Vulcano",
-      "zh-CN": "Vulcano 蓝图",
-      "zh-TW": "Vulcano 藍圖"
+      "zh-CN": "火山 蓝图",
+      "zh-TW": "火山 藍圖"
     },
     "description": {
       "da": "Halvautomatisk haglgevaer med god spredning men skarpt fald.",
@@ -8507,8 +8679,8 @@
       "sr": "Vulcano I",
       "tr": "Vulcano I",
       "uk": "Vulcano I",
-      "zh-CN": "Vulcano I",
-      "zh-TW": "Vulcano I"
+      "zh-CN": "火山 I",
+      "zh-TW": "火山 I"
     },
     "description": {
       "da": "Halvautomatisk haglgevær med god spredning men skarpt fald.",
@@ -8702,8 +8874,8 @@
       "sr": "Vulcano II",
       "tr": "Vulcano II",
       "uk": "Vulcano II",
-      "zh-CN": "Vulcano II",
-      "zh-TW": "Vulcano II"
+      "zh-CN": "火山 II",
+      "zh-TW": "火山 II"
     },
     "description": {
       "da": "Har god spredning men skarpt fald.",
@@ -8942,8 +9114,8 @@
       "sr": "Vulcano III",
       "tr": "Vulcano III",
       "uk": "Vulcano III",
-      "zh-CN": "Vulcano III",
-      "zh-TW": "Vulcano III"
+      "zh-CN": "火山 III",
+      "zh-TW": "火山 III"
     },
     "description": {
       "da": "Har god kuglespredning, men kraftigt fald.",
@@ -9218,8 +9390,8 @@
       "sr": "Vulcano IV",
       "tr": "Vulcano IV",
       "uk": "Vulcano IV",
-      "zh-CN": "Vulcano IV",
-      "zh-TW": "Vulcano IV"
+      "zh-CN": "火山 IV",
+      "zh-TW": "火山 IV"
     },
     "description": {
       "da": "Halvautomatisk haglgevær med god spredning men kraftigt skadefald",
@@ -9702,7 +9874,7 @@
       "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Vatrena Zamka s Granatom, Dimna Zamka s Granatom, Zamka s Mamcem, Plinska Zamka s Granatom, Usporivač Cijevi I",
       "it": "Si usa per creare un'ampia gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Trappola laser: Fuoco, Trappola laser: Fumogeno, Trappola laser: Esca, Trappola laser: Gas, Freno di bocca I",
       "ja": "幅広いアイテムの作成に使用。クラフト素材にリサイクル可能。作成可能: ブレイズグレネードトラップ、スモークグレネードトラップ、ルアーグレネードトラップ、ガスグレネードトラップ、マズルブレーキI",
-      "kr": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 화염 수류탄 함정, 연막 수류탄 함정, 미끼 수류탄 함정, 가스 수류탄 함정, 총구 제동기 I",
+      "kr": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 화염 수류탄 함정, 연막 수류탄 함정, 유인 수류탄 함정, 가스 수류탄 함정, 총구 제동기 I",
       "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Flammegranatfelle, Røykgranatfelle, Lokkemiddelgranatfelle, Gassgranatfelle, Munningsbrems I",
       "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytwarzania: Pułapka z granatem zapalającym, Pułapka z granatem dymnym, Pułapka z granatem wabik, Pułapka z granatem gazowym, Hamulec wylotowy I",
       "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Armadilha de granada incendiária, Armadilha de granada de fumaça, Armadilha de granada isca, Armadilha de granada de gás, Freio de boca I",
@@ -9721,13 +9893,13 @@
     "weightKg": 0.25,
     "stackSize": 15,
     "recyclesInto": {
-      "rubber_parts": 3
+      "rubber_parts": 2
     },
     "salvagesInto": {
       "rubber_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "01/20/2026",
     "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials."
   },
   {
@@ -10050,7 +10222,7 @@
         "zh-TW": "照明範圍"
       }
     },
-    "craftBench": "explosives_bench",
+    "craftBench": "utility_bench",
     "stationLevelRequired": 3,
     "recipe": {
       "chemicals": 3
