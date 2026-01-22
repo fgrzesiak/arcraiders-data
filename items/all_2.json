@@ -49,6 +49,7 @@
     "rarity": "Epic",
     "value": 5000,
     "weightKg": 5,
+    "stackSize": 1,
     "blueprintLocked": true,
     "effects": {
       "Backpack Slots": {
@@ -250,7 +251,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "01/20/2026",
     "repairCost": {
       "advanced_electrical_components": 1,
       "processor": 2
@@ -1626,13 +1627,13 @@
     "weightKg": 0.25,
     "stackSize": 5,
     "recyclesInto": {
-      "arc_alloy": 3
-    },
-    "salvagesInto": {
       "arc_alloy": 2
     },
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
     "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
-    "updatedAt": "01/13/2026"
+    "updatedAt": "01/20/2026"
   },
   {
     "id": "damaged_arc_powercell",
@@ -3063,7 +3064,7 @@
       "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
       "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Tattico Mk. 2, Combattimento Mk. 2, Saccheggio Mk. 2, Componenti elettrici avanzati, Caricascudi rapido",
       "ja": "幅広いアイテムの製作に使用。製作素材にリサイクル可能。製作用途：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、サージシールドリチャージャー、ルアーグレネード",
-      "kr": "다양한 아이템 제작에 사용. 제작 재료로 재활용 가능. 제작 용도: 전술 마크 2, 전투 마크 2, 노획 마크 2, 급속 실드 충전기, 미끼 수류탄",
+      "kr": "다양한 아이템 제작에 사용. 제작 재료로 재활용 가능. 제작 용도: 전술 마크 2, 전투 마크 2, 노획 마크 2, 급속 실드 충전기, 유인 수류탄",
       "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge skjoldlader, Lokkegranate",
       "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Ładowarka tarczy Surge, Granat wabik",
       "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Recarregador de escudo Surge, Granada isca",
@@ -3094,7 +3095,7 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
-    "updatedAt": "11/03/2025"
+    "updatedAt": "01/13/2026"
   },
   {
     "id": "empty_wine_bottle",
@@ -5480,7 +5481,7 @@
       "hr": "Izblijedjela fotografija",
       "it": "Fotografia sbiadita",
       "ja": "色あせた写真",
-      "kr": "바랜 사진",
+      "kr": "빛바랜 사진",
       "no": "Falmet fotografi",
       "pl": "Wyblakła fotografia",
       "pt": "Fotografia desbotada",
@@ -5522,7 +5523,7 @@
     "stackSize": 15,
     "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/faded_photograph.png",
-    "updatedAt": "11/03/2025"
+    "updatedAt": "01/13/2026"
   },
   {
     "id": "ferro_i",
@@ -5545,7 +5546,7 @@
       "sr": "Ferro I",
       "tr": "Ferro I",
       "uk": "Ferro I",
-      "zh-CN": "Ferro I",
+      "zh-CN": "生铁 I",
       "zh-TW": "Ferro I"
     },
     "description": {
@@ -5735,7 +5736,7 @@
       "sr": "Ferro II",
       "tr": "Ferro II",
       "uk": "Ferro II",
-      "zh-CN": "Ferro II",
+      "zh-CN": "生铁 II",
       "zh-TW": "Ferro II"
     },
     "description": {
@@ -5916,7 +5917,7 @@
       "sr": "Ferro III",
       "tr": "Ferro III",
       "uk": "Ferro III",
-      "zh-CN": "Ferro III",
+      "zh-CN": "生铁 III",
       "zh-TW": "Ferro III"
     },
     "description": {
@@ -6121,7 +6122,7 @@
       "sr": "Ferro IV",
       "tr": "Ferro IV",
       "uk": "Ferro IV",
-      "zh-CN": "Ferro IV",
+      "zh-CN": "生铁 IV",
       "zh-TW": "Ferro IV"
     },
     "description": {
@@ -6718,7 +6719,7 @@
       "hr": "Nacrt Kutije Vatrometa",
       "it": "Progetto scatola di fuochi d'artificio",
       "ja": "花火の箱の設計図",
-      "kr": "불꽃놀이 상자 설계도",
+      "kr": "폭죽 상자 설계도",
       "no": "Fyrverkeribokstegning",
       "pl": "Projekt pudełka fajerwerków",
       "pt": "Projeto de caixa de fogos de artifício",
@@ -6740,7 +6741,7 @@
       "hr": "Otključava nacrt izrade za Kutiju vatrometa.",
       "it": "Sblocca il progetto di creazione per la Scatola di fuochi d'artificio.",
       "ja": "花火箱のクラフト設計図をアンロックする。",
-      "kr": "불꽃놀이 상자 제작 설계도를 해금합니다.",
+      "kr": "폭죽 상자 제작 설계도를 해금합니다.",
       "no": "Låser opp oppskriften for Fyrverkeriboksen.",
       "pl": "Odblokowuje projekt wytwarzania Pudełka fajerwerków.",
       "pt": "Desbloqueia o projeto de fabricação da caixa de fogos de artifício.",
@@ -6757,7 +6758,7 @@
     "value": 5000,
     "weightKg": 0,
     "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
-    "updatedAt": "12/16/2025"
+    "updatedAt": "01/13/2026"
   },
   {
     "id": "fireworks_box",
@@ -6771,7 +6772,7 @@
       "hr": "Kutija vatrometa",
       "it": "Scatola di fuochi d'artificio",
       "ja": "花火の箱",
-      "kr": "불꽃놀이 상자",
+      "kr": "폭죽 상자",
       "no": "Fyrverkeriboks",
       "pl": "Pudełko fajerwerków",
       "pt": "Caixa de fogos de artifício",
@@ -6793,7 +6794,7 @@
       "hr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu.",
       "it": "Un assortimento di fuochi d'artificio abbaglianti attivato a distanza, pronto a mettere in scena uno spettacolo.",
       "ja": "遠隔で起動する、まばゆい花火のセット。きっとショーになる。",
-      "kr": "원격으로 작동하는 눈부신 불꽃놀이 세트. 확실히 쇼를 보여줍니다.",
+      "kr": "원격으로 작동하는 눈부신 폭죽 세트. 확실히 쇼를 보여줍니다.",
       "no": "Et fjernutløst oppsett med blendende fyrverkeri – garantert show.",
       "pl": "Zdalnie odpalany zestaw olśniewających fajerwerków — na pewno zrobi wrażenie.",
       "pt": "Um conjunto de fogos de artifício deslumbrantes acionado remotamente, feito para dar um show.",
@@ -6824,7 +6825,7 @@
       "explosive_compound": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
-    "updatedAt": "12/16/2025"
+    "updatedAt": "01/13/2026"
   },
   {
     "id": "first_wave_compass",
@@ -7172,7 +7173,7 @@
       "hr": "Ključ Flushing Terminala",
       "it": "Chiave del Terminale Flushing",
       "ja": "フラッシング端末の鍵",
-      "kr": "플러싱 터미널 열쇠",
+      "kr": "수세 터미널 열쇠",
       "no": "Nøkkel til Flushing-terminalen",
       "pl": "Klucz do Terminala Flushing",
       "pt": "Chave do Terminal de Flushing",
@@ -7194,7 +7195,7 @@
       "hr": "Ovaj se ključ koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala",
       "it": "Questa chiave viene usata nella missione \"The Stench of Corruption\" per attivare il Terminale Flushing",
       "ja": "この鍵はクエスト\"The Stench of Corruption\"でフラッシング端末を起動するために使用される",
-      "kr": "이 열쇠는 퀘스트 \"The Stench of Corruption\"에서 플러싱 터미널을 활성화하는 데 사용됩니다",
+      "kr": "이 열쇠는 퀘스트 \"부패의 악취\"에서 수세 터미널을 활성화하는 데 사용됩니다",
       "no": "Denne nøkkelen brukes i oppdraget \"The Stench of Corruption\" for å aktivere Flushing-terminalen",
       "pl": "Ten klucz jest używany w zadaniu \"The Stench of Corruption\", aby aktywować Terminal Flushing",
       "pt": "Esta chave é usada na missão \"The Stench of Corruption\" para ativar o Terminal de Flushing",
@@ -7367,7 +7368,7 @@
       "hr": "Kutija za modulaciju frekvencije",
       "it": "Scatola di modulazione di frequenza",
       "ja": "周波数変調ボックス",
-      "kr": "주파수 변조 박스",
+      "kr": "주파수 변조함",
       "no": "Frekvensmodulasjonsboks",
       "pl": "Skrzynka modulacji częstotliwości",
       "pt": "Caixa de modulação de frequência",
@@ -7415,7 +7416,7 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/frequency_modulation_box.png",
-    "updatedAt": "01/09/2026"
+    "updatedAt": "01/13/2026"
   },
   {
     "id": "fried_motherboard",
