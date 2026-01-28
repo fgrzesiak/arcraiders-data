@@ -807,6 +807,186 @@
     "updatedAt": "11/06/2025"
   },
   {
+    "id": "on_the_map",
+    "name": {
+      "da": "På Kortet",
+      "de": "Auf der Karte",
+      "en": "On The Map",
+      "es": "En el mapa",
+      "fr": "Sur la carte",
+      "he": "על המפה",
+      "hr": "Na karti",
+      "it": "Sulla mappa",
+      "ja": "地図の上で",
+      "kr": "지도 위에서",
+      "no": "På kartet",
+      "pl": "Na mapie",
+      "pt": "No Mapa",
+      "pt-BR": "No Mapa",
+      "ru": "На карте",
+      "sr": "Na mapi",
+      "tr": "Haritada",
+      "uk": "На мапі",
+      "zh-CN": "在地图上",
+      "zh-TW": "在地圖上"
+    },
+    "map": [
+      "the_blue_gate"
+    ],
+    "trader": "Shani",
+    "grantedItemIds": [
+      {
+        "itemId": "remote_raider_flare",
+        "quantity": 1
+      }
+    ],
+    "description": {
+      "da": "Vi kender koordinaterne for de høreapparater, men jeg er nødt til at krydshenvise dem med et papirkort over rumhavnen. Dine ben er vel ikke for trætte, vel?",
+      "de": "Wir kennen die Koordinaten für diese Hörgeräte, aber ich muss sie mit einer Papierkarte des Raumhafens abgleichen. Deine Beine sind doch nicht allzu müde, oder?",
+      "en": "We know the coordinates for those hearing aids, but I'll have to cross-reference them with a paper map of the Spaceport. Those legs of yours aren't too tired, are they?",
+      "es": "Conocemos las coordenadas de esos audífonos, pero tendré que cruzarlas con un mapa de papel del Puerto Espacial. Esas piernas tuyas no están demasiado cansadas, ¿verdad?",
+      "fr": "Nous connaissons les coordonnées de ces appareils auditifs, mais je vais devoir les recouper avec une carte papier du spatioport. Tes jambes ne sont pas trop fatiguées, j'espère ?",
+      "he": "אנחנו יודעים את הקואורדינטות של מכשירי השמיעה האלה, אבל אני צריך להצליב אותן עם מפת נייר של נמל החלל. הרגליים שלך לא עייפות מדי, נכון?",
+      "hr": "Znamo koordinate za ta slušna pomagala, ali morat ću ih usporediti s papirnatom kartom Svemirske luke. Tvoje noge nisu preumorne, zar ne?",
+      "it": "Conosciamo le coordinate per quegli apparecchi acustici, ma dovrò incrociarle con una mappa cartacea dello spazioporto. Le tue gambe non sono troppo stanche, vero?",
+      "ja": "その補聴器の座標は分かっているが、宇宙港の紙の地図と照合する必要があるんだ。まだ歩けるよな？",
+      "kr": "그 보청기들의 좌표는 알지만, 우주항의 종이 지도와 대조해 봐야 해. 다리가 너무 지친 건 아니겠지?",
+      "no": "Vi kjenner koordinatene for de høreapparatene, men jeg må kryssreferere dem med et papirkart over romhavnen. Bena dine er vel ikke for slitne, er de?",
+      "pl": "Znamy współrzędne tych aparatów słuchowych, ale muszę je porównać z papierową mapą Portu Kosmicznego. Twoje nogi nie są zbyt zmęczone, prawda?",
+      "pt": "Sabemos as coordenadas desses aparelhos auditivos, mas vou ter de as cruzar com um mapa em papel do Espaçoporto. Essas tuas pernas não estão muito cansadas, pois não?",
+      "pt-BR": "Sabemos as coordenadas desses aparelhos auditivos, mas terei que fazer uma referência cruzada com um mapa de papel do Espaçoporto. Suas pernas não estão muito cansadas, estão?",
+      "ru": "Мы знаем координаты этих слуховых аппаратов, но мне нужно сверить их с бумажной картой Космопорта. Твои ноги ведь не слишком устали?",
+      "sr": "Znamo koordinate za ta slušna pomagala, ali moraću da ih uporedim sa papirnom mapom Svemirske luke. Tvoje noge nisu preumorne, zar ne?",
+      "tr": "O işitme cihazlarının koordinatlarını biliyoruz, ama bunları Uzay Limanı'nın kağıt haritasıyla karşılaştırmam gerekecek. Bacakların çok yorgun değildir umarım?",
+      "uk": "Ми знаємо координати тих слухових апаратів, але мені доведеться звірити їх з паперовою картою Космопорту. Твої ноги не надто втомилися, правда?",
+      "zh-CN": "我们知道那些助听器的坐标，但我得把它们与太空港的纸质地图进行对照。你的腿没那么累吧？",
+      "zh-TW": "我們知道那些助聽器的坐標，但我得把它們與太空港的紙質地圖進行對照。你的腿沒那麼累吧？"
+    },
+    "objectives": [
+      {
+        "da": "Tag hen til, hvor brændstofslangerne knækkede, og send din placering",
+        "de": "Geh dorthin, wo die Treibstoffleitungen gerissen sind, und übermittle deinen Standort",
+        "en": "Head to where the Fuel Lines snapped, and transmit your location",
+        "es": "Dirígete a donde se rompieron las líneas de combustible y transmite tu ubicación",
+        "fr": "Se rendre là où les conduites de carburant ont rompu et transmettre votre position",
+        "he": "לך למקום שבו צינורות הדלק נקרעו, ושדר את המיקום שלך",
+        "hr": "Idi tamo gdje su pukli vodovi za gorivo i pošalji svoju lokaciju",
+        "it": "Dirigiti dove si sono rotti i tubi del carburante e trasmetti la tua posizione",
+        "ja": "燃料ラインが切断された場所に向かい、位置情報を送信する",
+        "kr": "연료 라인이 끊어진 곳으로 이동하여 위치 전송",
+        "no": "Dra til der drivstoffslangene røk, og overfør posisjonen din",
+        "pl": "Udaj się tam, gdzie pękły przewody paliwowe i prześlij swoją lokalizację",
+        "pt": "Dirige-te para onde as Linhas de Combustível rebentaram e transmite a tua localização",
+        "pt-BR": "Vá para onde as Linhas de Combustível se romperam e transmita sua localização",
+        "ru": "Направиться туда, где лопнули топливопроводы, и передать свое местоположение",
+        "sr": "Idi tamo gde su pukli vodovi za gorivo i pošalji svoju lokaciju",
+        "tr": "Yakıt Hatlarının koptuğu yere git ve konumunu ilet",
+        "uk": "Відправляйтеся туди, де розірвалися паливні лінії, і передайте своє місцезнаходження",
+        "zh-CN": "前往燃油管线断裂的地方，并传送你的位置",
+        "zh-TW": "前往燃油管線斷裂的地方，並傳送你的位置"
+      },
+      {
+        "da": "Tag hen til antennen nær brændstofkontrollen, og send din placering",
+        "de": "Geh zur Antenne in der Nähe der Treibstoffkontrolle und übermittle deinen Standort",
+        "en": "Head to the antenna near the Fuel Control, and transmit your location",
+        "es": "Dirígete a la antena cerca del Control de Combustible y transmite tu ubicación",
+        "fr": "Se rendre à l'antenne près du contrôle du carburant et transmettre votre position",
+        "he": "לך לאנטנה ליד בקרת הדלק, ושדר את המיקום שלך",
+        "hr": "Idi do antene blizu Kontrole goriva i pošalji svoju lokaciju",
+        "it": "Dirigiti all'antenna vicino al Controllo Carburante e trasmetti la tua posizione",
+        "ja": "燃料制御装置近くのアンテナに向かい、位置情報を送信する",
+        "kr": "연료 제어 장치 근처의 안테나로 이동하여 위치 전송",
+        "no": "Dra til antennen nær drivstoffkontrollen, og overfør posisjonen din",
+        "pl": "Udaj się do anteny w pobliżu Kontroli Paliwa i prześlij swoją lokalizację",
+        "pt": "Dirige-te para a antena perto do Controlo de Combustível e transmite a tua localização",
+        "pt-BR": "Vá para a antena perto do Controle de Combustível e transmita sua localização",
+        "ru": "Направиться к антенне возле Управления топливом и передать свое местоположение",
+        "sr": "Idi do antene blizu Kontrole goriva i pošalji svoju lokaciju",
+        "tr": "Yakıt Kontrolü yakınındaki antene git ve konumunu ilet",
+        "uk": "Відправляйтеся до антени біля управління паливом і передайте своє місцезнаходження",
+        "zh-CN": "前往燃油控制处附近的天下，并传送你的位置",
+        "zh-TW": "前往燃油控制處附近的天下，並傳送你的位置"
+      },
+      {
+        "da": "Tag hen til kaktusbedet i murbruddet, og send din placering",
+        "de": "Geh zum Kaktusfeld im Mauerdurchbruch und übermittle deinen Standort",
+        "en": "Head to the cactus patch in the wall breach, and transmit your location",
+        "es": "Dirígete al parche de cactus en la brecha del muro y transmite tu ubicación",
+        "fr": "Se rendre au champ de cactus dans la brèche du mur et transmettre votre position",
+        "he": "לך לטלאי הקקטוסים בפרצה בקיר, ושדר את המיקום שלך",
+        "hr": "Idi do polja kaktusa u pukotini zida i pošalji svoju lokaciju",
+        "it": "Dirigiti verso la zona dei cactus nella breccia del muro e trasmetti la tua posizione",
+        "ja": "壁の裂け目にあるサボテン畑に向かい、位置情報を送信する",
+        "kr": "벽의 틈새에 있는 선인장 밭으로 이동하여 위치 전송",
+        "no": "Dra til kaktusfeltet i veggbruddet, og overfør posisjonen din",
+        "pl": "Udaj się na grządkę kaktusów w wyłomie muru i prześlij swoją lokalizację",
+        "pt": "Dirige-te para o canteiro de catos na brecha da parede e transmite a tua localização",
+        "pt-BR": "Vá para o canteiro de cactos na brecha da parede e transmita sua localização",
+        "ru": "Направиться к зарослям кактусов в проломе стены и передать свое местоположение",
+        "sr": "Idi do polja kaktusa u pukotini zida i pošalji svoju lokaciju",
+        "tr": "Duvar gediğindeki kaktüs yamasına git ve konumunu ilet",
+        "uk": "Відправляйтеся до заростей кактусів у проломі стіни і передайте своє місцезнаходження",
+        "zh-CN": "前往墙壁缺口处的仙人掌地，并传送你的位置",
+        "zh-TW": "前往牆壁缺口處的仙人掌地，並傳送你的位置"
+      },
+      {
+        "da": "Send din placering fra taget af containerlagerbygningen",
+        "de": "Übermittle deinen Standort vom Dach des Containerlagergebäudes",
+        "en": "Transmit your location from the roof of the Container Storage building",
+        "es": "Transmite tu ubicación desde el techo del edificio de Almacenamiento de Contenedores",
+        "fr": "Transmettre votre position depuis le toit du bâtiment de stockage des conteneurs",
+        "he": "שדר את המיקום שלך מגג בניין אחסון המכולות",
+        "hr": "Pošalji svoju lokaciju s krova zgrade Skladišta kontejnera",
+        "it": "Trasmetti la tua posizione dal tetto dell'edificio di Stoccaggio Container",
+        "ja": "コンテナ保管ビルの屋上から位置情報を送信する",
+        "kr": "컨테이너 보관 건물 옥상에서 위치 전송",
+        "no": "Overfør posisjonen din fra taket av containerlagerbygningen",
+        "pl": "Prześlij swoją lokalizację z dachu budynku Magazynu Kontenerów",
+        "pt": "Transmite a tua localização a partir do telhado do edifício de Armazenamento de Contentores",
+        "pt-BR": "Transmita sua localização do telhado do prédio de Armazenamento de Contêineres",
+        "ru": "Передать свое местоположение с крыши здания Склада контейнеров",
+        "sr": "Pošalji svoju lokaciju sa krova zgrade Skladišta kontejnera",
+        "tr": "Konteyner Depolama binasının çatısından konumunu ilet",
+        "uk": "Передайте своє місцезнаходження з даху будівлі складу контейнерів",
+        "zh-CN": "从集装箱存储大楼的屋顶传送你的位置",
+        "zh-TW": "從集裝箱存儲大樓的屋頂傳送你的位置"
+      },
+      {
+        "da": "Find containeren dækket af presenning, og marker den",
+        "de": "Finde den mit einer Plane bedeckten Container und markiere ihn",
+        "en": "Find the container covered in tarp, and mark it",
+        "es": "Encuentra el contenedor cubierto con lona y márcalo",
+        "fr": "Trouver le conteneur recouvert d'une bâche et le marquer",
+        "he": "מצא את המכולה המכוסה ברזנט, וסמן אותה",
+        "hr": "Pronađi kontejner prekriven ceradom i označi ga",
+        "it": "Trova il container coperto dal telo e contrassegnalo",
+        "ja": "防水シートで覆われたコンテナを見つけ、マークする",
+        "kr": "방수포로 덮인 컨테이너를 찾아 표시하기",
+        "no": "Finn containeren dekket av presenning, og merk den",
+        "pl": "Znajdź kontener przykryty plandeką i oznacz go",
+        "pt": "Encontra o contentor coberto com lona e marca-o",
+        "pt-BR": "Encontre o contêiner coberto com lona e marque-o",
+        "ru": "Найти контейнер, накрытый брезентом, и пометить его",
+        "sr": "Pronađi kontejner prekriven ceradom i označi ga",
+        "tr": "Branda ile örtülü konteyneri bul ve işaretle",
+        "uk": "Знайдіть контейнер, накритий брезентом, і позначте його",
+        "zh-CN": "找到盖着防水布的集装箱，并标记它",
+        "zh-TW": "找到蓋著防水布的集裝箱，並標記它"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "patrol_car_key",
+        "quantity": 1
+      },
+      {
+        "itemId": "door_blocker",
+        "quantity": 3
+      }
+    ],
+    "updatedAt": "01/27/2026"
+  },
+  {
     "id": "ss10g",
     "name": {
       "da": "En afsløring i ruiner",
@@ -1986,6 +2166,116 @@
     "updatedAt": "11/23/2025"
   },
   {
+    "id": "bombing_run",
+    "name": {
+      "da": "Bombetogt",
+      "de": "Bombenlauf",
+      "en": "Bombing Run",
+      "es": "Bombardeo",
+      "fr": "Bombardement",
+      "he": "ריצת הפצצה",
+      "hr": "Bombaški napad",
+      "it": "Incursione aerea",
+      "ja": "爆撃任務",
+      "kr": "폭격 실행",
+      "no": "Bombetokt",
+      "pl": "Nalot bombowy",
+      "pt": "Bombardeamento",
+      "pt-BR": "Bombardeio",
+      "ru": "Бомбардировка",
+      "sr": "Bombaški napad",
+      "tr": "Bombardıman Koşusu",
+      "uk": "Бомбардування",
+      "zh-CN": "轰炸行动",
+      "zh-TW": "轟炸行動"
+    },
+    "trader": "Shani",
+    "description": {
+      "da": "Nu er det tid til at se, om den rekognoscering gav pote. Hvis vi kan lære Raiders effektivt at modgå Bombardiers deroppe, ville vi være meget mere sikre hernede.",
+      "de": "Jetzt wird sich zeigen, ob sich die Aufklärung ausgezahlt hat. Wenn wir den Raiders beibringen können, die Bombardiers dort oben effektiv zu bekämpfen, wären wir hier unten viel sicherer.",
+      "en": "Now, time to see if that recon paid off. If we can teach Raiders to effectively counter Bombardiers up there, we'd be a lot safer down here.",
+      "es": "Ahora, es hora de ver si ese reconocimiento valió la pena. Si podemos enseñar a los Raiders a contrarrestar eficazmente a los Bombarderos allá arriba, estaríamos mucho más seguros aquí abajo.",
+      "fr": "Il est temps de voir si cette reconnaissance a payé. Si nous pouvons apprendre aux Raiders à contrer efficacement les Bombardiers là-haut, nous serions beaucoup plus en sécurité ici.",
+      "he": "עכשיו, הגיע הזמן לראות אם הסיור השתלם. אם נוכל ללמד ריידרים להתמודד ביעילות עם הבומברדיירים למעלה, נהיה הרבה יותר בטוחים כאן למטה.",
+      "hr": "Sada je vrijeme da vidimo je li se izviđanje isplatilo. Ako možemo naučiti Raidere da se učinkovito suprotstave Bombarderima gore, bili bismo puno sigurniji dolje.",
+      "it": "Ora è il momento di vedere se quella ricognizione ha dato i suoi frutti. Se riusciamo a insegnare ai Raider a contrastare efficacemente i Bombardieri lassù, saremmo molto più al sicuro quaggiù.",
+      "ja": "さて、偵察の成果を確認する時だ。上の連中にボンバルディアへの効果的な対抗策を教えることができれば、俺たち下界の人間はずっと安全になる。",
+      "kr": "자, 정찰의 성과를 확인할 시간이야. 우리가 레이더들에게 저 위에서 폭격기들을 효과적으로 상대하는 법을 가르칠 수 있다면, 우린 여기 아래에서 훨씬 더 안전해질 거야.",
+      "no": "Nå er det på tide å se om rekognoseringen lønte seg. Hvis vi kan lære Raiders å effektivt motvirke Bombardiers der oppe, ville vi vært mye tryggere her nede.",
+      "pl": "Teraz czas sprawdzić, czy ten zwiad się opłacił. Jeśli nauczymy Najeźdźców skutecznie kontrować Bombardierów na górze, będziemy o wiele bezpieczniejsi tutaj na dole.",
+      "pt": "Agora, está na hora de ver se esse reconhecimento valeu a pena. Se conseguirmos ensinar os Raiders a combater eficazmente os Bombardeiros lá em cima, estaríamos muito mais seguros cá em baixo.",
+      "pt-BR": "Agora, hora de ver se aquele reconhecimento valeu a pena. Se conseguirmos ensinar os Raiders a combater efetivamente os Bombardeiros lá em cima, estaríamos muito mais seguros aqui embaixo.",
+      "ru": "Теперь пора проверить, окупилась ли разведка. Если мы научим Рейдеров эффективно противостоять Бомбардирам наверху, нам здесь внизу будет намного безопаснее.",
+      "sr": "Sada je vreme da vidimo da li se izviđanje isplatilo. Ako možemo naučiti Rajdere da se efikasno suprotstave Bombarderima gore, bili bismo puno sigurniji dole.",
+      "tr": "Şimdi, o keşfin işe yarayıp yaramadığını görme zamanı. Yağmacılara yukarıdaki Bombardımancılara karşı nasıl etkili bir şekilde karşı koyacaklarını öğretebilirsek, burada aşağıda çok daha güvende oluruz.",
+      "uk": "Тепер час побачити, чи виправдала себе розвідка. Якщо ми зможемо навчити Рейдерів ефективно протидіяти Бомбардирам там нагорі, нам тут внизу буде набагато безпечніше.",
+      "zh-CN": "现在，是时候看看侦察是否有了回报。如果我们能教导掠夺者有效地对抗上面的轰炸者，我们在下面就会安全得多。",
+      "zh-TW": "現在，是時候看看偵察是否有了回報。如果我們能教導掠奪者有效地對抗上面的轟炸者，我們在下面就會安全得多。"
+    },
+    "objectives": [
+      {
+        "da": "Ødelæg en Bombardier",
+        "de": "Zerstöre einen Bombardier",
+        "en": "Destroy a Bombardier",
+        "es": "Destruye un Bombardero",
+        "fr": "Détruire un Bombardier",
+        "he": "השמד בומברדייר",
+        "hr": "Uništi Bombardera",
+        "it": "Distruggi un Bombardiere",
+        "ja": "ボンバルディアを破壊する",
+        "kr": "폭격기 1기 파괴",
+        "no": "Ødelegg en Bombardier",
+        "pl": "Zniszcz Bombardiera",
+        "pt": "Destrói um Bombardeiro",
+        "pt-BR": "Destrua um Bombardeiro",
+        "ru": "Уничтожить Бомбардира",
+        "sr": "Uništi Bombardera",
+        "tr": "Bir Bombardımancıyı yok et",
+        "uk": "Знищіть Бомбардира",
+        "zh-CN": "摧毁一个轰炸者",
+        "zh-TW": "摧毀一個轟炸者"
+      },
+      {
+        "da": "Lever en Bombardier-celle til Shani",
+        "de": "Liefere eine Bombardier-Zelle bei Shani ab",
+        "en": "Deliver a Bombardier Cell to Shani",
+        "es": "Entrega una célula de bombardero a Shani",
+        "fr": "Livrer une cellule de Bombardier à Shani",
+        "he": "מסור תא בומברדייר לשאני",
+        "hr": "Dostavi ćeliju Bombardera Shaniju",
+        "it": "Consegna una Cella Bombardiere a Shani",
+        "ja": "ボンバルディアセルをシャニに届ける",
+        "kr": "샤니에게 폭격기 셀 전달",
+        "no": "Lever en Bombardier-celle til Shani",
+        "pl": "Dostarcz ogniwo Bombardiera do Shani",
+        "pt": "Entrega uma Célula de Bombardeiro a Shani",
+        "pt-BR": "Entregue uma Célula de Bombardeiro para Shani",
+        "ru": "Доставить ячейку Бомбардира Шани",
+        "sr": "Dostavi ćeliju Bombardera Shaniju",
+        "tr": "Shani'ye bir Bombardımancı Hücresi teslim et",
+        "uk": "Доставте комірку Бомбардира Шані",
+        "zh-CN": "将轰炸者电池交给沙尼",
+        "zh-TW": "將轟炸者電池交給沙尼"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "???_emote",
+        "quantity": 1
+      },
+      {
+        "itemId": "raider_tokens",
+        "quantity": 30
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "combat_recon"
+    ],
+    "nextQuestIds": [],
+    "updatedAt": "01/27/2026"
+  },
+  {
     "id": "ss10h",
     "name": {
       "da": "Ødelagt monument",
@@ -2799,6 +3089,197 @@
     ],
     "videoUrl": "https://youtu.be/tc7nK7AmixQ",
     "updatedAt": "01/13/2026"
+  },
+  {
+    "id": "combat_recon",
+    "name": {
+      "da": "Kamprekognoscering",
+      "de": "Kampfaufklärung",
+      "en": "Combat Recon",
+      "es": "Reconocimiento de combate",
+      "fr": "Reconnaissance de combat",
+      "he": "סיור קרבי",
+      "hr": "Borbena izvidnica",
+      "it": "Ricognizione da combattimento",
+      "ja": "戦闘偵察",
+      "kr": "전투 정찰",
+      "no": "Kamprekognosering",
+      "pl": "Zwiad bojowy",
+      "pt": "Reconhecimento de Combate",
+      "pt-BR": "Reconhecimento de Combate",
+      "ru": "Боевая разведка",
+      "sr": "Borbena izvidnica",
+      "tr": "Savaş Keşfi",
+      "uk": "Бойова розвідка",
+      "zh-CN": "战斗侦察",
+      "zh-TW": "戰鬥偵察"
+    },
+    "map": [
+      "buried_city"
+    ],
+    "trader": "Shani",
+    "grantedItemIds": [
+      {
+        "itemId": "binoculars",
+        "quantity": 1
+      }
+    ],
+    "description": {
+      "da": "Med Bombardiers, der strejfer omkring, har ARC fundet en helt ny måde at drive Raiders ud af deres dækning.\n\nHvis du håber på at nedlægge en, skal du skærpe dine færdigheder og din strategi.",
+      "de": "Mit diesen Bombardiers, die hier herumstreifen, hat ARC einen ganz neuen Weg gefunden, Raiders aus der Deckung zu treiben.\n\nWenn du hoffst, einen zu erledigen, musst du deine Fähigkeiten und deine Strategie schärfen.",
+      "en": "With those Bombardiers roaming around, ARC has found an entirely new way to flush Raiders out of cover.\n\nIf you're hoping to take one down, you'll need to sharpen your skills and your strategy.",
+      "es": "Con esos Bombarderos rondando, ARC ha encontrado una forma completamente nueva de sacar a los Raiders de su cobertura.\n\nSi esperas derribar uno, necesitarás perfeccionar tus habilidades y tu estrategia.",
+      "fr": "Avec ces Bombardiers qui rôdent, ARC a trouvé une toute nouvelle façon de débusquer les Raiders.\n\nSi tu espères en abattre un, tu devras affûter tes compétences et ta stratégie.",
+      "he": "עם הבומברדיירים האלה שמסתובבים, ARC מצא דרך חדשה לגמרי להוציא ריידרים מהמחסה.\n\nאם אתה מקווה להוריד אחד, תצטרך לחדד את הכישורים והאסטרטגיה שלך.",
+      "hr": "S tim Bombarderima koji lutaju okolo, ARC je pronašao potpuno novi način da istjera Raidere iz zaklona.\n\nAko se nadaš srušiti jednog, morat ćeš izoštriti svoje vještine i strategiju.",
+      "it": "Con quei Bombardieri che vagano in giro, l'ARC ha trovato un modo tutto nuovo per stanare i Raider.\n\nSe speri di abbatterne uno, dovrai affinare le tue abilità e la tua strategia.",
+      "ja": "ボンバルディアがうろついているおかげで、ARCはレイダーを隠れ場所からあぶり出す全く新しい方法を見つけたようだ。\n\n奴らを倒したいなら、スキルと戦略を磨く必要がある。",
+      "kr": "폭격기들이 돌아다니는 상황에서, ARC는 레이더들을 엄폐물 밖으로 몰아내는 완전히 새로운 방법을 찾아냈어.\n\n하나라도 쓰러뜨리고 싶다면 기술과 전략을 날카롭게 다듬어야 할 거야.",
+      "no": "Med de Bombardiers som streifer rundt, har ARC funnet en helt ny måte å tvinge Raiders ut av dekning.\n\nHvis du håper å ta en ned, må du skjerpe ferdighetene og strategien din.",
+      "pl": "Z tymi Bombardierami krążącymi w okolicy, ARC znalazło zupełnie nowy sposób na wykurzenie Najeźdźców z ukrycia.\n\nJeśli masz nadzieję jednego zdjąć, musisz wyostrzyć swoje umiejętności i strategię.",
+      "pt": "Com esses Bombardeiros a vaguear por aí, a ARC encontrou uma forma totalmente nova de tirar os Raiders dos seus abrigos.\n\nSe esperas derrubar um, vais precisar de afiar as tuas capacidades e a tua estratégia.",
+      "pt-BR": "Com esses Bombardeiros vagando por aí, a ARC encontrou uma maneira totalmente nova de tirar os Raiders da cobertura.\n\nSe você espera derrubar um, precisará aprimorar suas habilidades e sua estratégia.",
+      "ru": "С этими рыскающими повсюду Бомбардирами ARC нашла совершенно новый способ выкуривать Рейдеров из укрытий.\n\nЕсли надеешься завалить одного, тебе придется отточить свои навыки и стратегию.",
+      "sr": "S tim Bombarderima koji lutaju okolo, ARC je pronašao potpuno novi način da istera Rajdere iz zaklona.\n\nAko se nadaš srušiti jednog, moraćeš izoštriti svoje veštine i strategiju.",
+      "tr": "Etrafta dolaşan Bombardımancılarla, ARC Yağmacıları siperden çıkarmanın tamamen yeni bir yolunu buldu.\n\nBirini indirmeyi umuyorsan, becerilerini ve stratejini keskinleştirmen gerekecek.",
+      "uk": "З тими Бомбардирами, що блукають навколо, ARC знайшла абсолютно новий спосіб викурювати Рейдерів з укриттів.\n\nЯкщо сподіваєшся збити одного, тобі доведеться відточити свої навички та стратегію.",
+      "zh-CN": "有了这些四处游荡的轰炸者，ARC找到了一种全新的方法将掠夺者逼出掩体。\n\n如果你希望能击落一个，你需要磨练你的技能和策略。",
+      "zh-TW": "有了這些四處遊蕩的轟炸者，ARC找到了一種全新的方法將掠奪者逼出掩體。\n\n如果你希望能擊落一個，你需要磨練你的技能和策略。"
+    },
+    "objectives": [
+      {
+        "da": "Find et dækningssted i parkeringshusets trappeopgange",
+        "de": "Kundschafte einen Deckungsplatz in den Treppenhäusern des Parkhauses aus",
+        "en": "Scope out a cover spot in the Parking Garage staircases",
+        "es": "Busca un lugar de cobertura en las escaleras del estacionamiento",
+        "fr": "Repérer une zone de couverture dans les escaliers du parking",
+        "he": "סרוק מקום מחסה בחדרי המדרגות של החניון",
+        "hr": "Izvidi mjesto za zaklon na stubištima garaže",
+        "it": "Individua un punto di copertura nelle scale del Garage",
+        "ja": "駐車場の階段で隠れ場所を偵察する",
+        "kr": "주차장 계단에서 은폐 장소 정찰",
+        "no": "Finn et dekningssted i trappeoppgangene i parkeringshuset",
+        "pl": "Zbadaj miejsce ukrycia na klatkach schodowych parkingu",
+        "pt": "Procura um local de abrigo nas escadas do Parque de Estacionamento",
+        "pt-BR": "Verifique um ponto de cobertura nas escadarias do estacionamento",
+        "ru": "Разведать место для укрытия на лестницах парковки",
+        "sr": "Izvidi mesto za zaklon na stepeništima garaže",
+        "tr": "Otopark merdivenlerinde bir siper noktası gözetle",
+        "uk": "Розвідайте місце для укриття на сходах паркінгу",
+        "zh-CN": "在停车库楼梯间寻找掩护点",
+        "zh-TW": "在停車庫樓梯間尋找掩護點"
+      },
+      {
+        "da": "Find et dækningssted i busserne nær Marano Park",
+        "de": "Kundschafte einen Deckungsplatz in den Bussen beim Marano Park aus",
+        "en": "Scope out a cover spot in the buses near Marano Park",
+        "es": "Busca un lugar de cobertura en los autobuses cerca del Parque Marano",
+        "fr": "Repérer une zone de couverture dans les bus près du parc Marano",
+        "he": "סרוק מקום מחסה באוטובוסים ליד פארק מראנו",
+        "hr": "Izvidi mjesto za zaklon u autobusima blizu parka Marano",
+        "it": "Individua un punto di copertura negli autobus vicino a Marano Park",
+        "ja": "マラノ公園近くのバスで隠れ場所を偵察する",
+        "kr": "마라노 공원 근처 버스에서 은폐 장소 정찰",
+        "no": "Finn et dekningssted i bussene nær Marano Park",
+        "pl": "Zbadaj miejsce ukrycia w autobusach w pobliżu Parku Marano",
+        "pt": "Procura um local de abrigo nos autocarros perto do Parque Marano",
+        "pt-BR": "Verifique um ponto de cobertura nos ônibus perto do Parque Marano",
+        "ru": "Разведать место для укрытия в автобусах возле парка Марано",
+        "sr": "Izvidi mesto za zaklon u autobusima blizu parka Marano",
+        "tr": "Marano Parkı yakınındaki otobüslerde bir siper noktası gözetle",
+        "uk": "Розвідайте місце для укриття в автобусах біля парку Марано",
+        "zh-CN": "在马拉诺公园附近的巴士里寻找掩护点",
+        "zh-TW": "在馬拉諾公園附近的巴士裡尋找掩護點"
+      },
+      {
+        "da": "Find et dækningssted på lofterne omkring Main Street",
+        "de": "Kundschafte einen Deckungsplatz auf den Dachböden rund um die Main Street aus",
+        "en": "Scope out a cover spot in the attics around Main Street",
+        "es": "Busca un lugar de cobertura en los áticos alrededor de Main Street",
+        "fr": "Repérer une zone de couverture dans les greniers autour de Main Street",
+        "he": "סרוק מקום מחסה בעליות הגג סביב הרחוב הראשי",
+        "hr": "Izvidi mjesto za zaklon na tavanima oko Glavne ulice",
+        "it": "Individua un punto di copertura nelle soffitte intorno a Main Street",
+        "ja": "メインストリート周辺の屋根裏部屋で隠れ場所を偵察する",
+        "kr": "메인 스트리트 주변 다락방에서 은폐 장소 정찰",
+        "no": "Finn et dekningssted på loftene rundt Main Street",
+        "pl": "Zbadaj miejsce ukrycia na strychach wokół Main Street",
+        "pt": "Procura um local de abrigo nos sótãos à volta da Main Street",
+        "pt-BR": "Verifique um ponto de cobertura nos sótãos ao redor da Main Street",
+        "ru": "Разведать место для укрытия на чердаках вокруг Мейн-стрит",
+        "sr": "Izvidi mesto za zaklon na tavanima oko Glavne ulice",
+        "tr": "Ana Cadde çevresindeki çatı katlarında bir siper noktası gözetle",
+        "uk": "Розвідайте місце для укриття на горищах навколо Мейн-стріт",
+        "zh-CN": "在主街周围的阁楼里寻找掩护点",
+        "zh-TW": "在主街周圍的閣樓裡尋找掩護點"
+      },
+      {
+        "da": "Ødelæg 2 Spotters",
+        "de": "Zerstöre 2 Spotter",
+        "en": "Destroy 2 Spotters",
+        "es": "Destruye 2 Observadores",
+        "fr": "Détruire 2 Spotters",
+        "he": "השמד 2 ספוטרים",
+        "hr": "Uništi 2 Spottera",
+        "it": "Distruggi 2 Spotter",
+        "ja": "スポッターを2体破壊する",
+        "kr": "스포터 2기 파괴",
+        "no": "Ødelegg 2 Spotters",
+        "pl": "Zniszcz 2 Obserwatorów (Spotters)",
+        "pt": "Destrói 2 Observadores",
+        "pt-BR": "Destrua 2 Observadores",
+        "ru": "Уничтожить 2 Споттеров",
+        "sr": "Uništi 2 Spotera",
+        "tr": "2 Gözcüyü yok et",
+        "uk": "Знищіть 2 Спостерігачів",
+        "zh-CN": "摧毁2个观察者",
+        "zh-TW": "摧毀2個觀察者"
+      },
+      {
+        "da": "Lever et Spotter-relæ til Shani",
+        "de": "Liefere ein Spotter-Relais bei Shani ab",
+        "en": "Deliver a Spotter Relay to Shani",
+        "es": "Entrega un relé de observador a Shani",
+        "fr": "Livrer un relais de Spotter à Shani",
+        "he": "מסור ממסר ספוטר לשאני",
+        "hr": "Dostavi relej Spottera Shaniju",
+        "it": "Consegna un Relè Spotter a Shani",
+        "ja": "スポッターリレーをシャニに届ける",
+        "kr": "샤니에게 스포터 릴레이 전달",
+        "no": "Lever et Spotter-relé til Shani",
+        "pl": "Dostarcz przekaźnik Obserwatora do Shani",
+        "pt": "Entrega um Relé de Observador a Shani",
+        "pt-BR": "Entregue um Relé de Observador para Shani",
+        "ru": "Доставить реле Споттера Шани",
+        "sr": "Dostavi relej Spotera Shaniju",
+        "tr": "Shani'ye bir Gözcü Rölesi teslim et",
+        "uk": "Доставте реле Спостерігача Шані",
+        "zh-CN": "将观察者继电器交给沙尼",
+        "zh-TW": "將觀察者繼電器交給沙尼"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "red_radio_renegade_color",
+        "quantity": 1
+      },
+      {
+        "itemId": "firecracker",
+        "quantity": 5
+      },
+      {
+        "itemId": "fireworks_box",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss10x5"
+    ],
+    "nextQuestIds": [
+      "bombing_run"
+    ],
+    "updatedAt": "01/27/2026"
   },
   {
     "id": "ss11b2",
@@ -4661,7 +5142,9 @@
     "previousQuestIds": [
       "deciphering_the_data"
     ],
-    "nextQuestIds": [],
+    "nextQuestIds": [
+      "on_deaf_ears"
+    ],
     "updatedAt": "12/16/2025"
   },
   {
@@ -5145,7 +5628,8 @@
       "ss11b2"
     ],
     "nextQuestIds": [
-      "paving_the_way"
+      "paving_the_way",
+      "combat_recon"
     ],
     "updatedAt": "12/29/2025"
   },
@@ -6147,6 +6631,153 @@
     "updatedAt": "01/13/2026"
   },
   {
+    "id": "movie_night",
+    "name": {
+      "da": "Filmaften",
+      "de": "Filmabend",
+      "en": "Movie Night",
+      "es": "Noche de cine",
+      "fr": "Soirée cinéma",
+      "he": "ערב סרט",
+      "hr": "Filmska večer",
+      "it": "Serata film",
+      "ja": "映画鑑賞会",
+      "kr": "무비 나이트",
+      "no": "Filmkveld",
+      "pl": "Wieczór filmowy",
+      "pt": "Noite de Cinema",
+      "pt-BR": "Noite de Cinema",
+      "ru": "Ночь кино",
+      "sr": "Filmsko veče",
+      "tr": "Film Gecesi",
+      "uk": "Вечір кіно",
+      "zh-CN": "电影之夜",
+      "zh-TW": "電影之夜"
+    },
+    "map": [
+      "stella_montis"
+    ],
+    "trader": "Apollo",
+    "grantedItemIds": [
+      {
+        "itemId": "blue_light_stick",
+        "quantity": 3
+      },
+      {
+        "itemId": "yellow_light_stick",
+        "quantity": 3
+      }
+    ],
+    "description": {
+      "da": "Alle har været på dupperne, lige siden rygterne om det ARC-signal spredte sig. Jeg tænkte, at en filmaften ville være en god adspredelse, men jeg mangler nogle vigtige forsyninger.\nDu hjælper mig, ikke?",
+      "de": "Alle sind nervös, seit sich Gerüchte über dieses ARC-Signal verbreitet haben. Ich dachte, ein Filmabend wäre eine tolle Ablenkung, aber mir fehlen einige wichtige Vorräte.\nDu hilfst mir doch, oder?",
+      "en": "Everyone's been on edge ever since rumors of that ARC signal spread. I was thinking a movie night would be a great distraction, but I'm missing some crucial supplies.\nYou'll help me out, yeah?",
+      "es": "Todo el mundo ha estado nervioso desde que se difundieron los rumores de esa señal de ARC. Estaba pensando que una noche de cine sería una gran distracción, pero me faltan algunos suministros cruciales.\nMe ayudarás, ¿verdad?",
+      "fr": "Tout le monde est sur les nerfs depuis que les rumeurs sur ce signal ARC se sont répandues. Je pensais qu'une soirée cinéma serait une excellente distraction, mais il me manque quelques fournitures cruciales.\nTu vas m'aider, hein ?",
+      "he": "כולם במתח מאז שהשמועות על האות של ARC נפוצו. חשבתי שערב סרט יהיה הסחת דעת מצוינת, אבל חסרה לי אספקה קריטית.\nאתה תעזור לי, כן?",
+      "hr": "Svi su na rubu otkako su se proširile glasine o tom ARC signalu. Mislio sam da bi filmska večer bila odlična distrakcija, ali nedostaju mi neke ključne zalihe.\nPomoći ćeš mi, zar ne?",
+      "it": "Tutti sono nervosi da quando si sono diffuse le voci su quel segnale ARC. Stavo pensando che una serata film sarebbe stata una grande distrazione, ma mi mancano alcune forniture cruciali.\nMi darai una mano, vero?",
+      "ja": "あのARC信号の噂が広まってから、みんなピリピリしている。映画鑑賞会でもやればいい気晴らしになると思ったんだが、重要な物資がいくつか足りないんだ。\n手伝ってくれるよな？",
+      "kr": "그 ARC 신호에 대한 소문이 퍼진 이후로 다들 예민해져 있어. 무비 나이트가 훌륭한 기분 전환이 될 거라고 생각했는데, 중요한 물품이 몇 개 부족해.\n도와줄 거지?",
+      "no": "Alle har vært nervøse helt siden ryktene om det ARC-signalet spredte seg. Jeg tenkte at en filmkveld ville være en god distraksjon, men jeg mangler noen viktige forsyninger.\nDu hjelper meg, ikke sant?",
+      "pl": "Wszyscy są poddenerwowani, odkąd rozeszły się plotki o tym sygnale ARC. Pomyślałem, że wieczór filmowy byłby świetną odskocznią, ale brakuje mi kilku kluczowych zapasów.\nPomożesz mi, co?",
+      "pt": "Toda a gente tem andado nervosa desde que os rumores sobre aquele sinal da ARC se espalharam. Estava a pensar que uma noite de cinema seria uma ótima distração, mas faltam-me alguns mantimentos cruciais.\nAjudas-me, sim?",
+      "pt-BR": "Todo mundo está nervoso desde que os rumores sobre aquele sinal da ARC se espalharam. Eu estava pensando que uma noite de cinema seria uma ótima distração, mas estou sem alguns suprimentos cruciais.\nVocê vai me ajudar, né?",
+      "ru": "Все на взводе с тех пор, как поползли слухи об этом сигнале ARC. Я подумал, что ночь кино была бы отличным способом отвлечься, но мне не хватает кое-каких важных припасов.\nТы же поможешь мне, да?",
+      "sr": "Svi su na ivici otkako su se proširile glasine o tom ARC signalu. Mislio sam da bi filmsko veče bilo odlična distrakcija, ali nedostaju mi neke ključne zalihe.\nPomoći ćeš mi, zar ne?",
+      "tr": "O ARC sinyali söylentileri yayıldığından beri herkes diken üstünde. Bir film gecesinin harika bir dikkat dağıtıcı olacağını düşünüyordum ama bazı hayati malzemelerim eksik.\nBana yardım edersin, değil mi?",
+      "uk": "Всі на взводі відтоді, як поширилися чутки про той сигнал ARC. Я думав, що вечір кіно був би чудовим способом відволіктися, але мені не вистачає деяких важливих запасів.\nТи ж допоможеш мені, так?",
+      "zh-CN": "自从那个ARC信号的谣言传开后，每个人都神经紧绷。我在想电影之夜会是个很好的消遣，但我缺少一些关键的补给。\n你会帮我的，是吧？",
+      "zh-TW": "自從那個ARC信號的謠言傳開後，每個人都神經緊繃。我在想電影之夜會是個很好的消遣，但我缺少一些關鍵的補給。\n你會幫我的，是吧？"
+    },
+    "objectives": [
+      {
+        "da": "Lever et bærbart tv til Apollo",
+        "de": "Liefere einen tragbaren Fernseher bei Apollo ab",
+        "en": "Deliver a Portable TV to Apollo",
+        "es": "Entrega un televisor portátil a Apollo",
+        "fr": "Livrer une télé portable à Apollo",
+        "he": "מסור טלוויזיה ניידת לאפולו",
+        "hr": "Dostavi prijenosni TV Apollu",
+        "it": "Consegna una TV portatile ad Apollo",
+        "ja": "ポータブルテレビをアポロに届ける",
+        "kr": "휴대용 TV를 아폴로에게 전달",
+        "no": "Lever en bærbar TV til Apollo",
+        "pl": "Dostarcz przenośny telewizor do Apollo",
+        "pt": "Entrega uma TV Portátil a Apollo",
+        "pt-BR": "Entregue uma TV Portátil para Apollo",
+        "ru": "Доставить портативный телевизор Аполлону",
+        "sr": "Dostavi prenosni TV Apollu",
+        "tr": "Apollo'ya bir Taşınabilir TV teslim et",
+        "uk": "Доставте портативний телевізор Аполлону",
+        "zh-CN": "将一台便携式电视交给阿波罗",
+        "zh-TW": "將一台便攜式電視交給阿波羅"
+      },
+      {
+        "da": "På Stella Montis skal du søge i kulturarkiverne efter gamle filmbånd",
+        "de": "Suche auf Stella Montis in den Kulturarchiven nach alten Filmbändern",
+        "en": "On Stella Montis, search the Cultural Archives for old movie tapes",
+        "es": "En Stella Montis, busca cintas de películas antiguas en los Archivos Culturales",
+        "fr": "Sur Stella Montis, chercher de vieilles cassettes de films dans les archives culturelles",
+        "he": "בסטלה מונטיס, חפש קלטות סרטים ישנות בארכיון התרבות",
+        "hr": "Na Stella Montisu, pretraži Kulturne arhive za stare filmske vrpce",
+        "it": "Su Stella Montis, cerca vecchi nastri di film negli Archivi Culturali",
+        "ja": "ステラ・モンティスで、文化アーカイブから古い映画のテープを探す",
+        "kr": "스텔라 몬티스, 문화 기록 보관소에서 오래된 영화 테이프 검색",
+        "no": "På Stella Montis, søk i kulturarkivene etter gamle filmkassetter",
+        "pl": "Na Stella Montis przeszukaj Archiwa Kulturowe w poszukiwaniu starych taśm filmowych",
+        "pt": "Em Stella Montis, procura cassetes de filmes antigos nos Arquivos Culturais",
+        "pt-BR": "Em Stella Montis, procure por fitas de filmes antigas nos Arquivos Culturais",
+        "ru": "На Стелла Монтис поискать старые кинопленки в Культурных архивах",
+        "sr": "Na Stella Montisu, pretraži Kulturne arhive za stare filmske trake",
+        "tr": "Stella Montis'te, Kültürel Arşivlerde eski film kasetlerini ara",
+        "uk": "На Stella Montis пошукайте старі кіноплівки в Культурних архівах",
+        "zh-CN": "在斯特拉蒙蒂斯，去文化档案馆搜寻旧电影录像带",
+        "zh-TW": "在斯特拉蒙蒂斯，去文化檔案館搜尋舊電影錄影帶"
+      },
+      {
+        "da": "Lever stakken af filmbånd til Apollo",
+        "de": "Liefere den Stapel Filmbänder bei Apollo ab",
+        "en": "Deliver the Stack of Movie Tapes to Apollo",
+        "es": "Entrega la pila de cintas de películas a Apollo",
+        "fr": "Livrer la pile de cassettes de films à Apollo",
+        "he": "מסור את ערימת קלטות הסרטים לאפולו",
+        "hr": "Dostavi hrpu filmskih vrpci Apollu",
+        "it": "Consegna la pila di nastri di film ad Apollo",
+        "ja": "映画テープの山をアポロに届ける",
+        "kr": "영화 테이프 더미를 아폴로에게 전달",
+        "no": "Lever bunken med filmkassetter til Apollo",
+        "pl": "Dostarcz stos taśm filmowych do Apollo",
+        "pt": "Entrega a Pilha de Cassetes de Filmes a Apollo",
+        "pt-BR": "Entregue a Pilha de Fitas de Filmes para Apollo",
+        "ru": "Доставить стопку кинопленок Аполлону",
+        "sr": "Dostavi gomilu filmskih traka Apollu",
+        "tr": "Film Kaseti Yığınını Apollo'ya teslim et",
+        "uk": "Доставте стос кіноплівок Аполлону",
+        "zh-CN": "将一堆电影录像带交给阿波罗",
+        "zh-TW": "將一堆電影錄影帶交給阿波羅"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "showstopper",
+        "quantity": 3
+      },
+      {
+        "itemId": "smoke_grenade",
+        "quantity": 3
+      },
+      {
+        "itemId": "fireworks_box",
+        "quantity": 1
+      }
+    ],
+    "previousQuestIds": [
+      "the_league"
+    ],
+    "updatedAt": "01/27/2026"
+  },
+  {
     "id": "ss4",
     "name": {
       "da": "Uden for radaren",
@@ -6246,6 +6877,362 @@
       "ss5"
     ],
     "updatedAt": "01/13/2026"
+  },
+  {
+    "id": "on_deaf_ears",
+    "name": {
+      "da": "For Døve Ører",
+      "de": "Auf taube Ohren",
+      "en": "On Deaf Ears",
+      "es": "A oídos sordos",
+      "fr": "Dialogue de sourds",
+      "he": "על אוזניים ערלות",
+      "hr": "Na gluhe uši",
+      "it": "A orecchie sorde",
+      "ja": "馬の耳に念仏",
+      "kr": "우이독경",
+      "no": "For døve ører",
+      "pl": "Głuche uszy",
+      "pt": "A ouvidos moucos",
+      "pt-BR": "Ouvidos Moucos",
+      "ru": "Пропуская мимо ушей",
+      "sr": "Na gluve uši",
+      "tr": "Sağır Sultan",
+      "uk": "Повз вуха",
+      "zh-CN": "充耳不闻",
+      "zh-TW": "充耳不聞"
+    },
+    "map": [
+      "stella_montis"
+    ],
+    "trader": "Lance",
+    "description": {
+      "da": "Det lader til, at hver anden Raider her har alvorlige høreskader.\n\nJeg har hørt rygter om, at de har udviklet nogle ekstra avancerede høreapparater på Stella Montis. Hvis du kan opspore dem, kan vi måske alle bruge vores indendørsstemmer for en gangs skyld.",
+      "de": "Scheint so, als hätte jeder zweite Raider hier einen ernsthaften Gehörschaden.\n\nIch habe Gerüchte gehört, dass sie in Stella Montis einige extra fortschrittliche Hörgeräte entwickelt haben. Wenn du sie aufspüren kannst, könnten wir alle vielleicht mal unsere Zimmerlautstärke benutzen.",
+      "en": "Seems like every other Raider here has some serious hearing damage.\n\nI heard rumors they developed some extra advanced hearing aids at Stella Montis. If you can track them down, we might all be able to use our indoor voices, for once.",
+      "es": "Parece que uno de cada dos Raiders aquí tiene graves daños auditivos.\n\nEscuché rumores de que desarrollaron audífonos muy avanzados en Stella Montis. Si logras localizarlos, tal vez todos podamos usar nuestra voz normal por una vez.",
+      "fr": "On dirait qu'un Raider sur deux ici souffre de graves problèmes auditifs.\n\nJ'ai entendu dire qu'ils avaient mis au point des appareils auditifs très avancés à Stella Montis. Si tu arrives à mettre la main dessus, on pourra peut-être tous arrêter de crier pour se parler.",
+      "he": "נראה שלכל ריידר שני כאן יש נזק רציני בשמיעה.\n\nשמעתי שמועות שהם פיתחו מכשירי שמיעה מתקדמים במיוחד בסטלה מונטיס. אם תצליח לאתר אותם, אולי כולנו נוכל לדבר בקול רגיל לשם שינוי.",
+      "hr": "Čini se da svaki drugi Raider ovdje ima ozbiljno oštećenje sluha.\n\nČuo sam glasine da su razvili neka napredna slušna pomagala u Stella Montisu. Ako ih uspiješ pronaći, možda ćemo svi napokon moći koristiti glasove za zatvorene prostore.",
+      "it": "Sembra che un Raider su due qui abbia seri danni all'udito.\n\nHo sentito dire che a Stella Montis hanno sviluppato apparecchi acustici molto avanzati. Se riesci a trovarli, forse potremo tutti usare un tono di voce normale, per una volta.",
+      "ja": "ここのレイダーはどいつもこいつも、耳がいかれているみたいだ。\n\nステラ・モンティスで超高性能な補聴器が開発されたって噂を聞いたんだ。それを見つけ出してくれれば、みんな屋内で怒鳴り合わずに済むかもしれない。",
+      "kr": "여기 레이더들은 하나 건너 하나꼴로 심각한 청각 손상을 입은 것 같아.\n\n스텔라 몬티스에서 엄청나게 진보된 보청기를 개발했다는 소문을 들었어. 네가 그걸 찾아낼 수 있다면, 우리 모두 실내에서는 조용히 말할 수 있게 될지도 모르지.",
+      "no": "Det virker som om annenhver Raider her har alvorlige hørselsskader.\n\nJeg hørte rykter om at de utviklet noen ekstra avanserte høreapparater på Stella Montis. Hvis du kan spore dem opp, kan vi kanskje alle bruke innestemme for en gangs skyld.",
+      "pl": "Wygląda na to, że co drugi Najeźdźca ma tutaj poważne uszkodzenie słuchu.\n\nSłyszałem plotki, że w Stella Montis opracowali jakieś supernowoczesne aparaty słuchowe. Jeśli uda ci się je namierzyć, może w końcu wszyscy będziemy mogli przestać do siebie krzyczeć.",
+      "pt": "Parece que todos os Raiders aqui têm lesões auditivas graves.\n\nOuvi rumores de que desenvolveram aparelhos auditivos super avançados em Stella Montis. Se conseguires encontrá-los, talvez possamos todos usar as nossas vozes de interior, para variar.",
+      "pt-BR": "Parece que um em cada dois Raiders aqui tem sérios danos auditivos.\n\nOuvi rumores de que desenvolveram aparelhos auditivos superavançados em Stella Montis. Se você conseguir encontrá-los, talvez todos nós possamos parar de gritar, pelo menos uma vez.",
+      "ru": "Похоже, у каждого второго Рейдера тут серьезные проблемы со слухом.\n\nДо меня дошли слухи, что в Стелла Монтис разработали какие-то суперсовременные слуховые аппараты. Если найдешь их, может, мы все наконец сможем перестать орать друг на друга.",
+      "sr": "Izgleda da svaki drugi Rajder ovde ima ozbiljno oštećenje sluha.\n\nČuo sam glasine da su razvili neka napredna slušna pomagala u Stella Montisu. Ako ih uspeš pronaći, možda ćemo svi napokon moći da koristimo glasove za zatvorene prostore.",
+      "tr": "Buradaki her iki Yağmacıdan birinin ciddi işitme hasarı var gibi görünüyor.\n\nStella Montis'te çok gelişmiş işitme cihazları geliştirdiklerine dair söylentiler duydum. Eğer onları bulabilirsen, belki hepimiz bir kez olsun bağırmadan konuşabiliriz.",
+      "uk": "Здається, кожен другий Рейдер тут має серйозні проблеми зі слухом.\n\nЯ чув чутки, що в Stella Montis розробили якісь надсучасні слухові апарати. Якщо зможеш їх знайти, можливо, ми всі нарешті зможемо не кричати один на одного.",
+      "zh-CN": "看来这里的掠夺者每个人都有严重的听力损伤。\n\n我听到传言说他们在斯特拉蒙蒂斯开发了一些超先进的助听器。如果你能找到它们，也许我们所有人这一次都能小声说话了。",
+      "zh-TW": "看來這裡的掠奪者每個人都有嚴重的聽力受損。\n\n我聽到傳言說他們在斯特拉蒙蒂斯開發了一些超先進的助聽器。如果你能找到它們，也許我們所有人這一次都能輕聲細語了。"
+    },
+    "objectives": [
+      {
+        "da": "Find forskerens gæstelogbøger på receptionscomputerne",
+        "de": "Finde die Gästebücher des Forschers auf den Computern am Empfang",
+        "en": "Find the researcher's guest logs on the reception computers",
+        "es": "Encuentra los registros de visitas del investigador en las computadoras de recepción",
+        "fr": "Trouver les registres des invités du chercheur sur les ordinateurs de la réception",
+        "he": "מצא את יומני האורחים של החוקר במחשבי הקבלה",
+        "hr": "Pronađi popise gostiju istraživača na računalima recepcije",
+        "it": "Trova i registri degli ospiti del ricercatore sui computer della reception",
+        "ja": "受付のコンピューターで研究者のゲストログを見つける",
+        "kr": "접수처 컴퓨터에서 연구원의 방문자 로그 찾기",
+        "no": "Finn forskerens gjestelogger på resepsjonsdatamaskinene",
+        "pl": "Znajdź dzienniki gości badacza na komputerach w recepcji",
+        "pt": "Encontra os registos de convidados do investigador nos computadores da receção",
+        "pt-BR": "Encontre os registros de convidados do pesquisador nos computadores da recepção",
+        "ru": "Найти гостевые журналы исследователя на компьютерах в приемной",
+        "sr": "Pronađi popise gostiju istraživača na računarima recepcije",
+        "tr": "Resepsiyon bilgisayarlarında araştırmacının ziyaretçi kayıtlarını bul",
+        "uk": "Знайдіть журнали відвідувачів дослідника на комп'ютерах приймальні",
+        "zh-CN": "在接待处的电脑上找到研究员的访客记录",
+        "zh-TW": "在接待處的電腦上找到研究員的訪客記錄"
+      },
+      {
+        "da": "Find ud af, hvor forskeren holdt sin forelæsning, og få adgang til deres noter",
+        "de": "Finde heraus, wo der Forscher seinen Vortrag gehalten hat, und greife auf seine Notizen zu",
+        "en": "Find where the researcher held their lecture, and access their notes",
+        "es": "Averigua dónde dio su conferencia el investigador y accede a sus notas",
+        "fr": "Trouver où le chercheur a tenu sa conférence et accéder à ses notes",
+        "he": "מצא היכן החוקר העביר את ההרצאה שלו, וקבל גישה לרשימותיו",
+        "hr": "Pronađi gdje je istraživač održao predavanje i pristupi njegovim bilješkama",
+        "it": "Scopri dove il ricercatore ha tenuto la sua conferenza e accedi ai suoi appunti",
+        "ja": "研究者が講義を行った場所を見つけ、メモにアクセスする",
+        "kr": "연구원이 강의를 한 장소를 찾아내어 노트에 액세스하기",
+        "no": "Finn ut hvor forskeren holdt forelesningen sin, og få tilgang til notatene deres",
+        "pl": "Znajdź miejsce, w którym badacz prowadził wykład i uzyskaj dostęp do jego notatek",
+        "pt": "Descobre onde o investigador deu a palestra e acede às suas notas",
+        "pt-BR": "Descubra onde o pesquisador realizou sua palestra e acesse suas anotações",
+        "ru": "Найти место, где исследователь читал лекцию, и получить доступ к его записям",
+        "sr": "Pronađi gde je istraživač održao predavanje i pristupi njegovim beleškama",
+        "tr": "Araştırmacının dersini nerede verdiğini bul ve notlarına eriş",
+        "uk": "Знайдіть місце, де дослідник читав лекцію, та отримайте доступ до його нотаток",
+        "zh-CN": "找到研究员举办讲座的地方，并获取他们的笔记",
+        "zh-TW": "找到研究員舉辦講座的地方，並獲取他們的筆記"
+      },
+      {
+        "da": "Find oplysninger om prototyperne på computere til medicinsk forskning",
+        "de": "Finde Informationen über die Prototypen auf den Computern der medizinischen Forschung",
+        "en": "Find information about the prototypes on the Medical Research computers",
+        "es": "Encuentra información sobre los prototipos en las computadoras de Investigación Médica",
+        "fr": "Trouver des informations sur les prototypes sur les ordinateurs de la recherche médicale",
+        "he": "מצא מידע על האב-טיפוסים במחשבי המחקר הרפואי",
+        "hr": "Pronađi informacije o prototipovima na računalima medicinskog istraživanja",
+        "it": "Trova informazioni sui prototipi nei computer della Ricerca Medica",
+        "ja": "医療研究のコンピューターでプロトタイプに関する情報を見つける",
+        "kr": "의료 연구 컴퓨터에서 프로토타입에 대한 정보 찾기",
+        "no": "Finn informasjon om prototypene på datamaskinene for medisinsk forskning",
+        "pl": "Znajdź informacje o prototypach na komputerach Badań Medycznych",
+        "pt": "Encontra informações sobre os protótipos nos computadores de Investigação Médica",
+        "pt-BR": "Encontre informações sobre os protótipos nos computadores da Pesquisa Médica",
+        "ru": "Найти информацию о прототипах на компьютерах Медицинских исследований",
+        "sr": "Pronađi informacije o prototipovima na računarima medicinskog istraživanja",
+        "tr": "Tıbbi Araştırma bilgisayarlarında prototipler hakkında bilgi bul",
+        "uk": "Знайдіть інформацію про прототипи на комп'ютерах медичних досліджень",
+        "zh-CN": "在医学研究电脑上找到关于原型的信息",
+        "zh-TW": "在醫學研究電腦上找到關於原型的資訊"
+      },
+      {
+        "da": "Find de udskrevne forsendelseslogbøger i samleværkstederne",
+        "de": "Finde die ausgedruckten Versandprotokolle in den Montagewerkstätten",
+        "en": "Find the printed shipping logs in the Assembly Workshops",
+        "es": "Encuentra los registros de envío impresos en los Talleres de Ensamblaje",
+        "fr": "Trouver les registres d'expédition imprimés dans les ateliers d'assemblage",
+        "he": "מצא את יומני המשלוח המודפסים בבתי המלאכה להרכבה",
+        "hr": "Pronađi ispisane zapise o otpremi u radionicama za sastavljanje",
+        "it": "Trova i registri di spedizione stampati nelle Officine di Assemblaggio",
+        "ja": "組立工房で印刷された出荷ログを見つける",
+        "kr": "조립 작업장에서 인쇄된 배송 로그 찾기",
+        "no": "Finn de utskrevne fraktloggene i monteringsverkstedene",
+        "pl": "Znajdź wydrukowane dzienniki wysyłkowe w Warsztatach Montażowych",
+        "pt": "Encontra os registos de envio impressos nas Oficinas de Montagem",
+        "pt-BR": "Encontre os registros de remessa impressos nas Oficinas de Montagem",
+        "ru": "Найти распечатанные журналы отгрузки в Сборочных цехах",
+        "sr": "Pronađi ispisane zapise o otpremi u radionicama za sastavljanje",
+        "tr": "Montaj Atölyelerinde yazdırılmış sevkiyat kayıtlarını bul",
+        "uk": "Знайдіть роздруковані журнали відправлень у Складальних цехах",
+        "zh-CN": "在组装车间找到打印的运输记录",
+        "zh-TW": "在組裝車間找到列印的運輸記錄"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "navi_blue_warde_color",
+        "quantity": 1
+      },
+      {
+        "itemId": "lure_grenade",
+        "quantity": 3
+      },
+      {
+        "itemId": "noisemaker",
+        "quantity": 5
+      },
+      {
+        "itemId": "shaker",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "groundbreaking"
+    ],
+    "nextQuestIds": [
+      "on_the_map"
+    ],
+    "updatedAt": "01/27/2026"
+  },
+  {
+    "id": "on_the_map",
+    "name": {
+      "da": "På Kortet",
+      "de": "Auf der Karte",
+      "en": "On The Map",
+      "es": "En el mapa",
+      "fr": "Sur la carte",
+      "he": "על המפה",
+      "hr": "Na karti",
+      "it": "Sulla mappa",
+      "ja": "地図の上で",
+      "kr": "지도 위에서",
+      "no": "På kartet",
+      "pl": "Na mapie",
+      "pt": "No Mapa",
+      "pt-BR": "No Mapa",
+      "ru": "На карте",
+      "sr": "Na mapi",
+      "tr": "Haritada",
+      "uk": "На мапі",
+      "zh-CN": "在地图上",
+      "zh-TW": "在地圖上"
+    },
+    "map": [
+      "the_spaceport"
+    ],
+    "trader": "Lance",
+    "grantedItemIds": [
+      {
+        "itemId": "defibrillator",
+        "quantity": 3
+      }
+    ],
+    "description": {
+      "da": "Vi kender koordinaterne for de høreapparater, men jeg er nødt til at krydshenvise dem med et papirkort over rumhavnen. Dine ben er vel ikke for trætte, vel?",
+      "de": "Wir kennen die Koordinaten für diese Hörgeräte, aber ich muss sie mit einer Papierkarte des Raumhafens abgleichen. Deine Beine sind doch nicht allzu müde, oder?",
+      "en": "We know the coordinates for those hearing aids, but I'll have to cross-reference them with a paper map of the Spaceport. Those legs of yours aren't too tired, are they?",
+      "es": "Conocemos las coordenadas de esos audífonos, pero tendré que cruzarlas con un mapa de papel del Puerto Espacial. Esas piernas tuyas no están demasiado cansadas, ¿verdad?",
+      "fr": "Nous connaissons les coordonnées de ces appareils auditifs, mais je vais devoir les recouper avec une carte papier du spatioport. Tes jambes ne sont pas trop fatiguées, j'espère ?",
+      "he": "אנחנו יודעים את הקואורדינטות של מכשירי השמיעה האלה, אבל אני צריך להצליב אותן עם מפת נייר של נמל החלל. הרגליים שלך לא עייפות מדי, נכון?",
+      "hr": "Znamo koordinate za ta slušna pomagala, ali morat ću ih usporediti s papirnatom kartom Svemirske luke. Tvoje noge nisu preumorne, zar ne?",
+      "it": "Conosciamo le coordinate per quegli apparecchi acustici, ma dovrò incrociarle con una mappa cartacea dello spazioporto. Le tue gambe non sono troppo stanche, vero?",
+      "ja": "その補聴器の座標は分かっているが、宇宙港の紙の地図と照合する必要があるんだ。まだ歩けるよな？",
+      "kr": "그 보청기들의 좌표는 알지만, 우주항의 종이 지도와 대조해 봐야 해. 다리가 너무 지친 건 아니겠지?",
+      "no": "Vi kjenner koordinatene for de høreapparatene, men jeg må kryssreferere dem med et papirkart over romhavnen. Bena dine er vel ikke for slitne, er de?",
+      "pl": "Znamy współrzędne tych aparatów słuchowych, ale muszę je porównać z papierową mapą Portu Kosmicznego. Twoje nogi nie są zbyt zmęczone, prawda?",
+      "pt": "Sabemos as coordenadas desses aparelhos auditivos, mas vou ter de as cruzar com um mapa em papel do Espaçoporto. Essas tuas pernas não estão muito cansadas, pois não?",
+      "pt-BR": "Sabemos as coordenadas desses aparelhos auditivos, mas terei que fazer uma referência cruzada com um mapa de papel do Espaçoporto. Suas pernas não estão muito cansadas, estão?",
+      "ru": "Мы знаем координаты этих слуховых аппаратов, но мне нужно сверить их с бумажной картой Космопорта. Твои ноги ведь не слишком устали?",
+      "sr": "Znamo koordinate za ta slušna pomagala, ali moraću da ih uporedim sa papirnom mapom Svemirske luke. Tvoje noge nisu preumorne, zar ne?",
+      "tr": "O işitme cihazlarının koordinatlarını biliyoruz, ama bunları Uzay Limanı'nın kağıt haritasıyla karşılaştırmam gerekecek. Bacakların çok yorgun değildir umarım?",
+      "uk": "Ми знаємо координати тих слухових апаратів, але мені доведеться звірити їх з паперовою картою Космопорту. Твої ноги не надто втомилися, правда?",
+      "zh-CN": "我们知道那些助听器的坐标，但我得把它们与太空港的纸质地图进行对照。你的腿没那么累吧？",
+      "zh-TW": "我們知道那些助聽器的坐標，但我得把它們與太空港的紙質地圖進行對照。你的腿沒那麼累吧？"
+    },
+    "objectives": [
+      {
+        "da": "Tag hen til, hvor brændstofslangerne knækkede, og send din placering",
+        "de": "Geh dorthin, wo die Treibstoffleitungen gerissen sind, und übermittle deinen Standort",
+        "en": "Head to where the Fuel Lines snapped, and transmit your location",
+        "es": "Dirígete a donde se rompieron las líneas de combustible y transmite tu ubicación",
+        "fr": "Se rendre là où les conduites de carburant ont rompu et transmettre votre position",
+        "he": "לך למקום שבו צינורות הדלק נקרעו, ושדר את המיקום שלך",
+        "hr": "Idi tamo gdje su pukli vodovi za gorivo i pošalji svoju lokaciju",
+        "it": "Dirigiti dove si sono rotti i tubi del carburante e trasmetti la tua posizione",
+        "ja": "燃料ラインが切断された場所に向かい、位置情報を送信する",
+        "kr": "연료 라인이 끊어진 곳으로 이동하여 위치 전송",
+        "no": "Dra til der drivstoffslangene røk, og overfør posisjonen din",
+        "pl": "Udaj się tam, gdzie pękły przewody paliwowe i prześlij swoją lokalizację",
+        "pt": "Dirige-te para onde as Linhas de Combustível rebentaram e transmite a tua localização",
+        "pt-BR": "Vá para onde as Linhas de Combustível se romperam e transmita sua localização",
+        "ru": "Направиться туда, где лопнули топливопроводы, и передать свое местоположение",
+        "sr": "Idi tamo gde su pukli vodovi za gorivo i pošalji svoju lokaciju",
+        "tr": "Yakıt Hatlarının koptuğu yere git ve konumunu ilet",
+        "uk": "Відправляйтеся туди, де розірвалися паливні лінії, і передайте своє місцезнаходження",
+        "zh-CN": "前往燃油管线断裂的地方，并传送你的位置",
+        "zh-TW": "前往燃油管線斷裂的地方，並傳送你的位置"
+      },
+      {
+        "da": "Tag hen til antennen nær brændstofkontrollen, og send din placering",
+        "de": "Geh zur Antenne in der Nähe der Treibstoffkontrolle und übermittle deinen Standort",
+        "en": "Head to the antenna near the Fuel Control, and transmit your location",
+        "es": "Dirígete a la antena cerca del Control de Combustible y transmite tu ubicación",
+        "fr": "Se rendre à l'antenne près du contrôle du carburant et transmettre votre position",
+        "he": "לך לאנטנה ליד בקרת הדלק, ושדר את המיקום שלך",
+        "hr": "Idi do antene blizu Kontrole goriva i pošalji svoju lokaciju",
+        "it": "Dirigiti all'antenna vicino al Controllo Carburante e trasmetti la tua posizione",
+        "ja": "燃料制御装置近くのアンテナに向かい、位置情報を送信する",
+        "kr": "연료 제어 장치 근처의 안테나로 이동하여 위치 전송",
+        "no": "Dra til antennen nær drivstoffkontrollen, og overfør posisjonen din",
+        "pl": "Udaj się do anteny w pobliżu Kontroli Paliwa i prześlij swoją lokalizację",
+        "pt": "Dirige-te para a antena perto do Controlo de Combustível e transmite a tua localização",
+        "pt-BR": "Vá para a antena perto do Controle de Combustível e transmita sua localização",
+        "ru": "Направиться к антенне возле Управления топливом и передать свое местоположение",
+        "sr": "Idi do antene blizu Kontrole goriva i pošalji svoju lokaciju",
+        "tr": "Yakıt Kontrolü yakınındaki antene git ve konumunu ilet",
+        "uk": "Відправляйтеся до антени біля управління паливом і передайте своє місцезнаходження",
+        "zh-CN": "前往燃油控制处附近的天下，并传送你的位置",
+        "zh-TW": "前往燃油控制處附近的天下，並傳送你的位置"
+      },
+      {
+        "da": "Tag hen til kaktusbedet i murbruddet, og send din placering",
+        "de": "Geh zum Kaktusfeld im Mauerdurchbruch und übermittle deinen Standort",
+        "en": "Head to the cactus patch in the wall breach, and transmit your location",
+        "es": "Dirígete al parche de cactus en la brecha del muro y transmite tu ubicación",
+        "fr": "Se rendre au champ de cactus dans la brèche du mur et transmettre votre position",
+        "he": "לך לטלאי הקקטוסים בפרצה בקיר, ושדר את המיקום שלך",
+        "hr": "Idi do polja kaktusa u pukotini zida i pošalji svoju lokaciju",
+        "it": "Dirigiti verso la zona dei cactus nella breccia del muro e trasmetti la tua posizione",
+        "ja": "壁の裂け目にあるサボテン畑に向かい、位置情報を送信する",
+        "kr": "벽의 틈새에 있는 선인장 밭으로 이동하여 위치 전송",
+        "no": "Dra til kaktusfeltet i veggbruddet, og overfør posisjonen din",
+        "pl": "Udaj się na grządkę kaktusów w wyłomie muru i prześlij swoją lokalizację",
+        "pt": "Dirige-te para o canteiro de catos na brecha da parede e transmite a tua localização",
+        "pt-BR": "Vá para o canteiro de cactos na brecha da parede e transmita sua localização",
+        "ru": "Направиться к зарослям кактусов в проломе стены и передать свое местоположение",
+        "sr": "Idi do polja kaktusa u pukotini zida i pošalji svoju lokaciju",
+        "tr": "Duvar gediğindeki kaktüs yamasına git ve konumunu ilet",
+        "uk": "Відправляйтеся до заростей кактусів у проломі стіни і передайте своє місцезнаходження",
+        "zh-CN": "前往墙壁缺口处的仙人掌地，并传送你的位置",
+        "zh-TW": "前往牆壁缺口處的仙人掌地，並傳送你的位置"
+      },
+      {
+        "da": "Send din placering fra taget af containerlagerbygningen",
+        "de": "Übermittle deinen Standort vom Dach des Containerlagergebäudes",
+        "en": "Transmit your location from the roof of the Container Storage building",
+        "es": "Transmite tu ubicación desde el techo del edificio de Almacenamiento de Contenedores",
+        "fr": "Transmettre votre position depuis le toit du bâtiment de stockage des conteneurs",
+        "he": "שדר את המיקום שלך מגג בניין אחסון המכולות",
+        "hr": "Pošalji svoju lokaciju s krova zgrade Skladišta kontejnera",
+        "it": "Trasmetti la tua posizione dal tetto dell'edificio di Stoccaggio Container",
+        "ja": "コンテナ保管ビルの屋上から位置情報を送信する",
+        "kr": "컨테이너 보관 건물 옥상에서 위치 전송",
+        "no": "Overfør posisjonen din fra taket av containerlagerbygningen",
+        "pl": "Prześlij swoją lokalizację z dachu budynku Magazynu Kontenerów",
+        "pt": "Transmite a tua localização a partir do telhado do edifício de Armazenamento de Contentores",
+        "pt-BR": "Transmita sua localização do telhado do prédio de Armazenamento de Contêineres",
+        "ru": "Передать свое местоположение с крыши здания Склада контейнеров",
+        "sr": "Pošalji svoju lokaciju sa krova zgrade Skladišta kontejnera",
+        "tr": "Konteyner Depolama binasının çatısından konumunu ilet",
+        "uk": "Передайте своє місцезнаходження з даху будівлі складу контейнерів",
+        "zh-CN": "从集装箱存储大楼的屋顶传送你的位置",
+        "zh-TW": "從集裝箱存儲大樓的屋頂傳送你的位置"
+      },
+      {
+        "da": "Find containeren dækket af presenning, og marker den",
+        "de": "Finde den mit einer Plane bedeckten Container und markiere ihn",
+        "en": "Find the container covered in tarp, and mark it",
+        "es": "Encuentra el contenedor cubierto con lona y márcalo",
+        "fr": "Trouver le conteneur recouvert d'une bâche et le marquer",
+        "he": "מצא את המכולה המכוסה ברזנט, וסמן אותה",
+        "hr": "Pronađi kontejner prekriven ceradom i označi ga",
+        "it": "Trova il container coperto dal telo e contrassegnalo",
+        "ja": "防水シートで覆われたコンテナを見つけ、マークする",
+        "kr": "방수포로 덮인 컨테이너를 찾아 표시하기",
+        "no": "Finn containeren dekket av presenning, og merk den",
+        "pl": "Znajdź kontener przykryty plandeką i oznacz go",
+        "pt": "Encontra o contentor coberto com lona e marca-o",
+        "pt-BR": "Encontre o contêiner coberto com lona e marque-o",
+        "ru": "Найти контейнер, накрытый брезентом, и пометить его",
+        "sr": "Pronađi kontejner prekriven ceradom i označi ga",
+        "tr": "Branda ile örtülü konteyneri bul ve işaretle",
+        "uk": "Знайдіть контейнер, накритий брезентом, і позначте його",
+        "zh-CN": "找到盖着防水布的集装箱，并标记它",
+        "zh-TW": "找到蓋著防水布的集裝箱，並標記它"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "sterilized_bandage",
+        "quantity": 3
+      },
+      {
+        "itemId": "surge_shield_recharger",
+        "quantity": 3
+      },
+      {
+        "itemId": "tactical_mk3_healing",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "on_deaf_ears"
+    ],
+    "nextQuestIds": [],
+    "updatedAt": "01/27/2026"
   },
   {
     "id": "ss10z",
@@ -7528,7 +8515,9 @@
     "previousQuestIds": [
       "12_cold_storage"
     ],
-    "nextQuestIds": [],
+    "nextQuestIds": [
+      "with_a_view"
+    ],
     "updatedAt": "01/13/2026"
   },
   {
@@ -7771,7 +8760,9 @@
     "previousQuestIds": [
       "ss8a"
     ],
-    "nextQuestIds": [],
+    "nextQuestIds": [
+      "the_league"
+    ],
     "updatedAt": "01/13/2026"
   },
   {
@@ -8295,6 +9286,223 @@
     ],
     "nextQuestIds": [],
     "updatedAt": "01/13/2026"
+  },
+  {
+    "id": "the_league",
+    "name": {
+      "da": "Ligaen",
+      "de": "Die Liga",
+      "en": "The League",
+      "es": "La Liga",
+      "fr": "La Ligue",
+      "he": "הליגה",
+      "hr": "Liga",
+      "it": "La Lega",
+      "ja": "リーグ",
+      "kr": "리그",
+      "no": "Ligaen",
+      "pl": "Liga",
+      "pt": "A Liga",
+      "pt-BR": "A Liga",
+      "ru": "Лига",
+      "sr": "Liga",
+      "tr": "Lig",
+      "uk": "Ліга",
+      "zh-CN": "联盟",
+      "zh-TW": "聯盟"
+    },
+    "map": [
+      "dam_battlegrounds"
+    ],
+    "trader": "Apollo",
+    "grantedItemIds": [
+      {
+        "itemId": "yellow_light_stick",
+        "quantity": 5
+      },
+      {
+        "itemId": "red_light_stick",
+        "quantity": 5
+      }
+    ],
+    "description": {
+      "da": "Børnene heromkring har sparket rundt til tomme granathylstre. Det er kun et spørgsmål om tid, før de ikke er så tomme.\n\nSå her er planen. Du hjælper mig med lidt forberedelse, og så opretter jeg et rigtigt fodboldhold til de unge.",
+      "de": "Die Kinder hier in der Gegend kicken leere Granatenhülsen herum. Es ist nur eine Frage der Zeit, bis sie nicht mehr so leer sind.\n\nAlso, hier ist der Plan. Du hilfst mir bei den Vorbereitungen, und ich stelle eine richtige Fußballmannschaft für die Kleinen auf.",
+      "en": "Kids around here have been kicking empty grenade casings around. It's only a matter of time before they're not so empty.\n\nSo here's the plan. You help me with some prep work, and I'll set up an actual football team for the young ones.",
+      "es": "Los niños de por aquí han estado pateando carcasas de granadas vacías. Es solo cuestión de tiempo antes de que no estén tan vacías.\n\nAsí que este es el plan. Me ayudas con algunos preparativos y organizaré un equipo de fútbol real para los jóvenes.",
+      "fr": "Les gamins du coin s'amusent à shooter dans des goupilles de grenades vides. Ce n'est qu'une question de temps avant qu'elles ne soient plus si vides.\n\nAlors voici le plan. Tu m'aides avec les préparatifs, et je monte une vraie équipe de foot pour les jeunes.",
+      "he": "הילדים כאן בועטים תרמילי רימונים ריקים. זה רק עניין של זמן עד שהם לא יהיו כל כך ריקים.\n\nאז הנה התוכנית. אתה תעזור לי עם קצת עבודת הכנה, ואני אקים קבוצת כדורגל אמיתית לצעירים.",
+      "hr": "Djeca ovdje udaraju prazne čahure granata. Samo je pitanje vremena kada one neće biti tako prazne.\n\nDakle, evo plana. Ti mi pomozi oko priprema, a ja ću osnovati pravi nogometni tim za mlade.",
+      "it": "I ragazzini qui intorno prendono a calci bossoli di granate vuoti. È solo questione di tempo prima che non siano così vuoti.\n\nQuindi ecco il piano. Tu mi aiuti con un po' di lavoro preparatorio e io metterò su una vera squadra di calcio per i giovani.",
+      "ja": "この辺りの子供たちは空の手榴弾の薬莢を蹴って遊んでいる。中身が入ったままのやつを蹴るのも時間の問題だ。\n\nそこで計画がある。あんたが準備を手伝ってくれれば、俺が子供たちのためにまともなサッカーチームを作ってやる。",
+      "kr": "이 주변 아이들이 빈 수류탄 탄피를 차고 놀고 있어. 그게 비어있지 않은 걸 차게 되는 건 시간문제야.\n\n그래서 계획이 있어. 네가 준비 작업을 좀 도와주면, 내가 아이들을 위해 진짜 축구팀을 만들어 줄게.",
+      "no": "Barna her omkring har sparket rundt på tomme granathylser. Det er bare et tidsspørsmål før de ikke er så tomme.\n\nSå her er planen. Du hjelper meg med litt forarbeid, så skal jeg sette opp et faktisk fotballag for de unge.",
+      "pl": "Dzieciaki w okolicy kopią puste łuski po granatach. To tylko kwestia czasu, zanim trafią na takie, które nie będą puste.\n\nWięc oto plan. Ty pomożesz mi w przygotowaniach, a ja zorganizuję prawdziwą drużynę piłkarską dla młodych.",
+      "pt": "Os miúdos por aqui andam a pontapear invólucros de granadas vazios. É apenas uma questão de tempo até que não estejam assim tão vazios.\n\nPor isso, aqui está o plano. Ajudas-me com o trabalho de preparação e eu crio uma verdadeira equipa de futebol para os mais novos.",
+      "pt-BR": "As crianças por aqui ficam chutando carcaças de granadas vazias. É apenas uma questão de tempo até que elas não estejam tão vazias.\n\nEntão aqui está o plano. Você me ajuda com o trabalho de preparação e eu montarei um time de futebol de verdade para os jovens.",
+      "ru": "Местные дети пинают пустые корпуса от гранат. Вопрос времени, когда попадется не такой уж пустой.\n\nВ общем, план такой. Ты поможешь мне с подготовкой, а я организую настоящую футбольную команду для молодежи.",
+      "sr": "Deca ovde šutiraju prazne čaure granata. Samo je pitanje vremena kada one neće biti tako prazne.\n\nDakle, evo plana. Ti mi pomozi oko priprema, a ja ću osnovati pravi fudbalski tim za mlade.",
+      "tr": "Buradaki çocuklar boş el bombası kovanlarını tekmeliyor. O kadar da boş olmayan birine denk gelmeleri an meselesi.\n\nPlan şu. Sen bana hazırlık çalışmalarında yardım et, ben de gençler için gerçek bir futbol takımı kurayım.",
+      "uk": "Діти тут копають порожні корпуси гранат. Це лише питання часу, коли вони стануть не такими вже й порожніми.\n\nОтже, ось план. Ти допоможеш мені з підготовкою, а я організую справжню футбольну команду для молоді.",
+      "zh-CN": "这附近的孩子一直在踢空的手榴弹壳。它们不再空着只是时间问题。\n\n所以计划是这样的。你帮我做些准备工作，我就为年轻人们组建一支真正的足球队。",
+      "zh-TW": "這附近的孩子一直在踢空的手榴彈殼。它們不再空著只是時間問題。\n\n所以計畫是這樣的。你幫我做些準備工作，我就為年輕人們組建一支真正的足球隊。"
+    },
+    "objectives": [
+      {
+        "da": "Lever en flad fodbold til Apollo",
+        "de": "Liefere einen platten Fußball bei Apollo ab",
+        "en": "Deliver a Deflated Football to Apollo",
+        "es": "Entrega un balón de fútbol desinflado a Apollo",
+        "fr": "Livrer un ballon de foot dégonflé à Apollo",
+        "he": "מסור כדורגל le-nupach לאפולו",
+        "hr": "Dostavi ispuhanu nogometnu loptu Apollu",
+        "it": "Consegna un pallone da calcio sgonfio ad Apollo",
+        "ja": "しぼんだサッカーボールをアポロに届ける",
+        "kr": "바람 빠진 축구공을 아폴로에게 전달",
+        "no": "Lever en flat fotball til Apollo",
+        "pl": "Dostarcz spuszczoną piłkę nożną do Apollo",
+        "pt": "Entrega uma Bola de Futebol Vazia a Apollo",
+        "pt-BR": "Entregue uma Bola de Futebol Murcha para Apollo",
+        "ru": "Доставить сдутый футбольный мяч Аполлону",
+        "sr": "Dostavi izduvanu fudbalsku loptu Apollu",
+        "tr": "Apollo'ya Sönük Bir Futbol Topu teslim et",
+        "uk": "Доставте здутий футбольний м'яч Аполлону",
+        "zh-CN": "将一个干瘪的足球交给阿波罗",
+        "zh-TW": "將一個乾癟的足球交給阿波羅"
+      },
+      {
+        "da": "Lever en cykelpumpe til Apollo",
+        "de": "Liefere eine Fahrradpumpe bei Apollo ab",
+        "en": "Deliver a Bicycle Pump to Apollo",
+        "es": "Entrega una bomba de bicicleta a Apollo",
+        "fr": "Livrer une pompe à vélo à Apollo",
+        "he": "מסור משאבת אופניים לאפולו",
+        "hr": "Dostavi pumpu za bicikl Apollu",
+        "it": "Consegna una pompa per bicicletta ad Apollo",
+        "ja": "自転車の空気入れをアポロに届ける",
+        "kr": "자전거 펌프를 아폴로에게 전달",
+        "no": "Lever en sykkelpumpe til Apollo",
+        "pl": "Dostarcz pompkę rowerową do Apollo",
+        "pt": "Entrega uma Bomba de Bicicleta a Apollo",
+        "pt-BR": "Entregue uma Bomba de Bicicleta para Apollo",
+        "ru": "Доставить велосипедный насос Аполлону",
+        "sr": "Dostavi pumpu za bicikl Apollu",
+        "tr": "Apollo'ya bir Bisiklet Pompası teslim et",
+        "uk": "Доставте велосипедний насос Аполлону",
+        "zh-CN": "将一个自行车打气筒交给阿波罗",
+        "zh-TW": "將一個自行車打氣筒交給阿波羅"
+      },
+      {
+        "da": "På Dam Battlegrounds skal du fotografere målet ved vandtårnene",
+        "de": "Fotografiere auf den Dam Battlegrounds das Tor bei den Wassertürmen",
+        "en": "On Dam Battlegrounds, photograph the goal by the Water Towers",
+        "es": "En Campos de Batalla de la Presa, fotografía la portería junto a las Torres de Agua",
+        "fr": "Sur Dam Battlegrounds, photographier le but près des châteaux d'eau",
+        "he": "ב-Dam Battlegrounds, צלם את השער ליד מגדלי המים",
+        "hr": "Na Dam Battlegrounds, fotografiraj gol kod Vodotornjeva",
+        "it": "Su Dam Battlegrounds, fotografa la porta vicino alle Torri Idriche",
+        "ja": "ダムの戦場で、給水塔のそばにあるゴールを撮影する",
+        "kr": "댐 전장, 급수탑 옆의 골대 사진 촬영",
+        "no": "På Dam Battlegrounds, fotografer målet ved vanntårnene",
+        "pl": "Na Polach Bitew Tamy (Dam Battlegrounds) sfotografuj bramkę przy Wieżach Ciśnień",
+        "pt": "Em Dam Battlegrounds, fotografa a baliza junto às Torres de Água",
+        "pt-BR": "Nos Campos de Batalha da Represa, fotografe o gol perto das Torres de Água",
+        "ru": "На Полях сражений у дамбы сфотографировать ворота у водонапорных башен",
+        "sr": "Na Dam Battlegrounds, fotografiši gol kod Vodotornjeva",
+        "tr": "Baraj Savaş Alanlarında, Su Kulelerinin yanındaki kalenin fotoğrafını çek",
+        "uk": "На Полях битв біля дамби сфотографуйте ворота біля водонапірних веж",
+        "zh-CN": "在大坝战场，拍摄水塔旁边的球门",
+        "zh-TW": "在大壩戰場，拍攝水塔旁邊的球門"
+      },
+      {
+        "da": "I Buried City skal du fotografere fodboldmagasinerne i enhver kiosk",
+        "de": "Fotografiere in der Buried City die Fußballmagazine in einem beliebigen Kiosk",
+        "en": "On Buried City, photograph the football magazines in any kiosk",
+        "es": "En Ciudad Enterrada, fotografía las revistas de fútbol en cualquier quiosco",
+        "fr": "Dans Buried City, photographier les magazines de foot dans n'importe quel kiosque",
+        "he": "ב-Buried City, צלם את מגזיני הכדורגל בכל קיוסק",
+        "hr": "U Buried Cityju fotografiraj nogometne časopise u bilo kojem kiosku",
+        "it": "Nella Città Sepolta, fotografa le riviste di calcio in qualsiasi chiosco",
+        "ja": "埋もれた都市で、任意のキオスクにあるサッカー雑誌を撮影する",
+        "kr": "매몰된 도시, 아무 키오스크에 있는 축구 잡지 사진 촬영",
+        "no": "I Buried City, fotografer fotballmagasinene i hvilken som helst kiosk",
+        "pl": "W Zakopanym Mieście (Buried City) sfotografuj magazyny piłkarskie w dowolnym kiosku",
+        "pt": "Em Buried City, fotografa as revistas de futebol em qualquer quiosque",
+        "pt-BR": "Na Cidade Soterrada, fotografe as revistas de futebol em qualquer quiosque",
+        "ru": "В Погребенном городе сфотографировать футбольные журналы в любом киоске",
+        "sr": "U Buried Cityju fotografiši fudbalske časopise u bilo kom kiosku",
+        "tr": "Gömülü Şehir'de, herhangi bir büfede futbol dergilerinin fotoğrafını çek",
+        "uk": "У Похованому місті сфотографуйте футбольні журнали в будь-якому кіоску",
+        "zh-CN": "在掩埋城市，拍摄任何报刊亭里的足球杂志",
+        "zh-TW": "在掩埋城市，拍攝任何報刊亭裡的足球雜誌"
+      },
+      {
+        "da": "Søg efter en flad fodbold",
+        "de": "Suche nach einem platten Fußball",
+        "en": "Search for a Deflated Football",
+        "es": "Busca un balón de fútbol desinflado",
+        "fr": "Chercher un ballon de foot dégonflé",
+        "he": "חפש כדורגל le-nupach",
+        "hr": "Traži ispuhanu nogometnu loptu",
+        "it": "Cerca un pallone da calcio sgonfio",
+        "ja": "しぼんだサッカーボールを探す",
+        "kr": "바람 빠진 축구공 찾기",
+        "no": "Søk etter en flat fotball",
+        "pl": "Szukaj spuszczonej piłki nożnej",
+        "pt": "Procura uma Bola de Futebol Vazia",
+        "pt-BR": "Procure por uma Bola de Futebol Murcha",
+        "ru": "Искать сдутый футбольный мяч",
+        "sr": "Traži izduvanu fudbalsku loptu",
+        "tr": "Sönük bir Futbol Topu ara",
+        "uk": "Шукайте здутий футбольний м'яч",
+        "zh-CN": "寻找一个干瘪的足球",
+        "zh-TW": "尋找一個乾癟的足球"
+      },
+      {
+        "da": "Søg efter en cykelpumpe",
+        "de": "Suche nach einer Fahrradpumpe",
+        "en": "Search for a Bicycle Pump",
+        "es": "Busca una bomba de bicicleta",
+        "fr": "Chercher une pompe à vélo",
+        "he": "חפש משאבת אופניים",
+        "hr": "Traži pumpu za bicikl",
+        "it": "Cerca una pompa per bicicletta",
+        "ja": "自転車の空気入れを探す",
+        "kr": "자전거 펌프 찾기",
+        "no": "Søk etter en sykkelpumpe",
+        "pl": "Szukaj pompki rowerowej",
+        "pt": "Procura uma Bomba de Bicicleta",
+        "pt-BR": "Procure por uma Bomba de Bicicleta",
+        "ru": "Искать велосипедный насос",
+        "sr": "Traži pumpu za bicikl",
+        "tr": "Bir Bisiklet Pompası ara",
+        "uk": "Шукайте велосипедний насос",
+        "zh-CN": "寻找一个自行车打气筒",
+        "zh-TW": "尋找一個自行車打氣筒"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "faded_flush_aviator_color",
+        "quantity": 1
+      },
+      {
+        "itemId": "tagging_grenade",
+        "quantity": 5
+      },
+      {
+        "itemId": "firecracker",
+        "quantity": 5
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "ss8b"
+    ],
+    "nextQuestIds": [
+      "movie_night"
+    ],
+    "updatedAt": "01/27/2026"
   },
   {
     "id": "ss10u",
@@ -9517,16 +10725,6 @@
       "buried_city"
     ],
     "trader": "Tian Wen",
-    "requiredItemIds": [
-      {
-        "itemId": "water_pump",
-        "quantity": 1
-      },
-      {
-        "itemId": "fertilizer",
-        "quantity": 1
-      }
-    ],
     "description": {
       "da": "Jeg sætter et drivhus op for at øge vores madproduktion. Jeg gør Celeste en tjeneste, okay? Det er alt. Men nok om det. Jeg har alle detaljerne på plads, men jeg får brug for forsyninger, og jeg slæber dem ikke alene.",
       "de": "Ich richte ein Gewächshaus ein, um unsere Nahrungsproduktion anzukurbeln. Ich tue Celeste einen Gefallen, okay? Das ist alles. Aber genug davon. Ich habe alle Details ausgearbeitet, aber ich brauche Vorräte, und ich werde sie nicht alleine schleppen.",
@@ -9573,26 +10771,26 @@
         "zh-TW": "到達埋沒之城的格蘭迪奧索公寓"
       },
       {
-        "da": "Søg efter gødning på taget af Grandioso-lejlighederne",
-        "de": "Suche nach Dünger auf dem Dach der Grandioso-Apartments",
-        "en": "Search for Fertilizer on the rooftop of the Grandioso Apartments",
-        "es": "Busca fertilizante en la azotea de los Apartamentos Grandioso",
-        "fr": "Chercher de l'engrais sur le toit des appartements Grandioso",
-        "he": "חפש דשן על הגג של דירות Grandioso",
-        "hr": "Traži gnojivo na krovu Grandioso apartmana",
-        "it": "Cerca fertilizzante sul tetto degli Appartamenti Grandioso",
-        "ja": "埋もれた街のピアッツァ・ローマに向かう",
-        "kr": "그란디오소 아파트 옥상에서 비료 찾기",
-        "no": "Søk etter gjødsel på taket av Grandioso-leilighetene",
-        "pl": "Poszukaj nawozu na dachu apartamentów Grandioso",
-        "pt": "Procura fertilizante no telhado dos Apartamentos Grandioso",
+        "da": "Søg efter en fugtighedsmåler på taget af Grandioso-lejlighederne",
+        "de": "Suche nach einem Feuchtigkeitsmesser auf dem Dach der Grandioso-Apartments",
+        "en": "Search for a Moisture Meter on the rooftop of the Grandioso Apartments",
+        "es": "Busca un medidor de humedad en la azotea de los Apartamentos Grandioso",
+        "fr": "Chercher un humidimètre sur le toit des appartements Grandioso",
+        "he": "חפש מד לחות על הגג של דירות Grandioso",
+        "hr": "Traži mjerač vlage na krovu Grandioso apartmana",
+        "it": "Cerca un misuratore di umidità sul tetto degli Appartamenti Grandioso",
+        "ja": "グランディオーソ・アパートの屋上で水分計を探す",
+        "kr": "그란디오소 아파트 옥상에서 수분 측정기 찾기",
+        "no": "Søk etter en fuktighetsmåler på taket av Grandioso-leilighetene",
+        "pl": "Poszukaj miernika wilgotności na dachu apartamentów Grandioso",
+        "pt": "Procura um medidor de humidade no telhado dos Apartamentos Grandioso",
         "pt-BR": "Procure um Medidor de Umidade no telhado do Condomínio Grandioso",
-        "ru": "Найти Удобрение на крыше Апартаментов Грандиозо",
-        "sr": "Traži đubrivo na krovu Grandioso apartmana",
-        "tr": "Grandioso Apartmanları'nın çatısında Gübre ara",
-        "uk": "Шукати Добриво на даху Апартаментів Грандіозо",
-        "zh-CN": "在格兰迪奥索公寓的屋顶搜寻肥料",
-        "zh-TW": "在格蘭迪奧索公寓的屋頂搜尋肥料"
+        "ru": "Найти Измеритель Влажности на крыше Апартаментов Грандиозо",
+        "sr": "Traži merač vlage na krovu Grandioso apartmana",
+        "tr": "Grandioso Apartmanları'nın çatısında Nem Ölçer ara",
+        "uk": "Шукати Вимірювач Вологості на даху Апартаментів Грандіозо",
+        "zh-CN": "在格兰迪奥索公寓的屋顶搜寻湿度计",
+        "zh-TW": "在格蘭迪奧索公寓的屋頂搜尋濕度計"
       },
       {
         "da": "Nå Piazza Roma i Buried City",
@@ -9617,70 +10815,70 @@
         "zh-TW": "到達埋沒之城的羅馬廣場"
       },
       {
-        "da": "Søg efter en vandpumpe i de ødelagte taghaver på Piazza Roma",
-        "de": "Suche nach einer Wasserpumpe in den zerstörten Dachgärten der Piazza Roma",
-        "en": "Search for a Water Pump in the broken rooftop gardens at Piazza Roma",
-        "es": "Busca una bomba de agua en los jardines de azotea destruidos de Piazza Roma",
-        "fr": "Chercher une pompe à eau dans les jardins sur toit endommagés de Piazza Roma",
-        "he": "חפש משאבת מים בגני הגג ההרוסים ב-Piazza Roma",
-        "hr": "Traži vodenu pumpu u uništenim vrtovima na krovu u Piazza Roma",
-        "it": "Cerca una pompa dell'acqua nei giardini pensili distrutti di Piazza Roma",
-        "ja": "ティアン・ウェンに肥料を届ける",
-        "kr": "피아자 로마의 부서진 옥상 정원에서 물 펌프 찾기",
-        "no": "Søk etter en vannpumpe i de ødelagte takhagene på Piazza Roma",
-        "pl": "Poszukaj pompy wodnej w zniszczonych ogrodach dachowych na Piazza Roma",
-        "pt": "Procura uma bomba de água nos jardins de telhado destruídos na Piazza Roma",
+        "da": "Søg efter en næringsstofmåler i de ødelagte taghaver på Piazza Roma",
+        "de": "Suche nach einem Nährstoffmesser in den zerstörten Dachgärten der Piazza Roma",
+        "en": "Search for a Nutrient Meter in the broken rooftop gardens at Piazza Roma",
+        "es": "Busca un medidor de nutrientes en los jardines de azotea destruidos de Piazza Roma",
+        "fr": "Chercher un nutriment-mètre dans les jardins sur toit endommagés de Piazza Roma",
+        "he": "חפש מד חומרי הזנה בגני הגג ההרוסים ב-Piazza Roma",
+        "hr": "Traži mjerač hranjivih tvari u uništenim vrtovima na krovu u Piazza Roma",
+        "it": "Cerca un misuratore di nutrienti nei giardini pensili distrutti di Piazza Roma",
+        "ja": "ピアッツァ・ローマにある壊れた屋上庭園で栄養計を探す",
+        "kr": "피아자 로마의 부서진 옥상 정원에서 영양분 측정기 찾기",
+        "no": "Søk etter en næringsstoffmåler i de ødelagte takhagene på Piazza Roma",
+        "pl": "Poszukaj miernika składników odżywczych w zniszczonych ogrodach dachowych na Piazza Roma",
+        "pt": "Procura um medidor de nutrientes nos jardins de telhado destruídos na Piazza Roma",
         "pt-BR": "Procure um Medidor de Nutrientes nos telhados danificados dos jardins na Piazza Roma",
-        "ru": "Найти Водяной Насос в разрушенных садах на крыше Пьяцца Рома",
-        "sr": "Traži vodenu pumpu u uništenim baštama na krovu u Piazza Roma",
-        "tr": "Piazza Roma'daki kırık çatı bahçelerinde Su Pompası ara",
-        "uk": "Шукати Водяний Насос у зруйнованих садах на даху Площі Рома",
-        "zh-CN": "在罗马广场破损的屋顶花园中搜寻水泵",
-        "zh-TW": "在羅馬廣場破損的屋頂花園中搜尋水泵"
+        "ru": "Найти Измеритель Питательных Веществ в разрушенных садах на крыше Пьяцца Рома",
+        "sr": "Traži merač hranljivih materija u uništenim baštama na krovu u Piazza Roma",
+        "tr": "Piazza Roma'daki kırık çatı bahçelerinde Besin Ölçer ara",
+        "uk": "Шукати Вимірювач Поживних Речовин у зруйнованих садах на даху Площі Рома",
+        "zh-CN": "在罗马广场破损的屋顶花园中搜寻营养计",
+        "zh-TW": "在羅馬廣場破損的屋頂花園中搜尋營養計"
       },
       {
-        "da": "Lever en vandpumpe til Tian Wen",
-        "de": "Liefere eine Wasserpumpe an Tian Wen",
-        "en": "Deliver a Water Pump to Tian Wen",
-        "es": "Entrega una bomba de agua a Tian Wen",
-        "fr": "Livrer une pompe à eau à Tian Wen",
-        "he": "מסור משאבת מים ל-Tian Wen",
-        "hr": "Dostavi vodenu pumpu Tian Wenu",
-        "it": "Consegna una pompa dell'acqua a Tian Wen",
-        "ja": "ティアン・ウェンに送水ポンプを届ける",
-        "kr": "티안 웬에게 물 펌프 전달",
-        "no": "Lever en vannpumpe til Tian Wen",
-        "pl": "Dostarcz pompę wodną do Tian Wen",
-        "pt": "Entrega uma bomba de água a Tian Wen",
+        "da": "Lever en næringsstofmåler til Tian Wen",
+        "de": "Liefere einen Nährstoffmesser an Tian Wen",
+        "en": "Deliver a Nutrient Meter to Tian Wen",
+        "es": "Entrega un medidor de nutrientes a Tian Wen",
+        "fr": "Livrer un nutriment-mètre à Tian Wen",
+        "he": "מסור מד חומרי הזנה ל-Tian Wen",
+        "hr": "Dostavi mjerač hranjivih tvari Tian Wenu",
+        "it": "Consegna un misuratore di nutrienti a Tian Wen",
+        "ja": "ティアン・ウェンに栄養計を届ける",
+        "kr": "티안 웬에게 영양분 측정기 전달",
+        "no": "Lever en næringsstoffmåler til Tian Wen",
+        "pl": "Dostarcz miernik składników odżywczych do Tian Wen",
+        "pt": "Entrega um medidor de nutrientes a Tian Wen",
         "pt-BR": "Entregue um Medidor de Nutrientes a Tian Wen",
-        "ru": "Доставить Водяной Насос Тянь Вэню",
-        "sr": "Dostavi vodenu pumpu Tian Wenu",
-        "tr": "Tian Wen'e Su Pompası teslim et",
-        "uk": "Доставити Водяний Насос Тянь Веню",
-        "zh-CN": "将水泵交给田文",
-        "zh-TW": "將水泵交給田文"
+        "ru": "Доставить Измеритель Питательных Веществ Тянь Вэню",
+        "sr": "Dostavi merač hranljivih materija Tian Wenu",
+        "tr": "Tian Wen'e Besin Ölçer teslim et",
+        "uk": "Доставити Вимірювач Поживних Речовин Тянь Веню",
+        "zh-CN": "将营养计交给田文",
+        "zh-TW": "將營養計交給田文"
       },
       {
-        "da": "Lever gødning til Tian Wen",
-        "de": "Liefere Dünger an Tian Wen",
-        "en": "Deliver Fertilizer to Tian Wen",
-        "es": "Entrega fertilizante a Tian Wen",
-        "fr": "Livrer de l'engrais à Tian Wen",
-        "he": "מסור דשן ל-Tian Wen",
-        "hr": "Dostavi gnojivo Tian Wenu",
-        "it": "Consegna fertilizzante a Tian Wen",
-        "ja": "ティアン・ウェンに肥料を届ける",
-        "kr": "티안 웬에게 비료 전달",
-        "no": "Lever gjødsel til Tian Wen",
-        "pl": "Dostarcz nawóz do Tian Wen",
-        "pt": "Entrega fertilizante a Tian Wen",
+        "da": "Lever en fugtighedsmåler til Tian Wen",
+        "de": "Liefere einen Feuchtigkeitsmesser an Tian Wen",
+        "en": "Deliver a Moisture Meter to Tian Wen",
+        "es": "Entrega un medidor de humedad a Tian Wen",
+        "fr": "Livrer un humidimètre à Tian Wen",
+        "he": "מסור מד לחות ל-Tian Wen",
+        "hr": "Dostavi mjerač vlage Tian Wenu",
+        "it": "Consegna un misuratore di umidità a Tian Wen",
+        "ja": "ティアン・ウェンに水分計を届ける",
+        "kr": "티안 웬에게 수분 측정기 전달",
+        "no": "Lever en fuktighetsmåler til Tian Wen",
+        "pl": "Dostarcz miernik wilgotności do Tian Wen",
+        "pt": "Entrega um medidor de humidade a Tian Wen",
         "pt-BR": "Entregue um Medidor de Umidade a Tian Wen",
-        "ru": "Доставить Удобрение Тянь Вэню",
-        "sr": "Dostavi đubrivo Tian Wenu",
-        "tr": "Tian Wen'e Gübre teslim et",
-        "uk": "Доставити Добриво Тянь Веню",
-        "zh-CN": "将肥料交给田文",
-        "zh-TW": "將肥料交給田文"
+        "ru": "Доставить Измеритель Влажности Тянь Вэню",
+        "sr": "Dostavi merač vlage Tian Wenu",
+        "tr": "Tian Wen'e Nem Ölçer teslim et",
+        "uk": "Доставити Вимірювач Вологості Тянь Веню",
+        "zh-CN": "将湿度计交给田文",
+        "zh-TW": "將濕度計交給田文"
       }
     ],
     "rewardItemIds": [
@@ -10290,7 +11488,7 @@
         "de": "Erreiche die unbewachsene Lichtung",
         "en": "Reach the Barren Clearing",
         "es": "Alcanza el claro árido",
-        "fr": "Atteindre la clairière stérile",
+        "fr": "Atteindre la clairière aride",
         "he": "הגע לקרחת היער השוממת",
         "hr": "Stigni do Puste čistine",
         "it": "Raggiungi la radura brulla",
@@ -10390,5 +11588,188 @@
     ],
     "nextQuestIds": [],
     "updatedAt": "01/13/2026"
+  },
+  {
+    "id": "with_a_view",
+    "name": {
+      "da": "Med Udsigt",
+      "de": "Mit Aussicht",
+      "en": "With A View",
+      "es": "Con vistas",
+      "fr": "Avec vue",
+      "he": "עם נוף",
+      "hr": "S pogledom",
+      "it": "Con vista",
+      "ja": "眺めの良い部屋",
+      "kr": "전망 좋은 곳",
+      "no": "Med utsikt",
+      "pl": "Z widokiem",
+      "pt": "Com Vista",
+      "pt-BR": "Com Vista",
+      "ru": "С видом",
+      "sr": "Sa pogledom",
+      "tr": "Manzaralı",
+      "uk": "З краєвидом",
+      "zh-CN": "视野开阔",
+      "zh-TW": "視野開闊"
+    },
+    "map": [
+      "stella_montis"
+    ],
+    "trader": "Shani",
+    "description": {
+      "da": "Har du nogensinde lagt mærke til de lysstriber, der farer over himlen?\n\nJeg har set for meget til at tro, at de er naturlige, men der skal mere end en fornemmelse til for at overbevise Celeste.",
+      "de": "Hast du schon mal diese Lichtstreifen bemerkt, die über den Himmel schießen?\n\nIch habe zu viel gesehen, um zu glauben, dass sie natürlich sind, aber es braucht mehr als eine Ahnung, um Celeste zu überzeugen.",
+      "en": "Have you ever noticed those streaks of light darting across the skies?\n\nI've seen too much to believe they're natural, but it'll take more than a hunch to convince Celeste.",
+      "es": "¿Alguna vez has notado esos rayos de luz cruzando los cielos?\n\nHe visto demasiado para creer que son naturales, pero se necesitará más que una corazonada para convencer a Celeste.",
+      "fr": "As-tu déjà remarqué ces traînées de lumière qui traversent le ciel ?\n\nJ'en ai trop vu pour croire qu'elles sont naturelles, mais il faudra plus qu'une intuition pour convaincre Celeste.",
+      "he": "שמת לב פעם לפסי האור האלה שחולפים בשמיים?\n\nראיתי יותר מדי מכדי להאמין שהם טבעיים, אבל אצטרך יותר מאשר תחושת בטן כדי לשכנע את סלסט.",
+      "hr": "Jesi li ikad primijetio one trake svjetlosti koje jure nebom?\n\nVidio sam previše da bih vjerovao da su prirodne, ali trebat će više od predosjećaja da uvjerim Celeste.",
+      "it": "Hai mai notato quelle strisce di luce che sfrecciano nel cielo?\n\nHo visto troppo per credere che siano naturali, ma ci vorrà più di un presentimento per convincere Celeste.",
+      "ja": "空を横切る光の筋に気づいたことはあるか？\n\n俺はあれが自然現象だとは信じられないものをたくさん見てきたが、セレステを納得させるには勘だけじゃ足りない。",
+      "kr": "하늘을 가로지르는 빛줄기들을 본 적 있어?\n\n자연적인 현상이라고 믿기에는 너무 많은 걸 봤지만, 셀레스트를 설득하려면 직감 이상의 무언가가 필요해.",
+      "no": "Har du noen gang lagt merke til de lysstripene som farer over himmelen?\n\nJeg har sett for mye til å tro at de er naturlige, men det skal mer enn en anelse til for å overbevise Celeste.",
+      "pl": "Zauważyłeś kiedyś te smugi światła przemykające po niebie?\n\nWidziałem zbyt wiele, by wierzyć, że są naturalne, ale potrzeba czegoś więcej niż przeczucia, by przekonać Celeste.",
+      "pt": "Já reparaste naqueles raios de luz que atravessam os céus?\n\nJá vi demasiado para acreditar que são naturais, mas vai ser preciso mais do que um palpite para convencer a Celeste.",
+      "pt-BR": "Você já notou aqueles feixes de luz cruzando o céu?\n\nVi coisas demais para acreditar que são naturais, mas vou precisar de mais do que um palpite para convencer a Celeste.",
+      "ru": "Ты когда-нибудь замечал эти полосы света, проносящиеся по небу?\n\nЯ видел слишком много, чтобы верить, что они естественного происхождения, но чтобы убедить Селесту, одной интуиции мало.",
+      "sr": "Jesi li ikad primetio one trake svetlosti koje jure nebom?\n\nVideo sam previše da bih verovao da su prirodne, ali trebaće više od predosećaja da ubedim Celeste.",
+      "tr": "Gökyüzünde süzülen o ışık huzmelerini hiç fark ettin mi?\n\nDoğal olduklarına inanamayacak kadar çok şey gördüm, ama Celeste'i ikna etmek için bir histen fazlası gerekecek.",
+      "uk": "Ти коли-небудь помічав ті смуги світла, що проносяться небом?\n\nЯ бачив занадто багато, щоб вірити, що вони природні, але щоб переконати Селесту, знадобиться більше, ніж просто здогадка.",
+      "zh-CN": "你有没有注意到那些划过天空的光束？\n\n我看得太多了，不相信它们是自然的，但仅凭直觉是无法说服塞莱斯特的。",
+      "zh-TW": "你有沒有注意到那些劃過天空的光束？\n\n我看過太多了，不相信它們是自然的，但僅憑直覺是無法說服塞萊斯特的。"
+    },
+    "objectives": [
+      {
+        "da": "Skaf en roterende indkoder",
+        "de": "Beschaffe einen Drehgeber",
+        "en": "Obtain a Rotary Encoder",
+        "es": "Obtén un codificador rotatorio",
+        "fr": "Obtenir un encodeur rotatif",
+        "he": "השג מקודד סיבובי",
+        "hr": "Nabavi rotacijski enkoder",
+        "it": "Ottieni un encoder rotativo",
+        "ja": "ロータリーエンコーダーを入手する",
+        "kr": "로터리 인코더 획득",
+        "no": "Skaff en roterende koder",
+        "pl": "Zdobądź enkoder obrotowy",
+        "pt": "Obtém um Codificador Rotativo",
+        "pt-BR": "Obtenha um Codificador Rotativo",
+        "ru": "Получить роторный энкодер",
+        "sr": "Nabavi rotacioni enkoder",
+        "tr": "Döner Kodlayıcı edin",
+        "uk": "Отримайте поворотний енкодер",
+        "zh-CN": "获取一个旋转编码器",
+        "zh-TW": "獲取一個旋轉編碼器"
+      },
+      {
+        "da": "Besøg et af kontrolrummene nær samlebåndet",
+        "de": "Besuche einen der Kontrollräume in der Nähe der Montagelinie",
+        "en": "Visit any of the Control Rooms near the Assembly Line",
+        "es": "Visita cualquiera de las salas de control cerca de la línea de ensamblaje",
+        "fr": "Visiter l'une des salles de contrôle près de la chaîne d'assemblage",
+        "he": "בקר באחד מחדרי הבקרה ליד פס הייצור",
+        "hr": "Posjeti bilo koju kontrolnu sobu u blizini proizvodne trake",
+        "it": "Visita una delle Sale di Controllo vicino alla Linea di Assemblaggio",
+        "ja": "組立ライン近くの制御室のいずれかを訪れる",
+        "kr": "조립 라인 근처의 제어실 방문",
+        "no": "Besøk et av kontrollrommene nær samlebåndet",
+        "pl": "Odwiedź dowolny pokój kontrolny w pobliżu Linii Montażowej",
+        "pt": "Visita qualquer uma das Salas de Controlo perto da Linha de Montagem",
+        "pt-BR": "Visite qualquer uma das Salas de Controle perto da Linha de Montagem",
+        "ru": "Посетить любую из диспетчерских возле Сборочной линии",
+        "sr": "Poseti bilo koju kontrolnu sobu u blizini proizvodne trake",
+        "tr": "Montaj Hattı yakınındaki Kontrol Odalarından herhangi birini ziyaret et",
+        "uk": "Відвідайте будь-яку з диспетчерських біля складальної лінії",
+        "zh-CN": "访问装配线附近的任何控制室",
+        "zh-TW": "訪問裝配線附近的任何控制室"
+      },
+      {
+        "da": "Brug den roterende indkoder til at aktivere serverkontakten",
+        "de": "Benutze den Drehgeber, um den Server-Schalter zu aktivieren",
+        "en": "Use the Rotary Encoder to activate the server switch",
+        "es": "Usa el codificador rotatorio para activar el interruptor del servidor",
+        "fr": "Utiliser l'encodeur rotatif pour activer le commutateur du serveur",
+        "he": "השתמש במקודד הסיבובי כדי להפעיל את מתג השרת",
+        "hr": "Upotrijebi rotacijski enkoder za aktivaciju prekidača poslužitelja",
+        "it": "Usa l'encoder rotativo per attivare l'interruttore del server",
+        "ja": "ロータリーエンコーダーを使ってサーバースイッチを作動させる",
+        "kr": "로터리 인코더를 사용하여 서버 스위치 활성화",
+        "no": "Bruk den roterende koderen til å aktivere serverbryteren",
+        "pl": "Użyj enkodera obrotowego, aby aktywować przełącznik serwera",
+        "pt": "Usa o Codificador Rotativo para ativar o interruptor do servidor",
+        "pt-BR": "Use o Codificador Rotativo para ativar o interruptor do servidor",
+        "ru": "Использовать роторный энкодер, чтобы активировать переключатель сервера",
+        "sr": "Upotrebi rotacioni enkoder za aktivaciju prekidača servera",
+        "tr": "Sunucu anahtarını etkinleştirmek için Döner Kodlayıcıyı kullan",
+        "uk": "Використовуйте поворотний енкодер, щоб активувати перемикач сервера",
+        "zh-CN": "使用旋转编码器激活服务器开关",
+        "zh-TW": "使用旋轉編碼器激活伺服器開關"
+      },
+      {
+        "da": "Interager med en computer i nærheden for at hjælpe med at identificere de rigtige dele",
+        "de": "Interagiere mit einem nahegelegenen Computer, um die richtigen Teile zu identifizieren",
+        "en": "Interact with a nearby computer to help identify the correct parts",
+        "es": "Interactúa con una computadora cercana para ayudar a identificar las partes correctas",
+        "fr": "Interagir avec un ordinateur à proximité pour aider à identifier les bonnes pièces",
+        "he": "צור אינטראקציה עם מחשב סמוך כדי לעזור לזהות את החלקים הנכונים",
+        "hr": "Komuniciraj s obližnjim računalom kako bi pomogao identificirati ispravne dijelove",
+        "it": "Interagisci con un computer vicino per aiutare a identificare le parti corrette",
+        "ja": "近くのコンピューターを操作して正しい部品を特定する",
+        "kr": "근처 컴퓨터와 상호작용하여 올바른 부품 식별 돕기",
+        "no": "Samhandle med en datamaskin i nærheten for å bidra til å identifisere de riktige delene",
+        "pl": "Wejdź w interakcję z pobliskim komputerem, aby pomóc zidentyfikować właściwe części",
+        "pt": "Interage com um computador próximo para ajudar a identificar as peças corretas",
+        "pt-BR": "Interaja com um computador próximo para ajudar a identificar as peças corretas",
+        "ru": "Взаимодействовать с ближайшим компьютером, чтобы определить нужные детали",
+        "sr": "Komuniciraj sa obližnjim računarom kako bi pomogao identifikovati ispravne delove",
+        "tr": "Doğru parçaları tanımlamaya yardımcı olmak için yakındaki bir bilgisayarla etkileşime gir",
+        "uk": "Взаємодійте з найближчим комп'ютером, щоб допомогти ідентифікувати правильні частини",
+        "zh-CN": "与附近的电脑互动以帮助识别正确的零件",
+        "zh-TW": "與附近的電腦互動以幫助識別正確的零件"
+      },
+      {
+        "da": "Lever en ionforstøver til Shani",
+        "de": "Liefere einen Ionenzerstäuber bei Shani ab",
+        "en": "Deliver an Ion Sputter to Shani",
+        "es": "Entrega un ionizador a Shani",
+        "fr": "Livrer un pulvérisateur ionique à Shani",
+        "he": "מסור מתז יונים לשאני",
+        "hr": "Dostavi ionski raspršivač Shaniju",
+        "it": "Consegna uno Sputter Ionico a Shani",
+        "ja": "イオンスパッタをシャニに届ける",
+        "kr": "샤니에게 이온 스퍼터 전달",
+        "no": "Lever en Ion Sputter til Shani",
+        "pl": "Dostarcz napylarkę jonową do Shani",
+        "pt": "Entrega um Pulverizador de Iões a Shani",
+        "pt-BR": "Entregue um Pulverizador de Íons para Shani",
+        "ru": "Доставить ионный распылитель Шани",
+        "sr": "Dostavi jonski raspršivač Shaniju",
+        "tr": "Shani'ye bir İyon Püskürtücü teslim et",
+        "uk": "Доставте іонний розпилювач Шані",
+        "zh-CN": "将离子溅射仪交给沙尼",
+        "zh-TW": "將離子濺射儀交給沙尼"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "steel_spring",
+        "quantity": 5
+      },
+      {
+        "itemId": "wires",
+        "quantity": 5
+      },
+      {
+        "itemId": "tactical_mk2",
+        "quantity": 1
+      }
+    ],
+    "xp": 0,
+    "previousQuestIds": [
+      "12_snap_and_salvage"
+    ],
+    "nextQuestIds": [],
+    "updatedAt": "01/27/2026"
   }
 ]
