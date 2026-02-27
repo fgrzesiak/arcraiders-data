@@ -15,6 +15,9 @@ on:
 jobs:
     update-map-events:
         runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                base-branch: [main, mainv2]
         permissions:
             contents: write
             pull-requests: write
@@ -40,7 +43,7 @@ jobs:
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
                   branch: ${{ inputs.head-branch }}
-                  base: ${{ inputs.base-branch }}
+                  base: ${{ matrix.base-branch }}
                   title: "Update map events"
                   body: |
                       Automated sync of map-events from arctracker.io.
