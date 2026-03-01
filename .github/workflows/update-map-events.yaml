@@ -12,7 +12,7 @@ on:
             base-branch:
                 description: "Target branch for the pull request"
                 type: string
-                default: "mainv2"
+                default: "main"
 
 jobs:
     update-map-events:
