@@ -453,28 +453,28 @@
   "schedule": {
     "blue-gate": {
       "major": {
-        "1": "locked-gate",
+        "1": "electromagnetic-storm",
         "3": "hurricane",
-        "5": "locked-gate",
+        "5": "night-raid",
         "7": "hurricane",
-        "9": "locked-gate",
+        "9": "electromagnetic-storm",
         "11": "hurricane",
-        "13": "locked-gate",
+        "13": "night-raid",
         "15": "hurricane",
-        "17": "locked-gate",
+        "17": "electromagnetic-storm",
         "19": "hurricane",
-        "21": "locked-gate",
+        "21": "night-raid",
         "23": "hurricane"
       },
       "minor": {
-        "0": "lush-blooms",
-        "4": "matriarch",
-        "7": "lush-blooms",
-        "10": "harvester",
-        "13": "matriarch",
-        "16": "harvester",
-        "19": "lush-blooms",
-        "22": "matriarch"
+        "2": "prospecting-probes",
+        "5": "husk-graveyard",
+        "8": "harvester",
+        "11": "matriarch",
+        "14": "husk-graveyard",
+        "17": "matriarch",
+        "20": "harvester",
+        "23": "matriarch"
       }
     },
     "buried-city": {
@@ -493,74 +493,69 @@
         "23": "cold-snap"
       },
       "minor": {
-        "0": "lush-blooms",
         "1": "bird-city",
-        "3": "bird-city",
-        "6": "lush-blooms",
-        "9": "bird-city",
-        "12": "lush-blooms",
-        "15": "bird-city",
-        "18": "lush-blooms",
-        "21": "bird-city"
+        "4": "prospecting-probes",
+        "7": "husk-graveyard",
+        "10": "prospecting-probes",
+        "13": "bird-city",
+        "16": "husk-graveyard",
+        "19": "prospecting-probes",
+        "22": "bird-city"
       }
     },
     "dam-battleground": {
       "major": {
-        "2": "cold-snap",
-        "6": "night-raid",
-        "10": "cold-snap",
-        "14": "night-raid",
-        "18": "cold-snap",
-        "22": "night-raid"
+        "4": "night-raid",
+        "8": "cold-snap",
+        "12": "night-raid",
+        "16": "hurricane",
+        "20": "night-raid"
       },
       "minor": {
-        "0": "lush-blooms",
         "1": "matriarch",
-        "3": "matriarch",
-        "6": "lush-blooms",
-        "9": "matriarch",
-        "12": "lush-blooms",
-        "15": "matriarch",
-        "18": "lush-blooms",
-        "21": "harvester"
+        "4": "prospecting-probes",
+        "7": "husk-graveyard",
+        "10": "matriarch",
+        "13": "prospecting-probes",
+        "16": "husk-graveyard",
+        "19": "matriarch",
+        "22": "harvester"
       }
     },
     "stella-montis": {
       "major": {
-        "0": "night-raid",
-        "4": "night-raid",
-        "8": "night-raid",
-        "12": "night-raid",
-        "16": "night-raid",
-        "20": "night-raid"
+        "2": "night-raid",
+        "6": "night-raid",
+        "10": "night-raid",
+        "14": "night-raid",
+        "18": "night-raid",
+        "22": "night-raid"
       },
       "minor": {}
     },
     "the-spaceport": {
       "major": {
-        "0": "night-raid",
+        "0": "electromagnetic-storm",
         "1": "hurricane",
-        "4": "cold-snap",
+        "4": "night-raid",
         "5": "hurricane",
-        "8": "night-raid",
+        "8": "electromagnetic-storm",
         "9": "hurricane",
-        "12": "cold-snap",
+        "12": "night-raid",
         "13": "hurricane",
-        "16": "night-raid",
+        "16": "electromagnetic-storm",
         "17": "hurricane",
-        "20": "cold-snap",
+        "20": "night-raid",
         "21": "hurricane"
       },
       "minor": {
-        "0": "lush-blooms",
-        "2": "lush-blooms",
-        "5": "matriarch",
-        "8": "launch-tower-loot",
-        "11": "harvester",
-        "14": "launch-tower-loot",
-        "17": "matriarch",
-        "20": "harvester",
-        "23": "matriarch"
+        "3": "prospecting-probes",
+        "6": "husk-graveyard",
+        "9": "matriarch",
+        "12": "husk-graveyard",
+        "15": "prospecting-probes",
+        "18": "harvester",
+        "21": "prospecting-probes"
       }
     }
   }
