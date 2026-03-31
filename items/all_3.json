@@ -1,5 +1,704 @@
 [
   {
+    "id": "flame_spray",
+    "name": {
+      "da": "Flammekaster",
+      "de": "Flammen-Spray",
+      "en": "Flame Spray",
+      "es": "Lanzallamas",
+      "fr": "Lance-flammes",
+      "he": "תרסיס להבה",
+      "hr": "Plamen Sprej",
+      "it": "Lanciafiamme",
+      "ja": "フレイムスプレー",
+      "ko-KR": "화염 분사기",
+      "no": "Flammekaster",
+      "pl": "Miotacz ognia",
+      "pt": "Lança-chamas",
+      "pt-BR": "Spray de Chamas",
+      "ru": "Пламенный балончик",
+      "sr": "Plamen Sprej",
+      "tr": "Alev Püskürtücü",
+      "uk": "Вогняний розпилювач",
+      "zh-CN": "火焰喷射器",
+      "zh-TW": "火焰噴射器"
+    },
+    "description": {
+      "da": "Et klassisk improviseret våben, der garanteret efterlader svidmærker.",
+      "de": "Eine klassische Behelfswaffe. Hinterlässt garantiert Brandflecken.",
+      "en": "A classic makeshift weapon, sure to leave scorch marks.",
+      "es": "Un arma improvisada clásica que seguramente dejará marcas de quemaduras.",
+      "fr": "Une arme de fortune classique qui laissera certainement des traces de brûlure.",
+      "he": "נשק מאולתר קלאסי, בטוח שישאיר סימני חריכה.",
+      "hr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina.",
+      "it": "Un'arma improvvisata classica che lascerà sicuramente segni di bruciatura.",
+      "ja": "古典的な即席武器で、焦げ跡を残すこと間違いなし。",
+      "ko-KR": "그을린 자국을 남길 것이 확실한 고전적인 즉석 무기.",
+      "no": "Et klassisk provisorisk våpen som garantert etterlater svimerker.",
+      "pl": "Klasyczna prowizoryczna broń, która z pewnością pozostawi ślady spalenizny.",
+      "pt": "Uma arma improvisada clássica que certamente deixará marcas de queimadura.",
+      "pt-BR": "Uma arma improvisada clássica, com certeza deixará marcas de queimadura.",
+      "ru": "Классическое самодельное оружие, гарантированно оставляющее следы ожогов.",
+      "sr": "Klasično improvizovano oružje, sigurno će ostaviti tragove opeklina.",
+      "tr": "Yanık izleri bırakacağı kesin klasik derme çatma bir silah.",
+      "uk": "Класична саморобна зброя, що гарантовано залишає сліди опіків.",
+      "zh-CN": "经典的临时武器，必定留下焦痕。",
+      "zh-TW": "經典的臨時武器，必定留下焦痕。"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 1,
+    "stackSize": 1,
+    "effects": {
+      "Damage": {
+        "value": "10/s",
+        "da": "Skade",
+        "de": "Schaden",
+        "en": "Damage",
+        "es": "Daño",
+        "fr": "Dégâts",
+        "he": "נזק",
+        "hr": "Šteta",
+        "it": "Danni",
+        "ja": "ダメージ",
+        "ko-KR": "피해량",
+        "no": "Skade",
+        "pl": "Obrażenia",
+        "pt": "Dano",
+        "pt-BR": "Dano",
+        "ru": "Урон",
+        "sr": "Šteta",
+        "tr": "Hasar",
+        "uk": "Шкода",
+        "zh-CN": "伤害",
+        "zh-TW": "傷害"
+      },
+      "Durability": {
+        "value": "100/100",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      }
+    },
+    "craftBench": "in_raid",
+    "recipe": {
+      "air_freshener": 1,
+      "fireball_burner": 1
+    },
+    "recyclesInto": {
+      "canister": 1,
+      "fireball_burner": 1
+    },
+    "salvagesInto": {
+      "fireball_burner": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base",
+    "repairCost": {
+      "canister": 1,
+      "fireball_burner": 1
+    },
+    "repairDurability": 0.5
+  },
+  {
+    "id": "flashy_duck",
+    "name": {
+      "da": "Prangende And",
+      "de": "Prunkvolle Ente",
+      "en": "Flashy Duck",
+      "es": "Pato Llamativo",
+      "fr": "Canard Flamboyant",
+      "he": "ברווז נוצץ",
+      "hr": "Blistava Patka",
+      "it": "Papera Appariscente",
+      "ja": "派手なアヒル",
+      "ko-KR": "화려한 오리",
+      "no": "Prangende And",
+      "pl": "Efektowna Kaczka",
+      "pt": "Pato Chamativo",
+      "pt-BR": "Pato Chamativo",
+      "ru": "Яркая уточка",
+      "sr": "Blistava Patka",
+      "tr": "Gösterişli Ördek",
+      "uk": "Яскрава качечка",
+      "zh-CN": "华丽鸭",
+      "zh-TW": "華麗鴨"
+    },
+    "description": {
+      "da": "Kærligt håndmalet af en person med stort talent—tydeligvis. Gæt hvem? Kan kastes for at skabe støj.",
+      "de": "Liebevoll von jemandem mit großem Talent handbemalt—offensichtlich. Errätst du, wer? Kann geworfen werden, um Lärm zu erzeugen.",
+      "en": "Lovingly hand-painted by someone of great talent—clearly. Any guesses who? Can be thrown to create noise.",
+      "es": "Pintada a mano con cariño por alguien de gran talento—claramente. ¿Adivinas quién? Se puede lanzar para crear ruido.",
+      "fr": "Peint à la main avec amour par quelqu'un de très talentueux—clairement. Des idées de qui? Peut être lancé pour créer du bruit.",
+      "he": "צויר ביד באהבה על ידי מישהו עם כישרון רב—ברור. מנחשים מי? ניתן לזרוק כדי ליצור רעש.",
+      "hr": "S ljubavlju ručno oslikana od strane nekoga s velikim talentom—očito. Pogađate tko? Može se baciti da stvori buku.",
+      "it": "Dipinta a mano con amore da qualcuno di grande talento—chiaramente. Indovini chi? Può essere lanciata per creare rumore.",
+      "ja": "明らかに才能ある誰かが愛情を込めて手描きした。誰かわかる？投げて音を立てることができる。",
+      "ko-KR": "분명히 재능 있는 누군가가 정성스럽게 손으로 그렸습니다. 누군지 맞춰보세요. 던져서 소음을 만들 수 있습니다.",
+      "no": "Kjærlig håndmalt av noen med stort talent—tydeligvis. Gjetter du hvem? Kan kastes for å lage støy.",
+      "pl": "Z miłością ręcznie namalowana przez kogoś bardzo utalentowanego—oczywiście. Zgadniesz kto? Można rzucić, aby wytworzyć hałas.",
+      "pt": "Pintado à mão com carinho por alguém de grande talento—claramente. Adivinha quem? Pode ser arremessado para criar ruído.",
+      "pt-BR": "Pintado à mão com carinho por alguém de grande talento—claramente. Adivinha quem? Pode ser arremessado para fazer barulho.",
+      "ru": "С любовью расписана кем-то очень талантливым—очевидно. Угадаете, кем? Можно бросить, чтобы создать шум.",
+      "sr": "S ljubavlju ručno oslikana od strane nekoga s velikim talentom—očigledno. Pogađate ko? Može se baciti da stvori buku.",
+      "tr": "Büyük yetenekli biri tarafından sevgiyle elle boyanmış—belli ki. Kim olduğunu tahmin edebilir misin? Gürültü yaratmak için fırlatılabilir.",
+      "uk": "З любов'ю розписана кимось дуже талановитим—очевидно. Вгадаєте, ким? Можна кинути, щоб створити шум.",
+      "zh-CN": "由某位才华横溢的人精心手绘——显然。猜猜是谁？可以投掷来制造噪音。",
+      "zh-TW": "由某位才華橫溢的人精心手繪——顯然。猜猜是誰？可以投擲來製造噪音。"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.3,
+    "stackSize": 15,
+    "imageFilename": "https://cdn.arctracker.io/items/flashy_duck.png",
+    "updatedAt": "03/17/2026",
+    "addedIn": "1.13"
+  },
+  {
+    "id": "flow_controller",
+    "name": {
+      "da": "Strømningskontroller",
+      "de": "Durchflussregler",
+      "en": "Flow Controller",
+      "es": "Controlador de Flujo",
+      "fr": "Régulateur de Flux",
+      "he": "בקר זרימה",
+      "hr": "Regulator Protoka",
+      "it": "Regolatore di Flusso",
+      "ja": "フローコントローラー",
+      "ko-KR": "유량 조절기",
+      "no": "Strømningskontroller",
+      "pl": "Regulator Przepływu",
+      "pt": "Controlador de Fluxo",
+      "pt-BR": "Controlador de Fluxo",
+      "ru": "Регулятор Потока",
+      "sr": "Kontroler Protoka",
+      "tr": "Akıntı Kontrolcüsü",
+      "uk": "Регулятор Потоку",
+      "zh-CN": "流量控制器",
+      "zh-TW": "流量控制器"
+    },
+    "description": {
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Se puede reciclar en materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux d'artisanat.",
+      "he": "ניתן למחזור לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Si può riciclare in materiali da creazione.",
+      "ja": "クラフト素材にリサイクルできます。",
+      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan resirkuleres til håndverksmaterialer.",
+      "pl": "Można przetworzyć na materiały rzemieślnicze.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать в материалы для крафта.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для крафту.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "Exodus",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "sensors": 1
+    },
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
+    "updatedAt": "01/09/2026",
+    "addedIn": "1.2"
+  },
+  {
+    "id": "flushing_terminal_key",
+    "name": {
+      "da": "Nøgle til Flushing-terminalen",
+      "de": "Schlüssel für das Flushing-Terminal",
+      "en": "Flushing Terminal Key",
+      "es": "Llave del Terminal de Flushing",
+      "fr": "Clé du terminal de purge",
+      "he": "מפתח מסוף השטיפה",
+      "hr": "Ključ Flushing Terminala",
+      "it": "Chiave del Terminale Flushing",
+      "ja": "フラッシング端末の鍵",
+      "ko-KR": "수세 터미널 열쇠",
+      "no": "Nøkkel til Flushing-terminalen",
+      "pl": "Klucz do Terminala Flushing",
+      "pt": "Chave do Terminal de Flushing",
+      "pt-BR": "Chave do Terminal de Fluxo",
+      "ru": "Ключ от терминала Flushing",
+      "sr": "Ključ Flushing Terminala",
+      "tr": "Boşaltma Terminali Anahtarı",
+      "uk": "Ключ від термінала Flushing",
+      "zh-CN": "冲洗终端钥匙",
+      "zh-TW": "沖洗終端機鑰匙"
+    },
+    "description": {
+      "da": "Denne nøgle bruges til opgaven \"The Stench of Corruption\" for at aktivere Flushing-terminalen",
+      "de": "Dieser Schlüssel wird für die Quest \"The Stench of Corruption\" verwendet, um das Flushing Terminal zu aktivieren",
+      "en": "This key is used for the quest The Stench of Corruption to activate the Flushing Terminal",
+      "es": "Esta llave se usa para la misión \"The Stench of Corruption\" para activar el Terminal de Flushing",
+      "fr": "Cette clé est utilisée pour la quête \"The Stench of Corruption\" afin d'activer le terminal de purge",
+      "he": "מפתח זה משמש למשימה צחנת השחיתות כדי להפעיל את מסוף השטיפה",
+      "hr": "Ovaj se ključ koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala",
+      "it": "Questa chiave viene usata nella missione \"The Stench of Corruption\" per attivare il Terminale Flushing",
+      "ja": "この鍵はクエスト\"The Stench of Corruption\"でフラッシング端末を起動するために使用される",
+      "ko-KR": "이 열쇠는 퀘스트 \"부패의 악취\"에서 수세 터미널을 활성화하는 데 사용됩니다",
+      "no": "Denne nøkkelen brukes i oppdraget \"The Stench of Corruption\" for å aktivere Flushing-terminalen",
+      "pl": "Ten klucz jest używany w zadaniu \"The Stench of Corruption\", aby aktywować Terminal Flushing",
+      "pt": "Esta chave é usada na missão \"The Stench of Corruption\" para ativar o Terminal de Flushing",
+      "pt-BR": "Esta chave é usada na missão \"The Stench of Corruption\" para ativar o Terminal de Fluxo",
+      "ru": "Этот ключ используется в задании \"The Stench of Corruption\", чтобы активировать терминал Flushing",
+      "sr": "Ovaj ključ se koristi u zadatku \"The Stench of Corruption\" za aktiviranje Flushing Terminala",
+      "tr": "Bu anahtar, Flushing Terminalini etkinleştirmek için \"The Stench of Corruption\" görevinde kullanılır",
+      "uk": "Цей ключ використовується в завданні \"The Stench of Corruption\", щоб активувати термінал Flushing",
+      "zh-CN": "此钥匙用于任务「The Stench of Corruption」，用于激活冲洗终端",
+      "zh-TW": "此鑰匙用於任務「The Stench of Corruption」，用來啟動沖洗終端機"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/flushing_terminal_key.png",
+    "updatedAt": "01/13/2026",
+    "addedIn": "1.1"
+  },
+  {
+    "id": "fossilized_lightning",
+    "name": {
+      "da": "Fossiliseret lyn",
+      "de": "Versteinerter Blitz",
+      "en": "Fossilized Lightning",
+      "es": "Rayo fosilizado",
+      "fr": "Foudre Fossilisée",
+      "he": "ברק מאובן",
+      "hr": "Fosilizirana munja",
+      "it": "Fulmine fossilizzato",
+      "ja": "化石化した稲妻",
+      "ko-KR": "화석화된 번개",
+      "no": "Fossilisert lyn",
+      "pl": "Skamieniały piorun",
+      "pt": "Relâmpago fossilizado",
+      "pt-BR": "Relâmpago Fossilizado",
+      "ru": "Окаменевшая молния",
+      "sr": "Fosilizovana munja",
+      "tr": "Fosilleşmiş Şimşek",
+      "uk": "Скам'яніла блискавка",
+      "zh-CN": "化石闪电",
+      "zh-TW": "化石閃電"
+    },
+    "description": {
+      "da": "En genstand, der har en chance for at dukke op efter lynnedslag.",
+      "de": "Ein Gegenstand, der nach Blitzeinschlägen mit einer gewissen Chance erscheinen kann.",
+      "en": "An item that has a chance to spawn after lightning strikes.",
+      "es": "Un objeto que tiene la posibilidad de aparecer tras una caída de rayo.",
+      "fr": "Un objet qui a une chance d'apparaître après un coup de foudre.",
+      "he": "פריט שיש לו סיכוי להופיע לאחר פגיעת ברק.",
+      "hr": "Predmet koji ima šansu pojaviti se nakon udara munje.",
+      "it": "Un oggetto che ha la possibilità di apparire dopo un fulmine.",
+      "ja": "落雷のあとに一定確率で出現するアイテム。",
+      "ko-KR": "번개가 내리친 후 일정 확률로 생성되는 아이템입니다.",
+      "no": "En gjenstand som kan dukke opp med en viss sjanse etter lynnedslag.",
+      "pl": "Przedmiot, który ma szansę pojawić się po uderzeniu pioruna.",
+      "pt": "Um item que tem chance de aparecer após quedas de raio.",
+      "pt-BR": "Um item que tem chance de aparecer após a queda de um raio.",
+      "ru": "Предмет, который с некоторым шансом может появиться после удара молнии.",
+      "sr": "Predmet koji ima šansu da se pojavi nakon udara munje.",
+      "tr": "Yıldırım düştükten sonra ortaya çıkma şansı olan bir eşya.",
+      "uk": "Предмет, який має шанс з'явитися після удару блискавки.",
+      "zh-CN": "在雷击后有几率生成的物品。",
+      "zh-TW": "在雷擊後有機會生成的物品。"
+    },
+    "type": "Topside Material",
+    "rarity": "Epic",
+    "foundIn": "Nature",
+    "value": 4000,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "recyclesInto": {
+      "explosive_compound": 3
+    },
+    "salvagesInto": {
+      "explosive_compound": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/fossilized_lightning.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "free_loadout_augment",
+    "name": {
+      "da": "Gratis udstyrsforbedring",
+      "de": "Augment mit Gratis-Loadout",
+      "en": "Free Loadout Augment",
+      "es": "Aumento de equipamiento gratuito",
+      "fr": "Amélioration de Chargement Gratuite",
+      "he": "שדרוג ציוד חינם",
+      "hr": "Besplatno poboljšanje opreme",
+      "it": "Potenziamento equipaggiamento gratuito",
+      "ja": "無料ロードアウトオーグメント",
+      "ko-KR": "무료 로드아웃 증강물",
+      "no": "Gratis utstyrsforsterkning",
+      "pl": "Darmowe ulepszenie wyposażenia",
+      "pt": "Aumento de equipamento gratuito",
+      "pt-BR": "Aprimoramento de Equipamento Gratuito",
+      "ru": "Бесплатное улучшение снаряжения",
+      "sr": "Besplatno poboljšanje opreme",
+      "tr": "Ücretsiz Teçhizat Yükseltici",
+      "uk": "Безкоштовне покращення спорядження",
+      "zh-CN": "免费装备增强",
+      "zh-TW": "免費裝備增強"
+    },
+    "description": {
+      "da": "Grundlæggende forbedring til nybegynder Raiders, tilbyder lidt mere rygsækplads og bærekapacitet.",
+      "de": "Basis-Augment für Raider-Neulinge, mit etwas mehr Platz im Rucksack und Tragekapazität.",
+      "en": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
+      "es": "Aumento básico para Raiders novatos, ofrece un poco más de espacio en la mochila y capacidad de carga.",
+      "fr": "Amélioration basique pour les Raiders débutants, offrant un peu plus d'espace de sac à dos et de capacité de transport.",
+      "he": "שדרוג בסיסי לריידרים מתחילים, המציע מעט יותר מקום בתיק וקיבולת נשיאה.",
+      "hr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u ruksaku i nosivosti.",
+      "it": "Potenziamento base per Raiders principianti, offre un po' più di spazio nello zaino e capacità di carico.",
+      "ja": "初心者レイダー向けの基本強化で、バックパックスペースと運搬容量がわずかに増加します。",
+      "ko-KR": "초보 레이더를 위한 기본 강화로, 배낭 공간과 운반 용량이 약간 증가합니다.",
+      "no": "Grunnleggende forsterkning for nybegynnere Raiders, gir litt mer sekkeplassplass og bærekapasitet.",
+      "pl": "Podstawowe ulepszenie dla początkujących Raiderów, oferujące nieco więcej miejsca w plecaku i pojemności ładunkowej.",
+      "pt": "Aumento básico para Raiders iniciantes, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+      "pt-BR": "Aprimoramento básico para Raiders novatos, oferecendo um pouco mais de espaço na mochila e capacidade de carga.",
+      "ru": "Базовое улучшение для новичков-рейдеров, предоставляющее немного больше места в рюкзаке и грузоподъемности.",
+      "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
+      "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
+      "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
+      "zh-CN": "新手掠夺者的基础增强，提供稍多的背包空间和负重能力。",
+      "zh-TW": "新手掠奪者的基礎增強，提供稍多的背包空間和負重能力。"
+    },
+    "type": "Augment",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 1,
+    "stackSize": 1,
+    "effects": {
+      "Durability": {
+        "value": 100,
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구성",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Max Loadout Weight": null,
+      "Shield Compatibility": null
+    },
+    "recyclesInto": {
+      "plastic_parts": 6,
+      "rubber_parts": 6
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
+    "updatedAt": "03/31/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "frequency_modulation_box",
+    "name": {
+      "da": "Frekvensmodulationsboks",
+      "de": "Frequenzmodulationsbox",
+      "en": "Frequency Modulation Box",
+      "es": "Caja de modulación de frecuencia",
+      "fr": "Boîte de Modulation de Fréquence",
+      "he": "קופסת אפנון תדר",
+      "hr": "Kutija za modulaciju frekvencije",
+      "it": "Scatola di modulazione di frequenza",
+      "ja": "周波数変調ボックス",
+      "ko-KR": "주파수 변조함",
+      "no": "Frekvensmodulasjonsboks",
+      "pl": "Skrzynka modulacji częstotliwości",
+      "pt": "Caixa de modulação de frequência",
+      "pt-BR": "Caixa de Modulação de Frequência",
+      "ru": "Коробка частотной модуляции",
+      "sr": "Kutija za modulaciju frekvencije",
+      "tr": "Frekans Ayar Kutusu",
+      "uk": "Коробка частотної модуляції",
+      "zh-CN": "频率调制盒",
+      "zh-TW": "頻率調變盒"
+    },
+    "description": {
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Se puede reciclar en materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux d'artisanat.",
+      "he": "ניתן למיחזור לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Si può riciclare in materiali da creazione.",
+      "ja": "クラフト素材にリサイクルできます。",
+      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan resirkuleres til håndverksmaterialer.",
+      "pl": "Można przetworzyć na materiały rzemieślnicze.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать в материалы для крафта.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для крафту.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "Exodus",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "speaker_component": 1
+    },
+    "salvagesInto": {
+      "electrical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/frequency_modulation_box.png",
+    "updatedAt": "01/13/2026",
+    "addedIn": "1.2"
+  },
+  {
+    "id": "fried_motherboard",
+    "name": {
+      "da": "Stegt bundkort",
+      "de": "Durchgebranntes Motherboard",
+      "en": "Fried Motherboard",
+      "es": "Placa base quemada",
+      "fr": "Carte Mère Grillée",
+      "he": "לוח אם שרוף",
+      "hr": "Pregrijana Matična Ploča",
+      "it": "Scheda madre fritta",
+      "ja": "焼け焦げたマザーボード",
+      "ko-KR": "타버린 메인보드",
+      "no": "Stekt hovedkort",
+      "pl": "Spalona płyta główna",
+      "pt": "Placa-mãe queimada",
+      "pt-BR": "Placa-Mãe Queimada",
+      "ru": "Сгоревшая материнская плата",
+      "sr": "Pregrejana Matična Ploča",
+      "tr": "Yanmış Anakart",
+      "uk": "Згоріла материнська плата",
+      "zh-CN": "烧毁的主板",
+      "zh-TW": "燒毀的主機板"
+    },
+    "description": {
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Puede reciclarse en materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux d'artisanat.",
+      "he": "ניתן למיחזור לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Si può riciclare in materiali da creazione.",
+      "ja": "クラフト素材にリサイクル可能。",
+      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan resirkuleres til håndverksmateriell.",
+      "pl": "Może być przetworzony na materiały rzemieślnicze.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать в материалы для крафта.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити в матеріали для крафту.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "Technological",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
+    "recyclesInto": {
+      "electrical_components": 2,
+      "plastic_parts": 5
+    },
+    "salvagesInto": {
+      "wires": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/fried_motherboard.png",
+    "updatedAt": "12/07/2025",
+    "addedIn": "base"
+  },
+  {
+    "id": "fruit_mix",
+    "name": {
+      "da": "Frugtblanding",
+      "de": "Obstmischung",
+      "en": "Fruit Mix",
+      "es": "Mezcla de Frutas",
+      "fr": "Mélange de Fruits",
+      "he": "תערובת פירות",
+      "hr": "Mješavina voća",
+      "it": "Mix di Frutta",
+      "ja": "フルーツミックス",
+      "ko-KR": "과일 믹스",
+      "no": "Fruktblanding",
+      "pl": "Mieszanka Owoców",
+      "pt": "Mistura de Frutas",
+      "pt-BR": "Mix de Frutas",
+      "ru": "Фруктовый микс",
+      "sr": "Мешавина воћа",
+      "tr": "Meyve Karışımı",
+      "uk": "Фруктовий мікс",
+      "zh-CN": "水果拼盘",
+      "zh-TW": "水果拼盤"
+    },
+    "description": {
+      "da": "En madvare, der moderat øger både helbred og udholdenhed.",
+      "de": "Ein Lebensmittel, das Gesundheit und Ausdauer moderat erhöht.",
+      "en": "A food item that moderately increases both health and stamina.",
+      "es": "Un alimento que aumenta moderadamente tanto la salud como la resistencia.",
+      "fr": "Un aliment qui augmente modérément la santé et l'endurance.",
+      "he": "פריט מזון המגדיל במידה בינונית את הבריאות והסיבולת.",
+      "hr": "Hrana koja umjereno povećava i zdravlje i izdržljivost.",
+      "it": "Un alimento che aumenta moderatamente sia la salute che la resistenza.",
+      "ja": "体力とスタミナを適度に回復する食料アイテム。",
+      "ko-KR": "체력과 스태미나를 적당히 증가시키는 음식 아이템.",
+      "no": "En matvare som moderat øker både helse og utholdenhet.",
+      "pl": "Jedzenie, które umiarkowanie zwiększa zarówno zdrowie, jak i wytrzymałość.",
+      "pt": "Um alimento que aumenta moderadamente tanto a saúde quanto a resistência.",
+      "pt-BR": "Um alimento que aumenta moderadamente a saúde e o vigor.",
+      "ru": "Еда, которая умеренно увеличивает здоровье и выносливость.",
+      "sr": "Храна која умерено повећава и здравље и издржљивост.",
+      "tr": "Hem sağlığı hem de dayanıklılığı orta düzeyde artıran bir yiyecek.",
+      "uk": "Їжа, яка помірно збільшує здоров'я та витривалість.",
+      "zh-CN": "一种能适度增加生命值和耐力的食物。",
+      "zh-TW": "一種能適度增加生命值和耐力的食物。"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 1800,
+    "weightKg": 0.3,
+    "stackSize": 5,
+    "effects": {
+      "Healing": {
+        "value": 25,
+        "da": "Helbredelse",
+        "de": "Heilen",
+        "en": "Healing",
+        "es": "Curación",
+        "fr": "Soin",
+        "he": "ריפוי",
+        "hr": "Liječenje",
+        "it": "Guarigione",
+        "ja": "回復",
+        "ko-KR": "회복",
+        "no": "Helbredelse",
+        "pl": "Leczenie",
+        "pt": "Cura",
+        "pt-BR": "Cura",
+        "ru": "Исцеление",
+        "sr": "Лечење",
+        "tr": "İyileştirme",
+        "uk": "Зцілення",
+        "zh-CN": "治疗",
+        "zh-TW": "治療"
+      },
+      "Stamina": {
+        "value": 50,
+        "da": "Udholdenhed",
+        "de": "Ausdauer",
+        "en": "Stamina",
+        "es": "Resistencia",
+        "fr": "Endurance",
+        "he": "סיבולת",
+        "hr": "Izdržljivost",
+        "it": "Resistenza",
+        "ja": "スタミナ",
+        "ko-KR": "스태미나",
+        "no": "Utholdenhet",
+        "pl": "Wytrzymałość",
+        "pt": "Resistência",
+        "pt-BR": "Vigor",
+        "ru": "Выносливость",
+        "sr": "Издржљивост",
+        "tr": "Dayanıklılık",
+        "uk": "Витривалість",
+        "zh-CN": "耐力",
+        "zh-TW": "耐力"
+      },
+      "Use Time": {
+        "value": "2s",
+        "da": "Brugstid",
+        "de": "Verwendungszeit",
+        "en": "Use Time",
+        "es": "Tiempo de Uso",
+        "fr": "Temps d'Utilisation",
+        "he": "זמן שימוש",
+        "hr": "Vrijeme uporabe",
+        "it": "Tempo d'Uso",
+        "ja": "使用時間",
+        "ko-KR": "사용 시간",
+        "no": "Brukstid",
+        "pl": "Czas użycia",
+        "pt": "Tempo de Uso",
+        "pt-BR": "Tempo de uso",
+        "ru": "Время использования",
+        "sr": "Време употребе",
+        "tr": "Kullanım Süresi",
+        "uk": "Час використання",
+        "zh-CN": "使用时间",
+        "zh-TW": "使用時間"
+      }
+    },
+    "craftBench": "in_raid",
+    "recipe": {
+      "apricot": 1,
+      "lemon": 1,
+      "prickly_pear": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/fruit_mix.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base"
+  },
+  {
     "id": "frying_pan",
     "name": {
       "da": "Stegepande",
@@ -174,7 +873,6 @@
     "value": 300,
     "weightKg": 0.25,
     "stackSize": 3,
-    "blueprintLocked": true,
     "effects": {
       "Duration": {
         "value": "20s",
@@ -256,7 +954,7 @@
       "wires": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/gas_grenade_trap.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -395,7 +1093,7 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/gas_grenade.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -404,6 +1102,7 @@
         },
         "limit": 6,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Apollo"
       }
     ]
@@ -725,9 +1424,8 @@
     "value": 1000,
     "weightKg": 0.3,
     "stackSize": 15,
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/gentle_duck.png",
-    "updatedAt": "02/01/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "1.13"
   },
   {
@@ -789,7 +1487,7 @@
       "assorted_seeds": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -798,6 +1496,7 @@
         },
         "limit": 10,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Celeste"
       }
     ]
@@ -969,7 +1668,7 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -977,6 +1676,12 @@
           "coins": 450
         },
         "trader": "Apollo"
+      },
+      {
+        "cost": {
+          "creds": 10
+        },
+        "trader": "Shani"
       }
     ]
   },
@@ -1188,11 +1893,8 @@
     "salvagesInto": {
       "metal_parts": 2
     },
-    "upgradeCost": {
-      "metal_parts": 8
-    },
     "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "magazine": [
@@ -1463,11 +2165,10 @@
       "metal_parts": 4
     },
     "upgradeCost": {
-      "metal_parts": 9,
-      "simple_gun_parts": 1
+      "metal_parts": 8
     },
     "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "magazine": [
@@ -1730,11 +2431,11 @@
       "simple_gun_parts": 1
     },
     "upgradeCost": {
-      "mechanical_components": 1,
+      "metal_parts": 9,
       "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "magazine": [
@@ -2378,10 +3079,7 @@
     "weightKg": 0.5,
     "stackSize": 5,
     "blueprintLocked": true,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "simple_gun_parts": 4
@@ -2393,7 +3091,7 @@
       "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -2402,6 +3100,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Celeste"
       }
     ]
@@ -2565,7 +3264,7 @@
       "arc_alloy": 4
     },
     "imageFilename": "https://cdn.arctracker.io/items/heavy_shield.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "damageMitigation": 65,
     "durability": 140,
@@ -2583,6 +3282,7 @@
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 20,
         "trader": "Lance"
       }
     ]
@@ -2726,7 +3426,7 @@
       "fabric": 8
     },
     "imageFilename": "https://cdn.arctracker.io/items/herbal_bandage.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -2735,62 +3435,10 @@
         },
         "limit": 10,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Lance"
       }
     ]
-  },
-  {
-    "id": "horizontal_grip_blueprint",
-    "name": {
-      "da": "Horisontal Greb Tegning",
-      "de": "Bauplan: Horizontaler Griff",
-      "en": "Horizontal Grip Blueprint",
-      "es": "Plano de Empuñadura Horizontal",
-      "fr": "Schéma de Poignée Horizontale",
-      "he": "שרטוט ידית אחיזה אופקית",
-      "hr": "Nacrt Horizontalnog Rukohvata",
-      "it": "Progetto Impugnatura Orizzontale",
-      "ja": "横グリップ設計図",
-      "ko-KR": "수평 그립 설계도",
-      "no": "Horisontalt Grep Tegning",
-      "pl": "Projekt Chwytu Horyzontalnego",
-      "pt": "Projeto de Empunhadura Horizontal",
-      "pt-BR": "Esquema de Empunhadura Horizontal",
-      "ru": "Чертёж Горизонтальной Рукоятки",
-      "sr": "Nacrt Horizontalnog Rukohvata",
-      "tr": "Yatay Tutamaç Taslağı",
-      "uk": "Креслення Горизонтальної Рукоятки",
-      "zh-CN": "水平握把蓝图",
-      "zh-TW": "水平握把藍圖"
-    },
-    "description": {
-      "da": "Reducerer moderat både lodret og vandret rekyl.",
-      "de": "Verringert sowohl den vertikalen als auch den horizontalen Rückstoß moderat.",
-      "en": "Moderately reduces both vertical recoil and horizontal recoil.",
-      "es": "Reduce moderadamente el retroceso vertical y horizontal.",
-      "fr": "Réduit modérément le recul vertical et horizontal.",
-      "he": "מפחית בצורה מתונה הן את הרתע האנכי והן את הרתע האופקי.",
-      "hr": "Umjereno smanjuje i vertikalni i horizontalni trzaj.",
-      "it": "Riduce moderatamente sia il rinculo verticale che quello orizzontale.",
-      "ja": "垂直反動と水平反動を適度に軽減します。",
-      "ko-KR": "수직 반동과 수평 반동을 적당히 감소시킵니다.",
-      "no": "Reduserer moderat både vertikal og horisontal rekyl.",
-      "pl": "Umiarkowanie zmniejsza odrzut pionowy i poziomy.",
-      "pt": "Reduz moderadamente o recuo vertical e horizontal.",
-      "pt-BR": "Reduz moderadamente o recuo vertical e horizontal.",
-      "ru": "Умеренно снижает как вертикальную, так и горизонтальную отдачу.",
-      "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
-      "tr": "Hem dikey hem de yatay geri tepmeyi orta düzeyde azaltır.",
-      "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
-      "zh-CN": "适度降低垂直和水平后坐力。",
-      "zh-TW": "適度降低垂直和水平後座力。"
-    },
-    "type": "Blueprint",
-    "rarity": "Legendary",
-    "value": 5000,
-    "weightKg": 0,
-    "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
-    "updatedAt": "01/13/2026"
   },
   {
     "id": "horizontal_grip",
@@ -3377,12 +4025,8 @@
     "salvagesInto": {
       "heavy_gun_parts": 2
     },
-    "upgradeCost": {
-      "advanced_mechanical_components": 1,
-      "heavy_gun_parts": 2
-    },
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -3416,6 +4060,7 @@
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 20,
         "trader": "Tian Wen"
       }
     ]
@@ -3621,11 +4266,11 @@
       "heavy_gun_parts": 3
     },
     "upgradeCost": {
-      "advanced_mechanical_components": 2,
-      "heavy_gun_parts": 1
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 67.9,
     "damage": 100,
@@ -3861,10 +4506,10 @@
     },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
-      "heavy_gun_parts": 3
+      "heavy_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 67.9,
     "damage": 100,
@@ -4499,12 +5144,8 @@
     "salvagesInto": {
       "simple_gun_parts": 2
     },
-    "upgradeCost": {
-      "mechanical_components": 3,
-      "simple_gun_parts": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -4549,6 +5190,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Tian Wen"
       }
     ]
@@ -4754,11 +5396,11 @@
       "simple_gun_parts": 3
     },
     "upgradeCost": {
-      "heavy_gun_parts": 1,
-      "mechanical_components": 4
+      "mechanical_components": 3,
+      "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -5802,7 +6444,7 @@
       "battery": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -5811,6 +6453,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Apollo"
       }
     ]
@@ -6254,12 +6897,8 @@
     "salvagesInto": {
       "metal_parts": 3
     },
-    "upgradeCost": {
-      "metal_parts": 8,
-      "plastic_parts": 10
-    },
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -6373,11 +7012,11 @@
       "metal_parts": 6
     },
     "upgradeCost": {
-      "metal_parts": 10,
-      "simple_gun_parts": 1
+      "metal_parts": 8,
+      "plastic_parts": 10
     },
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -6626,11 +7265,11 @@
       "simple_gun_parts": 1
     },
     "upgradeCost": {
-      "mechanical_components": 3,
+      "metal_parts": 10,
       "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -6900,59 +7539,6 @@
       "simple_gun_parts": 2
     },
     "repairDurability": 0.5
-  },
-  {
-    "id": "kinetic_converter_blueprint",
-    "name": {
-      "da": "Kinetisk konverter Tegning",
-      "de": "Bauplan: Kinetischer Konverter",
-      "en": "Kinetic Converter Blueprint",
-      "es": "Plano de Convertidor cinético",
-      "fr": "Schéma Convertisseur Cinétique",
-      "he": "שרטוט ממיר קינטי",
-      "hr": "Nacrt za Kinetički pretvarač",
-      "it": "Progetto Convertitore cinetico",
-      "ja": "キネティック・コンバーター 設計図",
-      "ko-KR": "키네틱 컨버터 설계도",
-      "no": "Kinetisk konverter Tegning",
-      "pl": "Projekt Konwerter kinetyczny",
-      "pt": "Projeto de Conversor cinético",
-      "pt-BR": "Esquema de Conversor Cinético",
-      "ru": "Чертёж кинетического преобразователя",
-      "sr": "Nacrt za Kinetički pretvarač",
-      "tr": "Kinetik Dönüştürücü Taslağı",
-      "uk": "Креслення кінетичного перетворювача",
-      "zh-CN": "动能转换器蓝图",
-      "zh-TW": "動能轉換器藍圖"
-    },
-    "description": {
-      "da": "En tegning til at lave Kinetisk konverter.",
-      "de": "Ein Bauplan zur Herstellung des Kinetischen Konverters.",
-      "en": "A blueprint to craft the Kinetic Converter.",
-      "es": "Un plano para fabricar el Convertidor cinético.",
-      "fr": "Un schéma pour fabriquer le Convertisseur Cinétique.",
-      "he": "שרטוט ליצירת ממיר קינטי.",
-      "hr": "Nacrt za izradu Kinetičkog pretvarača.",
-      "it": "Un progetto per creare il Convertitore cinetico.",
-      "ja": "キネティック・コンバーター を製作するための設計図。",
-      "ko-KR": "키네틱 컨버터을 제작하기 위한 설계도.",
-      "no": "En tegning for å lage Kinetisk konverter.",
-      "pl": "Projekt do wytworzenia Konwertera kinetycznego.",
-      "pt": "Um projeto para fabricar o Conversor cinético.",
-      "pt-BR": "Um esquema para fabricar o Conversor Cinético.",
-      "ru": "Чертёж для создания кинетического преобразователя.",
-      "sr": "Nacrt za izradu Kinetičkog pretvarača.",
-      "tr": "Kinetik Dönüştürücü üretmek için bir plan.",
-      "uk": "Креслення для створення кінетичного перетворювача.",
-      "zh-CN": "用于制作动能转换器的蓝图。",
-      "zh-TW": "用於製作動能轉換器的藍圖。"
-    },
-    "type": "Blueprint",
-    "rarity": "Legendary",
-    "value": 5000,
-    "weightKg": 0,
-    "imageFilename": "https://cdn.arctracker.io/items/kinetic_converter.png",
-    "updatedAt": "01/19/2026"
   },
   {
     "id": "kinetic_converter",
@@ -7284,13 +7870,14 @@
       "crude_explosives": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/launcher_ammo.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
         "cost": {
           "coins": 4500
         },
+        "requiredLevel": 12,
         "trader": "Tian Wen"
       }
     ]
@@ -7546,7 +8133,8 @@
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
-    "updatedAt": "02/23/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
   },
   {
     "id": "lidar_scanner",
@@ -7843,10 +8431,7 @@
     "weightKg": 0.3,
     "stackSize": 5,
     "blueprintLocked": true,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "simple_gun_parts": 4
@@ -7858,7 +8443,7 @@
       "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -7867,6 +8452,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Celeste"
       }
     ]
@@ -8671,7 +9257,8 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base",
     "repairCost": {
       "plastic_parts": 3,
       "rubber_parts": 3
@@ -8828,7 +9415,8 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
     "repairCost": {
       "electrical_components": 1,
       "magnet": 1
@@ -8841,7 +9429,17 @@
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Lance"
+      },
+      {
+        "cost": {
+          "creds": 100
+        },
+        "limit": 2,
+        "refreshSeconds": 86400,
+        "requiredLevel": 7,
+        "trader": "Shani"
       }
     ]
   },
@@ -8981,7 +9579,8 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base",
     "repairCost": {
       "advanced_electrical_components": 1,
       "processor": 2
@@ -9180,7 +9779,8 @@
       "electrical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_safekeeper.png",
-    "updatedAt": "02/24/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
   },
   {
     "id": "looting_mk3_survivor_blueprint",
@@ -9229,11 +9829,12 @@
       "zh-TW": "重型馱獸增強裝備。大載重容量和大背包空間。"
     },
     "type": "Blueprint",
-    "rarity": "Legendary",
+    "rarity": "Common",
     "value": 5000,
     "weightKg": 0,
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
-    "updatedAt": "01/13/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
   },
   {
     "id": "looting_mk3_survivor",
@@ -9486,7 +10087,6 @@
     "value": 1000,
     "weightKg": 0.25,
     "stackSize": 3,
-    "blueprintLocked": true,
     "effects": {
       "Duration": {
         "value": "15s",
@@ -9545,7 +10145,7 @@
       "wires": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/lure_grenade_trap.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -9668,10 +10268,6 @@
     "value": 300,
     "weightKg": 0.25,
     "stackSize": 15,
-    "craftBench": "in_raid",
-    "recipe": {
-      "industrial_magnet": 1
-    },
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -9679,7 +10275,7 @@
       "metal_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/magnet.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -9688,6 +10284,7 @@
         },
         "limit": 10,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Celeste"
       }
     ]
@@ -9744,10 +10341,7 @@
     "value": 5500,
     "weightKg": 1,
     "stackSize": 3,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 3,
     "recipe": {
       "advanced_mechanical_components": 2,
@@ -9761,7 +10355,7 @@
       "advanced_mechanical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -9858,7 +10452,8 @@
     "stackSize": 1,
     "questItem": true,
     "imageFilename": "https://cdn.arctracker.io/items/major_aivas_mementos.png",
-    "updatedAt": "02/23/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
   },
   {
     "id": "major_aivas_patch",
@@ -10053,10 +10648,7 @@
     "value": 640,
     "weightKg": 0.5,
     "stackSize": 10,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 1,
     "recipe": {
       "metal_parts": 7,
@@ -10070,7 +10662,7 @@
       "metal_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -10258,10 +10850,7 @@
     "weightKg": 0.4,
     "stackSize": 5,
     "blueprintLocked": true,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "simple_gun_parts": 4
@@ -10273,7 +10862,7 @@
       "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -10282,6 +10871,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Celeste"
       }
     ]
@@ -10444,7 +11034,7 @@
       "arc_alloy": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/medium_shield.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "damageMitigation": 42.5,
     "durability": 100,
@@ -10462,6 +11052,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Lance"
       }
     ]
@@ -10580,12 +11171,8 @@
     "value": 75,
     "weightKg": 0.1,
     "stackSize": 50,
-    "craftBench": "in_raid",
-    "recipe": {
-      "damaged_tick_pod": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -10658,561 +11245,5 @@
     "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
     "updatedAt": "01/09/2026",
     "addedIn": "1.2"
-  },
-  {
-    "id": "mini_centrifuge",
-    "name": {
-      "da": "Minicentrifuge",
-      "de": "Minizentrifuge",
-      "en": "Mini Centrifuge",
-      "es": "Minicentrífuga",
-      "fr": "Centrifugeuse Miniature",
-      "he": "מיני צנטריפוגה",
-      "hr": "Mini centrifuga",
-      "it": "Minicentrifuga",
-      "ja": "ミニ遠心分離機",
-      "ko-KR": "미니 원심분리기",
-      "no": "Minisentrifuge",
-      "pl": "Mini wirówka",
-      "pt": "Minicentrífuga",
-      "pt-BR": "Minicentrífuga",
-      "ru": "Мини-центрифуга",
-      "sr": "Mini centrifuga",
-      "tr": "Mini Santrifüj",
-      "uk": "Міні-центрифуга",
-      "zh-CN": "迷你离心机",
-      "zh-TW": "迷你離心機"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmaterialer.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Exodus",
-    "value": 3000,
-    "weightKg": 1.5,
-    "stackSize": 3,
-    "recyclesInto": {
-      "advanced_mechanical_components": 1,
-      "canister": 2
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "1.2"
-  },
-  {
-    "id": "mod_components",
-    "name": {
-      "da": "Mod-komponenter",
-      "de": "Mod-Komponenten",
-      "en": "Mod Components",
-      "es": "Componentes de modificación",
-      "fr": "Composants de Mods",
-      "he": "רכיבי מודים",
-      "hr": "Komponente za modove",
-      "it": "Componenti mod",
-      "ja": "モジュール部品",
-      "ko-KR": "모드 부품",
-      "no": "Mod-komponenter",
-      "pl": "Komponenty modyfikacji",
-      "pt": "Componentes de modificação",
-      "pt-BR": "Componentes de Modificação",
-      "ru": "Компоненты для модификаций",
-      "sr": "Komponente za modove",
-      "tr": "Mod Bileşenleri",
-      "uk": "Компоненти модифікацій",
-      "zh-CN": "改装组件",
-      "zh-TW": "改裝組件"
-    },
-    "description": {
-      "da": "Bruges til at fremstille våbenmodifikationer. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Letvægtskolbe, Haglgevær Choke III, Udvidet haglgevær-magasin III, Polstret kolbe, Kompensator III",
-      "de": "Wird zur Herstellung von Waffen-Mods verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Leichtgewichtkolben, Schrotflintenchoke III, Erweitertes Schrotflintenmagazin III, Gepolsterter Kolben, Kompensator III",
-      "en": "Used to craft weapon mods. Can be recycled into crafting materials. Used to craft: Lightweight Stock, Shotgun Choke III, Extended Shotgun Mag III, Padded Stock, Compensator III",
-      "es": "Se usa para fabricar modificaciones de armas. Se puede reciclar en materiales de fabricación. Se usa para fabricar: Culata ligera, Estrangulador de escopeta III, Cargador extendido de escopeta III, Culata acolchada, Compensador III",
-      "fr": "Permet de fabriquer des mods d'armes. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Crosse légère, Choke de fusil à pompe III, Chargeur de fusil à pompe étendu III, Crosse rembourrée, Compensateur III",
-      "he": "משמש ליצירת מודים לנשק. ניתן למחזור לחומרי יצירה. משמש ליצירת: קת קלת-משקל, חנק לרובה ציד III, מחסנית מורחבת לרובה ציד III, קת מרופדת, מפצה III",
-      "hr": "Koristi se za izradu modova za oružje. Može se reciklirati u materijale za izradu. Koristi se za izradu: Lagana kundak, Sačmarica choke III, Prošireni spremnik za sačmaricu III, Podstavljeni kundak, Kompenzator III",
-      "it": "Si usa per creare mod per armi. Si può riciclare in materiali da creazione. Si usa per creare: Calcio leggero, Strozzatore fucile III, Caricatore fucile esteso III, Calcio imbottito, Compensatore III",
-      "ja": "武器モッドの製作に使用。クラフト素材にリサイクル可能。製作可能: 軽量ストック、ショットガンチョーク III、拡張ショットガンマガジン III、パッド入りストック、コンペンセーター III",
-      "ko-KR": "무기 모드 제작에 사용됩니다. 제작 재료로 재활용할 수 있습니다. 제작 가능: 경량 개머리판, 산탄총 초크 III, 확장형 산탄총 탄창 III, 패드 장착 개머리판, 보정기 III",
-      "no": "Brukes til å lage våpenmodifikasjoner. Kan resirkuleres til håndverksmaterialer. Brukes til å lage: Lettvektskolbe, Haglerifle Choke III, Utvidet hagleriflemagasin III, Polstret kolbe, Kompensator III",
-      "pl": "Używane do wytwarzania modyfikacji broni. Można przetworzyć na materiały rzemieślnicze. Używane do wytworzenia: Lekka kolba, Zwężka strzelby III, Rozszerzony magazynek strzelby III, Wyściełana kolba, Kompensator III",
-      "pt": "Usado para fabricar modificações de armas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Coronha leve, Choke de espingarda III, Carregador estendido de espingarda III, Coronha acolchoada, Compensador III",
-      "pt-BR": "Usado para fabricar modificações de armas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Coronha Leve, Estrangulador de Escopeta III, Carregador Estendido de Escopeta III, Coronha Acolchoada, Compensador III",
-      "ru": "Используется для создания модификаций оружия. Можно переработать в материалы для крафта. Используется для создания: облегчённый приклад, дульное сужение для дробовика III, расширенный магазин для дробовика III, мягкий приклад, компенсатор III",
-      "sr": "Koristi se za izradu modova za oružje. Može se reciklirati u materijale za izradu. Koristi se za izradu: Lagana kundak, Sačmarica choke III, Prošireni okvir za sačmaricu III, Podstavljeni kundak, Kompenzator III",
-      "tr": "Silah modları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretilebilir: Hafif Dipçik, Av Tüfeği Choke III, Uzatılmış Av Tüfeği Şarjörü III, Yastıklı Dipçik, Kompansatör III",
-      "uk": "Використовується для створення модифікацій зброї. Можна переробити на матеріали для крафту. Використовується для створення: полегшений приклад, дульне звуження для дробовика III, розширений магазин для дробовика III, м'який приклад, компенсатор III",
-      "zh-CN": "用于制作武器改装。可回收为制作材料。可制作：轻量化枪托、霰弹枪收束器 III、延长霰弹枪弹匣 III、软垫枪托、补偿器 III",
-      "zh-TW": "用於製作武器改裝。可回收為製作材料。可製作：輕量化槍托、霰彈槍收束器 III、延長霰彈槍彈匣 III、軟墊槍托、補償器 III"
-    },
-    "type": "Refined Material",
-    "rarity": "Rare",
-    "foundIn": "Security",
-    "value": 1750,
-    "weightKg": 1,
-    "stackSize": 5,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
-    "stationLevelRequired": 2,
-    "recipe": {
-      "mechanical_components": 2,
-      "steel_spring": 2
-    },
-    "recyclesInto": {
-      "mechanical_components": 1,
-      "steel_spring": 1
-    },
-    "salvagesInto": {
-      "mechanical_components": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "moisture_meter",
-    "name": {
-      "da": "Fugtighedsmåler",
-      "de": "Feuchtigkeitsmesser",
-      "en": "Moisture Meter",
-      "es": "Medidor de humedad",
-      "fr": "Humidimètre",
-      "he": "מד לחות",
-      "hr": "Mjerač vlage",
-      "it": "Misuratore di umidità",
-      "ja": "水分計",
-      "ko-KR": "수분 측정기",
-      "no": "Fuktighetsmåler",
-      "pl": "Miernik wilgotności",
-      "pt": "Medidor de humidade",
-      "pt-BR": "Medidor de Umidade",
-      "ru": "Измеритель влажности",
-      "sr": "Merač vlage",
-      "tr": "Nem Ölçer",
-      "uk": "Вимірювач вологості",
-      "zh-CN": "湿度计",
-      "zh-TW": "濕度計"
-    },
-    "description": {
-      "da": "En kvæstgenstand, der skal leveres til Tian Wen for at fuldføre kvasten Uventet initiativ.",
-      "de": "Ein Quest-Gegenstand, der an Tian Wen geliefert werden muss, um die Quest Unerwartete Initiative abzuschließen.",
-      "en": "A quest item that must be delivered to Tian Wen to complete the Unexpected Initiative quest.",
-      "es": "Un objeto de misión que debe entregarse a Tian Wen para completar la misión Iniciativa inesperada.",
-      "fr": "Un objet de quête qui doit être livré à Tian Wen pour compléter la quête Initiative inattendue.",
-      "he": "פריט משימה שיש למסור ל-Tian Wen כדי להשלים את המשימה יוזמה בלתי צפויה.",
-      "hr": "Predmet zadatka koji se mora dostaviti Tian Wenu za završetak zadatka Neočekivana inicijativa.",
-      "it": "Un oggetto missione che deve essere consegnato a Tian Wen per completare la missione Iniziativa inaspettata.",
-      "ja": "予期せぬイニシアチブのクエストを完了するためにティアン・ウェンに届ける必要があるクエストアイテム。",
-      "ko-KR": "예상치 못한 주도권 퀘스트를 완료하기 위해 티안 웬에게 전달해야 하는 퀘스트 아이템.",
-      "no": "En oppdragsgjenstand som må leveres til Tian Wen for å fullføre oppdraget Uventet initiativ.",
-      "pl": "Przedmiot zadania, który należy dostarczyć Tian Wen, aby ukończyć zadanie Nieoczekiwana inicjatywa.",
-      "pt": "Um item de missão que deve ser entregue a Tian Wen para completar a missão Iniciativa Inesperada.",
-      "pt-BR": "Um item de missão que deve ser entregue a Tian Wen para completar a missão Iniciativa Inesperada.",
-      "ru": "Квестовый предмет, который необходимо доставить Тянь Вэню для завершения квеста Неожиданная Инициатива.",
-      "sr": "Predmet zadatka koji se mora dostaviti Tian Wenu za završetak zadatka Neočekivana inicijativa.",
-      "tr": "Beklenmedik Girişim görevini tamamlamak için Tian Wen'e teslim edilmesi gereken bir görev eşyası.",
-      "uk": "Квестовий предмет, який потрібно доставити Тянь Веню для завершення квесту Несподівана Ініціатива.",
-      "zh-CN": "一个必须交给田文以完成意外的主动任务的任务物品。",
-      "zh-TW": "一個必須交給田文以完成意外的主動任務的任務物品。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/moisture_meter.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "1.7"
-  },
-  {
-    "id": "moss",
-    "name": {
-      "da": "Mos",
-      "de": "Moos",
-      "en": "Moss",
-      "es": "Musgo",
-      "fr": "Mousse",
-      "he": "טחב",
-      "hr": "Mahovina",
-      "it": "Muschio",
-      "ja": "苔",
-      "ko-KR": "이끼",
-      "no": "Mose",
-      "pl": "Mech",
-      "pt": "Musgo",
-      "pt-BR": "Musgo",
-      "ru": "Мох",
-      "sr": "Mahovina",
-      "tr": "Yosun",
-      "uk": "Мох",
-      "zh-CN": "苔藓",
-      "zh-TW": "苔蘚"
-    },
-    "description": {
-      "da": "Kan bruges til at genvinde en lille mængde helbred.",
-      "de": "Kann zur Regeneration einer kleinen Menge Gesundheit benutzt werden. Zur Herstellung von: Defibrillator",
-      "en": "Can be used to regain a small amount of health.",
-      "es": "Puede usarse para recuperar una pequeña cantidad de salud.",
-      "fr": "Peut être utilisé pour récupérer une petite quantité de santé.",
-      "he": "ניתן לשימוש לחידוש כמות קטנה של בריאות.",
-      "hr": "Može se koristiti za obnavljanje male količine zdravlja.",
-      "it": "Può essere usato per recuperare una piccola quantità di salute.",
-      "ja": "使用すると少量の体力を回復できる。",
-      "ko-KR": "소량의 체력을 회복하는 데 사용할 수 있습니다.",
-      "no": "Kan brukes til å gjenvinne en liten mengde helse.",
-      "pl": "Może zostać użyty do odzyskania niewielkiej ilości zdrowia.",
-      "pt": "Pode ser usado para recuperar uma pequena quantidade de vida.",
-      "pt-BR": "Pode ser usado para recuperar uma pequena quantidade de saúde.",
-      "ru": "Можно использовать для восстановления небольшого количества здоровья.",
-      "sr": "Može se koristiti za obnavljanje male količine zdravlja.",
-      "tr": "Az miktarda can yenilemek için kullanılabilir.",
-      "uk": "Можна використати для відновлення невеликої кількості здоров'я.",
-      "zh-CN": "可用于恢复少量生命值。",
-      "zh-TW": "可用於恢復少量生命值。"
-    },
-    "type": "Topside Material",
-    "rarity": "Rare",
-    "foundIn": "Nature",
-    "value": 500,
-    "weightKg": 0.3,
-    "stackSize": 10,
-    "effects": {
-      "Duration": {
-        "value": "10s",
-        "da": "Varighed",
-        "de": "Dauer",
-        "en": "Duration",
-        "es": "Duración",
-        "fr": "Durée",
-        "he": "משך",
-        "hr": "Trajanje",
-        "it": "Durata",
-        "ja": "持続時間",
-        "ko-KR": "지속 시간",
-        "no": "Varighet",
-        "pl": "Czas trwania",
-        "pt": "Duração",
-        "pt-BR": "Duração",
-        "ru": "Длительность",
-        "sr": "Trajanje",
-        "tr": "Süre",
-        "uk": "Тривалість",
-        "zh-CN": "持续时间",
-        "zh-TW": "持續時間"
-      },
-      "Healing": {
-        "value": "1/s",
-        "da": "Helbredelse",
-        "de": "Heilen",
-        "en": "Healing",
-        "es": "Curación",
-        "fr": "Soins",
-        "he": "ריפוי",
-        "hr": "Liječenje",
-        "it": "Guarigione",
-        "ja": "回復",
-        "ko-KR": "치유",
-        "no": "Helbredelse",
-        "pl": "Leczenie",
-        "pt": "Cura",
-        "pt-BR": "Cura",
-        "ru": "Исцеление",
-        "sr": "Lečenje",
-        "tr": "İyileştirme",
-        "uk": "Зцілення",
-        "zh-CN": "治疗",
-        "zh-TW": "治療"
-      },
-      "Use Time": {
-        "value": "1s",
-        "da": "Brugstid",
-        "de": "Verwendungszeit",
-        "en": "Use Time",
-        "es": "Tiempo de uso",
-        "fr": "Temps d'utilisation",
-        "he": "זמן שימוש",
-        "hr": "Vrijeme Korištenja",
-        "it": "Tempo di utilizzo",
-        "ja": "使用時間",
-        "ko-KR": "사용 시간",
-        "no": "Brukstid",
-        "pl": "Czas użycia",
-        "pt": "Tempo de uso",
-        "pt-BR": "Tempo de uso",
-        "ru": "Время использования",
-        "sr": "Vreme Korišćenja",
-        "tr": "Kullanım Süresi",
-        "uk": "Час використання",
-        "zh-CN": "使用时间",
-        "zh-TW": "使用時間"
-      }
-    },
-    "recyclesInto": {
-      "assorted_seeds": 3
-    },
-    "salvagesInto": {
-      "assorted_seeds": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/moss.png",
-    "updatedAt": "11/04/2025",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "assorted_seeds": 10
-        },
-        "limit": 5,
-        "refreshSeconds": 86400,
-        "trader": "Celeste"
-      }
-    ]
-  },
-  {
-    "id": "motor",
-    "name": {
-      "da": "Motor",
-      "de": "Motor",
-      "en": "Motor",
-      "es": "Motor",
-      "fr": "Moteur",
-      "he": "מנוע",
-      "hr": "Motor",
-      "it": "Motore",
-      "ja": "モーター",
-      "ko-KR": "모터",
-      "no": "Motor",
-      "pl": "Silnik",
-      "pt": "Motor",
-      "pt-BR": "Motor",
-      "ru": "Мотор",
-      "sr": "Motor",
-      "tr": "Motor",
-      "uk": "Мотор",
-      "zh-CN": "马达",
-      "zh-TW": "馬達"
-    },
-    "description": {
-      "da": "En lille elektrisk motor, nyttig til forskellige enheder.",
-      "de": "Ein kleiner Elektromotor, nützlich für verschiedene Geräte.",
-      "en": "A small electric motor, useful for various devices.",
-      "es": "Un pequeño motor eléctrico, útil para varios dispositivos.",
-      "fr": "Un petit moteur électrique, utile pour divers appareils.",
-      "he": "מנוע חשמלי קטן, שימושי למכשירים שונים.",
-      "hr": "Mali električni motor, koristan za razne uređaje.",
-      "it": "Un piccolo motore elettrico, utile per vari dispositivi.",
-      "ja": "小型電動モーター、様々な装置に有用。",
-      "ko-KR": "다양한 장치에 유용한 소형 전기 모터입니다.",
-      "no": "En liten elektrisk motor, nyttig for forskjellige enheter.",
-      "pl": "Mały silnik elektryczny, przydatny do różnych urządzeń.",
-      "pt": "Um pequeno motor elétrico, útil para vários dispositivos.",
-      "pt-BR": "Um pequeno motor elétrico, útil para vários dispositivos.",
-      "ru": "Небольшой электромотор, полезный для различных устройств.",
-      "sr": "Mali električni motor, koristan za razne uređaje.",
-      "tr": "Çeşitli cihazlar için kullanışlı küçük bir elektrik motoru.",
-      "uk": "Невеликий електромотор, корисний для різних пристроїв.",
-      "zh-CN": "小型电动马达，可用于各种装置。",
-      "zh-TW": "小型電動馬達，可用於各種裝置。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Mechanical",
-    "value": 2000,
-    "weightKg": 3,
-    "stackSize": 3,
-    "recyclesInto": {
-      "mechanical_components": 2,
-      "oil": 2
-    },
-    "salvagesInto": {
-      "oil": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/motor.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "mushroom",
-    "name": {
-      "da": "Svamp",
-      "de": "Pilz",
-      "en": "Mushroom",
-      "es": "Seta",
-      "fr": "Champignon",
-      "he": "פטרייה",
-      "hr": "Gljiva",
-      "it": "Fungo",
-      "ja": "キノコ",
-      "ko-KR": "버섯",
-      "no": "Sopp",
-      "pl": "Grzyb",
-      "pt": "Cogumelo",
-      "pt-BR": "Cogumelo",
-      "ru": "Гриб",
-      "sr": "Gljiva",
-      "tr": "Mantar",
-      "uk": "Гриб",
-      "zh-CN": "蘑菇",
-      "zh-TW": "蘑菇"
-    },
-    "description": {
-      "da": "Kan indtages for at genvinde en lille mængde helbred.",
-      "de": "Kann zur Regeneration einer kleinen Menge Gesundheit verzehrt werden.",
-      "en": "Can be consumed to regain a small amount of health.",
-      "es": "Se puede consumir para recuperar una pequeña cantidad de salud.",
-      "fr": "Peut être consommé pour récupérer une petite quantité de santé.",
-      "he": "ניתנת לצריכה כדי להשיב כמות קטנה של בריאות.",
-      "hr": "Može se konzumirati za povrat male količine zdravlja.",
-      "it": "Può essere consumato per recuperare una piccola quantità di salute.",
-      "ja": "消費すると少量の体力を回復できる。",
-      "ko-KR": "소량의 체력을 회복하기 위해 섭취할 수 있다.",
-      "no": "Kan konsumeres for å gjenvinne en liten mengde helse.",
-      "pl": "Można spożyć, aby odzyskać niewielką ilość zdrowia.",
-      "pt": "Pode ser consumido para recuperar uma pequena quantidade de saúde.",
-      "pt-BR": "Pode ser consumido para recuperar uma pequena quantidade de vida.",
-      "ru": "Можно употребить для восстановления небольшого количества здоровья.",
-      "sr": "Može se konzumirati za povrat male količine zdravlja.",
-      "tr": "Az miktarda can kazanmak için tüketilebilir.",
-      "uk": "Можна вжити для відновлення невеликої кількості здоров'я.",
-      "zh-CN": "可以食用以恢复少量生命值。",
-      "zh-TW": "可以食用以恢復少量生命值。"
-    },
-    "type": "Nature",
-    "rarity": "Uncommon",
-    "foundIn": "Nature",
-    "value": 1000,
-    "weightKg": 0.2,
-    "stackSize": 10,
-    "effects": {
-      "Healing": {
-        "value": 15,
-        "da": "Helbredelse",
-        "de": "Heilen",
-        "en": "Healing",
-        "es": "Curación",
-        "fr": "Soin",
-        "he": "ריפוי",
-        "hr": "Iscjeljenje",
-        "it": "Guarigione",
-        "ja": "回復",
-        "ko-KR": "치유",
-        "no": "Helbredelse",
-        "pl": "Leczenie",
-        "pt": "Cura",
-        "pt-BR": "Cura",
-        "ru": "Исцеление",
-        "sr": "Isceljenje",
-        "tr": "İyileştirme",
-        "uk": "Зцілення",
-        "zh-CN": "治疗",
-        "zh-TW": "治療"
-      },
-      "Use Time": {
-        "value": "1s",
-        "da": "Brugstid",
-        "de": "Verwendungszeit",
-        "en": "Use Time",
-        "es": "Tiempo de uso",
-        "fr": "Temps d'utilisation",
-        "he": "זמן שימוש",
-        "hr": "Vrijeme Korištenja",
-        "it": "Tempo d'uso",
-        "ja": "使用時間",
-        "ko-KR": "사용 시간",
-        "no": "Brukstid",
-        "pl": "Czas użycia",
-        "pt": "Tempo de uso",
-        "pt-BR": "Tempo de uso",
-        "ru": "Время использования",
-        "sr": "Vreme Korišćenja",
-        "tr": "Kullanım Süresi",
-        "uk": "Час використання",
-        "zh-CN": "使用时间",
-        "zh-TW": "使用時間"
-      }
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/mushroom.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "music_album",
-    "name": {
-      "da": "Musikalbum",
-      "de": "Musikalbum",
-      "en": "Music Album",
-      "es": "Álbum de música",
-      "fr": "Album de Musique",
-      "he": "אלבום מוזיקה",
-      "hr": "Glazbeni Album",
-      "it": "Album musicale",
-      "ja": "ミュージックアルバム",
-      "ko-KR": "음악 앨범",
-      "no": "Musikkalbum",
-      "pl": "Album muzyczny",
-      "pt": "Álbum de música",
-      "pt-BR": "Álbum de Música",
-      "ru": "Музыкальный альбом",
-      "sr": "Muzički Album",
-      "tr": "Müzik Albümü",
-      "uk": "Музичний альбом",
-      "zh-CN": "音乐专辑",
-      "zh-TW": "音樂專輯"
-    },
-    "description": {
-      "da": "Perfekt til afslappende aftener hjemme, uformelle sammenkomster og private luftguitarkoncerter.",
-      "de": "Perfekt für entspannte Abende zu Hause, lockere Treffen und private Luftgitarren-Konzerte.",
-      "en": "Perfect for relaxing nights at home, casual get-togethers, and private air guitar concerts.",
-      "es": "Perfecto para noches relajantes en casa, reuniones informales y conciertos privados de guitarra invisible.",
-      "fr": "Parfait pour les soirées détente à la maison, les réunions décontractées et les concerts privés de guitare imaginaire.",
-      "he": "מושלם ללילות רגועים בבית, מפגשים לא מחייבים, והופעות גיטרת אוויר פרטיות.",
-      "hr": "Savršen za opuštajuće večeri kod kuće, ležerne druženje i privatne koncerte zračne gitare.",
-      "it": "Perfetto per serate rilassanti a casa, incontri informali e concerti privati di chitarra invisibile.",
-      "ja": "家でのリラックスした夜、気軽な集まり、プライベートなエアギターコンサートに最適。",
-      "ko-KR": "집에서 편안한 밤, 캐주얼한 모임, 그리고 개인 에어 기타 콘서트에 완벽하다.",
-      "no": "Perfekt for avslappende kvelder hjemme, uformelle sammenkomster og private luftgitarkonserter.",
-      "pl": "Idealny na relaksujące wieczory w domu, swobodne spotkania i prywatne koncerty na gitarze powietrznej.",
-      "pt": "Perfeito para noites relaxantes em casa, encontros casuais e concertos privados de guitarra invisível.",
-      "pt-BR": "Perfeito para noites relaxantes em casa, encontros casuais e shows particulares de air guitar.",
-      "ru": "Идеально подходит для спокойных вечеров дома, непринужденных посиделок и приватных концертов на воображаемой гитаре.",
-      "sr": "Savršen za opuštajuće večeri kod kuće, ležerna druženja i privatne koncerte vazdušne gitare.",
-      "tr": "Evde rahat gecelerde, gündelik buluşmalarda ve özel hava gitarı konserlerinde mükemmel.",
-      "uk": "Ідеально підходить для спокійних вечорів вдома, невимушених посиденьок та приватних концертів на уявній гітарі.",
-      "zh-CN": "非常适合在家放松的夜晚、休闲聚会和私人空气吉他演奏会。",
-      "zh-TW": "非常適合在家放鬆的夜晚、休閒聚會和私人空氣吉他演奏會。"
-    },
-    "type": "Trinket",
-    "rarity": "Rare",
-    "foundIn": "Residential, Commercial",
-    "value": 3000,
-    "weightKg": 0.3,
-    "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/music_album.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
   }
 ]

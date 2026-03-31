@@ -1,5 +1,559 @@
 [
   {
+    "id": "mini_centrifuge",
+    "name": {
+      "da": "Minicentrifuge",
+      "de": "Minizentrifuge",
+      "en": "Mini Centrifuge",
+      "es": "Minicentrífuga",
+      "fr": "Centrifugeuse Miniature",
+      "he": "מיני צנטריפוגה",
+      "hr": "Mini centrifuga",
+      "it": "Minicentrifuga",
+      "ja": "ミニ遠心分離機",
+      "ko-KR": "미니 원심분리기",
+      "no": "Minisentrifuge",
+      "pl": "Mini wirówka",
+      "pt": "Minicentrífuga",
+      "pt-BR": "Minicentrífuga",
+      "ru": "Мини-центрифуга",
+      "sr": "Mini centrifuga",
+      "tr": "Mini Santrifüj",
+      "uk": "Міні-центрифуга",
+      "zh-CN": "迷你离心机",
+      "zh-TW": "迷你離心機"
+    },
+    "description": {
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Se puede reciclar en materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux d'artisanat.",
+      "he": "ניתן למחזור לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Si può riciclare in materiali da creazione.",
+      "ja": "クラフト素材にリサイクルできます。",
+      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan resirkuleres til håndverksmaterialer.",
+      "pl": "Można przetworzyć na materiały rzemieślnicze.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать в материалы для крафта.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для крафту.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "Exodus",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "canister": 2
+    },
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
+    "updatedAt": "01/09/2026",
+    "addedIn": "1.2"
+  },
+  {
+    "id": "mod_components",
+    "name": {
+      "da": "Mod-komponenter",
+      "de": "Mod-Komponenten",
+      "en": "Mod Components",
+      "es": "Componentes de modificación",
+      "fr": "Composants de Mods",
+      "he": "רכיבי מודים",
+      "hr": "Komponente za modove",
+      "it": "Componenti mod",
+      "ja": "モジュール部品",
+      "ko-KR": "모드 부품",
+      "no": "Mod-komponenter",
+      "pl": "Komponenty modyfikacji",
+      "pt": "Componentes de modificação",
+      "pt-BR": "Componentes de Modificação",
+      "ru": "Компоненты для модификаций",
+      "sr": "Komponente za modove",
+      "tr": "Mod Bileşenleri",
+      "uk": "Компоненти модифікацій",
+      "zh-CN": "改装组件",
+      "zh-TW": "改裝組件"
+    },
+    "description": {
+      "da": "Bruges til at fremstille våbenmodifikationer. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Letvægtskolbe, Haglgevær Choke III, Udvidet haglgevær-magasin III, Polstret kolbe, Kompensator III",
+      "de": "Wird zur Herstellung von Waffen-Mods verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Leichtgewichtkolben, Schrotflintenchoke III, Erweitertes Schrotflintenmagazin III, Gepolsterter Kolben, Kompensator III",
+      "en": "Used to craft weapon mods. Can be recycled into crafting materials. Used to craft: Lightweight Stock, Shotgun Choke III, Extended Shotgun Mag III, Padded Stock, Compensator III",
+      "es": "Se usa para fabricar modificaciones de armas. Se puede reciclar en materiales de fabricación. Se usa para fabricar: Culata ligera, Estrangulador de escopeta III, Cargador extendido de escopeta III, Culata acolchada, Compensador III",
+      "fr": "Permet de fabriquer des mods d'armes. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Crosse légère, Choke de fusil à pompe III, Chargeur de fusil à pompe étendu III, Crosse rembourrée, Compensateur III",
+      "he": "משמש ליצירת מודים לנשק. ניתן למחזור לחומרי יצירה. משמש ליצירת: קת קלת-משקל, חנק לרובה ציד III, מחסנית מורחבת לרובה ציד III, קת מרופדת, מפצה III",
+      "hr": "Koristi se za izradu modova za oružje. Može se reciklirati u materijale za izradu. Koristi se za izradu: Lagana kundak, Sačmarica choke III, Prošireni spremnik za sačmaricu III, Podstavljeni kundak, Kompenzator III",
+      "it": "Si usa per creare mod per armi. Si può riciclare in materiali da creazione. Si usa per creare: Calcio leggero, Strozzatore fucile III, Caricatore fucile esteso III, Calcio imbottito, Compensatore III",
+      "ja": "武器モッドの製作に使用。クラフト素材にリサイクル可能。製作可能: 軽量ストック、ショットガンチョーク III、拡張ショットガンマガジン III、パッド入りストック、コンペンセーター III",
+      "ko-KR": "무기 모드 제작에 사용됩니다. 제작 재료로 재활용할 수 있습니다. 제작 가능: 경량 개머리판, 산탄총 초크 III, 확장형 산탄총 탄창 III, 패드 장착 개머리판, 보정기 III",
+      "no": "Brukes til å lage våpenmodifikasjoner. Kan resirkuleres til håndverksmaterialer. Brukes til å lage: Lettvektskolbe, Haglerifle Choke III, Utvidet hagleriflemagasin III, Polstret kolbe, Kompensator III",
+      "pl": "Używane do wytwarzania modyfikacji broni. Można przetworzyć na materiały rzemieślnicze. Używane do wytworzenia: Lekka kolba, Zwężka strzelby III, Rozszerzony magazynek strzelby III, Wyściełana kolba, Kompensator III",
+      "pt": "Usado para fabricar modificações de armas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Coronha leve, Choke de espingarda III, Carregador estendido de espingarda III, Coronha acolchoada, Compensador III",
+      "pt-BR": "Usado para fabricar modificações de armas. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Coronha Leve, Estrangulador de Escopeta III, Carregador Estendido de Escopeta III, Coronha Acolchoada, Compensador III",
+      "ru": "Используется для создания модификаций оружия. Можно переработать в материалы для крафта. Используется для создания: облегчённый приклад, дульное сужение для дробовика III, расширенный магазин для дробовика III, мягкий приклад, компенсатор III",
+      "sr": "Koristi se za izradu modova za oružje. Može se reciklirati u materijale za izradu. Koristi se za izradu: Lagana kundak, Sačmarica choke III, Prošireni okvir za sačmaricu III, Podstavljeni kundak, Kompenzator III",
+      "tr": "Silah modları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretilebilir: Hafif Dipçik, Av Tüfeği Choke III, Uzatılmış Av Tüfeği Şarjörü III, Yastıklı Dipçik, Kompansatör III",
+      "uk": "Використовується для створення модифікацій зброї. Можна переробити на матеріали для крафту. Використовується для створення: полегшений приклад, дульне звуження для дробовика III, розширений магазин для дробовика III, м'який приклад, компенсатор III",
+      "zh-CN": "用于制作武器改装。可回收为制作材料。可制作：轻量化枪托、霰弹枪收束器 III、延长霰弹枪弹匣 III、软垫枪托、补偿器 III",
+      "zh-TW": "用於製作武器改裝。可回收為製作材料。可製作：輕量化槍托、霰彈槍收束器 III、延長霰彈槍彈匣 III、軟墊槍托、補償器 III"
+    },
+    "type": "Refined Material",
+    "rarity": "Rare",
+    "foundIn": "Security",
+    "value": 1750,
+    "weightKg": 1,
+    "stackSize": 5,
+    "craftBench": "refiner",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "mechanical_components": 2,
+      "steel_spring": 2
+    },
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "steel_spring": 1
+    },
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "moisture_meter",
+    "name": {
+      "da": "Fugtighedsmåler",
+      "de": "Feuchtigkeitsmesser",
+      "en": "Moisture Meter",
+      "es": "Medidor de humedad",
+      "fr": "Humidimètre",
+      "he": "מד לחות",
+      "hr": "Mjerač vlage",
+      "it": "Misuratore di umidità",
+      "ja": "水分計",
+      "ko-KR": "수분 측정기",
+      "no": "Fuktighetsmåler",
+      "pl": "Miernik wilgotności",
+      "pt": "Medidor de humidade",
+      "pt-BR": "Medidor de Umidade",
+      "ru": "Измеритель влажности",
+      "sr": "Merač vlage",
+      "tr": "Nem Ölçer",
+      "uk": "Вимірювач вологості",
+      "zh-CN": "湿度计",
+      "zh-TW": "濕度計"
+    },
+    "description": {
+      "da": "En kvæstgenstand, der skal leveres til Tian Wen for at fuldføre kvasten Uventet initiativ.",
+      "de": "Ein Quest-Gegenstand, der an Tian Wen geliefert werden muss, um die Quest Unerwartete Initiative abzuschließen.",
+      "en": "A quest item that must be delivered to Tian Wen to complete the Unexpected Initiative quest.",
+      "es": "Un objeto de misión que debe entregarse a Tian Wen para completar la misión Iniciativa inesperada.",
+      "fr": "Un objet de quête qui doit être livré à Tian Wen pour compléter la quête Initiative inattendue.",
+      "he": "פריט משימה שיש למסור ל-Tian Wen כדי להשלים את המשימה יוזמה בלתי צפויה.",
+      "hr": "Predmet zadatka koji se mora dostaviti Tian Wenu za završetak zadatka Neočekivana inicijativa.",
+      "it": "Un oggetto missione che deve essere consegnato a Tian Wen per completare la missione Iniziativa inaspettata.",
+      "ja": "予期せぬイニシアチブのクエストを完了するためにティアン・ウェンに届ける必要があるクエストアイテム。",
+      "ko-KR": "예상치 못한 주도권 퀘스트를 완료하기 위해 티안 웬에게 전달해야 하는 퀘스트 아이템.",
+      "no": "En oppdragsgjenstand som må leveres til Tian Wen for å fullføre oppdraget Uventet initiativ.",
+      "pl": "Przedmiot zadania, który należy dostarczyć Tian Wen, aby ukończyć zadanie Nieoczekiwana inicjatywa.",
+      "pt": "Um item de missão que deve ser entregue a Tian Wen para completar a missão Iniciativa Inesperada.",
+      "pt-BR": "Um item de missão que deve ser entregue a Tian Wen para completar a missão Iniciativa Inesperada.",
+      "ru": "Квестовый предмет, который необходимо доставить Тянь Вэню для завершения квеста Неожиданная Инициатива.",
+      "sr": "Predmet zadatka koji se mora dostaviti Tian Wenu za završetak zadatka Neočekivana inicijativa.",
+      "tr": "Beklenmedik Girişim görevini tamamlamak için Tian Wen'e teslim edilmesi gereken bir görev eşyası.",
+      "uk": "Квестовий предмет, який потрібно доставити Тянь Веню для завершення квесту Несподівана Ініціатива.",
+      "zh-CN": "一个必须交给田文以完成意外的主动任务的任务物品。",
+      "zh-TW": "一個必須交給田文以完成意外的主動任務的任務物品。"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/moisture_meter.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "1.7"
+  },
+  {
+    "id": "moss",
+    "name": {
+      "da": "Mos",
+      "de": "Moos",
+      "en": "Moss",
+      "es": "Musgo",
+      "fr": "Mousse",
+      "he": "טחב",
+      "hr": "Mahovina",
+      "it": "Muschio",
+      "ja": "苔",
+      "ko-KR": "이끼",
+      "no": "Mose",
+      "pl": "Mech",
+      "pt": "Musgo",
+      "pt-BR": "Musgo",
+      "ru": "Мох",
+      "sr": "Mahovina",
+      "tr": "Yosun",
+      "uk": "Мох",
+      "zh-CN": "苔藓",
+      "zh-TW": "苔蘚"
+    },
+    "description": {
+      "da": "Kan bruges til at genvinde en lille mængde helbred.",
+      "de": "Kann zur Regeneration einer kleinen Menge Gesundheit benutzt werden. Zur Herstellung von: Defibrillator",
+      "en": "Can be used to regain a small amount of health.",
+      "es": "Puede usarse para recuperar una pequeña cantidad de salud.",
+      "fr": "Peut être utilisé pour récupérer une petite quantité de santé.",
+      "he": "ניתן לשימוש לחידוש כמות קטנה של בריאות.",
+      "hr": "Može se koristiti za obnavljanje male količine zdravlja.",
+      "it": "Può essere usato per recuperare una piccola quantità di salute.",
+      "ja": "使用すると少量の体力を回復できる。",
+      "ko-KR": "소량의 체력을 회복하는 데 사용할 수 있습니다.",
+      "no": "Kan brukes til å gjenvinne en liten mengde helse.",
+      "pl": "Może zostać użyty do odzyskania niewielkiej ilości zdrowia.",
+      "pt": "Pode ser usado para recuperar uma pequena quantidade de vida.",
+      "pt-BR": "Pode ser usado para recuperar uma pequena quantidade de saúde.",
+      "ru": "Можно использовать для восстановления небольшого количества здоровья.",
+      "sr": "Može se koristiti za obnavljanje male količine zdravlja.",
+      "tr": "Az miktarda can yenilemek için kullanılabilir.",
+      "uk": "Можна використати для відновлення невеликої кількості здоров'я.",
+      "zh-CN": "可用于恢复少量生命值。",
+      "zh-TW": "可用於恢復少量生命值。"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "foundIn": "Nature",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 10,
+    "effects": {
+      "Duration": {
+        "value": "10s",
+        "da": "Varighed",
+        "de": "Dauer",
+        "en": "Duration",
+        "es": "Duración",
+        "fr": "Durée",
+        "he": "משך",
+        "hr": "Trajanje",
+        "it": "Durata",
+        "ja": "持続時間",
+        "ko-KR": "지속 시간",
+        "no": "Varighet",
+        "pl": "Czas trwania",
+        "pt": "Duração",
+        "pt-BR": "Duração",
+        "ru": "Длительность",
+        "sr": "Trajanje",
+        "tr": "Süre",
+        "uk": "Тривалість",
+        "zh-CN": "持续时间",
+        "zh-TW": "持續時間"
+      },
+      "Healing": {
+        "value": "1/s",
+        "da": "Helbredelse",
+        "de": "Heilen",
+        "en": "Healing",
+        "es": "Curación",
+        "fr": "Soins",
+        "he": "ריפוי",
+        "hr": "Liječenje",
+        "it": "Guarigione",
+        "ja": "回復",
+        "ko-KR": "치유",
+        "no": "Helbredelse",
+        "pl": "Leczenie",
+        "pt": "Cura",
+        "pt-BR": "Cura",
+        "ru": "Исцеление",
+        "sr": "Lečenje",
+        "tr": "İyileştirme",
+        "uk": "Зцілення",
+        "zh-CN": "治疗",
+        "zh-TW": "治療"
+      },
+      "Use Time": {
+        "value": "1s",
+        "da": "Brugstid",
+        "de": "Verwendungszeit",
+        "en": "Use Time",
+        "es": "Tiempo de uso",
+        "fr": "Temps d'utilisation",
+        "he": "זמן שימוש",
+        "hr": "Vrijeme Korištenja",
+        "it": "Tempo di utilizzo",
+        "ja": "使用時間",
+        "ko-KR": "사용 시간",
+        "no": "Brukstid",
+        "pl": "Czas użycia",
+        "pt": "Tempo de uso",
+        "pt-BR": "Tempo de uso",
+        "ru": "Время использования",
+        "sr": "Vreme Korišćenja",
+        "tr": "Kullanım Süresi",
+        "uk": "Час використання",
+        "zh-CN": "使用时间",
+        "zh-TW": "使用時間"
+      }
+    },
+    "recyclesInto": {
+      "assorted_seeds": 3
+    },
+    "salvagesInto": {
+      "assorted_seeds": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/moss.png",
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
+    "vendors": [
+      {
+        "cost": {
+          "assorted_seeds": 10
+        },
+        "limit": 5,
+        "refreshSeconds": 86400,
+        "requiredLevel": 12,
+        "trader": "Celeste"
+      }
+    ]
+  },
+  {
+    "id": "motor",
+    "name": {
+      "da": "Motor",
+      "de": "Motor",
+      "en": "Motor",
+      "es": "Motor",
+      "fr": "Moteur",
+      "he": "מנוע",
+      "hr": "Motor",
+      "it": "Motore",
+      "ja": "モーター",
+      "ko-KR": "모터",
+      "no": "Motor",
+      "pl": "Silnik",
+      "pt": "Motor",
+      "pt-BR": "Motor",
+      "ru": "Мотор",
+      "sr": "Motor",
+      "tr": "Motor",
+      "uk": "Мотор",
+      "zh-CN": "马达",
+      "zh-TW": "馬達"
+    },
+    "description": {
+      "da": "En lille elektrisk motor, nyttig til forskellige enheder.",
+      "de": "Ein kleiner Elektromotor, nützlich für verschiedene Geräte.",
+      "en": "A small electric motor, useful for various devices.",
+      "es": "Un pequeño motor eléctrico, útil para varios dispositivos.",
+      "fr": "Un petit moteur électrique, utile pour divers appareils.",
+      "he": "מנוע חשמלי קטן, שימושי למכשירים שונים.",
+      "hr": "Mali električni motor, koristan za razne uređaje.",
+      "it": "Un piccolo motore elettrico, utile per vari dispositivi.",
+      "ja": "小型電動モーター、様々な装置に有用。",
+      "ko-KR": "다양한 장치에 유용한 소형 전기 모터입니다.",
+      "no": "En liten elektrisk motor, nyttig for forskjellige enheter.",
+      "pl": "Mały silnik elektryczny, przydatny do różnych urządzeń.",
+      "pt": "Um pequeno motor elétrico, útil para vários dispositivos.",
+      "pt-BR": "Um pequeno motor elétrico, útil para vários dispositivos.",
+      "ru": "Небольшой электромотор, полезный для различных устройств.",
+      "sr": "Mali električni motor, koristan za razne uređaje.",
+      "tr": "Çeşitli cihazlar için kullanışlı küçük bir elektrik motoru.",
+      "uk": "Невеликий електромотор, корисний для різних пристроїв.",
+      "zh-CN": "小型电动马达，可用于各种装置。",
+      "zh-TW": "小型電動馬達，可用於各種裝置。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "Mechanical",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "oil": 2
+    },
+    "salvagesInto": {
+      "oil": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/motor.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "mushroom",
+    "name": {
+      "da": "Svamp",
+      "de": "Pilz",
+      "en": "Mushroom",
+      "es": "Seta",
+      "fr": "Champignon",
+      "he": "פטרייה",
+      "hr": "Gljiva",
+      "it": "Fungo",
+      "ja": "キノコ",
+      "ko-KR": "버섯",
+      "no": "Sopp",
+      "pl": "Grzyb",
+      "pt": "Cogumelo",
+      "pt-BR": "Cogumelo",
+      "ru": "Гриб",
+      "sr": "Gljiva",
+      "tr": "Mantar",
+      "uk": "Гриб",
+      "zh-CN": "蘑菇",
+      "zh-TW": "蘑菇"
+    },
+    "description": {
+      "da": "Kan indtages for at genvinde en lille mængde helbred.",
+      "de": "Kann zur Regeneration einer kleinen Menge Gesundheit verzehrt werden.",
+      "en": "Can be consumed to regain a small amount of health.",
+      "es": "Se puede consumir para recuperar una pequeña cantidad de salud.",
+      "fr": "Peut être consommé pour récupérer une petite quantité de santé.",
+      "he": "ניתנת לצריכה כדי להשיב כמות קטנה של בריאות.",
+      "hr": "Može se konzumirati za povrat male količine zdravlja.",
+      "it": "Può essere consumato per recuperare una piccola quantità di salute.",
+      "ja": "消費すると少量の体力を回復できる。",
+      "ko-KR": "소량의 체력을 회복하기 위해 섭취할 수 있다.",
+      "no": "Kan konsumeres for å gjenvinne en liten mengde helse.",
+      "pl": "Można spożyć, aby odzyskać niewielką ilość zdrowia.",
+      "pt": "Pode ser consumido para recuperar uma pequena quantidade de saúde.",
+      "pt-BR": "Pode ser consumido para recuperar uma pequena quantidade de vida.",
+      "ru": "Можно употребить для восстановления небольшого количества здоровья.",
+      "sr": "Može se konzumirati za povrat male količine zdravlja.",
+      "tr": "Az miktarda can kazanmak için tüketilebilir.",
+      "uk": "Можна вжити для відновлення невеликої кількості здоров'я.",
+      "zh-CN": "可以食用以恢复少量生命值。",
+      "zh-TW": "可以食用以恢復少量生命值。"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "foundIn": "Nature",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": 10,
+    "effects": {
+      "Healing": {
+        "value": 15,
+        "da": "Helbredelse",
+        "de": "Heilen",
+        "en": "Healing",
+        "es": "Curación",
+        "fr": "Soin",
+        "he": "ריפוי",
+        "hr": "Iscjeljenje",
+        "it": "Guarigione",
+        "ja": "回復",
+        "ko-KR": "치유",
+        "no": "Helbredelse",
+        "pl": "Leczenie",
+        "pt": "Cura",
+        "pt-BR": "Cura",
+        "ru": "Исцеление",
+        "sr": "Isceljenje",
+        "tr": "İyileştirme",
+        "uk": "Зцілення",
+        "zh-CN": "治疗",
+        "zh-TW": "治療"
+      },
+      "Use Time": {
+        "value": "1s",
+        "da": "Brugstid",
+        "de": "Verwendungszeit",
+        "en": "Use Time",
+        "es": "Tiempo de uso",
+        "fr": "Temps d'utilisation",
+        "he": "זמן שימוש",
+        "hr": "Vrijeme Korištenja",
+        "it": "Tempo d'uso",
+        "ja": "使用時間",
+        "ko-KR": "사용 시간",
+        "no": "Brukstid",
+        "pl": "Czas użycia",
+        "pt": "Tempo de uso",
+        "pt-BR": "Tempo de uso",
+        "ru": "Время использования",
+        "sr": "Vreme Korišćenja",
+        "tr": "Kullanım Süresi",
+        "uk": "Час використання",
+        "zh-CN": "使用时间",
+        "zh-TW": "使用時間"
+      }
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/mushroom.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "music_album",
+    "name": {
+      "da": "Musikalbum",
+      "de": "Musikalbum",
+      "en": "Music Album",
+      "es": "Álbum de música",
+      "fr": "Album de Musique",
+      "he": "אלבום מוזיקה",
+      "hr": "Glazbeni Album",
+      "it": "Album musicale",
+      "ja": "ミュージックアルバム",
+      "ko-KR": "음악 앨범",
+      "no": "Musikkalbum",
+      "pl": "Album muzyczny",
+      "pt": "Álbum de música",
+      "pt-BR": "Álbum de Música",
+      "ru": "Музыкальный альбом",
+      "sr": "Muzički Album",
+      "tr": "Müzik Albümü",
+      "uk": "Музичний альбом",
+      "zh-CN": "音乐专辑",
+      "zh-TW": "音樂專輯"
+    },
+    "description": {
+      "da": "Perfekt til afslappende aftener hjemme, uformelle sammenkomster og private luftguitarkoncerter.",
+      "de": "Perfekt für entspannte Abende zu Hause, lockere Treffen und private Luftgitarren-Konzerte.",
+      "en": "Perfect for relaxing nights at home, casual get-togethers, and private air guitar concerts.",
+      "es": "Perfecto para noches relajantes en casa, reuniones informales y conciertos privados de guitarra invisible.",
+      "fr": "Parfait pour les soirées détente à la maison, les réunions décontractées et les concerts privés de guitare imaginaire.",
+      "he": "מושלם ללילות רגועים בבית, מפגשים לא מחייבים, והופעות גיטרת אוויר פרטיות.",
+      "hr": "Savršen za opuštajuće večeri kod kuće, ležerne druženje i privatne koncerte zračne gitare.",
+      "it": "Perfetto per serate rilassanti a casa, incontri informali e concerti privati di chitarra invisibile.",
+      "ja": "家でのリラックスした夜、気軽な集まり、プライベートなエアギターコンサートに最適。",
+      "ko-KR": "집에서 편안한 밤, 캐주얼한 모임, 그리고 개인 에어 기타 콘서트에 완벽하다.",
+      "no": "Perfekt for avslappende kvelder hjemme, uformelle sammenkomster og private luftgitarkonserter.",
+      "pl": "Idealny na relaksujące wieczory w domu, swobodne spotkania i prywatne koncerty na gitarze powietrznej.",
+      "pt": "Perfeito para noites relaxantes em casa, encontros casuais e concertos privados de guitarra invisível.",
+      "pt-BR": "Perfeito para noites relaxantes em casa, encontros casuais e shows particulares de air guitar.",
+      "ru": "Идеально подходит для спокойных вечеров дома, непринужденных посиделок и приватных концертов на воображаемой гитаре.",
+      "sr": "Savršen za opuštajuće večeri kod kuće, ležerna druženja i privatne koncerte vazdušne gitare.",
+      "tr": "Evde rahat gecelerde, gündelik buluşmalarda ve özel hava gitarı konserlerinde mükemmel.",
+      "uk": "Ідеально підходить для спокійних вечорів вдома, невимушених посиденьок та приватних концертів на уявній гітарі.",
+      "zh-CN": "非常适合在家放松的夜晚、休闲聚会和私人空气吉他演奏会。",
+      "zh-TW": "非常適合在家放鬆的夜晚、休閒聚會和私人空氣吉他演奏會。"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "foundIn": "Residential, Commercial",
+    "value": 3000,
+    "weightKg": 0.3,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/music_album.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base"
+  },
+  {
     "id": "music_box",
     "name": {
       "da": "Spilledåse",
@@ -182,7 +736,7 @@
       "metal_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -191,6 +745,7 @@
         },
         "limit": 5,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Tian Wen"
       }
     ]
@@ -882,6 +1437,61 @@
     "addedIn": "1.7"
   },
   {
+    "id": "official_shutdown_documentation",
+    "name": {
+      "da": "Officiel dokumentation om nedlukning",
+      "de": "Offizielle Stilllegungsdokumentation",
+      "en": "Official Shutdown Documentation",
+      "es": "Documentación oficial de cierre",
+      "fr": "Documentation officielle de fermeture",
+      "he": "תיעוד השבתה רשמי",
+      "hr": "Službena dokumentacija o gašenju",
+      "it": "Documentazione ufficiale di spegnimento",
+      "ja": "公式な閉鎖ドキュメント",
+      "ko-KR": "공식 폐쇄 문서",
+      "no": "Offisiell nedstengingsdokumentasjon",
+      "pl": "Oficjalna dokumentacja zamknięcia",
+      "pt": "Documentação oficial de encerramento",
+      "pt-BR": "Documentação oficial de encerramento",
+      "ru": "Официальная документация о прекращении работы",
+      "sr": "Službena dokumentacija o gašenju",
+      "tr": "Resmî Kapatma Belgeleri",
+      "uk": "Офіційна документація про припинення роботи",
+      "zh-CN": "官方关停文件",
+      "zh-TW": "官方關閉文件"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
     "id": "oil",
     "name": {
       "da": "Olie",
@@ -933,10 +1543,6 @@
     "value": 300,
     "weightKg": 0.25,
     "stackSize": 15,
-    "craftBench": "in_raid",
-    "recipe": {
-      "motor": 1
-    },
     "recyclesInto": {
       "chemicals": 3
     },
@@ -944,7 +1550,7 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/oil.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -953,6 +1559,7 @@
         },
         "limit": 10,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Celeste"
       }
     ]
@@ -1384,12 +1991,8 @@
     "salvagesInto": {
       "medium_gun_parts": 2
     },
-    "upgradeCost": {
-      "advanced_mechanical_components": 1,
-      "medium_gun_parts": 2
-    },
     "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -1983,11 +2586,11 @@
       "medium_gun_parts": 3
     },
     "upgradeCost": {
-      "advanced_mechanical_components": 2,
+      "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 45.9,
     "damage": 45,
@@ -2616,7 +3219,7 @@
       "mechanical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -2625,6 +3228,7 @@
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 20,
         "trader": "Tian Wen"
       }
     ]
@@ -2681,9 +3285,8 @@
     "value": 2000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/painted_box.png",
-    "updatedAt": "11/03/2025",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -2947,12 +3550,8 @@
     "value": 60,
     "weightKg": 0.1,
     "stackSize": 50,
-    "craftBench": "in_raid",
-    "recipe": {
-      "surge_shield_recharger": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -3015,9 +3614,8 @@
     "value": 5000,
     "weightKg": 0.2,
     "stackSize": 3,
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/playing_cards.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -3240,7 +3838,8 @@
     "stackSize": 1,
     "questItem": true,
     "imageFilename": "https://cdn.arctracker.io/items/possibly_toxic_plant.png",
-    "updatedAt": "02/23/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
   },
   {
     "id": "poster_of_natural_wonders",
@@ -3350,9 +3949,8 @@
     "value": 2000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/pottery.png",
-    "updatedAt": "11/03/2025",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -3532,10 +4130,7 @@
     "value": 5000,
     "weightKg": 2,
     "stackSize": 3,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 3,
     "recipe": {
       "advanced_electrical_components": 2,
@@ -3549,7 +4144,7 @@
       "advanced_electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/power_rod.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -3666,10 +4261,6 @@
     "value": 500,
     "weightKg": 0.2,
     "stackSize": 5,
-    "craftBench": "in_raid",
-    "recipe": {
-      "projector": 1
-    },
     "recyclesInto": {
       "plastic_parts": 1,
       "wires": 1
@@ -3678,7 +4269,7 @@
       "plastic_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/processor.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -3687,6 +4278,7 @@
         },
         "limit": 5,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Celeste"
       }
     ]
@@ -3742,7 +4334,8 @@
     "value": 0,
     "weightKg": 0,
     "stackSize": 1,
-    "updatedAt": "02/24/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "1.17"
   },
   {
     "id": "projector",
@@ -3952,7 +4545,7 @@
       "chemicals": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
-    "updatedAt": "12/31/2025",
+    "updatedAt": "03/22/2026",
     "addedIn": "1.2",
     "vendors": [
       {
@@ -3961,6 +4554,7 @@
         },
         "limit": 6,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Apollo"
       }
     ]
@@ -4216,8 +4810,19 @@
       "sensors": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/raider_hatch_key.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
+    "vendors": [
+      {
+        "cost": {
+          "creds": 100
+        },
+        "limit": 2,
+        "refreshSeconds": 86400,
+        "requiredLevel": 7,
+        "trader": "Shani"
+      }
+    ]
   },
   {
     "id": "raiders_refuge_security_code",
@@ -4455,12 +5060,8 @@
     "salvagesInto": {
       "metal_parts": 4
     },
-    "upgradeCost": {
-      "metal_parts": 10,
-      "rubber_parts": 10
-    },
     "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -4677,11 +5278,11 @@
       "metal_parts": 8
     },
     "upgradeCost": {
-      "mechanical_components": 3,
-      "simple_gun_parts": 1
+      "metal_parts": 10,
+      "rubber_parts": 10
     },
     "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 54.8,
     "damage": 9,
@@ -5283,7 +5884,7 @@
       "plastic_parts": 4
     },
     "imageFilename": "https://cdn.arctracker.io/items/recorder.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "repairCost": {
       "plastic_parts": 4
@@ -5297,6 +5898,14 @@
         "limit": 6,
         "refreshSeconds": 86400,
         "trader": "Apollo"
+      },
+      {
+        "cost": {
+          "creds": 50
+        },
+        "limit": 3,
+        "refreshSeconds": 86400,
+        "trader": "Shani"
       }
     ]
   },
@@ -5352,9 +5961,8 @@
     "value": 5000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png",
-    "updatedAt": "11/04/2025",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -5524,7 +6132,7 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -5532,6 +6140,12 @@
           "coins": 450
         },
         "trader": "Apollo"
+      },
+      {
+        "cost": {
+          "creds": 10
+        },
+        "trader": "Shani"
       }
     ]
   },
@@ -5774,13 +6388,14 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
         "cost": {
           "coins": 810
         },
+        "requiredLevel": 7,
         "trader": "Apollo"
       }
     ]
@@ -5968,12 +6583,8 @@
     "salvagesInto": {
       "medium_gun_parts": 2
     },
-    "upgradeCost": {
-      "advanced_mechanical_components": 1,
-      "medium_gun_parts": 2
-    },
     "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
       "magazine": [
@@ -6015,6 +6626,7 @@
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Tian Wen"
       }
     ]
@@ -6513,11 +7125,11 @@
       "medium_gun_parts": 3
     },
     "upgradeCost": {
-      "advanced_mechanical_components": 2,
+      "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 55.8,
     "damage": 35,
@@ -6951,9 +7563,8 @@
         "zh-TW": "使用時間"
       }
     },
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/resin.png",
-    "updatedAt": "11/04/2025",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -7258,10 +7869,6 @@
     "value": 500,
     "weightKg": 0.3,
     "stackSize": 5,
-    "craftBench": "in_raid",
-    "recipe": {
-      "zipline": 1
-    },
     "recyclesInto": {
       "fabric": 5
     },
@@ -7269,7 +7876,7 @@
       "fabric": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/rope.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -7278,6 +7885,7 @@
         },
         "limit": 5,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Celeste"
       }
     ]
@@ -7570,12 +8178,8 @@
     "value": 50,
     "weightKg": 0.1,
     "stackSize": 50,
-    "craftBench": "in_raid",
-    "recipe": {
-      "rubber_pad": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -8402,6 +9006,116 @@
     "addedIn": "1.2"
   },
   {
+    "id": "scout_patrol_note",
+    "name": {
+      "da": "Spejderpatruljens note",
+      "de": "Späherpatrouillen-Notiz",
+      "en": "Scout Patrol Note",
+      "es": "Nota de patrulla de exploradores",
+      "fr": "Note de patrouille d'éclaireurs",
+      "he": "פתק סיור סיירים",
+      "hr": "Bilješka izvidničke patrole",
+      "it": "Nota di pattuglia scout",
+      "ja": "偵察パトロールのメモ",
+      "ko-KR": "정찰 순찰 메모",
+      "no": "Speiderpatruljenotat",
+      "pl": "Notatka patrolu zwiadowczego",
+      "pt": "Nota de patrulha de reconhecimento",
+      "pt-BR": "Bilhete da Patrulha de Reconhecimento",
+      "ru": "Записка разведывательного патруля",
+      "sr": "Beleška izviđačke patrole",
+      "tr": "İzci Devriyesi Notu",
+      "uk": "Записка розвідувального патруля",
+      "zh-CN": "侦察兵巡逻笔记",
+      "zh-TW": "偵察兵巡邏筆記"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
+    "id": "secret_meeting_info",
+    "name": {
+      "da": "Information om hemmeligt møde",
+      "de": "Geheime Besprechungsinfos",
+      "en": "Secret Meeting Info",
+      "es": "Información de reunión secreta",
+      "fr": "Informations sur la réunion secrète",
+      "he": "מידע על פגישה סודית",
+      "hr": "Informacije o tajnom sastanku",
+      "it": "Informazioni sulla riunione segreta",
+      "ja": "秘密の会議情報",
+      "ko-KR": "비밀 회의 정보",
+      "no": "Hemmelig møteinformasjon",
+      "pl": "Informacje o tajnym spotkaniu",
+      "pt": "Informações de reunião secreta",
+      "pt-BR": "Informações da Reunião Secreta",
+      "ru": "Информация о секретной встрече",
+      "sr": "Informacije o tajnom sastanku",
+      "tr": "Gizli Toplantı Bilgileri",
+      "uk": "Інформація про секретну зустріч",
+      "zh-CN": "秘密会议信息",
+      "zh-TW": "秘密會議資訊"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
     "id": "seeker_grenade_blueprint",
     "name": {
       "da": "Søgergranat-tegning",
@@ -8569,7 +9283,7 @@
       "chemicals": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "1.2",
     "vendors": [
       {
@@ -8578,6 +9292,7 @@
         },
         "limit": 6,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Apollo"
       }
     ]
@@ -8634,10 +9349,6 @@
     "value": 500,
     "weightKg": 0.3,
     "stackSize": 5,
-    "craftBench": "in_raid",
-    "recipe": {
-      "broken_handheld_radio": 1
-    },
     "recyclesInto": {
       "metal_parts": 1,
       "wires": 1
@@ -8646,7 +9357,7 @@
       "wires": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/sensors.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -8655,6 +9366,7 @@
         },
         "limit": 5,
         "refreshSeconds": 86400,
+        "requiredLevel": 12,
         "trader": "Celeste"
       }
     ]
@@ -8786,911 +9498,21 @@
       "plastic_parts": 4
     },
     "imageFilename": "https://cdn.arctracker.io/items/shaker.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "1.7",
     "repairCost": {
       "plastic_parts": 4
     },
-    "repairDurability": 0.5
-  },
-  {
-    "id": "shield_recharger",
-    "name": {
-      "da": "Skjoldoplader",
-      "de": "Schildauflader",
-      "en": "Shield Recharger",
-      "es": "Cargador de escudos",
-      "fr": "Chargeur de Bouclier",
-      "he": "מטען מגן",
-      "hr": "Punjač štita",
-      "it": "Caricascudi",
-      "ja": "シールドリチャージャー",
-      "ko-KR": "실드 충전기",
-      "no": "Skjoldlader",
-      "pl": "Ładowarka tarczy",
-      "pt": "Recarregador de escudo",
-      "pt-BR": "Recarregador de Escudo",
-      "ru": "Устройство для перезарядки щита",
-      "sr": "Punjač štita",
-      "tr": "Kalkan Doldurucu",
-      "uk": "Зарядник щита",
-      "zh-CN": "护盾充能器",
-      "zh-TW": "護盾充能器"
-    },
-    "description": {
-      "da": "Et håndholdt sæt, der gradvist oplader skjoldet over tid.",
-      "de": "Ein Hangerät, das Schilde im Laufe der Zeit wieder auflädt.",
-      "en": "A handheld kit that gradually recharges shield over time.",
-      "es": "Un kit portátil que recarga gradualmente el escudo con el tiempo.",
-      "fr": "Un kit portable qui recharge progressivement le bouclier au fil du temps.",
-      "he": "ערכה ניידת הטוענת את המגן בהדרגה לאורך זמן.",
-      "hr": "Ručni komplet koji postupno puni štit tijekom vremena.",
-      "it": "Un kit portatile che ricarica gradualmente lo scudo nel tempo.",
-      "ja": "時間経過とともにシールドを徐々に回復する携帯キット。",
-      "ko-KR": "시간이 지남에 따라 실드를 점진적으로 충전하는 휴대용 키트입니다.",
-      "no": "Et håndholdt sett som gradvis lader opp skjoldet over tid.",
-      "pl": "Przenośny zestaw, który stopniowo ładuje tarczę w czasie.",
-      "pt": "Um kit portátil que recarrega gradualmente o escudo ao longo do tempo.",
-      "pt-BR": "Kit portátil que recarrega o escudo de forma gradual ao longo do tempo.",
-      "ru": "Портативный набор, который постепенно восстанавливает щит со временем.",
-      "sr": "Ručni komplet koji postepeno puni štit tokom vremena.",
-      "tr": "Zaman içinde kalkanı kademeli olarak şarj eden taşınabilir bir kit.",
-      "uk": "Портативний набір, який поступово відновлює щит з часом.",
-      "zh-CN": "一个手持套件，可随时间逐渐为护盾充能。",
-      "zh-TW": "一個手持套件，可隨時間逐漸為護盾充能。"
-    },
-    "type": "Quick Use",
-    "rarity": "Uncommon",
-    "value": 520,
-    "weightKg": 0.15,
-    "stackSize": 5,
-    "effects": {
-      "Duration": {
-        "value": "10s",
-        "da": "Varighed",
-        "de": "Dauer",
-        "en": "Duration",
-        "es": "Duración",
-        "fr": "Durée",
-        "he": "משך",
-        "hr": "Trajanje",
-        "it": "Durata",
-        "ja": "持続時間",
-        "ko-KR": "지속 시간",
-        "no": "Varighet",
-        "pl": "Czas trwania",
-        "pt": "Duração",
-        "pt-BR": "Duração",
-        "ru": "Длительность",
-        "sr": "Trajanje",
-        "tr": "Süre",
-        "uk": "Тривалість",
-        "zh-CN": "持续时间",
-        "zh-TW": "持續時間"
-      },
-      "Recharge": {
-        "value": "4/s",
-        "da": "Opladning",
-        "de": "Aufladung",
-        "en": "Recharge",
-        "es": "Recarga",
-        "fr": "Recharge",
-        "he": "טעינה",
-        "hr": "Punjenje",
-        "it": "Ricarica",
-        "ja": "回復量",
-        "ko-KR": "충전",
-        "no": "Lading",
-        "pl": "Ładowanie",
-        "pt": "Recarga",
-        "pt-BR": "Recarga",
-        "ru": "Восстановление",
-        "sr": "Punjenje",
-        "tr": "Şarj",
-        "uk": "Відновлення",
-        "zh-CN": "充能",
-        "zh-TW": "充能"
-      },
-      "Use Time": {
-        "value": "2s",
-        "da": "Brugstid",
-        "de": "Verwendungszeit",
-        "en": "Use Time",
-        "es": "Tiempo de uso",
-        "fr": "Temps d'utilisation",
-        "he": "זמן שימוש",
-        "hr": "Vrijeme korištenja",
-        "it": "Tempo di utilizzo",
-        "ja": "使用時間",
-        "ko-KR": "사용 시간",
-        "no": "Brukstid",
-        "pl": "Czas użycia",
-        "pt": "Tempo de uso",
-        "pt-BR": "Tempo de uso",
-        "ru": "Время использования",
-        "sr": "Vreme korišćenja",
-        "tr": "Kullanım Süresi",
-        "uk": "Час використання",
-        "zh-CN": "使用时间",
-        "zh-TW": "使用時間"
-      }
-    },
-    "craftBench": [
-      "in_raid",
-      "med_station",
-      "workbench"
-    ],
-    "stationLevelRequired": 1,
-    "recipe": {
-      "arc_powercell": 1,
-      "rubber_parts": 5
-    },
-    "recyclesInto": {
-      "rubber_parts": 4
-    },
-    "salvagesInto": {
-      "rubber_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/shield_recharger.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
+    "repairDurability": 0.5,
     "vendors": [
       {
         "cost": {
-          "coins": 1560
-        },
-        "trader": "Lance"
-      }
-    ]
-  },
-  {
-    "id": "shotgun_ammo",
-    "name": {
-      "da": "Haglammunition",
-      "de": "Schrotflintenmunition",
-      "en": "Shotgun Ammo",
-      "es": "Munición de escopeta",
-      "fr": "Cartouches de Pompe",
-      "he": "תחמושת רובה ציד",
-      "hr": "Streljivo za Sačmaru",
-      "it": "Munizioni fucile",
-      "ja": "ショットガンの弾薬",
-      "ko-KR": "산탄총 탄약",
-      "no": "Hagleammunisjon",
-      "pl": "Amunicja do strzelby",
-      "pt": "Munição de espingarda",
-      "pt-BR": "Munição de Escopeta",
-      "ru": "Патрон для дробовика",
-      "sr": "Streljivo za Sačmaru",
-      "tr": "Av Tüfeği Cephanesi",
-      "uk": "Патрони для дробовика",
-      "zh-CN": "霰弹枪弹药",
-      "zh-TW": "霰彈槍彈藥"
-    },
-    "description": {
-      "da": "Kompatibel med: Il Toro, Vulcano",
-      "de": "Kompatibel mit: Il Toro, Vulcano",
-      "en": "Compatible with: Il Toro, Vulcano",
-      "es": "Compatible con: Il Toro, Vulcano",
-      "fr": "Compatible avec : Il Toro, Vulcano",
-      "he": "תואם ל: Il Toro, Vulcano",
-      "hr": "Kompatibilno s: Il Toro, Vulcano",
-      "it": "Compatibile con: Il Toro, Vulcano",
-      "ja": "対応武器：Il Toro、Vulcano",
-      "ko-KR": "호환 무기: 일 토로, 불카노",
-      "no": "Kompatibel med: Il Toro, Vulcano",
-      "pl": "Kompatybilny z: Il Toro, Vulcano",
-      "pt": "Compatível com: Il Toro, Vulcano",
-      "pt-BR": "Compatível com: Vulcão, Il Toro",
-      "ru": "Совместимо с: Il Toro, Vulcano",
-      "sr": "Kompatibilno sa: Il Toro, Vulcano",
-      "tr": "Uyumlu silahlar: Il Toro, Vulcano",
-      "uk": "Сумісно з: Il Toro, Vulcano",
-      "zh-CN": "兼容武器：Il Toro、Vulcano",
-      "zh-TW": "相容武器：Il Toro、Vulcano"
-    },
-    "type": "Ammunition",
-    "rarity": "Common",
-    "value": 20,
-    "weightKg": 0.085,
-    "stackSize": 20,
-    "craftQuantity": 5,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
-    "craftBench": "workbench",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "chemicals": 2,
-      "metal_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_ammo.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "coins": 900
-        },
-        "trader": "Tian Wen"
-      }
-    ]
-  },
-  {
-    "id": "shotgun_choke_i",
-    "name": {
-      "da": "Haglchoke I",
-      "de": "Schrotflintenchoke I",
-      "en": "Shotgun Choke I",
-      "es": "Estrangulador de escopeta I",
-      "fr": "Choke de Fusil à Pompe I",
-      "he": "צ'וק לרובה ציד I",
-      "hr": "Sačmarski Čok I",
-      "it": "Strozzatore fucile I",
-      "ja": "ショットガン・チョーク I",
-      "ko-KR": "산탄총 초크 I",
-      "no": "Haglesperre I",
-      "pl": "Dławik strzelby I",
-      "pt": "Afogador de espingarda I",
-      "pt-BR": "Choque de Escopeta I",
-      "ru": "Чок для дробовика I",
-      "sr": "Sačmarski Čok I",
-      "tr": "Av Tüfeği Boğumlu Namlusu I",
-      "uk": "Чок для дробовика I",
-      "zh-CN": "霰弹枪收束器 I",
-      "zh-TW": "霰彈槍收束器 I"
-    },
-    "description": {
-      "da": "Reducerer grundspredning lidt. Kompatibel med: Il Toro, Vulcano",
-      "de": "Verringert die Grundstreuung geringfügig. Kompatibel mit: Il Toro, Vulcano",
-      "en": "Slightly reduces base dispersion. Compatible with: Il Toro, Vulcano",
-      "es": "Reduce ligeramente la dispersión base. Compatible con: Il Toro, Vulcano",
-      "fr": "Réduit légèrement la dispersion de base. Compatible avec : Il Toro, Vulcano",
-      "he": "מפחית מעט את הפיזור הבסיסי. תואם ל: Il Toro, Vulcano",
-      "hr": "Blago smanjuje osnovnu raspršenost. Kompatibilno s: Il Toro, Vulcano",
-      "it": "Riduce leggermente la dispersione base. Compatibile con: Il Toro, Vulcano",
-      "ja": "基本拡散をわずかに軽減する。対応武器：Il Toro、Vulcano",
-      "ko-KR": "기본 분산을 약간 감소시킨다. 호환 무기: 일 토로, 불카노",
-      "no": "Reduserer grunnspredning litt. Kompatibel med: Il Toro, Vulcano",
-      "pl": "Nieznacznie zmniejsza bazowy rozrzut. Kompatybilny z: Il Toro, Vulcano",
-      "pt": "Reduz ligeiramente a dispersão base. Compatível com: Il Toro, Vulcano",
-      "pt-BR": "Reduz de maneira sutil a dispersão básica. Compatível com: Vulcão, Il Toro",
-      "ru": "Немного снижает базовый разброс. Совместимо с: Il Toro, Vulcano",
-      "sr": "Blago smanjuje osnovnu raspršenost. Kompatibilno sa: Il Toro, Vulcano",
-      "tr": "Temel dağılımı hafifçe azaltır. Uyumlu: Il Toro, Vulcano",
-      "uk": "Трохи зменшує базове розсіювання. Сумісно з: Il Toro, Vulcano",
-      "zh-CN": "略微降低基础散布。兼容武器：Il Toro、Vulcano",
-      "zh-TW": "略微降低基礎散布。相容武器：Il Toro、Vulcano"
-    },
-    "type": "Modification",
-    "rarity": "Common",
-    "value": 640,
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
-    "effects": {
-      "Reduced Base Dispersion": {
-        "value": "10%",
-        "da": "Reduceret grundspredning",
-        "de": "Verringerte Grundstreuung",
-        "en": "Reduced Base Dispersion",
-        "es": "Dispersión base reducida",
-        "fr": "Dispersion de base réduite",
-        "he": "פיזור בסיסי מופחת",
-        "hr": "Smanjena Osnovna Raspršenost",
-        "it": "Dispersione base ridotta",
-        "ja": "基本拡散軽減",
-        "ko-KR": "기본 분산 감소",
-        "no": "Redusert grunnspredning",
-        "pl": "Zmniejszony bazowy rozrzut",
-        "pt": "Dispersão base reduzida",
-        "pt-BR": "Dispersão Base Reduzida",
-        "ru": "Снижение базового разброса",
-        "sr": "Smanjena Osnovna Raspršenost",
-        "tr": "Azaltılmış Temel Dağılım",
-        "uk": "Зменшення базового розсіювання",
-        "zh-CN": "降低基础散布",
-        "zh-TW": "降低基礎散布"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "metal_parts": 6,
-      "wires": 1
-    },
-    "recyclesInto": {
-      "metal_parts": 5
-    },
-    "salvagesInto": {
-      "metal_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_i.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "coins": 1920
-        },
-        "limit": 5,
-        "refreshSeconds": 86400,
-        "trader": "Tian Wen"
-      }
-    ]
-  },
-  {
-    "id": "shotgun_choke_ii_blueprint",
-    "name": {
-      "da": "Haglgevaer-choke II-tegning",
-      "de": "Bauplan: Schrotflintenchoke II",
-      "en": "Shotgun Choke II Blueprint",
-      "es": "Plano de Estrangulador de escopeta II",
-      "fr": "Schema Choke de Fusil a Pompe II",
-      "he": "שרטוט צ'וק לרובה ציד II",
-      "hr": "Sacmarica cok II Nacrt",
-      "it": "Progetto Strozzatore per fucile II",
-      "ja": "ショットガン・チョーク II 設計図",
-      "ko-KR": "산탄총 초크 II 설계도",
-      "no": "Haglekveler II-tegning",
-      "pl": "Projekt Dlawik do strzelby II",
-      "pt": "Projeto de Afogador de espingarda II",
-      "pt-BR": "Esquema de Choque de Escopeta II",
-      "ru": "Чертеж — Чок для дробовика II",
-      "sr": "Sacmarica cok II Nacrt",
-      "tr": "Av Tüfeği Boğumlu Namlusu II Taslağı",
-      "uk": "Креслення Дульне звуження II",
-      "zh-CN": "霰弹枪收束器 II 蓝图",
-      "zh-TW": "霰彈槍收束器 II 藍圖"
-    },
-    "description": {
-      "da": "Reducerer grundspredning moderat. Kompatibel med: Il Toro, Vulcano",
-      "de": "Verringert die Grundstreuung moderat. Kompatibel mit: Il Toro, Vulcano",
-      "en": "Moderately reduces base dispersion. Compatible with: Il Toro, Vulcano",
-      "es": "Reduce moderadamente la dispersion base. Compatible con: Il Toro, Vulcano",
-      "fr": "Reduit moderement la dispersion de base. Compatible avec : Il Toro, Vulcano",
-      "he": "מפחית במידה בינונית את הפיזור הבסיסי. תואם ל: Il Toro, Vulcano",
-      "hr": "Umjereno smanjuje osnovnu rasprsenost. Kompatibilno s: Il Toro, Vulcano",
-      "it": "Riduce moderatamente la dispersione base. Compatibile con: Il Toro, Vulcano",
-      "ja": "基本拡散を適度に減少させる。対応武器：Il Toro、Vulcano",
-      "ko-KR": "기본 분산을 적당히 감소시킵니다. 호환 무기: 일 토로, 불카노",
-      "no": "Reduserer grunnspredning moderat. Kompatibel med: Il Toro, Vulcano",
-      "pl": "Umiarkowanie redukuje podstawowy rozrzut. Kompatybilny z: Il Toro, Vulcano",
-      "pt": "Reduz moderadamente a dispersao base. Compativel com: Il Toro, Vulcano",
-      "pt-BR": "Reduz moderadamente a dispersão base. Compatível com: Il Toro, Vulcano",
-      "ru": "Умеренно снижает базовый разброс. Совместимо с: Il Toro, Vulcano",
-      "sr": "Umereno smanjuje osnovnu rasprsenost. Kompatibilno sa: Il Toro, Vulcano",
-      "tr": "Temel dagılımı orta duzeyde azaltır. Uyumlu: Il Toro, Vulcano",
-      "uk": "Помірно зменшує базове розсіювання. Сумісно з: Il Toro, Vulcano",
-      "zh-CN": "适度降低基础散布。兼容武器：Il Toro、Vulcano",
-      "zh-TW": "適度降低基礎散布。相容武器：Il Toro、Vulcano"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_ii.png",
-    "updatedAt": "12/07/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "shotgun_choke_ii",
-    "name": {
-      "da": "Haglgevær-choke II",
-      "de": "Schrotflintenchoke II",
-      "en": "Shotgun Choke II",
-      "es": "Estrangulador de escopeta II",
-      "fr": "Choke de Fusil à Pompe II",
-      "he": "צ'וק לרובה ציד II",
-      "hr": "Sačmarica čok II",
-      "it": "Strozzatore per fucile II",
-      "ja": "ショットガン・チョーク II",
-      "ko-KR": "산탄총 초크 II",
-      "no": "Haglekveler II",
-      "pl": "Dławik do strzelby II",
-      "pt": "Afogador de espingarda II",
-      "pt-BR": "Choque de Escopeta II",
-      "ru": "Чок для дробовика II",
-      "sr": "Sačmarica čok II",
-      "tr": "Av Tüfeği Boğumlu Namlusu II",
-      "uk": "Дульне звуження II",
-      "zh-CN": "霰弹枪收束器 II",
-      "zh-TW": "霰彈槍收束器 II"
-    },
-    "description": {
-      "da": "Reducerer grundspredning moderat. Kompatibel med: Il Toro, Vulcano",
-      "de": "Verringert die Grundstreuung moderat. Kompatibel mit: Il Toro, Vulcano",
-      "en": "Moderately reduces base dispersion. Compatible with: Il Toro, Vulcano",
-      "es": "Reduce moderadamente la dispersión base. Compatible con: Il Toro, Vulcano",
-      "fr": "Réduit modérément la dispersion de base. Compatible avec : Il Toro, Vulcano",
-      "he": "מפחית באופן בינוני את הפיזור הבסיסי. תואם ל: Il Toro, Vulcano",
-      "hr": "Umjereno smanjuje osnovnu raspršenost. Kompatibilno s: Il Toro, Vulcano",
-      "it": "Riduce moderatamente la dispersione base. Compatibile con: Il Toro, Vulcano",
-      "ja": "基本拡散を適度に減少させる。対応武器：Il Toro、Vulcano",
-      "ko-KR": "기본 분산을 적당히 감소시킵니다. 호환 무기: 일 토로, 불카노",
-      "no": "Reduserer grunnspredning moderat. Kompatibel med: Il Toro, Vulcano",
-      "pl": "Umiarkowanie redukuje podstawowy rozrzut. Kompatybilny z: Il Toro, Vulcano",
-      "pt": "Reduz moderadamente a dispersão base. Compatível com: Il Toro, Vulcano",
-      "pt-BR": "Reduz moderadamente a dispersão base. Compatível com: Il Toro, Vulcano",
-      "ru": "Умеренно снижает базовый разброс. Совместимо с: Il Toro, Vulcano",
-      "sr": "Umereno smanjuje osnovnu raspršenost. Kompatibilno sa: Il Toro, Vulcano",
-      "tr": "Temel dağılımı orta düzeyde azaltır. Uyumlu: Il Toro, Vulcano",
-      "uk": "Помірно зменшує базове розсіювання. Сумісно з: Il Toro, Vulcano",
-      "zh-CN": "适度降低基础散布。兼容武器：Il Toro、Vulcano",
-      "zh-TW": "適度降低基礎散布。相容武器：Il Toro、Vulcano"
-    },
-    "type": "Modification",
-    "rarity": "Uncommon",
-    "value": 2000,
-    "weightKg": 0.5,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
-    "blueprintLocked": true,
-    "effects": {
-      "Reduced Base Dispersion": {
-        "value": "20%",
-        "da": "Reduceret grundspredning",
-        "de": "Verringerte Grundstreuung",
-        "en": "Reduced Base Dispersion",
-        "es": "Dispersión base reducida",
-        "fr": "Dispersion de base réduite",
-        "he": "פיזור בסיסי מופחת",
-        "hr": "Smanjena osnovna raspršenost",
-        "it": "Dispersione base ridotta",
-        "ja": "基本拡散減少",
-        "ko-KR": "기본 분산 감소",
-        "no": "Redusert grunnspredning",
-        "pl": "Zredukowany podstawowy rozrzut",
-        "pt": "Dispersão base reduzida",
-        "pt-BR": "Dispersão Base Reduzida",
-        "ru": "Уменьшенный базовый разброс",
-        "sr": "Smanjena osnovna raspršenost",
-        "tr": "Azaltılmış Temel Dağılım",
-        "uk": "Зменшене базове розсіювання",
-        "zh-CN": "降低基础散布",
-        "zh-TW": "降低基礎散布"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "stationLevelRequired": 2,
-    "recipe": {
-      "mechanical_components": 2,
-      "wires": 4
-    },
-    "recyclesInto": {
-      "mechanical_components": 1,
-      "wires": 1
-    },
-    "salvagesInto": {
-      "mechanical_components": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_ii.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "coins": 6000
+          "creds": 40
         },
         "limit": 3,
         "refreshSeconds": 86400,
-        "trader": "Tian Wen"
+        "trader": "Shani"
       }
     ]
-  },
-  {
-    "id": "shotgun_choke_iii_blueprint",
-    "name": {
-      "da": "Haglgevaer choke III-tegning",
-      "de": "Bauplan: Schrotflintenchoke III",
-      "en": "Shotgun Choke III Blueprint",
-      "es": "Plano de Estrangulador de escopeta III",
-      "fr": "Schema Choke de Fusil a Pompe III",
-      "he": "שרטוט צ'וק לרובה ציד III",
-      "hr": "Sacmarica Prigusnica III Nacrt",
-      "it": "Progetto Strozzatore fucile III",
-      "ja": "ショットガン・チョーク III 設計図",
-      "ko-KR": "산탄총 초크 III 설계도",
-      "no": "Haglesjoke III-tegning",
-      "pl": "Projekt Dlawik strzelby III",
-      "pt": "Projeto de Afogador de espingarda III",
-      "pt-BR": "Esquema de Choque de Escopeta III",
-      "ru": "Чертеж — Чок для дробовика III",
-      "sr": "Sacmarica Prigusnica III Nacrt",
-      "tr": "Av Tüfeği Boğumlu Namlusu III Taslağı",
-      "uk": "Креслення Дульне звуження III",
-      "zh-CN": "霰弹枪收束器 III 蓝图",
-      "zh-TW": "霰彈槍收束器 III 藍圖"
-    },
-    "description": {
-      "da": "Reducerer betydeligt grundspredning.",
-      "de": "Verringert die Grundstreuung erheblich.",
-      "en": "Significantly reduces base dispersion.",
-      "es": "Reduce significativamente la dispersion base.",
-      "fr": "Reduit considerablement la dispersion de base.",
-      "he": "מפחית משמעותית את הפיזור הבסיסי.",
-      "hr": "Znacajno smanjuje osnovno rasprsenje.",
-      "it": "Riduce significativamente la dispersione base.",
-      "ja": "基本拡散を大幅に軽減します。",
-      "ko-KR": "기본 분산도를 크게 감소시킵니다.",
-      "no": "Reduserer betydelig grunnspredning.",
-      "pl": "Znaczaco zmniejsza podstawowy rozrzut.",
-      "pt": "Reduz significativamente a dispersao base.",
-      "pt-BR": "Reduz significativamente a dispersão base.",
-      "ru": "Значительно уменьшает базовый разброс.",
-      "sr": "Znacajno smanjuje osnovno rasprsenje.",
-      "tr": "Temel dagılmayı onemli olcude azaltır.",
-      "uk": "Значно зменшує базовий розкид.",
-      "zh-CN": "大幅减少基础扩散度。",
-      "zh-TW": "大幅減少基礎擴散度。"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_iii.png",
-    "updatedAt": "12/07/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "shotgun_choke_iii",
-    "name": {
-      "da": "Haglgevær choke III",
-      "de": "Schrotflintenchoke III",
-      "en": "Shotgun Choke III",
-      "es": "Estrangulador de escopeta III",
-      "fr": "Choke de Fusil à Pompe III",
-      "he": "צ'וק לרובה ציד III",
-      "hr": "Sačmarica Prigušnica III",
-      "it": "Strozzatore fucile III",
-      "ja": "ショットガン・チョーク III",
-      "ko-KR": "산탄총 초크 III",
-      "no": "Haglesjoke III",
-      "pl": "Dławik strzelby III",
-      "pt": "Afogador de espingarda III",
-      "pt-BR": "Choque de Escopeta III",
-      "ru": "Чок для дробовика III",
-      "sr": "Sačmarica Prigušnica III",
-      "tr": "Av Tüfeği Boğumlu Namlusu III",
-      "uk": "Дульне звуження III",
-      "zh-CN": "霰弹枪收束器 III",
-      "zh-TW": "霰彈槍收束器 III"
-    },
-    "description": {
-      "da": "Reducerer betydeligt grundspredning.",
-      "de": "Verringert die Grundstreuung erheblich.",
-      "en": "Significantly reduces base dispersion.",
-      "es": "Reduce significativamente la dispersión base.",
-      "fr": "Réduit considérablement la dispersion de base.",
-      "he": "מפחית משמעותית את הפיזור הבסיסי.",
-      "hr": "Značajno smanjuje osnovno raspršenje.",
-      "it": "Riduce significativamente la dispersione base.",
-      "ja": "基本拡散を大幅に軽減します。",
-      "ko-KR": "기본 분산도를 크게 감소시킵니다.",
-      "no": "Reduserer betydelig grunnspredning.",
-      "pl": "Znacząco zmniejsza podstawowy rozrzut.",
-      "pt": "Reduz significativamente a dispersão base.",
-      "pt-BR": "Reduz significativamente a dispersão base.",
-      "ru": "Значительно уменьшает базовый разброс.",
-      "sr": "Značajno smanjuje osnovno raspršenje.",
-      "tr": "Temel dağılmayı önemli ölçüde azaltır.",
-      "uk": "Значно зменшує базовий розкид.",
-      "zh-CN": "大幅减少基础扩散度。",
-      "zh-TW": "大幅減少基礎擴散度。"
-    },
-    "type": "Modification",
-    "rarity": "Rare",
-    "value": 5000,
-    "weightKg": 0.75,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
-    "blueprintLocked": true,
-    "effects": {
-      "Compatible With": {
-        "value": "Il Toro, Vulcano",
-        "da": "Kompatibel med",
-        "de": "Kompatibel mit",
-        "en": "Compatible With",
-        "es": "Compatible con",
-        "fr": "Compatible avec",
-        "he": "תואם ל",
-        "hr": "Kompatibilno S",
-        "it": "Compatibile con",
-        "ja": "対応武器",
-        "ko-KR": "호환 무기",
-        "no": "Kompatibel med",
-        "pl": "Kompatybilny z",
-        "pt": "Compatível com",
-        "pt-BR": "Compatível com",
-        "ru": "Совместимо с",
-        "sr": "Kompatibilno Sa",
-        "tr": "Uyumlu",
-        "uk": "Сумісно з",
-        "zh-CN": "兼容武器",
-        "zh-TW": "相容武器"
-      },
-      "Increased Durability Burn Rate": {
-        "value": "20%",
-        "da": "Øget holdbarhedsforbrændingshastighed",
-        "de": "Erhöhte Haltbarkeitsverbrauchsrate",
-        "en": "Increased Durability Burn Rate",
-        "es": "Tasa de desgaste de durabilidad aumentada",
-        "fr": "Taux de consommation de durabilité augmenté",
-        "he": "קצב שחיקת עמידות מוגבר",
-        "hr": "Povećana Stopa Trošenja Izdržljivosti",
-        "it": "Tasso di consumo Tenuta aumentato",
-        "ja": "耐久性消耗率増加",
-        "ko-KR": "내구도 소모율 증가",
-        "no": "Økt holdbarhetsforbrenningshastighet",
-        "pl": "Zwiększona szybkość zużycia wytrzymałości",
-        "pt": "Taxa de consumo de durabilidade aumentada",
-        "pt-BR": "Taxa de consumo de durabilidade aumentada",
-        "ru": "Увеличенная скорость износа прочности",
-        "sr": "Povećana Stopa Trošenja Izdržljivosti",
-        "tr": "Artırılmış Dayanıklılık Tükenme Oranı",
-        "uk": "Збільшена швидкість зносу міцності",
-        "zh-CN": "耐久度消耗速率增加",
-        "zh-TW": "耐久度消耗速率增加"
-      },
-      "Reduced Base Dispersion": {
-        "value": "30%",
-        "da": "Reduceret grundspredning",
-        "de": "Reduzierte Grundstreuung",
-        "en": "Reduced Base Dispersion",
-        "es": "Dispersión base reducida",
-        "fr": "Dispersion de base réduite",
-        "he": "פיזור בסיסי מופחת",
-        "hr": "Smanjeno Osnovno Raspršenje",
-        "it": "Dispersione base ridotta",
-        "ja": "基本拡散減少",
-        "ko-KR": "기본 분산도 감소",
-        "no": "Redusert grunnspredning",
-        "pl": "Zmniejszony podstawowy rozrzut",
-        "pt": "Dispersão base reduzida",
-        "pt-BR": "Dispersão base reduzida",
-        "ru": "Уменьшенный базовый разброс",
-        "sr": "Smanjeno Osnovno Raspršenje",
-        "tr": "Azaltılmış Temel Dağılma",
-        "uk": "Зменшений базовий розкид",
-        "zh-CN": "基础扩散度降低",
-        "zh-TW": "基礎擴散度降低"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "stationLevelRequired": 3,
-    "recipe": {
-      "mod_components": 2,
-      "wires": 8
-    },
-    "recyclesInto": {
-      "mod_components": 1,
-      "wires": 2
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_iii.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "shotgun_silencer_blueprint",
-    "name": {
-      "da": "Haglgevaer-lyddaemper-tegning",
-      "de": "Bauplan: Schrotflinten-Schalldampfer",
-      "en": "Shotgun Silencer Blueprint",
-      "es": "Plano de Silenciador de escopeta",
-      "fr": "Schema Silencieux de Fusil a Pompe",
-      "he": "שרטוט משתיק קול לרובה ציד",
-      "hr": "Prigusivac za sacmaru Nacrt",
-      "it": "Progetto Silenziatore per fucile a pompa",
-      "ja": "ショットガン・サイレンサー 設計図",
-      "ko-KR": "산탄총 소음기 설계도",
-      "no": "Hagledemper-tegning",
-      "pl": "Projekt Tlumik do strzelby",
-      "pt": "Projeto de Silenciador de espingarda",
-      "pt-BR": "Esquema de Silenciador de Escopeta",
-      "ru": "Чертеж — Глушитель для дробовика",
-      "sr": "Prigusivac za sacmaru Nacrt",
-      "tr": "Pompalı Tüfek Susturucusu Taslağı",
-      "uk": "Креслення Глушник для дробовика",
-      "zh-CN": "霰弹枪消音器 蓝图",
-      "zh-TW": "霰彈槍消音器 藍圖"
-    },
-    "description": {
-      "da": "Reducerer stojen produceret ved skydning moderat.",
-      "de": "Verringert die beim Schiessen erzeugte Lautstarke moderat.",
-      "en": "Moderately reduces the amount of noise produced when firing.",
-      "es": "Reduce moderadamente la cantidad de ruido producido al disparar.",
-      "fr": "Reduit moderement le bruit produit lors du tir.",
-      "he": "מפחית במידה בינונית את עוצמת הרעש בעת הירי.",
-      "hr": "Umjereno smanjuje kolicinu buke pri pucanju.",
-      "it": "Riduce moderatamente la quantita di rumore prodotto durante lo sparo.",
-      "ja": "発砲時の騒音を適度に軽減する。",
-      "ko-KR": "발사 시 발생하는 소음을 적당히 감소시킵니다.",
-      "no": "Reduserer stoyen som produseres ved skyting moderat.",
-      "pl": "Umiarkowanie redukuje ilosc halasu wytwarzanego podczas strzalu.",
-      "pt": "Reduz moderadamente a quantidade de ruido produzido ao disparar.",
-      "pt-BR": "Reduz moderadamente a quantidade de ruído produzido ao disparar.",
-      "ru": "Умеренно снижает уровень шума при стрельбе.",
-      "sr": "Umereno smanjuje kolicinu buke pri pucanju.",
-      "tr": "Ates ederken cikan gurultuyu orta duzeyde azaltir.",
-      "uk": "Помірно зменшує рівень шуму при стрільбі.",
-      "zh-CN": "适度减少射击时产生的噪音。",
-      "zh-TW": "適度減少射擊時產生的噪音。"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "shotgun_silencer",
-    "name": {
-      "da": "Haglgevær-lyddæmper",
-      "de": "Schrotflinten-Schalldämpfer",
-      "en": "Shotgun Silencer",
-      "es": "Silenciador de escopeta",
-      "fr": "Silencieux de Fusil à Pompe",
-      "he": "משתיק קול לרובה ציד",
-      "hr": "Prigušivač za sačmaru",
-      "it": "Silenziatore per fucile a pompa",
-      "ja": "ショットガン・サイレンサー",
-      "ko-KR": "산탄총 소음기",
-      "no": "Hagledemper",
-      "pl": "Tłumik do strzelby",
-      "pt": "Silenciador de espingarda",
-      "pt-BR": "Silenciador de Escopeta",
-      "ru": "Глушитель для дробовика",
-      "sr": "Prigušivač za sačmaru",
-      "tr": "Pompalı Tüfek Susturucusu",
-      "uk": "Глушник для дробовика",
-      "zh-CN": "霰弹枪消音器",
-      "zh-TW": "霰彈槍消音器"
-    },
-    "description": {
-      "da": "Reducerer støjen produceret ved skydning moderat.",
-      "de": "Verringert die beim Schießen erzeugte Lautstärke moderat.",
-      "en": "Moderately reduces the amount of noise produced when firing.",
-      "es": "Reduce moderadamente la cantidad de ruido producido al disparar.",
-      "fr": "Réduit modérément le bruit produit lors du tir.",
-      "he": "מפחית במידה בינונית את עוצמת הרעש בעת הירי.",
-      "hr": "Umjereno smanjuje količinu buke pri pucanju.",
-      "it": "Riduce moderatamente la quantità di rumore prodotto durante lo sparo.",
-      "ja": "発砲時の騒音を適度に軽減する。",
-      "ko-KR": "발사 시 발생하는 소음을 적당히 감소시킵니다.",
-      "no": "Reduserer støyen som produseres ved skyting moderat.",
-      "pl": "Umiarkowanie redukuje ilość hałasu wytwarzanego podczas strzału.",
-      "pt": "Reduz moderadamente a quantidade de ruído produzido ao disparar.",
-      "pt-BR": "Reduz moderadamente a quantidade de ruído produzido ao disparar.",
-      "ru": "Умеренно снижает уровень шума при стрельбе.",
-      "sr": "Umereno smanjuje količinu buke pri pucanju.",
-      "tr": "Ateş ederken çıkan gürültüyü orta düzeyde azaltır.",
-      "uk": "Помірно зменшує рівень шуму при стрільбі.",
-      "zh-CN": "适度减少射击时产生的噪音。",
-      "zh-TW": "適度減少射擊時產生的噪音。"
-    },
-    "type": "Modification",
-    "rarity": "Epic",
-    "value": 5000,
-    "weightKg": 0.5,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
-    "blueprintLocked": true,
-    "effects": {
-      "Reduced Noise": {
-        "value": "50%",
-        "da": "Reduceret støj",
-        "de": "Reduzierte Lautstärke",
-        "en": "Reduced Noise",
-        "es": "Ruido reducido",
-        "fr": "Bruit réduit",
-        "he": "רעש מופחת",
-        "hr": "Smanjena buka",
-        "it": "Rumore ridotto",
-        "ja": "騒音軽減",
-        "ko-KR": "소음 감소",
-        "no": "Redusert støy",
-        "pl": "Zredukowany hałas",
-        "pt": "Ruído reduzido",
-        "pt-BR": "Redução de Barulho",
-        "ru": "Снижение шума",
-        "sr": "Smanjena buka",
-        "tr": "Azaltılmış Gürültü",
-        "uk": "Зменшення шуму",
-        "zh-CN": "降低噪音",
-        "zh-TW": "降低噪音"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "stationLevelRequired": 3,
-    "recipe": {
-      "mod_components": 2,
-      "wires": 8
-    },
-    "recyclesInto": {
-      "mod_components": 1,
-      "wires": 1
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "showstopper_blueprint",
-    "name": {
-      "da": "Showstopper-tegning",
-      "de": "Bauplan: Showstopper",
-      "en": "Showstopper Blueprint",
-      "es": "Plano de Aguafiestas",
-      "fr": "Schema Soufflante",
-      "he": "שרטוט שואו-סטופר",
-      "hr": "Showstopper Nacrt",
-      "it": "Progetto Showstopper",
-      "ja": "ショーストッパー 設計図",
-      "ko-KR": "쇼스토퍼 설계도",
-      "no": "Showstopper-tegning",
-      "pl": "Projekt Showstopper",
-      "pt": "Projeto de Showstopper",
-      "pt-BR": "Esquema de Para-Tudo",
-      "ru": "Чертеж — Коронный номер",
-      "sr": "Showstopper Nacrt",
-      "tr": "Efsane Taslağı",
-      "uk": "Креслення Шоустопер",
-      "zh-CN": "耀眼明星蓝图",
-      "zh-TW": "表演終結者 藍圖"
-    },
-    "description": {
-      "da": "En granat, der detonerer efter en forsinkelse og bedover fjender inden for dens radius.",
-      "de": "Eine Granate, die nach einer Verzogerung explodiert und Gegner in ihrem Radius betaubt.",
-      "en": "A grenade that detonates after a delay, stunning enemies within its radius.",
-      "es": "Una granada que detona tras un retraso, aturdiendo a los enemigos dentro de su radio.",
-      "fr": "Une grenade qui detone apres un delai, etourdissant les ennemis dans son rayon.",
-      "he": "רימון שמתפוצץ לאחר השהיה, ומהמם אויבים ברדיוס הפיצוץ.",
-      "hr": "Granata koja detonira nakon odgode, omamljujuci neprijatelje u svom radijusu.",
-      "it": "Una granata che detona dopo un ritardo, stordendo i nemici nel suo raggio.",
-      "ja": "遅延起爆する手榴弾。範囲内の敵をスタンさせる。",
-      "ko-KR": "지연 후 폭발하여 범위 내 적을 기절시키는 수류탄입니다.",
-      "no": "En granat som detonerer etter en forsinkelse og bedover fiender innenfor dens radius.",
-      "pl": "Granat, ktory detonuje po opoznieniu, ogluszajac wrogow w swoim promieniu.",
-      "pt": "Uma granada que detona apos um atraso, atordoando inimigos dentro de seu raio.",
-      "pt-BR": "Granada que detona após um intervalo, atordoando inimigos em seu raio de ação.",
-      "ru": "Граната с задержкой взрыва, оглушающая врагов в радиусе действия.",
-      "sr": "Granata koja detonira nakon odlaganja, omamljujuci neprijatelje u svom radijusu.",
-      "tr": "Bir gecikmeden sonra patlayan ve yaricapindaki dusmanlari sersemletеn bir bomba.",
-      "uk": "Граната із затримкою вибуху, що оглушує ворогів у радіусі дії.",
-      "zh-CN": "延迟引爆的手榴弹，可击晕范围内的敌人。",
-      "zh-TW": "延遲引爆的手榴彈，可擊暈範圍內的敵人。"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/showstopper.png",
-    "updatedAt": "12/07/2025",
-    "addedIn": "base"
   }
 ]

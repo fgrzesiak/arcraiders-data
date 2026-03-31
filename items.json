@@ -1,5 +1,5 @@
 {
-  "version": "36959be7eb6990e5c5340eeec9762782a0d8f111",
+  "version": "4dccd6291d7a0db3d3051a595822fe474ff635f6",
   "items": [
     {
       "id": "acoustic_guitar",
@@ -60,13 +60,24 @@
         "wires": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/acoustic_guitar.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "1.2",
       "repairCost": {
         "metal_parts": 2,
         "wires": 3
       },
-      "repairDurability": 0.5
+      "repairDurability": 0.5,
+      "vendors": [
+        {
+          "cost": {
+            "creds": 70
+          },
+          "limit": 1,
+          "refreshSeconds": 86400,
+          "requiredLevel": 12,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "adrenaline_shot",
@@ -332,10 +343,7 @@
       "value": 1750,
       "weightKg": 1,
       "stackSize": 5,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "electrical_components": 2,
@@ -349,7 +357,7 @@
         "electrical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -404,10 +412,7 @@
       "value": 1750,
       "weightKg": 1,
       "stackSize": 5,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "mechanical_components": 2,
@@ -421,7 +426,7 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -578,7 +583,8 @@
         "empty_wine_bottle": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/agave_juice.png",
-      "updatedAt": "02/25/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "agave",
@@ -883,9 +889,8 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 15,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/alien_duck.png",
-      "updatedAt": "02/01/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "1.13"
     },
     {
@@ -1048,7 +1053,7 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/angled_grip_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -1057,6 +1062,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -1223,8 +1229,18 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
-      "updatedAt": "01/09/2026",
-      "addedIn": "base"
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
+      "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "angled_grip_iii_blueprint",
@@ -1411,7 +1427,7 @@
         "mechanical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -1420,6 +1436,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -1476,10 +1493,7 @@
       "value": 1000,
       "weightKg": 1,
       "stackSize": 5,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "chemicals": 10,
@@ -1492,7 +1506,7 @@
         "chemicals": 5
       },
       "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -1733,12 +1747,8 @@
       "salvagesInto": {
         "simple_gun_parts": 2
       },
-      "upgradeCost": {
-        "mechanical_components": 3,
-        "simple_gun_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "modSlots": {
         "muzzle": [
@@ -1770,6 +1780,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -1998,11 +2009,11 @@
         "simple_gun_parts": 3
       },
       "upgradeCost": {
-        "heavy_gun_parts": 1,
-        "mechanical_components": 4
+        "mechanical_components": 3,
+        "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "muzzle": [
@@ -3054,10 +3065,6 @@
       "value": 200,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "wasp_driver": 1
-      },
       "recyclesInto": {
         "metal_parts": 2
       },
@@ -3065,7 +3072,7 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/arc_alloy.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -3120,10 +3127,7 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "arc_alloy": 8
@@ -3135,7 +3139,7 @@
         "arc_alloy": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/arc_circuitry.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -3514,18 +3518,8 @@
           "zh-TW": "使用時間"
         }
       },
-      "craftBench": "in_raid",
-      "recipe": {
-        "advanced_arc_powercell": 1
-      },
-      "recyclesInto": {
-        "arc_alloy": 1
-      },
-      "salvagesInto": {
-        "metal_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/arc_powercell.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -3834,12 +3828,8 @@
       "salvagesInto": {
         "simple_gun_parts": 2
       },
-      "upgradeCost": {
-        "mechanical_components": 4,
-        "simple_gun_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -4108,11 +4098,11 @@
         "simple_gun_parts": 3
       },
       "upgradeCost": {
-        "mechanical_components": 5,
-        "medium_gun_parts": 1
+        "mechanical_components": 4,
+        "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -4703,6 +4693,67 @@
       "repairDurability": 0.5
     },
     {
+      "id": "assessor_matrix",
+      "name": {
+        "da": "Assessor Matrix",
+        "de": "Assessor Matrix",
+        "en": "Assessor Matrix",
+        "es": "Assessor Matrix",
+        "fr": "Assessor Matrix",
+        "he": "Assessor Matrix",
+        "hr": "Assessor Matrix",
+        "it": "Assessor Matrix",
+        "ja": "Assessor Matrix",
+        "ko-KR": "Assessor Matrix",
+        "no": "Assessor Matrix",
+        "pl": "Assessor Matrix",
+        "pt": "Assessor Matrix",
+        "pt-BR": "Assessor Matrix",
+        "ru": "Assessor Matrix",
+        "sr": "Assessor Matrix",
+        "tr": "Assessor Matrix",
+        "uk": "Assessor Matrix",
+        "zh-CN": "Assessor Matrix",
+        "zh-TW": "Assessor Matrix"
+      },
+      "description": {
+        "da": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "he": "",
+        "hr": "",
+        "it": "",
+        "ja": "",
+        "ko-KR": "",
+        "no": "",
+        "pl": "",
+        "pt": "",
+        "pt-BR": "",
+        "ru": "",
+        "sr": "",
+        "tr": "",
+        "uk": "",
+        "zh-CN": "",
+        "zh-TW": ""
+      },
+      "type": "Recyclable",
+      "rarity": "Epic",
+      "value": 5000,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "recyclesInto": {
+        "advanced_arc_powercell": 3,
+        "advanced_mechanical_components": 1
+      },
+      "salvagesInto": {
+        "advanced_arc_powercell": 2
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "assorted_seeds",
       "name": {
         "da": "Blandede frø",
@@ -4754,12 +4805,8 @@
       "value": 100,
       "weightKg": 0.05,
       "stackSize": 100,
-      "craftBench": "in_raid",
-      "recipe": {
-        "agave": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/assorted_seeds.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -5078,7 +5125,7 @@
         "metal_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -5087,6 +5134,7 @@
           },
           "limit": 6,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -5206,10 +5254,6 @@
       "value": 250,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "jolt_mine": 1
-      },
       "recyclesInto": {
         "metal_parts": 2
       },
@@ -5217,7 +5261,7 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/battery.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -5226,6 +5270,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -5469,12 +5514,8 @@
       "salvagesInto": {
         "advanced_mechanical_components": 1
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "heavy_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -6006,11 +6047,11 @@
         "advanced_mechanical_components": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
+        "advanced_mechanical_components": 1,
         "heavy_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -6470,13 +6511,21 @@
         "plastic_parts": 4
       },
       "imageFilename": "https://cdn.arctracker.io/items/binoculars.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "repairCost": {
         "plastic_parts": 4,
         "rubber_parts": 2
       },
-      "repairDurability": 0.5
+      "repairDurability": 0.5,
+      "vendors": [
+        {
+          "cost": {
+            "creds": 20
+          },
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "blaze_grenade_blueprint",
@@ -6584,7 +6633,6 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "blueprintLocked": true,
       "effects": {
         "Damage": {
           "value": "5/s",
@@ -6643,7 +6691,7 @@
         "wires": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade_trap.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -7277,7 +7325,7 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/blue_light_stick.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -7285,6 +7333,12 @@
             "coins": 450
           },
           "trader": "Apollo"
+        },
+        {
+          "cost": {
+            "creds": 10
+          },
+          "trader": "Shani"
         }
       ]
     },
@@ -7665,12 +7719,8 @@
       "salvagesInto": {
         "light_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 2,
-        "light_gun_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -8101,10 +8151,10 @@
       },
       "upgradeCost": {
         "advanced_mechanical_components": 2,
-        "light_gun_parts": 3
+        "light_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -9843,12 +9893,8 @@
       "salvagesInto": {
         "simple_gun_parts": 2
       },
-      "upgradeCost": {
-        "mechanical_components": 3,
-        "simple_gun_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "durability": 100,
       "modSlots": {
@@ -9883,6 +9929,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -10041,11 +10088,11 @@
         "simple_gun_parts": 3
       },
       "upgradeCost": {
-        "light_gun_parts": 1,
-        "mechanical_components": 4
+        "mechanical_components": 3,
+        "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -10518,10 +10565,6 @@
       "value": 300,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "bicycle_pump": 1
-      },
       "recyclesInto": {
         "plastic_parts": 3
       },
@@ -10529,7 +10572,7 @@
         "plastic_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/canister.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -10538,9 +10581,328 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
+    },
+    {
+      "id": "canto_blueprint",
+      "name": {
+        "da": "Canto Tegning",
+        "de": "Canto Bauplan",
+        "en": "Canto Blueprint",
+        "es": "Canto Plano",
+        "fr": "Canto Plan",
+        "he": "Canto תרשים",
+        "hr": "Canto Nacrt",
+        "it": "Canto Progetto",
+        "ja": "Canto 設計図",
+        "ko-KR": "Canto 청사진",
+        "no": "Canto Tegning",
+        "pl": "Canto Schemat",
+        "pt": "Esquema de Canto",
+        "pt-BR": "Esquema de Canto",
+        "ru": "Canto Чертеж",
+        "sr": "Canto Nacrt",
+        "tr": "Canto Taslak",
+        "uk": "Canto Креслення",
+        "zh-CN": "Canto 蓝图",
+        "zh-TW": "Canto 藍圖"
+      },
+      "description": {
+        "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+        "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+        "en": "Fully automatic submachine gun with a larger caliber.",
+        "es": "Subfusil totalmente automático con un calibre mayor.",
+        "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+        "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+        "hr": "Potpuno automatska strojnica većeg kalibra.",
+        "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+        "ja": "大口径のフルオートマチックサブマシンガン。",
+        "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+        "no": "Helautomatisk maskinpistol med et større kaliber.",
+        "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+        "pt": "Submetralhadora totalmente automática com um calibre maior.",
+        "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+        "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+        "sr": "Potpuno automatski automat većeg kalibra.",
+        "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+        "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+        "zh-CN": "全自动大口径冲锋枪。",
+        "zh-TW": "全自動大口徑衝鋒槍。"
+      },
+      "type": "Blueprint",
+      "rarity": "Common",
+      "value": 5000,
+      "weightKg": 0,
+      "stackSize": 1,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "canto_i",
+      "name": {
+        "da": "Canto I",
+        "de": "Canto I",
+        "en": "Canto I",
+        "es": "Canto I",
+        "fr": "Canto I",
+        "he": "Canto I",
+        "hr": "Canto I",
+        "it": "Canto I",
+        "ja": "Canto I",
+        "ko-KR": "Canto I",
+        "no": "Canto I",
+        "pl": "Canto I",
+        "pt": "Canto I",
+        "pt-BR": "Canto I",
+        "ru": "Canto I",
+        "sr": "Canto I",
+        "tr": "Canto I",
+        "uk": "Canto I",
+        "zh-CN": "Canto I",
+        "zh-TW": "Canto I"
+      },
+      "description": {
+        "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+        "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+        "en": "Fully automatic submachine gun with a larger caliber.",
+        "es": "Subfusil totalmente automático con un calibre mayor.",
+        "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+        "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+        "hr": "Potpuno automatska strojnica većeg kalibra.",
+        "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+        "ja": "大口径のフルオートマチックサブマシンガン。",
+        "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+        "no": "Helautomatisk maskinpistol med et større kaliber.",
+        "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+        "pt": "Submetralhadora totalmente automática com um calibre maior.",
+        "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+        "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+        "sr": "Potpuno automatski automat većeg kalibra.",
+        "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+        "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+        "zh-CN": "全自动大口径冲锋枪。",
+        "zh-TW": "全自動大口徑衝鋒槍。"
+      },
+      "type": "SMG",
+      "rarity": "Legendary",
+      "value": 7000,
+      "weightKg": 6.5,
+      "stackSize": 1,
+      "blueprintLocked": true,
+      "craftBench": "weapon_bench",
+      "stationLevelRequired": 3,
+      "recipe": {
+        "advanced_mechanical_components": 2,
+        "magnet": 5,
+        "medium_gun_parts": 3
+      },
+      "recyclesInto": {
+        "advanced_mechanical_components": 1,
+        "medium_gun_parts": 2
+      },
+      "salvagesInto": {
+        "medium_gun_parts": 2
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "canto_ii",
+      "name": {
+        "da": "Canto II",
+        "de": "Canto II",
+        "en": "Canto II",
+        "es": "Canto II",
+        "fr": "Canto II",
+        "he": "Canto II",
+        "hr": "Canto II",
+        "it": "Canto II",
+        "ja": "Canto II",
+        "ko-KR": "Canto II",
+        "no": "Canto II",
+        "pl": "Canto II",
+        "pt": "Canto II",
+        "pt-BR": "Canto II",
+        "ru": "Canto II",
+        "sr": "Canto II",
+        "tr": "Canto II",
+        "uk": "Canto II",
+        "zh-CN": "Canto II",
+        "zh-TW": "Canto II"
+      },
+      "description": {
+        "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+        "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+        "en": "Fully automatic submachine gun with a larger caliber.",
+        "es": "Subfusil totalmente automático con un calibre mayor.",
+        "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+        "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+        "hr": "Potpuno automatska strojnica većeg kalibra.",
+        "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+        "ja": "大口径のフルオートマチックサブマシンガン。",
+        "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+        "no": "Helautomatisk maskinpistol med et større kaliber.",
+        "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+        "pt": "Submetralhadora totalmente automática com um calibre maior.",
+        "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+        "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+        "sr": "Potpuno automatski automat većeg kalibra.",
+        "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+        "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+        "zh-CN": "全自动大口径冲锋枪。",
+        "zh-TW": "全自動大口徑衝鋒槍。"
+      },
+      "type": "SMG",
+      "rarity": "Legendary",
+      "value": 10000,
+      "weightKg": 6.5,
+      "stackSize": 1,
+      "recyclesInto": {
+        "advanced_mechanical_components": 2,
+        "medium_gun_parts": 2
+      },
+      "salvagesInto": {
+        "medium_gun_parts": 2
+      },
+      "upgradeCost": {
+        "advanced_mechanical_components": 1,
+        "medium_gun_parts": 2
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "canto_iii",
+      "name": {
+        "da": "Canto III",
+        "de": "Canto III",
+        "en": "Canto III",
+        "es": "Canto III",
+        "fr": "Canto III",
+        "he": "Canto III",
+        "hr": "Canto III",
+        "it": "Canto III",
+        "ja": "Canto III",
+        "ko-KR": "Canto III",
+        "no": "Canto III",
+        "pl": "Canto III",
+        "pt": "Canto III",
+        "pt-BR": "Canto III",
+        "ru": "Canto III",
+        "sr": "Canto III",
+        "tr": "Canto III",
+        "uk": "Canto III",
+        "zh-CN": "Canto III",
+        "zh-TW": "Canto III"
+      },
+      "description": {
+        "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+        "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+        "en": "Fully automatic submachine gun with a larger caliber.",
+        "es": "Subfusil totalmente automático con un calibre mayor.",
+        "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+        "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+        "hr": "Potpuno automatska strojnica većeg kalibra.",
+        "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+        "ja": "大口径のフルオートマチックサブマシンガン。",
+        "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+        "no": "Helautomatisk maskinpistol med et større kaliber.",
+        "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+        "pt": "Submetralhadora totalmente automática com um calibre maior.",
+        "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+        "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+        "sr": "Potpuno automatski automat većeg kalibra.",
+        "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+        "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+        "zh-CN": "全自动大口径冲锋枪。",
+        "zh-TW": "全自動大口徑衝鋒槍。"
+      },
+      "type": "SMG",
+      "rarity": "Legendary",
+      "value": 13000,
+      "weightKg": 6.5,
+      "stackSize": 1,
+      "recyclesInto": {
+        "advanced_mechanical_components": 2,
+        "medium_gun_parts": 3
+      },
+      "salvagesInto": {
+        "medium_gun_parts": 3
+      },
+      "upgradeCost": {
+        "advanced_mechanical_components": 1,
+        "medium_gun_parts": 2
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "canto_iv",
+      "name": {
+        "da": "Canto IV",
+        "de": "Canto IV",
+        "en": "Canto IV",
+        "es": "Canto IV",
+        "fr": "Canto IV",
+        "he": "Canto IV",
+        "hr": "Canto IV",
+        "it": "Canto IV",
+        "ja": "Canto IV",
+        "ko-KR": "Canto IV",
+        "no": "Canto IV",
+        "pl": "Canto IV",
+        "pt": "Canto IV",
+        "pt-BR": "Canto IV",
+        "ru": "Canto IV",
+        "sr": "Canto IV",
+        "tr": "Canto IV",
+        "uk": "Canto IV",
+        "zh-CN": "Canto IV",
+        "zh-TW": "Canto IV"
+      },
+      "description": {
+        "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+        "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+        "en": "Fully automatic submachine gun with a larger caliber.",
+        "es": "Subfusil totalmente automático con un calibre mayor.",
+        "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+        "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+        "hr": "Potpuno automatska strojnica većeg kalibra.",
+        "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+        "ja": "大口径のフルオートマチックサブマシンガン。",
+        "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+        "no": "Helautomatisk maskinpistol med et større kaliber.",
+        "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+        "pt": "Submetralhadora totalmente automática com um calibre maior.",
+        "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+        "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+        "sr": "Potpuno automatski automat većeg kalibra.",
+        "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+        "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+        "zh-CN": "全自动大口径冲锋枪。",
+        "zh-TW": "全自動大口徑衝鋒槍。"
+      },
+      "type": "SMG",
+      "rarity": "Legendary",
+      "value": 17000,
+      "weightKg": 6.5,
+      "stackSize": 1,
+      "recyclesInto": {
+        "advanced_mechanical_components": 3,
+        "medium_gun_parts": 3
+      },
+      "salvagesInto": {
+        "medium_gun_parts": 3
+      },
+      "upgradeCost": {
+        "advanced_mechanical_components": 2,
+        "medium_gun_parts": 2
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
     },
     {
       "id": "cat_bed",
@@ -10704,12 +11066,8 @@
       "value": 50,
       "weightKg": 0.15,
       "stackSize": 50,
-      "craftBench": "in_raid",
-      "recipe": {
-        "gas_grenade": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/chemicals.png",
-      "updatedAt": "11/03/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -10912,7 +11270,8 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "plastic_parts": 3,
         "rubber_parts": 3
@@ -11092,7 +11451,8 @@
         "electrical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
       "repairCost": {
         "electrical_components": 1,
         "magnet": 1
@@ -11101,10 +11461,20 @@
       "vendors": [
         {
           "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "requiredLevel": 7,
+          "trader": "Shani"
+        },
+        {
+          "cost": {
             "coins": 6000
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Lance"
         }
       ]
@@ -11416,7 +11786,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-      "updatedAt": "01/20/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "advanced_electrical_components": 1,
         "processor": 2
@@ -11730,7 +12101,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-      "updatedAt": "01/20/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "advanced_electrical_components": 1,
         "processor": 2
@@ -11927,7 +12299,7 @@
         "metal_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/compensator_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -11936,6 +12308,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -12124,8 +12497,18 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
-      "updatedAt": "02/24/2026",
-      "addedIn": "base"
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
+      "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "compensator_iii_blueprint",
@@ -12459,7 +12842,7 @@
         "simple_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -12468,6 +12851,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 20,
           "trader": "Celeste"
         }
       ]
@@ -12824,10 +13208,7 @@
           "zh-TW": "範圍"
         }
       },
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 1,
       "recipe": {
         "chemicals": 6
@@ -12839,7 +13220,7 @@
         "chemicals": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/crude_explosives.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -13009,8 +13390,8 @@
       "rarity": "Epic",
       "value": 100,
       "weightKg": 0.25,
-      "updatedAt": "02/24/2026",
-      "imageFilename": "https://cdn.arctracker.io/items/dam_testing_annex_key.png"
+      "imageFilename": "https://cdn.arctracker.io/items/dam_testing_annex_key.png",
+      "updatedAt": "02/24/2026"
     },
     {
       "id": "dam_staff_room_key",
@@ -13352,7 +13733,8 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_powercell.png",
-      "updatedAt": "01/13/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "damaged_fireball_burner",
@@ -14032,7 +14414,7 @@
         "explosive_compound": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "1.2",
       "vendors": [
         {
@@ -14041,6 +14423,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 20,
           "trader": "Apollo"
         }
       ]
@@ -14214,13 +14597,14 @@
         "chemicals": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
           "cost": {
             "coins": 3000
           },
+          "requiredLevel": 7,
           "trader": "Lance"
         }
       ]
@@ -14413,6 +14797,61 @@
       "addedIn": "base"
     },
     {
+      "id": "dodgers_note",
+      "name": {
+        "da": "Dodgers note",
+        "de": "Dodgers Notiz",
+        "en": "Dodger's Note",
+        "es": "Nota de Dodger",
+        "fr": "Note de Dodger",
+        "he": "הפתק של דודג'ר",
+        "hr": "Dodgerova bilješka",
+        "it": "Nota di Dodger",
+        "ja": "ドジャーのメモ",
+        "ko-KR": "다저의 메모",
+        "no": "Dodgers notat",
+        "pl": "Notatka Dodgera",
+        "pt": "Nota de Dodger",
+        "pt-BR": "Bilhete do Dodger",
+        "ru": "Записка Доджера",
+        "sr": "Dodgerova beleška",
+        "tr": "Dodger'ın Notu",
+        "uk": "Записка Доджера",
+        "zh-CN": "多杰的笔记",
+        "zh-TW": "多傑的筆記"
+      },
+      "description": {
+        "da": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "he": "",
+        "hr": "",
+        "it": "",
+        "ja": "",
+        "ko-KR": "",
+        "no": "",
+        "pl": "",
+        "pt": "",
+        "pt-BR": "",
+        "ru": "",
+        "sr": "",
+        "tr": "",
+        "uk": "",
+        "zh-CN": "",
+        "zh-TW": ""
+      },
+      "type": "Trinket",
+      "rarity": "Common",
+      "value": 0,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "questItem": true,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "dog_collar",
       "name": {
         "da": "Hundehalsbånd",
@@ -14476,6 +14915,129 @@
       "addedIn": "base"
     },
     {
+      "id": "dolabra_blueprint",
+      "name": {
+        "da": "Dolabra Tegning",
+        "de": "Dolabra Bauplan",
+        "en": "Dolabra Blueprint",
+        "es": "Dolabra Plano",
+        "fr": "Dolabra Plan",
+        "he": "Dolabra תרשים",
+        "hr": "Dolabra Nacrt",
+        "it": "Dolabra Progetto",
+        "ja": "Dolabra 設計図",
+        "ko-KR": "Dolabra 청사진",
+        "no": "Dolabra Tegning",
+        "pl": "Dolabra Schemat",
+        "pt": "Esquema de Dolabra",
+        "pt-BR": "Esquema de Dolabra",
+        "ru": "Dolabra Чертеж",
+        "sr": "Dolabra Nacrt",
+        "tr": "Dolabra Taslak",
+        "uk": "Dolabra Креслення",
+        "zh-CN": "Dolabra 蓝图",
+        "zh-TW": "Dolabra 藍圖"
+      },
+      "description": {
+        "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+        "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+        "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+        "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+        "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+        "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+        "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+        "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+        "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+        "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+        "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+        "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+        "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+        "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+        "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+        "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+        "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+        "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+        "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+        "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+      },
+      "type": "Blueprint",
+      "rarity": "Common",
+      "value": 5000,
+      "weightKg": 0,
+      "stackSize": 1,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "dolabra",
+      "name": {
+        "da": "Dolabra",
+        "de": "Dolabra",
+        "en": "Dolabra",
+        "es": "Dolabra",
+        "fr": "Dolabra",
+        "he": "Dolabra",
+        "hr": "Dolabra",
+        "it": "Dolabra",
+        "ja": "Dolabra",
+        "ko-KR": "Dolabra",
+        "no": "Dolabra",
+        "pl": "Dolabra",
+        "pt": "Dolabra",
+        "pt-BR": "Dolabra",
+        "ru": "Dolabra",
+        "sr": "Dolabra",
+        "tr": "Dolabra",
+        "uk": "Dolabra",
+        "zh-CN": "Dolabra",
+        "zh-TW": "Dolabra"
+      },
+      "description": {
+        "da": "Et eksperimentelt våben, der enten kan affyre en bred eksplosion på kort afstand eller fokuseres til at affyre en præcis varmestråle på mellemlang afstand.",
+        "de": "Eine experimentelle Waffe, die entweder einen breiten Schuss mit kurzer Reichweite abgeben kann oder so fokussiert wird, dass sie einen konzentrierten Hitzestrahl mit mittlerer Reichweite verschießt.",
+        "en": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+        "es": "Un arma experimental que puede disparar una ráfaga amplia a corta distancia o concentrarse para disparar un haz de calor preciso a media distancia.",
+        "fr": "Une arme expérimentale qui peut soit tirer une large décharge à courte portée, soit être concentrée pour tirer un faisceau de chaleur étroit à moyenne portée.",
+        "he": "נשק ניסיוני שיכול לירות פרץ רחב לטווח קצר, או להיות ממוקד לירי קרן חום הדוקה לטווח בינוני.",
+        "hr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplinskog snopa srednjeg dometa.",
+        "it": "Un'arma sperimentale che può sparare un'ampia scarica a corto raggio o essere focalizzata per sparare un raggio di calore concentrato a medio raggio.",
+        "ja": "近距離に広範囲の爆風を発射するか、収束させて中距離に強力な熱線を照射することができる実験的な武器。",
+        "ko-KR": "근거리에서 넓은 폭발을 일으키거나, 초점을 맞춰 중거리에서 정밀한 열선을 발사할 수 있는 실험용 무기입니다.",
+        "no": "Et eksperimentelt våpen som enten kan avfyre en bred salve på kort hold, eller fokuseres for å avfyre en konsentrert varmestråle på mellomlangt hold.",
+        "pl": "Eksperymentalna broń, która może wystrzelić szeroki podmuch na krótki dystans lub zostać skupiona, aby wystrzelić wąską wiązkę ciepła o średnim zasięgu.",
+        "pt": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor estreito de médio alcance.",
+        "pt-BR": "Uma arma experimental que pode disparar uma rajada ampla de curto alcance ou ser focada para disparar um feixe de calor concentrado de médio alcance.",
+        "ru": "Экспериментальное оружие, которое может либо производить широкий залп на короткой дистанции, либо фокусироваться для стрельбы узким тепловым лучом на средней дистанции.",
+        "sr": "Eksperimentalno oružje koje može ispaliti široki prasak kratkog dometa ili se može fokusirati za ispaljivanje uskog toplotnog snopa srednjeg dometa.",
+        "tr": "İster kısa menzilli geniş bir patlama ateşleyebilen ister orta menzilli dar bir ısı ışını ateşlemek için odaklanabilen deneysel bir silah.",
+        "uk": "Експериментальна зброя, яка може або стріляти широким залпом на короткій дистанції, або фокусуватися для стрільби вузьким тепловим променем на середній дистанції.",
+        "zh-CN": "一种实验性武器，既可以发射宽范围的短程冲击，也可以聚焦发射窄范围的中程热能光束。",
+        "zh-TW": "一種實驗性武器，既可以發射寬範圍的短程衝擊，也可以聚焦發射窄範圍的中程熱能光束。"
+      },
+      "type": "Shotgun",
+      "rarity": "Legendary",
+      "value": 27500,
+      "weightKg": 8,
+      "stackSize": 1,
+      "isWeapon": true,
+      "blueprintLocked": true,
+      "craftBench": "weapon_bench",
+      "stationLevelRequired": 3,
+      "recipe": {
+        "magnetic_accelerator": 3,
+        "shredder_gyro": 3,
+        "vaporizer_regulator": 2
+      },
+      "recyclesInto": {
+        "magnetic_accelerator": 2
+      },
+      "salvagesInto": {
+        "magnetic_accelerator": 1
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "doodly_duck",
       "name": {
         "da": "Krims-Krams And",
@@ -14526,9 +15088,8 @@
       "value": 3000,
       "weightKg": 0.3,
       "stackSize": 15,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/doodly_duck.png",
-      "updatedAt": "02/01/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "1.13"
     },
     {
@@ -14595,7 +15156,7 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/door_blocker.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -14604,6 +15165,7 @@
           },
           "limit": 6,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -14729,7 +15291,7 @@
         "fabric": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/duct_tape.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -14738,6 +15300,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -14794,10 +15357,7 @@
       "value": 640,
       "weightKg": 0.25,
       "stackSize": 10,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 1,
       "recipe": {
         "fabric": 14
@@ -14809,7 +15369,7 @@
         "fabric": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/durable_cloth.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -14863,7 +15423,8 @@
       "value": 0,
       "weightKg": 0,
       "stackSize": 1,
-      "updatedAt": "02/24/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "1.17"
     },
     {
       "id": "electrical_components",
@@ -14917,10 +15478,7 @@
       "value": 640,
       "weightKg": 0.5,
       "stackSize": 10,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 1,
       "recipe": {
         "plastic_parts": 8,
@@ -14934,7 +15492,7 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -14989,9 +15547,8 @@
       "value": 1000,
       "weightKg": 0.2,
       "stackSize": 5,
-      "craftBench": "in_raid",
       "imageFilename": "https://cdn.arctracker.io/items/empty_wine_bottle.png",
-      "updatedAt": "11/04/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -15042,7 +15599,7 @@
       },
       "type": "Ammunition",
       "rarity": "Rare",
-      "value": 1000,
+      "value": 200,
       "weightKg": 0.3,
       "stackSize": 5,
       "craftQuantity": 5,
@@ -15057,13 +15614,14 @@
         "battery": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/energy_clip.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
           "cost": {
             "coins": 3000
           },
+          "requiredLevel": 12,
           "trader": "Tian Wen"
         }
       ]
@@ -15440,10 +15998,6 @@
       "value": 2750,
       "weightKg": 1,
       "stackSize": 3,
-      "craftBench": "in_raid",
-      "recipe": {
-        "ion_sputter": 1
-      },
       "recyclesInto": {
         "magnet": 2,
         "processor": 2
@@ -15452,7 +16006,7 @@
         "processor": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/exodus_modules.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -15461,6 +16015,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 20,
           "trader": "Celeste"
         }
       ]
@@ -15739,10 +16294,7 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "crude_explosives": 2,
@@ -15755,7 +16307,7 @@
         "crude_explosives": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/explosive_compound.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -16213,7 +16765,7 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -16222,6 +16774,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -16379,15 +16932,24 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_ii.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        },
         {
           "cost": {
             "coins": 6000
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -16645,7 +17207,7 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -16654,6 +17216,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -16812,8 +17375,18 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii.png",
-      "updatedAt": "02/24/2026",
-      "addedIn": "base"
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
+      "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "extended_medium_mag_iii_blueprint",
@@ -17090,7 +17663,7 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -17099,6 +17672,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -17532,15 +18106,8 @@
           "zh-TW": "使用時間"
         }
       },
-      "craftBench": "in_raid",
-      "recipe": {
-        "tattered_clothes": 1
-      },
-      "salvagesInto": {
-        "bandage": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/fabric.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -17658,9 +18225,8 @@
       "value": 7000,
       "weightKg": 0.3,
       "stackSize": 15,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/familiar_duck.png",
-      "updatedAt": "02/01/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "1.13"
     },
     {
@@ -17848,11 +18414,8 @@
       "salvagesInto": {
         "metal_parts": 2
       },
-      "upgradeCost": {
-        "metal_parts": 7
-      },
       "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -18082,11 +18645,10 @@
         "metal_parts": 4
       },
       "upgradeCost": {
-        "metal_parts": 9,
-        "simple_gun_parts": 1
+        "metal_parts": 7
       },
       "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -18327,11 +18889,11 @@
         "simple_gun_parts": 1
       },
       "upgradeCost": {
-        "mechanical_components": 1,
+        "metal_parts": 9,
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -18927,10 +19489,6 @@
           "zh-TW": "範圍"
         }
       },
-      "craftBench": "in_raid",
-      "recipe": {
-        "flame_spray": 1
-      },
       "recyclesInto": {
         "arc_alloy": 1,
         "crude_explosives": 1
@@ -18939,7 +19497,7 @@
         "arc_alloy": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/fireball_burner.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -19031,8 +19589,16 @@
         "plastic_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/firecracker.png",
-      "updatedAt": "12/16/2025",
-      "addedIn": "1.7"
+      "updatedAt": "03/22/2026",
+      "addedIn": "1.7",
+      "vendors": [
+        {
+          "cost": {
+            "creds": 20
+          },
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "firefly_burner",
@@ -19217,8 +19783,18 @@
         "explosive_compound": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
-      "updatedAt": "01/13/2026",
-      "addedIn": "1.7"
+      "updatedAt": "03/22/2026",
+      "addedIn": "1.7",
+      "vendors": [
+        {
+          "cost": {
+            "creds": 60
+          },
+          "limit": 3,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "first_wave_compass",
@@ -19556,9 +20132,8 @@
       "value": 3000,
       "weightKg": 0.3,
       "stackSize": 15,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/flashy_duck.png",
-      "updatedAt": "02/01/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "1.13"
     },
     {
@@ -19819,8 +20394,13 @@
         "Max Loadout Weight": null,
         "Shield Compatibility": null
       },
+      "recyclesInto": {
+        "plastic_parts": 6,
+        "rubber_parts": 6
+      },
       "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
-      "updatedAt": "02/24/2026"
+      "updatedAt": "03/31/2026",
+      "addedIn": "base"
     },
     {
       "id": "frequency_modulation_box",
@@ -20255,7 +20835,6 @@
       "value": 300,
       "weightKg": 0.25,
       "stackSize": 3,
-      "blueprintLocked": true,
       "effects": {
         "Duration": {
           "value": "20s",
@@ -20337,7 +20916,7 @@
         "wires": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/gas_grenade_trap.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -20476,7 +21055,7 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/gas_grenade.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -20485,6 +21064,7 @@
           },
           "limit": 6,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -20806,9 +21386,8 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 15,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/gentle_duck.png",
-      "updatedAt": "02/01/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "1.13"
     },
     {
@@ -20870,7 +21449,7 @@
         "assorted_seeds": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -20879,6 +21458,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -21050,7 +21630,7 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -21058,6 +21638,12 @@
             "coins": 450
           },
           "trader": "Apollo"
+        },
+        {
+          "cost": {
+            "creds": 10
+          },
+          "trader": "Shani"
         }
       ]
     },
@@ -21269,11 +21855,8 @@
       "salvagesInto": {
         "metal_parts": 2
       },
-      "upgradeCost": {
-        "metal_parts": 8
-      },
       "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -21544,11 +22127,10 @@
         "metal_parts": 4
       },
       "upgradeCost": {
-        "metal_parts": 9,
-        "simple_gun_parts": 1
+        "metal_parts": 8
       },
       "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -21811,11 +22393,11 @@
         "simple_gun_parts": 1
       },
       "upgradeCost": {
-        "mechanical_components": 1,
+        "metal_parts": 9,
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -22459,10 +23041,7 @@
       "weightKg": 0.5,
       "stackSize": 5,
       "blueprintLocked": true,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "simple_gun_parts": 4
@@ -22474,7 +23053,7 @@
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -22483,6 +23062,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -22646,7 +23226,7 @@
         "arc_alloy": 4
       },
       "imageFilename": "https://cdn.arctracker.io/items/heavy_shield.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "damageMitigation": 65,
       "durability": 140,
@@ -22664,6 +23244,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 20,
           "trader": "Lance"
         }
       ]
@@ -22807,7 +23388,7 @@
         "fabric": 8
       },
       "imageFilename": "https://cdn.arctracker.io/items/herbal_bandage.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -22816,62 +23397,10 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Lance"
         }
       ]
-    },
-    {
-      "id": "horizontal_grip_blueprint",
-      "name": {
-        "da": "Horisontal Greb Tegning",
-        "de": "Bauplan: Horizontaler Griff",
-        "en": "Horizontal Grip Blueprint",
-        "es": "Plano de Empuñadura Horizontal",
-        "fr": "Schéma de Poignée Horizontale",
-        "he": "שרטוט ידית אחיזה אופקית",
-        "hr": "Nacrt Horizontalnog Rukohvata",
-        "it": "Progetto Impugnatura Orizzontale",
-        "ja": "横グリップ設計図",
-        "ko-KR": "수평 그립 설계도",
-        "no": "Horisontalt Grep Tegning",
-        "pl": "Projekt Chwytu Horyzontalnego",
-        "pt": "Projeto de Empunhadura Horizontal",
-        "pt-BR": "Esquema de Empunhadura Horizontal",
-        "ru": "Чертёж Горизонтальной Рукоятки",
-        "sr": "Nacrt Horizontalnog Rukohvata",
-        "tr": "Yatay Tutamaç Taslağı",
-        "uk": "Креслення Горизонтальної Рукоятки",
-        "zh-CN": "水平握把蓝图",
-        "zh-TW": "水平握把藍圖"
-      },
-      "description": {
-        "da": "Reducerer moderat både lodret og vandret rekyl.",
-        "de": "Verringert sowohl den vertikalen als auch den horizontalen Rückstoß moderat.",
-        "en": "Moderately reduces both vertical recoil and horizontal recoil.",
-        "es": "Reduce moderadamente el retroceso vertical y horizontal.",
-        "fr": "Réduit modérément le recul vertical et horizontal.",
-        "he": "מפחית בצורה מתונה הן את הרתע האנכי והן את הרתע האופקי.",
-        "hr": "Umjereno smanjuje i vertikalni i horizontalni trzaj.",
-        "it": "Riduce moderatamente sia il rinculo verticale che quello orizzontale.",
-        "ja": "垂直反動と水平反動を適度に軽減します。",
-        "ko-KR": "수직 반동과 수평 반동을 적당히 감소시킵니다.",
-        "no": "Reduserer moderat både vertikal og horisontal rekyl.",
-        "pl": "Umiarkowanie zmniejsza odrzut pionowy i poziomy.",
-        "pt": "Reduz moderadamente o recuo vertical e horizontal.",
-        "pt-BR": "Reduz moderadamente o recuo vertical e horizontal.",
-        "ru": "Умеренно снижает как вертикальную, так и горизонтальную отдачу.",
-        "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
-        "tr": "Hem dikey hem de yatay geri tepmeyi orta düzeyde azaltır.",
-        "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
-        "zh-CN": "适度降低垂直和水平后坐力。",
-        "zh-TW": "適度降低垂直和水平後座力。"
-      },
-      "type": "Blueprint",
-      "rarity": "Legendary",
-      "value": 5000,
-      "weightKg": 0,
-      "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
-      "updatedAt": "01/13/2026"
     },
     {
       "id": "horizontal_grip",
@@ -23458,12 +23987,8 @@
       "salvagesInto": {
         "heavy_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "heavy_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -23497,6 +24022,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 20,
           "trader": "Tian Wen"
         }
       ]
@@ -23702,11 +24228,11 @@
         "heavy_gun_parts": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
-        "heavy_gun_parts": 1
+        "advanced_mechanical_components": 1,
+        "heavy_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 67.9,
       "damage": 100,
@@ -23942,10 +24468,10 @@
       },
       "upgradeCost": {
         "advanced_mechanical_components": 2,
-        "heavy_gun_parts": 3
+        "heavy_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 67.9,
       "damage": 100,
@@ -24580,12 +25106,8 @@
       "salvagesInto": {
         "simple_gun_parts": 2
       },
-      "upgradeCost": {
-        "mechanical_components": 3,
-        "simple_gun_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -24630,6 +25152,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -24835,11 +25358,11 @@
         "simple_gun_parts": 3
       },
       "upgradeCost": {
-        "heavy_gun_parts": 1,
-        "mechanical_components": 4
+        "mechanical_components": 3,
+        "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -25883,7 +26406,7 @@
         "battery": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -25892,6 +26415,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -26335,12 +26859,8 @@
       "salvagesInto": {
         "metal_parts": 3
       },
-      "upgradeCost": {
-        "metal_parts": 8,
-        "plastic_parts": 10
-      },
       "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -26454,11 +26974,11 @@
         "metal_parts": 6
       },
       "upgradeCost": {
-        "metal_parts": 10,
-        "simple_gun_parts": 1
+        "metal_parts": 8,
+        "plastic_parts": 10
       },
       "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -26707,11 +27227,11 @@
         "simple_gun_parts": 1
       },
       "upgradeCost": {
-        "mechanical_components": 3,
+        "metal_parts": 10,
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -26981,59 +27501,6 @@
         "simple_gun_parts": 2
       },
       "repairDurability": 0.5
-    },
-    {
-      "id": "kinetic_converter_blueprint",
-      "name": {
-        "da": "Kinetisk konverter Tegning",
-        "de": "Bauplan: Kinetischer Konverter",
-        "en": "Kinetic Converter Blueprint",
-        "es": "Plano de Convertidor cinético",
-        "fr": "Schéma Convertisseur Cinétique",
-        "he": "שרטוט ממיר קינטי",
-        "hr": "Nacrt za Kinetički pretvarač",
-        "it": "Progetto Convertitore cinetico",
-        "ja": "キネティック・コンバーター 設計図",
-        "ko-KR": "키네틱 컨버터 설계도",
-        "no": "Kinetisk konverter Tegning",
-        "pl": "Projekt Konwerter kinetyczny",
-        "pt": "Projeto de Conversor cinético",
-        "pt-BR": "Esquema de Conversor Cinético",
-        "ru": "Чертёж кинетического преобразователя",
-        "sr": "Nacrt za Kinetički pretvarač",
-        "tr": "Kinetik Dönüştürücü Taslağı",
-        "uk": "Креслення кінетичного перетворювача",
-        "zh-CN": "动能转换器蓝图",
-        "zh-TW": "動能轉換器藍圖"
-      },
-      "description": {
-        "da": "En tegning til at lave Kinetisk konverter.",
-        "de": "Ein Bauplan zur Herstellung des Kinetischen Konverters.",
-        "en": "A blueprint to craft the Kinetic Converter.",
-        "es": "Un plano para fabricar el Convertidor cinético.",
-        "fr": "Un schéma pour fabriquer le Convertisseur Cinétique.",
-        "he": "שרטוט ליצירת ממיר קינטי.",
-        "hr": "Nacrt za izradu Kinetičkog pretvarača.",
-        "it": "Un progetto per creare il Convertitore cinetico.",
-        "ja": "キネティック・コンバーター を製作するための設計図。",
-        "ko-KR": "키네틱 컨버터을 제작하기 위한 설계도.",
-        "no": "En tegning for å lage Kinetisk konverter.",
-        "pl": "Projekt do wytworzenia Konwertera kinetycznego.",
-        "pt": "Um projeto para fabricar o Conversor cinético.",
-        "pt-BR": "Um esquema para fabricar o Conversor Cinético.",
-        "ru": "Чертёж для создания кинетического преобразователя.",
-        "sr": "Nacrt za izradu Kinetičkog pretvarača.",
-        "tr": "Kinetik Dönüştürücü üretmek için bir plan.",
-        "uk": "Креслення для створення кінетичного перетворювача.",
-        "zh-CN": "用于制作动能转换器的蓝图。",
-        "zh-TW": "用於製作動能轉換器的藍圖。"
-      },
-      "type": "Blueprint",
-      "rarity": "Legendary",
-      "value": 5000,
-      "weightKg": 0,
-      "imageFilename": "https://cdn.arctracker.io/items/kinetic_converter.png",
-      "updatedAt": "01/19/2026"
     },
     {
       "id": "kinetic_converter",
@@ -27365,13 +27832,14 @@
         "crude_explosives": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/launcher_ammo.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
           "cost": {
             "coins": 4500
           },
+          "requiredLevel": 12,
           "trader": "Tian Wen"
         }
       ]
@@ -27627,7 +28095,8 @@
       "weightKg": 0.5,
       "stackSize": 1,
       "questItem": true,
-      "updatedAt": "02/23/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "lidar_scanner",
@@ -27924,10 +28393,7 @@
       "weightKg": 0.3,
       "stackSize": 5,
       "blueprintLocked": true,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "simple_gun_parts": 4
@@ -27939,7 +28405,7 @@
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -27948,6 +28414,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -28752,7 +29219,8 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "plastic_parts": 3,
         "rubber_parts": 3
@@ -28909,7 +29377,8 @@
         "electrical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
       "repairCost": {
         "electrical_components": 1,
         "magnet": 1
@@ -28922,7 +29391,17 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Lance"
+        },
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "requiredLevel": 7,
+          "trader": "Shani"
         }
       ]
     },
@@ -29062,7 +29541,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "advanced_electrical_components": 1,
         "processor": 2
@@ -29261,7 +29741,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_safekeeper.png",
-      "updatedAt": "02/24/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "looting_mk3_survivor_blueprint",
@@ -29310,11 +29791,12 @@
         "zh-TW": "重型馱獸增強裝備。大載重容量和大背包空間。"
       },
       "type": "Blueprint",
-      "rarity": "Legendary",
+      "rarity": "Common",
       "value": 5000,
       "weightKg": 0,
       "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
-      "updatedAt": "01/13/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "looting_mk3_survivor",
@@ -29567,7 +30049,6 @@
       "value": 1000,
       "weightKg": 0.25,
       "stackSize": 3,
-      "blueprintLocked": true,
       "effects": {
         "Duration": {
           "value": "15s",
@@ -29626,7 +30107,7 @@
         "wires": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/lure_grenade_trap.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -29749,10 +30230,6 @@
       "value": 300,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "industrial_magnet": 1
-      },
       "recyclesInto": {
         "metal_parts": 2
       },
@@ -29760,7 +30237,7 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/magnet.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -29769,6 +30246,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -29825,10 +30303,7 @@
       "value": 5500,
       "weightKg": 1,
       "stackSize": 3,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 3,
       "recipe": {
         "advanced_mechanical_components": 2,
@@ -29842,7 +30317,7 @@
         "advanced_mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -29939,7 +30414,8 @@
       "stackSize": 1,
       "questItem": true,
       "imageFilename": "https://cdn.arctracker.io/items/major_aivas_mementos.png",
-      "updatedAt": "02/23/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "major_aivas_patch",
@@ -30134,10 +30610,7 @@
       "value": 640,
       "weightKg": 0.5,
       "stackSize": 10,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 1,
       "recipe": {
         "metal_parts": 7,
@@ -30151,7 +30624,7 @@
         "metal_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -30339,10 +30812,7 @@
       "weightKg": 0.4,
       "stackSize": 5,
       "blueprintLocked": true,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "simple_gun_parts": 4
@@ -30354,7 +30824,7 @@
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -30363,6 +30833,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -30525,7 +30996,7 @@
         "arc_alloy": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/medium_shield.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "damageMitigation": 42.5,
       "durability": 100,
@@ -30543,6 +31014,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Lance"
         }
       ]
@@ -30661,12 +31133,8 @@
       "value": 75,
       "weightKg": 0.1,
       "stackSize": 50,
-      "craftBench": "in_raid",
-      "recipe": {
-        "damaged_tick_pod": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -30855,10 +31323,7 @@
       "value": 1750,
       "weightKg": 1,
       "stackSize": 5,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 2,
       "recipe": {
         "mechanical_components": 2,
@@ -30872,7 +31337,7 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -31060,7 +31525,7 @@
         "assorted_seeds": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/moss.png",
-      "updatedAt": "11/04/2025",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -31069,6 +31534,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -31479,7 +31945,7 @@
         "metal_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -31488,6 +31954,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -32179,6 +32646,61 @@
       "addedIn": "1.7"
     },
     {
+      "id": "official_shutdown_documentation",
+      "name": {
+        "da": "Officiel dokumentation om nedlukning",
+        "de": "Offizielle Stilllegungsdokumentation",
+        "en": "Official Shutdown Documentation",
+        "es": "Documentación oficial de cierre",
+        "fr": "Documentation officielle de fermeture",
+        "he": "תיעוד השבתה רשמי",
+        "hr": "Službena dokumentacija o gašenju",
+        "it": "Documentazione ufficiale di spegnimento",
+        "ja": "公式な閉鎖ドキュメント",
+        "ko-KR": "공식 폐쇄 문서",
+        "no": "Offisiell nedstengingsdokumentasjon",
+        "pl": "Oficjalna dokumentacja zamknięcia",
+        "pt": "Documentação oficial de encerramento",
+        "pt-BR": "Documentação oficial de encerramento",
+        "ru": "Официальная документация о прекращении работы",
+        "sr": "Službena dokumentacija o gašenju",
+        "tr": "Resmî Kapatma Belgeleri",
+        "uk": "Офіційна документація про припинення роботи",
+        "zh-CN": "官方关停文件",
+        "zh-TW": "官方關閉文件"
+      },
+      "description": {
+        "da": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "he": "",
+        "hr": "",
+        "it": "",
+        "ja": "",
+        "ko-KR": "",
+        "no": "",
+        "pl": "",
+        "pt": "",
+        "pt-BR": "",
+        "ru": "",
+        "sr": "",
+        "tr": "",
+        "uk": "",
+        "zh-CN": "",
+        "zh-TW": ""
+      },
+      "type": "Trinket",
+      "rarity": "Common",
+      "value": 0,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "questItem": true,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "oil",
       "name": {
         "da": "Olie",
@@ -32230,10 +32752,6 @@
       "value": 300,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "motor": 1
-      },
       "recyclesInto": {
         "chemicals": 3
       },
@@ -32241,7 +32759,7 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/oil.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -32250,6 +32768,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -32681,12 +33200,8 @@
       "salvagesInto": {
         "medium_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "medium_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -33280,11 +33795,11 @@
         "medium_gun_parts": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
+        "advanced_mechanical_components": 1,
         "medium_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 45.9,
       "damage": 45,
@@ -33913,7 +34428,7 @@
         "mechanical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -33922,6 +34437,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 20,
           "trader": "Tian Wen"
         }
       ]
@@ -33978,9 +34494,8 @@
       "value": 2000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/painted_box.png",
-      "updatedAt": "11/03/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -34244,12 +34759,8 @@
       "value": 60,
       "weightKg": 0.1,
       "stackSize": 50,
-      "craftBench": "in_raid",
-      "recipe": {
-        "surge_shield_recharger": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -34312,9 +34823,8 @@
       "value": 5000,
       "weightKg": 0.2,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/playing_cards.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -34537,7 +35047,8 @@
       "stackSize": 1,
       "questItem": true,
       "imageFilename": "https://cdn.arctracker.io/items/possibly_toxic_plant.png",
-      "updatedAt": "02/23/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "poster_of_natural_wonders",
@@ -34647,9 +35158,8 @@
       "value": 2000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/pottery.png",
-      "updatedAt": "11/03/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -34829,10 +35339,7 @@
       "value": 5000,
       "weightKg": 2,
       "stackSize": 3,
-      "craftBench": [
-        "in_raid",
-        "refiner"
-      ],
+      "craftBench": "refiner",
       "stationLevelRequired": 3,
       "recipe": {
         "advanced_electrical_components": 2,
@@ -34846,7 +35353,7 @@
         "advanced_electrical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/power_rod.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -34963,10 +35470,6 @@
       "value": 500,
       "weightKg": 0.2,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "projector": 1
-      },
       "recyclesInto": {
         "plastic_parts": 1,
         "wires": 1
@@ -34975,7 +35478,7 @@
         "plastic_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/processor.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -34984,6 +35487,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -35039,7 +35543,8 @@
       "value": 0,
       "weightKg": 0,
       "stackSize": 1,
-      "updatedAt": "02/24/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "1.17"
     },
     {
       "id": "projector",
@@ -35249,7 +35754,7 @@
         "chemicals": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
-      "updatedAt": "12/31/2025",
+      "updatedAt": "03/22/2026",
       "addedIn": "1.2",
       "vendors": [
         {
@@ -35258,6 +35763,7 @@
           },
           "limit": 6,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -35513,8 +36019,19 @@
         "sensors": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/raider_hatch_key.png",
-      "updatedAt": "02/24/2026",
-      "addedIn": "base"
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
+      "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "requiredLevel": 7,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "raiders_refuge_security_code",
@@ -35752,12 +36269,8 @@
       "salvagesInto": {
         "metal_parts": 4
       },
-      "upgradeCost": {
-        "metal_parts": 10,
-        "rubber_parts": 10
-      },
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -35974,11 +36487,11 @@
         "metal_parts": 8
       },
       "upgradeCost": {
-        "mechanical_components": 3,
-        "simple_gun_parts": 1
+        "metal_parts": 10,
+        "rubber_parts": 10
       },
       "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 54.8,
       "damage": 9,
@@ -36580,7 +37093,7 @@
         "plastic_parts": 4
       },
       "imageFilename": "https://cdn.arctracker.io/items/recorder.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "repairCost": {
         "plastic_parts": 4
@@ -36594,6 +37107,14 @@
           "limit": 6,
           "refreshSeconds": 86400,
           "trader": "Apollo"
+        },
+        {
+          "cost": {
+            "creds": 50
+          },
+          "limit": 3,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
         }
       ]
     },
@@ -36649,9 +37170,8 @@
       "value": 5000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png",
-      "updatedAt": "11/04/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -36821,7 +37341,7 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -36829,6 +37349,12 @@
             "coins": 450
           },
           "trader": "Apollo"
+        },
+        {
+          "cost": {
+            "creds": 10
+          },
+          "trader": "Shani"
         }
       ]
     },
@@ -37071,13 +37597,14 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
           "cost": {
             "coins": 810
           },
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -37265,12 +37792,8 @@
       "salvagesInto": {
         "medium_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "medium_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -37312,6 +37835,7 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Tian Wen"
         }
       ]
@@ -37810,11 +38334,11 @@
         "medium_gun_parts": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
+        "advanced_mechanical_components": 1,
         "medium_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 55.8,
       "damage": 35,
@@ -38248,9 +38772,8 @@
           "zh-TW": "使用時間"
         }
       },
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/resin.png",
-      "updatedAt": "11/04/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -38555,10 +39078,6 @@
       "value": 500,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "zipline": 1
-      },
       "recyclesInto": {
         "fabric": 5
       },
@@ -38566,7 +39085,7 @@
         "fabric": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/rope.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -38575,6 +39094,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -38867,12 +39387,8 @@
       "value": 50,
       "weightKg": 0.1,
       "stackSize": 50,
-      "craftBench": "in_raid",
-      "recipe": {
-        "rubber_pad": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -39699,6 +40215,116 @@
       "addedIn": "1.2"
     },
     {
+      "id": "scout_patrol_note",
+      "name": {
+        "da": "Spejderpatruljens note",
+        "de": "Späherpatrouillen-Notiz",
+        "en": "Scout Patrol Note",
+        "es": "Nota de patrulla de exploradores",
+        "fr": "Note de patrouille d'éclaireurs",
+        "he": "פתק סיור סיירים",
+        "hr": "Bilješka izvidničke patrole",
+        "it": "Nota di pattuglia scout",
+        "ja": "偵察パトロールのメモ",
+        "ko-KR": "정찰 순찰 메모",
+        "no": "Speiderpatruljenotat",
+        "pl": "Notatka patrolu zwiadowczego",
+        "pt": "Nota de patrulha de reconhecimento",
+        "pt-BR": "Bilhete da Patrulha de Reconhecimento",
+        "ru": "Записка разведывательного патруля",
+        "sr": "Beleška izviđačke patrole",
+        "tr": "İzci Devriyesi Notu",
+        "uk": "Записка розвідувального патруля",
+        "zh-CN": "侦察兵巡逻笔记",
+        "zh-TW": "偵察兵巡邏筆記"
+      },
+      "description": {
+        "da": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "he": "",
+        "hr": "",
+        "it": "",
+        "ja": "",
+        "ko-KR": "",
+        "no": "",
+        "pl": "",
+        "pt": "",
+        "pt-BR": "",
+        "ru": "",
+        "sr": "",
+        "tr": "",
+        "uk": "",
+        "zh-CN": "",
+        "zh-TW": ""
+      },
+      "type": "Trinket",
+      "rarity": "Common",
+      "value": 0,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "questItem": true,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "secret_meeting_info",
+      "name": {
+        "da": "Information om hemmeligt møde",
+        "de": "Geheime Besprechungsinfos",
+        "en": "Secret Meeting Info",
+        "es": "Información de reunión secreta",
+        "fr": "Informations sur la réunion secrète",
+        "he": "מידע על פגישה סודית",
+        "hr": "Informacije o tajnom sastanku",
+        "it": "Informazioni sulla riunione segreta",
+        "ja": "秘密の会議情報",
+        "ko-KR": "비밀 회의 정보",
+        "no": "Hemmelig møteinformasjon",
+        "pl": "Informacje o tajnym spotkaniu",
+        "pt": "Informações de reunião secreta",
+        "pt-BR": "Informações da Reunião Secreta",
+        "ru": "Информация о секретной встрече",
+        "sr": "Informacije o tajnom sastanku",
+        "tr": "Gizli Toplantı Bilgileri",
+        "uk": "Інформація про секретну зустріч",
+        "zh-CN": "秘密会议信息",
+        "zh-TW": "秘密會議資訊"
+      },
+      "description": {
+        "da": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "he": "",
+        "hr": "",
+        "it": "",
+        "ja": "",
+        "ko-KR": "",
+        "no": "",
+        "pl": "",
+        "pt": "",
+        "pt-BR": "",
+        "ru": "",
+        "sr": "",
+        "tr": "",
+        "uk": "",
+        "zh-CN": "",
+        "zh-TW": ""
+      },
+      "type": "Trinket",
+      "rarity": "Common",
+      "value": 0,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "questItem": true,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "seeker_grenade_blueprint",
       "name": {
         "da": "Søgergranat-tegning",
@@ -39866,7 +40492,7 @@
         "chemicals": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "1.2",
       "vendors": [
         {
@@ -39875,6 +40501,7 @@
           },
           "limit": 6,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -39931,10 +40558,6 @@
       "value": 500,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "broken_handheld_radio": 1
-      },
       "recyclesInto": {
         "metal_parts": 1,
         "wires": 1
@@ -39943,7 +40566,7 @@
         "wires": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/sensors.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -39952,6 +40575,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -40083,12 +40707,22 @@
         "plastic_parts": 4
       },
       "imageFilename": "https://cdn.arctracker.io/items/shaker.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "1.7",
       "repairCost": {
         "plastic_parts": 4
       },
-      "repairDurability": 0.5
+      "repairDurability": 0.5,
+      "vendors": [
+        {
+          "cost": {
+            "creds": 40
+          },
+          "limit": 3,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        }
+      ]
     },
     {
       "id": "shield_recharger",
@@ -40407,7 +41041,7 @@
         "metal_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -40416,6 +41050,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -40570,7 +41205,7 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_ii.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -40579,6 +41214,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -41534,15 +42170,24 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 1,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        },
         {
           "cost": {
             "coins": 6000
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -41710,59 +42355,6 @@
       "imageFilename": "https://cdn.arctracker.io/items/silencer_ii.png",
       "updatedAt": "02/24/2026",
       "addedIn": "base"
-    },
-    {
-      "id": "silencer_iii_blueprint",
-      "name": {
-        "da": "Lyddæmper III Tegning",
-        "de": "Bauplan: Schalldämpfer III",
-        "en": "Silencer III Blueprint",
-        "es": "Plano de Silenciador III",
-        "fr": "Schéma Silencieux III",
-        "he": "שרטוט משתיק III",
-        "hr": "Nacrt za Prigušivač III",
-        "it": "Progetto Silenziatore III",
-        "ja": "サイレンサー III 設計図",
-        "ko-KR": "소음기 III 설계도",
-        "no": "Lyddemper III Tegning",
-        "pl": "Projekt Tłumika III",
-        "pt": "Projeto de Silenciador III",
-        "pt-BR": "Esquema de Silenciador III",
-        "ru": "Чертёж глушителя III",
-        "sr": "Nacrt za Prigušivač III",
-        "tr": "Susturucu III Taslağı",
-        "uk": "Креслення глушника III",
-        "zh-CN": "消音器 III 蓝图",
-        "zh-TW": "消音器 III 藍圖"
-      },
-      "description": {
-        "da": "En tegning til at lave Lyddæmper III.",
-        "de": "Ein Bauplan zur Herstellung des Schalldämpfers III.",
-        "en": "A blueprint to craft the Silencer III.",
-        "es": "Un plano para fabricar el Silenciador III.",
-        "fr": "Un schéma pour fabriquer le Silencieux III.",
-        "he": "שרטוט ליצירת משתיק III.",
-        "hr": "Nacrt za izradu Prigušivača III.",
-        "it": "Un progetto per creare il Silenziatore III.",
-        "ja": "サイレンサー III を製作するための設計図。",
-        "ko-KR": "소음기 III을 제작하기 위한 설계도.",
-        "no": "En tegning for å lage Lyddemper III.",
-        "pl": "Projekt do wytworzenia Tłumika III.",
-        "pt": "Um projeto para fabricar o Silenciador III.",
-        "pt-BR": "Um esquema para fabricar o Silenciador III.",
-        "ru": "Чертёж для создания глушителя III.",
-        "sr": "Nacrt za izradu Prigušivača III.",
-        "tr": "Susturucu III üretmek için bir plan.",
-        "uk": "Креслення для створення глушника III.",
-        "zh-CN": "用于制作消音器 III 的蓝图。",
-        "zh-TW": "用於製作消音器 III 的藍圖。"
-      },
-      "type": "Blueprint",
-      "rarity": "Legendary",
-      "value": 5000,
-      "weightKg": 0,
-      "imageFilename": "https://cdn.arctracker.io/items/silencer_iii.png",
-      "updatedAt": "01/19/2026"
     },
     {
       "id": "silencer_iii",
@@ -41941,9 +42533,8 @@
       "value": 3000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/silver_teaspoon_set.png",
-      "updatedAt": "12/07/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -41998,10 +42589,6 @@
       "value": 330,
       "weightKg": 0.3,
       "stackSize": 10,
-      "craftBench": "in_raid",
-      "recipe": {
-        "il_toro_ii": 1
-      },
       "recyclesInto": {
         "metal_parts": 2
       },
@@ -42009,7 +42596,7 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/simple_gun_parts.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -42018,6 +42605,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -42128,7 +42716,6 @@
       "value": 640,
       "weightKg": 0.3,
       "stackSize": 3,
-      "blueprintLocked": true,
       "effects": {
         "Duration": {
           "value": "20s",
@@ -42187,7 +42774,7 @@
         "wires": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade_trap.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -42304,7 +42891,7 @@
         "chemicals": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -42313,6 +42900,7 @@
           },
           "limit": 6,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -42430,7 +43018,7 @@
         "chemicals": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/snap_blast_grenade.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -42439,6 +43027,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -43013,10 +43602,6 @@
       "value": 500,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "noisemaker": 1
-      },
       "recyclesInto": {
         "plastic_parts": 2,
         "rubber_parts": 3
@@ -43025,7 +43610,7 @@
         "plastic_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -43034,6 +43619,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -43629,15 +44215,24 @@
         "mechanical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/stable_stock_ii.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        },
         {
           "cost": {
             "coins": 6000
           },
           "limit": 2,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -43962,9 +44557,8 @@
       "value": 3000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/statuette.png",
-      "updatedAt": "11/01/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -44019,10 +44613,6 @@
       "value": 300,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "cooling_coil": 1
-      },
       "recyclesInto": {
         "metal_parts": 2
       },
@@ -44030,7 +44620,7 @@
         "metal_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/steel_spring.png",
-      "updatedAt": "01/09/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -44039,6 +44629,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -44449,15 +45040,24 @@
         "durable_cloth": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/sterilized_bandage.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
+        {
+          "cost": {
+            "creds": 40
+          },
+          "limit": 3,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        },
         {
           "cost": {
             "coins": 6000
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Lance"
         }
       ]
@@ -44647,12 +45247,8 @@
       "salvagesInto": {
         "metal_parts": 3
       },
-      "upgradeCost": {
-        "metal_parts": 8,
-        "rubber_parts": 12
-      },
       "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -44929,11 +45525,11 @@
         "metal_parts": 6
       },
       "upgradeCost": {
-        "metal_parts": 10,
-        "simple_gun_parts": 1
+        "metal_parts": 8,
+        "rubber_parts": 12
       },
       "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -45202,11 +45798,11 @@
         "simple_gun_parts": 1
       },
       "upgradeCost": {
-        "mechanical_components": 3,
+        "metal_parts": 10,
         "simple_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -45524,6 +46120,129 @@
       "repairDurability": 0.5
     },
     {
+      "id": "surge_coil_blueprint",
+      "name": {
+        "da": "Surge Coil Tegning",
+        "de": "Bauplan: Surge Coil",
+        "en": "Surge Coil Blueprint",
+        "es": "Surge Coil Plano",
+        "fr": "Surge Coil Plan",
+        "he": "Surge Coil תרשים",
+        "hr": "Surge Coil Nacrt",
+        "it": "Surge Coil Progetto",
+        "ja": "Surge Coil 設計図",
+        "ko-KR": "Surge Coil 청사진",
+        "no": "Surge Coil Tegning",
+        "pl": "Surge Coil Schemat",
+        "pt": "Esquema de Surge Coil",
+        "pt-BR": "Esquema de Surge Coil",
+        "ru": "Surge Coil Чертеж",
+        "sr": "Surge Coil Nacrt",
+        "tr": "Surge Coil Taslak",
+        "uk": "Surge Coil Креслення",
+        "zh-CN": "Surge Coil 蓝图",
+        "zh-TW": "Surge Coil 藍圖"
+      },
+      "description": {
+        "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+        "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+        "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+        "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+        "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+        "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+        "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+        "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+        "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+        "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+        "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+        "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+        "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+        "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+        "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+        "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+        "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+        "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+        "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+        "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+      },
+      "type": "Blueprint",
+      "rarity": "Common",
+      "value": 5000,
+      "weightKg": 0,
+      "stackSize": 1,
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
+      "id": "surge_coil",
+      "name": {
+        "da": "Surge Coil",
+        "de": "Surge Coil",
+        "en": "Surge Coil",
+        "es": "Surge Coil",
+        "fr": "Surge Coil",
+        "he": "Surge Coil",
+        "hr": "Surge Coil",
+        "it": "Surge Coil",
+        "ja": "Surge Coil",
+        "ko-KR": "Surge Coil",
+        "no": "Surge Coil",
+        "pl": "Surge Coil",
+        "pt": "Surge Coil",
+        "pt-BR": "Surge Coil",
+        "ru": "Surge Coil",
+        "sr": "Surge Coil",
+        "tr": "Surge Coil",
+        "uk": "Surge Coil",
+        "zh-CN": "Surge Coil",
+        "zh-TW": "Surge Coil"
+      },
+      "description": {
+        "da": "En deployerbar enhed, der periodisk elektrificerer området omkring sig selv og kortvarigt lammer alt, der fanges i det.",
+        "de": "Ein einsetzbares Gerät, das den Bereich um sich herum regelmäßig unter Strom setzt und alles, was darin gefangen ist, kurzzeitig betäubt.",
+        "en": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+        "es": "Un dispositivo desplegable que electrifica periódicamente el área a su alrededor y aturde brevemente a cualquier cosa atrapada en su interior.",
+        "fr": "Un dispositif déployable qui électrifie périodiquement la zone autour de lui et étourdit brièvement tout ce qui s'y trouve.",
+        "he": "מכשיר הניתן לפריסה שמחשמל מעת לעת את האזור שסביבו ומהמם לזמן קצר את כל מי שנתפס בתוכו.",
+        "hr": "Uređaj koji se može postaviti i koji povremeno naelektrizira područje oko sebe te nakratko omami sve što se nađe u njemu.",
+        "it": "Un dispositivo dispiegabile che elettrizza periodicamente l'area circostante e stordisce brevemente chiunque vi rimanga intrappolato.",
+        "ja": "一定時間ごとに周囲を帯電させ、範囲内にいるものを短時間スタンさせる設置型デバイス。",
+        "ko-KR": "주변 지역을 주기적으로 전기화하고 그 안에 갇힌 대상을 잠시 기절시키는 설치형 장치입니다.",
+        "no": "En utplasserbar enhed som periodisk elektrifiserer området rundt seg selv og kortvarig lammer alt som fanges i det.",
+        "pl": "Urządzenie możliwe do rozstawienia, które okresowo elektryzuje obszar wokół siebie i na krótko ogłusza wszystko, co się w nim znajdzie.",
+        "pt": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+        "pt-BR": "Um dispositivo implantável que eletrifica periodicamente a área ao seu redor e atordoa brevemente qualquer coisa capturada nela.",
+        "ru": "Развертываемое устройство, которое периодически наэлектризовывает область вокруг себя и ненадолго оглушает любого, кто в нее попадет.",
+        "sr": "Uređaj koji se može postaviti i koji periodično naelektriše područje oko sebe te nakratko omami sve što se nađe u njemu.",
+        "tr": "Etrafındaki alanı periyodik olarak elektriklendiren ve içinde kalan her şeyi kısa süreliğine sersemleten konuşlandırılabilir bir cihaz.",
+        "uk": "Пристрій, що розгортається, який періодично електризує область навколо себе та на короткий час приголомшує все, що потрапляє в нього.",
+        "zh-CN": "一种可部署的设备，定期使周围区域带电，并短暂击晕其中的任何目标。",
+        "zh-TW": "一種可部署的設備，定期使周圍區域帶電，並短暫擊暈其中的任何目標。"
+      },
+      "type": "Quick Use",
+      "rarity": "Uncommon",
+      "value": 2100,
+      "weightKg": 0,
+      "stackSize": 3,
+      "blueprintLocked": true,
+      "craftBench": "explosives_bench",
+      "stationLevelRequired": 3,
+      "recipe": {
+        "electrical_components": 1,
+        "hornet_driver": 1,
+        "sensors": 1
+      },
+      "recyclesInto": {
+        "electrical_components": 1,
+        "sensors": 1
+      },
+      "salvagesInto": {
+        "electrical_components": 1
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "surge_shield_recharger",
       "name": {
         "da": "Surge-skjoldoplader",
@@ -45635,15 +46354,24 @@
         "plastic_parts": 5
       },
       "imageFilename": "https://cdn.arctracker.io/items/surge_shield_recharger.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
+        {
+          "cost": {
+            "creds": 40
+          },
+          "limit": 5,
+          "refreshSeconds": 86400,
+          "trader": "Shani"
+        },
         {
           "cost": {
             "coins": 3600
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Lance"
         }
       ]
@@ -45763,10 +46491,6 @@
       "value": 700,
       "weightKg": 0.5,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "rocket_thruster": 1
-      },
       "recyclesInto": {
         "chemicals": 1,
         "oil": 1
@@ -45775,7 +46499,7 @@
         "oil": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/synthesized_fuel.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -45784,6 +46508,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -45840,10 +46565,6 @@
       "value": 500,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "rusted_shut_medical_kit": 1
-      },
       "recyclesInto": {
         "chemicals": 2,
         "plastic_parts": 3
@@ -45852,7 +46573,7 @@
         "plastic_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/syringe.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -45861,6 +46582,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -46001,7 +46723,8 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "plastic_parts": 3,
         "rubber_parts": 3
@@ -46158,7 +46881,8 @@
         "electrical_components": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
+      "addedIn": "base",
       "repairCost": {
         "electrical_components": 1,
         "magnet": 1
@@ -46171,7 +46895,17 @@
           },
           "limit": 1,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Lance"
+        },
+        {
+          "cost": {
+            "creds": 100
+          },
+          "limit": 2,
+          "refreshSeconds": 86400,
+          "requiredLevel": 7,
+          "trader": "Shani"
         }
       ]
     },
@@ -46367,7 +47101,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
-      "updatedAt": "01/20/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "advanced_electrical_components": 1,
         "processor": 2
@@ -46566,7 +47301,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
-      "updatedAt": "01/20/2026",
+      "updatedAt": "03/17/2026",
+      "addedIn": "base",
       "repairCost": {
         "advanced_electrical_components": 1,
         "processor": 2
@@ -46765,7 +47501,8 @@
         "electrical_components": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_revival.png",
-      "updatedAt": "02/24/2026"
+      "updatedAt": "03/17/2026",
+      "addedIn": "base"
     },
     {
       "id": "tagging_grenade_blueprint",
@@ -47365,12 +48102,8 @@
       "salvagesInto": {
         "medium_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 2,
-        "medium_gun_parts": 1
-      },
       "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -47632,10 +48365,10 @@
       },
       "upgradeCost": {
         "advanced_mechanical_components": 2,
-        "medium_gun_parts": 3
+        "medium_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -48504,9 +49237,8 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 5,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/torn_book.png",
-      "updatedAt": "11/04/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -48748,12 +49480,8 @@
       "salvagesInto": {
         "medium_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "medium_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -49231,11 +49959,11 @@
         "medium_gun_parts": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
+        "advanced_mechanical_components": 1,
         "medium_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "magazine": [
@@ -49680,7 +50408,7 @@
         "crude_explosives": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "1.2",
       "vendors": [
         {
@@ -49689,6 +50417,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Apollo"
         }
       ]
@@ -49916,9 +50645,8 @@
       "value": 1000,
       "weightKg": 0.3,
       "stackSize": 15,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/tropical_duck.png",
-      "updatedAt": "02/01/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "1.13"
     },
     {
@@ -50048,6 +50776,67 @@
       "addedIn": "base"
     },
     {
+      "id": "vaporizer_regulator",
+      "name": {
+        "da": "Vaporizer Regulator",
+        "de": "Vaporizer Regulator",
+        "en": "Vaporizer Regulator",
+        "es": "Vaporizer Regulator",
+        "fr": "Vaporizer Regulator",
+        "he": "Vaporizer Regulator",
+        "hr": "Vaporizer Regulator",
+        "it": "Vaporizer Regulator",
+        "ja": "Vaporizer Regulator",
+        "ko-KR": "Vaporizer Regulator",
+        "no": "Vaporizer Regulator",
+        "pl": "Vaporizer Regulator",
+        "pt": "Vaporizer Regulator",
+        "pt-BR": "Vaporizer Regulator",
+        "ru": "Vaporizer Regulator",
+        "sr": "Vaporizer Regulator",
+        "tr": "Vaporizer Regulator",
+        "uk": "Vaporizer Regulator",
+        "zh-CN": "Vaporizer Regulator",
+        "zh-TW": "Vaporizer Regulator"
+      },
+      "description": {
+        "da": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "he": "",
+        "hr": "",
+        "it": "",
+        "ja": "",
+        "ko-KR": "",
+        "no": "",
+        "pl": "",
+        "pt": "",
+        "pt-BR": "",
+        "ru": "",
+        "sr": "",
+        "tr": "",
+        "uk": "",
+        "zh-CN": "",
+        "zh-TW": ""
+      },
+      "type": "Recyclable",
+      "rarity": "Epic",
+      "value": 6000,
+      "weightKg": 0.5,
+      "stackSize": 1,
+      "recyclesInto": {
+        "advanced_electrical_components": 1,
+        "arc_circuitry": 2
+      },
+      "salvagesInto": {
+        "arc_circuitry": 2
+      },
+      "updatedAt": "03/31/2026",
+      "addedIn": "1.22"
+    },
+    {
       "id": "vase",
       "name": {
         "da": "Vase",
@@ -50099,9 +50888,8 @@
       "value": 3000,
       "weightKg": 0.3,
       "stackSize": 3,
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/vase.png",
-      "updatedAt": "11/04/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -50365,12 +51153,8 @@
       "salvagesInto": {
         "medium_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "medium_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -50918,11 +51702,11 @@
         "medium_gun_parts": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
+        "advanced_mechanical_components": 1,
         "medium_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -51327,7 +52111,7 @@
         "plastic_parts": 3
       },
       "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_i.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -51336,6 +52120,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Tian Wen"
         }
       ]
@@ -52198,9 +52983,8 @@
           "zh-TW": "傷害"
         }
       },
-      "recyclesInto": {},
       "imageFilename": "https://cdn.arctracker.io/items/volcanic_rock.png",
-      "updatedAt": "10/30/2025",
+      "updatedAt": "03/17/2026",
       "addedIn": "base"
     },
     {
@@ -52255,10 +53039,6 @@
       "value": 500,
       "weightKg": 0.3,
       "stackSize": 5,
-      "craftBench": "in_raid",
-      "recipe": {
-        "signal_amplifier": 1
-      },
       "recyclesInto": {
         "rubber_parts": 1,
         "wires": 1
@@ -52267,7 +53047,7 @@
         "rubber_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/voltage_converter.png",
-      "updatedAt": "01/13/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -52276,6 +53056,7 @@
           },
           "limit": 5,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Celeste"
         }
       ]
@@ -52519,12 +53300,8 @@
       "salvagesInto": {
         "heavy_gun_parts": 2
       },
-      "upgradeCost": {
-        "advanced_mechanical_components": 1,
-        "heavy_gun_parts": 2
-      },
       "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 70.7,
       "damage": 58.5,
@@ -52796,11 +53573,11 @@
         "heavy_gun_parts": 3
       },
       "upgradeCost": {
-        "advanced_mechanical_components": 2,
-        "heavy_gun_parts": 1
+        "advanced_mechanical_components": 1,
+        "heavy_gun_parts": 2
       },
       "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "agility": 70.7,
       "damage": 58.5,
@@ -53119,10 +53896,10 @@
       },
       "upgradeCost": {
         "advanced_mechanical_components": 2,
-        "heavy_gun_parts": 3
+        "heavy_gun_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/17/2026",
       "addedIn": "base",
       "modSlots": {
         "grip": [
@@ -53723,10 +54500,6 @@
       "value": 200,
       "weightKg": 0.25,
       "stackSize": 15,
-      "craftBench": "in_raid",
-      "recipe": {
-        "power_cable": 1
-      },
       "recyclesInto": {
         "rubber_parts": 2
       },
@@ -53734,7 +54507,7 @@
         "rubber_parts": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-      "updatedAt": "01/20/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials.",
       "vendors": [
@@ -53744,6 +54517,7 @@
           },
           "limit": 10,
           "refreshSeconds": 86400,
+          "requiredLevel": 7,
           "trader": "Celeste"
         }
       ]
@@ -54088,7 +54862,7 @@
         "chemicals": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -54096,6 +54870,12 @@
             "coins": 450
           },
           "trader": "Apollo"
+        },
+        {
+          "cost": {
+            "creds": 10
+          },
+          "trader": "Shani"
         }
       ]
     },
@@ -54164,7 +54944,7 @@
         "rope": 1
       },
       "imageFilename": "https://cdn.arctracker.io/items/zipline.png",
-      "updatedAt": "02/24/2026",
+      "updatedAt": "03/22/2026",
       "addedIn": "base",
       "vendors": [
         {
@@ -54173,6 +54953,7 @@
           },
           "limit": 3,
           "refreshSeconds": 86400,
+          "requiredLevel": 12,
           "trader": "Apollo"
         }
       ]
