@@ -451,97 +451,104 @@
   "schedule": {
     "dam-battleground": {
       "major": {
-        "2": "electromagnetic-storm",
-        "6": "electromagnetic-storm",
-        "10": "electromagnetic-storm",
-        "14": "electromagnetic-storm",
-        "18": "electromagnetic-storm",
-        "22": "electromagnetic-storm"
+        "1": "close-scrutiny",
+        "3": "electromagnetic-storm",
+        "5": "close-scrutiny",
+        "7": "hurricane",
+        "9": "close-scrutiny",
+        "11": "night-raid",
+        "13": "close-scrutiny",
+        "15": "electromagnetic-storm",
+        "17": "close-scrutiny",
+        "19": "hurricane",
+        "21": "close-scrutiny",
+        "23": "night-raid"
       },
       "minor": {
-        "3": "harvester",
+        "3": "prospecting-probes",
         "6": "husk-graveyard",
-        "9": "harvester",
-        "12": "husk-graveyard",
-        "15": "harvester",
-        "18": "husk-graveyard",
-        "23": "matriarch"
+        "9": "matriarch",
+        "12": "prospecting-probes",
+        "15": "husk-graveyard",
+        "18": "prospecting-probes",
+        "20": "prospecting-probes",
+        "23": "harvester"
       }
     },
     "buried-city": {
       "major": {
-        "2": "hurricane",
-        "3": "cold-snap",
-        "6": "hurricane",
-        "7": "night-raid",
-        "10": "hurricane",
-        "11": "cold-snap",
-        "14": "hurricane",
-        "15": "night-raid",
-        "18": "hurricane",
-        "19": "cold-snap",
-        "22": "hurricane",
-        "23": "night-raid"
+        "0": "night-raid",
+        "3": "close-scrutiny",
+        "4": "hurricane",
+        "7": "close-scrutiny",
+        "8": "night-raid",
+        "11": "close-scrutiny",
+        "12": "hurricane",
+        "15": "close-scrutiny",
+        "16": "night-raid",
+        "19": "close-scrutiny",
+        "20": "hurricane",
+        "23": "close-scrutiny"
       },
       "minor": {
         "3": "bird-city",
         "6": "husk-graveyard",
-        "9": "bird-city",
+        "9": "prospecting-probes",
         "12": "husk-graveyard",
         "15": "bird-city",
-        "18": "husk-graveyard",
+        "18": "prospecting-probes",
+        "20": "prospecting-probes",
         "23": "husk-graveyard"
       }
     },
     "the-spaceport": {
       "major": {
-        "0": "electromagnetic-storm",
-        "1": "hurricane",
-        "4": "hidden-bunker",
-        "5": "hurricane",
-        "8": "electromagnetic-storm",
+        "1": "hidden-bunker",
+        "2": "close-scrutiny",
+        "5": "night-raid",
+        "6": "close-scrutiny",
         "9": "hurricane",
-        "12": "cold-snap",
-        "13": "hurricane",
-        "16": "electromagnetic-storm",
-        "17": "hurricane",
-        "20": "hidden-bunker",
-        "21": "hurricane"
+        "10": "close-scrutiny",
+        "13": "hidden-bunker",
+        "14": "close-scrutiny",
+        "17": "night-raid",
+        "18": "close-scrutiny",
+        "21": "hurricane",
+        "22": "close-scrutiny"
       },
       "minor": {
         "2": "husk-graveyard",
         "5": "matriarch",
         "8": "harvester",
-        "11": "launch-tower-loot",
-        "14": "matriarch",
-        "17": "harvester",
-        "20": "matriarch",
+        "11": "matriarch",
+        "14": "launch-tower-loot",
+        "17": "husk-graveyard",
         "22": "harvester"
       }
     },
     "blue-gate": {
       "major": {
-        "1": "electromagnetic-storm",
-        "3": "hurricane",
-        "5": "electromagnetic-storm",
-        "7": "hurricane",
-        "9": "cold-snap",
-        "11": "hurricane",
-        "13": "electromagnetic-storm",
-        "15": "hurricane",
-        "17": "electromagnetic-storm",
-        "19": "hurricane",
-        "21": "cold-snap",
-        "23": "hurricane"
+        "0": "close-scrutiny",
+        "2": "locked-gate",
+        "4": "close-scrutiny",
+        "6": "hurricane",
+        "8": "close-scrutiny",
+        "10": "night-raid",
+        "12": "close-scrutiny",
+        "14": "locked-gate",
+        "16": "close-scrutiny",
+        "18": "hurricane",
+        "20": "close-scrutiny",
+        "22": "night-raid"
       },
       "minor": {
-        "0": "matriarch",
-        "4": "husk-graveyard",
-        "7": "harvester",
+        "0": "prospecting-probes",
+        "4": "harvester",
+        "7": "prospecting-probes",
         "10": "matriarch",
-        "13": "harvester",
-        "16": "husk-graveyard",
-        "19": "matriarch",
+        "13": "husk-graveyard",
+        "16": "prospecting-probes",
+        "19": "husk-graveyard",
         "21": "husk-graveyard"
       }
     },
@@ -551,7 +558,6 @@
         "8": "night-raid",
         "12": "night-raid",
         "16": "night-raid",
-        "20": "night-raid",
         "23": "night-raid"
       },
       "minor": {}
