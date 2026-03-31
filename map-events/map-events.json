@@ -1,24 +1,29 @@
 {
   "_readme": {
     "description": "Map events rotation schedule for ARC Raiders",
-    "example": "To add Night Raid at 5 PM UTC on Dam: schedule.dam-battleground.major['17'] = 'night-raid'",
-    "format": "Times in schedule are UTC hours (0-23). Add 'disabled: true' to eventTypes to temporarily disable an event."
+    "format": "Times in schedule are UTC hours (0-23). Add 'disabled: true' to eventTypes to temporarily disable an event.",
+    "example": "To add Night Raid at 5 PM UTC on Dam: schedule.dam-battleground.major['17'] = 'night-raid'"
   },
   "eventTypes": {
-    "close-scrutiny": {
-
-    },
-    "hidden-bunker": {
-
-    },
-    "bird-city": {
-      "displayName": "Bird City",
-      "icon": "https://cdn.arctracker.io/map-events/bird_city.png",
-      "translationKey": "birdCity",
+    "hurricane": {
+      "displayName": "Hurricane",
+      "icon": "https://cdn.arctracker.io/map-events/hurricane.png",
+      "translationKey": "hurricane",
+      "category": "major",
       "localizations": {
         "en": "Hurricane"
       },
       "disabled": false
+    },
+    "close-scrutiny": {
+      "displayName": "Close Scrutiny",
+      "icon": "https://cdn.arctracker.io/map-events/close-scrutiny.png",
+      "translationKey": "closeScrutiny",
+      "category": "major",
+      "localizations": {
+        "en": "Close Scrutiny"
+      },
+      "disabled": true
     },
     "night-raid": {
       "displayName": "Night Raid",
@@ -82,28 +87,35 @@
       "displayName": "Cold Snap",
       "icon": "https://cdn.arctracker.io/map-events/cold_snap.png",
       "translationKey": "coldSnap",
+      "category": "major",
+      "disabled": false,
       "localizations": {
-        "da": "Kuldebølge",
-        "de": "Kälteeinbruch",
         "en": "Cold Snap",
-        "es": "Ola de Frío",
+        "de": "Kälteeinbruch",
         "fr": "Vague de froid",
-        "he": "גל קור",
-        "hr": "Zahlađenje",
+        "es": "Ola de Frío",
+        "pt": "Onda de Frio",
+        "pt-BR": "Onda de Frio",
+        "pl": "Fala Zimna",
+        "no": "Kuldebølge",
+        "da": "Kuldebølge",
         "it": "Ondata di Freddo",
         "ja": "寒波",
         "ko": "한파",
-        "no": "Kuldebølge",
-        "pl": "Fala Zimna",
-        "pt": "Onda de Frio",
-        "pt-BR": "Onda de Frio",
+        "zh-CN": "寒潮",
+        "zh-TW": "寒潮",
         "ru": "Похолодание",
-        "sr": "Hladni talas",
         "tr": "Ani Soğuma",
         "uk": "Похолодання",
-        "zh-CN": "寒潮",
-        "zh-TW": "寒潮"
-      },
+        "hr": "Zahlađenje",
+        "sr": "Hladni talas",
+        "he": "גל קור"
+      }
+    },
+    "locked-gate": {
+      "displayName": "Locked Gate",
+      "icon": "https://cdn.arctracker.io/map-events/locked_gate.png",
+      "translationKey": "lockedGate",
       "category": "major",
       "localizations": {
         "en": "Locked Gate",
@@ -129,10 +141,12 @@
       },
       "disabled": true
     },
-    "electromagnetic-storm": {
-      "displayName": "Electromagnetic Storm",
-      "icon": "https://cdn.arctracker.io/map-events/electromagnetic_storm.png",
-      "translationKey": "electromagneticStorm",
+    "hidden-bunker": {
+      "displayName": "Hidden Bunker",
+      "icon": "https://cdn.arctracker.io/map-events/hidden_bunker.png",
+      "translationKey": "hiddenBunker",
+      "category": "major",
+      "disabled": false,
       "localizations": {
         "en": "Hidden Bunker",
         "de": "Versteckter Bunker",
@@ -189,19 +203,12 @@
       "displayName": "Harvester",
       "icon": "https://cdn.arctracker.io/map-events/harvester.png",
       "translationKey": "harvester",
+      "category": "minor",
       "localizations": {
-        "da": "Harvester",
-        "de": "Harvester",
         "en": "Harvester",
-        "es": "Cosechador",
+        "de": "Harvester",
         "fr": "Récolteur",
-        "he": "Harvester",
-        "hr": "Žetelac",
-        "it": "Raccoglitore",
-        "ja": "収穫機",
-        "ko": "하베스터",
-        "no": "Innhøster",
-        "pl": "Żniwiarz",
+        "es": "Cosechador",
         "pt": "Ceifador",
         "pt-BR": "Ceifador",
         "pl": "Żniwiarz",
@@ -213,7 +220,6 @@
         "zh-CN": "收割者",
         "zh-TW": "收割者",
         "ru": "Жнец",
-        "sr": "Žetelac",
         "tr": "Harvester",
         "uk": "Жнивар (Harvester)",
         "hr": "Žetelac",
@@ -229,29 +235,27 @@
       "category": "minor",
       "disabled": true,
       "localizations": {
-        "da": "Skjult Bunker",
-        "de": "Versteckter Bunker",
-        "en": "Hidden Bunker",
-        "es": "Búnker Oculto",
-        "fr": "Bunker caché",
-        "he": "בונקר נסתר",
-        "hr": "Skriveni bunker",
-        "it": "Bunker Nascosto",
-        "ja": "隠された貯蔵庫",
-        "ko": "숨겨진 벙커",
-        "no": "Skjult bunker",
-        "pl": "Ukryty Bunkier",
-        "pt": "Bunker Oculto",
-        "pt-BR": "Bunker Oculto",
-        "ru": "Скрытый бункер",
-        "sr": "Skriveni bunker",
-        "tr": "Gizli Sığınak",
-        "uk": "Прихований бункер",
-        "zh-CN": "隐藏地堡",
-        "zh-TW": "隱藏地堡"
-      },
-      "category": "major",
-      "disabled": false
+        "en": "Lush Blooms",
+        "de": "Üppige Blüten",
+        "fr": "Floraisons luxuriantes",
+        "es": "Floración Exuberante",
+        "pt": "Floração Exuberante",
+        "pt-BR": "Flores Fartas",
+        "pl": "Bujny Rozkwit",
+        "no": "Frodige blomster",
+        "da": "Frodige Blomster",
+        "it": "Fioritura Lussureggiante",
+        "ja": "収穫の季節",
+        "ko": "무성한 개화",
+        "zh-CN": "繁茂花丛",
+        "zh-TW": "繁茂花叢",
+        "ru": "Пышное цветение",
+        "tr": "Gür Çiçekler",
+        "uk": "Пишне цвітіння",
+        "hr": "Bujni cvat",
+        "sr": "Bujni cvat",
+        "he": "פריחה עשירה"
+      }
     },
     "prospecting-probes": {
       "displayName": "Prospecting Probes",
@@ -289,27 +293,32 @@
       "category": "minor",
       "disabled": false,
       "localizations": {
-        "da": "Husk Kirkegård",
-        "de": "Husk-Friedhof",
         "en": "Husk Graveyard",
-        "es": "Cementerio de Carcasas",
+        "de": "Husk-Friedhof",
         "fr": "Cimetière d'épaves",
-        "he": "בית קברות ל-ARCs",
-        "hr": "Groblje ljuski",
+        "es": "Cementerio de Carcasas",
+        "pt": "Cemitério de Carcaças",
+        "pt-BR": "Cemitério de Carcaças",
+        "pl": "Cmentarzysko Pustaków",
+        "no": "Husk-kirkegård",
+        "da": "Husk Kirkegård",
         "it": "Cimitero di Carcasse",
         "ja": "残骸の墓場",
         "ko": "허스크 무덤",
-        "no": "Husk-kirkegård",
-        "pl": "Cmentarzysko Pustaków",
-        "pt": "Cemitério de Carcaças",
-        "pt-BR": "Cemitério de Carcaças",
+        "zh-CN": "机壳墓地",
+        "zh-TW": "機殼墓地",
         "ru": "Кладбище Оболочек",
-        "sr": "Groblje ljuštura",
         "tr": "Kabuk Mezarlığı",
         "uk": "Кладовище оболонок",
-        "zh-CN": "机壳墓地",
-        "zh-TW": "機殼墓地"
-      },
+        "hr": "Groblje ljuski",
+        "sr": "Groblje ljuštura",
+        "he": "בית קברות ל-ARCs"
+      }
+    },
+    "uncovered-caches": {
+      "displayName": "Uncovered Caches",
+      "icon": "https://cdn.arctracker.io/map-events/uncovered_caches.png",
+      "translationKey": "uncoveredCaches",
       "category": "minor",
       "disabled": true,
       "localizations": {
@@ -339,23 +348,23 @@
       "displayName": "Launch Tower Loot",
       "icon": "https://cdn.arctracker.io/map-events/launch_tower_loot.png",
       "translationKey": "launchTowerLoot",
+      "category": "minor",
       "localizations": {
-        "da": "Affyringstårn Loot",
-        "de": "Startturm-Beute",
         "en": "Launch Tower Loot",
-        "es": "Botín de Torre de Lanzamiento",
+        "de": "Startturm-Beute",
         "fr": "Butin de la tour de lancement",
-        "he": "שלל מגדל השיגור",
-        "hr": "Plijen lansirnog tornja",
+        "es": "Botín de Torre de Lanzamiento",
+        "pt": "Saque da Torre de Lançamento",
+        "pt-BR": "Espólio da Torre de Lançamento",
+        "pl": "Łup z Wieży Startowej",
+        "no": "Bytte fra oppskytningstårn",
+        "da": "Affyringstårn Loot",
         "it": "Bottino Torre di Lancio",
         "ja": "発射塔の戦利品",
         "ko": "발사대 전리품",
-        "no": "Bytte fra oppskytningstårn",
-        "pl": "Łup z Wieży Startowej",
-        "pt": "Saque da Torre de Lançamento",
-        "pt-BR": "Espólio da Torre de Lançamento",
+        "zh-CN": "发射塔上的战利品",
+        "zh-TW": "發射塔上的戰利品",
         "ru": "Лут стартовой вышки",
-        "sr": "Plien lansirnog tornja",
         "tr": "Fırlatma Kulesi Ganimeti",
         "uk": "Здобич пускової вежі",
         "hr": "Plijen lansirnog tornja",
@@ -364,10 +373,11 @@
       },
       "disabled": false
     },
-    "locked-gate": {
-      "displayName": "Locked Gate",
-      "icon": "https://cdn.arctracker.io/map-events/locked_gate.png",
-      "translationKey": "lockedGate",
+    "bird-city": {
+      "displayName": "Bird City",
+      "icon": "https://cdn.arctracker.io/map-events/bird_city.png",
+      "translationKey": "birdCity",
+      "category": "minor",
       "localizations": {
         "en": "Bird City",
         "de": "Vogelstadt",
@@ -396,108 +406,50 @@
       "displayName": "None",
       "icon": "",
       "translationKey": "none",
+      "category": "none",
       "localizations": {
-        "da": "Ingen",
-        "de": "Keine",
         "en": "None",
-        "es": "Ninguno",
+        "de": "Keine",
         "fr": "Aucun",
-        "he": "ללא",
-        "hr": "Nema",
+        "es": "Ninguno",
+        "pt": "Nenhum",
+        "pt-BR": "Nenhum",
+        "pl": "Brak",
+        "no": "Ingen",
+        "da": "Ingen",
         "it": "Nessuno",
         "ja": "なし",
         "ko": "없음",
-        "no": "Ingen",
-        "pl": "Brak",
-        "pt": "Nenhum",
-        "pt-BR": "Nenhum",
+        "zh-CN": "无",
+        "zh-TW": "無",
         "ru": "Нет",
-        "sr": "Nema",
         "tr": "Hiçbiri",
         "uk": "Немає",
-        "zh-CN": "无",
-        "zh-TW": "無"
-      },
-      "category": "none"
-    },
-    "prospecting-probes": {
-      "displayName": "Prospecting Probes",
-      "icon": "https://cdn.arctracker.io/map-events/prospecting_probes.png",
-      "translationKey": "prospectingProbes",
-      "localizations": {
-        "da": "Prospekteringssonder",
-        "de": "Schürfsonden",
-        "en": "Prospecting Probes",
-        "es": "Sondas de Prospección",
-        "fr": "Sondes de prospection",
-        "he": "Probes",
-        "hr": "Sonde za istraživanje",
-        "it": "Sonde di Prospezione",
-        "ja": "探査機",
-        "ko": "탐사 프로브",
-        "no": "Prospekteringsprober",
-        "pl": "Sondy Poszukiwawcze",
-        "pt": "Sondas de Prospecção",
-        "pt-BR": "Sondas de Prospecção",
-        "ru": "Геологические зонды",
-        "sr": "Sonde za istraživanje",
-        "tr": "Arama Sondaları",
-        "uk": "Розвідувальні зонди",
-        "zh-CN": "四处窥探的探测器",
-        "zh-TW": "四處窺探的探測器"
-      },
-      "category": "minor",
-      "disabled": false
-    },
-    "uncovered-caches": {
-      "displayName": "Uncovered Caches",
-      "icon": "https://cdn.arctracker.io/map-events/uncovered_caches.png",
-      "translationKey": "uncoveredCaches",
-      "localizations": {
-        "da": "Afslørede Depoter",
-        "de": "Freigelegte Verstecke",
-        "en": "Uncovered Caches",
-        "es": "Alijos Descubiertos",
-        "fr": "Caches de raider",
-        "he": "מצבורים שנחשפו",
-        "hr": "Otkrivena spremišta",
-        "it": "Scorte Scoperte",
-        "ja": "さらされた宝箱",
-        "ko": "발견된 캐시",
-        "no": "Avdekkede lagre",
-        "pl": "Odsłonięte Skrytki",
-        "pt": "Esconderijos Descobertos",
-        "pt-BR": "Caches Descobertos",
-        "ru": "Обнаруженные тайники",
-        "sr": "Otkrivena skrovišta",
-        "tr": "Açığa Çıkmış Zulalar",
-        "uk": "Відкриті схованки",
-        "zh-CN": "暴露的奇袭者箱",
-        "zh-TW": "暴露的奇襲者箱"
-      },
-      "category": "minor",
-      "disabled": true
+        "hr": "Nema",
+        "sr": "Nema",
+        "he": "ללא"
+      }
     }
   },
   "maps": {
-    "blue-gate": {
-      "displayName": "Blue Gate"
+    "dam-battleground": {
+      "displayName": "Dam Battleground"
     },
     "buried-city": {
       "displayName": "Buried City"
     },
-    "dam-battleground": {
-      "displayName": "Dam Battleground"
+    "the-spaceport": {
+      "displayName": "The Spaceport"
+    },
+    "blue-gate": {
+      "displayName": "Blue Gate"
     },
     "stella-montis": {
       "displayName": "Stella Montis"
-    },
-    "the-spaceport": {
-      "displayName": "The Spaceport"
     }
   },
   "schedule": {
-    "blue-gate": {
+    "dam-battleground": {
       "major": {
         "2": "electromagnetic-storm",
         "6": "electromagnetic-storm",
@@ -519,17 +471,17 @@
     "buried-city": {
       "major": {
         "2": "hurricane",
-        "3": "night-raid",
+        "3": "cold-snap",
         "6": "hurricane",
-        "7": "cold-snap",
+        "7": "night-raid",
         "10": "hurricane",
-        "11": "night-raid",
+        "11": "cold-snap",
         "14": "hurricane",
-        "15": "cold-snap",
+        "15": "night-raid",
         "18": "hurricane",
-        "19": "night-raid",
+        "19": "cold-snap",
         "22": "hurricane",
-        "23": "cold-snap"
+        "23": "night-raid"
       },
       "minor": {
         "3": "bird-city",
@@ -541,7 +493,7 @@
         "23": "husk-graveyard"
       }
     },
-    "dam-battleground": {
+    "the-spaceport": {
       "major": {
         "0": "electromagnetic-storm",
         "1": "hurricane",
@@ -603,31 +555,6 @@
         "23": "night-raid"
       },
       "minor": {}
-    },
-    "the-spaceport": {
-      "major": {
-        "0": "electromagnetic-storm",
-        "1": "hurricane",
-        "4": "night-raid",
-        "5": "hurricane",
-        "8": "electromagnetic-storm",
-        "9": "hurricane",
-        "12": "night-raid",
-        "13": "hurricane",
-        "16": "electromagnetic-storm",
-        "17": "hurricane",
-        "20": "night-raid",
-        "21": "hurricane"
-      },
-      "minor": {
-        "3": "prospecting-probes",
-        "6": "husk-graveyard",
-        "9": "matriarch",
-        "12": "husk-graveyard",
-        "15": "prospecting-probes",
-        "18": "harvester",
-        "21": "prospecting-probes"
-      }
     }
   }
 }
