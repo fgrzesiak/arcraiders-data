@@ -4,20 +4,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-/**
- * Downloads the public map-event rotation, merges it with local metadata, and
- * rewrites map-events/map-events.json.
- * Can be used in a github action to automate the process
- */
 const API_URL = "https://arctracker.io/api/map-events";
-
-const prefixToMapId = {
-  dam: "dam-battleground",
-  buriedCity: "buried-city",
-  spaceport: "the-spaceport",
-  blueGate: "blue-gate",
-  stellaMontis: "stella-montis"
-};
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,104 +20,146 @@ async function run() {
   }
 
   const payload = await response.json();
+
   if (!Array.isArray(payload.fullRotation)) {
     throw new Error("API payload missing fullRotation array");
   }
 
-  const mapEvents = JSON.parse(await readFile(targetPath, "utf8"));
-  const schedule = buildSchedule(payload.fullRotation, mapEvents.eventTypes);
-  const eventTypes = mergeEventLocalizations(
-    mapEvents.eventTypes,
-    payload.eventTypes
-  );
+  if (!payload.eventTypes || typeof payload.eventTypes !== "object") {
+    throw new Error("API payload missing eventTypes object");
+  }
+
+  const existing = JSON.parse(await readFile(targetPath, "utf8"));
+
+  const eventTypes = mergeEventTypes(existing.eventTypes, payload.eventTypes);
+  const schedule = buildSchedule(payload.fullRotation, eventTypes);
+
   const nextData = {
-    ...mapEvents,
+    ...existing,
     eventTypes,
     schedule
   };
 
   await writeFile(targetPath, `${JSON.stringify(nextData, null, 2)}\n`);
+
   console.log(
     `Updated map-events.json with ${payload.fullRotation.length} schedule entries`
   );
 }
 
 function buildSchedule(fullRotation, eventTypes = {}) {
-  // Seed every map with empty major/minor buckets so missing rotations do not
-  // erase prior maps from the file.
-  const schedule = Object.values(prefixToMapId).reduce((acc, mapId) => {
-    acc[mapId] = { major: {}, minor: {} };
-    return acc;
-  }, {});
+  const schedule = {};
+
+  // Alle Maps aus der Rotation vorab anlegen
+  for (const entry of fullRotation) {
+    if (!entry?.maps || typeof entry.maps !== "object") continue;
+
+    for (const mapId of Object.keys(entry.maps)) {
+      if (!schedule[mapId]) {
+        schedule[mapId] = { major: {}, minor: {} };
+      }
+    }
+  }
+
+  // displayName -> slug Lookup aus den API-eventTypes bauen
+  const displayNameToSlug = new Map();
+
+  for (const [slug, config] of Object.entries(eventTypes)) {
+    const displayName =
+      typeof config?.displayName === "string" ? config.displayName.trim() : "";
+
+    if (displayName) {
+      displayNameToSlug.set(normalizeName(displayName), slug);
+    }
+  }
 
   for (const entry of fullRotation) {
-    const hour = entry.hour;
-    if (typeof hour !== "number") {
-      continue;
-    }
+    const hour = entry?.hour;
+    if (typeof hour !== "number") continue;
 
-    for (const [key, rawName] of Object.entries(entry)) {
-      if (key === "hour") {
-        continue;
+    const maps = entry?.maps;
+    if (!maps || typeof maps !== "object") continue;
+
+    for (const [mapId, mapEvents] of Object.entries(maps)) {
+      if (!schedule[mapId]) {
+        schedule[mapId] = { major: {}, minor: {} };
       }
 
-      const match = /^([a-zA-Z]+)(Minor|Major)$/.exec(key);
-      if (!match) {
-        continue;
+      for (const tier of ["minor", "major"]) {
+        const rawName = mapEvents?.[tier];
+        const eventName =
+          typeof rawName === "string" ? rawName.trim() : String(rawName ?? "");
+
+        if (!eventName || eventName.toLowerCase() === "none") {
+          continue;
+        }
+
+        const slug = resolveEventSlug(eventName, displayNameToSlug, eventTypes);
+
+        if (!slug) {
+          console.warn(
+            `Skipping unknown event "${eventName}" for map "${mapId}" (${tier} @ ${hour})`
+          );
+          continue;
+        }
+
+        schedule[mapId][tier][String(hour)] = slug;
       }
-
-      const [, prefix, tierRaw] = match;
-      const mapId = prefixToMapId[prefix];
-      if (!mapId) {
-        throw new Error(`Unexpected map prefix "${prefix}" in API response`);
-      }
-
-      const tier = tierRaw.toLowerCase();
-      const eventName =
-        typeof rawName === "string" ? rawName.trim() : String(rawName || "");
-
-      if (!eventName || eventName.toLowerCase() === "none") {
-        continue;
-      }
-
-      const slug = slugify(eventName);
-      if (!eventTypes[slug]) {
-        throw new Error(
-          `Event type "${eventName}" (${slug}) missing from eventTypes`
-        );
-      }
-
-      // Each hour slot only stores the slug so we inherit the rich metadata
-      // (icons, descriptions, rewards) from eventTypes on the frontend.
-      schedule[mapId][tier][hour.toString()] = slug;
     }
   }
 
   return schedule;
 }
 
-function mergeEventLocalizations(eventTypes = {}, remoteEventTypes = {}) {
-  const next = { ...eventTypes };
+function resolveEventSlug(eventName, displayNameToSlug, eventTypes) {
+  const normalized = normalizeName(eventName);
 
-  for (const [slug, config] of Object.entries(eventTypes)) {
-    const localizations = remoteEventTypes?.[slug]?.localizations;
-    if (!localizations || typeof localizations !== "object") {
-      continue;
-    }
+  // 1. sauber über displayName matchen
+  const directMatch = displayNameToSlug.get(normalized);
+  if (directMatch) {
+    return directMatch;
+  }
 
-    // Replace the localization blob wholesale so the languages stay aligned
-    // with whatever production currently exposes.
+  // 2. fallback: alter slugify-Weg, falls lokal/remote doch klassisch ist
+  const slugified = slugify(eventName);
+  if (eventTypes[slugified]) {
+    return slugified;
+  }
+
+  // 3. fallback: direkt als key vorhanden
+  if (eventTypes[eventName]) {
+    return eventName;
+  }
+
+  return null;
+}
+
+function mergeEventTypes(localEventTypes = {}, remoteEventTypes = {}) {
+  const next = { ...localEventTypes };
+
+  for (const [slug, remoteConfig] of Object.entries(remoteEventTypes)) {
+    const localConfig = localEventTypes[slug] ?? {};
+
     next[slug] = {
-      ...config,
-      localizations
+      ...localConfig,
+      ...remoteConfig,
+      localizations:
+        remoteConfig?.localizations &&
+        typeof remoteConfig.localizations === "object"
+          ? remoteConfig.localizations
+          : localConfig.localizations ?? {}
     };
   }
 
   return next;
 }
 
+function normalizeName(name) {
+  return String(name).trim().toLowerCase().replace(/\s+/g, " ");
+}
+
 function slugify(name) {
-  return name
+  return String(name)
     .toLowerCase()
     .replace(/['"]/g, "")
     .replace(/[^a-z0-9]+/g, "-")

@@ -447,6 +447,41 @@
         "sr": "Nema",
         "he": "ללא"
       }
+    },
+    "unmapped--1064764405": {
+      "displayName": "Hurricane",
+      "icon": "https://cdn.arctracker.io/map-events/hurricane.png",
+      "translationKey": "hurricane",
+      "category": "major",
+      "localizations": {
+        "en": "Hurricane",
+        "de": "Hurrikan",
+        "fr": "Ouragan",
+        "es": "Huracán",
+        "pt": "Furacão",
+        "pt-BR": "Furacão",
+        "pl": "Huragan",
+        "no": "Orkan",
+        "da": "Orkan",
+        "it": "Uragano",
+        "ja": "ハリケーン",
+        "ko": "허리케인",
+        "zh-CN": "飓风",
+        "zh-TW": "颶風",
+        "ru": "Ураган",
+        "tr": "Kasırga",
+        "uk": "Ураган",
+        "hr": "Uragan",
+        "sr": "Uragan",
+        "he": "הוריקן"
+      }
+    },
+    "unmapped-1675344979": {
+      "displayName": "Close Scrutiny",
+      "icon": "https://cdn.arctracker.io/map-events/close-scrutiny.png",
+      "translationKey": "closeScrutiny",
+      "category": "major",
+      "localizations": {}
     }
   },
   "maps": {
@@ -469,114 +504,117 @@
   "schedule": {
     "dam-battleground": {
       "major": {
-        "1": "close-scrutiny",
+        "1": "unmapped-1675344979",
         "3": "electromagnetic-storm",
-        "5": "close-scrutiny",
-        "7": "hurricane",
-        "9": "close-scrutiny",
+        "5": "unmapped-1675344979",
+        "7": "unmapped--1064764405",
+        "9": "unmapped-1675344979",
         "11": "night-raid",
-        "13": "close-scrutiny",
+        "13": "unmapped-1675344979",
         "15": "electromagnetic-storm",
-        "17": "close-scrutiny",
-        "19": "hurricane",
-        "21": "close-scrutiny",
+        "17": "unmapped-1675344979",
+        "19": "unmapped--1064764405",
+        "21": "unmapped-1675344979",
         "23": "night-raid"
       },
       "minor": {
         "3": "prospecting-probes",
         "6": "husk-graveyard",
-        "9": "matriarch",
-        "12": "prospecting-probes",
-        "15": "husk-graveyard",
-        "18": "prospecting-probes",
-        "20": "prospecting-probes",
-        "23": "harvester"
+        "9": "harvester",
+        "12": "husk-graveyard",
+        "15": "prospecting-probes",
+        "20": "matriarch",
+        "23": "husk-graveyard"
       }
     },
     "buried-city": {
       "major": {
         "0": "night-raid",
-        "3": "close-scrutiny",
-        "4": "hurricane",
-        "7": "close-scrutiny",
+        "3": "unmapped-1675344979",
+        "4": "unmapped--1064764405",
+        "7": "unmapped-1675344979",
         "8": "night-raid",
-        "11": "close-scrutiny",
-        "12": "hurricane",
-        "15": "close-scrutiny",
+        "11": "unmapped-1675344979",
+        "12": "unmapped--1064764405",
+        "15": "unmapped-1675344979",
         "16": "night-raid",
-        "19": "close-scrutiny",
-        "20": "hurricane",
-        "23": "close-scrutiny"
+        "19": "unmapped-1675344979",
+        "20": "unmapped--1064764405",
+        "23": "unmapped-1675344979"
       },
       "minor": {
-        "3": "bird-city",
-        "6": "husk-graveyard",
-        "9": "prospecting-probes",
-        "12": "husk-graveyard",
-        "15": "bird-city",
-        "18": "prospecting-probes",
-        "20": "prospecting-probes",
-        "23": "husk-graveyard"
+        "0": "bird-city",
+        "1": "husk-graveyard",
+        "4": "prospecting-probes",
+        "7": "husk-graveyard",
+        "10": "bird-city",
+        "13": "prospecting-probes",
+        "16": "bird-city",
+        "18": "bird-city",
+        "21": "husk-graveyard"
       }
     },
     "the-spaceport": {
       "major": {
         "1": "hidden-bunker",
-        "2": "close-scrutiny",
+        "2": "unmapped-1675344979",
         "5": "night-raid",
-        "6": "close-scrutiny",
-        "9": "hurricane",
-        "10": "close-scrutiny",
+        "6": "unmapped-1675344979",
+        "9": "unmapped--1064764405",
+        "10": "unmapped-1675344979",
         "13": "hidden-bunker",
-        "14": "close-scrutiny",
+        "14": "unmapped-1675344979",
         "17": "night-raid",
-        "18": "close-scrutiny",
-        "21": "hurricane",
-        "22": "close-scrutiny"
+        "18": "unmapped-1675344979",
+        "21": "unmapped--1064764405",
+        "22": "unmapped-1675344979"
       },
       "minor": {
-        "2": "husk-graveyard",
-        "5": "matriarch",
-        "8": "harvester",
-        "11": "matriarch",
-        "14": "launch-tower-loot",
-        "17": "husk-graveyard",
-        "22": "harvester"
+        "0": "harvester",
+        "3": "matriarch",
+        "6": "husk-graveyard",
+        "9": "matriarch",
+        "12": "launch-tower-loot",
+        "15": "harvester",
+        "20": "matriarch",
+        "23": "launch-tower-loot"
       }
     },
     "blue-gate": {
       "major": {
-        "0": "close-scrutiny",
+        "0": "unmapped-1675344979",
         "2": "locked-gate",
-        "4": "close-scrutiny",
-        "6": "hurricane",
-        "8": "close-scrutiny",
+        "4": "unmapped-1675344979",
+        "6": "unmapped--1064764405",
+        "8": "unmapped-1675344979",
         "10": "night-raid",
-        "12": "close-scrutiny",
+        "12": "unmapped-1675344979",
         "14": "locked-gate",
-        "16": "close-scrutiny",
-        "18": "hurricane",
-        "20": "close-scrutiny",
+        "16": "unmapped-1675344979",
+        "18": "unmapped--1064764405",
+        "20": "unmapped-1675344979",
         "22": "night-raid"
       },
       "minor": {
-        "0": "prospecting-probes",
-        "4": "harvester",
-        "7": "prospecting-probes",
-        "10": "matriarch",
-        "13": "husk-graveyard",
-        "16": "prospecting-probes",
+        "0": "husk-graveyard",
+        "2": "matriarch",
+        "5": "harvester",
+        "8": "prospecting-probes",
+        "11": "matriarch",
+        "14": "prospecting-probes",
+        "17": "harvester",
         "19": "husk-graveyard",
-        "21": "husk-graveyard"
+        "22": "prospecting-probes"
       }
     },
     "stella-montis": {
       "major": {
-        "4": "night-raid",
-        "8": "night-raid",
-        "12": "night-raid",
-        "16": "night-raid",
-        "23": "night-raid"
+        "0": "night-raid",
+        "2": "night-raid",
+        "6": "night-raid",
+        "10": "night-raid",
+        "14": "night-raid",
+        "20": "night-raid"
       },
       "minor": {}
     }
