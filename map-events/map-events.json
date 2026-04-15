@@ -38,9 +38,7 @@
       "displayName": "Close Scrutiny",
       "icon": "https://cdn.arctracker.io/map-events/close-scrutiny.png",
       "translationKey": "closeScrutiny",
-      "localizations": {
-        "en": "Close Scrutiny"
-      },
+      "localizations": {},
       "category": "major",
       "disabled": true
     },
@@ -504,81 +502,79 @@
   "schedule": {
     "blue-gate": {
       "major": {
-        "1": "unmapped-1675344979",
-        "3": "locked-gate",
-        "5": "unmapped-1675344979",
-        "7": "locked-gate",
-        "9": "unmapped-1675344979",
-        "11": "locked-gate",
-        "13": "unmapped-1675344979",
-        "15": "locked-gate",
-        "17": "unmapped-1675344979",
-        "19": "locked-gate",
-        "21": "unmapped-1675344979",
-        "23": "locked-gate"
+        "2": "unmapped-1675344979",
+        "4": "electromagnetic-storm",
+        "6": "unmapped-1675344979",
+        "8": "electromagnetic-storm",
+        "10": "unmapped-1675344979",
+        "12": "electromagnetic-storm",
+        "14": "unmapped-1675344979",
+        "16": "electromagnetic-storm",
+        "18": "unmapped-1675344979",
+        "20": "electromagnetic-storm",
+        "22": "unmapped-1675344979"
       },
       "minor": {
-        "0": "harvester",
-        "4": "matriarch",
-        "7": "harvester",
-        "10": "uncovered-caches",
+        "0": "lush-blooms",
+        "4": "harvester",
+        "7": "lush-blooms",
+        "10": "matriarch",
         "13": "harvester",
-        "16": "matriarch",
-        "19": "harvester",
-        "22": "matriarch"
+        "16": "lush-blooms",
+        "19": "matriarch",
+        "22": "harvester"
       }
     },
     "buried-city": {
       "major": {
-        "0": "unmapped-1675344979",
-        "1": "unmapped--1064764405",
-        "4": "unmapped-1675344979",
-        "5": "night-raid",
-        "8": "unmapped-1675344979",
-        "9": "unmapped--1064764405",
-        "12": "unmapped-1675344979",
-        "13": "night-raid",
-        "16": "unmapped-1675344979",
-        "17": "unmapped--1064764405",
-        "20": "unmapped-1675344979",
-        "21": "night-raid"
+        "1": "unmapped-1675344979",
+        "2": "night-raid",
+        "5": "unmapped-1675344979",
+        "6": "unmapped--1064764405",
+        "9": "unmapped-1675344979",
+        "10": "night-raid",
+        "13": "unmapped-1675344979",
+        "14": "unmapped--1064764405",
+        "17": "unmapped-1675344979",
+        "18": "night-raid",
+        "21": "unmapped-1675344979",
+        "22": "unmapped--1064764405"
       },
       "minor": {
-        "0": "bird-city",
-        "1": "uncovered-caches",
-        "3": "uncovered-caches",
-        "6": "bird-city",
-        "9": "uncovered-caches",
-        "12": "bird-city",
-        "15": "uncovered-caches",
-        "18": "bird-city",
-        "21": "uncovered-caches"
+        "0": "lush-blooms",
+        "1": "bird-city",
+        "3": "bird-city",
+        "6": "lush-blooms",
+        "9": "bird-city",
+        "12": "lush-blooms",
+        "15": "bird-city",
+        "18": "lush-blooms",
+        "21": "bird-city"
       }
     },
     "dam-battleground": {
       "major": {
-        "0": "night-raid",
-        "2": "unmapped-1675344979",
-        "4": "electromagnetic-storm",
-        "6": "unmapped-1675344979",
-        "8": "unmapped--1064764405",
-        "10": "unmapped-1675344979",
-        "12": "night-raid",
-        "14": "unmapped-1675344979",
-        "16": "electromagnetic-storm",
-        "18": "unmapped-1675344979",
-        "20": "unmapped--1064764405",
-        "22": "unmapped-1675344979"
+        "1": "electromagnetic-storm",
+        "3": "unmapped-1675344979",
+        "7": "unmapped-1675344979",
+        "9": "electromagnetic-storm",
+        "11": "unmapped-1675344979",
+        "13": "night-raid",
+        "15": "unmapped-1675344979",
+        "17": "electromagnetic-storm",
+        "19": "unmapped-1675344979",
+        "21": "night-raid",
+        "23": "unmapped-1675344979"
       },
       "minor": {
-        "0": "harvester",
+        "0": "lush-blooms",
         "1": "matriarch",
-        "4": "harvester",
-        "6": "matriarch",
-        "9": "uncovered-caches",
-        "12": "matriarch",
+        "4": "lush-blooms",
+        "6": "lush-blooms",
+        "9": "harvester",
+        "12": "lush-blooms",
         "15": "harvester",
-        "18": "uncovered-caches",
+        "18": "lush-blooms",
         "21": "matriarch"
       }
     },
@@ -595,28 +591,28 @@
     },
     "the-spaceport": {
       "major": {
-        "2": "night-raid",
-        "3": "unmapped-1675344979",
-        "6": "hidden-bunker",
-        "7": "unmapped-1675344979",
-        "10": "electromagnetic-storm",
-        "11": "unmapped-1675344979",
-        "14": "night-raid",
-        "15": "unmapped-1675344979",
-        "18": "hidden-bunker",
-        "19": "unmapped-1675344979",
-        "22": "electromagnetic-storm",
-        "23": "unmapped-1675344979"
+        "0": "unmapped-1675344979",
+        "3": "unmapped--1064764405",
+        "4": "unmapped-1675344979",
+        "7": "electromagnetic-storm",
+        "8": "unmapped-1675344979",
+        "11": "hidden-bunker",
+        "12": "unmapped-1675344979",
+        "15": "electromagnetic-storm",
+        "16": "unmapped-1675344979",
+        "19": "night-raid",
+        "20": "unmapped-1675344979",
+        "23": "electromagnetic-storm"
       },
       "minor": {
         "0": "harvester",
         "3": "matriarch",
         "8": "matriarch",
-        "11": "launch-tower-loot",
-        "14": "uncovered-caches",
-        "17": "matriarch",
+        "11": "harvester",
+        "14": "matriarch",
+        "17": "lush-blooms",
         "20": "harvester",
-        "23": "matriarch"
+        "23": "lush-blooms"
       }
     }
   }
