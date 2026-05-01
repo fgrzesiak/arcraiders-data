@@ -110,8 +110,10 @@
       "uncoveredCaches": "Alijos Descubiertos",
       "launchTowerLoot": "Botín de Torre de Lanzamiento",
       "hiddenBunker": "Búnker Oculto",
+      "closeScrutiny": "Escrutinio cercano",
       "none": "Ninguno",
       "birdCity": "Ciudad de los Pájaros",
+      "beachcombing": "Beachcombing",
       "hurricane": "Huracán"
     }
   },
@@ -196,7 +198,12 @@
     "stashModeActive": "Cantidades del alijo sincronizado",
     "lastSynced": "Sincronizado",
     "syncStash": "Sincronizar alijo",
-    "season3": "Temporada 3"
+    "season3": "Temporada 3",
+    "dealDamage": "Infligir daño a las máquinas ARC",
+    "completeObjective": "Completar objetivo",
+    "skillPointReward": "Punto de habilidad",
+    "earnedDuringExpedition": "El progreso se acumula durante la ventana de expedición. Cada nivel completado otorga 1 punto de habilidad para tu próximo Raider.",
+    "season4": "Expedición 4"
   },
   "HideoutPage": {
     "level": "Nivel",
@@ -723,7 +730,8 @@
     "theSpaceport": "El Puerto Espacial",
     "buriedCity": "Ciudad Enterrada",
     "theBlueGate": "La Puerta Azul",
-    "stellaMontis": "Stella Montis"
+    "stellaMontis": "Stella Montis",
+    "rivenTides": "Mareas Desgarradas"
   },
   "TermsPage": {
     "title": "Términos de Servicio",
@@ -2263,7 +2271,9 @@
       "sortUnsorted": "Sin clasificar",
       "searchPlaceholder": "Buscar objetos...",
       "sortRarity": "Ordenar por rareza",
-      "sortName": "Ordenar por nombre"
+      "sortName": "Ordenar por nombre",
+      "tokenInvalidError": "Tu conexión a ARC Raiders ya no es válida. Por favor, vuelve a conectar tu cuenta.",
+      "reconnectAccount": "Reconectar cuenta"
     },
     "currencies": {
       "cred": "Cred",
@@ -2377,7 +2387,9 @@
     "blueprintSyncDescription": "Sincroniza los planos aprendidos de tu cuenta del juego",
     "tokenExpiredExtensionMissing": "Conexión caducada — Extensión necesaria",
     "tokenExpiredExtensionMissingDescription": "Tu sesión ha caducado y la extensión del navegador no está instalada. Instala la extensión primero y luego actualiza tu conexión.",
-    "embarkErrorAlreadyLinkedDescription": "Esta cuenta de juego ya está vinculada a otra cuenta de ARCTracker. Primero debes desvincularla de la otra cuenta o utilizar una cuenta de juego diferente."
+    "embarkErrorAlreadyLinkedDescription": "Esta cuenta de juego ya está vinculada a otra cuenta de ARCTracker. Primero debes desvincularla de la otra cuenta o utilizar una cuenta de juego diferente.",
+    "consentSessionExpiry": "Tu conexión es válida durante 24 horas. Deberás volver a conectarte después de ese tiempo para seguir sincronizando.",
+    "tokenExpiresIn": "Expira en {time}"
   },
   "HideoutSync": {
     "title": "Sincronizar progreso de la guarida",
@@ -2558,7 +2570,18 @@
     "responseFormat": "Formato de respuesta",
     "responseFormatDescription": "Todos los endpoints autenticados devuelven una estructura JSON consistente.",
     "successResponse": "Respuesta exitosa",
-    "title": "Documentación de la API"
+    "title": "Documentación de la API",
+    "endpointRounds": "Historial de partidas del usuario sincronizado con Embark con estadísticas (bajas, daño, resultado, botín). Incluye objetos obtenidos cuando se adjunta una captura de pantalla.",
+    "paramRoundsLimit": "Máximo de partidas a devolver (predeterminado: 50, máx: 200).",
+    "paramRoundsOffset": "Desplazamiento de paginación (predeterminado: 0).",
+    "paramRoundsOutcome": "Filtro: extracted, died, unknown.",
+    "paramRoundsMap": "Filtrar por slug del mapa: dam-battleground, the-spaceport, blue-gate, stella-montis, buried-city, riven-tides.",
+    "paramRoundsSeason": "Filtrar por número de temporada (p. ej., 1, 2).",
+    "paramRoundsDateFrom": "Fecha de inicio inclusiva (formato ISO, p. ej., 2025-01-01).",
+    "paramRoundsDateTo": "Fecha de fin inclusiva (formato ISO, p. ej., 2025-12-31).",
+    "paramRoundsSort": "Orden de clasificación: newest (predeterminado), oldest, value_desc, value_asc.",
+    "endpointBlueprints": "Estado de aprendizaje de planos del usuario con desglose por categorías.",
+    "paramBlueprintsFilter": "Filtro: learned, missing."
   },
   "BlueprintSync": {
     "applySync": "Aplicar sincronización",
@@ -2659,13 +2682,15 @@
     "totalPhases": "Fases",
     "turnIn": "Entregar",
     "uniqueItems": "Objetos únicos",
-    "valueRequirement": "Requisito de valor"
+    "valueRequirement": "Requisito de valor",
+    "damageTiers": "Niveles de daño",
+    "singleObjective": "Objetivo único"
   },
   "Cipher": {
     "alphaBadge": "Experimental",
     "clearChat": "Borrar chat",
     "closeCipher": "Cerrar",
-    "emptyStateDescription": "Sistemas en línea. Pregúntame sobre tu alijo, rendimiento en incursiones, tasas de aparición o cualquier cosa sobre el terreno. Es posible que las respuestas no siempre sean precisas; por favor, verifica la información importante.",
+    "emptyStateDescription": "Sistemas en línea. Pregúntame sobre tu alijo, rendimiento en incursiones, tasas de aparición o cualquier cosa sobre la superficie. Las respuestas pueden no ser siempre precisas — por favor, verifica la información importante.",
     "emptyStateTitle": "Cipher",
     "inputPlaceholder": "Preguntar a Cipher...",
     "openCipher": "Abrir Cipher",
