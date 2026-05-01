@@ -110,8 +110,10 @@
       "uncoveredCaches": "Afslørede Depoter",
       "launchTowerLoot": "Affyringstårn Loot",
       "hiddenBunker": "Skjult Bunker",
+      "closeScrutiny": "Nærmere undersøgelse",
       "none": "Ingen",
       "birdCity": "Fugleby",
+      "beachcombing": "Beachcombing",
       "hurricane": "Orkan"
     }
   },
@@ -196,7 +198,12 @@
     "stashModeActive": "Antal fra synkroniseret lager",
     "lastSynced": "Synkroniseret",
     "syncStash": "Synkroniser lager",
-    "season3": "Sæson 3"
+    "season3": "Sæson 3",
+    "dealDamage": "Gør skade på ARC-maskiner",
+    "completeObjective": "Fuldfør mål",
+    "skillPointReward": "Færdighedspoint",
+    "earnedDuringExpedition": "Fremskridt akkumuleres i ekspeditionsvinduet. Hvert gennemført niveau giver 1 færdighedspoint til din næste Raider.",
+    "season4": "Ekspedition 4"
   },
   "HideoutPage": {
     "level": "Niveau",
@@ -723,7 +730,8 @@
     "theSpaceport": "Rumhavnen",
     "buriedCity": "Den Begravede By",
     "theBlueGate": "Den Blå Port",
-    "stellaMontis": "Stella Montis"
+    "stellaMontis": "Stella Montis",
+    "rivenTides": "Sønderrevne Tidevande"
   },
   "TermsPage": {
     "title": "Vilkår for Brug",
@@ -2263,7 +2271,9 @@
       "sortUnsorted": "Usorteret",
       "searchPlaceholder": "Søg efter genstande...",
       "sortRarity": "Sorter efter sjældenhed",
-      "sortName": "Sorter efter navn"
+      "sortName": "Sorter efter navn",
+      "tokenInvalidError": "Din forbindelse til ARC Raiders er ikke længere gyldig. Genopret venligst forbindelsen til din konto.",
+      "reconnectAccount": "Genopret forbindelse til konto"
     },
     "currencies": {
       "cred": "Cred",
@@ -2377,7 +2387,9 @@
     "blueprintSyncDescription": "Synkroniser lærte tegninger fra din spilkonto",
     "tokenExpiredExtensionMissing": "Forbindelsen udløb — Udvidelse påkrævet",
     "tokenExpiredExtensionMissingDescription": "Din session er udløbet, og browserudvidelsen er ikke installeret. Installer udvidelsen først, og opdater derefter din forbindelse.",
-    "embarkErrorAlreadyLinkedDescription": "Denne spilkonto er allerede knyttet til en anden ARCTracker-konto. Du skal fjerne linket fra den anden konto først, eller bruge en anden spilkonto."
+    "embarkErrorAlreadyLinkedDescription": "Denne spilkonto er allerede knyttet til en anden ARCTracker-konto. Du skal fjerne linket fra den anden konto først, eller bruge en anden spilkonto.",
+    "consentSessionExpiry": "Din forbindelse er gyldig i 24 timer. Du skal genoprette forbindelsen derefter for at fortsætte synkroniseringen.",
+    "tokenExpiresIn": "Udløber om {time}"
   },
   "HideoutSync": {
     "title": "Synkronisér fremskridt for skjulested",
@@ -2558,7 +2570,18 @@
     "responseFormat": "Svarformat",
     "responseFormatDescription": "Alle autentificerede endpoints returnerer en konsistent JSON-struktur.",
     "successResponse": "Succesfuldt svar",
-    "title": "API-dokumentation"
+    "title": "API-dokumentation",
+    "endpointRounds": "Brugerens Embark-synkroniserede rundehistorik med statistikker (drab, skade, resultat, bytte). Inkluderer plyndrede genstande, når et skærmbillede er vedhæftet.",
+    "paramRoundsLimit": "Maks. runder at returnere (standard: 50, maks.: 200).",
+    "paramRoundsOffset": "Offset for sideinddeling (standard: 0).",
+    "paramRoundsOutcome": "Filter: extracted, died, unknown.",
+    "paramRoundsMap": "Filtrer efter kort-slug: dam-battleground, the-spaceport, blue-gate, stella-montis, buried-city, riven-tides.",
+    "paramRoundsSeason": "Filtrer efter sæsonnummer (f.eks. 1, 2).",
+    "paramRoundsDateFrom": "Inklusiv startdato (ISO-format, f.eks. 2025-01-01).",
+    "paramRoundsDateTo": "Inklusiv slutdato (ISO-format, f.eks. 2025-12-31).",
+    "paramRoundsSort": "Sorteringsrækkefølge: newest (standard), oldest, value_desc, value_asc.",
+    "endpointBlueprints": "Brugerens status for lærte tegninger med kategoriopdeling.",
+    "paramBlueprintsFilter": "Filter: learned, missing."
   },
   "BlueprintSync": {
     "applySync": "Anvend synkronisering",
@@ -2659,13 +2682,15 @@
     "totalPhases": "Faser",
     "turnIn": "Aflever",
     "uniqueItems": "Unikke genstande",
-    "valueRequirement": "Værdikrav"
+    "valueRequirement": "Værdikrav",
+    "damageTiers": "Skadesniveauer",
+    "singleObjective": "Enkelt mål"
   },
   "Cipher": {
     "alphaBadge": "Eksperimentel",
     "clearChat": "Ryd chat",
     "closeCipher": "Luk",
-    "emptyStateDescription": "Systemer online. Spørg mig om dit lager, raid-præstationer, drop-rater eller alt om felten. Svarene er måske ikke altid præcise — verificer venligst vigtige oplysninger.",
+    "emptyStateDescription": "Systemer online. Spørg mig om dit lager, raid-præstation, drop-rater eller alt om overfladen. Svarene er muligvis ikke altid nøjagtige — bekræft venligst vigtige oplysninger.",
     "emptyStateTitle": "Cipher",
     "inputPlaceholder": "Spørg Cipher...",
     "openCipher": "Åbn Cipher",
