@@ -58,13 +58,24 @@
       "wires": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/acoustic_guitar.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "1.2",
     "repairCost": {
       "metal_parts": 2,
       "wires": 3
     },
-    "repairDurability": 0.5
+    "repairDurability": 0.5,
+    "vendors": [
+      {
+        "cost": {
+          "creds": 70
+        },
+        "limit": 1,
+        "refreshSeconds": 86400,
+        "requiredLevel": 12,
+        "trader": "Shani"
+      }
+    ]
   },
   {
     "id": "adrenaline_shot",
@@ -330,10 +341,7 @@
     "value": 1750,
     "weightKg": 1,
     "stackSize": 5,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "electrical_components": 2,
@@ -347,7 +355,7 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -402,10 +410,7 @@
     "value": 1750,
     "weightKg": 1,
     "stackSize": 5,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "mechanical_components": 2,
@@ -419,7 +424,7 @@
       "mechanical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -576,7 +581,8 @@
       "empty_wine_bottle": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/agave_juice.png",
-    "updatedAt": "02/25/2026"
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
   },
   {
     "id": "agave",
@@ -881,9 +887,8 @@
     "value": 1000,
     "weightKg": 0.3,
     "stackSize": 15,
-    "recyclesInto": {},
     "imageFilename": "https://cdn.arctracker.io/items/alien_duck.png",
-    "updatedAt": "02/01/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "1.13"
   },
   {
@@ -1046,7 +1051,7 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/angled_grip_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -1055,6 +1060,7 @@
         },
         "limit": 5,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Tian Wen"
       }
     ]
@@ -1221,8 +1227,18 @@
       "mechanical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base"
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
+    "vendors": [
+      {
+        "cost": {
+          "creds": 100
+        },
+        "limit": 2,
+        "refreshSeconds": 86400,
+        "trader": "Shani"
+      }
+    ]
   },
   {
     "id": "angled_grip_iii_blueprint",
@@ -1409,7 +1425,7 @@
       "mechanical_components": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
-    "updatedAt": "01/09/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -1418,6 +1434,7 @@
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Tian Wen"
       }
     ]
@@ -1474,10 +1491,7 @@
     "value": 1000,
     "weightKg": 1,
     "stackSize": 5,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "chemicals": 10,
@@ -1490,7 +1504,7 @@
       "chemicals": 5
     },
     "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -1731,12 +1745,8 @@
     "salvagesInto": {
       "simple_gun_parts": 2
     },
-    "upgradeCost": {
-      "mechanical_components": 3,
-      "simple_gun_parts": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
       "muzzle": [
@@ -1768,6 +1778,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Tian Wen"
       }
     ]
@@ -1996,11 +2007,11 @@
       "simple_gun_parts": 3
     },
     "upgradeCost": {
-      "heavy_gun_parts": 1,
-      "mechanical_components": 4
+      "mechanical_components": 3,
+      "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "muzzle": [
@@ -3052,10 +3063,6 @@
     "value": 200,
     "weightKg": 0.25,
     "stackSize": 15,
-    "craftBench": "in_raid",
-    "recipe": {
-      "wasp_driver": 1
-    },
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -3063,7 +3070,7 @@
       "metal_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/arc_alloy.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -3118,10 +3125,7 @@
     "value": 1000,
     "weightKg": 0.3,
     "stackSize": 5,
-    "craftBench": [
-      "in_raid",
-      "refiner"
-    ],
+    "craftBench": "refiner",
     "stationLevelRequired": 2,
     "recipe": {
       "arc_alloy": 8
@@ -3133,7 +3137,7 @@
       "arc_alloy": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/arc_circuitry.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -3512,18 +3516,8 @@
         "zh-TW": "使用時間"
       }
     },
-    "craftBench": "in_raid",
-    "recipe": {
-      "advanced_arc_powercell": 1
-    },
-    "recyclesInto": {
-      "arc_alloy": 1
-    },
-    "salvagesInto": {
-      "metal_parts": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/arc_powercell.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -3832,12 +3826,8 @@
     "salvagesInto": {
       "simple_gun_parts": 2
     },
-    "upgradeCost": {
-      "mechanical_components": 4,
-      "simple_gun_parts": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -4106,11 +4096,11 @@
       "simple_gun_parts": 3
     },
     "upgradeCost": {
-      "mechanical_components": 5,
-      "medium_gun_parts": 1
+      "mechanical_components": 4,
+      "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -4701,6 +4691,67 @@
     "repairDurability": 0.5
   },
   {
+    "id": "assessor_matrix",
+    "name": {
+      "da": "Assessor Matrix",
+      "de": "Assessor Matrix",
+      "en": "Assessor Matrix",
+      "es": "Assessor Matrix",
+      "fr": "Assessor Matrix",
+      "he": "Assessor Matrix",
+      "hr": "Assessor Matrix",
+      "it": "Assessor Matrix",
+      "ja": "Assessor Matrix",
+      "ko-KR": "Assessor Matrix",
+      "no": "Assessor Matrix",
+      "pl": "Assessor Matrix",
+      "pt": "Assessor Matrix",
+      "pt-BR": "Assessor Matrix",
+      "ru": "Assessor Matrix",
+      "sr": "Assessor Matrix",
+      "tr": "Assessor Matrix",
+      "uk": "Assessor Matrix",
+      "zh-CN": "Assessor Matrix",
+      "zh-TW": "Assessor Matrix"
+    },
+    "description": {
+      "da": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "he": "",
+      "hr": "",
+      "it": "",
+      "ja": "",
+      "ko-KR": "",
+      "no": "",
+      "pl": "",
+      "pt": "",
+      "pt-BR": "",
+      "ru": "",
+      "sr": "",
+      "tr": "",
+      "uk": "",
+      "zh-CN": "",
+      "zh-TW": ""
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_arc_powercell": 3,
+      "advanced_mechanical_components": 1
+    },
+    "salvagesInto": {
+      "advanced_arc_powercell": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
     "id": "assorted_seeds",
     "name": {
       "da": "Blandede frø",
@@ -4752,12 +4803,8 @@
     "value": 100,
     "weightKg": 0.05,
     "stackSize": 100,
-    "craftBench": "in_raid",
-    "recipe": {
-      "agave": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/assorted_seeds.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -5076,7 +5123,7 @@
       "metal_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -5085,6 +5132,7 @@
         },
         "limit": 6,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Apollo"
       }
     ]
@@ -5204,10 +5252,6 @@
     "value": 250,
     "weightKg": 0.25,
     "stackSize": 15,
-    "craftBench": "in_raid",
-    "recipe": {
-      "jolt_mine": 1
-    },
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -5215,7 +5259,7 @@
       "metal_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/battery.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -5224,6 +5268,7 @@
         },
         "limit": 10,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Celeste"
       }
     ]
@@ -5467,12 +5512,8 @@
     "salvagesInto": {
       "advanced_mechanical_components": 1
     },
-    "upgradeCost": {
-      "advanced_mechanical_components": 1,
-      "heavy_gun_parts": 2
-    },
     "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -6004,11 +6045,11 @@
       "advanced_mechanical_components": 3
     },
     "upgradeCost": {
-      "advanced_mechanical_components": 2,
+      "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -6468,13 +6509,21 @@
       "plastic_parts": 4
     },
     "imageFilename": "https://cdn.arctracker.io/items/binoculars.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "repairCost": {
       "plastic_parts": 4,
       "rubber_parts": 2
     },
-    "repairDurability": 0.5
+    "repairDurability": 0.5,
+    "vendors": [
+      {
+        "cost": {
+          "creds": 20
+        },
+        "trader": "Shani"
+      }
+    ]
   },
   {
     "id": "blaze_grenade_blueprint",
@@ -6582,7 +6631,6 @@
     "value": 1000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "blueprintLocked": true,
     "effects": {
       "Damage": {
         "value": "5/s",
@@ -6641,7 +6689,7 @@
       "wires": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade_trap.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
   {
@@ -7275,7 +7323,7 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/blue_light_stick.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -7283,6 +7331,12 @@
           "coins": 450
         },
         "trader": "Apollo"
+      },
+      {
+        "cost": {
+          "creds": 10
+        },
+        "trader": "Shani"
       }
     ]
   },
@@ -7663,12 +7717,8 @@
     "salvagesInto": {
       "light_gun_parts": 2
     },
-    "upgradeCost": {
-      "advanced_mechanical_components": 2,
-      "light_gun_parts": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -8099,10 +8149,10 @@
     },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
-      "light_gun_parts": 3
+      "light_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "grip": [
@@ -9841,12 +9891,8 @@
     "salvagesInto": {
       "simple_gun_parts": 2
     },
-    "upgradeCost": {
-      "mechanical_components": 3,
-      "simple_gun_parts": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "durability": 100,
     "modSlots": {
@@ -9881,6 +9927,7 @@
         },
         "limit": 3,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Tian Wen"
       }
     ]
@@ -10039,11 +10086,11 @@
       "simple_gun_parts": 3
     },
     "upgradeCost": {
-      "light_gun_parts": 1,
-      "mechanical_components": 4
+      "mechanical_components": 3,
+      "simple_gun_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
       "magazine": [
@@ -10516,10 +10563,6 @@
     "value": 300,
     "weightKg": 0.25,
     "stackSize": 15,
-    "craftBench": "in_raid",
-    "recipe": {
-      "bicycle_pump": 1
-    },
     "recyclesInto": {
       "plastic_parts": 3
     },
@@ -10527,7 +10570,7 @@
       "plastic_parts": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/canister.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -10536,9 +10579,328 @@
         },
         "limit": 10,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Celeste"
       }
     ]
+  },
+  {
+    "id": "canto_blueprint",
+    "name": {
+      "da": "Canto Tegning",
+      "de": "Canto Bauplan",
+      "en": "Canto Blueprint",
+      "es": "Canto Plano",
+      "fr": "Canto Plan",
+      "he": "Canto תרשים",
+      "hr": "Canto Nacrt",
+      "it": "Canto Progetto",
+      "ja": "Canto 設計図",
+      "ko-KR": "Canto 청사진",
+      "no": "Canto Tegning",
+      "pl": "Canto Schemat",
+      "pt": "Esquema de Canto",
+      "pt-BR": "Esquema de Canto",
+      "ru": "Canto Чертеж",
+      "sr": "Canto Nacrt",
+      "tr": "Canto Taslak",
+      "uk": "Canto Креслення",
+      "zh-CN": "Canto 蓝图",
+      "zh-TW": "Canto 藍圖"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
+    "id": "canto_i",
+    "name": {
+      "da": "Canto I",
+      "de": "Canto I",
+      "en": "Canto I",
+      "es": "Canto I",
+      "fr": "Canto I",
+      "he": "Canto I",
+      "hr": "Canto I",
+      "it": "Canto I",
+      "ja": "Canto I",
+      "ko-KR": "Canto I",
+      "no": "Canto I",
+      "pl": "Canto I",
+      "pt": "Canto I",
+      "pt-BR": "Canto I",
+      "ru": "Canto I",
+      "sr": "Canto I",
+      "tr": "Canto I",
+      "uk": "Canto I",
+      "zh-CN": "Canto I",
+      "zh-TW": "Canto I"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אוטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 7000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "blueprintLocked": true,
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "magnet": 5,
+      "medium_gun_parts": 3
+    },
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
+    "id": "canto_ii",
+    "name": {
+      "da": "Canto II",
+      "de": "Canto II",
+      "en": "Canto II",
+      "es": "Canto II",
+      "fr": "Canto II",
+      "he": "Canto II",
+      "hr": "Canto II",
+      "it": "Canto II",
+      "ja": "Canto II",
+      "ko-KR": "Canto II",
+      "no": "Canto II",
+      "pl": "Canto II",
+      "pt": "Canto II",
+      "pt-BR": "Canto II",
+      "ru": "Canto II",
+      "sr": "Canto II",
+      "tr": "Canto II",
+      "uk": "Canto II",
+      "zh-CN": "Canto II",
+      "zh-TW": "Canto II"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 10000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
+    "id": "canto_iii",
+    "name": {
+      "da": "Canto III",
+      "de": "Canto III",
+      "en": "Canto III",
+      "es": "Canto III",
+      "fr": "Canto III",
+      "he": "Canto III",
+      "hr": "Canto III",
+      "it": "Canto III",
+      "ja": "Canto III",
+      "ko-KR": "Canto III",
+      "no": "Canto III",
+      "pl": "Canto III",
+      "pt": "Canto III",
+      "pt-BR": "Canto III",
+      "ru": "Canto III",
+      "sr": "Canto III",
+      "tr": "Canto III",
+      "uk": "Canto III",
+      "zh-CN": "Canto III",
+      "zh-TW": "Canto III"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 13000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
+  },
+  {
+    "id": "canto_iv",
+    "name": {
+      "da": "Canto IV",
+      "de": "Canto IV",
+      "en": "Canto IV",
+      "es": "Canto IV",
+      "fr": "Canto IV",
+      "he": "Canto IV",
+      "hr": "Canto IV",
+      "it": "Canto IV",
+      "ja": "Canto IV",
+      "ko-KR": "Canto IV",
+      "no": "Canto IV",
+      "pl": "Canto IV",
+      "pt": "Canto IV",
+      "pt-BR": "Canto IV",
+      "ru": "Canto IV",
+      "sr": "Canto IV",
+      "tr": "Canto IV",
+      "uk": "Canto IV",
+      "zh-CN": "Canto IV",
+      "zh-TW": "Canto IV"
+    },
+    "description": {
+      "da": "Fuldautomatisk maskinpistol med en større kaliber.",
+      "de": "Vollautomatische Maschinenpistole mit größerem Kaliber.",
+      "en": "Fully automatic submachine gun with a larger caliber.",
+      "es": "Subfusil totalmente automático con un calibre mayor.",
+      "fr": "Pistolet mitrailleur entièrement automatique d'un plus gros calibre.",
+      "he": "תת-מקלע אווטומטי מלא עם קליבר גדול יותר.",
+      "hr": "Potpuno automatska strojnica većeg kalibra.",
+      "it": "Pistola mitragliatrice completamente automatica con un calibro maggiore.",
+      "ja": "大口径のフルオートマチックサブマシンガン。",
+      "ko-KR": "더 큰 구경의 완전 자동 기관단총입니다.",
+      "no": "Helautomatisk maskinpistol med et større kaliber.",
+      "pl": "W pełni automatyczny pistolet maszynowy o większym kalibrze.",
+      "pt": "Submetralhadora totalmente automática com um calibre maior.",
+      "pt-BR": "Submetralhadora totalmente automática com calibre maior.",
+      "ru": "Полностью автоматический пистолет-пулемет большего калибра.",
+      "sr": "Potpuno automatski automat većeg kalibra.",
+      "tr": "Daha büyük kalibreli, tam otomatik makineli tabanca.",
+      "uk": "Повністю автоматичний пістолет-кулемет більшого калібру.",
+      "zh-CN": "全自动大口径冲锋枪。",
+      "zh-TW": "全自動大口徑衝鋒槍。"
+    },
+    "type": "SMG",
+    "rarity": "Legendary",
+    "value": 17000,
+    "weightKg": 6.5,
+    "stackSize": 1,
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "updatedAt": "03/31/2026",
+    "addedIn": "1.22"
   },
   {
     "id": "cat_bed",
@@ -10702,12 +11064,8 @@
     "value": 50,
     "weightKg": 0.15,
     "stackSize": 50,
-    "craftBench": "in_raid",
-    "recipe": {
-      "gas_grenade": 1
-    },
     "imageFilename": "https://cdn.arctracker.io/items/chemicals.png",
-    "updatedAt": "11/03/2025",
+    "updatedAt": "03/17/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -10910,7 +11268,8 @@
       "plastic_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base",
     "repairCost": {
       "plastic_parts": 3,
       "rubber_parts": 3
@@ -11090,7 +11449,8 @@
       "electrical_components": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
     "repairCost": {
       "electrical_components": 1,
       "magnet": 1
@@ -11099,842 +11459,21 @@
     "vendors": [
       {
         "cost": {
+          "creds": 100
+        },
+        "limit": 2,
+        "refreshSeconds": 86400,
+        "requiredLevel": 7,
+        "trader": "Shani"
+      },
+      {
+        "cost": {
           "coins": 6000
         },
         "limit": 1,
         "refreshSeconds": 86400,
+        "requiredLevel": 7,
         "trader": "Lance"
-      }
-    ]
-  },
-  {
-    "id": "combat_mk3_aggressive_blueprint",
-    "name": {
-      "da": "Kamp Mk. 3 (Aggressiv) Tegning",
-      "de": "Bauplan: Kampf-Marke 3 (Aggressiv)",
-      "en": "Combat Mk. 3 (Aggressive) Blueprint",
-      "es": "Plano de Combate Ver. 3 (Agresivo)",
-      "fr": "Schéma de Combat 3 (agression)",
-      "he": "שרטוט Combat Mk. 3 (אגרסיבי)",
-      "hr": "Borbeni Mk. 3 (Agresivni) Nacrt",
-      "it": "Progetto Combattimento Mk. 3 (Aggressivo)",
-      "ja": "戦闘MK3（アグレッシブ）設計図",
-      "ko-KR": "전투 마크 3 (공격) 설계도",
-      "no": "Kamp Mk. 3 (Aggressiv) Tegning",
-      "pl": "Bojowy Mk. 3 (Agresywny) Projekt",
-      "pt": "Projeto de Combate Mk. 3 (Agressivo)",
-      "pt-BR": "Diagrama de Combate Mk. 3 (Agressivo)",
-      "ru": "Чертёж Боевой Mk. 3 (Агрессивный)",
-      "sr": "Borbeni Mk. 3 (Agresivni) Nacrt",
-      "tr": "Çatışma Mod. 3 (Saldırgan) Taslağı",
-      "uk": "Креслення Бойовий Mk. 3 (Агресивний)",
-      "zh-CN": "战斗 Mk. 3（进攻型）蓝图",
-      "zh-TW": "戰鬥 Mk. 3（進攻型）藍圖"
-    },
-    "description": {
-      "da": "En forbedret version af Kamp II-forstærkningen. Understøtter flere skjoldtyper og kommer med ekstra plads til granater.",
-      "de": "Eine verbesserte Version des Kampf II-Augments. Unterstützt mehr Schildtypen und bietet zusätzlichen Platz für Granaten.",
-      "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades.",
-      "es": "Una versión mejorada del aumento Combate II. Soporta más tipos de escudos y viene con espacio extra para granadas.",
-      "fr": "Une version améliorée de l'augmentation Combat II. Prend en charge plus de types de boucliers et offre un espace supplémentaire pour les grenades.",
-      "he": "גרסה משופרת של תוסף ה-Combat II. תומכת בסוגי מגן נוספים, ומגיעה עם מקום נוסף לרימונים.",
-      "hr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi s dodatnim prostorom pentru granate.",
-      "it": "Una versione migliorata dell'aumento Combattimento II. Supporta più tipi di scudi e include spazio extra per le granate.",
-      "ja": "コンバット II オーグメントの改良版。より多くのシールドタイプに対応し、グレネード用の追加スペースを備えています。",
-      "ko-KR": "전투 II 증강의 개선된 버전입니다. 더 많은 실드 유형을 지원하며 수류탄을 위한 추가 공간이 있습니다.",
-      "no": "En forbedret versjon av Kamp II-forsterkningen. Støtter flere skjoldtyper og kommer med ekstra plass til granater.",
-      "pl": "Ulepszona wersja augmentacji Bojowy II. Obsługuje więcej typów tarcz i zapewnia dodatkowe miejsce na granaty.",
-      "pt": "Uma versão melhorada do aumento Combate II. Suporta mais tipos de escudos e vem com espaço extra para granadas.",
-      "pt-BR": "Uma versão aprimorada do aprimoramento de Combate II. Suporta mais tipos de escudos e vem com espaço extra para granadas.",
-      "ru": "Улучшенная версия аугментации Боевой II. Поддерживает больше типов щитов и имеет дополнительное место для гранат.",
-      "sr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi sa dodatnim prostorom za granate.",
-      "tr": "Savaş II güçlendirmesinin geliştirilmiş versiyonu. Daha fazla kalkan türünü destekler ve el bombaları için ekstra alan sunar.",
-      "uk": "Покращена версія аугментації Бойовий II. Підтримує більше типів щитів і має додатковий простір для гранат.",
-      "zh-CN": "战斗 II 增强装置的改进版本。支持更多护盾类型，并提供额外的手榴弹空间。",
-      "zh-TW": "戰鬥 II 增強裝置的改良版本。支援更多護盾類型，並提供額外的手榴彈空間。"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-    "updatedAt": "11/13/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "combat_mk3_aggressive",
-    "name": {
-      "da": "Kamp Mk. 3 (Aggressiv)",
-      "de": "Kampf-Marke 3 (Aggressiv)",
-      "en": "Combat Mk. 3 (Aggressive)",
-      "es": "Combate Ver. 3 (Agresivo)",
-      "fr": "Combat 3 (agression)",
-      "he": "לחימה סימן 3 (אגרסיבי)",
-      "hr": "Borbeni Mk. 3 (Agresivni)",
-      "it": "Combattimento Mk. 3 (Aggressivo)",
-      "ja": "戦闘MK3（アグレッシブ）",
-      "ko-KR": "전투 마크 3 (공격)",
-      "no": "Kamp Mk. 3 (Aggressiv)",
-      "pl": "Bojowy Mk. 3 (Agresywny)",
-      "pt": "Combate Mk. 3 (Agressivo)",
-      "pt-BR": "Combate Mk. 3 (Agressivo)",
-      "ru": "Боевой Mk. 3 (Агрессивный)",
-      "sr": "Borbeni Mk. 3 (Agresivni)",
-      "tr": "Çatışma Mod. 3 (Saldırgan)",
-      "uk": "Бойовий Mk. 3 (Агресивний)",
-      "zh-CN": "战斗 Mk. 3（进攻型）",
-      "zh-TW": "戰鬥 Mk. 3（進攻型）"
-    },
-    "description": {
-      "da": "En forbedret version af Kamp II-forstærkningen. Understøtter flere skjoldtyper og kommer med ekstra plads til granater.",
-      "de": "Eine verbesserte Version des Kampf II-Augments. Unterstützt mehr Schildtypen und bietet zusätzlichen Platz für Granaten.",
-      "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades.",
-      "es": "Una versión mejorada del aumento Combate II. Soporta más tipos de escudos y viene con espacio extra para granadas.",
-      "fr": "Une version améliorée de l'augmentation Combat II. Prend en charge plus de types de boucliers et offre un espace supplémentaire pour les grenades.",
-      "he": "גרסה משופרת של תוסף לחימה 2. תומכת ביותר סוגי מגנים, ומגיעה עם מקום נוסף לרימונים.",
-      "hr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi s dodatnim prostorom za granate.",
-      "it": "Una versione migliorata dell'aumento Combattimento II. Supporta più tipi di scudi e include spazio extra per le granate.",
-      "ja": "コンバット II オーグメントの改良版。より多くのシールドタイプに対応し、グレネード用の追加スペースを備えています。",
-      "ko-KR": "전투 II 증강의 개선된 버전입니다. 더 많은 실드 유형을 지원하며 수류탄을 위한 추가 공간이 있습니다.",
-      "no": "En forbedret versjon av Kamp II-forsterkningen. Støtter flere skjoldtyper og kommer med ekstra plass til granater.",
-      "pl": "Ulepszona wersja augmentacji Bojowy II. Obsługuje więcej typów tarcz i zapewnia dodatkowe miejsce na granaty.",
-      "pt": "Uma versão melhorada do aumento Combate II. Suporta mais tipos de escudos e vem com espaço extra para granadas.",
-      "pt-BR": "Uma versão aprimorada do aprimoramento Combate II. Suporta mais tipos de escudos e vem com espaço extra para granadas.",
-      "ru": "Улучшенная версия аугментации Боевой II. Поддерживает больше типов щитов и имеет дополнительное место для гранат.",
-      "sr": "Poboljšana verzija Combat II augmentacije. Podržava više vrsta štitova i dolazi sa dodatnim prostorom za granate.",
-      "tr": "Savaş II güçlendirmesinin geliştirilmiş versiyonu. Daha fazla kalkan türünü destekler ve el bombaları için ekstra alan sunar.",
-      "uk": "Покращена версія аугментації Бойовий II. Підтримує більше типів щитів і має додатковий простір для гранат.",
-      "zh-CN": "战斗 II 增强装置的改进版本。支持更多护盾类型，并提供额外的手榴弹空间。",
-      "zh-TW": "戰鬥 II 增強裝置的改良版本。支援更多護盾類型，並提供額外的手榴彈空間。"
-    },
-    "type": "Augment",
-    "rarity": "Epic",
-    "value": 5000,
-    "weightKg": 5,
-    "stackSize": 1,
-    "blueprintLocked": true,
-    "effects": {
-      "Backpack Slots": {
-        "value": 18,
-        "da": "Rygsækpladser",
-        "de": "Rucksackplätze",
-        "en": "Backpack Slots",
-        "es": "Espacios de Mochila",
-        "fr": "Emplacements de Sac à Dos",
-        "he": "חריצי תיק גב",
-        "hr": "Mjesta u Ruksaku",
-        "it": "Slot Zaino",
-        "ja": "バックパックスロット",
-        "ko-KR": "배낭 슬롯",
-        "no": "Ryggsekk-plasser",
-        "pl": "Miejsca w Plecaku",
-        "pt": "Espaços de Mochila",
-        "pt-BR": "Espaços da Mochila",
-        "ru": "Слоты Рюкзака",
-        "sr": "Mesta u Rancu",
-        "tr": "Sırt Çantası Yuvaları",
-        "uk": "Слоти Рюкзака",
-        "zh-CN": "背包栏位",
-        "zh-TW": "背包欄位"
-      },
-      "Grenade Use Slots": {
-        "value": 2,
-        "da": "Granatbrugspladser",
-        "de": "Granaten-Nutzungsplätze",
-        "en": "Grenade Use Slots",
-        "es": "Espacios de Uso de Granadas",
-        "fr": "Emplacements d'Utilisation de Grenades",
-        "he": "חריצי רימונים",
-        "hr": "Mjesta za Upotrebu Granata",
-        "it": "Slot Uso Granate",
-        "ja": "グレネード使用スロット",
-        "ko-KR": "수류탄 사용 슬롯",
-        "no": "Granatbruksplasser",
-        "pl": "Miejsca Użycia Granatów",
-        "pt": "Espaços de Uso de Granadas",
-        "pt-BR": "Espaços de Uso de Granadas",
-        "ru": "Слоты Использования Гранат",
-        "sr": "Mesta za Upotrebu Granata",
-        "tr": "El Bombası Kullanım Yuvaları",
-        "uk": "Слоти Використання Гранат",
-        "zh-CN": "手榴弹使用栏位",
-        "zh-TW": "手榴彈使用欄位"
-      },
-      "Health Regeneration": {
-        "value": "Restores 2 health every 5 seconds. When damage is taken the effect is paused for 30 seconds.",
-        "da": "Sundhedsregenerering",
-        "de": "Gesundheitsregeneration",
-        "en": "Health Regeneration",
-        "es": "Regeneración de Salud",
-        "fr": "Régénération de Santé",
-        "he": "התחדשות בריאות",
-        "hr": "Regeneracija Zdravlja",
-        "it": "Rigenerazione Salute",
-        "ja": "体力再生",
-        "ko-KR": "체력 재생",
-        "no": "Helseregenering",
-        "pl": "Regeneracja Zdrowia",
-        "pt": "Regeneração de Saúde",
-        "pt-BR": "Regeneração de Saúde",
-        "ru": "Регенерация Здоровья",
-        "sr": "Regeneracija Zdravlja",
-        "tr": "Sağlık Yenilemesi",
-        "uk": "Регенерація Здоров'я",
-        "zh-CN": "生命再生",
-        "zh-TW": "生命再生"
-      },
-      "Quick Use Slots": {
-        "value": 4,
-        "da": "Hurtigbrugspladser",
-        "de": "Schnellzugriffsplätze",
-        "en": "Quick Use Slots",
-        "es": "Espacios de Uso Rápido",
-        "fr": "Emplacements d'Utilisation Rapide",
-        "he": "חריצי שימוש מהיר",
-        "hr": "Mjesta za Brzu Upotrebu",
-        "it": "Slot Uso Rapido",
-        "ja": "クイック使用スロット",
-        "ko-KR": "빠른 사용 슬롯",
-        "no": "Hurtigbruksplasser",
-        "pl": "Miejsca Szybkiego Użycia",
-        "pt": "Espaços de Uso Rápido",
-        "pt-BR": "Espaços de Uso Rápido",
-        "ru": "Слоты Быстрого Использования",
-        "sr": "Mesta za Brzu Upotrebu",
-        "tr": "Hızlı Kullanım Yuvaları",
-        "uk": "Слоти Швидкого Використання",
-        "zh-CN": "快速使用栏位",
-        "zh-TW": "快速使用欄位"
-      },
-      "Safe Pocket Slots": {
-        "value": 1,
-        "da": "Sikre Lommepladser",
-        "de": "Sichere Taschenplätze",
-        "en": "Safe Pocket Slots",
-        "es": "Espacios de Bolsillo Seguro",
-        "fr": "Emplacements de Poche Sécurisée",
-        "he": "חריצי כיס בטוח",
-        "hr": "Sigurna Mjesta u Džepu",
-        "it": "Slot Tasca Sicura",
-        "ja": "セーフポケットスロット",
-        "ko-KR": "안전 포켓 슬롯",
-        "no": "Sikre Lommeplasser",
-        "pl": "Bezpieczne Miejsca w Kieszeni",
-        "pt": "Espaços de Bolso Seguro",
-        "pt-BR": "Espaços do Bolso Seguro",
-        "ru": "Слоты Безопасного Кармана",
-        "sr": "Sigurna Mesta u Džepu",
-        "tr": "Güvenli Cep Yuvaları",
-        "uk": "Слоти Безпечної Кишені",
-        "zh-CN": "安全口袋栏位",
-        "zh-TW": "安全口袋欄位"
-      },
-      "Shield Compatibility": {
-        "value": "Light, Medium, Heavy",
-        "da": "Skjoldkompatibilitet",
-        "de": "Schildkompatibilität",
-        "en": "Shield Compatibility",
-        "es": "Compatibilidad de Escudo",
-        "fr": "Compatibilité de Bouclier",
-        "he": "תאימות מגן",
-        "hr": "Kompatibilnost Štita",
-        "it": "Compatibilità Scudo",
-        "ja": "シールド互換性",
-        "ko-KR": "실드 호환성",
-        "no": "Skjoldkompatibilitet",
-        "pl": "Kompatybilność Tarczy",
-        "pt": "Compatibilidade de Escudo",
-        "pt-BR": "Compatibilidade de Escudo",
-        "ru": "Совместимость со Щитом",
-        "sr": "Kompatibilnost Štita",
-        "tr": "Kalkan Uyumluluğu",
-        "uk": "Сумісність зі Щитом",
-        "zh-CN": "护盾兼容性",
-        "zh-TW": "護盾相容性"
-      },
-      "Weapon Slots": {
-        "value": 2,
-        "da": "Våbenpladser",
-        "de": "Waffenplätze",
-        "en": "Weapon Slots",
-        "es": "Espacios de Armas",
-        "fr": "Emplacements d'Armes",
-        "he": "חריצי נשק",
-        "hr": "Mjesta za Oružje",
-        "it": "Slot Armi",
-        "ja": "武器スロット",
-        "ko-KR": "무기 슬롯",
-        "no": "Våpenplasser",
-        "pl": "Miejsca na Broń",
-        "pt": "Espaços de Armas",
-        "pt-BR": "Espaços de Arma",
-        "ru": "Слоты Оружия",
-        "sr": "Mesta za Oružje",
-        "tr": "Silah Yuvaları",
-        "uk": "Слоти Зброї",
-        "zh-CN": "武器栏位",
-        "zh-TW": "武器欄位"
-      },
-      "Weight Limit": {
-        "value": 65,
-        "da": "Vægtgrænse",
-        "de": "Gewichtslimit",
-        "en": "Weight Limit",
-        "es": "Límite de Peso",
-        "fr": "Limite de Poids",
-        "he": "מגבלת משקל",
-        "hr": "Ograničenje Težine",
-        "it": "Limite di Peso",
-        "ja": "重量制限",
-        "ko-KR": "무게 제한",
-        "no": "Vektgrense",
-        "pl": "Limit Wagi",
-        "pt": "Limite de Peso",
-        "pt-BR": "Limite de Peso",
-        "ru": "Лимит Веса",
-        "sr": "Ograničenje Težine",
-        "tr": "Ağırlık Sınırı",
-        "uk": "Ліміт Ваги",
-        "zh-CN": "重量限制",
-        "zh-TW": "重量限制"
-      }
-    },
-    "craftBench": "equipment_bench",
-    "stationLevelRequired": 3,
-    "recipe": {
-      "advanced_electrical_components": 2,
-      "processor": 3
-    },
-    "recyclesInto": {
-      "advanced_electrical_components": 1,
-      "processor": 1
-    },
-    "salvagesInto": {
-      "electrical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
-    "updatedAt": "01/20/2026",
-    "repairCost": {
-      "advanced_electrical_components": 1,
-      "processor": 2
-    },
-    "repairDurability": 0.5
-  },
-  {
-    "id": "combat_mk3_flanking_blueprint",
-    "name": {
-      "da": "Kamp Mk. 3 (Flankerende) Tegning",
-      "de": "Bauplan: Kampf-Marke 3 (Flankierend)",
-      "en": "Combat Mk. 3 (Flanking) Blueprint",
-      "es": "Plano Combate Ver. 3 (Flanqueo)",
-      "fr": "Schema Combat 3 (flanquement)",
-      "he": "שרטוט Combat Mk. 3 (איגוף)",
-      "hr": "Borbeni Mk. 3 (Bocni) Nacrt",
-      "it": "Progetto Combattimento Mk. 3 (Fiancheggiamento)",
-      "ja": "戦闘MK3（回り込み）設計図",
-      "ko-KR": "전투 마크 3 (측면기동) 설계도",
-      "no": "Kamp Mk. 3 (Flankerende) Tegning",
-      "pl": "Projekt Bojowy Mk. 3 (Flankujacy)",
-      "pt": "Projeto Combate Mk. 3 (Flanqueamento)",
-      "pt-BR": "Diagrama de Combate Mk. 3 (Flanqueador)",
-      "ru": "Чертеж — Боевой Mk. 3 (Фланговый)",
-      "sr": "Borbeni Mk. 3 (Bocni) Nacrt",
-      "tr": "Çatışma Mod. 3 (Baskın) Taslağı",
-      "uk": "Креслення Бойовий Mk. 3 (Фланговий)",
-      "zh-CN": "战斗 Mk. 3（侧翼突击）蓝图",
-      "zh-TW": "戰鬥 Mk. 3（側翼型）藍圖"
-    },
-    "description": {
-      "da": "En forbedret version af Kamp II-forstaerkningen. Designet til flankerende manovrer med forbedret mobilitet.",
-      "de": "Eine verbesserte Version des Kampf II-Augments. Fur Flankierungsmanover mit verbesserter Mobilitat entwickelt.",
-      "en": "An improved version of the Combat II augment. Designed for flanking maneuvers with enhanced mobility.",
-      "es": "Una version mejorada del aumento Combate II. Disenada para maniobras de flanqueo con movilidad mejorada.",
-      "fr": "Une version amelioree de l'augmentation Combat II. Concue pour les manoeuvres de flanquement avec une mobilite amelioree.",
-      "he": "גרסה משופרת של תוסף ה-Combat II. מיועדת לתמרוני איגוף עם ניידות משופרת.",
-      "hr": "Poboljsana verzija Combat II augmentacije. Dizajnirana za bocne manevre s poboljsanom pokretljivoscu.",
-      "it": "Una versione migliorata dell'aumento Combattimento II. Progettato per manovre di fiancheggiamento con mobilita migliorata.",
-      "ja": "コンバット II オーグメントの改良版。機動性が向上したフランキング作戦用に設計されています。",
-      "ko-KR": "전투 II 증강의 개선된 버전입니다. 향상된 기동성으로 측면 기동을 위해 설계되었습니다.",
-      "no": "En forbedret versjon av Kamp II-forsterkningen. Designet for flankerende manovrer med forbedret mobilitet.",
-      "pl": "Ulepszona wersja augmentacji Bojowy II. Zaprojektowana do manewrow flankujacych z poprawiona mobilnoscia.",
-      "pt": "Uma versao melhorada do aumento Combate II. Projetada para manobras de flanqueamento com mobilidade aprimorada.",
-      "pt-BR": "Uma versão aprimorada do aprimoramento de Combate II. Projetada para manobras de flanqueamento com mobilidade aprimorada.",
-      "ru": "Улучшенная версия аугментации Боевой II. Разработана для фланговых маневров с повышенной мобильностью.",
-      "sr": "Poboljsana verzija Combat II augmentacije. Dizajnirana za bocne manevre sa poboljsanom pokretljivoscu.",
-      "tr": "Savas II guclendirmesinin gelistirilmis versiyonu. Arttirilmis hareketlilik ile yan cevirme manevralari icin tasarlanmistir.",
-      "uk": "Покращена версія аугментації Бойовий II. Розроблена для флангових маневрів з покращеною мобільністю.",
-      "zh-CN": "战斗 II 增强装置的改进版本。专为侧翼机动设计，具有增强的机动性。",
-      "zh-TW": "戰鬥 II 增強裝置的改良版本。專為側翼機動設計，具有增強的機動性。"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "combat_mk3_flanking",
-    "name": {
-      "da": "Kamp Mk. 3 (Flankerende)",
-      "de": "Kampf-Marke 3 (Flankierend)",
-      "en": "Combat Mk. 3 (Flanking)",
-      "es": "Combate Ver. 3 (Flanqueo)",
-      "fr": "Combat 3 (flanquement)",
-      "he": "Combat Mk. 3 (איגוף)",
-      "hr": "Borbeni Mk. 3 (Bočni)",
-      "it": "Combattimento Mk. 3 (Fiancheggiamento)",
-      "ja": "戦闘MK3（回り込み）",
-      "ko-KR": "전투 마크 3 (측면기동)",
-      "no": "Kamp Mk. 3 (Flankerende)",
-      "pl": "Bojowy Mk. 3 (Flankujacy)",
-      "pt": "Combate Mk. 3 (Flanqueamento)",
-      "pt-BR": "Combate Mk. 3 (Flanqueador)",
-      "ru": "Боевой Mk. 3 (Фланговый)",
-      "sr": "Borbeni Mk. 3 (Bocni)",
-      "tr": "Çatışma Mod. 3 (Baskın)",
-      "uk": "Бойовий Mk. 3 (Фланговий)",
-      "zh-CN": "战斗 Mk. 3（侧翼突击）",
-      "zh-TW": "戰鬥 Mk. 3（側翼型）"
-    },
-    "description": {
-      "da": "En forbedret version af Kamp II-forstaerkningen. Designet til flankerende manovrer med forbedret mobilitet.",
-      "de": "Eine verbesserte Version des Kampf II-Augments. Fur Flankierungsmanover mit verbesserter Mobilitat entwickelt.",
-      "en": "An improved version of the Combat II augment. Designed for flanking maneuvers with enhanced mobility.",
-      "es": "Una version mejorada del aumento Combate II. Disenada para maniobras de flanqueo con movilidad mejorada.",
-      "fr": "Une version amelioree de l'augmentation Combat II. Concue pour les manoeuvres de flanquement avec une mobilite amelioree.",
-      "he": "גרסה משופרת של תוסף ה-Combat II. מיועדת לתמרוני איגוף עם ניידות משופרת.",
-      "hr": "Poboljsana verzija Combat II augmentacije. Dizajnirana za bocne manevre s poboljsanom pokretljivoscu.",
-      "it": "Una versione migliorata dell'aumento Combattimento II. Progettato per manovre di fiancheggiamento con mobilita migliorata.",
-      "ja": "コンバット II オーグメントの改良版。機動性が向上したフランキング作戦用に設計されています。",
-      "ko-KR": "전투 II 증강의 개선된 버전입니다. 향상된 기동성으로 측면 기동을 위해 설계되었습니다.",
-      "no": "En forbedret versjon av Kamp II-forsterkningen. Designet for flankerende manovrer med forbedret mobilitet.",
-      "pl": "Ulepszona wersja augmentacji Bojowy II. Zaprojektowana do manewrow flankujacych z poprawiona mobilnoscia.",
-      "pt": "Uma versao melhorada do aumento Combate II. Projetada para manobras de flanqueamento com mobilidade aprimorada.",
-      "pt-BR": "Uma versão aprimorada do aprimoramento de Combate II. Projetada para manobras de flanqueamento com mobilidade aprimorada.",
-      "ru": "Улучшенная версия аугментации Боевой II. Разработана для фланговых маневров с повышенной мобильностью.",
-      "sr": "Poboljsana verzija Combat II augmentacije. Dizajnirana za bocne manevre sa poboljsanom pokretljivoscu.",
-      "tr": "Savas II guclendirmesinin gelistirilmis versiyonu. Arttirilmis hareketlilik ile yan cevirme manevralari icin tasarlanmistir.",
-      "uk": "Покращена версія аугментації Бойовий II. Розроблена для флангових маневрів з покращеною мобільністю.",
-      "zh-CN": "战斗 II 增强装置的改进版本。专为侧翼机动设计，具有增强的机动性。",
-      "zh-TW": "戰鬥 II 增強裝置的改良版本。專為側翼機動設計，具有增強的機動性。"
-    },
-    "type": "Augment",
-    "rarity": "Epic",
-    "value": 5000,
-    "weightKg": 5,
-    "stackSize": 1,
-    "blueprintLocked": true,
-    "effects": {
-      "Backpack Slots": {
-        "value": 18,
-        "da": "Rygsaekpladser",
-        "de": "Rucksackplatze",
-        "en": "Backpack Slots",
-        "es": "Espacios de Mochila",
-        "fr": "Emplacements de Sac a Dos",
-        "he": "חריצי תרמיל",
-        "hr": "Mjesta u Ruksaku",
-        "it": "Slot Zaino",
-        "ja": "バックパックスロット",
-        "ko-KR": "배낭 슬롯",
-        "no": "Ryggsekk-plasser",
-        "pl": "Miejsca w Plecaku",
-        "pt": "Espacos de Mochila",
-        "pt-BR": "Espaços de Mochila",
-        "ru": "Слоты Рюкзака",
-        "sr": "Mesta u Rancu",
-        "tr": "Sirt Cantasi Yuvalari",
-        "uk": "Слоти Рюкзака",
-        "zh-CN": "背包栏位",
-        "zh-TW": "背包欄位"
-      },
-      "Grenade Use Slots": {
-        "value": 2,
-        "da": "Granatbrugspladser",
-        "de": "Granaten-Nutzungsplatze",
-        "en": "Grenade Use Slots",
-        "es": "Espacios de Uso de Granadas",
-        "fr": "Emplacements d'Utilisation de Grenades",
-        "he": "חריצי רימונים",
-        "hr": "Mjesta za Upotrebu Granata",
-        "it": "Slot Uso Granate",
-        "ja": "グレネード使用スロット",
-        "ko-KR": "수류탄 사용 슬롯",
-        "no": "Granatbruksplasser",
-        "pl": "Miejsca Uzycia Granatow",
-        "pt": "Espacos de Uso de Granadas",
-        "pt-BR": "Espaços de Uso de Granadas",
-        "ru": "Слоты Использования Гранат",
-        "sr": "Mesta za Upotrebu Granata",
-        "tr": "El Bombasi Kullanim Yuvalari",
-        "uk": "Слоти Використання Гранат",
-        "zh-CN": "手榴弹使用栏位",
-        "zh-TW": "手榴彈使用欄位"
-      },
-      "Health Regeneration": {
-        "value": "Restores 2 health every 5 seconds. When damage is taken the effect is paused for 30 seconds.",
-        "da": "Sundhedsregenerering",
-        "de": "Gesundheitsregeneration",
-        "en": "Health Regeneration",
-        "es": "Regeneracion de Salud",
-        "fr": "Regeneration de Sante",
-        "he": "חידוש בריאות",
-        "hr": "Regeneracija Zdravlja",
-        "it": "Rigenerazione Salute",
-        "ja": "体力再生",
-        "ko-KR": "체력 재생",
-        "no": "Helseregenering",
-        "pl": "Regeneracja Zdrowia",
-        "pt": "Regeneracao de Saude",
-        "pt-BR": "Regeneração de Saúde",
-        "ru": "Регенерация Здоровья",
-        "sr": "Regeneracija Zdravlja",
-        "tr": "Saglik Yenilemesi",
-        "uk": "Регенерація Здоров'я",
-        "zh-CN": "生命再生",
-        "zh-TW": "生命再生"
-      },
-      "Quick Use Slots": {
-        "value": 4,
-        "da": "Hurtigbrugspladser",
-        "de": "Schnellzugriffsplatze",
-        "en": "Quick Use Slots",
-        "es": "Espacios de Uso Rapido",
-        "fr": "Emplacements d'Utilisation Rapide",
-        "he": "חריצי שימוש מהיר",
-        "hr": "Mjesta za Brzu Upotrebu",
-        "it": "Slot Uso Rapido",
-        "ja": "クイック使用スロット",
-        "ko-KR": "빠른 사용 슬롯",
-        "no": "Hurtigbruksplasser",
-        "pl": "Miejsca Szybkiego Uzycia",
-        "pt": "Espacos de Uso Rapido",
-        "pt-BR": "Espaços de Uso Rápido",
-        "ru": "Слоты Быстрого Использования",
-        "sr": "Mesta za Brzu Upotrebu",
-        "tr": "Hizli Kullanim Yuvalari",
-        "uk": "Слоти Швидкого Використання",
-        "zh-CN": "快速使用栏位",
-        "zh-TW": "快速使用欄位"
-      },
-      "Safe Pocket Slots": {
-        "value": 1,
-        "da": "Sikre Lommepladser",
-        "de": "Sichere Taschenplatze",
-        "en": "Safe Pocket Slots",
-        "es": "Espacios de Bolsillo Seguro",
-        "fr": "Emplacements de Poche Securisee",
-        "he": "חריצי כיס בטוח",
-        "hr": "Sigurna Mjesta u Dzepu",
-        "it": "Slot Tasca Sicura",
-        "ja": "セーフポケットスロット",
-        "ko-KR": "안전 포켓 슬롯",
-        "no": "Sikre Lommeplasser",
-        "pl": "Bezpieczne Miejsca w Kieszeni",
-        "pt": "Espacos de Bolso Seguro",
-        "pt-BR": "Espaços de Bolso Seguro",
-        "ru": "Слоты Безопасного Кармана",
-        "sr": "Sigurna Mesta u Dzepu",
-        "tr": "Guvenli Cep Yuvalari",
-        "uk": "Слоти Безпечної Кишені",
-        "zh-CN": "安全口袋栏位",
-        "zh-TW": "安全口袋欄位"
-      },
-      "Shield Compatibility": {
-        "value": "Light, Medium, Heavy",
-        "da": "Skjoldkompatibilitet",
-        "de": "Schildkompatibilitat",
-        "en": "Shield Compatibility",
-        "es": "Compatibilidad de Escudo",
-        "fr": "Compatibilite de Bouclier",
-        "he": "תאימות מגן",
-        "hr": "Kompatibilnost Stita",
-        "it": "Compatibilita Scudo",
-        "ja": "シールド互換性",
-        "ko-KR": "실드 호환성",
-        "no": "Skjoldkompatibilitet",
-        "pl": "Kompatybilnosc Tarczy",
-        "pt": "Compatibilidade de Escudo",
-        "pt-BR": "Compatibilidade de Escudo",
-        "ru": "Совместимость со Щитом",
-        "sr": "Kompatibilnost Stita",
-        "tr": "Kalkan Uyumlulugu",
-        "uk": "Сумісність зі Щитом",
-        "zh-CN": "护盾兼容性",
-        "zh-TW": "護盾相容性"
-      },
-      "Weapon Slots": {
-        "value": 2,
-        "da": "Vabenpladser",
-        "de": "Waffenplatze",
-        "en": "Weapon Slots",
-        "es": "Espacios de Armas",
-        "fr": "Emplacements d'Armes",
-        "he": "חריצי נשק",
-        "hr": "Mjesta za Oruzje",
-        "it": "Slot Armi",
-        "ja": "武器スロット",
-        "ko-KR": "무기 슬롯",
-        "no": "Vapenplasser",
-        "pl": "Miejsca na Bron",
-        "pt": "Espacos de Armas",
-        "pt-BR": "Espaços de Armas",
-        "ru": "Слоты Оружия",
-        "sr": "Mesta za Oruzje",
-        "tr": "Silah Yuvalari",
-        "uk": "Слоти Зброї",
-        "zh-CN": "武器栏位",
-        "zh-TW": "武器欄位"
-      },
-      "Weight Limit": {
-        "value": 65,
-        "da": "Vaegtgraense",
-        "de": "Gewichtslimit",
-        "en": "Weight Limit",
-        "es": "Limite de Peso",
-        "fr": "Limite de Poids",
-        "he": "מגבלת משקל",
-        "hr": "Ogranicenje Tezine",
-        "it": "Limite di Peso",
-        "ja": "重量制限",
-        "ko-KR": "무게 제한",
-        "no": "Vektgrense",
-        "pl": "Limit Wagi",
-        "pt": "Limite de Peso",
-        "pt-BR": "Limite de Peso",
-        "ru": "Лимит Веса",
-        "sr": "Ogranicenje Tezine",
-        "tr": "Agirlik Siniri",
-        "uk": "Ліміт Ваги",
-        "zh-CN": "重量限制",
-        "zh-TW": "重量限制"
-      }
-    },
-    "craftBench": "equipment_bench",
-    "stationLevelRequired": 3,
-    "recipe": {
-      "advanced_electrical_components": 2,
-      "processor": 3
-    },
-    "recyclesInto": {
-      "advanced_electrical_components": 1,
-      "processor": 1
-    },
-    "salvagesInto": {
-      "electrical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
-    "updatedAt": "01/20/2026",
-    "repairCost": {
-      "advanced_electrical_components": 1,
-      "processor": 2
-    },
-    "repairDurability": 0.5
-  },
-  {
-    "id": "comet_igniter",
-    "name": {
-      "da": "Komettænder",
-      "de": "Kometenzünder",
-      "en": "Comet Igniter",
-      "es": "Encendedor de cometa",
-      "fr": "Allumeur Comète",
-      "he": "מצת שביט",
-      "hr": "Kometni upaljač",
-      "it": "Accenditore Cometa",
-      "ja": "コメット・イグナイター",
-      "kr": "코멧 점화기",
-      "no": "Komettenner",
-      "pl": "Zapalnik Komety",
-      "pt": "Ignitor Cometa",
-      "pt-BR": "Ignitor de Cometa",
-      "ru": "Воспламенитель «Комета»",
-      "sr": "Upaljač Komete",
-      "tr": "Kuyruklu Yıldız Ateşleyicisi",
-      "uk": "Запальник «Комета»",
-      "zh-CN": "彗星点火器",
-      "zh-TW": "彗星點火器"
-    },
-    "description": {
-      "da": "Kan genbruges til fremstillingsmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar para obtener materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux de fabrication.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Può essere riciclato in materiali per la creazione.",
-      "ja": "リサイクルしてクラフト素材にできる。",
-      "kr": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan gjenvinnes til materialer.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для виготовлення.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "ARC",
-    "value": 1000,
-    "weightKg": 1,
-    "stackSize": 3,
-    "recyclesInto": {
-      "arc_alloy": 2,
-      "crude_explosives": 2
-    },
-    "salvagesInto": {
-      "crude_explosives": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/comet_igniter.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "1.17"
-  },
-  {
-    "id": "compensator_i",
-    "name": {
-      "da": "Kompensator I",
-      "de": "Kompensator I",
-      "en": "Compensator I",
-      "es": "Compensador I",
-      "fr": "Compensateur I",
-      "he": "מפצה I",
-      "hr": "Kompenzator I",
-      "it": "Compensatore I",
-      "ja": "コンペンセイター I",
-      "ko-KR": "보정기 I",
-      "no": "Kompensator I",
-      "pl": "Kompensator I",
-      "pt": "Compensador I",
-      "pt-BR": "Compensador I",
-      "ru": "Компенсатор I",
-      "sr": "Kompenzator I",
-      "tr": "Namlu Ağzı Baskısı I",
-      "uk": "Компенсатор I",
-      "zh-CN": "补偿器 I",
-      "zh-TW": "補償器 I"
-    },
-    "description": {
-      "da": "Reducerer lidt spredning pr. skud. Kompatibel med: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "de": "Verringert die Streuung pro Schuss geringfügig. Kompatibel mit: Arpeggio, Rattler, Kettle, Ferro, Anvil",
-      "en": "Slightly reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "es": "Reduce ligeramente la dispersión por disparo. Compatible con: Arpeggio, Ferro, Renegado, Yunque, Costurero",
-      "fr": "Réduit légèrement la dispersion par tir. Compatible avec : Arpège, Ferro, Renégat, Enclume, Sutureur",
-      "he": "מפחית מעט את הפיזור בכל ירייה. תואם ל: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "hr": "Blago smanjuje raspršenje po hicu. Kompatibilno s: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "it": "Riduce leggermente la dispersione per colpo. Compatibile con: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "ja": "射撃ごとの拡散をわずかに軽減する。対応武器：Arpeggio、Ferro、Renegade、Anvil、Stitcher",
-      "ko-KR": "발사당 분산도를 약간 감소시킵니다. 호환 무기: 아르페지오, 페로, 레니게이드, 앤빌, 스티처",
-      "no": "Reduserer litt spredning per skudd. Kompatibel med: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "pl": "Nieznacznie zmniejsza rozrzut na strzał. Kompatybilny z: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "pt": "Reduz ligeiramente a dispersão por tiro. Compatível com: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "pt-BR": "Reduz de maneira sutil a dispersão por disparo. Compatível com: Arpeggio, Bettina, Ferro, Renegado, Bigorna",
-      "ru": "Немного снижает разброс при каждом выстреле. Совместимо с: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "sr": "Blago smanjuje rasipanje po hicu. Kompatibilno sa: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "tr": "Atış başına dağılımı hafifçe azaltır. Uyumlu silahlar: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "uk": "Трохи зменшує розкид при кожному пострілі. Сумісно з: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-      "zh-CN": "略微降低每次射击的扩散度。兼容武器：Arpeggio、Ferro、Renegade、Anvil、Stitcher",
-      "zh-TW": "略微降低每次射擊的擴散度。相容武器：Arpeggio、Ferro、Renegade、Anvil、Stitcher"
-    },
-    "type": "Modification",
-    "rarity": "Common",
-    "value": 640,
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Anvil",
-      "Arpeggio",
-      "Bettina",
-      "Bobcat",
-      "Burletta",
-      "Ferro",
-      "Kettle",
-      "Osprey",
-      "Rattler",
-      "Renegade",
-      "Stitcher",
-      "Tempest",
-      "Torrente"
-    ],
-    "effects": {
-      "Reduced Max Shot Dispersion": {
-        "value": "10%",
-        "da": "Reduceret maksimal spredning",
-        "de": "Verringerte max. Streuung pro Schuss",
-        "en": "Reduced Max Shot Dispersion",
-        "es": "Dispersión máxima reducida",
-        "fr": "Dispersion maximale réduite",
-        "he": "פיזור ירי מרבי מופחת",
-        "hr": "Smanjeno Maks. Raspršenje Hica",
-        "it": "Dispersione massima ridotta",
-        "ja": "最大拡散軽減",
-        "ko-KR": "최대 분산도 감소",
-        "no": "Redusert maksimal spredning",
-        "pl": "Zmniejszony maksymalny rozrzut",
-        "pt": "Dispersão máxima reduzida",
-        "pt-BR": "Redução na Dispersão do máximo de Disparos",
-        "ru": "Снижение максимального разброса",
-        "sr": "Smanjeno Maks. Rasipanje Hica",
-        "tr": "Maksimum Atış Dağılımı Azaltma",
-        "uk": "Зменшення максимального розкиду",
-        "zh-CN": "降低最大扩散度",
-        "zh-TW": "降低最大擴散度"
-      },
-      "Reduced Per-Shot Dispersion": {
-        "value": "20%",
-        "da": "Reduceret spredning pr. skud",
-        "de": "Verringerte Streuung pro Schuss",
-        "en": "Reduced Per-Shot Dispersion",
-        "es": "Dispersión por disparo reducida",
-        "fr": "Dispersion par tir réduite",
-        "he": "פיזור מופחת בכל ירייה",
-        "hr": "Smanjeno Raspršenje po Hicu",
-        "it": "Dispersione per colpo ridotta",
-        "ja": "射撃ごとの拡散軽減",
-        "ko-KR": "발사당 분산도 감소",
-        "no": "Redusert spredning per skudd",
-        "pl": "Zmniejszony rozrzut na strzał",
-        "pt": "Dispersão por tiro reduzida",
-        "pt-BR": "Redução na Dispersão por Disparo",
-        "ru": "Снижение разброса за выстрел",
-        "sr": "Smanjeno Rasipanje po Hicu",
-        "tr": "Atış Başına Dağılım Azaltma",
-        "uk": "Зменшення розкиду за постріл",
-        "zh-CN": "降低每发扩散度",
-        "zh-TW": "降低每發擴散度"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "metal_parts": 6,
-      "wires": 1
-    },
-    "recyclesInto": {
-      "metal_parts": 5
-    },
-    "salvagesInto": {
-      "metal_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/compensator_i.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "coins": 1920
-        },
-        "limit": 5,
-        "refreshSeconds": 86400,
-        "trader": "Tian Wen"
       }
     ]
   }

@@ -41,8 +41,8 @@ jobs:
               uses: peter-evans/create-pull-request@v6
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: ${{ inputs.head-branch }}
-                  base: ${{ inputs.base-branch }}
+                  branch: ${{ inputs.head-branch || 'automation/map-events-update' }}
+                  base: ${{ inputs.base-branch || 'main' }}
                   title: "Update map events"
                   body: |
                       Automated sync of map-events from arctracker.io.
