@@ -1,5 +1,173 @@
 [
   {
+    "id": "first_wave_compass",
+    "name": {
+      "da": "Første Bølge-kompas",
+      "de": "Erste-Welle-Kompass",
+      "en": "First Wave Compass",
+      "es": "Brújula de la Primera Ola",
+      "fr": "Boussole de la Première Vague",
+      "he": "מצפן מהגל הראשון",
+      "hr": "Kompas Prvog Vala",
+      "it": "Bussola della Prima Ondata",
+      "ja": "第一波コンパス",
+      "ko-KR": "1차 침공 나침반",
+      "no": "Første Bølge-kompass",
+      "pl": "Kompas Pierwszej Fali",
+      "pt": "Bússola da Primeira Onda",
+      "pt-BR": "Bússola da Primeira Onda",
+      "ru": "Компас Первой Волны",
+      "sr": "Kompas Prvog Talasa",
+      "tr": "İlk Dalga Pusulası",
+      "uk": "Компас Першої Хвилі",
+      "zh-CN": "第一波罗盘",
+      "zh-TW": "第一波羅盤"
+    },
+    "description": {
+      "da": "Støvede men funktionelle, disse hjalp med at kortlægge en kurs, da alt syntes tabt.",
+      "de": "Staubig, aber funktionsfähig, halfen diese dabei, einen Kurs zu bestimmen, als alles verloren schien.",
+      "en": "Dusty but functional, these helped chart a course when all seemed lost.",
+      "es": "Polvorientas pero funcionales, estas ayudaron a trazar un rumbo cuando todo parecía perdido.",
+      "fr": "Poussiéreux mais fonctionnel, ceux-ci ont aidé à tracer une route quand tout semblait perdu.",
+      "he": "מאובקים אך מתפקדים, אלו עזרו לתוות מסלול כשנראה היה שהכול אבוד.",
+      "hr": "Prašnjavi ali funkcionalni, pomogli su odrediti smjer kada se sve činilo izgubljenim.",
+      "it": "Impolverata ma funzionale, questa ha aiutato a tracciare una rotta quando tutto sembrava perduto.",
+      "ja": "埃まみれだが機能的で、すべてが失われたように見えた時に進路を示してくれた。",
+      "ko-KR": "먼지가 쌓였지만 작동하며, 모든 것이 잃어버린 것처럼 보일 때 길을 찾는 데 도움을 주었습니다.",
+      "no": "Støvete men funksjonelle, disse hjalp til med å kartlegge en kurs når alt virket tapt.",
+      "pl": "Zakurzone, ale funkcjonalne, pomogły wyznaczyć kurs, gdy wszystko wydawało się stracone.",
+      "pt": "Empoeiradas mas funcionais, estas ajudaram a traçar um rumo quando tudo parecia perdido.",
+      "pt-BR": "Empoeiradas mas funcionais, elas ajudaram a traçar um curso quando tudo parecia perdido.",
+      "ru": "Пыльные, но рабочие, они помогли проложить курс, когда всё казалось потерянным.",
+      "sr": "Prašnjavi ali funkcionalni, pomogli su da se odredi kurs kada se sve činilo izgubljenim.",
+      "tr": "Tozlu ama işlevsel, her şey kaybolmuş gibi göründüğünde rotayı belirlemeye yardımcı oldular.",
+      "uk": "Запилені, але функціональні, вони допомогли прокласти курс, коли все здавалося втраченим.",
+      "zh-CN": "虽然布满灰尘但仍能使用，在一切似乎都失去希望时帮助指引了方向。",
+      "zh-TW": "雖然佈滿灰塵但仍能使用，在一切似乎都失去希望時幫助指引了方向。"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/first_wave_compass.png",
+    "updatedAt": "04/14/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "first_wave_rations",
+    "name": {
+      "da": "Første Bølge Rationer",
+      "de": "Erste-Welle-Rationen",
+      "en": "First Wave Rations",
+      "es": "Raciones de la Primera Oleada",
+      "fr": "Rations de la Première Vague",
+      "he": "מנות מזון מהגל הראשון",
+      "hr": "Obroci Prvog Vala",
+      "it": "Razioni della Prima Ondata",
+      "ja": "第一波の配給品",
+      "ko-KR": "1차 침공 배급품",
+      "no": "Første Bølge Rasjoner",
+      "pl": "Racje Pierwszej Fali",
+      "pt": "Rações da Primeira Onda",
+      "pt-BR": "Rações da Primeira Onda",
+      "ru": "Пайки Первой Волны",
+      "sr": "Obroci Prvog Talasa",
+      "tr": "İlk Dalga Erzakı",
+      "uk": "Пайки Першої Хвилі",
+      "zh-CN": "第一波配给",
+      "zh-TW": "第一波配給"
+    },
+    "description": {
+      "da": "Ofte opvarmet over diskrete bål, siges disse knappe forsyninger at have drevet en modstand.",
+      "de": "Oft über versteckten Feuern erhitzt, sollen diese kargen Vorräte einen Widerstand angetrieben haben.",
+      "en": "Often heated above discreet fires, these meager provisions are said to have fueled a resistance.",
+      "es": "A menudo calentadas sobre fuegos discretos, se dice que estas escasas provisiones alimentaron una resistencia.",
+      "fr": "Souvent réchauffées au-dessus de feux discrets, ces maigres provisions auraient alimenté une résistance.",
+      "he": "חוממו לעתים קרובות מעל מדורות נסתרות; נאמר על המצרכים הדלים הללו שהזינו את ההתנגדות.",
+      "hr": "Često zagrijavani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor.",
+      "it": "Spesso riscaldate su fuochi discreti, si dice che queste magre provviste abbiano alimentato una resistenza.",
+      "ja": "目立たない焚き火で温められることが多く、これらのわずかな食料が抵抗運動を支えたと言われている。",
+      "ko-KR": "은밀한 모닥불 위에서 데워지곤 했던 이 빈약한 식량이 저항군을 지탱했다고 전해진다.",
+      "no": "Ofte oppvarmet over diskré bål, sies disse knappe forsyningene å ha drevet en motstand.",
+      "pl": "Często podgrzewane nad dyskretnym ogniem, te skromne zapasy podobno napędzały ruch oporu.",
+      "pt": "Frequentemente aquecidas sobre fogueiras discretas, estas provisões escassas teriam alimentado uma resistência.",
+      "pt-BR": "Frequentemente aquecidas sobre fogueiras discretas, dizem que essas provisões escassas alimentaram uma resistência.",
+      "ru": "Эти скудные запасы, часто разогреваемые на незаметных кострах, как говорят, поддерживали сопротивление.",
+      "sr": "Često zagrevani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor.",
+      "tr": "Genellikle gizli ateşlerde ısıtılan bu yetersiz erzakın bir direnişi beslediği söylenir.",
+      "uk": "Ці мізерні запаси, що часто підігрівалися над непомітними вогнищами, як кажуть, підтримували опір.",
+      "zh-CN": "这些微薄的补给常在隐蔽的火堆上加热，据说曾为抵抗运动提供了动力。",
+      "zh-TW": "這些微薄的補給常在隱蔽的火堆上加熱，據說曾為抵抗運動提供了動力。"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/first_wave_rations.png",
+    "updatedAt": "04/14/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "first_wave_tape",
+    "name": {
+      "da": "Første Bølge Bånd",
+      "de": "Erste-Welle-Band",
+      "en": "First Wave Tape",
+      "es": "Cinta de la Primera Oleada",
+      "fr": "Cassette de la Première Vague",
+      "he": "קלטת מהגל הראשון",
+      "hr": "Traka Prvog Vala",
+      "it": "Nastro della Prima Ondata",
+      "ja": "第一波のテープ",
+      "ko-KR": "1차 침공 테이프",
+      "no": "Første Bølge Bånd",
+      "pl": "Taśma Pierwszej Fali",
+      "pt": "Fita da Primeira Onda",
+      "pt-BR": "Fita da Primeira Onda",
+      "ru": "Кассета Первой Волны",
+      "sr": "Traka Prvog Talasa",
+      "tr": "İlk Dalga Kaseti",
+      "uk": "Касета Першої Хвилі",
+      "zh-CN": "第一波录像带",
+      "zh-TW": "第一波錄影帶"
+    },
+    "description": {
+      "da": "Et gammelt bånd fundet inde i et medtaget gammelt videokamera.",
+      "de": "Ein altes Band, das in einem abgenutzten alten Camcorder gefunden wurde.",
+      "en": "An old tape found inside a battered old camcorder.",
+      "es": "Una cinta vieja encontrada dentro de una videocámara vieja y maltratada.",
+      "fr": "Une vieille cassette trouvée dans un vieux caméscope abîmé.",
+      "he": "קלטת ישנה שנמצאה בתוך מצלמת וידאו ישנה וחבוטה.",
+      "hr": "Stara traka pronađena unutar oštećene stare kamere.",
+      "it": "Un vecchio nastro trovato all'interno di una vecchia videocamera malconcia.",
+      "ja": "ボロボロの古いビデオカメラの中で見つかった古いテープ。",
+      "ko-KR": "낡고 망가진 캠코더 안에서 발견된 오래된 테이프.",
+      "no": "Et gammelt bånd funnet inne i et ramponert gammelt videokamera.",
+      "pl": "Stara taśma znaleziona w zniszczonej starej kamerze.",
+      "pt": "Uma fita velha encontrada dentro de uma filmadora velha e surrada.",
+      "pt-BR": "Uma fita velha encontrada dentro de uma filmadora antiga e surrada.",
+      "ru": "Старая кассета, найденная внутри потрепанной старой видеокамеры.",
+      "sr": "Stara traka pronađena unutar oštećene stare kamere.",
+      "tr": "Hırpalanmış eski bir kameranın içinde bulunan eski bir kaset.",
+      "uk": "Стара касета, знайдена всередині пошарпаної старої відеокамери.",
+      "zh-CN": "在一台破旧的老式摄像机中发现的旧录像带。",
+      "zh-TW": "在一台破舊的老式攝影機中發現的舊錄影帶。"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
+    "updatedAt": "04/14/2026",
+    "addedIn": "base"
+  },
+  {
     "id": "flame_spray",
     "name": {
       "da": "Flammekaster",
@@ -20,7 +188,7 @@
       "sr": "Plamen Sprej",
       "tr": "Alev Püskürtücü",
       "uk": "Вогняний розпилювач",
-      "zh-CN": "火焰喷射器",
+      "zh-CN": "火焰喷涂",
       "zh-TW": "火焰噴射器"
     },
     "description": {
@@ -285,11 +453,11 @@
     },
     "type": "Trinket",
     "rarity": "Common",
-    "value": 0,
+    "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
     "imageFilename": "https://cdn.arctracker.io/items/flushing_terminal_key.png",
-    "updatedAt": "01/13/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "1.1"
   },
   {
@@ -375,7 +543,7 @@
       "sr": "Besplatno poboljšanje opreme",
       "tr": "Ücretsiz Teçhizat Yükseltici",
       "uk": "Безкоштовне покращення спорядження",
-      "zh-CN": "免费装备增强",
+      "zh-CN": "免费配装强化",
       "zh-TW": "免費裝備增強"
     },
     "description": {
@@ -397,7 +565,7 @@
       "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
       "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
       "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
-      "zh-CN": "新手掠夺者的基础增强，提供稍多的背包空间和负重能力。",
+      "zh-CN": "新手奇袭者的基础增强，提供稍多的背包空间和负重能力。",
       "zh-TW": "新手掠奪者的基礎增強，提供稍多的背包空間和負重能力。"
     },
     "type": "Augment",
@@ -843,7 +1011,7 @@
       "sr": "Zamka sa Gasnom Granatom",
       "tr": "Lazer Tuzağı: Gaz",
       "uk": "Пастка з газовою гранатою",
-      "zh-CN": "毒气手榴弹陷阱",
+      "zh-CN": "毒气手雷陷阱",
       "zh-TW": "毒氣手榴彈陷阱"
     },
     "description": {
@@ -865,7 +1033,7 @@
       "sr": "Laserska žica zamka koja detonira Gasnu Granatu.",
       "tr": "Bir Gaz Bombasını patlatan lazer tuzak teli.",
       "uk": "Лазерна розтяжка, що підриває газову гранату.",
-      "zh-CN": "引爆毒气手榴弹的激光绊线。",
+      "zh-CN": "激光陷阱：毒气。",
       "zh-TW": "引爆毒氣手榴彈的雷射絆線。"
     },
     "type": "Quick Use",
@@ -1000,7 +1168,7 @@
       "sr": "Granata koja pri udaru ispušta dugotrajni otrovni oblak, iscrpljujući izdržljivost svih pljačkaša unutar svog područja dejstva.",
       "tr": "Çarpma anında kalıcı zehirli bir bulut yayan ve etki alanındaki tüm Akıncıların dayanıklılığını tüketen bir bomba.",
       "uk": "Граната, яка при ударі випускає стійку токсичну хмару, що виснажує витривалість усіх рейдерів у зоні ураження.",
-      "zh-CN": "撞击时释放持续性毒云，消耗效果范围内所有掠夺者耐力的手雷。",
+      "zh-CN": "撞击时释放持续性毒云，消耗效果范围内所有奇袭者耐力的手雷。",
       "zh-TW": "撞擊時釋放持續性毒雲，消耗效果範圍內所有掠奪者耐力的手榴彈。"
     },
     "type": "Quick Use",
@@ -1128,7 +1296,7 @@
       "sr": "Gasna mina Nacrt",
       "tr": "Sıçrama Mayını: Enerji Azaltıcı Taslağı",
       "uk": "Креслення Газова міна",
-      "zh-CN": "毒气地雷 蓝图",
+      "zh-CN": "跳雷：持续流失耐力 蓝图（跳雷：毒气 蓝图）",
       "zh-TW": "毒氣地雷 藍圖"
     },
     "description": {
@@ -1183,7 +1351,7 @@
       "sr": "Gasna mina",
       "tr": "Sıçrama Mayını: Enerji Azaltıcı",
       "uk": "Газова міна",
-      "zh-CN": "毒气地雷",
+      "zh-CN": "跳雷：持续流失耐力（跳雷：毒气）",
       "zh-TW": "毒氣地雷"
     },
     "description": {
@@ -2192,7 +2360,7 @@
       "en": "Hairpin III",
       "es": "Horquilla III",
       "fr": "Épingle III",
-      "he": "סיכת ראש III",
+      "he": "היירפין III",
       "hr": "Ukosnica III",
       "it": "Tornante III",
       "ja": "ヘアピン III",
@@ -2459,7 +2627,7 @@
       "en": "Hairpin IV",
       "es": "Horquilla IV",
       "fr": "ÉpingleIV",
-      "he": "סיכת ראש IV",
+      "he": "היירפין IV",
       "hr": "Ukosnica IV",
       "it": "Tornante IV",
       "ja": "ヘアピン IV",
@@ -2830,7 +2998,7 @@
     "rarity": "Common",
     "value": 12,
     "weightKg": 0.05,
-    "stackSize": 40,
+    "stackSize": 60,
     "craftQuantity": 10,
     "compatibleWith": [
       "Anvil",
@@ -2844,7 +3012,7 @@
       "metal_parts": 3
     },
     "imageFilename": "https://cdn.arctracker.io/items/heavy_ammo.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "04/28/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -2876,7 +3044,7 @@
       "sr": "Teška Granata sa Upaljačem",
       "tr": "Ağır Fünye Bombası",
       "uk": "Важка граната з запалом",
-      "zh-CN": "重型定时手榴弹",
+      "zh-CN": "重型引信手雷",
       "zh-TW": "重型定時手榴彈"
     },
     "description": {
@@ -3330,7 +3498,7 @@
       "sr": "Improvizovana medicinska stavka koja postepeno obnavlja zdravlje tokom vremena.",
       "tr": "Zamanla yavaş yavaş sağlık yenileyen doğaçlama bir tıbbi eşya.",
       "uk": "Імпровізований медичний предмет, який поступово відновлює здоров'я з часом.",
-      "zh-CN": "一种临时医疗物品，可随时间逐渐恢复生命值。",
+      "zh-CN": "一种简易医疗物品，能在一段时间内逐渐恢复生命值。",
       "zh-TW": "一種臨時醫療物品，可隨時間逐漸恢復生命值。"
     },
     "type": "Quick Use",
@@ -3708,7 +3876,7 @@
         "sr": "Trajanje Omamljivanja Pljačkaša",
         "tr": "Akıncı Sersemletme Süresi",
         "uk": "Тривалість приголомшення рейдера",
-        "zh-CN": "掠夺者击晕持续时间",
+        "zh-CN": "奇袭者击晕持续时间",
         "zh-TW": "掠奪者擊暈持續時間"
       }
     },
@@ -3844,26 +4012,26 @@
   {
     "id": "hullcracker_i",
     "name": {
-      "da": "Hullcracker I",
+      "da": "Skrogknuser I",
       "de": "Hüllenbrecher I",
       "en": "Hullcracker I",
-      "es": "Partecascos I",
+      "es": "Rompe Cascos I",
       "fr": "Brise-fuselage I",
-      "he": "Hullcracker I",
-      "hr": "Hullcracker I",
+      "he": "הולקראקר I",
+      "hr": "Lomač Trupa I",
       "it": "Spaccascudi I",
       "ja": "ハルクラッカー I",
       "ko-KR": "헐크래커 I",
-      "no": "Hullcracker I",
-      "pl": "Hullcracker I",
-      "pt": "Hullcracker I",
+      "no": "Skrogknuser I",
+      "pl": "Łamacz Kadłubów I",
+      "pt": "Quebra-cascos I",
       "pt-BR": "Quebra-Casco I",
       "ru": "Взломщик корпусов I",
-      "sr": "Hullcracker I",
+      "sr": "Lomač Trupa I",
       "tr": "Kabukkıran I",
-      "uk": "Hullcracker I",
+      "uk": "Корпусолом I",
       "zh-CN": "裂甲者 I",
-      "zh-TW": "Hullcracker I"
+      "zh-TW": "破殼者 I"
     },
     "description": {
       "da": "Affyrer eksplosive projektiler, der kun detonerer ved træf på ARC.",
@@ -4073,7 +4241,7 @@
       "en": "Hullcracker II",
       "es": "Rompe Cascos II",
       "fr": "Brise-fuselage II",
-      "he": "Hullcracker II",
+      "he": "הולקראקר II",
       "hr": "Lomač Trupa II",
       "it": "Spaccascudi II",
       "ja": "ハルクラッカー II",
@@ -4312,7 +4480,7 @@
       "en": "Hullcracker III",
       "es": "Rompe Cascos III",
       "fr": "Brise-fuselage III",
-      "he": "Hullcracker III",
+      "he": "הולקראקר III",
       "hr": "Lomač Trupa III",
       "it": "Spaccascudi III",
       "ja": "ハルクラッカー III",
@@ -4559,7 +4727,7 @@
       "no": "Skrogknuser IV",
       "pl": "Łamacz Kadłubów IV",
       "pt": "Quebra-cascos IV",
-      "pt-BR": "Quebra-Cascos IV",
+      "pt-BR": "Quebra-Casco IV",
       "ru": "Взломщик корпусов IV",
       "sr": "Lomač Trupa IV",
       "tr": "Kabukkıran IV",
@@ -4969,7 +5137,7 @@
       "en": "Il Toro I",
       "es": "Il Toro I",
       "fr": "Il Toro I",
-      "he": "Il Toro I",
+      "he": "איל טורו I",
       "hr": "Il Toro I",
       "it": "Il Toro I",
       "ja": "イル・トーロ I",
@@ -5456,7 +5624,7 @@
       "pl": "Il Toro III",
       "pt": "Il Toro III",
       "pt-BR": "Il Toro III",
-      "ru": "Il Toro III",
+      "ru": "Эль-Торо III",
       "sr": "Il Toro III",
       "tr": "Il Toro III",
       "uk": "Il Toro III",
@@ -5706,7 +5874,7 @@
       "pl": "Il Toro IV",
       "pt": "Il Toro IV",
       "pt-BR": "Il Toro IV",
-      "ru": "Il Toro IV",
+      "ru": "Эль-Торо IV",
       "sr": "Il Toro IV",
       "tr": "Il Toro IV",
       "uk": "Il Toro IV",
@@ -6426,7 +6594,7 @@
         "sr": "Trajanje Omamljivanja Pljačkaša",
         "tr": "Akıncı Sersemletme Süresi",
         "uk": "Тривалість оглушення рейдера",
-        "zh-CN": "掠夺者眩晕持续时间",
+        "zh-CN": "奇袭者眩晕持续时间",
         "zh-TW": "掠奪者暈眩持續時間"
       }
     },
@@ -6720,7 +6888,7 @@
       "en": "Kettle I",
       "es": "Caldero I",
       "fr": "Fondoir I",
-      "he": "קאטל I",
+      "he": "קטל I",
       "hr": "Kettle I",
       "it": "Stormo I",
       "ja": "ケトル I",
@@ -7081,9 +7249,9 @@
       "ru": "Чайник III",
       "sr": "Kettle III",
       "tr": "Isıtıcı III",
-      "uk": "Kettle III",
+      "uk": "Чайник III",
       "zh-CN": "水壶 III",
-      "zh-TW": "Kettle III"
+      "zh-TW": "水壺 III"
     },
     "description": {
       "da": "Hurtig og præcis, men har lav kuglehastighed og tager lang tid at genoplade.",
@@ -7334,9 +7502,9 @@
       "ru": "Чайник IV",
       "sr": "Kettle IV",
       "tr": "Isıtıcı IV",
-      "uk": "Kettle IV",
+      "uk": "Чайник IV",
       "zh-CN": "水壶 IV",
-      "zh-TW": "Kettle IV"
+      "zh-TW": "水壺 IV"
     },
     "description": {
       "da": "Hurtig og præcis, men har lav kuglehastighed og tager lang tid at genoplade.",
@@ -8104,6 +8272,61 @@
     "addedIn": "base"
   },
   {
+    "id": "leviathans_crown_ship_model",
+    "name": {
+      "da": "Skibsmodel \"Leviathan's Crown\"",
+      "de": "Schiffsmodell \"Leviathan's Crown\"",
+      "en": "\"Leviathan's Crown\" Ship Model",
+      "es": "Modelo de barco \"Leviathan's Crown\"",
+      "fr": "Maquette de bateau « Leviathan's Crown »",
+      "he": "דגם ספינה \"Leviathan's Crown\"",
+      "hr": "Maketa broda \"Leviathan's Crown\"",
+      "it": "Modellino di nave \"Leviathan's Crown\"",
+      "ja": "「Leviathan's Crown」船舶模型",
+      "ko-KR": "\"Leviathan's Crown\" 선박 모형",
+      "no": "Skipsmodell \"Leviathan's Crown\"",
+      "pl": "Model statku \"Leviathan's Crown\"",
+      "pt": "Modelo de navio \"Leviathan's Crown\"",
+      "pt-BR": "Modelo de navio \"Leviathan's Crown\"",
+      "ru": "Модель корабля «Leviathan's Crown»",
+      "sr": "Maketa broda \"Leviathan's Crown\"",
+      "tr": "\"Leviathan's Crown\" Gemi Modeli",
+      "uk": "Модель корабля «Leviathan's Crown»",
+      "zh-CN": "「Leviathan's Crown」号船模",
+      "zh-TW": "「Leviathan's Crown」號船模"
+    },
+    "description": {
+      "da": "Et majestætisk syn i enhver æra, dette voldsomme handelsskib er ligeglad med de aerodynamiske fordele ved glasfiberteknologi.",
+      "de": "Ein majestätischer Anblick in jeder Epoche – dieses wilde Handelsschiff ist gleichgültig gegenüber den aerodynamischen Vorteilen der Glasfasertechnologie.",
+      "en": "A majestic sight in any era, this fierce merchant ship is indifferent to the aerodynamic benefits of fiberglass technology.",
+      "es": "Una visión majestuosa en cualquier era, este feroz barco mercante es indiferente a los beneficios aerodinámicos de la tecnología de fibra de vidrio.",
+      "fr": "Spectacle majestueux à toutes les époques, ce farouche navire marchand reste indifférent aux avantages aérodynamiques de la fibre de verre.",
+      "he": "מראה מלכותי בכל תקופה, ספינת סוחר עזה זו אדישה ליתרונות האווירודינמיים של טכנולוגיית סיבי הזכוכית.",
+      "hr": "Veličanstven prizor u bilo kojem dobu, ovaj žestoki trgovački brod ravnodušan je prema aerodinamičkim prednostima tehnologije od staklenih vlakana.",
+      "it": "Spettacolo maestoso in ogni epoca, questa fiera nave mercantile è indifferente ai vantaggi aerodinamici della tecnologia in fibra di vetro.",
+      "ja": "どの時代においても堂々たる姿を誇るこの猛々しい商船は、グラスファイバー技術がもたらす空力的な恩恵に無関心である。",
+      "ko-KR": "어느 시대에서나 위풍당당한 광경을 자랑하는 이 사나운 상선은, 유리섬유 기술의 공기역학적 이점에는 무관심하다.",
+      "no": "Et majestetisk syn i enhver epoke, dette voldsomme handelsskipet er likegyldig til de aerodynamiske fordelene ved glassfiberteknologi.",
+      "pl": "Majestatyczny widok w każdej epoce, ten groźny statek handlowy jest obojętny wobec aerodynamicznych zalet technologii z włókna szklanego.",
+      "pt": "Uma visão majestosa em qualquer era, este feroz navio mercante é indiferente aos benefícios aerodinâmicos da tecnologia de fibra de vidro.",
+      "pt-BR": "Uma visão majestosa em qualquer era, este feroz navio mercante é indiferente aos benefícios aerodinâmicos da tecnologia de fibra de vidro.",
+      "ru": "Величественное зрелище в любую эпоху — этот свирепый торговый корабль безразличен к аэродинамическим преимуществам стеклопластика.",
+      "sr": "Veličanstven prizor u bilo kom dobu, ovaj žestoki trgovački brod ravnodušan je prema aerodinamičkim prednostima tehnologije staklenih vlakana.",
+      "tr": "Her dönemde görkemli bir manzara olan bu vahşi ticaret gemisi, fiberglas teknolojisinin aerodinamik faydalarına karşı kayıtsızdır.",
+      "uk": "Величне видовище в будь-яку епоху — цей лютий торговельний корабель байдужий до аеродинамічних переваг склопластикової технології.",
+      "zh-CN": "无论哪个时代都堪称壮观，这艘凶悍的商船对玻璃纤维技术带来的空气动力学优势毫不在意。",
+      "zh-TW": "無論哪個時代都堪稱壯觀，這艘兇悍的商船對玻璃纖維技術帶來的空氣動力學優勢毫不在意。"
+    },
+    "type": "Trinket",
+    "rarity": "Legendary",
+    "value": 10000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/leviathans_crown_ship_model.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26"
+  },
+  {
     "id": "library_book",
     "name": {
       "da": "Bog",
@@ -8129,11 +8352,11 @@
     },
     "type": "Trinket",
     "rarity": "Common",
-    "value": 0,
+    "value": 100,
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
-    "updatedAt": "03/17/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -8184,10 +8407,11 @@
     },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
     "imageFilename": "https://cdn.arctracker.io/items/lidar_scanner.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -8478,7 +8702,7 @@
       "sr": "Laka Udarna Granata",
       "tr": "Hafif Darbe Bombası",
       "uk": "Легка ударна граната",
-      "zh-CN": "轻型冲击手榴弹",
+      "zh-CN": "轻型冲击手雷",
       "zh-TW": "輕型衝擊手榴彈"
     },
     "description": {
@@ -8500,7 +8724,7 @@
       "sr": "Granata koja detonira pri udaru, nanoseći eksplozivnu štetu u malom radijusu.",
       "tr": "Çarpma anında patlayan ve küçük bir yarıçapta patlayıcı hasar veren bomba.",
       "uk": "Граната, що вибухає при ударі, завдаючи вибухової шкоди в невеликому радіусі.",
-      "zh-CN": "一种撞击时引爆的手榴弹，在小范围内造成爆炸伤害。",
+      "zh-CN": "遭受撞击即会爆炸的手雷，会在小范围内造成爆炸伤害。",
       "zh-TW": "一種撞擊時引爆的手榴彈，在小範圍內造成爆炸傷害。"
     },
     "type": "Quick Use",
@@ -8763,7 +8987,7 @@
       "sr": "Nacrt za lagani kundak",
       "tr": "Hafif Dipçik Taslağı",
       "uk": "Креслення полегшеного приклада",
-      "zh-CN": "轻量枪托蓝图",
+      "zh-CN": "轻型枪托蓝图",
       "zh-TW": "輕量槍托藍圖"
     },
     "description": {
@@ -8818,7 +9042,7 @@
       "sr": "Lagana Kundak",
       "tr": "Hafif Dipçik",
       "uk": "Полегшений приклад",
-      "zh-CN": "轻量枪托",
+      "zh-CN": "轻型枪托",
       "zh-TW": "輕量槍托"
     },
     "description": {
@@ -9020,7 +9244,7 @@
       "sr": "Mala dimna granata",
       "tr": "Küçük Sis Bombası",
       "uk": "Мала димова граната",
-      "zh-CN": "小型烟雾弹",
+      "zh-CN": "小型烟雾手雷",
       "zh-TW": "小型煙霧彈"
     },
     "description": {
@@ -9042,7 +9266,7 @@
       "sr": "Granata koja stvara gust ali mali oblak dima pri udaru, blokirajući vidljivost od ARC-a i drugih Rajdera.",
       "tr": "Çarpma anında kalın ama küçük bir duman bulutu oluşturarak ARC ve diğer Akıncıların görüşünü engelleyen bomba.",
       "uk": "Граната, яка створює густу, але невелику хмару диму при ударі, блокуючи видимість для ARC та інших Рейдерів.",
-      "zh-CN": "着弹时产生浓密但范围较小的烟雾，阻挡ARC和其他掠夺者的视线。",
+      "zh-CN": "着弹时产生浓密但范围较小的烟雾，阻挡ARC和其他奇袭者的视线。",
       "zh-TW": "著彈時產生濃密但範圍較小的煙霧，阻擋ARC和其他掠奪者的視線。"
     },
     "type": "Quick Use",
@@ -9139,7 +9363,7 @@
       "sr": "Pljačkanje Mk. 1",
       "tr": "Yağmalama Mod. 1",
       "uk": "Мародерство Mk. 1",
-      "zh-CN": "掠夺 Mk. 1",
+      "zh-CN": "搜刮 Mk. 1",
       "zh-TW": "掠奪 Mk. 1"
     },
     "description": {
@@ -9300,7 +9524,7 @@
       "sr": "Pljačkanje Mk. 2",
       "tr": "Yağmalama Mod. 2",
       "uk": "Мародерство Mk. 2",
-      "zh-CN": "掠夺 Mk. 2",
+      "zh-CN": "搜刮 Mk. 2",
       "zh-TW": "掠奪 Mk. 2"
     },
     "description": {
@@ -9464,7 +9688,7 @@
       "sr": "Pljačkanje Mk. 3 (Oprezno)",
       "tr": "Yağmalama Mod. 3 (Dikkatli)",
       "uk": "Мародерство Mk. 3 (Обережне)",
-      "zh-CN": "掠夺 Mk. 3 (谨慎)",
+      "zh-CN": "搜刮 Mk. 3 (谨慎)",
       "zh-TW": "掠奪 Mk. 3 (謹慎)"
     },
     "description": {
@@ -9608,7 +9832,7 @@
       "sr": "Nacrt za sakupljanje Mk. 3 (Čuvar)",
       "tr": "Yağmalama Mod.3 (Koruyucu) Taslağı",
       "uk": "Креслення: Збирання Мк. 3 (Зберігач)",
-      "zh-CN": "搜刮 Mk. 3 (保管者) 蓝图",
+      "zh-CN": "搜刮 Mk. 3 (守护者) 蓝图",
       "zh-TW": "搜刮 Mk. 3 (保管者) 藍圖"
     },
     "description": {
@@ -9663,7 +9887,7 @@
       "sr": "Pljačkanje Mk. 3 (Čuvar)",
       "tr": "Yağmalama Mod.3 (Koruyucu)",
       "uk": "Мародерство Mk. 3 (Охоронець)",
-      "zh-CN": "掠夺 Mk. 3 (守护者)",
+      "zh-CN": "搜刮 Mk. 3 (守护者)",
       "zh-TW": "掠奪 Mk. 3 (守護者)"
     },
     "description": {
@@ -9803,7 +10027,7 @@
       "sr": "Pljačkaški Mk. 3 (Preživeli) Nacrt",
       "tr": "Yağmalama Mod.3 (Hayatta Kalan) Taslağı",
       "uk": "Креслення мародерського Mk. 3 (вижилий)",
-      "zh-CN": "掠夺 Mk. 3（幸存者）蓝图",
+      "zh-CN": "搜刮 Mk. 3（生存型）蓝图",
       "zh-TW": "掠奪 Mk. 3（倖存者）藍圖"
     },
     "description": {
@@ -9857,7 +10081,7 @@
       "sr": "Pljačkaški Mk. 3 (Preživeli)",
       "tr": "Yağmalama Mod.3 (Hayatta Kalan)",
       "uk": "Мародерський Mk. 3 (вижилий)",
-      "zh-CN": "掠夺 Mk. 3（幸存者）",
+      "zh-CN": "搜刮 Mk. 3（生存型）",
       "zh-TW": "掠奪 Mk. 3（倖存者）"
     },
     "description": {
@@ -10002,7 +10226,7 @@
       "sr": "Nacrt Mamac Granate",
       "tr": "Yem Bombası Taslağı",
       "uk": "Креслення гранати-принади",
-      "zh-CN": "诱饵手榴弹蓝图",
+      "zh-CN": "诱捕手雷蓝图",
       "zh-TW": "誘餌手榴彈藍圖"
     },
     "description": {
@@ -10057,7 +10281,7 @@
       "sr": "Zamka sa mamac granatom",
       "tr": "Lazer Tuzağı: Yem",
       "uk": "Пастка з принадною гранатою",
-      "zh-CN": "诱饵手榴弹陷阱",
+      "zh-CN": "诱捕手雷陷阱",
       "zh-TW": "誘餌手榴彈陷阱"
     },
     "description": {
@@ -10079,7 +10303,7 @@
       "sr": "Laserska žica zamka koja detonira mamac granatu.",
       "tr": "Bir Yem Bombasını patlatan lazer tuzak teli.",
       "uk": "Лазерна розтяжка, яка детонує принадну гранату.",
-      "zh-CN": "引爆诱饵手榴弹的激光绊线。",
+      "zh-CN": "激光陷阱：诱捕。",
       "zh-TW": "引爆誘餌手榴彈的雷射絆線。"
     },
     "type": "Quick Use",
@@ -10169,7 +10393,7 @@
       "sr": "Granata mamac",
       "tr": "Yem Bombası",
       "uk": "Принадна граната",
-      "zh-CN": "诱饵手榴弹",
+      "zh-CN": "诱捕手雷",
       "zh-TW": "誘餌手榴彈"
     },
     "description": {
@@ -10332,7 +10556,7 @@
       "sr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
       "tr": "Gelişmiş silahlar üretmek için kullanılır. Üretilebilir: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
       "uk": "Використовується для створення просунутої зброї. Використовується для створення: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "zh-CN": "用于制作高级武器。可制作：Tempest、Equalizer、Vulcano、Jupiter、Hullcracker",
+      "zh-CN": "用于制作高级武器。可制作：Tempest、制裁者、Vulcano、木星、Hullcracker",
       "zh-TW": "用於製作高級武器。可製作：Tempest、Equalizer、Vulcano、Jupiter、Hullcracker"
     },
     "type": "Refined Material",
@@ -10447,12 +10671,12 @@
     },
     "type": "Trinket",
     "rarity": "Common",
-    "value": 0,
+    "value": 100,
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
     "imageFilename": "https://cdn.arctracker.io/items/major_aivas_mementos.png",
-    "updatedAt": "03/17/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -10503,6 +10727,7 @@
     },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
     "effects": {
@@ -10531,7 +10756,7 @@
       }
     },
     "imageFilename": "https://cdn.arctracker.io/items/major_aivas_patch.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -10555,7 +10780,7 @@
       "sr": "Matrijarhalni Reaktor",
       "tr": "Maderşah Reaktörü",
       "uk": "Реактор Матріарха",
-      "zh-CN": "母巢反应堆",
+      "zh-CN": "“族母”反应堆",
       "zh-TW": "母巢反應爐"
     },
     "description": {
@@ -10639,7 +10864,7 @@
       "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
       "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Il Toro, Burletta, Anvil, Namlu Freni II, Uzatılmış Orta Şarjör II",
       "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Il Toro, Burletta, Anvil, дульний гальмо II, розширений середній магазин II",
-      "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、延长中型弹匣II",
+      "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、中型扩容弹匣II",
       "zh-TW": "用於製作各種物品。可回收成製作材料。用於製作：Il Toro、Burletta、Anvil、槍口制退器II、延長中型彈匣II"
     },
     "type": "Refined Material",
@@ -10875,375 +11100,5 @@
         "trader": "Celeste"
       }
     ]
-  },
-  {
-    "id": "medium_shield",
-    "name": {
-      "da": "Mellemstort skjold",
-      "de": "Mittlerer Schild",
-      "en": "Medium Shield",
-      "es": "Escudo mediano",
-      "fr": "Bouclier Moyen",
-      "he": "מגן בינוני",
-      "hr": "Srednji Štit",
-      "it": "Scudo medio",
-      "ja": "中型シールド",
-      "ko-KR": "준중량 실드",
-      "no": "Middels skjold",
-      "pl": "Średnia tarcza",
-      "pt": "Escudo médio",
-      "pt-BR": "Escudo Médio",
-      "ru": "Средний щит",
-      "sr": "Srednji Štit",
-      "tr": "Orta Kalkan",
-      "uk": "Середній щит",
-      "zh-CN": "中型护盾",
-      "zh-TW": "中型護盾"
-    },
-    "description": {
-      "da": "Et standard skjold, der blokerer en middel del af indgående skade til en moderat pris for mobilitet.",
-      "de": "Ein Standardschild, der einen mittleren Teil des eingehenden Schadens abwehrt, worunter allerdings auch die Mobilität moderat leidet.",
-      "en": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility.",
-      "es": "Un escudo estándar que bloquea una porción media del daño entrante a un coste moderado de movilidad.",
-      "fr": "Un bouclier standard qui bloque une portion moyenne des dégâts entrants au prix d'un coût modéré en mobilité.",
-      "he": "מגן סטנדרטי החוסם חלק בינוני מהנזק הנכנס במחיר מתון לניידות.",
-      "hr": "Standardni štit koji blokira srednju količinu dolazne štete uz umjereno smanjenje pokretljivosti.",
-      "it": "Uno scudo standard che blocca una porzione media del Danni in arrivo a un costo moderato per la mobilità.",
-      "ja": "中程度の被ダメージを防ぐ標準的なシールド。機動性がやや低下する。",
-      "ko-KR": "중간 정도의 피해를 막아주는 표준 실드입니다. 이동 속도가 적당히 감소합니다.",
-      "no": "Et standard skjold som blokkerer en middels del av innkommende skade til en moderat kostnad for mobilitet.",
-      "pl": "Standardowa tarcza, która blokuje średnią część otrzymywanych obrażeń przy umiarkowanym koszcie mobilności.",
-      "pt": "Um escudo padrão que bloqueia uma porção média do dano recebido a um custo moderado de mobilidade.",
-      "pt-BR": "Escudo padrão que bloqueia uma parte moderada do dano sofrido e sacrifica\nmoderadamente a mobilidade.",
-      "ru": "Стандартный щит, блокирующий среднюю часть входящего урона с умеренным снижением мобильности.",
-      "sr": "Standardni štit koji blokira srednju količinu dolazne štete uz umereno smanjenje pokretljivosti.",
-      "tr": "Gelen hasarın orta bir kısmını engelleyen standart bir kalkan. Hareketliliği orta düzeyde azaltır.",
-      "uk": "Стандартний щит, що блокує середню частину вхідної шкоди з помірним зниженням мобільності.",
-      "zh-CN": "标准护盾，可阻挡中等程度的伤害，但会适度降低机动性。",
-      "zh-TW": "標準護盾，可阻擋中等程度的傷害，但會適度降低機動性。"
-    },
-    "type": "Shield",
-    "rarity": "Rare",
-    "value": 2000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "effects": {
-      "Charge": {
-        "value": 70,
-        "da": "Ladning",
-        "de": "Ladung",
-        "en": "Charge",
-        "es": "Carga",
-        "fr": "Charge",
-        "he": "טעינה",
-        "hr": "Punjenje",
-        "it": "Carica",
-        "ja": "チャージ",
-        "ko-KR": "충전",
-        "no": "Ladning",
-        "pl": "Ładunek",
-        "pt": "Carga",
-        "pt-BR": "Carga",
-        "ru": "Заряд",
-        "sr": "Punjenje",
-        "tr": "Şarj",
-        "uk": "Заряд",
-        "zh-CN": "充能",
-        "zh-TW": "充能"
-      },
-      "Damage Reduction": {
-        "value": "42.5%",
-        "da": "Skadereduktion",
-        "de": "Schadensreduktion",
-        "en": "Damage Reduction",
-        "es": "Reducción de daño",
-        "fr": "Réduction des dégâts",
-        "he": "הפחתת נזק",
-        "hr": "Smanjenje Štete",
-        "it": "Riduzione Danni",
-        "ja": "ダメージ軽減",
-        "ko-KR": "피해 감소",
-        "no": "Skadereduksjon",
-        "pl": "Redukcja obrażeń",
-        "pt": "Redução de dano",
-        "pt-BR": "Redução de Dano",
-        "ru": "Снижение урона",
-        "sr": "Smanjenje Štete",
-        "tr": "Hasar Azaltma",
-        "uk": "Зниження шкоди",
-        "zh-CN": "伤害减免",
-        "zh-TW": "傷害減免"
-      },
-      "Durability": {
-        "value": "100/100",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久力",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Reduced Movement Speed": {
-        "value": "5%",
-        "da": "Reduceret bevægelseshastighed",
-        "de": "Verringerte Bewegungsgeschwindigkeit",
-        "en": "Reduced Movement Speed",
-        "es": "Velocidad de movimiento reducida",
-        "fr": "Vitesse de déplacement réduite",
-        "he": "מהירות תנועה מופחתת",
-        "hr": "Smanjena Brzina Kretanja",
-        "it": "Velocità di movimento ridotta",
-        "ja": "移動速度低下",
-        "ko-KR": "이동 속도 감소",
-        "no": "Redusert bevegelseshastighet",
-        "pl": "Zmniejszona prędkość ruchu",
-        "pt": "Velocidade de movimento reduzida",
-        "pt-BR": "Redução na Velocidade de Movimento",
-        "ru": "Снижение скорости передвижения",
-        "sr": "Smanjena Brzina Kretanja",
-        "tr": "Azaltılmış Hareket Hızı",
-        "uk": "Зниження швидкості пересування",
-        "zh-CN": "移动速度降低",
-        "zh-TW": "移動速度降低"
-      }
-    },
-    "craftBench": "equipment_bench",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "arc_circuitry": 1,
-      "battery": 4
-    },
-    "recyclesInto": {
-      "arc_circuitry": 1
-    },
-    "salvagesInto": {
-      "arc_alloy": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/medium_shield.png",
-    "updatedAt": "03/22/2026",
-    "addedIn": "base",
-    "damageMitigation": 42.5,
-    "durability": 100,
-    "movementSpeedModifier": -5,
-    "repairCost": {
-      "arc_circuitry": 1,
-      "battery": 1
-    },
-    "repairDurability": 0.5,
-    "shieldCharge": 70,
-    "vendors": [
-      {
-        "cost": {
-          "coins": 6000
-        },
-        "limit": 3,
-        "refreshSeconds": 86400,
-        "requiredLevel": 12,
-        "trader": "Lance"
-      }
-    ]
-  },
-  {
-    "id": "metal_brackets",
-    "name": {
-      "da": "Metalbeslag",
-      "de": "Metallhalterungen",
-      "en": "Metal Brackets",
-      "es": "Soportes metálicos",
-      "fr": "Supports Métalliques",
-      "he": "תושבות מתכת",
-      "hr": "Metalne konzole",
-      "it": "Staffe metalliche",
-      "ja": "金属ブラケット",
-      "ko-KR": "금속 브래킷",
-      "no": "Metallbraketter",
-      "pl": "Metalowe uchwyty",
-      "pt": "Suportes de metal",
-      "pt-BR": "Suportes de Metal",
-      "ru": "Металлические скобы",
-      "sr": "Metalne konzole",
-      "tr": "Metal Plakalar",
-      "uk": "Металеві кронштейни",
-      "zh-CN": "金属支架",
-      "zh-TW": "金屬支架"
-    },
-    "description": {
-      "da": "Kan genbruges til metaldele.",
-      "de": "Kann zu Metallteilen recycelt werden.",
-      "en": "Can be recycled into metal parts.",
-      "es": "Se puede reciclar en piezas metálicas.",
-      "fr": "Peut être recyclé en pièces métalliques.",
-      "he": "ניתן למחזור לחלקי מתכת.",
-      "hr": "Može se reciklirati u metalne dijelove.",
-      "it": "Si può riciclare in parti metalliche.",
-      "ja": "金属パーツにリサイクルできます。",
-      "ko-KR": "금속 부품으로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til metalldeler.",
-      "pl": "Można przetworzyć na metalowe części.",
-      "pt": "Pode ser reciclado em peças metálicas.",
-      "pt-BR": "Pode ser reciclado em peças de metal.",
-      "ru": "Можно переработать в металлические детали.",
-      "sr": "Može se reciklirati u metalne delove.",
-      "tr": "Metal parçalara geri dönüştürülebilir.",
-      "uk": "Можна переробити на металеві деталі.",
-      "zh-CN": "可以回收为金属零件。",
-      "zh-TW": "可以回收為金屬零件。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "Mechanical, Electrical",
-    "value": 640,
-    "weightKg": 0.8,
-    "stackSize": 3,
-    "recyclesInto": {
-      "metal_parts": 8
-    },
-    "salvagesInto": {
-      "metal_parts": 4
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/metal_brackets.png",
-    "updatedAt": "11/10/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "metal_parts",
-    "name": {
-      "da": "Metaldele",
-      "de": "Metallteile",
-      "en": "Metal Parts",
-      "es": "Piezas de metal",
-      "fr": "Pièces Métalliques",
-      "he": "חלקי מתכת",
-      "hr": "Metalni Dijelovi",
-      "it": "Componenti metallici",
-      "ja": "金属パーツ",
-      "ko-KR": "금속 부품",
-      "no": "Metalldeler",
-      "pl": "Części metalowe",
-      "pt": "Peças de metal",
-      "pt-BR": "Peças de Metal",
-      "ru": "Металлические детали",
-      "sr": "Metalni Delovi",
-      "tr": "Metal Parçalar",
-      "uk": "Металеві деталі",
-      "zh-CN": "金属零件",
-      "zh-TW": "金屬零件"
-    },
-    "description": {
-      "da": "Bruges til at lave en bred vifte af genstande. Bruges til at lave: Kastervåbenammunition, Hårnål, Tung ammunition, Ferro, Kedel",
-      "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Zur Herstellung von: Werfermunition, Hairpin, Schwere Munition, Ferro, Kettle",
-      "en": "Used to craft a wide range of items.",
-      "es": "Se usa para fabricar una amplia gama de objetos. Se usa para fabricar: Munición de lanzador, Horquilla, Munición pesada, Ferro, Caldero",
-      "fr": "Permet de fabriquer une large gamme d'objets. Permet de fabriquer : Munitions de lanceur, Épingle à cheveux, Munitions lourdes, Ferro, Fondoir",
-      "he": "משמש ליצירת מגוון רחב של פריטים.",
-      "hr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Bacačka Municija, Ukosnica, Teška Municija, Ferro, Kotlić",
-      "it": "Si usa per creare una vasta gamma di oggetti. Si usa per creare: Tornante, Munizioni pesanti, Ferro, Stormo, Munizioni medie",
-      "ja": "幅広いアイテムの製作に使用。製作可能: ランチャー弾薬、ヘアピン、ヘビー弾薬、フェロ、ケトル",
-      "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 가능: 발사기 탄약, 머리핀, 중량 탄약, 페로, 주전자",
-      "no": "Brukes til å lage et bredt spekter av gjenstander. Brukes til å lage: Kastervåpenammo, Hårnål, Tung ammo, Ferro, Kjele",
-      "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Używany do wytwarzania: Amunicja do wyrzutni, Wsuwka, Ciężka amunicja, Ferro, Czajnik",
-      "pt": "Usado para fabricar uma ampla gama de itens. Usado para fabricar: Munição de lançador, Grampo, Munição pesada, Ferro, Chaleira",
-      "pt-BR": "Serve para fabricar vários tipos de itens.",
-      "ru": "Используется для создания широкого спектра предметов. Используется для крафта: Боеприпасы для гранатомёта, Шпилька, Тяжёлые боеприпасы, Ферро, Котелок",
-      "sr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Bacačka Municija, Ukosnica, Teška Municija, Ferro, Kotlić",
-      "tr": "Geniş bir yelpazede eşya üretmek için kullanılır. Üretilebilir: Fırlatıcı Mühimmatı, Saç Tokası, Ağır Mühimmat, Ferro, Çaydanlık",
-      "uk": "Використовується для створення широкого спектру предметів. Використовується для крафту: Боєприпаси для гранатомета, Шпилька, Важкі боєприпаси, Ферро, Казанок",
-      "zh-CN": "用于制作各种物品。可制作：发射器弹药、发夹、重型弹药、费罗、水壶",
-      "zh-TW": "用於製作各種物品。可製作：發射器彈藥、髮夾、重型彈藥、費羅、水壺"
-    },
-    "type": "Basic Material",
-    "rarity": "Common",
-    "foundIn": "Mechanical, Industrial, Electrical, Technological",
-    "value": 75,
-    "weightKg": 0.1,
-    "stackSize": 50,
-    "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
-    "updatedAt": "03/17/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "assorted_seeds": 1
-        },
-        "trader": "Celeste"
-      }
-    ]
-  },
-  {
-    "id": "microscope",
-    "name": {
-      "da": "Mikroskop",
-      "de": "Mikroskop",
-      "en": "Microscope",
-      "es": "Microscopio",
-      "fr": "Microscope",
-      "he": "מיקרוסקופ",
-      "hr": "Mikroskop",
-      "it": "Microscopio",
-      "ja": "顕微鏡",
-      "ko-KR": "현미경",
-      "no": "Mikroskop",
-      "pl": "Mikroskop",
-      "pt": "Microscópio",
-      "pt-BR": "Microscópio",
-      "ru": "Микроскоп",
-      "sr": "Mikroskop",
-      "tr": "Mikroskop",
-      "uk": "Мікроскоп",
-      "zh-CN": "显微镜",
-      "zh-TW": "顯微鏡"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в крафтовые материалы.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收为制作材料。",
-      "zh-TW": "可以回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Exodus",
-    "value": 3000,
-    "weightKg": 1.5,
-    "stackSize": 3,
-    "recyclesInto": {
-      "advanced_mechanical_components": 1,
-      "magnet": 3
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "1.2"
   }
 ]

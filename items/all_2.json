@@ -1338,7 +1338,7 @@
       "sr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Equalizer, Jupiter",
       "tr": "Gelişmiş silahlar üretmek için kullanılır. Üretilebilir: Equalizer, Jupiter",
       "uk": "Використовується для створення просунутої зброї. Використовується для крафту: Equalizer, Jupiter",
-      "zh-CN": "用于制作高级武器。可制作：Equalizer、Jupiter",
+      "zh-CN": "用于制作高级武器。可制作：制裁者、木星",
       "zh-TW": "用於製作高級武器。可製作：Equalizer、Jupiter"
     },
     "type": "Topside Material",
@@ -1627,6 +1627,128 @@
     "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
+  },
+  {
+    "id": "crash_mat_blueprint",
+    "name": {
+      "da": "Landingsmåtte blueprint",
+      "de": "Sturzmatte-Blaupause",
+      "en": "Crash Mat Blueprint",
+      "es": "Plano de colchoneta de aterrizaje",
+      "fr": "Plan de matelas d'atterrissage",
+      "he": "תוכנית למזרן נחיתה",
+      "hr": "Nacrt podloge za slijetanje",
+      "it": "Progetto materasso d'atterraggio",
+      "ja": "着地マットの設計図",
+      "ko-KR": "착지 매트 설계도",
+      "no": "Landingsmatte blueprint",
+      "pl": "Schemat maty do lądowania",
+      "pt": "Projeto de tapete de aterrissagem",
+      "pt-BR": "Projeto de tapete de pouso",
+      "ru": "Чертеж посадочного мата",
+      "sr": "Nacrt podloge za sletanje",
+      "tr": "İniş Minderi Planı",
+      "uk": "Креслення посадкового мата",
+      "zh-CN": "着陆垫蓝图",
+      "zh-TW": "降落墊藍圖"
+    },
+    "description": {
+      "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+      "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+      "en": "A throwable emergency landing device, to soften some heavy landing",
+      "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+      "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+      "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+      "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+      "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+      "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+      "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+      "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+      "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+      "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+      "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+      "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+      "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+      "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+      "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+      "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+      "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "crash_mat",
+    "name": {
+      "da": "Landingsmåtte",
+      "de": "Sturzmatte",
+      "en": "Crash Mat",
+      "es": "Colchoneta de aterrizaje",
+      "fr": "Matelas d'atterrissage",
+      "he": "מזרן נחיתה",
+      "hr": "Podloga za slijetanje",
+      "it": "Materasso d'atterraggio",
+      "ja": "着地マット",
+      "ko-KR": "착지 매트",
+      "no": "Landingsmatte",
+      "pl": "Mata do lądowania",
+      "pt": "Tapete de aterrissagem",
+      "pt-BR": "Tapete de pouso",
+      "ru": "Посадочный мат",
+      "sr": "Podloga za sletanje",
+      "tr": "İniş Minderi",
+      "uk": "Посадковий мат",
+      "zh-CN": "着陆垫",
+      "zh-TW": "降落墊"
+    },
+    "description": {
+      "da": "En kastbar nødlandingsenhed, der kan blødgøre en tung landing",
+      "de": "Ein werfbares Notlandegerät, das schwere Landungen abfedert",
+      "en": "A throwable emergency landing device, to soften some heavy landing",
+      "es": "Un dispositivo de aterrizaje de emergencia arrojadizo que suaviza algunos aterrizajes duros",
+      "fr": "Un dispositif d'atterrissage d'urgence à lancer, pour amortir certaines chutes brutales",
+      "he": "מתקן נחיתת חירום שניתן להשליך, לריכוך נחיתות כבדות",
+      "hr": "Bacivi uređaj za hitno slijetanje koji ublažava teška prizemljenja",
+      "it": "Un dispositivo di atterraggio d'emergenza lanciabile, per attutire gli atterraggi più pesanti",
+      "ja": "投げて使う緊急着陸装置。重い着地の衝撃をいくらか和らげる。",
+      "ko-KR": "무거운 착지를 어느 정도 완화해 주는 투척식 비상 착륙 장치입니다.",
+      "no": "En kastbar nødlandingsenhet som demper tunge landinger",
+      "pl": "Rzucane awaryjne urządzenie do lądowania, które łagodzi ciężkie upadki",
+      "pt": "Um dispositivo de aterrissagem de emergência arremessável, para amortecer algumas quedas pesadas",
+      "pt-BR": "Um dispositivo de pouso de emergência arremessável, para amortecer algumas quedas pesadas",
+      "ru": "Метательное устройство аварийной посадки, смягчающее тяжелые приземления",
+      "sr": "Bacivi uređaj za hitno sletanje koji ublažava teška prizemljenja",
+      "tr": "Bazı sert inişleri yumuşatmak için fırlatılabilen acil iniş cihazı",
+      "uk": "Кидальний пристрій аварійної посадки, що пом'якшує важкі приземлення",
+      "zh-CN": "一种可投掷的紧急着陆装置，用于缓冲部分重着陆冲击",
+      "zh-TW": "一種可投擲的緊急降落裝置，用來緩和部分重著陸衝擊"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 1200,
+    "weightKg": 0.6,
+    "stackSize": 5,
+    "blueprintLocked": true,
+    "craftBench": "utility_bench",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "durable_cloth": 1,
+      "electrical_components": 1
+    },
+    "recyclesInto": {
+      "fabric": 6,
+      "plastic_parts": 3
+    },
+    "salvagesInto": {
+      "fabric": 4
+    },
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26"
   },
   {
     "id": "crude_explosives",
@@ -2277,7 +2399,7 @@
       "sr": "Оштећени бацач ватрених лопти",
       "tr": "Hasarlı Ateş Topu Yakıcı",
       "uk": "Пошкоджений вогняний палач",
-      "zh-CN": "损坏的火球燃烧器",
+      "zh-CN": "损坏的火球燃烧炉",
       "zh-TW": "損壞的火球燃燒器"
     },
     "description": {
@@ -2582,7 +2704,7 @@
       "sr": "Oštećena Mahuna Krpelja",
       "tr": "Hasarlı Kene Kozası",
       "uk": "Пошкоджена капсула кліща",
-      "zh-CN": "损坏的蜱虫荚",
+      "zh-CN": "损坏的“跳蚤”收纳仓",
       "zh-TW": "損壞的蜱蟲莢"
     },
     "description": {
@@ -2728,7 +2850,7 @@
       "sr": "Neki Rajderi je koriste za vežbanje spretnosti. Drugi jednostavno vole da bacaju stvari u druge stvari.",
       "tr": "Bazı Akıncılar beceri geliştirmek için kullanır. Diğerleri sadece bir şeyleri başka şeylere fırlatmayı sever.",
       "uk": "Деякі Рейдери використовують її для тренування спритності. Інші просто люблять кидати речі в інші речі.",
-      "zh-CN": "有些掠夺者用它来练习灵巧度。其他人只是喜欢把东西扔向其他东西。",
+      "zh-CN": "有些奇袭者用它来练习灵巧度。其他人只是喜欢把东西扔向其他东西。",
       "zh-TW": "有些掠奪者用它來練習靈巧度。其他人只是喜歡把東西扔向其他東西。"
     },
     "type": "Trinket",
@@ -2784,7 +2906,7 @@
       "sr": "Otključava mogućnost izrade Deadline mina na klupi za eksplozive.",
       "tr": "Patlayıcı tezgahında Deadline mayınları üretme olanağını açar.",
       "uk": "Розблоковує можливість створювати міни Deadline на верстаку вибухівки.",
-      "zh-CN": "解锁在爆炸物工作台制造最后期限地雷的能力。",
+      "zh-CN": "解锁在爆炸物工作台制造死线的能力。",
       "zh-TW": "解鎖在爆裂物工作台製作最後期限地雷的能力。"
     },
     "type": "Blueprint",
@@ -2969,7 +3091,7 @@
       "sr": "Nacrt za Defibrilator",
       "tr": "Şok Cihazı Taslağı",
       "uk": "Креслення дефібрилятора",
-      "zh-CN": "除颤器蓝图",
+      "zh-CN": "复苏剂蓝图（除颤器蓝图）",
       "zh-TW": "除顫器藍圖"
     },
     "description": {
@@ -2991,7 +3113,7 @@
       "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja.",
       "tr": "Yere düşmüş akıncıları hızlıca canlandıran ve biraz sağlık kazandıran bir enjeksiyon.",
       "uk": "Ін'єкція, яка швидко піднімає збитих рейдерів і відновлює частину здоров'я.",
-      "zh-CN": "能快速复苏倒地的掠夺者并恢复部分生命值的注射剂。",
+      "zh-CN": "一种注射剂，可以用于快速救援倒地的奇袭者并恢复部分生命值。",
       "zh-TW": "能快速復甦倒地的掠奪者並恢復部分生命值的注射劑。"
     },
     "type": "Blueprint",
@@ -3024,7 +3146,7 @@
       "sr": "Defibrilator",
       "tr": "Şok Cihazı",
       "uk": "Дефібрилятор",
-      "zh-CN": "除颤器",
+      "zh-CN": "复苏剂（除颤器）",
       "zh-TW": "除顫器"
     },
     "description": {
@@ -3046,7 +3168,7 @@
       "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja.",
       "tr": "Yere düşmüş akıncıları hızlıca canlandıran ve biraz sağlık kazandıran bir enjeksiyon.",
       "uk": "Ін'єкція, яка швидко піднімає збитих рейдерів і відновлює частину здоров'я.",
-      "zh-CN": "能快速复苏倒地的掠夺者并恢复部分生命值的注射剂。",
+      "zh-CN": "一种注射剂，可以用于快速救援倒地的奇袭者并恢复部分生命值。",
       "zh-TW": "能快速復甦倒地的掠奪者並恢復部分生命值的注射劑。"
     },
     "type": "Quick Use",
@@ -3317,6 +3439,62 @@
     "addedIn": "base"
   },
   {
+    "id": "dockmasters_detector",
+    "name": {
+      "da": "Havnefogedens detektor",
+      "de": "Detektor des Hafenmeisters",
+      "en": "Dockmaster's Detector",
+      "es": "Detector del capitán de puerto",
+      "fr": "Détecteur du maître de port",
+      "he": "גלאי של מנהל הנמל",
+      "hr": "Detektor lučkog kapetana",
+      "it": "Rilevatore del capitano di porto",
+      "ja": "ドックマスターのディテクター",
+      "ko-KR": "도크마스터의 탐지기",
+      "no": "Havnefogdens detektor",
+      "pl": "Detektor bosmana portu",
+      "pt": "Detetor do capitão do porto",
+      "pt-BR": "Detector do capitão do porto",
+      "ru": "Детектор начальника порта",
+      "sr": "Detektor lučkog kapetana",
+      "tr": "Liman şefinin dedektörü",
+      "uk": "Детектор начальника порту",
+      "zh-CN": "码头主管的探测器",
+      "zh-TW": "碼頭主管的探測器"
+    },
+    "description": {
+      "da": "Disse detektorer ser ud til at kunne lokalisere fremmede objekter begravet i sandet omkring Riven Tides, selvom deres præcise funktionsmåde er ukendt.",
+      "de": "Diese Detektoren scheinen in der Lage zu sein, Fremdkörper zu orten, die im Sand rund um Riven Tides vergraben sind, obwohl ihre genaue Funktionsweise unbekannt ist.",
+      "en": "These detectors seem to be able to locate foreign objects buried in the sands around Riven Tides, though their exact way of functioning is unknown.",
+      "es": "Estos detectores parecen ser capaces de localizar objetos extraños enterrados en las arenas alrededor de Riven Tides, aunque se desconoce su forma exacta de funcionamiento.",
+      "fr": "Ces détecteurs semblent capables de localiser des objets étrangers enfouis dans les sables autour de Riven Tides, bien que leur mode de fonctionnement exact reste inconnu.",
+      "he": "נראה שהגלאים הללו מסוגלים לאתר עצמים זרים הקבורים בחולות סביב Riven Tides, אם כי אופן פעולתם המדויק אינו ידוע.",
+      "hr": "Čini se da ovi detektori mogu locirati strane predmete zakopane u pijesku oko Riven Tidesa, iako je njihov točan način rada nepoznat.",
+      "it": "Questi rilevatori sembrano in grado di localizzare oggetti estranei sepolti nelle sabbie intorno a Riven Tides, anche se il loro esatto modo di funzionare è sconosciuto.",
+      "ja": "これらのディテクターは、Riven Tides周辺の砂に埋もれた異物を発見できるようだが、その正確な動作原理は不明である。",
+      "ko-KR": "이 탐지기들은 Riven Tides 주변의 모래에 묻힌 이물질을 찾아낼 수 있는 것으로 보이지만, 정확한 작동 방식은 알려져 있지 않다.",
+      "no": "Disse detektorene ser ut til å kunne lokalisere fremmede objekter begravd i sanden rundt Riven Tides, selv om den nøyaktige virkemåten er ukjent.",
+      "pl": "Te detektory wydają się być w stanie zlokalizować obce obiekty zakopane w piaskach wokół Riven Tides, choć ich dokładny sposób działania pozostaje nieznany.",
+      "pt": "Estes detectores parecem conseguir localizar objetos estranhos enterrados nas areias ao redor de Riven Tides, embora seu funcionamento exato seja desconhecido",
+      "pt-BR": "Estes detectores parecem ser capazes de localizar objetos estranhos enterrados nas areias ao redor de Riven Tides, embora sua forma exata de funcionamento seja desconhecida.",
+      "ru": "Эти детекторы, по всей видимости, способны находить посторонние объекты, погребённые в песках вокруг Riven Tides, хотя точный принцип их работы неизвестен.",
+      "sr": "Čini se da ovi detektori mogu da lociraju strane predmete zakopane u pesku oko Riven Tidesa, iako je njihov tačan način rada nepoznat.",
+      "tr": "Bu dedektörler, Riven Tides çevresindeki kumlara gömülü yabancı nesneleri tespit edebiliyor gibi görünüyor, ancak nasıl çalıştıkları tam olarak bilinmiyor.",
+      "uk": "Здається, ці детектори здатні знаходити сторонні предмети, поховані в пісках навколо Riven Tides, хоча точний принцип їхньої роботи невідомий.",
+      "zh-CN": "这些探测器似乎能够定位埋藏在Riven Tides周围沙地中的外来物体，尽管它们的确切运作方式尚不清楚。",
+      "zh-TW": "這些探測器似乎能夠定位埋藏在Riven Tides周圍沙地中的外來物體，儘管它們的確切運作方式尚不清楚。"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/dockmasters_detector.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26",
+    "durability": 100
+  },
+  {
     "id": "dodgers_note",
     "name": {
       "da": "Dodgers note",
@@ -3364,11 +3542,11 @@
     },
     "type": "Trinket",
     "rarity": "Common",
-    "value": 0,
+    "value": 100,
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
-    "updatedAt": "03/31/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "1.22"
   },
   {
@@ -3446,7 +3624,7 @@
       "hr": "Dolabra Nacrt",
       "it": "Dolabra Progetto",
       "ja": "Dolabra 設計図",
-      "ko-KR": "Dolabra 청사진",
+      "ko-KR": "돌라브라 설계도",
       "no": "Dolabra Tegning",
       "pl": "Dolabra Schemat",
       "pt": "Esquema de Dolabra",
@@ -3500,7 +3678,7 @@
       "hr": "Dolabra",
       "it": "Dolabra",
       "ja": "Dolabra",
-      "ko-KR": "Dolabra",
+      "ko-KR": "돌라브라",
       "no": "Dolabra",
       "pl": "Dolabra",
       "pt": "Dolabra",
@@ -3633,7 +3811,7 @@
       "sr": "Blokator Vrata",
       "tr": "Kapı Engeli",
       "uk": "Блокувач дверей",
-      "zh-CN": "门锁",
+      "zh-CN": "阻门器",
       "zh-TW": "門鎖"
     },
     "description": {
@@ -3655,7 +3833,7 @@
       "sr": "Mehanizam za zaključavanje koji se može postaviti na velika metalna vrata kako bi se ograničio pristup.",
       "tr": "Erişimi sınırlamak için büyük metal kapılara yerleştirilebilen bir kilitleme mekanizması.",
       "uk": "Замикаючий механізм, який можна встановити на великі металеві двері для обмеження доступу.",
-      "zh-CN": "可安装在大型金属门上以限制进入的锁定机制。",
+      "zh-CN": "一种锁定装置，可以安装在大型金属门上，限制他人使用这扇门。",
       "zh-TW": "可安裝在大型金屬門上以限制進入的鎖定機制。"
     },
     "type": "Quick Use",
@@ -3773,7 +3951,7 @@
       "sr": "Lepljiva Traka",
       "tr": "Koli Bandı",
       "uk": "Клейка стрічка",
-      "zh-CN": "强力胶带",
+      "zh-CN": "胶带",
       "zh-TW": "強力膠帶"
     },
     "description": {
@@ -3940,10 +4118,10 @@
     },
     "type": "Trinket",
     "rarity": "Common",
-    "value": 0,
+    "value": 100,
     "weightKg": 0,
     "stackSize": 1,
-    "updatedAt": "03/17/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "1.17"
   },
   {
@@ -3989,7 +4167,7 @@
       "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Granata",
       "tr": "Çok çeşitli eşyalar üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Kalkan Şarj Cihazı, Yem Bombası",
       "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, перезарядник енергощита Surge, граната-приманка",
-      "zh-CN": "用于制作各种物品。可回收为制作材料。用于制作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增护盾充能器、诱饵手榴弹",
+      "zh-CN": "用于制作各种物品。可回收为制作材料。用于制作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增护盾充能器、诱捕手雷",
       "zh-TW": "用於製作各種物品。可回收為製作材料。用於製作：Tactical Mk. 2、Combat Mk. 2、Looting Mk. 2、激增護盾充能器、誘餌手榴彈"
     },
     "type": "Refined Material",
@@ -4092,7 +4270,7 @@
       "sr": "Енергетска копча",
       "tr": "Enerji Şarjörü",
       "uk": "Енергетичний затискач",
-      "zh-CN": "能量夹",
+      "zh-CN": "能量弹匣",
       "zh-TW": "能量夾"
     },
     "description": {
@@ -4114,7 +4292,7 @@
       "sr": "Kompatibilno sa: Equalizer, Jupiter",
       "tr": "Uyumlu silahlar: Equalizer, Jupiter",
       "uk": "Сумісно з: Equalizer, Jupiter",
-      "zh-CN": "兼容武器：Equalizer、Jupiter",
+      "zh-CN": "兼容武器：制裁者、木星",
       "zh-TW": "相容武器：Equalizer、Jupiter"
     },
     "type": "Ammunition",
@@ -4403,12 +4581,12 @@
     },
     "type": "Trinket",
     "rarity": "Common",
-    "value": 0,
+    "value": 100,
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
     "imageFilename": "https://cdn.arctracker.io/items/espresso_machine_parts.png",
-    "updatedAt": "02/23/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -4459,11 +4637,12 @@
     },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
     "imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -4588,11 +4767,12 @@
     },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
     "imageFilename": "https://cdn.arctracker.io/items/experimental_seed_sample.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
@@ -4805,7 +4985,7 @@
       "sr": "Koristi se za izradu eksploziva. Koristi se za izradu: Wolfpack, Eksplozivna mina, Blaze granata, Teška Fuze granata",
       "tr": "Patlayıcı üretmek için kullanılır. Üretilebilir: Wolfpack, Patlayıcı Mayın, Alev Bombası, Ağır Fünye Bombası",
       "uk": "Використовується для створення вибухівки. Використовується для створення: Wolfpack, вибухова міна, вогняна граната, важка граната з запалом",
-      "zh-CN": "用于制作爆炸物。可制作：Wolfpack、爆炸地雷、烈焰手榴弹、重型引信手榴弹",
+      "zh-CN": "用于制作爆炸物。可制作：Wolfpack、爆炸地雷、火焰手雷、重型引信手榴弹",
       "zh-TW": "用於製作爆裂物。可製作：Wolfpack、爆炸地雷、烈焰手榴彈、重型引信手榴彈"
     },
     "type": "Refined Material",
@@ -5210,7 +5390,7 @@
       "sr": "Produženi Laki Okvir I",
       "tr": "Uzatılmış Hafif Şarjör I",
       "uk": "Розширений легкий магазин I",
-      "zh-CN": "延长轻型弹匣 I",
+      "zh-CN": "轻型扩容弹匣 I",
       "zh-TW": "延長輕型彈匣 I"
     },
     "description": {
@@ -5320,7 +5500,7 @@
       "sr": "Produzeni laki okvir II Nacrt",
       "tr": "Uzatılmış Hafif Şarjör II Taslağı",
       "uk": "Креслення Розширений легкий магазин II",
-      "zh-CN": "延长轻型弹匣 II 蓝图",
+      "zh-CN": "轻型扩容弹匣 II 蓝图",
       "zh-TW": "延長輕型彈匣 II 藍圖"
     },
     "description": {
@@ -5375,7 +5555,7 @@
       "sr": "Produženi laki okvir II",
       "tr": "Uzatılmış Hafif Şarjör II",
       "uk": "Розширений легкий магазин II",
-      "zh-CN": "延长轻型弹匣 II",
+      "zh-CN": "轻型扩容弹匣 II",
       "zh-TW": "延長輕型彈匣 II"
     },
     "description": {
@@ -5495,7 +5675,7 @@
       "sr": "Produzeni laki spremnik III Nacrt",
       "tr": "Uzatılmış Hafif Şarjör III Taslağı",
       "uk": "Креслення Розширений легкий магазин III",
-      "zh-CN": "延长轻型弹匣 III 蓝图",
+      "zh-CN": "轻型扩容弹匣 III 蓝图",
       "zh-TW": "延長輕型彈匣 III 藍圖"
     },
     "description": {
@@ -5550,7 +5730,7 @@
       "sr": "Produženi laki spremnik III",
       "tr": "Uzatılmış Hafif Şarjör III",
       "uk": "Розширений легкий магазин III",
-      "zh-CN": "延长轻型弹匣 III",
+      "zh-CN": "轻型扩容弹匣 III",
       "zh-TW": "延長輕型彈匣 III"
     },
     "description": {
@@ -5651,7 +5831,7 @@
       "sr": "Produženi srednji okvir I",
       "tr": "Uzatılmış Orta Şarjör I",
       "uk": "Розширений середній магазин I",
-      "zh-CN": "延长中型弹匣 I",
+      "zh-CN": "中型扩容弹匣 I",
       "zh-TW": "延長中型彈匣 I"
     },
     "description": {
@@ -5762,7 +5942,7 @@
       "sr": "Nacrt za Prošireni Srednji Spremnik II",
       "tr": "Uzatılmış Orta Şarjör II Taslağı",
       "uk": "Креслення розширеного середнього магазину II",
-      "zh-CN": "延长中型弹匣II蓝图",
+      "zh-CN": "中型扩容弹匣II蓝图",
       "zh-TW": "延長中型彈匣II藍圖"
     },
     "description": {
@@ -5817,7 +5997,7 @@
       "sr": "Produženi srednji okvir II",
       "tr": "Uzatılmış Orta Şarjör II",
       "uk": "Розширений середній магазин II",
-      "zh-CN": "延长中型弹匣 II",
+      "zh-CN": "中型扩容弹匣 II",
       "zh-TW": "延長中型彈匣 II"
     },
     "description": {
@@ -5929,7 +6109,7 @@
       "sr": "Nacrt za produženi srednji spremnik III",
       "tr": "Uzatılmış Orta Şarjör III Taslağı",
       "uk": "Креслення розширеного середнього магазину III",
-      "zh-CN": "延长中型弹匣III蓝图",
+      "zh-CN": "中型扩容弹匣III蓝图",
       "zh-TW": "延長中型彈匣III藍圖"
     },
     "description": {
@@ -6009,7 +6189,7 @@
       "sr": "Produženi Srednji Spremnik III",
       "tr": "Uzatılmış Orta Şarjör III",
       "uk": "Розширений середній магазин III",
-      "zh-CN": "延长中型弹匣 III",
+      "zh-CN": "中型扩容弹匣 III",
       "zh-TW": "延長中型彈匣 III"
     },
     "description": {
@@ -6111,7 +6291,7 @@
       "sr": "Produženi Sačmarski Spremnik I",
       "tr": "Uzatılmış Av Tüfeği Şarjörü I",
       "uk": "Розширений магазин для дробовика I",
-      "zh-CN": "延长霰弹枪弹匣 I",
+      "zh-CN": "霰弹枪扩容弹匣 I",
       "zh-TW": "延長霰彈槍彈匣 I"
     },
     "description": {
@@ -6218,7 +6398,7 @@
       "sr": "Nacrt za produženi sacmarski okvir II",
       "tr": "Uzatılmış Av Tüfeği Şarjörü II Taslağı",
       "uk": "Креслення розширеного магазину для дробовика II",
-      "zh-CN": "延长霰弹枪弹匣 II 蓝图",
+      "zh-CN": "霰弹枪扩容弹匣 II 蓝图",
       "zh-TW": "延長霰彈槍彈匣 II 藍圖"
     },
     "description": {
@@ -6273,7 +6453,7 @@
       "sr": "Produženi sačmarni okvir II",
       "tr": "Uzatılmış Av Tüfeği Şarjörü II",
       "uk": "Розширений магазин для дробовика II",
-      "zh-CN": "延长霰弹枪弹匣 II",
+      "zh-CN": "霰弹枪扩容弹匣 II",
       "zh-TW": "延長霰彈槍彈匣 II"
     },
     "description": {
@@ -6371,7 +6551,7 @@
       "sr": "Produženi šaržer za sačmaru III Nacrt",
       "tr": "Uzatılmış Av Tüfeği Şarjörü III Taslağı",
       "uk": "Креслення розширеного магазину для дробовика III",
-      "zh-CN": "扩展霰弹枪弹匣 III 蓝图",
+      "zh-CN": "霰弹枪扩容弹匣 III 蓝图",
       "zh-TW": "擴展霰彈槍彈匣 III 藍圖"
     },
     "description": {
@@ -6426,7 +6606,7 @@
       "sr": "Produženi šaržer za sačmaru III",
       "tr": "Uzatılmış Av Tüfeği Şarjörü III",
       "uk": "Розширений магазин для дробовика III",
-      "zh-CN": "扩展霰弹枪弹匣 III",
+      "zh-CN": "霰弹枪扩容弹匣 III",
       "zh-TW": "擴展霰彈槍彈匣 III"
     },
     "description": {
@@ -6757,7 +6937,7 @@
       "en": "Ferro I",
       "es": "Ferro I",
       "fr": "Ferro I",
-      "he": "Ferro I",
+      "he": "פרו I",
       "hr": "Ferro I",
       "it": "Ferro I",
       "ja": "フェロ I",
@@ -7907,7 +8087,7 @@
       "sr": "Vatrena Kugla",
       "tr": "Ateş Topu Yakıcı",
       "uk": "Вогняна куля",
-      "zh-CN": "火球燃烧器",
+      "zh-CN": "火球燃烧炉",
       "zh-TW": "火球燃燒器"
     },
     "description": {
@@ -8315,170 +8495,5 @@
         "trader": "Shani"
       }
     ]
-  },
-  {
-    "id": "first_wave_compass",
-    "name": {
-      "da": "Første Bølge-kompas",
-      "de": "Erste-Welle-Kompass",
-      "en": "First Wave Compass",
-      "es": "Brújula de la Primera Ola",
-      "fr": "Boussole de la Première Vague",
-      "he": "מצפן מהגל הראשון",
-      "hr": "Kompas Prvog Vala",
-      "it": "Bussola della Prima Ondata",
-      "ja": "第一波コンパス",
-      "ko-KR": "1차 침공 나침반",
-      "no": "Første Bølge-kompass",
-      "pl": "Kompas Pierwszej Fali",
-      "pt": "Bússola da Primeira Onda",
-      "pt-BR": "Bússola da Primeira Onda",
-      "ru": "Компас Первой Волны",
-      "sr": "Kompas Prvog Talasa",
-      "tr": "İlk Dalga Pusulası",
-      "uk": "Компас Першої Хвилі",
-      "zh-CN": "第一波罗盘",
-      "zh-TW": "第一波羅盤"
-    },
-    "description": {
-      "da": "Støvede men funktionelle, disse hjalp med at kortlægge en kurs, da alt syntes tabt.",
-      "de": "Staubig, aber funktionsfähig, halfen diese dabei, einen Kurs zu bestimmen, als alles verloren schien.",
-      "en": "Dusty but functional, these helped chart a course when all seemed lost.",
-      "es": "Polvorientas pero funcionales, estas ayudaron a trazar un rumbo cuando todo parecía perdido.",
-      "fr": "Poussiéreux mais fonctionnel, ceux-ci ont aidé à tracer une route quand tout semblait perdu.",
-      "he": "מאובקים אך מתפקדים, אלו עזרו לתוות מסלול כשנראה היה שהכול אבוד.",
-      "hr": "Prašnjavi ali funkcionalni, pomogli su odrediti smjer kada se sve činilo izgubljenim.",
-      "it": "Impolverata ma funzionale, questa ha aiutato a tracciare una rotta quando tutto sembrava perduto.",
-      "ja": "埃まみれだが機能的で、すべてが失われたように見えた時に進路を示してくれた。",
-      "ko-KR": "먼지가 쌓였지만 작동하며, 모든 것이 잃어버린 것처럼 보일 때 길을 찾는 데 도움을 주었습니다.",
-      "no": "Støvete men funksjonelle, disse hjalp til med å kartlegge en kurs når alt virket tapt.",
-      "pl": "Zakurzone, ale funkcjonalne, pomogły wyznaczyć kurs, gdy wszystko wydawało się stracone.",
-      "pt": "Empoeiradas mas funcionais, estas ajudaram a traçar um rumo quando tudo parecia perdido.",
-      "pt-BR": "Empoeiradas mas funcionais, elas ajudaram a traçar um curso quando tudo parecia perdido.",
-      "ru": "Пыльные, но рабочие, они помогли проложить курс, когда всё казалось потерянным.",
-      "sr": "Prašnjavi ali funkcionalni, pomogli su da se odredi kurs kada se sve činilo izgubljenim.",
-      "tr": "Tozlu ama işlevsel, her şey kaybolmuş gibi göründüğünde rotayı belirlemeye yardımcı oldular.",
-      "uk": "Запилені, але функціональні, вони допомогли прокласти курс, коли все здавалося втраченим.",
-      "zh-CN": "虽然布满灰尘但仍能使用，在一切似乎都失去希望时帮助指引了方向。",
-      "zh-TW": "雖然佈滿灰塵但仍能使用，在一切似乎都失去希望時幫助指引了方向。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/first_wave_compass.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "first_wave_rations",
-    "name": {
-      "da": "Første Bølge Rationer",
-      "de": "Erste-Welle-Rationen",
-      "en": "First Wave Rations",
-      "es": "Raciones de la Primera Oleada",
-      "fr": "Rations de la Première Vague",
-      "he": "מנות מזון מהגל הראשון",
-      "hr": "Obroci Prvog Vala",
-      "it": "Razioni della Prima Ondata",
-      "ja": "第一波の配給品",
-      "ko-KR": "1차 침공 배급품",
-      "no": "Første Bølge Rasjoner",
-      "pl": "Racje Pierwszej Fali",
-      "pt": "Rações da Primeira Onda",
-      "pt-BR": "Rações da Primeira Onda",
-      "ru": "Пайки Первой Волны",
-      "sr": "Obroci Prvog Talasa",
-      "tr": "İlk Dalga Erzakı",
-      "uk": "Пайки Першої Хвилі",
-      "zh-CN": "第一波配给",
-      "zh-TW": "第一波配給"
-    },
-    "description": {
-      "da": "Ofte opvarmet over diskrete bål, siges disse knappe forsyninger at have drevet en modstand.",
-      "de": "Oft über versteckten Feuern erhitzt, sollen diese kargen Vorräte einen Widerstand angetrieben haben.",
-      "en": "Often heated above discreet fires, these meager provisions are said to have fueled a resistance.",
-      "es": "A menudo calentadas sobre fuegos discretos, se dice que estas escasas provisiones alimentaron una resistencia.",
-      "fr": "Souvent réchauffées au-dessus de feux discrets, ces maigres provisions auraient alimenté une résistance.",
-      "he": "חוממו לעתים קרובות מעל מדורות נסתרות; נאמר על המצרכים הדלים הללו שהזינו את ההתנגדות.",
-      "hr": "Često zagrijavani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor.",
-      "it": "Spesso riscaldate su fuochi discreti, si dice che queste magre provviste abbiano alimentato una resistenza.",
-      "ja": "目立たない焚き火で温められることが多く、これらのわずかな食料が抵抗運動を支えたと言われている。",
-      "ko-KR": "은밀한 모닥불 위에서 데워지곤 했던 이 빈약한 식량이 저항군을 지탱했다고 전해진다.",
-      "no": "Ofte oppvarmet over diskré bål, sies disse knappe forsyningene å ha drevet en motstand.",
-      "pl": "Często podgrzewane nad dyskretnym ogniem, te skromne zapasy podobno napędzały ruch oporu.",
-      "pt": "Frequentemente aquecidas sobre fogueiras discretas, estas provisões escassas teriam alimentado uma resistência.",
-      "pt-BR": "Frequentemente aquecidas sobre fogueiras discretas, dizem que essas provisões escassas alimentaram uma resistência.",
-      "ru": "Эти скудные запасы, часто разогреваемые на незаметных кострах, как говорят, поддерживали сопротивление.",
-      "sr": "Često zagrevani iznad diskretnih vatrišta, ovi oskudni obroci navodno su pokretali otpor.",
-      "tr": "Genellikle gizli ateşlerde ısıtılan bu yetersiz erzakın bir direnişi beslediği söylenir.",
-      "uk": "Ці мізерні запаси, що часто підігрівалися над непомітними вогнищами, як кажуть, підтримували опір.",
-      "zh-CN": "这些微薄的补给常在隐蔽的火堆上加热，据说曾为抵抗运动提供了动力。",
-      "zh-TW": "這些微薄的補給常在隱蔽的火堆上加熱，據說曾為抵抗運動提供了動力。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/first_wave_rations.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "first_wave_tape",
-    "name": {
-      "da": "Første Bølge Bånd",
-      "de": "Erste-Welle-Band",
-      "en": "First Wave Tape",
-      "es": "Cinta de la Primera Oleada",
-      "fr": "Cassette de la Première Vague",
-      "he": "קלטת מהגל הראשון",
-      "hr": "Traka Prvog Vala",
-      "it": "Nastro della Prima Ondata",
-      "ja": "第一波のテープ",
-      "ko-KR": "1차 침공 테이프",
-      "no": "Første Bølge Bånd",
-      "pl": "Taśma Pierwszej Fali",
-      "pt": "Fita da Primeira Onda",
-      "pt-BR": "Fita da Primeira Onda",
-      "ru": "Кассета Первой Волны",
-      "sr": "Traka Prvog Talasa",
-      "tr": "İlk Dalga Kaseti",
-      "uk": "Касета Першої Хвилі",
-      "zh-CN": "第一波录像带",
-      "zh-TW": "第一波錄影帶"
-    },
-    "description": {
-      "da": "Et gammelt bånd fundet inde i et medtaget gammelt videokamera.",
-      "de": "Ein altes Band, das in einem abgenutzten alten Camcorder gefunden wurde.",
-      "en": "An old tape found inside a battered old camcorder.",
-      "es": "Una cinta vieja encontrada dentro de una videocámara vieja y maltratada.",
-      "fr": "Une vieille cassette trouvée dans un vieux caméscope abîmé.",
-      "he": "קלטת ישנה שנמצאה בתוך מצלמת וידאו ישנה וחבוטה.",
-      "hr": "Stara traka pronađena unutar oštećene stare kamere.",
-      "it": "Un vecchio nastro trovato all'interno di una vecchia videocamera malconcia.",
-      "ja": "ボロボロの古いビデオカメラの中で見つかった古いテープ。",
-      "ko-KR": "낡고 망가진 캠코더 안에서 발견된 오래된 테이프.",
-      "no": "Et gammelt bånd funnet inne i et ramponert gammelt videokamera.",
-      "pl": "Stara taśma znaleziona w zniszczonej starej kamerze.",
-      "pt": "Uma fita velha encontrada dentro de uma filmadora velha e surrada.",
-      "pt-BR": "Uma fita velha encontrada dentro de uma filmadora antiga e surrada.",
-      "ru": "Старая кассета, найденная внутри потрепанной старой видеокамеры.",
-      "sr": "Stara traka pronađena unutar oštećene stare kamere.",
-      "tr": "Hırpalanmış eski bir kameranın içinde bulunan eski bir kaset.",
-      "uk": "Стара касета, знайдена всередині пошарпаної старої відеокамери.",
-      "zh-CN": "在一台破旧的老式摄像机中发现的旧录像带。",
-      "zh-TW": "在一台破舊的老式攝影機中發現的舊錄影帶。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
   }
 ]
