@@ -1,5 +1,201 @@
 [
   {
+    "id": "firefly_burner",
+    "name": {
+      "da": "Ildfluebrænder",
+      "de": "Glühwürmchenbrenner",
+      "en": "Firefly Burner",
+      "es": "Quemador de luciérnaga",
+      "fr": "Brûleur Luciole",
+      "he": "מבער גחלילית",
+      "hr": "Plamenik krijesnice",
+      "it": "Bruciatore Lucciola",
+      "ja": "ファイアフライ・バーナー",
+      "kr": "파이어플라이 버너",
+      "no": "Ildfluebrenner",
+      "pl": "Palnik Świetlika",
+      "pt": "Queimador Vaga-lume",
+      "pt-BR": "Queimador Vagalume",
+      "ru": "Горелка «Светлячок»",
+      "sr": "Gorionik Svica",
+      "tr": "Ateş Böceği Yakıcısı",
+      "uk": "Пальник «Світляк»",
+      "zh-CN": "萤火虫燃烧器",
+      "zh-TW": "螢火蟲燃燒器"
+    },
+    "description": {
+      "da": "Kan genbruges til fremstillingsmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Se puede reciclar para obtener materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux de fabrication.",
+      "he": "ניתן למיחזור לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Può essere riciclato in materiali per la creazione.",
+      "ja": "リサイクルしてクラフト素材にできる。",
+      "kr": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan gjenvinnes til materialer.",
+      "pl": "Można przetworzyć na materiały rzemieślnicze.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать в материалы для крафта.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для виготовлення.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "ARC",
+    "value": 1000,
+    "weightKg": 0.75,
+    "stackSize": 3,
+    "recyclesInto": {
+      "arc_alloy": 2,
+      "crude_explosives": 2
+    },
+    "salvagesInto": {
+      "crude_explosives": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/firefly_burner.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "1.17"
+  },
+  {
+    "id": "fireworks_box_blueprint",
+    "name": {
+      "da": "Fyrværkerikassetegning",
+      "de": "Bauplan: Feuerwerkskiste",
+      "en": "Fireworks Box Blueprint",
+      "es": "Plano de caja de fuegos artificiales",
+      "fr": "Schéma de Boîte de feux d'artifice",
+      "he": "שרטוט קופסת זיקוקים",
+      "hr": "Nacrt Kutije Vatrometa",
+      "it": "Progetto scatola di fuochi d'artificio",
+      "ja": "花火の箱の設計図",
+      "ko-KR": "폭죽 상자 설계도",
+      "no": "Fyrverkeribokstegning",
+      "pl": "Projekt pudełka fajerwerków",
+      "pt": "Projeto de caixa de fogos de artifício",
+      "pt-BR": "Esquema de Caixa de Fogos de Artifício",
+      "ru": "Чертеж — Коробка фейерверков",
+      "sr": "Nacrt Kutije Vatrometa",
+      "tr": "Havai Fişek Kutusu Taslağı",
+      "uk": "Креслення коробки феєрверків",
+      "zh-CN": "烟花箱蓝图",
+      "zh-TW": "煙火箱藍圖"
+    },
+    "description": {
+      "da": "Låser opskriften til Fyrværkerikassen op.",
+      "de": "Schaltet den Herstellungsbauplan für die Feuerwerkskiste frei.",
+      "en": "Unlocks the crafting blueprint for the Fireworks Box.",
+      "es": "Desbloquea el plano de fabricación de la caja de fuegos artificiales.",
+      "fr": "Débloque le schéma de fabrication de la Boîte de feux d'artifice.",
+      "he": "פותח את שרטוט הייצור עבור קופסת זיקוקים.",
+      "hr": "Otključava nacrt izrade za Kutiju vatrometa.",
+      "it": "Sblocca il progetto di creazione per la Scatola di fuochi d'artificio.",
+      "ja": "花火箱のクラフト設計図をアンロックする。",
+      "ko-KR": "폭죽 상자 제작 설계도를 해금합니다.",
+      "no": "Låser opp oppskriften for Fyrverkeriboksen.",
+      "pl": "Odblokowuje projekt wytwarzania Pudełka fajerwerków.",
+      "pt": "Desbloqueia o projeto de fabricação da caixa de fogos de artifício.",
+      "pt-BR": "Conjunto de fogos de artifício acionado remotamente, perfeito para dar um show.",
+      "ru": "Открывает чертеж для создания Коробки фейерверков.",
+      "sr": "Otključava nacrt izrade za Kutiju vatrometa.",
+      "tr": "Havai Fişek Kutusu için üretim planını açar.",
+      "uk": "Відкриває креслення для створення Коробки феєрверків.",
+      "zh-CN": "解锁烟花箱的制作蓝图。",
+      "zh-TW": "解鎖煙火箱的製作藍圖。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fireworks_box_blueprint.png",
+    "updatedAt": "01/13/2026",
+    "addedIn": "1.7"
+  },
+  {
+    "id": "fireworks_box",
+    "name": {
+      "da": "Fyrværkerikasse",
+      "de": "Feuerwerkskiste",
+      "en": "Fireworks Box",
+      "es": "Caja de fuegos artificiales",
+      "fr": "Boîte de feux d'artifice",
+      "he": "קופסת זיקוקים",
+      "hr": "Kutija vatrometa",
+      "it": "Scatola di fuochi d'artificio",
+      "ja": "花火の箱",
+      "ko-KR": "폭죽 상자",
+      "no": "Fyrverkeriboks",
+      "pl": "Pudełko fajerwerków",
+      "pt": "Caixa de fogos de artifício",
+      "pt-BR": "Caixa de Fogos de Artifício",
+      "ru": "Коробка фейерверков",
+      "sr": "Kutija vatrometa",
+      "tr": "Havai Fişek Kutusu",
+      "uk": "Коробка феєрверків",
+      "zh-CN": "烟花箱",
+      "zh-TW": "煙火箱"
+    },
+    "description": {
+      "da": "Et fjernudløst arrangement af blændende fyrværkeri – helt sikkert et show.",
+      "de": "Eine ferngesteuerte Anordnung funkelnder Feuerwerkskörper – garantiert ein Spektakel.",
+      "en": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
+      "es": "Un conjunto de fuegos artificiales deslumbrantes activados a distancia, perfecto para dar espectáculo.",
+      "fr": "Un assortiment de feux d'artifice éblouissants déclenché à distance, parfait pour faire le spectacle.",
+      "he": "סידור של זיקוקים מרהיבים המופעל מרחוק, שבטוח ייתן הופעה.",
+      "hr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu.",
+      "it": "Un assortimento di fuochi d'artificio abbaglianti attivato a distanza, pronto a mettere in scena uno spettacolo.",
+      "ja": "遠隔で起動する、まばゆい花火のセット。きっとショーになる。",
+      "ko-KR": "원격으로 작동하는 눈부신 폭죽 세트. 확실히 쇼를 보여줍니다.",
+      "no": "Et fjernutløst oppsett med blendende fyrverkeri – garantert show.",
+      "pl": "Zdalnie odpalany zestaw olśniewających fajerwerków — na pewno zrobi wrażenie.",
+      "pt": "Um conjunto de fogos de artifício deslumbrantes acionado remotamente, feito para dar um show.",
+      "pt-BR": "Conjunto de fogos de artifício acionado remotamente, perfeito para dar um show.",
+      "ru": "Дистанционно запускаемый набор ослепительных фейерверков — настоящее шоу.",
+      "sr": "Daljinski aktiviran raspored blještavog vatrometa, sigurno će napraviti predstavu.",
+      "tr": "Uzaktan tetiklenen göz kamaştırıcı havai fişek düzeni; tam bir gösteri.",
+      "uk": "Набір яскравих феєрверків із дистанційним запуском — справжнє шоу.",
+      "zh-CN": "可远程触发的绚丽烟花组合，保证带来一场表演。",
+      "zh-TW": "可遠端觸發的絢麗煙火組合，保證帶來一場表演。"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "blueprintLocked": true,
+    "craftBench": "explosives_bench",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "explosive_compound": 1,
+      "pop_trigger": 3
+    },
+    "recyclesInto": {
+      "explosive_compound": 1
+    },
+    "salvagesInto": {
+      "explosive_compound": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fireworks_box.png",
+    "updatedAt": "03/22/2026",
+    "addedIn": "1.7",
+    "vendors": [
+      {
+        "cost": {
+          "creds": 60
+        },
+        "limit": 3,
+        "refreshSeconds": 86400,
+        "trader": "Shani"
+      }
+    ]
+  },
+  {
     "id": "first_wave_compass",
     "name": {
       "da": "Første Bølge-kompas",
@@ -51,7 +247,7 @@
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/first_wave_compass.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/first_wave_compass.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
@@ -107,7 +303,7 @@
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/first_wave_rations.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/first_wave_rations.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
@@ -163,7 +359,7 @@
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/first_wave_tape.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
@@ -278,7 +474,7 @@
     "salvagesInto": {
       "fireball_burner": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/flame_spray.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "repairCost": {
@@ -338,7 +534,7 @@
     "value": 3000,
     "weightKg": 0.3,
     "stackSize": 15,
-    "imageFilename": "https://cdn.arctracker.io/items/flashy_duck.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/flashy_duck.png",
     "updatedAt": "03/17/2026",
     "addedIn": "1.13"
   },
@@ -401,7 +597,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/flow_controller.png",
     "updatedAt": "01/09/2026",
     "addedIn": "1.2"
   },
@@ -456,7 +652,7 @@
     "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/flushing_terminal_key.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/flushing_terminal_key.png",
     "updatedAt": "04/14/2026",
     "addedIn": "1.1"
   },
@@ -518,7 +714,7 @@
     "salvagesInto": {
       "explosive_compound": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/fossilized_lightning.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fossilized_lightning.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -565,12 +761,12 @@
       "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
       "tr": "Acemi Akıncılar için temel güçlendirme, biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sunar.",
       "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
-      "zh-CN": "新手奇袭者的基础增强，提供稍多的背包空间和负重能力。",
+      "zh-CN": "为新手奇袭者设计的基础强化，提供略大的背包空间与负重上限。",
       "zh-TW": "新手掠奪者的基礎增強，提供稍多的背包空間和負重能力。"
     },
     "type": "Augment",
     "rarity": "Common",
-    "value": 100,
+    "value": 660,
     "weightKg": 1,
     "stackSize": 1,
     "effects": {
@@ -604,8 +800,8 @@
       "plastic_parts": 6,
       "rubber_parts": 6
     },
-    "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
-    "updatedAt": "03/31/2026",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/free_loadout_augment.png",
+    "updatedAt": "05/19/2026",
     "addedIn": "base"
   },
   {
@@ -629,7 +825,7 @@
       "sr": "Kutija za modulaciju frekvencije",
       "tr": "Frekans Ayar Kutusu",
       "uk": "Коробка частотної модуляції",
-      "zh-CN": "频率调制盒",
+      "zh-CN": "频率调制箱",
       "zh-TW": "頻率調變盒"
     },
     "description": {
@@ -667,7 +863,7 @@
     "salvagesInto": {
       "electrical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/frequency_modulation_box.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/frequency_modulation_box.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2"
   },
@@ -730,7 +926,7 @@
     "salvagesInto": {
       "wires": 5
     },
-    "imageFilename": "https://cdn.arctracker.io/items/fried_motherboard.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fried_motherboard.png",
     "updatedAt": "12/07/2025",
     "addedIn": "base"
   },
@@ -862,7 +1058,7 @@
       "lemon": 1,
       "prickly_pear": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/fruit_mix.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fruit_mix.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -909,7 +1105,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -924,7 +1120,7 @@
     "salvagesInto": {
       "metal_parts": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/frying_pan.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/frying_pan.png",
     "updatedAt": "11/04/2025",
     "addedIn": "base"
   },
@@ -949,7 +1145,7 @@
       "sr": "Presa za beli luk",
       "tr": "Sarımsak Ezici",
       "uk": "Давилка для часнику",
-      "zh-CN": "大蒜压榨器",
+      "zh-CN": "压蒜器",
       "zh-TW": "大蒜壓榨器"
     },
     "description": {
@@ -986,7 +1182,7 @@
     "salvagesInto": {
       "metal_parts": 7
     },
-    "imageFilename": "https://cdn.arctracker.io/items/garlic_press.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/garlic_press.png",
     "updatedAt": "11/04/2025",
     "addedIn": "base"
   },
@@ -1121,7 +1317,7 @@
       "gas_grenade": 1,
       "wires": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/gas_grenade_trap.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade_trap.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -1168,7 +1364,7 @@
       "sr": "Granata koja pri udaru ispušta dugotrajni otrovni oblak, iscrpljujući izdržljivost svih pljačkaša unutar svog područja dejstva.",
       "tr": "Çarpma anında kalıcı zehirli bir bulut yayan ve etki alanındaki tüm Akıncıların dayanıklılığını tüketen bir bomba.",
       "uk": "Граната, яка при ударі випускає стійку токсичну хмару, що виснажує витривалість усіх рейдерів у зоні ураження.",
-      "zh-CN": "撞击时释放持续性毒云，消耗效果范围内所有奇袭者耐力的手雷。",
+      "zh-CN": "遭受撞击即会爆炸的手雷，会在爆炸范围内释放毒气，消耗范围内奇袭者的耐力。",
       "zh-TW": "撞擊時釋放持續性毒雲，消耗效果範圍內所有掠奪者耐力的手榴彈。"
     },
     "type": "Quick Use",
@@ -1260,7 +1456,7 @@
     "salvagesInto": {
       "chemicals": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/gas_grenade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -1296,7 +1492,7 @@
       "sr": "Gasna mina Nacrt",
       "tr": "Sıçrama Mayını: Enerji Azaltıcı Taslağı",
       "uk": "Креслення Газова міна",
-      "zh-CN": "跳雷：持续流失耐力 蓝图（跳雷：毒气 蓝图）",
+      "zh-CN": "毒气地雷蓝图",
       "zh-TW": "毒氣地雷 藍圖"
     },
     "description": {
@@ -1318,7 +1514,7 @@
       "sr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak gasa koji brzo iscrpljuje izdržljivost.",
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak dayanıklılığı hızla tüketen bir gaz bulutu yayar.",
       "uk": "Міна з датчиком наближення, яка вистрибує і випускає газову хмару, що швидко виснажує витривалість.",
-      "zh-CN": "一种近距离触发的地雷，会弹出并释放快速消耗耐力的毒气云。",
+      "zh-CN": "一种近距离触发式地雷，在接近时会弹起并爆炸，释放一团让人迅速消耗完耐力的毒气云。",
       "zh-TW": "一種近距離觸發的地雷，會彈出並釋放快速消耗耐力的毒氣雲。"
     },
     "type": "Blueprint",
@@ -1326,7 +1522,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_mine_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2"
   },
@@ -1351,7 +1547,7 @@
       "sr": "Gasna mina",
       "tr": "Sıçrama Mayını: Enerji Azaltıcı",
       "uk": "Газова міна",
-      "zh-CN": "跳雷：持续流失耐力（跳雷：毒气）",
+      "zh-CN": "跳雷：持续流失耐力（毒气地雷）",
       "zh-TW": "毒氣地雷"
     },
     "description": {
@@ -1373,7 +1569,7 @@
       "sr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak gasa koji brzo iscrpljuje izdržljivost.",
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak dayanıklılığı hızla tüketen bir gaz bulutu yayar.",
       "uk": "Міна з датчиком наближення, яка вистрибує і випускає газову хмару, що швидко виснажує витривалість.",
-      "zh-CN": "一种近距离触发的地雷，会弹出并释放快速消耗耐力的毒气云。",
+      "zh-CN": "一种近距离触发式地雷，在接近时会弹起并爆炸，释放一团让人迅速消耗完耐力的毒气云。",
       "zh-TW": "一種近距離觸發的地雷，會彈出並釋放快速消耗耐力的毒氣雲。"
     },
     "type": "Quick Use",
@@ -1466,7 +1662,7 @@
     "salvagesInto": {
       "chemicals": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_mine.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2",
     "vendors": [
@@ -1537,7 +1733,7 @@
     "salvagesInto": {
       "battery": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/geiger_counter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/geiger_counter.png",
     "updatedAt": "01/09/2026",
     "addedIn": "1.2"
   },
@@ -1592,7 +1788,7 @@
     "value": 1000,
     "weightKg": 0.3,
     "stackSize": 15,
-    "imageFilename": "https://cdn.arctracker.io/items/gentle_duck.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gentle_duck.png",
     "updatedAt": "03/17/2026",
     "addedIn": "1.13"
   },
@@ -1654,7 +1850,7 @@
     "salvagesInto": {
       "assorted_seeds": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/great_mullein.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -1720,7 +1916,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/green_light_stick_blueprint.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base"
   },
@@ -1835,7 +2031,7 @@
     "salvagesInto": {
       "chemicals": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/green_light_stick.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -2061,7 +2257,7 @@
     "salvagesInto": {
       "metal_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hairpin_i.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -2335,7 +2531,7 @@
     "upgradeCost": {
       "metal_parts": 8
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hairpin_ii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -2602,7 +2798,7 @@
       "metal_parts": 9,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hairpin_iii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -2869,7 +3065,7 @@
       "mechanical_components": 1,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hairpin_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "modSlots": {
@@ -2928,7 +3124,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -2944,7 +3140,7 @@
     "salvagesInto": {
       "speaker_component": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/headphones.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/headphones.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -3011,7 +3207,7 @@
       "chemicals": 2,
       "metal_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/heavy_ammo.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_ammo.png",
     "updatedAt": "04/28/2026",
     "addedIn": "base",
     "vendors": [
@@ -3066,7 +3262,7 @@
       "sr": "Granata koja detonira nakon odlaganja, nanoseći eksplozivnu štetu u svom radijusu.",
       "tr": "Gecikmeli olarak patlayan ve yarıçapında patlayıcı hasar veren el bombası.",
       "uk": "Граната, що вибухає із затримкою, завдаючи вибухової шкоди в радіусі дії.",
-      "zh-CN": "延迟引爆的手榴弹，在其范围内造成爆炸伤害。",
+      "zh-CN": "延迟爆炸的手雷，会在爆炸范围内造成爆炸伤害。",
       "zh-TW": "延遲引爆的手榴彈，在其範圍內造成爆炸傷害。"
     },
     "type": "Quick Use",
@@ -3135,7 +3331,7 @@
     "salvagesInto": {
       "crude_explosives": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/heavy_fuze_grenade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_fuze_grenade.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -3190,7 +3386,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_gun_parts_blueprint.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base"
   },
@@ -3258,7 +3454,7 @@
     "salvagesInto": {
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_gun_parts.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -3431,7 +3627,7 @@
     "salvagesInto": {
       "arc_alloy": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/heavy_shield.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_shield.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "damageMitigation": 65,
@@ -3593,7 +3789,7 @@
     "salvagesInto": {
       "fabric": 8
     },
-    "imageFilename": "https://cdn.arctracker.io/items/herbal_bandage.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/herbal_bandage.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -3607,6 +3803,61 @@
         "trader": "Lance"
       }
     ]
+  },
+  {
+    "id": "hidden_bunker_key",
+    "name": {
+      "da": "Skjult bunker-nøgle",
+      "de": "Schlüssel für versteckten Bunker",
+      "en": "Hidden Bunker Key",
+      "es": "Llave de búnker oculto",
+      "fr": "Clé de bunker caché",
+      "he": "מפתח לבונקר נסתר",
+      "hr": "Ključ skrivenog bunkera",
+      "it": "Chiave del bunker nascosto",
+      "ja": "隠されたバンカーの鍵",
+      "ko-KR": "숨겨진 벙커 열쇠",
+      "no": "Nøkkel til skjult bunker",
+      "pl": "Klucz do ukrytego bunkra",
+      "pt": "Chave de bunker oculto",
+      "pt-BR": "Chave de bunker oculto",
+      "ru": "Ключ от скрытого бункера",
+      "sr": "Ključ skrivenog bunkera",
+      "tr": "Gizli sığınak anahtarı",
+      "uk": "Ключ від прихованого бункера",
+      "zh-CN": "隐藏地堡钥匙",
+      "zh-TW": "隱藏地堡鑰匙"
+    },
+    "description": {
+      "da": "En improviseret nøgle, der lader dig åbne en bunker i rumhavnen.",
+      "de": "Ein improvisierter Schlüssel, mit dem du einen Bunker im Raumhafen öffnen kannst.",
+      "en": "A makeshift key that lets you open a bunker in Spaceport",
+      "es": "Una llave improvisada que te permite abrir un búnker en el puerto espacial.",
+      "fr": "Une clé improvisée qui permet d'ouvrir un bunker dans le spatioport.",
+      "he": "מפתח מאולתר שמאפשר לך לפתוח בונקר בנמל החלל.",
+      "hr": "Improvizirani ključ koji ti omogućuje otvaranje bunkera u svemirskoj luci.",
+      "it": "Una chiave improvvisata che ti permette di aprire un bunker nello spazioporto.",
+      "ja": "スペースポートにあるバンカーを開けることができる即席の鍵。",
+      "ko-KR": "스페이스포트의 벙커를 열 수 있는 즉석에서 만든 열쇠.",
+      "no": "En improvisert nøkkel som lar deg åpne en bunker i romhavnen.",
+      "pl": "Prowizoryczny klucz pozwalający otworzyć bunkier w porcie kosmicznym.",
+      "pt": "Uma chave improvisada que permite abrir um bunker no porto espacial.",
+      "pt-BR": "Uma chave improvisada que permite abrir um bunker no porto espacial.",
+      "ru": "Самодельный ключ, позволяющий открыть бункер в космопорте.",
+      "sr": "Improvizovani ključ koji ti omogućava da otvoriš bunker u svemirskoj luci.",
+      "tr": "Uzay limanındaki bir sığınağı açmanı sağlayan derme çatma bir anahtar.",
+      "uk": "Імпровізований ключ, що дозволяє відкрити бункер у космопорті.",
+      "zh-CN": "一把临时制作的钥匙，可让你打开太空港中的一个地堡。",
+      "zh-TW": "一把臨時製作的鑰匙，可讓你打開太空港中的一個地堡。"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hidden_bunker_key.png",
+    "updatedAt": "05/04/2026",
+    "addedIn": "base"
   },
   {
     "id": "horizontal_grip",
@@ -3753,7 +4004,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/horizontal_grip.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -3887,7 +4138,7 @@
     "salvagesInto": {
       "electrical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hornet_driver.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hornet_driver.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base",
     "tip": "The Hornet Driver is a rare item is dropped by Hornets that can be recycled into crafting materials."
@@ -3950,7 +4201,7 @@
     "salvagesInto": {
       "chemicals": 5
     },
-    "imageFilename": "https://cdn.arctracker.io/items/household_cleaner.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/household_cleaner.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -4005,7 +4256,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_blueprint.png",
     "updatedAt": "11/16/2025",
     "addedIn": "base"
   },
@@ -4193,7 +4444,7 @@
     "salvagesInto": {
       "heavy_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_i.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
@@ -4437,7 +4688,7 @@
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_ii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 67.9,
@@ -4676,7 +4927,7 @@
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_iii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 67.9,
@@ -4915,7 +5166,7 @@
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 67.9,
@@ -4992,7 +5243,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -5008,7 +5259,7 @@
     "salvagesInto": {
       "canister": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/humidifier.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/humidifier.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -5070,7 +5321,7 @@
     "salvagesInto": {
       "metal_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/ice_cream_scooper.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/ice_cream_scooper.png",
     "updatedAt": "11/04/2025",
     "addedIn": "base"
   },
@@ -5125,7 +5376,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/il_toro_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -5312,7 +5563,7 @@
     "salvagesInto": {
       "simple_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/il_toro_i.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
@@ -5567,7 +5818,7 @@
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/il_toro_ii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -5811,7 +6062,7 @@
       "heavy_gun_parts": 1,
       "mechanical_components": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/il_toro_iii.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 61.1,
@@ -6061,7 +6312,7 @@
       "heavy_gun_parts": 1,
       "mechanical_components": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/il_toro_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 61.1,
@@ -6149,7 +6400,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -6164,7 +6415,7 @@
     "salvagesInto": {
       "chemicals": 5
     },
-    "imageFilename": "https://cdn.arctracker.io/items/impure_arc_coolant.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/impure_arc_coolant.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -6189,7 +6440,7 @@
       "sr": "Industrijska Baterija",
       "tr": "Endüstriyel Pil",
       "uk": "Промислова батарея",
-      "zh-CN": "工业电池",
+      "zh-CN": "工业级电池",
       "zh-TW": "工業電池"
     },
     "description": {
@@ -6211,7 +6462,7 @@
       "sr": "Velika baterija visokog kapaciteta za industrijsku opremu.",
       "tr": "Endüstriyel ekipman için büyük, yüksek kapasiteli batarya.",
       "uk": "Велика батарея високої ємності для промислового обладнання.",
-      "zh-CN": "用于工业设备的大型高容量电池。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "用於工業設備的大型高容量電池。"
     },
     "type": "Recyclable",
@@ -6227,7 +6478,7 @@
     "salvagesInto": {
       "battery": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/industrial_battery.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/industrial_battery.png",
     "updatedAt": "11/03/2025",
     "addedIn": "base"
   },
@@ -6252,7 +6503,7 @@
       "sr": "Industrijski punjač",
       "tr": "Endüstriyel Şarj Aleti",
       "uk": "Промислове зарядний пристрій",
-      "zh-CN": "工业充电器",
+      "zh-CN": "工业级充电器",
       "zh-TW": "工業充電器"
     },
     "description": {
@@ -6274,7 +6525,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -6290,7 +6541,7 @@
     "salvagesInto": {
       "voltage_converter": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/industrial_charger.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/industrial_charger.png",
     "updatedAt": "10/30/2025",
     "addedIn": "base"
   },
@@ -6315,7 +6566,7 @@
       "sr": "Industrijski magnet",
       "tr": "Endüstriyel Mıknatıs",
       "uk": "Промисловий магніт",
-      "zh-CN": "工业磁铁",
+      "zh-CN": "工业级磁铁",
       "zh-TW": "工業磁鐵"
     },
     "description": {
@@ -6337,7 +6588,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -6353,7 +6604,7 @@
     "salvagesInto": {
       "magnet": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/industrial_magnet.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/industrial_magnet.png",
     "updatedAt": "10/30/2025",
     "addedIn": "base"
   },
@@ -6416,7 +6667,7 @@
     "salvagesInto": {
       "exodus_modules": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/ion_sputter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/ion_sputter.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2"
   },
@@ -6463,7 +6714,7 @@
       "sr": "Mina aktivirana blizinom koja iskoči i omamljuje sve u svom radijusu.",
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak yarıçapı içindeki her şeyi sersemletir.",
       "uk": "Міна з датчиком наближення, яка вистрибує та оглушує все в радіусі дії.",
-      "zh-CN": "一种接近触发的地雷，会弹起并击晕范围内的任何目标。",
+      "zh-CN": "一种触发式地雷，在接近时会弹起并爆炸，让范围内的所有人昏迷。",
       "zh-TW": "一種接近觸發的地雷，會彈起並擊暈範圍內的任何目標。"
     },
     "type": "Blueprint",
@@ -6471,7 +6722,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/jolt_mine_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -6518,7 +6769,7 @@
       "sr": "Mina aktivirana blizinom koja iskoči i omami sve unutar svog radijusa.",
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak yarıçapı içindeki her şeyi sersemletir.",
       "uk": "Міна з датчиком наближення, яка вискакує та оглушує все в радіусі дії.",
-      "zh-CN": "一种近距离触发的地雷，会弹起并眩晕范围内的所有目标。",
+      "zh-CN": "一种触发式地雷，在接近时会弹起并爆炸，让范围内的所有人昏迷。",
       "zh-TW": "一種近距離觸發的地雷，會彈起並暈眩範圍內的所有目標。"
     },
     "type": "Quick Use",
@@ -6611,7 +6862,7 @@
     "salvagesInto": {
       "battery": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/jolt_mine.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -6677,7 +6928,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/jupiter_blueprint.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base"
   },
@@ -6865,7 +7116,7 @@
     "salvagesInto": {
       "advanced_mechanical_components": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/jupiter.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base",
     "agility": 39.2,
@@ -7065,7 +7316,7 @@
     "salvagesInto": {
       "metal_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_i.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -7183,7 +7434,7 @@
       "metal_parts": 8,
       "plastic_parts": 10
     },
-    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_ii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -7436,7 +7687,7 @@
       "metal_parts": 10,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -7663,7 +7914,7 @@
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "modSlots": {
@@ -7853,7 +8104,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/kinetic_converter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kinetic_converter.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -7916,7 +8167,7 @@
     "salvagesInto": {
       "crude_explosives": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/laboratory_reagents.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -7972,7 +8223,7 @@
     "value": 10000,
     "weightKg": 0.2,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/lances_mixtape_5th_edition.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lances_mixtape_5th_edition.png",
     "updatedAt": "11/04/2025",
     "addedIn": "base"
   },
@@ -8037,7 +8288,7 @@
       "arc_motion_core": 1,
       "crude_explosives": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/launcher_ammo.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/launcher_ammo.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -8071,7 +8322,7 @@
       "sr": "Skakačeva pulsna jedinica",
       "tr": "Sıçrayıcı Vurucu Birimi",
       "uk": "Імпульсний блок стрибуна",
-      "zh-CN": "跳跃者脉冲装置",
+      "zh-CN": "“跳跃者”脉冲单元",
       "zh-TW": "跳躍者脈衝裝置"
     },
     "description": {
@@ -8157,7 +8408,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/leaper_pulse_unit.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/leaper_pulse_unit.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -8267,7 +8518,7 @@
     "salvagesInto": {
       "assorted_seeds": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/lemon.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lemon.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -8292,7 +8543,7 @@
       "sr": "Maketa broda \"Leviathan's Crown\"",
       "tr": "\"Leviathan's Crown\" Gemi Modeli",
       "uk": "Модель корабля «Leviathan's Crown»",
-      "zh-CN": "「Leviathan's Crown」号船模",
+      "zh-CN": "“利维坦之冠”舰船模型",
       "zh-TW": "「Leviathan's Crown」號船模"
     },
     "description": {
@@ -8314,7 +8565,7 @@
       "sr": "Veličanstven prizor u bilo kom dobu, ovaj žestoki trgovački brod ravnodušan je prema aerodinamičkim prednostima tehnologije staklenih vlakana.",
       "tr": "Her dönemde görkemli bir manzara olan bu vahşi ticaret gemisi, fiberglas teknolojisinin aerodinamik faydalarına karşı kayıtsızdır.",
       "uk": "Величне видовище в будь-яку епоху — цей лютий торговельний корабель байдужий до аеродинамічних переваг склопластикової технології.",
-      "zh-CN": "无论哪个时代都堪称壮观，这艘凶悍的商船对玻璃纤维技术带来的空气动力学优势毫不在意。",
+      "zh-CN": "这艘强悍商船无论在哪个时代都尽显威严，全然不在意玻璃纤维的“那点”空气动力学优势。",
       "zh-TW": "無論哪個時代都堪稱壯觀，這艘兇悍的商船對玻璃纖維技術帶來的空氣動力學優勢毫不在意。"
     },
     "type": "Trinket",
@@ -8322,7 +8573,7 @@
     "value": 10000,
     "weightKg": 0.5,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/leviathans_crown_ship_model.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/leviathans_crown_ship_model.png",
     "updatedAt": "04/28/2026",
     "addedIn": "1.26"
   },
@@ -8410,7 +8661,7 @@
     "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/lidar_scanner.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lidar_scanner.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
@@ -8479,7 +8730,7 @@
       "chemicals": 2,
       "metal_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/light_ammo.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/light_ammo.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "vendors": [
@@ -8534,7 +8785,7 @@
       "sr": "Bez svetla, život pod zemljom bi bio nemoguć.",
       "tr": "Işık olmadan, yeraltında yaşam imkansız olurdu.",
       "uk": "Без світла життя під землею було б неможливим.",
-      "zh-CN": "没有光，地下生活将不可能。",
+      "zh-CN": "要是没有光，人们就不可能在地下生活。",
       "zh-TW": "沒有光，地下生活將不可能。"
     },
     "type": "Trinket",
@@ -8543,7 +8794,7 @@
     "value": 2000,
     "weightKg": 0.2,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/light_bulb.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/light_bulb.png",
     "updatedAt": "11/01/2025",
     "addedIn": "base"
   },
@@ -8598,7 +8849,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts_blueprint.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/light_gun_parts_blueprint.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base"
   },
@@ -8666,7 +8917,7 @@
     "salvagesInto": {
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/light_gun_parts.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -8797,7 +9048,7 @@
     "salvagesInto": {
       "chemicals": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/light_impact_grenade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/light_impact_grenade.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "vendors": [
@@ -8946,7 +9197,7 @@
     "salvagesInto": {
       "arc_alloy": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/light_shield.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/light_shield.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "damageMitigation": 40,
@@ -9017,7 +9268,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/lightweight_stock_blueprint.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lightweight_stock_blueprint.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base"
   },
@@ -9219,7 +9470,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/lightweight_stock.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lightweight_stock.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -9266,7 +9517,7 @@
       "sr": "Granata koja stvara gust ali mali oblak dima pri udaru, blokirajući vidljivost od ARC-a i drugih Rajdera.",
       "tr": "Çarpma anında kalın ama küçük bir duman bulutu oluşturarak ARC ve diğer Akıncıların görüşünü engelleyen bomba.",
       "uk": "Граната, яка створює густу, але невелику хмару диму при ударі, блокуючи видимість для ARC та інших Рейдерів.",
-      "zh-CN": "着弹时产生浓密但范围较小的烟雾，阻挡ARC和其他奇袭者的视线。",
+      "zh-CN": "撞击时会在爆炸范围内喷出小范围浓密烟雾的手雷，可阻挡ARC及其他奇袭者的视线。",
       "zh-TW": "著彈時產生濃密但範圍較小的煙霧，阻擋ARC和其他掠奪者的視線。"
     },
     "type": "Quick Use",
@@ -9338,7 +9589,7 @@
     "salvagesInto": {
       "chemicals": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/lil_smoke_grenade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lil_smoke_grenade.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -9480,7 +9731,7 @@
     "salvagesInto": {
       "plastic_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk1.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "repairCost": {
@@ -9638,7 +9889,7 @@
     "salvagesInto": {
       "electrical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk2.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "repairCost": {
@@ -9802,7 +10053,7 @@
     "salvagesInto": {
       "electrical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk3_cautious.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "repairCost": {
@@ -9862,7 +10113,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_safekeeper.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk3_safekeeper_blueprint.png",
     "updatedAt": "02/02/2026",
     "addedIn": "1.13"
   },
@@ -10002,7 +10253,7 @@
     "salvagesInto": {
       "electrical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_safekeeper.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk3_safekeeper.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -10056,7 +10307,7 @@
     "rarity": "Common",
     "value": 5000,
     "weightKg": 0,
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk3_survivor_blueprint.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -10196,7 +10447,7 @@
     "salvagesInto": {
       "electrical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/looting_mk3_survivor.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "repairCost": {
@@ -10248,7 +10499,7 @@
       "sr": "Bučna naprava koja se lepi na površine, odvlačeći pažnju obližnjih ARC mašina i privlačeći njihovu vatru.",
       "tr": "Yüzeylere yapışan gürültülü bir cihaz. Yakındaki ARC makinelerinin dikkatini dağıtır ve ateşlerini çeker.",
       "uk": "Шумний пристрій, що прилипає до поверхонь, відволікаючи найближчі машини ARC і приваблюючи їхній вогонь.",
-      "zh-CN": "可粘附在表面的噪音装置，能分散附近ARC机器的注意力并吸引它们的火力。",
+      "zh-CN": "会发出噪音的设备，可以粘附在表面上，分散ARC机器的注意力并引开它们的攻击。",
       "zh-TW": "可黏附在表面的噪音裝置，能分散附近ARC機器的注意力並吸引它們的火力。"
     },
     "type": "Blueprint",
@@ -10256,7 +10507,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lure_grenade_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -10368,7 +10619,7 @@
       "lure_grenade": 1,
       "wires": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/lure_grenade_trap.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lure_grenade_trap.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -10415,7 +10666,7 @@
       "sr": "Uređaj za buku koji se lepi na površine, odvlačeći pažnju obližnjih ARC mašina i privlačeći njihovu vatru.",
       "tr": "Yüzeylere yapışan bir ses cihazı, yakındaki ARC makinelerinin dikkatini dağıtır ve ateşlerini üzerine çeker.",
       "uk": "Звуковий пристрій, який прилипає до поверхонь, відвертаючи увагу найближчих машин ARC і притягуючи їхній вогонь.",
-      "zh-CN": "一种可粘附在表面的噪音装置，可分散附近ARC机械的注意力并吸引其火力。",
+      "zh-CN": "会发出噪音的设备，可以粘附在表面上，分散ARC机器的注意力并引开它们的攻击。",
       "zh-TW": "一種可黏附在表面的噪音裝置，可分散附近ARC機械的注意力並吸引其火力。"
     },
     "type": "Quick Use",
@@ -10436,7 +10687,7 @@
     "salvagesInto": {
       "speaker_component": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/lure_grenade.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -10498,7 +10749,7 @@
     "salvagesInto": {
       "metal_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/magnet.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/magnet.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -10578,7 +10829,7 @@
     "salvagesInto": {
       "advanced_mechanical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/magnetic_accelerator.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -10641,7 +10892,7 @@
     "salvagesInto": {
       "advanced_mechanical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/magnetron.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/magnetron.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2"
   },
@@ -10675,7 +10926,7 @@
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/major_aivas_mementos.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/major_aivas_mementos.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
@@ -10755,350 +11006,64 @@
         "zh-TW": "任務追蹤"
       }
     },
-    "imageFilename": "https://cdn.arctracker.io/items/major_aivas_patch.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/major_aivas_patch.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
   {
-    "id": "matriarch_reactor",
+    "id": "marano_market_business_card",
     "name": {
-      "da": "Matriarkreactor",
-      "de": "Matriarchenreaktor",
-      "en": "Matriarch Reactor",
-      "es": "Reactor de la Matriarca",
-      "fr": "Réacteur de la Matriarche",
-      "he": "כור Matriarch",
-      "hr": "Matrijarhalni Reaktor",
-      "it": "Reattore della Matriarca",
-      "ja": "マトリアークリアクター",
-      "ko-KR": "퀸 리액터",
-      "no": "Matriarkreactor",
-      "pl": "Reaktor Matriarchy",
-      "pt": "Reator da Matriarca",
-      "pt-BR": "Reator da Matriarca",
-      "ru": "Реактор Матриарха",
-      "sr": "Matrijarhalni Reaktor",
-      "tr": "Maderşah Reaktörü",
-      "uk": "Реактор Матріарха",
-      "zh-CN": "“族母”反应堆",
-      "zh-TW": "母巢反應爐"
+      "da": "Visitkort fra Marano Marked",
+      "de": "Visitenkarte des Marano-Markts",
+      "en": "Marano Market Business Card",
+      "es": "Tarjeta de visita del mercado Marano",
+      "fr": "Carte de visite du marché Marano",
+      "he": "כרטיס ביקור של שוק מרנו",
+      "hr": "Posjetnica tržnice Marano",
+      "it": "Biglietto da visita del mercato Marano",
+      "ja": "マラーノ市場の名刺",
+      "ko-KR": "마라노 마켓 명함",
+      "no": "Visittkort fra Marano-markedet",
+      "pl": "Wizytówka targu Marano",
+      "pt": "Cartão de visita do Mercado Marano",
+      "pt-BR": "Cartão de visita do Mercado Marano",
+      "ru": "Визитка рынка Марано",
+      "sr": "Vizitkarta pijace Marano",
+      "tr": "Marano Pazarı kartviziti",
+      "uk": "Візитка ринку Марано",
+      "zh-CN": "马拉诺市场名片",
+      "zh-TW": "馬拉諾市場名片"
     },
     "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Puede reciclarse en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזר לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmaterialer.",
-      "pl": "Można przetworzyć na materiały do wytwarzania.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
+      "da": "Den kradsede skrift på dette visitkort skjuler næsten logoet for Maranos marked.",
+      "de": "Die gekritzelte Schrift auf dieser Visitenkarte verdeckt fast das Logo von Maranos Markt.",
+      "en": "The scribbled writing on this business card almost obscures the logo of Marano's market.",
+      "es": "La escritura garabateada en esta tarjeta de visita casi oculta el logotipo del mercado de Marano.",
+      "fr": "Les gribouillis sur cette carte de visite masquent presque le logo du marché de Marano.",
+      "he": "הכתיבה המקושקשת על כרטיס הביקור הזה כמעט מסתירה את הלוגו של שוק מרנו.",
+      "hr": "Iškrabani tekst na ovoj posjetnici gotovo prekriva logo Maranove tržnice.",
+      "it": "La scritta scarabocchiata su questo biglietto da visita quasi copre il logo del mercato di Marano.",
+      "ja": "この名刺に走り書きされた文字が、マラーノ市場のロゴをほとんど覆い隠している。",
+      "ko-KR": "이 명함에 휘갈겨 쓴 글씨가 마라노 시장의 로고를 거의 가리고 있다.",
+      "no": "Den skriblede teksten på dette visittkortet skjuler nesten logoen til Maranos marked.",
+      "pl": "Nabazgrany napis na tej wizytówce niemal zasłania logo targu Marano.",
+      "pt": "A escrita rabiscada neste cartão de visita quase obscurece o logótipo do mercado de Marano.",
+      "pt-BR": "A escrita rabiscada neste cartão de visita quase obscurece o logotipo do mercado de Marano.",
+      "ru": "Накорябанная надпись на этой визитке почти закрывает логотип рынка Марано.",
+      "sr": "Iškrabani tekst na ovoj vizitkarti gotovo prekriva logo pijace Marano.",
+      "tr": "Bu kartvizitteki karalanmış yazı, Marano pazarının logosunu neredeyse gizliyor.",
+      "uk": "Нашкрябаний напис на цій візитці майже закриває логотип ринку Марано.",
+      "zh-CN": "这张名片上潦草的字迹几乎遮住了马拉诺市场的标志。",
+      "zh-TW": "這張名片上潦草的字跡幾乎遮住了馬拉諾市場的標誌。"
     },
-    "type": "Recyclable",
-    "rarity": "Legendary",
-    "value": 11000,
-    "weightKg": 10,
-    "stackSize": 1,
-    "recyclesInto": {
-      "magnetic_accelerator": 1,
-      "power_rod": 1
-    },
-    "salvagesInto": {
-      "magnetic_accelerator": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/matriarch_reactor.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "1.2"
-  },
-  {
-    "id": "mechanical_components",
-    "name": {
-      "da": "Mekaniske komponenter",
-      "de": "Mechanische Komponenten",
-      "en": "Mechanical Components",
-      "es": "Componentes mecánicos",
-      "fr": "Composants Mécaniques",
-      "he": "רכיבים מכניים",
-      "hr": "Mehaničke Komponente",
-      "it": "Componenti meccanici",
-      "ja": "機械部品",
-      "ko-KR": "기계 부품",
-      "no": "Mekaniske komponenter",
-      "pl": "Komponenty mechaniczne",
-      "pt": "Componentes mecânicos",
-      "pt-BR": "Componentes Mecânicos",
-      "ru": "Механические компоненты",
-      "sr": "Mehaničke Komponente",
-      "tr": "Mekanik Bileşenler",
-      "uk": "Механічні компоненти",
-      "zh-CN": "机械零件",
-      "zh-TW": "機械零件"
-    },
-    "description": {
-      "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Il Toro, Burletta, Anvil, Mundingsbremse II, Udvidet medium magasin II",
-      "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Il Toro, Burletta, Anvil, Mündungsbremse II, Erweitertes mittelschweres Magazin II",
-      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-      "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Il Toro, Burletta, Yunque, Freno de boca II, Cargador mediano extendido II",
-      "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Il Toro, Burletta, Enclume, Frein de bouche II, Chargeur moyen étendu II",
-      "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזר לחומרי יצירה. משמש ליצירת: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-      "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-      "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Il Toro, Burletta, Incudine, Freno di bocca II, Caricatore medio esteso II",
-      "ja": "幅広いアイテムの製作に使用。製作材料にリサイクル可能。製作可能: Il Toro、Burletta、Anvil、マズルブレーキII、拡張ミディアムマガジンII",
-      "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 일 토로, 부를레타, 앤빌, 총구 제동기 II, 확장형 중량 탄창 II",
-      "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Il Toro, Burletta, Anvil, Munningsbrems II, Utvidet medium magasin II",
-      "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Il Toro, Burletta, Anvil, Hamulec wylotowy II, Rozszerzony średni magazynek II",
-      "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Anvil, Freio de boca II, Carregador médio estendido II",
-      "pt-BR": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Bigorna, Freio de Boca II, Carregador Médio Estendido II",
-      "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Il Toro, Burletta, Anvil, дульный тормоз II, расширенный средний магазин II",
-      "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-      "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Il Toro, Burletta, Anvil, Namlu Freni II, Uzatılmış Orta Şarjör II",
-      "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Il Toro, Burletta, Anvil, дульний гальмо II, розширений середній магазин II",
-      "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、中型扩容弹匣II",
-      "zh-TW": "用於製作各種物品。可回收成製作材料。用於製作：Il Toro、Burletta、Anvil、槍口制退器II、延長中型彈匣II"
-    },
-    "type": "Refined Material",
-    "rarity": "Uncommon",
-    "foundIn": "Mechanical",
-    "value": 640,
+    "type": "Trinket",
+    "rarity": "Common",
+    "value": 100,
     "weightKg": 0.5,
-    "stackSize": 10,
-    "craftBench": "refiner",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "metal_parts": 7,
-      "rubber_parts": 3
-    },
-    "recyclesInto": {
-      "metal_parts": 3,
-      "rubber_parts": 2
-    },
-    "salvagesInto": {
-      "metal_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-    "updatedAt": "03/17/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "medium_ammo",
-    "name": {
-      "da": "Mellem ammunition",
-      "de": "Mittlere Munition",
-      "en": "Medium Ammo",
-      "es": "Munición media",
-      "fr": "Munitions Moyennes",
-      "he": "תחמושת בינונית",
-      "hr": "Srednje streljivo",
-      "it": "Munizioni medie",
-      "ja": "中型弾薬",
-      "ko-KR": "중량 탄약",
-      "no": "Middels ammunisjon",
-      "pl": "Średnia amunicja",
-      "pt": "Munição média",
-      "pt-BR": "Munição Média",
-      "ru": "Патрон среднего калибра",
-      "sr": "Srednje streljivo",
-      "tr": "Orta Cephane ",
-      "uk": "Середні патрони",
-      "zh-CN": "中型弹药",
-      "zh-TW": "中型彈藥"
-    },
-    "description": {
-      "da": "Kompatibel med: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "de": "Kompatibel mit: Arpeggio, Rattler, Venator, Tempest, Renegade",
-      "en": "Compatible with: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "es": "Compatible con: Crótalo, Tempestad, Arpeggio, Renegado, Torrente",
-      "fr": "Compatible avec : Crotale, Tempête, Arpège, Renégat, Torrente",
-      "he": "מתאים ל: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "hr": "Kompatibilno s: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "it": "Compatibile con: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "ja": "対応武器: Rattler、Tempest、Arpeggio、Renegade、Torrente",
-      "ko-KR": "호환 무기: 래틀러, 템페스트, 아르페지오, 레니게이드, 토렌테",
-      "no": "Kompatibel med: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "pl": "Kompatybilna z: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "pt": "Compatível com: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "pt-BR": "Compatível com: Arpeggio, Renegado, Torrente, Venator, Águia-Pescadora",
-      "ru": "Совместимо с: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "sr": "Kompatibilno sa: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "tr": "Uyumlu silahlar: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "uk": "Сумісно з: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-      "zh-CN": "兼容武器：Rattler、Tempest、Arpeggio、Renegade、Torrente",
-      "zh-TW": "相容武器：Rattler、Tempest、Arpeggio、Renegade、Torrente"
-    },
-    "type": "Ammunition",
-    "rarity": "Common",
-    "value": 6,
-    "weightKg": 0.025,
-    "stackSize": 80,
-    "craftQuantity": 20,
-    "compatibleWith": [
-      "Arpeggio",
-      "Rattler",
-      "Tempest",
-      "Renegade",
-      "Torrente"
-    ],
-    "craftBench": "workbench",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "chemicals": 2,
-      "metal_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/medium_ammo.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "coins": 900
-        },
-        "trader": "Tian Wen"
-      }
-    ]
-  },
-  {
-    "id": "medium_gun_parts_blueprint",
-    "name": {
-      "da": "Mellemstore våbendele tegning",
-      "de": "Bauplan: Teile für Waffe mit mittlerer Munition",
-      "en": "Medium Gun Parts Blueprint",
-      "es": "Plano de piezas de arma medianas",
-      "fr": "Schéma de Pièces d'Arme Moyennes",
-      "he": "שרטוט חלקי נשק בינוניים",
-      "hr": "Nacrt za srednje dijelove oružja",
-      "it": "Progetto parti arma medie",
-      "ja": "中型銃の部品設計図",
-      "ko-KR": "준중형 총기 부품 설계도",
-      "no": "Middels våpendeler tegning",
-      "pl": "Projekt średnich części broni",
-      "pt": "Projeto de peças de arma médias",
-      "pt-BR": "Esquema de Peças de Arma Média",
-      "ru": "Чертёж средних деталей оружия",
-      "sr": "Nacrt za srednje delove oružja",
-      "tr": "Orta Silah Parçaları Taslağı",
-      "uk": "Креслення середніх деталей зброї",
-      "zh-CN": "中型枪械零件蓝图",
-      "zh-TW": "中型槍械零件藍圖"
-    },
-    "description": {
-      "da": "Assorterede reservedele brugt til rifler.",
-      "de": "Verschiedenste Ersatzteile, die in Gewehren zum Einsatz kommen. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Tempest",
-      "en": "Assorted spare parts used for rifles.",
-      "es": "Piezas de repuesto variadas usadas para rifles.",
-      "fr": "Pièces de rechange assorties utilisées pour les fusils.",
-      "he": "מבחר חלקי חילוף המשמשים לרובים.",
-      "hr": "Razni rezervni dijelovi koji se koriste za puške.",
-      "it": "Parti di ricambio assortite usate per i fucili.",
-      "ja": "ライフル用の各種予備パーツ。",
-      "ko-KR": "소총에 사용되는 다양한 예비 부품.",
-      "no": "Assorterte reservedeler brukt til rifler.",
-      "pl": "Różne części zamienne używane do karabinów.",
-      "pt": "Peças sobressalentes variadas usadas para rifles.",
-      "pt-BR": "Peças sobressalentes variadas usadas para fuzis.",
-      "ru": "Различные запасные части для винтовок.",
-      "sr": "Razni rezervni delovi koji se koriste za puške.",
-      "tr": "Tüfekler için kullanılan çeşitli yedek parçalar.",
-      "uk": "Різні запасні частини для гвинтівок.",
-      "zh-CN": "用于步枪的各种备用零件。",
-      "zh-TW": "用於步槍的各種備用零件。"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts_blueprint.png",
-    "updatedAt": "11/12/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "medium_gun_parts",
-    "name": {
-      "da": "Medium våbendele",
-      "de": "Teile für Waffe mit mittlerer Munition",
-      "en": "Medium Gun Parts",
-      "es": "Piezas de armas medianas",
-      "fr": "Pièces de Pistolet Moyen",
-      "he": "חלקי נשק בינוניים",
-      "hr": "Srednji Dijelovi Oružja",
-      "it": "Parti di armi medie",
-      "ja": "中型銃のパーツ",
-      "ko-KR": "준중형 총기 부품",
-      "no": "Medium våpendeler",
-      "pl": "Średnie części broni",
-      "pt": "Peças de armas médias",
-      "pt-BR": "Peças de Arma Média",
-      "ru": "Детали для оружия среднего калибра",
-      "sr": "Srednji Delovi Oružja",
-      "tr": "Orta Silah Parçaları",
-      "uk": "Середні зброярські деталі",
-      "zh-CN": "中型枪械零件",
-      "zh-TW": "中型槍械零件"
-    },
-    "description": {
-      "da": "Assorterede reservedele brugt til rifler. Bruges til at fremstille: Torrente, Venator, Osprey, Renegade, Tempest",
-      "de": "Verschiedenste Ersatzteile, die in Gewehren zum Einsatz kommen. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Tempest",
-      "en": "Assorted spare parts used for rifles. Used to craft: Torrente, Venator, Osprey, Renegade, Tempest",
-      "es": "Piezas de repuesto variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Osprey, Renegado, Tempestad",
-      "fr": "Un assortiment de pièces détachées utilisées pour les fusils. Permet de fabriquer : Torrente, Venator, Balbuzard, Renégat, Tempête",
-      "he": "מגוון חלקי חילוף המשמשים לרובים. משמש ליצירת: Torrente, Venator, Osprey, Renegade, Tempest",
-      "hr": "Razni rezervni dijelovi za puške. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Tempest",
-      "it": "Parti di ricambio assortite usate per i fucili. Si usa per creare: Torrente, Venator, Osprey, Renegade, Tempest",
-      "ja": "ライフル用の各種予備パーツ。製作に使用: Torrente、Venator、Osprey、Renegade、Tempest",
-      "ko-KR": "소총용 각종 예비 부품. 제작 용도: 토렌테, 베나토르, 오스프레이, 레니게이드, 템페스트",
-      "no": "Assorterte reservedeler brukt til rifler. Brukes til å lage: Torrente, Venator, Osprey, Renegade, Tempest",
-      "pl": "Różne części zamienne używane do karabinów. Używany do wytworzenia: Torrente, Venator, Osprey, Renegade, Tempest",
-      "pt": "Peças de reposição variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Osprey, Renegade, Tempest",
-      "pt-BR": "Peças de reposição variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Águia-Pescadora, Renegado, Temporal",
-      "ru": "Различные запасные части для винтовок. Используется для создания: Torrente, Venator, Osprey, Renegade, Tempest",
-      "sr": "Razni rezervni delovi za puške. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Tempest",
-      "tr": "Tüfekler için çeşitli yedek parçalar. Üretimde kullanılır: Torrente, Venator, Osprey, Renegade, Tempest",
-      "uk": "Різноманітні запасні частини для гвинтівок. Використовується для створення: Torrente, Venator, Osprey, Renegade, Tempest",
-      "zh-CN": "用于步枪的各种备用零件。用于制作：Torrente、Venator、Osprey、Renegade、Tempest",
-      "zh-TW": "用於步槍的各種備用零件。用於製作：Torrente、Venator、Osprey、Renegade、Tempest"
-    },
-    "type": "Topside Material",
-    "rarity": "Rare",
-    "foundIn": "Raider, Security",
-    "value": 700,
-    "weightKg": 0.4,
-    "stackSize": 5,
-    "blueprintLocked": true,
-    "craftBench": "refiner",
-    "stationLevelRequired": 2,
-    "recipe": {
-      "simple_gun_parts": 4
-    },
-    "recyclesInto": {
-      "simple_gun_parts": 2
-    },
-    "salvagesInto": {
-      "simple_gun_parts": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
-    "updatedAt": "03/22/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "assorted_seeds": 15
-        },
-        "limit": 3,
-        "refreshSeconds": 86400,
-        "requiredLevel": 12,
-        "trader": "Celeste"
-      }
-    ]
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/marano_market_business_card.png",
+    "updatedAt": "05/04/2026",
+    "addedIn": "1.26"
   }
 ]

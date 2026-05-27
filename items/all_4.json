@@ -1,5 +1,347 @@
 [
   {
+    "id": "matriarch_reactor",
+    "name": {
+      "da": "Matriarkreactor",
+      "de": "Matriarchenreaktor",
+      "en": "Matriarch Reactor",
+      "es": "Reactor de la Matriarca",
+      "fr": "Réacteur de la Matriarche",
+      "he": "כור Matriarch",
+      "hr": "Matrijarhalni Reaktor",
+      "it": "Reattore della Matriarca",
+      "ja": "マトリアークリアクター",
+      "ko-KR": "퀸 리액터",
+      "no": "Matriarkreactor",
+      "pl": "Reaktor Matriarchy",
+      "pt": "Reator da Matriarca",
+      "pt-BR": "Reator da Matriarca",
+      "ru": "Реактор Матриарха",
+      "sr": "Matrijarhalni Reaktor",
+      "tr": "Maderşah Reaktörü",
+      "uk": "Реактор Матріарха",
+      "zh-CN": "“族母”反应堆",
+      "zh-TW": "母巢反應爐"
+    },
+    "description": {
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Puede reciclarse en materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux d'artisanat.",
+      "he": "ניתן למחזר לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Si può riciclare in materiali da creazione.",
+      "ja": "クラフト素材にリサイクルできます。",
+      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan resirkuleres til håndverksmaterialer.",
+      "pl": "Można przetworzyć na materiały do wytwarzania.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать в материалы для крафта.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для крафту.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收為製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Legendary",
+    "value": 11000,
+    "weightKg": 10,
+    "stackSize": 1,
+    "recyclesInto": {
+      "magnetic_accelerator": 1,
+      "power_rod": 1
+    },
+    "salvagesInto": {
+      "magnetic_accelerator": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/matriarch_reactor.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "1.2"
+  },
+  {
+    "id": "mechanical_components",
+    "name": {
+      "da": "Mekaniske komponenter",
+      "de": "Mechanische Komponenten",
+      "en": "Mechanical Components",
+      "es": "Componentes mecánicos",
+      "fr": "Composants Mécaniques",
+      "he": "רכיבים מכניים",
+      "hr": "Mehaničke Komponente",
+      "it": "Componenti meccanici",
+      "ja": "機械部品",
+      "ko-KR": "기계 부품",
+      "no": "Mekaniske komponenter",
+      "pl": "Komponenty mechaniczne",
+      "pt": "Componentes mecânicos",
+      "pt-BR": "Componentes Mecânicos",
+      "ru": "Механические компоненты",
+      "sr": "Mehaničke Komponente",
+      "tr": "Mekanik Bileşenler",
+      "uk": "Механічні компоненти",
+      "zh-CN": "机械零件",
+      "zh-TW": "機械零件"
+    },
+    "description": {
+      "da": "Bruges til at fremstille en bred vifte af genstande. Kan genbruges til håndværksmaterialer. Bruges til at fremstille: Il Toro, Burletta, Anvil, Mundingsbremse II, Udvidet medium magasin II",
+      "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden. Zur Herstellung von: Il Toro, Burletta, Anvil, Mündungsbremse II, Erweitertes mittelschweres Magazin II",
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+      "es": "Usado para fabricar una amplia gama de objetos. Puede reciclarse en materiales de fabricación. Usado para fabricar: Il Toro, Burletta, Yunque, Freno de boca II, Cargador mediano extendido II",
+      "fr": "Permet de fabriquer une large gamme d'objets. Peut être recyclé en matériaux d'artisanat. Permet de fabriquer : Il Toro, Burletta, Enclume, Frein de bouche II, Chargeur moyen étendu II",
+      "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזר לחומרי יצירה. משמש ליצירת: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+      "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu. Koristi se za izradu: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+      "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione. Si usa per creare: Il Toro, Burletta, Incudine, Freno di bocca II, Caricatore medio esteso II",
+      "ja": "幅広いアイテムの製作に使用。製作材料にリサイクル可能。製作可能: Il Toro、Burletta、Anvil、マズルブレーキII、拡張ミディアムマガジンII",
+      "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용 가능. 제작 가능: 일 토로, 부를레타, 앤빌, 총구 제동기 II, 확장형 중량 탄창 II",
+      "no": "Brukes til å lage et bredt spekter av gjenstander. Kan resirkuleres til håndverksmateriell. Brukes til å lage: Il Toro, Burletta, Anvil, Munningsbrems II, Utvidet medium magasin II",
+      "pl": "Używany do wytwarzania szerokiej gamy przedmiotów. Może być przetworzony na materiały rzemieślnicze. Używany do wytworzenia: Il Toro, Burletta, Anvil, Hamulec wylotowy II, Rozszerzony średni magazynek II",
+      "pt": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Anvil, Freio de boca II, Carregador médio estendido II",
+      "pt-BR": "Usado para fabricar uma ampla gama de itens. Pode ser reciclado em materiais de fabricação. Usado para fabricar: Il Toro, Burletta, Bigorna, Freio de Boca II, Carregador Médio Estendido II",
+      "ru": "Используется для создания широкого спектра предметов. Можно переработать в материалы для крафта. Используется для создания: Il Toro, Burletta, Anvil, дульный тормоз II, расширенный средний магазин II",
+      "sr": "Koristi se za pravljenje širokog spektra predmeta. Može se reciklirati u materijale za pravljenje. Koristi se za pravljenje: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+      "tr": "Çok çeşitli eşyaları üretmek için kullanılır. Üretim malzemelerine geri dönüştürülebilir. Üretim için kullanılır: Il Toro, Burletta, Anvil, Namlu Freni II, Uzatılmış Orta Şarjör II",
+      "uk": "Використовується для створення широкого спектру предметів. Можна переробити на матеріали для крафту. Використовується для створення: Il Toro, Burletta, Anvil, дульний гальмо II, розширений середній магазин II",
+      "zh-CN": "用于制作各种物品。可回收成制作材料。用于制作：Il Toro、Burletta、Anvil、枪口制退器II、中型扩容弹匣II",
+      "zh-TW": "用於製作各種物品。可回收成製作材料。用於製作：Il Toro、Burletta、Anvil、槍口制退器II、延長中型彈匣II"
+    },
+    "type": "Refined Material",
+    "rarity": "Uncommon",
+    "foundIn": "Mechanical",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 10,
+    "craftBench": "refiner",
+    "stationLevelRequired": 1,
+    "recipe": {
+      "metal_parts": 7,
+      "rubber_parts": 3
+    },
+    "recyclesInto": {
+      "metal_parts": 3,
+      "rubber_parts": 2
+    },
+    "salvagesInto": {
+      "metal_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/mechanical_components.png",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "medium_ammo",
+    "name": {
+      "da": "Mellem ammunition",
+      "de": "Mittlere Munition",
+      "en": "Medium Ammo",
+      "es": "Munición media",
+      "fr": "Munitions Moyennes",
+      "he": "תחמושת בינונית",
+      "hr": "Srednje streljivo",
+      "it": "Munizioni medie",
+      "ja": "中型弾薬",
+      "ko-KR": "중량 탄약",
+      "no": "Middels ammunisjon",
+      "pl": "Średnia amunicja",
+      "pt": "Munição média",
+      "pt-BR": "Munição Média",
+      "ru": "Патрон среднего калибра",
+      "sr": "Srednje streljivo",
+      "tr": "Orta Cephane ",
+      "uk": "Середні патрони",
+      "zh-CN": "中型弹药",
+      "zh-TW": "中型彈藥"
+    },
+    "description": {
+      "da": "Kompatibel med: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "de": "Kompatibel mit: Arpeggio, Rattler, Venator, Tempest, Renegade",
+      "en": "Compatible with: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "es": "Compatible con: Crótalo, Tempestad, Arpeggio, Renegado, Torrente",
+      "fr": "Compatible avec : Crotale, Tempête, Arpège, Renégat, Torrente",
+      "he": "מתאים ל: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "hr": "Kompatibilno s: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "it": "Compatibile con: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "ja": "対応武器: Rattler、Tempest、Arpeggio、Renegade、Torrente",
+      "ko-KR": "호환 무기: 래틀러, 템페스트, 아르페지오, 레니게이드, 토렌테",
+      "no": "Kompatibel med: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "pl": "Kompatybilna z: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "pt": "Compatível com: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "pt-BR": "Compatível com: Arpeggio, Renegado, Torrente, Venator, Águia-Pescadora",
+      "ru": "Совместимо с: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "sr": "Kompatibilno sa: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "tr": "Uyumlu silahlar: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "uk": "Сумісно з: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+      "zh-CN": "兼容武器：Rattler、Tempest、Arpeggio、Renegade、Torrente",
+      "zh-TW": "相容武器：Rattler、Tempest、Arpeggio、Renegade、Torrente"
+    },
+    "type": "Ammunition",
+    "rarity": "Common",
+    "value": 6,
+    "weightKg": 0.025,
+    "stackSize": 80,
+    "craftQuantity": 20,
+    "compatibleWith": [
+      "Arpeggio",
+      "Rattler",
+      "Tempest",
+      "Renegade",
+      "Torrente"
+    ],
+    "craftBench": "workbench",
+    "stationLevelRequired": 1,
+    "recipe": {
+      "chemicals": 2,
+      "metal_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/medium_ammo.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base",
+    "vendors": [
+      {
+        "cost": {
+          "coins": 900
+        },
+        "trader": "Tian Wen"
+      }
+    ]
+  },
+  {
+    "id": "medium_gun_parts_blueprint",
+    "name": {
+      "da": "Mellemstore våbendele tegning",
+      "de": "Bauplan: Teile für Waffe mit mittlerer Munition",
+      "en": "Medium Gun Parts Blueprint",
+      "es": "Plano de piezas de arma medianas",
+      "fr": "Schéma de Pièces d'Arme Moyennes",
+      "he": "שרטוט חלקי נשק בינוניים",
+      "hr": "Nacrt za srednje dijelove oružja",
+      "it": "Progetto parti arma medie",
+      "ja": "中型銃の部品設計図",
+      "ko-KR": "준중형 총기 부품 설계도",
+      "no": "Middels våpendeler tegning",
+      "pl": "Projekt średnich części broni",
+      "pt": "Projeto de peças de arma médias",
+      "pt-BR": "Esquema de Peças de Arma Média",
+      "ru": "Чертёж средних деталей оружия",
+      "sr": "Nacrt za srednje delove oružja",
+      "tr": "Orta Silah Parçaları Taslağı",
+      "uk": "Креслення середніх деталей зброї",
+      "zh-CN": "中型枪械零件蓝图",
+      "zh-TW": "中型槍械零件藍圖"
+    },
+    "description": {
+      "da": "Assorterede reservedele brugt til rifler.",
+      "de": "Verschiedenste Ersatzteile, die in Gewehren zum Einsatz kommen. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Tempest",
+      "en": "Assorted spare parts used for rifles.",
+      "es": "Piezas de repuesto variadas usadas para rifles.",
+      "fr": "Pièces de rechange assorties utilisées pour les fusils.",
+      "he": "מבחר חלקי חילוף המשמשים לרובים.",
+      "hr": "Razni rezervni dijelovi koji se koriste za puške.",
+      "it": "Parti di ricambio assortite usate per i fucili.",
+      "ja": "ライフル用の各種予備パーツ。",
+      "ko-KR": "소총에 사용되는 다양한 예비 부품.",
+      "no": "Assorterte reservedeler brukt til rifler.",
+      "pl": "Różne części zamienne używane do karabinów.",
+      "pt": "Peças sobressalentes variadas usadas para rifles.",
+      "pt-BR": "Peças sobressalentes variadas usadas para fuzis.",
+      "ru": "Различные запасные части для винтовок.",
+      "sr": "Razni rezervni delovi koji se koriste za puške.",
+      "tr": "Tüfekler için kullanılan çeşitli yedek parçalar.",
+      "uk": "Різні запасні частини для гвинтівок.",
+      "zh-CN": "用于步枪的各种备用零件。",
+      "zh-TW": "用於步槍的各種備用零件。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/medium_gun_parts_blueprint.png",
+    "updatedAt": "11/12/2025",
+    "addedIn": "base"
+  },
+  {
+    "id": "medium_gun_parts",
+    "name": {
+      "da": "Medium våbendele",
+      "de": "Teile für Waffe mit mittlerer Munition",
+      "en": "Medium Gun Parts",
+      "es": "Piezas de armas medianas",
+      "fr": "Pièces de Pistolet Moyen",
+      "he": "חלקי נשק בינוניים",
+      "hr": "Srednji Dijelovi Oružja",
+      "it": "Parti di armi medie",
+      "ja": "中型銃のパーツ",
+      "ko-KR": "준중형 총기 부품",
+      "no": "Medium våpendeler",
+      "pl": "Średnie części broni",
+      "pt": "Peças de armas médias",
+      "pt-BR": "Peças de Arma Média",
+      "ru": "Детали для оружия среднего калибра",
+      "sr": "Srednji Delovi Oružja",
+      "tr": "Orta Silah Parçaları",
+      "uk": "Середні зброярські деталі",
+      "zh-CN": "中型枪械零件",
+      "zh-TW": "中型槍械零件"
+    },
+    "description": {
+      "da": "Assorterede reservedele brugt til rifler. Bruges til at fremstille: Torrente, Venator, Osprey, Renegade, Tempest",
+      "de": "Verschiedenste Ersatzteile, die in Gewehren zum Einsatz kommen. Zur Herstellung von: Torrente, Venator, Osprey, Renegade, Tempest",
+      "en": "Assorted spare parts used for rifles. Used to craft: Torrente, Venator, Osprey, Renegade, Tempest",
+      "es": "Piezas de repuesto variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Osprey, Renegado, Tempestad",
+      "fr": "Un assortiment de pièces détachées utilisées pour les fusils. Permet de fabriquer : Torrente, Venator, Balbuzard, Renégat, Tempête",
+      "he": "מגוון חלקי חילוף המשמשים לרובים. משמש ליצירת: Torrente, Venator, Osprey, Renegade, Tempest",
+      "hr": "Razni rezervni dijelovi za puške. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Tempest",
+      "it": "Parti di ricambio assortite usate per i fucili. Si usa per creare: Torrente, Venator, Osprey, Renegade, Tempest",
+      "ja": "ライフル用の各種予備パーツ。製作に使用: Torrente、Venator、Osprey、Renegade、Tempest",
+      "ko-KR": "소총용 각종 예비 부품. 제작 용도: 토렌테, 베나토르, 오스프레이, 레니게이드, 템페스트",
+      "no": "Assorterte reservedeler brukt til rifler. Brukes til å lage: Torrente, Venator, Osprey, Renegade, Tempest",
+      "pl": "Różne części zamienne używane do karabinów. Używany do wytworzenia: Torrente, Venator, Osprey, Renegade, Tempest",
+      "pt": "Peças de reposição variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Osprey, Renegade, Tempest",
+      "pt-BR": "Peças de reposição variadas usadas para rifles. Usado para fabricar: Torrente, Venator, Águia-Pescadora, Renegado, Temporal",
+      "ru": "Различные запасные части для винтовок. Используется для создания: Torrente, Venator, Osprey, Renegade, Tempest",
+      "sr": "Razni rezervni delovi za puške. Koristi se za izradu: Torrente, Venator, Osprey, Renegade, Tempest",
+      "tr": "Tüfekler için çeşitli yedek parçalar. Üretimde kullanılır: Torrente, Venator, Osprey, Renegade, Tempest",
+      "uk": "Різноманітні запасні частини для гвинтівок. Використовується для створення: Torrente, Venator, Osprey, Renegade, Tempest",
+      "zh-CN": "用于步枪的各种备用零件。用于制作：Torrente、Venator、Osprey、Renegade、Tempest",
+      "zh-TW": "用於步槍的各種備用零件。用於製作：Torrente、Venator、Osprey、Renegade、Tempest"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "foundIn": "Raider, Security",
+    "value": 700,
+    "weightKg": 0.4,
+    "stackSize": 5,
+    "blueprintLocked": true,
+    "craftBench": "refiner",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "simple_gun_parts": 4
+    },
+    "recyclesInto": {
+      "simple_gun_parts": 2
+    },
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/medium_gun_parts.png",
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
+    "vendors": [
+      {
+        "cost": {
+          "assorted_seeds": 15
+        },
+        "limit": 3,
+        "refreshSeconds": 86400,
+        "requiredLevel": 12,
+        "trader": "Celeste"
+      }
+    ]
+  },
+  {
     "id": "medium_shield",
     "name": {
       "da": "Mellemstort skjold",
@@ -156,7 +498,7 @@
     "salvagesInto": {
       "arc_alloy": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/medium_shield.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/medium_shield.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "damageMitigation": 42.5,
@@ -238,7 +580,7 @@
     "salvagesInto": {
       "metal_parts": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/metal_brackets.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/metal_brackets.png",
     "updatedAt": "11/10/2025",
     "addedIn": "base"
   },
@@ -294,7 +636,7 @@
     "value": 75,
     "weightKg": 0.1,
     "stackSize": 50,
-    "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/metal_parts.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "vendors": [
@@ -349,7 +691,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收为制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收為製作材料。"
     },
     "type": "Recyclable",
@@ -365,7 +707,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/microscope.png",
     "updatedAt": "01/09/2026",
     "addedIn": "1.2"
   },
@@ -428,7 +770,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/mini_centrifuge.png",
     "updatedAt": "01/09/2026",
     "addedIn": "1.2"
   },
@@ -497,7 +839,7 @@
     "salvagesInto": {
       "mechanical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/mod_components.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -553,7 +895,7 @@
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/moisture_meter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/moisture_meter.png",
     "updatedAt": "04/14/2026",
     "addedIn": "1.7"
   },
@@ -686,7 +1028,7 @@
     "salvagesInto": {
       "assorted_seeds": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/moss.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/moss.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -722,7 +1064,7 @@
       "sr": "Motor",
       "tr": "Motor",
       "uk": "Мотор",
-      "zh-CN": "马达",
+      "zh-CN": "发动机",
       "zh-TW": "馬達"
     },
     "description": {
@@ -744,7 +1086,7 @@
       "sr": "Mali električni motor, koristan za razne uređaje.",
       "tr": "Çeşitli cihazlar için kullanışlı küçük bir elektrik motoru.",
       "uk": "Невеликий електромотор, корисний для різних пристроїв.",
-      "zh-CN": "小型电动马达，可用于各种装置。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "小型電動馬達，可用於各種裝置。"
     },
     "type": "Recyclable",
@@ -760,7 +1102,7 @@
     "salvagesInto": {
       "oil": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/motor.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/motor.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -864,7 +1206,7 @@
         "zh-TW": "使用時間"
       }
     },
-    "imageFilename": "https://cdn.arctracker.io/items/mushroom.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/mushroom.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -920,7 +1262,7 @@
     "value": 3000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/music_album.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/music_album.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -976,7 +1318,7 @@
     "value": 5000,
     "weightKg": 0.4,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/music_box.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/music_box.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -1106,7 +1448,7 @@
     "salvagesInto": {
       "metal_parts": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_i.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/muzzle_brake_i.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -1220,7 +1562,7 @@
         "zh-TW": "降低垂直後座力"
       }
     },
-    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/muzzle_brake_ii_blueprint.png",
     "updatedAt": "11/12/2025",
     "addedIn": "base"
   },
@@ -1352,7 +1694,7 @@
     "salvagesInto": {
       "mechanical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/muzzle_brake_ii.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base"
   },
@@ -1407,7 +1749,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_iii.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/muzzle_brake_iii_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -1562,7 +1904,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_iii.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/muzzle_brake_iii.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -1676,7 +2018,7 @@
     "salvagesInto": {
       "speaker_component": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/noisemaker.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/noisemaker.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base",
     "vendors": [
@@ -1748,7 +2090,7 @@
     "salvagesInto": {
       "metal_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/number_plate.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/number_plate.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -1804,7 +2146,7 @@
     "weightKg": 0.25,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/nutrient_meter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/nutrient_meter.png",
     "updatedAt": "04/14/2026",
     "addedIn": "1.7"
   },
@@ -1860,6 +2202,7 @@
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/official_shutdown_documentation.png",
     "updatedAt": "04/14/2026",
     "addedIn": "1.22"
   },
@@ -1906,7 +2249,7 @@
       "sr": "Koristi se za izradu oružja i eksploziva. Može se reciklirati u hemikalije. Koristi se za izradu: Renegade, Eksplozivna Smesa, Blaze Granata",
       "tr": "Silah ve patlayıcı üretmek için kullanılır. Kimyasallara geri dönüştürülebilir. Üretim için kullanılır: Renegade, Patlayıcı Bileşik, Alev Bombası",
       "uk": "Використовується для створення зброї та вибухівки. Можна переробити на хімікати. Використовується для створення: Renegade, вибухова суміш, вогняна граната",
-      "zh-CN": "用于制作武器和爆炸物。可回收为化学品。用于制作：Renegade、爆炸化合物、火焰手雷",
+      "zh-CN": "用于制作武器和爆炸物。可回收为化学品。用于制作：叛逆、炸药混合物、火焰手雷",
       "zh-TW": "用於製作武器和爆裂物。可回收為化學品。用於製作：Renegade、爆炸化合物、烈焰手榴彈"
     },
     "type": "Topside Material",
@@ -1921,7 +2264,7 @@
     "salvagesInto": {
       "chemicals": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/oil.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/oil.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -1987,7 +2330,7 @@
     "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/old_world_books.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/old_world_books.png",
     "updatedAt": "04/14/2026",
     "addedIn": "1.1"
   },
@@ -2097,7 +2440,7 @@
     "salvagesInto": {
       "assorted_seeds": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/olives.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/olives.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -2152,7 +2495,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/osprey_blueprint.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -2363,7 +2706,7 @@
     "salvagesInto": {
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_i.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -2659,7 +3002,7 @@
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_ii.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 45.9,
@@ -2961,7 +3304,7 @@
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_iii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 45.9,
@@ -3263,7 +3606,7 @@
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 45.9,
@@ -3365,7 +3708,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/padded_stock_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -3590,7 +3933,7 @@
     "salvagesInto": {
       "mechanical_components": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/padded_stock.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -3657,7 +4000,7 @@
     "value": 2000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/painted_box.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/painted_box.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -3704,7 +4047,7 @@
       "sr": "Ključ patrolnog automobila.",
       "tr": "Bir devriye arabasının anahtarı.",
       "uk": "Ключ від патрульної машини.",
-      "zh-CN": "巡逻车的钥匙。",
+      "zh-CN": "解锁巡逻车的后门。",
       "zh-TW": "巡邏車的鑰匙。"
     },
     "type": "Key",
@@ -3713,7 +4056,7 @@
     "value": 100,
     "weightKg": 0.01,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/patrol_car_key.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/patrol_car_key.png",
     "updatedAt": "12/07/2025",
     "addedIn": "base"
   },
@@ -3760,13 +4103,13 @@
       "sr": "Naprava koja omogućava korisniku da se sakrije od ARC-a.",
       "tr": "Kullanıcının kendini ARC'den gizlemesini sağlayan bir alet.",
       "uk": "Гаджет, що дозволяє користувачу сховатися від ARC.",
-      "zh-CN": "能让使用者躲避ARC的装置。",
+      "zh-CN": "可以让使用者在ARC视线内“隐形”的小道具。",
       "zh-TW": "能讓使用者躲避ARC的裝置。"
     },
     "type": "Quick Use",
     "rarity": "Epic",
     "value": 5000,
-    "weightKg": 1,
+    "weightKg": 3,
     "stackSize": 1,
     "effects": {
       "Durability": {
@@ -3806,7 +4149,7 @@
     "salvagesInto": {
       "advanced_electrical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/photoelectric_cloak.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/photoelectric_cloak.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "repairCost": {
@@ -3866,7 +4209,7 @@
     "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/security_code.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/pilgrims_peak_security_code.png",
     "updatedAt": "02/06/2026",
     "addedIn": "base"
   },
@@ -3922,7 +4265,7 @@
     "value": 60,
     "weightKg": 0.1,
     "stackSize": 50,
-    "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/plastic_parts.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "vendors": [
@@ -3986,7 +4329,7 @@
     "value": 5000,
     "weightKg": 0.2,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/playing_cards.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/playing_cards.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -4011,7 +4354,7 @@
       "sr": "Filter za Zagađeni Vazduh",
       "tr": "Kirlenmiş Hava Filtresi",
       "uk": "Фільтр забрудненого повітря",
-      "zh-CN": "污染空气过滤器",
+      "zh-CN": "污染的空气滤芯",
       "zh-TW": "污染空氣過濾器"
     },
     "description": {
@@ -4033,7 +4376,7 @@
       "sr": "Može se reciklirati u komponente za izradu.",
       "tr": "Üretim bileşenlerine geri dönüştürülebilir.",
       "uk": "Можна переробити на компоненти для крафту.",
-      "zh-CN": "可回收为制作组件。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收為製作組件。"
     },
     "type": "Recyclable",
@@ -4049,7 +4392,7 @@
     "salvagesInto": {
       "oil": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/polluted_air_filter.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/polluted_air_filter.png",
     "updatedAt": "11/10/2025",
     "addedIn": "base"
   },
@@ -4096,7 +4439,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -4112,7 +4455,7 @@
     "salvagesInto": {
       "crude_explosives": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/pop_trigger.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/pop_trigger.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -4159,7 +4502,7 @@
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "İşleme malzemelerine geri dönüştürülebilir.",
       "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可以回收成製作材料。"
     },
     "type": "Recyclable",
@@ -4175,7 +4518,7 @@
     "salvagesInto": {
       "wires": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/portable_tv.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/portable_tv.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base"
   },
@@ -4209,7 +4552,7 @@
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/possibly_toxic_plant.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/possibly_toxic_plant.png",
     "updatedAt": "04/14/2026",
     "addedIn": "base"
   },
@@ -4265,7 +4608,7 @@
     "value": 2000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/poster_of_natural_wonders.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/poster_of_natural_wonders.png",
     "updatedAt": "11/01/2025",
     "addedIn": "base"
   },
@@ -4321,7 +4664,7 @@
     "value": 2000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/pottery.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/pottery.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -4384,7 +4727,7 @@
     "salvagesInto": {
       "battery": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/power_bank.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/power_bank.png",
     "updatedAt": "11/02/2025",
     "addedIn": "base"
   },
@@ -4446,7 +4789,7 @@
     "salvagesInto": {
       "wires": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/power_cable.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/power_cable.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -4515,7 +4858,7 @@
     "salvagesInto": {
       "advanced_electrical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/power_rod.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/power_rod.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -4562,7 +4905,7 @@
       "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
       "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
       "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
-      "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+      "zh-CN": "在空中使用可降低坠落速度，但需短暂蓄力才能达到最大效果。电量耗尽即停止工作。",
       "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
     },
     "type": "Blueprint",
@@ -4570,6 +4913,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/powered_descender_blueprint.png",
     "updatedAt": "04/28/2026",
     "addedIn": "1.26"
   },
@@ -4616,7 +4960,7 @@
       "sr": "Smanjuje brzinu pada kada se koristi u vazduhu, ali treba mu vreme za pokretanje pre nego što dostigne punu snagu. Isključuje se kada ostane bez energije",
       "tr": "Havada kullanıldığında düşüş hızını azaltır, ancak tam güce ulaşmadan önce hazırlanma süresi vardır. Gücü tükendiğinde kapanır",
       "uk": "Зменшує швидкість падіння під час використання в повітрі, але потребує часу на розгін до повної сили. Вимикається, коли закінчується заряд",
-      "zh-CN": "在空中使用时可降低下坠速度，但需要预热时间才能达到全功率。电量耗尽后会关闭",
+      "zh-CN": "在空中使用可降低坠落速度，但需短暂蓄力才能达到最大效果。电量耗尽即停止工作。",
       "zh-TW": "在空中使用時可降低下墜速度，但需要預熱時間才能達到全功率。電力耗盡後會關閉"
     },
     "type": "Quick Use",
@@ -4638,7 +4982,7 @@
     "salvagesInto": {
       "advanced_electrical_components": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/powered_descender.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/powered_descender.png",
     "updatedAt": "04/28/2026",
     "addedIn": "1.26"
   },
@@ -4694,6 +5038,7 @@
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/precision_gimbal.png",
     "updatedAt": "04/28/2026",
     "addedIn": "1.26"
   },
@@ -4755,7 +5100,7 @@
     "salvagesInto": {
       "assorted_seeds": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/prickly_pear.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/prickly_pear.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -4818,7 +5163,7 @@
     "salvagesInto": {
       "plastic_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/processor.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/processor.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -4854,7 +5199,7 @@
       "sr": "Nacrti projekta Heartwood",
       "tr": "Project Heartwood Planları",
       "uk": "Креслення проєкту Heartwood",
-      "zh-CN": "“芯木计划”蓝图",
+      "zh-CN": "常青计划蓝图",
       "zh-TW": "心材計劃藍圖"
     },
     "description": {
@@ -4876,7 +5221,7 @@
       "sr": "Izbledeli nacrti za nešto što se zove projekat Heartwood. Šta god da je to bilo, nikada nije izgrađeno.",
       "tr": "Project Heartwood denen bir şeyin solmuş planları. Her ne idiyse, asla inşa edilmemiş.",
       "uk": "Вицвілі креслення чогось під назвою Проєкт Heartwood. Що б це не було, його так і не збудували.",
-      "zh-CN": "一项名为“芯木计划”的褪色蓝图。无论那是什么，它从未被建成过。",
+      "zh-CN": "一项名为“常青计划”的褪色蓝图。无论那是什么，它从未被建成过。",
       "zh-TW": "一份名為「心材」計劃的褪色藍圖。無論那是什麼，它從未被建造出來。"
     },
     "type": "Trinket",
@@ -4884,6 +5229,7 @@
     "value": 100,
     "weightKg": 0,
     "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/project_heartwood_blueprints.png",
     "updatedAt": "04/14/2026",
     "addedIn": "1.17"
   },
@@ -4946,7 +5292,7 @@
     "salvagesInto": {
       "processor": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/projector.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/projector.png",
     "updatedAt": "11/04/2025",
     "addedIn": "base"
   },
@@ -4971,7 +5317,7 @@
       "sr": "Nacrt za pulsnu minu",
       "tr": "Sıçrama Mayını: İtici Taslağı",
       "uk": "Креслення імпульсної міни",
-      "zh-CN": "跳雷：冲击蓝图",
+      "zh-CN": "脉冲地雷蓝图",
       "zh-TW": "脈衝地雷藍圖"
     },
     "description": {
@@ -4993,7 +5339,7 @@
       "sr": "Mina aktivirana blizinom koja iskoči i odbaci sve u svom radijusu.",
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak yarıçapı içindeki her şeyi geri iter.",
       "uk": "Міна з датчиком наближення, яка вистрибує і відкидає все в радіусі дії.",
-      "zh-CN": "一种近距离触发的地雷，会弹起并击退半径内的任何目标。",
+      "zh-CN": "一种近距离触发式地雷，在接近时会弹起并爆炸，击退范围内的所有人。",
       "zh-TW": "一種近距離觸發的地雷，會彈起並擊退半徑內的任何目標。"
     },
     "type": "Blueprint",
@@ -5001,7 +5347,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/pulse_mine_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2"
   },
@@ -5026,7 +5372,7 @@
       "sr": "Pulsna mina",
       "tr": "Sıçrama Mayını: İtici",
       "uk": "Імпульсна міна",
-      "zh-CN": "跳雷：冲击",
+      "zh-CN": "跳雷：冲击（脉冲地雷）",
       "zh-TW": "脈衝地雷"
     },
     "description": {
@@ -5048,7 +5394,7 @@
       "sr": "Mina aktivirana blizinom koja iskoči i odbaci sve u svom radijusu.",
       "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak yarıçapı içindeki her şeyi geri iter.",
       "uk": "Міна з датчиком наближення, яка вистрибує і відкидає все в радіусі дії.",
-      "zh-CN": "一种近距离触发的地雷，会弹起并击退半径内的任何目标。",
+      "zh-CN": "一种近距离触发式地雷，在接近时会弹起并爆炸，击退范围内的所有人。",
       "zh-TW": "一種近距離觸發的地雷，會彈起並擊退半徑內的任何目標。"
     },
     "type": "Quick Use",
@@ -5094,7 +5440,7 @@
     "salvagesInto": {
       "chemicals": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/pulse_mine.png",
     "updatedAt": "03/22/2026",
     "addedIn": "1.2",
     "vendors": [
@@ -5168,7 +5514,7 @@
     "salvagesInto": {
       "power_rod": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/queen_reactor.png",
     "updatedAt": "01/09/2026",
     "addedIn": "base",
     "tip": "The Queen Reactor is a legendary item only acquired by defeating The Queen that can be recycled into crafting materials."
@@ -5232,7 +5578,7 @@
     "salvagesInto": {
       "sensors": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/radio_relay.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/radio_relay.png",
     "updatedAt": "01/13/2026",
     "addedIn": "1.2"
   },
@@ -5279,7 +5625,7 @@
       "sr": "Može se reciklirati u komponente za izradu.",
       "tr": "Üretim bileşenlerine geri dönüştürülebilir.",
       "uk": "Можна переробити на компоненти для крафту.",
-      "zh-CN": "可回收为制作组件。",
+      "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收為製作組件。"
     },
     "type": "Recyclable",
@@ -5295,8 +5641,63 @@
     "salvagesInto": {
       "speaker_component": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/radio.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/radio.png",
     "updatedAt": "11/04/2025",
+    "addedIn": "base"
+  },
+  {
+    "id": "raider_flag",
+    "name": {
+      "da": "Raider-flag",
+      "de": "Raider-Flagge",
+      "en": "Raider Flag",
+      "es": "Bandera de Raider",
+      "fr": "Drapeau de Raider",
+      "he": "דגל ריידר",
+      "hr": "Zastava Raidera",
+      "it": "Bandiera Raider",
+      "ja": "レイダーの旗",
+      "ko-KR": "레이더 깃발",
+      "no": "Raider-flagg",
+      "pl": "Flaga Raidera",
+      "pt": "Bandeira Raider",
+      "pt-BR": "Bandeira Raider",
+      "ru": "Флаг рейдера",
+      "sr": "Zastava Raidera",
+      "tr": "Raider bayrağı",
+      "uk": "Прапор рейдера",
+      "zh-CN": "掠夺者旗帜",
+      "zh-TW": "掠奪者旗幟"
+    },
+    "description": {
+      "da": "Solbleget og krøllet, men stadig værdig.",
+      "de": "Von der Sonne ausgebleicht und zerknittert, aber dennoch würdevoll.",
+      "en": "Sun-bleached and wrinkled, yet dignified all the same.",
+      "es": "Descolorida por el sol y arrugada, pero igualmente digna.",
+      "fr": "Décoloré par le soleil et froissé, mais toujours digne.",
+      "he": "דהוי מהשמש ומקומט, אך עדיין מכובד.",
+      "hr": "Izblijedjela od sunca i naborana, ali i dalje dostojanstvena.",
+      "it": "Scolorita dal sole e stropicciata, ma comunque dignitosa.",
+      "ja": "日焼けで色あせ、しわだらけだが、それでもなお威厳がある。",
+      "ko-KR": "햇볕에 바래고 구겨졌지만, 여전히 위엄을 지니고 있다.",
+      "no": "Solbleket og krøllete, men likevel verdig.",
+      "pl": "Wyblakła od słońca i pomarszczona, a jednak wciąż godna.",
+      "pt": "Desbotada pelo sol e enrugada, mas ainda assim digna.",
+      "pt-BR": "Desbotada pelo sol e enrugada, mas ainda assim digna.",
+      "ru": "Выцветший на солнце и помятый, но всё равно достойный.",
+      "sr": "Izbledela od sunca i naborana, ali i dalje dostojanstvena.",
+      "tr": "Güneşte solmuş ve buruşmuş, ama yine de onurlu.",
+      "uk": "Вицвілий на сонці та пом'ятий, але все ще гідний.",
+      "zh-CN": "被阳光晒得褪色且起皱，但依然庄重。",
+      "zh-TW": "被陽光曬得褪色且起皺，但依然莊重。"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/raider_flag.png",
+    "updatedAt": "05/04/2026",
     "addedIn": "base"
   },
   {
@@ -5359,7 +5760,7 @@
       "advanced_electrical_components": 1,
       "sensors": 3
     },
-    "imageFilename": "https://cdn.arctracker.io/items/raider_hatch_key.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/raider_hatch_key.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -5425,9 +5826,272 @@
     "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/security_code.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/raiders_refuge_security_code.png",
     "updatedAt": "02/06/2026",
     "addedIn": "base"
+  },
+  {
+    "id": "rascal_blueprint",
+    "name": {
+      "en": "Rascal Blueprint",
+      "zh-CN": "无赖蓝图"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC.",
+      "zh-CN": "可发射爆炸式射弹，仅当命中ARC时，射弹才会引爆。"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29"
+  },
+  {
+    "id": "rascal_i",
+    "name": {
+      "en": "Rascal I",
+      "zh-CN": "无赖 I"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC.",
+      "zh-CN": "可发射爆炸式射弹，仅当命中ARC时，射弹才会引爆。"
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 7000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "blueprintLocked": true,
+    "effects": {
+      "Ammo Type": {
+        "value": "Launcher Ammo",
+        "da": "Ammunitionstype",
+        "de": "Munitionstyp",
+        "en": "Ammo Type",
+        "es": "Tipo de Munición",
+        "fr": "Type de Munitions",
+        "he": "סוג תחמושת",
+        "hr": "Tip Municije",
+        "it": "Tipo di Munizioni",
+        "ja": "弾薬タイプ",
+        "ko-KR": "탄약 유형",
+        "no": "Ammunisjonstype",
+        "pl": "Typ Amunicji",
+        "pt": "Tipo de Munição",
+        "pt-BR": "Tipo de munição",
+        "ru": "Тип боеприпасов",
+        "sr": "Tip Municije",
+        "tr": "Mermi Türü",
+        "uk": "Тип боєприпасів",
+        "zh-CN": "弹药类型",
+        "zh-TW": "彈藥類型"
+      },
+      "ARC Armor Penetration": {
+        "value": "Very Strong",
+        "da": "ARC Rustningspenetrering",
+        "de": "ARC-Panzerungsdurchdringung",
+        "en": "ARC Armor Penetration",
+        "es": "Penetración de Blindaje ARC",
+        "fr": "Pénétration d'Armure ARC",
+        "he": "חדירת שריון ARC",
+        "hr": "ARC Probijanje Oklopa",
+        "it": "Penetrazione armature ARC",
+        "ja": "ARC装甲貫通",
+        "ko-KR": "아크 장갑 관통",
+        "no": "ARC Rustningspenetrering",
+        "pl": "Przebicie Pancerza ARC",
+        "pt": "Penetração de Blindagem ARC",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "ru": "Пробитие брони ARC",
+        "sr": "ARC Probijanje Oklopa",
+        "tr": "ARC Zırh Delme",
+        "uk": "Пробиття броні ARC",
+        "zh-CN": "ARC 护甲穿透",
+        "zh-TW": "ARC 護甲穿透"
+      },
+      "Durability": {
+        "value": "100/100",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Firing Mode": {
+        "value": "Break-Action",
+        "da": "Skydningstilstand",
+        "de": "Feuermodus",
+        "en": "Firing Mode",
+        "es": "Modo de Disparo",
+        "fr": "Mode de Tir",
+        "he": "מצב ירי",
+        "hr": "Režim Paljbe",
+        "it": "Modalità di Fuoco",
+        "ja": "射撃モード",
+        "ko-KR": "발사 모드",
+        "no": "Skyttemodus",
+        "pl": "Tryb Ognia",
+        "pt": "Modo de Disparo",
+        "pt-BR": "Modo de disparo",
+        "ru": "Режим стрельбы",
+        "sr": "Režim Paljbe",
+        "tr": "Atış Modu",
+        "uk": "Режим стрільби",
+        "zh-CN": "射击模式",
+        "zh-TW": "射擊模式"
+      },
+      "Magazine Size": {
+        "value": 1,
+        "da": "Magasinstørrelse",
+        "de": "Magazingröße",
+        "en": "Magazine Size",
+        "es": "Tamaño del Cargador",
+        "fr": "Taille du Chargeur",
+        "he": "גודל מחסנית",
+        "hr": "Veličina Okvira",
+        "it": "Capacità Caricatore",
+        "ja": "マガジンサイズ",
+        "ko-KR": "탄창 크기",
+        "no": "Magasinstørrelse",
+        "pl": "Pojemność Magazynka",
+        "pt": "Tamanho do Carregador",
+        "pt-BR": "Tamanho do Pente",
+        "ru": "Размер магазина",
+        "sr": "Veličina Okvira",
+        "tr": "Şarjör Boyutu",
+        "uk": "Розмір магазину",
+        "zh-CN": "弹匣容量",
+        "zh-TW": "彈匣容量"
+      }
+    },
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 2,
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "canister": 5,
+      "heavy_gun_parts": 3
+    },
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29"
+  },
+  {
+    "id": "rascal_ii",
+    "name": {
+      "en": "Rascal II",
+      "zh-CN": "无赖 II"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC.",
+      "zh-CN": "可发射爆炸式射弹，仅当命中ARC时，射弹才会引爆。"
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 10000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 2
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29"
+  },
+  {
+    "id": "rascal_iii",
+    "name": {
+      "en": "Rascal III",
+      "zh-CN": "无赖 III"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC.",
+      "zh-CN": "可发射爆炸式射弹，仅当命中ARC时，射弹才会引爆。"
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 13000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 3
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29"
+  },
+  {
+    "id": "rascal_iv",
+    "name": {
+      "en": "Rascal IV",
+      "zh-CN": "无赖 IV"
+    },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC.",
+      "zh-CN": "可发射爆炸式射弹，仅当命中ARC时，射弹才会引爆。"
+    },
+    "type": "Special",
+    "rarity": "Rare",
+    "value": 17000,
+    "weightKg": 4,
+    "isWeapon": true,
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "heavy_gun_parts": 3
+    },
+    "salvagesInto": {
+      "heavy_gun_parts": 3
+    },
+    "upgradeCost": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+    "updatedAt": "05/19/2026",
+    "addedIn": "1.29"
   },
   {
     "id": "rattler_i",
@@ -5610,7 +6274,7 @@
     "salvagesInto": {
       "metal_parts": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rattler_i.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "modSlots": {
@@ -5831,7 +6495,7 @@
       "metal_parts": 10,
       "rubber_parts": 10
     },
-    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rattler_ii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 54.8,
@@ -6082,7 +6746,7 @@
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rattler_iii.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "modSlots": {
@@ -6304,7 +6968,7 @@
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rattler_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 54.8,
@@ -6433,7 +7097,7 @@
     "salvagesInto": {
       "plastic_parts": 4
     },
-    "imageFilename": "https://cdn.arctracker.io/items/recorder.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/recorder.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "repairCost": {
@@ -6511,7 +7175,7 @@
     "value": 5000,
     "weightKg": 0.3,
     "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/red_coral_jewelry.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -6566,7 +7230,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/red_light_stick_blueprint.png",
     "updatedAt": "12/16/2025",
     "addedIn": "base"
   },
@@ -6681,7 +7345,7 @@
     "salvagesInto": {
       "chemicals": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/red_light_stick.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -6750,7 +7414,7 @@
     "value": 100,
     "weightKg": 0.25,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/security_code.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/reinforced_reception_security_code.png",
     "updatedAt": "02/06/2026",
     "addedIn": "base"
   },
@@ -6813,7 +7477,7 @@
     "salvagesInto": {
       "sensors": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/remote_control.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/remote_control.png",
     "updatedAt": "11/03/2025",
     "addedIn": "base"
   },
@@ -6868,7 +7532,7 @@
     "value": 5000,
     "weightKg": 0,
     "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/remote_raider_flare_blueprint.png",
     "updatedAt": "01/13/2026",
     "addedIn": "base"
   },
@@ -6937,7 +7601,7 @@
     "salvagesInto": {
       "chemicals": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/remote_raider_flare.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "vendors": [
@@ -7133,7 +7797,7 @@
     "salvagesInto": {
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_i.png",
     "updatedAt": "03/22/2026",
     "addedIn": "base",
     "modSlots": {
@@ -7408,7 +8072,7 @@
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_ii.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 55.8,
@@ -7678,7 +8342,7 @@
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_iii.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base",
     "agility": 55.8,
@@ -7948,7 +8612,7 @@
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
     },
-    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_iv.png",
     "updatedAt": "02/24/2026",
     "addedIn": "base",
     "agility": 55.8,
@@ -8113,7 +8777,7 @@
         "zh-TW": "使用時間"
       }
     },
-    "imageFilename": "https://cdn.arctracker.io/items/resin.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/resin.png",
     "updatedAt": "03/17/2026",
     "addedIn": "base"
   },
@@ -8175,9 +8839,176 @@
     "salvagesInto": {
       "fabric": 8
     },
-    "imageFilename": "https://cdn.arctracker.io/items/ripped_safety_vest.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/ripped_safety_vest.png",
     "updatedAt": "11/29/2025",
     "addedIn": "base"
+  },
+  {
+    "id": "riven_tides_classified_records_keycard",
+    "name": {
+      "da": "Riven Tides-nøglekort til klassificerede arkiver",
+      "de": "Riven Tides-Schlüsselkarte für Geheimakten",
+      "en": "Riven Tides Classified Records Keycard",
+      "es": "Tarjeta llave de registros clasificados de Riven Tides",
+      "fr": "Carte-clé des archives classifiées de Riven Tides",
+      "he": "כרטיס מפתח לרשומות מסווגות ב-Riven Tides",
+      "hr": "Kartica za povjerljive zapise Riven Tidesa",
+      "it": "Tessera magnetica degli archivi riservati di Riven Tides",
+      "ja": "Riven Tides機密記録キーカード",
+      "ko-KR": "Riven Tides 기밀 기록 키카드",
+      "no": "Riven Tides-nøkkelkort til klassifiserte arkiver",
+      "pl": "Karta dostępu do tajnych akt Riven Tides",
+      "pt": "Cartão-chave dos registos classificados de Riven Tides",
+      "pt-BR": "Cartão-chave dos Registros Confidenciais de Riven Tides",
+      "ru": "Карта-ключ к секретным архивам Riven Tides",
+      "sr": "Kartica za poverljivu evidenciju Riven Tidesa",
+      "tr": "Riven Tides Gizli Kayıtlar Anahtar Kartı",
+      "uk": "Картка-ключ до секретних архівів Riven Tides",
+      "zh-CN": "裂潮镇机密档案室门禁卡",
+      "zh-TW": "Riven Tides機密紀錄鑰匙卡"
+    },
+    "description": {
+      "da": "Låser en dør op til rummet med klassificerede arkiver i havnemyndighedsbygningen i Riven Tides.",
+      "de": "Öffnet eine Tür zum Geheimaktenraum im Hafenbehördengebäude in Riven Tides.",
+      "en": "Unlocks a door to the Classified Records room in the Port Authority Building at Riven Tides.",
+      "es": "Abre una puerta a la sala de registros clasificados del edificio de la Autoridad Portuaria en Riven Tides.",
+      "fr": "Déverrouille une porte menant à la salle des archives classifiées dans le bâtiment de l'Autorité portuaire à Riven Tides.",
+      "he": "פותח דלת לחדר הרשומות המסווגות בבניין רשות הנמל ב-Riven Tides.",
+      "hr": "Otključava vrata sobe s povjerljivim zapisima u zgradi Lučke uprave u Riven Tidesu.",
+      "it": "Sblocca una porta della sala degli archivi riservati nell'edificio dell'Autorità portuale a Riven Tides.",
+      "ja": "Riven Tidesの港湾局ビルにある機密記録室へのドアを解錠する。",
+      "ko-KR": "Riven Tides의 항만청 건물에 있는 기밀 기록실로 향하는 문을 엽니다.",
+      "no": "Låser opp en dør til rommet med klassifiserte arkiver i havnemyndighetsbygningen i Riven Tides.",
+      "pl": "Otwiera drzwi do pokoju tajnych akt w budynku zarządu portu w Riven Tides.",
+      "pt": "Destranca uma porta para a sala de registos classificados no edifício da Autoridade Portuária em Riven Tides.",
+      "pt-BR": "Destranca uma porta para a sala de Registros Confidenciais no prédio da Autoridade Portuária em Riven Tides.",
+      "ru": "Открывает дверь в комнату секретных архивов в здании портового управления в Riven Tides.",
+      "sr": "Otključava vrata prostorije za poverljivu evidenciju u zgradi Lučke uprave u Riven Tidesu.",
+      "tr": "Riven Tides'taki Liman İdaresi Binasında bulunan Gizli Kayıtlar odasına açılan bir kapıyı açar.",
+      "uk": "Відмикає двері до кімнати секретних архівів у будівлі портового управління в Riven Tides.",
+      "zh-CN": "可开启裂潮镇港务局大楼机密档案室的门。",
+      "zh-TW": "可開啟Riven Tides港務局大樓中機密紀錄室的一扇門。"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_classified_records_keycard.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_crane_house_keycard",
+    "name": {
+      "da": "Riven Tides-nøglekort til kranhus",
+      "de": "Riven Tides-Schlüsselkarte für ein Kranhaus",
+      "en": "Riven Tides Crane House Keycard",
+      "es": "Tarjeta llave de la casa de grúa de Riven Tides",
+      "fr": "Carte-clé de maison de grue de Riven Tides",
+      "he": "כרטיס מפתח לבית מנוף ב-Riven Tides",
+      "hr": "Kartica za kućicu dizalice u Riven Tidesu",
+      "it": "Tessera magnetica della casa gru di Riven Tides",
+      "ja": "Riven Tidesクレーンハウス キーカード",
+      "ko-KR": "Riven Tides 크레인 하우스 키카드",
+      "no": "Riven Tides-nøkkelkort til kranhus",
+      "pl": "Karta dostępu do sterowni dźwigu Riven Tides",
+      "pt": "Cartão-chave da casa da grua de Riven Tides",
+      "pt-BR": "Cartão-chave da Casa do Guindaste de Riven Tides",
+      "ru": "Карта-ключ к крановому домику Riven Tides",
+      "sr": "Kartica za kućicu dizalice u Riven Tidesu",
+      "tr": "Riven Tides Vinç Evi Anahtar Kartı",
+      "uk": "Картка-ключ до кранового будиночка Riven Tides",
+      "zh-CN": "裂潮镇起重机控制室门禁卡",
+      "zh-TW": "Riven Tides起重機房鑰匙卡"
+    },
+    "description": {
+      "da": "Låser en dør op i et af kranhusene i Riven Tides.",
+      "de": "Öffnet eine Tür in einem der Kranhäuser in Riven Tides.",
+      "en": "Unlocks a door in one of the Crane Houses at Riven Tides.",
+      "es": "Abre una puerta en una de las casas de grúa de Riven Tides.",
+      "fr": "Déverrouille une porte dans l'une des maisons de grue à Riven Tides.",
+      "he": "פותח דלת באחד מבתי המנוף ב-Riven Tides.",
+      "hr": "Otključava vrata u jednoj od kućica dizalice u Riven Tidesu.",
+      "it": "Sblocca una porta in una delle case gru a Riven Tides.",
+      "ja": "Riven Tidesにあるクレーンハウスのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 크레인 하우스 중 하나의 문을 엽니다.",
+      "no": "Låser opp en dør i et av kranhusene i Riven Tides.",
+      "pl": "Otwiera drzwi w jednej ze sterowni dźwigów w Riven Tides.",
+      "pt": "Destranca uma porta numa das casas da grua em Riven Tides.",
+      "pt-BR": "Destranca uma porta em uma das Casas do Guindaste em Riven Tides.",
+      "ru": "Открывает дверь в одном из крановых домиков в Riven Tides.",
+      "sr": "Otključava vrata u jednoj od kućica dizalice u Riven Tidesu.",
+      "tr": "Riven Tides'taki Vinç Evlerinden birindeki kapıyı açar.",
+      "uk": "Відмикає двері в одному з кранових будиночків у Riven Tides.",
+      "zh-CN": "可开启裂潮镇某个起重机控制室的门。",
+      "zh-TW": "可開啟Riven Tides某座起重機房內的一扇門。"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_crane_house_keycard.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_102",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 102",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 102",
+      "en": "Riven Tides Hotel Keycard No. 102",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 102",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 102",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 102",
+      "hr": "Hotelska kartica Riven Tides br. 102",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 102",
+      "ja": "Riven Tidesホテル キーカードNo.102",
+      "ko-KR": "Riven Tides 호텔 키카드 102번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 102",
+      "pl": "Karta hotelowa Riven Tides nr 102",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 102",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 102",
+      "ru": "Карта-ключ отеля Riven Tides № 102",
+      "sr": "Hotelska kartica Riven Tides br. 102",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 102",
+      "uk": "Картка-ключ готелю Riven Tides № 102",
+      "zh-CN": "裂潮镇酒店102号房卡",
+      "zh-TW": "Riven Tides飯店102號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_102.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
   },
   {
     "id": "riven_tides_hotel_keycard_no_107",
@@ -8200,7 +9031,7 @@
       "sr": "Hotelska kartica Riven Tides br. 107",
       "tr": "Riven Tides Otel Anahtar Kartı No. 107",
       "uk": "Картка-ключ готелю Riven Tides № 107",
-      "zh-CN": "Riven Tides酒店107号钥匙卡",
+      "zh-CN": "裂潮镇酒店107号房卡",
       "zh-TW": "Riven Tides飯店107號鑰匙卡"
     },
     "description": {
@@ -8222,7 +9053,7 @@
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
       "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
-      "zh-CN": "可开启Riven Tides中Panorama Azzurro众多套房之一的房门",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
     },
     "type": "Key",
@@ -8231,7 +9062,344 @@
     "weightKg": 0.5,
     "stackSize": 1,
     "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_107.png",
     "updatedAt": "04/28/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_113",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 113",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 113",
+      "en": "Riven Tides Hotel Keycard No. 113",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 113",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 113",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 113",
+      "hr": "Hotelska kartica Riven Tides br. 113",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 113",
+      "ja": "Riven Tidesホテル キーカードNo.113",
+      "ko-KR": "Riven Tides 호텔 키카드 113번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 113",
+      "pl": "Karta hotelowa Riven Tides nr 113",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 113",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 113",
+      "ru": "Карта-ключ отеля Riven Tides № 113",
+      "sr": "Hotelska kartica Riven Tides br. 113",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 113",
+      "uk": "Картка-ключ готелю Riven Tides № 113",
+      "zh-CN": "裂潮镇酒店113号房卡",
+      "zh-TW": "Riven Tides飯店113號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_113.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_205",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 205",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 205",
+      "en": "Riven Tides Hotel Keycard No. 205",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 205",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 205",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 205",
+      "hr": "Hotelska kartica Riven Tides br. 205",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 205",
+      "ja": "Riven Tidesホテル キーカードNo.205",
+      "ko-KR": "Riven Tides 호텔 키카드 205번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 205",
+      "pl": "Karta hotelowa Riven Tides nr 205",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 205",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 205",
+      "ru": "Карта-ключ отеля Riven Tides № 205",
+      "sr": "Hotelska kartica Riven Tides br. 205",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 205",
+      "uk": "Картка-ключ готелю Riven Tides № 205",
+      "zh-CN": "裂潮镇酒店205号房卡",
+      "zh-TW": "Riven Tides飯店205號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_205.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_208",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 208",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 208",
+      "en": "Riven Tides Hotel Keycard No. 208",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 208",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 208",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 208",
+      "hr": "Hotelska kartica Riven Tides br. 208",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 208",
+      "ja": "Riven Tidesホテル キーカードNo.208",
+      "ko-KR": "Riven Tides 호텔 키카드 208번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 208",
+      "pl": "Karta hotelowa Riven Tides nr 208",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 208",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 208",
+      "ru": "Карта-ключ отеля Riven Tides № 208",
+      "sr": "Hotelska kartica Riven Tides br. 208",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 208",
+      "uk": "Картка-ключ готелю Riven Tides № 208",
+      "zh-CN": "裂潮镇酒店208号房卡",
+      "zh-TW": "Riven Tides飯店208號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_208.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_311",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 311",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 311",
+      "en": "Riven Tides Hotel Keycard No. 311",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 311",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 311",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 311",
+      "hr": "Hotelska kartica Riven Tides br. 311",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 311",
+      "ja": "Riven Tidesホテル キーカードNo.311",
+      "ko-KR": "Riven Tides 호텔 키카드 311번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 311",
+      "pl": "Karta hotelowa Riven Tides nr 311",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 311",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 311",
+      "ru": "Карта-ключ отеля Riven Tides № 311",
+      "sr": "Hotelska kartica Riven Tides br. 311",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 311",
+      "uk": "Картка-ключ готелю Riven Tides № 311",
+      "zh-CN": "裂潮镇酒店311号房卡",
+      "zh-TW": "Riven Tides飯店311號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_311.png",
+    "updatedAt": "04/28/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_hotel_keycard_no_404",
+    "name": {
+      "da": "Riven Tides-hotel nøglekort nr. 404",
+      "de": "Riven Tides-Hotel-Schlüsselkarte Nr. 404",
+      "en": "Riven Tides Hotel Keycard No. 404",
+      "es": "Tarjeta llave del hotel Riven Tides n.º 404",
+      "fr": "Carte-clé d'hôtel Riven Tides n° 404",
+      "he": "כרטיס מפתח למלון Riven Tides מס׳ 404",
+      "hr": "Hotelska kartica Riven Tides br. 404",
+      "it": "Tessera magnetica dell'hotel di Riven Tides n. 404",
+      "ja": "Riven Tidesホテル キーカードNo.404",
+      "ko-KR": "Riven Tides 호텔 키카드 404번",
+      "no": "Riven Tides-hotellnøkkelkort nr. 404",
+      "pl": "Karta hotelowa Riven Tides nr 404",
+      "pt": "Cartão-chave do hotel Riven Tides n.º 404",
+      "pt-BR": "Cartão-chave do Hotel Riven Tides nº 404",
+      "ru": "Карта-ключ отеля Riven Tides № 404",
+      "sr": "Hotelska kartica Riven Tides br. 404",
+      "tr": "Riven Tides Otel Anahtar Kartı No. 404",
+      "uk": "Картка-ключ готелю Riven Tides № 404",
+      "zh-CN": "裂潮镇酒店404号房卡",
+      "zh-TW": "Riven Tides飯店404號鑰匙卡"
+    },
+    "description": {
+      "da": "Låser døren op til en af Panorama Azzurros mange suiter i Riven Tides",
+      "de": "Öffnet die Tür zu einer der vielen Suiten des Panorama Azzurro in Riven Tides",
+      "en": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides",
+      "es": "Abre la puerta de una de las muchas suites del Panorama Azzurro en Riven Tides",
+      "fr": "Déverrouille la porte de l'une des nombreuses suites du Panorama Azzurro à Riven Tides",
+      "he": "פותח את הדלת לאחת מהסוויטות הרבות של Panorama Azzurro ב-Riven Tides",
+      "hr": "Otključava vrata jedne od mnogih suita Panorama Azzurra u Riven Tidesu",
+      "it": "Sblocca la porta di una delle molte suite del Panorama Azzurro a Riven Tides",
+      "ja": "Riven TidesにあるPanorama Azzurroの数あるスイートのひとつのドアを解錠する。",
+      "ko-KR": "Riven Tides에 있는 Panorama Azzurro의 여러 스위트룸 중 하나의 문을 엽니다.",
+      "no": "Låser opp døren til en av Panorama Azzurros mange suiter i Riven Tides",
+      "pl": "Otwiera drzwi do jednego z wielu apartamentów Panorama Azzurro w Riven Tides",
+      "pt": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "pt-BR": "Destranca a porta de uma das muitas suítes do Panorama Azzurro em Riven Tides",
+      "ru": "Открывает дверь в один из многочисленных люксов Panorama Azzurro в Riven Tides",
+      "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
+      "tr": "Riven Tides'taki Panorama Azzurro'nun birçok süitinden birinin kapısını açar",
+      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
+      "zh-TW": "可開啟Riven Tides中Panorama Azzurro眾多套房之一的房門"
+    },
+    "type": "Key",
+    "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_404.png",
+    "updatedAt": "05/02/2026",
+    "addedIn": "1.26"
+  },
+  {
+    "id": "riven_tides_secure_storage_keycard",
+    "name": {
+      "da": "Riven Tides-nøglekort til sikkert lager",
+      "de": "Riven Tides-Schlüsselkarte für Sicherheitslager",
+      "en": "Riven Tides Secure Storage Keycard",
+      "es": "Tarjeta llave del almacén seguro de Riven Tides",
+      "fr": "Carte-clé du stockage sécurisé de Riven Tides",
+      "he": "כרטיס מפתח למחסן מאובטח ב-Riven Tides",
+      "hr": "Kartica za sigurnu pohranu Riven Tidesa",
+      "it": "Tessera magnetica del deposito sicuro di Riven Tides",
+      "ja": "Riven Tides安全保管庫キーカード",
+      "ko-KR": "Riven Tides 보안 창고 키카드",
+      "no": "Riven Tides-nøkkelkort til sikkert lager",
+      "pl": "Karta dostępu do zabezpieczonego magazynu Riven Tides",
+      "pt": "Cartão-chave do armazém seguro de Riven Tides",
+      "pt-BR": "Cartão-chave do Depósito Seguro de Riven Tides",
+      "ru": "Карта-ключ к охраняемому складу Riven Tides",
+      "sr": "Kartica za bezbedno skladište Riven Tidesa",
+      "tr": "Riven Tides Güvenli Depo Anahtar Kartı",
+      "uk": "Картка-ключ до захищеного сховища Riven Tides",
+      "zh-CN": "裂潮镇安全储藏室门禁卡",
+      "zh-TW": "Riven Tides安全倉庫鑰匙卡"
+    },
+    "description": {
+      "da": "Låser en dør op til rummet med sikkert lager i havnemyndighedsbygningen i Riven Tides",
+      "de": "Öffnet eine Tür zum Sicherheitslagerraum im Hafenbehördengebäude in Riven Tides",
+      "en": "Unlocks a door to the Secure Storage room in the Port Authority Building at Riven Tides",
+      "es": "Abre una puerta a la sala de almacén seguro del edificio de la Autoridad Portuaria en Riven Tides",
+      "fr": "Déverrouille une porte menant à la salle de stockage sécurisé dans le bâtiment de l'Autorité portuaire à Riven Tides",
+      "he": "פותח דלת לחדר המחסן המאובטח בבניין רשות הנמל ב-Riven Tides",
+      "hr": "Otključava vrata sobe za sigurnu pohranu u zgradi Lučke uprave u Riven Tidesu",
+      "it": "Sblocca una porta della sala deposito sicuro nell'edificio dell'Autorità portuale a Riven Tides",
+      "ja": "Riven Tidesの港湾局ビルにある安全保管庫へのドアを解錠する",
+      "ko-KR": "Riven Tides의 항만청 건물에 있는 보안 창고로 향하는 문을 엽니다",
+      "no": "Låser opp en dør til rommet med sikkert lager i havnemyndighetsbygningen i Riven Tides",
+      "pl": "Otwiera drzwi do zabezpieczonego magazynu w budynku zarządu portu w Riven Tides",
+      "pt": "Destranca uma porta para a sala do armazém seguro no edifício da Autoridade Portuária em Riven Tides",
+      "pt-BR": "Destranca uma porta para a sala do Depósito Seguro no prédio da Autoridade Portuária em Riven Tides",
+      "ru": "Открывает дверь в комнату охраняемого склада в здании портового управления в Riven Tides",
+      "sr": "Otključava vrata prostorije bezbednog skladišta u zgradi Lučke uprave u Riven Tidesu",
+      "tr": "Riven Tides'taki Liman İdaresi Binasında bulunan Güvenli Depo odasına açılan bir kapıyı açar",
+      "uk": "Відмикає двері до кімнати захищеного сховища в будівлі портового управління в Riven Tides",
+      "zh-CN": "可开启裂潮镇港务局大楼安全储藏室的门，",
+      "zh-TW": "可開啟Riven Tides港務局大樓中安全倉庫的一扇門"
+    },
+    "type": "Key",
+    "rarity": "Epic",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "questItem": true,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/riven_tides_secure_storage_keycard.png",
+    "updatedAt": "05/02/2026",
     "addedIn": "1.26"
   },
   {
@@ -8293,1258 +9461,8 @@
     "salvagesInto": {
       "synthesized_fuel": 1
     },
-    "imageFilename": "https://cdn.arctracker.io/items/rocket_thruster.png",
+    "imageFilename": "https://cdn.arctracker.io/items/v2/rocket_thruster.png",
     "updatedAt": "01/09/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rocketeer_driver",
-    "name": {
-      "da": "Raketdriver",
-      "de": "Raketenkanoniertreiber",
-      "en": "Rocketeer Driver",
-      "es": "Controlador de cohetero",
-      "fr": "Pilote d'Artificier",
-      "he": "דרייבר Rocketeer",
-      "hr": "Raketni pogon",
-      "it": "Driver di lanciarazzi",
-      "ja": "ロケッティアドライバー",
-      "ko-KR": "로켓티어 드라이버",
-      "no": "Rakettdriver",
-      "pl": "Napęd rakietowy",
-      "pt": "Driver de fogueteiro",
-      "pt-BR": "Driver de Fogueteiro",
-      "ru": "Драйвер Ракетчика",
-      "sr": "Raketni pogon",
-      "tr": "Roketçi Sürücüsü",
-      "uk": "Драйвер ракетника",
-      "zh-CN": "火箭手引擎",
-      "zh-TW": "火箭兵驅動器"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזור עבור חומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "İşleme malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Epic",
-    "foundIn": "ARC",
-    "value": 3000,
-    "weightKg": 1,
-    "stackSize": 3,
-    "recyclesInto": {
-      "advanced_electrical_components": 1,
-      "arc_alloy": 3
-    },
-    "salvagesInto": {
-      "arc_circuitry": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rocketeer_driver.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "roots",
-    "name": {
-      "da": "Rødder",
-      "de": "Wurzeln",
-      "en": "Roots",
-      "es": "Raíces",
-      "fr": "Racines",
-      "he": "שורשים",
-      "hr": "Korijenje",
-      "it": "Radici",
-      "ja": "根",
-      "ko-KR": "뿌리",
-      "no": "Røtter",
-      "pl": "Korzenie",
-      "pt": "Raízes",
-      "pt-BR": "Raízes",
-      "ru": "Корни",
-      "sr": "Korenje",
-      "tr": "Kökler",
-      "uk": "Коріння",
-      "zh-CN": "根茎",
-      "zh-TW": "根莖"
-    },
-    "description": {
-      "da": "Kan være et par mønter værd.",
-      "de": "Vielleicht ein paar Münzen wert",
-      "en": "May be worth a few coins.",
-      "es": "Puede valer algunas monedas.",
-      "fr": "Peut valoir quelques pièces.",
-      "he": "עשוי להיות שווה כמה מטבעות.",
-      "hr": "Moglo bi vrijediti nekoliko novčića.",
-      "it": "Potrebbe valere qualcosina.",
-      "ja": "数枚のコインの価値があるかもしれない。",
-      "ko-KR": "몇 개의 동전 정도의 가치가 있을 수 있다.",
-      "no": "Kan være verdt noen mynter.",
-      "pl": "Może być warte kilka monet.",
-      "pt": "Pode valer algumas moedas.",
-      "pt-BR": "Pode valer algumas moedas.",
-      "ru": "Может стоить несколько монет.",
-      "sr": "Moglo bi vredeti nekoliko novčića.",
-      "tr": "Birkaç madeni paraya değer olabilir.",
-      "uk": "Може коштувати кілька монет.",
-      "zh-CN": "可能值几枚硬币。",
-      "zh-TW": "可能值幾枚硬幣。"
-    },
-    "type": "Nature",
-    "rarity": "Uncommon",
-    "foundIn": "Nature",
-    "value": 640,
-    "weightKg": 0.2,
-    "stackSize": 10,
-    "recyclesInto": {
-      "assorted_seeds": 1
-    },
-    "salvagesInto": {
-      "assorted_seeds": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/roots.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rope",
-    "name": {
-      "da": "Reb",
-      "de": "Seil",
-      "en": "Rope",
-      "es": "Cuerda",
-      "fr": "Corde",
-      "he": "חבל",
-      "hr": "Uže",
-      "it": "Corda",
-      "ja": "縄",
-      "ko-KR": "로프",
-      "no": "Tau",
-      "pl": "Lina",
-      "pt": "Corda",
-      "pt-BR": "Corda",
-      "ru": "Веревка",
-      "sr": "Uže",
-      "tr": "İp",
-      "uk": "Мотузка",
-      "zh-CN": "绳子",
-      "zh-TW": "繩索"
-    },
-    "description": {
-      "da": "Bruges i håndværk. Bruges til at lave: Zipline, Karabinkrog",
-      "de": "Wird bei der Herstellung verwendet. Zur Herstellung von: Seilrutsche, Karabinerhaken",
-      "en": "Used in crafting. Used to craft: Zipline, Snap Hook",
-      "es": "Usado en fabricación. Usado para fabricar: Tirolina, Gancho de Seguridad",
-      "fr": "Utilisé en fabrication. Permet de fabriquer : Tyrolienne, Mousqueton",
-      "he": "משמש ליצירה. משמש ליצירת: אומגה, וו תפיסה",
-      "hr": "Koristi se u izradi. Koristi se za izradu: Zipline, Snap Hook",
-      "it": "Utile per le creazioni. Si usa per creare: Zipline, Gancio a scatto",
-      "ja": "製作に使用。製作可能: Zipline、Snap Hook",
-      "ko-KR": "제작에 사용됩니다. 제작 가능: 집라인, 스냅 훅",
-      "no": "Brukes i håndverk. Brukes til å lage: Zipline, Karabinkrok",
-      "pl": "Używane w rzemiośle. Używane do wytworzenia: Tyrolka, Karabińczyk",
-      "pt": "Usado na fabricação. Usado para fabricar: Tirolesa, Gancho de Segurança",
-      "pt-BR": "Usado na fabricação. Usado para fabricar: Tirolesa, Mosquetão",
-      "ru": "Используется в крафте. Используется для создания: Zipline, Snap Hook",
-      "sr": "Koristi se u izradi. Koristi se za izradu: Zipline, Snap Hook",
-      "tr": "Üretimde kullanılır. Üretilebilir: Zipline, Snap Hook",
-      "uk": "Використовується в крафті. Використовується для створення: Zipline, Snap Hook",
-      "zh-CN": "用于制作。可制作：Zipline、Snap Hook",
-      "zh-TW": "用於製作。可製作：Zipline、Snap Hook"
-    },
-    "type": "Topside Material",
-    "rarity": "Rare",
-    "foundIn": "Residential, Commercial",
-    "value": 500,
-    "weightKg": 0.3,
-    "stackSize": 5,
-    "recyclesInto": {
-      "fabric": 5
-    },
-    "salvagesInto": {
-      "fabric": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rope.png",
-    "updatedAt": "03/22/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "assorted_seeds": 10
-        },
-        "limit": 5,
-        "refreshSeconds": 86400,
-        "requiredLevel": 12,
-        "trader": "Celeste"
-      }
-    ]
-  },
-  {
-    "id": "rosary",
-    "name": {
-      "da": "Rosenkrans",
-      "de": "Rosenkranz",
-      "en": "Rosary",
-      "es": "Rosario",
-      "fr": "Chapelet",
-      "he": "מחרוזת תפילה",
-      "hr": "Krunica",
-      "it": "Rosario",
-      "ja": "ロザリオ",
-      "ko-KR": "묵주",
-      "no": "Rosenkrans",
-      "pl": "Różaniec",
-      "pt": "Rosário",
-      "pt-BR": "Rosário",
-      "ru": "Чётки",
-      "sr": "Brojanica",
-      "tr": "Tespih",
-      "uk": "Чотки",
-      "zh-CN": "念珠",
-      "zh-TW": "念珠"
-    },
-    "description": {
-      "da": "Kan være et par mønter værd.",
-      "de": "Vielleicht ein paar Münzen wert",
-      "en": "May be worth a few coins.",
-      "es": "Puede valer unas cuantas monedas.",
-      "fr": "Pourrait valoir quelques pièces.",
-      "he": "עשוי להיות שווה כמה מטבעות.",
-      "hr": "Mogla bi vrijediti nekoliko novčića.",
-      "it": "Potrebbe valere qualcosina.",
-      "ja": "数枚のコインの価値があるかもしれない。",
-      "ko-KR": "몇 코인의 가치가 있을 수 있습니다.",
-      "no": "Kan være verdt noen mynter.",
-      "pl": "Może być warte kilka monet.",
-      "pt": "Pode valer algumas moedas.",
-      "pt-BR": "Pode valer algumas moedas.",
-      "ru": "Может стоить несколько монет.",
-      "sr": "Mogla bi vredeti nekoliko novčića.",
-      "tr": "Birkaç madeni paraya değer olabilir.",
-      "uk": "Може коштувати кілька монет.",
-      "zh-CN": "可能值几个硬币。",
-      "zh-TW": "可能值幾個硬幣。"
-    },
-    "type": "Trinket",
-    "rarity": "Rare",
-    "foundIn": "Old World, Residential",
-    "value": 2000,
-    "weightKg": 0.3,
-    "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/rosary.png",
-    "updatedAt": "11/11/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "rotary_encoder",
-    "name": {
-      "da": "Roterende encoder",
-      "de": "Drehgeber",
-      "en": "Rotary Encoder",
-      "es": "Codificador rotatorio",
-      "fr": "Encodeur Rotatif",
-      "he": "מקודד סיבובי",
-      "hr": "Rotacijski enkoder",
-      "it": "Encoder rotativo",
-      "ja": "ロータリーエンコーダー",
-      "ko-KR": "로터리 엔코더",
-      "no": "Rotasjonsenkoder",
-      "pl": "Enkoder obrotowy",
-      "pt": "Codificador rotativo",
-      "pt-BR": "Codificador Rotativo",
-      "ru": "Поворотный энкодер",
-      "sr": "Rotacioni enkoder",
-      "tr": "Dönen Kodlayıcı",
-      "uk": "Поворотний енкодер",
-      "zh-CN": "旋转编码器",
-      "zh-TW": "旋轉編碼器"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в крафтовые материалы.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收为制作材料。",
-      "zh-TW": "可以回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Exodus",
-    "value": 3000,
-    "weightKg": 1.5,
-    "stackSize": 3,
-    "recyclesInto": {
-      "electrical_components": 2,
-      "processor": 2
-    },
-    "salvagesInto": {
-      "processor": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rotary_encoder.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "1.2"
-  },
-  {
-    "id": "rubber_duck",
-    "name": {
-      "da": "Badeand",
-      "de": "Quietscheente",
-      "en": "Rubber Duck",
-      "es": "Pato de goma",
-      "fr": "Canard en Plastique",
-      "he": "ברווז גומי",
-      "hr": "Gumena Patka",
-      "it": "Paperella di gomma",
-      "ja": "アヒルのおもちゃ",
-      "ko-KR": "고무 오리",
-      "no": "Badeand",
-      "pl": "Gumowa kaczka",
-      "pt": "Pato de borracha",
-      "pt-BR": "Pato de Borracha",
-      "ru": "Резиновая уточка",
-      "sr": "Gumena Patka",
-      "tr": "Oyuncak Ördek",
-      "uk": "Гумова качечка",
-      "zh-CN": "橡皮鸭",
-      "zh-TW": "橡皮鴨"
-    },
-    "description": {
-      "da": "Altid der for at lytte, når du har brug for det. Kan kastes for at skabe støj.",
-      "de": "Immer da, um zuzuhören, wenn man es braucht. Kann geworfen werden, um Lärm zu erzeugen.",
-      "en": "Always there to lend an ear when you need it. Can be thrown to create noise.",
-      "es": "Siempre ahí para escucharte cuando lo necesitas. Se puede lanzar para crear ruido.",
-      "fr": "Toujours là pour vous écouter quand vous en avez besoin. Peut être lancé pour créer du bruit.",
-      "he": "תמיד שם כדי להקשיב כשצריך. ניתן לזרוק כדי ליצור רעש.",
-      "hr": "Uvijek tu da sasluša kada ti treba. Može se baciti da stvori buku.",
-      "it": "Sempre lì per ascoltarti quando ne hai bisogno. Può essere lanciata per creare rumore.",
-      "ja": "必要な時にいつでも話を聞いてくれる。投げて音を立てることができる。",
-      "ko-KR": "필요할 때 언제나 귀를 기울여줍니다. 던져서 소음을 만들 수 있습니다.",
-      "no": "Alltid der for å lytte når du trenger det. Kan kastes for å lage støy.",
-      "pl": "Zawsze tam, by wysłuchać, gdy tego potrzebujesz. Można rzucić, aby wytworzyć hałas.",
-      "pt": "Sempre lá para ouvir quando você precisa. Pode ser arremessado para criar ruído.",
-      "pt-BR": "Sempre lá para ouvir quando você precisar. Pode ser arremessado para fazer barulho.",
-      "ru": "Всегда готова выслушать, когда вам это нужно. Можно бросить, чтобы создать шум.",
-      "sr": "Uvek tu da sasluša kada ti treba. Može se baciti da stvori buku.",
-      "tr": "İhtiyacınız olduğunda her zaman kulak vermeye hazır. Gürültü yaratmak için fırlatılabilir.",
-      "uk": "Завжди готова вислухати, коли вам це потрібно. Можна кинути, щоб створити шум.",
-      "zh-CN": "总是在你需要时倾听。可以投掷来制造噪音。",
-      "zh-TW": "總是在你需要時傾聽。可以投擲來製造噪音。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "value": 1000,
-    "weightKg": 0.3,
-    "stackSize": 15,
-    "imageFilename": "https://cdn.arctracker.io/items/rubber_duck.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rubber_pad",
-    "name": {
-      "da": "Gummipude",
-      "de": "Gummimatte",
-      "en": "Rubber Pad",
-      "es": "Almohadilla de Goma",
-      "fr": "Tapis en Caoutchouc",
-      "he": "רפידת גומי",
-      "hr": "Gumena Podloga",
-      "it": "Cuscinetto di Gomma",
-      "ja": "ゴムパッド",
-      "ko-KR": "고무 패드",
-      "no": "Gummipute",
-      "pl": "Gumowa Podkładka",
-      "pt": "Almofada de Borracha",
-      "pt-BR": "Tapete de Borracha",
-      "ru": "Резиновый коврик",
-      "sr": "Gumena Podloga",
-      "tr": "Kauçuk Yastık",
-      "uk": "Гумова прокладка",
-      "zh-CN": "橡胶垫",
-      "zh-TW": "橡膠墊"
-    },
-    "description": {
-      "da": "Kan genbruges til gummidele.",
-      "de": "Kann zu Gummiteilen recycelt werden.",
-      "en": "Can be recycled into rubber parts.",
-      "es": "Puede reciclarse en piezas de goma.",
-      "fr": "Peut être recyclé en composants en caoutchouc.",
-      "he": "ניתן למיחזור לחלקי גומי.",
-      "hr": "Može se reciklirati u gumene dijelove.",
-      "it": "Si può riciclare in parti di gomma.",
-      "ja": "ゴム部品にリサイクルできる。",
-      "ko-KR": "고무 부품으로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til gummideler.",
-      "pl": "Można przetworzyć na części gumowe.",
-      "pt": "Pode ser reciclado em peças de borracha.",
-      "pt-BR": "Pode ser reciclado em peças de borracha.",
-      "ru": "Можно переработать в резиновые детали.",
-      "sr": "Može se reciklirati u gumene delove.",
-      "tr": "Kauçuk parçalara geri dönüştürülebilir.",
-      "uk": "Можна переробити на гумові деталі.",
-      "zh-CN": "可回收为橡胶零件。",
-      "zh-TW": "可回收為橡膠零件。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Electrical",
-    "value": 1000,
-    "weightKg": 2,
-    "stackSize": 3,
-    "recyclesInto": {
-      "rubber_parts": 18
-    },
-    "salvagesInto": {
-      "rubber_parts": 12
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rubber_pad.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rubber_parts",
-    "name": {
-      "da": "Gummidele",
-      "de": "Gummiteile",
-      "en": "Rubber Parts",
-      "es": "Piezas de goma",
-      "fr": "Pièces en Caoutchouc",
-      "he": "חלקי גומי",
-      "hr": "Gumeni Dijelovi",
-      "it": "Componenti di gomma",
-      "ja": "ゴムパーツ",
-      "ko-KR": "고무 부품",
-      "no": "Gummideler",
-      "pl": "Części gumowe",
-      "pt": "Peças de borracha",
-      "pt-BR": "Peças de Borracha",
-      "ru": "Резиновые детали",
-      "sr": "Gumeni Delovi",
-      "tr": "Kauçuk Parçalar",
-      "uk": "Гумові деталі",
-      "zh-CN": "橡胶零件",
-      "zh-TW": "橡膠零件"
-    },
-    "description": {
-      "da": "Gummiskrotdele til håndværk. Bruges til at lave: Ferro, Kedel, Plyndring Mk. 1, Skjoldoplader, Syer",
-      "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Zur Herstellung von: Ferro, Kettle, Beute-Marke 1, Schildauflader, Stitcher",
-      "en": "Scrap rubber pieces for crafting. Used to craft: Ferro, Kettle, Looting Mk. 1, Shield Recharger, Stitcher",
-      "es": "Piezas de goma de desecho para fabricar. Se usa para fabricar: Ferro, Caldero, Saqueo Ver.1, Cargador de escudos, Costurero",
-      "fr": "Morceaux de caoutchouc de récupération pour la fabrication. Permet de fabriquer : Ferro, Fondoir, Butin 1, Rechargeur de bouclier, Sutureur",
-      "he": "שאריות גומי ליצירה. משמש ליצירת: Ferro, Kettle, Looting Mk. 1, Shield Recharger, Stitcher",
-      "hr": "Komadi otpadne gume za izradu. Koristi se za izradu: Ferro, Kotlić, Pljačkanje Mk. 1, Punjač Štita, Šivač",
-      "it": "Si usa per creare una vasta gamme di oggetti. Si usa per creare: Ferro, Stormo, Saccheggio Mk. 1, Caricascudi, Suturante",
-      "ja": "製作用のゴム片。製作可能: フェロ、ケトル、略奪MK1、シールドリチャージャー、ステッチャー",
-      "ko-KR": "제작용 고무 조각. 제작 가능: 페로, 주전자, 노획 마크 1, 방어막 충전기, 봉합기",
-      "no": "Gummiskrapbiter for håndverk. Brukes til å lage: Ferro, Kjele, Plyndring Mk. 1, Skjoldlader, Syer",
-      "pl": "Kawałki gumy do wytwarzania. Używany do wytwarzania: Ferro, Czajnik, Grabież Mk. 1, Ładowarka tarczy, Szywacz",
-      "pt": "Pedaços de borracha para fabricação. Usado para fabricar: Ferro, Chaleira, Saque Mk. 1, Recarregador de escudo, Suturador",
-      "pt-BR": "Serve para fabricar vários tipos de itens. Usado para fabricar: Ferro, Chaleira, Saque Mk. 1, Recarregador de Escudo, Costurador",
-      "ru": "Обрывки резины для крафта. Используется для крафта: Ферро, Котелок, Мародёрство Mk. 1, Перезарядка щита, Сшиватель",
-      "sr": "Komadi otpadne gume za izradu. Koristi se za izradu: Ferro, Kotlić, Pljačkanje Mk. 1, Punjač Štita, Šivač",
-      "tr": "Üretim için hurda lastik parçaları. Üretilebilir: Ferro, Çaydanlık, Yağmalama Mk. 1, Kalkan Şarj Cihazı, Dikiş Makinesi",
-      "uk": "Шматки гуми для крафту. Використовується для крафту: Ферро, Казанок, Мародерство Mk. 1, Перезарядка щита, Зшивач",
-      "zh-CN": "用于制作的橡胶碎片。可制作：费罗、水壶、掠夺 Mk. 1、护盾充能器、缝合器",
-      "zh-TW": "用於製作的橡膠碎片。可製作：費羅、水壺、掠奪 Mk. 1、護盾充能器、縫合器"
-    },
-    "type": "Basic Material",
-    "rarity": "Common",
-    "foundIn": "Mechanical, Industrial, Electrical",
-    "value": 50,
-    "weightKg": 0.1,
-    "stackSize": 50,
-    "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
-    "updatedAt": "03/17/2026",
-    "addedIn": "base",
-    "vendors": [
-      {
-        "cost": {
-          "assorted_seeds": 1
-        },
-        "trader": "Celeste"
-      }
-    ]
-  },
-  {
-    "id": "ruined_accordion",
-    "name": {
-      "da": "Ødelagt harmonika",
-      "de": "Kaputtes Akkordeon",
-      "en": "Ruined Accordion",
-      "es": "Acordeón arruinado",
-      "fr": "Accordéon en Ruine",
-      "he": "אקורדיון הרוס",
-      "hr": "Uništena Harmonika",
-      "it": "Fisarmonica rovinata",
-      "ja": "壊れたアコーディオン",
-      "ko-KR": "망가진 아코디언",
-      "no": "Ødelagt trekkspill",
-      "pl": "Zrujnowana harmonia",
-      "pt": "Acordeão arruinado",
-      "pt-BR": "Acordeão Arruinado",
-      "ru": "Сломанный аккордеон",
-      "sr": "Uništena Harmonika",
-      "tr": "Mahvolmuş Akordiyon",
-      "uk": "Зруйнований акордеон",
-      "zh-CN": "损毁的手风琴",
-      "zh-TW": "損毀的手風琴"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできる。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Można przetworzyć na materiały do wytwarzania.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "İşleme malzemelerine dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Residential",
-    "value": 2000,
-    "weightKg": 3,
-    "stackSize": 3,
-    "recyclesInto": {
-      "rubber_parts": 18,
-      "steel_spring": 3
-    },
-    "salvagesInto": {
-      "rubber_parts": 13
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_accordion.png",
-    "updatedAt": "11/02/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "ruined_augment",
-    "name": {
-      "da": "Ødelagt forstærkning",
-      "de": "Kaputte Verstärkung",
-      "en": "Ruined Augment",
-      "es": "Aumento arruinado",
-      "fr": "Augmentation en Ruine",
-      "he": "תוסף הרוס",
-      "hr": "Uništeno Poboljšanje",
-      "it": "Potenziamento rovinato",
-      "ja": "壊れたオーグメント",
-      "ko-KR": "망가진 증강체",
-      "no": "Ødelagt forsterkning",
-      "pl": "Zrujnowane wzmocnienie",
-      "pt": "Aumento arruinado",
-      "pt-BR": "Aprimoramento Arruinado",
-      "ru": "Испорченный аугмент",
-      "sr": "Uništeno Poboljšanje",
-      "tr": "Harap Güçlendirme",
-      "uk": "Зіпсований аугмент",
-      "zh-CN": "损毁的强化件",
-      "zh-TW": "損毀的強化件"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Puede reciclarse en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできる。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Common",
-    "foundIn": "ARC",
-    "value": 270,
-    "weightKg": 0.5,
-    "stackSize": 1,
-    "recyclesInto": {
-      "plastic_parts": 2,
-      "rubber_parts": 2
-    },
-    "salvagesInto": {
-      "plastic_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_augment.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "ruined_baton",
-    "name": {
-      "da": "Ødelagt stav",
-      "de": "Kaputter Schlagstock",
-      "en": "Ruined Baton",
-      "es": "Bastón arruinado",
-      "fr": "Matraque en Ruine",
-      "he": "אלה הרוסה",
-      "hr": "Uništena Palica",
-      "it": "Manganello rovinato",
-      "ja": "壊れたバトン",
-      "ko-KR": "망가진 경찰봉",
-      "no": "Ødelagt batong",
-      "pl": "Zrujnowana pałka",
-      "pt": "Bastão arruinado",
-      "pt-BR": "Bastão Arruinado",
-      "ru": "Сломанная дубинка",
-      "sr": "Uništena Palica",
-      "tr": "Mahvolmuş Cop",
-      "uk": "Зіпсована дубинка",
-      "zh-CN": "损坏的警棍",
-      "zh-TW": "損壞的警棍"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden",
-      "en": "Can be recycled into crafting materials",
-      "es": "Se puede reciclar en materiales de fabricación",
-      "fr": "Peut être recyclé en matériaux d'artisanat",
-      "he": "ניתן למיחזור לחומרי יצירה",
-      "hr": "Može se reciklirati u materijale za izradu",
-      "it": "Si può riciclare in materiali da creazione",
-      "ja": "クラフト素材にリサイクルできる",
-      "ko-KR": "제작 재료로 재활용 가능",
-      "no": "Kan resirkuleres til håndverksmateriell",
-      "pl": "Można przetworzyć na materiały rzemieślnicze",
-      "pt": "Pode ser reciclado em materiais de fabricação",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação",
-      "ru": "Можно переработать в материалы для крафта",
-      "sr": "Može se reciklirati u materijale za izradu",
-      "tr": "İşleme malzemelerine geri dönüştürülebilir",
-      "uk": "Можна переробити в матеріали для крафту",
-      "zh-CN": "可回收为制作材料",
-      "zh-TW": "可回收為製作材料"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "Security",
-    "value": 640,
-    "weightKg": 0.8,
-    "stackSize": 3,
-    "recyclesInto": {
-      "metal_parts": 6,
-      "rubber_parts": 3
-    },
-    "salvagesInto": {
-      "metal_parts": 4
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_baton.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "ruined_handcuffs",
-    "name": {
-      "da": "Ødelagte håndjern",
-      "de": "Kaputte Handschellen",
-      "en": "Ruined Handcuffs",
-      "es": "Esposas arruinadas",
-      "fr": "Menottes Abîmées",
-      "he": "אזיקים הרוסים",
-      "hr": "Uništene lisice",
-      "it": "Manette rovinate",
-      "ja": "壊れた手錠",
-      "ko-KR": "망가진 수갑",
-      "no": "Ødelagte håndjern",
-      "pl": "Zrujnowane kajdanki",
-      "pt": "Algemas arruinadas",
-      "pt-BR": "Algemas Arruinadas",
-      "ru": "Сломанные наручники",
-      "sr": "Uništeni lisičini",
-      "tr": "Mahvolmuş Kelepçe",
-      "uk": "Зіпсовані наручники",
-      "zh-CN": "损坏的手铐",
-      "zh-TW": "損壞的手銬"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Mogu se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできる。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Można przetworzyć na materiały do wytwarzania.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Mogu se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收成制作材料。",
-      "zh-TW": "可以回收成製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "Security",
-    "value": 640,
-    "weightKg": 0.8,
-    "stackSize": 3,
-    "recyclesInto": {
-      "metal_parts": 8
-    },
-    "salvagesInto": {
-      "metal_parts": 4
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_handcuffs.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "ruined_parachute",
-    "name": {
-      "da": "Ødelagt faldskærm",
-      "de": "Kaputter Fallschirm",
-      "en": "Ruined Parachute",
-      "es": "Paracaídas arruinado",
-      "fr": "Parachute Cassé",
-      "he": "מצנח הרוס",
-      "hr": "Uništeni padobran",
-      "it": "Paracadute rovinato",
-      "ja": "壊れたパラシュート",
-      "ko-KR": "망가진 낙하산",
-      "no": "Ødelagt fallskjerm",
-      "pl": "Zrujnowany spadochron",
-      "pt": "Paraquedas arruinado",
-      "pt-BR": "Paraquedas Arruinado",
-      "ru": "Испорченный парашют",
-      "sr": "Uništeni padobran",
-      "tr": "Kırık Paraşüt",
-      "uk": "Зіпсований парашут",
-      "zh-CN": "损毁的降落伞",
-      "zh-TW": "損毀的降落傘"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Puede reciclarse en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali di fabbricazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Może być przetworzony na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "İşleme malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可以回收为制作材料。",
-      "zh-TW": "可以回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "Exodus",
-    "value": 640,
-    "weightKg": 0.8,
-    "stackSize": 3,
-    "recyclesInto": {
-      "fabric": 10
-    },
-    "salvagesInto": {
-      "fabric": 5
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_parachute.png",
-    "updatedAt": "12/07/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "ruined_riot_shield",
-    "name": {
-      "da": "Ødelagt oprørsskjold",
-      "de": "Kaputtes Schutzschild",
-      "en": "Ruined Riot Shield",
-      "es": "Escudo antidisturbios arruinado",
-      "fr": "Bouclier Anti-émeute Abîmé",
-      "he": "מגן מהומות הרוס",
-      "hr": "Uništeni protuštitni štit",
-      "it": "Scudo antisommossa rovinato",
-      "ja": "壊れたライオットシールド",
-      "ko-KR": "망가진 진압 방패",
-      "no": "Ødelagt opprørsskjold",
-      "pl": "Zniszczona tarcza ochronna",
-      "pt": "Escudo de choque arruinado",
-      "pt-BR": "Escudo de Choque Arruinado",
-      "ru": "Разрушенный щит",
-      "sr": "Uništeni štit za neredi",
-      "tr": "Mahvolmuş İsyan Kalkanı",
-      "uk": "Зруйнований щит",
-      "zh-CN": "损毁的防暴盾",
-      "zh-TW": "損毀的防暴盾"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למיחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクル可能。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmaterialer.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Security",
-    "value": 1000,
-    "weightKg": 2,
-    "stackSize": 3,
-    "recyclesInto": {
-      "plastic_parts": 10,
-      "rubber_parts": 6
-    },
-    "salvagesInto": {
-      "plastic_parts": 10
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_riot_shield.png",
-    "updatedAt": "12/07/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "ruined_tactical_vest",
-    "name": {
-      "da": "Ødelagt taktisk vest",
-      "de": "Zerfetzte taktische Weste",
-      "en": "Ruined Tactical Vest",
-      "es": "Chaleco táctico arruinado",
-      "fr": "Gilet Tactique en Ruine",
-      "he": "אפוד טקטי הרוס",
-      "hr": "Uništen taktički prsluk",
-      "it": "Giubbotto tattico rovinato",
-      "ja": "壊れたタクティカルベスト",
-      "ko-KR": "망가진 전술 조끼",
-      "no": "Ødelagt taktisk vest",
-      "pl": "Zniszczona kamizelka taktyczna",
-      "pt": "Colete tático arruinado",
-      "pt-BR": "Colete Tático Arruinado",
-      "ru": "Испорченный тактический жилет",
-      "sr": "Uništen taktički prsluk",
-      "tr": "Mahvolmuş Taktiksel Yelek",
-      "uk": "Зруйнований тактичний жилет",
-      "zh-CN": "损毁的战术背心",
-      "zh-TW": "損毀的戰術背心"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Puede reciclarse en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux de fabrication.",
-      "he": "ניתן למחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmaterialer.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de criação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "Security",
-    "value": 640,
-    "weightKg": 0.8,
-    "stackSize": 3,
-    "recyclesInto": {
-      "fabric": 5,
-      "magnet": 1
-    },
-    "salvagesInto": {
-      "fabric": 5
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/ruined_tactical_vest.png",
-    "updatedAt": "11/19/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "rusted_bolts",
-    "name": {
-      "da": "Rustne Bolte",
-      "de": "Verrostete Bolzen",
-      "en": "Rusted Bolts",
-      "es": "Tornillos Oxidados",
-      "fr": "Boulons Rouillés",
-      "he": "ברגים חלודים",
-      "hr": "Zahrđali Vijci",
-      "it": "Bulloni Arrugginiti",
-      "ja": "錆びたボルト",
-      "ko-KR": "녹슨 볼트",
-      "no": "Rustne Bolter",
-      "pl": "Zardzewiałe Śruby",
-      "pt": "Parafusos Enferrujados",
-      "pt-BR": "Parafusos Enferrujados",
-      "ru": "Ржавые болты",
-      "sr": "Zahrđali Vijci",
-      "tr": "Paslı Cıvatalar",
-      "uk": "Іржаві болти",
-      "zh-CN": "生锈的螺栓",
-      "zh-TW": "生鏽螺栓"
-    },
-    "description": {
-      "da": "Kan genbruges til metaldele.",
-      "de": "Kann zu Metallteilen recycelt werden.",
-      "en": "Can be recycled into metal parts.",
-      "es": "Puede reciclarse en piezas de metal.",
-      "fr": "Peut être recyclé en pièces métalliques.",
-      "he": "ניתן למחזור לחלקי מתכת.",
-      "hr": "Može se reciklirati u metalne dijelove.",
-      "it": "Si può riciclare in parti metalliche.",
-      "ja": "金属部品にリサイクルできる。",
-      "ko-KR": "금속 부품으로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til metalldeler.",
-      "pl": "Można przetworzyć na części metalowe.",
-      "pt": "Pode ser reciclado em peças de metal.",
-      "pt-BR": "Pode ser reciclado em peças de metal.",
-      "ru": "Можно переработать в металлические детали.",
-      "sr": "Može se reciklirati u metalne delove.",
-      "tr": "Metal parçalara geri dönüştürülebilir.",
-      "uk": "Можна переробити на металеві деталі.",
-      "zh-CN": "可回收为金属零件。",
-      "zh-TW": "可回收為金屬零件。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "Industrial, Mechanical",
-    "value": 640,
-    "weightKg": 0.8,
-    "stackSize": 3,
-    "recyclesInto": {
-      "metal_parts": 8
-    },
-    "salvagesInto": {
-      "metal_parts": 4
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rusted_bolts.png",
-    "updatedAt": "11/01/2025",
-    "addedIn": "base"
-  },
-  {
-    "id": "rusted_gear",
-    "name": {
-      "da": "Rustet tandhjul",
-      "de": "Verrostetes Zahnrad",
-      "en": "Rusted Gear",
-      "es": "Engranaje oxidado",
-      "fr": "Engrenage Rouillé",
-      "he": "גלגל שיניים חלוד",
-      "hr": "Zahrđali Zupčanik",
-      "it": "Ingranaggio arrugginito",
-      "ja": "錆びた装備",
-      "ko-KR": "녹슨 톱니바퀴",
-      "no": "Rustet tannhjul",
-      "pl": "Zardzewiałe koło zębate",
-      "pt": "Engrenagem enferrujada",
-      "pt-BR": "Engrenagem Enferrujada",
-      "ru": "Ржавая шестиренка",
-      "sr": "Zahrđali Zupčanik",
-      "tr": "Paslı Techizat",
-      "uk": "Іржава шестерня",
-      "zh-CN": "生锈齿轮",
-      "zh-TW": "生鏽齒輪"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Puede reciclarse en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזור לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクル可能。",
-      "ko-KR": "제작 재료로 재활용 가능.",
-      "no": "Kan resirkuleres til håndverksmateriell.",
-      "pl": "Może być przetworzony na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de criação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Industrial",
-    "value": 2000,
-    "weightKg": 3,
-    "stackSize": 3,
-    "recyclesInto": {
-      "mechanical_components": 2,
-      "metal_parts": 4
-    },
-    "salvagesInto": {
-      "metal_parts": 12
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rusted_gear.png",
-    "updatedAt": "01/09/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rusted_shut_medical_kit",
-    "name": {
-      "da": "Rustet lukket medicinsæt",
-      "de": "Verrosteter verschlossener Verbandkasten",
-      "en": "Rusted Shut Medical Kit",
-      "es": "Botiquín oxidado cerrado",
-      "fr": "Trousse de Secours Fermée par la Rouille",
-      "he": "ערכת רפואה סגורה מחלודה",
-      "hr": "Zahrđali Zatvoreni Medicinski Komplet",
-      "it": "Kit medico arrugginito chiuso",
-      "ja": "閉まったまま錆びた医療キット",
-      "ko-KR": "녹슨 의료 용품 상자",
-      "no": "Rustent lukket medisinsk sett",
-      "pl": "Zardzewiały zestaw medyczny",
-      "pt": "Kit médico enferrujado fechado",
-      "pt-BR": "Kit Médico Enferrujado",
-      "ru": "Аптечка со ржавым замком",
-      "sr": "Zahrđali Zatvoreni Medicinski Komplet",
-      "tr": "Paslı Kapalı Tıbbi Kit",
-      "uk": "Заіржавіла аптечка",
-      "zh-CN": "锈死的医疗包",
-      "zh-TW": "鏽死的醫療包"
-    },
-    "description": {
-      "da": "Et rustet medicinsæt, dets indhold er ukendt.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "A medical kit rusted shut, its contents unknown.",
-      "es": "Un botiquín oxidado cerrado, su contenido es desconocido.",
-      "fr": "Un kit médical rouillé fermé, son contenu est inconnu.",
-      "he": "ערכת רפואה סגורה מחלודה, תוכנה אינו ידוע.",
-      "hr": "Medicinski komplet zahrđao i zatvoren, sadržaj nepoznat.",
-      "it": "Un kit medico arrugginito chiuso, il suo contenuto è sconosciuto.",
-      "ja": "錆びついて開かない救急箱、中身は不明。",
-      "ko-KR": "녹슨 의료 용품 상자, 내용물은 알 수 없습니다.",
-      "no": "Et rustent medisinsk sett, innholdet er ukjent.",
-      "pl": "Zardzewiały zestaw medyczny, jego zawartość jest nieznana.",
-      "pt": "Um kit médico enferrujado fechado, seu conteúdo é desconhecido.",
-      "pt-BR": "Um kit médico enferrujado fechado, seu conteúdo é desconhecido.",
-      "ru": "Заржавевшая аптечка, её содержимое неизвестно.",
-      "sr": "Medicinski komplet zahrđao i zatvoren, sadržaj nepoznat.",
-      "tr": "Paslanmış bir tıbbi kit, içeriği bilinmiyor.",
-      "uk": "Заіржавіла аптечка, її вміст невідомий.",
-      "zh-CN": "一个锈死的医疗包，内容物不明。",
-      "zh-TW": "一個鏽死的醫療包，內容物不明。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Medical",
-    "value": 2000,
-    "weightKg": 3,
-    "stackSize": 3,
-    "recyclesInto": {
-      "antiseptic": 1,
-      "syringe": 2
-    },
-    "salvagesInto": {
-      "syringe": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rusted_tools",
-    "name": {
-      "da": "Rustne værktøjer",
-      "de": "Verrostete Werkzeuge",
-      "en": "Rusted Tools",
-      "es": "Herramientas oxidadas",
-      "fr": "Outils Rouillés",
-      "he": "כלי עבודה חלודים",
-      "hr": "Zahrđali Alati",
-      "it": "Strumenti arrugginiti",
-      "ja": "錆びた道具",
-      "ko-KR": "녹슨 도구",
-      "no": "Rustne verktøy",
-      "pl": "Zardzewiałe narzędzia",
-      "pt": "Ferramentas enferrujadas",
-      "pt-BR": "Ferramentas Enferrujadas",
-      "ru": "Ржавые инструменты",
-      "sr": "Zahrđali Alati",
-      "tr": "Paslı Aletler",
-      "uk": "Іржаві інструменти",
-      "zh-CN": "生锈的工具",
-      "zh-TW": "生鏽的工具"
-    },
-    "description": {
-      "da": "Et sæt værktøjer, rustne men stadig brugbare til håndværk.",
-      "de": "Kann zu Metallteilen recycelt werden.",
-      "en": "A set of tools, rusted but still usable for crafting.",
-      "es": "Un conjunto de herramientas, oxidadas pero aún utilizables para fabricar.",
-      "fr": "Un ensemble d'outils, rouillés mais encore utilisables pour la fabrication.",
-      "he": "סט כלי עבודה, חלוד אך עדיין שמיש ליצירה.",
-      "hr": "Komplet alata, zahrđalih ali još uvijek upotrebljivih za izradu.",
-      "it": "Un set di attrezzi, arrugginiti ma ancora utilizzabili per il crafting.",
-      "ja": "錆びているが、クラフトにはまだ使える工具セット。",
-      "ko-KR": "녹슬었지만 여전히 제작에 사용할 수 있는 도구 세트입니다.",
-      "no": "Et sett med verktøy, rustne men fortsatt brukbare for håndverk.",
-      "pl": "Zestaw narzędzi, zardzewiałych, ale wciąż nadających się do wytwarzania.",
-      "pt": "Um conjunto de ferramentas, enferrujadas mas ainda utilizáveis para fabricação.",
-      "pt-BR": "Um conjunto de ferramentas, enferrujadas mas ainda utilizáveis para criação.",
-      "ru": "Набор инструментов, ржавых, но всё ещё пригодных для крафта.",
-      "sr": "Komplet alata, zahrđalih ali još uvek upotrebljivih za izradu.",
-      "tr": "Paslanmış ama hala üretim için kullanılabilir bir alet seti.",
-      "uk": "Набір інструментів, іржавих, але все ще придатних для крафту.",
-      "zh-CN": "一套工具，虽然生锈但仍可用于制作。",
-      "zh-TW": "一套工具，雖然生鏽但仍可用於製作。"
-    },
-    "type": "Recyclable",
-    "rarity": "Rare",
-    "foundIn": "Mechanical",
-    "value": 1000,
-    "weightKg": 2,
-    "stackSize": 3,
-    "recyclesInto": {
-      "metal_parts": 8,
-      "steel_spring": 1
-    },
-    "salvagesInto": {
-      "metal_parts": 7
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rusted_tools.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "rusty_arc_steel",
-    "name": {
-      "da": "Rusten ARC-stål",
-      "de": "Rostiger ARC-Stahl",
-      "en": "Rusty ARC Steel",
-      "es": "Acero ARC oxidado",
-      "fr": "Acier ARC Rouillé",
-      "he": "פלדת ARC חלודה",
-      "hr": "Zahrđali ARC čelik",
-      "it": "Acciaio ARC arrugginito",
-      "ja": "錆びたARCスチール",
-      "ko-KR": "녹슨 아크 강철",
-      "no": "Rustet ARC-stål",
-      "pl": "Zardzewiała stal ARC",
-      "pt": "Aço ARC Enferrujado",
-      "pt-BR": "Aço ARC Enferrujado",
-      "ru": "Ржавая сталь ARC",
-      "sr": "Zahrđali ARC čelik",
-      "tr": "Paslı ARC Çeliği",
-      "uk": "Іржава сталь ARC",
-      "zh-CN": "生锈的ARC钢铁",
-      "zh-TW": "生鏽的ARC鋼鐵"
-    },
-    "description": {
-      "da": "Opnået fra ARC-fjender og aktiviteter. Kan genbruges til skrotmetal.",
-      "de": "Von ARC-Gegnern und Aktivitäten erhalten. Kann zu Metallteilen recycelt werden.",
-      "en": "Obtained from ARC enemies and activites. Can be recycled into scrap metal.",
-      "es": "Obtenido de enemigos y actividades ARC. Puede reciclarse en chatarra.",
-      "fr": "Obtenu auprès des ennemis et activités ARC. Peut être recyclé en ferraille.",
-      "he": "ניתן להשגה מאויבי ARC ופעילויות. ניתן למחזור לגרוטאות מתכת.",
-      "hr": "Dobiva se od ARC neprijatelja i aktivnosti. Može se reciklirati u staro željezo.",
-      "it": "Ottenuto da nemici e attività ARC. Si può riciclare in rottami metallici.",
-      "ja": "ARCの敵や活動から入手。スクラップメタルにリサイクルできます。",
-      "ko-KR": "아크 적과 활동에서 획득. 고철로 재활용할 수 있습니다.",
-      "no": "Oppnådd fra ARC-fiender og aktiviteter. Kan resirkuleres til skrapmetall.",
-      "pl": "Zdobywane z wrogów ARC i aktywności. Można przetworzyć na złom.",
-      "pt": "Obtido de inimigos e atividades ARC. Pode ser reciclado em sucata.",
-      "pt-BR": "Obtido de inimigos e atividades da ARC. Pode ser reciclado em sucata de metal.",
-      "ru": "Получается с врагов ARC и из активностей. Можно переработать в металлолом.",
-      "sr": "Dobija se od ARC neprijatelja i aktivnosti. Može se reciklirati u otpadni metal.",
-      "tr": "ARC düşmanlarından ve etkinliklerinden elde edilir. Hurda metale geri dönüştürülebilir.",
-      "uk": "Отримується зворогів ARC та активностей. Можна переробити на металобрухт.",
-      "zh-CN": "从ARC敌人和活动中获得。可以回收成废金属。",
-      "zh-TW": "從ARC敵人和活動中獲得。可以回收成廢金屬。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "ARC",
-    "value": 640,
-    "weightKg": 1,
-    "stackSize": 3,
-    "recyclesInto": {
-      "metal_parts": 8
-    },
-    "salvagesInto": {
-      "metal_parts": 3
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/rusty_arc_steel.png",
-    "updatedAt": "11/17/2025",
     "addedIn": "base"
   }
 ]
