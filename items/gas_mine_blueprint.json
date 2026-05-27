@@ -19,7 +19,7 @@
     "sr": "Gasna mina Nacrt",
     "tr": "Sıçrama Mayını: Enerji Azaltıcı Taslağı",
     "uk": "Креслення Газова міна",
-    "zh-CN": "跳雷：持续流失耐力 蓝图（跳雷：毒气 蓝图）",
+    "zh-CN": "毒气地雷蓝图",
     "zh-TW": "毒氣地雷 藍圖"
   },
   "description": {
@@ -41,7 +41,7 @@
     "sr": "Mina aktivirana blizinom koja iskoči i oslobađa oblak gasa koji brzo iscrpljuje izdržljivost.",
     "tr": "Yakınlık tetiklemeli bir mayın, fırlayarak dayanıklılığı hızla tüketen bir gaz bulutu yayar.",
     "uk": "Міна з датчиком наближення, яка вистрибує і випускає газову хмару, що швидко виснажує витривалість.",
-    "zh-CN": "一种近距离触发的地雷，会弹出并释放快速消耗耐力的毒气云。",
+    "zh-CN": "一种近距离触发式地雷，在接近时会弹起并爆炸，释放一团让人迅速消耗完耐力的毒气云。",
     "zh-TW": "一種近距離觸發的地雷，會彈出並釋放快速消耗耐力的毒氣雲。"
   },
   "type": "Blueprint",
@@ -49,7 +49,7 @@
   "value": 5000,
   "weightKg": 0,
   "stackSize": 1,
-  "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+  "imageFilename": "https://cdn.arctracker.io/items/v2/gas_mine_blueprint.png",
   "updatedAt": "01/13/2026",
   "addedIn": "1.2"
 }

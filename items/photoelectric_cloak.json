@@ -41,13 +41,13 @@
     "sr": "Naprava koja omogućava korisniku da se sakrije od ARC-a.",
     "tr": "Kullanıcının kendini ARC'den gizlemesini sağlayan bir alet.",
     "uk": "Гаджет, що дозволяє користувачу сховатися від ARC.",
-    "zh-CN": "能让使用者躲避ARC的装置。",
+    "zh-CN": "可以让使用者在ARC视线内“隐形”的小道具。",
     "zh-TW": "能讓使用者躲避ARC的裝置。"
   },
   "type": "Quick Use",
   "rarity": "Epic",
   "value": 5000,
-  "weightKg": 1,
+  "weightKg": 3,
   "stackSize": 1,
   "effects": {
     "Durability": {
@@ -87,7 +87,7 @@
   "salvagesInto": {
     "advanced_electrical_components": 1
   },
-  "imageFilename": "https://cdn.arctracker.io/items/photoelectric_cloak.png",
+  "imageFilename": "https://cdn.arctracker.io/items/v2/photoelectric_cloak.png",
   "updatedAt": "02/24/2026",
   "addedIn": "base",
   "repairCost": {

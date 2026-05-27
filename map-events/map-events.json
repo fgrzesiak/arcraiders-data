@@ -1,8 +1,7 @@
 {
   "_readme": {
-    "description": "Map events rotation schedule for ARC Raiders",
-    "example": "To add Night Raid at 5 PM UTC on Dam: schedule.dam-battleground.major['17'] = 'night-raid'",
-    "format": "Times in schedule are UTC hours (0-23). Add 'disabled: true' to eventTypes to temporarily disable an event."
+    "description": "Map events for ARC Raiders",
+    "format": "List of eventTypes available in the game"
   },
   "eventTypes": {
     "bird-city": {
@@ -11,10 +10,9 @@
       "translationKey": "birdCity",
       "localizations": {
         "en": "Hurricane",
-        "JP": "台風"
-      },
-      "category": "minor",
-      "disabled": false
+        "JP": "台風",
+        "zh-CN": "飓风"
+      }
     },
     "close-scrutiny": {
       "displayName": "Close Scrutiny",
@@ -49,9 +47,7 @@
         "hr": "Noćni prepad",
         "sr": "Noćna racija",
         "he": "פשיטת לילה"
-      },
-      "category": "major",
-      "disabled": false
+      }
     },
     "electromagnetic-storm": {
       "displayName": "Electromagnetic Storm",
@@ -76,9 +72,15 @@
         "ru": "Электромагнитная буря",
         "tr": "Elektromanyetik Fırtına",
         "uk": "Електромагнітна буря",
-        "zh-CN": "电磁风暴",
-        "zh-TW": "電磁風暴"
-      },
+        "hr": "Elektromagnetska oluja",
+        "sr": "Elektromagnetna oluja",
+        "he": "סופה אלקטרומגנטית"
+      }
+    },
+    "cold-snap": {
+      "displayName": "Cold Snap",
+      "icon": "https://cdn.arctracker.io/map-events/cold_snap.png",
+      "translationKey": "coldSnap",
       "category": "major",
       "disabled": false,
       "localizations": {
@@ -130,8 +132,7 @@
         "hr": "Zaključana vrata",
         "sr": "Zaključana kapija",
         "he": "שער נעול"
-      },
-      "disabled": true
+      }
     },
     "hidden-bunker": {
       "displayName": "Hidden Bunker",
@@ -188,8 +189,7 @@
         "hr": "Matrijarh",
         "sr": "Matrijarh",
         "he": "Matriarch"
-      },
-      "disabled": false
+      }
     },
     "harvester": {
       "displayName": "Harvester",
@@ -214,11 +214,10 @@
         "sr": "Žetelac",
         "tr": "Harvester",
         "uk": "Жнивар (Harvester)",
-        "zh-CN": "收割者",
-        "zh-TW": "收割者"
-      },
-      "category": "minor",
-      "disabled": false
+        "hr": "Žetelac",
+        "sr": "Žetelac",
+        "he": "Harvester"
+      }
     },
     "lush-blooms": {
       "displayName": "Lush Blooms",
@@ -346,11 +345,10 @@
         "sr": "Plien lansirnog tornja",
         "tr": "Fırlatma Kulesi Ganimeti",
         "uk": "Здобич пускової вежі",
-        "zh-CN": "发射塔上的战利品",
-        "zh-TW": "發射塔上的戰利品"
-      },
-      "category": "minor",
-      "disabled": false
+        "hr": "Plijen lansirnog tornja",
+        "sr": "Plien lansirnog tornja",
+        "he": "שלל מגדל השיגור"
+      }
     },
     "locked-gate": {
       "displayName": "Locked Gate",
@@ -377,96 +375,35 @@
         "hr": "Grad ptica",
         "sr": "Grad ptica",
         "he": "עיר הציפורים"
-      },
-      "category": "major",
-      "disabled": true
+      }
     },
-    "lush-blooms": {
-      "displayName": "Lush Blooms",
-      "icon": "https://cdn.arctracker.io/map-events/lush_blooms.png",
-      "translationKey": "lushBlooms",
-      "localizations": {
-        "da": "Frodige Blomster",
-        "de": "Üppige Blüten",
-        "en": "Lush Blooms",
-        "es": "Floración Exuberante",
-        "fr": "Floraisons luxuriantes",
-        "he": "פריחה עשירה",
-        "hr": "Bujni cvat",
-        "it": "Fioritura Lussureggiante",
-        "ja": "収穫の季節",
-        "ko": "무성한 개화",
-        "no": "Frodige blomster",
-        "pl": "Bujny Rozkwit",
-        "pt": "Floração Exuberante",
-        "pt-BR": "Flores Fartas",
-        "ru": "Пышное цветение",
-        "sr": "Bujni cvat",
-        "tr": "Gür Çiçekler",
-        "uk": "Пишне цвітіння",
-        "zh-CN": "繁茂花丛",
-        "zh-TW": "繁茂花叢"
-      },
+    "beachcombing": {
+      "displayName": "Beachcombing",
+      "icon": "https://cdn.arctracker.io/map-events/beachcombing.png",
+      "translationKey": "beachcombing",
       "category": "minor",
-      "disabled": true
-    },
-    "matriarch": {
-      "displayName": "Matriarch",
-      "icon": "https://cdn.arctracker.io/map-events/matriarch.png",
-      "translationKey": "matriarch",
       "localizations": {
-        "da": "Matriarch",
-        "de": "Matriarchin",
-        "en": "Matriarch",
-        "es": "Matriarca",
-        "fr": "Matriarche",
-        "he": "Matriarch",
-        "hr": "Matrijarh",
-        "it": "Matriarca",
-        "ja": "マトリアーク",
-        "ko": "매트리어크",
-        "no": "Matriark",
-        "pl": "Matriarcha",
-        "pt": "Matriarca",
-        "pt-BR": "Matriarca",
-        "ru": "Матриарх",
-        "sr": "Matrijarh",
-        "tr": "Matriarch",
-        "uk": "Матріарх",
-        "zh-CN": "族母",
-        "zh-TW": "族母"
-      },
-      "category": "minor",
-      "disabled": false
-    },
-    "night-raid": {
-      "displayName": "Night Raid",
-      "icon": "https://cdn.arctracker.io/map-events/night_raid.png",
-      "translationKey": "nightRaid",
-      "localizations": {
-        "da": "Nat-raid",
-        "de": "Nacht-Raid",
-        "en": "Night Raid",
-        "es": "Incursión Nocturna",
-        "fr": "Raid nocturne",
-        "he": "פשיטת לילה",
-        "hr": "Noćni prepad",
-        "it": "Raid Notturno",
-        "ja": "夜襲",
-        "ko": "야간 레이드",
-        "no": "Nattraid",
-        "pl": "Nocny Rajd",
-        "pt": "Incursão Noturna",
-        "pt-BR": "Incursão Noturna",
-        "ru": "Ночной рейд",
-        "sr": "Noćna racija",
-        "tr": "Gece Baskını",
-        "uk": "Нічний рейд",
-        "zh-CN": "夜间奇袭",
-        "zh-TW": "夜間奇襲"
-      },
-      "category": "major",
-      "disabled": false
+        "en": "Beachcombing",
+        "de": "Strandgut sammeln",
+        "fr": "Collecte sur la plage",
+        "es": "Recolección en la Playa",
+        "pt": "Coleta na Praia",
+        "pt-BR": "Coleta na Praia",
+        "pl": "Przeczesywanie Plaży",
+        "no": "Strandleting",
+        "da": "Strandjagt",
+        "it": "Raccolta sulla Spiaggia",
+        "ja": "ビーチコーミング",
+        "ko-KR": "해변 수색",
+        "zh-CN": "海滩拾荒点",
+        "zh-TW": "海灘拾荒",
+        "ru": "Прочёсывание пляжа",
+        "tr": "Sahil Taraması",
+        "uk": "Прочісування пляжу",
+        "hr": "Pretraživanje plaže",
+        "sr": "Pretraživanje plaže",
+        "he": "חיפוש על החוף"
+      }
     },
     "none": {
       "displayName": "None",
@@ -601,125 +538,8 @@
     "stella-montis": {
       "displayName": "Stella Montis"
     },
-    "the-spaceport": {
-      "displayName": "The Spaceport"
-    }
-  },
-  "schedule": {
-    "blue-gate": {
-      "major": {
-        "2": "unmapped-1675344979",
-        "4": "electromagnetic-storm",
-        "6": "unmapped-1675344979",
-        "8": "electromagnetic-storm",
-        "10": "unmapped-1675344979",
-        "12": "electromagnetic-storm",
-        "14": "unmapped-1675344979",
-        "16": "electromagnetic-storm",
-        "18": "unmapped-1675344979",
-        "20": "electromagnetic-storm",
-        "22": "unmapped-1675344979"
-      },
-      "minor": {
-        "0": "lush-blooms",
-        "4": "harvester",
-        "7": "lush-blooms",
-        "10": "matriarch",
-        "13": "harvester",
-        "16": "lush-blooms",
-        "19": "matriarch",
-        "22": "harvester"
-      }
-    },
-    "buried-city": {
-      "major": {
-        "1": "unmapped-1675344979",
-        "2": "night-raid",
-        "5": "unmapped-1675344979",
-        "6": "unmapped--1064764405",
-        "9": "unmapped-1675344979",
-        "10": "night-raid",
-        "13": "unmapped-1675344979",
-        "14": "unmapped--1064764405",
-        "17": "unmapped-1675344979",
-        "18": "night-raid",
-        "21": "unmapped-1675344979",
-        "22": "unmapped--1064764405"
-      },
-      "minor": {
-        "0": "lush-blooms",
-        "1": "bird-city",
-        "3": "bird-city",
-        "6": "lush-blooms",
-        "9": "bird-city",
-        "12": "lush-blooms",
-        "15": "bird-city",
-        "18": "lush-blooms",
-        "21": "bird-city"
-      }
-    },
-    "dam-battleground": {
-      "major": {
-        "1": "electromagnetic-storm",
-        "3": "unmapped-1675344979",
-        "7": "unmapped-1675344979",
-        "9": "electromagnetic-storm",
-        "11": "unmapped-1675344979",
-        "13": "night-raid",
-        "15": "unmapped-1675344979",
-        "17": "electromagnetic-storm",
-        "19": "unmapped-1675344979",
-        "21": "night-raid",
-        "23": "unmapped-1675344979"
-      },
-      "minor": {
-        "0": "lush-blooms",
-        "1": "matriarch",
-        "4": "lush-blooms",
-        "6": "lush-blooms",
-        "9": "harvester",
-        "12": "lush-blooms",
-        "15": "harvester",
-        "18": "lush-blooms",
-        "21": "matriarch"
-      }
-    },
-    "stella-montis": {
-      "major": {
-        "0": "night-raid",
-        "4": "night-raid",
-        "8": "night-raid",
-        "12": "night-raid",
-        "16": "night-raid",
-        "20": "night-raid"
-      },
-      "minor": {}
-    },
-    "the-spaceport": {
-      "major": {
-        "0": "unmapped-1675344979",
-        "3": "unmapped--1064764405",
-        "4": "unmapped-1675344979",
-        "7": "electromagnetic-storm",
-        "8": "unmapped-1675344979",
-        "11": "hidden-bunker",
-        "12": "unmapped-1675344979",
-        "15": "electromagnetic-storm",
-        "16": "unmapped-1675344979",
-        "19": "night-raid",
-        "20": "unmapped-1675344979",
-        "23": "electromagnetic-storm"
-      },
-      "minor": {
-        "0": "harvester",
-        "3": "matriarch",
-        "8": "matriarch",
-        "11": "harvester",
-        "14": "matriarch",
-        "17": "lush-blooms",
-        "20": "harvester",
-        "23": "lush-blooms"
-      }
+    "riven-tides": {
+      "displayName": "Riven Tides"
     }
   }
 }
