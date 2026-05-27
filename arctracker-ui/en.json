@@ -58,6 +58,7 @@
   "Navigation": {
     "home": "Home",
     "raidHistory": "Raid History",
+    "leaderboards": "Leaderboards",
     "squads": "Squads",
     "quests": "Quests",
     "hideout": "Hideout",
@@ -77,6 +78,46 @@
     "stash": "Stash",
     "seasons": "Expeditions",
     "traders": "Traders"
+  },
+  "LeaderboardsPage": {
+    "toggleMenu": "Toggle Menu",
+    "loading": "Loading leaderboards...",
+    "searchPlaceholder": "Search player name",
+    "jumpToMe": "Jump to me",
+    "showing": "Showing {count} of {total} ranked players",
+    "yourRank": "Your rank: #{rank}",
+    "notRanked": "You are not ranked for this leaderboard yet.",
+    "signInHint": "Sign in to jump to your rank.",
+    "updatedAt": "Updated {date}",
+    "emptyTitle": "No ranked players yet",
+    "emptyDescription": "This leaderboard will appear after the next aggregation run has eligible synced rounds.",
+    "emptySearch": "No players matched that search.",
+    "searchResults": "Search results keep each player's true global rank.",
+    "filters": {
+      "allTime": "All time",
+      "arcType": "ARC type"
+    },
+    "metrics": {
+      "player_kd": "Player K/D",
+      "player_kills": "Player Kills",
+      "total_kills": "Total Kills",
+      "arc_kills": "ARC Kills",
+      "enemy_kills": "By ARC Type"
+    },
+    "metricShort": {
+      "player_kd": "K/D",
+      "player_kills": "kills",
+      "total_kills": "kills",
+      "arc_kills": "ARC kills",
+      "enemy_kills": "kills"
+    },
+    "stats": {
+      "rounds": "{count} rounds",
+      "deaths": "{count} deaths"
+    },
+    "errors": {
+      "fetchFailed": "Failed to load leaderboard."
+    }
   },
   "MapEvents": {
     "startsIn": "Starts in",
@@ -853,6 +894,8 @@
     "ammoCrate": "Ammo Crate",
     "securityLocker": "Security Locker",
     "raiderCache": "Raider Cache",
+    "hurricaneCache": "Hurricane Cache",
+    "buriedCache": "Buried Cache",
     "fruitBasket": "Fruit Basket",
     "abundantLoot": "Abundant Loot",
     "decentLoot": "Decent Loot",
@@ -1181,6 +1224,8 @@
       "ammoCrate": "Ammo Crate",
       "securityLocker": "Security Locker",
       "raiderCache": "Raider Cache",
+      "hurricaneCache": "Hurricane Cache",
+      "buriedCache": "Buried Cache",
       "fruitBasket": "Fruit Basket",
       "abundantLoot": "Abundant Loot",
       "decentLoot": "Decent Loot",
