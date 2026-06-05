@@ -22,9 +22,58 @@
     "zh-CN": "加长枪管 I",
     "zh-TW": "加長槍管 I"
   },
+  "description": {
+    "en": "Slightly increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil"
+  },
   "type": "Modification",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "value": 1000,
+  "compatibleWith": [
+    "Anvil",
+    "Arpeggio",
+    "Bettina",
+    "Bobcat",
+    "Burletta",
+    "Canto",
+    "Ferro",
+    "Kettle",
+    "Osprey",
+    "Rattler",
+    "Renegade",
+    "Stitcher",
+    "Tempest",
+    "Torrente"
+  ],
+  "effects": {
+    "Increased Bullet Velocity": {
+      "value": "10%",
+      "en": "Increased Bullet Velocity",
+      "da": "Øget kuglehastighed",
+      "de": "Erhöhte Geschossgeschwindigkeit",
+      "en": "Increased Bullet Velocity",
+      "es": "Velocidad de bala aumentada",
+      "fr": "Vélocité des balles augmentée",
+      "he": "מהירות קליע מוגברת",
+      "hr": "Povećana brzina metka",
+      "it": "Velocità proiettile aumentata",
+      "ja": "弾速増加",
+      "ko-KR": "탄환 속도 증가",
+      "no": "Økt kulehastighet",
+      "pl": "Zwiększona prędkość pocisku",
+      "pt": "Velocidade de bala aumentada",
+      "pt-BR": "Aumento da Velocidade do Projétil",
+      "ru": "Увеличенная скорость пули",
+      "sr": "Povećana brzina metka",
+      "tr": "Artırılmış Mermi Hızı",
+      "uk": "Збільшена швидкість кулі",
+      "zh-CN": "子弹速度提升",
+      "zh-TW": "子彈速度提升"
+    },
+    "Increased Distance Until Damage Falloff": {
+      "value": "5%",
+      "en": "Increased Distance Until Damage Falloff"
+    }
+  },
   "craftBench": "weapon_bench",
   "stationLevelRequired": 1,
   "recipe": {

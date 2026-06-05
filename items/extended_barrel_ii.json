@@ -22,10 +22,39 @@
     "zh-CN": "加长枪管 II",
     "zh-TW": "加長槍管 II"
   },
+  "description": {
+    "en": "Moderately increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil"
+  },
   "type": "Modification",
-  "rarity": "Common",
+  "rarity": "Rare",
   "value": 3000,
+  "compatibleWith": [
+    "Anvil",
+    "Arpeggio",
+    "Bettina",
+    "Bobcat",
+    "Burletta",
+    "Canto",
+    "Ferro",
+    "Kettle",
+    "Osprey",
+    "Rattler",
+    "Renegade",
+    "Stitcher",
+    "Tempest",
+    "Torrente"
+  ],
   "blueprintLocked": true,
+  "effects": {
+    "Increased Bullet Velocity": {
+      "value": "20%",
+      "en": "Increased Bullet Velocity"
+    },
+    "Increased Distance Until Damage Falloff": {
+      "value": "10%",
+      "en": "Increased Distance Until Damage Falloff"
+    }
+  },
   "craftBench": "weapon_bench",
   "stationLevelRequired": 2,
   "recipe": {
