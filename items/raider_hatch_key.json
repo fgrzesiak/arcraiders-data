@@ -51,12 +51,15 @@
   "stackSize": 1,
   "craftBench": ["in_raid", "utility_bench"],
   "stationLevelRequired": 2,
+  "craftSkills": {
+    "in_raid": ["surv_5c", "surv_3r"]
+  },
   "recipe": {
     "advanced_electrical_components": 1,
     "sensors": 3
   },
   "imageFilename": "https://cdn.arctracker.io/items/v2/raider_hatch_key.png",
-  "updatedAt": "03/22/2026",
+  "updatedAt": "05/30/2026",
   "addedIn": "base",
   "vendors": [
     {

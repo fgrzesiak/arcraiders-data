@@ -122,11 +122,15 @@
   },
   "craftBench": ["in_raid", "workbench"],
   "stationLevelRequired": 1,
+  "craftSkills": {
+    "in_raid": ["surv_5c", "surv_3r"],
+    "workbench": ["surv_5c"]
+  },
   "recipe": {
     "gas_grenade": 1,
     "wires": 1
   },
   "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade_trap.png",
-  "updatedAt": "03/17/2026",
+  "updatedAt": "05/30/2026",
   "addedIn": "base"
 }

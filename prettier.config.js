@@ -42,6 +42,7 @@ const json_sort_orders = {
         effects: null,
         craftBench: null,
         stationLevelRequired: null,
+        craftSkills: null,
         recipe: null,
         recyclesInto: null,
         salvagesInto: null,

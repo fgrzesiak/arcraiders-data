@@ -122,6 +122,9 @@
   },
   "craftBench": ["in_raid", "med_station"],
   "stationLevelRequired": 1,
+  "craftSkills": {
+    "in_raid": ["surv_5c", "surv_3r"]
+  },
   "recipe": {
     "durable_cloth": 1,
     "great_mullein": 1
@@ -134,7 +137,7 @@
     "fabric": 8
   },
   "imageFilename": "https://cdn.arctracker.io/items/v2/herbal_bandage.png",
-  "updatedAt": "03/22/2026",
+  "updatedAt": "05/30/2026",
   "addedIn": "base",
   "vendors": [
     {
