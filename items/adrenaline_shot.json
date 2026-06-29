@@ -122,6 +122,9 @@
   },
   "craftBench": ["in_raid", "med_station"],
   "stationLevelRequired": 1,
+  "craftSkills": {
+    "in_raid": ["surv_3r"]
+  },
   "recipe": {
     "chemicals": 3,
     "plastic_parts": 3
@@ -134,7 +137,7 @@
     "chemicals": 1
   },
   "imageFilename": "https://cdn.arctracker.io/items/v2/adrenaline_shot.png",
-  "updatedAt": "02/24/2026",
+  "updatedAt": "05/30/2026",
   "addedIn": "base",
   "vendors": [
     {

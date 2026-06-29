@@ -52,6 +52,9 @@
   "blueprintLocked": true,
   "craftBench": ["med_station", "in_raid"],
   "stationLevelRequired": 1,
+  "craftSkills": {
+    "in_raid": ["surv_3r"]
+  },
   "recipe": {
     "fabric": 10,
     "plastic_parts": 3
@@ -64,6 +67,6 @@
     "fabric": 3
   },
   "imageFilename": "https://cdn.arctracker.io/items/v2/white_flag.png",
-  "updatedAt": "04/28/2026",
+  "updatedAt": "05/30/2026",
   "addedIn": "1.26"
 }
