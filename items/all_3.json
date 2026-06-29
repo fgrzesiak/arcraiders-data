@@ -1,5 +1,413 @@
 [
   {
+    "id": "fertilizer",
+    "name": {
+      "da": "Gødning",
+      "de": "Dünger",
+      "en": "Fertilizer",
+      "es": "Fertilizante",
+      "fr": "Engrais",
+      "he": "דשן",
+      "hr": "Gnojivo",
+      "it": "Fertilizzante",
+      "ja": "肥料",
+      "ko-KR": "비료",
+      "no": "Gjødsel",
+      "pl": "Nawóz",
+      "pt": "Fertilizante",
+      "pt-BR": "Fertilizante",
+      "ru": "Удобрение",
+      "sr": "Đubrivo",
+      "tr": "Gübre",
+      "uk": "Добриво",
+      "zh-CN": "肥料",
+      "zh-TW": "肥料"
+    },
+    "description": {
+      "da": "Kan være nogle mønter værd.",
+      "de": "Vielleicht ein paar Münzen wert.",
+      "en": "May be worth a few coins.",
+      "es": "Puede valer unas pocas monedas.",
+      "fr": "Peut valoir quelques pièces.",
+      "he": "עשוי להיות שווה כמה מטבעות.",
+      "hr": "Moglo bi vrijediti nekoliko novčića.",
+      "it": "Potrebbe valere qualcosina.",
+      "ja": "数枚のコインの価値があるかもしれない。",
+      "ko-KR": "몇 개의 동전 정도의 가치가 있을 수 있습니다.",
+      "no": "Kan være verdt noen mynter.",
+      "pl": "Może być warte kilka monet.",
+      "pt": "Pode valer algumas moedas.",
+      "pt-BR": "Pode valer algumas moedas.",
+      "ru": "Может стоить несколько монет.",
+      "sr": "Moglo bi vredeti nekoliko novčića.",
+      "tr": "Birkaç madeni paraya değer olabilir.",
+      "uk": "Може коштувати кілька монет.",
+      "zh-CN": "可能值几个硬币。",
+      "zh-TW": "可能值幾個硬幣。"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "foundIn": "Nature",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": 5,
+    "recyclesInto": {
+      "assorted_seeds": 2
+    },
+    "salvagesInto": {
+      "assorted_seeds": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fertilizer.png",
+    "updatedAt": "01/09/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "film_reel",
+    "name": {
+      "da": "Filmrulle",
+      "de": "Filmrolle",
+      "en": "Film Reel",
+      "es": "Rollo de película",
+      "fr": "Bobine de Film",
+      "he": "סליל סרט",
+      "hr": "Filmska Rolna",
+      "it": "Bobina di pellicola",
+      "ja": "映画フィルム",
+      "ko-KR": "필름 릴",
+      "no": "Filmrull",
+      "pl": "Rolka filmowa",
+      "pt": "Rolo de filme",
+      "pt-BR": "Rolo de Filme",
+      "ru": "Кинопленка",
+      "sr": "Filmska Rolna",
+      "tr": "Film Makarası",
+      "uk": "Кіноплівка",
+      "zh-CN": "胶片卷轴",
+      "zh-TW": "膠片捲軸"
+    },
+    "description": {
+      "da": "Kan være nogle mønter værd.",
+      "de": "Vielleicht ein paar Münzen wert",
+      "en": "May be worth a few coins.",
+      "es": "Puede valer algunas monedas.",
+      "fr": "Peut valoir quelques pièces.",
+      "he": "עשוי להיות שווה כמה מטבעות.",
+      "hr": "Možda vrijedi nekoliko novčića.",
+      "it": "Potrebbe valere qualcosina.",
+      "ja": "数コインの価値があるかもしれない。",
+      "ko-KR": "몇 코인의 가치가 있을 수 있습니다.",
+      "no": "Kan være verdt noen mynter.",
+      "pl": "Może być warte kilka monet.",
+      "pt": "Pode valer algumas moedas.",
+      "pt-BR": "Pode valer algumas moedas.",
+      "ru": "Может стоить несколько монет.",
+      "sr": "Možda vredi nekoliko novčića.",
+      "tr": "Birkaç madeni paraya değer olabilir.",
+      "uk": "Може коштувати кілька монет.",
+      "zh-CN": "可能值几个硬币。",
+      "zh-TW": "可能值幾個硬幣。"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "foundIn": "Old World, Residential",
+    "value": 2000,
+    "weightKg": 0.2,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/film_reel.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "fine_wristwatch",
+    "name": {
+      "da": "Fint armbåndsur",
+      "de": "Edle Armbanduhr",
+      "en": "Fine Wristwatch",
+      "es": "Reloj de pulsera fino",
+      "fr": "Montre-bracelet Raffinée",
+      "he": "שעון יד משובח",
+      "hr": "Fini Ručni Sat",
+      "it": "Orologio da polso pregiato",
+      "ja": "高級腕時計",
+      "ko-KR": "고급 손목시계",
+      "no": "Fin armbåndsklokke",
+      "pl": "Elegancki zegarek na rękę",
+      "pt": "Relógio de pulso fino",
+      "pt-BR": "Relógio de Pulso Fino",
+      "ru": "Изысканные наручные часы",
+      "sr": "Fini Ručni Sat",
+      "tr": "Kaliteli Kol Saati",
+      "uk": "Вишукані наручні годинники",
+      "zh-CN": "精致腕表",
+      "zh-TW": "精緻腕錶"
+    },
+    "description": {
+      "da": "Perfekt til at fortælle tiden og vise, at du er en yderst værdig person.",
+      "de": "Perfekt, um zu sehen, wie spät es ist - und um zu zeigen, wie vornehm du bist.",
+      "en": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person.",
+      "es": "Perfecto para decir la hora y demostrar que eres una persona extremadamente digna.",
+      "fr": "Parfait pour donner l'heure et montrer que vous êtes une personne extrêmement digne.",
+      "he": "מושלם לקריאת השעה, ולהראות שאתה אדם מכובד ביותר.",
+      "hr": "Savršen za očitavanje vremena i pokazivanje da ste iznimno dostojanstvena osoba.",
+      "it": "Perfetto per dire l'ora e mostrare che sei una persona estremamente dignitosa.",
+      "ja": "時間を確認するのに最適で、あなたが非常に品格のある人物であることを示せる。",
+      "ko-KR": "시간을 확인하고 당신이 매우 품위 있는 사람임을 보여주기에 완벽합니다.",
+      "no": "Perfekt for å fortelle tiden, og vise at du er en ekstremt verdig person.",
+      "pl": "Idealny do sprawdzania czasu i pokazania, że jesteś niezwykle dostojną osobą.",
+      "pt": "Perfeito para ver as horas e mostrar que você é uma pessoa extremamente digna.",
+      "pt-BR": "Perfeito para ver as horas e mostrar que você é uma pessoa extremamente distinta.",
+      "ru": "Идеально подходит для определения времени и демонстрации того, что вы исключительно достойный человек.",
+      "sr": "Savršen za očitavanje vremena i pokazivanje da ste izuzetno dostojanstvena osoba.",
+      "tr": "Zamanı söylemek ve son derece saygın bir insan olduğunuzu sergilemek için mükemmel.",
+      "uk": "Ідеально підходить для визначення часу та демонстрації того, що ви надзвичайно гідна людина.",
+      "zh-CN": "完美地显示时间，并展示你是一个极其高雅的人。",
+      "zh-TW": "完美地顯示時間，並展示你是一個極其高雅的人。"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "foundIn": "Residential, Commercial",
+    "value": 3000,
+    "weightKg": 0.2,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fine_wristwatch.png",
+    "updatedAt": "11/01/2025",
+    "addedIn": "base"
+  },
+  {
+    "id": "fireball_burner",
+    "name": {
+      "da": "Ildkuglebrænder",
+      "de": "Feuerballbrenner",
+      "en": "Fireball Burner",
+      "es": "Quemador de esferígneo",
+      "fr": "Brûleur de Bolide",
+      "he": "מבער כדור אש",
+      "hr": "Vatrena Kugla",
+      "it": "Bruciatore palla di fuoco",
+      "ja": "ファイアボールバーナー",
+      "ko-KR": "파이어볼 버너",
+      "no": "Ildkulebrenne",
+      "pl": "Palnik ognistej kuli",
+      "pt": "Queimador de bola de fogo",
+      "pt-BR": "Maçarico de Bola de Fogo",
+      "ru": "Горелка Огнешара",
+      "sr": "Vatrena Kugla",
+      "tr": "Ateş Topu Yakıcı",
+      "uk": "Вогняна куля",
+      "zh-CN": "火球燃烧炉",
+      "zh-TW": "火球燃燒器"
+    },
+    "description": {
+      "da": "Kan genbruges til ARC-legering. Kan kastes for at skabe små brande.",
+      "de": "Kann zu ARC-Legierung recycelt werden. Kann geworfen werden, um kleine Feuer zu erzeugen.",
+      "en": "Can be recycled into ARC Alloy. Can be thrown to create small fires.",
+      "es": "Puede reciclarse en aleación ARC. Puede lanzarse para crear pequeños fuegos.",
+      "fr": "Peut être recyclé en alliage ARC. Peut être lancé pour créer de petits feux.",
+      "he": "ניתן למיחזור לסגסוגת ARC. ניתן לזריקה ליצירת שריפות קטנות.",
+      "hr": "Može se reciklirati u ARC leguru. Može se baciti kako bi se stvorile male vatre.",
+      "it": "Si può riciclare in lega ARC. Può essere lanciato per creare piccoli incendi.",
+      "ja": "ARCアロイにリサイクル可能。投擲して小さな火を起こせる。",
+      "ko-KR": "아크 합금으로 재활용 가능. 투척하여 작은 불을 일으킬 수 있습니다.",
+      "no": "Kan resirkuleres til ARC-legering. Kan kastes for å skape små branner.",
+      "pl": "Może być przetworzony na stop ARC. Może być rzucony, aby stworzyć małe pożary.",
+      "pt": "Pode ser reciclado em liga ARC. Pode ser arremessado para criar pequenos incêndios.",
+      "pt-BR": "Pode ser reciclado em Liga ARC. Pode ser arremessado para criar pequenos focos de incêndio.",
+      "ru": "Можно переработать в сплав ARC. Можно бросить, чтобы создать небольшие пожары.",
+      "sr": "Može se reciklirati u ARC leguru. Može se baciti kako bi se stvorile male vatre.",
+      "tr": "ARC Alaşımına geri dönüştürülebilir. Küçük yangınlar çıkarmak için fırlatılabilir.",
+      "uk": "Можна переробити на сплав ARC. Можна кинути, щоб створити невеликі вогнища.",
+      "zh-CN": "可回收为ARC合金。可投掷以制造小型火焰。",
+      "zh-TW": "可回收為ARC合金。可投擲以製造小型火焰。"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "foundIn": "ARC",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 3,
+    "effects": {
+      "Damage": {
+        "value": "5/s",
+        "da": "Skade",
+        "de": "Schaden",
+        "en": "Damage",
+        "es": "Daño",
+        "fr": "Dégâts",
+        "he": "נזק",
+        "hr": "Šteta",
+        "it": "Danni",
+        "ja": "ダメージ",
+        "ko-KR": "피해",
+        "no": "Skade",
+        "pl": "Obrażenia",
+        "pt": "Dano",
+        "pt-BR": "Dano",
+        "ru": "Урон",
+        "sr": "Šteta",
+        "tr": "Hasar",
+        "uk": "Шкода",
+        "zh-CN": "伤害",
+        "zh-TW": "傷害"
+      },
+      "Duration": {
+        "value": "10s",
+        "da": "Varighed",
+        "de": "Dauer",
+        "en": "Duration",
+        "es": "Duración",
+        "fr": "Durée",
+        "he": "משך זמן",
+        "hr": "Trajanje",
+        "it": "Durata",
+        "ja": "持続時間",
+        "ko-KR": "지속시간",
+        "no": "Varighet",
+        "pl": "Czas trwania",
+        "pt": "Duração",
+        "pt-BR": "Duração",
+        "ru": "Длительность",
+        "sr": "Trajanje",
+        "tr": "Süre",
+        "uk": "Тривалість",
+        "zh-CN": "持续时间",
+        "zh-TW": "持續時間"
+      },
+      "Radius": {
+        "value": "2m",
+        "da": "Radius",
+        "de": "Radius",
+        "en": "Radius",
+        "es": "Radio",
+        "fr": "Rayon",
+        "he": "רדיוס",
+        "hr": "Radijus",
+        "it": "Raggio",
+        "ja": "範囲",
+        "ko-KR": "반경",
+        "no": "Radius",
+        "pl": "Promień",
+        "pt": "Raio",
+        "pt-BR": "Raio",
+        "ru": "Радиус",
+        "sr": "Radijus",
+        "tr": "Yarıçap",
+        "uk": "Радіус",
+        "zh-CN": "范围",
+        "zh-TW": "範圍"
+      }
+    },
+    "recyclesInto": {
+      "arc_alloy": 1,
+      "crude_explosives": 1
+    },
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fireball_burner.png",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base"
+  },
+  {
+    "id": "firecracker",
+    "name": {
+      "da": "Kinaput",
+      "de": "Böller",
+      "en": "Firecracker",
+      "es": "Petardo",
+      "fr": "Pétard",
+      "he": "חזיז",
+      "hr": "Petarda",
+      "it": "Petardo",
+      "ja": "爆竹",
+      "ko-KR": "폭죽",
+      "no": "Kinaputt",
+      "pl": "Petarda",
+      "pt": "Estalinho",
+      "pt-BR": "Bombinha",
+      "ru": "Петарда",
+      "sr": "Petarda",
+      "tr": "Maytap",
+      "uk": "Петарда",
+      "zh-CN": "爆竹",
+      "zh-TW": "爆竹"
+    },
+    "description": {
+      "da": "En enhed, der gnistrer og knalder på en behagelig måde.",
+      "de": "Ein Gerät, das angenehm funkelt und knallt.",
+      "en": "A device that sparks and pops in a pleasant manner.",
+      "es": "Un dispositivo que chisporrotea y estalla de forma agradable.",
+      "fr": "Un dispositif qui crépite et claque agréablement.",
+      "he": "מכשיר שיוצר ניצוצות ופיצפוצים בצורה נעימה.",
+      "hr": "Uređaj koji ugodno iskri i puca.",
+      "it": "Un dispositivo che scintilla e scoppietta in modo piacevole.",
+      "ja": "心地よく火花が散り、パチパチと音を立てる装置。",
+      "ko-KR": "불꽃이 튀고 기분 좋게 톡톡 터지는 장치.",
+      "no": "En enhet som gnistrer og smeller på en behagelig måte.",
+      "pl": "Urządzenie, które przyjemnie iskrzy i strzela.",
+      "pt": "Um dispositivo que faisca e estala de forma agradável.",
+      "pt-BR": "Dispositivo que solta faíscas e estoura de forma agradável.",
+      "ru": "Устройство, которое приятно искрит и хлопает.",
+      "sr": "Uređaj koji prijatno varniči i puca.",
+      "tr": "Hoş bir şekilde kıvılcımlanan ve patlayan bir cihaz.",
+      "uk": "Пристрій, який приємно іскрить і тріщить.",
+      "zh-CN": "一种会迸发火花并发出悦耳噼啪声的装置。",
+      "zh-TW": "一種會發出火花並帶來悅耳劈啪聲的裝置。"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.05,
+    "stackSize": 5,
+    "effects": {
+      "Duration": {
+        "value": "7.5s",
+        "da": "Varighed",
+        "de": "Dauer",
+        "en": "Duration",
+        "es": "Duración",
+        "fr": "Durée",
+        "he": "משך",
+        "hr": "Trajanje",
+        "it": "Durata",
+        "ja": "持続時間",
+        "ko-KR": "지속 시간",
+        "no": "Varighet",
+        "pl": "Czas trwania",
+        "pt": "Duração",
+        "pt-BR": "Duração",
+        "ru": "Длительность",
+        "sr": "Trajanje",
+        "tr": "Süre",
+        "uk": "Тривалість",
+        "zh-CN": "持续时间",
+        "zh-TW": "持續時間"
+      }
+    },
+    "craftBench": "utility_bench",
+    "stationLevelRequired": 1,
+    "recipe": {
+      "chemicals": 2,
+      "plastic_parts": 4
+    },
+    "recyclesInto": {
+      "plastic_parts": 3
+    },
+    "salvagesInto": {
+      "plastic_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/firecracker.png",
+    "updatedAt": "03/22/2026",
+    "addedIn": "1.7",
+    "vendors": [
+      {
+        "cost": {
+          "creds": 20
+        },
+        "trader": "Shani"
+      }
+    ]
+  },
+  {
     "id": "firefly_burner",
     "name": {
       "da": "Ildfluebrænder",
@@ -463,6 +871,11 @@
       }
     },
     "craftBench": "in_raid",
+    "craftSkills": {
+      "in_raid": [
+        "surv_3r"
+      ]
+    },
     "recipe": {
       "air_freshener": 1,
       "fireball_burner": 1
@@ -475,7 +888,7 @@
       "fireball_burner": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/flame_spray.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base",
     "repairCost": {
       "canister": 1,
@@ -678,7 +1091,7 @@
       "sr": "Fosilizovana munja",
       "tr": "Fosilleşmiş Şimşek",
       "uk": "Скам'яніла блискавка",
-      "zh-CN": "化石闪电",
+      "zh-CN": "闪电管石",
       "zh-TW": "化石閃電"
     },
     "description": {
@@ -700,7 +1113,7 @@
       "sr": "Predmet koji ima šansu da se pojavi nakon udara munje.",
       "tr": "Yıldırım düştükten sonra ortaya çıkma şansı olan bir eşya.",
       "uk": "Предмет, який має шанс з'явитися після удару блискавки.",
-      "zh-CN": "在雷击后有几率生成的物品。",
+      "zh-CN": "可回收为制作材料。在雷击后有概率生成的物品。",
       "zh-TW": "在雷擊後有機會生成的物品。"
     },
     "type": "Topside Material",
@@ -1054,13 +1467,18 @@
       }
     },
     "craftBench": "in_raid",
+    "craftSkills": {
+      "in_raid": [
+        "surv_3r"
+      ]
+    },
     "recipe": {
       "apricot": 1,
       "lemon": 1,
       "prickly_pear": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/fruit_mix.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base"
   },
   {
@@ -1314,12 +1732,21 @@
       "workbench"
     ],
     "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_5c",
+        "surv_3r"
+      ],
+      "workbench": [
+        "surv_5c"
+      ]
+    },
     "recipe": {
       "gas_grenade": 1,
       "wires": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade_trap.png",
-    "updatedAt": "03/17/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base"
   },
   {
@@ -3779,6 +4206,12 @@
       "med_station"
     ],
     "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_5c",
+        "surv_3r"
+      ]
+    },
     "recipe": {
       "durable_cloth": 1,
       "great_mullein": 1
@@ -3791,7 +4224,7 @@
       "fabric": 8
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/herbal_bandage.png",
-    "updatedAt": "03/22/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -6380,7 +6813,7 @@
       "sr": "Nečisto ARC rashladivo sredstvo",
       "tr": "Kirli ARC Soğutma Sıvısı",
       "uk": "Нечистий охолоджувач ARC",
-      "zh-CN": "不纯ARC冷却液",
+      "zh-CN": "不纯净的ARC冷却剂",
       "zh-TW": "不純ARC冷卻液"
     },
     "description": {
@@ -8225,7 +8658,7 @@
       "sr": "Lens je lično rasporedio nekoliko ovih po Pojasu Hrđe, iz nekog razloga.",
       "tr": "Lance, bir nedenden dolayı bunlardan bir dizi tanesini Pas Kuşağı'nın etrafına bizzat yerleştirmiş.",
       "uk": "Ленс особисто розмістив декілька таких по всьому Іржавому Поясу, з якоїсь причини.",
-      "zh-CN": "兰斯出于某种原因，亲自在锈带各处放置了许多这些东西。",
+      "zh-CN": "出于某种原因，兰斯亲自在锈带周围放了不少这种磁带。",
       "zh-TW": "蘭斯出於某種原因，親自在鏽帶各處放置了許多這些東西。"
     },
     "type": "Trinket",
@@ -9049,6 +9482,11 @@
       "workbench"
     ],
     "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_3r"
+      ]
+    },
     "recipe": {
       "chemicals": 3,
       "plastic_parts": 2
@@ -9061,7 +9499,7 @@
       "chemicals": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/light_impact_grenade.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base",
     "vendors": [
       {
@@ -9591,6 +10029,11 @@
       "utility_bench"
     ],
     "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_3r"
+      ]
+    },
     "recipe": {
       "chemicals": 5,
       "plastic_parts": 1
@@ -9603,7 +10046,7 @@
       "chemicals": 2
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/lil_smoke_grenade.png",
-    "updatedAt": "02/24/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base"
   },
   {
@@ -10628,12 +11071,21 @@
       "workbench"
     ],
     "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_5c",
+        "surv_3r"
+      ],
+      "workbench": [
+        "surv_5c"
+      ]
+    },
     "recipe": {
       "lure_grenade": 1,
       "wires": 1
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/lure_grenade_trap.png",
-    "updatedAt": "03/17/2026",
+    "updatedAt": "05/30/2026",
     "addedIn": "base"
   },
   {
@@ -10776,308 +11228,5 @@
         "trader": "Celeste"
       }
     ]
-  },
-  {
-    "id": "magnetic_accelerator",
-    "name": {
-      "da": "Magnetisk Accelerator",
-      "de": "Magnetischer Beschleuniger",
-      "en": "Magnetic Accelerator",
-      "es": "Acelerador Magnético",
-      "fr": "Accélérateur Magnétique",
-      "he": "מאיץ מגנטי",
-      "hr": "Magnetski Akcelerator",
-      "it": "Acceleratore Magnetico",
-      "ja": "磁力加速装置",
-      "ko-KR": "자성 가속기",
-      "no": "Magnetisk Akselerator",
-      "pl": "Akcelerator Magnetyczny",
-      "pt": "Acelerador Magnético",
-      "pt-BR": "Acelerador Magnético",
-      "ru": "Магнитный ускоритель",
-      "sr": "Magnetski Akcelerator",
-      "tr": "Manyetik Hızlandırıcı",
-      "uk": "Магнітний прискорювач",
-      "zh-CN": "磁力加速器",
-      "zh-TW": "磁力加速器"
-    },
-    "description": {
-      "da": "Bruges til at lave avancerede våben. Bruges til at lave: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "de": "Wird zur Herstellung von fortschrittlichen Waffen verwendet. Zur Herstellung von: Tempest, Equalizer, Vulcano, Aphelion, Jupiter",
-      "en": "Used to craft advanced weapons. Used to craft: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "es": "Usado para fabricar armas avanzadas. Usado para fabricar: Tempestad, Equalizer, Vulcano, Jupiter, Partecascos",
-      "fr": "Permet de fabriquer des armes avancées. Permet de fabriquer : Tempête, Égaliseur, Vulcano, Aphelion, Jupiter",
-      "he": "משמש ליצירת נשקים מתקדמים. משמש ליצירת: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "hr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "it": "Si usa per creare armi avanzate. Si usa per creare: Tempesta, Equalizzatore, Vulcano, Aphelion, Giove",
-      "ja": "高度な武器の製作に使用。製作可能: Tempest、Equalizer、Vulcano、Jupiter、Hullcracker",
-      "ko-KR": "고급 무기 제작에 사용됩니다. 제작 가능: 템페스트, 이퀄라이저, 불카노, 주피터, 헐크래커",
-      "no": "Brukes til å lage avanserte våpen. Brukes til å lage: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "pl": "Używany do wytwarzania zaawansowanej broni. Używany do wytworzenia: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "pt": "Usado para fabricar armas avançadas. Usado para fabricar: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "pt-BR": "Usado para fabricar armas avançadas. Usado para fabricar: Temporal, Equalizador, Vulcão, Jupiter, Afélio",
-      "ru": "Используется для создания продвинутого оружия. Используется для создания: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "sr": "Koristi se za izradu naprednog oružja. Koristi se za izradu: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "tr": "Gelişmiş silahlar üretmek için kullanılır. Üretilebilir: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "uk": "Використовується для створення просунутої зброї. Використовується для створення: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-      "zh-CN": "用于制作高级武器。可制作：Tempest、制裁者、Vulcano、木星、Hullcracker",
-      "zh-TW": "用於製作高級武器。可製作：Tempest、Equalizer、Vulcano、Jupiter、Hullcracker"
-    },
-    "type": "Refined Material",
-    "rarity": "Epic",
-    "foundIn": "Exodus",
-    "value": 5500,
-    "weightKg": 1,
-    "stackSize": 3,
-    "craftBench": "refiner",
-    "stationLevelRequired": 3,
-    "recipe": {
-      "advanced_mechanical_components": 2,
-      "arc_motion_core": 2
-    },
-    "recyclesInto": {
-      "advanced_mechanical_components": 1,
-      "arc_motion_core": 1
-    },
-    "salvagesInto": {
-      "advanced_mechanical_components": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/magnetic_accelerator.png",
-    "updatedAt": "03/17/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "magnetron",
-    "name": {
-      "da": "Magnetron",
-      "de": "Magnetron",
-      "en": "Magnetron",
-      "es": "Magnetrón",
-      "fr": "Magnétron",
-      "he": "מגנטרון",
-      "hr": "Magnetron",
-      "it": "Magnetron",
-      "ja": "マグネトロン",
-      "ko-KR": "전자관",
-      "no": "Magnetron",
-      "pl": "Magnetron",
-      "pt": "Magnetron",
-      "pt-BR": "Magnetron",
-      "ru": "Магнетрон",
-      "sr": "Magnetron",
-      "tr": "Mıknatıs Robot",
-      "uk": "Магнетрон",
-      "zh-CN": "磁控管",
-      "zh-TW": "磁控管"
-    },
-    "description": {
-      "da": "Kan genbruges til håndværksmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar en materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזר לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "クラフト素材にリサイクルできます。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til håndverksmaterialer.",
-      "pl": "Można przetworzyć na materiały rzemieślnicze.",
-      "pt": "Pode ser reciclado em materiais de fabricação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать в материалы для крафта.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim malzemelerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收為製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Epic",
-    "foundIn": "Exodus",
-    "value": 6000,
-    "weightKg": 1.5,
-    "stackSize": 3,
-    "recyclesInto": {
-      "magnetic_accelerator": 1,
-      "steel_spring": 1
-    },
-    "salvagesInto": {
-      "advanced_mechanical_components": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/magnetron.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "1.2"
-  },
-  {
-    "id": "major_aivas_mementos",
-    "name": {
-      "da": "Major Aivas minder",
-      "de": "Major Aivas Andenken",
-      "en": "Major Aiva's Mementos",
-      "es": "Recuerdos de la Mayor Aiva",
-      "fr": "Souvenirs du Major Aiva",
-      "he": "מזכרות של מייג'ור אייבה",
-      "hr": "Uspomene bojnice Aive",
-      "it": "Ricordi del Maggiore Aiva",
-      "ja": "エイヴァ少佐の思い出の品",
-      "ko-KR": "아이바 소령의 기념품",
-      "no": "Major Aivas minner",
-      "pl": "Pamiątki Major Aivy",
-      "pt": "Lembranças da Major Aiva",
-      "pt-BR": "Lembranças da Major Aiva",
-      "ru": "Памятные вещи майора Айвы",
-      "sr": "Uspomene majorke Ajve",
-      "tr": "Binbaşı Aiva'nın hatıraları",
-      "uk": "Пам'ятні речі майора Айви",
-      "zh-CN": "艾瓦少校的纪念品",
-      "zh-TW": "艾瓦少校的紀念品"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "value": 100,
-    "weightKg": 0.5,
-    "stackSize": 1,
-    "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/major_aivas_mementos.png",
-    "updatedAt": "04/14/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "major_aivas_patch",
-    "name": {
-      "da": "Major Aivas emblem",
-      "de": "Major Aivas Abzeichen",
-      "en": "Major Aiva's Patch",
-      "es": "Parche del Mayor Aiva",
-      "fr": "Écusson du Major Aiva",
-      "he": "הטלאי של Major Aiva",
-      "hr": "Oznaka bojnika Aive",
-      "it": "Toppa del Maggiore Aiva",
-      "ja": "アイヴァ少佐のパッチ",
-      "ko-KR": "아이바 소령의 패치",
-      "no": "Major Aivas merke",
-      "pl": "Naszywka majora Aivy",
-      "pt": "Distintivo do Major Aiva",
-      "pt-BR": "Emblema da Major Aiva",
-      "ru": "Нашивка майора Айвы",
-      "sr": "Oznaka majora Aive",
-      "tr": "Binbaşı Aiva'nın Arması",
-      "uk": "Нашивка майора Айви",
-      "zh-CN": "艾娃少校的臂章",
-      "zh-TW": "艾娃少校的臂章"
-    },
-    "description": {
-      "da": "Et flænget emblem, fundet midt i ruiner og grus.",
-      "de": "Ein zerrissenes Abzeichen, gefunden inmitten von Schutt und Ruinen.",
-      "en": "A torn patch, found amidst rubble and ruin.",
-      "es": "Un parche rasgado, encontrado entre escombros y ruinas.",
-      "fr": "Un écusson déchiré, trouvé au milieu des décombres et des ruines.",
-      "he": "טלאי קרוע, שנמצא בין ההריסות.",
-      "hr": "Poderana oznaka, pronađena usred ruševina i rušenja.",
-      "it": "Una toppa strappata, trovata tra macerie e rovine.",
-      "ja": "瓦礫と廃墟の中で見つかった破れたパッチ。",
-      "ko-KR": "잔해와 폐허 속에서 발견된 찢어진 패치.",
-      "no": "Et revet merke, funnet blant ruiner og rusk.",
-      "pl": "Podarta naszywka znaleziona wśród gruzów i ruin.",
-      "pt": "Um distintivo rasgado, encontrado entre escombros e ruínas.",
-      "pt-BR": "Um emblema rasgado, encontrado em meio aos escombros e ruínas.",
-      "ru": "Порванная нашивка, найденная среди обломков и руин.",
-      "sr": "Pocepana oznaka, pronađena među ruševinama i ruševinama.",
-      "tr": "Moloz ve harabeler arasında bulunmuş yırtık bir arma.",
-      "uk": "Порвана нашивка, знайдена серед уламків і руїн.",
-      "zh-CN": "一块破损的臂章，在瓦砾和废墟中发现。",
-      "zh-TW": "一塊破損的臂章，在瓦礫和廢墟中發現。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "value": 100,
-    "weightKg": 0.25,
-    "stackSize": 1,
-    "questItem": true,
-    "effects": {
-      "Tracked for quest": {
-        "value": "",
-        "da": "Sporet til opgave",
-        "de": "Für Quest verfolgt",
-        "en": "Tracked for quest",
-        "es": "Rastreado para misión",
-        "fr": "Suivi pour quête",
-        "he": "במעקב עבור משימה",
-        "hr": "Praćeno za zadatak",
-        "it": "Tracciato per missione",
-        "ja": "クエスト追跡中",
-        "ko-KR": "퀘스트 추적 중",
-        "no": "Sporet for oppdrag",
-        "pl": "Śledzone dla zadania",
-        "pt": "Rastreado para missão",
-        "pt-BR": "Rastreado para missão",
-        "ru": "Отслеживается для задания",
-        "sr": "Praćeno za zadatak",
-        "tr": "Görev için izleniyor",
-        "uk": "Відстежується для завдання",
-        "zh-CN": "任务追踪",
-        "zh-TW": "任務追蹤"
-      }
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/major_aivas_patch.png",
-    "updatedAt": "06/03/2026",
-    "addedIn": "base"
-  },
-  {
-    "id": "marano_market_business_card",
-    "name": {
-      "da": "Visitkort fra Marano Marked",
-      "de": "Visitenkarte des Marano-Markts",
-      "en": "Marano Market Business Card",
-      "es": "Tarjeta de visita del mercado Marano",
-      "fr": "Carte de visite du marché Marano",
-      "he": "כרטיס ביקור של שוק מרנו",
-      "hr": "Posjetnica tržnice Marano",
-      "it": "Biglietto da visita del mercato Marano",
-      "ja": "マラーノ市場の名刺",
-      "ko-KR": "마라노 마켓 명함",
-      "no": "Visittkort fra Marano-markedet",
-      "pl": "Wizytówka targu Marano",
-      "pt": "Cartão de visita do Mercado Marano",
-      "pt-BR": "Cartão de visita do Mercado Marano",
-      "ru": "Визитка рынка Марано",
-      "sr": "Vizitkarta pijace Marano",
-      "tr": "Marano Pazarı kartviziti",
-      "uk": "Візитка ринку Марано",
-      "zh-CN": "马拉诺市场名片",
-      "zh-TW": "馬拉諾市場名片"
-    },
-    "description": {
-      "da": "Den kradsede skrift på dette visitkort skjuler næsten logoet for Maranos marked.",
-      "de": "Die gekritzelte Schrift auf dieser Visitenkarte verdeckt fast das Logo von Maranos Markt.",
-      "en": "The scribbled writing on this business card almost obscures the logo of Marano's market.",
-      "es": "La escritura garabateada en esta tarjeta de visita casi oculta el logotipo del mercado de Marano.",
-      "fr": "Les gribouillis sur cette carte de visite masquent presque le logo du marché de Marano.",
-      "he": "הכתיבה המקושקשת על כרטיס הביקור הזה כמעט מסתירה את הלוגו של שוק מרנו.",
-      "hr": "Iškrabani tekst na ovoj posjetnici gotovo prekriva logo Maranove tržnice.",
-      "it": "La scritta scarabocchiata su questo biglietto da visita quasi copre il logo del mercato di Marano.",
-      "ja": "この名刺に走り書きされた文字が、マラーノ市場のロゴをほとんど覆い隠している。",
-      "ko-KR": "이 명함에 휘갈겨 쓴 글씨가 마라노 시장의 로고를 거의 가리고 있다.",
-      "no": "Den skriblede teksten på dette visittkortet skjuler nesten logoen til Maranos marked.",
-      "pl": "Nabazgrany napis na tej wizytówce niemal zasłania logo targu Marano.",
-      "pt": "A escrita rabiscada neste cartão de visita quase obscurece o logótipo do mercado de Marano.",
-      "pt-BR": "A escrita rabiscada neste cartão de visita quase obscurece o logotipo do mercado de Marano.",
-      "ru": "Накорябанная надпись на этой визитке почти закрывает логотип рынка Марано.",
-      "sr": "Iškrabani tekst na ovoj vizitkarti gotovo prekriva logo pijace Marano.",
-      "tr": "Bu kartvizitteki karalanmış yazı, Marano pazarının logosunu neredeyse gizliyor.",
-      "uk": "Нашкрябаний напис на цій візитці майже закриває логотип ринку Марано.",
-      "zh-CN": "这张名片上潦草的字迹几乎遮住了马拉诺市场的标志。",
-      "zh-TW": "這張名片上潦草的字跡幾乎遮住了馬拉諾市場的標誌。"
-    },
-    "type": "Trinket",
-    "rarity": "Common",
-    "value": 100,
-    "weightKg": 0.5,
-    "stackSize": 1,
-    "questItem": true,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/marano_market_business_card.png",
-    "updatedAt": "05/04/2026",
-    "addedIn": "1.26"
   }
 ]
