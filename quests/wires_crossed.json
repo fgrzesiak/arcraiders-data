@@ -1,0 +1,196 @@
+{
+  "id": "wires_crossed",
+  "name": {
+    "da": "Krydsede ledninger",
+    "de": "Kabelkreuzung",
+    "en": "Wires Crossed",
+    "es": "Cables cruzados",
+    "fr": "Les fils se croisent",
+    "he": "חוטים התערבבו",
+    "hr": "Pomiješane žice",
+    "it": "Fili incrociati",
+    "ja": "すれ違い",
+    "ko-KR": "뒤엉킨 전선",
+    "no": "Kabler i kryss",
+    "pl": "Nieporozumienie",
+    "pt": "Fios Cruzados",
+    "pt-BR": "Fios Cruzados",
+    "ru": "Провода крестиком",
+    "sr": "Ukrštene žice",
+    "tr": "Kablolar Bağlı",
+    "uk": "Заплутані дроти",
+    "zh-CN": "线路交错",
+    "zh-TW": "溝通不良"
+  },
+  "map": ["buried_city", "the_spaceport", "the_blue_gate"],
+  "trader": "Celeste",
+  "requiredItemIds": [
+    {
+      "itemId": "snitch_scanner",
+      "quantity": 1
+    },
+    {
+      "itemId": "surveyor_vault",
+      "quantity": 1
+    },
+    {
+      "itemId": "sentinel_firing_core",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Den anordning, du fandt ved Observatoriet… Der var ikke meget data tilbage at læse, men signaturen var uden tvivl ARC's.",
+    "de": "Dieses Ding, das du im Observatorium gefunden hast … Es waren zwar nicht mehr viele Daten zu entnehmen, aber die Signatur stammte zweifellos von ARC.",
+    "en": "That contraption you found at the Observatory… There wasn’t much data left to read, but the signature was undeniably ARC’s.",
+    "es": "Eso que encontraste en el observatorio... no contenía muchos datos legibles, pero está claro que es de las ARC.",
+    "fr": "Ce dispositif que vous avez trouvé à l'Observatoire... Il ne restait plus beaucoup de données à consulter, mais la signature était indéniablement celle de l'ARC.",
+    "he": "המתקן המוזר שמצאתם במצפה הכוכבים... לא נותרו הרבה נתונים לקריאה, אבל החתימה הייתה ללא ספק של ARC.",
+    "hr": "Ta naprava koju ste pronašli kod Opservatorija… Nije ostalo puno podataka za očitati, ali potpis je bio neporecivo ARC-ov.",
+    "it": "Quell'aggeggio che hai trovato all'Osservatorio... Non c'erano molti dati da leggere, ma la firma era innegabilmente dell'ARC.",
+    "ja": "観測所で見つけたあの装置… 読み取れるデータはほとんど残っていなかったが、あれがARCのものだということだけは間違いない。",
+    "ko-KR": "천문대에서 찾은 그 장치... 읽을 수 있는 데이터는 거의 남지 않았지만, 신호는 틀림없이 아크 것이었어요.",
+    "no": "Den innretningen du fant ved Observatoriet… Det var ikke mye data igjen å lese, men signaturen var uten tvil ARCs.",
+    "pl": "To urządzenie znalezione w obserwatorium… nie zawierało wielu danych, ale sygnatura bez wątpienia wskazuje na ARC.",
+    "pt": "Aquela engenhoca que você encontrou no Observatório… Restavam poucos dados para ler, mas a assinatura era inegavelmente da ARC.",
+    "pt-BR": "O mecanismo que você encontrou no Observatório... Não haviam muitos dados para leitura, mas a assinatura sem dúvida é das ARCs.",
+    "ru": "Эта штуковина, которую тебе удалось найти в обсерватории… Данных в ней было совсем немного, но сигнатура точно принадлежит ARC.",
+    "sr": "Ta sprava koju si pronašao u Opservatorijumu… Nije ostalo mnogo podataka za očitavanje, ali je potpis bio neosporno ARC-ov.",
+    "tr": "Gözlemevi'nde bulduğun o mekanizma... Okunacak pek bir veri kalmamıştı ancak imza kesinlikle ARC'a ait.",
+    "uk": "Та дивна штуковина, яку ти знайшов в Обсерваторії… Даних для зчитування залишалося небагато, але підпис був беззаперечно ARC.",
+    "zh-CN": "你在天文台找到的那个装置……残留的数据不多，但信号特征绝对是ARC的。",
+    "zh-TW": "你在天文台找到的那個機關…剩下的資料不多了，但那信號毫無疑問是ARC的。"
+  },
+  "objectives": [
+    {
+      "da": "På The Blue Gate skal du fastgøre en Snitch Scanner til antennen ved Pilgrim’s Peak",
+      "de": "Bring in Blaues Tor einen Spitzel-Scanner an der Antenne auf dem Pilgergipfel an.",
+      "en": "On The Blue Gate, attach a Snitch Scanner to the antenna at Pilgrim’s Peak",
+      "es": "En la Puerta azul, acopla un escáner de delator a la antena de la cima del peregrino",
+      "fr": "Au Portail bleu, fixer un scanner de Mouchard à l'antenne du Pic Pèlerin",
+      "he": "ב\"The Blue Gate\", חברו סורק מלשין לאנטנה בפסגת פילגרים",
+      "hr": "Na The Blue Gate, pričvrstite Snitch skener na antenu na Pilgrim’s Peak",
+      "it": "Al Varco Blu, aggancia uno scanner di spia all'antenna al Picco del Pellegrino",
+      "ja": "ブルーゲートで、ピリグリム・ピークのアンテナにスニッチスキャナを取り付ける",
+      "ko-KR": "블루 게이트에서 순례자의 봉우리에 있는 안테나에 스니치 스캐너 장착하기",
+      "no": "På The Blue Gate, fest en Snitch-skanner til antenna ved Pilgrim’s Peak",
+      "pl": "W okolicy Błękitnej Bramy podłącz skaner kapusia do anteny na Szczycie Pielgrzyma",
+      "pt": "Em O Portão Azul, instale um Snitch Scanner à antena no Pico do Peregrino",
+      "pt-BR": "No Portão Azul, anexe um Detector Dedo-duro à antena no Pico do Peregrino",
+      "ru": "Прикрепите сканер «Стукача» к антенне на Вершине странника у Синих ворот.",
+      "sr": "Na The Blue Gate, prikači Snitch Skener na antenu na Hodočasničkom vrhu",
+      "tr": "Mavi Kapı'da Seyyah Zirvesi'ndeki antene bir Muhbir Tarayıcı iliştir",
+      "uk": "На The Blue Gate прикріпити Сканер-донощик до антени на Піку Пілігрима",
+      "zh-CN": "在蓝门区域，将“告密者”扫描仪安装到朝圣峰的天线上",
+      "zh-TW": "在藍色大門，將一個告密者掃描儀裝到朝聖者之峰的天線上"
+    },
+    {
+      "da": "På Spaceport skal du fastgøre en Surveyor Vault til antennen øverst på affyringstårnene",
+      "de": "Bring im Raumhafen einen Beobachtertresor an der Antenne oben auf den Starttürmen an.",
+      "en": "On Spaceport, attach a Surveyor Vault to the antenna on top of the Launch Towers",
+      "es": "En el Puerto espacial, acopla un depósito de vigilante a la antena situada en lo alto de las torres de lanzamiento",
+      "fr": "Au Port spatial, fixer un coffre de Guetteur à l'antenne située au sommet des Tours de lancement",
+      "he": "ב\"Spaceport\", חברו כספת סקרן לאנטנה שעל גבי מגדלי השיגור",
+      "hr": "Na Spaceportu, pričvrstite Surveyor Vault na antenu na vrhu Lansirnih tornjeva",
+      "it": "Allo Spazioporto, aggancia una cassaforte di Supervisore all'antenna in cima alle Torri di lancio",
+      "ja": "宇宙港で、発射塔の上にあるアンテナにサーベイヤーのボックスを取り付ける",
+      "ko-KR": "우주 기지에서 발사탑 꼭대기의 안테나에 서베이어 볼트 장착하기",
+      "no": "På Spaceport, fest en Surveyor-hvelv til antenna på toppen av Oppskytningstårnene",
+      "pl": "W porcie kosmicznym podłącz komorę szperacza do anteny na szczycie wież startowych",
+      "pt": "No Espaçoporto, instale um Surveyor Vault à antena no topo das Torres de Lançamento",
+      "pt-BR": "No Espaçoporto, anexe um Cofre de Inspetor à antena no topo das Torres de Lançamento",
+      "ru": "Прикрепите сейф «Наблюдателя» к антенне на крыше пусковых башен в космопорте.",
+      "sr": "Na Spaceport, prikači Surveyor Sef na antenu na vrhu Lansirnih tornjeva",
+      "tr": "Uzaylimanı'ndaki Fırlatma Kulelerinin tepesindeki antene bir Gözetleyici Kasası iliştir",
+      "uk": "На Космопорті прикріпити Сховище геодезиста до антени на вершині Пускових веж",
+      "zh-CN": "在太空港，将“勘测师”保险库安装到发射塔顶部的天线上",
+      "zh-TW": "在太空港，將一個勘查員保存庫裝到發射塔頂部的天線上"
+    },
+    {
+      "da": "På Buried City skal du fastgøre en Sentinel Firing Core til antennen på taget af Grandioso Apartments",
+      "de": "Bring in der Begrabenen Stadt einen Wächter-Feuerkern an der Antenne auf dem Dach der Grandioso-Apartments an.",
+      "en": "On Buried City, attach a Sentinel Firing Core to the antenna at the roof of the Grandioso Apartments",
+      "es": "En Ciudad enterrada, acopla un núcleo de disparo de centinela a la antena situada en el tejado de los apartamentos Grandioso",
+      "fr": "À la Ville enfouie, fixer un noyau de tir de Sentinelle à l'antenne située sur le toit des Appartements Grandioso",
+      "he": "ב\"Buried City\", חברו ליבת ירי סנטינל לאנטנה בגג בנייני גרנדיוסו",
+      "hr": "Na Buried Cityju, pričvrstite Sentinel Firing Core na antenu na krovu Grandioso Apartments",
+      "it": "Nella Città sepolta, aggancia un nucleo di fuoco di Sentinella all'antenna sul tetto degli appartamenti Grandioso",
+      "ja": "埋もれた街で、グランディオーソ・アパートの屋上にあるアンテナにセンチネル発火コアを取り付ける",
+      "ko-KR": "파묻힌 도시에서 그란디오소 아파트 지붕의 안테나에 센티넬 발사 코어 장착하기",
+      "no": "På Buried City, fest en Sentinel Firing-kjerne til antenna på taket av Grandioso Apartments",
+      "pl": "W Pogrzebanym Mieście podłącz rdzeń strzelniczy strażnika do anteny na dachu apartamentów Grandioso",
+      "pt": "Em Cidade Soterrada, instale um Sentinel Firing Core à antena no telhado dos Apartamentos Grandioso",
+      "pt-BR": "Na Cidade Soterrada, anexe um Núcleo de Disparo de Sentinela à antena no telhado do Condomínio Grandioso",
+      "ru": "Прикрепите огневое ядро «Часового» к антенне на крыше апартаментов «Грандиозо» в Погребенном городе.",
+      "sr": "Na Buried City, prikači Sentinel Ispaljivačko Jezgro na antenu na krovu Grandioso Apartmana",
+      "tr": "Gömülü Şehir'deki Grandioso Apartmanı'nın çatısındaki antene bir Nöbetçi Ateşleme Çekirdeği iliştir",
+      "uk": "На Похованому Місті прикріпити Ядро Стрільби Вартового до антени на даху апартаментів Grandioso",
+      "zh-CN": "在掩埋废城，将“哨卫”发射核心安装到奢华公寓屋顶的天线上",
+      "zh-TW": "在埋藏都市，將一個哨兵射擊核心裝到格蘭迪索公寓屋頂的天線上"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "electrical_components",
+      "quantity": 3
+    },
+    {
+      "itemId": "renegade_i",
+      "quantity": 1
+    },
+    {
+      "itemId": "zipline",
+      "quantity": 2
+    },
+    {
+      "itemId": "crash_mat",
+      "quantity": 2
+    }
+  ],
+  "xp": 8000,
+  "previousQuestIds": ["exploring_pendola_pass"],
+  "nextQuestIds": ["ruins_and_reverberations"],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "901357140",
+    "children": [
+      {
+        "id": "780499474",
+        "index": 0,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "snitch_scanner"
+          }
+        ],
+        "itemUse": "consume",
+        "type": "step"
+      },
+      {
+        "id": "661415079",
+        "index": 1,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "surveyor_vault"
+          }
+        ],
+        "itemUse": "consume",
+        "type": "step"
+      },
+      {
+        "id": "817892514",
+        "index": 2,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "sentinel_firing_core"
+          }
+        ],
+        "itemUse": "consume",
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "wires-crossed"
+}

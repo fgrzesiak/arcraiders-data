@@ -1,0 +1,260 @@
+{
+  "id": "ss9",
+  "name": {
+    "da": "Trifektaen",
+    "de": "Die Triade",
+    "en": "The Trifecta",
+    "es": "Triplete",
+    "fr": "Trio gagnant",
+    "he": "הטריפקטה",
+    "hr": "Trifekta",
+    "it": "La trifetta",
+    "ja": "トライフェクタ",
+    "ko-KR": "삼인조",
+    "no": "Trifectaen",
+    "pl": "Tryplet",
+    "pt": "A Trifeta",
+    "pt-BR": "Trio parada dura",
+    "ru": "Триада",
+    "sr": "Trifekta",
+    "tr": "Üçlü",
+    "uk": "Трійка",
+    "zh-CN": "三连胜",
+    "zh-TW": "三連發"
+  },
+  "map": ["buried_city", "the_spaceport", "the_blue_gate", "dam_battlegrounds"],
+  "trader": "Shani",
+  "grantedItemIds": [
+    {
+      "itemId": "remote_raider_flare",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "da": "Efterretninger er meget godt, men de rækker kun til en vis grænse. Hvis ARC virkelig nærmer sig, har jeg brug for, at hver eneste Raider beviser, at de kan klare deres droner i kamp.",
+    "de": "Aufklärung ist gut und schön, aber damit kommen wir nicht weit. Wenn die ARC wirklich näher rücken, muss jeder Raider beweisen, dass er im Kampf mit seinen Drohnen umgehen kann.",
+    "en": "Intel’s all well and good, but it only gets us so far. If ARC’s truly closing in, I need every Raider to prove they can handle their drones in a fight.",
+    "es": "La información ayuda, pero solo hasta cierto punto. Si las ARC de verdad están acercándose, hay que asegurarse de que todo Raider sepa lidiar con los drones en combate.",
+    "fr": "Les renseignements, c'est bien beau, mais ça ne suffit pas. Si l'ARC se rapproche vraiment, chaque Raider doit démontrer qu'il est capable de tenir tête aux drones.",
+    "he": "מודיעין זה טוב ויפה, אבל יש לו גבול. אם ARC באמת סוגרים עלינו, אני צריך שכל ריידר יוכיח שהוא מסוגל להתמודד עם הרחפנים שלהם בקרב.",
+    "hr": "Informacije su dobre i korisne, ali ne vode nas daleko. Ako se ARC zaista približava, trebam svakog Raidera da dokaže kako se može nositi s njihovim dronovima u borbi.",
+    "it": "Le informazioni vanno benone, ma ci aiutano solo fino a un certo punto. Se l'ARC si sta davvero avvicinando, ho bisogno che ogni Raider dimostri di saper gestire i propri droni in un combattimento.",
+    "ja": "情報があるのはいいけど、悩ましくなる一方だよ。ARCが本当に接近してるなら、レイダー全員が奴らのドローンに対処できないといけない。",
+    "ko-KR": "정보도 중요하지만, 그것만으로는 한계가 있어요. 아크가 정말 압박해 오고 있다면 레이더는 한 명도 빠짐없이 드론과 전투하는 법을 알아야 해요.",
+    "no": "Etterretning er vel og bra, men det tar oss bare et visst stykke. Hvis ARC virkelig nærmer seg, trenger jeg at hver Raider beviser at de kan hamle opp med dronene deres i kamp.",
+    "pl": "Dane z wywiadu są cacy, ale daleko na nich nie zajedziemy. Jeśli ARC naprawdę się zbliża, każdy z łupieżców będzie musiał pokazać, że wie, jak obchodzić się z dronami w walce.",
+    "pt": "Informações são ótimas, mas só nos levam até certo ponto. Se a ARC está realmente se aproximando, preciso que cada Raider prove que consegue lidar com os drones deles em combate.",
+    "pt-BR": "Informação é ótimo, mas só leva a gente até certo ponto. Se a ARC está mesmo se aproximando, preciso que cada Raider prove que consegue lidar com os drones numa batalha.",
+    "ru": "Разведка — это, конечно, прекрасно, но если ARC пойдут прямо на нас, мне нужно знать, что каждый рейдер справится с дронами в бою.",
+    "sr": "Obaveštajni podaci su dobra stvar, ali nam pomažu samo donekle. Ako se ARC zaista približava, treba mi da svaki Raider dokaže da može da izađe na kraj sa njihovim dronovima u borbi.",
+    "tr": "Bilgi toplamak iyi güzel ama bir yere kadar işimize yarar. Eğer ARC gerçekten harekete geçiyorsa bütün Raider'ların savaş durumunda dronlarına hâkim olabildiğini kanıtlaması gerek.",
+    "uk": "Розвіддані — це, звісно, добре, але їх замало. Якщо ARC дійсно наближаються, мені потрібно, щоб кожен Рейдер довів, що здатен впоратися з їхніми дронами в бою.",
+    "zh-CN": "情报很有用，但还远远不够。如果ARC真的全线压过来了，每个奇袭者都得证明自己能硬刚无人机。",
+    "zh-TW": "情報雖然不錯，但能幫助我們的也有限。如果ARC真的在逼近，我需要每個掠手證明自己能在戰鬥中操控無人機。"
+  },
+  "objectives": [
+    {
+      "da": "Ødelæg 2 Snitches",
+      "de": "Zerstöre 2 Spitzel.",
+      "en": "Destroy 2 Snitches",
+      "es": "Destruye 2 delatores.",
+      "fr": "Détruire 2 Mouchards",
+      "he": "השמדו 2 סניצ'ים",
+      "hr": "Uništi 2 Snitcha.",
+      "it": "Distruggi 2 Spie",
+      "ja": "スニッチを2体破壊する",
+      "ko-KR": "스니치 2개 파괴하기",
+      "no": "Ødelegg 2 Snitches",
+      "pl": "Zniszcz kapusiów: 2",
+      "pt": "Destrua 2 Snitches",
+      "pt-BR": "Destrua 2 Dedos-duro",
+      "ru": "Уничтожьте «Стукачей»: 2.",
+      "sr": "Uništi 2 Dojavničara",
+      "tr": "2 Muhbir yok et",
+      "uk": "Знищити 2 Донощиків",
+      "zh-CN": "摧毁2个“告密者”",
+      "zh-TW": "摧毀2台告密者"
+    },
+    {
+      "da": "Ødelæg 2 Wasps",
+      "de": "Zerstöre 2 Wespen.",
+      "en": "Destroy 2 Wasps",
+      "es": "Destruye 2 avispas.",
+      "fr": "Détruire 2 Guêpes",
+      "he": "השמדו 2 וואספים",
+      "hr": "Uništi 2 Waspa.",
+      "it": "Distruggi 2 Vespe",
+      "ja": "ワスプを2体破壊する",
+      "ko-KR": "와스프 2개 파괴하기",
+      "no": "Ødelegg 2 Wasps",
+      "pl": "Zniszcz osy: 2",
+      "pt": "Destrua 2 Wasps",
+      "pt-BR": "Destrua 2 Vespas",
+      "ru": "Уничтожьте «Ос»: 2.",
+      "sr": "Uništi 2 Ose",
+      "tr": "2 Eşek Arısı Yok Et",
+      "uk": "Знищити 2 Ос",
+      "zh-CN": "摧毁2个“黄蜂”",
+      "zh-TW": "摧毀2台黃蜂"
+    },
+    {
+      "da": "Ødelæg 2 Hornets",
+      "de": "Zerstöre 2 Hornissen.",
+      "en": "Destroy 2 Hornets",
+      "es": "Destruye 2 avispones.",
+      "fr": "Détruire 2 Frelons",
+      "he": "השמדו 2 הורנטים",
+      "hr": "Uništi 2 Horneta.",
+      "it": "Distruggi 2 Calabroni",
+      "ja": "ホーネットを2体破壊する",
+      "ko-KR": "호넷 2개 파괴하기",
+      "no": "Ødelegg 2 Hornets",
+      "pl": "Zniszcz szerszenie: 2",
+      "pt": "Destrua 2 Hornets",
+      "pt-BR": "Destrua 2 Marimbondos",
+      "ru": "Уничтожьте «Шершней»: 2.",
+      "sr": "Uništi 2 Stršljena",
+      "tr": "2 Yaban Arısı Yok Et",
+      "uk": "Знищити 2 Горнетів",
+      "zh-CN": "摧毁2个“马蜂”",
+      "zh-TW": "摧毀2台虎頭蜂"
+    },
+    {
+      "da": "Ødelæg 2 Wasp-thrustere",
+      "de": "Zerstöre 2 Wespen-Schubdüsen.",
+      "en": "Destroy 2 Wasp thrusters",
+      "es": "Destruye 2 propulsores de avispas",
+      "fr": "Détruire 2 propulseurs de Guêpe",
+      "he": "השמדו 2 מדחפי וואספ",
+      "hr": "Uništi 2 Wasp potisnika.",
+      "it": "Distruggi 2 propulsori di Vespa",
+      "ja": "ワスプのスラスターを2個破壊する",
+      "ko-KR": "와스프 추진기 2개 파괴하기",
+      "no": "Ødelegg 2 Wasp-thrustere",
+      "pl": "Zniszcz silniki sterujące osy (2)",
+      "pt": "Destrua 2 propulsores de Wasp",
+      "pt-BR": "Destrua 2 propulsores de Vespa",
+      "ru": "Уничтожьте двигатели «Осы»: 2.",
+      "sr": "Uništi 2 potisnika Osa",
+      "tr": "2 Eşek Arısı İtici Motoru yok et",
+      "uk": "Знищити 2 двигуни Ос",
+      "zh-CN": "摧毁2个“黄蜂”推进器",
+      "zh-TW": "摧毀2個黃蜂推進器"
+    },
+    {
+      "da": "Ødelæg 4 Hornet-thrustere",
+      "de": "Zerstöre 4 Hornissen-Schubdüsen.",
+      "en": "Destroy 4 Hornet thrusters",
+      "es": "Destruye 4 propulsores de avispones",
+      "fr": "Détruire 4 propulseurs de Frelon",
+      "he": "השמדו 4 מדחפי הורנט",
+      "hr": "Uništi 4 Hornet potisnika.",
+      "it": "Distruggi 4 propulsori di Calabrone",
+      "ja": "ホーネットのスラスターを4個破壊する",
+      "ko-KR": "호넷 추진기 4개 파괴하기",
+      "no": "Ødelegg 4 Hornet-thrustere",
+      "pl": "Zniszcz silniki sterujące szerszenia (4)",
+      "pt": "Destrua 4 propulsores de Hornet",
+      "pt-BR": "Destrua 4 propulsores de Marimbondo",
+      "ru": "Уничтожьте двигатели «Шершня»: 4.",
+      "sr": "Uništi 4 potisnika Stršljena",
+      "tr": "4 Yaban Arısı İtici Motoru yok et",
+      "uk": "Знищити 4 двигуни Горнетів",
+      "zh-CN": "摧毁4个“马蜂”推进器",
+      "zh-TW": "摧毀4個虎頭蜂推進器"
+    },
+    {
+      "da": "Ødelæg en Firefly-brændstoftank",
+      "de": "Zerstöre den Treibstofftank eines Glühwürmchens.",
+      "en": "Destroy a Firefly fuel tank",
+      "es": "Destruye el depósito de combustible de una luciérnaga",
+      "fr": "Détruire un réservoir de carburant de Luciole",
+      "he": "השמדו מיכל דלק של פיירפליי",
+      "hr": "Uništi spremnik goriva Fireflyja.",
+      "it": "Distruggi un serbatoio di carburante di Lucciola",
+      "ja": "ファイアフライの燃料タンクを破壊する",
+      "ko-KR": "파이어플라이 연료 탱크 파괴하기",
+      "no": "Ødelegg en Firefly-drivstofftank",
+      "pl": "Zniszcz zbiornik paliwa świetlika",
+      "pt": "Destrua um tanque de combustível de Firefly",
+      "pt-BR": "Destrua um tanque de combustível de Vaga-lume",
+      "ru": "Уничтожьте топливный бак «Светлячка».",
+      "sr": "Uništi rezervoar goriva Svica",
+      "tr": "Bir Ateş Böceği Yakıt Tankı yok et",
+      "uk": "Знищити паливний бак Світляка",
+      "zh-CN": "摧毁1个“萤火虫”燃料罐",
+      "zh-TW": "摧毀1個螢火蟲燃油槽"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "raider_hatch_key",
+      "quantity": 1
+    },
+    {
+      "itemId": "defibrillator",
+      "quantity": 2
+    },
+    {
+      "itemId": "dam_control_tower_key",
+      "quantity": 1
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["ss6"],
+  "nextQuestIds": ["ss10b", "dust_on_the_wires"],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "790303754",
+    "children": [
+      {
+        "id": "737257877",
+        "amount": 2,
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "311434390",
+        "amount": 2,
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "663109242",
+        "amount": 2,
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "593233217",
+        "amount": 2,
+        "index": 3,
+        "type": "step"
+      },
+      {
+        "id": "122930781",
+        "amount": 4,
+        "index": 4,
+        "type": "step"
+      },
+      {
+        "id": "246833053",
+        "index": 5,
+        "optional": true,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "optionalRewards": [
+    {
+      "itemId": "synthesized_fuel",
+      "quantity": 3
+    },
+    {
+      "itemId": "combat_mk2",
+      "quantity": 1
+    }
+  ],
+  "slug": "the-trifecta"
+}

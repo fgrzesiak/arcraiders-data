@@ -1,0 +1,185 @@
+{
+  "id": "ss11b",
+  "name": {
+    "da": "Tabt i transmissionen",
+    "de": "Übertragungsfehler",
+    "en": "Lost in Transmission",
+    "es": "Transmisión perdida",
+    "fr": "Perte de transmission",
+    "he": "אבודים בשידור",
+    "hr": "Izgubljeno u prijenosu",
+    "it": "Perduto nella trasmissione",
+    "ja": "途絶えた信号",
+    "ko-KR": "전파, 사라지다",
+    "no": "Tapt i overføringen",
+    "pl": "Zakłócenia na łączach",
+    "pt": "Perdido na Transmissão",
+    "pt-BR": "Perdido na transmissão",
+    "ru": "Трудности связи",
+    "sr": "Izgubljeno u prenosu",
+    "tr": "İletimde Kaybolmak",
+    "uk": "Втрачено під час передачі",
+    "zh-CN": "迷失在传输中",
+    "zh-TW": "傳送遺失"
+  },
+  "map": ["the_spaceport"],
+  "trader": "Shani",
+  "grantedItemIds": [
+    {
+      "itemId": "spaceport_control_tower_key",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Jeg har udstyr sat op på The Spaceport for at overvåge ARCs bevægelser. Min forbindelse blev netop afbrudt — jeg har brug for, at du tager til kontroltårnene og hjælper mig med at hente mine logfiler.",
+    "de": "Ich hab eine Anlage oben am Raumhafen aufgebaut, um die Bewegungen der ARC zu verfolgen. Jetzt gerade ist aber die Verbindung abgebrochen – geh zu den Kontrolltürmen und sichere meine Protokolle.",
+    "en": "I have equipment set up at the Spaceport, to monitor ARC’s movements. My connection broke down just now — I need you to head to the Control Towers and help me retrieve my logs.",
+    "es": "He instalado equipamiento en el Puerto espacial para vigilar a las ARC. Hace nada he perdido la conexión. Necesito que vayas a las torres de control y recuperes mis registros.",
+    "fr": "J'ai installé de l'équipement au Port spatial pour surveiller les mouvements de l'ARC, mais je viens de perdre la connexion... Allez aux Tours de contrôle et aidez-moi à récupérer mes registres.",
+    "he": "התקנתי ציוד ב-Spaceport, כדי לעקוב אחר התנועות של ARC. החיבור שלי נותק הרגע — אני צריך שתיגש למגדלי הבקרה ותעזור לי לחלץ את הרשומות שלי.",
+    "hr": "Postavio sam opremu na Spaceportu za praćenje ARC-ovih kretanja. Veza mi je upravo pukla — trebam te da odeš do Kontrolnih tornjeva i pomogneš mi dohvatiti moje zapise.",
+    "it": "Ho l'equipaggiamento pronto allo Spazioporto per monitorare i movimenti dell'ARC. La mia connessione si è interrotta poco fa: mi serve che tu vada alle Torri di controllo e mi aiuti a recuperare i registri.",
+    "ja": "ARCの動きを監視するための機材を宇宙港に設置した。さっき接続が切れてしまったんだ… だから管制塔に向かって、ログの回収を手伝ってほしい。",
+    "ko-KR": "아크의 움직임을 모니터링하려고 우주 기지에 장비를 설치해 놨는데 방금 연결이 끊겼어요. 관제탑에 가서 로그 회수하는 걸 도와주세요.",
+    "no": "Jeg har satt opp utstyr på Spaceport for å overvåke ARCs bevegelser. Forbindelsen min ble akkurat brutt — jeg trenger at du drar til Control Towers og hjelper meg med å hente loggene mine.",
+    "pl": "W porcie kosmicznym mam rozstawiony sprzęt, którego używam do monitorowania aktywności ARC, ale właśnie zerwało mi połączenie. Idź do wież kontrolnych i pomóż mi odzyskać moje rejestry.",
+    "pt": "Tenho um equipamento montado no Spaceport para monitorar os movimentos da ARC. Minha conexão caiu agora mesmo — preciso que você vá até as Torres de Controle e me ajude a recuperar meus registros.",
+    "pt-BR": "Instalei equipamentos no Espaçoporto para monitorar os movimentos da ARC. Perdi a conexão ainda agora... Preciso que você vá pras Torres de Controle e me ajude a recuperar os registros.",
+    "ru": "У меня в космопорту есть оборудование для отслеживания перемещений ARC. Только что пропало соединение, так что отправляйся к диспетчерской вышке и помоги мне вернуть журналы.",
+    "sr": "Imam opremu postavljenu na Spaceport-u, da nadgledam ARC-ova kretanja. Veza mi je upravo pukla — treba mi da odeš do kontrolnih tornjeva i pomogneš mi da preuzmem svoje zapise.",
+    "tr": "ARC'ın hareketlerini gözetlemek için Uzaylimanı'nda ekipman kurdum. Bağlantım biraz önce kesildi. Kontrol Kulelerine gidip kayıtlarımı almama yardım etmeni istiyorum.",
+    "uk": "Я встановив обладнання у Spaceport, щоб стежити за переміщеннями ARC. Мій зв'язок щойно обірвався — мені потрібно, щоб ти вирушив до диспетчерських веж і допоміг мені повернути мої записи.",
+    "zh-CN": "我在太空港安装了一套设备，用于监测ARC的动向。刚才连接中断了——你去趟控制塔，帮我取回日志。",
+    "zh-TW": "我在太空港設置了監控ARC行動的設備。我的連線剛剛中斷了，我需要你前往塔台，幫我取回我的紀錄。"
+  },
+  "objectives": [
+    {
+      "da": "Besøg kontroltårn A6",
+      "de": "Besuche den Kontrollturm A6.",
+      "en": "Visit Control Tower A6",
+      "es": "Visita la torre de control A6.",
+      "fr": "Visiter la Tour de contrôle A6",
+      "he": "בקר במגדל בקרה A6",
+      "hr": "Posjeti Kontrolni toranj A6",
+      "it": "Visita la Torre di controllo A6",
+      "ja": "管制塔A6を訪れた",
+      "ko-KR": "관제탑 A6 방문하기",
+      "no": "Besøk Control Tower A6",
+      "pl": "Odwiedź wieżę kontrolną A6",
+      "pt": "Visite a Torre de Controle A6",
+      "pt-BR": "Acesse a Torre de Controle A6",
+      "ru": "Зайдите в диспетчерскую вышку А6.",
+      "sr": "Poseti kontrolni toranj A6",
+      "tr": "Kontrol Kulesi A6'yı ziyaret et",
+      "uk": "Відвідайте диспетчерську вежу A6",
+      "zh-CN": "前往控制塔A6",
+      "zh-TW": "前往塔台A6"
+    },
+    {
+      "da": "Find en reservenøgle",
+      "de": "Finde einen Ersatzschlüssel.",
+      "en": "Find a spare key",
+      "es": "Encuentra una llave de repuesto.",
+      "fr": "Trouver une clé de secours",
+      "he": "מצא מפתח רזרבי",
+      "hr": "Pronađi rezervni ključ",
+      "it": "Trova una chiave di riserva",
+      "ja": "スペアキーを見つける",
+      "ko-KR": "여분의 열쇠 찾기",
+      "no": "Finn en reservenøkkel",
+      "pl": "Znajdź zapasowy klucz",
+      "pt": "Encontre uma chave reserva",
+      "pt-BR": "Encontre uma chave sobressalente",
+      "ru": "Найдите запасной ключ.",
+      "sr": "Pronađi rezervni ključ",
+      "tr": "Bir yedek anahtar bul",
+      "uk": "Знайдіть запасний ключ",
+      "zh-CN": "找到一把备用钥匙",
+      "zh-TW": "找到備用鑰匙"
+    },
+    {
+      "da": "Nå toppen af kontroltårn A6",
+      "de": "Erreiche die Spitze von Kontrollturm A6.",
+      "en": "Reach the top of Control Tower A6",
+      "es": "Llega a lo alto de la torre de control A6.",
+      "fr": "Atteindre le sommet de la Tour de contrôle A6",
+      "he": "הגע לפסגת מגדל בקרה A6",
+      "hr": "Dođi do vrha Kontrolnog tornja A6",
+      "it": "Raggiungi la vetta della Torre di controllo A6",
+      "ja": "管制塔A6の最上階に到達した",
+      "ko-KR": "관제탑 A6 꼭대기에 도달하기",
+      "no": "Nå toppen av Control Tower A6",
+      "pl": "Dostań się na szczyt wieży kontrolnej A6",
+      "pt": "Chegue ao topo da Torre de Controle A6",
+      "pt-BR": "Suba até o topo da Torre de Controle A6",
+      "ru": "Поднимитесь на верх диспетчерской вышки A6.",
+      "sr": "Dođi do vrha kontrolnog tornja A6",
+      "tr": "Kontrol Kulesi A6'nın tepesine ulaş",
+      "uk": "Дістаньтеся вершини диспетчерської вежі A6",
+      "zh-CN": "抵达控制塔A6顶部",
+      "zh-TW": "到達塔台A6的頂端"
+    },
+    {
+      "da": "Opret en forbindelse fra terminalen",
+      "de": "Stelle eine Verbindung vom Terminal her.",
+      "en": "Establish a connection from the terminal",
+      "es": "Establece una conexión desde el terminal.",
+      "fr": "Établir une connexion depuis le terminal",
+      "he": "צור חיבור מהמסוף",
+      "hr": "Uspostavi vezu s terminala",
+      "it": "Stabilisci una connessione dal terminale",
+      "ja": "端末から接続を確立した",
+      "ko-KR": "터미널에서 신호 연결하기",
+      "no": "Opprett en tilkobling fra terminalen",
+      "pl": "Nawiąż połączenie z terminala",
+      "pt": "Estabeleça uma conexão a partir do terminal",
+      "pt-BR": "Estabeleça uma conexão a partir do terminal",
+      "ru": "Установите связь через терминал.",
+      "sr": "Uspostavi vezu sa terminala",
+      "tr": "Terminalden bir bağlantı kur",
+      "uk": "Встановіть з'єднання через термінал",
+      "zh-CN": "通过终端建立连接",
+      "zh-TW": "從終端機建立連線"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "snap_hook",
+      "quantity": 1
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["ss10z"],
+  "nextQuestIds": ["ss11b2"],
+  "videoUrl": "https://youtu.be/w5cHOWqRTb4",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "780543559",
+    "children": [
+      {
+        "id": "867461005",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "395493699",
+        "index": 1,
+        "optional": true,
+        "type": "step"
+      },
+      {
+        "id": "105764690",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "469989148",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "lost-in-transmission"
+}

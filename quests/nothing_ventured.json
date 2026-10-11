@@ -1,0 +1,361 @@
+{
+  "id": "nothing_ventured",
+  "name": {
+    "da": "Intet vovet",
+    "de": "Nichts gewagt",
+    "en": "Nothing Ventured",
+    "es": "Sin riesgo",
+    "fr": "N'a rien",
+    "he": "ללא סיכון",
+    "hr": "Bez rizika",
+    "it": "Chi non risica non rosica",
+    "ja": "リスクを冒さず",
+    "ko-KR": "위험을 감수하지 않으면",
+    "no": "Intet Våget",
+    "pl": "Bez ryzyka",
+    "pt": "Nada Arriscado",
+    "pt-BR": "Quem Não Arrisca",
+    "ru": "Волков бояться",
+    "sr": "Bez rizika",
+    "tr": "Kazanç Olmaz",
+    "uk": "Без ризику",
+    "zh-CN": "焉得虎子",
+    "zh-TW": "不入虎穴"
+  },
+  "trader": "Apollo",
+  "requiredItemIds": [
+    {
+      "itemId": "comet_igniter",
+      "quantity": 3
+    },
+    {
+      "itemId": "rocketeer_driver",
+      "quantity": 3
+    },
+    {
+      "itemId": "arc_circuitry",
+      "quantity": 6
+    },
+    {
+      "itemId": "arc_motion_core",
+      "quantity": 6
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "magnetic_accelerator",
+      "quantity": 1
+    },
+    {
+      "itemId": "heavy_gun_parts",
+      "quantity": 3
+    },
+    {
+      "itemId": "exodus_modules",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Der var engang, hvor jeg ville sige, du skulle holde dig langt væk fra Queens og Matriarchs, men nu om dage… Ønsker jeg, vi stadig havde den luksus.",
+    "de": "Es gab mal eine Zeit, da hätte ich dir geraten, dich von Königinnen und Matriarchinnen fernzuhalten, aber heutzutage … wünschte ich, wir hätten diesen Luxus noch.",
+    "en": "There was a time I’d tell you tell stay well away from Queens and Matriarchs, but these days… I wish we still had that luxury.",
+    "es": "Antes te habría dicho que no te acercaras ni a las reinas ni a las matriarcas, pero ahora... Ojalá pudiéramos permitirnos ese lujo.",
+    "fr": "Il fut un temps où je vous aurais conseillé de rester loin des Reines et des Matriarches, mais de nos jours... j'aimerais que nous ayons encore ce luxe.",
+    "he": "היה זמן שהייתי אומר לך להתרחק ממלכות ומטריארכים, אבל בימים אלה... הלוואי שהייתה לנו עדיין הפריבילגיה הזו.",
+    "hr": "Bilo je vrijeme kad bih ti rekao da se držiš podalje od Kraljica i Matrijarha, ali ovih dana… volio bih da još uvijek imamo taj luksuz.",
+    "it": "C'è stato un tempo in cui ti avrei detto di stare alla larga dalle Regine e dalle Matriarche, ma di questi tempi... vorrei che avessimo ancora quel lusso.",
+    "ja": "昔なら、クイーンやマトリアークには絶対に近づくなと言ったものだが… 今となっては、そんな贅沢も言ってられないな。",
+    "ko-KR": "예전 같았으면 퀸이나 마트리아크 근처에는 얼씬도 하지 말라고 했을 겁니다. 하지만 요즘은... 속 편하게 피하기만 할 형편이 못 되네요.",
+    "no": "Det var en tid jeg ville sagt du skulle holde deg langt unna Dronninger og Matriarker, men nå for tiden… Jeg skulle ønske vi fortsatt hadde den luksusen.",
+    "pl": "Swego czasu byłem zdania, że lepiej trzymać się z dala od królowych i matriarchiń, ale obecnie… nie możemy sobie na to pozwolić.",
+    "pt": "Houve um tempo em que eu diria para você ficar bem longe de Rainhas e Matriarcas, mas hoje em dia… eu queria que ainda tivéssemos esse luxo.",
+    "pt-BR": "Antigamente, eu diria pra ficar bem longe das Rainhas e Matriarcas, mas hoje em dia... não temos mais esse luxo.",
+    "ru": "Раньше я мог посоветовать тебе держаться подальше от «Королев» и «Матриархов», но теперь мы уже не можем себе это позволить.",
+    "sr": "Bilo je vremena kada bih ti rekao da se kloniš Queens i Matriarchs, ali ovih dana… Voleo bih da još uvek imamo taj luksuz.",
+    "tr": "Eskiden olsa Kraliçelerden ve Maderşahlardan uzak durmanı söylerdim ama bugünlerde… Keşke hâlâ o lüksümüz olsaydı.",
+    "uk": "Був час, коли я б радив триматися подалі від Queens і Matriarchs, але зараз… Я б хотів, щоб у нас все ще була така розкіш.",
+    "zh-CN": "换作以前，我肯定劝你离“女王”和“族母”远远的，但现在……真希望我们还有这份从容选择的余地。",
+    "zh-TW": "之前我可能會跟你說別靠近女王和女族長，但如今…我真希望我們還有那樣的餘裕。"
+  },
+  "objectives": [
+    {
+      "da": "Ødelæg 3 Comets",
+      "de": "Zerstöre 3 Kometen.",
+      "en": "Destroy 3 Comets",
+      "es": "Destruye 3 cometas.",
+      "fr": "Détruire 3 Comètes",
+      "he": "חסל 3 קומטים",
+      "hr": "Uništi 3 Komete",
+      "it": "Distruggi 3 Comete",
+      "ja": "コメットを3体破壊する",
+      "ko-KR": "코멧 3개 파괴하기",
+      "no": "Ødelegg 3 Kometer",
+      "pl": "Zniszcz komety: 3",
+      "pt": "Destrua 3 Cometas",
+      "pt-BR": "Destrua 3 Cometas",
+      "ru": "Уничтожьте «Кометы»: 3.",
+      "sr": "Uništi 3 Cometa",
+      "tr": "3 Kuyruklu Yıldız Yok Et",
+      "uk": "Знищити 3 Комети",
+      "zh-CN": "摧毁3个“彗星”",
+      "zh-TW": "摧毀3台彗星"
+    },
+    {
+      "da": "Ødelæg 5 Rocketeers",
+      "de": "Zerstöre 5 Raketenkanoniere.",
+      "en": "Destroy 5 Rocketeers",
+      "es": "Destruye 5 coheteros.",
+      "fr": "Détruire 5 Artificiers",
+      "he": "חסל 5 רוקטרים",
+      "hr": "Uništi 5 Roketara",
+      "it": "Distruggi 5 Lanciarazzi",
+      "ja": "ロケッティアを5体破壊する",
+      "ko-KR": "로켓티어 5개 파괴하기",
+      "no": "Ødelegg 5 Rakettører",
+      "pl": "Zniszcz rakietowce: 5",
+      "pt": "Destrua 5 Rocketeers",
+      "pt-BR": "Destrua 5 Fogueteiros.",
+      "ru": "Уничтожьте «Ракетчиков»: 5.",
+      "sr": "Uništi 5 Rocketeers",
+      "tr": "5 Roketçi Yok Et",
+      "uk": "Знищити 5 Ракетників",
+      "zh-CN": "摧毁5个“火箭手”",
+      "zh-TW": "摧毀5台火箭兵"
+    },
+    {
+      "da": "Ødelæg 2 Sentinels",
+      "de": "Zerstöre 2 Wächter.",
+      "en": "Destroy 2 Sentinels",
+      "es": "Destruye 2 centinelas",
+      "fr": "Détruire 2 Sentinelles",
+      "he": "חסל 2 סנטינלים",
+      "hr": "Uništi 2 Sentinele",
+      "it": "Distruggi 2 Sentinelle",
+      "ja": "センチネルを2体破壊する",
+      "ko-KR": "센티넬 2개 파괴하기",
+      "no": "Ødelegg 2 Voktere",
+      "pl": "Zniszcz 2 strażników",
+      "pt": "Destrua 2 Sentinelas",
+      "pt-BR": "Destrua 2 Sentinelas",
+      "ru": "Уничтожьте «Часовых»: 2.",
+      "sr": "Uništi 2 Sentinela",
+      "tr": "2 Nöbetçi Yok Et",
+      "uk": "Знищити 2 Вартових",
+      "zh-CN": "摧毁2个“哨卫”",
+      "zh-TW": "摧毀2台哨兵"
+    },
+    {
+      "da": "Aflever 3 Comet-tændere til Apollo",
+      "de": "Bring 3 Kometenzünder zu Apollo.",
+      "en": "Deliver 3 Comet Igniters to Apollo",
+      "es": "Entrégale 3 encendedores de cometa a Apollo",
+      "fr": "Livrer 3 allumeurs de Comète à Apollo",
+      "he": "מסור 3 מצתי קומט לאפולו",
+      "hr": "Dostavi 3 Upaljača Kometa Apollu",
+      "it": "Consegna 3 inneschi di Cometa ad Apollo",
+      "ja": "アポロにコメット・イグナイターを3個届ける",
+      "ko-KR": "아폴로에게 코멧 점화기 3개 전달하기",
+      "no": "Lever inn 3 Komettennere til Apollo",
+      "pl": "Dostarcz Apollowi zapalniki komety (3)",
+      "pt": "Entregue 3 Ignitores de Cometa para Apollo",
+      "pt-BR": "Entregue 3 Acendedores de Cometa para Apollo",
+      "ru": "Доставьте Аполлону запальные устройства «Кометы» (3 шт.).",
+      "sr": "Dostavi 3 Comet upaljača Apollu",
+      "tr": "Apollo'ya 3 Kuyruklu Yıldız Ateşleyicisi teslim et",
+      "uk": "Доставити 3 Запальники Комет Apollo",
+      "zh-CN": "将3个“彗星”点火器交付给阿波罗",
+      "zh-TW": "將3個彗星點火器送去給阿波羅"
+    },
+    {
+      "da": "Aflever 3 Rocketeer-drivere til Apollo",
+      "de": "Bring 3 Raketenkanoniertreiber zu Apollo.",
+      "en": "Deliver 3 Rocketeer Drivers to Apollo",
+      "es": "Entrégale 3 controladores de cohetero a Apollo",
+      "fr": "Livrer 3 pilotes d'Artificier à Apollo",
+      "he": "מסור 3 מנהלי רוקטר לאפולו",
+      "hr": "Dostavi 3 Pogona Roketara Apollu",
+      "it": "Consegna 3 driver di Lanciarazzi ad Apollo",
+      "ja": "アポロにロケッティア・ドライバーを3個届ける",
+      "ko-KR": "아폴로에게 로켓티어 드라이버 3개 전달하기",
+      "no": "Lever inn 3 Rakettørdrivere til Apollo",
+      "pl": "Dostarcz Apollowi sterowniki rakietowca (3)",
+      "pt": "Entregue 3 Drivers de Rocketeer para Apollo",
+      "pt-BR": "Entregue 3 Drivers de Fogueteiro para Apollo",
+      "ru": "Доставьте Аполлону драйверы «Ракетчика» (3 шт.).",
+      "sr": "Dostavi 3 Rocketeer drajvera Apollu",
+      "tr": "Apollo'ya 3 Roketçi Sürücüsü teslim et",
+      "uk": "Доставити 3 Приводи Ракетників Apollo",
+      "zh-CN": "将3个“火箭手”引擎交付给阿波罗",
+      "zh-TW": "將3個火箭兵驅動器送去給阿波羅"
+    },
+    {
+      "da": "Aflever 6 ARC-kredsløb til Apollo",
+      "de": "Bring 6 ARC-Schaltkreise zu Apollo.",
+      "en": "Deliver 6 ARC Circuitry to Apollo",
+      "es": "Entrégale 6 sistemas de circuitos ARC a Apollo",
+      "fr": "Livrer 6 câblages ARC à Apollo",
+      "he": "מסור 6 מעגלי ARC לאפולו",
+      "hr": "Dostavi 6 ARC Sklopovlja Apollu",
+      "it": "Consegna 6 circuiti ARC ad Apollo",
+      "ja": "アポロにARC回路を6個届ける",
+      "ko-KR": "아폴로에게 아크 전자회로 6개 전달하기",
+      "no": "Lever inn 6 ARC-kretser til Apollo",
+      "pl": "Dostarcz Apollowi obwody elektryczne ARC (6)",
+      "pt": "Entregue 6 Circuitos ARC para Apollo",
+      "pt-BR": "Entregue 6 Circuito(s) ARC para Apollo",
+      "ru": "Доставьте Аполлону электронные схемы ARC (6 шт.).",
+      "sr": "Dostavi 6 ARC sklopova Apollu",
+      "tr": "Apollo'ya 6 ARC Devresi teslim et",
+      "uk": "Доставити 6 Схем ARC Apollo",
+      "zh-CN": "将6个ARC线圈交付给阿波罗",
+      "zh-TW": "將6個ARC電路送去給阿波羅"
+    },
+    {
+      "da": "Aflever 6 ARC-bevægelseskerner til Apollo",
+      "de": "Bring 6 ARC-Bewegungskerne zu Apollo.",
+      "en": "Deliver 6 ARC Motion Cores to Apollo",
+      "es": "Entrégale 6 núcleos de movimiento ARC a Apollo",
+      "fr": "Livrer 6 processeurs de mobilité ARC à Apollo",
+      "he": "מסור 6 ליבות תנועה של ARC לאפולו",
+      "hr": "Dostavi 6 ARC Pokretačkih jezgri Apollu",
+      "it": "Consegna 6 nuclei di movimenti ARC ad Apollo",
+      "ja": "アポロにARC動作コアを6個届ける",
+      "ko-KR": "아폴로에게 아크 모션 코어 6개 전달하기",
+      "no": "Lever inn 6 ARC-bevegelseskjerner til Apollo",
+      "pl": "Dostarcz Apollowi rdzenie ruchowe ARC (6)",
+      "pt": "Entregue 6 Núcleos de Movimento ARC para Apollo",
+      "pt-BR": "Entregue 6 Núcleos Motriz ARC para Apollo",
+      "ru": "Доставьте Аполлону движущие ядра ARC (6 шт.).",
+      "sr": "Dostavi 6 ARC pogonskih jezgara Apollu",
+      "tr": "Apollo'ya 6 ARC Hareket Çekirdeği teslim et",
+      "uk": "Доставити 6 Ядер руху ARC Apollo",
+      "zh-CN": "将6个ARC运动核心交付给阿波罗",
+      "zh-TW": "將6個ARC運動核心送去給阿波羅"
+    },
+    {
+      "da": "Ødelæg en Bombardier på Buried City",
+      "de": "Zerstöre einen Kanonier in der Begrabenen Stadt.",
+      "en": "Destroy a Bombardier on Buried City",
+      "es": "Destruye un bombardero en Ciudad enterrada",
+      "fr": "Détruire un Bombardier à la Ville enfouie",
+      "he": "חסל בומברדייר ב\"עיר הקבורה\"",
+      "hr": "Uništi Bombardera na Buried Cityju",
+      "it": "Distruggi un Bombardiere nella Città sepolta",
+      "ja": "埋もれた街でボンバルディアを破壊する",
+      "ko-KR": "파묻힌 도시에서 봄바디어 파괴하기",
+      "no": "Ødelegg en Bombardier på Buried City",
+      "pl": "Zniszcz bombardiera w Pogrzebanym Mieście",
+      "pt": "Destrua um Bombardeiro em Buried City",
+      "pt-BR": "Destrua um Bombardeiro na Cidade Soterrada",
+      "ru": "Уничтожьте «Бомбардира» в Погребенном городе.",
+      "sr": "Uništi Bombardiera na Buried City",
+      "tr": "Gömülü Şehir'de bir Bombardımancı yok et",
+      "uk": "Знищити Бомбардувальника на Buried City",
+      "zh-CN": "在掩埋废城摧毁1个“投弹手”",
+      "zh-TW": "在埋藏都市摧毀1台投彈手"
+    },
+    {
+      "da": "Ødelæg en Bastion på Stella Montis",
+      "de": "Zerstöre eine Bastion in Stella Montis.",
+      "en": "Destroy a Bastion on Stella Montis",
+      "es": "Destruye un bastión en Stella Montis",
+      "fr": "Détruire un Bastion à Stella Montis",
+      "he": "חסל באסטיון ב\"סטלה מונטיס\"",
+      "hr": "Uništi Bastion na Stella Montisu",
+      "it": "Distruggi un Bastione a Stella Montis",
+      "ja": "ステラ・モンティスでバスティオンを破壊する",
+      "ko-KR": "스텔라 몬티스에서 바스티온 파괴하기",
+      "no": "Ødelegg en Bastion på Stella Montis",
+      "pl": "Zniszcz bastion na Stella Montis",
+      "pt": "Destrua um Bastião em Stella Montis",
+      "pt-BR": "Destrua um Baluarte em Stella Montis",
+      "ru": "Уничтожьте «Бастион» в «Стелла Монтис».",
+      "sr": "Uništi Bastiona na Stella Montis",
+      "tr": "Stella Montis'te bir Burç yok et",
+      "uk": "Знищити Бастіон на Stella Montis",
+      "zh-CN": "在星辰山摧毁1个“堡垒”",
+      "zh-TW": "在星辰山摧毀1台堡壘"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "deadline",
+      "quantity": 1
+    },
+    {
+      "itemId": "wolfpack",
+      "quantity": 1
+    }
+  ],
+  "xp": 8000,
+  "previousQuestIds": [],
+  "nextQuestIds": ["nothing_gained"],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "601530207",
+    "children": [
+      {
+        "id": "850697582",
+        "amount": 3,
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "249776905",
+        "amount": 5,
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "270767921",
+        "amount": 2,
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "796511917",
+        "amount": 3,
+        "index": 3,
+        "type": "step"
+      },
+      {
+        "id": "770546079",
+        "amount": 3,
+        "index": 4,
+        "type": "step"
+      },
+      {
+        "id": "258386209",
+        "amount": 6,
+        "index": 5,
+        "type": "step"
+      },
+      {
+        "id": "167661008",
+        "amount": 6,
+        "index": 6,
+        "type": "step"
+      },
+      {
+        "id": "272203398",
+        "index": 7,
+        "optional": true,
+        "type": "step"
+      },
+      {
+        "id": "648567798",
+        "index": 8,
+        "optional": true,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "optionalRewards": [
+    {
+      "itemId": "deadline_blueprint",
+      "quantity": 1
+    }
+  ],
+  "slug": "nothing-ventured"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "taking_stock",
+  "name": {
+    "da": "Gør status",
+    "de": "Bestandsaufnahme",
+    "en": "Taking Stock",
+    "es": "Haciendo balance",
+    "fr": "Faire le point",
+    "he": "הערכת מצב",
+    "hr": "Procjena stanja",
+    "it": "Il punto della situazione",
+    "ja": "現状把握",
+    "ko-KR": "상황 점검",
+    "no": "Inventaroversikt",
+    "pl": "Inwentaryzacja",
+    "pt": "Fazendo um Balanço",
+    "pt-BR": "Avaliando a Situação",
+    "ru": "Инвентаризация",
+    "sr": "Popis zaliha",
+    "tr": "Hesap Kitap",
+    "uk": "Інвентаризація",
+    "zh-CN": "清点物资",
+    "zh-TW": "盤點庫存"
+  },
+  "map": ["stella_montis", "the_spaceport", "dam_battlegrounds", "buried_city"],
+  "trader": "Ermal",
+  "requiredItemIds": [
+    {
+      "itemId": "industrial_battery",
+      "quantity": 3
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "basic_camera",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "På overfladen krydser vores veje sjældent med vilje. Din tilstedeværelse tiltrækker trods alt mere opmærksomhed, end vi har råd til.",
+    "de": "An der Oberfläche kreuzen sich unsere Wege bewusst nur selten. Deine Anwesenheit zieht mehr Blicke auf sich, als wir uns leisten können.",
+    "en": "On the surface, our paths seldom cross by design. After all, your presence draws more eyes than ours can afford.",
+    "es": "En la superficie, nuestros caminos rara vez se cruzan. Eso es deliberado, pues vuestra presencia atrae más miradas de las que podemos permitirnos.",
+    "fr": "À la Surface, nos chemins se croisent rarement, et c'est voulu. Après tout, votre présence attire bien des regards.",
+    "he": "על פני השטח, דרכינו כמעט ולא מצטלבות בכוונה. הרי, נוכחותך מושכת יותר תשומת לב ממה שאנחנו יכולים להרשות לעצמנו.",
+    "hr": "Naizgled, naši se putevi rijetko križaju namjerno. Uostalom, tvoja prisutnost privlači više pogleda nego što si mi možemo priuštiti.",
+    "it": "In apparenza, è voluto che le nostre strade si incrocino raramente. Dopotutto, la tua presenza attira più occhi di quanti possiamo permetterci.",
+    "ja": "地表では、我々の道が意図的に交わることはめったにない。結局のところあんたの存在は、我々が対応できる範囲を超える注目を集めるのだ。",
+    "ko-KR": "지상에서 우리를 좀처럼 마주칠 수 없는 건 일부러 피하기 때문이오. 당신들은 우리가 감당할 수 없을 만큼 이목을 끌고 다니니 말이오.",
+    "no": "På overflaten krysses våre veier sjelden med hensikt. Din tilstedeværelse trekker tross alt mer oppmerksomhet enn vi har råd til.",
+    "pl": "Na powierzchni nasze ścieżki rzadko się przecinają. W końcu wasza obecność przyciąga nieproszoną uwagę.",
+    "pt": "Na superfície, nossos caminhos raramente se cruzam por design. Afinal, sua presença atrai mais atenção do que a nossa pode suportar.",
+    "pt-BR": "Na superfície, nossos caminhos raramente se cruzam por acaso. Afinal, sua presença atrai mais atenção do que a nossa nos permite.",
+    "ru": "Похоже, наши пути редко пересекаются — и это не случайно. В конце концов, ты привлекаешь слишком много внимания. Больше, чем мы можем себе позволить.",
+    "sr": "Na površini, naši se putevi retko ukrštaju po planu. Uostalom, tvoje prisustvo privlači više pogleda nego što mi možemo sebi da priuštimo.",
+    "tr": "Yeryüzünde patikalarımız tasarım gereği nadiren kesişir. Neticede burada oluşun baş edebileceğimizden fazla gözü üzerimize çekiyor.",
+    "uk": "На поверхні наші шляхи рідко перетинаються навмисно. Адже твоя присутність привертає більше уваги, ніж ми можемо собі дозволити.",
+    "zh-CN": "在地表，我们很少刻意相遇。毕竟，你的出现会引来太多目光，是我们承受不起的。",
+    "zh-TW": "從表面上看，你我的道路鮮少交會，是刻意安排的。畢竟，你的出現會引來太多目光，我們承受不起。"
+  },
+  "objectives": [
+    {
+      "da": "På Stella Montis, tag et foto af skulpturen i Atrium",
+      "de": "Mach in Stella Montis ein Foto von der Skulptur im Atrium.",
+      "en": "On Stella Montis, take a photo of the sculpture in the Atrium",
+      "es": "En Stella Montis, saca una foto de la escultura del atrio",
+      "fr": "À Stella Montis, prendre une photo de la sculpture de l'Atrium",
+      "he": "ב-Stella Montis, צלמו תמונה של הפסל שבאטריום",
+      "hr": "Na Stella Montisu, fotografiraj skulpturu u atriju.",
+      "it": "A Stella Montis, scatta una foto della scultura nell'atrio",
+      "ja": "ステラ・モンティスでアトリウムにある彫刻を撮影する",
+      "ko-KR": "스텔라 몬티스에서 아트리움의 조각상 촬영하기",
+      "no": "På Stella Montis, ta et bilde av skulpturen i atriet",
+      "pl": "W Stella Montis zrób zdjęcie rzeźby w atrium",
+      "pt": "Em Stella Montis, tire uma foto da escultura no Átrio",
+      "pt-BR": "Em Stella Montis, tire uma foto da escultura no Átrio",
+      "ru": "Сфотографируйте скульптуру в атриуме «Стелла Монтис».",
+      "sr": "Na Stella Montis, fotografiši skulpturu u Atrijumu",
+      "tr": "Stella Montis'te Orta Avlu'daki heykelin fotoğrafını çek",
+      "uk": "На Stella Montis зробіть фото скульптури в Атріумі",
+      "zh-CN": "在星辰山，拍摄中庭雕塑的照片",
+      "zh-TW": "在星辰山，拍攝中庭的雕塑照片"
+    },
+    {
+      "da": "På Spaceport, tag et foto af en Baron Husk",
+      "de": "Mach im Raumhafen ein Foto von einer Baronhülle. ",
+      "en": "On Spaceport, take a photo of a Baron Husk ",
+      "es": "En el Puerto espacial, saca una foto de un cascarón de barón ",
+      "fr": "Au Port spatial, prendre en photo une épave de Baron ",
+      "he": "ב-Spaceport, צלמו תמונה של Baron Husk",
+      "hr": "Na Spaceportu, fotografiraj Barona Haska.",
+      "it": "Allo Spazioporto, scatta una foto di una carcassa di Barone ",
+      "ja": "宇宙港でバロンの残骸の写真を撮る ",
+      "ko-KR": "우주 기지에서 바론 잔해 촬영하기 ",
+      "no": "På Spaceport, ta et bilde av en Baron Husk",
+      "pl": "W porcie kosmicznym zrób zdjęcie wraku barona ",
+      "pt": "No Spaceport, tire uma foto de uma Casca de Barão",
+      "pt-BR": "No Espaçoporto, tire uma foto de uma Carcaça de Barão ",
+      "ru": "Сфотографируйте обломки «Барона» в космопорте. ",
+      "sr": "Na Spaceportu, fotografiši ljušturu Barona",
+      "tr": "On Uzaylimanı'nda Baron Kabuğu'nun fotoğrafını çek ",
+      "uk": "На Spaceport зробіть фото Барона-оболонки",
+      "zh-CN": "在太空港拍摄“男爵”残骸的照片 ",
+      "zh-TW": "在太空港，拍攝男爵機殼的照片 "
+    },
+    {
+      "da": "På Dam Battlegrounds, ping en Bombardier",
+      "de": "Pinge auf den Damm-Schlachtfeldern einen Kanonier.",
+      "en": "On Dam Battlegrounds, ping a Bombardier",
+      "es": "En los Campos de batalla de la Presa, marca un bombardero",
+      "fr": "Au Champ de bataille du Barrage, marquer un Bombardier",
+      "he": "ב-Dam Battlegrounds, סמנו בומברדייר",
+      "hr": "Na Dam Battlegroundsu, pingaj Bombardiera.",
+      "it": "Al campo di battaglia della Diga, segnala un Bombardiere",
+      "ja": "ダム戦場でボンバルディアにピンを立てる",
+      "ko-KR": "댐 전장에서 봄바디어에 핑하기",
+      "no": "På Dam Battlegrounds, ping en Bombardier",
+      "pl": "Na polu bitwy na terenie Zapory pingnij bombardiera",
+      "pt": "Nos Dam Battlegrounds, marque um Bombardier",
+      "pt-BR": "Nos Campos de Batalha da Represa, sinalize um Bombardeiro",
+      "ru": "Отметьте «Бомбардира» на поле битвы у дамбы.",
+      "sr": "Na Dam Battlegrounds, pinguj Bombardera",
+      "tr": "Baraj Savaş Alanı'nda bir Bombardımancı işaretle",
+      "uk": "На Dam Battlegrounds позначте Бомбардира",
+      "zh-CN": "在大坝战场，标记一个“投弹手”",
+      "zh-TW": "在大壩戰場，標記一台投彈手"
+    },
+    {
+      "da": "På Buried City, ping en Bastion",
+      "de": "Pinge in der Begrabenen Stadt eine Bastion.",
+      "en": "On Buried City, ping a Bastion",
+      "es": "En Ciudad enterrada, marca un bastión",
+      "fr": "À la Ville enfouie, marquer un Bastion",
+      "he": "ב-Buried City, סמנו באסטיון",
+      "hr": "Na Buried Cityju, pingaj Bastiona.",
+      "it": "Nella Città sepolta, segnala un Bastione",
+      "ja": "埋もれた街でバスティオンにピンを立てる",
+      "ko-KR": "파묻힌 도시에서 바스티온에 핑하기",
+      "no": "På Buried City, ping en Bastion",
+      "pl": "W Pogrzebanym Mieście pingnij bastion",
+      "pt": "Na Buried City, marque um Bastion",
+      "pt-BR": "Na Cidade Soterrada, sinalize um Baluarte",
+      "ru": "Отметьте «Бастион» в Погребенном городе.",
+      "sr": "Na Buried City, pinguj Bastiona",
+      "tr": "Gömülü Şehir'de bir Burç işaretle",
+      "uk": "На Buried City позначте Бастіона",
+      "zh-CN": "在掩埋废城，标记一台“堡垒”",
+      "zh-TW": "在埋藏都市，標記一台堡壘"
+    },
+    {
+      "da": "Aflever 3 Industribatterier til den nomadiske udsending",
+      "de": "Bring 3 Industrie-Akkus zum nomadischen Gesandten.",
+      "en": "Deliver 3 Industrial Batteries to the Nomadic Envoy",
+      "es": "Entrégale 3 baterías industriales al emisario nómada",
+      "fr": "Livrer 3 batteries industrielles à l'émissaire nomade",
+      "he": "מסרו 3 סוללות תעשייתיות לשליח הנווד",
+      "hr": "Dostavi 3 industrijske baterije Nomadskom Izaslaniku.",
+      "it": "Consegna 3 batterie industriali all'Inviato Nomade",
+      "ja": "放浪の使者に産業用バッテリーを3個届ける",
+      "ko-KR": "유랑 사절단에게 산업용 배터리 3개 전달하기",
+      "no": "Lever 3 Industribatterier til den Nomadic Envoy",
+      "pl": "Dostarcz wędrownemu emisariuszowi akumulatory przemysłowe (3)",
+      "pt": "Entregue 3 Baterias Industriais ao Emissário Nômade",
+      "pt-BR": "Entregue 3 Baterias Industriais para o Emissário Nômade",
+      "ru": "Доставьте кочевнику промышленные батареи (3 шт.).",
+      "sr": "Dostavi 3 industrijske baterije Nomadskom Izaslaniku",
+      "tr": "Göçebe Elçi'ye 3 Endüstriyel Pil teslim et",
+      "uk": "Доставити 3 промислові батареї Кочівному Посланцю",
+      "zh-CN": "将3个工业级电池交付给游牧使团",
+      "zh-TW": "將3個工業電池送去給遊牧使者"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "jolt_mine",
+      "quantity": 2
+    },
+    {
+      "itemId": "advanced_electrical_components",
+      "quantity": 1
+    }
+  ],
+  "xp": 8000,
+  "previousQuestIds": ["clean_hands"],
+  "nextQuestIds": ["a_path_not_yours"],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "599948421",
+    "children": [
+      {
+        "id": "338264736",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "764009776",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "394985142",
+        "children": [
+          {
+            "id": "568005133",
+            "index": 2,
+            "type": "step"
+          },
+          {
+            "id": "990227960",
+            "index": 3,
+            "type": "step"
+          }
+        ],
+        "type": "any"
+      },
+      {
+        "id": "211731595",
+        "amount": 3,
+        "index": 4,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "taking-stock"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "thermite_tipped_rounds",
+  "name": {
+    "da": "Termitspidsede Projektiler",
+    "de": "Geschosse mit Thermitspitze",
+    "en": "Thermite-Tipped Rounds",
+    "es": "Munición de termita",
+    "fr": "Munitions à pointe thermite",
+    "he": "קליעי טרמיט",
+    "hr": "Termitna zrna",
+    "it": "Munizioni a punta di termite",
+    "ja": "テルミット弾頭弾",
+    "ko-KR": "테르밋 탄두탄",
+    "no": "Termittskudd",
+    "pl": "Pociski termitowe",
+    "pt": "Munição com Ponta de Termite",
+    "pt-BR": "Projéteis com Ponta de Termite",
+    "ru": "Термитные патроны",
+    "sr": "Termitni meci",
+    "tr": "Termit Uçlu Mermiler",
+    "uk": "Термітові набої",
+    "zh-CN": "铝热剂弹头",
+    "zh-TW": "鋁熱彈頭"
+  },
+  "trader": "Research Station",
+  "description": {
+    "da": "Slagskade er nyttig. At sætte problemet i brand bagefter føles som en rimelig forbedring.",
+    "de": "Aufprallschaden ist nützlich. Das Problem anschließend in Brand zu setzen, scheint eine sinnvolle Verbesserung zu sein.",
+    "en": "Impact damage is useful. Setting the problem on fire afterward feels like a reasonable improvement.",
+    "es": "El daño de impacto es útil, pero prenderle fuego al problema después del impacto es una mejora sustancial.",
+    "fr": "C'est bien d'infliger des dégâts d'impact, mais mettre la cible en feu ensuite semble être une amélioration particulièrement appréciable.",
+    "he": "נזק פגיעה הוא שימושי. להצית את הבעיה לאחר מכן מרגיש כמו שיפור הגיוני.",
+    "hr": "Udarana šteta je korisna. Zapaliti problem nakon toga djeluje kao razumno poboljšanje.",
+    "it": "Il danno da impatto è utile. Dare fuoco al bersaglio successivamente sembra un miglioramento ragionevole.",
+    "ja": "衝撃によるダメージは有用だ。そのあと炎上させるのは理にかなった改良と言えるだろう。",
+    "ko-KR": "충돌 대미지는 유용합니다. 거기에 대상을 불태우는 효과까지 더하면 꽤 괜찮게 개선되겠군요.",
+    "no": "Støtskade er nyttig. Å sette problemet i brann etterpå føles som en rimelig forbedring.",
+    "pl": "Obrażenia zadawane po trafieniu są przydatne, ale możliwość podpalenia trafionego celu wydaje się rozsądnym usprawnieniem.",
+    "pt": "Dano de impacto é útil. Incendiar o problema depois parece uma melhoria razoável.",
+    "pt-BR": "O dano do impacto é útil. Botar fogo no problema em seguida me parece uma melhoria razoável.",
+    "ru": "Нанести урон при попадании — здорово. Но поджечь источник проблем — еще лучше.",
+    "sr": "Udarna šteta je korisna. Zapaliti problem nakon toga deluje kao razumno poboljšanje.",
+    "tr": "Darbe hasarı kullanışlıdır. Sorunu sonrasında ateşe vermek makul bir gelişme gibi geliyor.",
+    "uk": "Урон від удару корисний. Підпал після цього – розумне покращення.",
+    "zh-CN": "冲击伤害很实用。要是炸完再放把火，效果应该会更好。",
+    "zh-TW": "衝擊傷害很實用。衝擊完再往麻煩貨身上放火，感覺是個很合理的改良。"
+  },
+  "objectives": [
+    {
+      "da": "Ødelæg 30 Ildkugler med Eksplosive Miner",
+      "de": "Zerstöre 30 Feuerbälle mit Sprengminen.",
+      "en": "Destroy 30 Fireballs with Explosive Mines",
+      "es": "Destruye 30 esferígneos con minas explosivas",
+      "fr": "Détruire 30 Bolides à l'aide de mines explosives",
+      "he": "השמד 30 כדורי אש עם מוקשי נפץ",
+      "hr": "Uništi 30 Vatrenih kugli eksplozivnim minama",
+      "it": "Distruggi 30 Sfere infuocate con mine esplosive",
+      "ja": "爆発地雷を使ってファイアボールを30体破壊する",
+      "ko-KR": "폭발 지뢰로 파이어볼 30개 파괴하기",
+      "no": "Ødelegg 30 Ildkuler med Eksplosive Miner",
+      "pl": "Zniszcz ogniomioty (30) za pomocą min wybuchowych",
+      "pt": "Destrua 30 Bolas de Fogo com Minas Explosivas",
+      "pt-BR": "Destrua 30 Bolas de Fogo com Minas Explosivas",
+      "ru": "Уничтожьте «Огнешары» (30) при помощи взрывных мин.",
+      "sr": "Uništi 30 vatrenih lopti eksplozivnim minama",
+      "tr": "Patlayıcı Mayın ile 30 Ateş Topu yok et",
+      "uk": "Знищити 30 Вогняних куль вибуховими мінами",
+      "zh-CN": "使用爆炸地雷摧毁30个“火球”",
+      "zh-TW": "用爆破地雷摧毀30台火球"
+    }
+  ],
+  "rewardItemIds": [],
+  "xp": 0,
+  "previousQuestIds": [],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "kind": "research",
+  "objectiveTree": {
+    "id": "241514841",
+    "children": [
+      {
+        "id": "287283287",
+        "amount": 30,
+        "index": 0,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "explosive_mine"
+          }
+        ],
+        "itemUse": "bring",
+        "type": "step"
+      }
+    ],
+    "label": {
+      "da": "Ødelæg 30 Ildkugler med Eksplosive Miner",
+      "de": "Zerstöre 30 Feuerbälle mit Sprengminen.",
+      "en": "Destroy 30 Fireballs with Explosive Mines",
+      "es": "Destruye 30 esferígneos con minas explosivas",
+      "fr": "Détruire 30 Bolides à l'aide de mines explosives",
+      "he": "השמידו 30 כדורי אש עם מוקשים מתפוצצים",
+      "hr": "Uništite 30 vatrenih kugli eksplozivnim minama.",
+      "it": "Distruggi 30 Sfere infuocate con mine esplosive",
+      "ja": "爆発地雷を使ってファイアボールを30体破壊する",
+      "ko-KR": "폭발 지뢰로 파이어볼 30개 파괴하기",
+      "no": "Ødelegg 30 Ildkuler med Eksplosive Miner",
+      "pl": "Zniszcz ogniomioty (30) za pomocą min wybuchowych",
+      "pt": "Destruir 30 Bolas de Fogo com Minas Explosivas",
+      "pt-BR": "Destrua 30 Bolas de Fogo com Minas Explosivas",
+      "ru": "Уничтожьте «Огнешары» (30) при помощи взрывных мин.",
+      "sr": "Uništi 30 Fireball-ova Eksplozivnim Minama",
+      "tr": "Patlayıcı Mayın ile 30 Ateş Topu yok et",
+      "uk": "Знищте 30 Вогняних куль за допомогою Вибухових мін",
+      "zh-CN": "使用爆炸地雷摧毁30个“火球”",
+      "zh-TW": "用爆破地雷摧毀30台火球"
+    },
+    "type": "all"
+  },
+  "slug": "thermite-tipped-rounds"
+}

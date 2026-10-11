@@ -90,7 +90,7 @@
       "he": "אתר נקודת מחסה באוטובוסים ליד Marano Park",
       "hr": "Izvidi mjesto za zaklon u autobusima blizu Marano Parka",
       "it": "Perlustra un punto di copertura negli autobus vicino al parco Marano",
-      "ja": "マラーノ公園近くのバスで身を潜められる場所を探し出した",
+      "ja": "マラーノ公園近くのバスで身を潜められる場所を探し出す",
       "ko-KR": "마라노 공원 근처 버스에서 엄폐지 찾기",
       "no": "Speid etter et dekningspunkt i bussene nær Marano Park",
       "pl": "Zbadaj kryjówkę w autobusach w pobliżu parku Marano",
@@ -112,7 +112,7 @@
       "he": "אתר נקודת מחסה בעליות הגג סביב Main Street",
       "hr": "Izvidi mjesto za zaklon na tavanima oko Main Streeta",
       "it": "Perlustra un punto di copertura nelle soffitte intorno al Corso principale",
-      "ja": "メインストリート周辺の屋根裏部屋で身を潜められる場所を探し出した",
+      "ja": "メインストリート周辺の屋根裏部屋で身を潜められる場所を探し出す",
       "ko-KR": "중심가 다락에서 엄폐지 찾기",
       "no": "Speid etter et dekningspunkt på loftene rundt Main Street",
       "pl": "Zbadaj kryjówkę na strychu w pobliżu głównej ulicy",
@@ -134,7 +134,7 @@
       "he": "השמד 2 תצפיתנים",
       "hr": "Uništi 2 Spottera",
       "it": "Distruggi 2 Spotter",
-      "ja": "スポッターを2体倒した",
+      "ja": "スポッターを2体倒す",
       "ko-KR": "스포터 2개 파괴하기",
       "no": "Ødelegg 2 Spottere",
       "pl": "Zniszcz określoną liczbę czuwaczy (2)",
@@ -156,7 +156,7 @@
       "he": "מסור ממסר תצפיתן ל-Shani",
       "hr": "Dostavi Spotter relej Shani",
       "it": "Consegna un relè Spotter a Shani",
-      "ja": "スポッター中継器をシャニに届けた",
+      "ja": "スポッター中継器をシャニに届ける",
       "ko-KR": "샤니에게 스포터 릴레이 전달하기",
       "no": "Lever et Spotter-relé til Shani",
       "pl": "Dostarcz przekaźnik czuwacza Shani",
@@ -180,8 +180,42 @@
       "quantity": 1
     }
   ],
-  "xp": 0,
-  "previousQuestIds": ["into_the_fray", "out_of_the_shadows"],
+  "xp": 8000,
+  "previousQuestIds": ["ss10x5", "ss10v"],
   "nextQuestIds": ["bombing_run"],
-  "updatedAt": "03/31/2026"
+  "videoUrl": "https://youtu.be/CYTbtpfcEj0",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "443392258",
+    "children": [
+      {
+        "id": "504101410",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "120834770",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "828200157",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "628041279",
+        "amount": 2,
+        "index": 3,
+        "type": "step"
+      },
+      {
+        "id": "141028126",
+        "index": 4,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "combat-recon"
 }

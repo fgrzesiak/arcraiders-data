@@ -1,0 +1,326 @@
+{
+  "id": "sizing_things_up",
+  "name": {
+    "da": "Vurdering",
+    "de": "Die Lage einschätzen",
+    "en": "Sizing Things Up",
+    "es": "Tanteando el terreno",
+    "fr": "Évaluer la situation",
+    "he": "הערכת מצב",
+    "hr": "Procjena situacije",
+    "it": "Valutare le dimensioni",
+    "ja": "見極める",
+    "ko-KR": "상황 파악",
+    "no": "Kartlegge forholdene",
+    "pl": "Ocena sytuacji",
+    "pt": "Dimensionando as Coisas",
+    "pt-BR": "Medindo as Circunstâncias",
+    "ru": "Глазомер",
+    "sr": "Procena situacije",
+    "tr": "Ölçüp Biçme",
+    "uk": "Оцінка ситуації",
+    "zh-CN": "审时度势",
+    "zh-TW": "審時度勢"
+  },
+  "map": ["pendola_pass"],
+  "trader": "Celeste",
+  "requiredItemIds": [
+    {
+      "itemId": "arc_conductive_coupler",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "basic_camera",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "De Kejsere var imponerende nok på afstand, men at kunne komme så tæt på… Hvis der nogensinde var et tidspunkt at træde forsigtigt, så ville det være nu.",
+    "de": "Diese Kaiser waren schon aus der Ferne beeindruckend genug, aber ihnen so nahe zu kommen … Wenn es eine Situation gibt, um „Sei bloß vorsichtig!“ zu sagen, dann diese.",
+    "en": "Those Emperors were imposing enough from a distance, but to be able to get so up close… If there was ever a time to tread carefully, this would be it.",
+    "es": "Esos emperadores ya imponían respeto desde lejos, pero ahora que podemos acercarnos tanto... Debemos ir con muchísimo cuidado.",
+    "fr": "Ces Empereurs étaient déjà impressionnants à distance, alors d'aussi près... S'il y a bien un moment où il faut se montrer prudents, c'est maintenant.",
+    "he": "האמפרורים האלה היו מרשימים מספיק מרחוק, אבל להיות מסוגל להתקרב כל כך... אם אי פעם היה זמן לצעוד בזהירות, זה הזמן.",
+    "hr": "Ti su Imperatori bili dovoljno impozantni iz daljine, ali doći im tako blizu... Ako je ikada bilo vrijeme za oprez, onda je to sada.",
+    "it": "Quegli Imperatori erano già abbastanza imponenti da lontano, ma poterli vedere da così vicino... Se mai ci fosse un momento in cui procedere con cautela, sarebbe proprio questo.",
+    "ja": "遠くからでもエンペラーたちは十分に威圧的だったが、こんなに近づけるとは… 慎重に行動すべき時があるとすれば、まさに今がその時だろう。",
+    "ko-KR": "엠퍼러는 멀리서 볼 때도 위압적이었는데, 이렇게 가까이 갈 수 있다니... 이럴 때일수록 정말 조심해야 해요.",
+    "no": "Disse Emperorene var imponerende nok på avstand, men å komme så nært innpå… Hvis det noensinne var en tid for å trå forsiktig, er det nå.",
+    "pl": "Cesarzowie byli groźni już na odległość, a co dopiero z bliska… Zachowaj szczególną ostrożność.",
+    "pt": "Aqueles Imperadores já eram imponentes de longe, mas poder chegar tão perto… Se houvesse um momento para agir com cautela, seria este.",
+    "pt-BR": "Aqueles Imperadores já eram imponentes de longe, mas conseguir chegar tão perto... Acho que nunca houve hora melhor pra se tomar cuidado.",
+    "ru": "Эти «Императоры» и издалека внушали трепет, а уж подойти к ним вплотную… Сейчас самое время проявить максимальную осторожность.",
+    "sr": "Ti Imperatori bili su dovoljno impozantni iz daljine, ali približiti im se toliko blizu… Ako je ikada bilo vreme da se bude oprezan, to je sada.",
+    "tr": "O İmparatorlar aradaki mesafeye rağmen yeterince baskı kuruyorlardı. Ancak o kadar yakınlarına yaklaşmak... Dikkatli davranılması gereken bir an varsa işte o an tam da budur.",
+    "uk": "Ті Імператори були достатньо грізними здалеку, але підібратися так близько… Якщо коли й варто було бути обережним, то це зараз.",
+    "zh-CN": "那些“帝王”机器远远看着就够有压迫感了，现在居然能靠这么近……这个时候，最适合采取步步为营的策略了。",
+    "zh-TW": "那些皇帝從遠處看就已經夠有壓迫感了，更別說現在能靠得這麼近…如果有什麼時候該小心行事，那就是現在了。"
+  },
+  "objectives": [
+    {
+      "da": "Tag et billede af Kejserens ben ved broen uden for Old Town",
+      "de": "Mach ein Foto vom Bein des Kaisers an der Brücke außerhalb der Altstadt.",
+      "en": "Take a photo of the Emperor's leg by the bridge outside Old Town",
+      "es": "Saca una foto de la pierna del emperador junto al puente situado a las afueras del casco antiguo",
+      "fr": "Prendre une photo de la patte de l'Empereur près du pont en dehors de la Vieille ville",
+      "he": "צלמו תמונה של רגל האמפרור ליד הגשר מחוץ ל-Old Town",
+      "hr": "Fotografiraj nogu Imperatora kod mosta izvan Starog grada",
+      "it": "Scatta una foto della gamba dell'Imperatore vicino al ponte fuori dalla Città vecchia",
+      "ja": "古い町の外れにある橋付近のエンペラーの脚を撮影する",
+      "ko-KR": "구시가지 밖 다리 옆에 있는 엠퍼러의 다리 촬영하기",
+      "no": "Ta et bilde av Emperor-ens ben ved broen utenfor Old Town",
+      "pl": "Zrób zdjęcie nogi cesarza przy moście niedaleko Starówki",
+      "pt": "Tirar uma foto da perna do Imperador perto da ponte fora da Cidade Velha",
+      "pt-BR": "Tire uma foto da perna do Imperador perto da ponte próxima à Cidade Antiga",
+      "ru": "Сфотографируйте ногу «Императора» возле моста у Старого города.",
+      "sr": "Fotografiši nogu Imperatora kod mosta izvan Old Towna",
+      "tr": "Eski Şehir'in dışındaki köprünün yanında duran İmparator bacağının fotoğrafını çek",
+      "uk": "Зробіть фото ноги Імператора біля мосту за межами Старого Міста",
+      "zh-CN": "拍摄老城区外大桥旁的“帝王”机器腿部的照片",
+      "zh-TW": "在舊城區外的橋樑旁拍攝皇帝腿部的照片"
+    },
+    {
+      "da": "Bryd den styrtede sonde op ved Kejserens ben nær Almatera Station",
+      "de": "Brich die abgestürzte Sonde am Bein des Kaisers nahe der Almatera-Station auf.",
+      "en": "Break open the crashed probe by the Emperor's leg near Almatera Station",
+      "es": "Abre la sonda caída junto a la pierna del emperador cerca de la estación Almatera",
+      "fr": "Ouvrir l'épave de sonde près de la patte de l'Empereur, à proximité de la Station Almatera",
+      "he": "פרצו את הגשושית שהתרסקה ליד רגל האמפרור סמוך לתחנת Almatera",
+      "hr": "Razbij srušenu sondu kod noge Imperatora blizu stanice Almatera",
+      "it": "Apri la sonda precipitata vicino alla gamba dell'Imperatore, nei pressi della stazione di Almatera",
+      "ja": "アルマテラ駅付近、エンペラーの脚のそばに墜落したプローブをこじ開ける",
+      "ko-KR": "알마테라 역 근처 엠퍼러 다리 옆에 추락한 탐사기 강제 개방하기",
+      "no": "Bryt opp den krasjede sonden ved Emperor-ens ben nær Almatera Station",
+      "pl": "Otwórz rozbitą sondę przy nodze cesarza w pobliżu stacji Almatera",
+      "pt": "Arrombar a sonda acidentada perto da perna do Imperador perto da Estação Almatera",
+      "pt-BR": "Abra a sonda que caiu perto da perna do Imperador próxima à Estação Almatera",
+      "ru": "Вскройте разбитый зонд у ноги «Императора» неподалеку от станции Альматера.",
+      "sr": "Razbij srušenu sondu kod noge Imperatora blizu Almatera Stationa",
+      "tr": "Almatera İstasyonu yakınlarındaki İmparator bacağının yanındaki düşmüş roketi kırarak aç",
+      "uk": "Розкрийте розбитий зонд біля ноги Імператора біля станції Альматера",
+      "zh-CN": "破开阿尔玛特拉站附近“帝王”机器腿旁的坠毁探测器",
+      "zh-TW": "拆開阿爾馬特拉車站附近皇帝腿部旁的墜毀探測器"
+    },
+    {
+      "da": "Undersøg kredsløbene i sonden",
+      "de": "Untersuche die Schaltkreise in der Sonde.",
+      "en": "Inspect the circuitry in the probe",
+      "es": "Inspecciona el circuito de la sonda",
+      "fr": "Examiner les circuits de la sonde",
+      "he": "בדקו את המעגלים בגשושית",
+      "hr": "Pregledaj sklopovlje u sondi",
+      "it": "Esamina i circuiti della sonda",
+      "ja": "プローブの回路を調べる",
+      "ko-KR": "탐사기 내부의 전자회로 조사하기",
+      "no": "Inspiser kretsene i sonden",
+      "pl": "Zbadaj obwody elektryczne sondy",
+      "pt": "Inspecionar os circuitos da sonda",
+      "pt-BR": "Inspecione os circuitos da sonda",
+      "ru": "Рассмотрите электронные схемы зонда.",
+      "sr": "Pregledaj strujna kola u sondi",
+      "tr": "Roketteki devreyi incele",
+      "uk": "Огляньте схеми в зонді",
+      "zh-CN": "检查“探测器”内部电路",
+      "zh-TW": "檢查探測機的內部電路"
+    },
+    {
+      "da": "Analysér det blotlagte område oven på Kejserens ben nær Railroad Junction",
+      "de": "Analysiere den freiliegenden Bereich auf dem Bein des Kaisers nahe der Kreuzung am Rangierbahnhof.",
+      "en": "Analyze the exposed area on top of the Emperor's leg near Railroad Junction",
+      "es": "Analiza la zona expuesta sobre la pierna del emperador cerca del cruce ferroviario",
+      "fr": "Analyser la zone exposée au sommet de la patte de l'Empereur, près de l'intersection de la Gare de triage",
+      "he": "נתחו את האזור החשוף על גבי רגל האמפרור ליד צומת Railroad",
+      "hr": "Analiziraj izloženo područje na vrhu noge Imperatora blizu Željezničkog čvorišta",
+      "it": "Analizza l'area scoperta nella parte superiore della gamba dell'Imperatore, vicino allo scalo ferroviario",
+      "ja": "車両基地のジャンクション付近にあるエンペラーの脚の上部、露出した部分を調査する",
+      "ko-KR": "철도 차량기지 분기점 근처에 있는 엠퍼러 다리 윗부분의 노출 부위 분석하기",
+      "no": "Analyser det eksponerte området på toppen av Emperor-ens ben nær Railroad Junction",
+      "pl": "Zbadaj odsłonięty obszar na szczycie nogi cesarza w pobliżu węzła stacji rozrządowej",
+      "pt": "Analisar a área exposta no topo da perna do Imperador perto da Junção Ferroviária",
+      "pt-BR": "Analise a área exposta no topo da perna do Imperador próxima à Junção Ferroviária",
+      "ru": "Изучите открытый участок на ноге «Императора» неподалеку от грузовой станции.",
+      "sr": "Analiziraj izloženi deo na vrhu noge Imperatora blizu Railroad Junctiona",
+      "tr": "Demiryolu Sahası Kavşağı yakınlarındaki İmparator bacağının tepesinde açığa çıkan alanı analiz et",
+      "uk": "Проаналізуйте відкриту ділянку на верхівці ноги Імператора біля Залізничного Вузла",
+      "zh-CN": "分析铁路站场枢纽附近“帝王”机器腿部顶端的外露区域",
+      "zh-TW": "分析鐵路站樞紐附近皇帝腿部頂端的開闊區域"
+    },
+    {
+      "da": "Nå Kejserens base",
+      "de": "Erreiche die Basis des Kaisers.",
+      "en": "Reach the base of the Emperor",
+      "es": "Llega a la base del emperador",
+      "fr": "Atteindre la base de l'Empereur",
+      "he": "הגיעו לבסיס האמפרור",
+      "hr": "Dosegni bazu Imperatora",
+      "it": "Raggiungi la base dell'Imperatore",
+      "ja": "エンペラーの基部まで辿り着く",
+      "ko-KR": "엠퍼러 몸체에 도달하기",
+      "no": "Nå bunnen av Emperoren",
+      "pl": "Dotrzyj do bazy cesarza",
+      "pt": "Alcançar a base do Imperador",
+      "pt-BR": "Vá até a base do Imperador",
+      "ru": "Доберитесь до корпуса «Императора».",
+      "sr": "Stigni do baze Imperatora",
+      "tr": "İmparator'un tabanına ulaş",
+      "uk": "Дістаньтеся основи Імператора",
+      "zh-CN": "抵达“帝王”机器底部",
+      "zh-TW": "到達皇帝的軀幹部"
+    },
+    {
+      "da": "Gennemsøg den nedgravede høsterlast",
+      "de": "Durchsuche die begrabene Ernter-Fracht.",
+      "en": "Search the Buried Harvester Payload",
+      "es": "Registra el cargamento de cosechadora enterrado",
+      "fr": "Fouiller la cargaison de Récolteur enfouie",
+      "he": "חפשו במטען המאסף הקבור",
+      "hr": "Pretraži Zakopani teret Harvestera",
+      "it": "Cerca il carico del Raccoglitore sepolto",
+      "ja": "埋まったハーベスターの運輸ロケットを調べる",
+      "ko-KR": "파묻힌 채취기 화물 수색하기",
+      "no": "Søk gjennom den nedgravde Innhøstingsnyttelasten",
+      "pl": "Przeszukaj zakopany ładunek kombajnu",
+      "pt": "Revistar a Carga Enterrada da Coletora",
+      "pt-BR": "Vasculhe o Carregamento de Ceifadora Soterrado",
+      "ru": "Осмотрите закопанный груз «Сборщика».",
+      "sr": "Pretraži zakopani tovar Harvestera",
+      "tr": "Gömülü Biçerdöver Yükü'nü ara",
+      "uk": "Обшукайте Закопаний вантаж Жниваря",
+      "zh-CN": "搜寻埋藏的“收割者”空投",
+      "zh-TW": "搜索埋藏的收割機物資"
+    },
+    {
+      "da": "Aflever den ARC-ledende kobler til Celeste",
+      "de": "Bring die ARC-Leitfähigkeitskupplung zu Celeste.",
+      "en": "Deliver the ARC Conductive Coupler to Celeste",
+      "es": "Entrégale el acoplador conductor ARC a Celeste",
+      "fr": "Livrer le coupleur conducteur ARC à Celeste",
+      "he": "מסרו את מצמד מוליך ARC ל-Celeste",
+      "hr": "Dostavi ARC vodljivu spojku Celeste",
+      "it": "Porta l'accoppiatore conduttivo ARC a Celeste",
+      "ja": "セレステに導電ARCカプラーを届ける",
+      "ko-KR": "셀레스테에게 아크 전도성 커플러 전달하기",
+      "no": "Lever ARC Konduktive Kopleren til Celeste",
+      "pl": "Dostarcz Celeste przewodzący sprzęgacz ARC",
+      "pt": "Entregar o Acoplador Condutor ARC para Celeste",
+      "pt-BR": "Entregue o Acoplador Condutivo ARC para Celeste",
+      "ru": "Доставьте Селесте проводящую муфту ARC.",
+      "sr": "Dostavi ARC provodnu spojnicu Celeste",
+      "tr": "ARC İletken Bağlama Kolu'nu Celeste'e teslim et",
+      "uk": "Доставте ARC Провідний З’єднувач Селесті",
+      "zh-CN": "将ARC导电耦合器交付给塞莱斯特",
+      "zh-TW": "將ARC導電接頭送去給莎莉絲特"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "adrenaline_shot",
+      "quantity": 3
+    },
+    {
+      "itemId": "exodus_technical_handbook",
+      "quantity": 1
+    },
+    {
+      "itemId": "bettina_i",
+      "quantity": 1
+    },
+    {
+      "itemId": "heavy_ammo",
+      "quantity": 60
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["ss4"],
+  "nextQuestIds": ["belly_of_the_beast"],
+  "videoUrl": "https://youtu.be/NxVuncrSWJI",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "397006565",
+    "children": [
+      {
+        "id": "226567572",
+        "children": [
+          {
+            "id": "755554369",
+            "index": 0,
+            "type": "step"
+          },
+          {
+            "id": "455827868",
+            "children": [
+              {
+                "id": "510547583",
+                "index": 1,
+                "optional": true,
+                "type": "step"
+              },
+              {
+                "id": "519543960",
+                "index": 2,
+                "type": "step"
+              }
+            ],
+            "oneRaid": true,
+            "type": "sequence"
+          },
+          {
+            "id": "380402761",
+            "index": 3,
+            "type": "step"
+          }
+        ],
+        "label": {
+          "da": "Udfør 2 af:",
+          "de": "Erfülle 2 von:",
+          "en": "Do 2 of:",
+          "es": "Haz 2 de:",
+          "fr": "Faire 2 de :",
+          "he": "בצעו 2 מתוך:",
+          "hr": "Ispunite 2 od:",
+          "it": "Completa 2 di:",
+          "ja": "いずれか2つを完了：",
+          "ko-KR": "2개 완료:",
+          "no": "Gjør 2 av:",
+          "pl": "Wykonaj 2 z:",
+          "pt": "Faça 2 de:",
+          "pt-BR": "Faça 2 de:",
+          "ru": "Выполните 2 из:",
+          "sr": "Završi 2 od:",
+          "tr": "Şunlardan 2 tanesini yap:",
+          "uk": "Виконайте 2 з:",
+          "zh-CN": "任意完成2项:",
+          "zh-TW": "完成其中 2 項："
+        },
+        "need": 2,
+        "type": "count"
+      },
+      {
+        "id": "972381536",
+        "children": [
+          {
+            "id": "314882164",
+            "index": 4,
+            "type": "step"
+          },
+          {
+            "id": "857089062",
+            "index": 5,
+            "type": "step"
+          },
+          {
+            "id": "603033564",
+            "index": 6,
+            "type": "step"
+          }
+        ],
+        "oneRaid": true,
+        "type": "sequence"
+      }
+    ],
+    "type": "sequence"
+  },
+  "slug": "sizing-things-up"
+}

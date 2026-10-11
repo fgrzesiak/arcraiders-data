@@ -22,12 +22,13 @@
     "zh-CN": "安全港湾",
     "zh-TW": "安全海灣"
   },
-  "map": ["riven_tides"],
+  "map": ["riven_tide"],
   "trader": "Tian Wen",
   "requiredItemIds": [
     {
       "itemId": "precision_gimbal",
-      "quantity": 1
+      "quantity": 1,
+      "questItem": true
     }
   ],
   "description": {
@@ -43,7 +44,7 @@
     "ko-KR": "열차 탈선 소식이 빠르게 퍼진 것 같습니다… 그래서 많은 노동자가 감시를 피해 탐나는 장비를 숨겨두게 된 것 같고요.",
     "no": "Ser ut til at nyheten om togavsporingen spredte seg raskt… Og fikk mange arbeidere til å gjemme unna svært fristende teknologi fra nysgjerrige blikk.",
     "pl": "Wieści o wykolejeniu pociągu chyba szybko się rozniosły… I skłoniły wielu pracowników do ukrycia bardzo kuszącej technologii z dala od wścibskich oczu.",
-    "pt": "Parece que a notícia do descarrilamento do trem se espalhou rápido... e fez com que muitos trabalhadores escondessem ótimas tecnologias.",
+    "pt": "Parece que as notícias sobre o descarrilamento do trem se espalharam rápido… E fizeram com que muitos trabalhadores escondessem algumas tecnologias muito valiosas longe de olhos curiosos.",
     "pt-BR": "Parece que a notícia do descarrilamento do trem se espalhou rápido... e fez com que muitos trabalhadores escondessem ótimas tecnologias.",
     "ru": "Кажется, новости о поезде, сошедшем с рельсов, распространились быстро. Многие работники быстро утащили лакомые технологии подальше от любопытных глаз.",
     "sr": "Izgleda da su se vesti o iskliznuću voza brzo proširile… I naterale mnoge radnike da sakriju veoma primamljivu tehnologiju daleko od radoznalih očiju.",
@@ -67,7 +68,7 @@
       "ko-KR": "레스토랑 주방 직원이 남긴 단서 찾기",
       "no": "Finn ledetråden etterlatt av restaurantens kjøkkenpersonale",
       "pl": "Znajdź wskazówkę pozostawioną przez pracowników restauracyjnej kuchni",
-      "pt": "Encontre a pista deixada pelos funcionários da cozinha do restaurante",
+      "pt": "Encontre a pista deixada pela equipe da cozinha do restaurante",
       "pt-BR": "Encontre a pista deixada pelos funcionários da cozinha do restaurante",
       "ru": "Найдите подсказку, оставленную сотрудником кухни.",
       "sr": "Pronađi trag koji je ostavilo osoblje restoranske kuhinje",
@@ -89,7 +90,7 @@
       "ko-KR": "스케치에 그려진 장소 찾기",
       "no": "Finn området avbildet på skissen",
       "pl": "Znajdź miejsce przedstawione na rysunku",
-      "pt": "Encontre a área mostrada no esboço",
+      "pt": "Encontre a área retratada no esboço",
       "pt-BR": "Encontre a área mostrada no esboço",
       "ru": "Найдите место с рисунка.",
       "sr": "Pronađi oblast prikazanu na skici",
@@ -133,7 +134,7 @@
       "ko-KR": "티안 웬에게 정밀 짐벌 전달하기",
       "no": "Lever Precision Gimbal til Tian Wen",
       "pl": "Dostarcz precyzyjny stabilizator Tian Wen",
-      "pt": "Entregue o Cardã de Precisão para Tian Wen",
+      "pt": "Entregue o Gimbal de Precisão para Tian Wen",
       "pt-BR": "Entregue o Cardã de Precisão para Tian Wen",
       "ru": "Доставьте Тянь Вэнь карданный подвес гироскопа.",
       "sr": "Dostavi precizni stabilizator Tian Wenu",
@@ -157,8 +158,37 @@
       "quantity": 1
     }
   ],
-  "xp": 0,
+  "xp": 5000,
   "previousQuestIds": ["line_in_the_sand"],
   "nextQuestIds": ["a_wrench_in_the_works"],
-  "updatedAt": "04/28/2026"
+  "videoUrl": "https://youtu.be/7ocDuuTBfPE",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "710049858",
+    "children": [
+      {
+        "id": "815869655",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "643087511",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "207638940",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "899608935",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "safe-harbor"
 }

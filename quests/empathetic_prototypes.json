@@ -1,0 +1,257 @@
+{
+  "id": "empathetic_prototypes",
+  "name": {
+    "da": "Empatiske Prototyper",
+    "de": "Empathische Prototypen",
+    "en": "Empathetic Prototypes",
+    "es": "Prototipos empáticos",
+    "fr": "Prototypes empathiques",
+    "he": "אבות טיפוס אמפתיים",
+    "hr": "Empatični prototipovi",
+    "it": "Prototipi empatici",
+    "ja": "共感型プロトタイプ",
+    "ko-KR": "공감형 시제품",
+    "no": "Empatiske prototyper",
+    "pl": "Empatyczne prototypy",
+    "pt": "Protótipos Empáticos",
+    "pt-BR": "Protótipos Empáticos",
+    "ru": "Эмпатичные прототипы",
+    "sr": "Empatični prototipi",
+    "tr": "Empatik Prototipler",
+    "uk": "Емпатичні Прототипи",
+    "zh-CN": "共情原型机",
+    "zh-TW": "有同理心的試作品"
+  },
+  "map": ["the_spaceport"],
+  "trader": "Lance",
+  "requiredItemIds": [
+    {
+      "itemId": "project_pathos_empathy_core",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "grappling_hook",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "At tænke sig, at jeg måske har slægtninge, der bare hænger i en forsendelseskasse… Hvilken rædsel! Hvilken ubeskrivelig rædsel!",
+    "de": "Wenn man bedenkt, dass vielleicht Verwandte von mir einfach so in einer Transportkiste herumhängen … Was für ein Grauen! Was für ein unaussprechliches Grauen!",
+    "en": "To think I may have kin just dangling in a shipment crate… What horror! What unspeakable horror!",
+    "es": "Y pensar que tengo a familiares colgando en una caja... ¡Qué horror! ¡Qué espanto!",
+    "fr": "Dire que des miens pourraient être suspendus dans une caisse de livraison... Quelle horreur indicible !",
+    "he": "לחשוב שאולי יש לי קרובי משפחה שתלויים להם סתם כך בארגז משלוח... איזו זוועה! איזו זוועה בלתי ניתנת לתיאור!",
+    "hr": "Pomisliti da bi moji srodnici mogli samo visjeti u transportnom sanduku… Kakav užas! Kakav neizreciv užas!",
+    "it": "Pensare che potrei avere dei parenti che penzolano in una cassa da trasporto... Che orrore! Che orrore indicibile!",
+    "ja": "まさか、身内が輸送箱に吊るされているかもしれないなんて… なんて恐ろしい！ 言葉にできない恐ろしさじゃないか！",
+    "ko-KR": "내 동족이 화물 상자에 매달려 있다니... 이 무슨 참극인가요! 말로 다할 수 없는 참극이에요!",
+    "no": "Å tenke at jeg kanskje har slektninger bare hengende i en forsendelseskasse… For en grusomhet! For en ubeskrivelig grusomhet!",
+    "pl": "Pomyśleć, że moi krewni mogą wisieć w jakiejś skrzyni! O, zgrozo! Potworność!",
+    "pt": "Pensar que posso ter parentes pendurados em uma caixa de transporte… Que horror! Que horror indizível!",
+    "pt-BR": "Só de imaginar que posso ter familiares suspensos em um caixote... Que horror! Que horror indescritível!",
+    "ru": "Подумать только, у меня могут быть родственники, которые сейчас просто болтаются в грузовом ящике… Это ужасно! Даже не описать, как ужасно!",
+    "sr": "Pomisao da možda imam rođake koji vise u transportnom sanduku… Kakav užas! Neizreciv užas!",
+    "tr": "Kendi türümün bir teslimat kutusunda sarkıyor olabileceğini düşünmek... Ne korkunç! Akıl almaz bir dehşet!",
+    "uk": "Подумати тільки, що у мене можуть бути родичі, які просто бовтаються у транспортному контейнері… Який жах! Який невимовний жах!",
+    "zh-CN": "想到我的亲人可能就吊在货运箱里……太可怕了！简直骇人听闻！",
+    "zh-TW": "想到我可能還有親人就那樣掛在貨運箱裡…太可怕了！可怕到無法用言語形容！"
+  },
+  "objectives": [
+    {
+      "da": "Nå Skyttegravstårnene i Spaceport-skyttegraven",
+      "de": "Erreiche die Grabentürme im Raumhafen-Graben.",
+      "en": "Reach the Trench Towers in the Spaceport Trench",
+      "es": "Llega a las torres de la trinchera del Puerto espacial",
+      "fr": "Atteindre les Tours de tranchée du Port spatial",
+      "he": "הגיעו למגדלי התעלה בתעלת נמל החלל",
+      "hr": "Dođite do Kula rova u rovu Svemirskoj luci",
+      "it": "Raggiungi le Torri trinceali nella trincea dello Spazioporto.",
+      "ja": "宇宙港のトレンチタワーまで辿り着く",
+      "ko-KR": "우주 기지 도랑의 도랑 탑에 도달하기",
+      "no": "Nå frem til Grøftetårnene i Spaceport-grøften",
+      "pl": "Dotrzyj do wież wykopowych w wykopie w porcie kosmicznym",
+      "pt": "Alcance as Torres da Trincheira na Trincheira do Espaçoporto",
+      "pt-BR": "Vá até as Torres de Trincheira da Vala do Espaçoporto",
+      "ru": "Доберитесь до траншейных вышек в космопорте.",
+      "sr": "Stigni do Kula Rovova u Rovu Svemirske luke",
+      "tr": "Uzaylimanı Hendeği'ndeki Hendek Kulelerine ulaş",
+      "uk": "Добратися до Траншейних Веж у Траншеї Космопорту",
+      "zh-CN": "抵达太空港壕沟的壕沟塔",
+      "zh-TW": "到達太空港壕溝中的壕塔"
+    },
+    {
+      "da": "Find Terminalen og deaktiver Magnetlåsen",
+      "de": "Finde das Terminal und deaktiviere die Magnetverriegelung. ",
+      "en": "Find the Terminal and disable the Magnetic Lock ",
+      "es": "Encuentra el terminal y desactiva el cierre magnético ",
+      "fr": "Trouver le terminal et désactiver le verrou magnétique ",
+      "he": "מצאו את הטרמינל ונטרלו את המנעול המגנטי",
+      "hr": "Pronađite Terminal i onemogućite Magnetsku bravu",
+      "it": "Trova il terminale e disattiva la serratura magnetica ",
+      "ja": "端末を探して磁気ロックを無効化する ",
+      "ko-KR": "터미널을 찾아 자기식 잠금장치 해제하기 ",
+      "no": "Finn Terminalen og deaktiver Magnetlåsen",
+      "pl": "Znajdź terminal i wyłącz zamek magnetyczny ",
+      "pt": "Encontre o Terminal e desative a Trava Magnética",
+      "pt-BR": "Encontre o terminal e desative a trava magnética ",
+      "ru": "Найдите терминал и отключите магнитный замок. ",
+      "sr": "Pronađi terminal i deaktiviraj magnetnu bravu",
+      "tr": "Terminali bul ve Manyetik Kilidi devre dışı bırak ",
+      "uk": "Знайти Термінал і вимкнути Магнітний Замок",
+      "zh-CN": "找到终端并解除磁锁 ",
+      "zh-TW": "找到終端機並解除磁力鎖 "
+    },
+    {
+      "da": "Find Magnetlåsen på Kassen og deaktiver den manuelt",
+      "de": "Finde die Magnetverriegelung an der Kiste und deaktiviere sie manuell.",
+      "en": "Find the Magnetic Lock on the Crate and manually disable it",
+      "es": "Encuentra el cierre magnético de la caja y desactívalo manualmente",
+      "fr": "Trouver le verrou magnétique sur la caisse et le désactiver manuellement",
+      "he": "מצאו את המנעול המגנטי על הארגז ונטרלו אותו ידנית",
+      "hr": "Pronađite Magnetsku bravu na sanduku i ručno je onemogućite",
+      "it": "Trova la serratura magnetica sulla cassa e disattivala manualmente",
+      "ja": "クレートの磁気ロックを見つけて手動で無効化する",
+      "ko-KR": "상자의 자기식 잠금장치를 찾아 수동으로 해제하기",
+      "no": "Finn Magnetlåsen på kassen og deaktiver den manuelt",
+      "pl": "Znajdź zamek magnetyczny na skrzyni i wyłącz go ręcznie",
+      "pt": "Encontre a Trava Magnética na Caixa e desative-a manualmente",
+      "pt-BR": "Encontre a trava magnética na caixa e desative-a manualmente",
+      "ru": "Найдите магнитный замок на контейнере и отключите его вручную.",
+      "sr": "Pronađi magnetnu bravu na sanduku i ručno je deaktiviraj",
+      "tr": "Kutu'daki Manyetik Kilidi bul ve manuel olarak devre dışı bırak",
+      "uk": "Знайти Магнітний Замок на Ящику та вимкнути його вручну",
+      "zh-CN": "找到货运箱上的磁锁并手动解除它",
+      "zh-TW": "找到貨箱上的磁力鎖並手動解除"
+    },
+    {
+      "da": "Gennemsøg Lastkassen",
+      "de": "Durchsuche die Frachtkiste.",
+      "en": "Search the Cargo Crate",
+      "es": "Registra la caja de carga",
+      "fr": "Fouiller la caisse de cargaison",
+      "he": "חפשו את ארגז המטען",
+      "hr": "Pretražite Teretni sanduk",
+      "it": "Cerca la cassa di carico",
+      "ja": "貨物コンテナを調べる",
+      "ko-KR": "화물 상자 수색하기",
+      "no": "Gjennomsøk Lastkassen",
+      "pl": "Przeszukaj skrzynię z ładunkiem",
+      "pt": "Procure na Caixa de Carga",
+      "pt-BR": "Vasculhe a Caixa de Carga",
+      "ru": "Осмотрите грузовой контейнер.",
+      "sr": "Pretraži teretni sanduk",
+      "tr": "Kargo Kutusu'nu ara",
+      "uk": "Обшукати Вантажний Ящик",
+      "zh-CN": "搜查货运箱",
+      "zh-TW": "搜索貨箱"
+    },
+    {
+      "da": "Aflever Project Pathos Empatikernen til Lance",
+      "de": "Bring den Empathie-Kern von Projekt Pathos zu Lance",
+      "en": "Deliver the Project Pathos Empathy Core to Lance",
+      "es": "Entrégale el núcleo de empatía del proyecto Pathos a Lance",
+      "fr": "Livrer le noyau d'empathie du projet Pathos à Lance",
+      "he": "מסרו את ליבת האמפתיה של Project Pathos ל-Lance",
+      "hr": "Dostavite Empatično jezgro projekta Pathos Lanceu",
+      "it": "Consegna il nucleo dell'empatia del progetto Pathos a Lance",
+      "ja": "ランスにプロジェクトパトス共感コアを届ける",
+      "ko-KR": "랜스에게 파토스 프로젝트 공감 코어 전달하기",
+      "no": "Lever Prosjekt Pathos Empati-kjerne til Lance",
+      "pl": "Dostarcz Lance’owi rdzeń empatyczny projektu „Patos”",
+      "pt": "Entregue o Núcleo de Empatia do Projeto Pathos para Lance",
+      "pt-BR": "Entregue o Núcleo de Empatia do Projeto Pathos para Lance",
+      "ru": "Доставьте Лэнсу эмпатическое ядро проекта «Пафос».",
+      "sr": "Dostavi Empatično jezgro projekta Pathos Lanceu",
+      "tr": "Lance'e Pathos Projesi Empati Çekirdeği'ni teslim et",
+      "uk": "Доставити Емпатичне Ядро Проекту Pathos до Lance",
+      "zh-CN": "将“悲怆计划”共情核心交付给兰斯",
+      "zh-TW": "將帕托斯計畫同理心核心送去給蘭斯"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "canto_i",
+      "quantity": 1
+    },
+    {
+      "itemId": "vita_shot",
+      "quantity": 2
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["someone_elses_shoes"],
+  "nextQuestIds": ["when_everything_falls"],
+  "videoUrl": "https://youtu.be/rCCEgxSzAJA",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "704158555",
+    "children": [
+      {
+        "id": "884930977",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "199226457",
+        "children": [
+          {
+            "id": "126007040",
+            "index": 1,
+            "type": "step"
+          },
+          {
+            "id": "820027795",
+            "index": 2,
+            "type": "step"
+          }
+        ],
+        "label": {
+          "da": "Deaktiver Magnetlåsen, der holder Lastkassen",
+          "de": "Deaktiviere die Magnetverriegelung, die die Frachtkiste festhält.",
+          "en": "Disable the Magnetic Lock holding the Cargo Crate",
+          "es": "Desactiva el cierre magnético que sostiene la caja de carga",
+          "fr": "Désactiver le verrou magnétique qui retient la caisse de cargaison",
+          "he": "נטרלו את המנעול המגנטי שמחזיק את ארגז המטען",
+          "hr": "Onemogućite Magnetsku bravu koja drži teretni sanduk",
+          "it": "Disattiva il blocco magnetico che tiene ferma la cassa di carico",
+          "ja": "物資コンテナを固定している磁気ロックを無効化する",
+          "ko-KR": "화물 상자를 고정한 자기식 잠금장치 해제하기",
+          "no": "Deaktiver Magnetlåsen på Lastkassen",
+          "pl": "Zniszcz zamek magnetyczny skrzyni z ładunkiem",
+          "pt": "Desative a Trava Magnética que prende a Caixa de Carga",
+          "pt-BR": "Desative a trava magnética que segura a Caixa de Carga",
+          "ru": "Отключите магнитный замок, который удерживает грузовой контейнер.",
+          "sr": "Deaktiviraj magnetnu bravu koja drži teretni sanduk",
+          "tr": "Kargo Kutusu'nu tutan Manyetik Kilidi devre dışı bırak",
+          "uk": "Вимкнути Магнітний Замок, що утримує Вантажний Ящик",
+          "zh-CN": "解除固定货运箱的磁锁",
+          "zh-TW": "解除鎖住貨箱的磁力鎖"
+        },
+        "oneRaid": true,
+        "type": "any"
+      },
+      {
+        "id": "297781400",
+        "children": [
+          {
+            "id": "400641624",
+            "index": 3,
+            "type": "step"
+          },
+          {
+            "id": "492651700",
+            "index": 4,
+            "type": "step"
+          }
+        ],
+        "oneRaid": true,
+        "type": "sequence"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "empathetic-prototypes"
+}
