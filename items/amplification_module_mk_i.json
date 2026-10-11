@@ -1,0 +1,67 @@
+{
+  "id": "amplification_module_mk_i",
+  "name": {
+    "da": "Forstærkermodul MK. I",
+    "de": "Verstärkermodul MK. I",
+    "en": "Amplification Module MK. I",
+    "es": "Módulo de amplificación ver. I",
+    "fr": "Module d'amplification I",
+    "he": "מודול הגברה MK. I",
+    "hr": "Modul za pojačanje MK. I",
+    "it": "Modulo di amplificazione MK. I",
+    "ja": "強化モジュールMK. I",
+    "ko-KR": "증폭 모듈 MK. I",
+    "no": "Forsterkningsmodul MK. I",
+    "pl": "Moduł wzmacniający MK. I",
+    "pt": "Módulo de Amplificação MK. I",
+    "pt-BR": "Módulo de Amplificação Mk. I",
+    "ru": "Совершенствующий модуль I",
+    "sr": "Modul za pojačanje MK. I",
+    "tr": "Güçlendirme Modülü MK. I",
+    "uk": "Модуль Ампліфікації МК. І",
+    "zh-CN": "增强模块Mk. I",
+    "zh-TW": "增幅模組MK. I"
+  },
+  "description": {
+    "da": "Avanceret ARC-teknologi, der låser op for almindelig våbenforstærkning.",
+    "de": "Fortschrittliche ARC-Technologie, die die Verstärkung gewöhnlicher Waffen freischaltet.",
+    "en": "Advanced ARC technology that unlocks common weapon Amplification.",
+    "es": "Tecnología ARC avanzada que desbloquea la amplificación de armas comunes.",
+    "fr": "Technologie ARC avancée qui débloque l'amplification des armes communes.",
+    "he": "טכנולוגיית ARC מתקדמת שפותחת הגברת נשק רגילה.",
+    "hr": "Napredna ARC tehnologija koja otključava uobičajeno pojačanje oružja.",
+    "it": "Tecnologia ARC avanzata che sblocca l'amplificazione delle armi comuni.",
+    "ja": "コモンの武器強化をアンロックできる高度なARCテクノロジー。",
+    "ko-KR": "일반 등급 무기의 증폭을 잠금 해제하는 고급 아크 기술입니다.",
+    "no": "Avansert ARC-teknologi som låser opp vanlig våpenforsterkning.",
+    "pl": "Zaawansowana technologia ARC, która odblokowuje wzmocnienia powszechnych broni.",
+    "pt": "Tecnologia ARC avançada que desbloqueia a Amplificação de arma comum.",
+    "pt-BR": "Tecnologia ARC avançada que desbloqueia amplificação de armas comuns.",
+    "ru": "Продвинутая технология ARC, которая позволяет совершенствовать обычное оружие.",
+    "sr": "Napredna ARC tehnologija koja otključava obično pojačanje oružja.",
+    "tr": "Yaygın silah Güçlendirmesi'nin kilidini açan gelişmiş bir ARC teknolojisi.",
+    "uk": "Просунута технологія ARC, що розблоковує звичайну Ампліфікацію зброї.",
+    "zh-CN": "先进ARC科技，可解锁普通武器增强。",
+    "zh-TW": "先進ARC技術，可用於解鎖常見武器增幅。"
+  },
+  "type": "Topside Material",
+  "rarity": "Common",
+  "value": 7000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "recyclesInto": {
+    "amplified_fragments": 7
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/amplification_module_mk_i.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.Ascension.Module"],
+      "itemType": ["Misc"],
+      "questGroups": ["Items.AscensionModules"],
+      "theme": ["ARC"]
+    }
+  }
+}

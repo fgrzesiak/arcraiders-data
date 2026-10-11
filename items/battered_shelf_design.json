@@ -1,0 +1,50 @@
+{
+  "id": "battered_shelf_design",
+  "name": {
+    "da": "Slidt Hylde Design",
+    "de": "Entwurf: Ramponiertes Regal",
+    "en": "Battered Shelf Design",
+    "es": "Diseño de estantería maltrecha",
+    "fr": "Design : Étagère abîmée",
+    "he": "עיצוב מדף מרופט",
+    "hr": "Dizajn dotrajale police",
+    "it": "Design Mensola rovinata",
+    "ja": "傷んだ棚のデザイン",
+    "ko-KR": "낡은 선반 디자인",
+    "no": "Design: Slitt hylle",
+    "pl": "Projekt Zniszczonej półki",
+    "pt": "Projeto de Prateleira Desgastada",
+    "pt-BR": "Projeto da Prateleira Surrada",
+    "ru": "Схема: Потрепанная полка",
+    "sr": "Nacrt pohabane police",
+    "tr": "Yıpranmış Raf Tasarımı",
+    "uk": "Дизайн побитої полиці",
+    "zh-CN": "破旧架子设计图",
+    "zh-TW": "破舊書架設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_shelf.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rusted_bolts": 1
+      },
+      "level": 2,
+      "offerId": 917966242,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

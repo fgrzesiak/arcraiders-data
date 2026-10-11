@@ -18,31 +18,31 @@
     "ru": "Ферро IV",
     "sr": "Ferro IV",
     "tr": "Ferro IV",
-    "uk": "Ferro IV",
+    "uk": "Ферро IV",
     "zh-CN": "生铁 IV",
-    "zh-TW": "Ferro IV"
+    "zh-TW": "鐵桿IV"
   },
   "description": {
-    "da": "Slår hårdt, men skal genindlæses mellem hvert skud.",
-    "de": "Gute Durchschlagskraft, muss aber nach jedem Schuss nachgeladen werden.",
-    "en": "Packs a punch, but must be reloaded between every shot.",
-    "es": "Golpea fuerte, pero debe recargarse entre cada disparo.",
-    "fr": "Frappe fort, mais doit être rechargé entre chaque tir.",
-    "he": "מכה חזק, אך דורש טעינה מחדש בין כל ירייה.",
-    "hr": "Zadaje snažan udarac, ali se mora puniti nakon svakog hica.",
-    "it": "Colpisce duro, ma deve essere ricaricata tra ogni colpo.",
-    "ja": "強力な一撃を放つが、毎回リロードが必要。",
-    "ko-KR": "강력한 한 방을 날리지만, 매 발사마다 재장전이 필요합니다.",
-    "no": "Slår hardt, men må lades mellom hvert skudd.",
-    "pl": "Ma mocny cios, ale musi być przeładowywana po każdym strzale.",
-    "pt": "Dá um soco forte, mas deve ser recarregada entre cada tiro.",
-    "pt-BR": "Tem forte impacto, mas precisa ser recarregado após cada disparo.",
-    "ru": "Наносит мощный удар, но требует перезарядки после каждого выстрела.",
-    "sr": "Zadaje snažan udarac, ali se mora puniti nakon svakog hica.",
-    "tr": "Güçlü bir darbe indirir, ancak her atıştan sonra yeniden doldurulmalıdır.",
-    "uk": "Завдає потужного удару, але потребує перезарядження після кожного пострілу.",
-    "zh-CN": "威力强大，但每发射一次都必须重新装填。",
-    "zh-TW": "威力強大，但每發射一次都必須重新裝填。"
+    "da": "Tung break-action riffel. Slår hårdt, men skal genlades mellem hvert skud.",
+    "de": "Schweres Gewehr mit Kipplauf. Gute Durchschlagskraft, muss aber nach jedem Schuss nachgeladen werden.",
+    "en": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot.",
+    "es": "Fusil pesado con cañón basculante. Es tremendamente potente, pero hay que recargarlo tras cada disparo.",
+    "fr": "Fusil lourd basculant. Il est redoutable, mais doit être rechargé entre chaque tir.",
+    "he": "רובה כבד נטען-שבירה. בעל עוצמה רבה, אך יש לטעון אותו מחדש בין כל ירייה.",
+    "hr": "Teška puška s preklopnom cijevi. Nanosi snažnu štetu, ali se mora ponovno napuniti između svakog hica.",
+    "it": "Fucile pesante ad azione spezzata. È potente, ma deve essere ricaricato tra un colpo e l'altro.",
+    "ja": "中折式のヘビーライフル。 威力は高いが、一発ごとに弾を込めなければならない。",
+    "ko-KR": "강력한 위력을 뽐내지만 발사할 때마다 재장전해야 하는 중절식 중량 소총입니다.",
+    "no": "Tung knekkrifle. Slår hardt, men må lades om mellom hvert skudd.",
+    "pl": "Ciężki karabin łamany. Ma dużego kopa, ale wymaga przeładowania po każdym strzale.",
+    "pt": "Fuzil pesado de ação basculante. Causa muito dano, mas deve ser recarregado a cada tiro.",
+    "pt-BR": "Fuzil pesado de ação basculante. Tem forte impacto, mas precisa ser recarregado após cada disparo.",
+    "ru": "Тяжелая винтовка с переломным затвором. Мощное оружие, но требуется перезаряжать перед каждым выстрелом.",
+    "sr": "Teška puška na prelamanje. Nosi veliku snagu, ali se mora iznova puniti nakon svakog hica.",
+    "tr": "Kırmalı ağır tüfek. Büyük hasar verir ancak her atış sonrası yeniden doldurulması gerekir.",
+    "uk": "Важка переламна гвинтівка. Завдає потужного удару, але потребує перезаряджання після кожного пострілу.",
+    "zh-CN": "重型中折式步枪，威力十足，但每射击一次后都需要重新装填。",
+    "zh-TW": "重型中折式步槍。威力強大，但每次射擊後都必須裝填。"
   },
   "type": "Battle Rifle",
   "rarity": "Common",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC 装甲穿透",
       "zh-TW": "ARC 裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2.5x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "180-200 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "130/130",
@@ -166,28 +212,28 @@
       "zh-CN": "弹匣容量",
       "zh-TW": "彈匣容量"
     },
-    "Upgrade Modifiers": {
-      "value": "39% Reduced Reload Time",
-      "da": "Opgraderingsmodifikatorer",
-      "de": "Verbesserungsmodifikatoren",
-      "en": "Upgrade Modifiers",
-      "es": "Modificadores de mejora",
-      "fr": "Modificateurs d'amélioration",
-      "he": "משני שדרוג",
-      "hr": "Modifikatori Nadogradnje",
-      "it": "Modificatori di potenziamento",
-      "ja": "アップグレード修正",
-      "ko-KR": "업그레이드 수정치",
-      "no": "Oppgraderingsmodifikatorer",
-      "pl": "Modyfikatory ulepszenia",
-      "pt": "Modificadores de melhoria",
-      "pt-BR": "Modificadores de Melhoria",
-      "ru": "Модификаторы улучшения",
-      "sr": "Modifikatori Nadogradnje",
-      "tr": "Yükseltme Değiştiricileri",
-      "uk": "Модифікатори покращення",
-      "zh-CN": "升级修正",
-      "zh-TW": "升級修正"
+    "Reduced Reload Time": {
+      "value": "39%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
     }
   },
   "craftBench": "weapon_bench",
@@ -206,6 +252,190 @@
   "updatedAt": "02/24/2026",
   "addedIn": "base",
   "durability": 130,
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.BattleRifle",
+      "dropType": ["Equipment.Weapon.Firearm.HeavyAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": ["Items.AllWeapons", "Items.HeavyAmmoWeapon"]
+    },
+    "partial": ["projectileRadius"],
+    "weapon": {
+      "ammoItem": "heavy_ammo",
+      "arc": {
+        "armorMultiplier": 1.5,
+        "propagationMultiplier": 1
+      },
+      "base": {
+        "adsTimeSec": 1,
+        "burnRate": 0.006611,
+        "burstSize": 1,
+        "clipSize": 1,
+        "firePower": 50000,
+        "fireRate": 50,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 40,
+        "reloadTimeSec": 2.5
+      },
+      "damageFalloff": [
+        [0, 1.2],
+        [5, 1.2],
+        [15, 1.001],
+        [180, 1.001],
+        [200, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 3,
+        "adsRecoveryMultiplier": 0.9,
+        "adsScale": 0.25,
+        "fireGain": [
+          [1, 2, 0, 0, "linear"],
+          [8, 2, 14.410254, 14.410301, "cubic"]
+        ],
+        "max": 10,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 3,
+            "adsFireDispersionMultiplier": 0.8,
+            "adsRecoveryMultiplier": 0.8,
+            "adsScale": 0.1,
+            "dispersion": 2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 3,
+            "adsFireDispersionMultiplier": 0.8,
+            "adsRecoveryMultiplier": 0.8,
+            "adsScale": 0.1,
+            "dispersion": 2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.9,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.9,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 3,
+            "adsFireDispersionMultiplier": 0.9,
+            "adsRecoveryMultiplier": 0.9,
+            "adsScale": 0.1,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 3,
+            "adsFireDispersionMultiplier": 0.9,
+            "adsRecoveryMultiplier": 0.9,
+            "adsScale": 0.1,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.9,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 1.5,
+        "popRecoverySpeed": 0.2,
+        "recoverySpeed": 4,
+        "unset": ["fireMax", "linearRecovery"],
+        "velocity": 3,
+        "velocityMax": 3.5,
+        "velocityRecovery": 5
+      },
+      "equipTimeSec": 1.3,
+      "headshotMultiplier": 2.5,
+      "headshotMultiplierFrom": "class",
+      "modifiers": {
+        "durabilityBurnRate": -0.3,
+        "reloadTime": -0.75
+      },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "recoil": {
+        "adsGainMultiplier": 0.7,
+        "lerpSpeed": 0.4,
+        "pitch": [
+          [0, 0, 0, 0, "linear"],
+          [1, 8, 0, 0, "linear"]
+        ],
+        "pitchProceduralRange": [4, 4],
+        "recoverySpeed": -1,
+        "sampleCount": 2,
+        "unset": [
+          "yawProceduralRange",
+          "proceduralSwingSpeed",
+          "recoveryDelay"
+        ],
+        "yaw": [
+          [0, 0, 0.09388064, 0, "cubic"],
+          [1, 3, 0, -0.15011495, "cubic"]
+        ]
+      },
+      "statBarOffsets": {
+        "fireRate": 10
+      },
+      "tier": 4,
+      "unequipTimeSec": 0.7
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -253,7 +483,7 @@
       "cost": {
         "coins": 8700
       },
-      "limit": 1,
+      "limit": 3,
       "refreshSeconds": 86400,
       "trader": "Tian Wen"
     }

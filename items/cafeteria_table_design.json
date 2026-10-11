@@ -1,0 +1,50 @@
+{
+  "id": "cafeteria_table_design",
+  "name": {
+    "da": "Kafeteria Bord Design",
+    "de": "Cafeteria-Tisch-Entwurf",
+    "en": "Cafeteria Table Design",
+    "es": "Diseño de mesa de la cafetería",
+    "fr": "Design de table de la cafétéria",
+    "he": "עיצוב שולחן קפיטריה",
+    "hr": "Dizajn stola za kantinu",
+    "it": "Design del Tavolo della mensa",
+    "ja": "カフェテリア テーブル デザイン",
+    "ko-KR": "카페테리아 테이블 디자인",
+    "no": "Design: Kantinebord",
+    "pl": "Projekt stołu bufetu",
+    "pt": "Projeto de Mesa de Cafetaria",
+    "pt-BR": "Projeto da Mesa da Cafeteria",
+    "ru": "Схема стола в столовой",
+    "sr": "Nacrt stola za menzu",
+    "tr": "Kafeterya Masası Tasarımı",
+    "uk": "Дизайн столу для їдальні",
+    "zh-CN": "自助餐厅餐桌设计图",
+    "zh-TW": "食堂餐桌設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/cafeteria_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_brackets": 2
+      },
+      "level": 1,
+      "offerId": 627224234,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

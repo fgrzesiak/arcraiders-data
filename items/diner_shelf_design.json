@@ -1,0 +1,50 @@
+{
+  "id": "diner_shelf_design",
+  "name": {
+    "da": "Diner Hylde-design",
+    "de": "Entwurf: Diner-Regal",
+    "en": "Diner Shelf Design",
+    "es": "Diseño de estantería de la cafetería",
+    "fr": "Design d'Étagère de diner",
+    "he": "עיצוב מדף: דיינר",
+    "hr": "Nacrt Diner police",
+    "it": "Design Mensola del diner",
+    "ja": "ダイナーの棚のデザイン",
+    "ko-KR": "다이너 선반 디자인",
+    "no": "Diner Hylle Design",
+    "pl": "Projekt półki w dinerze",
+    "pt": "Projeto: Prateleira de Lanchonete",
+    "pt-BR": "Projeto da Prateleira da Lanchonete",
+    "ru": "Схема полки закусочной",
+    "sr": "Nacrt police 'Diner'",
+    "tr": "Lokanta Rafı Tasarımı",
+    "uk": "Дизайн полиці 'Закусочна'",
+    "zh-CN": "餐馆架子设计图",
+    "zh-TW": "小餐館書架設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/diner_shelf.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "laser_level": 1
+      },
+      "level": 3,
+      "offerId": 620345799,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

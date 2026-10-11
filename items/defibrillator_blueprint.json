@@ -4,45 +4,45 @@
     "da": "Hjertestarter-tegning",
     "de": "Bauplan: Defibrillator",
     "en": "Defibrillator Blueprint",
-    "es": "Plano de desfibrilador",
-    "fr": "Schéma de Défibrillateur",
+    "es": "Proyecto del desfibrilador",
+    "fr": "Schéma de défibrillateur",
     "he": "שרטוט דפיברילטור",
     "hr": "Nacrt za Defibrilator",
     "it": "Progetto defibrillatore",
     "ja": "蘇生装置の設計図",
     "ko-KR": "제세동기 설계도",
     "no": "Hjertestarter-tegning",
-    "pl": "Projekt defibrylatora",
+    "pl": "Plan: defibrylator",
     "pt": "Projeto de desfibrilador",
-    "pt-BR": "Diagrama do Desfibrilador",
+    "pt-BR": "Esquema de Desfibrilador",
     "ru": "Чертеж — Дефибриллятор",
     "sr": "Nacrt za Defibrilator",
     "tr": "Şok Cihazı Taslağı",
     "uk": "Креслення дефібрилятора",
-    "zh-CN": "复苏剂蓝图（除颤器蓝图）",
-    "zh-TW": "除顫器藍圖"
+    "zh-CN": "复苏剂蓝图",
+    "zh-TW": "去顫器藍圖"
   },
   "description": {
-    "da": "En indsprøjtning, der hurtigt genopliver faldne raidere og gendanner noget helbred.",
-    "de": "Eine Injektion, die entkräftete Raider schnell wiederbelebt und etwas Gesundheit wiederherstellt.",
-    "en": "An injection that quickly revives downed raiders and restores some health.",
-    "es": "Una inyección que revive rápidamente a los saqueadores caídos y restaura algo de salud.",
-    "fr": "Une injection qui permet de réanimer rapidement les Raiders à terre et de leur redonner quelques points de santé.",
-    "he": "זריקה המקימה במהירות ריידרים מנוטרלים ומשיבה מעט בריאות.",
-    "hr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja dio zdravlja.",
-    "it": "Un'iniezione che riporta rapidamente in vita i predoni abbattuti e ripristina un po' di salute.",
-    "ja": "倒れたレイダーを素早く蘇生し、体力を回復する注射。",
-    "ko-KR": "쓰러진 레이더를 빠르게 소생시키고 일부 체력을 회복시키는 주사제.",
-    "no": "En injeksjon som raskt gjenoppliver nedkjempede raidere og gjenoppretter litt helse.",
-    "pl": "Zastrzyk, który szybko przywraca do życia powalonych najeźdźców i przywraca trochę zdrowia.",
-    "pt": "Uma injeção que revive rapidamente saqueadores caídos e restaura um pouco de saúde.",
-    "pt-BR": "Injeção que revive Combatentes derrubados com rapidez e recupera um pouco de vida.",
-    "ru": "Инъекция, которая быстро поднимает упавших рейдеров и восстанавливает часть здоровья.",
-    "sr": "Injekcija koja brzo oživljava oborene pljačkaše i obnavlja deo zdravlja.",
-    "tr": "Yere düşmüş akıncıları hızlıca canlandıran ve biraz sağlık kazandıran bir enjeksiyon.",
-    "uk": "Ін'єкція, яка швидко піднімає збитих рейдерів і відновлює частину здоров'я.",
-    "zh-CN": "一种注射剂，可以用于快速救援倒地的奇袭者并恢复部分生命值。",
-    "zh-TW": "能快速復甦倒地的掠奪者並恢復部分生命值的注射劑。"
+    "da": "Lader dig fremstille en defibrillator",
+    "de": "Damit stellst du einen Defibrillator her",
+    "en": "Lets you craft a Defibrillator",
+    "es": "Te permite fabricar un desfibrilador.",
+    "fr": "Vous permet de fabriquer un défibrillateur",
+    "he": "מאפשר לך ליצור דפיברילטור",
+    "hr": "Omogućuje izradu defibrilatora",
+    "it": "Ti permette di creare un defibrillatore",
+    "ja": "蘇生装置が製作可能になる",
+    "ko-KR": "제세동기 제작법입니다.",
+    "no": "Lar deg lage en hjertestarter",
+    "pl": "Pozwala wytworzyć defibrylator",
+    "pt": "Permite fabricar um Desfibrilador",
+    "pt-BR": "Permite fabricar um Desfibrilador",
+    "ru": "Позволяет создать дефибриллятор.",
+    "sr": "Omogućava izradu defibrilatora",
+    "tr": "Şok Cihazı üretmeni sağlar",
+    "uk": "Дозволяє створити дефібрилятор",
+    "zh-CN": "可以制作复苏剂",
+    "zh-TW": "可製作去顫器"
   },
   "type": "Blueprint",
   "rarity": "Common",
@@ -51,5 +51,24 @@
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/v2/defibrillator_blueprint.png",
   "updatedAt": "11/12/2025",
-  "addedIn": "base"
+  "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "adrenaline_shot": 5,
+        "syringe": 3
+      },
+      "level": 2,
+      "offerId": 915790458,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
 }

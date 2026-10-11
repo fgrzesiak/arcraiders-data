@@ -2,47 +2,47 @@
   "id": "anvil_splitter",
   "name": {
     "da": "Anvil-splitter",
-    "de": "Amboss-Spalter",
+    "de": "Anvil-Spalter",
     "en": "Anvil Splitter",
-    "es": "Divisor Yunque",
-    "fr": "Séparateur Enclume",
+    "es": "Divisor de Yunque",
+    "fr": "Enclume fendeuse",
     "he": "מפצל אנוויל",
     "hr": "Nakovanj Razdvajač",
     "it": "Spaccaincudini",
     "ja": "アンヴィル・スプリッター",
     "ko-KR": "앤빌 스플리터",
     "no": "Anvil-splitter",
-    "pl": "Rozdzielacz Anvil",
+    "pl": "Rozdzielnik Kowadła",
     "pt": "Divisor Anvil",
-    "pt-BR": "Anvil Splitter",
-    "ru": "Разделитель Наковальни",
+    "pt-BR": "Divisor Bigorna",
+    "ru": "Разделитель пуль для Наковальни",
     "sr": "Nakovanj Razdvajač",
     "tr": "Örs Bölücü",
     "uk": "Розділювач Ковадла",
-    "zh-CN": "铁砧分流器",
+    "zh-CN": "“铁砧”分流器",
     "zh-TW": "鐵砧分裂器"
   },
   "description": {
-    "da": "Teknisk modifikation til Anvil, der erstatter dens kugler med nogle, der deler sig i 4 svagere projektiler.",
-    "de": "Technische Modifikation für den Amboss, die seine Kugeln durch solche ersetzt, die sich in 4 schwächere Projektile aufteilen.",
-    "en": "Tech mod for the Anvil that replaces its bullets with ones that split into 4 weaker projectiles.",
-    "es": "Modificación técnica para el Yunque que reemplaza sus balas por otras que se dividen en 4 proyectiles más débiles.",
-    "fr": "Modification technique pour l'Enclume qui remplace ses balles par des projectiles qui se divisent en 4 projectiles plus faibles.",
-    "he": "מוד טכני עבור ה-אנוויל שמחליף את הקליעים שלו בכאלו המתפצלים ל-4 קליעים חלשים יותר.",
-    "hr": "Tehnički mod za Nakovanj koji zamjenjuje njegove metke onima koji se dijele na 4 slabija projektila.",
-    "it": "Mod tecnica per l'Incudine che scambia i suoi proiettili con altri che si dividono in 4 proiettili più deboli.",
-    "ja": "アンビルのテクニカルモッドで、弾丸を4つの弱い発射体に分裂するものに置き換えます。",
-    "ko-KR": "앤빌용 기술 모드로, 총알을 4개의 약한 발사체로 분열되는 것으로 교체합니다.",
-    "no": "Teknisk modifikasjon for Anvil som erstatter kulene med noen som deler seg i 4 svakere prosjektiler.",
-    "pl": "Modyfikacja techniczna dla Anvila, która zastępuje jego pociski takimi, które dzielą się na 4 słabsze pociski.",
-    "pt": "Modificação técnica para o Anvil que substitui suas balas por projéteis que se dividem em 4 projéteis mais fracos.",
-    "pt-BR": "Mod tecnológico para o Anvil que substitui suas balas por outras que se dividem em 4 projéteis mais fracos.",
-    "ru": "Технологическая модификация для Наковальни, которая заменяет её пули на те, что разделяются на 4 более слабых снаряда.",
-    "sr": "Tehnički mod za Nakovanj koji zamenjuje njegove metke onima koji se dele na 4 slabija projektila.",
-    "tr": "Örs için mermilerini 4 zayıf mermiye bölünen mermilerle değiştiren teknoloji modu.",
-    "uk": "Технологічна модифікація для Ковадла, яка замінює його кулі на ті, що розділяються на 4 слабших снаряди.",
-    "zh-CN": "一种适用于铁砧的科技改装，将其子弹替换为4颗威力较弱的分裂弹。",
-    "zh-TW": "鐵砧的科技模組，將其子彈替換為分裂成4個較弱彈體的子彈。"
+    "da": "Kan genbruges til fremstillingsmaterialer.",
+    "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+    "en": "Can be recycled into crafting materials.",
+    "es": "Se puede reciclar para obtener materiales de fabricación.",
+    "fr": "Peut être recyclé en matériaux d'artisanat.",
+    "he": "ניתן למחזר לחומרי יצירה.",
+    "hr": "Može se preraditi u materijale za izradu.",
+    "it": "Si può riciclare in materiali da creazione.",
+    "ja": "リサイクルすると製作用素材になる。",
+    "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+    "no": "Kan resirkuleres til håndverksmaterialer.",
+    "pl": "Można wykorzystać ponownie do wytworzenia materiałów.",
+    "pt": "Pode ser reciclado em materiais de criação.",
+    "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+    "ru": "Можно переработать, чтобы получить материалы.",
+    "sr": "Može se reciklirati u materijale za izradu.",
+    "tr": "Üretim materyallerine geri dönüştürülebilir.",
+    "uk": "Можна переробити на матеріали для виготовлення.",
+    "zh-CN": "可回收为制作材料。",
+    "zh-TW": "可回收成製作材料。"
   },
   "type": "Modification",
   "rarity": "Legendary",
@@ -99,13 +99,22 @@
     }
   },
   "recyclesInto": {
-    "mod_components": 1,
-    "processor": 1
+    "amplified_fragments": 5
   },
   "salvagesInto": {
-    "mechanical_components": 2
+    "amplified_fragments": 2
   },
   "imageFilename": "https://cdn.arctracker.io/items/v2/anvil_splitter.png",
   "updatedAt": "01/09/2026",
-  "addedIn": "base"
+  "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Misc",
+      "itemType": ["Modification.Firearm.Tech.HandCannon"]
+    }
+  },
+  "phasedOut": {
+    "lost": ["fitsNothing"],
+    "since": "1.48-CL1418508"
+  }
 }

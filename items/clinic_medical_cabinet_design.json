@@ -1,0 +1,50 @@
+{
+  "id": "clinic_medical_cabinet_design",
+  "name": {
+    "da": "Klinik Medicinskab Design",
+    "de": "Entwurf: Klinik-Medizinschrank",
+    "en": "Clinic Medical Cabinet Design",
+    "es": "Diseño del armario médico de la clínica",
+    "fr": "Design d'Armoire médicale de la clinique",
+    "he": "עיצוב ארון רפואי למרפאה",
+    "hr": "Dizajn kliničkog medicinskog ormarića",
+    "it": "Design dell'Armadietto medico della clinica",
+    "ja": "クリニックの医療キャビネットのデザイン",
+    "ko-KR": "클리닉 의료 보관함 디자인",
+    "no": "Design: Klinikk-medisinskap",
+    "pl": "Projekt szafki medycznej kliniki",
+    "pt": "Projeto de Armário Médico de Clínica",
+    "pt-BR": "Projeto do Armário Médico da Clínica",
+    "ru": "Схема медицинского шкафа клиники",
+    "sr": "Nacrt medicinskog ormarića za kliniku",
+    "tr": "Klinik Tıbbi Dolap Tasarımı",
+    "uk": "Дизайн клінічної медичної шафи",
+    "zh-CN": "诊所医疗橱柜设计图",
+    "zh-TW": "診所醫療櫥櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/clinic_medical_cabinet.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "planks": 20
+      },
+      "level": 2,
+      "offerId": 378185786,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

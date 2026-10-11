@@ -1,0 +1,50 @@
+{
+  "id": "battered_diner_chair_design",
+  "name": {
+    "da": "Slidt Spisestol Design",
+    "de": "Ramponierter Diner-Stuhl-Entwurf",
+    "en": "Battered Diner Chair Design",
+    "es": "Diseño de silla de cafetería maltrecha",
+    "fr": "Design de Chaise de diner abîmée",
+    "he": "עיצוב כיסא דיינר בלוי",
+    "hr": "Nacrt oštećene stolice iz zalogajnice",
+    "it": "Design: Sedia rovinata del diner",
+    "ja": "傷んだダイナーチェアのデザイン",
+    "ko-KR": "낡은 다이너 의자 디자인",
+    "no": "Medtatt Spisestol Design",
+    "pl": "Projekt Zniszczonego krzesła w dinerze",
+    "pt": "Projeto de Cadeira de Lanchonete Desgastada",
+    "pt-BR": "Projeto da Cadeira de Lanchonete Surrada",
+    "ru": "Схема потрепанного стула из закусочной",
+    "sr": "Dizajn Istrošene Trpezarijske Stolice",
+    "tr": "Yıpranmış Lokanta Sandalyesi Tasarımı",
+    "uk": "Дизайн пошарпаного стільця для закусочної",
+    "zh-CN": "破旧餐馆椅设计图",
+    "zh-TW": "破舊餐館椅子設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_diner_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_parts": 15
+      },
+      "level": 1,
+      "offerId": 278730180,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

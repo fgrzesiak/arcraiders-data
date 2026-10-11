@@ -1,0 +1,74 @@
+{
+  "id": "action_economy",
+  "name": {
+    "da": "Handlingsøkonomi",
+    "de": "Aktionseffizienz",
+    "en": "Action Economy",
+    "es": "Eficiencia del cerrojo",
+    "fr": "Économie d'action",
+    "he": "כלכלת פעולה",
+    "hr": "Ekonomija akcija",
+    "it": "Economia delle azioni",
+    "ja": "アクションエコノミー",
+    "ko-KR": "작동 효율",
+    "no": "Handlingsøkonomi",
+    "pl": "Oszczędność działania",
+    "pt": "Economia de Ação",
+    "pt-BR": "Economia de Ação",
+    "ru": "Оптимизация действий",
+    "sr": "Ekonomija Akcija",
+    "tr": "Aksiyon Ekonomisi",
+    "uk": "Економія дій",
+    "zh-CN": "操作效率",
+    "zh-TW": "槍機經濟"
+  },
+  "description": {
+    "da": "Hairpin spilder meget lidt bevægelse mellem skud. Den slags effektivitet bliver mere interessant, når et sigte er involveret.",
+    "de": "Die Hairpin verschwendet zwischen den Schüssen kaum Bewegung. Diese Art von Effizienz wird erst richtig interessant, wenn ein Zielfernrohr ins Spiel kommt.",
+    "en": "The Hairpin wastes very little motion between shots. That sort of efficiency gets more interesting once a scope is involved.",
+    "es": "La Horquilla aprovecha al máximo cada movimiento entre un disparo y otro. Esa eficiencia resulta todavía más interesante al añadirle una mira.",
+    "fr": "L'Épingle gaspille très peu de mouvement entre les tirs. Cette efficacité devient encore plus intéressante lorsqu'une lunette entre en jeu.",
+    "he": "ההיירפין מבזבזת מעט מאוד תנועה בין יריות. יעילות כזו הופכת למעניינת יותר כשמצורפת כוונת.",
+    "hr": "Hairpin troši vrlo malo kretanja između hitaca. Takva učinkovitost postaje zanimljivija kada se uključi optički nišan.",
+    "it": "Il Tornante spreca pochissimo movimento tra un colpo e l'altro. Questo tipo di efficienza diventa ancora più interessante quando è coinvolto un mirino ottico.",
+    "ja": "ヘアピンは、射撃の合間に無駄な動きがほとんどない。スコープを装着すれば、その効率性はさらに際立つだろう。",
+    "ko-KR": "헤어핀은 사격 사이에 불필요한 동작이 거의 없습니다. 스코프까지 더해지면 그 효율성이 더욱 돋보입니다.",
+    "no": "The Hairpin krever svært lite bevegelse mellom skuddene. Slik effektivitet blir enda mer interessant med et sikte.",
+    "pl": "Pociski wystrzeliwane z Wsuwki lecą prosto, co zapewnia tej broni wyjątkową skuteczność. A gdyby wyposażyć ją w lunetę, zrobiłoby się jeszcze ciekawiej.",
+    "pt": "Hairpin desperdiça pouquíssimo movimento entre os disparos. Essa eficiência se torna ainda mais interessante com uma mira.",
+    "pt-BR": "O Grampo de Cabelo se desloca pouquíssimo entre cada disparo. Esse tipo de eficiência se torna mais interessante se incluirmos um visor.",
+    "ru": "Заколка требует минимум лишних движений между выстрелами. Но что если добавить в это уравнение прицел?",
+    "sr": "Hairpin troši vrlo malo pokreta između hitaca. Ta vrsta efikasnosti postaje još zanimljivija kada se koristi optika.",
+    "tr": "Toka atışlar arasında çok az hareket kaybı yaşar. Bu denli bir verimlilik, işin içine dürbün girince daha da ilginç bir hâl alır.",
+    "uk": "Шпилька майже не витрачає часу між пострілами. Така ефективність стає ще цікавішою, коли долучається приціл.",
+    "zh-CN": "“发夹”的射击间隙动作极小，这种高效率要是配上瞄准镜，潜力会更大。",
+    "zh-TW": "髮夾在發射後幾乎沒有多餘的動作。一旦加上瞄準鏡，這種效率就會變得更加有趣。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/action_economy.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "sentinel_firing_core": 8
+      },
+      "level": 4,
+      "offerId": 339223720,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "action_economy"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

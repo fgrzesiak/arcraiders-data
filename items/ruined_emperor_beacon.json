@@ -1,0 +1,61 @@
+{
+  "id": "ruined_emperor_beacon",
+  "name": {
+    "da": "Ødelagt Emperor Beacon",
+    "de": "Ruiniertes Kaiser-Leuchtfeuer",
+    "en": "Ruined Emperor Beacon",
+    "es": "Baliza de emperador destrozada",
+    "fr": "Balise d'Empereur inopérante",
+    "he": "משואת קיסר הרוסה",
+    "hr": "Uništeni Emperor svjetionik",
+    "it": "Faro dell'Imperatore in rovina",
+    "ja": "壊れたエンペラービーコン",
+    "ko-KR": "파손된 엠퍼러 신호기",
+    "no": "Ødelagt Keiserfyr",
+    "pl": "Zniszczony nadajnik cesarza",
+    "pt": "Sinalizador Imperador Arruinado",
+    "pt-BR": "Baliza de Imperador Destruída",
+    "ru": "Сломанный радиомаяк «Императора»",
+    "sr": "Uništen Svetionik Imperatora",
+    "tr": "Mahvolmuş İmparator Feneri",
+    "uk": "Зруйнований Маяк Імператора",
+    "zh-CN": "损毁的“帝王”信标",
+    "zh-TW": "損毀的皇帝信標"
+  },
+  "description": {
+    "da": "Denne beacon har ikke længere strøm til at sende et signal.",
+    "de": "Dieses Leuchtfeuer hat nicht mehr genug Energie, um ein Signal zu senden.",
+    "en": "This beacon no longer has any power to send a signal.",
+    "es": "Esta baliza ya no puede mandar señales.",
+    "fr": "Cette balise n'a plus assez d'énergie pour envoyer un signal.",
+    "he": "למשואה זו אין יותר כוח לשלוח אות.",
+    "hr": "Ovaj svjetionik više nema napajanja za slanje signala.",
+    "it": "Questo faro non ha più energia sufficiente per inviare un segnale.",
+    "ja": "このビーコンには信号を送信する電力が残っていない。",
+    "ko-KR": "이 신호기는 더 이상 신호를 보낼 전력이 없습니다.",
+    "no": "Dette fyret har ikke lenger strøm til å sende et signal.",
+    "pl": "To urządzenie nie ma już zasilania i nie jest w stanie wysłać żadnego sygnału.",
+    "pt": "Este sinalizador não tem mais energia para enviar um sinal.",
+    "pt-BR": "Esta baliza não tem mais energia para enviar sinal.",
+    "ru": "Радиомаяк отключен и не может отправить сигнал.",
+    "sr": "Ovaj svetionik više nema snage da pošalje signal.",
+    "tr": "Bu işaret fenerinin sinyal gönderecek gücü kalmamış.",
+    "uk": "Цей маяк більше не має живлення для надсилання сигналу.",
+    "zh-CN": "这座信标已失去电力，无法发送信号。",
+    "zh-TW": "這個信標已經沒有電力可以發送信號了。"
+  },
+  "type": "Recyclable",
+  "rarity": "Common",
+  "value": 1000,
+  "weightKg": 0.5,
+  "stackSize": 8,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/ruined_emperor_beacon.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Recyclable",
+      "itemType": ["Misc"]
+    }
+  }
+}

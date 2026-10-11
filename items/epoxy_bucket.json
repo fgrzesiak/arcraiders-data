@@ -1,0 +1,68 @@
+{
+  "id": "epoxy_bucket",
+  "name": {
+    "da": "Epoxy-spand",
+    "de": "Epoxid-Eimer",
+    "en": "Epoxy Bucket",
+    "es": "Bote de resina",
+    "fr": "Seau d'époxy",
+    "he": "דלי אפוקסי",
+    "hr": "Epoksidna kanta",
+    "it": "Secchio di resina epossidica",
+    "ja": "エポキシ樹脂バケツ",
+    "ko-KR": "에폭시 버킷",
+    "no": "Epoksybøtte",
+    "pl": "Wiadro epoksydowe",
+    "pt": "Balde de Epóxi",
+    "pt-BR": "Balde de Epóxi",
+    "ru": "Ведро с эпоксидной смолой",
+    "sr": "Epoksidna kanta",
+    "tr": "Epoksi Kova",
+    "uk": "Відро епоксидної смоли",
+    "zh-CN": "环氧树脂桶",
+    "zh-TW": "環氧樹脂桶"
+  },
+  "description": {
+    "da": "Kan genanvendes til fremstillingsmaterialer.",
+    "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+    "en": "Can be recycled into crafting materials.",
+    "es": "Se puede reciclar para obtener materiales de fabricación.",
+    "fr": "Peut être recyclé en matériaux d'artisanat.",
+    "he": "ניתן למחזר לחומרי יצירה.",
+    "hr": "Može se reciklirati u materijale za izradu.",
+    "it": "Si può riciclare in materiali da creazione.",
+    "ja": "リサイクルすると製作用素材になる。",
+    "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+    "no": "Kan resirkuleres til håndverksmaterialer.",
+    "pl": "Można wykorzystać ponownie do wytworzenia materiałów.",
+    "pt": "Pode ser reciclado em materiais de criação.",
+    "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+    "ru": "Можно переработать, чтобы получить материалы.",
+    "sr": "Može se reciklirati u materijale za izradu.",
+    "tr": "Üretim materyallerine geri dönüştürülebilir.",
+    "uk": "Можна переробити на матеріали для виготовлення.",
+    "zh-CN": "可回收为制作材料。",
+    "zh-TW": "可回收成製作材料。"
+  },
+  "type": "Recyclable",
+  "rarity": "Rare",
+  "value": 1000,
+  "weightKg": 0.5,
+  "stackSize": 5,
+  "recyclesInto": {
+    "chemicals": 8
+  },
+  "salvagesInto": {
+    "chemicals": 4
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/epoxy_bucket.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Recyclable",
+      "dropType": ["Salvage.Recyclables"],
+      "itemType": ["Misc"]
+    }
+  }
+}

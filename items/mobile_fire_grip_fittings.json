@@ -1,0 +1,74 @@
+{
+  "id": "mobile_fire_grip_fittings",
+  "name": {
+    "da": "Grebsbeslag til mobil affyring",
+    "de": "Mobilfeuer-Griffbeschläge",
+    "en": "Mobile-Fire Grip Fittings",
+    "es": "Accesorios de empuñadura ágiles",
+    "fr": "Poignée pour tir en mouvement",
+    "he": "אביזרי אחיזה לירי נייד",
+    "hr": "Nastavci drška za mobilnu paljbu",
+    "it": "Accessori impugnatura fuoco in movimento",
+    "ja": "モバイル射撃グリップフィッティング",
+    "ko-KR": "이동 사격용 그립 부속품",
+    "no": "Grepsfester for mobilskyting",
+    "pl": "Uchwyty zwiększające mobilność",
+    "pt": "Empunhaduras para Disparo Móvel",
+    "pt-BR": "Encaixe de Disparo Móvel",
+    "ru": "Приспособление для стрельбы на бегу",
+    "sr": "Poboljšanja rukohvata za mobilno pucanje",
+    "tr": "Hareketli Ateş Kabza Aparatları",
+    "uk": "Кріплення для мобільної стрільби",
+    "zh-CN": "移动射击握把配件",
+    "zh-TW": "機動射擊握把配件"
+  },
+  "description": {
+    "da": "Hurtig bevægelse er nyttigt, lige indtil et våben skal tages i brug. Et våben, der kan følge med tempoet, ville være nyttigt.",
+    "de": "Schnelles Bewegen ist nützlich – bis zu dem Punkt, an dem eine Waffe zum Einsatz kommen muss. Eine Waffe, die mit dem Tempo mithalten kann, wäre da hilfreich.",
+    "en": "Fast movement is useful right up until a weapon needs to come into play. A weapon that keeps up with the pace would be useful.",
+    "es": "Moverse rápidamente resulta muy útil hasta que debes empuñar el arma. Un arma que permita mantener ese ritmo sería tremendamente práctica.",
+    "fr": "Les déplacements rapides sont utiles... jusqu'au moment où il faut dégainer son arme. Une arme capable de suivre le rythme serait appréciable.",
+    "he": "תנועה מהירה שימושית עד שהנשק נכנס לפעולה. נשק שיעמוד בקצב יהיה שימושי.",
+    "hr": "Brzo kretanje je korisno sve dok se ne treba upotrijebiti oružje. Oružje koje prati tempo bilo bi korisno.",
+    "it": "La rapidità di movimento è utile fino a quando non è necessario usare un'arma. Un'arma in grado di tenere il passo sarebbe utile.",
+    "ja": "武器を取り出す直前までは、素早い移動力が物を言う。その速さについていける武器があれば便利だろう。",
+    "ko-KR": "빠르게 움직여도 무기를 꺼내는 순간에는 흐름이 끊깁니다. 그 속도를 따라갈 수 있는 무기라면 유용하겠죠.",
+    "no": "Rask bevegelse er nyttig helt til et våpen må tas i bruk. Et våpen som holder tritt med tempoet ville vært nyttig.",
+    "pl": "Szybkość przydaje się do momentu, w którym trzeba wyciągnąć broń. W takich sytuacjach sprawdziłaby się broń, która nadąża za swoim właścicielem.",
+    "pt": "O movimento rápido é útil até que uma arma precise entrar em jogo. Uma arma que acompanhe o ritmo seria valiosa.",
+    "pt-BR": "Movimentar-se com rapidez é útil até o momento em que uma arma precisa ser usada. Uma arma que se mantém no seu ritmo deve ajudar.",
+    "ru": "Быстро бежать здорово только до тех пор, пока не понадобится стрелять. Было бы неплохо иметь оружие, с которым бы не пришлось замедляться.",
+    "sr": "Brzo kretanje je korisno sve dok oružje ne stupi u akciju. Oružje koje održava korak sa tim tempom bilo bi korisno.",
+    "tr": "Hızlı hareket etmek silahlar konuşmaya başlayana dek faydalıdır. Hıza ayak uyduran silahlar kullanışlı olur.",
+    "uk": "Швидке пересування корисне до моменту, коли знадобиться зброя. Було б корисною зброя, що не відстає від темпу.",
+    "zh-CN": "高速移动很实用，但拔枪射击时就麻烦了。要是有一把能跟上快节奏移动的武器就好了。",
+    "zh-TW": "快速移動相當有用，但要是得使用武器就不方便了。要是有武器能跟上節奏，一定很有用。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/mobile_fire_grip_fittings.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "skulker_driver": 20
+      },
+      "level": 4,
+      "offerId": 905091716,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "sprint_shooting"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

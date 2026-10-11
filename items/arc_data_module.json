@@ -1,0 +1,70 @@
+{
+  "id": "arc_data_module",
+  "name": {
+    "da": "ARC Datamodul",
+    "de": "ARC-Datenmodul",
+    "en": "ARC Data Module",
+    "es": "Módulo de datos ARC",
+    "fr": "Module de données ARC",
+    "he": "מודול נתוני ARC",
+    "hr": "ARC podatkovni modul",
+    "it": "Modulo dati ARC",
+    "ja": "ARCデータモジュール",
+    "ko-KR": "아크 데이터 모듈",
+    "no": "ARC Datamodul",
+    "pl": "Moduł danych ARC",
+    "pt": "Módulo de Dados ARC",
+    "pt-BR": "Módulo de Dados ARC",
+    "ru": "Модуль данных ARC",
+    "sr": "ARC Data Modul",
+    "tr": "ARC Veri Modülü",
+    "uk": "Модуль даних ARC",
+    "zh-CN": "ARC数据模块",
+    "zh-TW": "ARC資料模組"
+  },
+  "description": {
+    "da": "Et sekundært datamodul fundet i en række ARC-maskiner.",
+    "de": "Ein sekundäres Datenmodul, das in einer Reihe von ARC-Maschinen zu finden ist.",
+    "en": "A secondary data module found in a range of ARC machines.",
+    "es": "Un módulo de datos secundario hallado en distintas máquinas ARC.",
+    "fr": "Un module de données secondaire présent dans diverses machines ARC.",
+    "he": "מודול נתונים משני שנמצא במגוון מכונות ARC.",
+    "hr": "Sekundarni podatkovni modul pronađen u raznim ARC strojevima.",
+    "it": "Un modulo dati secondario presente in una serie di macchine ARC.",
+    "ja": "さまざまなARCマシンに搭載されている二次的なデータモジュール。",
+    "ko-KR": "여러 아크 머신에서 발견되는 보조 데이터 모듈입니다.",
+    "no": "En sekundær datamodul funnet i en rekke ARC-maskiner.",
+    "pl": "Dodatkowy moduł danych występujący w wielu różnych maszynach ARC.",
+    "pt": "Um módulo de dados secundário encontrado em diversas máquinas ARC.",
+    "pt-BR": "Um módulo de dados secundário encontrado em diversas máquinas ARC.",
+    "ru": "Вторичный модуль данных, встречающийся в разных машинах ARC.",
+    "sr": "Sekundarni data modul pronađen u raznim ARC mašinama.",
+    "tr": "Bir dizi ARC makinesinde bulunan ikincil veri modülü.",
+    "uk": "Вторинний модуль даних, знайдений у різноманітних машинах ARC.",
+    "zh-CN": "在各类ARC机械中发现的次级数据模块。",
+    "zh-TW": "多種ARC機器中發現的次級資料模組。"
+  },
+  "type": "Misc",
+  "rarity": "Epic",
+  "value": 2000,
+  "weightKg": 0.5,
+  "stackSize": 3,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/arc_data_module.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.StudyItem",
+      "dropType": ["Salvage.Material.Epic"],
+      "itemType": ["Misc"],
+      "theme": ["ARC"]
+    }
+  },
+  "researchPoints": [
+    {
+      "level": 1,
+      "points": 200,
+      "station": "research_station"
+    }
+  ]
+}

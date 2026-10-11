@@ -1,0 +1,74 @@
+{
+  "id": "shield_stress_testing",
+  "name": {
+    "da": "Skjold-stresstest",
+    "de": "Belastungstest für Schilde",
+    "en": "Shield Stress Testing",
+    "es": "Pruebas de resistencia de los escudos",
+    "fr": "Test de résistance des boucliers",
+    "he": "בדיקת עמידות מגן",
+    "hr": "Stres testiranje štita",
+    "it": "Test di resistenza dello scudo",
+    "ja": "シールド耐久テスト",
+    "ko-KR": "실드 부하 시험",
+    "no": "Skjoldstresstesting",
+    "pl": "Testowanie obciążenia osłony",
+    "pt": "Teste de Estresse de Escudo",
+    "pt-BR": "Teste de Tensão de Escudo",
+    "ru": "Стресс-тест щитов",
+    "sr": "Testiranje izdržljivosti štita",
+    "tr": "Kalkan Basınç Testi",
+    "uk": "Стрес-тестування щита",
+    "zh-CN": "护盾应力测试",
+    "zh-TW": "護盾壓力測試"
+  },
+  "description": {
+    "da": "Vedvarende skade kunne afsløre præcis, hvad der får et skjold til at svigte—og hvordan man får det til at ske hurtigere. For videnskabens skyld, naturligvis.",
+    "de": "Anhaltende Schäden könnten genau aufzeigen, was dazu führt, dass ein Schild versagt – und wie man das schneller herbeiführen kann. Natürlich nur zu wissenschaftlichen Zwecken.",
+    "en": "Sustained damage could reveal exactly what makes a shield give out—and how to make that happen faster. For science, naturally.",
+    "es": "Infligir daño de forma prolongada podría ayudarnos a descubrir qué es lo que hace que un escudo se rompa, y cómo hacerlo más rápido. En nombre de la ciencia, claro está.",
+    "fr": "Des dégâts soutenus pourraient révéler ce qui fait céder un bouclier, et comment accélérer ce processus. Pour la science, naturellement.",
+    "he": "נזק מתמשך יכול לחשוף מה בדיוק גורם למגן לקרוס—וכיצד לגרום לכך לקרות מהר יותר. למען המדע, כמובן.",
+    "hr": "Dugotrajno oštećenje moglo bi otkriti točno što uzrokuje otkazivanje štita – i kako to ubrzati. Naravno, radi znanosti.",
+    "it": "Un danno prolungato potrebbe rivelare esattamente cosa porta uno scudo a cedere... e come accelerare il processo. Per la scienza, naturalmente.",
+    "ja": "継続的なダメージを与えることで、シールド故障の原因、そしてその状態をより早く引き起こす方法が明らかになるかもしれない。これはもちろん科学のためだ。",
+    "ko-KR": "지속적으로 대미지를 주다 보면 실드가 정확히 무엇 때문에 무너지는지, 그리고 어떻게 하면 더 빨리 무너뜨릴 수 있는지 알아낼 수 있을 겁니다. 물론 과학을 위해서죠.",
+    "no": "Vedvarende skade kan avsløre nøyaktig hva som får et skjold til å svikte—og hvordan man får det til å skje raskere. For vitenskapens skyld, naturligvis.",
+    "pl": "Długotrwałe obrażenia mogą ujawnić, co odpowiada za wyczerpywanie się osłony – i pomóc ustalić, jak doprowadzić do tego szybciej. Oczywiście w imię nauki.",
+    "pt": "Dano sustentado pode revelar exatamente o que faz um escudo ceder — e como fazer isso acontecer mais rápido. Pela ciência, é claro.",
+    "pt-BR": "Causar dano contínuo pode revelar exatamente o que destrói um escudo, e como fazer isso mais rapidamente. Naturalmente, em nome da ciência.",
+    "ru": "Продолжительное нанесение урона по щиту помогло бы определить, из-за чего именно он ломается и как этот процесс ускорить. Чисто из научных интересов.",
+    "sr": "Kontinuirana šteta mogla bi otkriti šta tačno uzrokuje otkazivanje štita — i kako to ubrzati. Naravno, u svrhu nauke.",
+    "tr": "Sürekli hasar, bir kalkanın ne zaman dağılacağını ve bunun nasıl daha hızlı gerçekleşeceğini tam olarak ortaya çıkarabilir. Bilim adına elbette.",
+    "uk": "Тривале пошкодження може виявити, чому саме щит виходить з ладу — і як прискорити цей процес. Звісно, заради науки.",
+    "zh-CN": "持续伤害能帮我们摸清护盾失效的原理，以及如何加速这一过程。当然，都是为了科学。",
+    "zh-TW": "持續傷害可以準確揭露什麼會使護盾失效，以及如何使其更快失效。當然，這是為了科學。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/shield_stress_testing.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "matriarch_reactor": 2
+      },
+      "level": 4,
+      "offerId": 610821273,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "shield_stress_testing"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

@@ -8669,15 +8669,10 @@
     "weightKg": 0.2,
     "stackSize": 5,
     "blueprintLocked": true,
-    "craftBench": [
-      "med_station",
-      "in_raid"
-    ],
+    "craftBench": ["med_station", "in_raid"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_3r"
-      ]
+      "in_raid": ["surv_3r"]
     },
     "recipe": {
       "fabric": 10,

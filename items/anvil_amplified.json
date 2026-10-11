@@ -1,0 +1,287 @@
+{
+  "id": "anvil_amplified",
+  "name": {
+    "da": "Forstærket Ambolt",
+    "de": "Verstärkte Anvil",
+    "en": "Amplified Anvil",
+    "es": "Yunque amplificado",
+    "fr": "Enclume amplifiée",
+    "he": "סדן מוגבר",
+    "hr": "Pojačani nakovanj",
+    "it": "Incudine amplificata",
+    "ja": "強化版アンヴィル",
+    "ko-KR": "증폭된 앤빌",
+    "no": "Forsterket ambolt",
+    "pl": "Wzmocnione Kowadło",
+    "pt": "Anvil Amplificada",
+    "pt-BR": "Bigorna Amplificada",
+    "ru": "Усовершенствованная Наковальня",
+    "sr": "Pojačani nakovanj",
+    "tr": "Güçlendirilmiş Örs",
+    "uk": "Ампліфіковане Ковадло",
+    "zh-CN": "增强型“铁砧”",
+    "zh-TW": "增幅鐵砧"
+  },
+  "description": {
+    "da": "En forstærket variant af Ambolten.",
+    "de": "Eine verstärkte Variante der Anvil.",
+    "en": "An amplified variant of the Anvil.",
+    "es": "Una variante amplificada del Yunque.",
+    "fr": "Une variante amplifiée de l'Enclume.",
+    "he": "גרסה מוגברת של הסדן.",
+    "hr": "Pojačana varijanta Nakovnja.",
+    "it": "Una variante amplificata dell'Incudine.",
+    "ja": "アンヴィルの強化版。",
+    "ko-KR": "증폭된 앤빌입니다.",
+    "no": "En forsterket variant av Ambolten.",
+    "pl": "Wzmocniony wariant Kowadła.",
+    "pt": "Uma variante amplificada da Anvil.",
+    "pt-BR": "Uma variante amplificada de Bigorna.",
+    "ru": "Усовершенствованная версия Наковальни.",
+    "sr": "Pojačana varijanta nakovnja.",
+    "tr": "Örs'ün güçlendirilmiş bir çeşidi.",
+    "uk": "Ампліфікований варіант Ковадла.",
+    "zh-CN": "“铁砧”的增强型变体。",
+    "zh-TW": "鐵砧的增幅版。"
+  },
+  "type": "Hand Cannon",
+  "rarity": "Legendary",
+  "value": 20800,
+  "weightKg": 5,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Heavy Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Strong",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2.5x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Single-Action",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Increased Fire Rate": {
+      "value": "75%",
+      "da": "Øget skudhastighed",
+      "de": "Erhöhte Feuerrate",
+      "en": "Increased Fire Rate",
+      "es": "Aumento de la cadencia de fuego",
+      "fr": "Cadence de tir augmentée",
+      "he": "קצב אש מוגבר",
+      "hr": "Povećana brzina paljbe",
+      "it": "Cadenza di fuoco aumentata",
+      "ja": "連射速度上昇",
+      "ko-KR": "발사 속도 증가",
+      "no": "Økt skuddtakt",
+      "pl": "Zwiększona szybkostrzelność",
+      "pt": "Taxa de disparo aumentada",
+      "pt-BR": "Cadência de Tiro Aumentada",
+      "ru": "Повышенная скорострельность",
+      "sr": "Povećana brzina paljbe",
+      "tr": "Artırılmış atış hızı",
+      "uk": "Підвищена швидкість стрільби",
+      "zh-CN": "射速增加",
+      "zh-TW": "提高射速"
+    },
+    "Reduced Dispersion Recovery Time": {
+      "value": "18.75%",
+      "da": "Reduceret genopretningstid for spredning",
+      "de": "Verringerte Streuungs-Erholungszeit",
+      "en": "Reduced Dispersion Recovery Time",
+      "es": "Tiempo de recuperación de dispersión reducido",
+      "fr": "Temps de récupération de dispersion réduit",
+      "he": "זמן התאוששות מפיזור מופחת",
+      "hr": "Smanjeno vrijeme oporavka raspršenja",
+      "it": "Tempo di recupero della dispersione ridotto",
+      "ja": "拡散回復時間短縮",
+      "ko-KR": "분산 회복 시간 감소",
+      "no": "Redusert gjenopprettingstid for spredning",
+      "pl": "Skrócony czas powrotu rozrzutu",
+      "pt": "Tempo de recuperação de dispersão reduzido",
+      "pt-BR": "Redução no Tempo de Recuperação da Dispersão",
+      "ru": "Сокращённое время восстановления разброса",
+      "sr": "Smanjeno vreme oporavka raspršenja",
+      "tr": "Azaltılmış saçılma toparlanma süresi",
+      "uk": "Скорочений час відновлення розсіювання",
+      "zh-CN": "散布恢复时间缩短",
+      "zh-TW": "降低散射恢復時間"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 7
+  },
+  "salvagesInto": {
+    "amplified_fragments": 5
+  },
+  "upgradeCost": {
+    "amplification_module_mk_iii": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/anvil_amplified.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.HandCannon",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.HeavyAmmoWeapon",
+        "Items.SpecificWeapon.Anvil"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "heavy_ammo",
+      "arc": {
+        "armorMultiplier": 1.5,
+        "propagationMultiplier": 1
+      },
+      "base": {
+        "adsTimeSec": 0.4,
+        "burnRate": 0.005333,
+        "burstSize": 1,
+        "clipSize": 6,
+        "firePower": 50000,
+        "fireRate": 50,
+        "looping": {
+          "entrySec": 0.8,
+          "exitSec": 0.55,
+          "loopSec": 0.7
+        },
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 40,
+        "reloadTimeSec": 2.5
+      },
+      "equipTimeSec": 0.65,
+      "headshotMultiplier": 2.5,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.4
+    }
+  },
+  "modSlots": {
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 13
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "turbine_compressor": 3
+      },
+      "to": "anvil_amplified_projectile_splitter"
+    },
+    {
+      "cost": {
+        "fossilized_lightning": 3
+      },
+      "requires": [
+        {
+          "itemId": "embedded_blast_engineering"
+        }
+      ],
+      "to": "anvil_amplified_x_rounds"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sturdy_lab_cabinet_design",
+  "name": {
+    "da": "Robust Labskab Design",
+    "de": "Entwurf: Robuster Laborschrank",
+    "en": "Sturdy Lab Cabinet Design",
+    "es": "Diseño de armario de laboratorio robusto",
+    "fr": "Design d'Armoire de laboratoire robuste",
+    "he": "עיצוב ארון מעבדה מחוזק",
+    "hr": "Nacrt čvrstog laboratorijskog ormarića",
+    "it": "Design Armadietto da laboratorio resistente",
+    "ja": "頑丈なラボキャビネットのデザイン",
+    "ko-KR": "견고한 연구소 캐비닛 디자인",
+    "no": "Solid Laboratorieskap-design",
+    "pl": "Projekt Solidnej szafki laboratoryjnej",
+    "pt": "Projeto de Armário de Laboratório Robusto",
+    "pt-BR": "Projeto do Armário de Laboratório Resistente",
+    "ru": "Схема: Крепкий лабораторный шкаф",
+    "sr": "Robusan dizajn laboratorijskog ormarića",
+    "tr": "Sağlam Laboratuvar Dolabı Tasarımı",
+    "uk": "Креслення міцної лабораторної шафи",
+    "zh-CN": "坚固实验室橱柜设计图",
+    "zh-TW": "穩固實驗櫥櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/sturdy_lab_cabinet.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_brackets": 2
+      },
+      "level": 1,
+      "offerId": 216843269,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

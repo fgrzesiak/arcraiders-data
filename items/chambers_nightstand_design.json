@@ -1,0 +1,50 @@
+{
+  "id": "chambers_nightstand_design",
+  "name": {
+    "da": "Chambers Nattebord Design",
+    "de": "Kammer-Nachttisch-Entwurf",
+    "en": "Chambers Nightstand Design",
+    "es": "Diseño de mesita de noche Chambers",
+    "fr": "Design de Chevet de chambre",
+    "he": "עיצוב שידת לילה Chambers",
+    "hr": "Dizajn Chambers noćnog ormarića",
+    "it": "Design del Comodino delle camere",
+    "ja": "チェンバーズのベッドサイドテーブルのデザイン",
+    "ko-KR": "챔버스 협탁 디자인",
+    "no": "Design: Kammer-nattbord",
+    "pl": "Projekt szafki nocnej komory",
+    "pt": "Projeto de Mesa de Cabeceira Chambers",
+    "pt-BR": "Projeto do Criado-mudo Chambers",
+    "ru": "Схема прикроватной тумбочки в Камерах",
+    "sr": "Nacrt noćnog stočića 'Chambers'",
+    "tr": "Chambers Komodin Tasarımı",
+    "uk": "Дизайн камерної тумбочки",
+    "zh-CN": "商会床头柜设计图",
+    "zh-TW": "商會床頭櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/chambers_nightstand.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "radial_press": 1
+      },
+      "level": 3,
+      "offerId": 729702992,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

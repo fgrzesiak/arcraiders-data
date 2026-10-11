@@ -1,0 +1,45 @@
+{
+  "id": "battered_aviary_table",
+  "name": {
+    "da": "Slidt volierebord",
+    "de": "Ramponierter Volierentisch",
+    "en": "Battered Aviary Table",
+    "es": "Mesa maltrecha del aviario",
+    "fr": "Table de volière abîmée",
+    "he": "שולחן מרופט לציפורייה",
+    "hr": "Oštećeni volijerni stol",
+    "it": "Tavolo della voliera rovinato",
+    "ja": "傷んだ鳥舎のテーブル",
+    "ko-KR": "낡은 새장 테이블",
+    "no": "Slitt volierebord",
+    "pl": "Zniszczony stół z ptaszarni",
+    "pt": "Mesa de Viveiro Surrada",
+    "pt-BR": "Mesa do Aviário Surrada",
+    "ru": "Потрепанный стол вольера",
+    "sr": "Oštećeni sto za volijeru",
+    "tr": "Yıpranmış Kuşhane Masası",
+    "uk": "Пошарпаний авіарний стіл",
+    "zh-CN": "破旧鸟舍台",
+    "zh-TW": "破舊鳥舍桌"
+  },
+  "type": "Outpost Furniture",
+  "rarity": "Rare",
+  "stackSize": 1,
+  "recyclesInto": {
+    "planks": 20
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_aviary_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "research": [
+    {
+      "cost": {
+        "laser_level": 1
+      },
+      "level": 3,
+      "offerId": 588091757,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

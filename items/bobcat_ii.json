@@ -1,48 +1,48 @@
 {
   "id": "bobcat_ii",
   "name": {
-    "da": "Bobcat II",
+    "da": "Rødlos II",
     "de": "Bobcat II",
     "en": "Bobcat II",
-    "es": "Bobcat II",
-    "fr": "Bobcat II",
+    "es": "Lince II",
+    "fr": "Lynx II",
     "he": "בובקאט II",
-    "hr": "Bobcat II",
+    "hr": "Ris II",
     "it": "Lince II",
     "ja": "ボブキャット II",
     "ko-KR": "밥캣 II",
-    "no": "Bobcat II",
-    "pl": "Bobcat II",
-    "pt": "Bobcat II",
+    "no": "Gaupe II",
+    "pl": "Ryś II",
+    "pt": "Lince II",
     "pt-BR": "Lince II",
-    "ru": "Бобкэт II",
-    "sr": "Bobcat II",
+    "ru": "Рысь II",
+    "sr": "Ris II",
     "tr": "Vaşak II",
     "uk": "Бобкет II",
     "zh-CN": "山猫 II",
-    "zh-TW": "山貓 II"
+    "zh-TW": "山貓II"
   },
   "description": {
-    "da": "Fuldautomatisk SMG med høj skudhastighed men lav præcision.",
-    "de": "Hat eine hohe Feuerrate, aber eine niedrige Genauigkeit.",
-    "en": "Fully automatic SMG with high fire rate but low accuracy.",
-    "es": "SMG totalmente automático con alta cadencia de fuego pero baja precisión.",
-    "fr": "SMG entièrement automatique avec une cadence de tir élevée mais une faible précision.",
-    "he": "תת-מקלע אוטומטי מלא עם קצב אש גבוה אך דיוק נמוך.",
-    "hr": "Potpuno automatski SMG s visokom brzinom paljbe ali niskom preciznošću.",
-    "it": "Ha un'alta cadenza di fuoco ma bassa precisione.",
-    "ja": "高い発射速度だが精度の低い全自動SMG。",
-    "ko-KR": "높은 연사력을 가지지만 정확도가 낮은 완전 자동 SMG.",
-    "no": "Helautomatisk SMG med høy skuddfrekvens men lav nøyaktighet.",
-    "pl": "W pełni automatyczny pistolet maszynowy o wysokiej szybkostrzelności, ale niskiej celności.",
-    "pt": "SMG totalmente automática com alta taxa de disparo mas baixa precisão.",
-    "pt-BR": "SMG totalmente automática com alta cadência de tiro, mas baixa precisão.",
-    "ru": "Полностью автоматический ПП с высокой скорострельностью, но низкой точностью.",
-    "sr": "Potpuno automatski SMG sa visokom brzinom paljbe ali niskom preciznošću.",
-    "tr": "Yüksek atış hızına sahip ancak düşük isabetli tam otomatik SMG.",
-    "uk": "Повністю автоматичний ПП з високою швидкострільністю, але низькою точністю.",
-    "zh-CN": "全自动SMG，射速高但精准度低。",
-    "zh-TW": "全自動SMG，射速高但精準度低。"
+    "da": "Fuldautomatisk maskinpistol med høj skudhastighed, men lav præcision.",
+    "de": "Vollautomatische Maschinenpistole mit hoher Feuerrate und niedriger Genauigkeit.",
+    "en": "Fully automatic submachine gun with high fire rate but low accuracy.",
+    "es": "Subfusil automático con una gran cadencia de disparo, pero poco preciso.",
+    "fr": "Mitraillette automatique à cadence de tir élevée, mais de faible précision.",
+    "he": "תת-מקלע אוטומטי לחלוטין בעל קצב אש גבוה אך דיוק נמוך.",
+    "hr": "Potpuno automatska kratka strojnica s visokom brzinom paljbe, ali niskom preciznošću.",
+    "it": "Mitragliatrice completamente automatica con elevata cadenza di fuoco ma precisione ridotta.",
+    "ja": "フルオートのサブマシンガン。発射速度は速いが精度は低い。",
+    "ko-KR": "발사 속도는 빠르지만 정확도가 낮은 전자동 기관단총입니다.",
+    "no": "Helautomatisk maskinpistol med høy skuddhastighet, men lav presisjon.",
+    "pl": "Samoczynny pistolet maszynowy o dużej szybkostrzelności, ale małej celności.",
+    "pt": "Submetralhadora totalmente automática com alta cadência de tiro, mas baixa precisão.",
+    "pt-BR": "Submetralhadora automática com alta cadência de tiro e baixa precisão.",
+    "ru": "Полностью автоматический пистолет-пулемет с высокой скоростью стрельбы, но низкой точностью.",
+    "sr": "Potpuno automatski automat sa visokom brzinom paljbe, ali slabom preciznošću.",
+    "tr": "Yüksek atışı hızı ancak düşük isabet oranına sahip tam otomatik makineli tabanca.",
+    "uk": "Повністю автоматичний пістолет-кулемет із високою скорострільністю, але низькою точністю.",
+    "zh-CN": "全自动射击的冲锋枪，射速极快但精准度低。",
+    "zh-TW": "全自動衝鋒槍，射速高，但精準度較低。"
   },
   "type": "SMG",
   "rarity": "Epic",
@@ -120,6 +120,29 @@
       "zh-CN": "ARC 护甲穿透",
       "zh-TW": "ARC 護甲穿透"
     },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
     "Damage": {
       "value": 6,
       "da": "Skade",
@@ -142,6 +165,29 @@
       "uk": "Шкода",
       "zh-CN": "伤害",
       "zh-TW": "傷害"
+    },
+    "Damage Falloff Range": {
+      "value": "130-150 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "110/110",
@@ -389,6 +435,204 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/bobcat_ii.png",
   "updatedAt": "03/17/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.SMG",
+      "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": ["Items.AllWeapons", "Items.LightAmmoWeapon"]
+    },
+    "weapon": {
+      "ammoItem": "light_ammo",
+      "arc": {
+        "armorMultiplier": 0.2,
+        "propagationMultiplier": 0.1
+      },
+      "base": {
+        "adsTimeSec": 0.4,
+        "burnRate": 0.000671,
+        "burstSize": 1,
+        "clipSize": 20,
+        "firePower": 50000,
+        "fireRate": 1000,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 6,
+        "reloadTimeSec": 3
+      },
+      "damageFalloff": [
+        [0, 1.2],
+        [5, 1.2],
+        [15, 1.001],
+        [130, 1.001],
+        [150, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 1.2,
+        "adsRecoveryMultiplier": 0.7,
+        "adsScale": 0.6,
+        "fireGain": [
+          [0, 0.04, -0.0009838603, 0, "cubic"],
+          [2, 0.04, 0, 0, "linear"],
+          [6, 0.7, 0, 0, "linear"],
+          [30, 0.7, 0, 0.00034750637, "cubic"]
+        ],
+        "fireMax": 2.5,
+        "linearRecovery": true,
+        "max": 8,
+        "min": 0.3,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 1.2,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.6,
+            "adsScale": 0.4,
+            "dispersion": 0.7,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 1.2,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.6,
+            "adsScale": 0.4,
+            "dispersion": 0.7,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.7,
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.7,
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 1.2,
+            "adsFireDispersionMultiplier": 0.85,
+            "adsRecoveryMultiplier": 0.7,
+            "adsScale": 0.5,
+            "dispersion": 0.7,
+            "overrideAdsDispersion": true,
+            "recoverySpeed": 3,
+            "unset": ["fireDispersionMultiplier", "overrideRecoverySpeed"]
+          },
+          "standMoving": {
+            "adsDuration": 1.2,
+            "adsFireDispersionMultiplier": 0.85,
+            "adsRecoveryMultiplier": 0.7,
+            "adsScale": 0.5,
+            "dispersion": 0.7,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.7,
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.1,
+        "popRecoverySpeed": 0.05,
+        "recoverySpeed": 3.2,
+        "velocity": 0.9,
+        "velocityMax": 1.5,
+        "velocityRecovery": 10
+      },
+      "equipTimeSec": 0.65,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "default",
+      "modifiers": {
+        "durabilityBurnRate": -0.1,
+        "fireDispersionGain": 1,
+        "fireDispersionMax": 0,
+        "horizontalRecoil": 0.15,
+        "reloadTime": 0
+      },
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.85,
+        "lerpSpeed": 0.25,
+        "pitch": [
+          [0, 0, 0.13754433, 0.13754411, "cubic"],
+          [4.0531116, 1.5, 0.28929195, 0.28929317, "cubic"],
+          [16, 5, 0.041509077, 0.04150799, "cubic"]
+        ],
+        "pitchProceduralRange": [0.1, 0.3],
+        "sampleCount": 26,
+        "unset": [
+          "yawProceduralRange",
+          "proceduralSwingSpeed",
+          "recoverySpeed",
+          "recoveryDelay"
+        ],
+        "yaw": [
+          [0, 0, 0.04709477, 0, "cubic"],
+          [1.8440523, 0.12, -0.045361497, -0.045361497, "cubic"],
+          [3.9995422, -0.18142523, 0.0071600773, 0.0071600773, "cubic"],
+          [6.0339556, 0.15, -0.012616654, -0.012616654, "cubic"],
+          [7.962557, -0.23142523, 0.076549694, 0.076549694, "cubic"],
+          [9.952978, 0.45, 0.0818167, 0.0818167, "cubic"],
+          [12.013383, 0.1, -0.01256304, -0.01256304, "cubic"],
+          [13.932905, 0.4, -0.07199368, -0.07199368, "cubic"],
+          [15.92241, -0.18142523, -0.09941508, -0.09941508, "cubic"],
+          [17.95644, 0, -0.03768913, -0.03768913, "cubic"],
+          [19.902338, -0.33142525, 0.041290592, 0.041290592, "cubic"],
+          [21.91037, 0.1632601, 0.04362676, 0.04362676, "cubic"],
+          [23.952705, -0.15472083, 0.009474266, 0.009474266, "cubic"],
+          [25.943127, 0.20146751, 0, 0.16320054, "cubic"]
+        ]
+      },
+      "tier": 2,
+      "unequipTimeSec": 0.5
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -432,5 +676,14 @@
     "light_gun_parts": 3
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 2,
+        "light_gun_parts": 3
+      },
+      "to": "bobcat_iii"
+    }
+  ],
   "upgradesTo": "bobcat_iii"
 }

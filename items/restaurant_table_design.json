@@ -1,0 +1,50 @@
+{
+  "id": "restaurant_table_design",
+  "name": {
+    "da": "Restaurantbord-design",
+    "de": "Restaurant-Tisch-Entwurf",
+    "en": "Restaurant Table Design",
+    "es": "Diseño de mesa de restaurante",
+    "fr": "Design de table de restaurant",
+    "he": "עיצוב שולחן מסעדה",
+    "hr": "Nacrt restoranskog stola",
+    "it": "Design del Tavolo del ristorante",
+    "ja": "レストランテーブルデザイン",
+    "ko-KR": "레스토랑 테이블 디자인",
+    "no": "Restaurantbord-design",
+    "pl": "Projekt stołu restauracyjnego",
+    "pt": "Design de Mesa de Restaurante",
+    "pt-BR": "Projeto de Mesa de Restaurante",
+    "ru": "Схема ресторанного стола",
+    "sr": "Dizajn restoranskog stola",
+    "tr": "Restoran Masası Tasarımı",
+    "uk": "Дизайн ресторанного столу",
+    "zh-CN": "餐厅餐桌设计图",
+    "zh-TW": "餐廳餐桌設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/restaurant_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "laser_level": 1
+      },
+      "level": 3,
+      "offerId": 585818752,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

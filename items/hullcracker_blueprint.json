@@ -4,45 +4,45 @@
     "da": "Hullcracker Blåtryk",
     "de": "Bauplan: Hüllenbrecher",
     "en": "Hullcracker Blueprint",
-    "es": "Planos de Partecascos",
+    "es": "Proyecto del Partecascos",
     "fr": "Schéma de Brise-fuselage",
     "he": "שרטוט Hullcracker",
     "hr": "Nacrt Hullcrackera",
     "it": "Progetto Spaccascudi",
-    "ja": "ハルクラッカー設計図",
+    "ja": "ハルクラッカーの設計図",
     "ko-KR": "헐크래커 설계도",
     "no": "Hullcracker-Blåkopi",
-    "pl": "Plan Hullcrackera",
+    "pl": "Plan: Rozłupywacz",
     "pt": "Plano de Hullcracker",
-    "pt-BR": "Diagrama da Quebra-Casco",
-    "ru": "Чертёж Hullcracker",
-    "sr": "Нацрт Хулкракера",
+    "pt-BR": "Esquema de Quebra-Casco",
+    "ru": "Чертеж — Бронелом",
+    "sr": "Nacrt Hulkrakera",
     "tr": "Kabukkıran Taslağı",
     "uk": "Креслення Hullcracker",
     "zh-CN": "裂甲者蓝图",
-    "zh-TW": "碎艦者藍圖"
+    "zh-TW": "碎甲者藍圖"
   },
   "description": {
-    "da": "Anti-ARC ladninger brugt primært af Hullcracker.",
-    "de": "Schießt explosive Geschosse ab, die erst explodieren, wenn sie ARC treffen.",
-    "en": "Anti-ARC payloads used mainly by the Hullcracker.",
-    "es": "Cargas anti-ARC utilizadas principalmente por el Partecascos.",
-    "fr": "Charges anti-ARC principalement utilisées par le Brise-fuselage.",
-    "he": "מטענים נגד ARC המשמשים בעיקר את ה-Hullcracker.",
-    "hr": "Anti-ARC punjenja koja uglavnom koristi Hullcracker.",
-    "it": "Carichi anti-ARC utilizzati principalmente dall'Hullcracker.",
-    "ja": "主にハルクラッカーが使用する対ARC弾頭。",
-    "ko-KR": "주로 헐크래커가 사용하는 대 아크 탄두입니다.",
-    "no": "Anti-ARC-laster brukt hovedsakelig av Hullcracker.",
-    "pl": "Ładunki przeciw ARC używane głównie przez Hullcrackera.",
-    "pt": "Cargas anti-ARC usadas principalmente pelo Hullcracker.",
-    "pt-BR": "Dispara projéteis explosivos que só detonam ao atingir ARC.",
-    "ru": "Боеприпасы против ARC, используемые в основном Hullcracker.",
-    "sr": "Анти-ARC пројектили које углавном користи Хулкракер.",
-    "tr": "Hullcracker tarafından ağırlıklı olarak kullanılan Anti-ARC mühimmatı.",
-    "uk": "Протидіючі ARC боєприпаси, що переважно використовує Hullcracker.",
-    "zh-CN": "主要由碎舰者使用的反 ARC 弹头。",
-    "zh-TW": "主要由碎艦者使用的反 ARC 彈頭。"
+    "da": "Lader dig fremstille en Hullcracker",
+    "de": "Damit stellst du einen Hüllenbrecher her",
+    "en": "Lets you craft a Hullcracker",
+    "es": "Te permite fabricar un Partecascos.",
+    "fr": "Vous permet de fabriquer un Brise-fuselage",
+    "he": "מאפשר לך ליצור הולקראקר",
+    "hr": "Omogućuje izradu Hullcrackera",
+    "it": "Ti permette di creare una Spaccascudi",
+    "ja": "ハルクラッカーが製作可能になる",
+    "ko-KR": "헐크래커 제작법입니다.",
+    "no": "Lar deg lage en Hullcracker",
+    "pl": "Pozwala wytworzyć Rozłupywacz",
+    "pt": "Permite fabricar uma Hullcracker",
+    "pt-BR": "Permite fabricar um Quebra-Casco",
+    "ru": "Позволяет создать Бронелом",
+    "sr": "Omogućava izradu oružja Hullcracker",
+    "tr": "Kabukkıran üretmeni sağlar",
+    "uk": "Дозволяє створити Hullcracker",
+    "zh-CN": "可以制作裂甲者",
+    "zh-TW": "可製作碎甲者"
   },
   "type": "Blueprint",
   "rarity": "Common",
@@ -51,5 +51,24 @@
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_blueprint.png",
   "updatedAt": "11/16/2025",
-  "addedIn": "base"
+  "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "bombardier_cell": 5,
+        "complex_gun_parts": 1
+      },
+      "level": 3,
+      "offerId": 315806644,
+      "points": 4500,
+      "station": "research_station"
+    }
+  ]
 }

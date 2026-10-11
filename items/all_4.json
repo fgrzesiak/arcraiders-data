@@ -298,19 +298,11 @@
         "zh-TW": "範圍"
       }
     },
-    "craftBench": [
-      "in_raid",
-      "workbench"
-    ],
+    "craftBench": ["in_raid", "workbench"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_5c",
-        "surv_3r"
-      ],
-      "workbench": [
-        "surv_5c"
-      ]
+      "in_raid": ["surv_5c", "surv_3r"],
+      "workbench": ["surv_5c"]
     },
     "recipe": {
       "lure_grenade": 1,
@@ -2777,10 +2769,7 @@
     },
     "craftBench": "in_raid",
     "craftSkills": {
-      "in_raid": [
-        "surv_5c",
-        "surv_3r"
-      ]
+      "in_raid": ["surv_5c", "surv_3r"]
     },
     "recipe": {
       "plastic_parts": 2,
@@ -6537,16 +6526,10 @@
     "value": 2000,
     "weightKg": 0.01,
     "stackSize": 1,
-    "craftBench": [
-      "in_raid",
-      "utility_bench"
-    ],
+    "craftBench": ["in_raid", "utility_bench"],
     "stationLevelRequired": 2,
     "craftSkills": {
-      "in_raid": [
-        "surv_5c",
-        "surv_3r"
-      ]
+      "in_raid": ["surv_5c", "surv_3r"]
     },
     "recipe": {
       "advanced_electrical_components": 1,

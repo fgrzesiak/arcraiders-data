@@ -2,47 +2,47 @@
   "id": "heavy_gun_parts_blueprint",
   "name": {
     "da": "Tegning til tunge våbendele",
-    "de": "Bauplan: Teile für Waffe mit schwerer Munition",
+    "de": "Bauplan: Schwere Waffenteile",
     "en": "Heavy Gun Parts Blueprint",
-    "es": "Plano de piezas de arma pesada",
-    "fr": "Schéma de Pièces d'Arme Lourde",
+    "es": "Proyecto de las piezas de arma pesada",
+    "fr": "Schéma de pièces d'arme lourdes",
     "he": "תרשים לחלקי נשק כבדים",
     "hr": "Nacrt za dijelove teškog oružja",
-    "it": "Progetto di parti di arma pesante",
-    "ja": "大型銃の部品設計図",
+    "it": "Progetto parti di armi pesanti",
+    "ja": "大型銃のパーツの設計図",
     "ko-KR": "중량 총기 부품 설계도",
     "no": "Tegning for tunge våpendeler",
-    "pl": "Projekt części ciężkiej broni",
+    "pl": "Plan: ciężkie elementy broni palnej",
     "pt": "Projeto de peças de arma pesada",
-    "pt-BR": "Esquema de Peças de Arma Pesada",
-    "ru": "Чертеж деталей тяжелого оружия",
+    "pt-BR": "Esquema de Peças de Armas Pesadas",
+    "ru": "Чертеж — Детали для тяжелого оружия",
     "sr": "Nacrt za delove teškog oružja",
     "tr": "Ağır Silah Parçaları Taslağı",
     "uk": "Креслення деталей важкої зброї",
     "zh-CN": "重型枪械零件蓝图",
-    "zh-TW": "重型槍械零件藍圖"
+    "zh-TW": "重型槍枝零件藍圖"
   },
   "description": {
-    "da": "Bruges til at fremstille våben.",
-    "de": "Wird zur Herstellung von Waffen verwendet. Zur Herstellung von: Vulcano, Hüllenbrecher, Bettina, Komplexe Waffenteile",
-    "en": "Used to craft weapons.",
-    "es": "Usado para fabricar armas.",
-    "fr": "Permet de fabriquer des armes.",
-    "he": "משמש ליצירת כלי נשק.",
-    "hr": "Koristi se za izradu oružja.",
-    "it": "Usato per fabbricare armi.",
-    "ja": "武器の製作に使用します。",
-    "ko-KR": "무기 제작에 사용됩니다.",
-    "no": "Brukes til å lage våpen.",
-    "pl": "Używany do wytwarzania broni.",
-    "pt": "Usado para fabricar armas.",
-    "pt-BR": "Usado para criar armas.",
-    "ru": "Используется для создания оружия.",
-    "sr": "Koristi se za izradu oružja.",
-    "tr": "Silah üretmek için kullanılır.",
-    "uk": "Використовується для створення зброї.",
-    "zh-CN": "用于制作武器。",
-    "zh-TW": "用於製作武器。"
+    "da": "Lader dig fremstille tunge våbendele",
+    "de": "Damit stellst du Teile für eine Waffe mit schwerer Munition her",
+    "en": "Lets you craft Heavy Gun Parts",
+    "es": "Te permite fabricar piezas de arma pesada.",
+    "fr": "Vous permet de fabriquer des pièces d'arme lourdes",
+    "he": "מאפשר לך ליצור חלקי נשק כבדים",
+    "hr": "Omogućuje izradu teških dijelova oružja",
+    "it": "Ti permette di creare parti per armi pesanti",
+    "ja": "大型銃のパーツが製作可能になる",
+    "ko-KR": "중량 총기 부품 제작법입니다.",
+    "no": "Lar deg lage tunge våpendeler",
+    "pl": "Pozwala wytworzyć ciężkie elementy broni palnej",
+    "pt": "Permite fabricar Peças de Arma Pesadas",
+    "pt-BR": "Permite fabricar Peças de Arma Pesada",
+    "ru": "Позволяет создать детали для тяжелого оружия.",
+    "sr": "Omogućava izradu teških delova oružja",
+    "tr": "Ağır Silah Parçaları üretmeni sağlar",
+    "uk": "Дозволяє створити важкі деталі зброї",
+    "zh-CN": "可以制作重型枪械零件",
+    "zh-TW": "可製作重型槍枝零件"
   },
   "type": "Blueprint",
   "rarity": "Common",
@@ -51,5 +51,24 @@
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_gun_parts_blueprint.png",
   "updatedAt": "11/12/2025",
-  "addedIn": "base"
+  "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "simple_gun_parts": 5,
+        "unusable_weapon": 1
+      },
+      "level": 2,
+      "offerId": 828766189,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
 }

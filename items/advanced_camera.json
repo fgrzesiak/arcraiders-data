@@ -1,0 +1,87 @@
+{
+  "id": "advanced_camera",
+  "name": {
+    "da": "Avanceret Kamera",
+    "de": "Fortgeschrittene Kamera",
+    "en": "Advanced Camera",
+    "es": "Cámara avanzada",
+    "fr": "Appareil photo avancé",
+    "he": "מצלמה מתקדמת",
+    "hr": "Napredna kamera",
+    "it": "Fotocamera avanzata",
+    "ja": "高性能カメラ",
+    "ko-KR": "고급 카메라",
+    "no": "Avansert kamera",
+    "pl": "Zaawansowany aparat",
+    "pt": "Câmera Avançada",
+    "pt-BR": "Câmera avançada",
+    "ru": "Продвинутая камера",
+    "sr": "Napredna kamera",
+    "tr": "Gelişmiş Kamera",
+    "uk": "Просунута Камера",
+    "zh-CN": "高级相机",
+    "zh-TW": "進階相機"
+  },
+  "description": {
+    "da": "Et mere avanceret kamera med et par ekstra funktioner.",
+    "de": "Eine etwas fortgeschrittenere Kamera mit ein paar zusätzlichen Extras.",
+    "en": "A more advanced camera with a few extra bells and whistles.",
+    "es": "Una cámara más avanzada con alguna que otra característica extra.",
+    "fr": "Un appareil photo plus perfectionné avec quelques fonctionnalités supplémentaires.",
+    "he": "מצלמה מתקדמת יותר עם כמה תוספות ופיצ'רים נוספים.",
+    "hr": "Naprednija kamera s dodatnim značajkama.",
+    "it": "Una fotocamera avanzata con qualche funzionalità in più.",
+    "ja": "いくつかの追加機能を備えた、より高性能なカメラ。",
+    "ko-KR": "몇 가지 추가 기능을 갖춘 고급 카메라입니다.",
+    "no": "Et mer avansert kamera med noen ekstra finesser.",
+    "pl": "Bardziej zaawansowany aparat z kilkoma dodatkowymi bajerami.",
+    "pt": "Uma câmera mais avançada com alguns recursos extras e melhorias.",
+    "pt-BR": "Uma câmera mais avançada com algumas firulas extras.",
+    "ru": "Чуть более продвинутая камера с парочкой примочек.",
+    "sr": "Naprednija kamera sa nekoliko dodatnih funkcija i mogućnosti.",
+    "tr": "Fazladan zile ve düdüğe sahip daha gelişmiş bir kamera.",
+    "uk": "Більш просунута камера з кількома додатковими функціями.",
+    "zh-CN": "一款更先进的相机，功能更加丰富。",
+    "zh-TW": "更進階的相機，具備一些額外的花俏功能。"
+  },
+  "type": "Quick Use",
+  "rarity": "Rare",
+  "value": 1000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "blueprintLocked": true,
+  "craftBench": "utility_bench",
+  "stationLevelRequired": 1,
+  "recipe": {
+    "calculator": 1,
+    "camera_lens": 1,
+    "electrical_components": 1
+  },
+  "recyclesInto": {
+    "calculator": 1
+  },
+  "salvagesInto": {
+    "plastic_parts": 5
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/advanced_camera.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Gadget",
+      "itemType": ["Gadget"]
+    },
+    "partial": ["gadget"]
+  },
+  "vendors": [
+    {
+      "cost": {
+        "coins": 3000
+      },
+      "limit": 3,
+      "refreshSeconds": 86400,
+      "requiredLevel": 12,
+      "trader": "Shani"
+    }
+  ]
+}

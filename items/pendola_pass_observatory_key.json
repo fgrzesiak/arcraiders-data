@@ -1,0 +1,66 @@
+{
+  "id": "pendola_pass_observatory_key",
+  "name": {
+    "da": "Pendola Pass Observatorienøgle",
+    "de": "Schlüssel zum Observatorium am Pendola-Pass",
+    "en": "Pendola Pass Observatory Key",
+    "es": "Llave del observatorio del Paso Pendola",
+    "fr": "Clé de l'Observatoire du Col de Pendola",
+    "he": "מפתח מצפה Pendola Pass",
+    "hr": "Ključ Observatorija Pendola Pass",
+    "it": "Chiave dell'osservatorio del Passo di Pendola",
+    "ja": "ペンドラ峠観測所の鍵",
+    "ko-KR": "펜돌라 고개 천문대 열쇠",
+    "no": "Pendola Pass Observatoriumsnøkkel",
+    "pl": "Klucz do obserwatorium w przełęczy Pendola",
+    "pt": "Chave do Observatório de Pendola Pass",
+    "pt-BR": "Chave do Observatório da Passagem Pendola",
+    "ru": "Ключ от обсерватории на перевале Пендолы",
+    "sr": "Ključ opservatorije Pendola Pass",
+    "tr": "Pendola Geçidi Gözlemevi Anahtarı",
+    "uk": "Ключ від обсерваторії Pendola Pass",
+    "zh-CN": "彭多拉山口天文台钥匙",
+    "zh-TW": "彭多拉隘口天文台鑰匙"
+  },
+  "description": {
+    "da": "Låser en dør op i Cielo Sereno Observatoriets hovedbygning på Pendola Pass.",
+    "de": "Öffnet eine Tür im Hauptgebäude des Cielo Sereno-Observatoriums am Pendola-Pass.",
+    "en": "Unlocks a door in the Cielo Sereno Observatory main building on Pendola Pass.",
+    "es": "Abre una puerta del edificio principal del observatorio Cielo Sereno en el Paso Pendola.",
+    "fr": "Déverrouille une porte dans le bâtiment principal de l'Observatoire Cielo Sereno, au Col de Pendola.",
+    "he": "פותח דלת בבניין הראשי של מצפה Cielo Sereno ב-Pendola Pass.",
+    "hr": "Otključava vrata u glavnoj zgradi Observatorija Cielo Sereno na Pendola Passu.",
+    "it": "Sblocca una porta nell'edificio principale dell'osservatorio Cielo Sereno sul Passo di Pendola.",
+    "ja": "ペンドラ峠のシエロ・セレノ観測所本館の中にある扉を開けることができる。",
+    "ko-KR": "펜돌라 고개의 치엘로 세레노 천문대 본관에 있는 문을 엽니다.",
+    "no": "Låser opp en dør i hovedbygningen til Cielo Sereno-observatoriet på Pendola Pass.",
+    "pl": "Otwiera drzwi w głównym budynku Obserwatorium Cielo Sereno w przełęczy Pendola.",
+    "pt": "Destranca uma porta no edifício principal do Observatório Cielo Sereno em Pendola Pass.",
+    "pt-BR": "Destranca uma porta no prédio principal do Observatório Cielo Sereno na Passagem Pendola.",
+    "ru": "Открывает дверь в основное здание обсерватории «Чело Серено» на перевале Пендолы.",
+    "sr": "Otključava vrata u glavnoj zgradi opservatorije Cielo Sereno na Pendola Pass-u.",
+    "tr": "Pendola Geçidi'nde Cielo Sereno Gözlemevi ana binasındaki bir kapıyı açar.",
+    "uk": "Відкриває двері в головній будівлі обсерваторії Cielo Sereno на Pendola Pass.",
+    "zh-CN": "可打开彭多拉山口晴空天文台主楼的一扇门。",
+    "zh-TW": "解鎖彭多拉隘口中晴空天文台主建築內的一扇門。"
+  },
+  "type": "Key",
+  "rarity": "Epic",
+  "value": 100,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/pendola_pass_observatory_key.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Utility.Key",
+      "dropType": ["Salvage.Key.FrozenTrail", "Salvage.Material.UtilityKey"],
+      "itemType": ["Misc"]
+    },
+    "key": {
+      "map": "pendola_pass",
+      "mapSource": "drop-tag",
+      "mapTag": "FrozenTrail"
+    }
+  }
+}

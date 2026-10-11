@@ -1,0 +1,67 @@
+{
+  "id": "pendola_pass_old_town_key",
+  "name": {
+    "da": "Pendola Pass Gamle Bynøgle",
+    "de": "Pendola-Pass – Altstadt-Schlüssel",
+    "en": "Pendola Pass Old Town Key",
+    "es": "Llave del casco antiguo del Paso Pendola",
+    "fr": "Clé de la Vieille ville du Col de Pendola",
+    "he": "מפתח עיר עתיקה, פנדולה פאס",
+    "hr": "Ključ za Stari Grad Pendola Pass",
+    "it": "Chiave della Città vecchia del Passo di Pendola",
+    "ja": "ペンドラ峠旧市街の鍵",
+    "ko-KR": "펜돌라 고개 구시가지 열쇠",
+    "no": "Nøkkel til Gamlebyen, Pendola Pass",
+    "pl": "Klucz do starego miasta w przełęczy Pendola",
+    "pt": "Chave da Cidade Antiga de Pendola Pass",
+    "pt-BR": "Chave da Cidade Antiga da Passagem Pendola",
+    "ru": "Ключ от Старого города на перевале Пендолы",
+    "sr": "Ključ Starog Grada Pendola Passa",
+    "tr": "Pendola Geçidi Eski Şehir Anahtarı",
+    "uk": "Ключ від Старого Міста Пендола Пасс",
+    "zh-CN": "彭多拉山口老城区钥匙",
+    "zh-TW": "彭多拉隘口舊城區鑰匙"
+  },
+  "description": {
+    "da": "Låser op for en dør til en lejlighed i Gamle By på Pendola Pass.",
+    "de": "Öffnet eine Tür zu einer Wohnung in der Altstadt am Pendola-Pass.",
+    "en": "Unlocks a door to an apartment in the Old Town on Pendola Pass.",
+    "es": "Abre una puerta de un apartamento en el casco antiguo del Paso Pendola.",
+    "fr": "Déverrouille la porte d'un appartement dans la Vieille ville, au Col de Pendola.",
+    "he": "פותח דלת לדירה בעיר העתיקה, בפנדולה פאס.",
+    "hr": "Otključava vrata stana u Starom Gradu na Pendola Passu.",
+    "it": "Sblocca una porta che conduce a un appartamento nella Città vecchia sul Passo di Pendola.",
+    "ja": "ペンドラ峠の旧市街のアパートにある扉を開けることができる。",
+    "ko-KR": "펜돌라 고개 구시가지에 있는 아파트 문을 엽니다.",
+    "no": "Låser opp en dør til en leilighet i Gamlebyen på Pendola Pass.",
+    "pl": "Otwiera drzwi do mieszkania w starym mieście w przełęczy Pendola.",
+    "pt": "Destranca uma porta para um apartamento na Cidade Antiga em Pendola Pass.",
+    "pt-BR": "Destranca uma porta em um apartamento da Cidade Antiga na Passagem Pendola.",
+    "ru": "Открывает дверь квартиры в Старом городе на перевале Пендолы.",
+    "sr": "Otključava vrata stana u Starom Gradu na Pendola Passu.",
+    "tr": "Pendola Geçidi'nde Eski Şehir'deki bir apartmanın kapısını açar.",
+    "uk": "Відмикає двері до квартири у Старому Місті на Пендола Пасс.",
+    "zh-CN": "可打开彭多拉山口老城区一间公寓的门。",
+    "zh-TW": "解鎖彭多拉隘口中舊城區一棟公寓內的一扇門。"
+  },
+  "type": "Key",
+  "rarity": "Uncommon",
+  "value": 100,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/pendola_pass_old_town_key.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Utility.Key",
+      "dropType": ["Salvage.Key.FrozenTrail", "Salvage.Material.UtilityKey"],
+      "itemType": ["Misc"]
+    },
+    "key": {
+      "map": "pendola_pass",
+      "mapSource": "drop-tag",
+      "mapTag": "FrozenTrail"
+    }
+  }
+}

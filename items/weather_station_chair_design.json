@@ -1,0 +1,50 @@
+{
+  "id": "weather_station_chair_design",
+  "name": {
+    "da": "Vejrstationsstolsdesign",
+    "de": "Wetterstationsstuhl-Entwurf",
+    "en": "Weather Station Chair Design",
+    "es": "Diseño de la silla de la estación meteorológica",
+    "fr": "Design de la chaise de la station météo",
+    "he": "עיצוב כיסא תחנת מזג אוויר",
+    "hr": "Dizajn stolice meteorološke stanice",
+    "it": "Design Sedia della stazione meteorologica",
+    "ja": "気象ステーション用チェアのデザイン",
+    "ko-KR": "기상 관측소 의자 디자인",
+    "no": "Værstasjonsstol-design",
+    "pl": "Projekt krzesła stacji meteorologicznej",
+    "pt": "Projeto de Cadeira de Estação Meteorológica",
+    "pt-BR": "Projeto da Cadeira da Estação Meteorológica",
+    "ru": "Схема стула метеостанции",
+    "sr": "Nacrt stolice meteorološke stanice",
+    "tr": "Hava İstasyonu Sandalye Tasarımı",
+    "uk": "Дизайн стільця метеостанції",
+    "zh-CN": "气象站椅子设计图",
+    "zh-TW": "氣象站椅子設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/weather_station_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 1
+      },
+      "level": 1,
+      "offerId": 125582335,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

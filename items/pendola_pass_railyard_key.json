@@ -1,0 +1,66 @@
+{
+  "id": "pendola_pass_railyard_key",
+  "name": {
+    "da": "Pendola Pass Jernbaneterræn Nøgle",
+    "de": "Schlüssel zum Rangierbahnhof am Pendola-Pass",
+    "en": "Pendola Pass Railyard Key",
+    "es": "Llave del patio de maniobras del Paso Pendola",
+    "fr": "Clé de la Gare de triage du Col de Pendola",
+    "he": "מפתח מסוף רכבת, פנדולה פאס",
+    "hr": "Ključ za Željeznički Depo Pendola Pass",
+    "it": "Chiave dello scalo ferroviario del Passo di Pendola",
+    "ja": "ペンドラ峠車両基地の鍵",
+    "ko-KR": "펜돌라 고개 철도 차량기지 열쇠",
+    "no": "Nøkkel til Togdepotet, Pendola Pass",
+    "pl": "Klucz do stacji rozrządowej w przełęczy Pendola",
+    "pt": "Chave do Pátio Ferroviário de Pendola Pass",
+    "pt-BR": "Chave do Pátio Ferroviário da Passagem Pendola",
+    "ru": "Ключ от грузовой станции на перевале Пендолы",
+    "sr": "Ključ Ranžirnog Dvorišta Pendola Passa",
+    "tr": "Pendola Geçidi Demiryolu Sahası Anahtarı",
+    "uk": "Ключ від Залізничного Депо Пендола Пасс",
+    "zh-CN": "彭多拉山口铁路场钥匙",
+    "zh-TW": "彭多拉隘口鐵路站鑰匙"
+  },
+  "description": {
+    "da": "Låser op for en dør i den Kontrollerede Modtagefacilitet på Pendola Pass.",
+    "de": "Öffnet eine Tür in der kontrollierten Annahmestelle am Pendola-Pass.",
+    "en": "Unlocks a door in the Controlled Receiving Facility on Pendola Pass.",
+    "es": "Abre una puerta de la instalación receptora controlada del Paso Pendola.",
+    "fr": "Déverrouille une porte dans le Centre de réception contrôlée, au Col de Pendola.",
+    "he": "פותח דלת במתקן הקבלה המבוקר בפנדולה פאס.",
+    "hr": "Otključava vrata u Kontroliranom Prihvatnom Postrojenju na Pendola Passu.",
+    "it": "Sblocca una porta nella struttura di ricezione controllata sul Passo di Pendola.",
+    "ja": "ペンドラ峠の管理受入施設の中にある扉を開けることができる。",
+    "ko-KR": "펜돌라 고개의 통제 반입 시설에 있는 문을 엽니다.",
+    "no": "Låser opp en dør i det Kontrollerte mottaksanlegget på Pendola Pass.",
+    "pl": "Otwiera drzwi w bazie odbioru kontrolowanego w przełęczy Pendola.",
+    "pt": "Destranca uma porta na Instalação de Recepção Controlada em Pendola Pass.",
+    "pt-BR": "Destranca uma porta da Instalação de Controle de Entrada na Passagem Pendola.",
+    "ru": "Открывает дверь в закрытую станцию приема на перевале Пендолы.",
+    "sr": "Otključava vrata u Postrojenju za kontrolisani prijem na Pendola Passu.",
+    "tr": "Pendola Geçidi'nde Kontrollü Kabul Tesisi'ndeki bir kapıyı açar.",
+    "uk": "Відмикає двері у Контрольованому Приймальному Комплексі на Пендола Пасс.",
+    "zh-CN": "可打开彭多拉山口管控接收站的一扇门。",
+    "zh-TW": "解鎖彭多拉隘口中管制接收設施內的一扇門。"
+  },
+  "type": "Key",
+  "rarity": "Rare",
+  "value": 100,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/pendola_pass_railyard_key.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Utility.Key",
+      "dropType": ["Salvage.Key.FrozenTrail", "Salvage.Material.UtilityKey"],
+      "itemType": ["Misc"]
+    },
+    "key": {
+      "map": "pendola_pass",
+      "mapSource": "drop-tag",
+      "mapTag": "FrozenTrail"
+    }
+  }
+}

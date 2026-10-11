@@ -5,10 +5,10 @@
     "de": "Schrotflintenmunition",
     "en": "Shotgun Ammo",
     "es": "Munición de escopeta",
-    "fr": "Cartouches de Pompe",
+    "fr": "Cartouches de pompe",
     "he": "תחמושת רובה ציד",
     "hr": "Streljivo za Sačmaru",
-    "it": "Munizioni fucile",
+    "it": "Munizioni per fucile",
     "ja": "ショットガンの弾薬",
     "ko-KR": "산탄총 탄약",
     "no": "Hagleammunisjon",
@@ -51,7 +51,7 @@
   "stackSize": 20,
   "craftQuantity": 5,
   "compatibleWith": ["Il Toro", "Vulcano"],
-  "craftBench": "workbench",
+  "craftBench": ["in_raid", "workbench"],
   "stationLevelRequired": 1,
   "recipe": {
     "chemicals": 2,
@@ -60,11 +60,24 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/shotgun_ammo.png",
   "updatedAt": "02/24/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "RiflePayload",
+      "dropType": ["Ammo.ShotgunAmmo"],
+      "itemType": ["Ammunition"],
+      "questGroups": ["Items.AllAmmo"]
+    },
+    "pickup": {
+      "max": 8,
+      "min": 4
+    }
+  },
   "vendors": [
     {
       "cost": {
         "coins": 900
       },
+      "quantity": 5,
       "trader": "Tian Wen"
     }
   ]

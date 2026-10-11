@@ -9,7 +9,7 @@
     "he": "איל טורו II",
     "hr": "Il Toro II",
     "it": "Il Toro II",
-    "ja": "イル・トーロII",
+    "ja": "イル・トーロ II",
     "ko-KR": "일 토로 II",
     "no": "Il Toro II",
     "pl": "Il Toro II",
@@ -18,31 +18,31 @@
     "ru": "Эль-Торо II",
     "sr": "Il Toro II",
     "tr": "Il Toro II",
-    "uk": "Il Toro II",
+    "uk": "Ель-Торо II",
     "zh-CN": "公牛 II",
-    "zh-TW": "Il Toro II"
+    "zh-TW": "公牛II"
   },
   "description": {
-    "da": "Har stor kuglespredning, kraftigt fald og høj skadeeffekt.",
-    "de": "Hat eine hohe Streuung und geringe Reichweite, verursacht aber hohen Schaden.",
+    "da": "Pump-action haglgevær med stor spredning, skarpt skadesfald og høj skade.",
+    "de": "Vorderschaft-Repetierflinte mit hoher Streuung und geringer Reichweite, die hohen Schaden anrichtet.",
     "en": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output.",
-    "es": "Tiene una gran dispersión de balas, caída pronunciada y alto daño.",
-    "fr": "A une large dispersion des balles, une chute brutale et des dégâts élevés.",
-    "he": "רובה ציד Pump-action עם פיזור כדורים רחב, דעיכה חדה למרחק ונזק גבוה.",
-    "hr": "Ima veliko rasipanje metaka, oštar pad štete i visoku izlaznu štetu.",
-    "it": "Ha un'ampia dispersione dei proiettili, caduta netta e alto Danni.",
-    "ja": "弾丸の拡散が大きく、急激な減衰と高いダメージ出力を持つ。",
-    "ko-KR": "넓은 탄 퍼짐, 급격한 감쇠, 높은 데미지를 가지고 있습니다.",
-    "no": "Har stor kulespredning, kraftig falloff og høy skadeeffekt.",
-    "pl": "Ma duży rozrzut pocisków, ostry spadek i wysokie obrażenia.",
-    "pt": "Tem grande dispersão de balas, queda acentuada e alto dano.",
-    "pt-BR": "Escopeta de ação por bombeamento com grande dispersão, queda acentuada e alto dano.",
-    "ru": "Имеет большой разброс пуль, резкое падение урона и высокий урон.",
-    "sr": "Ima veliko rasipanje metaka, oštar pad štete i visoku izlaznu štetu.",
-    "tr": "Geniş mermi yayılımı, keskin düşüş ve yüksek hasar çıkışına sahiptir.",
-    "uk": "Має великий розкид куль, різке падіння пошкоджень та високий урон.",
-    "zh-CN": "具有大范围弹道扩散、急剧衰减和高伤害输出。",
-    "zh-TW": "具有大範圍彈道擴散、急劇衰減和高傷害輸出。"
+    "es": "Escopeta de corredera con una dispersión de los perdigones amplia, una reducción del daño por distancia muy pronunciada y un daño elevado.",
+    "fr": "Fusil à pompe à dispersion élevée infligeant de lourds dégâts. Sa puissance chute rapidement sur la distance.",
+    "he": "רובה ציד בעל פעולת משאבה עם פיזור כדורים רחב, צניחת נזק חדה ותפוקת נזק גבוהה.",
+    "hr": "Sačmarica s pumpnim mehanizmom s velikim raspršivanjem metaka, naglim padom oštećenja i velikom štetom.",
+    "it": "Fucile a pompa con ampia dispersione dei proiettili, decadimento rapido ed elevata potenza dei danni.",
+    "ja": "ポンプアクションのショットガン。弾丸が広く分散し、距離によるダメージ減衰が大きいが、与ダメージが高い。",
+    "ko-KR": "탄 퍼짐이 크고, 거리에 따른 대미지 감소폭이 크며, 피해량이 높은 펌프 액션 산탄총입니다.",
+    "no": "Pumpehagle med stor kulespredning, kraftig skadetap på avstand og høy skade.",
+    "pl": "Strzelba typu pump-action o dużym rozrzucie pocisków i potencjale obrażeń, który jednak znacznie maleje wraz ze wzrostem odległości od celu.",
+    "pt": "Escopeta de ação por bombeamento com grande dispersão de projéteis, queda de dano acentuada e alto dano causado.",
+    "pt-BR": "Escopeta de repetição com grande dispersão de projéteis, queda acentuada e alto poder de dano.",
+    "ru": "Помповый дробовик с большим разбросом пуль. Наносит высокий урон, который со временем резко снижается.",
+    "sr": "Sačmarica pumperica sa velikim rasipanjem metaka, naglim padom štete na daljinu i velikom štetom.",
+    "tr": "Fişekleri geniş saçılıp kısa sürede yere düşen ancak yüksek hasar veren pompalı av tüfeği.",
+    "uk": "Помповий дробовик із великим розкидом, різким падінням шкоди на відстані та високою шкодою.",
+    "zh-CN": "泵动式霰弹枪，弹道散布范围大，伤害高，但伤害衰减明显。",
+    "zh-TW": "泵動式霰彈槍，具有子彈擴散範圍大、傷害衰減幅度大和傷害輸出高的特性。"
   },
   "type": "Shotgun",
   "rarity": "Uncommon",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC护甲穿透",
       "zh-TW": "ARC護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "1x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "20-50 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "110/110",
@@ -205,6 +251,216 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/il_toro_ii.png",
   "updatedAt": "03/17/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.Shotgun",
+      "dropType": ["Equipment.Weapon.Firearm.ShotgunAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.ShotgunAmmoWeapon",
+        "Items.Shotguns",
+        "Items.SpecificWeapon.IlToro"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "shotgun_ammo",
+      "arc": {
+        "armorMultiplier": 0.5
+      },
+      "base": {
+        "adsTimeSec": 0.4,
+        "burnRate": 0.007378,
+        "burstSize": 1,
+        "clipSize": 6,
+        "firePower": 50000,
+        "fireRate": 45,
+        "looping": {
+          "entrySec": 1,
+          "exitSec": 0.5,
+          "fromAnimation": ["exitSec"],
+          "loopSec": 0.7
+        },
+        "multiShot": [
+          {
+            "extra": 0,
+            "frac": 0,
+            "halfOffset": false,
+            "projectiles": 1
+          },
+          {
+            "extra": 0.5,
+            "frac": 0.5,
+            "halfOffset": true,
+            "projectiles": 3
+          },
+          {
+            "extra": 1,
+            "frac": 0.9,
+            "halfOffset": false,
+            "projectiles": 5
+          }
+        ],
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 7,
+        "projectilesPerShot": 9,
+        "reloadTimeSec": 2.5
+      },
+      "damageFalloff": [
+        [0, 1.001],
+        [20, 1.001],
+        [50, 0.5]
+      ],
+      "dispersion": {
+        "adsDuration": 1.4,
+        "adsScale": 0.8,
+        "fireGain": [[0.19625935, 1, 0, 0, "linear"]],
+        "fireMax": 1,
+        "max": 7.5,
+        "min": 1.5,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 1.4,
+            "adsFireDispersionMultiplier": 0.1,
+            "adsScale": 0.8,
+            "dispersion": 6,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 1.4,
+            "adsFireDispersionMultiplier": 0.1,
+            "adsScale": 0.8,
+            "dispersion": 6,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier"
+            ]
+          },
+          "falling": {
+            "dispersion": 6.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "dispersion": 6.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 1.4,
+            "adsFireDispersionMultiplier": 0.1,
+            "adsScale": 0.8,
+            "dispersion": 6,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 1.4,
+            "adsFireDispersionMultiplier": 0.1,
+            "adsScale": 0.8,
+            "dispersion": 6,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier"
+            ]
+          },
+          "uncontrollable": {
+            "dispersion": 6.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popRecoverySpeed": 0.2,
+        "recoverySpeed": 3,
+        "unset": ["adsRecoveryMultiplier", "popMax", "linearRecovery"],
+        "velocity": 0,
+        "velocityMax": 0,
+        "velocityRecovery": 10
+      },
+      "equipTimeSec": 0.85,
+      "fireRateModifier": "fraction",
+      "headshotMultiplier": 1,
+      "modifiers": {
+        "clipSize": 0,
+        "durabilityBurnRate": -0.1,
+        "fireRate": 0
+      },
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.7,
+        "lerpSpeed": 0.3,
+        "pitch": [
+          [0, 0, 2.676612, 0, "linear"],
+          [6, 30, 0.835413, 0.835414, "linear"]
+        ],
+        "pitchProceduralRange": [5, 5],
+        "recoverySpeed": -1,
+        "sampleCount": 6,
+        "unset": ["proceduralSwingSpeed", "recoveryDelay"],
+        "yaw": [
+          [0, 0, 0.693051, 0, "cubic"],
+          [0.9942639, 0.4991703, 0.10385805, 0.10385805, "cubic"],
+          [1.9579546, 0.20334935, 0.060918268, 0.060918268, "cubic"],
+          [2.9647543, 0.6192092, -0.33832014, -0.33832014, "cubic"],
+          [3.8510792, -0.43713284, -0.010248715, -0.010248715, "cubic"],
+          [4.936072, 0.5990057, -0.11374117, -0.11374117, "cubic"],
+          [6.011811, -0.682897, 0, -0.876308, "cubic"]
+        ],
+        "yawProceduralRange": [-0.5, -1.5]
+      },
+      "tier": 2,
+      "unequipTimeSec": 0.5
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -240,5 +496,14 @@
     "simple_gun_parts": 3
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "heavy_gun_parts": 1,
+        "mechanical_components": 4
+      },
+      "to": "il_toro_iii"
+    }
+  ],
   "upgradesTo": "il_toro_iii"
 }

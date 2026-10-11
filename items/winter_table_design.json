@@ -1,0 +1,50 @@
+{
+  "id": "winter_table_design",
+  "name": {
+    "da": "Vinterbordsdesign",
+    "de": "Wintertisch-Entwurf",
+    "en": "Winter Table Design",
+    "es": "Diseño de mesa invernal",
+    "fr": "Design de la Table hivernale",
+    "he": "עיצוב שולחן חורף",
+    "hr": "Dizajn zimskog stola",
+    "it": "Design Tavolo invernale",
+    "ja": "冬のテーブルのデザイン",
+    "ko-KR": "겨울 테이블 디자인",
+    "no": "Vinterbord-design",
+    "pl": "Projekt stołu zimowego",
+    "pt": "Projeto de Mesa de Inverno",
+    "pt-BR": "Projeto da Mesa de Inverno",
+    "ru": "Схема Зимнего стола",
+    "sr": "Nacrt zimskog stola",
+    "tr": "Kış Masası Tasarımı",
+    "uk": "Дизайн зимового столу",
+    "zh-CN": "冬季桌子设计图",
+    "zh-TW": "冬季桌子設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/winter_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "planks": 40
+      },
+      "level": 2,
+      "offerId": 249285116,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

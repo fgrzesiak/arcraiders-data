@@ -20,29 +20,29 @@
     "tr": "Bettina IV",
     "uk": "Беттіна IV",
     "zh-CN": "贝蒂娜 IV",
-    "zh-TW": "貝蒂娜 IV"
+    "zh-TW": "貝蒂娜IV"
   },
   "description": {
-    "da": "Har lav skudfrekvens og høj skadeeffekt.",
-    "de": "Hat eine langsame Feuerrate und hohen Schadensausstoß.",
-    "en": "Has slow fire rate and high damage output.",
-    "es": "Tiene una cadencia de fuego lenta y alto daño.",
-    "fr": "A une cadence de tir lente et des dégâts élevés.",
-    "he": "בעל קצב אש איטי ונזק גבוה.",
-    "hr": "Ima sporu brzinu pucanja i visoku štetu.",
-    "it": "Ha una cadenza di fuoco lenta e alto Danni.",
-    "ja": "低い連射速度と高いダメージを持つ。",
-    "ko-KR": "낮은 연사력과 높은 피해량을 가지고 있습니다.",
-    "no": "Har lav skuddfrekvens og høy skadeeffekt.",
-    "pl": "Ma wolną szybkostrzelność i wysokie obrażenia.",
-    "pt": "Tem uma taxa de disparo lenta e alto dano.",
-    "pt-BR": "Possui cadência de tiro baixa e dano elevado.",
-    "ru": "Имеет низкую скорострельность и высокий урон.",
-    "sr": "Ima sporu brzinu pucanja i visoku štetu.",
-    "tr": "Düşük atış hızına ve yüksek hasar çıkışına sahiptir.",
-    "uk": "Має низьку швидкострільність та високий урон.",
-    "zh-CN": "射速慢但伤害高。",
-    "zh-TW": "射速慢但傷害高。"
+    "da": "Fuldautomatisk stormgevær med lav skudhastighed og høj skade.",
+    "de": "Ein vollautomatisches Sturmgewehr mit langsamer Feuerrate und hohem Schaden.",
+    "en": "Fully automatic assault rifle with slow fire rate and high damage output.",
+    "es": "Fusil de asalto totalmente automático con una cadencia de disparo lenta y un daño elevado.",
+    "fr": "Fusil d'assaut automatique à la cadence de tir limitée, mais il inflige de lourds dégâts.",
+    "he": "רובה סער אוטומטי לחלוטין בעל קצב אש איטי ותפוקת נזק גבוהה.",
+    "hr": "Potpuno automatska jurišna puška sa sporom brzinom paljbe i velikom štetom.",
+    "it": "Fucile d'assalto completamente automatico con cadenza di fuoco lenta ed elevata potenza di fuoco.",
+    "ja": "フルオートのアサルトライフル。弾速が遅いが、威力は高い。",
+    "ko-KR": "느린 발사 속도와 높은 피해량을 지닌 전자동 돌격 소총입니다.",
+    "no": "Helautomatisk automatgevær med lav skuddhastighet og høy skade.",
+    "pl": "W pełni automatyczny karabin szturmowy o małej szybkostrzelności i dużym potencjale obrażeń.",
+    "pt": "Fuzil de assalto totalmente automático com cadência de tiro lenta e alto dano causado.",
+    "pt-BR": "Fuzil de assalto automático com cadência de tiro lenta e alto poder de dano.",
+    "ru": "Полностью автоматическая штурмовая винтовка с низкой скоростью стрельбы и высоким уроном.",
+    "sr": "Potpuno automatska jurišna puška sa sporom brzinom paljbe i velikom štetom.",
+    "tr": "Düşük atış hızı ve hasara sahip tam otomatik taarruz tüfeği.",
+    "uk": "Повністю автоматична штурмова гвинтівка з низькою скорострільністю та високою шкодою.",
+    "zh-CN": "全自动射击的突击步枪，射速较慢，但伤害输出高。",
+    "zh-TW": "射速緩慢但具高傷害輸出的全自動突擊步槍。"
   },
   "type": "Assault Rifle",
   "rarity": "Epic",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC装甲穿透",
       "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "180-200 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "130/130",
@@ -228,6 +274,210 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/bettina_iv.png",
   "updatedAt": "02/24/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.AssaultRifle",
+      "dropType": ["Equipment.Weapon.Firearm.HeavyAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.HeavyAmmoWeapon",
+        "Items.SpecificWeapon.Bettina"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "heavy_ammo",
+      "arc": {
+        "armorMultiplier": 2,
+        "propagationMultiplier": 1
+      },
+      "base": {
+        "burnRate": 0.001317,
+        "burstSize": 1,
+        "clipSize": 22,
+        "firePower": 50000,
+        "fireRate": 285,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 16,
+        "reloadTimeSec": 4
+      },
+      "damageFalloff": [
+        [0, 1],
+        [15, 1.001],
+        [180, 1.001],
+        [200, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 2.2,
+        "adsRecoveryMultiplier": 0.85,
+        "adsScale": 0.4,
+        "fireGain": [
+          [0, 0.025, 0, 0, "linear"],
+          [3, 0.025, 0.045833334, 0.045833334, "cubic"],
+          [6, 0.3, 0, 0, "cubic"],
+          [20, 0.3, 0, 0, "linear"]
+        ],
+        "fireMax": 2,
+        "linearRecovery": true,
+        "max": 6,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 2.2,
+            "adsFireDispersionMultiplier": 0.65,
+            "adsRecoveryMultiplier": 0.75,
+            "adsScale": 0.1,
+            "dispersion": 1.4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 2.2,
+            "adsFireDispersionMultiplier": 0.65,
+            "adsRecoveryMultiplier": 0.75,
+            "adsScale": 0.1,
+            "dispersion": 1.4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.85,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 2.2,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.85,
+            "adsScale": 0.1,
+            "dispersion": 1.9,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 2.2,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.85,
+            "adsScale": 0.1,
+            "dispersion": 1.9,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.85,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.3,
+        "popRecoverySpeed": 0.05,
+        "recoverySpeed": 2.5,
+        "velocity": 2.75,
+        "velocityMax": 3.25,
+        "velocityRecovery": 5.75
+      },
+      "equipTimeSec": 1.2,
+      "fireRateModifier": "rpm",
+      "headshotMultiplier": 2,
+      "modifiers": {
+        "durabilityBurnRate": -0.3,
+        "fireRate": 30,
+        "reloadSpeed": -1
+      },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.8,
+        "lerpSpeed": 0.35,
+        "pitch": [
+          [0, 0, 2.8229413, 0, "linear"],
+          [2, 0.2, 0, 0, "linear"],
+          [6, 2, 0.07372187, 0.07372336, "linear"],
+          [14, 7, 0.031883117, 0.03188288, "linear"],
+          [20, 10, 0, 0, "linear"]
+        ],
+        "pitchProceduralRange": [0.25, 0.5],
+        "recoverySpeed": 0.8,
+        "sampleCount": 20,
+        "unset": ["proceduralSwingSpeed", "recoveryDelay"],
+        "yaw": [
+          [0, 0, 0, 0, "cubic"],
+          [4, -0.19257963, -0.12237362, -0.12237273, "cubic"],
+          [4.995655, -0.46523976, 0, 0, "linear"],
+          [5.9376836, -0.86591864, 0, 0, "linear"],
+          [6.991478, -0.8266548, 0.014741434, 0.014741423, "cubic"],
+          [8, -1.3684099, 0.18830323, 0.18830353, "cubic"],
+          [9.001184, -1.2820485, 0, 0, "linear"],
+          [9.897395, -1.7868088, 0, 0, "linear"],
+          [10.935223, -1.590981, 0, 0, "linear"],
+          [11.941117, -2.0730188, 0.123024896, 0.123024896, "cubic"],
+          [13.005554, -1.857449, 0, 0, "linear"],
+          [13.952906, -2.1784647, 0, 0, "linear"],
+          [15.031365, -2.04202, 0, 0, "linear"],
+          [16, -2.4, 0, 0, "cubic"],
+          [20, 0, 0, 0, "cubic"]
+        ],
+        "yawProceduralRange": [-0.4, 0.4]
+      },
+      "statBarOffsets": {
+        "fireRate": 3,
+        "stability": -4
+      },
+      "tier": 4,
+      "unequipTimeSec": 0.52
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -265,5 +515,20 @@
     "advanced_mechanical_components": 3,
     "heavy_gun_parts": 3
   },
-  "repairDurability": 0.5
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "amplification_module_mk_iv": 1
+      },
+      "requires": [
+        {
+          "level": 4,
+          "station": "weapon_bench"
+        }
+      ],
+      "to": "bettina_amplified"
+    }
+  ],
+  "upgradesTo": "bettina_amplified"
 }

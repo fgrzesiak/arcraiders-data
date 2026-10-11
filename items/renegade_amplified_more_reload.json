@@ -1,0 +1,291 @@
+{
+  "id": "renegade_amplified_more_reload",
+  "name": {
+    "da": "Forstærket Renegade · Hurtigere Genladning",
+    "de": "Verstärkte Renegade · Mehr nachladen",
+    "en": "Amplified Renegade · More Reload",
+    "es": "Renegado amplificado · Recarga ampliada",
+    "fr": "Renégat amplifié · Rechargement accéléré",
+    "he": "רנגייד מוגבר · טעינה משופרת",
+    "hr": "Pojačani Renegade · Brže punjenje",
+    "it": "Renegade amplificato · Più ricarica",
+    "ja": "強化版レネゲイド · リロードアップ",
+    "ko-KR": "증폭된 레니게이드 · 재장전량 증가",
+    "no": "Forsterket Renegade · Raskere omlading",
+    "pl": "Wzmocniony Renegat · Powiększone przeładowywanie",
+    "pt": "Renegade Amplificado · Recarga Aprimorada",
+    "pt-BR": "Renegado Amplificado · Mais Recarregamento",
+    "ru": "Усовершенствованный Бунтарь · Увеличенная перезарядка",
+    "sr": "Pojačani Renegade · Brže punjenje",
+    "tr": "Güçlendirilmiş Kaçak · Daha Fazla Yeniden Doldurma",
+    "uk": "Посилений Ренегат · Швидша перезарядка",
+    "zh-CN": "增强型“叛逆” · 高效装填",
+    "zh-TW": "增幅叛將 · 裝填更多"
+  },
+  "description": {
+    "da": "En forstærket variant af Renegade.",
+    "de": "Eine verstärkte Variante der Renegade.",
+    "en": "An amplified variant of the Renegade.",
+    "es": "Una variante amplificada del Renegado.",
+    "fr": "Une variante amplifiée du Renégat.",
+    "he": "גרסה מוגברת של הרנגייד.",
+    "hr": "Pojačana varijanta Renegadea.",
+    "it": "Una variante amplificata del Renegade.",
+    "ja": "レネゲイドの強化版。",
+    "ko-KR": "증폭된 레니게이드입니다.",
+    "no": "En forsterket variant av Renegaden.",
+    "pl": "Wzmocniony wariant Renegata.",
+    "pt": "Uma variante amplificada do Renegade.",
+    "pt-BR": "Uma variante amplificada de Renegado.",
+    "ru": "Усовершенствованная версия Бунтаря.",
+    "sr": "Pojačana varijanta Renegadea.",
+    "tr": "Kaçak'ın güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Ренегата.",
+    "zh-CN": "“叛逆”的增强型变体。",
+    "zh-TW": "叛將的增幅版。"
+  },
+  "type": "Battle Rifle",
+  "rarity": "Legendary",
+  "value": 20800,
+  "weightKg": 10,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Medium Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Moderate",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2.25x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Lever-Action",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Increased Fire Rate": {
+      "value": "75%",
+      "da": "Øget skudhastighed",
+      "de": "Erhöhte Feuerrate",
+      "en": "Increased Fire Rate",
+      "es": "Aumento de la cadencia de fuego",
+      "fr": "Cadence de tir augmentée",
+      "he": "קצב אש מוגבר",
+      "hr": "Povećana brzina paljbe",
+      "it": "Cadenza di fuoco aumentata",
+      "ja": "連射速度上昇",
+      "ko-KR": "발사 속도 증가",
+      "no": "Økt skuddtakt",
+      "pl": "Zwiększona szybkostrzelność",
+      "pt": "Taxa de disparo aumentada",
+      "pt-BR": "Cadência de Tiro Aumentada",
+      "ru": "Повышенная скорострельность",
+      "sr": "Povećana brzina paljbe",
+      "tr": "Artırılmış atış hızı",
+      "uk": "Підвищена швидкість стрільби",
+      "zh-CN": "射速增加",
+      "zh-TW": "提高射速"
+    },
+    "Reduced Dispersion Recovery Time": {
+      "value": "50%",
+      "da": "Reduceret genopretningstid for spredning",
+      "de": "Verringerte Streuungs-Erholungszeit",
+      "en": "Reduced Dispersion Recovery Time",
+      "es": "Tiempo de recuperación de dispersión reducido",
+      "fr": "Temps de récupération de dispersion réduit",
+      "he": "זמן התאוששות מפיזור מופחת",
+      "hr": "Smanjeno vrijeme oporavka raspršenja",
+      "it": "Tempo di recupero della dispersione ridotto",
+      "ja": "拡散回復時間短縮",
+      "ko-KR": "분산 회복 시간 감소",
+      "no": "Redusert gjenopprettingstid for spredning",
+      "pl": "Skrócony czas powrotu rozrzutu",
+      "pt": "Tempo de recuperação de dispersão reduzido",
+      "pt-BR": "Redução no Tempo de Recuperação da Dispersão",
+      "ru": "Сокращённое время восстановления разброса",
+      "sr": "Smanjeno vreme oporavka raspršenja",
+      "tr": "Azaltılmış saçılma toparlanma süresi",
+      "uk": "Скорочений час відновлення розсіювання",
+      "zh-CN": "散布恢复时间缩短",
+      "zh-TW": "降低散射恢復時間"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 13
+  },
+  "salvagesInto": {
+    "amplified_fragments": 9
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_amplified_more_reload.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.BattleRifle",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.MediumAmmoWeapon",
+        "Items.SpecificWeapon.Renegade"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "arc": {
+        "armorMultiplier": 0.8
+      },
+      "base": {
+        "adsTimeSec": 0.8,
+        "burnRate": 0.003719,
+        "burstSize": 1,
+        "clipSize": 8,
+        "firePower": 90000,
+        "fireRate": 60,
+        "looping": {
+          "entrySec": 0.8,
+          "exitSec": 0.4,
+          "fromAnimation": ["loopSec"],
+          "loopSec": 0.415
+        },
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 35,
+        "reloadTimeSec": 3.5
+      },
+      "equipTimeSec": 1.1,
+      "headshotMultiplier": 2.25,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.6
+    }
+  },
+  "modSlots": {
+    "magazine": [
+      "extended_medium_mag_i",
+      "extended_medium_mag_ii",
+      "extended_medium_mag_iii"
+    ],
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 23
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "fluted_rotor_core": 4
+      },
+      "requires": [
+        {
+          "itemId": "top_mounted_optics_retrofittings"
+        }
+      ],
+      "to": "renegade_amplified_more_reload_scoped"
+    }
+  ]
+}

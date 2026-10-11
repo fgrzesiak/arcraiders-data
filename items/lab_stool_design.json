@@ -1,0 +1,50 @@
+{
+  "id": "lab_stool_design",
+  "name": {
+    "da": "Labskammeldesign",
+    "de": "Entwurf: Laborhocker",
+    "en": "Lab Stool Design",
+    "es": "Diseño de taburete de laboratorio",
+    "fr": "Schéma de tabouret de laboratoire",
+    "he": "עיצוב שרפרף מעבדה",
+    "hr": "Nacrt laboratorijskog stolca.",
+    "it": "Design Sgabello del laboratorio",
+    "ja": "ラボスツールのデザイン",
+    "ko-KR": "연구소 스툴 디자인",
+    "no": "Labkrakkdesign",
+    "pl": "Projekt stołka laboratoryjnego",
+    "pt": "Projeto de Banco de Laboratório",
+    "pt-BR": "Projeto da Banqueta de Laboratório",
+    "ru": "Схема: Лабораторный табурет",
+    "sr": "Nacrt laboratorijske stolice",
+    "tr": "Laboratuvar Taburesi Tasarımı",
+    "uk": "Дизайн лабораторного табурета",
+    "zh-CN": "实验室凳子设计图",
+    "zh-TW": "實驗室凳設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/lab_stool.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 1
+      },
+      "level": 1,
+      "offerId": 810062669,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

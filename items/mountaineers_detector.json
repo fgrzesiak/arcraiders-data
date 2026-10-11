@@ -1,0 +1,70 @@
+{
+  "id": "mountaineers_detector",
+  "name": {
+    "da": "Bjergbestigerens Detektor",
+    "de": "Bergsteiger-Detektor",
+    "en": "Mountaineer’s Detector",
+    "es": "Detector de montañista",
+    "fr": "Détecteur d'alpiniste",
+    "he": "גלאי מטפס הרים",
+    "hr": "Planinarski detektor",
+    "it": "Rilevatore dell'alpinista",
+    "ja": "登山家の探知機",
+    "ko-KR": "등산가의 탐지기",
+    "no": "Fjellklatrerdetektor",
+    "pl": "Wykrywacz alpinisty",
+    "pt": "Detector de Montanhista",
+    "pt-BR": "Detector de Montanhista",
+    "ru": "Детектор альпиниста",
+    "sr": "Planinarski detektor",
+    "tr": "Dağcı'nın Dedektörü",
+    "uk": "Альпіністський детектор",
+    "zh-CN": "登山者探测器",
+    "zh-TW": "登山者探測器"
+  },
+  "description": {
+    "da": "Nyttig til at finde fremmedlegemer gemt i sneen. Som en ekstra bonus virker den lige så godt på sand.",
+    "de": "Praktisch, um im Schnee verborgene Fremdkörper zu finden. Ein zusätzlicher Vorteil: Er funktioniert genauso gut auf Sand.",
+    "en": "Useful for finding foreign objects hidden in the snow. As an added bonus, it works just as well on sand.",
+    "es": "Muy útil para encontrar objetos enterrados en la nieve. Además, tiene el plus de que también funciona en la arena.",
+    "fr": "Utile pour trouver des objets étrangers cachés dans la neige. En prime, il fonctionne tout aussi bien sur le sable.",
+    "he": "שימושי למציאת חפצים זרים החבויים בשלג. כבונוס נוסף, הוא עובד באותה מידה גם על חול.",
+    "hr": "Korisno za pronalaženje stranih objekata skrivenih u snijegu. Kao dodatni bonus, jednako dobro radi i na pijesku.",
+    "it": "Utile per individuare oggetti estranei nascosti nella neve. Come bonus aggiuntivo, funziona altrettanto bene sulla sabbia.",
+    "ja": "雪に埋もれた異物を探すのに役立つ。おまけに、砂地でも同様の効果を発揮する。",
+    "ko-KR": "눈 속에 숨은 물체를 찾는 데 유용합니다. 덤으로 모래에서도 똑같이 잘 작동합니다.",
+    "no": "Nyttig for å finne fremmedlegemer gjemt i snøen. Som en ekstra bonus fungerer den like godt på sand.",
+    "pl": "Przydaje się do znajdowania przedmiotów ukrytych w śniegu, a dodatkowym plusem jest fakt, że działa równie dobrze na piachu.",
+    "pt": "Útil para encontrar objetos estranhos escondidos na neve. Como bônus adicional, funciona tão bem na areia.",
+    "pt-BR": "Útil para achar objetos estranhos escondidos na neve. Além disso, também funciona na areia.",
+    "ru": "Пригодится для поисков полезностей в снегах. На песке работает ничем не хуже.",
+    "sr": "Korisno za pronalaženje stranih predmeta skrivenih u snegu. Kao dodatni bonus, funkcioniše podjednako dobro na pesku.",
+    "tr": "Karda gizlenen yabancı nesneleri bulmada kullanışlı. Ek olarak kumda da bir o kadar iyi çalışıyor.",
+    "uk": "Корисний для пошуку сторонніх предметів, прихованих у снігу. Як додатковий бонус, він так само добре працює на піску.",
+    "zh-CN": "可用于探测积雪下埋藏的异物。附带的惊喜是，它在沙地中同样好用。",
+    "zh-TW": "適合用於尋找隱藏在雪地中的異物。它的另一個好處就是在沙地上也同樣管用。"
+  },
+  "type": "Quick Use",
+  "rarity": "Rare",
+  "value": 2000,
+  "weightKg": 1,
+  "stackSize": 1,
+  "blueprintLocked": true,
+  "craftBench": "workbench",
+  "stationLevelRequired": 1,
+  "recipe": {
+    "calculator": 2,
+    "dockmasters_detector": 1,
+    "magnet": 3
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/mountaineers_detector.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Gadget",
+      "dropType": ["Equipment.Gadget"],
+      "itemType": ["Gadget"]
+    }
+  }
+}

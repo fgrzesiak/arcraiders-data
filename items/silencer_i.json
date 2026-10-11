@@ -9,7 +9,7 @@
     "he": "משתיק I",
     "hr": "Prigušivač I",
     "it": "Silenziatore I",
-    "ja": "サイレンサー I",
+    "ja": "サイレンサーI",
     "ko-KR": "소음기 I",
     "no": "Lyddemper I",
     "pl": "Tłumik I",
@@ -20,29 +20,29 @@
     "tr": "Susturucu I",
     "uk": "Глушник I",
     "zh-CN": "消音器 I",
-    "zh-TW": "消音器 I"
+    "zh-TW": "消音器I"
   },
   "description": {
     "da": "Reducerer lidt mængden af støj, der produceres ved skydning.",
     "de": "Verringert die Lautstärke von Schüssen geringfügig.",
     "en": "Slightly reduces the amount of noise produced when firing.",
     "es": "Reduce ligeramente la cantidad de ruido producido al disparar.",
-    "fr": "Réduit légèrement la quantité de bruit produite lors du tir.",
+    "fr": "Réduit légèrement la détonation des tirs.",
     "he": "מפחית מעט את עוצמת הרעש בעת הירי.",
     "hr": "Blago smanjuje količinu buke proizvedene pri pucanju.",
-    "it": "Riduce leggermente la quantità di rumore prodotto durante lo sparo.",
-    "ja": "発砲時の騒音をわずかに軽減する。",
-    "ko-KR": "발사 시 발생하는 소음을 약간 감소시킵니다.",
+    "it": "Riduce leggermente il rumore prodotto durante lo sparo.",
+    "ja": "発射時の騒音を少し抑える。",
+    "ko-KR": "사격 시 발생하는 소음을 약간 줄여줍니다.",
     "no": "Reduserer litt mengden støy som produseres ved skyting.",
-    "pl": "Nieznacznie zmniejsza ilość hałasu wytwarzanego podczas strzału.",
+    "pl": "Nieznacznie zmniejsza hałas podczas strzelania.",
     "pt": "Reduz ligeiramente a quantidade de ruído produzido ao disparar.",
     "pt-BR": "Reduz de maneira sutil a quantidade de ruído produzido durante o disparo.",
     "ru": "Немного снижает уровень шума при стрельбе.",
     "sr": "Blago smanjuje količinu buke proizvedene pri pucanju.",
-    "tr": "Ateş ederken üretilen gürültü miktarını hafifçe azaltır.",
+    "tr": "Ateş edilirken ortaya çıkan sesi biraz azaltır.",
     "uk": "Трохи знижує рівень шуму під час стрільби.",
-    "zh-CN": "略微降低射击时产生的噪音。",
-    "zh-TW": "略微降低射擊時產生的噪音。"
+    "zh-CN": "小幅度降低开火时的噪音。",
+    "zh-TW": "稍微降低射擊時產生的噪音。"
   },
   "type": "Modification",
   "rarity": "Uncommon",
@@ -61,34 +61,35 @@
     "Osprey",
     "Rattler",
     "Renegade",
+    "Stiletto",
     "Stitcher",
     "Tempest",
     "Torrente"
   ],
   "blueprintLocked": true,
   "effects": {
-    "Noise Reduction": {
+    "Reduced Noise": {
       "value": "20%",
-      "da": "Støjreduktion",
-      "de": "Geräuschreduzierung",
-      "en": "Noise Reduction",
-      "es": "Reducción de ruido",
-      "fr": "Réduction du bruit",
-      "he": "הפחתת רעש",
-      "hr": "Smanjenje Buke",
-      "it": "Riduzione rumore",
+      "da": "Reduceret støj",
+      "de": "Reduzierte Lautstärke",
+      "en": "Reduced Noise",
+      "es": "Ruido reducido",
+      "fr": "Bruit réduit",
+      "he": "רעש מופחת",
+      "hr": "Smanjena buka",
+      "it": "Rumore ridotto",
       "ja": "騒音軽減",
       "ko-KR": "소음 감소",
-      "no": "Støyreduksjon",
-      "pl": "Redukcja hałasu",
-      "pt": "Redução de ruído",
+      "no": "Redusert støy",
+      "pl": "Zredukowany hałas",
+      "pt": "Ruído reduzido",
       "pt-BR": "Redução de Barulho",
       "ru": "Снижение шума",
-      "sr": "Smanjenje Buke",
-      "tr": "Gürültü Azaltma",
-      "uk": "Зниження шуму",
-      "zh-CN": "噪音降低",
-      "zh-TW": "噪音降低"
+      "sr": "Smanjena buka",
+      "tr": "Azaltılmış Gürültü",
+      "uk": "Зменшення шуму",
+      "zh-CN": "降低噪音",
+      "zh-TW": "降低噪音"
     }
   },
   "craftBench": "weapon_bench",
@@ -107,15 +108,25 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/silencer_i.png",
   "updatedAt": "03/22/2026",
   "addedIn": "base",
-  "vendors": [
-    {
-      "cost": {
-        "creds": 100
-      },
-      "limit": 1,
-      "refreshSeconds": 86400,
-      "trader": "Shani"
+  "mechanics": {
+    "classification": {
+      "category": "Modification.Firearm.Muzzle",
+      "dropType": ["Equipment.Modification.Weapon"],
+      "itemType": ["Modification.Firearm.Muzzle"]
     },
+    "mod": {
+      "modifiers": [
+        {
+          "amount": 20,
+          "benefit": "positive",
+          "direction": "down",
+          "stat": "noise",
+          "unit": "percent"
+        }
+      ]
+    }
+  },
+  "vendors": [
     {
       "cost": {
         "coins": 6000

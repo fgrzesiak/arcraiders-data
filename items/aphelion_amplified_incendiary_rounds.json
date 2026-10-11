@@ -1,0 +1,236 @@
+{
+  "id": "aphelion_amplified_incendiary_rounds",
+  "name": {
+    "da": "Forstærket Aphelion · Brandrunder",
+    "de": "Verstärkter Aphelion · Brandgeschosse",
+    "en": "Amplified Aphelion · Incendiary Rounds",
+    "es": "Afelio amplificado · Munición incendiaria",
+    "fr": "Aphelion amplifié · Munitions incendiaires",
+    "he": "אפליון מוגבר · קליעי תבערה",
+    "hr": "Pojačani Aphelion · Zapaljivi meci",
+    "it": "Aphelion amplificata · Munizioni incendiarie",
+    "ja": "強化版アフェリオン · 焼夷弾",
+    "ko-KR": "증폭된 아펠리온 · 소이탄",
+    "no": "Forsterket Aphelion · Brannammunisjon",
+    "pl": "Wzmocniony Aphelion · Pociski zapalające",
+    "pt": "Aphelion Amplificado · Munição Incendiária",
+    "pt-BR": "Afélio Amplificado · Projéteis Incendiários",
+    "ru": "Усовершенствованный Афелий · Зажигательные патроны",
+    "sr": "Pojačan Aphelion · Zapaljiva municija",
+    "tr": "Güçlendirilmiş Aphelion · Yakıcı Mermiler",
+    "uk": "Посилений Афеліон · Запальні набої",
+    "zh-CN": "增强型“远日点” · 燃烧弹",
+    "zh-TW": "增幅阿菲利昂 · 燃燒子彈"
+  },
+  "description": {
+    "da": "En forstærket variant af Aphelion.",
+    "de": "Eine verstärkte Variante des Aphelion.",
+    "en": "An amplified variant of the Aphelion.",
+    "es": "Una variante amplificada del Afelio.",
+    "fr": "Une variante amplifiée de l'Aphelion.",
+    "he": "גרסה מוגברת של האפליון.",
+    "hr": "Pojačana varijanta Apheliona.",
+    "it": "Una variante amplificata dell'Aphelion.",
+    "ja": "アフェリオンの強化版。",
+    "ko-KR": "증폭된 아펠리온입니다.",
+    "no": "En forsterket variant av Aphelion.",
+    "pl": "Wzmocniony wariant Apheliona.",
+    "pt": "Uma variante amplificada do Aphelion.",
+    "pt-BR": "Uma variante amplificada de Afélio.",
+    "ru": "Усовершенствованная версия Афелия.",
+    "sr": "Pojačana varijanta Apheliona.",
+    "tr": "Aphelion'ın güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Афеліона.",
+    "zh-CN": "“远日点”的增强型变体。",
+    "zh-TW": "阿菲利昂的增幅版。"
+  },
+  "type": "Battle Rifle",
+  "rarity": "Legendary",
+  "value": 35200,
+  "weightKg": 10,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Energy Clip",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Strong",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "2-Round Burst",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 17
+  },
+  "salvagesInto": {
+    "amplified_fragments": 11
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/aphelion_amplified_incendiary_rounds.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.BattleRifle",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.EnergyAmmoWeapon",
+        "Items.SpecificWeapon.Aphelion"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "energy_clip",
+      "arc": {
+        "armorMultiplier": 2.5,
+        "propagationMultiplier": 1
+      },
+      "base": {
+        "burnRate": 0.0009,
+        "burstSize": 2,
+        "clipSize": 10,
+        "cooldownSec": 0.7,
+        "firePower": 5000000,
+        "fireRate": 700,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 25,
+        "reloadTimeSec": 3.5
+      },
+      "equipTimeSec": 1.1,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.6
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 30
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "queen_reactor": 2
+      },
+      "requires": [
+        {
+          "itemId": "high_voltage_exposure"
+        }
+      ],
+      "to": "aphelion_amplified_charged_burst_incendiary_rounds"
+    },
+    {
+      "cost": {
+        "pressure_regulator": 3
+      },
+      "to": "aphelion_amplified_bigger_mag_incendiary_rounds"
+    }
+  ]
+}

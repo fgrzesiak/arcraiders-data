@@ -1,0 +1,50 @@
+{
+  "id": "diner_ceiling_lamp_design",
+  "name": {
+    "da": "Diner Loftslampe-design",
+    "de": "Diner-Deckenlampe Entwurf",
+    "en": "Diner Ceiling Lamp Design",
+    "es": "Diseño de lámpara de techo estilo diner",
+    "fr": "Design du Plafonnier du diner",
+    "he": "עיצוב מנורת תקרה: דיינר",
+    "hr": "Nacrt Diner stropne lampe",
+    "it": "Design della Plafoniera del diner",
+    "ja": "ダイナーの天井ランプのデザイン",
+    "ko-KR": "다이너 천장 램프 디자인",
+    "no": "Diner Taklampe Design",
+    "pl": "Projekt: Lampa sufitowa w dinerze",
+    "pt": "Projeto: Luminária de Teto de Lanchonete",
+    "pt-BR": "Projeto da Luminária de Teto da Lanchonete",
+    "ru": "Схема потолочной лампы закусочной",
+    "sr": "Nacrt plafonske lampe 'Diner'",
+    "tr": "Lokanta Tavan Lambası Tasarımı",
+    "uk": "Дизайн стельового світильника 'Закусочна'",
+    "zh-CN": "餐馆吸顶灯设计图",
+    "zh-TW": "餐館天花板燈設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/diner_ceiling_lamp.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "broken_taser": 3
+      },
+      "level": 3,
+      "offerId": 197441389,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

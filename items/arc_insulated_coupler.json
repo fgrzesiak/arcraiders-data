@@ -1,0 +1,62 @@
+{
+  "id": "arc_insulated_coupler",
+  "name": {
+    "da": "ARC Isoleret Kobler",
+    "de": "ARC-Isolierkupplung",
+    "en": "ARC Insulated Coupler",
+    "es": "Acoplador aislante ARC",
+    "fr": "Coupleur isolé ARC",
+    "he": "מחבר מבודד של ARC",
+    "hr": "ARC Izolirani spojnik",
+    "it": "Giunto isolato ARC",
+    "ja": "絶縁ARCカプラー",
+    "ko-KR": "아크 절연 커플러",
+    "no": "ARC Isolert Kobling",
+    "pl": "Sprzęgacz ARC z izolacją",
+    "pt": "Acoplador Isolado ARC",
+    "pt-BR": "Acoplador Revestido ARC",
+    "ru": "Изолированная муфта ARC",
+    "sr": "ARC Izolovana spojnica",
+    "tr": "ARC Yalıtımlı Bağlama Kolu",
+    "uk": "Ізольований з'єднувач ARC",
+    "zh-CN": "ARC绝缘耦合器",
+    "zh-TW": "ARC絕緣接頭"
+  },
+  "description": {
+    "da": "Én af tre forskellige koblinger fundet i ARC-maskiner, som siges at kunne kombineres til en enkelt ledning.",
+    "de": "Eine von drei unterschiedlichen Kupplungen, die in ARC-Maschinen zu finden sind und die sich angeblich zu einem einzigen Leiter verbinden.",
+    "en": "One of three distinct couplers found in ARC machines, said to combine into a singular conduit.",
+    "es": "Uno de tres manguitos de unión distintos hallados en máquinas ARC. Según dicen, hay que combinar los tres en un solo conducto.",
+    "fr": "L'un des trois coupleurs distincts trouvés dans les machines ARC et censés s'assembler pour former un conduit unique.",
+    "he": "אחד משלושה מחברים מובחנים שנמצאו במכונות ARC, ונאמר שהם מתחברים ליצירת צינור יחיד.",
+    "hr": "Jedan od tri različita spojnika pronađenih u ARC strojevima, za koje se kaže da se kombiniraju u jedinstveni vod.",
+    "it": "Uno dei tre giunti distinti presenti nelle macchine ARC, che si dice si combinino per formare un unico condotto.",
+    "ja": "ARCマシンの中にある3種類のカプラーの一つ。すべて組み合わせると1つの導管になると言われている。",
+    "ko-KR": "아크 머신에서 발견되는 서로 다른 커플러 3개 중 하나입니다. 세 개를 합치면 하나의 도관이 된다고 합니다.",
+    "no": "En av tre distinkte koblinger funnet i ARC-maskiner, som sies å kunne kombineres til en enkelt leder.",
+    "pl": "Jeden z trzech odrębnych sprzęgaczy występujących w maszynach ARC. Podobno można go połączyć z innymi w jedną całość.",
+    "pt": "Um dos três acopladores distintos encontrados em máquinas ARC, que se diz combinarem em um único condutor.",
+    "pt-BR": "Um de três acopladores diferentes encontrados nas máquinas ARC que dizem formar um conduíte incomum.",
+    "ru": "Одна из трех уникальных муфт машин ARC, которые должны объединяться в один переходник.",
+    "sr": "Jedna od tri različite spojnice pronađene u ARC mašinama, za koje se kaže da se spajaju u jedan provodnik.",
+    "tr": "ARC makinelerinde bulunan üç farklı bağlama kolundan biri. Tek bir kablo borusuna bağlandığı söyleniyor.",
+    "uk": "Один із трьох різних з'єднувачів, знайдених у машинах ARC, які, як кажуть, об'єднуються в єдиний провідник.",
+    "zh-CN": "ARC机器中发现的三种专用耦合器之一，据说可拼接成一根完整导管。",
+    "zh-TW": "這是ARC機器上三個不同接頭的其中一個，據說可以組合成一個完整的導管。"
+  },
+  "type": "Topside Material",
+  "rarity": "Epic",
+  "value": 100,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/arc_insulated_coupler.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.CollectorKeyPart"],
+      "itemType": ["Misc"],
+      "theme": ["ARC"]
+    }
+  }
+}

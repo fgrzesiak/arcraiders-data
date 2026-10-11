@@ -1,0 +1,74 @@
+{
+  "id": "high_voltage_exposure",
+  "name": {
+    "da": "Højspændingseksponering",
+    "de": "Kontakt mit Hochspannung",
+    "en": "High-Voltage Exposure",
+    "es": "Exposición al alto voltaje",
+    "fr": "Exposition à haute tension",
+    "he": "חשיפה למתח גבוה",
+    "hr": "Visokonaponska izloženost.",
+    "it": "Esposizione ad alto voltaggio",
+    "ja": "高電圧への曝露",
+    "ko-KR": "고전압 노출",
+    "no": "Høyspenningseksponering",
+    "pl": "Ekspozycja na wysokie napięcie",
+    "pt": "Exposição a Alta Tensão",
+    "pt-BR": "Exposição a Alta Voltagem",
+    "ru": "Воздействие высокого напряжения",
+    "sr": "Izloženost visokom naponu",
+    "tr": "Yüksek Gerilime Maruz Kalma",
+    "uk": "Вплив високої напруги",
+    "zh-CN": "高压暴露试验",
+    "zh-TW": "高壓暴露"
+  },
+  "description": {
+    "da": "Nogle ARC-maskiner ser ud til at kunne absorbere energi, før de genanvender den. Samme princip kunne være værd at teste på noget, der er lidt mindre isoleret.",
+    "de": "Manche ARC-Maschinen scheinen in der Lage zu sein, Energie zu absorbieren, bevor sie sie wieder nutzen. Es könnte sich lohnen, dasselbe Prinzip mal an etwas zu testen, das etwas weniger isoliert ist.",
+    "en": "Some ARC machines appear capable of absorbing energy before putting it back to use. The same principle might be worth testing on something a little less insulated.",
+    "es": "Algunas máquinas ARC parecen ser capaces de absorber energía y reaprovecharla. Sería interesante probar este mismo mecanismo con algo que tenga menos aislamiento.",
+    "fr": "Certaines machines ARC semblent capables d'absorber de l'énergie avant de la réutiliser. Ce même principe mériterait peut-être d'être testé sur quelque chose d'un peu moins isolé.",
+    "he": "נראה שמכונות ARC מסוימות מסוגלות לספוג אנרגיה לפני שהן מפעילות אותה מחדש. אולי כדאי לבחון את אותו עיקרון על משהו קצת פחות מבודד.",
+    "hr": "Neki ARC strojevi izgleda da su sposobni apsorbirati energiju prije nego je ponovno upotrijebe. Isto načelo možda vrijedi testirati na nečemu malo manje izoliranom.",
+    "it": "Alcune macchine ARC sembrano in grado di assorbire energia prima di riutilizzarla. Potrebbe valere la pena testare lo stesso principio su qualcosa di un po' meno isolato.",
+    "ja": "一部のARCマシンは、エネルギーを吸収してから再利用できるようだ。もう少し絶縁性の低いものを使って、同じ原理を試してみる価値があるかもしれない。",
+    "ko-KR": "일부 아크 머신은 에너지를 흡수한 뒤 다시 활용할 수 있는 듯합니다. 같은 원리를 절연이 조금 덜 된 대상에게 시험해 볼 만합니다.",
+    "no": "Noen ARC-maskiner ser ut til å kunne absorbere energi før de bruker den på nytt. Det samme prinsippet kan være verdt å teste på noe som er litt mindre isolert.",
+    "pl": "Niektóre maszyny ARC są w stanie pochłaniać energię, a następnie ponownie ją wykorzystywać. Warto przetestować tę zasadę na czymś o trochę mniejszej izolacji.",
+    "pt": "Algumas máquinas ARC parecem capazes de absorver e reutilizar energia. Valeria a pena testar o mesmo princípio em algo um pouco menos isolado.",
+    "pt-BR": "Algumas máquinas ARC parecem ser capazes de absorver energia antes de reaproveitá-la. Pode valer a pena testar o mesmo princípio em algo um pouco menos isolado.",
+    "ru": "Похоже, что некоторые машины ARC способны поглощать энергию, чтобы затем ее использовать. Стоит изучить этот принцип в полевых условиях.",
+    "sr": "Čini se da neke ARC mašine mogu da apsorbuju energiju pre nego što je ponovo iskoriste. Isti princip bi možda vredelo testirati na nečemu što je malo manje izolovano.",
+    "tr": "Bazı ARC makineleri enerjiyi tekrar kullanmadan önce onu emebiliyorlar gibi görünüyor. Aynı prensip daha az izolasyonlu bir şey üzerinde denemeye değer olabilir.",
+    "uk": "Деякі машини ARC, схоже, здатні поглинати енергію, перш ніж знову її використовувати. Той самий принцип, можливо, варто випробувати на чомусь менш ізольованому.",
+    "zh-CN": "部分ARC机器似乎能吸收能量再加以利用。同样的原理，或许可以在绝缘性没那么好的东西上试试。",
+    "zh-TW": "某些ARC機器似乎能吸收能量再重複利用。同樣原理或許值得在較不絕緣的東西上試試。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/high_voltage_exposure.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "leaper_pulse_unit": 5
+      },
+      "level": 4,
+      "offerId": 345930580,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "high_voltage_exposure"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

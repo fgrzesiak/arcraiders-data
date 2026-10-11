@@ -1,0 +1,50 @@
+{
+  "id": "barstool_design",
+  "name": {
+    "da": "Barstol Design",
+    "de": "Barhocker-Entwurf",
+    "en": "Barstool Design",
+    "es": "Diseño de taburete de bar",
+    "fr": "Design de tabouret de bar",
+    "he": "עיצוב כיסא בר",
+    "hr": "Nacrt barske stolice",
+    "it": "Design Sgabello da bar",
+    "ja": "バースツールデザイン",
+    "ko-KR": "바스툴 디자인",
+    "no": "Barstol Design",
+    "pl": "Projekt hokera",
+    "pt": "Projeto de Banqueta de Bar",
+    "pt-BR": "Projeto de Banqueta de Bar",
+    "ru": "Схема барного табурета",
+    "sr": "Dizajn Barske Stolice",
+    "tr": "Bar Taburesi Tasarımı",
+    "uk": "Дизайн барного стільця",
+    "zh-CN": "吧台凳设计图",
+    "zh-TW": "高腳椅設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/barstool.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_parts": 15
+      },
+      "level": 1,
+      "offerId": 953601791,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "embedded_blast_engineering",
+  "name": {
+    "da": "Indlejret Eksplosionsteknik",
+    "de": "Eingebettete Sprengtechnik",
+    "en": "Embedded Blast Engineering",
+    "es": "Tecnología de explosión integrada",
+    "fr": "Explosifs intégrés",
+    "he": "הנדסת נפץ משולבת",
+    "hr": "Ugrađeni eksplozivni inženjering",
+    "it": "Ingegneria degli esplosivi integrata",
+    "ja": "埋込型爆破工学",
+    "ko-KR": "내장형 폭발 공학",
+    "no": "Innebygd Eksplosivteknikk",
+    "pl": "Wbudowane mechanizmy wybuchowe",
+    "pt": "Engenharia de Detonação Incorporada",
+    "pt-BR": "Engenharia de Explosão Embutida",
+    "ru": "Разработка сопровождаемого взрыва",
+    "sr": "Inženjering ugrađenih eksplozija",
+    "tr": "Gömülü Patlama Mühendisliği",
+    "uk": "Вмонтована вибухова інженерія",
+    "zh-CN": "内嵌爆炸工程学",
+    "zh-TW": "嵌入式爆炸設計"
+  },
+  "description": {
+    "da": "Rustning er effektiv mod kugler. Mindre eksplosioner tager dog ikke samme hensyn til opsætningen. At kombinere de to kan være værd at udforske.",
+    "de": "Rüstung schützt gut vor Kugeln. Kleine Explosionen nehmen da schon weniger Rücksicht auf die Anordnung. Es könnte sich lohnen, beides mal zu kombinieren.",
+    "en": "Armor does a good job against bullets. Small explosions are less respectful of the arrangement. Combining the two might be worth exploring.",
+    "es": "El blindaje ofrece una buena protección contra las balas. Las explosiones pequeñas no opinan lo mismo. Sería interesante investigar una forma de combinar ambas cosas.",
+    "fr": "Le blindage protège efficacement contre les balles. Les petites explosions respectent moins cette disposition. Combiner les deux pourrait mériter quelques recherches.",
+    "he": "שריון עושה עבודה טובה נגד קליעים. פיצוצים קטנים מכבדים פחות את המערך. אולי כדאי לשקול לשלב את השניים.",
+    "hr": "Oklop dobro štiti od metaka. Male eksplozije se manje obaziru na njegovu strukturu. Možda vrijedi istražiti kombinaciju to dvoje.",
+    "it": "L'armatura offre una buona protezione contro i proiettili. Le piccole esplosioni, invece, la rispettano meno. Potrebbe valere la pena esplorare la combinazione delle due.",
+    "ja": "装甲は銃弾に対しては効果的だが、ちょっとした爆発に対する耐性はあまりない。銃弾と爆発の組み合わせは検討の価値があるかもしれない。",
+    "ko-KR": "장갑판은 탄환을 잘 막아냅니다. 하지만 작은 폭발에는 별 소용이 없죠. 탄환과 작은 폭발을 결합해 볼 만합니다.",
+    "no": "Pansring beskytter godt mot kuler. Små eksplosjoner tar mindre hensyn til konstruksjonen. Å kombinere de to kan være verdt å utforske.",
+    "pl": "Pancerz dobrze sprawdza się w starciu z pociskami, ale niekoniecznie z małymi wybuchami. Być może warto połączyć obydwie te kwestie.",
+    "pt": "Armaduras funcionam bem contra balas. Pequenas explosões, no entanto, não respeitam a mesma lógica. Explorar a combinação de ambos pode ser valioso.",
+    "pt-BR": "Ter uma blindagem protege bem contra projéteis, mas não ajuda muito contra explosões menores. Pode valer a pena explorar uma combinação desses dois elementos.",
+    "ru": "Броня отлично защищает от пуль, а вот с небольшими взрывами справляется не очень. Возможно, стоит попробовать объединить пули со взрывчаткой.",
+    "sr": "Oklop pruža dobru zaštitu od metaka. Male eksplozije su manje obazrive na takav raspored. Vredi istražiti kombinaciju to dvoje.",
+    "tr": "Zırh mermiler karşısında iyi koruma sağlar ancak küçük patlamalar bu düzene pek ayak uydurmaz. Bu ikisini birleştirmek denemeye değebilir.",
+    "uk": "Броня чудово захищає від куль. Однак невеликі вибухи менш поблажливі до її конструкції. Можливо, варто дослідити поєднання цих двох.",
+    "zh-CN": "护甲能有效抵挡子弹，但小型爆炸就没那么好防了。如何把两者结合起来，或许值得研究。",
+    "zh-TW": "護甲有很好的防彈效果。小型爆炸則比較不在乎這種效果。結合兩者或許值得深入探索。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/embedded_blast_engineering.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rocketeer_driver": 5
+      },
+      "level": 4,
+      "offerId": 828604810,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "embedded_blast_engineering"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

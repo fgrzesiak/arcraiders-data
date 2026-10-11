@@ -1,0 +1,50 @@
+{
+  "id": "warehouse_dresser_design",
+  "name": {
+    "da": "Lagerkommodedesign",
+    "de": "Entwurf: Lagerhaus-Kommode",
+    "en": "Warehouse Dresser Design",
+    "es": "Diseño de cómoda del almacén",
+    "fr": "Design de la Commode d'entrepôt",
+    "he": "עיצוב שידת מחסן",
+    "hr": "Dizajn skladišne komode",
+    "it": "Design Cassettiera del magazzino",
+    "ja": "倉庫ドレッサーのデザイン",
+    "ko-KR": "창고 서랍장 디자인",
+    "no": "Lagerkommode-design",
+    "pl": "Projekt komody magazynowej",
+    "pt": "Projeto de Cômoda de Armazém",
+    "pt-BR": "Projeto da Cômoda do Armazém",
+    "ru": "Схема складского комода",
+    "sr": "Nacrt skladišne komode",
+    "tr": "Depo Şifonyer Tasarımı",
+    "uk": "Дизайн складського комода",
+    "zh-CN": "仓库衣柜设计图",
+    "zh-TW": "倉庫衣櫥設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/warehouse_dresser.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "sheetmetal": 30
+      },
+      "level": 2,
+      "offerId": 301672557,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "amplification_module_mk_iv",
+  "name": {
+    "da": "Forstærkermodul MK. IV",
+    "de": "Verstärkermodul MK. IV",
+    "en": "Amplification Module MK. IV",
+    "es": "Módulo de amplificación ver. IV",
+    "fr": "Module d'amplification IV",
+    "he": "מודול הגברה MK. IV",
+    "hr": "Modul za pojačanje MK. IV",
+    "it": "Modulo di amplificazione MK. IV",
+    "ja": "強化モジュールMK. IV",
+    "ko-KR": "증폭 모듈 MK. IV",
+    "no": "Forsterkningsmodul MK. IV",
+    "pl": "Moduł wzmacniający MK. IV",
+    "pt": "Módulo de Amplificação MK. IV",
+    "pt-BR": "Módulo de Amplificação Mk. IV",
+    "ru": "Совершенствующий модуль IV",
+    "sr": "Modul za pojačanje MK. IV",
+    "tr": "Güçlendirme Modülü MK. IV",
+    "uk": "Модуль Ампліфікації МК. IV",
+    "zh-CN": "增强模块Mk. IV",
+    "zh-TW": "增幅模組MK. IV"
+  },
+  "description": {
+    "da": "Avanceret ARC-teknologi, der låser op for episk våbenforstærkning.",
+    "de": "Fortschrittliche ARC-Technologie, die die Verstärkung epischer Waffen freischaltet.",
+    "en": "Advanced ARC technology that unlocks epic weapon Amplification.",
+    "es": "Tecnología ARC avanzada que desbloquea la amplificación de armas excepcionales.",
+    "fr": "Technologie ARC avancée qui débloque l'amplification des armes épiques.",
+    "he": "טכנולוגיית ARC מתקדמת שפותחת הגברת נשק אפית.",
+    "hr": "Napredna ARC tehnologija koja otključava epsko pojačanje oružja.",
+    "it": "Tecnologia ARC avanzata che sblocca l'amplificazione delle armi epiche.",
+    "ja": "エピックの武器強化をアンロックできる高度なARCテクノロジー。",
+    "ko-KR": "에픽 등급 무기의 증폭을 잠금 해제하는 고급 아크 기술입니다.",
+    "no": "Avansert ARC-teknologi som låser opp episk våpenforsterkning.",
+    "pl": "Zaawansowana technologia ARC, która odblokowuje wzmocnienia epickich broni.",
+    "pt": "Tecnologia ARC avançada que desbloqueia a Amplificação de arma épica.",
+    "pt-BR": "Tecnologia ARC avançada que desbloqueia amplificação de armas épicas.",
+    "ru": "Продвинутая технология ARC, которая позволяет совершенствовать эпическое оружие.",
+    "sr": "Napredna ARC tehnologija koja otključava epsko pojačanje oružja.",
+    "tr": "Destansı silah Güçlendirmesi'nin kilidini açan gelişmiş bir ARC teknolojisi.",
+    "uk": "Просунута технологія ARC, що розблоковує епічну Ампліфікацію зброї.",
+    "zh-CN": "先进ARC科技，可解锁史诗武器增强。",
+    "zh-TW": "先進ARC技術，可用於解鎖史詩武器增幅。"
+  },
+  "type": "Topside Material",
+  "rarity": "Epic",
+  "value": 7000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "recyclesInto": {
+    "amplified_fragments": 7
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/amplification_module_mk_iv.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.Ascension.Module"],
+      "itemType": ["Misc"],
+      "questGroups": ["Items.AscensionModules"],
+      "theme": ["ARC"]
+    }
+  }
+}

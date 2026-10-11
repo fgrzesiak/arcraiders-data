@@ -1,0 +1,63 @@
+{
+  "id": "stencil_parts",
+  "name": {
+    "da": "Stencildele",
+    "de": "Schablonenteile",
+    "en": "Stencil Parts",
+    "es": "Piezas de modelo",
+    "fr": "Pièces de décoration",
+    "he": "חלקי שבלונה",
+    "hr": "Dijelovi za šablonu",
+    "it": "Parti stencil",
+    "ja": "デカールパーツ",
+    "ko-KR": "스텐실 부품",
+    "no": "Sjablongdeler",
+    "pl": "Części szablonu",
+    "pt": "Peças de Estêncil",
+    "pt-BR": "Peças de Estampa",
+    "ru": "Детали раскраски",
+    "sr": "Delovi šablona",
+    "tr": "Şablon Parçaları",
+    "uk": "Деталі Трафарету",
+    "zh-CN": "贴花组件",
+    "zh-TW": "貼膜零件"
+  },
+  "description": {
+    "da": "Bruges til at påføre stencils på våben.",
+    "de": "Wird zum Aufbringen von Schablonen auf Waffen verwendet.",
+    "en": "Used to apply stencils to weapons.",
+    "es": "Sirve para aplicar modelos a las armas.",
+    "fr": "Sert à appliquer des décorations aux armes.",
+    "he": "משמש ליישום שבלונות על כלי נשק.",
+    "hr": "Koristi se za nanošenje šablona na oružje.",
+    "it": "Si usa per applicare stencil alle armi.",
+    "ja": "デカールを武器に適用するために使用する。",
+    "ko-KR": "무기에 스텐실을 적용하는 데 사용됩니다.",
+    "no": "Brukes til å påføre sjablonger på våpen.",
+    "pl": "Rzecz służąca do nakładania szablonów na broń.",
+    "pt": "Usado para aplicar estênceis em armas.",
+    "pt-BR": "Serve para aplicar estampas nas armas.",
+    "ru": "Для применения раскраски к оружию.",
+    "sr": "Koristi se za nanošenje šablona na oružje.",
+    "tr": "Silahlara şablon uygulamada kullanılır.",
+    "uk": "Використовується для нанесення трафаретів на зброю.",
+    "zh-CN": "用于为武器应用贴花。",
+    "zh-TW": "用於為武器套用貼膜。"
+  },
+  "type": "Basic Material",
+  "rarity": "Epic",
+  "value": 1,
+  "weightKg": 0.1,
+  "stackSize": 500,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/stencil_parts.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Basic",
+      "dropType": ["Salvage.Material.OutpostMaterial"],
+      "itemType": ["Misc"],
+      "theme": ["Commercial", "Industrial", "Residential"]
+    }
+  }
+}

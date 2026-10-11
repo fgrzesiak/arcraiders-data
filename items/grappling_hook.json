@@ -1,0 +1,110 @@
+{
+  "id": "grappling_hook",
+  "name": {
+    "da": "Gribekrog",
+    "de": "Enterhaken",
+    "en": "Grappling Hook",
+    "es": "Gancho",
+    "fr": "Grappin",
+    "he": "וו טיפוס",
+    "hr": "Kuka za hvatanje",
+    "it": "Rampino",
+    "ja": "グラップル・フック",
+    "ko-KR": "그래플링 훅",
+    "no": "Gripehake",
+    "pl": "Kotwiczka",
+    "pt": "Gancho de Escalada",
+    "pt-BR": "Arpéu",
+    "ru": "Абордажный крюк",
+    "sr": "Kuka za hvatanje",
+    "tr": "Tutma Kancası",
+    "uk": "Гак-кішка",
+    "zh-CN": "钩爪",
+    "zh-TW": "抓鉤"
+  },
+  "description": {
+    "da": "En simpel gadget, der fæstner sig til de fleste overflader, så brugere kan navigere svært tilgængelige steder.",
+    "de": "Ein einfaches Gerät, das sich an den meisten Oberflächen festhakt und es dir ermöglicht, an schwer zugängliche Stellen zu gelangen.",
+    "en": "A simple gadget that anchors to most surfaces, allowing users to navigate hard-to-reach places.",
+    "es": "Un artilugio simple que se ancla a la mayoría de superficies, lo que permite llegar a lugares de difícil acceso.",
+    "fr": "Un gadget simple qui s'ancre sur la plupart des surfaces et permet de se déplacer dans des endroits difficiles d'accès.",
+    "he": "גאדג'ט פשוט הנצמד לרוב המשטחים, ומאפשר למשתמשים לנווט למקומות קשים לגישה.",
+    "hr": "Jednostavan gadget koji se pričvršćuje za većinu površina, omogućavajući korisnicima navigaciju do teško dostupnih mjesta.",
+    "it": "Un semplice gadget che si aggancia alla maggior parte delle superfici, permettendo di raggiungere posti difficili.",
+    "ja": "ほとんどの表面に固定でき、到達が難しい場所への移動を可能にするシンプルなガジェット。",
+    "ko-KR": "대부분의 표면에 고정할 수 있는 간단한 가젯으로, 접근하기 어려운 곳까지 이동할 수 있게 해 줍니다.",
+    "no": "En enkel dings som fester seg til de fleste overflater, og lar brukere navigere vanskelig tilgjengelige steder.",
+    "pl": "Prosty gadżet przyczepiający się do większości powierzchni, dzięki któremu można dotrzeć do trudno dostępnych miejsc.",
+    "pt": "Um gadget simples que se prende à maioria das superfícies, permitindo aos usuários navegar por lugares de difícil acesso.",
+    "pt-BR": "Um acessório simples que se prende na maioria das superfícies, permitindo acessar locais difíceis de alcançar.",
+    "ru": "Простое приспособление, которое можно зацепить за большинство поверхностей. Позволяет добраться в труднодоступные места.",
+    "sr": "Jednostavan gedžet koji se kači za većinu površina, omogućavajući korisnicima da se kreću po teško dostupnim mestima.",
+    "tr": "Çoğu yüzeye sabitlenerek kullanıcılara erişmesi zor yerlere ulaşma imkanı tanıyan basit bir cihaz.",
+    "uk": "Простий гаджет, що кріпиться до більшості поверхонь, дозволяючи гравцям діставатися до важкодоступних місць.",
+    "zh-CN": "简易装置，可固定在绝大多数物体表面，帮助使用者抵达难以到达的区域。",
+    "zh-TW": "一個可以固定在大多數表面上的簡單道具，能讓使用者前往難以到達的地方。"
+  },
+  "type": "Quick Use",
+  "rarity": "Uncommon",
+  "value": 1200,
+  "weightKg": 5,
+  "stackSize": 1,
+  "blueprintLocked": true,
+  "effects": {
+    "Range": {
+      "value": "20m",
+      "da": "Rækkevidde",
+      "de": "Reichweite",
+      "en": "Range",
+      "es": "Alcance",
+      "fr": "Portée",
+      "he": "טווח",
+      "hr": "Domet",
+      "it": "Portata",
+      "ja": "射程",
+      "ko-KR": "거리",
+      "no": "Rekkevidde",
+      "pl": "Zasięg",
+      "pt": "Alcance",
+      "pt-BR": "Alcance",
+      "ru": "Дальность стрельбы",
+      "sr": "Domet",
+      "tr": "Menzil",
+      "uk": "Дальність",
+      "zh-CN": "射程",
+      "zh-TW": "射程"
+    }
+  },
+  "craftBench": ["in_raid", "utility_bench"],
+  "stationLevelRequired": 1,
+  "recipe": {
+    "cable_stripper": 1,
+    "mechanical_components": 1,
+    "rope": 2
+  },
+  "recyclesInto": {
+    "cable_stripper": 1,
+    "rope": 1
+  },
+  "salvagesInto": {
+    "rope": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/grappling_hook.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "card": {
+      "rangeM": 20
+    },
+    "classification": {
+      "category": "Gadget",
+      "itemType": ["Gadget"]
+    },
+    "partial": ["gadget"]
+  },
+  "repairCost": {
+    "cable_stripper": 1,
+    "rope": 1
+  },
+  "repairDurability": 0.5
+}

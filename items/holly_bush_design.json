@@ -1,0 +1,50 @@
+{
+  "id": "holly_bush_design",
+  "name": {
+    "da": "Kristtornbuskdesign",
+    "de": "Stechpalmenstrauch-Entwurf",
+    "en": "Holly Bush Design",
+    "es": "Diseño de arbusto de acebo",
+    "fr": "Design de Buisson de houx",
+    "he": "עיצוב שיח צינית",
+    "hr": "Nacrt grma božikovine.",
+    "it": "Design del Cespuglio di agrifoglio",
+    "ja": "ヒイラギの茂みデザイン",
+    "ko-KR": "호랑가시나무 덤불 디자인",
+    "no": "Kristtornbuskdesign",
+    "pl": "Projekt krzewu ostrokrzewu",
+    "pt": "Projeto de Arbusto de Azevinho",
+    "pt-BR": "Projeto de Arbusto de Azevinho",
+    "ru": "Схема куста падуба",
+    "sr": "Nacrt žbuna božikovine",
+    "tr": "Çobanpüskülü Çalısı Tasarımı",
+    "uk": "Дизайн куща падуба",
+    "zh-CN": "冬青丛设计图",
+    "zh-TW": "冬青灌木設計"
+  },
+  "type": "Design",
+  "rarity": "Epic",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/holly_bush.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "candleberries": 20
+      },
+      "level": 3,
+      "offerId": 112835559,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
+}

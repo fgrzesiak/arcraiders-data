@@ -1,0 +1,68 @@
+{
+  "id": "insulation_roll",
+  "name": {
+    "da": "Isoleringsrulle",
+    "de": "Dämmstoffrolle",
+    "en": "Insulation Roll",
+    "es": "Rollo aislante",
+    "fr": "Rouleau d'isolant",
+    "he": "גליל בידוד",
+    "hr": "Rola izolacije",
+    "it": "Rotolo isolante",
+    "ja": "断熱ロール",
+    "ko-KR": "둘둘 만 단열재",
+    "no": "Isolasjonsrull",
+    "pl": "Mata izolacyjna",
+    "pt": "Rolo de Isolamento",
+    "pt-BR": "Rolo de Isolamento",
+    "ru": "Изоляционный материал",
+    "sr": "Rolna izolacije",
+    "tr": "Yalıtım Rulosu",
+    "uk": "Рулон ізоляції",
+    "zh-CN": "隔热卷材",
+    "zh-TW": "隔熱捲材"
+  },
+  "description": {
+    "da": "Kan genanvendes til fremstillingsmaterialer.",
+    "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+    "en": "Can be recycled into crafting materials.",
+    "es": "Se puede reciclar para obtener materiales de fabricación.",
+    "fr": "Peut être recyclé en matériaux d'artisanat.",
+    "he": "ניתן למחזר לחומרי יצירה.",
+    "hr": "Može se reciklirati u materijale za izradu.",
+    "it": "Si può riciclare in materiali da creazione.",
+    "ja": "リサイクルすると製作用素材になる。",
+    "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+    "no": "Kan resirkuleres til håndverksmaterialer.",
+    "pl": "Można wykorzystać ponownie do wytworzenia materiałów.",
+    "pt": "Pode ser reciclado em materiais de criação.",
+    "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+    "ru": "Можно переработать, чтобы получить материалы.",
+    "sr": "Može se reciklirati u materijale za izradu.",
+    "tr": "Üretim materyallerine geri dönüştürülebilir.",
+    "uk": "Можна переробити на матеріали для виготовлення.",
+    "zh-CN": "可回收为制作材料。",
+    "zh-TW": "可回收成製作材料。"
+  },
+  "type": "Recyclable",
+  "rarity": "Epic",
+  "value": 3000,
+  "weightKg": 0.5,
+  "stackSize": 3,
+  "recyclesInto": {
+    "durable_cloth": 2
+  },
+  "salvagesInto": {
+    "fabric": 6
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/insulation_roll.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Recyclable",
+      "dropType": ["Salvage.Recyclables"],
+      "itemType": ["Misc"]
+    }
+  }
+}

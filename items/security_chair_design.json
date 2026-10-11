@@ -1,0 +1,50 @@
+{
+  "id": "security_chair_design",
+  "name": {
+    "da": "Sikkerhedsstol-design",
+    "de": "Entwurf: Sicherheitsstuhl",
+    "en": "Security Chair Design",
+    "es": "Diseño de silla de seguridad",
+    "fr": "Design de Chaise de sécurité",
+    "he": "עיצוב כיסא אבטחה",
+    "hr": "Nacrt sigurnosnog stolca",
+    "it": "Design Sedia di sicurezza",
+    "ja": "セキュリティチェアのデザイン",
+    "ko-KR": "보안 의자 디자인",
+    "no": "Sikkerhetsstol-design",
+    "pl": "Projekt krzesła ochrony",
+    "pt": "Design de Cadeira de Segurança",
+    "pt-BR": "Projeto de Cadeira de Segurança",
+    "ru": "Схема: Стул охранника",
+    "sr": "Dizajn stolice za obezbeđenje",
+    "tr": "Güvenlik Sandalyesi Tasarımı",
+    "uk": "Дизайн крісла для охорони",
+    "zh-CN": "安保座椅设计图",
+    "zh-TW": "保安椅設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/security_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 5
+      },
+      "level": 2,
+      "offerId": 105511084,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

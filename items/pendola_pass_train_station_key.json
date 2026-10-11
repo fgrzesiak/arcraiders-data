@@ -1,0 +1,66 @@
+{
+  "id": "pendola_pass_train_station_key",
+  "name": {
+    "da": "Pendola Pass Togstationsnøgle",
+    "de": "Schlüssel zum Bahnhof am Pendola-Pass",
+    "en": "Pendola Pass Train Station Key",
+    "es": "Llave de la estación de tren del Paso Pendola",
+    "fr": "Clé de la Gare du Col de Pendola",
+    "he": "מפתח תחנת רכבת, פנדולה פאס",
+    "hr": "Ključ za Željezničku Stanicu Pendola Pass",
+    "it": "Chiave della stazione ferroviaria del Passo di Pendola",
+    "ja": "ペンドラ峠電車駅の鍵",
+    "ko-KR": "펜돌라 고개 기차역 열쇠",
+    "no": "Nøkkel til Togstasjonen, Pendola Pass",
+    "pl": "Klucz do stacji kolejowej w przełęczy Pendola",
+    "pt": "Chave da Estação Ferroviária de Pendola Pass",
+    "pt-BR": "Chave da Estação de Trem da Passagem Pendola",
+    "ru": "Ключ от станции на перевале Пендолы",
+    "sr": "Ključ Železničke Stanice Pendola Passa",
+    "tr": "Pendola Geçidi Tren İstasyonu Anahtarı",
+    "uk": "Ключ від Залізничної Станції Пендола Пасс",
+    "zh-CN": "彭多拉山口火车站钥匙",
+    "zh-TW": "彭多拉隘口火車站鑰匙"
+  },
+  "description": {
+    "da": "Låser op for en dør i Almatera Stationen på Pendola Pass.",
+    "de": "Öffnet eine Tür in der Almatera-Station am Pendola-Pass.",
+    "en": "Unlocks a door in the Almatera Station on Pendola Pass.",
+    "es": "Abre una puerta de la estación Almatera del Paso Pendola.",
+    "fr": "Déverrouille une porte dans la Station Almatera, au Col de Pendola.",
+    "he": "פותח דלת בתחנת אלמטרה בפנדולה פאס.",
+    "hr": "Otključava vrata u Postaji Almatera na Pendola Passu.",
+    "it": "Sblocca una porta nella stazione di Almatera sul Passo di Pendola.",
+    "ja": "ペンドラ峠のアルマテラ駅の中にある扉を開けることができる。",
+    "ko-KR": "펜돌라 고개의 알마테라 역에 있는 문을 엽니다.",
+    "no": "Låser opp en dør i Almatera Station på Pendola Pass.",
+    "pl": "Otwiera drzwi na stacji Almatera w przełęczy Pendola.",
+    "pt": "Destranca uma porta na Estação Almatera em Pendola Pass.",
+    "pt-BR": "Destranca uma porta da Estação Almatera na Passagem Pendola.",
+    "ru": "Открывает дверь на станции Альматера на перевале Пендолы.",
+    "sr": "Otključava vrata u Stanici Almatera na Pendola Passu.",
+    "tr": "Pendola Geçidi'nde Almatera İstasyonu'ndaki bir kapıyı açar.",
+    "uk": "Відмикає двері на Станції Алматера на Пендола Пасс.",
+    "zh-CN": "可打开彭多拉山口阿尔玛特拉站的一扇门。",
+    "zh-TW": "解鎖彭多拉隘口中阿爾馬特拉車站內的一扇門。"
+  },
+  "type": "Key",
+  "rarity": "Rare",
+  "value": 100,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/pendola_pass_train_station_key.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Utility.Key",
+      "dropType": ["Salvage.Key.FrozenTrail", "Salvage.Material.UtilityKey"],
+      "itemType": ["Misc"]
+    },
+    "key": {
+      "map": "pendola_pass",
+      "mapSource": "drop-tag",
+      "mapTag": "FrozenTrail"
+    }
+  }
+}

@@ -2,31 +2,73 @@
   "id": "extended_barrel_ii_blueprint",
   "name": {
     "da": "Forlaenget lob-tegning II",
-    "de": "Bauplan: Verlangerter Lauf II",
+    "de": "Bauplan: Verlängerter Lauf II",
     "en": "Extended Barrel II Blueprint",
-    "es": "Plano de Canon extendido II",
-    "fr": "Schema Canon Allonge II",
+    "es": "Proyecto del cañón ampliado II",
+    "fr": "Schéma de canon allongé II",
     "he": "שרטוט לקנה מוארךII",
     "hr": "Produzena cijev Nacrt II",
     "it": "Progetto Canna estesa II",
-    "ja": "拡張バレル 設計図 II",
-    "ko-KR": "확장형 총열 설계도 II",
+    "ja": "拡張バレルIIの設計図",
+    "ko-KR": "확장형 총열 II 설계도",
     "no": "Forlenget lop-tegning II",
-    "pl": "Projekt Wydluzona lufa II",
+    "pl": "Plan: wydłużona lufa II",
     "pt": "Projeto de Cano estendido II",
     "pt-BR": "Esquema de Cano Estendido II",
     "ru": "Чертеж — Удлиненный ствол II",
     "sr": "Produzena cev Nacrt II",
-    "tr": "Uzatilmis Namlu Taslağı II",
+    "tr": "Uzatılmış Namlu II Taslağı",
     "uk": "Креслення Подовжений ствол II",
-    "zh-CN": "加长枪管 II 蓝图",
-    "zh-TW": "加長槍管 藍圖 II"
+    "zh-CN": "加长枪管II蓝图",
+    "zh-TW": "加長槍管II藍圖"
+  },
+  "description": {
+    "da": "Lader dig fremstille et Extended Barrel II",
+    "de": "Damit stellst du einen verlängerten Lauf II her",
+    "en": "Lets you craft an Extended Barrel II",
+    "es": "Te permite fabricar un cañón ampliado II.",
+    "fr": "Vous permet de fabriquer un canon allongé II",
+    "he": "מאפשר לך ליצור קנה מוארך II",
+    "hr": "Omogućuje izradu predmeta Extended Barrel II",
+    "it": "Ti permette di creare una Canna allungata II",
+    "ja": "拡張バレルIIが製作可能になる",
+    "ko-KR": "확장형 총열 II 제작법입니다.",
+    "no": "Lar deg fremstille Forlenget løp II",
+    "pl": "Pozwala wytworzyć wydłużoną lufę II",
+    "pt": "Permite criar um Cano Estendido II",
+    "pt-BR": "Permite fabricar um Cano Estendido II",
+    "ru": "Позволяет создать удлиненный ствол II.",
+    "sr": "Omogućava izradu produžene cevi II (Extended Barrel II)",
+    "tr": "Uzatılmış Namlu II üretmeni sağlar",
+    "uk": "Дозволяє створити Подовжений ствол II",
+    "zh-CN": "可以制作加长枪管II",
+    "zh-TW": "可製作加長槍管II"
   },
   "type": "Blueprint",
   "rarity": "Common",
   "value": 5000,
   "weightKg": 0,
   "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/extended_barrel_ii_blueprint.png",
   "updatedAt": "05/19/2026",
-  "addedIn": "1.29"
+  "addedIn": "1.29",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rusty_arc_steel": 5,
+        "steel_cable": 1
+      },
+      "level": 2,
+      "offerId": 348435074,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
 }

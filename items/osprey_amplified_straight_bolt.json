@@ -1,0 +1,295 @@
+{
+  "id": "osprey_amplified_straight_bolt",
+  "name": {
+    "da": "Forstærket Osprey · Ergonomisk Bolt",
+    "de": "Verstärkter Osprey · Ergonomischer Verschluss",
+    "en": "Amplified Osprey · Ergonomic Bolt",
+    "es": "Halieto amplificado · Cerrojo ergonómico",
+    "fr": "Balbuzard amplifié · Culasse ergonomique",
+    "he": "Osprey מוגבר · בריח ארגונומי",
+    "hr": "Pojačani Osprey · Ergonomski zatvarač",
+    "it": "Falco pescatore amplificato · Bullone ergonomico",
+    "ja": "強化版オスプレー · エルゴノミックボルト",
+    "ko-KR": "증폭된 오스프레이 · 인체공학적 노리쇠",
+    "no": "Forsterket Osprey · Ergonomisk bolt",
+    "pl": "Wzmocniony Rybołów · Ergonomiczna dźwignia",
+    "pt": "Osprey Amplificada · Ferrolho Ergonômico",
+    "pt-BR": "Osprey Amplificada · Ferrolho Ergonômico",
+    "ru": "Усовершенствованный Ястреб · Эргономичный затвор",
+    "sr": "Pojačani Osprey · Ergonomski zatvarač",
+    "tr": "Güçlendirilmiş Kartal · Ergonomik Sürgü",
+    "uk": "Посилений Osprey · Ергономічний затвор",
+    "zh-CN": "增强型“鱼鹰” · 人体工学枪栓",
+    "zh-TW": "增幅魚鷹 · 人體工學槍栓"
+  },
+  "description": {
+    "da": "En forstærket variant af Osprey.",
+    "de": "Eine verstärkte Variante des Osprey.",
+    "en": "An amplified variant of the Osprey.",
+    "es": "Una variante amplificada del Halieto.",
+    "fr": "Une variante amplifiée du Balbuzard.",
+    "he": "גרסה מוגברת של ה-Osprey.",
+    "hr": "Pojačana varijanta Ospreya.",
+    "it": "Una variante amplificata del Falco pescatore.",
+    "ja": "オスプレーの強化版。",
+    "ko-KR": "증폭된 오스프레이입니다.",
+    "no": "En forsterket variant av Osprey.",
+    "pl": "Wzmocniony wariant Rybołowa.",
+    "pt": "Uma variante amplificada da Osprey.",
+    "pt-BR": "Uma variante amplificada de Osprey.",
+    "ru": "Усовершенствованная версия Ястреба.",
+    "sr": "Pojačana varijanta Osprey-a.",
+    "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Osprey.",
+    "zh-CN": "“鱼鹰”的增强型变体。",
+    "zh-TW": "魚鷹的增幅版。"
+  },
+  "type": "Sniper Rifle",
+  "rarity": "Legendary",
+  "value": 20800,
+  "weightKg": 7,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Medium Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Moderate",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Bolt-Action",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Reduced Bolt-Action Time": {
+      "value": "60%",
+      "da": "Reduceret Bolt-Action Tid",
+      "de": "Verkürzte Repetierzeit",
+      "en": "Reduced Bolt-Action Time",
+      "es": "Tiempo de cerrojo reducido",
+      "fr": "Temps de réarmement réduit",
+      "he": "זמן פעולת בריח מופחת",
+      "hr": "Smanjeno vrijeme repetiranja",
+      "it": "Ciclo otturatore ridotto",
+      "ja": "ボルトアクション時間短縮",
+      "ko-KR": "볼트액션 시간 감소",
+      "no": "Redusert bolttid",
+      "pl": "Szybsze ryglowanie zamka",
+      "pt": "Tempo de Ferrolho Reduzido",
+      "pt-BR": "Tempo de Ferrolhamento Reduzido",
+      "ru": "Ускорение затвора",
+      "sr": "Smanjeno Vreme Repetiranja",
+      "tr": "Bolt-Aksiyon Süresi Azaltma",
+      "uk": "Зменшений час роботи затвора",
+      "zh-CN": "栓动时间缩短",
+      "zh-TW": "縮短栓動時間"
+    },
+    "Reduced Reload Time": {
+      "value": "37.5%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 13
+  },
+  "salvagesInto": {
+    "amplified_fragments": 9
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_amplified_straight_bolt.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.SniperRifle",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.MediumAmmoWeapon",
+        "Items.SpecificWeapon.Osprey"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "arc": {
+        "armorMultiplier": 0.8,
+        "propagationMultiplier": 0.4,
+        "weakSpotMultiplier": 1
+      },
+      "base": {
+        "adsTimeSec": 1,
+        "burnRate": 0.00675,
+        "burstSize": 1,
+        "clipSize": 8,
+        "cooldownSec": 1.5,
+        "firePower": 90000,
+        "fireRate": 45,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 45,
+        "reloadTimeSec": 3.5
+      },
+      "equipTimeSec": 1.1,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.6
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "magazine": [
+      "extended_medium_mag_i",
+      "extended_medium_mag_ii",
+      "extended_medium_mag_iii"
+    ],
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 23
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "assessor_matrix": 2
+      },
+      "requires": [
+        {
+          "itemId": "targeted_component_trial"
+        }
+      ],
+      "to": "osprey_amplified_straight_bolt_anti_weak_point"
+    },
+    {
+      "cost": {
+        "matriarch_reactor": 2
+      },
+      "to": "osprey_amplified_tracker_rounds_straight_bolt"
+    }
+  ]
+}
