@@ -1,48 +1,48 @@
 {
   "id": "renegade_i",
   "name": {
-    "da": "Renegade I",
+    "da": "Renegat I",
     "de": "Renegade I",
     "en": "Renegade I",
     "es": "Renegado I",
     "fr": "Renégat I",
     "he": "רנגייד I",
-    "hr": "Renegade I",
+    "hr": "Odmetnik I",
     "it": "Renegade I",
     "ja": "レネゲイド I",
     "ko-KR": "레니게이드 I",
-    "no": "Renegade I",
-    "pl": "Renegade I",
-    "pt": "Renegade I",
+    "no": "Renegat I",
+    "pl": "Renegat I",
+    "pt": "Renegado I",
     "pt-BR": "Renegado I",
-    "ru": "Ренегат I",
-    "sr": "Ренегат I",
+    "ru": "Бунтарь I",
+    "sr": "Renegat I",
     "tr": "Kaçak I",
-    "uk": "Ренегат I",
+    "uk": "Бунтар I",
     "zh-CN": "叛逆 I",
-    "zh-TW": "叛徒 I"
+    "zh-TW": "叛將I"
   },
   "description": {
-    "da": "Har høj skadeoutput, præcision og hovedskudsskade.",
-    "de": "Richtet bei Körpertreffern und insbesondere bei Kopfschüssen hohen Schaden an und ist präzise.",
+    "da": "Lever-action kampgevær med høj skade, præcision og headshot-skade.",
+    "de": "Kampfgewehr mit Hebel, das bei Körpertreffern und insbesondere bei Kopfschüssen hohen Schaden anrichtet und präzise ist.",
     "en": "Lever-action battle rifle with high damage output, accuracy, and headshot damage.",
-    "es": "Tiene alta potencia de daño, precisión y daño por disparo a la cabeza.",
-    "fr": "Possède des dégâts élevés, une bonne précision et des dégâts de tir à la tête importants.",
-    "he": "רובה קרב בעל מנגנון מנוף עם נזק גבוה, דיוק רב ונזק פגיעות ראש.",
-    "hr": "Ima visoku štetu, preciznost i štetu od pogotka u glavu.",
-    "it": "Ha alto Danni, precisione e Danni da colpo alla testa.",
-    "ja": "高いダメージ出力、精度、ヘッドショットダメージを持つ。",
-    "ko-KR": "높은 피해량, 정확도, 헤드샷 피해를 가지고 있습니다.",
-    "no": "Har høy skadeeffekt, nøyaktighet og hodeskuddskade.",
-    "pl": "Ma wysokie obrażenia, celność i obrażenia od strzałów w głowę.",
-    "pt": "Possui alto dano, precisão e dano de tiro na cabeça.",
-    "pt-BR": "Tem alto poder de dano, precisão e dano de tiro na cabeça.",
-    "ru": "Обладает высоким уроном, точностью и уроном в голову.",
-    "sr": "Ima visoku štetu, preciznost i štetu od pogotka u glavu.",
-    "tr": "Yüksek hasar çıkışı, isabetlilik ve kafadan vuruş hasarına sahiptir.",
-    "uk": "Має високу шкоду, точність та шкоду від пострілів в голову.",
-    "zh-CN": "具有高伤害输出、精准度和爆头伤害。",
-    "zh-TW": "具有高傷害輸出、精準度和爆頭傷害。"
+    "es": "Fusil de combate con mecanismo de palanca que tiene un daño, una precisión y un daño por tiros a la cabeza elevados.",
+    "fr": "Fusil de combat à levier. Puissant et précis, il inflige de lourds dégâts à la tête.",
+    "he": "רובה קרב בעל פעולת מנוף עם תפוקת נזק, דיוק ונזק פגיעת ראש גבוהים.",
+    "hr": "Borbena puška s polužnim mehanizmom s velikom štetom, preciznošću i štetom od pogotka u glavu.",
+    "it": "Fucile da battaglia a leva con elevata potenza di danno, precisione e danni alla testa.",
+    "ja": "レバーアクションのバトルライフル。与ダメージと精度とヘッドショットダメージが高い。",
+    "ko-KR": "높은 피해량, 정확도, 헤드샷 대미지를 지닌 레버 액션 전투 소총입니다.",
+    "no": "Bøylerepeterende kampgevær med høy skade, presisjon og hodeskuddskade.",
+    "pl": "Dźwigniowy karabin bojowy o dużym potencjale obrażeń. Cechuje się dobrą celnością i zadaje duże obrażenia od strzałów w głowę.",
+    "pt": "Fuzil de batalha de ação por alavanca com alto dano causado, precisão e dano de tiro na cabeça.",
+    "pt-BR": "Fuzil de batalha de ação por alavanca com alto poder de dano, precisão e dano de tiro na cabeça.",
+    "ru": "Боевая винтовка рычажного действия с высоким уроном и точностью. Наносит увеличенный урон при попадании в голову.",
+    "sr": "Borbena puška sa polužnim mehanizmom, odlikuje se velikom štetom, preciznošću i štetom od pogotka u glavu.",
+    "tr": "Hasarı, isabeti ve kafadan vuruş hasarı yüksek olan levyeli çatışma tüfeği.",
+    "uk": "Бойова гвинтівка важільної дії з високою шкодою, точністю та додатковою шкодою в голову.",
+    "zh-CN": "杠杆式战斗步枪，伤害高、精准度高，且爆头伤害尤其高。",
+    "zh-TW": "槓動式戰鬥步槍，具有高傷害輸出、高精準度和高爆頭傷害。"
   },
   "type": "Battle Rifle",
   "rarity": "Rare",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC 护甲穿透",
       "zh-TW": "ARC 護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2.25x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "150-170 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "100/100",
@@ -184,6 +230,208 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_i.png",
   "updatedAt": "03/22/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.BattleRifle",
+      "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.MediumAmmoWeapon",
+        "Items.SpecificWeapon.Renegade"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "arc": {
+        "armorMultiplier": 0.8
+      },
+      "base": {
+        "adsTimeSec": 0.8,
+        "burnRate": 0.003719,
+        "burstSize": 1,
+        "clipSize": 8,
+        "firePower": 90000,
+        "fireRate": 60,
+        "looping": {
+          "entrySec": 0.8,
+          "exitSec": 0.4,
+          "fromAnimation": ["loopSec"],
+          "loopSec": 0.415
+        },
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 35,
+        "reloadTimeSec": 3.5
+      },
+      "damageFalloff": [
+        [0, 1.2],
+        [5, 1.2],
+        [15, 1.001],
+        [150, 1.001],
+        [170, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 2.7,
+        "adsRecoveryMultiplier": 0.8,
+        "adsScale": 0.2,
+        "fireGain": [
+          [1, 2, 0, 0, "linear"],
+          [8, 2, 14.410254, 14.410301, "cubic"]
+        ],
+        "max": 10,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 2.7,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.7,
+            "adsScale": 0.1,
+            "dispersion": 2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 2.7,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.7,
+            "adsScale": 0.1,
+            "dispersion": 2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.8,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.8,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 2.7,
+            "adsFireDispersionMultiplier": 0.85,
+            "adsRecoveryMultiplier": 0.8,
+            "adsScale": 0.15,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 2.7,
+            "adsFireDispersionMultiplier": 0.85,
+            "adsRecoveryMultiplier": 0.8,
+            "adsScale": 0.15,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.8,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 1,
+        "popRecoverySpeed": 0.2,
+        "recoverySpeed": 3.5,
+        "unset": ["fireMax", "linearRecovery"],
+        "velocity": 2.5,
+        "velocityMax": 3,
+        "velocityRecovery": 5.5
+      },
+      "equipTimeSec": 1.1,
+      "fireRateModifier": "rpm",
+      "headshotMultiplier": 2.25,
+      "modifiers": {
+        "dispersionRecovery": 1.2,
+        "durabilityBurnRate": 0,
+        "fireRate": -15
+      },
+      "projectileGravityScale": 0.6,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.7,
+        "lerpSpeed": 0.4,
+        "pitch": [
+          [0, 0, 2.676612, 0, "linear"],
+          [1, 1, 0, 0, "linear"],
+          [8, 8, 0.835413, 0.835414, "linear"]
+        ],
+        "pitchProceduralRange": [1, 1],
+        "recoverySpeed": 3.5,
+        "sampleCount": 8,
+        "unset": [
+          "yawProceduralRange",
+          "proceduralSwingSpeed",
+          "recoveryDelay"
+        ],
+        "yaw": [
+          [0, 0, 0.09388064, 0.09388064, "cubic"],
+          [0.982044, 0.092194915, -0.15011495, -0.15011495, "cubic"],
+          [1.962317, -0.29457313, 0.23744586, 0.23744586, "cubic"],
+          [2.968783, 0.56393784, -0.15939699, -0.15939699, "cubic"],
+          [3.863273, -0.5975797, -0.15460664, -0.15460664, "cubic"],
+          [4.936072, 0.259782, -0.03970945, -0.03970945, "cubic"],
+          [6.011811, -0.682897, -0.8763083, -0.8763083, "cubic"]
+        ]
+      },
+      "statBarOffsets": {
+        "agility": -1.5,
+        "fireRate": -1.5,
+        "stability": 2
+      },
+      "tier": 1,
+      "unequipTimeSec": 0.6
+    }
+  },
   "modSlots": {
     "magazine": [
       "extended_medium_mag_i",
@@ -218,6 +466,15 @@
     "medium_gun_parts": 1
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 1,
+        "medium_gun_parts": 2
+      },
+      "to": "renegade_ii"
+    }
+  ],
   "upgradesTo": "renegade_ii",
   "vendors": [
     {

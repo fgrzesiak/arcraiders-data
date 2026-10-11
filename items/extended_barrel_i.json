@@ -4,12 +4,12 @@
     "da": "Forlænget løb I",
     "de": "Verlängerter Lauf I",
     "en": "Extended Barrel I",
-    "es": "Cañón extendido I",
-    "fr": "Canon Allongé I",
+    "es": "Cañón ampliado I",
+    "fr": "Canon allongé I",
     "he": "קנה מוארךI",
     "hr": "Produžena cijev I",
     "it": "Canna estesa I",
-    "ja": "拡張バレル I",
+    "ja": "拡張バレルI",
     "ko-KR": "확장형 총열 I",
     "no": "Forlenget løp I",
     "pl": "Wydłużona lufa I",
@@ -19,34 +19,36 @@
     "sr": "Produžena cev I",
     "tr": "Uzatılmış Namlu I",
     "uk": "Подовжений ствол I",
-    "zh-CN": "加长枪管 I",
-    "zh-TW": "加長槍管 I"
+    "zh-CN": "加长枪管I",
+    "zh-TW": "加長槍管I"
   },
   "description": {
-    "en": "Slightly increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "da": "Øger kuglehastigheden og afstanden før skadefald en smule. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "de": "Erhöht die Geschossgeschwindigkeit und die Reichweite bis zum Schadensabfall leicht. Kompatibel mit: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "es": "Aumenta ligeramente la velocidad de las balas y el alcance antes de la caída de daño. Compatible con: Tempestad, Arpeggio, Ferro, Renegado, Yunque",
-    "fr": "Augmente légèrement la vélocité des balles et la portée avant la perte de dégâts. Compatible avec : Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "he": "מגביר מעט את מהירות הקליע ואת הטווח לפני דעיכת הנזק. תואם ל: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "hr": "Blago povećava brzinu metka i domet prije opadanja štete. Kompatibilno s: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "it": "Aumenta leggermente la velocità dei proiettili e la distanza prima del calo dei danni. Compatibile con: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "ja": "弾速とダメージ減衰が始まる距離をわずかに増加させます。対応武器：Tempest、Arpeggio、Ferro、Renegade、Anvil",
-    "ko-KR": "탄환 속도와 피해 감소 시작 거리를 약간 증가시킵니다. 호환 무기: 템페스트, 아르페지오, 페로, 레니게이드, 앤빌",
-    "no": "Øker kulehastigheten og avstanden før skadefall litt. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "pl": "Nieznacznie zwiększa prędkość pocisku i zasięg spadku obrażeń. Kompatybilny z: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "pt": "Aumenta ligeiramente a velocidade das balas e o alcance antes da redução de dano. Compatível com: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "pt-BR": "Aumenta ligeiramente a velocidade das balas e o alcance antes da queda de dano. Compatível com: Temporal, Arpeggio, Ferro, Renegado, Bigorna",
-    "ru": "Немного увеличивает скорость пули и дистанцию до падения урона. Совместимо с: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "sr": "Blago povećava brzinu metka i udaljenost pre opadanja štete. Kompatibilno sa: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "tr": "Mermi hızını ve hasar düşüşü mesafesini hafifçe artırır. Uyumlu silahlar: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "uk": "Трохи збільшує швидкість кулі та дистанцію до спадання шкоди. Сумісно з: Tempest, Arpeggio, Ferro, Renegade, Anvil",
-    "zh-CN": "小幅提高子弹初速和伤害衰减触发距离。适配：风暴，阿佩吉奥，生铁，叛逆，铁砧",
-    "zh-TW": "略微提升子彈速度與傷害衰減開始距離。相容武器：Tempest、Arpeggio、Ferro、Renegade、Anvil"
+    "da": "Øger kuglehastighed og afstand indtil skadesfald en smule.",
+    "de": "Erhöht die Geschossgeschwindigkeit und die Reichweite leicht bis zur Schadensabnahme.",
+    "en": "Slightly increases bullet velocity & distance until damage falloff.",
+    "es": "Aumenta ligeramente la velocidad de las balas y la distancia hasta la reducción del daño.",
+    "fr": "Augmente légèrement la vitesse des projectiles et leur portée avant la perte de puissance.",
+    "he": "מגדיל מעט את מהירות הקליע ואת המרחק עד לירידת הנזק.",
+    "hr": "Blago povećava brzinu metka & udaljenost do pada štete.",
+    "it": "Aumenta leggermente la velocità e la distanza dei proiettili prima del calo di danno.",
+    "ja": "弾速とダメージ減衰までの飛距離がわずかに増加する。",
+    "ko-KR": "탄속과 대미지 감소 시작 거리를 약간 증가시킵니다.",
+    "no": "Øker kulehastighet og avstand før skadefall litt.",
+    "pl": "Nieznacznie zwiększa prędkość pocisków i odległość, po jakiej obrażenia ulegają ograniczeniu.",
+    "pt": "Aumenta levemente a velocidade da bala e a distância até a queda de dano.",
+    "pt-BR": "Aumenta de forma leve a velocidade dos projéteis e a distância até a queda de dano.",
+    "ru": "Немного увеличивает скорость пуль и дальность до снижения урона.",
+    "sr": "Blago povećava brzinu metka i udaljenost pre opadanja štete.",
+    "tr": "Hasar düşene dek mermi hızını ve mesafesini biraz artırır.",
+    "uk": "Трохи збільшує швидкість кулі та дистанцію до початку падіння шкоди.",
+    "zh-CN": "小幅度提高子弹初速和伤害衰减触发距离。",
+    "zh-TW": "稍微提升傷害衰減前的子彈速度與距離。"
   },
   "type": "Modification",
   "rarity": "Uncommon",
   "value": 1000,
+  "weightKg": 0.25,
+  "stackSize": 1,
   "compatibleWith": [
     "Anvil",
     "Arpeggio",
@@ -59,6 +61,7 @@
     "Osprey",
     "Rattler",
     "Renegade",
+    "Stiletto",
     "Stitcher",
     "Tempest",
     "Torrente"
@@ -66,9 +69,9 @@
   "effects": {
     "Increased Bullet Velocity": {
       "value": "10%",
-      "en": "Increased Bullet Velocity",
       "da": "Øget kuglehastighed",
       "de": "Erhöhte Geschossgeschwindigkeit",
+      "en": "Increased Bullet Velocity",
       "es": "Velocidad de bala aumentada",
       "fr": "Vélocité des balles augmentée",
       "he": "מהירות קליע מוגברת",
@@ -89,9 +92,9 @@
     },
     "Increased Distance Until Damage Falloff": {
       "value": "5%",
-      "en": "Increased Distance Until Damage Falloff",
       "da": "Øget afstand før skadefald",
       "de": "Erhöhte Reichweite bis zum Schadensabfall",
+      "en": "Increased Distance Until Damage Falloff",
       "es": "Mayor distancia antes de la caída de daño",
       "fr": "Distance augmentée avant la perte de dégâts",
       "he": "מרחק מוגבר לפני דעיכת הנזק",
@@ -123,6 +126,42 @@
   "salvagesInto": {
     "metal_parts": 3
   },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/extended_barrel_i.png",
   "updatedAt": "05/19/2026",
-  "addedIn": "1.29"
+  "addedIn": "1.29",
+  "mechanics": {
+    "classification": {
+      "category": "Modification.Firearm.Muzzle",
+      "dropType": ["Equipment.Modification.Weapon"],
+      "itemType": ["Modification.Firearm.Muzzle"]
+    },
+    "mod": {
+      "modifiers": [
+        {
+          "amount": 10,
+          "benefit": "positive",
+          "direction": "up",
+          "stat": "bulletVelocity",
+          "unit": "percent"
+        },
+        {
+          "amount": 5,
+          "benefit": "positive",
+          "direction": "up",
+          "stat": "distanceUntilFalloff",
+          "unit": "percent"
+        }
+      ],
+      "ops": [
+        {
+          "addMultiply": 1.1,
+          "stat": "launchSpeed"
+        },
+        {
+          "addMultiply": 0.95,
+          "stat": "falloffDistance"
+        }
+      ]
+    }
+  }
 }

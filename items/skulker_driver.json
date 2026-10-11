@@ -1,0 +1,51 @@
+{
+  "id": "skulker_driver",
+  "name": {
+    "da": "Skulkerdriver",
+    "de": "Skulkertreiber",
+    "en": "Skulker Driver",
+    "es": "Controlador de merodeador",
+    "fr": "Pilote de Rôdeur",
+    "he": "רכיב הנעה של סקאלקר",
+    "hr": "Skulker pogon",
+    "it": "Driver Skulker",
+    "ja": "スカルカーのドライバー",
+    "ko-KR": "스컬커 드라이버",
+    "no": "Skulker-driver",
+    "pl": "Sterownik zerkacza",
+    "pt": "Acionador Skulker",
+    "pt-BR": "Driver de Espreitador",
+    "ru": "Драйвер «Проныры»",
+    "sr": "Skulker Drajver",
+    "tr": "Pusucu Sürücüsü",
+    "uk": "Привід Skulker",
+    "zh-CN": "“潜伏者”引擎",
+    "zh-TW": "潛行者驅動器"
+  },
+  "description": {
+    "da": "Falder fra Surikaten.",
+    "en": "Drops from Meerkat.",
+    "he": "נופל ממרקט.",
+    "hr": "Ispada iz Meerkata.",
+    "no": "Droppes fra Meerkat.",
+    "pt": "Obtido de Meerkat.",
+    "sr": "Ispada iz Merkata.",
+    "uk": "Випадає з Meerkat."
+  },
+  "type": "Recyclable",
+  "rarity": "Rare",
+  "value": 1000,
+  "weightKg": 0.6,
+  "stackSize": 3,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/skulker_driver.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Recyclable",
+      "dropEnemy": ["Meerkat"],
+      "itemType": ["Misc"],
+      "theme": ["ARC"]
+    }
+  }
+}

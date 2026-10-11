@@ -1,0 +1,39 @@
+{
+  "id": "banjo_blueprint",
+  "name": {
+    "da": "Banjo-opskrift",
+    "de": "Bauplan: Banjo",
+    "en": "Banjo Blueprint",
+    "es": "Proyecto del banjo",
+    "fr": "Schéma de banjo",
+    "he": "תרשים בנג'ו",
+    "hr": "Nacrt bendža",
+    "it": "Progetto Banjo",
+    "ja": "バンジョーの設計図",
+    "ko-KR": "밴조 설계도",
+    "no": "Banjo-skisse",
+    "pl": "Plan: banjo",
+    "pt": "Planta de Banjo",
+    "pt-BR": "Esquema de Banjo",
+    "ru": "Чертеж — Банджо",
+    "sr": "Nacrt za bendžo",
+    "tr": "Banjo Taslağı",
+    "uk": "Креслення банджо",
+    "zh-CN": "班卓琴蓝图",
+    "zh-TW": "班卓琴藍圖"
+  },
+  "type": "Blueprint",
+  "rarity": "Common",
+  "weightKg": 0,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/banjo_blueprint.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "diner_cupboard_design",
+  "name": {
+    "da": "Diner Skab-design",
+    "de": "Diner-Schrank-Entwurf",
+    "en": "Diner Cupboard Design",
+    "es": "Diseño de armario de cafetería",
+    "fr": "Design du Placard de diner",
+    "he": "עיצוב ארון: דיינר",
+    "hr": "Nacrt Diner ormarića",
+    "it": "Design della Credenza del diner",
+    "ja": "ダイナーの戸棚デザイン",
+    "ko-KR": "다이너 찬장 디자인",
+    "no": "Diner Skap Design",
+    "pl": "Projekt Szafki w dinerze",
+    "pt": "Projeto: Armário de Lanchonete",
+    "pt-BR": "Projeto do Armário da Lanchonete",
+    "ru": "Схема: Шкафчик в закусочной",
+    "sr": "Nacrt ormarića 'Diner'",
+    "tr": "Lokanta Dolap Tasarımı",
+    "uk": "Дизайн буфета 'Закусочна'",
+    "zh-CN": "餐馆橱柜设计图",
+    "zh-TW": "餐館櫥櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/diner_cupboard.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "planks": 40
+      },
+      "level": 2,
+      "offerId": 471956341,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

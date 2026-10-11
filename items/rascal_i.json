@@ -1,53 +1,54 @@
 {
   "id": "rascal_i",
   "name": {
-    "da": "Rascal I",
+    "da": "Slyngel I",
     "de": "Rascal I",
     "en": "Rascal I",
-    "es": "Rascal I",
-    "fr": "Rascal I",
-    "he": "Rascal I",
-    "hr": "Rascal I",
+    "es": "Pícaro I",
+    "fr": "Vaurien I",
+    "he": "רסקל I",
+    "hr": "Mangup I",
     "it": "Rascal I",
     "ja": "ラスカル I",
     "ko-KR": "라스칼 I",
-    "no": "Rascal I",
-    "pl": "Rascal I",
-    "pt": "Rascal I",
-    "pt-BR": "Rascal I",
-    "ru": "Раскал I",
-    "sr": "Rascal I",
-    "tr": "Rascal I",
-    "uk": "Раскал I",
+    "no": "Rakker I",
+    "pl": "Nicpoń I",
+    "pt": "Pestinha I",
+    "pt-BR": "Pestinha I",
+    "ru": "Негодяй I",
+    "sr": "Mangup I",
+    "tr": "Serseri I",
+    "uk": "Негідник I",
     "zh-CN": "无赖 I",
-    "zh-TW": "無賴 I"
+    "zh-TW": "無賴I"
   },
   "description": {
-    "da": "Skyder eksplosive projektiler, der kun detonerer ved at ramme ARC.",
-    "de": "Feuert explosive Geschosse, die nur beim Treffen von ARC detonieren.",
-    "en": "Fires explosive projectiles that only detonate when hitting ARC.",
-    "es": "Dispara proyectiles explosivos que solo detonan al impactar contra ARC.",
-    "fr": "Tire des projectiles explosifs qui ne détonent qu'en frappant ARC.",
-    "he": "יוציר פרויקטיילים מתפוצצים שפוצצים רק כשפוגעים ב-ARC.",
-    "hr": "Pucava eksplozivne projektele koji detoniraju samo pri udaru u ARC.",
-    "it": "Spara proiettili esplosivi che detonano solo colpendo ARC.",
-    "ja": "爆発的な投射弾を発射し、ARCに命中した時のみ炸裂する。",
-    "ko-KR": "ARC에 충돌했을 때만 폭발하는 폭발投射물을 발사합니다.",
-    "no": "Skyter eksplosive prosjektiler som bare detonerer ved å treffe ARC.",
-    "pl": "Strzelał wybuchowymi pociskami, które eksplodują tylko po trafieniu ARC.",
-    "pt": "Dispara projéteis explosivos que só detonam ao atingir o ARC.",
-    "pt-BR": "Dispara projéteis explosivos que só detonam ao atingir o ARC.",
-    "ru": "Стреляет взрывными снарядами, которые взрываются только при попадании в ARC.",
-    "sr": "Pucava eksplozivne projektile koji detoniraju samo pri udarcu u ARC.",
-    "tr": "ARC'ye vurduğunda patlayan patlayıcı mermiler fırlatır.",
-    "uk": "Стріляє вибуховими снарядами, які вибухають лише при попаданні в ARC.",
-    "zh-CN": "可发射爆炸式射弹，仅当命中ARC时，射弹才会引爆。",
-    "zh-TW": "可發射爆炸式射彈，僅當命中ARC時，射彈才會引爆。"
+    "da": "En improviseret granatkaster, hvis projektiler kun detonerer, når de rammer ARC.",
+    "de": "Ein improvisierter Granatwerfer, bei dem die Granaten erst explodieren, wenn sie ARC treffen.",
+    "en": "An improvised grenade launcher whose projectiles only detonate when hitting ARC.",
+    "es": "Un lanzagranadas improvisado cuyos proyectiles solo detonan al impactar contra una ARC.",
+    "fr": "Un lance-grenades improvisé dont les projectiles n'explosent que lorsqu'ils touchent des ARC.",
+    "he": "מטול רימונים מאולתר שהקליעים שלו מתפוצצים רק בעת פגיעה ב-ARC.",
+    "hr": "Improvizirani bacač granata čiji projektili detoniraju samo pri udarcu u ARC.",
+    "it": "Un lanciagranate improvvisato i cui proiettili esplodono solo colpendo ARC.",
+    "ja": "即席のグレネードランチャー。グレネードはARCに当たった時だけ爆発する。",
+    "ko-KR": "발사체가 아크에 명중할 때만 폭발하는 급조 수류탄 발사기입니다.",
+    "no": "En improvisert granatkaster der prosjektilene kun detonerer når de treffer ARC.",
+    "pl": "Zaimprowizowany miotacz granatów. Zawarte w nim pociski wybuchają wyłącznie po trafieniu ARC.",
+    "pt": "Um lança-granadas improvisado cujos projéteis só detonam ao atingir ARC.",
+    "pt-BR": "Lança-granadas improvisado cujos projéteis só detonam ao atingir ARC.",
+    "ru": "Импровизированный гранатомет. Снаряды взрываются только при попадании в машины ARC.",
+    "sr": "Improvizovani bacač granata čiji projektili detoniraju samo pri udaru u ARC.",
+    "tr": "El yapımı bir bomba atar. Atışlar yalnızca ARC'a isabet edince patlar.",
+    "uk": "Саморобний гранатомет, снаряди якого детонують лише при влучанні в ARC.",
+    "zh-CN": "简易榴弹发射器，仅当命中ARC时，射弹才会引爆。",
+    "zh-TW": "臨時製作的榴彈發射器，拋射物僅會在擊中ARC時引爆。"
   },
   "type": "Special",
   "rarity": "Rare",
   "value": 7000,
   "weightKg": 4,
+  "stackSize": 1,
   "isWeapon": true,
   "blueprintLocked": true,
   "effects": {
@@ -96,6 +97,29 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC 护甲穿透",
       "zh-TW": "ARC 護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
     },
     "Durability": {
       "value": "100/100",
@@ -181,7 +205,217 @@
   "salvagesInto": {
     "heavy_gun_parts": 2
   },
-  "imageFilename": "https://cdn.arctracker.io/items/v2/rascal.png",
+  "imageFilename": "https://cdn.arctracker.io/items/v2/rascal_i.png",
   "updatedAt": "05/19/2026",
-  "addedIn": "1.29"
+  "addedIn": "1.29",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.Special",
+      "dropType": ["Equipment.Weapon.Firearm"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.LauncherAmmoWeapon",
+        "Items.SpecificWeapon.Rascal"
+      ]
+    },
+    "partial": ["projectileSpeed"],
+    "weapon": {
+      "ammoItem": "launcher_ammo",
+      "arc": {
+        "armorMultiplier": 2.5,
+        "propagationMultiplier": 0
+      },
+      "base": {
+        "adsTimeSec": 0.8,
+        "bulletRadius": 7,
+        "burnRate": 0.007389,
+        "burstSize": 1,
+        "clipSize": 1,
+        "firePower": 7500,
+        "fireRate": 40,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "nonArcImpactDamage": 20,
+        "physicalDamage": 0,
+        "reloadTimeSec": 3.5
+      },
+      "dispersion": {
+        "adsDuration": 0.4,
+        "adsScale": 0.5,
+        "fireGain": [
+          [0, 0, 0, 0, "linear"],
+          [1, 0.5, 0, 0, "linear"]
+        ],
+        "fireMax": 2,
+        "max": 4,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsRecoveryMultiplier": 0.5,
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "crouchMoving": {
+            "adsRecoveryMultiplier": 0.5,
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "falling": {
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsRecoveryMultiplier": 0.5,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standMoving": {
+            "adsRecoveryMultiplier": 0.5,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "uncontrollable": {
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.2,
+        "recoverySpeed": 1.5,
+        "unset": [
+          "adsRecoveryMultiplier",
+          "popRecoverySpeed",
+          "linearRecovery"
+        ],
+        "velocity": 2.5,
+        "velocityMax": 3,
+        "velocityRecovery": 8
+      },
+      "equipTimeSec": 0.65,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "default",
+      "modifiers": {
+        "durabilityBurnRate": 0,
+        "reloadTime": 0.25
+      },
+      "recoil": {
+        "adsGainMultiplier": 0.8,
+        "lerpSpeed": 0.35,
+        "pitch": [
+          [0, 0, 20, 0, "cubic"],
+          [0.1, 3, 0, 0, "cubic"]
+        ],
+        "recoverySpeed": 2,
+        "sampleCount": 1,
+        "unset": [
+          "yawProceduralRange",
+          "pitchProceduralRange",
+          "proceduralSwingSpeed",
+          "recoveryDelay"
+        ],
+        "yaw": [
+          [0, 0, 0, 0, "cubic"],
+          [0.1, 0.5, 0, 0, "cubic"]
+        ]
+      },
+      "statBarOffsets": {
+        "fireRate": -3
+      },
+      "tier": 1,
+      "unequipTimeSec": 0.4
+    }
+  },
+  "repairCost": {
+    "advanced_mechanical_components": 1,
+    "heavy_gun_parts": 2
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 1,
+        "heavy_gun_parts": 2
+      },
+      "to": "rascal_ii"
+    }
+  ],
+  "upgradesTo": "rascal_ii",
+  "vendors": [
+    {
+      "cost": {
+        "coins": 21000
+      },
+      "limit": 2,
+      "refreshSeconds": 86400,
+      "requiredLevel": 12,
+      "trader": "Tian Wen"
+    }
+  ]
 }

@@ -1,0 +1,70 @@
+{
+  "id": "exodus_technical_handbook",
+  "name": {
+    "da": "Exodus Teknisk Håndbog",
+    "de": "Technisches Exodus-Handbuch",
+    "en": "Exodus Technical Handbook",
+    "es": "Manual técnico del Éxodo",
+    "fr": "Manuel technique de l'Exode",
+    "he": "מדריך טכני של אקסודוס",
+    "hr": "Exodus tehnički priručnik",
+    "it": "Manuale tecnico dell'Esodo",
+    "ja": "エクソダス技術ハンドブック",
+    "ko-KR": "엑소더스 기술 안내서",
+    "no": "Eksodus Teknisk Håndbok",
+    "pl": "Podręcznik techniczny z czasów Exodusu",
+    "pt": "Manual Técnico do Exodus",
+    "pt-BR": "Guia Técnico do Êxodo",
+    "ru": "Технический справочник Исхода",
+    "sr": "Tehnički priručnik 'Egzodus'",
+    "tr": "Exodus Teknik El Kitabı",
+    "uk": "Технічний довідник 'Ексодус'",
+    "zh-CN": "“离巢”技术手册",
+    "zh-TW": "出逃技術手冊"
+  },
+  "description": {
+    "da": "Fyldt med lige dele uklar jargong og komplekse diagrammer.",
+    "de": "Voller obskurer Fachbegriffe und komplexer Diagramme – beides zu gleichen Teilen.",
+    "en": "Filled with equal parts obscure jargon and complex diagrams.",
+    "es": "Lleno de jerga indescifrable y diagramas complejos a partes iguales.",
+    "fr": "Rempli à parts égales de jargon obscur et de schémas complexes.",
+    "he": "מלא במידה שווה בז'רגון סתום ובדיאגרמות מורכבות.",
+    "hr": "Ispunjen podjednako opskurnim žargonom i složenim dijagramima.",
+    "it": "È pieno in egual misura di gergo oscuro e diagrammi complessi.",
+    "ja": "難解な専門用語と複雑な図解が半々で盛り込まれている。",
+    "ko-KR": "난해한 전문 용어와 복잡한 도해로 빼곡합니다.",
+    "no": "Fylt med like deler obskur sjargong og komplekse diagrammer.",
+    "pl": "Wypełniony w równym stopniu niezrozumiałym żargonem i skomplikowanymi wykresami.",
+    "pt": "Repleto de jargões obscuros e diagramas complexos, em partes iguais.",
+    "pt-BR": "Repleto de jargões obscuros e diagramas complexos.",
+    "ru": "Внутри примерно поровну непонятного жаргона и запутанных схем.",
+    "sr": "Ispunjeno podjednako zagonetnim žargonom i složenim dijagramima.",
+    "tr": "Anlaşılması zor teknik dil ve karmaşık şemalarla dolu.",
+    "uk": "Наповнений порівну малозрозумілим жаргоном та складними діаграмами.",
+    "zh-CN": "里面满是晦涩的术语和复杂的图纸。",
+    "zh-TW": "充滿了晦澀的專業術語與複雜的圖表。"
+  },
+  "type": "Misc",
+  "rarity": "Rare",
+  "value": 1000,
+  "weightKg": 0.5,
+  "stackSize": 5,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/exodus_technical_handbook.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.StudyItem",
+      "dropType": ["Salvage.Material.Rare", "Salvage.ResearchItems"],
+      "itemType": ["Misc"],
+      "theme": ["Exodus"]
+    }
+  },
+  "researchPoints": [
+    {
+      "level": 1,
+      "points": 150,
+      "station": "research_station"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "weather_station_table_design",
+  "name": {
+    "da": "Vejrstationsbordsdesign",
+    "de": "Wetterstationstisch-Entwurf",
+    "en": "Weather Station Table Design",
+    "es": "Diseño de mesa de la estación meteorológica",
+    "fr": "Design de la Table de la station météo",
+    "he": "עיצוב שולחן תחנת מזג אוויר",
+    "hr": "Dizajn stola meteorološke stanice",
+    "it": "Design del Tavolo della stazione meteorologica",
+    "ja": "気象ステーション用テーブルのデザイン",
+    "ko-KR": "기상 관측소 테이블 디자인",
+    "no": "Værstasjonsbord-design",
+    "pl": "Projekt stołu stacji meteorologicznej",
+    "pt": "Projeto de Mesa de Estação Meteorológica",
+    "pt-BR": "Projeto da Mesa da Estação Meteorológica",
+    "ru": "Схема стола метеостанции",
+    "sr": "Nacrt stola meteorološke stanice",
+    "tr": "Hava İstasyonu Masa Tasarımı",
+    "uk": "Дизайн столу метеостанції",
+    "zh-CN": "气象站桌子设计图",
+    "zh-TW": "氣象站工作台設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/weather_station_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "sheetmetal": 30
+      },
+      "level": 2,
+      "offerId": 700951591,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "bantam_blueprint",
+  "name": {
+    "da": "Bantam-opskrift",
+    "de": "Bauplan: Bantam",
+    "en": "Bantam Blueprint",
+    "es": "Proyecto del Bantam",
+    "fr": "Schéma de Bantam",
+    "he": "תרשים בנטם",
+    "hr": "Nacrt Bantama",
+    "it": "Progetto Bantam",
+    "ja": "バンタムの設計図",
+    "ko-KR": "밴텀 설계도",
+    "no": "Bantam-skisse",
+    "pl": "Plan: Bantam",
+    "pt": "Planta de Bantam",
+    "pt-BR": "Esquema de Garnisé",
+    "ru": "Чертеж — Задира",
+    "sr": "Nacrt za Bantam",
+    "tr": "Bantam Taslağı",
+    "uk": "Креслення Бантама",
+    "zh-CN": "“小钢炮”蓝图",
+    "zh-TW": "矮腳雞藍圖"
+  },
+  "description": {
+    "da": "Lader dig fremstille en Bantam",
+    "de": "Damit stellst du einen Bantam her",
+    "en": "Lets you craft a Bantam",
+    "es": "Te permite fabricar un Bantam.",
+    "fr": "Vous permet de fabriquer un Bantam",
+    "he": "מאפשר יצירת בנטם",
+    "hr": "Omogućuje izradu Bantama",
+    "it": "Ti permette di creare un Bantam",
+    "ja": "バンタムが製作可能になる",
+    "ko-KR": "밴텀 제작법입니다.",
+    "no": "Lar deg lage en Bantam",
+    "pl": "Pozwala wytworzyć Bantama",
+    "pt": "Permite criar um Bantam",
+    "pt-BR": "Permite fabricar uma Garnisé",
+    "ru": "Позволяет создать Задиру.",
+    "sr": "Omogućava izradu Bantam-a",
+    "tr": "Bantam üretmeni sağlar",
+    "uk": "Дозволяє створити Бантам",
+    "zh-CN": "可以制作“小钢炮”",
+    "zh-TW": "可製作矮腳雞"
+  },
+  "type": "Blueprint",
+  "rarity": "Common",
+  "value": 5000,
+  "weightKg": 0,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/bantam_blueprint.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "hornet_driver": 8
+      },
+      "level": 1,
+      "offerId": 856506472,
+      "points": 3000,
+      "station": "research_station"
+    }
+  ]
+}

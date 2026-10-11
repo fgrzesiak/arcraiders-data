@@ -1,0 +1,74 @@
+{
+  "id": "top_mounted_optics_retrofittings",
+  "name": {
+    "da": "Topmonteret Optik Eftermontering",
+    "de": "Nachrüstung mit oben montierten Optiken",
+    "en": "Top Mounted Optics Retrofittings",
+    "es": "Mejora con mira montada en la parte superior",
+    "fr": "Modernisation d'optique supérieure",
+    "he": "שדרוגי אופטיקה עיליים",
+    "hr": "Naknadne preinake za gornje montiranu optiku",
+    "it": "Modifiche ottiche a montaggio superiore",
+    "ja": "トップマウント型光学機器改良",
+    "ko-KR": "상부 장착형 광학 장비 개조",
+    "no": "Toppmonterte Optikk-ettermonteringer",
+    "pl": "Modernizacja celowników montowanych od góry",
+    "pt": "Retroajustes de Ópticas de Montagem Superior",
+    "pt-BR": "Readaptação Ótica Superior",
+    "ru": "Донастройка устанавливаемого прицела",
+    "sr": "Prepravke za gornju montažu optike",
+    "tr": "Üstten Takılan Optik İyileştirmesi",
+    "uk": "Модифікації оптики верхнього кріплення",
+    "zh-CN": "顶置光学瞄具改装",
+    "zh-TW": "頂部固定式光學改裝"
+  },
+  "description": {
+    "da": "Højtliggende skyttestillinger giver frie skudlinjer. Osprey-feltdata under disse forhold kunne understøtte udviklingen af forbedret forstørrelse.",
+    "de": "Erhöhte Schussstellungen sorgen für freie Sicht. Felddaten von Osprey unter diesen Bedingungen könnten die Entwicklung einer verbesserten Vergrößerung unterstützen.",
+    "en": "Elevated firing positions provide clear sightlines. Osprey field data under those conditions could support development of improved magnification.",
+    "es": "Las posiciones elevadas proporcionan líneas visuales despejadas. Recabar datos del Halieto bajo esas condiciones nos ayudará a desarrollar miras con más aumento.",
+    "fr": "Les positions de tir surélevées offrent des lignes de vue dégagées. Les données de terrain du Balbuzard recueillies dans ces conditions pourraient contribuer au développement d'un grossissement amélioré.",
+    "he": "עמדות ירי מוגבהות מספקות קווי ראייה נקיים. נתוני שטח של אוספרי (Osprey) בתנאים אלו עשויים לתמוך בפיתוח הגדלה משופרת.",
+    "hr": "Povišeni paljbeni položaji pružaju jasan vidik. Podaci s terena Ospreyja pod tim uvjetima mogli bi podržati razvoj poboljšanog povećanja.",
+    "it": "Le posizioni di tiro sopraelevate offrono linee di tiro libere. I dati raccolti sul campo con il Falco pescatore in tali condizioni potrebbero supportare lo sviluppo di un ingrandimento migliorato.",
+    "ja": "射撃位置を高所に取れば良好な視界が得られる。こうした条件下で得られるオスプレーの実戦データは、倍率の向上に向けた開発研究の参考になるかもしれない。",
+    "ko-KR": "높은 곳에서 사격하면 시야가 탁 트입니다. 그런 조건에서 얻은 오스프레이 필드 데이터는 더 높은 배율을 개발하는 데 도움이 될 수 있습니다.",
+    "no": "Høyere skyteposisjoner gir klare siktlinjer. Osprey-feltdata under slike forhold kan støtte utviklingen av forbedret forstørrelse.",
+    "pl": "Strzelając z wysoko położonego miejsca, ma się lepsze pole widzenia. Dane terenowe dotyczące wykorzystania Rybołowa w tych warunkach mogłyby pomóc w rozwoju ulepszonych mechanizmów przybliżania.",
+    "pt": "Posições de tiro elevadas proporcionam linhas de visão claras. Dados de campo da Osprey sob essas condições poderiam apoiar o desenvolvimento de uma ampliação aprimorada.",
+    "pt-BR": "Posições de disparo elevadas oferecem uma linha de visão clara. Os dados de campo da Osprey nessas condições devem dar suporte ao desenvolvimento de uma magnificação melhorada.",
+    "ru": "С возвышенности открывается хороший обзор для стрельбы. Полевые данные о «Ястребе», собранные в таких условиях, могут помочь улучшить увеличение прицела.",
+    "sr": "Povišene pozicije za pucanje pružaju jasan vidik. Terenski podaci od Ospreja pod tim uslovima mogli bi podržati razvoj poboljšanog uveličavanja.",
+    "tr": "Yüksek ateş mevzileri net görüş hattı sağlar. O şartlarda edinilen Kartal saha verileri daha iyi büyütme oranı geliştirilmesine katkıda bulunabilir.",
+    "uk": "Піднесені вогневі позиції забезпечують чіткий огляд. Польові дані Osprey, зібрані в таких умовах, можуть посприяти розробці покращеного збільшення.",
+    "zh-CN": "高位射击点视野开阔。“鱼鹰”在这类场景下的实战数据，能用来研发更高倍率的瞄准镜。",
+    "zh-TW": "升高發射位置能提供清楚的視線。魚鷹在這種條件下的實地資料能支援改良放大倍率的開發。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/top_mounted_optics_retrofittings.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "snitch_scanner": 14
+      },
+      "level": 4,
+      "offerId": 362908092,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "top_mounted_optics_retrofittings"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

@@ -2465,9 +2465,7 @@
     "stackSize": 1,
     "craftBench": "in_raid",
     "craftSkills": {
-      "in_raid": [
-        "surv_3r"
-      ]
+      "in_raid": ["surv_3r"]
     },
     "recipe": {
       "assorted_seeds": 7,
@@ -2619,16 +2617,10 @@
         "zh-TW": "使用時間"
       }
     },
-    "craftBench": [
-      "in_raid",
-      "med_station",
-      "workbench"
-    ],
+    "craftBench": ["in_raid", "med_station", "workbench"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_3r"
-      ]
+      "in_raid": ["surv_3r"]
     },
     "recipe": {
       "arc_powercell": 1,
@@ -2704,10 +2696,7 @@
     "weightKg": 0.085,
     "stackSize": 20,
     "craftQuantity": 5,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "craftBench": "workbench",
     "stationLevelRequired": 1,
     "recipe": {
@@ -2777,10 +2766,7 @@
     "value": 640,
     "weightKg": 0.25,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "effects": {
       "Reduced Base Dispersion": {
         "value": "10%",
@@ -2939,10 +2925,7 @@
     "value": 2000,
     "weightKg": 0.5,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "blueprintLocked": true,
     "effects": {
       "Reduced Base Dispersion": {
@@ -3103,10 +3086,7 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "blueprintLocked": true,
     "effects": {
       "Compatible With": {
@@ -3302,10 +3282,7 @@
     "value": 5000,
     "weightKg": 0.5,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "blueprintLocked": true,
     "effects": {
       "Reduced Noise": {
@@ -4600,19 +4577,11 @@
         "zh-TW": "範圍"
       }
     },
-    "craftBench": [
-      "in_raid",
-      "workbench"
-    ],
+    "craftBench": ["in_raid", "workbench"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_5c",
-        "surv_3r"
-      ],
-      "workbench": [
-        "surv_5c"
-      ]
+      "in_raid": ["surv_5c", "surv_3r"],
+      "workbench": ["surv_5c"]
     },
     "recipe": {
       "smoke_grenade": 1,
@@ -7079,10 +7048,7 @@
         "zh-TW": "彈匣容量"
       }
     },
-    "craftBench": [
-      "weapon_bench",
-      "workbench"
-    ],
+    "craftBench": ["weapon_bench", "workbench"],
     "stationLevelRequired": 1,
     "recipe": {
       "metal_parts": 8,

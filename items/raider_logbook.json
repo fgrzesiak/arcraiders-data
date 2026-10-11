@@ -1,0 +1,70 @@
+{
+  "id": "raider_logbook",
+  "name": {
+    "da": "Raider-logbog",
+    "de": "Raider-Logbuch",
+    "en": "Raider Logbook",
+    "es": "Diario de Raider",
+    "fr": "Journal de Raider",
+    "he": "יומן פושט",
+    "hr": "Dnevnik Raidera",
+    "it": "Diario di bordo del Raider",
+    "ja": "レイダー日誌",
+    "ko-KR": "레이더 기록장",
+    "no": "Plyndrerloggbok",
+    "pl": "Rejestr łupieżcy",
+    "pt": "Diário de Bordo do Raider",
+    "pt-BR": "Diário de Bordo de Raider",
+    "ru": "Журнал рейдера",
+    "sr": "Rejderski dnevnik",
+    "tr": "Raider Kayıt Kitabı",
+    "uk": "Журнал рейдера",
+    "zh-CN": "奇袭者日志",
+    "zh-TW": "掠手日誌"
+  },
+  "description": {
+    "da": "Overraskende flittig notetagning, med overraskende læselig håndskrift.",
+    "de": "Überraschend sorgfältige Notizen, in überraschend lesbarer Handschrift.",
+    "en": "Surprisingly dilligent notetaking, in surprisingly legible handwriting.",
+    "es": "Unos apuntes sorprendentemente diligentes con una letra sorprendentemente legible.",
+    "fr": "Des notes prises avec une assiduité surprenante, dans une écriture étonnamment lisible.",
+    "he": "תיעוד חרוץ באופן מפתיע, בכתב יד קריא באופן מפתיע.",
+    "hr": "Iznenađujuće pedantno bilježenje, iznenađujuće čitljivim rukopisom.",
+    "it": "Sorprendentemente diligente raccolta di appunti, in una grafia sorprendentemente leggibile.",
+    "ja": "驚くほど丁寧なメモ、そして驚くほど読みやすい筆跡。",
+    "ko-KR": "놀랄 만큼 꼼꼼하게 적은 메모입니다. 글씨도 의외로 읽기 쉽습니다.",
+    "no": "Overraskende flittig notatføring, med overraskende leselig håndskrift.",
+    "pl": "Zadziwiająco skrupulatne notatki zapisane zadziwiająco czytelnym pismem.",
+    "pt": "Anotações surpreendentemente diligentes, em caligrafia surpreendentemente legível.",
+    "pt-BR": "Anotações surpreendentemente diligentes e legíveis.",
+    "ru": "Впечатляюще аккуратные записи, сделанные не менее впечатляюще читаемым почерком.",
+    "sr": "Iznenađujuće pedantno vođenje beležaka, iznenađujuće čitkim rukopisom.",
+    "tr": "Şaşırtıcı derecede okunaklı bir el yazısıyla yazılmış ve özenle tutulmuş bir not.",
+    "uk": "Напрочуд ретельні нотатки, з напрочуд розбірливим почерком.",
+    "zh-CN": "此笔记做得格外认真，字迹也出人意料地清晰。",
+    "zh-TW": "這份筆記出乎意料地詳細，字跡也出奇地工整。"
+  },
+  "type": "Misc",
+  "rarity": "Uncommon",
+  "value": 640,
+  "weightKg": 0.5,
+  "stackSize": 5,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/raider_logbook.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.StudyItem",
+      "dropType": ["Salvage.ResearchItems"],
+      "itemType": ["Misc"],
+      "theme": ["Raider"]
+    }
+  },
+  "researchPoints": [
+    {
+      "level": 1,
+      "points": 100,
+      "station": "research_station"
+    }
+  ]
+}

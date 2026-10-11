@@ -1,0 +1,50 @@
+{
+  "id": "sturdy_lab_cabinet_wide_design",
+  "name": {
+    "da": "Robust Labskab (Bredt) Design",
+    "de": "Robuster Laborschrank (breit) Entwurf",
+    "en": "Sturdy Lab Cabinet (Wide) Design",
+    "es": "Diseño de Armario de Laboratorio Robusto (Ancho)",
+    "fr": "Armoire de laboratoire robuste (large) Design",
+    "he": "עיצוב ארון מעבדה רחב מחוזק",
+    "hr": "Nacrt čvrstog širokog laboratorijskog ormarića",
+    "it": "Armadio del laboratorio resistente (largo) Design",
+    "ja": "頑丈なラボキャビネット（ワイド） デザイン",
+    "ko-KR": "견고한 연구소 캐비닛 (넓음) 디자인",
+    "no": "Solid Laboratorieskap (Bredt)-design",
+    "pl": "Projekt: Solidna szafka laboratoryjna (szeroka)",
+    "pt": "Projeto de Armário de Laboratório (Largo) Robusto",
+    "pt-BR": "Projeto de Armário de Laboratório Resistente (Largo)",
+    "ru": "Схема: Крепкий лабораторный шкаф (широкий)",
+    "sr": "Robusan dizajn laboratorijskog ormarića (široki)",
+    "tr": "Sağlam Laboratuvar Dolabı (Geniş) Tasarımı",
+    "uk": "Креслення міцної лабораторної шафи (широка)",
+    "zh-CN": "坚固实验室橱柜（宽）设计图",
+    "zh-TW": "牢固實驗室櫃 (寬) 設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/sturdy_lab_cabinet_wide.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_brackets": 3
+      },
+      "level": 1,
+      "offerId": 970502301,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "id": "canto_amplified",
+  "name": {
+    "da": "Forstærket Canto",
+    "de": "Verstärkter Canto",
+    "en": "Amplified Canto",
+    "es": "Canto amplificado",
+    "fr": "Canto amplifié",
+    "he": "קאנטו מוגברת",
+    "hr": "Pojačana Canto",
+    "it": "Canto amplificato",
+    "ja": "強化版カント",
+    "ko-KR": "증폭된 칸토",
+    "no": "Forsterket Canto",
+    "pl": "Wzmocniony Canto",
+    "pt": "Canto Amplificado",
+    "pt-BR": "Canto Amplificado",
+    "ru": "Усовершенствованный Канто",
+    "sr": "Pojačani Canto",
+    "tr": "Güçlendirilmiş Canto",
+    "uk": "Підсилена Canto",
+    "zh-CN": "增强型“颂歌”",
+    "zh-TW": "增幅頌歌"
+  },
+  "description": {
+    "da": "En forstærket variant af Canto.",
+    "de": "Eine verstärkte Variante des Canto.",
+    "en": "An amplified variant of the Canto.",
+    "es": "Una variante amplificada del Canto.",
+    "fr": "Une variante amplifiée du Canto.",
+    "he": "גרסה מוגברת של הקאנטו.",
+    "hr": "Pojačana varijanta Canta.",
+    "it": "Una variante amplificata del Canto.",
+    "ja": "カントの強化版。",
+    "ko-KR": "증폭된 칸토입니다.",
+    "no": "En forsterket variant av Canto.",
+    "pl": "Wzmocniony wariant Canto.",
+    "pt": "Uma variante amplificada do Canto.",
+    "pt-BR": "Uma variante amplificada de Canto.",
+    "ru": "Усовершенствованная версия Канто.",
+    "sr": "Pojačana varijanta Cantoa.",
+    "tr": "Canto'nun güçlendirilmiş bir çeşidi.",
+    "uk": "Підсилений варіант Canto.",
+    "zh-CN": "“颂歌”的增强型变体。",
+    "zh-TW": "頌歌的增幅版。"
+  },
+  "type": "SMG",
+  "rarity": "Legendary",
+  "value": 20800,
+  "weightKg": 4,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Medium Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Moderate",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "1.75x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Fully-Automatic",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Reduced Max Shot Dispersion": {
+      "value": "45%",
+      "da": "Reduceret maksimal skudspredning",
+      "de": "Reduzierte maximale Streuung",
+      "en": "Reduced Max Shot Dispersion",
+      "es": "Dispersión máxima reducida",
+      "fr": "Dispersion maximale réduite",
+      "he": "פיזור ירי מרבי מופחת",
+      "hr": "Smanjena maksimalna disperzija",
+      "it": "Dispersione massima ridotta",
+      "ja": "最大ショット分散軽減",
+      "ko-KR": "최대 탄착군 감소",
+      "no": "Redusert maksimal skuddspredning",
+      "pl": "Zmniejszona maksymalna dyspersja strzałów",
+      "pt": "Dispersão máxima reduzida",
+      "pt-BR": "Redução na Dispersão do máximo de Disparos",
+      "ru": "Снижение максимального разброса",
+      "sr": "Smanjena maksimalna disperzija",
+      "tr": "Azaltılmış Maksimum Atış Dağılımı",
+      "uk": "Зменшення максимального розкиду",
+      "zh-CN": "降低最大射击分散",
+      "zh-TW": "降低最大射擊分散"
+    },
+    "Reduced Reload Time": {
+      "value": "43%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 7
+  },
+  "salvagesInto": {
+    "amplified_fragments": 5
+  },
+  "upgradeCost": {
+    "amplification_module_mk_iii": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/canto_amplified.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.SMG",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.MediumAmmoWeapon",
+        "Items.SpecificWeapon.Canto"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "arc": {
+        "armorMultiplier": 0.8
+      },
+      "base": {
+        "burnRate": 0.001275,
+        "burstSize": 1,
+        "clipSize": 20,
+        "firePower": 70000,
+        "fireRate": 850,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 6.5,
+        "reloadTimeSec": 3.5
+      },
+      "equipTimeSec": 0.6,
+      "headshotMultiplier": 1.75,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.45
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "magazine": [
+      "extended_medium_mag_i",
+      "extended_medium_mag_ii",
+      "extended_medium_mag_iii"
+    ],
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 13
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "propellant_valve_assembly": 3
+      },
+      "to": "canto_amplified_carbine"
+    },
+    {
+      "cost": {
+        "fossilized_lightning": 3
+      },
+      "requires": [
+        {
+          "itemId": "thermite_tipped_rounds"
+        }
+      ],
+      "to": "canto_amplified_incendiary_rounds"
+    },
+    {
+      "cost": {
+        "fluted_rotor_core": 4
+      },
+      "requires": [
+        {
+          "itemId": "mobile_fire_grip_fittings"
+        }
+      ],
+      "to": "canto_amplified_sprint_shooting"
+    }
+  ]
+}

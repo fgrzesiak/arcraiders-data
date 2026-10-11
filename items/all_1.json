@@ -199,15 +199,10 @@
         "zh-TW": "使用時間"
       }
     },
-    "craftBench": [
-      "in_raid",
-      "med_station"
-    ],
+    "craftBench": ["in_raid", "med_station"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_3r"
-      ]
+      "in_raid": ["surv_3r"]
     },
     "recipe": {
       "chemicals": 3,
@@ -579,9 +574,7 @@
     },
     "craftBench": "in_raid",
     "craftSkills": {
-      "in_raid": [
-        "surv_3r"
-      ]
+      "in_raid": ["surv_3r"]
     },
     "recipe": {
       "agave": 1,
@@ -1776,9 +1769,7 @@
         "silencer_ii",
         "silencer_iii"
       ],
-      "special": [
-        "anvil_splitter"
-      ]
+      "special": ["anvil_splitter"]
     },
     "repairCost": {
       "mechanical_components": 2,
@@ -2043,9 +2034,7 @@
         "silencer_ii",
         "silencer_iii"
       ],
-      "special": [
-        "anvil_splitter"
-      ]
+      "special": ["anvil_splitter"]
     },
     "repairCost": {
       "mechanical_components": 3,
@@ -2299,9 +2288,7 @@
         "silencer_ii",
         "silencer_iii"
       ],
-      "special": [
-        "anvil_splitter"
-      ]
+      "special": ["anvil_splitter"]
     },
     "repairCost": {
       "mechanical_components": 4,
@@ -2555,9 +2542,7 @@
         "silencer_ii",
         "silencer_iii"
       ],
-      "special": [
-        "anvil_splitter"
-      ]
+      "special": ["anvil_splitter"]
     },
     "repairCost": {
       "mechanical_components": 5,
@@ -2616,9 +2601,7 @@
     "value": 7000,
     "weightKg": 0.5,
     "stackSize": 1,
-    "compatibleWith": [
-      "Anvil"
-    ],
+    "compatibleWith": ["Anvil"],
     "effects": {
       "Projectiles Per Shot": {
         "value": "+3",
@@ -4959,16 +4942,10 @@
         "zh-TW": "使用時間"
       }
     },
-    "craftBench": [
-      "in_raid",
-      "med_station",
-      "workbench"
-    ],
+    "craftBench": ["in_raid", "med_station", "workbench"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_3r"
-      ]
+      "in_raid": ["surv_3r"]
     },
     "recipe": {
       "fabric": 5
@@ -6722,19 +6699,11 @@
         "zh-TW": "持續時間"
       }
     },
-    "craftBench": [
-      "in_raid",
-      "workbench"
-    ],
+    "craftBench": ["in_raid", "workbench"],
     "stationLevelRequired": 1,
     "craftSkills": {
-      "in_raid": [
-        "surv_5c",
-        "surv_3r"
-      ],
-      "workbench": [
-        "surv_5c"
-      ]
+      "in_raid": ["surv_5c", "surv_3r"],
+      "workbench": ["surv_5c"]
     },
     "recipe": {
       "blaze_grenade": 1,

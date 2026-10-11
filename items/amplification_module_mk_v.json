@@ -1,0 +1,67 @@
+{
+  "id": "amplification_module_mk_v",
+  "name": {
+    "da": "Forstærkermodul MK. V",
+    "de": "Verstärkermodul MK. V",
+    "en": "Amplification Module MK. V",
+    "es": "Módulo de amplificación ver. V",
+    "fr": "Module d'amplification V",
+    "he": "מודול הגברה MK. V",
+    "hr": "Modul za pojačanje MK. V",
+    "it": "Modulo di amplificazione MK. V",
+    "ja": "強化モジュールMK. V",
+    "ko-KR": "증폭 모듈 MK. V",
+    "no": "Forsterkningsmodul MK. V",
+    "pl": "Moduł wzmacniający MK. V",
+    "pt": "Módulo de Amplificação MK. V",
+    "pt-BR": "Módulo de Amplificação Mk. V",
+    "ru": "Совершенствующий модуль V",
+    "sr": "Modul za pojačanje MK. V",
+    "tr": "Güçlendirme Modülü MK. V",
+    "uk": "Модуль Ампліфікації МК. V",
+    "zh-CN": "增强模块Mk. V",
+    "zh-TW": "增幅模組MK. V"
+  },
+  "description": {
+    "da": "Avanceret ARC-teknologi, der låser op for legendarisk våbenforstærkning.",
+    "de": "Fortschrittliche ARC-Technologie, die die Verstärkung legendärer Waffen freischaltet.",
+    "en": "Advanced ARC technology that unlocks legendary weapon Amplification.",
+    "es": "Tecnología ARC avanzada que desbloquea la amplificación de armas legendarias.",
+    "fr": "Technologie ARC avancée qui débloque l'amplification des armes légendaires.",
+    "he": "טכנולוגיית ARC מתקדמת שפותחת הגברת נשק אגדתית.",
+    "hr": "Napredna ARC tehnologija koja otključava legendarno pojačanje oružja.",
+    "it": "Tecnologia ARC avanzata che sblocca l'amplificazione delle armi leggendarie.",
+    "ja": "レジェンダリーの武器強化をアンロックできる高度なARCテクノロジー。",
+    "ko-KR": "전설 등급 무기의 증폭을 잠금 해제하는 고급 아크 기술입니다.",
+    "no": "Avansert ARC-teknologi som låser opp legendarisk våpenforsterkning.",
+    "pl": "Zaawansowana technologia ARC, która odblokowuje wzmocnienia legendarnych broni.",
+    "pt": "Tecnologia ARC avançada que desbloqueia a Amplificação de arma lendária.",
+    "pt-BR": "Tecnologia ARC avançada que desbloqueia amplificação de armas lendárias.",
+    "ru": "Продвинутая технология ARC, которая позволяет совершенствовать легендарное оружие.",
+    "sr": "Napredna ARC tehnologija koja otključava legendarno pojačanje oružja.",
+    "tr": "Efsanevi silah Güçlendirmesi'nin kilidini açan gelişmiş bir ARC teknolojisi.",
+    "uk": "Просунута технологія ARC, що розблоковує легендарну Ампліфікацію зброї.",
+    "zh-CN": "先进ARC科技，可解锁传奇武器增强。",
+    "zh-TW": "先進ARC技術，可用於解鎖傳奇武器增幅。"
+  },
+  "type": "Topside Material",
+  "rarity": "Legendary",
+  "value": 7000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "recyclesInto": {
+    "amplified_fragments": 7
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/amplification_module_mk_v.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.Ascension.Module"],
+      "itemType": ["Misc"],
+      "questGroups": ["Items.AscensionModules"],
+      "theme": ["ARC"]
+    }
+  }
+}

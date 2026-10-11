@@ -1,0 +1,73 @@
+{
+  "id": "stiletto_blueprint",
+  "name": {
+    "da": "Stiletto-tegning",
+    "de": "Bauplan: Stiletto",
+    "en": "Stiletto Blueprint",
+    "es": "Proyecto del Stiletto",
+    "fr": "Schéma de Stiletto",
+    "he": "תוכנית: סטילטו",
+    "hr": "Nacrt za Stiletto",
+    "it": "Progetto Stiletto",
+    "ja": "スティレットの設計図",
+    "ko-KR": "스틸레토 설계도",
+    "no": "Stiletto-skjema",
+    "pl": "Plan: Stiletto",
+    "pt": "Projeto Stiletto",
+    "pt-BR": "Esquema de Estilete",
+    "ru": "Чертеж — Шпилька",
+    "sr": "Nacrt: Stiletto",
+    "tr": "Stiletto Taslağı",
+    "uk": "Креслення Stiletto",
+    "zh-CN": "“细剑”蓝图",
+    "zh-TW": "短劍藍圖"
+  },
+  "description": {
+    "da": "Lader dig fremstille en Stiletto.",
+    "de": "Damit stellst du ein Stiletto her",
+    "en": "Lets you craft a Stiletto",
+    "es": "Te permite fabricar un Stiletto.",
+    "fr": "Vous permet de fabriquer un Stiletto",
+    "he": "מאפשר ליצור סטילטו.",
+    "hr": "Omogućuje vam izradu Stiletta",
+    "it": "Ti permette di creare uno Stiletto",
+    "ja": "スティレットが製作可能になる",
+    "ko-KR": "스틸레토 제작법입니다.",
+    "no": "Lar deg lage en Stiletto",
+    "pl": "Pozwala wytworzyć Stiletto",
+    "pt": "Permite fabricar um Stiletto",
+    "pt-BR": "Permite fabricar um Estilete",
+    "ru": "Позволяет создать Шпильку.",
+    "sr": "Omogućava ti izradu Stiletta",
+    "tr": "Stiletto üretmeni sağlar",
+    "uk": "Дозволяє виготовити Stiletto.",
+    "zh-CN": "可以制作“细剑”",
+    "zh-TW": "可製作短劍"
+  },
+  "type": "Blueprint",
+  "rarity": "Common",
+  "value": 5000,
+  "weightKg": 0,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/stiletto_blueprint.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "wasp_driver": 15
+      },
+      "level": 1,
+      "offerId": 177022986,
+      "points": 3000,
+      "station": "research_station"
+    }
+  ]
+}

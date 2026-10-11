@@ -1,0 +1,50 @@
+{
+  "id": "tufted_sofa_design",
+  "name": {
+    "da": "Tuftet Sofadesign",
+    "de": "Entwurf: Sofa mit Knopfheftung",
+    "en": "Tufted Sofa Design",
+    "es": "Diseño de sofá capitoné",
+    "fr": "Design de Canapé capitonné",
+    "he": "עיצוב ספת קפיטונז'",
+    "hr": "Dizajn prošivene sofe",
+    "it": "Design del Divano capitoné",
+    "ja": "ボタン留めソファデザイン",
+    "ko-KR": "버튼 장식 소파 디자인",
+    "no": "Knappestoppet sofadesign",
+    "pl": "Projekt pikowanej sofy",
+    "pt": "Projeto de Sofá Capitonê",
+    "pt-BR": "Projeto de Sofá Capitonê",
+    "ru": "Схема стеганого дивана",
+    "sr": "Nacrt prošivene sofe",
+    "tr": "Kapitone Kanepe Tasarımı",
+    "uk": "Дизайн дивана «Капітоне»",
+    "zh-CN": "绗缝沙发设计图",
+    "zh-TW": "拉釦沙發設計"
+  },
+  "type": "Design",
+  "rarity": "Epic",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/tufted_sofa.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "very_comfortable_pillow": 3
+      },
+      "level": 3,
+      "offerId": 232420862,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
+}

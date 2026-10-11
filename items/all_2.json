@@ -4735,10 +4735,7 @@
     "weightKg": 0.3,
     "stackSize": 5,
     "craftQuantity": 5,
-    "compatibleWith": [
-      "Equalizer",
-      "Jupiter"
-    ],
+    "compatibleWith": ["Equalizer", "Jupiter"],
     "craftBench": "workbench",
     "stationLevelRequired": 1,
     "recipe": {
@@ -5750,9 +5747,9 @@
       "zh-TW": "加長槍管 I"
     },
     "description": {
-      "en": "Slightly increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "da": "Øger kuglehastigheden og afstanden før skadefald en smule. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "de": "Erhöht die Geschossgeschwindigkeit und die Reichweite bis zum Schadensabfall leicht. Kompatibel mit: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+      "en": "Slightly increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "es": "Aumenta ligeramente la velocidad de las balas y el alcance antes de la caída de daño. Compatible con: Tempestad, Arpeggio, Ferro, Renegado, Yunque",
       "fr": "Augmente légèrement la vélocité des balles et la portée avant la perte de dégâts. Compatible avec : Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "he": "מגביר מעט את מהירות הקליע ואת הטווח לפני דעיכת הנזק. תואם ל: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -5793,9 +5790,9 @@
     "effects": {
       "Increased Bullet Velocity": {
         "value": "10%",
-        "en": "Increased Bullet Velocity",
         "da": "Øget kuglehastighed",
         "de": "Erhöhte Geschossgeschwindigkeit",
+        "en": "Increased Bullet Velocity",
         "es": "Velocidad de bala aumentada",
         "fr": "Vélocité des balles augmentée",
         "he": "מהירות קליע מוגברת",
@@ -5816,9 +5813,9 @@
       },
       "Increased Distance Until Damage Falloff": {
         "value": "5%",
-        "en": "Increased Distance Until Damage Falloff",
         "da": "Øget afstand før skadefald",
         "de": "Erhöhte Reichweite bis zum Schadensabfall",
+        "en": "Increased Distance Until Damage Falloff",
         "es": "Mayor distancia antes de la caída de daño",
         "fr": "Distance augmentée avant la perte de dégâts",
         "he": "מרחק מוגבר לפני דעיכת הנזק",
@@ -5910,9 +5907,9 @@
       "zh-TW": "加長槍管 II"
     },
     "description": {
-      "en": "Moderately increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "da": "Øger kuglehastigheden og afstanden før skadefald moderat. Kompatibel med: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "de": "Erhöht die Geschossgeschwindigkeit und die Reichweite bis zum Schadensabfall moderat. Kompatibel mit: Tempest, Arpeggio, Ferro, Renegade, Anvil",
+      "en": "Moderately increases bullet velocity and damage falloff range. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "es": "Aumenta moderadamente la velocidad de las balas y el alcance antes de la caída de daño. Compatible con: Tempestad, Arpeggio, Ferro, Renegado, Yunque",
       "fr": "Augmente modérément la vélocité des balles et la portée avant la perte de dégâts. Compatible avec : Tempest, Arpeggio, Ferro, Renegade, Anvil",
       "he": "מגביר באופן מתון את מהירות הקליע ואת הטווח לפני דעיכת הנזק. תואם ל: Tempest, Arpeggio, Ferro, Renegade, Anvil",
@@ -5954,9 +5951,9 @@
     "effects": {
       "Increased Bullet Velocity": {
         "value": "20%",
-        "en": "Increased Bullet Velocity",
         "da": "Øget kuglehastighed",
         "de": "Erhöhte Geschossgeschwindigkeit",
+        "en": "Increased Bullet Velocity",
         "es": "Velocidad de bala aumentada",
         "fr": "Vélocité des balles augmentée",
         "he": "מהירות קליע מוגברת",
@@ -5977,9 +5974,9 @@
       },
       "Increased Distance Until Damage Falloff": {
         "value": "10%",
-        "en": "Increased Distance Until Damage Falloff",
         "da": "Øget afstand før skadefald",
         "de": "Erhöhte Reichweite bis zum Schadensabfall",
+        "en": "Increased Distance Until Damage Falloff",
         "es": "Mayor distancia antes de la caída de daño",
         "fr": "Distance augmentée avant la perte de dégâts",
         "he": "מרחק מוגבר לפני דעיכת הנזק",
@@ -7158,10 +7155,7 @@
     "value": 640,
     "weightKg": 0.25,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "effects": {
       "Magazine Size": {
         "value": "+2",
@@ -7320,10 +7314,7 @@
     "value": 2000,
     "weightKg": 0.5,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "blueprintLocked": true,
     "effects": {
       "Magazine Size": {
@@ -7473,10 +7464,7 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": 1,
-    "compatibleWith": [
-      "Il Toro",
-      "Vulcano"
-    ],
+    "compatibleWith": ["Il Toro", "Vulcano"],
     "blueprintLocked": true,
     "effects": {
       "Magazine Size": {
@@ -7935,10 +7923,7 @@
         "zh-TW": "彈匣容量"
       }
     },
-    "craftBench": [
-      "weapon_bench",
-      "workbench"
-    ],
+    "craftBench": ["weapon_bench", "workbench"],
     "stationLevelRequired": 1,
     "recipe": {
       "metal_parts": 5,

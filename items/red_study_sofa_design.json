@@ -1,0 +1,50 @@
+{
+  "id": "red_study_sofa_design",
+  "name": {
+    "da": "Rødt studiesofa-design",
+    "de": "Rotes Arbeitszimmersofa-Entwurf",
+    "en": "Red Study Sofa Design",
+    "es": "Diseño de sofá rojo para estudio",
+    "fr": "Design du Canapé d'étude rouge",
+    "he": "עיצוב ספת לימוד אדומה",
+    "hr": "Nacrt crvene sofe za radnu sobu",
+    "it": "Design Divano da studio rosso",
+    "ja": "赤い書斎用ソファのデザイン",
+    "ko-KR": "레드 서재용 소파 디자인",
+    "no": "Rød Studesofa-design",
+    "pl": "Projekt: Czerwona sofa do gabinetu",
+    "pt": "Design de Sofá de Estudo Vermelho",
+    "pt-BR": "Projeto do Sofá de Estudo Vermelho",
+    "ru": "Схема: Красный диван для кабинета",
+    "sr": "Dizajn crvene sofe za radnu sobu",
+    "tr": "Kırmızı Çalışma Kanepe Tasarımı",
+    "uk": "Дизайн червоного дивана для кабінету",
+    "zh-CN": "红色书房沙发设计图",
+    "zh-TW": "紅色書房沙發設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/red_study_sofa.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "very_comfortable_pillow": 1
+      },
+      "level": 3,
+      "offerId": 593985327,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

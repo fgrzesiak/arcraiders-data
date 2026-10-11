@@ -1,0 +1,254 @@
+{
+  "id": "hullcracker_amplified_incendiary_rounds",
+  "name": {
+    "da": "Forstærket Hullcracker · Brandammunition",
+    "de": "Verstärkter Hüllenbrecher · Brandgeschosse",
+    "en": "Amplified Hullcracker · Incendiary Rounds",
+    "es": "Partecascos amplificado · Munición incendiaria",
+    "fr": "Brise-fuselage amplifié · Munitions incendiaires",
+    "he": "האלקראקר מוגבר · קליעים בוערים",
+    "hr": "Pojačani Hullcracker · Zapaljivi metci",
+    "it": "Spaccascudi amplificato · Munizioni incendiarie",
+    "ja": "強化版ハルクラッカー · 焼夷弾",
+    "ko-KR": "증폭된 헐크래커 · 소이탄",
+    "no": "Forsterket Hullcracker · Brannammunisjon",
+    "pl": "Wzmocniony Rozłupywacz · Pociski zapalające",
+    "pt": "Hullcracker Amplificado · Munição Incendiária",
+    "pt-BR": "Quebra-Casco Amplificado · Projéteis Incendiários",
+    "ru": "Усовершенствованный Взломщик корпусов · Зажигательные патроны",
+    "sr": "Pojačani Hullcracker · Zapaljivi meci",
+    "tr": "Güçlendirilmiş Kabukkıran · Yakıcı Mermiler",
+    "uk": "Посилений Корпусотрощитель · Запальні набої",
+    "zh-CN": "增强型“裂甲者” · 燃烧弹",
+    "zh-TW": "增幅碎甲者 · 燃燒子彈"
+  },
+  "description": {
+    "da": "En forstærket variant af Hullcracker.",
+    "de": "Eine verstärkte Variante des Hüllenbrechers.",
+    "en": "An amplified variant of the Hullcracker.",
+    "es": "Una variante amplificada del Partecascos.",
+    "fr": "Une variante amplifiée du Brise-fuselage.",
+    "he": "גרסה מוגברת של האלקראקר.",
+    "hr": "Pojačana varijanta Hullcrackera.",
+    "it": "Una variante amplificata dello Spaccascudi.",
+    "ja": "ハルクラッカーの強化版。",
+    "ko-KR": "증폭된 헐크래커입니다.",
+    "no": "En forsterket variant av Hullcracker.",
+    "pl": "Wzmocniony wariant Rozłupywacza.",
+    "pt": "Uma variante amplificada do Hullcracker.",
+    "pt-BR": "Uma variante amplificada de Quebra-Casco.",
+    "ru": "Усовершенствованная версия Взломщика корпусов.",
+    "sr": "Pojačana varijanta Hullcracker-a.",
+    "tr": "Kabukkıran'ın güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Корпусотрощителя.",
+    "zh-CN": "“裂甲者”的增强型变体。",
+    "zh-TW": "碎甲者的增幅版。"
+  },
+  "type": "Special",
+  "rarity": "Legendary",
+  "value": 27200,
+  "weightKg": 7,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Launcher Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Very Strong",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Pump-Action",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Increased Fire Rate": {
+      "value": "53%",
+      "da": "Øget skudhastighed",
+      "de": "Erhöhte Feuerrate",
+      "en": "Increased Fire Rate",
+      "es": "Aumento de la cadencia de fuego",
+      "fr": "Cadence de tir augmentée",
+      "he": "קצב אש מוגבר",
+      "hr": "Povećana brzina paljbe",
+      "it": "Cadenza di fuoco aumentata",
+      "ja": "連射速度上昇",
+      "ko-KR": "발사 속도 증가",
+      "no": "Økt skuddtakt",
+      "pl": "Zwiększona szybkostrzelność",
+      "pt": "Taxa de disparo aumentada",
+      "pt-BR": "Cadência de Tiro Aumentada",
+      "ru": "Повышенная скорострельность",
+      "sr": "Povećana brzina paljbe",
+      "tr": "Artırılmış atış hızı",
+      "uk": "Підвищена швидкість стрільби",
+      "zh-CN": "射速增加",
+      "zh-TW": "提高射速"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 14
+  },
+  "salvagesInto": {
+    "amplified_fragments": 9
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/hullcracker_amplified_incendiary_rounds.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.Special",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.LauncherAmmoWeapon",
+        "Items.SpecificWeapon.Hullcracker"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "launcher_ammo",
+      "arc": {
+        "armorMultiplier": 2.5,
+        "propagationMultiplier": 0
+      },
+      "base": {
+        "adsTimeSec": 0.8,
+        "bulletRadius": 7,
+        "burnRate": 0.004644,
+        "burstSize": 1,
+        "firePower": 15000,
+        "fireRate": 40,
+        "looping": {
+          "entrySec": 0.3,
+          "exitSec": 0.3,
+          "loopSec": 1.5
+        },
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "nonArcImpactDamage": 20,
+        "physicalDamage": 0,
+        "reloadTimeSec": 3
+      },
+      "equipTimeSec": 1.05,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "default",
+      "unequipTimeSec": 0.45
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 25
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "propellant_valve_assembly": 3
+      },
+      "to": "hullcracker_amplified_incendiary_rounds_mag_reload"
+    }
+  ]
+}

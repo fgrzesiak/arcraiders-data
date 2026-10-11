@@ -1,0 +1,62 @@
+{
+  "id": "mri_duck",
+  "name": {
+    "da": "MRI-and",
+    "de": "MRT-Ente",
+    "en": "MRI Duck",
+    "es": "Pato radiólogo",
+    "fr": "Radio-canard",
+    "he": "ברווז MRI",
+    "hr": "MRI Patka",
+    "it": "Anatra RMI",
+    "ja": "MRIアヒル",
+    "ko-KR": "MRI 오리",
+    "no": "MRI-and",
+    "pl": "Rezonansowa kaczuszka",
+    "pt": "Pato RMN",
+    "pt-BR": "Pato Raio-X",
+    "ru": "Рентгеновская уточка",
+    "sr": "MRI Patka",
+    "tr": "Emar Ördek",
+    "uk": "МРТ-качечка",
+    "zh-CN": "核磁款橡皮鸭",
+    "zh-TW": "磁振造影鴨"
+  },
+  "description": {
+    "da": "Er teknologien gået for vidt?",
+    "de": "Ist die Technik zu weit gegangen?",
+    "en": "Has technology gone too far?",
+    "es": "¿Se nos ha ido de las manos la tecnología?",
+    "fr": "La technologie est-elle allée trop loin ?",
+    "he": "האם הטכנולוגיה הלכה רחוק מדי?",
+    "hr": "Je li tehnologija otišla predaleko?",
+    "it": "La tecnologia si è spinta troppo oltre?",
+    "ja": "テクノロジーは行き過ぎてしまったのだろうか？",
+    "ko-KR": "기술이 이렇게나 발달했다고요?",
+    "no": "Har teknologien gått for langt?",
+    "pl": "Czy technologia nie posunęła się za daleko?",
+    "pt": "A tecnologia foi longe demais?",
+    "pt-BR": "A tecnologia foi longe demais?",
+    "ru": "Кажется, технологии зашли слишком далеко.",
+    "sr": "Da li je tehnologija otišla predaleko?",
+    "tr": "Teknoloji fazla mı ileriye gitti?",
+    "uk": "Чи зайшли технології надто далеко?",
+    "zh-CN": "科技是否已经走得太远了？",
+    "zh-TW": "科技是不是有點發展過頭了？"
+  },
+  "type": "Trinket",
+  "rarity": "Legendary",
+  "value": 10000,
+  "weightKg": 0.3,
+  "stackSize": 15,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/mri_duck.png",
+  "updatedAt": "09/08/2026",
+  "addedIn": "1.45",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.Trinket",
+      "dropType": ["Salvage.RubberDuck"],
+      "itemType": ["Improvised", "Misc.Trinket", "Throwable"]
+    }
+  }
+}

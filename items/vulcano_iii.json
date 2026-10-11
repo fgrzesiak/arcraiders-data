@@ -12,37 +12,37 @@
     "ja": "ヴルカノ III",
     "ko-KR": "불카노 III",
     "no": "Vulcano III",
-    "pl": "Vulcano III",
-    "pt": "Vulcano III",
+    "pl": "Wulkan III",
+    "pt": "Vulcão III",
     "pt-BR": "Vulcão III",
     "ru": "Вулкан III",
     "sr": "Vulcano III",
     "tr": "Yanardağ III",
-    "uk": "Vulcano III",
+    "uk": "Вулкан III",
     "zh-CN": "火山 III",
-    "zh-TW": "火山 III"
+    "zh-TW": "火山III"
   },
   "description": {
-    "da": "Har god kuglespredning, men kraftigt fald.",
-    "de": "Hat eine gute Streuung, aber eine geringe Reichweite.",
-    "en": "Semi-automatic shotgun with good bullet spread but sharp falloff",
-    "es": "Tiene buena dispersión de balas pero caída brusca.",
-    "fr": "A une bonne dispersion des balles mais une chute brutale.",
-    "he": "רובה ציד חצי-אוטומטי עם פיזור כדורים טוב אך דעיכה חדה",
-    "hr": "Ima dobro raspršenje metaka, ali oštar pad štete.",
-    "it": "Ha una buona dispersione dei proiettili ma un calo netto.",
-    "ja": "弾の拡散は良好だが、急激な減衰がある。",
-    "ko-KR": "탄환 분산은 좋지만 급격한 감쇠가 있습니다.",
-    "no": "Har god kulespredning, men kraftig falloff.",
-    "pl": "Ma dobry rozrzut pocisków, ale ostry spadek.",
-    "pt": "Tem boa dispersão de balas, mas queda acentuada.",
-    "pt-BR": "Escopeta semiautomática com boa dispersão, mas com queda brusca de dano",
-    "ru": "Имеет хорошую кучность, но резкое падение урона.",
-    "sr": "Ima dobro rasipanje metaka, ali oštar pad štete.",
-    "tr": "Fişekleri iyi saçılır ancak kısa sürede yere düşer.",
-    "uk": "Має хороше розсіювання куль, але різке падіння пошкоджень.",
-    "zh-CN": "拥有良好的弹道扩散，但伤害衰减明显。",
-    "zh-TW": "擁有良好的彈道擴散，但傷害衰減明顯。"
+    "da": "Halvautomatisk haglgevær med god skudspredning, men kraftigt skadesfald på afstand.",
+    "de": "Halbautomatische Schrotflinte mit guter Streuung, aber geringer Reichweite.",
+    "en": "Semi-automatic shotgun with good bullet spread but sharp falloff.",
+    "es": "Escopeta semiautomática con una buena dispersión de los perdigones, pero con una reducción del daño por distancia pronunciada.",
+    "fr": "Fusil à pompe semi-automatique à dispersion réduite. Sa puissance chute rapidement sur la distance.",
+    "he": "רובה ציד חצי-אוטומטי בעל פיזור כדורים טוב אך ירידת נזק חדה.",
+    "hr": "Poluautomatska sačmarica s dobrim raspršivanjem sačme, ali naglim padom štete.",
+    "it": "Fucile a pompa semiautomatico con buona dispersione dei proiettili ma decadimento rapido dei danni.",
+    "ja": "セミオートのショットガン。弾丸がよく分散するが、距離によるダメージ減衰が大きい。",
+    "ko-KR": "탄 퍼짐은 적당하지만 거리에 따른 대미지 감소폭이 큰 반자동 산탄총입니다.",
+    "no": "Halvautomatisk hagle med god spredning, men kraftig skadefall.",
+    "pl": "Strzelba samopowtarzalna o dobrym rozrzucie pocisków. Zadawane przez nią obrażenia znacznie maleją wraz ze wzrostem odległości od celu.",
+    "pt": "Escopeta semiautomática com boa dispersão de projéteis, mas acentuada queda de dano.",
+    "pt-BR": "Escopeta semiautomática com boa dispersão de projéteis, mas queda acentuada.",
+    "ru": "Полуавтоматический дробовик с высокой кучностью, однако урон от стрельбы со временем резко снижается.",
+    "sr": "Poluautomatska sačmarica sa dobrim rasipanjem, ali naglim padom štete.",
+    "tr": "Fişekleri iyi saçılan ancak kısa sürede yere düşen yarı otomatik av tüfeği.",
+    "uk": "Напівавтоматичний дробовик із хорошим розкидом дробу, але різким падінням шкоди на відстані.",
+    "zh-CN": "半自动射击的霰弹枪，弹道散布范围适中，伤害衰减明显。",
+    "zh-TW": "半自動霰彈槍，子彈擴散範圍大，但傷害衰減幅度大。"
   },
   "type": "Shotgun",
   "rarity": "Epic",
@@ -51,52 +51,6 @@
   "stackSize": 1,
   "isWeapon": true,
   "effects": {
-    "20% Increased Fire Rate": {
-      "value": true,
-      "da": "20% øget skudhastighed",
-      "de": "20% erhöhte Feuerrate",
-      "en": "20% Increased Fire Rate",
-      "es": "Cadencia de fuego aumentada un 20%",
-      "fr": "Cadence de tir augmentée de 20%",
-      "he": "קצב אש מוגבר ב-20%",
-      "hr": "20% povećana brzina pucanja",
-      "it": "Cadenza di fuoco aumentata del 20%",
-      "ja": "射撃速度 +20%",
-      "ko-KR": "발사 속도 20% 증가",
-      "no": "20% økt skuddfrekvens",
-      "pl": "20% zwiększona szybkostrzelność",
-      "pt": "Taxa de disparo aumentada em 20%",
-      "pt-BR": "Cadência de Tiro Aumentada em 20%",
-      "ru": "Скорострельность +20%",
-      "sr": "20% povećana brzina pucanja",
-      "tr": "%20 Artırılmış Atış Hızı",
-      "uk": "Швидкострільність +20%",
-      "zh-CN": "射速提升 20%",
-      "zh-TW": "射速提升 20%"
-    },
-    "26% Reduced Reload Time": {
-      "value": true,
-      "da": "26% reduceret genladningstid",
-      "de": "26% reduzierte Nachladezeit",
-      "en": "26% Reduced Reload Time",
-      "es": "Tiempo de recarga reducido un 26%",
-      "fr": "Temps de rechargement réduit de 26%",
-      "he": "זמן טעינה מופחת ב-26%",
-      "hr": "26% smanjeno vrijeme punjenja",
-      "it": "Tempo di ricarica ridotto del 26%",
-      "ja": "リロード時間 -26%",
-      "ko-KR": "재장전 시간 26% 감소",
-      "no": "26% redusert omlastingstid",
-      "pl": "26% zmniejszony czas przeładowania",
-      "pt": "Tempo de recarga reduzido em 26%",
-      "pt-BR": "Tempo de Recarga Reduzido em 26%",
-      "ru": "Время перезарядки -26%",
-      "sr": "26% smanjeno vreme punjenja",
-      "tr": "%26 Azaltılmış Yeniden Yükleme Süresi",
-      "uk": "Час перезарядження -26%",
-      "zh-CN": "装填时间减少 26%",
-      "zh-TW": "裝填時間減少 26%"
-    },
     "Ammo Type": {
       "value": "Shotgun Ammo",
       "da": "Ammunitionstype",
@@ -142,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC 护甲穿透",
       "zh-TW": "ARC 護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "1x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "20-50 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "120/120",
@@ -274,6 +274,219 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/vulcano_iii.png",
   "updatedAt": "03/17/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.Shotgun",
+      "dropType": ["Equipment.Weapon.Firearm.ShotgunAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.ShotgunAmmoWeapon",
+        "Items.Shotguns"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "shotgun_ammo",
+      "arc": {
+        "armorMultiplier": 0.5
+      },
+      "base": {
+        "adsTimeSec": 0.6,
+        "burnRate": 0.005563,
+        "burstSize": 1,
+        "clipSize": 6,
+        "firePower": 50000,
+        "fireRate": 140,
+        "multiShot": [
+          {
+            "extra": 0,
+            "frac": 0,
+            "halfOffset": false,
+            "projectiles": 1
+          },
+          {
+            "extra": 0.1,
+            "frac": 0.5,
+            "halfOffset": true,
+            "projectiles": 4
+          },
+          {
+            "extra": 0.1,
+            "frac": 0.9,
+            "halfOffset": false,
+            "projectiles": 4
+          }
+        ],
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 5.5,
+        "projectilesPerShot": 9,
+        "reloadTimeSec": 3
+      },
+      "damageFalloff": [
+        [0, 1.001],
+        [20, 1.001],
+        [50, 0.6]
+      ],
+      "dispersion": {
+        "adsScale": 0.9,
+        "fireGain": [
+          [0, 0.5, 0, 0, "linear"],
+          [1, 0.5, 0, 0, "linear"]
+        ],
+        "fireMax": 2,
+        "max": 6,
+        "min": 1.5,
+        "perStance": {
+          "crouching": {
+            "adsFireDispersionMultiplier": 0.8,
+            "adsScale": 0.9,
+            "dispersion": 4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "adsDuration"
+            ]
+          },
+          "crouchMoving": {
+            "adsFireDispersionMultiplier": 0.8,
+            "adsScale": 0.9,
+            "dispersion": 4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "adsDuration"
+            ]
+          },
+          "falling": {
+            "adsScale": 0.8,
+            "dispersion": 4.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsScale": 0.8,
+            "dispersion": 4.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsFireDispersionMultiplier": 0.8,
+            "adsScale": 0.9,
+            "dispersion": 4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "adsDuration"
+            ]
+          },
+          "standMoving": {
+            "adsFireDispersionMultiplier": 0.8,
+            "adsScale": 0.9,
+            "dispersion": 4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "adsDuration"
+            ]
+          },
+          "uncontrollable": {
+            "adsScale": 0.8,
+            "dispersion": 4.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 1,
+        "popRecoverySpeed": 0.15,
+        "recoverySpeed": 3.5,
+        "unset": ["adsDuration", "adsRecoveryMultiplier", "linearRecovery"],
+        "velocity": 0,
+        "velocityMax": 0,
+        "velocityRecovery": 10
+      },
+      "equipTimeSec": 1.05,
+      "fireRateModifier": "fraction",
+      "headshotMultiplier": 1,
+      "modifiers": {
+        "clipSize": 2,
+        "durabilityBurnRate": -0.2,
+        "fireRate": 0.1,
+        "reloadTime": -0.5
+      },
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.8,
+        "lerpSpeed": 0.3,
+        "pitch": [
+          [0, 0, 2.676612, 0, "linear"],
+          [3.0184255, 9.055276, 0, 0, "linear"],
+          [6, 22, 0.835413, 0.835414, "linear"]
+        ],
+        "pitchProceduralRange": [1, 1],
+        "recoverySpeed": 3,
+        "sampleCount": 6,
+        "unset": ["proceduralSwingSpeed", "recoveryDelay"],
+        "yaw": [
+          [0, 0, 0.693051, 0, "cubic"],
+          [0.982044, 1.2, 0.10385805, 0.10385805, "cubic"],
+          [1.9579546, 0.20334935, 0.79653704, 0.79653704, "cubic"],
+          [2.9907389, 2.8, 0.28647158, 0.28647158, "cubic"],
+          [3.8755121, 0.75267506, -0.15421522, -0.15421522, "cubic"],
+          [4.936072, 2.5, -0.3523267, -0.3523267, "cubic"],
+          [6.011811, 0, 0, -0.876308, "cubic"]
+        ],
+        "yawProceduralRange": [-0.5, -1.5]
+      },
+      "statBarOffsets": {
+        "agility": 0.5,
+        "fireRate": 1.5,
+        "stability": -1.5
+      },
+      "tier": 3,
+      "unequipTimeSec": 0.45
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -309,5 +522,14 @@
     "heavy_gun_parts": 3
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 2,
+        "heavy_gun_parts": 3
+      },
+      "to": "vulcano_iv"
+    }
+  ],
   "upgradesTo": "vulcano_iv"
 }

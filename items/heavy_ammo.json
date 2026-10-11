@@ -5,12 +5,12 @@
     "de": "Schwere Munition",
     "en": "Heavy Ammo",
     "es": "Munición pesada",
-    "fr": "Munitions Lourdes",
+    "fr": "Munitions lourdes",
     "he": "תחמושת כבדה",
     "hr": "Teško streljivo",
     "it": "Munizioni pesanti",
     "ja": "大型弾薬",
-    "ko-KR": "중량 총기 탄약",
+    "ko-KR": "중량 탄약",
     "no": "Tung ammunisjon",
     "pl": "Ciężka amunicja",
     "pt": "Munição pesada",
@@ -51,7 +51,7 @@
   "stackSize": 60,
   "craftQuantity": 10,
   "compatibleWith": ["Anvil", "Ferro", "Bettina"],
-  "craftBench": "workbench",
+  "craftBench": ["in_raid", "workbench"],
   "stationLevelRequired": 1,
   "recipe": {
     "chemicals": 2,
@@ -60,11 +60,24 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/heavy_ammo.png",
   "updatedAt": "04/28/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "RiflePayload",
+      "dropType": ["Ammo.HeavyAmmo"],
+      "itemType": ["Ammunition"],
+      "questGroups": ["Items.AllAmmo"]
+    },
+    "pickup": {
+      "max": 6,
+      "min": 3
+    }
+  },
   "vendors": [
     {
       "cost": {
         "coins": 900
       },
+      "quantity": 10,
       "trader": "Tian Wen"
     }
   ]

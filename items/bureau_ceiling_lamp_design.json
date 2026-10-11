@@ -1,0 +1,50 @@
+{
+  "id": "bureau_ceiling_lamp_design",
+  "name": {
+    "da": "Bureau Loftslampe Design",
+    "de": "Büro-Deckenlampe-Entwurf",
+    "en": "Bureau Ceiling Lamp Design",
+    "es": "Diseño de lámpara de techo del despacho",
+    "fr": "Design : Plafonnier du bureau",
+    "he": "עיצוב מנורת תקרה משרדית",
+    "hr": "Dizajn uredske stropne lampe",
+    "it": "Plafoniera da ufficio Design",
+    "ja": "ビューロー天井ランプ デザイン",
+    "ko-KR": "사무실 천장 램프 디자인",
+    "no": "Design: Kontor-taklampe",
+    "pl": "Projekt: Lampa sufitowa biurowa",
+    "pt": "Projeto de Luminária de Teto de Escritório",
+    "pt-BR": "Projeto de Luminária de Teto de Escritório",
+    "ru": "Схема потолочной лампы бюро",
+    "sr": "Nacrt plafonske lampe za biro",
+    "tr": "Büro Tavan Lambası Tasarımı",
+    "uk": "Дизайн стельової лампи «Бюро»",
+    "zh-CN": "办公室吸顶灯设计图",
+    "zh-TW": "辦公室吸頂燈設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/bureau_ceiling_lamp.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "broken_flashlight": 1
+      },
+      "level": 2,
+      "offerId": 896312446,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

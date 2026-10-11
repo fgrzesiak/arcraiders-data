@@ -1,0 +1,50 @@
+{
+  "id": "battered_lab_cabinet_wide_design",
+  "name": {
+    "da": "Slidt Laboratorieskab (Bredt) Design",
+    "de": "Ramponierter Laborschrank (breit) Entwurf",
+    "en": "Battered Lab Cabinet (Wide) Design",
+    "es": "Diseño de armario de laboratorio deteriorado (ancho)",
+    "fr": "Armoire de laboratoire abîmée (large) Design",
+    "he": "עיצוב ארון מעבדה בלוי (רחב)",
+    "hr": "Nacrt oštećenog laboratorijskog ormarića (široki)",
+    "it": "Armadio del laboratorio rovinato (largo) Design",
+    "ja": "傷んだラボキャビネット（ワイド）デザイン",
+    "ko-KR": "낡은 연구소 캐비닛 (넓음) 설계도",
+    "no": "Medtatt Laboratorieskap (Bredt) Design",
+    "pl": "Projekt: Zniszczona szafka laboratoryjna (szeroka)",
+    "pt": "Projeto de Armário de Laboratório (Largo) Desgastado",
+    "pt-BR": "Projeto de Armário de Laboratório Surrado (Largo)",
+    "ru": "Схема потрепанного лабораторного шкафа (широкий)",
+    "sr": "Dizajn Istrošenog Laboratorijskog Ormarića (Široki)",
+    "tr": "Yıpranmış Laboratuvar Dolabı (Geniş) Tasarımı",
+    "uk": "Дизайн пошарпаної лабораторної шафи (Широкої)",
+    "zh-CN": "破旧实验柜（宽）设计图",
+    "zh-TW": "破舊實驗櫃（寬）設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_lab_cabinet_wide.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 3
+      },
+      "level": 2,
+      "offerId": 400254415,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

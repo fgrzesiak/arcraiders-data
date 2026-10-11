@@ -1,0 +1,50 @@
+{
+  "id": "battered_lab_chair_design",
+  "name": {
+    "da": "Slidt Laboratoriestol Design",
+    "de": "Entwurf: Ramponierter Laborstuhl",
+    "en": "Battered Lab Chair Design",
+    "es": "Diseño de silla de laboratorio maltrecha",
+    "fr": "Design de Chaise de laboratoire abîmée",
+    "he": "עיצוב כיסא מעבדה בלוי",
+    "hr": "Nacrt oštećene laboratorijske stolice",
+    "it": "Design Sedia da laboratorio rovinata",
+    "ja": "傷んだラボチェアのデザイン",
+    "ko-KR": "낡은 연구소 의자 디자인",
+    "no": "Medtatt Laboratoriestol Design",
+    "pl": "Projekt Zniszczonego krzesła laboratoryjnego",
+    "pt": "Projeto de Cadeira de Laboratório Desgastada",
+    "pt-BR": "Projeto de Cadeira de Laboratório Surrada",
+    "ru": "Схема: Потрепанный лабораторный стул",
+    "sr": "Dizajn Istrošene Laboratorijske Stolice",
+    "tr": "Yıpranmış Laboratuvar Sandalyesi Tasarımı",
+    "uk": "Дизайн пошарпаного лабораторного стільця",
+    "zh-CN": "破旧实验室椅子设计图",
+    "zh-TW": "破舊實驗室椅子設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_lab_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 3
+      },
+      "level": 1,
+      "offerId": 909293862,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

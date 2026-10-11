@@ -1,0 +1,236 @@
+{
+  "id": "rascal_amplified_high_velocity_incendiary_rounds",
+  "name": {
+    "da": "Forstærket Rascal · Høj Hastighed + Brandpatroner",
+    "de": "Verstärkter Rascal · Hohe Geschwindigkeit + Brandgeschosse",
+    "en": "Amplified Rascal · High Velocity + Incendiary Rounds",
+    "es": "Pícaro amplificado · Alta velocidad + Munición incendiaria",
+    "fr": "Vaurien amplifié · Grande vitesse + Munitions incendiaires",
+    "he": "ראסקל מוגבר · קליעים מהירים + קליעי תבערה",
+    "hr": "Pojačani Rascal · Velika brzina + Zapaljivi meci",
+    "it": "Rascal amplificato · Alta velocità + Munizioni incendiarie",
+    "ja": "強化版ラスカル · 高速 + 焼夷弾",
+    "ko-KR": "증폭된 라스칼 · 고속탄 + 소이탄",
+    "no": "Forsterket Rascal · Høy Hastighet + Brannkuler",
+    "pl": "Wzmocniony Nicpoń · Duża prędkość + Pociski zapalające",
+    "pt": "Rascal Amplificado · Alta Velocidade + Munição Incendiária",
+    "pt-BR": "Pestinha Amplificado · Alta Velocidade + Projéteis Incendiários",
+    "ru": "Усовершенствованный Негодяй · Высокая скорость + Зажигательные патроны",
+    "sr": "Pojačani Rascal · Velika brzina projektila + Zapaljivi meci",
+    "tr": "Güçlendirilmiş Serseri · Yüksek Hız + Yakıcı Mermiler",
+    "uk": "Посилений Розбійник · Високошвидкісний + Запальні набої",
+    "zh-CN": "增强型“无赖” · 高速弹丸 + 燃烧弹",
+    "zh-TW": "增幅無賴 · 高速 + 燃燒子彈"
+  },
+  "description": {
+    "da": "En forstærket variant af Rascal.",
+    "de": "Eine verstärkte Variante des Rascal.",
+    "en": "An amplified variant of the Rascal.",
+    "es": "Una variante amplificada del Pícaro.",
+    "fr": "Une variante amplifiée du Vaurien.",
+    "he": "גרסה מוגברת של הרסקאל.",
+    "hr": "Pojačana varijanta Rascala.",
+    "it": "Una variante amplificata del Rascal.",
+    "ja": "ラスカルの強化版。",
+    "ko-KR": "증폭된 라스칼입니다.",
+    "no": "En forsterket variant av Rascal.",
+    "pl": "Wzmocniony wariant Nicponia.",
+    "pt": "Uma variante amplificada do Rascal.",
+    "pt-BR": "Uma variante amplificada de Pestinha.",
+    "ru": "Усовершенствованная версия Негодяя.",
+    "sr": "Pojačana varijanta Rascala.",
+    "tr": "Serseri'nin güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Раскала.",
+    "zh-CN": "“无赖”的增强型变体。",
+    "zh-TW": "無賴的增幅版。"
+  },
+  "type": "Special",
+  "rarity": "Legendary",
+  "value": 20800,
+  "weightKg": 4,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Launcher Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Very Strong",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Break-Action",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Reduced Reload Time": {
+      "value": "20%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 17
+  },
+  "salvagesInto": {
+    "amplified_fragments": 12
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/rascal_amplified_high_velocity_incendiary_rounds.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.Special",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.LauncherAmmoWeapon",
+        "Items.SpecificWeapon.Rascal"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "launcher_ammo",
+      "arc": {
+        "armorMultiplier": 2.5,
+        "propagationMultiplier": 0
+      },
+      "base": {
+        "adsTimeSec": 0.8,
+        "bulletRadius": 7,
+        "burnRate": 0.007389,
+        "burstSize": 1,
+        "clipSize": 1,
+        "firePower": 7500,
+        "fireRate": 40,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "nonArcImpactDamage": 20,
+        "physicalDamage": 0,
+        "reloadTimeSec": 3.5
+      },
+      "equipTimeSec": 0.65,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "default",
+      "unequipTimeSec": 0.4
+    }
+  },
+  "repairCost": {
+    "amplified_fragments": 31
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "fluted_rotor_core": 2
+      },
+      "requires": [
+        {
+          "itemId": "mobile_fire_grip_fittings"
+        }
+      ],
+      "to": "rascal_amplified_high_velocity_sprint_shooting_incendiary_rounds"
+    }
+  ]
+}

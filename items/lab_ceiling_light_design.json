@@ -1,0 +1,50 @@
+{
+  "id": "lab_ceiling_light_design",
+  "name": {
+    "da": "Labloftslampedesign",
+    "de": "Labor-Deckenleuchte-Entwurf",
+    "en": "Lab Ceiling Light Design",
+    "es": "Diseño de lámpara de techo de laboratorio",
+    "fr": "Design du Plafonnier du laboratoire",
+    "he": "עיצוב תאורת תקרה למעבדה",
+    "hr": "Nacrt laboratorijske stropne lampe.",
+    "it": "Design della Plafoniera del laboratorio",
+    "ja": "ラボ天井ランプのデザイン",
+    "ko-KR": "연구소 천장 조명 디자인",
+    "no": "Labtaklysdesign",
+    "pl": "Projekt: Lampa sufitowa laboratoryjna",
+    "pt": "Projeto de Luminária de Teto de Laboratório",
+    "pt-BR": "Projeto da Luminária de Teto do Laboratório",
+    "ru": "Схема потолочной лампы лаборатории",
+    "sr": "Nacrt laboratorijske plafonske lampe",
+    "tr": "Laboratuvar Tavan Lambası Tasarımı",
+    "uk": "Дизайн лабораторного стельового світильника",
+    "zh-CN": "实验室吸顶灯设计图",
+    "zh-TW": "實驗室天花板燈設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/lab_ceiling_light.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "broken_flashlight": 1
+      },
+      "level": 2,
+      "offerId": 158146507,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

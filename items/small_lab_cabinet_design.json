@@ -1,0 +1,50 @@
+{
+  "id": "small_lab_cabinet_design",
+  "name": {
+    "da": "Lille labskab-design",
+    "de": "Entwurf: Kleiner Laborschrank",
+    "en": "Small Lab Cabinet Design",
+    "es": "Diseño de armario de laboratorio pequeño",
+    "fr": "Petite armoire de laboratoire Design",
+    "he": "עיצוב ארון מעבדה קטן",
+    "hr": "Nacrt malog laboratorijskog ormarića",
+    "it": "Design del Piccolo armadietto da laboratorio",
+    "ja": "小型ラボキャビネットのデザイン",
+    "ko-KR": "소형 연구소 캐비닛 디자인",
+    "no": "Lite Labskap-design",
+    "pl": "Projekt małej szafki laboratoryjnej",
+    "pt": "Design de Pequeno Armário de Laboratório",
+    "pt-BR": "Projeto do Pequeno Armário de Laboratório",
+    "ru": "Схема малого лабораторного шкафчика",
+    "sr": "Dizajn malog laboratorijskog ormarića",
+    "tr": "Küçük Laboratuvar Dolabı Tasarımı",
+    "uk": "Дизайн маленької лабораторної шафи",
+    "zh-CN": "小型实验室橱柜设计图",
+    "zh-TW": "小型實驗室櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/small_lab_cabinet.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_parts": 15
+      },
+      "level": 1,
+      "offerId": 111345920,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

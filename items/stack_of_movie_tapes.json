@@ -2,25 +2,47 @@
   "id": "stack_of_movie_tapes",
   "name": {
     "da": "Stak af filmkassetter",
-    "de": "Stapel Filmkassetten",
+    "de": "Stapel VHS-Kassetten",
     "en": "Stack of Movie Tapes",
-    "es": "Pila de cintas de vídeo",
-    "fr": "Pile de cassettes vidéo",
+    "es": "Pila de cintas de película",
+    "fr": "Tas de cassettes de films",
     "he": "ערימת קלטות וידאו",
     "hr": "Hrpa videokaseta",
     "it": "Pila di videocassette",
     "ja": "映画テープの山",
-    "ko-KR": "영화 테이프 더미",
+    "ko-KR": "영화 테이프 묶음",
     "no": "Stabel med videokassetter",
-    "pl": "Stos kaset wideo",
+    "pl": "Stos taśm filmowych",
     "pt": "Pilha de fitas de vídeo",
-    "pt-BR": "Pilha de fitas de vídeo",
-    "ru": "Стопка видеокассет",
+    "pt-BR": "Pilha de Fitas de Filme",
+    "ru": "Кассеты с фильмами",
     "sr": "Gomila video-kaseta",
-    "tr": "Film kasetleri yığını",
+    "tr": "Bir Yığın Film Kaseti",
     "uk": "Стос відеокасет",
-    "zh-CN": "一叠录像带",
-    "zh-TW": "一疊錄影帶"
+    "zh-CN": "一堆电影录像带",
+    "zh-TW": "一疊電影錄影帶"
+  },
+  "description": {
+    "da": "En stak filmbånd, der med sikkerhed vil behage selv de mest pedantiske af cinefile.",
+    "de": "Ein Stapel VHS-Kassetten, der selbst die pedantischsten Filmfans begeistern wird.",
+    "en": "A stack of movie tapes, sure to please even the most pedantic of cinephiles.",
+    "es": "Una pila de cintas de película que hará las delicias de los cinéfilos más pedantes.",
+    "fr": "Un tas de cassettes de films, qui ravira même les cinéphiles les plus pointilleux.",
+    "he": "ערימת קלטות סרטים, שבטח תשמח אפילו את הסינפילים הפדנטיים ביותר.",
+    "hr": "Hrpa filmskih traka, zasigurno će zadovoljiti i najpedantnije filmofile.",
+    "it": "Una pila di videocassette, che faranno la gioia del più pedante dei cinefili.",
+    "ja": "映画テープの山。最高に気難しい映画通すら満足するレベル。",
+    "ko-KR": "웬만큼 깐깐한 시네필도 흡족해할 영화 테이프 묶음입니다.",
+    "no": "En stabel med filmkassetter, som garantert vil glede selv de mest pedantiske av cinefiler.",
+    "pl": "Stos taśm filmowych, które zadowolą nawet najbardziej pedantycznych kinomanów.",
+    "pt": "Uma pilha de fitas de vídeo, que certamente agradará até mesmo o mais pedante dos cinéfilos.",
+    "pt-BR": "Pilha de fitas de filme, que com certeza vão agradar até os cinéfilos mais pedantes.",
+    "ru": "Целый набор фильмов, который порадует даже самого придирчивого киномана.",
+    "sr": "Gomila filmskih traka, sigurno će zadovoljiti i najpedantnije filmofile.",
+    "tr": "En seçici sinefilin bile memnun kalacağı bir yığın film kaseti.",
+    "uk": "Стопка відеокасет, що неодмінно порадує навіть найвимогливіших кіноманів.",
+    "zh-CN": "一堆电影录像带，肯定能让最挑剔的电影爱好者狂喜不己。",
+    "zh-TW": "一疊電影錄影帶，即便是最挑剔的影迷，也肯定會愛不釋手。"
   },
   "type": "Trinket",
   "rarity": "Common",
@@ -30,5 +52,11 @@
   "questItem": true,
   "imageFilename": "https://cdn.arctracker.io/items/v2/stack_of_movie_tapes.png",
   "updatedAt": "04/14/2026",
-  "addedIn": "1.13"
+  "addedIn": "1.13",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.Trinket",
+      "itemType": ["Misc.Trinket"]
+    }
+  }
 }

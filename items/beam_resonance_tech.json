@@ -1,0 +1,74 @@
+{
+  "id": "beam_resonance_tech",
+  "name": {
+    "da": "Stråleresonans Teknik",
+    "de": "Strahlenresonanz-Technik",
+    "en": "Beam Resonance Tech",
+    "es": "Tecnología de resonancia del haz",
+    "fr": "Résonance du faisceau",
+    "he": "טכנולוגיית תהודת קרן",
+    "hr": "Tehnologija rezonancije snopa",
+    "it": "Tecnologia di risonanza raggio",
+    "ja": "ビーム共振技術",
+    "ko-KR": "빔 공명 기술",
+    "no": "Stråleresonansteknologi",
+    "pl": "Technologia rezonansu wiązki",
+    "pt": "Tecnologia de Ressonância de Feixe",
+    "pt-BR": "Tecnologia de Ressonância de Feixe",
+    "ru": "Техника резонансного луча",
+    "sr": "Tehnologija rezonance zraka",
+    "tr": "Işın Rezonans Teknolojisi",
+    "uk": "Технологія променевого резонансу",
+    "zh-CN": "光束共振技术",
+    "zh-TW": "光束共震技術"
+  },
+  "description": {
+    "da": "The Equalizer er bedst, når strålen forbliver præcis der, hvor målet helst ikke vil have den. Måske kan vi arbejde videre med det.",
+    "de": "Der Equalizer ist am effektivsten, wenn der Strahl genau dort bleibt, wo das Ziel ihn lieber nicht hätte. Vielleicht können wir damit arbeiten.",
+    "en": "The Equalizer is at its best when the beam stays exactly where the target would rather not have it. Maybe we can work with that.",
+    "es": "El Ecualizador es más efectivo cuando el haz permanece un tiempo allí donde el objetivo no lo quiere. Quizá podamos investigar eso.",
+    "fr": "Rien ne vaut un faisceau d'Égaliseur bien concentré sur sa cible. Peut-être pouvons-nous exploiter cela.",
+    "he": "ה-Equalizer במיטבו כשהקרן נשארת בדיוק היכן שהמטרה לא הייתה רוצה אותה. אולי נוכל לעבוד עם זה.",
+    "hr": "Equalizer je najučinkovitiji kada zraka ostane točno tamo gdje meta to najmanje želi. Možda to možemo iskoristiti.",
+    "it": "L'Equalizzatore dà il meglio di sé quando il raggio rimane esattamente dove il bersaglio preferirebbe non averlo. Forse possiamo sfruttare questa caratteristica.",
+    "ja": "標的が嫌がる場所にビームを当てている時に、イコライザーはその真価を発揮する。その特性を活かして何かできるかもしれない。",
+    "ko-KR": "이퀄라이저는 대상이 가장 싫어할 지점에 빔을 정확히 유지할 때 최고의 성능을 냅니다. 이 점을 활용할 수 있을지도 모릅니다.",
+    "no": "The Equalizer er på sitt beste når strålen holder seg akkurat der målet helst ikke vil ha den. Kanskje vi kan utnytte det.",
+    "pl": "Gładziciel sprawdza się najlepiej, gdy jego wiązka trafia dokładnie tam, gdzie cel wolałby nie zostać trafiony. Może da się coś z tego wyciągnąć.",
+    "pt": "O Equalizador atinge o seu pico quando o feixe permanece exatamente onde o alvo preferia que não estivesse. Talvez possamos adaptar essa ideia.",
+    "pt-BR": "O Equalizador é melhor aproveitado quando o feixe fica exatamente onde o alvo não quer. Podemos aproveitar algo com isso.",
+    "ru": "Уравнитель работает лучше всего, когда его лазер упрямо направлен на избегающую его цель. Тут есть над чем поработать.",
+    "sr": "Izjednačivač je najefikasniji kada zrak ostane tačno tamo gde meta to najmanje želi. Možda možemo to iskoristiti.",
+    "tr": "Lazeri hedefin tam da istemeyeceği yerinde durduğu zaman Dengeleyici en iyi hâlindedir. Buna çalışabiliriz.",
+    "uk": "Еквалайзер найефективніший, коли промінь залишається саме там, де ціль не хотіла б його бачити. Можливо, з цим можна попрацювати.",
+    "zh-CN": "“制裁者”的激光只要死死黏在目标的要害上，就能发挥最大威力。或许我们可以从这点入手作进一步优化。",
+    "zh-TW": "平衡者最能發揮作用的時候，就是光束精準地停留在目標最不樂意的地方時。或許我們能想辦法實現這一點。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/beam_resonance_tech.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "queen_reactor": 2
+      },
+      "level": 4,
+      "offerId": 205701271,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "beam_resonance_tech"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

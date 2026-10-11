@@ -1,0 +1,70 @@
+{
+  "id": "frigate_inductor",
+  "name": {
+    "da": "Fregatinduktor",
+    "de": "Fregattenspule",
+    "en": "Frigate Inductor",
+    "es": "Bobina de fragata",
+    "fr": "Inducteur de Frégate",
+    "he": "משרן פריגטה",
+    "hr": "Induktor fregate",
+    "it": "Induttore di Fregata",
+    "ja": "フリゲートインダクター",
+    "ko-KR": "프리깃 인덕터",
+    "no": "Fregattinduktor",
+    "pl": "Induktor fregaty",
+    "pt": "Indutor de Fragata",
+    "pt-BR": "Indutor de Fragata",
+    "ru": "Индуктор «Фрегата»",
+    "sr": "Induktor fregate",
+    "tr": "Fırkateyn İndüktörü",
+    "uk": "Фрегатний індуктор",
+    "zh-CN": "“护卫者”感应器",
+    "zh-TW": "巡防艦感應器"
+  },
+  "description": {
+    "da": "Kan bruges til at opgradere Forskningsstationen.",
+    "de": "Kann zum Verbessern der Forschungsstation verwendet werden.",
+    "en": "Can be used to upgrade the Research Station.",
+    "es": "Se puede usar para mejorar la estación de investigación.",
+    "fr": "Permet d'améliorer la station de recherche.",
+    "he": "ניתן להשתמש בו לשדרוג תחנת המחקר.",
+    "hr": "Može se koristiti za nadogradnju Istraživačke postaje.",
+    "it": "Utilizzabile per migliorare la postazione di ricerca.",
+    "ja": "研究ステーションのアップグレードに使用可能。",
+    "ko-KR": "연구 스테이션을 업그레이드하는 데 사용할 수 있습니다.",
+    "no": "Kan brukes til å oppgradere Forskningsstasjonen.",
+    "pl": "Można użyć do ulepszenia stacji badawczej.",
+    "pt": "Pode ser usado para aprimorar a Estação de Pesquisa.",
+    "pt-BR": "Serve para aprimorar a Estação de Pesquisa.",
+    "ru": "Может использоваться для улучшения исследовательской станции.",
+    "sr": "Može se koristiti za nadogradnju Istraživačke stanice.",
+    "tr": "Araştırma İstasyonu'nu yükseltmek için kullanılabilir.",
+    "uk": "Призначено для покращення Дослідницької станції.",
+    "zh-CN": "可用于升级研究站。",
+    "zh-TW": "可用來升級研究站。"
+  },
+  "type": "Topside Material",
+  "rarity": "Legendary",
+  "value": 7000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "recyclesInto": {
+    "advanced_arc_powercell": 2,
+    "arc_circuitry": 2
+  },
+  "salvagesInto": {
+    "arc_circuitry": 2
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/frigate_inductor.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.Material.Legendary"],
+      "itemType": ["Misc"],
+      "theme": ["ARC"]
+    }
+  }
+}

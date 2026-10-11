@@ -1,0 +1,50 @@
+{
+  "id": "hotel_chair_design",
+  "name": {
+    "da": "Hotelstolsdesign",
+    "de": "Hotelstuhl-Entwurf",
+    "en": "Hotel Chair Design",
+    "es": "Diseño de silla de hotel",
+    "fr": "Design de Chaise d'hôtel",
+    "he": "עיצוב כיסא מלון",
+    "hr": "Nacrt hotelske stolice.",
+    "it": "Design della Sedia dell'hotel",
+    "ja": "ホテルの椅子デザイン",
+    "ko-KR": "호텔 의자 디자인",
+    "no": "Hotellstoldesign",
+    "pl": "Projekt krzesła hotelowego",
+    "pt": "Projeto de Cadeira de Hotel",
+    "pt-BR": "Projeto de Cadeira de Hotel",
+    "ru": "Схема отельного кресла",
+    "sr": "Nacrt hotelske stolice",
+    "tr": "Otel Sandalye Tasarımı",
+    "uk": "Дизайн готельного стільця",
+    "zh-CN": "酒店椅设计图",
+    "zh-TW": "飯店椅子設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/hotel_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "spring_cushion": 1
+      },
+      "level": 2,
+      "offerId": 601520899,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

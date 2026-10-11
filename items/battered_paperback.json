@@ -1,0 +1,69 @@
+{
+  "id": "battered_paperback",
+  "name": {
+    "da": "Slidt Paperback",
+    "de": "Zerschlissenes Taschenbuch",
+    "en": "Battered Paperback",
+    "es": "Libro maltrecho",
+    "fr": "Livre de poche usé",
+    "he": "ספר בכריכה רכה בלוי",
+    "hr": "Oštećeni meki uvez",
+    "it": "Tascabile rovinato",
+    "ja": "傷んだ本",
+    "ko-KR": "낡은 문고본",
+    "no": "Medtatt Pocketbok",
+    "pl": "Zniszczona książka w miękkiej oprawie",
+    "pt": "Livro de Bolso Surrado",
+    "pt-BR": "Livro de Capa Mole Surrado",
+    "ru": "Потрепанная книга",
+    "sr": "Istrošeni Meki Povez",
+    "tr": "Yıpranmış Ciltsiz Kitap",
+    "uk": "Пошарпана книга в м'якій обкладинці",
+    "zh-CN": "破旧平装书",
+    "zh-TW": "破舊平裝書"
+  },
+  "description": {
+    "da": "Fyldt med æselører og kaffepletter, kan et nysgerrigt sind ikke desto mindre finde visdom.",
+    "de": "Auch wenn es voller Eselsohren und Kaffeeflecken ist, kann ein neugieriger Geist darin trotzdem Weisheit finden.",
+    "en": "Filled with dog-eared pages and coffee stains, an inquisitive mind may find wisdom nonetheless.",
+    "es": "Lleno de páginas dobladas y manchas de café. Pese a ello, las mentes inquisitivas hallarán conocimiento útil.",
+    "fr": "Rempli de pages cornées et de taches de café, il peut néanmoins apporter de la sagesse à un esprit curieux.",
+    "he": "מלא בדפים מקופלים ובכתמי קפה, אך מוח סקרן עשוי למצוא בו חוכמה למרות זאת.",
+    "hr": "Ispunjen presavijenim stranicama i mrljama od kave, radoznali um ipak može pronaći mudrost.",
+    "it": "Pieno di pagine con le orecchie e macchie di caffè; una mente curiosa potrebbe comunque trovarvi saggezza.",
+    "ja": "ページの端が折れ曲がり、コーヒーの染みがついているが、探求心ある人なら知恵を見出すことができるかもしれない。",
+    "ko-KR": "귀퉁이가 접힌 페이지와 커피 얼룩으로 가득하지만, 호기심 많은 이라면 그 속에서도 지혜를 얻을 수 있습니다.",
+    "no": "Full av eselører og kaffeflekker kan et nysgjerrig sinn likevel finne visdom.",
+    "pl": "Pełno w niej stron z oślimi uszami i plam po kawie. Mimo wszystko wnikliwy umysł odnajdzie w niej wiedzę.",
+    "pt": "Cheio de páginas com orelhas e manchas de café, uma mente curiosa pode, ainda assim, encontrar sabedoria.",
+    "pt-BR": "Mesmo repleto de orelhas nas páginas e manchas de café, uma mente questionadora pode encontrar sabedoria nele.",
+    "ru": "Страницы с загнутыми уголками и кофейными пятнами. Если поискать, то и здесь можно найти крупицы мудрости.",
+    "sr": "Ispunjen savijenim uglovima stranica i flekama od kafe, radoznali um ipak može pronaći mudrost.",
+    "tr": "Meraklı bir beyin kıvrık sayfalar ve kahve izlerinin arasında bile bilgeliğe erişebilir.",
+    "uk": "Наповнена сторінками із загнутими кутиками та кавовими плямами, проте допитливий розум все одно може знайти в ній мудрість.",
+    "zh-CN": "书页卷角、满是咖啡渍，但有心人仍能从中发掘真知。",
+    "zh-TW": "滿是摺痕頁角和咖啡漬，但抱持好奇心的人或許仍能從中汲取智慧。"
+  },
+  "type": "Misc",
+  "rarity": "Common",
+  "value": 270,
+  "weightKg": 0.5,
+  "stackSize": 5,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_paperback.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.StudyItem",
+      "dropType": ["Salvage.Material.Uncommon", "Salvage.ResearchItems"],
+      "itemType": ["Misc"]
+    }
+  },
+  "researchPoints": [
+    {
+      "level": 1,
+      "points": 50,
+      "station": "research_station"
+    }
+  ]
+}
