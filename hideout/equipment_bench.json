@@ -4,27 +4,28 @@
     "da": "Udstyrsbænk",
     "de": "Ausrüstungsbank",
     "en": "Gear Bench",
-    "es": "Banco de equipo",
+    "es": "Mesa de equipamiento",
     "fr": "Établi à matériel",
     "he": "עמדת ציוד",
     "hr": "Stol za Opremu",
-    "it": "Banco Equipaggiamento",
+    "it": "Banco dell'equipaggiamento",
     "ja": "装備ベンチ",
     "ko-KR": "장비 작업대",
     "no": "Utstyrsbenk",
-    "pl": "Stół ekwipunku",
+    "pl": "Stół do prac nad sprzętem",
     "pt": "Bancada de equipamento",
     "pt-BR": "Bancada de Equipamentos",
     "ru": "Верстак для снаряжения",
     "sr": "Sto za Opremu",
-    "tr": "Ekipman Tezgahı",
+    "tr": "Teçhizat Tezgâhı",
     "uk": "Спорядження",
     "zh-CN": "装备工作台",
-    "zh-TW": "裝備工作台"
+    "zh-TW": "裝備台"
   },
   "maxLevel": 3,
   "levels": [
     {
+      "image": "/images/hideout/levels/equipment_bench/1.png",
       "level": 1,
       "requirementItemIds": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/equipment_bench/2.png",
       "level": 2,
       "requirementItemIds": [
         {
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/equipment_bench/3.png",
       "level": 3,
       "requirementItemIds": [
         {

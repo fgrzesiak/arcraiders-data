@@ -7,7 +7,13 @@
     "map-events:update": "node scripts/update-map-events.js && bun run map-events:format",
     "map-events:format": "prettier --write map-events/map-events.json",
     "projects:update": "node scripts/update-projects.js && bun run projects:format",
-    "projects:format": "prettier --write projects.json"
+    "projects:format": "prettier --write projects.json",
+    "items:update": "node scripts/update-items.js && bun run items:format",
+    "items:format": "prettier --write items/*.json",
+    "quests:update": "node scripts/update-quests.js && bun run quests:format",
+    "quests:format": "prettier --write quests/*.json",
+    "hideout:update": "node scripts/update-hideout.js && bun run hideout:format",
+    "hideout:format": "prettier --write hideout/*.json"
   },
   "devDependencies": {
     "prettier": "^3.6.2",

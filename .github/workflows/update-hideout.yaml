@@ -1,0 +1,61 @@
+name: Update hideout
+
+on:
+    schedule:
+        - cron: "15 6 * * *"
+    workflow_dispatch:
+        inputs:
+            head-branch:
+                description: "Branch name to push hideout updates"
+                type: string
+                default: "automation/hideout-update"
+            base-branch:
+                description: "Target branch for the pull request"
+                type: string
+                default: "main"
+
+jobs:
+    update-hideout:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            pull-requests: write
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v1
+              with:
+                  bun-version: "1.1.24"
+
+            - name: Install dependencies
+              run: bun install --frozen-lockfile
+
+            - name: Update hideout dataset
+              run: bun run hideout:update
+
+            - name: Create pull request
+              uses: peter-evans/create-pull-request@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: ${{ inputs.head-branch || 'automation/hideout-update' }}
+                  base: ${{ inputs.base-branch || 'main' }}
+                  title: "Update hideout modules"
+                  body: |
+                      Automated sync of hideout modules from arctracker.io.
+
+                      - Triggered by: ${{ github.actor }}
+                  commit-message: "chore: update hideout modules"
+                  author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+                  committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+                  add-paths: |
+                      hideout/*.json
+                  labels: |
+                      automation
+                  draft: false
+                  delete-branch: true
+                  signoff: false
+                  skip-if-empty: true

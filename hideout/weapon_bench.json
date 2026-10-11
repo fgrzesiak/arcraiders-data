@@ -8,23 +8,24 @@
     "fr": "Armurier",
     "he": "נשק",
     "hr": "Oružar",
-    "it": "Armaiolo",
+    "it": "Banco delle armi",
     "ja": "ガンスミス",
-    "ko-KR": "총기 제작",
+    "ko-KR": "총기 제작대",
     "no": "Våpenmaker",
-    "pl": "Rusznikarz",
+    "pl": "Stacja rusznikarska",
     "pt": "Armeiro",
     "pt-BR": "Armeiro",
     "ru": "Оружейный верстак",
     "sr": "Oružar",
-    "tr": "Silah Tezgahı",
+    "tr": "Silahçı",
     "uk": "Зброярня",
     "zh-CN": "武器工作台",
-    "zh-TW": "槍械工坊"
+    "zh-TW": "槍械站"
   },
-  "maxLevel": 3,
+  "maxLevel": 4,
   "levels": [
     {
+      "image": "/images/hideout/levels/weapon_bench/1.png",
       "level": 1,
       "requirementItemIds": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/weapon_bench/2.png",
       "level": 2,
       "requirementItemIds": [
         {
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/weapon_bench/3.png",
       "level": 3,
       "requirementItemIds": [
         {
@@ -68,6 +71,29 @@
         {
           "itemId": "sentinel_firing_core",
           "quantity": 4
+        }
+      ]
+    },
+    {
+      "image": "/images/hideout/levels/weapon_bench/4.png",
+      "level": 4,
+      "requirementItemIds": [
+        {
+          "itemId": "radial_press",
+          "quantity": 3
+        },
+        {
+          "itemId": "magnetic_accelerator",
+          "quantity": 3
+        },
+        {
+          "itemId": "emperor_modulator",
+          "quantity": 1
+        }
+      ],
+      "requires": [
+        {
+          "outpostRooms": 4
         }
       ]
     }

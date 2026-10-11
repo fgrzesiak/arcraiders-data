@@ -5,26 +5,27 @@
     "de": "Medizinisches Labor",
     "en": "Medical Lab",
     "es": "Laboratorio médico",
-    "fr": "Laboratoire Médical",
+    "fr": "Laboratoire médical",
     "he": "מעבדה רפואית",
     "hr": "Medicinski Laboratorij",
-    "it": "Laboratorio Medico",
+    "it": "Laboratorio medico",
     "ja": "医療ラボ",
-    "ko-KR": "의약품 연구실",
+    "ko-KR": "의약품 연구대",
     "no": "Medisinsk laboratorium",
     "pl": "Laboratorium medyczne",
     "pt": "Laboratório médico",
     "pt-BR": "Laboratório Médico",
     "ru": "Медицинская лаборатория",
     "sr": "Medicinska Laboratorija",
-    "tr": "Tıbbi Laboratuvar",
+    "tr": "Tıp Laboratuvarı",
     "uk": "Медична лабораторія",
     "zh-CN": "医疗实验室",
-    "zh-TW": "醫療站"
+    "zh-TW": "醫療實驗站"
   },
   "maxLevel": 3,
   "levels": [
     {
+      "image": "/images/hideout/levels/med_station/1.png",
       "level": 1,
       "requirementItemIds": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/med_station/2.png",
       "level": 2,
       "requirementItemIds": [
         {
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/med_station/3.png",
       "level": 3,
       "requirementItemIds": [
         {

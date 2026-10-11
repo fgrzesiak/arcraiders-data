@@ -4,11 +4,11 @@
     "da": "Sprængstofstation",
     "de": "Sprengstoffstation",
     "en": "Explosives Station",
-    "es": "Estación de explosivos",
+    "es": "Puesto de explosivos",
     "fr": "Station à explosifs",
     "he": "עמדת חומרי נפץ",
     "hr": "Stanica za eksploziv",
-    "it": "Stazione Esplosivi",
+    "it": "Postazione degli esplosivi",
     "ja": "爆発物ステーション",
     "ko-KR": "폭발물 스테이션",
     "no": "Eksplosivstasjon",
@@ -20,11 +20,12 @@
     "tr": "Patlayıcı İstasyonu",
     "uk": "Станція вибухівки",
     "zh-CN": "爆炸物工作台",
-    "zh-TW": "爆裂物工作站"
+    "zh-TW": "爆裂物站"
   },
   "maxLevel": 3,
   "levels": [
     {
+      "image": "/images/hideout/levels/explosives_bench/1.png",
       "level": 1,
       "requirementItemIds": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/explosives_bench/2.png",
       "level": 2,
       "requirementItemIds": [
         {
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/explosives_bench/3.png",
       "level": 3,
       "requirementItemIds": [
         {
