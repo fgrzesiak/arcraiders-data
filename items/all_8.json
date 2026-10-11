@@ -1,459 +1,5 @@
 [
   {
-    "id": "remote_raider_flare_blueprint",
-    "name": {
-      "da": "Fjernbetjent raider-blus Tegning",
-      "de": "Bauplan: Raider-Leuchtfackel mit Fernzündung",
-      "en": "Remote Raider Flare Blueprint",
-      "es": "Proyecto de bengala de Raider de control remoto",
-      "fr": "Schéma de fusée éclairante télécommandée",
-      "he": "שרטוט לנור ריידר נשלט-מרחוק",
-      "hr": "Nacrt Daljinske Raider Rakete",
-      "it": "Progetto lampo Raider telecomandato",
-      "ja": "遠隔レイダー発煙筒の設計図",
-      "ko-KR": "원격 레이더 조명탄 설계도",
-      "no": "Fjernkontrollert raider-bluss Tegning",
-      "pl": "Plan: zdalna flara łupieżcy",
-      "pt": "Plano do Sinalizador de invasor remoto",
-      "pt-BR": "Esquema de Sinalizador de Raider Remoto",
-      "ru": "Чертеж — Устройство дистанционного пуска рейдерской ракеты",
-      "sr": "Nacrt Daljinske Raider Rakete",
-      "tr": "Kumandalı Raider Fişeği Taslağı",
-      "uk": "Креслення дистанційної сигнальної ракети рейдера",
-      "zh-CN": "遥控奇袭者信号弹蓝图",
-      "zh-TW": "遙控掠手信號彈藍圖"
-    },
-    "description": {
-      "da": "Lader dig fremstille et fjernstyret Raider-nødblus",
-      "de": "Damit stellst du eine Raider-Leuchtfackel mit Fernzündung her",
-      "en": "Lets you craft a Remote Raider Flare",
-      "es": "Te permite fabricar una bengala de Raider de control remoto.",
-      "fr": "Vous permet de fabriquer une fusée éclairante télécommandée",
-      "he": "מאפשר לך ליצור נור פושטים נשלט מרחוק",
-      "hr": "Omogućuje izradu daljinske Raider signalne rakete",
-      "it": "Ti permette di creare un lampo Raider telecomandato",
-      "ja": "遠隔レイダー発煙筒が製作可能になる",
-      "ko-KR": "원격 레이더 조명탄 제작법입니다.",
-      "no": "Lar deg lage et fjernstyrt Raider-bluss",
-      "pl": "Pozwala wytworzyć zdalną flarę łupieżców",
-      "pt": "Permite fabricar um Sinalizador Remoto de Raider",
-      "pt-BR": "Permite fabricar um Sinalizador de Raider Remoto",
-      "ru": "Позволяет создать устройство дистанционного пуска рейдерской ракеты.",
-      "sr": "Omogućava izradu daljinske signalne rakete za Rejdere",
-      "tr": "Kumandalı Raider Fişeği üretmeni sağlar",
-      "uk": "Дозволяє створити дистанційну сигнальну ракету рейдера",
-      "zh-CN": "可以制作远程奇袭者信号弹",
-      "zh-TW": "可製作遙控掠手信號彈"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/remote_raider_flare_blueprint.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Recipe",
-        "dropType": [
-          "Recipe"
-        ],
-        "itemType": [
-          "Recipe"
-        ]
-      }
-    },
-    "research": [
-      {
-        "cost": {
-          "chemicals": 25
-        },
-        "level": 1,
-        "offerId": 613235998,
-        "points": 500,
-        "station": "research_station"
-      }
-    ]
-  },
-  {
-    "id": "remote_raider_flare",
-    "name": {
-      "da": "Fjernbetjent raider-blus",
-      "de": "Raider-Leuchtfackel mit Fernzündung",
-      "en": "Remote Raider Flare",
-      "es": "Bengala de Raider de control remoto",
-      "fr": "Fusée éclairante télécommandée",
-      "he": "נור ריידר נשלט-מרחוק",
-      "hr": "Daljinska Raider Raketa",
-      "it": "Lampo Raider telecomandato",
-      "ja": "遠隔レイダー発煙筒",
-      "ko-KR": "원격 레이더 조명탄",
-      "no": "Fjernkontrollert raider-bluss",
-      "pl": "Zdalna flara łupieżców",
-      "pt": "Sinalizador de invasor remoto",
-      "pt-BR": "Sinalizador de Raider Remoto",
-      "ru": "Устройство дистанционного пуска рейдерской ракеты",
-      "sr": "Daljinska Raider Raketa",
-      "tr": "Kumandalı Raider Fişeği",
-      "uk": "Дистанційна сигнальна ракета рейдера",
-      "zh-CN": "远程奇袭者信号弹",
-      "zh-TW": "遙控掠手信號彈"
-    },
-    "description": {
-      "da": "En udplaceringsenhed, der, når den udløses manuelt, affyrer et raider-nødblus.",
-      "de": "Ein einsatzbereites Gerät, das bei manueller Auslösung ein Raider-Notsignal abfeuert.",
-      "en": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
-      "es": "Un dispositivo desplegable que, al activarlo manualmente, dispara una bengala de socorro de Raider.",
-      "fr": "Un appareil déployable qui lance une fusée de détresse de Raider. Déclenchement manuel.",
-      "he": "התקן הניתן לפריסה, אשר בהפעלה ידנית משגר נור מצוקה של ריידר.",
-      "hr": "Uređaj za postavljanje koji, kada se ručno aktivira, ispaljuje Raider raketu za pomoć.",
-      "it": "Un dispositivo pronto all'uso che, quando viene attivato manualmente, emette un Avviso emergenza Raider.",
-      "ja": "展開型の機器。手動で起動させると、レイダー救難信号を発射する装置。",
-      "ko-KR": "수동으로 조작해 레이더 조난 신호 조명탄을 발사하는 장치입니다.",
-      "no": "En utplasserbar enhet som, når den utløses manuelt, avfyrer et raider-nødbluss.",
-      "pl": "Przenośne urządzenie, które po ręcznym aktywowaniu wystrzeliwuje flarę ratunkową łupieżcy.",
-      "pt": "Um dispositivo implantável que, quando acionado manualmente, lança um sinalizador de socorro de invasor.",
-      "pt-BR": "Dispositivo portátil que lança um Sinalizador de Socorro de Raider ao ser acionado manualmente.",
-      "ru": "Размещаемое устройство, которое после ручной активации запускает рейдерскую сигнальную ракету.",
-      "sr": "Uređaj za postavljanje koji, kada se ručno aktivira, ispaljuje Raider raketu za pomoć.",
-      "tr": "Manuel olarak tetiklendiğinde bir Raider Yardım Fişeği fırlatan kurulabilir bir cihaz.",
-      "uk": "Пристрій, який при ручній активації запускає сигнальну ракету лиха рейдера.",
-      "zh-CN": "一种可部署装置，手动触发后可以发射奇袭者求救信号弹。",
-      "zh-TW": "一種部署式裝置，手動觸發時會發射掠手求救信號彈。"
-    },
-    "type": "Quick Use",
-    "rarity": "Common",
-    "value": 270,
-    "weightKg": 0.2,
-    "stackSize": 3,
-    "blueprintLocked": true,
-    "craftBench": "utility_bench",
-    "stationLevelRequired": 1,
-    "recipe": {
-      "chemicals": 2,
-      "rubber_parts": 4
-    },
-    "recyclesInto": {
-      "chemicals": 1,
-      "rubber_parts": 1
-    },
-    "salvagesInto": {
-      "chemicals": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/remote_raider_flare.png",
-    "updatedAt": "03/22/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Utility.Tools",
-        "dropType": [
-          "Consumable.Deployable"
-        ],
-        "itemType": [
-          "Deployable"
-        ]
-      },
-      "deployable": {
-        "deploymentTimeSec": 1,
-        "deployRangeM": 4,
-        "maxHealth": 15
-      },
-      "partial": [
-        "placedItem"
-      ]
-    },
-    "vendors": [
-      {
-        "cost": {
-          "coins": 810
-        },
-        "trader": "Shani"
-      }
-    ]
-  },
-  {
-    "id": "renegade_amplified_more_reload_scoped",
-    "name": {
-      "da": "Forstærket Renegade · Hurtigere Genladning + Med Kikkertsigte",
-      "de": "Verstärkte Renegade · Mehr nachladen + Mit Visier",
-      "en": "Amplified Renegade · More Reload + Scoped",
-      "es": "Renegado amplificado · Recarga ampliada + Con mira",
-      "fr": "Renégat amplifié · Rechargement accéléré + Ajout de lunette",
-      "he": "רנגייד מוגבר · טעינה משופרת + עם כוונת",
-      "hr": "Pojačani Renegade · Brže punjenje + S optikom",
-      "it": "Renegade amplificato · Più ricarica + Più mirino",
-      "ja": "強化版レネゲイド · リロードアップ + スコープ",
-      "ko-KR": "증폭된 레니게이드 · 재장전량 증가 + 스코프 장착",
-      "no": "Forsterket Renegade · Raskere omlading + Med sikte",
-      "pl": "Wzmocniony Renegat · Powiększone przeładowywanie + Broń z lunetą",
-      "pt": "Renegade Amplificado · Recarga Aprimorada + Com Mira",
-      "pt-BR": "Renegado Amplificado · Mais Recarregamento + Com Luneta",
-      "ru": "Усовершенствованный Бунтарь · Увеличенная перезарядка + Прицел",
-      "sr": "Pojačani Renegade · Brže punjenje + Sa optikom",
-      "tr": "Güçlendirilmiş Kaçak · Daha Fazla Yeniden Doldurma + Dürbünlü",
-      "uk": "Посилений Ренегат · Швидша перезарядка + З прицілом",
-      "zh-CN": "增强型“叛逆” · 高效装填 + 加装瞄准镜",
-      "zh-TW": "增幅叛將 · 裝填更多 + 加裝瞄準鏡"
-    },
-    "description": {
-      "da": "En forstærket variant af Renegade.",
-      "de": "Eine verstärkte Variante der Renegade.",
-      "en": "An amplified variant of the Renegade.",
-      "es": "Una variante amplificada del Renegado.",
-      "fr": "Une variante amplifiée du Renégat.",
-      "he": "גרסה מוגברת של הרנגייד.",
-      "hr": "Pojačana varijanta Renegadea.",
-      "it": "Una variante amplificata del Renegade.",
-      "ja": "レネゲイドの強化版。",
-      "ko-KR": "증폭된 레니게이드입니다.",
-      "no": "En forsterket variant av Renegaden.",
-      "pl": "Wzmocniony wariant Renegata.",
-      "pt": "Uma variante amplificada do Renegade.",
-      "pt-BR": "Uma variante amplificada de Renegado.",
-      "ru": "Усовершенствованная версия Бунтаря.",
-      "sr": "Pojačana varijanta Renegadea.",
-      "tr": "Kaçak'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Ренегата.",
-      "zh-CN": "“叛逆”的增强型变体。",
-      "zh-TW": "叛將的增幅版。"
-    },
-    "type": "Battle Rifle",
-    "rarity": "Legendary",
-    "value": 20800,
-    "weightKg": 10,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Medium Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Vrsta streljiva",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип патронов",
-        "sr": "Vrsta streljiva",
-        "tr": "Mermi Türü",
-        "uk": "Тип патронів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Moderate",
-        "da": "ARC rustningspenetrering",
-        "de": "ARC-Panzerungsdurchdringung",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración del blindaje de las ARC",
-        "fr": "Perforation du blindage ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC装甲貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC rustningspenetrering",
-        "pl": "Penetracja pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delimi",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC护甲穿透",
-        "zh-TW": "ARC裝甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2.25x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Firing Mode": {
-        "value": "Lever-Action",
-        "da": "Skydningstilstand",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način pucanja",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skytemodus",
-        "pl": "Tryb strzału",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Način pucanja",
-        "tr": "Ateş Modu",
-        "uk": "Режим стрільби",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Increased Fire Rate": {
-        "value": "75%",
-        "da": "Øget skudhastighed",
-        "de": "Erhöhte Feuerrate",
-        "en": "Increased Fire Rate",
-        "es": "Aumento de la cadencia de fuego",
-        "fr": "Cadence de tir augmentée",
-        "he": "קצב אש מוגבר",
-        "hr": "Povećana brzina paljbe",
-        "it": "Cadenza di fuoco aumentata",
-        "ja": "連射速度上昇",
-        "ko-KR": "발사 속도 증가",
-        "no": "Økt skuddtakt",
-        "pl": "Zwiększona szybkostrzelność",
-        "pt": "Taxa de disparo aumentada",
-        "pt-BR": "Cadência de Tiro Aumentada",
-        "ru": "Повышенная скорострельность",
-        "sr": "Povećana brzina paljbe",
-        "tr": "Artırılmış atış hızı",
-        "uk": "Підвищена швидкість стрільби",
-        "zh-CN": "射速增加",
-        "zh-TW": "提高射速"
-      },
-      "Reduced Dispersion Recovery Time": {
-        "value": "50%",
-        "da": "Reduceret genopretningstid for spredning",
-        "de": "Verringerte Streuungs-Erholungszeit",
-        "en": "Reduced Dispersion Recovery Time",
-        "es": "Tiempo de recuperación de dispersión reducido",
-        "fr": "Temps de récupération de dispersion réduit",
-        "he": "זמן התאוששות מפיזור מופחת",
-        "hr": "Smanjeno vrijeme oporavka raspršenja",
-        "it": "Tempo di recupero della dispersione ridotto",
-        "ja": "拡散回復時間短縮",
-        "ko-KR": "분산 회복 시간 감소",
-        "no": "Redusert gjenopprettingstid for spredning",
-        "pl": "Skrócony czas powrotu rozrzutu",
-        "pt": "Tempo de recuperação de dispersão reduzido",
-        "pt-BR": "Redução no Tempo de Recuperação da Dispersão",
-        "ru": "Сокращённое время восстановления разброса",
-        "sr": "Smanjeno vreme oporavka raspršenja",
-        "tr": "Azaltılmış saçılma toparlanma süresi",
-        "uk": "Скорочений час відновлення розсіювання",
-        "zh-CN": "散布恢复时间缩短",
-        "zh-TW": "降低散射恢復時間"
-      }
-    },
-    "recyclesInto": {
-      "amplified_fragments": 19
-    },
-    "salvagesInto": {
-      "amplified_fragments": 13
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/renegade_amplified_more_reload_scoped.png",
-    "updatedAt": "10/08/2026",
-    "addedIn": "2.0",
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.BattleRifle",
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.MediumAmmoWeapon",
-          "Items.SpecificWeapon.Renegade"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "medium_ammo",
-        "arc": {
-          "armorMultiplier": 0.8
-        },
-        "base": {
-          "adsTimeSec": 1,
-          "burnRate": 0.003719,
-          "burstSize": 1,
-          "clipSize": 8,
-          "firePower": 90000,
-          "fireRate": 60,
-          "looping": {
-            "entrySec": 0.8,
-            "exitSec": 0.4,
-            "fromAnimation": [
-              "loopSec"
-            ],
-            "loopSec": 0.415
-          },
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 35,
-          "reloadTimeSec": 3.5
-        },
-        "equipTimeSec": 1.1,
-        "headshotMultiplier": 2.25,
-        "headshotMultiplierFrom": "class",
-        "unequipTimeSec": 0.6
-      }
-    },
-    "modSlots": {
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "repairCost": {
-      "amplified_fragments": 33
-    },
-    "repairDurability": 0.5
-  },
-  {
     "id": "renegade_amplified_more_reload",
     "name": {
       "da": "Forstærket Renegade · Hurtigere Genladning",
@@ -11555,5 +11101,155 @@
         "station": "research_station"
       }
     ]
+  },
+  {
+    "id": "solid_green_chair_design",
+    "name": {
+      "da": "Ensfarvet grøn stoldesign",
+      "de": "Einfarbiger grüner Stuhlentwurf",
+      "en": "Solid Green Chair Design",
+      "es": "Diseño de silla de color verde sólido",
+      "fr": "Design de chaise verte unie",
+      "he": "עיצוב כיסא ירוק אחיד",
+      "hr": "Nacrt jednobojnog zelenog stolca",
+      "it": "Design della Sedia verde tinta unita",
+      "ja": "ソリッド・グリーンチェアのデザイン",
+      "ko-KR": "솔리드 그린 의자 디자인",
+      "no": "Helt Grønn Stol-design",
+      "pl": "Projekt Jednolitego zielonego krzesła",
+      "pt": "Design de Cadeira Verde Sólido",
+      "pt-BR": "Projeto de Cadeira Verde Sólida",
+      "ru": "Схема: Однотонный зеленый стул",
+      "sr": "Dizajn jednobojne zelene stolice",
+      "tr": "Düz Yeşil Sandalye Tasarımı",
+      "uk": "Дизайн однотонного зеленого крісла",
+      "zh-CN": "纯绿色椅子设计图",
+      "zh-TW": "純綠色椅子設計"
+    },
+    "type": "Design",
+    "rarity": "Rare",
+    "value": 5000,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/solid_green_chair.png",
+    "updatedAt": "10/08/2026",
+    "addedIn": "2.0",
+    "mechanics": {
+      "classification": {
+        "category": "Recipe.OutpostFurniture",
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
+      }
+    }
+  },
+  {
+    "id": "solid_green_chair",
+    "name": {
+      "da": "Ensfarvet Grøn Stol",
+      "de": "Einfarbiger grüner Stuhl",
+      "en": "Solid Green Chair",
+      "es": "Silla verde sólida",
+      "fr": "Chaise verte unie",
+      "he": "כיסא ירוק מלא",
+      "hr": "Jednobojna zelena stolica",
+      "it": "Sedia verde tinta unita",
+      "ja": "ソリッド・グリーンチェア",
+      "ko-KR": "솔리드 그린 의자",
+      "no": "Solid Grønn Stol",
+      "pl": "Jednolite zielone krzesło",
+      "pt": "Cadeira Verde Sólido",
+      "pt-BR": "Cadeira Verde Sólida",
+      "ru": "Однотонный зеленый стул",
+      "sr": "Čvrsta zelena stolica",
+      "tr": "Düz Yeşil Sandalye",
+      "uk": "Міцний зелений стілець",
+      "zh-CN": "纯绿色椅子",
+      "zh-TW": "純綠色椅子"
+    },
+    "type": "Outpost Furniture",
+    "rarity": "Rare",
+    "stackSize": 1,
+    "recyclesInto": {
+      "sheetmetal": 15
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/solid_green_chair.png",
+    "updatedAt": "10/08/2026",
+    "addedIn": "2.0"
+  },
+  {
+    "id": "spaceport_container_storage_key",
+    "name": {
+      "da": "Rumhavnens containeropbevarings-nøgle",
+      "de": "Containerlagerschlüssel (Raumhafen)",
+      "en": "Spaceport Container Storage Key",
+      "es": "Llave del almacén de contenedores del Puerto espacial",
+      "fr": "Clé de l'Entrepôt de conteneurs du Port spatial",
+      "he": "מפתח למחסן מכולות בנמל החלל",
+      "hr": "Ključ Skladišta Kontejnera Svemirske Luke",
+      "it": "Chiave Area di stoccaggio Spazioporto",
+      "ja": "宇宙港のコンテナ保管庫の鍵",
+      "ko-KR": "우주 기지 컨테이너 창고 열쇠",
+      "no": "Romhavnens containerlager-nøkkel",
+      "pl": "Klucz do składu pojemników w porcie kosmicznym",
+      "pt": "Chave do armazém de contêineres do espaçoporto",
+      "pt-BR": "Chave do Depósito de Contentores do Espaçoporto",
+      "ru": "Ключ от хранилища контейнеров космопорта",
+      "sr": "Ključ Skladišta Kontejnera Svemirske Luke",
+      "tr": "Uzaylimanı Konteyner Deposu Anahtarı",
+      "uk": "Ключ від контейнерного сховища космопорту",
+      "zh-CN": "太空港集装箱仓库钥匙",
+      "zh-TW": "太空港貨櫃儲藏庫鑰匙"
+    },
+    "description": {
+      "da": "Låser en dør op i Container Storage i Spaceport",
+      "de": "Öffnet eine Tür im Containerlager im Raumhafen",
+      "en": "Unlocks a door in the Container Storage in Spaceport",
+      "es": "Abre una puerta del almacén de contenedores del Puerto espacial.",
+      "fr": "Déverrouille une porte de l'Entrepôt de conteneurs dans le Port spatial.",
+      "he": "פותח דלת באזור אחסון המכולות ב-Spaceport",
+      "hr": "Otključava vrata za Container Storage na mapi Spaceport",
+      "it": "Apre una porta nell'Area di stoccaggio dello Spazioporto",
+      "ja": "宇宙港のコンテナ保管庫の中の扉を開けることができる",
+      "ko-KR": "우주 기지의 컨테이너 창고에 있는 문을 엽니다.",
+      "no": "Låser opp en dør i Container Storage i Spaceport",
+      "pl": "Otwiera drzwi w składzie pojemników w porcie kosmicznym.",
+      "pt": "Desbloqueia uma porta no Armazém de Contêineres em Spaceport",
+      "pt-BR": "Destranca uma porta no Depósito de Contentores do Espaçoporto",
+      "ru": "Открывает дверь внутри хранилища контейнеров, расположенного в космопорте.",
+      "sr": "Otključava vrata u Container Storage-u u Spaceport-u",
+      "tr": "Uzaylimanı'nda Konteyner Deposu'ndaki bir kapıyı açar.",
+      "uk": "Відкриває двері до Сховища контейнерів у Spaceport",
+      "zh-CN": "可打开太空港集装箱仓库内的一扇门。",
+      "zh-TW": "可打開太空港貨櫃儲藏庫的一扇門"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/spaceport_container_storage_key.png",
+    "updatedAt": "11/08/2025",
+    "_note": "not_in_serverslam",
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Utility.Key",
+        "dropType": [
+          "Salvage.Key.Spaceport",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
+      },
+      "key": {
+        "map": "the_spaceport",
+        "mapSource": "drop-tag",
+        "mapTag": "Spaceport"
+      }
+    }
   }
 ]

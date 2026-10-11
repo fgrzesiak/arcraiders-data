@@ -3,6 +3,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { pruneStaleFiles } from "./lib/sync-utils.js";
 
 const API_URL = "https://arctracker.io/api/quests";
 
@@ -54,12 +55,21 @@ async function run() {
     }
   }
 
-  if (updated === 0 && added === 0) {
+  // Remove entries the API no longer delivers (renamed/removed upstream).
+  const removed = await pruneStaleFiles(
+    targetDir,
+    Object.keys(payload.quests),
+    "quests"
+  );
+
+  if (updated === 0 && added === 0 && removed.length === 0) {
     console.log("No quest changes detected");
     return;
   }
 
-  console.log(`Updated quests: ${updated} quest(s) changed, ${added} quest(s) added`);
+  console.log(
+    `Updated quests: ${updated} quest(s) changed, ${added} quest(s) added, ${removed.length} quest(s) removed`
+  );
 }
 
 run().catch((error) => {

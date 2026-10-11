@@ -1,1491 +1,5 @@
 [
   {
-    "id": "kettle_iii",
-    "name": {
-      "da": "Kedel III",
-      "de": "Kettle III",
-      "en": "Kettle III",
-      "es": "Caldero III",
-      "fr": "Fondoir III",
-      "he": "קטל III",
-      "hr": "Kotlić III",
-      "it": "Stormo III",
-      "ja": "ケトル III",
-      "ko-KR": "케틀 III",
-      "no": "Kjele III",
-      "pl": "Kociołek III",
-      "pt": "Chaleira III",
-      "pt-BR": "Chaleira III",
-      "ru": "Чайник III",
-      "sr": "Čajnik III",
-      "tr": "Isıtıcı III",
-      "uk": "Чайник III",
-      "zh-CN": "水壶 III",
-      "zh-TW": "水壺III"
-    },
-    "description": {
-      "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
-      "de": "Ein halbautomatisches Sturmgewehr. Es ist schnell und präzise, doch die Kugeln fliegen recht langsam und das Nachladen dauert lange.",
-      "en": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time to reload.",
-      "es": "Fusil de asalto semiautomático. Es rápido y preciso, pero cuenta con una velocidad de las balas baja y se tarda mucho en recargar.",
-      "fr": "Fusil d'assaut semi-automatique. Rapide et précis, mais la vitesse de ses balles est faible et son rechargement est long.",
-      "he": "רובה סער חצי-אוטומטי. מהיר ומדויק, אך בעל מהירות קליע נמוכה ולוקח זמן רב לטעון אותו מחדש.",
-      "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se ponovno puni.",
-      "it": "Fucile d'assalto semiautomatico. È rapido e preciso, ma ha una velocità dei proiettili ridotta e richiede molto tempo per essere ricaricato.",
-      "ja": "セミオートのアサルトライフル。素早くて正確だが弾速は遅く、リロードに時間がかかる。",
-      "ko-KR": "빠르고 정확하게 발사하지만 탄속이 느리고 재장전 시간이 오래 걸리는 반자동 돌격 소총입니다.",
-      "no": "Halvautomatisk automatgevær. Raskt og presist, men har lav kulehastighet og tar lang tid å lade om.",
-      "pl": "Szturmowy karabin samopowtarzalny. Szybki i celny, ale wystrzeliwuje pociski z małą prędkością, a przeładowywanie go zajmuje dużo czasu.",
-      "pt": "Fuzil de assalto semiautomático. Rápido e preciso, mas possui baixa velocidade de projétil e demora muito para recarregar.",
-      "pt-BR": "Fuzil de assalto semiautomático. Veloz e preciso, mas tem baixa velocidade de projétil e demora muito tempo para recarregar.",
-      "ru": "Полуавтоматическая штурмовая винтовка. Быстрая и точная, но отличается низкой скоростью пуль и требует много времени на перезарядку.",
-      "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se puni.",
-      "tr": "Yarı otomatik taarruz tüfeği. Hızlı ve isabetlidir ancak mermi hızı düşük ve yeniden doldurma süresi uzundur.",
-      "uk": "Напівавтоматична штурмова гвинтівка. Швидка та точна, але має низьку швидкість польоту кулі та довго перезаряджається.",
-      "zh-CN": "半自动射击的突击步枪，射速快，精准度高，但子弹初速较低，且装弹时间长。",
-      "zh-TW": "半自動突擊步槍。快速而準確，但子彈速度較低且裝填時間較長。"
-    },
-    "type": "Assault Rifle",
-    "rarity": "Common",
-    "value": 3000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Light Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Vrsta streljiva",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип боеприпасов",
-        "sr": "Vrsta municije",
-        "tr": "Mermi Türü",
-        "uk": "Тип боєприпасів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Very Weak",
-        "da": "ARC-rustningspenetrering",
-        "de": "ARC-Panzerungsdurchdringung",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración de armadura ARC",
-        "fr": "Pénétration d'armure ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC装甲貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC-rustningspenetrering",
-        "pl": "Przebicie pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delme",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC 护甲穿透",
-        "zh-TW": "ARC 護甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2.5x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Damage Falloff Range": {
-        "value": "130-150 m",
-        "da": "Skadesfald-afstand",
-        "de": "Schadensabfall-Reichweite",
-        "en": "Damage Falloff Range",
-        "es": "Alcance de pérdida de daño",
-        "fr": "Portée de perte de dégâts",
-        "he": "טווח דעיכת נזק",
-        "hr": "Domet opadanja štete",
-        "it": "Raggio di calo del danno",
-        "ja": "ダメージ減衰距離",
-        "ko-KR": "피해 감소 거리",
-        "no": "Skadefall-rekkevidde",
-        "pl": "Zasięg spadku obrażeń",
-        "pt": "Alcance da queda de dano",
-        "pt-BR": "Alcance da queda de dano",
-        "ru": "Дистанция спада урона",
-        "sr": "Domet opadanja štete",
-        "tr": "Hasar Azalma Menzili",
-        "uk": "Дистанція спаду шкоди",
-        "zh-CN": "伤害衰减距离",
-        "zh-TW": "傷害衰減距離"
-      },
-      "Durability": {
-        "value": "120/120",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久性",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Firing Mode": {
-        "value": "Semi-Automatic",
-        "da": "Skydningstilstand",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način pucanja",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skyttemodus",
-        "pl": "Tryb ognia",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Režim pucanja",
-        "tr": "Atış Modu",
-        "uk": "Режим стрільби",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Increased Bullet Velocity": {
-        "value": "50%",
-        "da": "Øget kuglehastighed",
-        "de": "Erhöhte Geschossgeschwindigkeit",
-        "en": "Increased Bullet Velocity",
-        "es": "Velocidad de bala aumentada",
-        "fr": "Vélocité des balles augmentée",
-        "he": "מהירות קליע מוגברת",
-        "hr": "Povećana brzina metka",
-        "it": "Velocità proiettile aumentata",
-        "ja": "弾速増加",
-        "ko-KR": "탄환 속도 증가",
-        "no": "Økt kulehastighet",
-        "pl": "Zwiększona prędkość pocisku",
-        "pt": "Velocidade de bala aumentada",
-        "pt-BR": "Aumento da Velocidade do Projétil",
-        "ru": "Увеличенная скорость пули",
-        "sr": "Povećana brzina metka",
-        "tr": "Artırılmış Mermi Hızı",
-        "uk": "Збільшена швидкість кулі",
-        "zh-CN": "子弹速度提升",
-        "zh-TW": "子彈速度提升"
-      },
-      "Magazine Size": {
-        "value": 20,
-        "da": "Magasinstørrelse",
-        "de": "Magazingröße",
-        "en": "Magazine Size",
-        "es": "Tamaño del cargador",
-        "fr": "Taille du chargeur",
-        "he": "גודל מחסנית",
-        "hr": "Veličina spremnika",
-        "it": "Dimensioni caricatore",
-        "ja": "マガジンサイズ",
-        "ko-KR": "탄창 크기",
-        "no": "Magasinstørrelse",
-        "pl": "Rozmiar magazynka",
-        "pt": "Tamanho do carregador",
-        "pt-BR": "Tamanho do Pente",
-        "ru": "Размер магазина",
-        "sr": "Veličina okvira",
-        "tr": "Şarjör Boyutu",
-        "uk": "Розмір магазину",
-        "zh-CN": "弹匣容量",
-        "zh-TW": "彈匣容量"
-      },
-      "Reduced Reload Time": {
-        "value": "26%",
-        "da": "Reduceret genindlæsningstid",
-        "de": "Verringerte Nachladezeit",
-        "en": "Reduced Reload Time",
-        "es": "Tiempo de recarga reducido",
-        "fr": "Temps de rechargement réduit",
-        "he": "זמן טעינה מופחת",
-        "hr": "Smanjeno vrijeme punjenja",
-        "it": "Tempo di ricarica ridotto",
-        "ja": "リロード時間短縮",
-        "ko-KR": "재장전 시간 감소",
-        "no": "Redusert ladetid",
-        "pl": "Skrócony czas przeładowania",
-        "pt": "Tempo de recarga reduzido",
-        "pt-BR": "Tempo de Recarga Reduzido",
-        "ru": "Сокращённое время перезарядки",
-        "sr": "Smanjeno vrijeme punjenja",
-        "tr": "Azaltılmış yeniden doldurma süresi",
-        "uk": "Скорочений час перезаряджання",
-        "zh-CN": "装弹时间缩短",
-        "zh-TW": "降低換彈時間"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "recyclesInto": {
-      "metal_parts": 12,
-      "simple_gun_parts": 1
-    },
-    "salvagesInto": {
-      "simple_gun_parts": 1
-    },
-    "upgradeCost": {
-      "metal_parts": 10,
-      "simple_gun_parts": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iii.png",
-    "updatedAt": "03/17/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.AssaultRifle",
-        "dropType": [
-          "Equipment.Weapon.Firearm.LightAmmo"
-        ],
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.LightAmmoWeapon",
-          "Items.SpecificWeapon.Kettle"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "light_ammo",
-        "arc": {
-          "armorMultiplier": 0.2,
-          "propagationMultiplier": 0.1
-        },
-        "base": {
-          "adsTimeSec": 0.6,
-          "burnRate": 0.001607,
-          "burstSize": 1,
-          "clipSize": 20,
-          "firePower": 40000,
-          "fireRate": 450,
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 8.5,
-          "reloadTimeSec": 4.5
-        },
-        "damageFalloff": [
-          [
-            0,
-            1.2
-          ],
-          [
-            5,
-            1.2
-          ],
-          [
-            15,
-            1.001
-          ],
-          [
-            130,
-            1.001
-          ],
-          [
-            150,
-            0.6
-          ]
-        ],
-        "dispersion": {
-          "adsDuration": 1.7,
-          "adsRecoveryMultiplier": 0.725,
-          "adsScale": 0.4,
-          "fireGain": [
-            [
-              0,
-              0.1,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              3,
-              0.1,
-              0.14,
-              0.14,
-              "cubic"
-            ],
-            [
-              5,
-              0.8,
-              0,
-              0,
-              "cubic"
-            ],
-            [
-              20,
-              0.8,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "fireMax": 2,
-          "linearRecovery": true,
-          "max": 6,
-          "min": 0.05,
-          "perStance": {
-            "crouching": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.7,
-              "adsRecoveryMultiplier": 0.625,
-              "adsScale": 0.1,
-              "dispersion": 1.5,
-              "overrideAdsDispersion": true,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed"
-              ]
-            },
-            "crouchMoving": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.7,
-              "adsRecoveryMultiplier": 0.625,
-              "adsScale": 0.1,
-              "dispersion": 1.5,
-              "overrideAdsDispersion": true,
-              "recoverySpeed": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed"
-              ]
-            },
-            "falling": {
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "sprinting": {
-              "adsRecoveryMultiplier": 0.725,
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standing": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.8,
-              "adsRecoveryMultiplier": 0.725,
-              "adsScale": 0.1,
-              "dispersion": 2.5,
-              "overrideAdsDispersion": true,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed"
-              ]
-            },
-            "standMoving": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.8,
-              "adsRecoveryMultiplier": 0.725,
-              "adsScale": 0.1,
-              "dispersion": 2.5,
-              "overrideAdsDispersion": true,
-              "recoverySpeed": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed"
-              ]
-            },
-            "uncontrollable": {
-              "adsRecoveryMultiplier": 0.725,
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            }
-          },
-          "popMax": 0.1,
-          "popRecoverySpeed": 0.05,
-          "recoverySpeed": 3.5,
-          "velocity": 2.5,
-          "velocityMax": 3,
-          "velocityRecovery": 6
-        },
-        "equipTimeSec": 1,
-        "headshotMultiplier": 2.5,
-        "modifiers": {
-          "bulletVelocity": 8000,
-          "durabilityBurnRate": -0.2,
-          "reloadSpeed": -0.5
-        },
-        "projectileGravityScale": 0.8,
-        "projectileInitialSpeedMs": 350,
-        "projectileRadiusM": 0.1,
-        "recoil": {
-          "adsGainMultiplier": 0.6,
-          "lerpSpeed": 0.4,
-          "pitch": [
-            [
-              0,
-              0,
-              2.8229413,
-              0,
-              "linear"
-            ],
-            [
-              2,
-              0.2,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              6,
-              2,
-              0.07372187,
-              0.07372336,
-              "linear"
-            ],
-            [
-              16,
-              7,
-              0.031883117,
-              0.03188288,
-              "linear"
-            ],
-            [
-              27.810873,
-              10,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "pitchProceduralRange": [
-            0,
-            0.1
-          ],
-          "recoverySpeed": 0.6,
-          "sampleCount": 25,
-          "unset": [
-            "proceduralSwingSpeed",
-            "recoveryDelay"
-          ],
-          "yaw": [
-            [
-              0,
-              0,
-              -0.009839253,
-              -0.009840206,
-              "cubic"
-            ],
-            [
-              7.903513,
-              -0.12433219,
-              -0.24865048,
-              -0.24865021,
-              "cubic"
-            ],
-            [
-              15.802044,
-              0.6794237,
-              -0.017511474,
-              -0.017511474,
-              "cubic"
-            ],
-            [
-              21.71209,
-              -0.36614072,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              27.98605,
-              0.30393875,
-              0,
-              0.14261085,
-              "cubic"
-            ]
-          ],
-          "yawProceduralRange": [
-            -0.7,
-            0.7
-          ]
-        },
-        "statBarOffsets": {
-          "range": 5
-        },
-        "tier": 3,
-        "unequipTimeSec": 0.4
-      }
-    },
-    "modSlots": {
-      "grip": [
-        "angled_grip_i",
-        "angled_grip_ii",
-        "angled_grip_iii",
-        "horizontal_grip",
-        "vertical_grip_i",
-        "vertical_grip_ii",
-        "vertical_grip_iii"
-      ],
-      "magazine": [
-        "extended_light_mag_i",
-        "extended_light_mag_ii",
-        "extended_light_mag_iii"
-      ],
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "repairCost": {
-      "metal_parts": 12,
-      "simple_gun_parts": 1
-    },
-    "repairDurability": 0.5,
-    "upgrades": [
-      {
-        "cost": {
-          "mechanical_components": 3,
-          "simple_gun_parts": 1
-        },
-        "to": "kettle_iv"
-      }
-    ],
-    "upgradesTo": "kettle_iv"
-  },
-  {
-    "id": "kettle_iv",
-    "name": {
-      "da": "Kedel IV",
-      "de": "Kettle IV",
-      "en": "Kettle IV",
-      "es": "Caldero IV",
-      "fr": "Fondoir IV",
-      "he": "קטל IV",
-      "hr": "Kotlić IV",
-      "it": "Stormo IV",
-      "ja": "ケトル IV",
-      "ko-KR": "케틀 IV",
-      "no": "Kjele IV",
-      "pl": "Kociołek IV",
-      "pt": "Chaleira IV",
-      "pt-BR": "Chaleira IV",
-      "ru": "Чайник IV",
-      "sr": "Čajnik IV",
-      "tr": "Isıtıcı IV",
-      "uk": "Чайник IV",
-      "zh-CN": "水壶 IV",
-      "zh-TW": "水壺IV"
-    },
-    "description": {
-      "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
-      "de": "Ein halbautomatisches Sturmgewehr. Es ist schnell und präzise, doch die Kugeln fliegen recht langsam und das Nachladen dauert lange.",
-      "en": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time to reload.",
-      "es": "Fusil de asalto semiautomático. Es rápido y preciso, pero cuenta con una velocidad de las balas baja y se tarda mucho en recargar.",
-      "fr": "Fusil d'assaut semi-automatique. Rapide et précis, mais la vitesse de ses balles est faible et son rechargement est long.",
-      "he": "רובה סער חצי-אוטומטי. מהיר ומדויק, אך בעל מהירות קליע נמוכה ולוקח זמן רב לטעון אותו מחדש.",
-      "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se ponovno puni.",
-      "it": "Fucile d'assalto semiautomatico. È rapido e preciso, ma ha una velocità dei proiettili ridotta e richiede molto tempo per essere ricaricato.",
-      "ja": "セミオートのアサルトライフル。素早くて正確だが弾速は遅く、リロードに時間がかかる。",
-      "ko-KR": "빠르고 정확하게 발사하지만 탄속이 느리고 재장전 시간이 오래 걸리는 반자동 돌격 소총입니다.",
-      "no": "Halvautomatisk automatgevær. Raskt og presist, men har lav kulehastighet og tar lang tid å lade om.",
-      "pl": "Szturmowy karabin samopowtarzalny. Szybki i celny, ale wystrzeliwuje pociski z małą prędkością, a przeładowywanie go zajmuje dużo czasu.",
-      "pt": "Fuzil de assalto semiautomático. Rápido e preciso, mas possui baixa velocidade de projétil e demora muito para recarregar.",
-      "pt-BR": "Fuzil de assalto semiautomático. Veloz e preciso, mas tem baixa velocidade de projétil e demora muito tempo para recarregar.",
-      "ru": "Полуавтоматическая штурмовая винтовка. Быстрая и точная, но отличается низкой скоростью пуль и требует много времени на перезарядку.",
-      "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se puni.",
-      "tr": "Yarı otomatik taarruz tüfeği. Hızlı ve isabetlidir ancak mermi hızı düşük ve yeniden doldurma süresi uzundur.",
-      "uk": "Напівавтоматична штурмова гвинтівка. Швидка та точна, але має низьку швидкість польоту кулі та довго перезаряджається.",
-      "zh-CN": "半自动射击的突击步枪，射速快，精准度高，但子弹初速较低，且装弹时间长。",
-      "zh-TW": "半自動突擊步槍。快速而準確，但子彈速度較低且裝填時間較長。"
-    },
-    "type": "Assault Rifle",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Light Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Vrsta streljiva",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип боеприпасов",
-        "sr": "Vrsta municije",
-        "tr": "Mermi Türü",
-        "uk": "Тип боєприпасів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Very Weak",
-        "da": "ARC-rustningspenetrering",
-        "de": "ARC-Panzerungsdurchdringung",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración de armadura ARC",
-        "fr": "Pénétration d'armure ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC装甲貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC-rustningspenetrering",
-        "pl": "Przebicie pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delme",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC 护甲穿透",
-        "zh-TW": "ARC 護甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2.5x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Damage Falloff Range": {
-        "value": "130-150 m",
-        "da": "Skadesfald-afstand",
-        "de": "Schadensabfall-Reichweite",
-        "en": "Damage Falloff Range",
-        "es": "Alcance de pérdida de daño",
-        "fr": "Portée de perte de dégâts",
-        "he": "טווח דעיכת נזק",
-        "hr": "Domet opadanja štete",
-        "it": "Raggio di calo del danno",
-        "ja": "ダメージ減衰距離",
-        "ko-KR": "피해 감소 거리",
-        "no": "Skadefall-rekkevidde",
-        "pl": "Zasięg spadku obrażeń",
-        "pt": "Alcance da queda de dano",
-        "pt-BR": "Alcance da queda de dano",
-        "ru": "Дистанция спада урона",
-        "sr": "Domet opadanja štete",
-        "tr": "Hasar Azalma Menzili",
-        "uk": "Дистанція спаду шкоди",
-        "zh-CN": "伤害衰减距离",
-        "zh-TW": "傷害衰減距離"
-      },
-      "Durability": {
-        "value": "130/130",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久性",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Firing Mode": {
-        "value": "Semi-Automatic",
-        "da": "Skydningstilstand",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način pucanja",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skyttemodus",
-        "pl": "Tryb ognia",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Režim pucanja",
-        "tr": "Atış Modu",
-        "uk": "Режим стрільби",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Increased Bullet Velocity": {
-        "value": "75%",
-        "da": "Øget kuglehastighed",
-        "de": "Erhöhte Geschossgeschwindigkeit",
-        "en": "Increased Bullet Velocity",
-        "es": "Velocidad de bala aumentada",
-        "fr": "Vélocité des balles augmentée",
-        "he": "מהירות קליע מוגברת",
-        "hr": "Povećana brzina metka",
-        "it": "Velocità proiettile aumentata",
-        "ja": "弾速増加",
-        "ko-KR": "탄환 속도 증가",
-        "no": "Økt kulehastighet",
-        "pl": "Zwiększona prędkość pocisku",
-        "pt": "Velocidade de bala aumentada",
-        "pt-BR": "Aumento da Velocidade do Projétil",
-        "ru": "Увеличенная скорость пули",
-        "sr": "Povećana brzina metka",
-        "tr": "Artırılmış Mermi Hızı",
-        "uk": "Збільшена швидкість кулі",
-        "zh-CN": "子弹速度提升",
-        "zh-TW": "子彈速度提升"
-      },
-      "Magazine Size": {
-        "value": 20,
-        "da": "Magasinstørrelse",
-        "de": "Magazingröße",
-        "en": "Magazine Size",
-        "es": "Tamaño del cargador",
-        "fr": "Taille du chargeur",
-        "he": "גודל מחסנית",
-        "hr": "Veličina spremnika",
-        "it": "Dimensioni caricatore",
-        "ja": "マガジンサイズ",
-        "ko-KR": "탄창 크기",
-        "no": "Magasinstørrelse",
-        "pl": "Rozmiar magazynka",
-        "pt": "Tamanho do carregador",
-        "pt-BR": "Tamanho do Pente",
-        "ru": "Размер магазина",
-        "sr": "Veličina okvira",
-        "tr": "Şarjör Boyutu",
-        "uk": "Розмір магазину",
-        "zh-CN": "弹匣容量",
-        "zh-TW": "彈匣容量"
-      },
-      "Reduced Reload Time": {
-        "value": "40%",
-        "da": "Reduceret genindlæsningstid",
-        "de": "Verringerte Nachladezeit",
-        "en": "Reduced Reload Time",
-        "es": "Tiempo de recarga reducido",
-        "fr": "Temps de rechargement réduit",
-        "he": "זמן טעינה מופחת",
-        "hr": "Smanjeno vrijeme punjenja",
-        "it": "Tempo di ricarica ridotto",
-        "ja": "リロード時間短縮",
-        "ko-KR": "재장전 시간 감소",
-        "no": "Redusert ladetid",
-        "pl": "Skrócony czas przeładowania",
-        "pt": "Tempo de recarga reduzido",
-        "pt-BR": "Tempo de Recarga Reduzido",
-        "ru": "Сокращённое время перезарядки",
-        "sr": "Smanjeno vrijeme punjenja",
-        "tr": "Azaltılmış yeniden doldurma süresi",
-        "uk": "Скорочений час перезаряджання",
-        "zh-CN": "装弹时间缩短",
-        "zh-TW": "降低換彈時間"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "recyclesInto": {
-      "mechanical_components": 2,
-      "simple_gun_parts": 2
-    },
-    "salvagesInto": {
-      "simple_gun_parts": 2
-    },
-    "upgradeCost": {
-      "mechanical_components": 3,
-      "simple_gun_parts": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iv.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.AssaultRifle",
-        "dropType": [
-          "Equipment.Weapon.Firearm.LightAmmo"
-        ],
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.LightAmmoWeapon",
-          "Items.SpecificWeapon.Kettle"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "light_ammo",
-        "arc": {
-          "armorMultiplier": 0.2,
-          "propagationMultiplier": 0.1
-        },
-        "base": {
-          "adsTimeSec": 0.6,
-          "burnRate": 0.001607,
-          "burstSize": 1,
-          "clipSize": 20,
-          "firePower": 40000,
-          "fireRate": 450,
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 8.5,
-          "reloadTimeSec": 4.5
-        },
-        "damageFalloff": [
-          [
-            0,
-            1.2
-          ],
-          [
-            5,
-            1.2
-          ],
-          [
-            15,
-            1.001
-          ],
-          [
-            130,
-            1.001
-          ],
-          [
-            150,
-            0.6
-          ]
-        ],
-        "dispersion": {
-          "adsDuration": 1.7,
-          "adsRecoveryMultiplier": 0.725,
-          "adsScale": 0.4,
-          "fireGain": [
-            [
-              0,
-              0.1,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              3,
-              0.1,
-              0.14,
-              0.14,
-              "cubic"
-            ],
-            [
-              5,
-              0.8,
-              0,
-              0,
-              "cubic"
-            ],
-            [
-              20,
-              0.8,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "fireMax": 2,
-          "linearRecovery": true,
-          "max": 6,
-          "min": 0.05,
-          "perStance": {
-            "crouching": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.7,
-              "adsRecoveryMultiplier": 0.625,
-              "adsScale": 0.1,
-              "dispersion": 1.5,
-              "overrideAdsDispersion": true,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed"
-              ]
-            },
-            "crouchMoving": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.7,
-              "adsRecoveryMultiplier": 0.625,
-              "adsScale": 0.1,
-              "dispersion": 1.5,
-              "overrideAdsDispersion": true,
-              "recoverySpeed": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed"
-              ]
-            },
-            "falling": {
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "sprinting": {
-              "adsRecoveryMultiplier": 0.725,
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standing": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.8,
-              "adsRecoveryMultiplier": 0.725,
-              "adsScale": 0.1,
-              "dispersion": 2.5,
-              "overrideAdsDispersion": true,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed"
-              ]
-            },
-            "standMoving": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.8,
-              "adsRecoveryMultiplier": 0.725,
-              "adsScale": 0.1,
-              "dispersion": 2.5,
-              "overrideAdsDispersion": true,
-              "recoverySpeed": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed"
-              ]
-            },
-            "uncontrollable": {
-              "adsRecoveryMultiplier": 0.725,
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            }
-          },
-          "popMax": 0.1,
-          "popRecoverySpeed": 0.05,
-          "recoverySpeed": 3.5,
-          "velocity": 2.5,
-          "velocityMax": 3,
-          "velocityRecovery": 6
-        },
-        "equipTimeSec": 1,
-        "headshotMultiplier": 2.5,
-        "modifiers": {
-          "bulletVelocity": 16000,
-          "durabilityBurnRate": -0.3,
-          "reloadSpeed": -1
-        },
-        "projectileGravityScale": 0.8,
-        "projectileInitialSpeedMs": 350,
-        "projectileRadiusM": 0.1,
-        "recoil": {
-          "adsGainMultiplier": 0.6,
-          "lerpSpeed": 0.4,
-          "pitch": [
-            [
-              0,
-              0,
-              2.8229413,
-              0,
-              "linear"
-            ],
-            [
-              2,
-              0.2,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              6,
-              2,
-              0.07372187,
-              0.07372336,
-              "linear"
-            ],
-            [
-              16,
-              7,
-              0.031883117,
-              0.03188288,
-              "linear"
-            ],
-            [
-              27.810873,
-              10,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "pitchProceduralRange": [
-            0,
-            0.1
-          ],
-          "recoverySpeed": 0.6,
-          "sampleCount": 25,
-          "unset": [
-            "proceduralSwingSpeed",
-            "recoveryDelay"
-          ],
-          "yaw": [
-            [
-              0,
-              0,
-              -0.009839253,
-              -0.009840206,
-              "cubic"
-            ],
-            [
-              7.903513,
-              -0.12433219,
-              -0.24865048,
-              -0.24865021,
-              "cubic"
-            ],
-            [
-              15.802044,
-              0.6794237,
-              -0.017511474,
-              -0.017511474,
-              "cubic"
-            ],
-            [
-              21.71209,
-              -0.36614072,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              27.98605,
-              0.30393875,
-              0,
-              0.14261085,
-              "cubic"
-            ]
-          ],
-          "yawProceduralRange": [
-            -0.7,
-            0.7
-          ]
-        },
-        "statBarOffsets": {
-          "range": 9.5
-        },
-        "tier": 4,
-        "unequipTimeSec": 0.4
-      }
-    },
-    "modSlots": {
-      "grip": [
-        "angled_grip_i",
-        "angled_grip_ii",
-        "angled_grip_iii",
-        "horizontal_grip",
-        "vertical_grip_i",
-        "vertical_grip_ii",
-        "vertical_grip_iii"
-      ],
-      "magazine": [
-        "extended_light_mag_i",
-        "extended_light_mag_ii",
-        "extended_light_mag_iii"
-      ],
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "repairCost": {
-      "mechanical_components": 2,
-      "simple_gun_parts": 2
-    },
-    "repairDurability": 0.5,
-    "upgrades": [
-      {
-        "cost": {
-          "amplification_module_mk_i": 1
-        },
-        "requires": [
-          {
-            "level": 4,
-            "station": "weapon_bench"
-          }
-        ],
-        "to": "kettle_amplified"
-      }
-    ],
-    "upgradesTo": "kettle_amplified"
-  },
-  {
-    "id": "kinetic_converter",
-    "name": {
-      "da": "Kinetisk konverter",
-      "de": "Kinetischer Konverter",
-      "en": "Kinetic Converter",
-      "es": "Convertidor cinético",
-      "fr": "Convertisseur cinétique",
-      "he": "ממיר קינטי",
-      "hr": "Kinetički pretvarač",
-      "it": "Convertitore cinetico",
-      "ja": "キネティック・コンバーター",
-      "ko-KR": "키네틱 컨버터",
-      "no": "Kinetisk konverter",
-      "pl": "Konwerter kinetyczny",
-      "pt": "Conversor cinético",
-      "pt-BR": "Conversor Cinético",
-      "ru": "Кинетический преобразователь",
-      "sr": "Kinetički pretvarač",
-      "tr": "Kinetik Dönüştürücü",
-      "uk": "Кінетичний перетворювач",
-      "zh-CN": "动能转换器",
-      "zh-TW": "動能轉換器"
-    },
-    "description": {
-      "da": "Øger skudhastigheden moderat.",
-      "de": "Erhöht die Feuerrate moderat.",
-      "en": "Moderately increases fire rate.",
-      "es": "Aumenta moderadamente la cadencia de disparo.",
-      "fr": "Augmente modérément la cadence de tir.",
-      "he": "מגדיל במידה בינונית את קצב האש.",
-      "hr": "Umjereno povećava brzinu paljbe.",
-      "it": "Aumenta moderatamente la cadenza di fuoco.",
-      "ja": "発射速度が中程度増加する。",
-      "ko-KR": "발사 속도를 적당히 높여줍니다.",
-      "no": "Øker skuddhastigheten moderat.",
-      "pl": "Umiarkowanie zwiększa szybkostrzelność.",
-      "pt": "Aumenta moderadamente a cadência de tiro.",
-      "pt-BR": "Aumenta de forma moderada a cadência de tiro.",
-      "ru": "Умеренно увеличивает скорость стрельбы.",
-      "sr": "Umereno povećava brzinu paljbe.",
-      "tr": "Atış hızını orta düzeyde artırır.",
-      "uk": "Помірно збільшує швидкострільність.",
-      "zh-CN": "中幅度提高射速。",
-      "zh-TW": "中度提升射速。"
-    },
-    "type": "Modification",
-    "rarity": "Legendary",
-    "value": 7000,
-    "weightKg": 0.75,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Aphelion",
-      "Arpeggio",
-      "Bettina",
-      "Bobcat",
-      "Canto",
-      "Ferro",
-      "Hullcracker",
-      "Il Toro",
-      "Kettle",
-      "Osprey",
-      "Rattler",
-      "Renegade",
-      "Stiletto",
-      "Stitcher",
-      "Torrente",
-      "Vulcano"
-    ],
-    "effects": {
-      "Increased Fire Rate": {
-        "value": "15%",
-        "da": "Øget skudhastighed",
-        "de": "Erhöhte Feuerrate",
-        "en": "Increased Fire Rate",
-        "es": "Cadencia de disparo aumentada",
-        "fr": "Cadence de tir augmentée",
-        "he": "קצב אש מוגבר",
-        "hr": "Povećana brzina paljbe",
-        "it": "Cadenza di fuoco aumentata",
-        "ja": "射撃速度増加",
-        "ko-KR": "연사 속도 증가",
-        "no": "Økt skuddfrekvens",
-        "pl": "Zwiększona szybkostrzelność",
-        "pt": "Taxa de disparo aumentada",
-        "pt-BR": "Cadência de Tiro Aumentada",
-        "ru": "Увеличенная скорострельность",
-        "sr": "Povećana brzina paljbe",
-        "tr": "Artırılmış Atış Hızı",
-        "uk": "Збільшена швидкострільність",
-        "zh-CN": "射速提升",
-        "zh-TW": "射速提升"
-      },
-      "Increased Horizontal Recoil": {
-        "value": "20%",
-        "da": "Øget vandret rekyl",
-        "de": "Erhöhter horizontaler Rückstoß",
-        "en": "Increased Horizontal Recoil",
-        "es": "Retroceso horizontal aumentado",
-        "fr": "Recul horizontal augmenté",
-        "he": "רתע אופקי מוגבר",
-        "hr": "Povećan horizontalni trzaj",
-        "it": "Rinculo orizzontale aumentato",
-        "ja": "水平反動増加",
-        "ko-KR": "수평 반동 증가",
-        "no": "Økt horisontal rekyl",
-        "pl": "Zwiększony odrzut poziomy",
-        "pt": "Recuo horizontal aumentado",
-        "pt-BR": "Recuo Horizontal Aumentado",
-        "ru": "Увеличенная горизонтальная отдача",
-        "sr": "Povećan horizontalni trzaj",
-        "tr": "Artırılmış Yatay Tepme",
-        "uk": "Збільшена горизонтальна віддача",
-        "zh-CN": "水平后坐力增加",
-        "zh-TW": "水平後座力增加"
-      },
-      "Increased Vertical Recoil": {
-        "value": "20%",
-        "da": "Øget lodret rekyl",
-        "de": "Erhöhter vertikaler Rückstoß",
-        "en": "Increased Vertical Recoil",
-        "es": "Retroceso vertical aumentado",
-        "fr": "Recul vertical augmenté",
-        "he": "רתע אנכי מוגבר",
-        "hr": "Povećan vertikalni trzaj",
-        "it": "Rinculo verticale aumentato",
-        "ja": "垂直反動増加",
-        "ko-KR": "수직 반동 증가",
-        "no": "Økt vertikal rekyl",
-        "pl": "Zwiększony odrzut pionowy",
-        "pt": "Recuo vertical aumentado",
-        "pt-BR": "Recuo Vertical Aumentado",
-        "ru": "Увеличенная вертикальная отдача",
-        "sr": "Povećan vertikalni trzaj",
-        "tr": "Artırılmış Dikey Tepme",
-        "uk": "Збільшена вертикальна віддача",
-        "zh-CN": "垂直后坐力增加",
-        "zh-TW": "垂直後座力增加"
-      }
-    },
-    "recyclesInto": {
-      "duct_tape": 2,
-      "mod_components": 1
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/kinetic_converter.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Modification.Firearm.Stock",
-        "dropType": [
-          "Equipment.Modification.Weapon"
-        ],
-        "itemType": [
-          "Modification.Firearm.Stock"
-        ]
-      },
-      "mod": {
-        "modifiers": [
-          {
-            "amount": 15,
-            "benefit": "positive",
-            "direction": "up",
-            "stat": "fireRate",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "negative",
-            "direction": "up",
-            "stat": "verticalRecoil",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "negative",
-            "direction": "up",
-            "stat": "horizontalRecoil",
-            "unit": "percent"
-          }
-        ],
-        "ops": [
-          {
-            "addMultiply": 1.15,
-            "stat": "fireRate"
-          },
-          {
-            "addMultiply": 1.2,
-            "stat": "horizontalRecoil"
-          },
-          {
-            "addMultiply": 1.2,
-            "stat": "verticalRecoil"
-          }
-        ]
-      }
-    }
-  },
-  {
     "id": "lab_ceiling_light_design",
     "name": {
       "da": "Labloftslampedesign",
@@ -14817,5 +13331,430 @@
         ]
       }
     }
+  },
+  {
+    "id": "padded_stock",
+    "name": {
+      "da": "Polstret kolbe",
+      "de": "Gepolsterter Kolben",
+      "en": "Padded Stock",
+      "es": "Culata acolchada",
+      "fr": "Crosse rembourrée",
+      "he": "קת מרופדת",
+      "hr": "Podstavljeno kundak",
+      "it": "Calcio imbottito",
+      "ja": "パッド・ストック",
+      "ko-KR": "패드 개머리판",
+      "no": "Polstret kolbe",
+      "pl": "Wyściełana kolba",
+      "pt": "Coronha acolchoada",
+      "pt-BR": "Coronha com Almofada",
+      "ru": "Обитый приклад",
+      "sr": "Podstavljeno kundak",
+      "tr": "Yastıklı Dipçik",
+      "uk": "М'який приклад",
+      "zh-CN": "减震枪托",
+      "zh-TW": "加墊槍托"
+    },
+    "description": {
+      "da": "Forbedrer stabiliteten betydeligt.",
+      "de": "Erhöht die Stabilität erheblich.",
+      "en": "Significantly improves stability.",
+      "es": "Aumenta significativamente la estabilidad.",
+      "fr": "Améliore considérablement la stabilité.",
+      "he": "משפר את היציבות באופן משמעותי.",
+      "hr": "Znatno poboljšava stabilnost.",
+      "it": "Migliora significativamente la stabilità.",
+      "ja": "安定性が大幅に上昇する。",
+      "ko-KR": "안정성을 상당히 높여줍니다.",
+      "no": "Forbedrer stabiliteten betydelig.",
+      "pl": "Znacznie zwiększa stabilność.",
+      "pt": "Melhora significativamente a estabilidade.",
+      "pt-BR": "Melhora de forma significativa a estabilidade.",
+      "ru": "Значительно улучшает устойчивость оружия.",
+      "sr": "Značajno poboljšava stabilnost.",
+      "tr": "Stabiliteyi önemli ölçüde artırır.",
+      "uk": "Значно покращує стабільність.",
+      "zh-CN": "大幅度提高稳定性。",
+      "zh-TW": "大幅改善穩定性。"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "compatibleWith": [
+      "Aphelion",
+      "Arpeggio",
+      "Bettina",
+      "Bobcat",
+      "Canto",
+      "Ferro",
+      "Hullcracker",
+      "Il Toro",
+      "Kettle",
+      "Osprey",
+      "Rattler",
+      "Renegade",
+      "Stiletto",
+      "Stitcher",
+      "Torrente",
+      "Vulcano"
+    ],
+    "blueprintLocked": true,
+    "effects": {
+      "Increased Equip Time": {
+        "value": "20%",
+        "da": "Øget udstyrstid",
+        "de": "Erhöhte Ausrüstungszeit",
+        "en": "Increased Equip Time",
+        "es": "Tiempo de equipamiento aumentado",
+        "fr": "Temps d'équipement augmenté",
+        "he": "זמן שליפה מוגבר",
+        "hr": "Povećano vrijeme opremanja",
+        "it": "Tempo di equipaggiamento aumentato",
+        "ja": "装備時間増加",
+        "ko-KR": "장착 시간 증가",
+        "no": "Økt utstyringstid",
+        "pl": "Zwiększony czas dobywania",
+        "pt": "Tempo de equipar aumentado",
+        "pt-BR": "Tempo de Equipar Aumentado",
+        "ru": "Увеличенное время экипировки",
+        "sr": "Povećano vreme opremanja",
+        "tr": "Artırılmış Kuşanma Süresi",
+        "uk": "Збільшений час екіпірування",
+        "zh-CN": "增加装备时间",
+        "zh-TW": "增加裝備時間"
+      },
+      "Increased Unequip Time": {
+        "value": "20%",
+        "da": "Øget afmonteringstid",
+        "de": "Erhöhte Ablagezeit",
+        "en": "Increased Unequip Time",
+        "es": "Tiempo de desequipamiento aumentado",
+        "fr": "Temps de déséquipement augmenté",
+        "he": "זמן החזרה מוגבר",
+        "hr": "Povećano vrijeme skidanja",
+        "it": "Tempo di rimozione aumentato",
+        "ja": "収納時間増加",
+        "ko-KR": "해제 시간 증가",
+        "no": "Økt avutstyringstid",
+        "pl": "Zwiększony czas chowania",
+        "pt": "Tempo de desequipar aumentado",
+        "pt-BR": "Tempo de Desequipar Aumentado",
+        "ru": "Увеличенное время снятия",
+        "sr": "Povećano vreme skidanja",
+        "tr": "Artırılmış Çıkarma Süresi",
+        "uk": "Збільшений час зняття",
+        "zh-CN": "增加卸下时间",
+        "zh-TW": "增加卸下時間"
+      },
+      "Reduced ADS Speed": {
+        "value": "30%",
+        "da": "Reduceret sigtehastighed",
+        "de": "Verringerte Zielgeschwindigkeit",
+        "en": "Reduced ADS Speed",
+        "es": "Velocidad de apuntado reducida",
+        "fr": "Vitesse de visée réduite",
+        "he": "מהירות כניסה לכוונת מופחתת",
+        "hr": "Smanjena brzina nišanjenja",
+        "it": "Velocità di mira ridotta",
+        "ja": "ADS速度低下",
+        "ko-KR": "조준 속도 감소",
+        "no": "Redusert siktehastighet",
+        "pl": "Zmniejszona szybkość celowania",
+        "pt": "Velocidade de mira reduzida",
+        "pt-BR": "Velocidade de Mira Reduzida",
+        "ru": "Уменьшенная скорость прицеливания",
+        "sr": "Smanjena brzina nišanjenja",
+        "tr": "Azaltılmış Nişan Alma Hızı",
+        "uk": "Зменшена швидкість прицілювання",
+        "zh-CN": "降低瞄准速度",
+        "zh-TW": "降低瞄準速度"
+      },
+      "Reduced Horizontal Recoil": {
+        "value": "15%",
+        "da": "Reduceret horisontal rekyl",
+        "de": "Verringerter horizontaler Rückstoß",
+        "en": "Reduced Horizontal Recoil",
+        "es": "Retroceso horizontal reducido",
+        "fr": "Recul horizontal réduit",
+        "he": "רתע אופקי מופחת",
+        "hr": "Smanjen horizontalni trzaj",
+        "it": "Rinculo orizzontale ridotto",
+        "ja": "水平反動軽減",
+        "ko-KR": "수평 반동 감소",
+        "no": "Redusert horisontal rekyl",
+        "pl": "Zmniejszony odrzut poziomy",
+        "pt": "Recuo horizontal reduzido",
+        "pt-BR": "Redução no Recuo Horizontal",
+        "ru": "Уменьшенная горизонтальная отдача",
+        "sr": "Smanjen horizontalni trzaj",
+        "tr": "Azaltılmış Yatay Tepme",
+        "uk": "Зменшена горизонтальна віддача",
+        "zh-CN": "降低水平后坐力",
+        "zh-TW": "降低水平後座力"
+      },
+      "Reduced Per-Shot Dispersion": {
+        "value": "20%",
+        "da": "Reduceret spredning pr. skud",
+        "de": "Verringerte Streuung pro Schuss",
+        "en": "Reduced Per-Shot Dispersion",
+        "es": "Dispersión por disparo reducida",
+        "fr": "Dispersion par tir réduite",
+        "he": "פיזור לכל ירייה מופחת",
+        "hr": "Smanjeno rasipanje po hicu",
+        "it": "Dispersione per colpo ridotta",
+        "ja": "射撃ごとの拡散軽減",
+        "ko-KR": "발사당 분산도 감소",
+        "no": "Redusert spredning per skudd",
+        "pl": "Zmniejszone rozrzucenie na strzał",
+        "pt": "Dispersão por tiro reduzida",
+        "pt-BR": "Dispersão por Tiro Reduzida",
+        "ru": "Уменьшенный разброс за выстрел",
+        "sr": "Smanjeno rasipanje po hicu",
+        "tr": "Azaltılmış Atış Başına Dağılma",
+        "uk": "Зменшене розсіювання за постріл",
+        "zh-CN": "降低每发散布",
+        "zh-TW": "降低每發散布"
+      },
+      "Reduced Vertical Recoil": {
+        "value": "15%",
+        "da": "Reduceret vertikal rekyl",
+        "de": "Verringerter vertikaler Rückstoß",
+        "en": "Reduced Vertical Recoil",
+        "es": "Retroceso vertical reducido",
+        "fr": "Recul vertical réduit",
+        "he": "רתע אנכי מופחת",
+        "hr": "Smanjen vertikalni trzaj",
+        "it": "Rinculo verticale ridotto",
+        "ja": "垂直反動軽減",
+        "ko-KR": "수직 반동 감소",
+        "no": "Redusert vertikal rekyl",
+        "pl": "Zmniejszony odrzut pionowy",
+        "pt": "Recuo vertical reduzido",
+        "pt-BR": "Redução no Recuo Vertical",
+        "ru": "Уменьшенная вертикальная отдача",
+        "sr": "Smanjen vertikalni trzaj",
+        "tr": "Azaltılmış Dikey Tepme",
+        "uk": "Зменшена вертикальна віддача",
+        "zh-CN": "降低垂直后坐力",
+        "zh-TW": "降低垂直後座力"
+      }
+    },
+    "craftBench": "weapon_bench",
+    "stationLevelRequired": 3,
+    "recipe": {
+      "duct_tape": 5,
+      "mod_components": 2
+    },
+    "recyclesInto": {
+      "duct_tape": 1,
+      "mod_components": 1
+    },
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/padded_stock.png",
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Modification.Firearm.Stock",
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Stock"
+        ]
+      },
+      "mod": {
+        "modifiers": [
+          {
+            "amount": 15,
+            "benefit": "positive",
+            "direction": "down",
+            "stat": "verticalRecoil",
+            "unit": "percent"
+          },
+          {
+            "amount": 15,
+            "benefit": "positive",
+            "direction": "down",
+            "stat": "horizontalRecoil",
+            "unit": "percent"
+          },
+          {
+            "amount": 20,
+            "benefit": "positive",
+            "direction": "down",
+            "stat": "fireDispersionGain",
+            "unit": "percent"
+          },
+          {
+            "amount": 20,
+            "benefit": "negative",
+            "direction": "up",
+            "stat": "equipTime",
+            "unit": "percent"
+          },
+          {
+            "amount": 20,
+            "benefit": "negative",
+            "direction": "up",
+            "stat": "unequipTime",
+            "unit": "percent"
+          },
+          {
+            "amount": 30,
+            "benefit": "negative",
+            "direction": "down",
+            "stat": "adsSpeed",
+            "unit": "percent"
+          }
+        ],
+        "ops": [
+          {
+            "addMultiply": 0.85,
+            "stat": "horizontalRecoil"
+          },
+          {
+            "addMultiply": 0.85,
+            "stat": "verticalRecoil"
+          },
+          {
+            "addMultiply": 0.8,
+            "stat": "fireDispersionGain"
+          },
+          {
+            "addMultiply": 0.7,
+            "stat": "zoomSpeed"
+          },
+          {
+            "addMultiply": 1.2,
+            "stat": "equipTime"
+          },
+          {
+            "addMultiply": 1.2,
+            "stat": "unequipTime"
+          }
+        ]
+      }
+    },
+    "vendors": [
+      {
+        "cost": {
+          "coins": 15000
+        },
+        "limit": 1,
+        "refreshSeconds": 86400,
+        "requiredLevel": 20,
+        "trader": "Tian Wen"
+      }
+    ]
+  },
+  {
+    "id": "painted_box",
+    "name": {
+      "da": "Malet kasse",
+      "de": "Bemalte Schachtel",
+      "en": "Painted Box",
+      "es": "Caja pintada",
+      "fr": "Boîte peinte",
+      "he": "קופסה צבועה",
+      "hr": "Oslikana Kutija",
+      "it": "Scatola dipinta",
+      "ja": "ペンキが塗られた箱",
+      "ko-KR": "페인트칠한 상자",
+      "no": "Malt boks",
+      "pl": "Pomalowane pudełko",
+      "pt": "Caixa pintada",
+      "pt-BR": "Caixa Pintada",
+      "ru": "Раскрашенная коробка",
+      "sr": "Oslikana Kutija",
+      "tr": "Boyalı Kutu",
+      "uk": "Розписна скринька",
+      "zh-CN": "彩绘盒子",
+      "zh-TW": "彩繪盒"
+    },
+    "description": {
+      "da": "Kan være nogle mønter værd.",
+      "de": "Vielleicht ein paar Münzen wert.",
+      "en": "May be worth a few coins.",
+      "es": "Puede venderse por algunas monedas.",
+      "fr": "Pourrait rapporter quelques pièces.",
+      "he": "עשויה להיות שווה כמה מטבעות.",
+      "hr": "Možda vrijedi nekoliko novčića.",
+      "it": "Potrebbe valere qualcosina.",
+      "ja": "コイン数枚分の価値はあるかも。",
+      "ko-KR": "몇 푼 값어치는 있을지도 모릅니다.",
+      "no": "Kan være verdt noen mynter.",
+      "pl": "Można za to dostać garść monet.",
+      "pt": "Pode valer algumas moedas.",
+      "pt-BR": "Pode valer algumas moedas.",
+      "ru": "Стоит несколько монет.",
+      "sr": "Možda vredi nekoliko novčića.",
+      "tr": "Üç beş kuruş ederi olabilir.",
+      "uk": "Може коштувати кілька монет.",
+      "zh-CN": "可能值几个钱。",
+      "zh-TW": "可能值幾枚錢幣。"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "foundIn": "Old World",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/painted_box.png",
+    "updatedAt": "03/17/2026",
+    "_community": [
+      "foundIn"
+    ],
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Misc.Trinket",
+        "dropType": [
+          "Salvage.Trinket.Birdnest"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "OldWorld"
+        ]
+      }
+    }
+  },
+  {
+    "id": "panoramic_room",
+    "name": {
+      "da": "Panoramaværelse",
+      "de": "Panoramazimmer",
+      "en": "Panoramic Room",
+      "es": "Sala panorámica",
+      "fr": "Pièce panoramique",
+      "he": "חדר פנורמי",
+      "hr": "Panoramska soba",
+      "it": "Stanza panoramica",
+      "ja": "パノラマの部屋",
+      "ko-KR": "파노라마 방",
+      "no": "Panoramisk rom",
+      "pl": "Pokój panoramiczny",
+      "pt": "Sala Panorâmica",
+      "pt-BR": "Sala Panorâmica",
+      "ru": "Панорамная комната",
+      "sr": "Panoramska Soba",
+      "tr": "Panoramik Oda",
+      "uk": "Панорамна кімната",
+      "zh-CN": "全景房间",
+      "zh-TW": "全景房間"
+    },
+    "type": "Outpost Room",
+    "rarity": "Common",
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/panoramic_room.png",
+    "updatedAt": "10/08/2026",
+    "addedIn": "2.0"
   }
 ]
