@@ -5,27 +5,28 @@
       "da": "Udstyrsbænk",
       "de": "Ausrüstungsbank",
       "en": "Gear Bench",
-      "es": "Banco de equipo",
+      "es": "Mesa de equipamiento",
       "fr": "Établi à matériel",
       "he": "עמדת ציוד",
       "hr": "Stol za Opremu",
-      "it": "Banco Equipaggiamento",
+      "it": "Banco dell'equipaggiamento",
       "ja": "装備ベンチ",
       "ko-KR": "장비 작업대",
       "no": "Utstyrsbenk",
-      "pl": "Stół ekwipunku",
+      "pl": "Stół do prac nad sprzętem",
       "pt": "Bancada de equipamento",
       "pt-BR": "Bancada de Equipamentos",
       "ru": "Верстак для снаряжения",
       "sr": "Sto za Opremu",
-      "tr": "Ekipman Tezgahı",
+      "tr": "Teçhizat Tezgâhı",
       "uk": "Спорядження",
       "zh-CN": "装备工作台",
-      "zh-TW": "裝備工作台"
+      "zh-TW": "裝備台"
     },
     "maxLevel": 3,
     "levels": [
       {
+        "image": "/images/hideout/levels/equipment_bench/1.png",
         "level": 1,
         "requirementItemIds": [
           {
@@ -39,6 +40,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/equipment_bench/2.png",
         "level": 2,
         "requirementItemIds": [
           {
@@ -56,6 +58,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/equipment_bench/3.png",
         "level": 3,
         "requirementItemIds": [
           {
@@ -80,11 +83,11 @@
       "da": "Sprængstofstation",
       "de": "Sprengstoffstation",
       "en": "Explosives Station",
-      "es": "Estación de explosivos",
+      "es": "Puesto de explosivos",
       "fr": "Station à explosifs",
       "he": "עמדת חומרי נפץ",
       "hr": "Stanica za eksploziv",
-      "it": "Stazione Esplosivi",
+      "it": "Postazione degli esplosivi",
       "ja": "爆発物ステーション",
       "ko-KR": "폭발물 스테이션",
       "no": "Eksplosivstasjon",
@@ -96,11 +99,12 @@
       "tr": "Patlayıcı İstasyonu",
       "uk": "Станція вибухівки",
       "zh-CN": "爆炸物工作台",
-      "zh-TW": "爆裂物工作站"
+      "zh-TW": "爆裂物站"
     },
     "maxLevel": 3,
     "levels": [
       {
+        "image": "/images/hideout/levels/explosives_bench/1.png",
         "level": 1,
         "requirementItemIds": [
           {
@@ -114,6 +118,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/explosives_bench/2.png",
         "level": 2,
         "requirementItemIds": [
           {
@@ -131,6 +136,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/explosives_bench/3.png",
         "level": 3,
         "requirementItemIds": [
           {
@@ -156,26 +162,27 @@
       "de": "Medizinisches Labor",
       "en": "Medical Lab",
       "es": "Laboratorio médico",
-      "fr": "Laboratoire Médical",
+      "fr": "Laboratoire médical",
       "he": "מעבדה רפואית",
       "hr": "Medicinski Laboratorij",
-      "it": "Laboratorio Medico",
+      "it": "Laboratorio medico",
       "ja": "医療ラボ",
-      "ko-KR": "의약품 연구실",
+      "ko-KR": "의약품 연구대",
       "no": "Medisinsk laboratorium",
       "pl": "Laboratorium medyczne",
       "pt": "Laboratório médico",
       "pt-BR": "Laboratório Médico",
       "ru": "Медицинская лаборатория",
       "sr": "Medicinska Laboratorija",
-      "tr": "Tıbbi Laboratuvar",
+      "tr": "Tıp Laboratuvarı",
       "uk": "Медична лабораторія",
       "zh-CN": "医疗实验室",
-      "zh-TW": "醫療站"
+      "zh-TW": "醫療實驗站"
     },
     "maxLevel": 3,
     "levels": [
       {
+        "image": "/images/hideout/levels/med_station/1.png",
         "level": 1,
         "requirementItemIds": [
           {
@@ -189,6 +196,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/med_station/2.png",
         "level": 2,
         "requirementItemIds": [
           {
@@ -206,6 +214,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/med_station/3.png",
         "level": 3,
         "requirementItemIds": [
           {
@@ -230,27 +239,28 @@
       "da": "Raffinaderi",
       "de": "Veredler",
       "en": "Refiner",
-      "es": "Refinería",
+      "es": "Refinadora",
       "fr": "Raffineur",
       "he": "מזקק",
       "hr": "Rafinerija",
-      "it": "Raffineria",
+      "it": "Rifinitore",
       "ja": "精錬機",
       "ko-KR": "가공기",
       "no": "Raffineri",
-      "pl": "Rafineria",
+      "pl": "Stacja usprawnień",
       "pt": "Refinaria",
       "pt-BR": "Refinador",
       "ru": "Очиститель",
       "sr": "Rafinerija",
-      "tr": "Rafine Ünitesi",
+      "tr": "Dönüştürücü",
       "uk": "Очисник",
       "zh-CN": "精加工机",
-      "zh-TW": "精煉站"
+      "zh-TW": "精煉機"
     },
     "maxLevel": 3,
     "levels": [
       {
+        "image": "/images/hideout/levels/refiner/1.png",
         "level": 1,
         "requirementItemIds": [
           {
@@ -264,6 +274,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/refiner/2.png",
         "level": 2,
         "requirementItemIds": [
           {
@@ -281,6 +292,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/refiner/3.png",
         "level": 3,
         "requirementItemIds": [
           {
@@ -300,28 +312,148 @@
     ]
   },
   {
+    "id": "research_station",
+    "name": {
+      "da": "Forskningsstation",
+      "de": "Forschungsstation",
+      "en": "Research Station",
+      "es": "Estación de Investigación",
+      "fr": "Station de recherche",
+      "he": "תחנת מחקר",
+      "hr": "Istraživačka stanica",
+      "it": "Stazione di ricerca",
+      "ja": "研究ステーション",
+      "ko-KR": "연구소",
+      "no": "Forskningstasjon",
+      "pl": "Stacja badawcza",
+      "pt": "Estação de Pesquisa",
+      "pt-BR": "Estação de Pesquisa",
+      "ru": "Станция исследований",
+      "sr": "Istraživačka stanica",
+      "tr": "Araştırma İstasyonu",
+      "uk": "Дослідницька станція",
+      "zh-CN": "研究站",
+      "zh-TW": "研究站"
+    },
+    "maxLevel": 4,
+    "levels": [
+      {
+        "image": "/images/hideout/levels/research_station/1.png",
+        "level": 1,
+        "requirementItemIds": [
+          {
+            "itemId": "planks",
+            "quantity": 35
+          },
+          {
+            "itemId": "battered_paperback",
+            "quantity": 5
+          },
+          {
+            "itemId": "mini_pump",
+            "quantity": 3
+          }
+        ],
+        "requires": [
+          {
+            "outpostRooms": 1
+          }
+        ]
+      },
+      {
+        "image": "/images/hideout/levels/research_station/2.png",
+        "level": 2,
+        "requirementItemIds": [
+          {
+            "itemId": "calculator",
+            "quantity": 3
+          },
+          {
+            "itemId": "raider_logbook",
+            "quantity": 3
+          },
+          {
+            "itemId": "skulker_targeter",
+            "quantity": 5
+          }
+        ],
+        "requires": [
+          {
+            "outpostRooms": 2
+          }
+        ]
+      },
+      {
+        "image": "/images/hideout/levels/research_station/3.png",
+        "level": 3,
+        "requirementItemIds": [
+          {
+            "itemId": "differential_microphone",
+            "quantity": 3
+          },
+          {
+            "itemId": "exodus_technical_handbook",
+            "quantity": 3
+          },
+          {
+            "itemId": "bully_fragmenter",
+            "quantity": 6
+          }
+        ],
+        "requires": [
+          {
+            "outpostRooms": 3
+          }
+        ]
+      },
+      {
+        "image": "/images/hideout/levels/research_station/4.png",
+        "level": 4,
+        "requirementItemIds": [
+          {
+            "itemId": "thermal_shaker",
+            "quantity": 3
+          },
+          {
+            "itemId": "arc_data_module",
+            "quantity": 3
+          },
+          {
+            "itemId": "frigate_inductor",
+            "quantity": 1
+          }
+        ],
+        "requires": [
+          {
+            "outpostRooms": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "scrappy",
     "name": {
-      "da": "Scrappy",
+      "da": "Skrotte",
       "de": "Scrappy",
       "en": "Scrappy",
-      "es": "Scrappy",
+      "es": "Chatarrín",
       "fr": "Coquillard",
       "he": "סקראפי",
       "hr": "Otpadnik",
       "it": "Scartino",
       "ja": "スクラッピー",
-      "ko-KR": "수탉 꼬꼬",
-      "no": "Scrappy",
-      "pl": "Scrappy",
+      "ko-KR": "꼬꼬",
+      "no": "Skrotis",
+      "pl": "Złomek",
       "pt": "Sucatinha",
       "pt-BR": "Sucatinha",
       "ru": "Плюшкин",
       "sr": "Otpadnik",
-      "tr": "Hurda Tezgahı",
+      "tr": "Hurdacı",
       "uk": "Старганщик",
       "zh-CN": "废品仔",
-      "zh-TW": "廢品回收站"
+      "zh-TW": "鬥哥"
     },
     "maxLevel": 5,
     "levels": [
@@ -401,17 +533,17 @@
       "ja": "保管庫",
       "ko-KR": "보관함",
       "no": "Oppbevaring",
-      "pl": "Schowek",
+      "pl": "Skrytka",
       "pt": "Esconderijo",
       "pt-BR": "Armazenamento",
       "ru": "Хранилище",
       "sr": "Skladište",
-      "tr": "Depo",
+      "tr": "Zula",
       "uk": "Схованка",
       "zh-CN": "储备箱",
       "zh-TW": "儲藏箱"
     },
-    "maxLevel": 10,
+    "maxLevel": 12,
     "levels": [
       {
         "description": "64 slots",
@@ -421,55 +553,89 @@
       {
         "description": "+24 slots (88 total)",
         "level": 2,
-        "otherRequirements": ["5000 Coins"],
+        "otherRequirements": [
+          "5000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (112 total)",
         "level": 3,
-        "otherRequirements": ["10000 Coins"],
+        "otherRequirements": [
+          "10000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (136 total)",
         "level": 4,
-        "otherRequirements": ["15000 Coins"],
+        "otherRequirements": [
+          "15000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (160 total)",
         "level": 5,
-        "otherRequirements": ["25000 Coins"],
+        "otherRequirements": [
+          "25000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (184 total)",
         "level": 6,
-        "otherRequirements": ["40000 Coins"],
+        "otherRequirements": [
+          "50000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (208 total)",
         "level": 7,
-        "otherRequirements": ["60000 Coins"],
+        "otherRequirements": [
+          "80000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (232 total)",
         "level": 8,
-        "otherRequirements": ["90000 Coins"],
+        "otherRequirements": [
+          "100000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (256 total)",
         "level": 9,
-        "otherRequirements": ["130000 Coins"],
+        "otherRequirements": [
+          "150000 Coins"
+        ],
         "requirementItemIds": []
       },
       {
         "description": "+24 slots (280 total)",
         "level": 10,
-        "otherRequirements": ["200000 Coins"],
+        "otherRequirements": [
+          "300000 Coins"
+        ],
+        "requirementItemIds": []
+      },
+      {
+        "description": "+24 slots (304 total)",
+        "level": 11,
+        "otherRequirements": [
+          "750000 Coins"
+        ],
+        "requirementItemIds": []
+      },
+      {
+        "description": "+24 slots (328 total)",
+        "level": 12,
+        "otherRequirements": [
+          "1500000 Coins"
+        ],
         "requirementItemIds": []
       }
     ]
@@ -480,27 +646,28 @@
       "da": "Værktøjsstation",
       "de": "Gebrauchsgegenstand-Station",
       "en": "Utility Station",
-      "es": "Estación de utilidad",
+      "es": "Puesto de utilidad",
       "fr": "Station utilitaire",
       "he": "עמדת עזרים",
       "hr": "Pomoćna stanica",
-      "it": "Stazione Utilità",
+      "it": "Postazione di funzionalità",
       "ja": "ユーティリティステーション",
       "ko-KR": "유틸리티 스테이션",
       "no": "Verktøystasjon",
-      "pl": "Stacja użytkowa",
+      "pl": "Stacja przedmiotów użytkowych",
       "pt": "Estação utilitária",
       "pt-BR": "Estação de Utilidades",
       "ru": "Верстак для инструментов",
       "sr": "Pomoćna stanica",
-      "tr": "Ekipman İstasyonu",
+      "tr": "Alet İstasyonu",
       "uk": "Станція спорядження",
       "zh-CN": "工具工作台",
-      "zh-TW": "實用工具站"
+      "zh-TW": "功能物品站"
     },
     "maxLevel": 3,
     "levels": [
       {
+        "image": "/images/hideout/levels/utility_bench/1.png",
         "level": 1,
         "requirementItemIds": [
           {
@@ -514,6 +681,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/utility_bench/2.png",
         "level": 2,
         "requirementItemIds": [
           {
@@ -531,6 +699,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/utility_bench/3.png",
         "level": 3,
         "requirementItemIds": [
           {
@@ -559,23 +728,24 @@
       "fr": "Armurier",
       "he": "נשק",
       "hr": "Oružar",
-      "it": "Armaiolo",
+      "it": "Banco delle armi",
       "ja": "ガンスミス",
-      "ko-KR": "총기 제작",
+      "ko-KR": "총기 제작대",
       "no": "Våpenmaker",
-      "pl": "Rusznikarz",
+      "pl": "Stacja rusznikarska",
       "pt": "Armeiro",
       "pt-BR": "Armeiro",
       "ru": "Оружейный верстак",
       "sr": "Oružar",
-      "tr": "Silah Tezgahı",
+      "tr": "Silahçı",
       "uk": "Зброярня",
       "zh-CN": "武器工作台",
-      "zh-TW": "槍械工坊"
+      "zh-TW": "槍械站"
     },
-    "maxLevel": 3,
+    "maxLevel": 4,
     "levels": [
       {
+        "image": "/images/hideout/levels/weapon_bench/1.png",
         "level": 1,
         "requirementItemIds": [
           {
@@ -589,6 +759,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/weapon_bench/2.png",
         "level": 2,
         "requirementItemIds": [
           {
@@ -606,6 +777,7 @@
         ]
       },
       {
+        "image": "/images/hideout/levels/weapon_bench/3.png",
         "level": 3,
         "requirementItemIds": [
           {
@@ -621,6 +793,29 @@
             "quantity": 4
           }
         ]
+      },
+      {
+        "image": "/images/hideout/levels/weapon_bench/4.png",
+        "level": 4,
+        "requirementItemIds": [
+          {
+            "itemId": "radial_press",
+            "quantity": 3
+          },
+          {
+            "itemId": "magnetic_accelerator",
+            "quantity": 3
+          },
+          {
+            "itemId": "emperor_modulator",
+            "quantity": 1
+          }
+        ],
+        "requires": [
+          {
+            "outpostRooms": 4
+          }
+        ]
       }
     ]
   },
@@ -630,11 +825,11 @@
       "da": "Arbejdsbænk",
       "de": "Werkbank",
       "en": "Workbench",
-      "es": "Banco de trabajo",
+      "es": "Mesa de trabajo",
       "fr": "Établi",
       "he": "שולחן עבודה",
       "hr": "Radni Stol",
-      "it": "Banco da Lavoro",
+      "it": "Banco da lavoro",
       "ja": "ワークベンチ",
       "ko-KR": "작업대",
       "no": "Arbeidsbenk",
@@ -643,7 +838,7 @@
       "pt-BR": "Bancada",
       "ru": "Верстак",
       "sr": "Radni Sto",
-      "tr": "Çalışma Tezgahı",
+      "tr": "Tezgâh",
       "uk": "Верстат",
       "zh-CN": "工作台",
       "zh-TW": "工作台"
