@@ -1,0 +1,135 @@
+{
+  "id": "ss10g",
+  "name": {
+    "da": "En afsløring i ruinerne",
+    "de": "Eine Enthüllung in Trümmern",
+    "en": "A Reveal in Ruins",
+    "es": "Descubrimiento en ruinas",
+    "fr": "Ruines révélatrices",
+    "he": "חשיפה בהריסות",
+    "hr": "Otkriće u ruševinama",
+    "it": "Una rivelazione in rovina",
+    "ja": "早計な発表",
+    "ko-KR": "폐허에서 드러난 것",
+    "no": "En avsløring i ruiner",
+    "pl": "Odkrycie w ruinach",
+    "pt": "Uma Revelação em Ruínas",
+    "pt-BR": "Revelação em ruínas",
+    "ru": "Что скрывают развалины",
+    "sr": "Otkriće u ruševinama",
+    "tr": "Harabelerde Bir Keşif",
+    "uk": "Знахідка в руїнах",
+    "zh-CN": "废墟中的揭示",
+    "zh-TW": "遺跡揭密"
+  },
+  "map": ["buried_city"],
+  "trader": "Lance",
+  "requiredItemIds": [
+    {
+      "itemId": "esr_analyzer",
+      "quantity": 1,
+      "questItem": true
+    }
+  ],
+  "description": {
+    "da": "Jeg fik fingrene i en smart ny ESR-analysator; havde planlagt en helt stor afsløring. Det ene minut er den her, det næste — puf. Kan du hjælpe?",
+    "de": "Ich hab einen neuen ESR-Analysator in die Finger gekriegt, wollte da ganz groß mit rauskommen. Und dann – zack! – ist das Teil plötzlich verschwunden. Hilfst du mir?",
+    "en": "I got my hands on a fancy new ESR analyzer; had a whole big reveal planned. One minute it’s here, next minute—poof. Please help?",
+    "es": "Le he echado el guante a un nuevo analizador ESR. Había planeado una sorpresa espectacular. Lo tenía aquí, y ahora se ha esfumado. ¿Una ayudita?",
+    "fr": "J'ai mis la main sur un nouvel analyseur de VS tout neuf. J'avais prévu de le présenter en grande pompe, mais il a disparu. Vous pouvez m'aider ?",
+    "he": "השגתי מנתח ESR חדש ומשוכלל; תכננתי חשיפה גדולה. רגע אחד הוא כאן, וברגע הבא—פוף. תוכל לעזור?",
+    "hr": "Nabavio sam novi, moderni ESR analizator; planirao sam veliko otkriće. Jedne minute je tu, a sljedeće—puf. Možeš li pomoći?",
+    "it": "Ho messo le mani su un nuovissimo Analizzatore VES, avevo programmato una mega presentazione. Un attimo fa era qui, e poi... puf. Mi aiuti?",
+    "ja": "おしゃれな新しいESR分析装置を手に入れたんだ。盛大なお披露目会も予定してた。でも急に消えてしまったんだ。ねえ助けてくれないか？",
+    "ko-KR": "근사한 새 ESR 분석기를 손에 넣고 성대하게 공개할 계획도 짜놨거든요? 그런데 여기 있던 분석기가 갑자기 사라져 버렸어요. 제발 도와주지 않을래요?",
+    "no": "Jeg fikk tak i en flott, ny ESR-analysator; hadde planlagt en stor avsløring. Det ene øyeblikket er den her, i det neste – poff. Kan du hjelpe meg?",
+    "pl": "Udało mi się dorwać wymyślny analizator OB, ale mój plan na to, żeby ogłosić to wszystkim jako wielką niespodziankę, raczej już nie wypali. W jednej chwili analizator był przy mnie, a w drugiej – wyparował. Pomożesz mi?",
+    "pt": "Consegui um novo e chique analisador de ESR; tinha uma grande revelação planejada. Num minuto ele está aqui, no minuto seguinte — puf. Pode ajudar?",
+    "pt-BR": "Arranjei um analisador de VHS novinho e tinha até planejado fazer uma grande revelação. Ele estava bem aqui e depois... sumiu. Me ajuda, por favor?",
+    "ru": "Мне недавно попался прекрасный новый анализатор СОЭ. Эта штука очень бы нам пригодилась. Вот только он как будто испарился, хотя только что был здесь. Поможешь найти?",
+    "sr": "Dokopao sam se fensi novog ESR analizatora; imao sam isplanirano celo veliko otkriće. Jednog trenutka je tu, a sledećeg—puf. Pomozi, molim te?",
+    "tr": "Elime harika bir yeni ESO Analizörü geçti, bunun için büyük bir duyuru yapmayı planlıyordum. Ne var ki bir anda puf diye ortadan kayboldu. Yardım eder misin lütfen?",
+    "uk": "До моїх рук потрапив крутий новий аналізатор ESR; я планував велику презентацію. Щойно він був тут, а наступної миті — зник. Допоможеш?",
+    "zh-CN": "我搞到了一台崭新的ESR分析仪。本来计划来个大揭秘的，但是突然之间就不见了。能帮帮忙吗？",
+    "zh-TW": "我弄到了一台新奇的ESR分析儀，本來打算來隆重介紹給大家看的。前一分鐘它還在這裡，下一分鐘就突然不見了。能幫幫忙嗎？"
+  },
+  "objectives": [
+    {
+      "da": "Led efter en ESR-analysator inde på et hvilket som helst apotek i Buried City",
+      "de": "In einer Apotheke in der Begrabenen Stadt nach einem ESR-Analysator suchen",
+      "en": "Search for an ESR Analyzer inside any pharmacy in Buried City",
+      "es": "Busca un analizador ESR dentro de cualquier farmacia de Ciudad enterrada.",
+      "fr": "Trouver un analyseur de VS dans une pharmacie de la Ville enfouie",
+      "he": "חפש מנתח ESR בתוך כל בית מרקחת ב-Buried City",
+      "hr": "Potraži ESR analizator unutar bilo koje ljekarne u Buried Cityju",
+      "it": "Cerca un Analizzatore ESR dentro qualsiasi farmacia della Città sepolta",
+      "ja": "埋もれた街の薬局でESR分析装置を調査した",
+      "ko-KR": "파묻힌 도시의 약국 안에서 ESR 분석기 찾기",
+      "no": "Søk etter en ESR-analysator i et hvilket som helst apotek i Buried City",
+      "pl": "Poszukaj analizatora OB w aptece w Pogrzebanym Mieście",
+      "pt": "Procure por um Analisador de ESR dentro de qualquer farmácia em Buried City",
+      "pt-BR": "Procure um Analisador de VHS dentro de qualquer farmácia na Cidade Soterrada",
+      "ru": "Найдите анализатор СОЭ в аптеке Погребенного города.",
+      "sr": "Potraži ESR analizator unutar bilo koje apoteke u Buried City-ju",
+      "tr": "Gömülü Şehir'in içindeki herhangi bir eczanede ESO Analizörü ara",
+      "uk": "Шукайте аналізатор ESR у будь-якій аптеці в Похованому місті",
+      "zh-CN": "到掩埋废城的任意药店中搜索ESR分析仪",
+      "zh-TW": "在埋藏都市的任何藥局內搜索ESR分析儀"
+    },
+    {
+      "da": "Aflever ESR-analysatoren til Lance",
+      "de": "Bring den ESR-Analysator zu Lance.",
+      "en": "Deliver the ESR Analyzer to Lance",
+      "es": "Entrégale el analizador ESR a Lance.",
+      "fr": "Livrer l'analyseur de VS à Lance",
+      "he": "מסור את מנתח ה-ESR ל-Lance",
+      "hr": "Dostavi ESR analizator Lanceu",
+      "it": "Consegna l'Analizzatore VES a Lance",
+      "ja": "ランスにESR分析装置を届けた",
+      "ko-KR": "랜스에게 ESR 분석기 전달하기",
+      "no": "Lever ESR-analysatoren til Lance",
+      "pl": "Dostarcz analizator OB Lance’owi",
+      "pt": "Entregue o Analisador de ESR para Lance",
+      "pt-BR": "Entregue o Analisador de VHS para Lance",
+      "ru": "Доставьте Лэнсу анализатор СОЭ.",
+      "sr": "Isporuči ESR analizator Lance-u",
+      "tr": "Lance'e ESO Analizörünü teslim et",
+      "uk": "Доставте аналізатор ESR Lance",
+      "zh-CN": "把ESR分析仪交给兰斯",
+      "zh-TW": "將ESR分析儀運送給蘭斯"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "tactical_mk3_healing",
+      "quantity": 1
+    },
+    {
+      "itemId": "surge_shield_recharger",
+      "quantity": 1
+    }
+  ],
+  "xp": 2500,
+  "previousQuestIds": ["ss10f"],
+  "nextQuestIds": ["ss10k"],
+  "videoUrl": "https://youtu.be/XLuI97jQKNo",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "289943492",
+    "children": [
+      {
+        "id": "527350623",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "592092300",
+        "index": 1,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "all"
+  },
+  "slug": "a-reveal-in-ruins"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "ss10d",
+  "name": {
+    "da": "Blandede signaler",
+    "de": "Gemischte Signale",
+    "en": "Mixed Signals",
+    "es": "Señales mixtas",
+    "fr": "Signaux confus",
+    "he": "אותות מעורבים",
+    "hr": "Pomiješani signali",
+    "it": "Segnali ambigui",
+    "ja": "混合信号",
+    "ko-KR": "뒤섞인 신호",
+    "no": "Blandede signaler",
+    "pl": "Niejednoznaczne sygnały",
+    "pt": "Sinais Mistos",
+    "pt-BR": "Sinais Confusos",
+    "ru": "Смешанный сигнал",
+    "sr": "Pomešani signali",
+    "tr": "Karışık Sinyaller",
+    "uk": "Змішані сигнали",
+    "zh-CN": "混合信号",
+    "zh-TW": "混雜訊號"
+  },
+  "map": [
+    "buried_city",
+    "the_spaceport",
+    "the_blue_gate",
+    "dam_battlegrounds",
+    "riven_tide"
+  ],
+  "trader": "Shani",
+  "requiredItemIds": [
+    {
+      "itemId": "surveyor_vault",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "jolt_mine",
+      "quantity": 3
+    },
+    {
+      "itemId": "showstopper",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "da": "Har du set nogle Surveyors; de store runde nogle? \n\nDet ser ud til, at de transmitterer data tilbage i kredsløb, og jeg kan ikke lade være med at tænke, at det er forbundet med det signal, vi opfangede. Vil du bryde en af dem op, så vi kan forsøge at afkode dataene?",
+    "de": "Hast du Beobachter gesehen, diese großen runden Dinger?\r\n\r\nAnscheinend übertragen sie Daten zurück in den Orbit, und ich hab den Eindruck, dass das mit diesem Signal zusammenhängt. Könntest du einen aufbrechen, damit wir die Daten vielleicht entschlüsseln können?",
+    "en": "Have you spotted any Surveyors; the big round ones? \n\nThey seem to be transmitting data back into orbit, and I can’t help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?",
+    "es": "¿Has visto a algún vigilante, esos que son redondos? Creo que están transmitiendo datos a la órbita, y me da a mí que tiene algo que ver con la señal que captamos. ¿Podrías abrir uno en canal para intentar descifrar sus datos?",
+    "fr": "Avez-vous repéré des Guetteurs, ces grosses machines toutes rondes ? Ils semblent transmettre des données en orbite, et je ne peux m'empêcher de penser que c'est lié au signal que nous avons capté. Pourriez-vous en ouvrir un, afin que nous puissions tenter de déchiffrer les données ?",
+    "he": "יצא לך לראות Surveyors; הגדולים והעגולים האלה? \n\nנראה שהם משדרים נתונים חזרה למסלול, ואני לא יכול שלא לחשוב שזה קשור לאות שקלטנו. תוכל לפרוץ אחד, כדי שנוכל לנסות לפענח את הנתונים?",
+    "hr": "Jesi li primijetio Surveyore; one velike okrugle? \n\nČini se da prenose podatke natrag u orbitu, i ne mogu se oteti dojmu da je to povezano s onim signalom koji smo uhvatili. Hoćeš li razbiti jednog, kako bismo pokušali dešifrirati podatke?",
+    "it": "Hai avvistato qualche Supervisore, quelli grandi e rotondi? Sembra che stiano trasmettendo dati in orbita e non posso fare a meno di pensare che siano legati al segnale che abbiamo rilevato. Vuoi aprirne uno, così possiamo provare a decifrare i dati?",
+    "ja": "サーベイヤーは見つけた？\r\n\r\nデカくて丸い連中。おそらく軌道上にデータを送り返してるから、例の信号と関係してる気がしてる。中身を開いて、データを解読してみてくれない？",
+    "ko-KR": "서베이어 본 적 있나요? 크고 동그란 놈인데, 데이터를 궤도로 전송하는 거 같더군요. 그게 우리가 수신한 신호랑 연관이 있다는 생각이 드네요. 데이터를 해독해 볼 수 있게 한 녀석을 부숴서 열어줄 수 있나요?",
+    "no": "Har du sett noen Surveyors; de store runde? \n\nDet virker som om de sender data tilbake i bane, og jeg klarer ikke å la være å tro at det er knyttet til signalet vi fanget opp. Kan du bryte opp en av dem, slik at vi kan prøve å tyde dataene?",
+    "pl": "Były tam gdzieś szperacze? Te duże, okrągłe? Wygląda na to, że przesyłają dane na orbitę i mam wrażenie, że ma to jakiś związek z sygnałem, który odebraliśmy. Rozwalisz jednego z nich, żebyśmy mogli rozszyfrować dane?",
+    "pt": "Você viu algum Surveyor; aqueles grandes e redondos? \n\nEles parecem estar transmitindo dados de volta para a órbita, e não consigo evitar pensar que isso está ligado àquele sinal que captamos. Você pode abrir um, para tentarmos decifrar os dados?",
+    "pt-BR": "Já viu algum Inspetor, daqueles grandalhões e redondos? Parece que estão transmitindo dados de volta pra órbita, e suspeito que isso tem a ver com aquele sinal que captamos. Pode abrir um deles pra gente tentar decifrar os dados?",
+    "ru": "Уже доводилось встречать «Наблюдателей»? Здоровые такие, круглые. Похоже, они передают данные обратно на орбиту, и мне кажется, что как-то это связано с перехваченным сигналом. Можешь вскрыть одного? Попробуем расшифровать данные.",
+    "sr": "Da li si primetio Surveyor-e; one velike okrugle? \n\nIzgleda da šalju podatke nazad u orbitu i ne mogu da ne pomislim da je to povezano sa signalom koji smo uhvatili. Možeš li da razbiješ jednog, kako bismo pokušali da dešifrujemo podatke?",
+    "tr": "Hiç Gözetleyici gördün mü, şu büyük yuvarlak olanlar hani? Verileri yörüngeye geri gönderiyor gibiler ve aldığımız şu sinyalle bağlantılı olduğunu düşünmeden edemiyorum. Verileri çözmeye çalışabilmemiz için bir tanesini kırabilir misin?",
+    "uk": "Чи траплялися вам Спостерігачі, такі великі та круглі? \n\nЗдається, вони передають дані назад на орбіту, і я не можу позбутися думки, що це пов'язано з тим сигналом, який ми перехопили. Чи не могли б ви розбити одного з них, щоб ми спробували розшифрувати дані?",
+    "zh-CN": "你看到过“勘测师”吗，就是像大圆球一样的？它们似乎在向轨道传输数据，我在想这可能跟我们捕捉到的信号有关。你看能不能破拆“勘测师”，这样我们就能尝试解密数据了。",
+    "zh-TW": "你看到任何勘查員了嗎？那些又大又圓的傢伙？它們似乎會把資料傳輸回軌道，我總覺得這和我們之前接收到的那個訊號有關。你能不能拆開一台，讓我們試著破解其中的資料？"
+  },
+  "objectives": [
+    {
+      "da": "Ødelæg en ARC Surveyor",
+      "de": "Zerstöre einen ARC-Beobachter.",
+      "en": "Destroy an ARC Surveyor",
+      "es": "Destruye un vigilante ARC.",
+      "fr": "Détruire un Guetteur ARC",
+      "he": "השמד ARC Surveyor",
+      "hr": "Uništi ARC Surveyora",
+      "it": "Distruggi un supervisore ARC",
+      "ja": "ARC サーベイヤーを破壊した",
+      "ko-KR": "아크 서베이어 파괴하기",
+      "no": "Ødelegg en ARC Surveyor",
+      "pl": "Zniszcz szperacza ARC",
+      "pt": "Destrua um Surveyor da ARC",
+      "pt-BR": "Destrua um Inspetor ARC",
+      "ru": "Уничтожьте «Наблюдателя» ARC.",
+      "sr": "Uništi ARC Surveyor-a",
+      "tr": "Bir ARC Gözetleyicisi yok et",
+      "uk": "Знищити Спостерігача ARC",
+      "zh-CN": "摧毁一架ARC“勘测师”",
+      "zh-TW": "摧毀一台ARC勘查員"
+    },
+    {
+      "da": "Skaf 1 Surveyor Vault",
+      "de": "Beschaffe 1 Beobachtertresor.",
+      "en": "Obtain 1 Surveyor Vault",
+      "es": "Consigue 1 depósito de vigilante.",
+      "fr": "Obtenir 1 coffre de Guetteur",
+      "he": "השג 1 Surveyor Vault",
+      "hr": "Nabavi 1 Sef Surveyora",
+      "it": "Ottieni 1 cassaforte del supervisore",
+      "ja": "サーベイヤーのボックスを1個手に入れた",
+      "ko-KR": "서베이어 볼트 1개 획득하기",
+      "no": "Skaff 1 Surveyor Vault",
+      "pl": "Zdobądź 1 komorę szperacza",
+      "pt": "Obtenha 1 Cofre de Surveyor",
+      "pt-BR": "Obtenha 1 cofre de Inspetor",
+      "ru": "Добудьте 1 сейф «Наблюдателя».",
+      "sr": "Nabavi 1 Surveyor Vault",
+      "tr": "1 Gözetleyici Kasası elde et",
+      "uk": "Здобути 1 Сховище Спостерігача",
+      "zh-CN": "获得1个“勘测师”保险库",
+      "zh-TW": "獲得1個勘查員保存庫"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "photoelectric_cloak",
+      "quantity": 1
+    },
+    {
+      "itemId": "raider_hatch_key",
+      "quantity": 1
+    }
+  ],
+  "xp": 8000,
+  "previousQuestIds": ["ss10b"],
+  "nextQuestIds": [],
+  "videoUrl": "https://youtu.be/jt8V6Ivy9h0",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "362684613",
+    "children": [
+      {
+        "id": "988069135",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "459660741",
+        "index": 1,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "mixed-signals"
+}

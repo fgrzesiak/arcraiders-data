@@ -1,0 +1,235 @@
+{
+  "id": "a_path_not_yours",
+  "name": {
+    "da": "En sti, der ikke er din",
+    "de": "Dieser Weg ist nicht deiner",
+    "en": "A Path Not Yours",
+    "es": "Un camino ajeno",
+    "fr": "Un chemin qui n'est pas le vôtre",
+    "he": "נתיב לא שלך",
+    "hr": "Put koji nije tvoj",
+    "it": "Un percorso che non è tuo",
+    "ja": "誰かの道",
+    "ko-KR": "당신의 것이 아닌 길",
+    "no": "En sti ikke din",
+    "pl": "Cudza ścieżka",
+    "pt": "Um Caminho que Não é Seu",
+    "pt-BR": "Um Caminho que Não é Seu",
+    "ru": "Чужими путями",
+    "sr": "Put koji nije tvoj",
+    "tr": "Sana Ait Olmayan Bir Yol",
+    "uk": "Не твій шлях",
+    "zh-CN": "非你之路",
+    "zh-TW": "不屬於你的道路"
+  },
+  "map": ["the_blue_gate"],
+  "trader": "Ermal",
+  "requiredItemIds": [
+    {
+      "itemId": "broken_compass",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "zipline",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "da": "Før vores veje skiltes, dvælede vi ved The Blue Gate et stykke tid. Vi tror, der er en gammel sti fra de dage, og noget, der tilhører os, ligger muligvis stadig for enden af den.",
+    "de": "Bevor sich unsere Wege trennten, blieben wir noch eine Weile am Blauen Tor stehen. Wir glauben, dass es dort einen alten Pfad aus jener Zeit gibt und dass an seinem Ende vielleicht noch etwas liegt, das uns gehört.",
+    "en": "Before our paths changed, we lingered by the Blue Gate for some time. We believe there is an old trail from those days, and something belonging to us may still lie at its end.",
+    "es": "Antes de que nuestros caminos cambiaran, pasamos un tiempo en la Puerta azul. Creemos que existe una antigua senda que se remonta a esos días y que conduce a algo que nos pertenece.",
+    "fr": "Avant que nos chemins ne divergent, nous sommes restés quelque temps près du Portail bleu. Nous pensons qu'un ancien sentier de cette époque existe encore, et que quelque chose qui nous appartient se trouve peut-être toujours tout au bout.",
+    "he": "לפני שנתיבינו השתנו, התעכבנו ליד The Blue Gate למשך זמן מה. אנו מאמינים שיש שביל ישן מאותם ימים, ומשהו השייך לנו אולי עדיין נמצא בסופו.",
+    "hr": "Prije nego što su nam se putovi razdvojili, neko smo se vrijeme zadržali kod Blue Gatea. Vjerujemo da od tih dana postoji stara staza i da nešto što nam pripada možda i dalje leži na njenom kraju.",
+    "it": "Prima che le nostre strade si separassero, ci siamo soffermati per un po' presso il Varco Blu. Crediamo che esista un antico sentiero risalente a quei tempi, e che qualcosa di nostra appartenenza possa ancora trovarsi alla sua estremità.",
+    "ja": "別々の道を歩むようになる前、しばらくブルーゲートのそばに滞在していた。あの頃の古い道がまだ残っていて、その先に我々のものが何か残っているかもしれない。",
+    "ko-KR": "우리의 길이 달라지기 전, 우리는 한동안 블루 게이트 근처에 머물렀소. 그 시절의 옛길이 아직 남아 있다고 믿소. 그 끝에는 우리 것이 아직 남아 있을지도 모르오.",
+    "no": "Før våre stier skilte lag, oppholdt vi oss ved The Blue Gate en stund. Vi tror det er en gammel sti fra de dagene, og noe som tilhører oss kan fremdeles ligge ved dens ende.",
+    "pl": "Zanim nasze ścieżki się zmieniły, przez jakiś czas przebywaliśmy przy Błękitnej Bramie. Naszym zdaniem jest tam pewien stary szlak z dawnych czasów, a na jego końcu może znajdować się coś, co należy do nas.",
+    "pt": "Antes que nossos caminhos mudassem, nos demoramos perto da Blue Gate por algum tempo. Acreditamos que há uma trilha antiga daqueles dias, e algo que nos pertence ainda pode estar no seu fim.",
+    "pt-BR": "Antes dos nossos caminhos mudarem, passamos um tempo próximos ao Portão Azul. Acreditamos que há uma velha trilha daqueles dias, e que há algo pertencente a nós no fim dessa rota.",
+    "ru": "До того, как наш маршрут изменился, мы на некоторое время задерживались у Синих ворот. Мы верим, что с тех дней там осталась старая тропа, в конце которой может ждать что-то, принадлежащее нам.",
+    "sr": "Pre nego što su nam se putevi razišli, neko vreme smo se zadržavali kod The Blue Gate. Verujemo da postoji stari trag iz tih dana, i da nešto što nam pripada i dalje leži na njegovom kraju.",
+    "tr": "Yolumuz değişmeden önce Mavi Kapı yakınlarında biraz oyalandık. Orada o zamanlardan kalma eski bir yol olduğunu düşünüyoruz. O yolun sonunda hâlâ bize ait bir şeyler olabilir.",
+    "uk": "До того, як наші шляхи розійшлися, ми деякий час перебували біля The Blue Gate. Ми віримо, що з тих часів залишився старий шлях, і щось наше може досі лежати в його кінці.",
+    "zh-CN": "在命运转折之前，我们曾在蓝门逗留过一段时间。我们认为当年有一条古道，道路尽头或许还留着属于我们的东西。",
+    "zh-TW": "我們在變更道路之前，曾在藍色大門附近逗留一陣子。那裡應該有一條當時留下的古老路徑，盡頭或許還留著屬於我們的東西。"
+  },
+  "objectives": [
+    {
+      "da": "Find starten på Nomad-stien under Highway Collapse",
+      "de": "Finde den Anfang des Nomadenpfads im Schnellstraßen-Einsturzgebiet.",
+      "en": "Find the start of the Nomad trail under the Highway Collapse",
+      "es": "Encuentra el inicio del sendero nómada bajo la autopista colapsada",
+      "fr": "Trouver le départ du sentier nomade sous les Décombres d'autoroute",
+      "he": "מצאו את תחילתו של שביל הנוודים מתחת לקריסת הכביש המהיר",
+      "hr": "Pronađi početak Nomadske staze pod Urušenim autoputem",
+      "it": "Trova l'inizio del sentiero dei Nomadi sotto il crollo stradale",
+      "ja": "高速道路崩壊部の下で放浪民の足跡の始点を探す",
+      "ko-KR": "붕괴된 고속도로 아래에서 유랑민 이동 경로의 시작점 찾기",
+      "no": "Finn starten på nomadestien under motorveikollapsen",
+      "pl": "Znajdź początek szlaku koczowników pod zawaloną autostradą",
+      "pt": "Encontre o início da trilha Nômade sob o Colapso da Rodovia.",
+      "pt-BR": "Encontre o início da trilha Nômade sob a Rodovia Desabada",
+      "ru": "Найдите начало кочевой тропы под обвалом на шоссе.",
+      "sr": "Pronađi početak nomadske staze pod Highway Collapseom",
+      "tr": "Çökmüş Otoyol'un altındaki Göçebe patikasının başladığı yeri bul",
+      "uk": "Знайдіть початок сліду Кочівників під Обвалом шосе",
+      "zh-CN": "在高速公路崩塌区下方找到游民路径的起点",
+      "zh-TW": "找到高速公路坍方下的遊牧者路徑起點"
+    },
+    {
+      "da": "Følg stimarkeringerne til Nomad-skjulestedet",
+      "de": "Folge den Wegmarkierungen zum Versteck der Nomaden.",
+      "en": "Follow the trail markers to the Nomad hideout",
+      "es": "Sigue los marcadores de sendero hasta el refugio nómada",
+      "fr": "Suivre les marqueurs de sentier jusqu'à la planque des nomades",
+      "he": "עקבו אחר סימני השביל אל מחבוא הנוודים",
+      "hr": "Slijedi markere staze do Nomadskog skrovišta",
+      "it": "Segui gli indicatori di percorso fino al nascondiglio dei Nomadi",
+      "ja": "放浪民の隠れ家まで道標を辿る",
+      "ko-KR": "경로 표식을 따라 유랑민 은신처로 이동하기",
+      "no": "Følg stimarkørene til nomadetilfluktsstedet",
+      "pl": "Podążaj za znacznikami śladów do kryjówki koczowników",
+      "pt": "Siga os marcadores de trilha até o refúgio Nômade.",
+      "pt-BR": "Siga os marcadores de trilha até o esconderijo Nômade",
+      "ru": "Идите по следам к убежищу кочевников.",
+      "sr": "Prati oznake staze do nomadskog skloništa",
+      "tr": "Patika işaretlerini takip ederek Göçebe sığınağına ulaş",
+      "uk": "Йдіть за маркерами шляху до схованки Кочівників",
+      "zh-CN": "沿着路径标记前往游民藏身处",
+      "zh-TW": "沿著路徑標記前往遊牧者藏身處"
+    },
+    {
+      "da": "Find Bilguuns gave ved den nedgravede cache under skjulestedet",
+      "de": "Finde Bilguuns Geschenk im vergrabenen Geheimvorrat unter dem Versteck.",
+      "en": "Find Bilguun's gift at the buried cache under the hideout",
+      "es": "Encuentra el regalo de Bilguun en el alijo enterrado bajo la guarida",
+      "fr": "Trouver le cadeau de Bilguun dans la cache enfouie sous la planque",
+      "he": "מצאו את המתנה של בילגון במטמון הקבור מתחת למחבוא",
+      "hr": "Pronađi Bilguunov dar u zakopanoj zalihi ispod skrovišta",
+      "it": "Trova il regalo di Bilguun nel nascondiglio sepolto sotto il covo",
+      "ja": "隠れ家の下に埋められた物資の中からビルグーンの贈り物を探す",
+      "ko-KR": "은신처 아래 파묻힌 은닉물에서 빌군의 선물 찾기",
+      "no": "Finn Bilguuns gave ved det nedgravde gjemmestedet under tilfluktsstedet",
+      "pl": "Znajdź prezent od Bilguuna w zakopanej skrytce pod kryjówką",
+      "pt": "Encontre o presente de Bilguun no depósito enterrado sob o refúgio.",
+      "pt-BR": "Encontre o presente de Bilguun no estoque enterrado sob o esconderijo",
+      "ru": "Найдите подарок Бильгуна в закопанном тайнике под убежищем.",
+      "sr": "Pronađi Bilguunov poklon u zakopanoj ostavi ispod skloništa",
+      "tr": "Sığınağın altındaki gömülü zulada duran Bilguun'un hediyesini bul",
+      "uk": "Знайдіть подарунок Bilguun'а в закопаному сховищі під схованкою",
+      "zh-CN": "在藏身处下方的埋藏储物箱中找到比尔根的礼物",
+      "zh-TW": "在藏身處底下埋藏的貨品中找到比爾古恩的禮物"
+    },
+    {
+      "da": "Plyndr det hemmelige gemmested i Bilguuns skjulested",
+      "de": "Plündere das geheime Lager in Bilguuns Versteck.",
+      "en": "Loot the secret stash in Bilguun's hideout",
+      "es": "Saquea el alijo secreto en la guarida de Bilguun",
+      "fr": "Piller la réserve secrète de la Cachette de Bilguun",
+      "he": "בזזו את המטמון הסודי במחבוא של בילגון",
+      "hr": "Opljačkaj tajnu zalihu u Bilguunovom skrovištu",
+      "it": "Saccheggia la scorta segreta nel covo di Bilguun",
+      "ja": "ビルグーンの隠れ家にある秘密の保管庫を漁る",
+      "ko-KR": "빌군의 은신처에서 비밀 보관함 노획하기",
+      "no": "Plyndre det hemmelige forrådet i Bilguuns tilfluktssted",
+      "pl": "Splądruj tajną skrytkę w kryjówce Bilguuna",
+      "pt": "Saqueie o esconderijo secreto no refúgio de Bilguun.",
+      "pt-BR": "Saqueie o estoque secreto no esconderijo de Bilguun",
+      "ru": "Обыщите секретное хранилище в убежище Бильгуна.",
+      "sr": "Opljačkaj tajnu zalihu u Bilguunovom skloništu",
+      "tr": "Bilguun'un sığınağındaki gizli zulayı yağmala",
+      "uk": "Здобудьте секретний схрон у схованці Bilguun'а",
+      "zh-CN": "搜刮比尔根藏身处的秘密储备箱",
+      "zh-TW": "搜刮比爾古恩藏身處中的秘密儲藏箱"
+    },
+    {
+      "da": "Aflever det ødelagte kompas til Nomade-udsendingen",
+      "de": "Bring den kaputten Kompass zum nomadischen Gesandten.",
+      "en": "Deliver the Broken Compass to the Nomadic Envoy",
+      "es": "Entrégale la brújula estropeada al emisario nómada",
+      "fr": "Livrer la boussole cassée à l'émissaire nomade",
+      "he": "מסרו את המצפן השבור לשליח הנוודים",
+      "hr": "Dostavi Slomljeni kompas Nomadskom izaslaniku",
+      "it": "Consegna la bussola rotta all'Inviato Nomade",
+      "ja": "放浪の使者に壊れたコンパスを届ける",
+      "ko-KR": "유랑 사절단에게 망가진 나침반 전달하기",
+      "no": "Lever det ødelagte kompasset til den nomadiske utsendingen",
+      "pl": "Dostarcz wędrownemu emisariuszowi zepsuty kompas",
+      "pt": "Entregue a Bússola Quebrada ao Emissário Nômade.",
+      "pt-BR": "Entregue a Bússola Quebrada para o Emissário Nômade",
+      "ru": "Доставьте кочевнику сломанный компас.",
+      "sr": "Isporuči Broken Compass Nomadskom izaslaniku",
+      "tr": "Bozuk Pusula'yı Göçebe Elçi'ye teslim et",
+      "uk": "Доставте Зламаний Компас до Посланника Кочівників",
+      "zh-CN": "将破损罗盘交付给游牧使团",
+      "zh-TW": "將破損的指南針送去給遊牧使者"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "tellurion",
+      "quantity": 1
+    },
+    {
+      "itemId": "magnet",
+      "quantity": 2
+    },
+    {
+      "itemId": "battery",
+      "quantity": 2
+    },
+    {
+      "itemId": "power_cable",
+      "quantity": 2
+    }
+  ],
+  "xp": 2500,
+  "previousQuestIds": ["taking_stock"],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "460229677",
+    "children": [
+      {
+        "id": "893038469",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "449488196",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "795754596",
+        "children": [
+          {
+            "id": "429901944",
+            "index": 2,
+            "type": "step"
+          },
+          {
+            "id": "436986856",
+            "index": 3,
+            "optional": true,
+            "type": "step"
+          }
+        ],
+        "type": "all"
+      },
+      {
+        "id": "624066045",
+        "index": 4,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "a-path-not-yours"
+}

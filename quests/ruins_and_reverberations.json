@@ -1,0 +1,181 @@
+{
+  "id": "ruins_and_reverberations",
+  "name": {
+    "da": "Ruiner og Efterklang",
+    "de": "Ruinen und Rückhall",
+    "en": "Ruins and Reverberations",
+    "es": "Ruinas y reverberaciones",
+    "fr": "Ruines et résonances",
+    "he": "חורבות והדהודים",
+    "hr": "Ruševine i Odjeci",
+    "it": "Rovine e riverberi",
+    "ja": "遺跡と残響",
+    "ko-KR": "폐허와 메아리",
+    "no": "Ruiner og Gjenklang",
+    "pl": "Ruiny i echa",
+    "pt": "Ruínas e Reverberações",
+    "pt-BR": "Ruínas e Repercussões",
+    "ru": "Обломки и отголоски",
+    "sr": "Ruševine i odjeci",
+    "tr": "Yıkıntı ve Yankı",
+    "uk": "Руїни та відгомін",
+    "zh-CN": "废墟和回响",
+    "zh-TW": "廢墟與迴響"
+  },
+  "map": ["pendola_pass"],
+  "trader": "Celeste",
+  "requiredItemIds": [
+    {
+      "itemId": "spotter_relay",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "grappling_hook",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Den Emperor snublede ikke bare og faldt… Den blev nedlagt. Og jeg har en stærk teori om, hvordan det skete.",
+    "de": "Dieser Kaiser ist nicht einfach so gestolpert und hingefallen … Er wurde zu Fall gebracht. Und ich habe eine Theorie dazu, wie das passiert ist.",
+    "en": "That Emperor didn’t just trip and fall… It was brought down. And I have a leading theory about how that happened.",
+    "es": "Ese emperador no se tropezó..., alguien lo tumbó, y tengo una teoría bastante convincente de cómo.",
+    "fr": "Cet Empereur n'a pas simplement trébuché avant de tomber. Il a été abattu. Et j'ai une théorie assez solide sur la manière dont cela s'est produit.",
+    "he": "הקיסר הזה לא סתם מעד ונפל… הוא הופל. ויש לי תיאוריה מובילה איך זה קרה.",
+    "hr": "Taj Car nije se samo spotaknuo i pao… Srušen je. A ja imam vodeću teoriju o tome kako se to dogodilo.",
+    "it": "Quell'Imperatore non è semplicemente inciampato e caduto... È stato abbattuto. E ho una teoria su come sia successo.",
+    "ja": "あのエンペラーは、ただ転んで落ちたんじゃない… 誰かに落とされたんだ。それがどうやって起きたのか、私には有力な仮説がある。",
+    "ko-KR": "그 엠퍼러가 그냥 발을 헛디뎌 넘어진 게 아닙니다... 누군가 쓰러뜨린 거죠. 어떻게 한 건지에 대한 유력한 가설도 있고요.",
+    "no": "Den Keiseren snublet ikke bare og falt… Den ble brakt ned. Og jeg har en ledende teori om hvordan det skjedde.",
+    "pl": "Cesarz nie potknął się i nie upadł… Coś go powaliło. Mam teorię na temat tego, co się stało.",
+    "pt": "Aquele Imperador não tropeçou e caiu… Ele foi derrubado. E eu tenho uma teoria principal sobre como isso aconteceu.",
+    "pt-BR": "Aquele Imperador não tropeçou e caiu sozinho... Foi derrubado. E tenho uma teoria forte sobre como isso aconteceu.",
+    "ru": "Этот «Император» не просто споткнулся и упал… Его сбили. И у меня есть теория о том, как это могло произойти.",
+    "sr": "Onaj Emperor se nije samo sapleo i pao… Oboren je. A ja imam vodeću teoriju o tome kako se to desilo.",
+    "tr": "O İmparator'un ayağı takılıp da düşmedi... Düşürüldü. Ayrıca nasıl olduğu konusunda bir çıkış teorim var.",
+    "uk": "Той Імператор не просто спіткнувся і впав… Його було повалено. І я маю провідну теорію щодо того, як це сталося.",
+    "zh-CN": "那台“帝王”机器不是自己摔的……是被击毁的。至于怎么击毁的，我目前有个最靠谱的推测。",
+    "zh-TW": "那台皇帝可不是失足跌倒…而是被打倒的。而且對於發生的原因，我已經有了個有力的推測。"
+  },
+  "objectives": [
+    {
+      "da": "Forbind et Spotter-relæ til antennen på taget af Cielo Sereno-observatoriet",
+      "de": " Verbinde ein Aufklärer-Relais mit der Antenne auf dem Dach des Observatoriums Cielo Sereno.",
+      "en": " Connect a Spotter Relay to the antenna on the roof of the Cielo Sereno Observatory",
+      "es": " Conecta un repetidor de vigía a la antena del tejado del observatorio Cielo Sereno",
+      "fr": " Connecter un relais d'Observateur à l'antenne sur le toit de l'Observatoire Cielo Sereno",
+      "he": "חבר ממסר מזהה לאנטנה על הגג של מצפה הכוכבים \"סיילו סרנו\"",
+      "hr": "Spoji Izviđački relej na antenu na krovu Observatorija Cielo Sereno",
+      "it": " Collega un relè Spotter all'antenna sul tetto dell'osservatorio Cielo Sereno",
+      "ja": " シエロ・セレーノ観測所の屋上にあるアンテナにスポッター中継器を接続する",
+      "ko-KR": " 치엘로 세레노 천문대 지붕의 안테나에 스포터 릴레이 연결하기",
+      "no": "Koble et Speiderrelé til antennen på taket av Cielo Sereno-observatoriet",
+      "pl": " Podłącz przekaźnik czuwacza do anteny na dachu Obserwatorium Cielo Sereno",
+      "pt": "Conecte um Relé de Observação à antena no telhado do Observatório Cielo Sereno",
+      "pt-BR": " Conecte uma Relé de Olheiro à antena no telhado do Observatório Cielo Sereno",
+      "ru": " Подключите передатчик «Наводчика» к антенне на крыше обсерватории «Чело Серено».",
+      "sr": "Poveži Spotter relej na antenu na krovu Cielo Sereno Opservatorijuma",
+      "tr": " Cielo Sereno Gözlemevi'nin çatısındaki antene Gözleyici Rölesi bağla",
+      "uk": "Під'єднати Реле-розвідник до антени на даху Cielo Sereno Observatory",
+      "zh-CN": " 将一个“侦察员”中继器连接到晴空天文台屋顶的天线上",
+      "zh-TW": " 把探子中繼器接到晴空天文台屋頂上的天線"
+    },
+    {
+      "da": "Svejs ledningerne i krybekælderen under kontrolrummet for at omdirigere strømmen",
+      "de": "Schweiße die Kabel im Kriechkeller unter dem Kontrollraum zusammen, um die Energie umzuleiten.",
+      "en": "Weld the wires in the crawlspace under the control room to redirect power",
+      "es": "Suelda los cables en el espacio debajo de la sala de control para redirigir la corriente",
+      "fr": "Souder les câbles dans le vide sanitaire sous la salle de contrôle pour rediriger l'alimentation électrique",
+      "he": "רתך את החוטים בחלל הזחילה מתחת לחדר הבקרה כדי להפנות מחדש את הכוח",
+      "hr": "Zavari žice u uskom prolazu ispod kontrolne sobe kako bi preusmjerio napajanje",
+      "it": "Salda i cavi nel vano tecnico sotto la sala di controllo per deviare l'alimentazione",
+      "ja": "管制室の下にある狭い通路で配線を溶接し、電力を別の経路に切り替える",
+      "ko-KR": "제어실 아래 좁은 통로에서 전선을 용접해 전력 우회하기",
+      "no": "Sveis ledningene i krypkjelleren under kontrollrommet for å omdirigere strømmen",
+      "pl": "Zespawaj przewody w niskim korytarzu pod sterownią, aby przekierować zasilanie",
+      "pt": "Solde os fios no espaço de acesso sob a sala de controle para redirecionar a energia",
+      "pt-BR": "Solde os fios no vão sob a Sala de Controle para redirecionar a alimentação",
+      "ru": "Спаяйте провода в полупроходном канале под диспетчерской, чтобы перенаправить энергию.",
+      "sr": "Zavari žice u skučenom prostoru ispod kontrolne sobe da preusmeriš napajanje",
+      "tr": "Gücü yönlendirmek için kontrol odasının altındaki sürünme yerindeki kablolara kaynak yap",
+      "uk": "Зварити дроти в технічному лазі під кімнатою управління, щоб перенаправити живлення",
+      "zh-CN": "焊接控制室下方爬行通道内的线路以改接电力",
+      "zh-TW": "焊接控制室下方狹窄空間內的電線以重新通電"
+    },
+    {
+      "da": "Aktiver spejderrelæet ved antennen igen",
+      "de": "Aktiviere das Aufklärer-Relais an der Antenne erneut.",
+      "en": "Activate the Spotter Relay at the antenna again",
+      "es": "Vuelve a activar el repetidor de vigía en la antena",
+      "fr": "Activer à nouveau le relais d'Observateur sur l'antenne",
+      "he": "הפעילו שוב את ממסר האיתור באנטנה.",
+      "hr": "Aktiviraj relej za navođenje ponovno kod antene",
+      "it": "Attiva di nuovo il relè Spotter presso l'antenna",
+      "ja": "アンテナのスポッター中継器を再び起動する",
+      "ko-KR": "안테나의 스포터 릴레이 다시 활성화하기",
+      "no": "Aktiver Spotter-reléet ved antenna igjen",
+      "pl": "Ponownie aktywuj przekaźnik czuwacza przy antenie",
+      "pt": "Ativar o Revezador de Reconhecimento na antena novamente",
+      "pt-BR": "Ative a Relé de Olheiro na antena novamente",
+      "ru": "Еще раз подключите передатчик «Наводчика» к антенне.",
+      "sr": "Aktiviraj Spotter relej kod antene ponovo",
+      "tr": "Antendeki Gözleyici Rölesi'ni tekrar etkinleştir",
+      "uk": "Активувати спостережний ретранслятор біля антени знову",
+      "zh-CN": "再次启动天线处的“侦察员”中继器",
+      "zh-TW": "再次啟動天線上的探子中繼器"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "smoke_grenade",
+      "quantity": 2
+    },
+    {
+      "itemId": "looting_mk3_safekeeper",
+      "quantity": 1
+    },
+    {
+      "itemId": "electrical_components",
+      "quantity": 3
+    },
+    {
+      "itemId": "speaker_component",
+      "quantity": 2
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["wires_crossed"],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "370162971",
+    "children": [
+      {
+        "id": "615110719",
+        "index": 0,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "spotter_relay"
+          }
+        ],
+        "itemUse": "consume",
+        "type": "step"
+      },
+      {
+        "id": "598834333",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "422194552",
+        "index": 2,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "ruins-and-reverberations"
+}

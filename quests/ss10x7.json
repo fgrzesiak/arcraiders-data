@@ -1,0 +1,128 @@
+{
+  "id": "ss10x7",
+  "name": {
+    "da": "Omlægning af forsyningen",
+    "de": "Versorgungswechsel",
+    "en": "Switching the Supply",
+    "es": "Cambiando el suministro",
+    "fr": "Problèmes d'alimentation",
+    "he": "החלפת האספקה",
+    "hr": "Preusmjeravanje opskrbe",
+    "it": "Cambio di carico",
+    "ja": "物資交換",
+    "ko-KR": "보급품 교체",
+    "no": "Omkoble forsyningen",
+    "pl": "Podmiana zapasów",
+    "pt": "Mudando o Suprimento",
+    "pt-BR": "Troca de Suprimentos",
+    "ru": "Смена груза",
+    "sr": "Preusmeravanje snabdevanja",
+    "tr": "İkmal Değişimi",
+    "uk": "Перемикання постачання",
+    "zh-CN": "更换水源",
+    "zh-TW": "切換供給"
+  },
+  "map": ["the_spaceport"],
+  "trader": "Celeste",
+  "description": {
+    "da": "Der er et reservoir under The Spaceport; hvis vi formår at omdirigere det vand hertil, burde det give os tid til at tage os af forureningen.",
+    "de": "Unter dem Raumhafen ist ein Reservoir – wenn wir Wasser von da ableiten könnten, würden wir Zeit gewinnen, um uns um die Kontamination zu kümmern.",
+    "en": "There is a reservoir beneath the Spaceport; if we manage to route that water here, that should buy us time to deal with the contamination.",
+    "es": "Hay un embalse debajo del Puerto espacial. Si conseguimos desviar esa agua hasta aquí, tendremos más tiempo para abordar la contaminación.",
+    "fr": "Il y a un réservoir sous le Port spatial. Si on détournait toute l'eau jusqu'ici, ça devrait nous donner assez de temps pour gérer la contamination.",
+    "he": "יש מאגר מים מתחת ל-Spaceport; אם נצליח לנתב את המים לכאן, זה יקנה לנו זמן לטפל בזיהום.",
+    "hr": "Ispod Spaceporta nalazi se rezervoar; ako uspijemo preusmjeriti tu vodu ovamo, to bi nam trebalo kupiti vrijeme da riješimo problem kontaminacije.",
+    "it": "C'è un serbatoio sotto lo Spazioporto: se riusciamo a portare qui quell'acqua, dovremmo guadagnare tempo per affrontare la contaminazione.",
+    "ja": "宇宙港の地下に溜め池がある。その水をここまで引くことができたら、汚染を解決するまでの時間稼ぎになるだろう。",
+    "ko-KR": "우주 기지 아래에 급수장이 있어요. 거기서 물을 끌어온다면 오염을 제거할 시간을 벌 수 있을 거예요.",
+    "no": "Det er et reservoar under The Spaceport; hvis vi klarer å lede vannet hit, bør det gi oss tid til å håndtere forurensningen.",
+    "pl": "Pod portem kosmicznym jest pewien zbiornik. Jeśli zdołamy przekierować do niego tę wodę, kupimy sobie trochę czasu i będziemy mogli zająć się zanieczyszczeniem.",
+    "pt": "Há um reservatório sob o Spaceport; se conseguirmos desviar essa água para cá, isso nos dará tempo para lidar com a contaminação.",
+    "pt-BR": "Há um reservatório embaixo do Espaçoporto. Se conseguirmos desviar a água para cá, vamos ganhar um tempo para lidar com a contaminação.",
+    "ru": "Под космопортом находится резервуар. Если удастся перенаправить воду туда, у нас будет больше времени, чтобы справиться с заражением.",
+    "sr": "Postoji rezervoar ispod The Spaceport-a; ako uspemo da preusmerimo tu vodu ovamo, to bi nam dalo vremena da se rešimo kontaminacije.",
+    "tr": "Uzaylimanı'nın altında bir rezervuar var. Suyu oraya yönlendirebilirsek pisliği temizlemek için zaman kazanırız.",
+    "uk": "Під Spaceport є резервуар; якщо нам вдасться спрямувати цю воду сюди, це дасть нам час розібратися із забрудненням.",
+    "zh-CN": "太空港下面有一个水库。如果能把那里的水引到这里来，就能为我们争取一些时间来解决污染问题。",
+    "zh-TW": "太空港下方有座水庫；如果我們能把那裡的水轉送到這裡，就能爭取時間處理污染。"
+  },
+  "objectives": [
+    {
+      "da": "Find tunnelerne under The Spaceport",
+      "de": "Die Tunnel unter dem Raumhafen finden",
+      "en": "Find the tunnels under the Spaceport",
+      "es": "Encuentra los túneles debajo del Puerto espacial.",
+      "fr": "Trouver les tunnels sous le Port spatial",
+      "he": "מצא את המנהרות מתחת ל-Spaceport",
+      "hr": "Pronađi tunele ispod Spaceporta",
+      "it": "Trova i tunnel sotto lo Spazioporto",
+      "ja": "宇宙港の下のトンネルを見つけた",
+      "ko-KR": "우주 기지 아래 터널 찾기",
+      "no": "Finn tunnelene under The Spaceport",
+      "pl": "Znajdź tunele pod portem kosmicznym",
+      "pt": "Encontre os túneis sob o Spaceport",
+      "pt-BR": "Encontre os túneis sob o Espaçoporto",
+      "ru": "Найдите туннели под космопортом.",
+      "sr": "Pronađi tunele ispod The Spaceport-a",
+      "tr": "Uzaylimanı'nın altındaki tünelleri bul",
+      "uk": "Знайдіть тунелі під Spaceport",
+      "zh-CN": "找到太空港下面的隧道",
+      "zh-TW": "找到太空港下的隧道"
+    },
+    {
+      "da": "Find og drej ventilen i tunnelerne under Spaceport",
+      "de": "Das Ventil in den Tunneln unter dem Raumhafen finden und drehen",
+      "en": "Find and turn the valve in the tunnels under Spaceport",
+      "es": "Encuentra y gira la válvula de los túneles bajo el Puerto espacial.",
+      "fr": "Trouver et activer la soupape dans les tunnels sous le Port spatial",
+      "he": "מצא וסובב את השסתום במנהרות מתחת ל-Spaceport",
+      "hr": "Pronađi i okreni ventil u tunelima ispod Spaceporta",
+      "it": "Trova e aziona la valvola nei tunnel sotto lo Spazioporto",
+      "ja": "宇宙港の下のトンネルにあるバルブを見つけて回した",
+      "ko-KR": "우주 기지 아래 터널에서 밸브를 찾아 돌리기",
+      "no": "Finn og vri på ventilen i tunnelene under The Spaceport",
+      "pl": "Znajdź i przekręć zawór w tunelach pod portem kosmicznym",
+      "pt": "Encontre e gire a válvula nos túneis sob o Spaceport",
+      "pt-BR": "Encontre e gire a válvula nos túneis sob o Espaçoporto",
+      "ru": "Найдите и поверните вентиль в туннелях под космопортом.",
+      "sr": "Pronađi i okreni ventil u tunelima ispod Spaceport-a",
+      "tr": "Uzaylimanı'nın altında bulunan tünellerdeki vanayı bul ve çevir",
+      "uk": "Знайдіть і поверніть вентиль у тунелях під Spaceport",
+      "zh-CN": "到太空港下面的隧道中找到并转动阀门",
+      "zh-TW": "找到並轉動太空港下方隧道中的閥門"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "spaceport_trench_tower_key",
+      "quantity": 1
+    },
+    {
+      "itemId": "synthesized_fuel",
+      "quantity": 3
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["ss10x6"],
+  "nextQuestIds": ["ss10x8"],
+  "videoUrl": "https://youtu.be/h8ev0meGRMU",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "565199362",
+    "children": [
+      {
+        "id": "300169719",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "155265620",
+        "index": 1,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "switching-the-supply"
+}

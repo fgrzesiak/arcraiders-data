@@ -1,0 +1,191 @@
+{
+  "id": "clean_hands",
+  "name": {
+    "da": "Rene Hænder",
+    "de": "Saubere Hände",
+    "en": "Clean Hands",
+    "es": "Manos limpias",
+    "fr": "Mains propres",
+    "he": "ידיים נקיות",
+    "hr": "Čiste ruke",
+    "it": "Mani pulite",
+    "ja": "綺麗な手",
+    "ko-KR": "깨끗한 손",
+    "no": "Rene hender",
+    "pl": "Czyste ręce",
+    "pt": "Mãos Limpas",
+    "pt-BR": "Mãos Limpas",
+    "ru": "Чистые руки",
+    "sr": "Čiste ruke",
+    "tr": "Eli Temiz",
+    "uk": "Чисті руки",
+    "zh-CN": "清理指针",
+    "zh-TW": "不弄髒雙手"
+  },
+  "map": ["pendola_pass"],
+  "trader": "Ermal",
+  "requiredItemIds": [
+    {
+      "itemId": "equatorial_sundial",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Der er et udestående ved Pendola Pass, som vi selv burde have afgjort. Den vej er ikke længere åben for os, så vi må bede en anden.",
+    "de": "Am Pendola-Pass gibt es noch eine Angelegenheit, die wir eigentlich selbst hätten regeln sollen. Da uns dieser Weg nun versperrt ist, müssen wir jemand anderen darum bitten.",
+    "en": "A matter remains at Pendola Pass which should have been settled by our own hands. That path is no longer open to us, so we must ask another.",
+    "es": "Hay un asunto pendiente en el Paso Pendola que deberíamos haber zanjado nosotros mismos. Ya no podemos recorrer ese sendero, por lo que requerimos la ayuda de otros.",
+    "fr": "Une affaire qui aurait dû être réglée par nos propres soins demeure en suspens au Col de Pendola. Cette voie ne nous étant plus accessible, nous devons demander à quelqu'un d'autre de s'en charger.",
+    "he": "עניין נשאר ב-Pendola Pass שהיה צריך להיפתר על ידינו. הדרך הזו כבר לא פתוחה בפנינו, לכן עלינו לבקש מאחר.",
+    "hr": "Pitanje ostaje na prijevoju Pendola koje smo trebali riješiti vlastitim rukama. Taj put nam više nije otvoren, pa moramo zatražiti drugog.",
+    "it": "Al Passo di Pendola rimane una questione che avremmo dovuto risolvere con le nostre stesse mani. Quella strada non ci è più aperta, quindi dobbiamo rivolgerci a qualcun altro.",
+    "ja": "ペンドラ峠には、私たち自身の手で片をつけるべきことが、まだ残っている。だが、もうあの道を通ることはできない。だから、他の者に頼むしかない。",
+    "ko-KR": "펜돌라 고개에는 원래 우리 손으로 매듭지었어야 할 일이 남아 있소. 이제 그 길은 우리에게 열려 있지 않으니, 다른 이에게 부탁할 수밖에 없소.",
+    "no": "En sak gjenstår ved Pendola-passet som skulle vært avgjort av våre egne hender. Den veien er ikke lenger åpen for oss, så vi må spørre en annen.",
+    "pl": "W przełęczy Pendola została do rozwiązania jedna sprawa, którą powinniśmy byli zająć się sami. Teraz już nie jest to w naszym zasięgu, dlatego musimy poprosić o pomoc.",
+    "pt": "Um assunto permanece em Pendola Pass que deveria ter sido resolvido pelas nossas próprias mãos. Esse caminho já não está aberto para nós, então devemos pedir a outro.",
+    "pt-BR": "Resta uma questão na Passagem Pendola que deveríamos ter resolvido pessoalmente. Não temos mais acesso a essa rota, então precisamos encontrar outra.",
+    "ru": "Перевал Пендола хранит какой-то секрет, с которым нам придется разбираться самостоятельно. Теперь этот путь для нас закрыт, а значит, нужно найти другой.",
+    "sr": "Nerešena stvar je ostala na Pendola Passu, koju smo trebali rešiti sopstvenim rukama. Taj put nam više nije otvoren, pa moramo zamoliti nekog drugog.",
+    "tr": "Pendola Geçidi'ndeki mevzu hâlen çözüme ulaşmadı. Bu mevzuyu kendimiz çözmeliydik. O yol artık kapalı, bu yüzden başkasına danışmamız gerek.",
+    "uk": "Питання на Pendola Pass, яке ми мали вирішити власноруч, залишається нерозв'язаним. Цей шлях більше нам недоступний, тому ми повинні попросити когось іншого.",
+    "zh-CN": "彭多拉山口还有件事，本该由我们自己解决。但那条路我们已经走不通了，只能求助别人。",
+    "zh-TW": "彭多拉隘口還有一件事本應由我們自己解決，但如今那條路已走不通了，所以我們只能求助於他人。"
+  },
+  "objectives": [
+    {
+      "da": "Find Nomadelejren under Railyard",
+      "de": "Finde das Nomadenlager unter dem Rangierbahnhof.",
+      "en": "Find the Nomad Camp under the Railyard",
+      "es": "Encuentra el campamento de nómadas bajo el patio de maniobras",
+      "fr": "Trouver le Campement nomade sous la Gare de triage",
+      "he": "מצא את מחנה הנוודים מתחת ל-Railyard",
+      "hr": "Pronađi Nomadski kamp ispod željezničkog dvorišta",
+      "it": "Trova l'accampamento dei Nomadi sotto lo scalo ferroviario",
+      "ja": "車両基地の下にある放浪民のキャンプを探す",
+      "ko-KR": "철도 차량기지 아래에서 유랑민 캠프 찾기",
+      "no": "Finn Nomad-leiren under Jernbanegården",
+      "pl": "Znajdź obóz koczowników pod stacją rozrządową",
+      "pt": "Encontra o Acampamento Nómada debaixo do Pátio Ferroviário",
+      "pt-BR": "Encontre o Acampamento Nômade sob o Pátio Ferroviário",
+      "ru": "Найдите лагерь кочевников под грузовой станцией.",
+      "sr": "Pronađi Nomadski kamp ispod Ranžirne stanice",
+      "tr": "Demiryolu Sahası'nın altındaki Göçebe Kampı'nı bul",
+      "uk": "Знайдіть табір кочівників під Залізничним депо.",
+      "zh-CN": "找到铁路站场下方的游民营地",
+      "zh-TW": "找到鐵路站下方的遊牧者營地"
+    },
+    {
+      "da": "Find den forurenede genstand i Nomadelejren",
+      "de": "Suche im Nomadenlager nach dem verunreinigten Gegenstand.",
+      "en": "Search for the polluted item in the Nomad camp",
+      "es": "Busca el objeto contaminado en el campamento de nómadas",
+      "fr": "Chercher l'objet contaminé dans le Campement nomade",
+      "he": "חפש את הפריט המזוהם במחנה הנוודים",
+      "hr": "Potraži zagađeni predmet u nomadskom kampu",
+      "it": "Cerca l'oggetto contaminato nell'accampamento dei Nomadi",
+      "ja": "放浪民のキャンプで汚染されたアイテムを探す",
+      "ko-KR": "유랑민 캠프에서 오염된 물건 찾기",
+      "no": "Søk etter den forurensede gjenstanden i nomadeleiren",
+      "pl": "Poszukaj zanieczyszczonego przedmiotu w obozie koczowników",
+      "pt": "Procure pelo item poluído no acampamento Nômade",
+      "pt-BR": "Procure pelo item poluído no Acampamento Nômade",
+      "ru": "Найдите загрязненный предмет в лагере кочевников.",
+      "sr": "Potraži zagađeni predmet u nomadskom kampu",
+      "tr": "Göçebe kampındaki kirlenmiş eşyayı bul",
+      "uk": "Знайдіть забруднений предмет у таборі Кочівників",
+      "zh-CN": "在游民营地中搜寻被污染的物品",
+      "zh-TW": "在遊牧者營地搜尋受污染的物品"
+    },
+    {
+      "da": "Bring det ækvatoriale solur til toppen af kirken i Gamle By",
+      "de": "Bring die Äquatorial-Sonnenuhr zur Turmspitze der Kirche in der Altstadt.",
+      "en": "Bring the Equatiorial Sundial to the top of the Church in Old Town",
+      "es": "Lleva el reloj de sol ecuatorial a lo alto de la iglesia del casco antiguo",
+      "fr": "Apporter le cadran solaire équatorial au sommet de l'église de la Vieille ville",
+      "he": "הבא את שעון השמש המשווני לראש הכנסייה בעיר העתיקה",
+      "hr": "Donesi Ekvatorijalni sunčani sat na vrh crkve u Starom gradu",
+      "it": "Porta la meridiana equatoriale in cima alla chiesa nella Città vecchia",
+      "ja": "赤道日時計を古い町の教会の屋上に運ぶ",
+      "ko-KR": "구시가지 교회 꼭대기로 적도식 해시계 가져가기",
+      "no": "Ta med det ekvatoriale soluret til toppen av kirken i Gamlebyen",
+      "pl": "Przynieś równikowy zegar słoneczny na szczyt kościoła w Starówce",
+      "pt": "Leve o Relógio de Sol Equatorial ao topo da Igreja na Cidade Velha",
+      "pt-BR": "Leve o Relógio Solar Equatorial ao topo da igreja na Cidade Antiga",
+      "ru": "Принесите экваториальные солнечные часы на крышу церкви в Старом городе.",
+      "sr": "Donesi Ekvatorijalni sunčani sat na vrh Crkve u Starom gradu",
+      "tr": "Ekvator Güneş Saati'ni Eski Şehir'deki Kilise'nin tepesine getir",
+      "uk": "Доставте Екваторіальний сонячний годинник на вершину церкви у Старому Місті",
+      "zh-CN": "将赤道日晷带到老城区教堂的顶端",
+      "zh-TW": "將赤道日晷帶到舊城區教堂頂端"
+    },
+    {
+      "da": "Aflever det ækvatoriale solur til den nomadiske udsending",
+      "de": "Bring die Äquatorial-Sonnenuhr zum nomadischen Gesandten.",
+      "en": "Deliver the Equatorial Sundial to the Nomadic Envoy",
+      "es": "Entrégale el reloj de sol ecuatorial al emisario nómada",
+      "fr": "Livrer le cadran solaire équatorial à l'émissaire nomade",
+      "he": "מסור את שעון השמש המשווני לשליח הנוודים",
+      "hr": "Dostavi Ekvatorijalni sunčani sat Nomadskom izaslaniku",
+      "it": "Consegna la meridiana equatoriale all'Inviato Nomade",
+      "ja": "放浪の使者に赤道日時計を届ける",
+      "ko-KR": "유랑 사절단에게 적도식 해시계 전달하기",
+      "no": "Lever det ekvatoriale soluret til den nomadiske utsendingen",
+      "pl": "Dostarcz wędrownemu emisariuszowi równikowy zegar słoneczny",
+      "pt": "Entregue o Relógio de Sol Equatorial ao Emissário Nômade",
+      "pt-BR": "Entregue o Relógio Solar Equatorial para o Emissário Nômade",
+      "ru": "Доставьте кочевнику экваториальные солнечные часы.",
+      "sr": "Dostavi Ekvatorijalni sunčani sat Nomadskom izaslaniku",
+      "tr": "Ekvator Güneş Saati'ni Göçebe Elçi'ye teslim et",
+      "uk": "Доставте Екваторіальний сонячний годинник Кочівницькому Посланнику",
+      "zh-CN": "将赤道日冕交付给游牧使团",
+      "zh-TW": "將赤道日晷送去給遊牧使者"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "sextant",
+      "quantity": 1
+    },
+    {
+      "itemId": "shield_recharger",
+      "quantity": 1
+    },
+    {
+      "itemId": "battered_paperback",
+      "quantity": 1
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["ss4"],
+  "nextQuestIds": ["taking_stock"],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "123690036",
+    "children": [
+      {
+        "id": "557471473",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "118306442",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "905604001",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "280537839",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "clean-hands"
+}

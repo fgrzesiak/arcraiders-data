@@ -1,0 +1,203 @@
+{
+  "id": "embedded_blast_engineering",
+  "name": {
+    "da": "Integreret Sprængstofteknik",
+    "de": "Eingebettete Sprengtechnik",
+    "en": "Embedded Blast Engineering",
+    "es": "Tecnología de explosión integrada",
+    "fr": "Explosifs intégrés",
+    "he": "הנדסת הדף משולבת",
+    "hr": "Ugrađeno inženjerstvo eksplozija",
+    "it": "Ingegneria degli esplosivi integrata",
+    "ja": "埋込型爆破工学",
+    "ko-KR": "내장형 폭발 공학",
+    "no": "Innebygd Eksplosivteknikk",
+    "pl": "Wbudowane mechanizmy wybuchowe",
+    "pt": "Engenharia de Explosão Incorporada",
+    "pt-BR": "Engenharia de Explosão Embutida",
+    "ru": "Интеграция взрывных компонентов",
+    "sr": "Ugrađeno eksplozivno inženjerstvo",
+    "tr": "Gömülü Patlama Mühendisliği",
+    "uk": "Вбудована вибухова інженерія",
+    "zh-CN": "内嵌爆炸工程学",
+    "zh-TW": "嵌入式爆炸設計"
+  },
+  "trader": "Research Station",
+  "description": {
+    "da": "Rustning klarer sig godt mod kugler. Små eksplosioner respekterer dog ikke arrangementet på samme måde. En kombination af de to kunne være værd at undersøge.",
+    "de": "Rüstung schützt gut vor Kugeln. Bei kleinen Explosionen sieht das schon anders aus. Es könnte sich lohnen, beides mal zu kombinieren.",
+    "en": "Armor does a good job against bullets. Small explosions are less respectful of the arrangement. Combining the two might be worth exploring.",
+    "es": "El blindaje ofrece una buena protección contra las balas. Las explosiones pequeñas no opinan lo mismo. Sería interesante investigar una forma de combinar ambas cosas.",
+    "fr": "Le blindage protège efficacement contre les balles. Les petites explosions respectent moins cette disposition. Combiner les deux pourrait mériter quelques recherches.",
+    "he": "שריון עושה עבודה טובה נגד קליעים. פיצוצים קטנים מכבדים פחות את הסידור הזה. שילוב השניים עשוי להיות שווה בחינה.",
+    "hr": "Oklop dobro štiti od metaka. Male eksplozije manje poštuju tu zaštitu. Kombinacija to dvoje možda je vrijedna istraživanja.",
+    "it": "L'armatura offre una buona protezione contro i proiettili. Le piccole esplosioni, invece, la rispettano meno. Potrebbe valere la pena esplorare la combinazione delle due.",
+    "ja": "装甲は銃弾に対しては効果的だが、ちょっとした爆発に対する耐性はあまりない。装甲と爆発の組み合わせは検討の価値があるかもしれない。",
+    "ko-KR": "장갑판은 탄환을 잘 막아냅니다. 하지만 작은 폭발에는 별 소용이 없죠. 장갑판에 폭발을 먹여보면 좋을 겁니다.",
+    "no": "Rustning beskytter godt mot kuler. Små eksplosjoner er mindre respektfulle overfor denne ordningen. Å kombinere de to kan være verdt å utforske.",
+    "pl": "Pancerz dobrze sprawdza się w starciu z pociskami, ale niekoniecznie z małymi wybuchami. Być może warto połączyć obydwie te kwestie.",
+    "pt": "A armadura é eficaz contra balas. Pequenas explosões, no entanto, ignoram essa lógica. Combinar os dois pode valer a pena explorar.",
+    "pt-BR": "Ter uma blindagem protege bem contra projéteis, mas não ajuda muito contra explosões menores. Pode valer a pena explorar uma combinação desses dois elementos.",
+    "ru": "Броня отлично защищает от пуль, а вот с небольшими взрывами справляется не очень. Возможно, стоит этим воспользоваться.",
+    "sr": "Oklop dobro štiti od metaka. Male eksplozije manje poštuju takav raspored. Kombinovanje ta dva bi moglo biti vredno istraživanja.",
+    "tr": "Zırh, mermiler karşısında iyi koruma sağlar ancak küçük patlamalar bu düzene pek ayak uydurmaz. Bu ikisini birleştirmek denemeye değebilir.",
+    "uk": "Броня добре захищає від куль. Маленькі вибухи менш поважні до такого ладу. Можливо, поєднання цих двох варто дослідити.",
+    "zh-CN": "护甲能有效抵挡子弹，但小型爆炸就没那么好防了。如何把两者结合起来，或许值得研究。",
+    "zh-TW": "護甲有很好的防彈效果。小型爆炸則比較不在乎這種效果。結合兩者或許值得深入探索。"
+  },
+  "objectives": [
+    {
+      "da": "Påfør 1000 skade mod Fireflies med Lette Slaggranater",
+      "de": "Füge Glühwürmchen 1000 Schaden mit leichten Aufschlaggranaten zu.",
+      "en": "Deal 1000 Damage to Fireflies using Light Impact Grenades",
+      "es": "Inflige 1000 de daño a luciérnagas con granadas de impacto ligeras",
+      "fr": "Infliger 1000 points de dégâts à des Lucioles à l'aide de grenades à choc léger",
+      "he": "גרמו 1000 נזק לגחליליות באמצעות רימוני הדף קלים",
+      "hr": "Nanesi 1000 štete Krijesnicama koristeći Lagane udarne granate",
+      "it": "Infliggi 1000 danni alle Lucciole usando granate a impatto leggero",
+      "ja": "ライトインパクト・グレネードを使ってファイアフライに1000ダメージを与える",
+      "ko-KR": "경량 충돌 수류탄으로 파이어플라이에 대미지 1000 주기",
+      "no": "Påfør 1000 skade mot Ildfluer ved å bruke Lette Slaggranater",
+      "pl": "Zadaj 1000 pkt obrażeń świetlikom za pomocą granatów małego rażenia",
+      "pt": "Cause 1000 de Dano a Vagalumes usando Granadas de Impacto Leve",
+      "pt-BR": "Cause 1000 de dano a Vaga-lumes usando Granadas de Impacto Leve",
+      "ru": "Нанесите 1000 ед. урона «Светлячкам» при помощи легких гранат.",
+      "sr": "Nanesi 1000 štete Sviciima koristeći lake udarne granate",
+      "tr": "Hafif Darbe Bombası ile Ateş Böceklerine 1000 Hasar ver",
+      "uk": "Завдайте 1000 шкоди Світлякам, використовуючи легкі ударні гранати",
+      "zh-CN": "使用轻型冲击手雷对“萤火虫”造成1000点伤害",
+      "zh-TW": "使用輕型衝擊手榴彈對螢火蟲造成1000點傷害"
+    },
+    {
+      "da": "Påfør 1000 skade mod Hornets med Lette Slaggranater",
+      "de": "Füge Hornissen 1000 Schaden mit leichten Aufschlaggranaten zu.",
+      "en": "Deal 1000 Damage to Hornets using Light Impact Grenades",
+      "es": "Inflige 1000 de daño a avispones con granadas de impacto ligeras",
+      "fr": "Infliger 1000 points de dégâts à des Frelons à l'aide de grenades à choc léger",
+      "he": "גרמו 1000 נזק לצרעות באמצעות רימוני הדף קלים",
+      "hr": "Nanesi 1000 štete Stradšenima koristeći Lagane udarne granate",
+      "it": "Infliggi 1000 danni ai Calabroni usando granate a impatto leggero",
+      "ja": "ライトインパクト・グレネードを使ってホーネットに1000ダメージを与える",
+      "ko-KR": "경량 충돌 수류탄으로 호넷에 대미지 1000 주기",
+      "no": "Påfør 1000 skade mot Hornetter ved å bruke Lette Slaggranater",
+      "pl": "Zadaj 1000 pkt obrażeń szerszeniom za pomocą granatów małego rażenia",
+      "pt": "Cause 1000 de Dano a Vespas usando Granadas de Impacto Leve",
+      "pt-BR": "Cause 1000 de dano a Marimbondos usando Granadas de Impacto Leve",
+      "ru": "Нанесите 1000 ед. урона «Шершням» при помощи легких гранат.",
+      "sr": "Nanesi 1000 štete Stršljenovima koristeći lake udarne granate",
+      "tr": "Hafif Darbe Bombası ile Yaban Arılarına 1000 Hasar ver",
+      "uk": "Завдайте 1000 шкоди Шершням, використовуючи легкі ударні гранати",
+      "zh-CN": "使用轻型冲击手雷对“马蜂”造成1000点伤害",
+      "zh-TW": "使用輕型衝擊手榴彈對虎頭蜂造成1000點傷害"
+    },
+    {
+      "da": "Påfør 1000 skade på Ildkugler med Lette Kollisionsgranater",
+      "de": "Füge Feuerbällen 1000 Schaden mit leichten Aufschlaggranaten zu.",
+      "en": "Deal 1000 Damage to Fireballs using Light Impact Grenades",
+      "es": "Inflige 1000 de daño a esferígneos con granadas de impacto ligeras",
+      "fr": "Infliger 1000 points de dégâts à des Bolides à l'aide de grenades à choc léger",
+      "he": "גרמו 1000 נזק ל-פיירבולס באמצעות רימוני אימפקט קלים",
+      "hr": "Nanijeti 1000 štete Vatrenim kuglama koristeći Lagane udarne granate",
+      "it": "Infliggi 1000 danni alle Sfere infuocate usando granate a impatto leggero",
+      "ja": "ライトインパクト・グレネードを使ってファイアボールに1000ダメージを与える",
+      "ko-KR": "경량 충돌 수류탄으로 파이어볼에 대미지 1000 주기",
+      "no": "Påfør 1000 skade på Ildkuler ved å bruke Lette slaggranater",
+      "pl": "Zadaj 1000 pkt obrażeń ogniomiotom za pomocą granatów małego rażenia",
+      "pt": "Cause 1000 de Dano a Bolas de Fogo usando Granadas de Impacto Leve",
+      "pt-BR": "Cause 1000 de dano a Bolas de Fogo usando Granadas de Impacto Leve",
+      "ru": "Нанесите 1000 ед. урона «Огнешарам» при помощи легких гранат.",
+      "sr": "Nanesi 1000 štete Vatrenim kuglama koristeći Lake udarne granate",
+      "tr": "Hafif Darbe Bombası ile Ateş Toplarına 1000 Hasar ver",
+      "uk": "Нанести 1000 шкоди Вогняним кулям, використовуючи легкі ударні гранати",
+      "zh-CN": "使用轻型冲击手雷对“火球”造成1000点伤害",
+      "zh-TW": "使用輕型衝擊手榴彈對火球造成1000點傷害"
+    },
+    {
+      "da": "Påfør 1000 skade på Opdagere med Lette Kollisionsgranater",
+      "de": "Füge Beobachtern 1000 Schaden mit leichten Aufschlaggranaten zu.",
+      "en": "Deal 1000 Damage to Surveyors using Light Impact Grenades",
+      "es": "Inflige 1000 de daño a vigilantes con granadas de impacto ligeras",
+      "fr": "Infliger 1000 points de dégâts à des Guetteurs à l'aide de grenades à choc léger",
+      "he": "גרמו 1000 נזק ל-סרוויירס באמצעות רימוני אימפקט קלים",
+      "hr": "Nanijeti 1000 štete Izviđačima koristeći Lagane udarne granate",
+      "it": "Infliggi 1000 danni ai Supervisori usando granate a impatto leggero",
+      "ja": "ライトインパクト・グレネードを使ってサーベイヤーに1000ダメージを与える",
+      "ko-KR": "경량 충돌 수류탄으로 서베이어에 대미지 1000 주기",
+      "no": "Påfør 1000 skade på Målere ved å bruke Lette slaggranater",
+      "pl": "Zadaj 1000 pkt obrażeń szperaczom za pomocą granatów małego rażenia",
+      "pt": "Cause 1000 de Dano a Vigilantes usando Granadas de Impacto Leve",
+      "pt-BR": "Cause 1000 de dano a Inspetores usando Granadas de Impacto Leve",
+      "ru": "Нанесите 1000 ед. урона «Наблюдателям» при помощи легких гранат.",
+      "sr": "Nanesi 1000 štete Izviđačima koristeći Lake udarne granate",
+      "tr": "Hafif Darbe Bombası ile Gözetleyicilere 1000 Hasar ver",
+      "uk": "Нанести 1000 шкоди Розвідникам, використовуючи легкі ударні гранати",
+      "zh-CN": "使用轻型冲击手雷对“勘测师”造成1000点伤害",
+      "zh-TW": "使用輕型衝擊手榴彈對勘查員造成1000點傷害"
+    }
+  ],
+  "rewardItemIds": [],
+  "xp": 0,
+  "previousQuestIds": [],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "kind": "research",
+  "objectiveTree": {
+    "id": "783888272",
+    "children": [
+      {
+        "id": "542516208",
+        "amount": 1000,
+        "index": 0,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "light_impact_grenade"
+          }
+        ],
+        "itemUse": "bring",
+        "type": "step"
+      },
+      {
+        "id": "550036869",
+        "amount": 1000,
+        "index": 1,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "light_impact_grenade"
+          }
+        ],
+        "itemUse": "bring",
+        "type": "step"
+      },
+      {
+        "id": "184554227",
+        "amount": 1000,
+        "index": 2,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "light_impact_grenade"
+          }
+        ],
+        "itemUse": "bring",
+        "type": "step"
+      },
+      {
+        "id": "296415957",
+        "amount": 1000,
+        "index": 3,
+        "items": [
+          {
+            "amount": 1,
+            "itemId": "light_impact_grenade"
+          }
+        ],
+        "itemUse": "bring",
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "embedded-blast-engineering"
+}
