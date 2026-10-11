@@ -1,0 +1,299 @@
+{
+  "id": "belly_of_the_beast",
+  "name": {
+    "da": "Udyrets Bug",
+    "de": "Im Bauch der Bestie",
+    "en": "Belly of the Beast",
+    "es": "En la boca del lobo",
+    "fr": "Au cœur de la bête",
+    "he": "בטן החיה",
+    "hr": "Trbuh Zvijeri",
+    "it": "Ventre della bestia",
+    "ja": "虎穴の中",
+    "ko-KR": "괴수의 뱃속",
+    "no": "Beistets mage",
+    "pl": "W brzuchu bestii",
+    "pt": "Barriga da Besta",
+    "pt-BR": "Barriga da Besta",
+    "ru": "В пасти чудища",
+    "sr": "Trbuh Zveri",
+    "tr": "Canavarın Karnı",
+    "uk": "Черево звіра",
+    "zh-CN": "兽腹深处",
+    "zh-TW": "野獸之腹"
+  },
+  "map": ["pendola_pass"],
+  "trader": "Shani",
+  "requiredItemIds": [
+    {
+      "itemId": "wires",
+      "quantity": 1
+    },
+    {
+      "itemId": "emperor_modulator",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "grappling_hook",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "ARC har sværmet om den faldne Emperor som fluer om en krukke honning. Jeg opfanger signaler langt borte fra Rust Belt, og de sætter ikke farten ned.",
+    "de": "Die ARC schwärmen um diesen Gefallenen Kaiser herum wie Fliegen um Honig. Ich empfange Signale von weit jenseits des Rostgürtels, und sie lassen nicht nach.",
+    "en": "ARC’s been swarming that fallen Emperor like flies on honey. I’m picking up signals from far beyond the Rust Belt, and they’re not slowing down.",
+    "es": "El emperador caído ha atraído ARC como moscas a la miel. He detectado señales que provienen de más allá del Cinturón de óxido, y no parece que vayan a frenar.",
+    "fr": "L'ARC a envahi cette épave d'Empereur comme des mouches attirées par du miel. Je capte des signaux provenant de bien au-delà de la Région de la rouille, et ils ne s'affaiblissent pas.",
+    "he": "ה-ARC הציפו את האמפרור שנפל כמו זבובים על דבש. אני קולט אותות מעמוק מעבר לחגורת החלודה, והם לא מאיטים.",
+    "hr": "ARC je opsjeo tog palog Emperora kao muhe na med. Pratim signale izdaleka, iza Rust Belta, i ne usporavaju.",
+    "it": "L'ARC sta sciamando attorno a quell'Imperatore caduto come mosche sul miele. Sto captando segnali da ben oltre la Cintura di ruggine, e non accennano a rallentare.",
+    "ja": "ARCがあの破壊されたエンペラーに群がってる。まるでハチミツに群がるハエみたいにね。こっちじゃラストベルトのはるか向こうからの信号まで拾ってるけど、連中は一向に減る気配がないよ。",
+    "ko-KR": "아크가 꿀에 꼬인 파리 떼처럼 쓰러진 엠퍼러에 몰려들고 있습니다. 러스트 벨트 저 너머에서 오는 신호까지 잡히는데, 줄어들 기미가 없네요.",
+    "no": "ARC har svermet den falne Keiseren som fluer på honning. Jeg fanger opp signaler langt bortenfor Rustbeltet, og de sakker ikke farten.",
+    "pl": "ARC lgną do tego upadłego cesarza jak ćmy do ognia. Odbieram sygnały spoza Rdzawego Pasa i maszyny w ogóle nie zwalniają.",
+    "pt": "A ARC tem enxameado aquele Imperador caído como moscas no mel. Estou captando sinais de muito além do Rust Belt, e eles não estão diminuindo.",
+    "pt-BR": "ARCs estão indo para cima do Imperador Caído feito um enxame de moscas. Já detectei sinais além do Cinturão da Ferrugem, e o número só aumenta.",
+    "ru": "ARC слетаются к павшему «Императору», как мухи на варенье. Сигналы идут далеко из-за пределов Медного пояса и даже не думают утихать.",
+    "sr": "ARC opseda tog palog Imperatora kao muve na med. Otkrivam signale iz dalekih krajeva iza Rust Belta, i ne usporavaju.",
+    "tr": "ARC'lar düşmüş İmparator'un başına çekirge sürüsü gibi üşüşüyor. Paslı Kemer'in ta ötesinden sinyal alıyorum. Tam gaz geliyorlar.",
+    "uk": "ARC роєм обліпили полеглого Імператора, як мухи мед. Я вловлюю сигнали далеко за межами Іржавого Пояса, і вони не сповільнюються.",
+    "zh-CN": "ARC围着那台坠毁的“帝王”机器，像苍蝇叮着蜂蜜一样。我检测到了远自锈带之外的信号，而且数量还在增加。",
+    "zh-TW": "ARC像蒼蠅撲向蜂蜜一樣，成群湧向那台倒地的皇帝。我偵測到來自鐵鏽帶以外很遠地方的訊號，而且它們還沒有減少的跡象。"
+  },
+  "objectives": [
+    {
+      "da": "Skaf en Emperor Gateway-ledning",
+      "de": "Erhalte einen Kaiser-Portalleiter.",
+      "en": "Acquire an Emperor Gateway Conduit",
+      "es": "Consigue un conducto del acceso del emperador",
+      "fr": "Récupérer un conduit de passerelle de l'Empereur",
+      "he": "השג אמפרור גייטוויי קונדואיט",
+      "hr": "Pribavi pristupni vod Emperora",
+      "it": "Ottieni un condotto del gateway dell'Imperatore",
+      "ja": "エンペラーゲートウェイコンジットを入手する",
+      "ko-KR": "엠퍼러 게이트웨이 도관 획득하기",
+      "no": "Skaff en Keiser-portalkonduktør",
+      "pl": "Pozyskaj łącznik bramy cesarza",
+      "pt": "Adquirir um Condutor de Portal do Imperador",
+      "pt-BR": "Adquira um Conduíte de Entrada de Imperador",
+      "ru": "Найдите переходник для шлюза «Императора».",
+      "sr": "Pribavi Imperator Gateway provodnik",
+      "tr": "Bir İmparator Ağ Geçidi Kanalı edin",
+      "uk": "Отримати провідник шлюзу Імператора",
+      "zh-CN": "获取“帝王”通道导管",
+      "zh-TW": "取得皇帝通道導管"
+    },
+    {
+      "da": "Gå ind i Emperoren",
+      "de": "Betritt den Kaiser.",
+      "en": "Enter the Emperor",
+      "es": "Entra en el emperador",
+      "fr": "Pénétrer dans l'Empereur",
+      "he": "היכנס לאמפרור",
+      "hr": "Uđi u Emperora",
+      "it": "Entra nell'Imperatore",
+      "ja": "エンペラーに入る",
+      "ko-KR": "엠퍼러 안으로 들어가기",
+      "no": "Gå inn i Keiseren",
+      "pl": "Wejdź do wnętrza cesarza",
+      "pt": "Entrar no Imperador",
+      "pt-BR": "Entre no Imperador",
+      "ru": "Проникните в «Императора».",
+      "sr": "Uđi u Imperatora",
+      "tr": "İmparator'a gir",
+      "uk": "Увійти в Імператора",
+      "zh-CN": "进入“帝王”机器",
+      "zh-TW": "進入皇帝內部"
+    },
+    {
+      "da": "Find ud af hvor kraften inde i Emperoren kommer fra",
+      "de": "Finde heraus, woher die Energie innerhalb des Kaisers kommt.",
+      "en": "Find where the power inside the Emperor comes from",
+      "es": "Encuentra la fuente de energía dentro del emperador",
+      "fr": "Trouver d'où provient l'énergie à l'intérieur de l'Empereur",
+      "he": "מצא מאין מגיע הכוח בתוך האמפרור",
+      "hr": "Pronađi izvor snage unutar Emperora",
+      "it": "Scopri da dove proviene l'alimentazione nell'Imperatore",
+      "ja": "エンペラー内部の電力源を探す",
+      "ko-KR": "엠퍼러 내부의 전력이 어디서 공급되는지 알아내기",
+      "no": "Finn ut hvor kraften inne i Keiseren kommer fra",
+      "pl": "Dowiedz się, skąd bierze się zasilanie we wnętrzu cesarza",
+      "pt": "Descobrir a origem da energia dentro do Imperador",
+      "pt-BR": "Descubra a fonte de alimentação do interior do Imperador",
+      "ru": "Выясните, откуда «Император» получает энергию.",
+      "sr": "Pronađi odakle dolazi energija unutar Imperatora",
+      "tr": "İmparator'un içindeki gücün nereden geldiğini bul",
+      "uk": "З'ясувати, звідки походить енергія всередині Імператора",
+      "zh-CN": "查明“帝王”机器内部的动力来源",
+      "zh-TW": "找到皇帝內部的動力來源"
+    },
+    {
+      "da": "Find ud af hvad der sker med de Harvester-nyttelaster, der går ind i Emperoren",
+      "de": "Finde heraus, was mit der Ernter-Fracht passiert, die in den Kaiser gelangt.",
+      "en": "Find out what happens to the Harvester Payloads that enter the Emperor",
+      "es": "Descubre qué les ocurre a los cargamentos de la cosechadora que entran en el emperador",
+      "fr": "Découvrir ce qu'il advient des cargaisons de Récolteur qui entrent dans l'Empereur",
+      "he": "גלה מה קורה להארבסטר פיילוודס שנכנסים לאמפרור",
+      "hr": "Saznaj što se događa s Harvesterovim teretima koji ulaze u Emperora",
+      "it": "Scopri cosa succede ai carichi del Raccoglitore che entrano nell'Imperatore",
+      "ja": "エンペラーに入ったハーベスター運輸ロケットの行方を探る",
+      "ko-KR": "엠퍼러 안으로 들어간 채취기 화물이 어떻게 되는지 알아내기",
+      "no": "Finn ut hva som skjer med Høster-lastene som går inn i Keiseren",
+      "pl": "Dowiedz się, co się dzieje z ładunkami kombajnu, które trafiają do wnętrza cesarza",
+      "pt": "Descobrir o que acontece com as Cargas de Coletor que entram no Imperador",
+      "pt-BR": "Descubra o que acontece com os Carregamentos de Ceifadora que entram no Imperador",
+      "ru": "Выясните, куда девается груз «Сборщика» после попадания в «Императора».",
+      "sr": "Saznaj šta se dešava sa Harvester tovarima koji ulaze u Imperatora",
+      "tr": "İmparator'a giren Biçerdöver Yüklerine ne olduğunu bul",
+      "uk": "Дізнатися, що відбувається з вантажами Комбайнера, які потрапляють в Імператора",
+      "zh-CN": "查明送入“帝王”机器的“收割者”空投去向",
+      "zh-TW": "查出進入皇帝內部的收割機物資會發生什麼事"
+    },
+    {
+      "da": "Find ud af hvor Harvester-nyttelasterne sendt til Emperoren opbevares",
+      "de": "Finde heraus, wo die Ernter-Fracht lagert, die zum Kaiser gesandt wurde.",
+      "en": "Find where the Harvester Payloads sent to the Emperor are stored",
+      "es": "Encuentra dónde se almacenan los cargamentos de la cosechadora enviados al emperador",
+      "fr": "Trouver où sont stockées les cargaisons de Récolteur envoyées à l'Empereur",
+      "he": "מצא היכן מאוחסנים ההארבסטר פיילוודס שנשלחו לאמפרור",
+      "hr": "Pronađi gdje su pohranjeni Harvesterovi tereti poslani Emperoru",
+      "it": "Scopri dove sono conservati i carichi del Raccoglitore inviati all'Imperatore",
+      "ja": "エンペラーに送られたハーベスター運輸ロケットの保管場所を探す",
+      "ko-KR": "엠퍼러로 보내진 채취기 화물이 보관되는 곳 찾기",
+      "no": "Finn ut hvor Høster-lastene som sendes til Keiseren blir lagret",
+      "pl": "Znajdź miejsce, w którym przechowywane są ładunki kombajnu wysłane do cesarza",
+      "pt": "Descobrir onde as Cargas de Coletor enviadas ao Imperador são armazenadas",
+      "pt-BR": "Descubra onde os Carregamentos de Ceifadora enviados ao Imperador são armazenados",
+      "ru": "Найдите, где хранятся грузы «Сборщиков», отправленные на «Императора».",
+      "sr": "Pronađi gde se čuvaju Harvester tovari poslati Imperatoru",
+      "tr": "İmparator'a gönderilen Biçerdöver Yüklerinin nerede saklandığını bul",
+      "uk": "Знайти, де зберігаються вантажі Комбайнера, відправлені Імператору",
+      "zh-CN": "查明送往“帝王”机器的“收割者”空投存放处",
+      "zh-TW": "找到送到皇帝所在處的收割機物資存放地點"
+    },
+    {
+      "da": "Gennemsøg 5 beholdere inde i Emperoren",
+      "de": "Durchsuche 5 Container im Kaiser.",
+      "en": "Search 5 containers inside the Emperor",
+      "es": "Registra 5 contenedores dentro del emperador",
+      "fr": "Fouiller 5 conteneurs à l'intérieur de l'Empereur",
+      "he": "חפש 5 מכלים בתוך האמפרור",
+      "hr": "Pretraži {count} kontejnera unutar Emperora",
+      "it": "Ispeziona 5 contenitori all'interno dell'Imperatore",
+      "ja": "エンペラー内部で容器を5個調べる",
+      "ko-KR": "엠퍼러 안에서 컨테이너 5개 수색하기",
+      "no": "Gjennomsøk 5 containere inne i Keiseren",
+      "pl": "Przeszukaj pojemniki (5) we wnętrzu cesarza",
+      "pt": "Inspecionar 5 contêineres dentro do Imperador",
+      "pt-BR": "Vasculhe 5 contentores dentro do Imperador",
+      "ru": "Осмотрите 5 5|plural(one=контейнер,few=контейнера,many=контейнеров,other=контейнера) внутри «Императора».",
+      "sr": "Pretraži 5 kontejnera unutar Imperatora",
+      "tr": "İmparator'un içinde 5 ganimet kaynağı ara",
+      "uk": "Обшукати 5 контейнерів всередині Імператора",
+      "zh-CN": "在“帝王”内部搜查5个容器",
+      "zh-TW": "在皇帝內部搜索5個容器"
+    },
+    {
+      "da": "Skaf et unikt stykke Emperor-bytte",
+      "de": "Erhalte ein einzigartiges Teil aus Kaiser-Beute.",
+      "en": "Obtain a unique piece of Emperor loot",
+      "es": "Consigue una pieza de botín única del emperador",
+      "fr": "Obtenir une pièce unique de butin d'Empereur",
+      "he": "השג פריט שלל ייחודי מהאמפרור",
+      "hr": "Pribavi jedinstveni dio Emperorovog plijena",
+      "it": "Ottieni un oggetto unico dal bottino dell'Imperatore",
+      "ja": "エンペラーの独自の戦利品を1個入手する",
+      "ko-KR": "엠퍼러 고유 전리품 획득하기",
+      "no": "Skaff et unikt Keiser-bytte",
+      "pl": "Zdobądź unikatowy element łupów cesarza",
+      "pt": "Obter uma peça única de saque do Imperador",
+      "pt-BR": "Obtenha uma peça única de saque do Imperador",
+      "ru": "Получите уникальную добычу с «Императора».",
+      "sr": "Pribavi jedinstveni deo Imperator plena",
+      "tr": "İmparator ganimetinin eşsiz bir parçasını elde et",
+      "uk": "Здобути унікальний предмет здобичі Імператора",
+      "zh-CN": "获得1件独特的“帝王”机器战利品",
+      "zh-TW": "獲得1件獨特的皇帝搜刮品"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "snap_hook",
+      "quantity": 1
+    },
+    {
+      "itemId": "pendola_pass_observatory_key",
+      "quantity": 1
+    },
+    {
+      "itemId": "shield_recharger",
+      "quantity": 3
+    },
+    {
+      "itemId": "sterilized_bandage",
+      "quantity": 3
+    }
+  ],
+  "xp": 10000,
+  "previousQuestIds": ["tracks_of_the_beast", "sizing_things_up"],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "542716166",
+    "children": [
+      {
+        "id": "852822709",
+        "index": 0,
+        "optional": true,
+        "type": "step"
+      },
+      {
+        "id": "841056378",
+        "children": [
+          {
+            "id": "219804499",
+            "index": 1,
+            "type": "step"
+          },
+          {
+            "id": "960749137",
+            "children": [
+              {
+                "id": "749593724",
+                "index": 2,
+                "type": "step"
+              },
+              {
+                "id": "345018053",
+                "index": 3,
+                "type": "step"
+              },
+              {
+                "id": "446898887",
+                "index": 4,
+                "type": "step"
+              },
+              {
+                "id": "918455371",
+                "amount": 5,
+                "index": 5,
+                "type": "step"
+              },
+              {
+                "id": "105787410",
+                "index": 6,
+                "type": "step"
+              }
+            ],
+            "type": "all"
+          }
+        ],
+        "type": "sequence"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "belly-of-the-beast"
+}

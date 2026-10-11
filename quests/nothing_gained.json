@@ -1,0 +1,205 @@
+{
+  "id": "nothing_gained",
+  "name": {
+    "da": "Intet opnået",
+    "de": "Nichts gewonnen",
+    "en": "Nothing Gained",
+    "es": "No hay recompensa",
+    "fr": "Qui ne tente rien",
+    "he": "ללא הישג",
+    "hr": "Ništa dobiveno",
+    "it": "Nulla di guadagnato",
+    "ja": "得るものなし",
+    "ko-KR": "아무것도 얻을 수 없다",
+    "no": "Intet oppnådd",
+    "pl": "Nie ma zabawy",
+    "pt": "Nada Ganho",
+    "pt-BR": "Não Petisca",
+    "ru": "В лес не ходить",
+    "sr": "Bez dobitka",
+    "tr": "Risk Olmadan",
+    "uk": "Нічого не здобуто",
+    "zh-CN": "不入虎穴",
+    "zh-TW": "焉得虎子"
+  },
+  "trader": "Apollo",
+  "requiredItemIds": [
+    {
+      "itemId": "queen_reactor",
+      "quantity": 1
+    },
+    {
+      "itemId": "matriarch_reactor",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "deadline",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "da": "Hørt du vil slås med de store piger. Tag dit bedste udstyr med, men tro ikke det alene er nok.",
+    "de": "Hab gehört, du willst dich mit den Großen anlegen. Bring deine beste Ausrüstung mit, aber glaub bloß nicht, dass das allein reicht.",
+    "en": "Heard you’re looking to pick a fight with the big girls. Bring your best gear, but don’t think that alone will cut it.",
+    "es": "Un pajarillo me ha dicho que quieres plantarles cara a las chicas mayores. Lleva tu mejor equipamiento, pero que ni se te ocurra ir en solitario.",
+    "fr": "J'ai entendu dire que vous comptiez vous attaquer aux grosses pointures. Prenez votre meilleur équipement, mais ne croyez pas que ça vous suffira.",
+    "he": "שמעתי שאתה מחפש להתעמת עם הגדולות. תביא את הציוד הכי טוב שלך, אבל אל תחשוב שזה לבדו יספיק.",
+    "hr": "Čuo sam da se želiš sukobiti s velikim curama. Donesi najbolju opremu, ali nemoj misliti da će ti to samo po sebi biti dovoljno.",
+    "it": "Ho sentito che stai cercando di affrontare le toste. Porta il tuo miglior equipaggiamento, ma non pensare che basti.",
+    "ja": "大物相手に一戦やるつもりだって？ 装備は一番いいものを持っていきな。でも、それだけでどうにかなると思わないことね。",
+    "ko-KR": "큰언니들이랑 한판 붙을 생각이라면서요? 최고급 장비를 챙겨 가요. 그것만으로는 부족할 테지만요.",
+    "no": "Hørte du vil utfordre de store jentene. Ta med det beste utstyret ditt, men ikke tro at det alene er nok.",
+    "pl": "Podobno chcesz stanąć do walki z dużymi dziewczynami. Weź swój najlepszy sprzęt – choć on sam raczej nie wystarczy.",
+    "pt": "Soube que quer arrumar briga com as grandonas. Traga seu melhor equipamento, mas não pense que só isso será suficiente.",
+    "pt-BR": "Soube que tá procurando briga com umas garotas da pesada. Traz seu melhor equipamento, mas não vai achando que só isso vai bastar.",
+    "ru": "Слышала, ты затеваешь драку с серьезными девчонками. Захвати всю лучшую экипировку, но не полагайся только на нее.",
+    "sr": "Čuo sam da želiš da se sukobiš sa velikima. Ponesi najbolju opremu, ali nemoj misliti da će ti samo to biti dovoljno.",
+    "tr": "Duyduğuma göre ablalarla kavga etmek istiyormuşsun. En iyi teçhizatını getir ama sadece teçhizat yeter sanma.",
+    "uk": "Чув, хочеш поборотися зі здоровенними. Бери найкраще спорядження, але не думай, що цього буде достатньо.",
+    "zh-CN": "听说你想找那些“大女主们”干一架。带上你最好的装备，但别以为光靠装备就够了。",
+    "zh-TW": "聽說你正在找機會和那些大傢伙一戰。帶上你最好的裝備，但別以為光那樣就能搞定。"
+  },
+  "objectives": [
+    {
+      "da": "Ødelæg en Matriarch",
+      "de": "Zerstöre eine Matriarchin. ",
+      "en": "Destroy a Matriarch ",
+      "es": "Destruye una matriarca ",
+      "fr": "Détruire une Matriarche ",
+      "he": "חסל מטריארך",
+      "hr": "Uništi Matrijarha",
+      "it": "Distruggi una Matriarca ",
+      "ja": "マトリアークを破壊する ",
+      "ko-KR": "마트리아크 파괴하기 ",
+      "no": "Ødelegg en Matriark",
+      "pl": "Zniszcz matriarchinię ",
+      "pt": "Destrua uma Matriarca ",
+      "pt-BR": "Destrua uma Matriarca ",
+      "ru": "Уничтожьте «Матриарха». ",
+      "sr": "Uništi Matriarch",
+      "tr": "Bir Maderşah yok et ",
+      "uk": "Знищити Matriarch",
+      "zh-CN": "摧毁1个“族母” ",
+      "zh-TW": "摧毀1台女族長 "
+    },
+    {
+      "da": "Ødelæg en Queen",
+      "de": "Zerstöre eine Königin.",
+      "en": "Destroy a Queen",
+      "es": "Destruye una reina",
+      "fr": "Détruire une Reine",
+      "he": "חסל מלכה",
+      "hr": "Uništi Kraljicu",
+      "it": "Distruggi una Regina",
+      "ja": "クイーンを破壊する",
+      "ko-KR": "퀸 파괴하기",
+      "no": "Ødelegg en Dronning",
+      "pl": "Zniszcz królową",
+      "pt": "Destrua uma Rainha",
+      "pt-BR": "Destrua uma Rainha",
+      "ru": "Уничтожьте «Королеву».",
+      "sr": "Uništi Queen",
+      "tr": "Bir Kraliçe yok et",
+      "uk": "Знищити Queen",
+      "zh-CN": "摧毁1个“女王”",
+      "zh-TW": "摧毀1台女王"
+    },
+    {
+      "da": "Aflever en Queen-reaktor til Apollo",
+      "de": "Bring einen Königin-Reaktor zu Apollo.",
+      "en": "Deliver a Queen Reactor to Apollo",
+      "es": "Entrégale un reactor de reina a Apollo",
+      "fr": "Livrer un réacteur de Reine à Apollo",
+      "he": "מסור ריאקטור מלכה לאפולו",
+      "hr": "Dostavi Reaktor Kraljice Apollu",
+      "it": "Consegna un reattore di Regina ad Apollo",
+      "ja": "アポロにクイーン・リアクターを届ける",
+      "ko-KR": "아폴로에게 퀸 원자로 전달하기",
+      "no": "Lever inn en Dronningreaktor til Apollo",
+      "pl": "Dostarcz Apollowi reaktor królowej",
+      "pt": "Entregue um Reator de Rainha para Apollo",
+      "pt-BR": "Entregue um Reator de Rainha para Apollo",
+      "ru": "Доставьте Аполлону реактор «Королевы».",
+      "sr": "Dostavi Queen reaktor Apollu",
+      "tr": "Apollo'ya bir Kraliçe Reaktörü teslim et",
+      "uk": "Доставити Реактор Queen Apollo",
+      "zh-CN": "将1个“女王”反应堆交付给阿波罗",
+      "zh-TW": "將一個女王反應爐送去給阿波羅"
+    },
+    {
+      "da": "Aflever en Matriarch-reaktor til Apollo",
+      "de": "Bring einen Matriarchin-Reaktor zu Apollo.",
+      "en": "Deliver a Matriarch Reactor to Apollo",
+      "es": "Entrégale un reactor de matriarca a Apollo",
+      "fr": "Livrer un réacteur de Matriarche à Apollo",
+      "he": "מסור ריאקטור מטריארך לאפולו",
+      "hr": "Dostavi Reaktor Matrijarha Apollu",
+      "it": "Consegna un reattore di Matriarca ad Apollo",
+      "ja": "アポロにマトリアーク・リアクターを届ける",
+      "ko-KR": "아폴로에게 마트리아크 원자로 전달하기",
+      "no": "Lever inn en Matriarkreaktor til Apollo",
+      "pl": "Dostarcz Apollowi reaktor matriarchini",
+      "pt": "Entregue um Reator de Matriarca para Apollo",
+      "pt-BR": "Entregue um Reator da Matriarca para Apollo",
+      "ru": "Доставьте Аполлону реактор «Матриарха».",
+      "sr": "Dostavi Matriarch reaktor Apollu",
+      "tr": "Apollo'ya bir Maderşah Reaktörü teslim et",
+      "uk": "Доставити Реактор Matriarch Apollo",
+      "zh-CN": "将1个“族母”反应堆交付给阿波罗",
+      "zh-TW": "將一個女族長反應爐送去給阿波羅"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "queen_reactor",
+      "quantity": 1
+    },
+    {
+      "itemId": "matriarch_reactor",
+      "quantity": 1
+    },
+    {
+      "itemId": "bettina_iii",
+      "quantity": 1
+    }
+  ],
+  "xp": 10000,
+  "previousQuestIds": ["nothing_ventured"],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "903841388",
+    "children": [
+      {
+        "id": "927773315",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "535632640",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "932972952",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "928226615",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "optionalRewards": [
+    {
+      "itemId": "bronze_statuette",
+      "quantity": 1
+    }
+  ],
+  "slug": "nothing-gained"
+}

@@ -27,28 +27,29 @@
   "requiredItemIds": [
     {
       "itemId": "dusty_film_reel",
-      "quantity": 1
+      "quantity": 1,
+      "questItem": true
     }
   ],
   "description": {
-    "da": "Jeg... jeg forstår det ikke. Den ene dag prøvede de at afværge Kollapset, og så pludselig... Ingenting.\r\n\r\nDet jordskælvssikrede boligprojekt blev lukket ned af en gruppe ved navn MANTIKOR. Tror du, at du kan finde ud af mere?",
+    "da": "Jeg… jeg forstår det ikke. Den ene dag forsøgte de at afværge Kollapset, og så, pludselig… Ingenting.\r\n\r\nDet jordskælvsikre boligprojekt blev lukket ned af en gruppe kaldet MANTIKOR. Tror du, du kan finde ud af mere?",
     "de": "Ich ... ich verstehe das nicht. An einem Tag haben sie noch versucht, den Zusammenbruch zu verhindern, und dann plötzlich ... nichts mehr.\r\n\r\nDieses erdbebensichere Wohnungsbauprojekt wurde von einer Gruppe namens MANTIKOR eingestellt. Könntest du vielleicht mehr darüber herausfinden?",
     "en": "I… I don’t get it. One day they were trying to stave off the Collapse, and then, suddenly… Nothing.\r\n\r\nThat earthquake-resistant housing project was shut down by a group named MANTIKOR. Think you could find out more?",
     "es": "No... No lo entiendo. Estaban intentando impedir el Colapso, pero de repente... Nada.\r\n\r\nEl proyecto de viviendas sismorresistentes lo canceló un grupo llamado MANTIKOR. ¿Te apetece husmear un poco?",
     "fr": "Je... je ne comprends pas. Un jour, ils essayaient de prévenir l'Effondrement, et le lendemain... plus rien.\r\n\r\nCe projet de logement résistant aux séismes a été fermé par un groupe nommé MANTIKOR. Tu pourrais en savoir plus  ?",
-    "he": "אני... אני לא מבין את זה. יום אחד הם ניסו למנוע את ה-Collapse, ואז, פתאום... כלום.\r\n\r\nפרויקט הדיור העמיד בפני רעידות אדמה נסגר על ידי קבוצה בשם MANTIKOR. אתה חושב שתוכל לגלות עוד פרטים?",
-    "hr": "Ja… Ja ne razumijem. Jednog dana su pokušavali spriječiti Kolaps, a onda, odjednom… Ništa.\r\n\r\nTaj stambeni projekt otporan na potrese zatvorila je skupina zvana MANTIKOR. Misliš li da možeš saznati više?",
+    "he": "אני… אני לא מבין את זה. יום אחד הם ניסו להדוף את הקריסה, ואז, פתאום… כלום.\r\n\r\nפרויקט המגורים העמיד בפני רעידות אדמה ההוא נסגר על ידי קבוצה בשם MANTIKOR. חושב שתוכל לברר על זה יותר?",
+    "hr": "Ja... Ne razumijem. Jednog dana su pokušavali spriječiti Kolaps, a onda, odjednom... Ništa.\r\n\r\nTaj stambeni projekt otporan na potrese zatvorila je grupa zvana MANTIKOR. Misliš li da možeš saznati više?",
     "it": "Non... Non capisco. Un giorno stavano cercando di evitare il Crollo e poi, all'improvviso... Niente.\r\n\r\nQuel progetto di edilizia antisismica è stato chiuso da un gruppo chiamato MANTIKOR. Pensi che potresti scoprire qualcosa di più?",
     "ja": "り… 理解できない。 大崩壊を食い止めようとしてたのに、突然… 全部なくなった。\r\n\r\nあの耐震住宅プロジェクトはMANTIKORという団体によって中止させられたんだ。もっと詳しく調べてくれない？",
     "ko-KR": "전… 이해가 안 돼요. 언제는 붕괴를 막겠다고 그 난리를 쳐 놓고 이렇게 갑자기… 다 없던 일이 되다뇨.\r\n\r\n내진 주택 프로젝트는 만티코어라는 집단이 중단시켰어요. 당신이 뭔가 더 알아봐 주실 수 있나요?",
-    "no": "Jeg... jeg skjønner det ikke. En dag prøvde de å avverge Kollapsen, og så, plutselig... Ingenting.\r\n\r\nDet jordskjelvsikre boligprosjektet ble stengt ned av en gruppe kalt MANTIKOR. Tror du at du kan finne ut mer?",
+    "no": "Jeg... jeg forstår det ikke. Den ene dagen prøvde de å avverge Kollapsen, og så, plutselig... Ingenting.\r\n\r\nDet jordskjelvsikre boligprosjektet ble stengt ned av en gruppe kalt MANTIKOR. Tror du at du kan finne ut mer?",
     "pl": "Ja… Nie rozumiem. Jednego dnia próbowali zapobiec upadkowi, a potem nagle… nic.\r\n\r\nPrace nad mieszkaniami odpornymi na trzęsienia ziemi zostały przerwane przez grupę o nazwie MANTIKOR. Możesz dowiedzieć się czegoś więcej?",
-    "pt": "Eu... Eu não entendo. Um dia eles estavam tentando evitar o Colapso, e então, de repente... Nada.\r\n\r\nAquele projeto habitacional antissísmico foi fechado por um grupo chamado MANTIKOR. Acha que consegue descobrir mais?",
+    "pt": "Eu… Eu não entendo. Um dia eles estavam tentando evitar o Colapso, e então, de repente… Nada.\r\n\r\nEsse projeto habitacional resistente a terremotos foi fechado por um grupo chamado MANTIKOR. Acha que consegue descobrir mais?",
     "pt-BR": "Eu... não entendo. Eles estavam tentando conter o Colapso e, de repente... pararam.\r\n\r\nAquele projeto habitacional resistente a terremoto foi encerrado por um grupo chamado MANTIKOR. Você consegue descobrir mais?",
     "ru": "Я ничего не понимаю. Они так долго старались остановить Катастрофу, а потом просто... всё бросили.\r\n\r\nГруппа «МАНТИКОРА» свернула проект по строительству устойчивых к землетрясениям зданий. Как думаешь, сможешь накопать больше информации?",
-    "sr": "Ja… ne shvatam. Jednog dana su pokušavali da spreče Kolaps, a onda, odjednom… Ništa.\r\n\r\nTaj stambeni projekat otporan na zemljotrese zatvorila je grupa po imenu MANTIKOR. Misliš li da možeš da saznaš više?",
+    "sr": "Ja... Ja ne razumem. Jednog dana su pokušavali da spreče Kolaps, a onda, odjednom... Ništa.\r\n\r\nTaj stambeni projekat otporan na zemljotrese je zatvorila grupa pod imenom MANTIKOR. Misliš da bi mogao da saznaš više?",
     "tr": "Anlamıyorum, bu nasıl iş? Önce Çöküş'ten kaçınmanın yolunu aramaya koyuluyorlar, sonra birden... hepsi çöpe gidiyor.\r\n\r\nO depreme dayanıklı konut projesi MANTIKOR adında bir grup tarafından sonlandırılmış. Ayrıntısını öğrenebilir misin?",
-    "uk": "Я… я цього не розумію. Одного дня вони намагалися відвернути Колапс, а потім раптом… Нічого.\r\n\r\nТой проєкт сейсмостійкого житла закрила група під назвою MANTIKOR. Зможеш дізнатися про це більше?",
+    "uk": "Я... я не розумію. Одного дня вони намагалися запобігти Колапсу, а потім, раптом... Нічого.\r\n\r\nТой проєкт сейсмостійкого житла був закритий групою під назвою MANTIKOR. Думаєш, зможеш дізнатися більше?",
     "zh-CN": "我……我不明白。前一天他们还在努力阻止“大崩溃”，然后，突然就……什么都没了。\r\n\r\n那个抗震住宅工程被一个叫螫蝎的组织叫停了。你能去查查更多线索吗？",
     "zh-TW": "我…我搞不懂。他們本來還想阻止大崩潰的，然後一夕之間…就沒了。\r\n\r\n有個叫「蠍獅」的團體中止了那個防震公營住宅建案。你覺得你能查出更多情報嗎？"
   },
@@ -61,16 +62,16 @@
       "es": "Encuentra las instalaciones subterráneas de MANTIKOR.",
       "fr": "Trouver les installations souterraines de MANTIKOR",
       "he": "מצא את המתקנים התת-קרקעיים של MANTIKOR",
-      "hr": "Pronađi podzemna postrojenja skupine MANTIKOR",
+      "hr": "Pronađi MANTIKOR-ova podzemna postrojenja",
       "it": "Trova le strutture sotterranee MANTIKOR",
-      "ja": "MANTIKORの地下施設を見つけた",
+      "ja": "MANTIKORの地下施設を見つける",
       "ko-KR": "만티코어의 지하 시설 찾기",
       "no": "Finn MANTIKORs underjordiske anlegg",
       "pl": "Znajdź podziemne obiekty MANTIKOR",
       "pt": "Encontre as instalações subterrâneas da MANTIKOR",
       "pt-BR": "Encontre as instalações da MANTIKOR",
       "ru": "Найдите подземные базы «МАНТИКОРЫ».",
-      "sr": "Pronađi podzemna postrojenja grupe MANTIKOR",
+      "sr": "Pronađi MANTIKOR-ova podzemna postrojenja",
       "tr": "MANTIKOR'un yer altı tesislerini bul",
       "uk": "Знайдіть підземні комплекси MANTIKOR",
       "zh-CN": "找到螫蝎的地下设施",
@@ -83,40 +84,40 @@
       "es": "Busca una forma de entrar en la sala cerrada del ala de seguridad.",
       "fr": "Trouver un moyen d'entrer dans la salle verrouillée de l'Aile de sécurité",
       "he": "מצא דרך להיכנס לחדר הנעול באגף האבטחה",
-      "hr": "Pronađi put u zaključanu sobu u sigurnosnom krilu",
+      "hr": "Pronađi put u zaključanu sobu u Sigurnosnom krilu",
       "it": "Trova il modo di entrare nella stanza chiusa nell'ala di sicurezza",
-      "ja": "セキュリティー棟の施錠された部屋に入る方法を見つけた",
+      "ja": "セキュリティー棟の施錠された部屋に入る方法を見つける",
       "ko-KR": "보안동의 잠긴 방으로 들어갈 방법 찾기",
       "no": "Finn en vei inn i det låste rommet i sikkerhetsfløyen",
       "pl": "Dostań się do zamkniętego pomieszczenia w skrzydle ochrony",
       "pt": "Encontre uma maneira de entrar na sala trancada na Ala de Segurança",
       "pt-BR": "Encontre uma forma de entrar na sala trancada da Ala de Segurança",
       "ru": "Найдите путь в запертую комнату в крыле службы безопасности.",
-      "sr": "Pronađi put do zaključane sobe u Sigurnosnom krilu",
+      "sr": "Pronađi način da uđeš u zaključanu sobu u Bezbednosnom krilu",
       "tr": "Güvenlik Kanadı'ndaki kilitli odaya girmenin yolunu bul",
-      "uk": "Знайдіть спосіб потрапити до замкненої кімнати у Крилі охорони",
+      "uk": "Знайдіть спосіб потрапити до замкненої кімнати в Крилі безпеки",
       "zh-CN": "设法进入安保区辅楼的上锁房间",
       "zh-TW": "想辦法進入安全部門上鎖的房間"
     },
     {
       "da": "Gennemsøg det låste rum for optegnelser om Project Heartwood",
-      "de": "Durchsuche den verschlossenen Raum nach Unterlagen zum Projekt Immergrün.",
+      "de": "Durchsuche den verschlossenen Raum nach Unterlagen zum Projekt Heartwood.",
       "en": "Search the locked room for any records on Project Heartwood",
       "es": "Busca en la sala cerrada cualquier registro sobre el proyecto Perenne.",
       "fr": "Fouiller la salle verrouillée à la recherche de tout document concernant le Projet Persistance",
       "he": "חפש בחדר הנעול רשומות כלשהן על Project Heartwood",
-      "hr": "Pretraži zaključanu sobu za zapisima o projektu Heartwood",
+      "hr": "Pretraži zaključanu sobu za bilo kakve zapise o Projektu Heartwood",
       "it": "Perlustra la stanza chiusa alla ricerca di documenti sul progetto Evergreen",
-      "ja": "施錠された部屋の中でプロジェクト・エバーグリーンの記録を探した",
-      "ko-KR": "잠긴 방에서 에버그린 프로젝트 관련 기록 수색하기",
-      "no": "Gjennomsøk det låste rommet etter opptegnelser om Project Heartwood",
+      "ja": "施錠された部屋の中でプロジェクト・ハートウッドの記録を探す",
+      "ko-KR": "잠긴 방에서 하트우드 프로젝트 관련 기록 수색하기",
+      "no": "Gjennomsøk det låste rommet for opptegnelser om Project Heartwood",
       "pl": "Poszukaj w zamkniętym pomieszczeniu śladów „Projektu Niezawodność”",
-      "pt": "Vasculhe a sala trancada em busca de registros sobre o Projeto Heartwood",
+      "pt": "Vasculhe a sala trancada em busca de quaisquer registros sobre o Projeto Heartwood",
       "pt-BR": "Procure na sala trancada por registros sobre o Projeto Perene",
       "ru": "Поищите в запертой комнате записи о проекте «Вечная зелень».",
-      "sr": "Pretraži zaključanu sobu za bilo kakve zapise o projektu Heartwood",
+      "sr": "Pretraži zaključanu sobu za bilo kakve zapise o Projektu Heartwood",
       "tr": "Kilitli odada Project Evergreen kayıtlarını ara",
-      "uk": "Ошукайте замкнену кімнату в пошуках записів про проєкт «Heartwood»",
+      "uk": "Обшукайте замкнену кімнату на наявність будь-яких записів про проєкт Heartwood",
       "zh-CN": "在上锁房间中搜寻关于“常青计划”的记录",
       "zh-TW": "搜索上鎖的房間，尋找是否有長青計畫的紀錄"
     },
@@ -126,10 +127,10 @@
       "en": "Find the Dusty Film Reel",
       "es": "Encuentra el carrete de película polvoriento.",
       "fr": "Trouver la bobine de film poussiéreuse",
-      "he": "מצא את גלגל הפילם המאובק",
-      "hr": "Pronađi prašnjavu filmsku vrpcu",
+      "he": "מצא את סליל הפילם המאובק",
+      "hr": "Pronađi Prašnjavi filmski kolut",
       "it": "Trova la bobina impolverata",
-      "ja": "埃をかぶった映画フィルムを見つけた",
+      "ja": "埃をかぶった映画フィルムを見つける",
       "ko-KR": "먼지 쌓인 필름 릴 찾기",
       "no": "Finn den støvete filmrullen",
       "pl": "Znajdź zakurzoną taśmę filmową",
@@ -148,10 +149,10 @@
       "en": "Deliver the Dusty Film Reel to Shani",
       "es": "Entrégale el carrete de película polvoriento a Shani.",
       "fr": "Donner la bobine de film poussiéreuse à Shani",
-      "he": "מסור את גלגל הפילם המאובק ל-Shani",
-      "hr": "Dostavi prašnjavu filmsku vrpcu Shani",
+      "he": "מסור את סליל הפילם המאובק ל-Shani",
+      "hr": "Dostavi Prašnjavi filmski kolut Shani",
       "it": "Porta la bobina impolverata a Shani",
-      "ja": "埃をかぶった映画フィルムをシャニに届けた",
+      "ja": "埃をかぶった映画フィルムをシャニに届ける",
       "ko-KR": "샤니에게 먼지 쌓인 필름 릴 전달하기",
       "no": "Lever den støvete filmrullen til Shani",
       "pl": "Dostarcz Shani zakurzoną taśmę filmową",
@@ -160,7 +161,7 @@
       "ru": "Доставьте Шани пыльную кинопленку.",
       "sr": "Odnesi prašnjavu filmsku traku Shani",
       "tr": "Tozlu Film Makarası'nı Shani'ye teslim et",
-      "uk": "Доставте запилену кіноплівку до Shani",
+      "uk": "Віднесіть запилену кіноплівку Shani",
       "zh-CN": "将布满灰尘的电影胶卷交给萨尼",
       "zh-TW": "把布滿灰塵的底片膠卷交給珊妮"
     }
@@ -171,8 +172,42 @@
       "quantity": 2000
     }
   ],
-  "xp": 0,
+  "xp": 8000,
   "previousQuestIds": ["groundbreaking"],
   "nextQuestIds": ["a_rising_tide", "fragmented_logs"],
-  "updatedAt": "03/31/2026"
+  "videoUrl": "https://youtu.be/GASc-unXXb4",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "657552984",
+    "children": [
+      {
+        "id": "384682950",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "694653338",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "595703757",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "728121333",
+        "index": 3,
+        "type": "step"
+      },
+      {
+        "id": "454543824",
+        "index": 4,
+        "type": "step"
+      }
+    ],
+    "oneRaid": true,
+    "type": "sequence"
+  },
+  "slug": "a-dead-end"
 }

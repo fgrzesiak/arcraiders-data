@@ -1,0 +1,331 @@
+{
+  "id": "when_everything_falls",
+  "name": {
+    "da": "Når alt falder",
+    "de": "Wenn alles fällt",
+    "en": "When Everything Falls",
+    "es": "Cuando todo se desmorona",
+    "fr": "Quand tout s'effondre",
+    "he": "כשהכול קורס",
+    "hr": "Kad sve padne",
+    "it": "Quando tutto crolla",
+    "ja": "すべてが崩れるとき",
+    "ko-KR": "모든 것이 무너질 때",
+    "no": "Når alt faller",
+    "pl": "Gdy wszystko się wali",
+    "pt": "Quando Tudo Cai",
+    "pt-BR": "Quando Tudo Cai",
+    "ru": "Когда всё рушится",
+    "sr": "Kada sve padne",
+    "tr": "Her Şeyin Çöküşü",
+    "uk": "Коли все падає",
+    "zh-CN": "万物崩塌之时",
+    "zh-TW": "一切殞落之時"
+  },
+  "map": ["the_spaceport"],
+  "trader": "Shani",
+  "grantedItemIds": [
+    {
+      "itemId": "basic_camera",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Den kasse, du fandt i MANTIKOR-faciliteten, indeholdt specialiserede radioer, krypteret med geotags.\r\n\r\nOg koordinaterne… De starter lige der, hvor mytteristerne gemte deres våben.",
+    "de": "Die Kiste, die du in der MANTIKOR-Anlage gefunden hast, enthielt Spezialfunkgeräte, die mit Geotags verschlüsselt waren. Und die Koordinaten … Die fangen genau dort an, wo die Meuterer ihre Waffen versteckt haben.",
+    "en": "The box you found in the MANTIKOR facility contained specialized radios, encrypted using geotags.\r\n\r\nAnd the coordinates… They start right where the mutineers stashed their weapons.",
+    "es": "La caja que encontraste en las instalaciones de MANTIKOR contenía radios especializadas encriptadas con geoetiquetas, y las coordenadas... empiezan justo donde los rebeldes guardaron sus armas.",
+    "fr": "La boîte que vous avez trouvée dans l'installation MANTIKOR contenait des radios spécialisées, chiffrées à l'aide de balises de géolocalisation. Et les coordonnées... Elles commencent précisément là où les mutins ont caché leurs armes.",
+    "he": "הקופסה שמצאתם במתקן MANTIKOR הכילה מכשירי רדיו מיוחדים, מוצפנים באמצעות תגי מיקום.\r\n\r\nוהקואורדינטות... הן מתחילות בדיוק במקום שבו המורדים החביאו את נשקם.",
+    "hr": "Kutija koju ste pronašli u postrojenju MANTIKOR sadržavala je specijalizirane radio uređaje, šifrirane pomoću geooznaka.\r\n\r\nA koordinate… Počinju točno tamo gdje su pobunjenici sakrili svoje oružje.",
+    "it": "La scatola che hai trovato nella struttura MANTIKOR conteneva radio specializzate, crittografate tramite geotag. E le coordinate... Partono proprio dal punto in cui gli ammutinati hanno nascosto le armi.",
+    "ja": "君がMANTIKORの施設で見つけた箱には、位置情報を使って暗号化された特殊無線機が入ってた。で、その座標なんだけど… 反乱者たちが武器を隠した場所から始まってる。",
+    "ko-KR": "만티코어 시설에서 찾은 상자에는 위치 태그로 암호화된 특수 무전기가 들어 있었어요. 그리고 좌표가... 반란군이 무기를 숨긴 바로 그곳에서 시작하네요.",
+    "no": "Esken du fant i MANTIKOR-anlegget inneholdt spesialiserte radioer, kryptert med geotags.\r\n\r\nOg koordinatene… De starter akkurat der mytteristene gjemte våpnene sine.",
+    "pl": "W skrzyni, którą udało ci się znaleźć w placówce MANTIKOR, znajdowały się specjalistyczne radia szyfrowane geotagami. A te współrzędne… Wskazują miejsce, w którym buntownicy ukryli swoją broń.",
+    "pt": "A caixa que você encontrou na instalação MANTIKOR continha rádios especializados, criptografados com geotags.\r\n\r\nE as coordenadas… Elas começam exatamente onde os amotinados esconderam suas armas.",
+    "pt-BR": "A caixa que achou na instalação da MANTIKOR tinha rádios especializados, criptografados com geolocalização. E as coordenadas... Começam justo onde os amotinados estocaram suas armas.",
+    "ru": "В коробке, которую тебе удалось вынести из здания «МАНТИКОРЫ», лежали специальные радиопередатчики. В них используется шифрование при помощи геометок. Первые координаты — место, где мятежники прятали свое оружие.",
+    "sr": "Kutija koju si pronašao u objektu MANTIKOR sadržala je specijalizovane radio-stanice, šifrovane pomoću geo-oznaka.\r\n\r\nA koordinate… Počinju tačno tamo gde su pobunjenici sakrili svoje oružje.",
+    "tr": "MANTIKOR tesisinde bulduğun kutudan konum etiketi kullanılarak şifrelenmiş özel radyolar çıktı. Koordinatlar da… İsyancıların tam silahlarını sakladıkları yerden başlıyor.",
+    "uk": "Коробка, яку ти знайшов на об'єкті MANTIKOR, містила спеціалізовані радіоприймачі, зашифровані за допомогою геоміток.\r\n\r\nА координати… Вони починаються саме там, де заколотники сховали свою зброю.",
+    "zh-CN": "你在螫蝎设施里找到的箱子，装有专用无线电，用地理标记加密过。而坐标……正好指向叛乱者藏匿武器的地方。",
+    "zh-TW": "你在蠍獅設施找到的箱子裡裝著專用無線電，內容以地理標籤加密。而座標…就開始於反叛者儲藏武器的地方。"
+  },
+  "objectives": [
+    {
+      "da": "Tag til Vandtårnene",
+      "de": "Gehe zu den Wassertürmen.",
+      "en": "Go to the Water Towers",
+      "es": "Ve a las torres de agua",
+      "fr": "Se rendre aux Châteaux d'eau",
+      "he": "לכו אל מגדלי המים",
+      "hr": "Idite do Vodenih tornjeva",
+      "it": "Vai alle torri idriche",
+      "ja": "給水塔へ行く",
+      "ko-KR": "급수탑으로 이동하기",
+      "no": "Dra til vanntårnene",
+      "pl": "Udaj się do wież ciśnień",
+      "pt": "Vá para as Torres de Água",
+      "pt-BR": "Vá para as Torres de Água",
+      "ru": "Идите к водонапорным башням.",
+      "sr": "Idi do vodenih tornjeva",
+      "tr": "Su Kulelerine git",
+      "uk": "Відправитися до Водонапірних веж",
+      "zh-CN": "前往水塔",
+      "zh-TW": "前往水塔"
+    },
+    {
+      "da": "Fotografer en vagtboks",
+      "de": "Fotografiere ein Sicherheitshäuschen.",
+      "en": "Photograph a Security Booth",
+      "es": "Fotografía una caseta de seguridad",
+      "fr": "Photographier un Poste de sécurité",
+      "he": "צלמו עמדת שמירה",
+      "hr": "Fotografirajte sigurnosnu kabinu",
+      "it": "Fotografa una cabina di sicurezza",
+      "ja": "セキュリティ・ブースを撮影する",
+      "ko-KR": "경비 초소 촬영하기",
+      "no": "Fotografer en sikkerhetsbu",
+      "pl": "Zrób zdjęcie budki ochrony",
+      "pt": "Fotografe uma Cabine de Segurança",
+      "pt-BR": "Fotografe uma Cabine de Segurança",
+      "ru": "Сфотографируйте будку охраны.",
+      "sr": "Slikaj sigurnosnu kabinu",
+      "tr": "Bir Güvenlik Kulübesi'nin fotoğrafını çek",
+      "uk": "Сфотографувати будку охорони",
+      "zh-CN": "拍摄一座安保岗亭",
+      "zh-TW": "拍攝一個警衛室"
+    },
+    {
+      "da": "Fotografer en forstærket bus",
+      "de": "Fotografiere einen verstärkten Bus.",
+      "en": "Photograph a reinforced bus",
+      "es": "Fotografía un autobús reforzado",
+      "fr": "Photographier un bus renforcé",
+      "he": "צלמו אוטובוס מחוזק",
+      "hr": "Fotografirajte ojačani autobus",
+      "it": "Fotografa un bus rinforzato",
+      "ja": "強化バスを撮影する",
+      "ko-KR": "강화 버스 촬영하기",
+      "no": "Fotografer en forsterket buss",
+      "pl": "Zrób zdjęcie wzmocnionego autobusu",
+      "pt": "Fotografe um ônibus reforçado",
+      "pt-BR": "Fotografe um ônibus reforçado",
+      "ru": "Сфотографируйте армированный автобус.",
+      "sr": "Slikaj ojačani autobus",
+      "tr": "Güçlendirilmiş bir otobüsün fotoğrafını çek",
+      "uk": "Сфотографувати посилений автобус",
+      "zh-CN": "拍摄一辆加固大巴",
+      "zh-TW": "拍攝一台強化巴士"
+    },
+    {
+      "da": "Fotografer bruddet i murene",
+      "de": "Fotografiere die Mauerlücke.",
+      "en": "Photograph the breach in the walls",
+      "es": "Fotografía la brecha en los muros",
+      "fr": "Photographier la brèche dans les murs",
+      "he": "צלמו את הפרצה בחומות",
+      "hr": "Fotografirajte proboj u zidovima",
+      "it": "Fotografa la breccia nelle mura",
+      "ja": "壁の破損箇所を撮影する",
+      "ko-KR": "장벽의 파손 부위 촬영하기",
+      "no": "Fotografer bruddet i veggene",
+      "pl": "Zrób zdjęcie wyłomu w murach",
+      "pt": "Fotografe a brecha nas muralhas",
+      "pt-BR": "Fotografe o rombo nas paredes",
+      "ru": "Сфотографируйте пролом в стенах.",
+      "sr": "Slikaj proboj u zidovima",
+      "tr": "Duvarlardaki gediğin fotoğrafını çek",
+      "uk": "Сфотографувати пролом у стінах",
+      "zh-CN": "拍摄墙体破口",
+      "zh-TW": "拍攝牆上的缺口"
+    },
+    {
+      "da": " Fotografer sikkerhedsrummet i Ankomstbygningen",
+      "de": " Fotografiere den Sicherheitsraum im Ankunftsgebäude.",
+      "en": " Photograph the Arrival Building security room",
+      "es": " Fotografía la sala de seguridad del edificio de llegadas",
+      "fr": " Photographier la salle de sécurité du Bâtiment d'arrivée",
+      "he": " צלמו את חדר האבטחה של בניין ההגעה",
+      "hr": " Fotografirajte sigurnosnu sobu Zgrade za dolaske",
+      "it": " Fotografa la stanza di sicurezza dell'Edificio arrivi",
+      "ja": " 到着棟の警備室を撮影する",
+      "ko-KR": " 도착동의 보안실 촬영하기",
+      "no": " Fotografer sikkerhetsrommet i Ankomstbygningen",
+      "pl": " Zrób zdjęcie pomieszczenia ochrony w budynku przylotów",
+      "pt": " Fotografe a sala de segurança do Edifício de Chegadas",
+      "pt-BR": " Fotografe a sala de segurança do Prédio de Desembarque",
+      "ru": " Сфотографируйте комнату охраны в зоне прилета.",
+      "sr": " Slikaj sigurnosnu sobu Zgrade dolazaka",
+      "tr": " Geliş Binası güvenlik odasının fotoğrafını çek",
+      "uk": " Сфотографувати кімнату охорони Будівлі Прибуття",
+      "zh-CN": " 拍摄到达楼安保室",
+      "zh-TW": " 拍攝入境大樓保全部"
+    },
+    {
+      "da": "Fotografer Port A på affyringstårnene",
+      "de": "Fotografiere Hafen A der Starttürme.",
+      "en": "Photograph Port A of the Launch Towers",
+      "es": "Fotografía el puerto A de las torres de lanzamiento",
+      "fr": "Photographier le Quai A des Tours de lancement",
+      "he": "צלמו את שער A של מגדלי השיגור",
+      "hr": "Fotografirajte Luku A Lansirnih tornjeva",
+      "it": "Fotografa la porta A delle torri di lancio",
+      "ja": "発射塔のポートAを撮影する",
+      "ko-KR": "발사탑 A 포트 촬영하기",
+      "no": "Fotografer Port A av Oppskytningstårnene",
+      "pl": "Zrób zdjęcie portu A wież startowych",
+      "pt": "Fotografe o Porto A das Torres de Lançamento",
+      "pt-BR": "Fotografe a Porta A das Torres de Lançamento",
+      "ru": "Сфотографируйте порт А пусковых башен.",
+      "sr": "Slikaj Port A lansirnih tornjeva",
+      "tr": "Fırlatma Kulelerinin A Limanı'nın fotoğrafını çek",
+      "uk": "Сфотографувати Порт А Пускових веж",
+      "zh-CN": "拍摄发射塔A端口",
+      "zh-TW": "拍攝發射塔的艙口A"
+    },
+    {
+      "da": " Fotografer kontrolrummet i affyringstårnene",
+      "de": " Fotografiere den Kontrollraum der Starttürme.",
+      "en": " Photograph the Launch Towers control room",
+      "es": " Fotografía la sala de control de las torres de lanzamiento",
+      "fr": " Photographier la salle de contrôle des Tours de lancement",
+      "he": " צלמו את חדר הבקרה של מגדלי השיגור",
+      "hr": " Fotografirajte kontrolnu sobu Lansirnih tornjeva",
+      "it": " Fotografalla sala di controllo delle Torri di lancio",
+      "ja": " 発射塔の管制室を撮影する",
+      "ko-KR": " 발사탑의 제어실 촬영하기",
+      "no": " Fotografer kontrollrommet i Oppskytningstårnene",
+      "pl": " Zrób zdjęcie sterowni wież kontrolnych",
+      "pt": " Fotografe a sala de controle das Torres de Lançamento",
+      "pt-BR": " Fotografe a sala de controle das Torres de Lançamento",
+      "ru": " Сфотографируйте диспетчерскую пусковой башни.",
+      "sr": " Slikaj kontrolnu sobu lansirnih tornjeva",
+      "tr": " Fırlatma Kuleleri kontrol odasının fotoğrafını çek",
+      "uk": " Сфотографувати кімнату керування Пускових веж",
+      "zh-CN": " 拍摄发射塔控制室",
+      "zh-TW": " 拍攝發射塔控制室"
+    },
+    {
+      "da": "Fotografer affyringsplatformen",
+      "de": "Fotografiere die Startplattform.",
+      "en": "Photograph the launch platform",
+      "es": "Fotografía la plataforma de lanzamiento",
+      "fr": "Photographier la plateforme de lancement",
+      "he": "צלמו את פלטפורמת השיגור",
+      "hr": "Fotografirajte lansirnu platformu",
+      "it": "Fotografa la piattaforma di lancio",
+      "ja": "発射プラットホームを撮影する",
+      "ko-KR": "발사대 촬영하기",
+      "no": "Fotografer oppskytningsplattformen",
+      "pl": "Zrób zdjęcie platformie startowej",
+      "pt": "Fotografe a plataforma de lançamento",
+      "pt-BR": "Fotografe a plataforma de lançamento",
+      "ru": "Сфотографируйте пусковую платформу.",
+      "sr": "Slikaj lansirnu platformu",
+      "tr": "Fırlatma platformunun fotoğrafını çek",
+      "uk": "Сфотографувати пускову платформу",
+      "zh-CN": "拍摄发射平台",
+      "zh-TW": "拍攝發射平台"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "stiletto_i",
+      "quantity": 1
+    },
+    {
+      "itemId": "light_ammo",
+      "quantity": 100
+    },
+    {
+      "itemId": "adrenaline_shot",
+      "quantity": 3
+    },
+    {
+      "itemId": "silencer_i",
+      "quantity": 1
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["empathetic_prototypes"],
+  "nextQuestIds": [],
+  "videoUrl": "https://youtu.be/Z1frqDBks38",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "426480138",
+    "children": [
+      {
+        "id": "213135053",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "315791387",
+        "children": [
+          {
+            "id": "192349032",
+            "index": 1,
+            "type": "step"
+          },
+          {
+            "id": "274346698",
+            "index": 2,
+            "type": "step"
+          },
+          {
+            "id": "343279834",
+            "index": 3,
+            "type": "step"
+          },
+          {
+            "id": "734178439",
+            "index": 4,
+            "type": "step"
+          },
+          {
+            "id": "388747632",
+            "index": 5,
+            "type": "step"
+          },
+          {
+            "id": "801061272",
+            "index": 6,
+            "type": "step"
+          },
+          {
+            "id": "889845294",
+            "index": 7,
+            "type": "step"
+          }
+        ],
+        "label": {
+          "da": "Genspor stormløbet på Spaceport",
+          "de": "Verfolge den Sturmangriff auf den Raumhafen zurück.",
+          "en": "Retrace the storming of the Spaceport",
+          "es": "Reconstruye el asalto al Puerto espacial",
+          "fr": "Retracer l'assaut du Port spatial",
+          "he": "שחזרו את ההסתערות על ה\"Spaceport\"",
+          "hr": "Rekonstruirajte napad na Spaceport",
+          "it": "Ripercorri l'assalto allo Spazioporto",
+          "ja": "宇宙港への襲撃の経緯をたどる",
+          "ko-KR": "우주 기지 습격 당시의 발자취 되짚기",
+          "no": "Spor stormingen av Spaceport",
+          "pl": "Odtwórz przebieg wydarzeń, które miały miejsce podczas szturmu na port kosmiczny",
+          "pt": "Rastreie a invasão do Espaçoporto",
+          "pt-BR": "Retrace o ataque ao Espaçoporto",
+          "ru": "Восстановите события штурма космопорта.",
+          "sr": "Rekonstruiši napad na Spaceport",
+          "tr": "Uzaylimanı baskınının izini sür",
+          "uk": "Відтворити штурм Космопорту",
+          "zh-CN": "回溯太空港突袭战的经过",
+          "zh-TW": "回溯攻破太空港的路線"
+        },
+        "type": "sequence"
+      }
+    ],
+    "type": "sequence"
+  },
+  "slug": "when-everything-falls"
+}

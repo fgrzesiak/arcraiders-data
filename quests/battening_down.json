@@ -13,7 +13,7 @@
     "ko-KR": "철저한 대비",
     "no": "Skalker lukene",
     "pl": "Przygotowując się na najgorsze",
-    "pt": "Reforçando Tudo",
+    "pt": "Preparando para a Tempestade",
     "pt-BR": "Reforçando Tudo",
     "ru": "Меры предосторожности",
     "sr": "Priprema za oluju",
@@ -22,7 +22,7 @@
     "zh-CN": "加固防御",
     "zh-TW": "嚴陣以待"
   },
-  "map": ["riven_tides"],
+  "map": ["riven_tide"],
   "trader": "Apollo",
   "otherRequirements": ["20x Raids"],
   "description": {
@@ -38,7 +38,7 @@
     "ko-KR": "갈라진 물결의 방파제가 비바람을 막아주기를 바랐지만, 허리케인이 자비 없이 몰아친 모양입니다.",
     "no": "Vi hadde håpet at sjømurene ved Riven Tides ville gi oss litt beskyttelse mot elementene, men det ser ut til at orkanene ikke var nådige med dette stedet heller.",
     "pl": "Mieliśmy nadzieję, że falochrony na Rozdartym Wybrzeżu ochronią nas przed żywiołami, ale, jak widać, huragany nie oszczędziły też tego miejsca.",
-    "pt": "A gente tinha esperança de que os quebra-mares em Marés Partidas dessem alguma proteção contra intempéries, mas parece que os furacões castigaram o lugar.",
+    "pt": "Esperávamos que os quebra-mares em Riven Tides nos oferecessem alguma proteção contra os elementos, mas parece que os furacões também não foram gentis com este lugar.",
     "pt-BR": "A gente tinha esperança de que os quebra-mares em Marés Partidas dessem alguma proteção contra intempéries, mas parece que os furacões castigaram o lugar.",
     "ru": "Мы надеялись, что волнорезы в Бурных потоках защитят нас от стихий, но ураганы это место не пожалели.",
     "sr": "Nadali smo se da će nam obalski bedemi u lokaciji Riven Tides pružiti neku zaštitu od vremenskih neprilika, ali izgleda da uragani ni prema ovom mestu nisu bili blagonakloni.",
@@ -61,7 +61,7 @@
       "ko-KR": "방파제에 생기고 있는 균열 촬영하기",
       "no": "Fotografer sprekkene som danner seg i sjømuren",
       "pl": "Zrób zdjęcie pęknięciom powstającym na falochronie",
-      "pt": "Fotografe as rachaduras que estão se formando no quebra-mar",
+      "pt": "Fotografe as rachaduras se formando no quebra-mar",
       "pt-BR": "Fotografe as rachaduras que estão se formando no quebra-mar",
       "ru": "Сфотографируйте трещины на волнорезе.",
       "sr": "Fotografiši pukotine koje se stvaraju na obalskom bedemu",
@@ -83,7 +83,7 @@
       "ko-KR": "호텔 해변 근처 해안선 샘플 채취하기",
       "no": "Ta prøver av strandlinjen nær hotellstranden",
       "pl": "Pobierz próbki na linii brzegowej w pobliżu hotelowej plaży",
-      "pt": "Colete uma amostra na faixa costeira perto da praia do hotel",
+      "pt": "Colete amostras da costa perto da praia do hotel",
       "pt-BR": "Colete uma amostra na faixa costeira perto da praia do hotel",
       "ru": "Возьмите образцы на побережье отельного пляжа.",
       "sr": "Uzmi uzorak sa obale blizu hotelske plaže",
@@ -96,22 +96,22 @@
       "da": "Reparer det lækkende olierør i nordøst",
       "de": "Repariere die undichte Ölleitung im Nordosten.",
       "en": "Fix the leaking oil pipe in the northeast",
-      "es": "Repara la tubería de crudo en el noreste.",
+      "es": "Repara la tubería de crudo al noreste.",
       "fr": "Réparer l'oléoduc qui fuit au nord-est",
       "he": "תקן את צינור הנפט הדולף בצפון-מזרח",
       "hr": "Popravi naftovod koji curi na sjeveroistoku",
-      "it": "Ripara il tubo dell'olio che perde vicino a nord-est.",
-      "ja": "北東にある漏れている石油パイプを修理する",
+      "it": "Ripara il tubo dell'olio che perde a nord-est",
+      "ja": "北東にある石油パイプの漏れを修理する",
       "ko-KR": "북동쪽에 있는 새는 송유관 수리하기",
       "no": "Reparer det lekkende oljerøret i nordøst",
       "pl": "Napraw przeciekającą rurę naftową na północnym wschodzie.",
-      "pt": "Conserte o cano de óleo com vazamento no nordeste.",
-      "pt-BR": "Conserte o cano de óleo com vazamento no nordeste.",
+      "pt": "Conserte o vazamento do tubo de óleo no nordeste",
+      "pt-BR": "Conserte o cano de óleo com vazamento ao nordeste",
       "ru": "Устраните утечку нефтепровода на северо-востоке.",
       "sr": "Popravi naftovod koji curi na severoistoku",
       "tr": "Kuzeydoğudaki sızdıran yağ borusunu tamir et",
       "uk": "Полагодьте нафтопровід, що протікає на північному сході",
-      "zh-CN": "修复东北方向漏油的油管",
+      "zh-CN": "修复东北部的漏油管道",
       "zh-TW": "修理東北方的漏油管線"
     }
   ],
@@ -125,8 +125,31 @@
       "quantity": 3
     }
   ],
-  "xp": 0,
-  "previousQuestIds": ["off_the_radar"],
+  "xp": 5000,
+  "previousQuestIds": ["ss4"],
   "nextQuestIds": [],
-  "updatedAt": "04/28/2026"
+  "videoUrl": "https://youtu.be/3Vgpogj0-eg",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "188919370",
+    "children": [
+      {
+        "id": "462921581",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "469977854",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "107585490",
+        "index": 2,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "battening-down"
 }

@@ -1,0 +1,199 @@
+{
+  "id": "12_snap_and_salvage",
+  "name": {
+    "da": "Knips og bjærg",
+    "de": "Schnappen und Ausschlachten",
+    "en": "Snap and Salvage",
+    "es": "Fotografiar y saquear",
+    "fr": "Démolir et recycler",
+    "he": "צילום ואיסוף שלל",
+    "hr": "Fotografiraj i prikupi",
+    "it": "Scatta e recupera",
+    "ja": "スナップ・アンド・サルベージ",
+    "ko-KR": "사진 촬영 및 부품 분해",
+    "no": "Knips og berg",
+    "pl": "Capnij i wyszabruj",
+    "pt": "Fotografar e Recuperar",
+    "pt-BR": "Registro e Resgate",
+    "ru": "Фотогеничные детали",
+    "sr": "Slikaj i prikupi",
+    "tr": "Fotoğrafla ve Parçala",
+    "uk": "Знімок і брухт",
+    "zh-CN": "拍照并拆解回收",
+    "zh-TW": "破壞並拆解"
+  },
+  "map": ["stella_montis"],
+  "trader": "Tian Wen",
+  "requiredItemIds": [
+    {
+      "itemId": "magnetron",
+      "quantity": 1
+    },
+    {
+      "itemId": "flow_controller",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Hele Speranza summer af snak om Stella Montis lige nu, og jeg indrømmer, at det har fanget min opmærksomhed. Lad de andre finde ud af hvad og hvordan; jeg er interesseret i teknologien derinde.",
+    "de": "In Speranza wird nur noch über Stella Montis gesprochen und ich muss zugeben, mein Interesse ist auch geweckt. Sollen die anderen sich mit dem Was und Wie befassen – mich interessiert die Technik, die da drinnen versteckt ist.",
+    "en": "All of Speranza is buzzing about Stella Montis right now, and I admit it’s caught my attention. Let the others sort out the whats and hows; I’m interested in the tech inside.",
+    "es": "Últimamente solo se habla de Stella Montis, y la verdad es que me ha llamado la atención. Dejemos que el resto se ocupen de los detallitos; a mí solo me interesa la tecnología que contiene.",
+    "fr": "Tout le monde à Speranza ne parle que de Stella Montis en ce moment, et j'avoue que ça m'intrigue. Laissons les autres gérer les détails pratiques : ce qui m'intéresse, c'est la technologie qui s'y cache.",
+    "he": "כל Speranza רוחשת סביב Stella Montis כרגע, ואני מודה שזה משך את תשומת ליבי. תנו לאחרים לברר את המה והאיך; אני מתעניין בטכנולוגיה שבפנים.",
+    "hr": "Cijela Speranza trenutno bruji o Stella Montisu i priznajem da mi je privuklo pažnju. Neka ostali rješavaju što i kako; mene zanima tehnologija unutra.",
+    "it": "Tutta Speranza non fa altro che parlare di Stella Montis al momento, e ammetto che ha attirato la mia attenzione. Lasciamo che siano gli altri a occuparsi del cosa e del come: a me interessa la tecnologia che c'è all'interno.",
+    "ja": "街はステラ・モンティスのことで持ち切りだ。正直、私も注目してるよ。あの場所が何なのかは、他の奴に考えさせとくとして... 私が気になるのは、中のテクノロジーだね。",
+    "ko-KR": "스페란자 전체가 스텔라 몬티스 얘기로 들썩이고 있는데, 솔직히 저도 관심이 생긴다는 걸 인정할게요. 뭐가 뭔지는 다른 사람이 따져보게 두라죠. 저는 그 안의 기술에 관심이 있습니다.",
+    "no": "Hele Speranza snakker om Stella Montis akkurat nå, og jeg innrømmer at det har fanget oppmerksomheten min. La de andre ta seg av hva og hvordan; jeg er interessert i teknologien på innsiden.",
+    "pl": "Cała Speranza tak huczy od plotek o Stella Montis, że aż zwróciło to moją uwagę. Rozeznawaniem sytuacji niech zajmą się inni. Mnie interesuje tylko technologia.",
+    "pt": "Toda Speranza está comentando sobre Stella Montis agora, e admito que chamou minha atenção. Deixe que os outros descubram o quê e o como; estou interessado na tecnologia lá dentro.",
+    "pt-BR": "Só se fala de Stella Montis em Speranza. Admito que fiquei curiosa também. Enquanto os outros se preocupam com o resto dos detalhes, eu quero é saber da tecnologia que tem lá dentro.",
+    "ru": "Вся Сперанца с ума сошла по поводу «Стелла Монтис», да что уж там, центр и меня заинтересовал. Пусть другие ищут ответы на вопросы «как» да «почему»; меня интересуют только тамошние технологии.",
+    "sr": "Cela Speranza trenutno bruji o Stella Montisu, i priznajem da mi je privukao pažnju. Neka ostali rešavaju šta i kako; mene zanima tehnologija unutra.",
+    "tr": "Tüm Speranza şu anda Stella Montis hakkında konuşuyor ve itiraf etmeliyim ki benim de ilgimi çekti. Başkaları ne ve nasılı çözedursun, beni içerideki teknolojiler ilgilendiriyor.",
+    "uk": "Уся Сперанца зараз гуде про Stella Montis, і, мушу визнати, це привернуло мою увагу. Нехай інші розбираються, що до чого; мене цікавлять технології всередині.",
+    "zh-CN": "现在整个斯佩兰扎都在热议星辰山，我承认这也引起了我的注意。让其他人去搞清楚它的来龙去脉好了，我感兴趣的是里面的科技。",
+    "zh-TW": "現在整個斯佩蘭薩都在熱烈討論星辰山，我也承認它引起了我的注意。芝麻蒜皮的事就給其他人來煩惱吧，我只對裡頭蘊藏的科技感興趣。"
+  },
+  "objectives": [
+    {
+      "da": "Tag et billede af en valgfri Rover i Sandbox",
+      "de": "Fotografiere einen beliebigen Rover im Sandkasten.",
+      "en": "Take a Photo of any of the Rovers in the Sandbox",
+      "es": "Saca una foto de cualquier astromóvil en la zona de pruebas.",
+      "fr": "Prendre une photo de l'un des rovers au Bac à sable",
+      "he": "צלמו תמונה של אחד הרוברים ב-Sandbox",
+      "hr": "Fotografiraj bilo kojeg Rovera u Sandboxu",
+      "it": "Scatta una foto di uno dei Rover nel sandbox",
+      "ja": "検証環境でローヴァーの写真を撮った",
+      "ko-KR": "실험장 내 로버 촬영하기",
+      "no": "Ta et bilde av en valgfri Rover i Sandbox",
+      "pl": "Zrób zdjęcie dowolnego z łazików w piaskownicy",
+      "pt": "Tire uma Foto de qualquer um dos Rovers no Sandbox",
+      "pt-BR": "Tire uma foto de um dos robôs exploradores na Área de Testes",
+      "ru": "Сфотографируйте самоходного робота в песочнице.",
+      "sr": "Fotografiši bilo kog Rovera u Sandboxu",
+      "tr": "Kumluk Alan'da herhangi bir uzay aracının fotoğrafını çek",
+      "uk": "Зробіть фото будь-якого ровера в Пісочниці",
+      "zh-CN": "拍摄沙盘中任意探测车的照片",
+      "zh-TW": "拍攝沙盒中任何探測車的照片"
+    },
+    {
+      "da": "Gennemsøg papirerne i sikkerhedskontrolrummet ved lobbyen",
+      "de": "Durchsuche die Unterlagen im Sicherheitskontrollraum bei der Lobby.",
+      "en": "Search the papers in the Security Checkpoint room by the Lobby",
+      "es": "Busca los papeles en la sala del control de seguridad junto al vestíbulo.",
+      "fr": "Trouver les feuilles de la salle du Point de contrôle de sécurité près du Hall",
+      "he": "חפשו במסמכים בחדר עמדת הבידוק הביטחונית שליד הלובי",
+      "hr": "Pretraži papire u sobi Sigurnosne kontrolne točke pored Predvorja",
+      "it": "Cerca i documenti nella sala del punto di controllo sicurezza nell'atrio",
+      "ja": "ロビーの隣のセキュリティ・チェックポイント室で書類を調査した",
+      "ko-KR": "로비 옆 보안 체크포인트에서 서류 수색하기",
+      "no": "Let gjennom papirene i sikkerhetskontrollrommet ved lobbyen",
+      "pl": "Poszukaj dokumentów w punkcie kontrolnym ochrony w lobby",
+      "pt": "Revise os papéis na sala do Ponto de Controle de Segurança perto do Saguão",
+      "pt-BR": "Procure os papéis no sala do Posto de Segurança perto do Saguão",
+      "ru": "Найдите бумаги в помещении контрольного пункта охраны у лобби.",
+      "sr": "Pretraži papire u sobi bezbednosnog punkta pored Lobija",
+      "tr": "Lobi'deki Güvenlik Kontrol Noktası odasında kâğıtları ara",
+      "uk": "Огляньте папери в кімнаті контрольно-пропускного пункту біля вестибюля",
+      "zh-CN": "在大厅的安全检查站中寻找文件",
+      "zh-TW": "在大廳旁的安全檢查站搜索文件"
+    },
+    {
+      "da": "Aflevér en Magnetron til Tian Wen",
+      "de": "Liefere eine Magnetron an Tian Wen.",
+      "en": "Deliver a Magnetron to Tian Wen",
+      "es": "Entrégale un magnetrón a Tian Wen.",
+      "fr": "Livrer un magnétron à Tian Wen",
+      "he": "מסרו מגנטרון ל-Tian Wen",
+      "hr": "Predaj Magnetron Tian Wenu",
+      "it": "Consegna un magnetron a Tian Wen",
+      "ja": "ティアン・ウェンにマグネトロンを届けた",
+      "ko-KR": "티안 웬에게 전자관 전달하기",
+      "no": "Lever en Magnetron til Tian Wen",
+      "pl": "Dostarcz magnetron Tian Wen",
+      "pt": "Entregue um Magnetron para Tian Wen",
+      "pt-BR": "Entregue um Magnetron para Tian Wen",
+      "ru": "Доставьте Тянь Вэнь магнетрон.",
+      "sr": "Isporuči Magnetron Tian Wenu",
+      "tr": "Tian Wen'e bir Mıknatıs Robot teslim et",
+      "uk": "Доставте магнетрон Тянь Вень",
+      "zh-CN": "将磁控管交给天玟",
+      "zh-TW": "將磁控管送去給田文"
+    },
+    {
+      "da": "Aflevér en Flow Controller til Tian Wen",
+      "de": "Liefere einen Durchflussregler an Tian Wen.",
+      "en": "Deliver a Flow Controller to Tian Wen",
+      "es": "Entrégale un regulador de flujo a Tian Wen.",
+      "fr": "Livrer un régulateur de débit à Tian Wen",
+      "he": "מסור בקר זרימה אל Tian Wen",
+      "hr": "Isporuči kontroler protoka Tian Wenu",
+      "it": "Consegna un regolatore di flusso a Tian Wen",
+      "ja": "ティアン・ウェンにフローコントローラーを届けた",
+      "ko-KR": "티안 웬에게 유량 조절기 전달하기",
+      "no": "Lever en flytkontroller til Tian Wen",
+      "pl": "Dostarcz kontroler przepływu Tian Wen",
+      "pt": "Entregue um Controlador de Fluxo para Tian Wen",
+      "pt-BR": "Entregue um Controlador de Fluxo para Tian Wen",
+      "ru": "Доставьте Тянь Вэнь регулятор потока.",
+      "sr": "Dostavi kontroler protoka Tian Wenu",
+      "tr": "Tian Wen'e bir Akıntı Kontrolcüsü teslim et",
+      "uk": "Доставте контролер потоку Tian Wen",
+      "zh-CN": "将流量控制器交给天玟",
+      "zh-TW": "將流量控制器送去給田文"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "burletta_iii",
+      "quantity": 1
+    },
+    {
+      "itemId": "silencer_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "extended_light_mag_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "light_ammo",
+      "quantity": 100
+    }
+  ],
+  "xp": 2500,
+  "previousQuestIds": ["12_cold_storage"],
+  "nextQuestIds": ["on_deaf_ears", "with_a_view"],
+  "videoUrl": "https://youtu.be/ovaxUg_EVRg",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "561015547",
+    "children": [
+      {
+        "id": "590851747",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "646928268",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "811421166",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "749157460",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "type": "all"
+  },
+  "slug": "snap-and-salvage"
+}

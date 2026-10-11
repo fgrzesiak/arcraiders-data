@@ -1,0 +1,287 @@
+{
+  "id": "tracks_of_the_beast",
+  "name": {
+    "da": "Dyrets Spor",
+    "de": "Spuren der Bestie",
+    "en": "Tracks of the Beast",
+    "es": "Rastros de la bestia",
+    "fr": "Sur les traces de la bête",
+    "he": "עקבות החיה",
+    "hr": "Tragovi Zvijeri",
+    "it": "Tracce della bestia",
+    "ja": "獣の足跡",
+    "ko-KR": "괴수의 발자취",
+    "no": "Sporene etter Dyret",
+    "pl": "Ślady bestii",
+    "pt": "Rastros da Fera",
+    "pt-BR": "Rastros da Criatura",
+    "ru": "Следы чудища",
+    "sr": "Tragovi Zveri",
+    "tr": "Canavarın İzleri",
+    "uk": "Сліди Звіра",
+    "zh-CN": "巨兽踪迹",
+    "zh-TW": "野獸的蹤跡"
+  },
+  "map": ["pendola_pass"],
+  "trader": "Shani",
+  "requiredItemIds": [
+    {
+      "itemId": "skulker_targeter",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "lure_grenade",
+      "quantity": 2
+    },
+    {
+      "itemId": "adrenaline_shot",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "da": "Strækningen fra de Nordlige Spor til Kejseren vrimler med ukendte ARC-enheder. Jeg skal have øjne på dem, ellers risikerer vi at træde ind i en dødsfælde, før vi overhovedet kan begynde at bryde igennem Kejseren.",
+    "de": "Der Abschnitt von den nördlichen Gleisen bis zum Kaiser wimmelt nur so von unbekannten ARC-Einheiten. Ich brauche jemanden, der sie im Auge behält, sonst geraten wir vielleicht in eine Todesfalle, noch bevor wir überhaupt anfangen können, den Kaiser aufzubrechen.",
+    "en": "The stretch from the Northern tracks to the Emperor is crawling with unfamiliar ARC units. I need eyes on them, or we might be stepping into a death trap before we can even begin to breach the Emperor.",
+    "es": "El tramo que va desde las vías del norte hasta el emperador está repleto de unidades ARC desconocidas. Hay que investigarlas o acabaremos cayendo en una trampa mortal antes siquiera de que podamos intentar entrar en el emperador.",
+    "fr": "Le secteur entre les pistes du Nord et l'Empereur grouille d'unités ARC inconnues. Il faut les observer, sans quoi nous risquons de tomber dans un piège mortel avant même de pouvoir commencer à pénétrer dans l'Empereur.",
+    "he": "הקטע מעקבות הצפון ועד האמפרור שורץ ביחידות ARC לא מוכרות. אני צריך מידע עליהן, אחרת אולי ניכנס למלכודת מוות עוד לפני שנתחיל לפרוץ לאמפרור.",
+    "hr": "Protezanje od Sjevernih pruga do Imperatora vrvi nepoznatim ARC jedinicama. Moramo ih locirati, inače bismo mogli ući u smrtonosnu zamku prije nego što uopće uspijemo probiti Imperatora.",
+    "it": "Il tratto che va dalle tracce settentrionali all'Imperatore pullula di unità ARC sconosciute. Ho bisogno di qualcuno che le tenga d'occhio, altrimenti potremmo finire in una trappola mortale prima ancora di riuscire a fare breccia nell'Imperatore.",
+    "ja": "北側の線路からエンペラーまでの一帯に、見慣れないARCユニットがうじゃうじゃいる。あいつらを監視しておきたいんだ。エンペラーに侵入する前に、こっちが死地に踏み込むことになりかねないからね。",
+    "ko-KR": "북부 철로에서 엠퍼러까지 이어지는 구간에 처음 보는 아크 유닛이 득실거립니다. 놈들을 직접 확인해야 해요. 안 그러면 엠퍼러에 진입하기도 전에 죽음의 함정 속으로 걸어 들어갈 수 있으니까요.",
+    "no": "Strekningen fra de Nordlige sporene til Keiseren kryr av ukjente ARC-enheter. Jeg må få oversikt over dem, ellers kan vi gå rett i en dødsfelle før vi i det hele tatt kan begynne å bryte gjennom til Keiseren.",
+    "pl": "Na odcinku od północnych torów do cesarza roi się od nieznanych jednostek ARC. Muszę je mieć na oku, bo inaczej wpadniemy w śmiertelną pułapkę, zanim w ogóle będziemy mogli zacząć próbę wejścia do cesarza.",
+    "pt": "O trecho dos trilhos do Norte até o Imperador está infestado de unidades ARC desconhecidas. Preciso que fiquem de olho nelas, ou podemos acabar caindo numa armadilha mortal antes mesmo de conseguir invadir o Imperador.",
+    "pt-BR": "O trajeto do trilho do norte até o Imperador está repleto de unidades ARC desconhecidas. Preciso que alguém fique de olho, ou podemos cair em uma armadilha antes de começarmos a abrir caminho no Imperador.",
+    "ru": "Участок от Северных путей до «Императора» кишит незнакомой нам техникой ARC. Нужно понаблюдать за ней, чтобы не угодить в западню на самых подступах к «Императору».",
+    "sr": "Deo od Severnih šina do Imperatora vrvi od nepoznatih ARC jedinica. Treba da ih uočim, ili bismo mogli da uletimo u smrtonosnu zamku pre nego što uopšte počnemo da se probijamo do Imperatora.",
+    "tr": "Kuzey patikalarından İmparator'a uzanan alanda bilinmedik ARC birimleri kol geziyor. Onların gözetilmesi gerek. Yoksa İmparator'da gedik bile açamadan faka basarız.",
+    "uk": "Ділянка від Північних колій до Імператора кишить незнайомими підрозділами ARC. Мені потрібно їх виявити, інакше ми можемо потрапити в смертельну пастку, перш ніж ми зможемо навіть почати прорив до Імператора.",
+    "zh-CN": "从北部轨道到“帝王”机器的这一段，全是陌生的ARC单位。我得盯着它们，不然还没等我们攻破“帝王”机器，可能就已经自取灭亡了。",
+    "zh-TW": "從北方軌道到皇帝之間的路段，到處都是陌生的ARC單位。我需要有人替我盯著它們，否則我們甚至還沒開始侵入皇帝，就可能已經踏進死亡陷阱了。"
+  },
+  "objectives": [
+    {
+      "da": "På Pendola Pass, sæt kurs mod de Nordlige Spor",
+      "de": "Gehe am Pendola-Pass zu den nördlichen Gleisen.",
+      "en": "On Pendola Pass, head to the Northern Tracks",
+      "es": "En el Paso Pendola, ve a las vías del norte",
+      "fr": "Au Col de Pendola, se rendre aux Pistes du Nord",
+      "he": "בפנדולה פאס, גש אל העקבות הצפוניות",
+      "hr": "Na prijevoju Pendola, uputi se prema Sjevernim prugama",
+      "it": "Al Passo di Pendola, dirigiti verso le tracce settentrionali",
+      "ja": "ペンドラ峠で北側の線路へ向かう",
+      "ko-KR": "펜돌라 고개에서 북쪽 철로로 이동하기",
+      "no": "På Pendolapasset, dra til de Nordlige Sporene",
+      "pl": "W przełęczy Pendola udaj się do północnych torów",
+      "pt": "Em Passo Pendola, siga para os Trilhos do Norte",
+      "pt-BR": "Na Passagem Pendola, siga para o trilho do norte",
+      "ru": "Отправляйтесь к Северным путям от перевала Пендола.",
+      "sr": "Na prevoju Pendola, uputi se ka Severnim šinama",
+      "tr": "Pendola Geçidi'nde Kuzey Raylarına git",
+      "uk": "На перевалі Пендола прямуйте до Північних колій",
+      "zh-CN": "在彭多拉山口，前往北部铁轨",
+      "zh-TW": "在彭多拉隘口，前往北方軌道"
+    },
+    {
+      "da": "Find den ødelagte station ved enden af sporene",
+      "de": "Finde die zerstörte Station am Ende der Gleise.",
+      "en": "Find the destroyed station at the end of the tracks",
+      "es": "Encuentra la estación destruida al final de las vías.",
+      "fr": "Trouver la station détruite au bout des voies",
+      "he": "מצא את התחנה ההרוסה בסוף המסילה",
+      "hr": "Pronađi uništenu stanicu na kraju pruga",
+      "it": "Trova la stazione distrutta alla fine dei binari",
+      "ja": "線路の終点にある廃駅を探す",
+      "ko-KR": "선로 끝에서 파괴된 역 찾기",
+      "no": "Finn den ødelagte stasjonen ved enden av sporene",
+      "pl": "Znajdź zniszczoną stację na końcu torów",
+      "pt": "Encontre a estação destruída no fim dos trilhos",
+      "pt-BR": "Encontre a estação destruída no fim dos trilhos",
+      "ru": "Найдите разрушенную станцию в конце путей.",
+      "sr": "Pronađi uništenu stanicu na kraju šina",
+      "tr": "Rayların sonundaki yok edilmiş istasyonu bul",
+      "uk": "Знайдіть зруйновану станцію наприкінці колій",
+      "zh-CN": "找到铁轨尽头的车站废墟",
+      "zh-TW": "找到軌道盡頭被摧毀的車站"
+    },
+    {
+      "da": "Ping en Bully",
+      "de": "Pinge einen Bully.",
+      "en": "Ping a Bully",
+      "es": "Marca un matón",
+      "fr": "Marquer une Brute",
+      "he": "סמן בולי",
+      "hr": "Pingiraj Grubijana",
+      "it": "Segnala un Bully",
+      "ja": "ブリーにピンを打つ",
+      "ko-KR": "불리에 핑하기",
+      "no": "Ping en Bully",
+      "pl": "Pingnij zbira",
+      "pt": "Pingar um Brutamontes",
+      "pt-BR": "Sinalize um Brigão",
+      "ru": "Отметьте «Задиру».",
+      "sr": "Pinguj Bulija",
+      "tr": "Bir Zorba işaretle",
+      "uk": "Відмітьте Задираку",
+      "zh-CN": "标记1个“恶霸”",
+      "zh-TW": "標記1台惡霸"
+    },
+    {
+      "da": "Ping en Skulker",
+      "de": "Pinge einen Skulker.",
+      "en": "Ping a Skulker",
+      "es": "Marca un merodeador",
+      "fr": "Marquer un Rôdeur",
+      "he": "סמן סקאלקר",
+      "hr": "Pingiraj Prikrivača",
+      "it": "Segnala uno Skulker",
+      "ja": "スカルカーにピンを打つ",
+      "ko-KR": "스컬커에 핑하기",
+      "no": "Ping en Skulker",
+      "pl": "Pingnij zerkacza",
+      "pt": "Pingar um Espreitador",
+      "pt-BR": "Sinalize um Espreitador",
+      "ru": "Отметьте «Проныру».",
+      "sr": "Pinguj Skulera",
+      "tr": "Bir Pusucu işaretle",
+      "uk": "Відмітьте Скрадальника",
+      "zh-CN": "标记1个“潜伏者”",
+      "zh-TW": "標記1台潛行者"
+    },
+    {
+      "da": "Ødelæg 3 Skulkere",
+      "de": "Zerstöre 3 Skulker.",
+      "en": "Destroy 3 Skulkers",
+      "es": "Destruye 3 merodeadores",
+      "fr": "Détruire 3 Rôdeurs",
+      "he": "השמד 3 סקאלקרים",
+      "hr": "Uništi 3 Prikrivača",
+      "it": "Distruggi 3 Skulker",
+      "ja": "スカルカーを3体破壊する",
+      "ko-KR": "스컬커 3개 파괴하기",
+      "no": "Ødelegg 3 Skulkere",
+      "pl": "Zniszcz 3 zerkaczy",
+      "pt": "Destrua 3 Espreitadores",
+      "pt-BR": "Destrua 3 Espreitadores",
+      "ru": "Уничтожьте «Проныр»: 3.",
+      "sr": "Uništi 3 Skulera",
+      "tr": "3 Pusucu yok et",
+      "uk": "Знищіть 3 Скрадальників",
+      "zh-CN": "摧毁3个“潜伏者”",
+      "zh-TW": "摧毀3台潛行者"
+    },
+    {
+      "da": "Aflever en Skulker-målsøger til Shani",
+      "de": "Bring ein Skulker-Zielgerät zu Shani.",
+      "en": "Deliver a Skulker Targeter to Shani",
+      "es": "Entrégale un designador de merodeador a Shani",
+      "fr": "Livrer un désignateur de Rôdeur à Shani",
+      "he": "מסור מכוון סקאלקר לשאני",
+      "hr": "Dostavi Prikrivačev lokator Shani",
+      "it": "Consegna un mirino di Skulker a Shani",
+      "ja": "シャニにスカルカー・ターゲッターを届ける",
+      "ko-KR": "샤니에게 스컬커 조준기 전달하기",
+      "no": "Lever en Skulker-målsøker til Shani",
+      "pl": "Dostarcz Shani moduł namierzający zerkacza",
+      "pt": "Entregue um Localizador de Espreitadores para Shani",
+      "pt-BR": "Entregue um Sistema de Mira de Espreitador para Shani",
+      "ru": "Доставьте Шани прицельную систему «Проныры».",
+      "sr": "Dostavi Skuler nišan Šani",
+      "tr": "Shani'ye bir Pusucu Hedefleyicisi teslim et",
+      "uk": "Доставте цілевказівник Скрадальника Шані",
+      "zh-CN": "将1个“潜伏者”瞄准组件交付给萨尼",
+      "zh-TW": "將一個潛行者標定器送去給珊妮"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "showstopper",
+      "quantity": 3
+    },
+    {
+      "itemId": "grappling_hook",
+      "quantity": 1
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["exploring_pendola_pass"],
+  "nextQuestIds": ["belly_of_the_beast", "bait_fetch_blast"],
+  "videoUrl": "https://youtu.be/voCnVrx-tng",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "398535336",
+    "children": [
+      {
+        "id": "899724564",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "310611692",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "732210375",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "278551611",
+        "index": 3,
+        "type": "step"
+      },
+      {
+        "id": "837363602",
+        "amount": 3,
+        "index": 4,
+        "optional": true,
+        "type": "step"
+      },
+      {
+        "id": "109739910",
+        "index": 5,
+        "optional": true,
+        "type": "step"
+      }
+    ],
+    "label": {
+      "da": "Opspor Skulkeren og Bullyen",
+      "de": "Verfolge den Skulker und den Bully.",
+      "en": "Track the Skulker and Bully",
+      "es": "Rastrea al merodeador y al matón",
+      "fr": "Suivre le Rôdeur et la Brute",
+      "he": "עקוב אחר הסקאלקר והבולי",
+      "hr": "Prati Prikrivača i Grubijana",
+      "it": "Traccia lo Skulker e il Bully",
+      "ja": "スカルカーとブリーを追跡する",
+      "ko-KR": "스컬커와 불리 추적하기",
+      "no": "Spor Skulkeren og Bullyen",
+      "pl": "Śledź zerkacza i zbira",
+      "pt": "Rastreie o Espreitador e o Brutamontes",
+      "pt-BR": "Rastreie o Espreitador e o Brigão",
+      "ru": "Отследите «Проныру» и «Задиру».",
+      "sr": "Prati Skulera i Bulija",
+      "tr": "Pusucu ve Zorba'nın izini sür",
+      "uk": "Відстежте Скрадальника та Задираку",
+      "zh-CN": "追踪“潜伏者”和“恶霸”",
+      "zh-TW": "追蹤潛行者和惡霸"
+    },
+    "oneRaid": true,
+    "type": "all"
+  },
+  "optionalRewards": [
+    {
+      "itemId": "skulker_targeter",
+      "quantity": 1
+    },
+    {
+      "itemId": "wolfpack",
+      "quantity": 1
+    }
+  ],
+  "slug": "tracks-of-the-beast"
+}

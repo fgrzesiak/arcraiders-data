@@ -26,7 +26,7 @@
   "trader": "Celeste",
   "description": {
     "da": "Den Stella Montis-harddisk indeholdt mere end bare nedlukningsdokumentationen - den havde også transportplanerne for nogle ret kritiske Exodus-komponenter.",
-    "de": "Auf dieser Festplatte aus Stella Montis befanden sich nicht nur die Unterlagen zur Stilllegung, sondern auch die Transportpläne für einige ziemlich wichtige Exodus-Komponenten.",
+    "de": "Auf dieser Festplatte aus Stella Montis befanden sich nicht nur die Unterlagen zur Einstellung des Projekts, sondern auch die Transportpläne für einige ziemlich wichtige Exodus-Komponenten.",
     "en": "That Stella Montis hard drive contained more than just the shutdown documentation - it also had the transport schedules of some pretty critical Exodus components.",
     "es": "Ese disco duro de Stella Montis no solo contenía documentos de la cancelación, también había horarios de transporte de unos componentes del Éxodo muy importantes.",
     "fr": "Ce disque dur de Stella Montis ne contenait pas seulement la documentation relative à l'arrêt du projet, mais aussi les calendriers de transport de certains composants essentiels de l'Exode.",
@@ -118,22 +118,22 @@
       "de": "Durchsuche den Keller des nahegelegenen Händler-Apartments.",
       "en": "Search the basement of the merchant’s nearby apartment",
       "es": "Registra el sótano del apartamento cercano del comerciante.",
-      "fr": "Fouiller le sous-sol de l'appartement proche du marchand.",
+      "fr": "Fouiller le sous-sol de l'appartement proche du marchand",
       "he": "חפש במרתף הדירה הסמוכה של הסוחר",
       "hr": "Pretraži podrum obližnjeg trgovčevog stana",
-      "it": "Ispeziona il seminterrato dell'appartamento vicino del mercante.",
+      "it": "Ispeziona il seminterrato dell'appartamento vicino del mercante",
       "ja": "商人の近くのアパートの地下を調べる",
-      "ko-KR": "상인의 근처 아파트 지하실 수색하기",
+      "ko-KR": "상인 근처 아파트의 지하실 수색하기",
       "no": "Gjennomsøk kjelleren i kjøpmannens nærliggende leilighet",
       "pl": "Przeszukaj piwnicę pobliskiego mieszkania kupca.",
       "pt": "Vasculhe o porão do apartamento próximo do mercador",
-      "pt-BR": "Vasculhe o porão do apartamento próximo do comerciante.",
-      "ru": "Обыщите подвал близлежащей квартиры продавца.",
+      "pt-BR": "Vasculhe o porão do apartamento próximo do comerciante",
+      "ru": "Обыщите подвал квартиры продавца, находящейся неподалеку.",
       "sr": "Pretraži podrum obližnjeg trgovčevog stana",
       "tr": "Tüccarın yakındaki apartmanının bodrumunu ara",
       "uk": "Обшукайте підвал сусідньої квартири торговця",
-      "zh-CN": "搜查商人附近公寓的地下室",
-      "zh-TW": "搜尋商人附近公寓的地下室"
+      "zh-CN": "搜查附近商人公寓的地下室",
+      "zh-TW": "搜索商人附近公寓的地下室"
     }
   ],
   "rewardItemIds": [
@@ -150,8 +150,36 @@
       "quantity": 2
     }
   ],
-  "xp": 0,
+  "xp": 8000,
   "previousQuestIds": ["last_entry"],
   "nextQuestIds": ["safe_harbor"],
-  "updatedAt": "04/28/2026"
+  "videoUrl": "https://youtu.be/ZXgiqNIIL-Q",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "725022563",
+    "children": [
+      {
+        "id": "671974965",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "777183327",
+        "index": 1,
+        "type": "step"
+      },
+      {
+        "id": "180931228",
+        "index": 2,
+        "type": "step"
+      },
+      {
+        "id": "515535644",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "type": "sequence"
+  },
+  "slug": "line-in-the-sand"
 }

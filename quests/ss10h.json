@@ -1,0 +1,310 @@
+{
+  "id": "ss10h",
+  "name": {
+    "da": "Ødelagt monument",
+    "de": "Zerstörtes Monument",
+    "en": "Broken Monument",
+    "es": "Monumento destrozado",
+    "fr": "Monument brisé",
+    "he": "אנדרטה שבורה",
+    "hr": "Slomljeni spomenik",
+    "it": "Monumento rotto",
+    "ja": "壊れた記念碑",
+    "ko-KR": "부서진 기념물",
+    "no": "Ødelagt monument",
+    "pl": "Uszkodzony pomnik",
+    "pt": "Monumento Quebrado",
+    "pt-BR": "Monumento danificado",
+    "ru": "Поврежденный памятник",
+    "sr": "Slomljeni spomenik",
+    "tr": "Parçalanmış Anıt",
+    "uk": "Зруйнований монумент",
+    "zh-CN": "破败的纪念",
+    "zh-TW": "破損的紀念碑"
+  },
+  "map": ["dam_battlegrounds"],
+  "trader": "Tian Wen",
+  "requiredItemIds": [
+    {
+      "itemId": "first_wave_compass",
+      "quantity": 1,
+      "questItem": true
+    },
+    {
+      "itemId": "first_wave_tape",
+      "quantity": 1,
+      "questItem": true
+    },
+    {
+      "itemId": "first_wave_rations",
+      "quantity": 1,
+      "questItem": true
+    }
+  ],
+  "description": {
+    "da": "Jeg har et andet særligt sted, jeg har brug for, at du undersøger for mig. En gammel slagmark fra First Wave. Nutidens Raiders rydder normalt steder som det fuldstændig, på trods af den betydning, de engang havde. Folk glemmer hurtigt. Hurtigere end de burde.",
+    "de": "Es gibt da noch eine andere besondere Stelle, an der du für mich nachsehen sollst. Ein altes Schlachtfeld aus der Ersten Welle. Heutzutage grasen Raider solche Orte ab, trotz der besonderen Bedeutung. Die Leute vergessen schnell. Schneller, als sie sollten.",
+    "en": "I have another special site I need you to search for me. An old battlegrounds, from the First Wave. Raiders nowadays usually pick places like that clean, despite the significance they once held. People forget quickly. Quicker than they should.",
+    "es": "Tengo otro sitio especial que necesito que registres. Unos antiguos campos de batalla de la primera oleada. Hoy en día, los Raiders los desvalijan sin reparos, a pesar de su importancia. La gente olvida muy rápido. Demasiado rápido.",
+    "fr": "Il faut que vous alliez fouiller un autre site spécial pour moi. Un ancien champ de bataille de la Première vague. De nos jours, les Raiders ont tendance à croire que ces lieux sont vides, malgré l'importance qu'ils avaient autrefois. Les gens ont la mémoire courte. Bien trop courte.",
+    "he": "יש לי עוד אתר מיוחד שאני צריך שתחפש עבורי. שדה קרב ישן, מה-First Wave. ה-Raiders של היום בדרך כלל מרוקנים לחלוטין מקומות כאלה, למרות החשיבות שהייתה להם פעם. אנשים שוכחים מהר. מהר יותר ממה שהם צריכים.",
+    "hr": "Imam još jedno posebno mjesto koje trebaš pretražiti za mene. Staro bojište, iz Prvog vala. Raideri danas obično potpuno opustoše takva mjesta, unatoč važnosti koju su nekad imala. Ljudi brzo zaboravljaju. Brže nego što bi trebali.",
+    "it": "Ho un altro sito speciale che devi esaminare per me. Un vecchio campo di battaglia, risalente alla Prima ondata. I Raider di oggi sono soliti ripulire luoghi come questo, nonostante l'importanza che avevano un tempo. Le persone dimenticano in fretta. Più velocemente di quanto dovrebbero.",
+    "ja": "また探ってほしい場所ができたんだ。ファーストウェーブの頃の古戦場さ。最近のレイダーは、歴史的意義のある場所も荒らして回る。人間が忘れるのはあまりにも早い。",
+    "ko-KR": "절 위해 수색해 줄 곳이 한 군데 더 있어요. 1차 침공 때의 옛 전장이에요. 아무리 의미 있는 곳이라고 해도 요즘은 레이더들이 그런 곳도 싹 쓸어가죠. 사람들은 너무 빨리 잊어요. 더 오래 기억해야 하는데.",
+    "no": "Jeg har et annet spesielt sted jeg trenger at du undersøker for meg. En gammel slagmark fra den første bølgen. Raiders i dag rensker vanligvis slike steder, til tross for betydningen de en gang hadde. Folk glemmer fort. Fortere enn de burde.",
+    "pl": "Jest jeszcze jedno wyjątkowe miejsce, którego przeszukanie chcę ci zlecić. Dawne pole bitwy z czasów Pierwszej Fali. Łupieżcy czyszczą dziś takie miejsca do gołej ziemi, nie zważając na to, że kiedyś miały szczególne znaczenie. Ludzie szybko zapominają. Szybciej niżby należało.",
+    "pt": "Tenho outro local especial que preciso que você vasculhe para mim. Um antigo campo de batalha da Primeira Onda. Hoje em dia, os Raiders costumam saquear tudo em lugares assim, apesar do significado que já tiveram. As pessoas esquecem rápido. Mais rápido do que deveriam.",
+    "pt-BR": "Tenho outro local especial pra você vasculhar. É um antigo campo de batalha da Primeira Onda. Os Raiders de hoje em dia saqueiam esse tipo de lugar sem dó, apesar da importância que já tiveram. As pessoas esquecem rápido. Mais rápido do que deveriam.",
+    "ru": "Хочу попросить тебя найти еще одно особенное место. Старое поле битвы, со времен Первой волны. Нынче рейдеры до нитки обирают подобные места, не вспоминая об их важности. Людская память коротка. Чересчур коротка.",
+    "sr": "Imam još jednu posebnu lokaciju koju treba da pretražiš za mene. Staro bojno polje iz Prvog talasa. Raideri danas obično očiste takva mesta do temelja, uprkos značaju koji su nekada imala. Ljudi brzo zaboravljaju. Brže nego što bi trebalo.",
+    "tr": "Benim için araman gereken özel bir alan daha var. İlk Dalga'dan kalma eski bir savaş alanı. Şimdilerde Raider'lar, bir zamanlar ne kadar önemli olduklarını umursamadan böyle alanları dibine kadar yağmalıyor. İnsanlar hızlı unutuyor. Fazla hızlı.",
+    "uk": "У мене є ще одне особливе місце, яке тобі треба обшукати для мене. Старе поле бою часів Першої Хвилі. У наші дні Рейдери зазвичай обчищають такі місця дочиста, незважаючи на їхню колишню значущість. Люди швидко забувають. Швидше, ніж мали б.",
+    "zh-CN": "我还有个特殊地点要你帮我找，是“第一波”时期的老战场。虽然这种地方具有重要意义，但如今的奇袭者通常会将之扫荡一空。人们遗忘得太快，快得有些不应该。",
+    "zh-TW": "我還有一個特別的地點需要你幫忙搜索一下，那是第一波的古老戰場。現在的掠手通常會把那種地方掠劫一空，儘管它們曾有重要的意義。人們總是遺忘得很快。太快了。"
+  },
+  "objectives": [
+    {
+      "da": "Nå frem til den hellige jord ved Scrap Yard",
+      "de": "Erreiche die heiligen Stätten beim Schrottplatz.",
+      "en": "Reach the hallowed grounds by the Scrap Yard",
+      "es": "Llega a las tierras sagradas junto al desguace.",
+      "fr": "Atteindre les terres sacrées près du Dépôt de ferraille",
+      "he": "הגע לאדמה המקודשת ליד מגרש הגרוטאות",
+      "hr": "Dođi do svetog tla pokraj Scrap Yarda",
+      "it": "Cerca il terreno cavo sotto il deposito di rottami",
+      "ja": "廃品置き場の近くにある神聖な地に到達した",
+      "ko-KR": "고철 처리장 옆 성지에 도달하기",
+      "no": "Nå den hellige grunnen ved Scrap Yard",
+      "pl": "Dotrzyj do uświęconej ziemi przy złomowisku",
+      "pt": "Chegue ao solo sagrado perto do Ferro-Velho",
+      "pt-BR": "Vá até os terrenos sagrados próximos ao Ferro-velho",
+      "ru": "Доберитесь до памятного места рядом со свалкой металлолома.",
+      "sr": "Dođi do svetog tla pored Scrap Yard-a",
+      "tr": "Hurdalık'ın yanındaki kutsal topraklara ulaş",
+      "uk": "Дістаньтеся священних земель біля Звалища металобрухту",
+      "zh-CN": "抵达废料场旁边的圣地",
+      "zh-TW": "抵達廢料場旁的聖地"
+    },
+    {
+      "da": "Led efter et kompas nær de nedbrudte køretøjer",
+      "de": "Suche nach einem Kompass in der Nähe der liegen gebliebenen Fahrzeuge.",
+      "en": "Search for a compass near the broken-down vehicles",
+      "es": "Busca una brújula cerca de los vehículos destartalados.",
+      "fr": "Chercher une boussole près des véhicules en panne",
+      "he": "חפש מצפן ליד הרכבים ההרוסים",
+      "hr": "Potraži kompas u blizini uništenih vozila",
+      "it": "Cerca una bussola vicino ai veicoli fuori uso",
+      "ja": "壊れた車両の近くでコンパスを探した",
+      "ko-KR": "고장 난 차량 근처에서 나침반 찾기",
+      "no": "Søk etter et kompass nær de ødelagte kjøretøyene",
+      "pl": "Poszukaj kompasu w pobliżu zepsutych pojazdów",
+      "pt": "Procure por uma bússola perto dos veículos quebrados",
+      "pt-BR": "Procure uma bússola perto dos veículos danificados",
+      "ru": "Найдите компас среди сломанных автомобилей.",
+      "sr": "Potraži kompas blizu pokvarenih vozila",
+      "tr": "Hurda araçların yakınında pusula ara",
+      "uk": "Шукайте компас біля зламаних транспортних засобів",
+      "zh-CN": "在报废车辆附近寻找指南针",
+      "zh-TW": "在拋錨的車輛附近搜尋羅盤"
+    },
+    {
+      "da": "Aflever Første Bølge Kompas til Tian Wen",
+      "de": "Übergib Tian Wen den Erste-Welle-Kompass.",
+      "en": "Deliver First Wave Compass to Tian Wen",
+      "es": "Entrégale la brújula de la primera oleada a Tian Wen.",
+      "fr": "Livrer la boussole de la Première vague à Tian Wen",
+      "he": "מסור את מצפן הגל הראשון לטיאן וון",
+      "hr": "Dostavi Kompas Prvog vala Tien Wenu",
+      "it": "Consegna la bussola Prima ondata a Tian Wen",
+      "ja": "ティアン・ウェンにファーストウェーブのコンパスを届けた",
+      "ko-KR": "티안 웬에게 1차 침공 나침반 전달하기",
+      "no": "Lever Førstebølgekompass til Tian Wen",
+      "pl": "Dostarcz kompas z czasów Pierwszej Fali Tian Wen",
+      "pt": "Entregue a Bússola da Primeira Onda para Tian Wen",
+      "pt-BR": "Entregue a bússola da Primeira Onda para Tian Wen",
+      "ru": "Доставьте Тянь Вэнь компас времен Первой волны.",
+      "sr": "Isporuči Kompas Prvog Talasa Tian Wenu",
+      "tr": "Tian Wen'e İlk Dalga Pusulası'nı teslim et",
+      "uk": "Доставте Компас Першої Хвилі Тянь Вень",
+      "zh-CN": "把“第一波”指南针交给天玟",
+      "zh-TW": "將第一波羅盤運送給田文"
+    },
+    {
+      "da": "Søg efter videobåndet nær de cylindriske beholdere",
+      "de": "Suche das Videoband in der Nähe der zylindrischen Container.",
+      "en": "Search for the video tape near the cylindrical containers",
+      "es": "Busca la cinta de vídeo cerca de los contenedores cilíndricos.",
+      "fr": "Chercher la cassette vidéo près des conteneurs cylindriques",
+      "he": "חפש את קלטת הווידאו ליד המכלים הגליליים",
+      "hr": "Potraži videokasetu pored cilindričnih kontejnera",
+      "it": "Cerca la videocassetta vicino ai contenitori cilindrici",
+      "ja": "円筒型のコンテナの近くでビデオテープを探した",
+      "ko-KR": "원형 컨테이너 근처에서 비디오 테이프 찾기",
+      "no": "Let etter videobåndet nær de sylindriske containerne",
+      "pl": "Poszukaj kasety wideo w pobliżu cylindrycznych pojemników",
+      "pt": "Procure pela fita de vídeo perto dos contêineres cilíndricos",
+      "pt-BR": "Procure uma fita de vídeo perto dos contentores cilíndricos",
+      "ru": "Поищите видеокассету рядом с контейнерами цилиндрической формы.",
+      "sr": "Potraži video traku blizu cilindričnih kontejnera",
+      "tr": "Silindir ganimet kaynaklarının yakınında video kaseti ara",
+      "uk": "Пошукайте відеокасету біля циліндричних контейнерів",
+      "zh-CN": "在圆柱形容器附近寻找录像带",
+      "zh-TW": "在圓柱形容器附近搜尋錄影帶"
+    },
+    {
+      "da": "Aflever First Wave-båndet til Tian Wen",
+      "de": "Übergib Tian Wen die Aufnahme der Ersten Welle.",
+      "en": "Deliver the First Wave Tape to Tian Wen",
+      "es": "Entrégale la cinta de la primera oleada a Tian Wen.",
+      "fr": "Livrer la cassette de la Première vague à Tian Wen",
+      "he": "מסור את ה-First Wave Tape ל-Tian Wen",
+      "hr": "Dostavi First Wave Tape Tian Wenu",
+      "it": "Consegna il nastro Prima ondata a Tian Wen",
+      "ja": "ティアン・ウェンにファーストウェーブのテープを届けた",
+      "ko-KR": "티안 웬에게 1차 침공 테이프 전달하기",
+      "no": "Lever First Wave Tape til Tian Wen",
+      "pl": "Dostarcz taśmę z czasów Pierwszej Fali Tian Wen",
+      "pt": "Entregue a Fita da Primeira Onda para Tian Wen",
+      "pt-BR": "Entregue a fita da Primeira Onda para Tian Wen",
+      "ru": "Доставьте Тянь Вэнь кассету времен Первой волны.",
+      "sr": "Dostavi First Wave Tape Tian Wenu",
+      "tr": "Tian Wen'e İlk Dalga Kaydı'nı teslim et",
+      "uk": "Передайте Касету Першої Хвилі Tian Wen",
+      "zh-CN": "把“第一波”磁带交给天玟",
+      "zh-TW": "將第一波錄影帶運送給田文"
+    },
+    {
+      "da": "Søg efter de gamle feltportioner i Raider-lejren",
+      "de": "Suche im Raider-Lager nach den alten Feldrationen.",
+      "en": "Search for the old field rations in the Raider camp",
+      "es": "Busca las raciones antiguas en el campamento de Raiders.",
+      "fr": "Fouiller le Camp des Raiders pour retrouver les anciennes rations de campagne",
+      "he": "חפש את מנות הקרב הישנות במחנה הריידרים",
+      "hr": "Potraži stare terenske obroke u kampu Raidera",
+      "it": "Cerca le vecchie razioni da campo nell'accampamento Raider",
+      "ja": "レイダーの野営地で古い野戦食を探した",
+      "ko-KR": "레이더 캠프에서 오래된 야전 배식 찾기",
+      "no": "Let etter de gamle feltrasjonene i Raider-leiren",
+      "pl": "Poszukaj starych racji polowych w obozie łupieżców",
+      "pt": "Procure pelas antigas rações de campo no acampamento dos Raiders",
+      "pt-BR": "Procurar as antigas rações de campo no Acampamento de Raiders",
+      "ru": "Поищите старые полевые пайки в рейдерском лагере.",
+      "sr": "Potraži stare terenske obroke u kampu Raidera",
+      "tr": "Raider kampında eski kumanyaları ara",
+      "uk": "Пошукайте старі польові пайки у таборі Рейдерів",
+      "zh-CN": "在奇袭者营地搜寻旧的野战口粮",
+      "zh-TW": "搜尋掠手營地中的陳舊野戰口糧。"
+    },
+    {
+      "da": "Aflevér First Wave-rationer til Tian Wen",
+      "de": "Übergib Tian Wen die Erste-Welle-Rationen.",
+      "en": "Deliver First Wave Rations to Tian Wen",
+      "es": "Entrégale las raciones de la primera oleada a Tian Wen.",
+      "fr": "Livrer les rations de la Première vague à Tian Wen",
+      "he": "מסור מנות קרב מהגל הראשון ל-Tian Wen",
+      "hr": "Dostavi obroke Prvog vala Tian Wenu",
+      "it": "Consegna le razioni Prima ondata a Tian Wen",
+      "ja": "ティアン・ウェンにファーストウェーブの携帯食を届けた",
+      "ko-KR": "티안 웬에게 1차 침공 식량 전달하기",
+      "no": "Lever First Wave-rasjoner til Tian Wen",
+      "pl": "Dostarcz racje żywnościowe z czasów Pierwszej Fali Tian Wen",
+      "pt": "Entregue as Rações da Primeira Onda para Tian Wen",
+      "pt-BR": "Entregue as Provisões da Primeira Onda para Tian Wen",
+      "ru": "Доставьте Тянь Вэнь пайки времен Первой волны.",
+      "sr": "Dostavi obroke Prvog talasa Tian Wenu",
+      "tr": "Tian Wen'e İlk Dalga Kumanyalarını teslim et",
+      "uk": "Доставте пайки Першої хвилі Тянь Веню",
+      "zh-CN": "把“第一波”口粮交给天玟",
+      "zh-TW": "將第一波口糧運送給田文"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "arpeggio_i",
+      "quantity": 1
+    },
+    {
+      "itemId": "compensator_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "medium_ammo",
+      "quantity": 80
+    }
+  ],
+  "xp": 5000,
+  "previousQuestIds": ["ss10e"],
+  "nextQuestIds": ["ss10i", "ss10j"],
+  "videoUrl": "https://youtu.be/OMxsYxRJ6Vw",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "987615537",
+    "children": [
+      {
+        "id": "746196816",
+        "index": 0,
+        "type": "step"
+      },
+      {
+        "id": "177463940",
+        "children": [
+          {
+            "id": "937802930",
+            "children": [
+              {
+                "id": "621436041",
+                "index": 1,
+                "type": "step"
+              },
+              {
+                "id": "926477900",
+                "index": 2,
+                "type": "step"
+              }
+            ],
+            "oneRaid": true,
+            "type": "sequence"
+          },
+          {
+            "id": "890873642",
+            "children": [
+              {
+                "id": "415048302",
+                "index": 3,
+                "type": "step"
+              },
+              {
+                "id": "472119047",
+                "index": 4,
+                "type": "step"
+              }
+            ],
+            "oneRaid": true,
+            "type": "sequence"
+          },
+          {
+            "id": "908447356",
+            "children": [
+              {
+                "id": "822159546",
+                "index": 5,
+                "type": "step"
+              },
+              {
+                "id": "613950395",
+                "index": 6,
+                "type": "step"
+              }
+            ],
+            "oneRaid": true,
+            "type": "sequence"
+          }
+        ],
+        "type": "all"
+      }
+    ],
+    "type": "sequence"
+  },
+  "slug": "broken-monument"
+}

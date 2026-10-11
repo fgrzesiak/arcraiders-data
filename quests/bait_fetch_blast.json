@@ -1,0 +1,255 @@
+{
+  "id": "bait_fetch_blast",
+  "name": {
+    "da": "Lok, hent, spræng",
+    "de": "Ködern, Ranholen, Sprengen",
+    "en": "Bait, Fetch, Blast",
+    "es": "Atraer, recoger, detonar",
+    "fr": "Appâter, ramasser, détruire",
+    "he": "פיתיון, שלל, פיצוץ",
+    "hr": "Namami, Donesi, Raznesi",
+    "it": "Esca, recupera, spara",
+    "ja": "おびき出して、追い込んで、吹き飛ばせ",
+    "ko-KR": "유인, 회수, 폭발",
+    "no": "Lokk, Hent, Spreng",
+    "pl": "Przynęta, aport, wybuch",
+    "pt": "Isca, Buscar, Detonar",
+    "pt-BR": "Isca, Busca, Explosão",
+    "ru": "Убойная наживка",
+    "sr": "Vabi, Donesi, Raznesi",
+    "tr": "Kandır, Getir, Patlat",
+    "uk": "Приманка, Пошук, Вибух",
+    "zh-CN": "诱饵、搜寻、爆破",
+    "zh-TW": "誘餌、取回、爆破"
+  },
+  "map": ["pendola_pass"],
+  "trader": "Apollo",
+  "requiredItemIds": [
+    {
+      "itemId": "bully_fragmenter",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [
+    {
+      "itemId": "showstopper",
+      "quantity": 3
+    },
+    {
+      "itemId": "barricade_kit",
+      "quantity": 2
+    },
+    {
+      "itemId": "medium_shield",
+      "quantity": 1
+    },
+    {
+      "itemId": "looting_mk3_survivor",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "De Bullies er seje nødder at knække. Men du ved, intet er uforgængeligt. Jeg har hørt om et par tricks, der måske virker – har du lyst til at teste dem?",
+    "de": "Diese Bullys sind schwer zu knacken. Aber nichts ist unzerstörbar. Ich hab von ein paar Tricks gehört, die funktionieren könnten. Lust, sie zu testen?",
+    "en": "Tough nuts to crack, those Bullies. But you know, nothing’s indestructible. I’ve heard of a few tricks that might just work, care to put them to a test?",
+    "es": "Esos matones son duros de roer, pero que yo sepa, nada es indestructible. Sé un par de trucos que quizá funcionen. ¿Te apetece ponerlos en práctica?",
+    "fr": "Les Brutes sont de sacrés morceaux à abattre. Mais rien n'est indestructible. J'ai entendu parler de quelques astuces qui pourraient fonctionner. Ça vous dit de les essayer sur le terrain ?",
+    "he": "קשים לפיצוח, הבולאים האלה. אבל אתם יודעים, שום דבר אינו בלתי ניתן להשמדה. שמעתי על כמה טריקים שאולי יעבדו, רוצים לבחון אותם?",
+    "hr": "Tvrd orah za razbiti, ti Bulliesi. Ali znaš, ništa nije neuništivo. Čuo sam za nekoliko trikova koji bi mogli upaliti, želiš li ih iskušati?",
+    "it": "Quei Bully sono davvero degli ossi duri. Ma sai, niente è indistruttibile. Ho sentito parlare di alcuni stratagemmi che potrebbero funzionare: ti va di metterli alla prova?",
+    "ja": "あのブリーってのはなかなか手ごわい相手だけど、絶対壊れないものなんてないんだ。効果がありそうな技をいくつかきいたことがある。試してみない？",
+    "ko-KR": "불리는 정말 상대하기 까다롭습니다. 그래도 파괴할 수 없는 건 없잖아요. 통할 만한 방법을 몇 가지 들었는데, 한번 시험해 보실래요?",
+    "no": "Vanskelige å knekke, de bøllene der. Men du vet, ingenting er uforgjengelig. Jeg har hørt om noen triks som kanskje kan fungere, vil du sette dem på prøve?",
+    "pl": "Te zbiry to twardzi zawodnicy. Ale wiesz – wszystko da się zniszczyć. Słyszałam o kilku sztuczkach, które mogą się sprawdzić. Chcesz je przetestować?",
+    "pt": "Ossos duros de roer, esses Bullies. Mas você sabe, nada é indestrutível. Ouvi falar de alguns truques que podem funcionar, quer colocá-los à prova?",
+    "pt-BR": "Aqueles Brigões são osso duro. Mas nada é indestrutível. Soube de uns truques que podem funcionar. Se importaria de testar?",
+    "ru": "Крепкие орешки эти «Задиры». Но знаешь, неуязвимых не бывает. Я слышала о паре трюков, которые могут сработать, — не хочешь проверить их на деле?",
+    "sr": "Tvrd orah za slomiti, ti Bulliji. Ali znaš, ništa nije neuništivo. Čuo sam za par trikova koji bi mogli da upale, želiš li da ih isprobaš?",
+    "tr": "O Zorbalar çetin cevizdir. Ama yok edilemeyecek şey yoktur. İşe yarayabilecek birkaç numara duydum. Denemeye var mısın?",
+    "uk": "Міцні горішки, ці Буллі. Але знаєте, ніщо не є незнищенним. Я чув про кілька хитрощів, які можуть спрацювати, хочете перевірити їх?",
+    "zh-CN": "“恶霸”是块难啃的骨头。但话说回来，没有什么是坚不可摧的。我听说有几个法子可能管用，要不要试试？",
+    "zh-TW": "那些惡霸很難對付。不過你知道，沒有什麼東西是無法摧毀的。我聽說有些小把戲或許行得通，要不要來試試看？"
+  },
+  "objectives": [
+    {
+      "da": "Ødelæg en Bully",
+      "de": "Zerstöre einen Bully.",
+      "en": "Destroy a Bully",
+      "es": "Destruye un matón",
+      "fr": "Détruire une Brute",
+      "he": "השמידו בולאי",
+      "hr": "Uništi Bullija",
+      "it": "Distruggi un Bully",
+      "ja": "ブリーを破壊する",
+      "ko-KR": "불리 파괴하기",
+      "no": "Ødelegg en Bølle",
+      "pl": "Zniszcz zbira",
+      "pt": "Destrua um Bully",
+      "pt-BR": "Destrua um Brigão",
+      "ru": "Уничтожьте «Задиру».",
+      "sr": "Uništi Bullyja",
+      "tr": "Bir Zorba yok et",
+      "uk": "Знищте Буллі",
+      "zh-CN": "摧毁1个“恶霸”",
+      "zh-TW": "摧毀1台惡霸"
+    },
+    {
+      "da": "Ødelæg hovedet på en Bully",
+      "de": "Zerstöre den Kopf eines Bullys.",
+      "en": "Destroy the head of a Bully",
+      "es": "Destruye la cabeza de un matón",
+      "fr": "Détruire la tête d'une Brute",
+      "he": "השמידו את הראש של בולאי",
+      "hr": "Uništi glavu Bullija",
+      "it": "Distruggi la testa di un Bully",
+      "ja": "ブリーのリーダーを破壊する",
+      "ko-KR": "불리의 머리 파괴하기",
+      "no": "Ødelegg hodet på en Bølle",
+      "pl": "Zniszcz głowę zbira",
+      "pt": "Destrua a cabeça de um Bully",
+      "pt-BR": "Destrua a cabeça de um Brigão",
+      "ru": "Уничтожьте головную часть «Задиры».",
+      "sr": "Uništi glavu Bullyja",
+      "tr": "Bir Zorba'nın Başını yok et",
+      "uk": "Знищте голову Буллі",
+      "zh-CN": "摧毁1个“恶霸”的头部",
+      "zh-TW": "摧毀1台惡霸的頭部"
+    },
+    {
+      "da": "Ødelæg 4 Bully-ben",
+      "de": "Zerstöre 4 Bully-Beine.",
+      "en": "Destroy 4 Bully legs",
+      "es": "Destruye 4 piernas de matones",
+      "fr": "Détruire 4 pattes de Brute",
+      "he": "השמידו 4 רגלי בולאי",
+      "hr": "Uništi 4 noge Bullija",
+      "it": "Distruggi 4 gambe di Bully",
+      "ja": "ブリーの足を4個破壊する",
+      "ko-KR": "불리 다리 4개 파괴하기",
+      "no": "Ødelegg 4 Bølle-bein",
+      "pl": "Zniszcz nogi zbira (4)",
+      "pt": "Destrua 4 pernas de Bully",
+      "pt-BR": "Destrua 4 pernas de Brigão",
+      "ru": "Уничтожьте ноги «Задиры»: 4.",
+      "sr": "Uništi 4 noge Bullyja",
+      "tr": "4 Zorba Bacağı yok et",
+      "uk": "Знищте 4 ноги Буллі",
+      "zh-CN": "摧毁4个“恶霸”腿部",
+      "zh-TW": "摧毀4個惡霸腿部"
+    },
+    {
+      "da": "Aflever en Bully Fragmenter til Apollo",
+      "de": "Bring einen Bully-Fragmentierer zu Apollo.",
+      "en": "Deliver a Bully Fragmenter to Apollo",
+      "es": "Entrégale un fragmentador de matón a Apollo",
+      "fr": "Livrer un fragmenteur de Brute à Apollo",
+      "he": "מסרו מפרק בולאים לאפולו",
+      "hr": "Dostavi Bully Fragmenter Apollu",
+      "it": "Consegna un frammentatore Bully ad Apollo",
+      "ja": "アポロにブリー・フラグメンターを届ける",
+      "ko-KR": "아폴로에게 불리 파편탄 전달하기",
+      "no": "Lever en Bølle-Fragmenterer til Apollo",
+      "pl": "Dostarcz Apollowi rozdzielacz zbira",
+      "pt": "Entregue um Bully Fragmenter a Apollo.",
+      "pt-BR": "Entregue um Fragmentador de Brigão para Apollo",
+      "ru": "Доставьте Аполлону фрагментатор «Задиры».",
+      "sr": "Isporuči Bully Fragmenter Apollu",
+      "tr": "Apollo'ya bir Zorba Parçalayıcısı teslim et",
+      "uk": "Доставте Bully Fragmenter до Apollo",
+      "zh-CN": "将1枚“恶霸”破片弹交付给阿波罗",
+      "zh-TW": "將一個惡霸破碎器送去給阿波羅"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "bully_fragmenter",
+      "quantity": 1
+    },
+    {
+      "itemId": "wolfpack",
+      "quantity": 1
+    }
+  ],
+  "xp": 10000,
+  "previousQuestIds": ["tracks_of_the_beast"],
+  "nextQuestIds": [],
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "948436721",
+    "children": [
+      {
+        "id": "123075314",
+        "children": [
+          {
+            "id": "778222852",
+            "index": 0,
+            "type": "step"
+          },
+          {
+            "id": "567429259",
+            "index": 1,
+            "type": "step"
+          },
+          {
+            "id": "523084814",
+            "amount": 4,
+            "index": 2,
+            "type": "step"
+          }
+        ],
+        "label": {
+          "da": "Ødelæg en Bully",
+          "de": "Zerstöre einen Bully.",
+          "en": "Destroy a Bully",
+          "es": "Destruye un matón",
+          "fr": "Détruire une Brute",
+          "he": "השמידו בולאי",
+          "hr": "Uništi Bullija",
+          "it": "Distruggi un Bully",
+          "ja": "ブリーを破壊する",
+          "ko-KR": "불리 파괴하기",
+          "no": "Ødelegg en Bølle",
+          "pl": "Zniszcz zbira",
+          "pt": "Destrua um Bully",
+          "pt-BR": "Destrua um Brigão",
+          "ru": "Уничтожьте «Задиру».",
+          "sr": "Uništi Bullyja",
+          "tr": "Bir Zorba yok et",
+          "uk": "Знищте Буллі",
+          "zh-CN": "摧毁1个“恶霸”",
+          "zh-TW": "摧毀1台惡霸"
+        },
+        "type": "any"
+      },
+      {
+        "id": "866967725",
+        "index": 3,
+        "type": "step"
+      }
+    ],
+    "label": {
+      "da": "Ødelæg en Bully",
+      "de": "Zerstöre einen Bully.",
+      "en": "Destroy a Bully",
+      "es": "Destruye un matón",
+      "fr": "Détruire une Brute",
+      "he": "השמידו בולאי",
+      "hr": "Uništi Bullija",
+      "it": "Distruggi un Bully",
+      "ja": "ブリーを破壊する",
+      "ko-KR": "불리 파괴하기",
+      "no": "Ødelegg en Bølle",
+      "pl": "Zniszcz zbira",
+      "pt": "Destrua um Bully",
+      "pt-BR": "Destrua um Brigão",
+      "ru": "Уничтожьте «Задиру».",
+      "sr": "Uništi Bullyja",
+      "tr": "Bir Zorba yok et",
+      "uk": "Знищте Буллі",
+      "zh-CN": "摧毁1个“恶霸”",
+      "zh-TW": "摧毀1台惡霸"
+    },
+    "type": "sequence"
+  },
+  "slug": "bait-fetch-blast"
+}

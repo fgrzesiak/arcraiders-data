@@ -1,0 +1,968 @@
+{
+  "id": "to_the_skies",
+  "name": {
+    "da": "Mod Himlen",
+    "de": "Gen Himmel",
+    "en": "To The Skies",
+    "es": "Hacia el cielo",
+    "fr": "Vers les cieux",
+    "he": "אל השמיים",
+    "hr": "U Nebesa",
+    "it": "Verso i cieli",
+    "ja": "空へ",
+    "ko-KR": "하늘로",
+    "no": "Til Himmels",
+    "pl": "Ku niebu",
+    "pt": "Para os Céus",
+    "pt-BR": "Avante aos Céus",
+    "ru": "В небеса",
+    "sr": "U visine",
+    "tr": "Göklere",
+    "uk": "До небес",
+    "zh-CN": "飞向苍穹",
+    "zh-TW": "前往天空"
+  },
+  "trader": "Apollo",
+  "requiredItemIds": [
+    {
+      "itemId": "arc_performance_steel",
+      "quantity": 1
+    },
+    {
+      "itemId": "pop_trigger",
+      "quantity": 1
+    },
+    {
+      "itemId": "arc_synthetic_resin",
+      "quantity": 1
+    },
+    {
+      "itemId": "arc_thermo_lining",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "da": "Shani er tilfreds med at gondolerne får os op og ned ad bjerget, men vi har nogle ingeniører fra Ferrovia, som er mere villige til at tage en risiko. Det kan jeg bakke op om.",
+    "de": "Shani ist mit den Gondeln zufrieden, die uns den Berg hinauf- und hinunterbringen, aber wir haben ein paar Ingenieure aus Ferrovia, die eher bereit sind, ein Risiko einzugehen. Da kann ich mich anschließen.",
+    "en": "Shani’s content for the gondolas to get us up and down the mountain, but we have some engineers from Ferrovia more willing to take a risk. I can get behind that.",
+    "es": "Shani nos ha dado el visto bueno para usar las telecabinas para subir y bajar la montaña, pero unos ingenieros de Ferrovia están dispuestos a correr el riesgo. No me parece mal.",
+    "fr": "Shani est d'accord pour utiliser les télécabines afin de monter et descendre de la montagne, mais certains de nos ingénieurs de Ferrovia sont davantage disposés à prendre des risques. Je peux le comprendre.",
+    "he": "שאני מרוצה מהגונדולות שיעלו ויורידו אותנו מההר, אבל יש לנו מהנדסים מ-Ferrovia שמוכנים יותר לקחת סיכון. אני בעד זה.",
+    "hr": "Shani je zadovoljan gondolama koje će nas prevoziti gore i dolje po planini, ali imamo neke inženjere iz Ferrovije koji su spremniji preuzeti rizik. Podržavam to.",
+    "it": "A Shani va bene usare le gondole per salire e scendere dalla montagna, ma abbiamo alcuni ingegneri di Ferrovia più disposti a correre il rischio. Secondo me non sarebbe male.",
+    "ja": "シャニはゴンドラで山を上り下りする案で納得してるが、フェロヴィアにはもっと危険を冒す気のある技師もいる。俺はそっちに賛成だ。",
+    "ko-KR": "샤니는 산을 오르내릴 수만 있으면 곤돌라로 충분하다고 하지만, 페로비아 엔지니어들 중에는 좀 더 위험을 감수해 보자는 사람들이 있어요. 전 그쪽이 마음에 드네요.",
+    "no": "Shani er fornøyd med at gondolene tar oss opp og ned fjellet, men vi har noen ingeniører fra Ferrovia som er mer villige til å ta en risiko. Det kan jeg stille meg bak.",
+    "pl": "Shani zgodziła się, żebyśmy mogli wykorzystać gondole do transportu zboczem góry, ale mamy kilku inżynierów z Ferrovii, którzy chętnie podejmą większe ryzyko. Ja jestem za.",
+    "pt": "Shani está satisfeita com as gôndolas para nos levar montanha acima e abaixo, mas temos alguns engenheiros da Ferrovia mais dispostos a correr um risco. Eu apoio isso.",
+    "pt-BR": "A Shani tá satisfeita com as gôndolas nos levarem pela montanha, mas temos uns engenheiros de Ferrovia mais dispostos a correr riscos. E eu apoio isso.",
+    "ru": "Шани вполне устраивают гондолы для подъема и спуска с горы, но инженеры из Ферровии куда охотнее идут на риск. И я их поддерживаю.",
+    "sr": "Shani je zadovoljna gondolama da nas prevoze uz i niz planinu, ali imamo neke inženjere iz Ferrovije spremnije da rizikuju. Ja to mogu da podržim.",
+    "tr": "Shani, dağa çıkıp inmemiz için gondolları yeterli buluyor ancak Ferrovia'daki bazı mühendisler risk almaya daha istekli. Ben de bu fikri destekliyorum.",
+    "uk": "Шані не проти, щоб гондоли піднімали нас на гору та спускали з неї, але у нас є інженери з Ferrovia, які більш охоче ризикують. Я це схвалюю.",
+    "zh-CN": "萨尼觉得用弹道吊舱往返山间可行，而且费罗维亚来的几位工程师也愿意冒这个险。那我觉得我也支持。",
+    "zh-TW": "珊妮對於能帶我們上下山的纜車已經滿足了，但我們有幾位來自費洛維亞的工程師有意承擔更多風險。而我也支持他們。"
+  },
+  "objectives": [
+    {
+      "da": "Scan en nedstyrtet ARC-sonde",
+      "de": "Scanne eine abgestürzte ARC-Sonde.",
+      "en": "Scan any Crashed ARC Probe",
+      "es": "Escanea cualquier sonda ARC caída",
+      "fr": "Scanner n'importe quelle Sonde ARC accidentée",
+      "he": "סרקו כל גשושית ARC שהתרסקה",
+      "hr": "Skenirajte bilo koju Srušenu ARC Sondu",
+      "it": "Scansiona qualsiasi Sonda ARC precipitata",
+      "ja": "墜落したARCプローブをスキャンする",
+      "ko-KR": "추락한 아크 탐사기 스캔하기",
+      "no": "Skann en krasjet ARC-sonde",
+      "pl": "Zeskanuj dowolną rozbitą sondę ARC",
+      "pt": "Escaneie qualquer Sonda ARC Caída",
+      "pt-BR": "Escaneie qualquer Sonda ARC acidentada",
+      "ru": "Отсканируйте любой разбившийся зонд ARC.",
+      "sr": "Skeniraj bilo koju srušenu ARC sondu",
+      "tr": "Bir Düşmüş ARC Roketi tara",
+      "uk": "Проскануйте будь-який розбитий зонд ARC",
+      "zh-CN": "扫描任意坠毁的ARC“探测器”",
+      "zh-TW": "掃描任何墜毀的ARC探測機"
+    },
+    {
+      "da": "Scan en ARC-kurer",
+      "de": "Scanne einen ARC-Kurier.",
+      "en": "Scan any ARC Courier",
+      "es": "Escanea cualquier aeronave de transporte ARC",
+      "fr": "Scanner n'importe quel Convoyeur ARC",
+      "he": "סרקו כל שליח ARC",
+      "hr": "Skenirajte bilo kojeg ARC Kurira",
+      "it": "Scansiona qualsiasi Corriere ARC",
+      "ja": "ARCクーリエをスキャンする",
+      "ko-KR": "아크 운반기 스캔하기",
+      "no": "Skann en ARC-kurér",
+      "pl": "Zeskanuj dowolnego kuriera ARC",
+      "pt": "Escaneie qualquer Mensageiro ARC",
+      "pt-BR": "Escaneie qualquer Emissário ARC",
+      "ru": "Отсканируйте любого доставщика ARC.",
+      "sr": "Skeniraj bilo kog ARC kurira",
+      "tr": "Bir ARC Kuryesi tara",
+      "uk": "Проскануйте будь-якого кур'єра ARC",
+      "zh-CN": "扫描任意ARC运输机",
+      "zh-TW": "掃描任何ARC運輸機"
+    },
+    {
+      "da": "Søg efter gondolprototypen nær De Røde Søer",
+      "de": "Suche nahe den Roten Seen nach dem Gondel-Prototypen.",
+      "en": "Search for the Gondola Prototype near the Red Lakes",
+      "es": "Busca el prototipo de telecabina cerca de los lagos rojos",
+      "fr": "Chercher le prototype de télécabine près des Lacs rouges",
+      "he": "מצא את אב-הטיפוס של הגונדולה ליד האגמים האדומים",
+      "hr": "Potraži Prototip gondole blizu Crvenih jezera",
+      "it": "Cerca il prototipo di Gondola vicino ai Laghi rossi",
+      "ja": "赤い池付近でゴンドラの試作機を探す",
+      "ko-KR": "붉은 호수 근처에서 곤돌라 시제품 찾기",
+      "no": "Finn gondolprototypen nær De røde innsjøene",
+      "pl": "Poszukaj prototypu gondoli w pobliżu Jezior Czerwonych",
+      "pt": "Procure pelo Protótipo de Gôndola perto dos Lagos Vermelhos",
+      "pt-BR": "Procure pelo Protótipo de Gôndola perto dos Lagos Vermelhos",
+      "ru": "Найдите прототип гондолы у Алых озер.",
+      "sr": "Potraži Prototip gondole blizu Crvenih jezera",
+      "tr": "Kızıl Göller'de Gondol Prototipi'ni ara",
+      "uk": "Знайдіть прототип гондоли біля Червоних Озер",
+      "zh-CN": "在红湖附近搜寻吊舱原型机",
+      "zh-TW": "在紅湖附近搜尋纜車試作品"
+    },
+    {
+      "da": "Installer ARC-ydelsesstål",
+      "de": "Verbaue ARC-Hochleistungsstahl.",
+      "en": "Install ARC Performance Steel",
+      "es": "Instala el acero resistente ARC",
+      "fr": "Installer l'acier de performance ARC",
+      "he": "התקן פלדת ביצועי ARC",
+      "hr": "Instaliraj ARC Performansni čelik",
+      "it": "Installa acciaio performante ARC",
+      "ja": "ARC高性能スチールを取り付ける",
+      "ko-KR": "아크 고강도 강철 설치하기",
+      "no": "Installer ARC Ytelsesstål",
+      "pl": "Zamontuj wysoko wydajną stal ARC",
+      "pt": "Instalar Aço de Desempenho ARC",
+      "pt-BR": "Instale o Aço de Performance ARC",
+      "ru": "Используйте высокопрочную сталь ARC.",
+      "sr": "Instaliraj ARC Performans čelik",
+      "tr": "ARC Performans Çeliği'ni yerleştir",
+      "uk": "Встановіть продуктивну сталь ARC",
+      "zh-CN": "安装ARC高性能钢",
+      "zh-TW": "安裝ARC高性能鋼"
+    },
+    {
+      "da": "Installer ARC-pop-aftrækker",
+      "de": "Verbaue ARC-Pop-Auslöser.",
+      "en": "Install ARC Pop Trigger",
+      "es": "Instala el gatillo de tronador ARC",
+      "fr": "Installer le détonateur de Pop ARC",
+      "he": "התקן הדק קופצני ARC",
+      "hr": "Instaliraj ARC Pop okidač",
+      "it": "Installa grilletto di Pop ARC",
+      "ja": "ARCポップトリガーを取り付ける",
+      "ko-KR": "아크 팝 트리거 설치하기",
+      "no": "Installer ARC Pop-avtrekker",
+      "pl": "Zamontuj aktywator trzaskacza ARC",
+      "pt": "Instalar Gatilho Pop ARC",
+      "pt-BR": "Instale o Gatilho de Estalinho ARC",
+      "ru": "Используйте пусковое устройство «Взрывобота» ARC.",
+      "sr": "Instaliraj ARC Pop okidač",
+      "tr": "ARC Ani Tetiği'ni yerleştir",
+      "uk": "Встановіть спусковий гачок ARC \"Поп\"",
+      "zh-CN": "安装ARC“爆爆”触发器",
+      "zh-TW": "安裝ARC氣泡觸發器"
+    },
+    {
+      "da": "Installer ARC-syntetisk harpiks",
+      "de": "Verbaue ARC-Kunstharz.",
+      "en": "Install ARC Synthetic Resin",
+      "es": "Instala la resina sintética ARC",
+      "fr": "Installer la résine synthétique ARC",
+      "he": "התקן שרף סינתטי ARC",
+      "hr": "Instaliraj ARC Sintetičku smolu",
+      "it": "Installa resina sintetica ARC",
+      "ja": "ARC合成樹脂を取り付ける",
+      "ko-KR": "아크 합성수지 설치하기",
+      "no": "Installer ARC Syntetisk harpiks",
+      "pl": "Zamontuj żywicę syntetyczną ARC",
+      "pt": "Instalar Resina Sintética ARC",
+      "pt-BR": "Instale a Resina Sintética ARC",
+      "ru": "Используйте синтетическую смолу ARC.",
+      "sr": "Instaliraj ARC Sintetičku smolu",
+      "tr": "ARC Sentetik Reçinesi'ni yerleştir",
+      "uk": "Встановіть синтетичну смолу ARC",
+      "zh-CN": "安装ARC合成树脂",
+      "zh-TW": "安裝ARC合成樹脂"
+    },
+    {
+      "da": "Installer ARC-termoforing",
+      "de": "Verbaue ARC-Thermofütterung.",
+      "en": "Install ARC Thermo Lining",
+      "es": "Instala el revestimiento térmico ARC",
+      "fr": "Installer la doublure thermique ARC",
+      "he": "התקן ריפוד תרמי ARC",
+      "hr": "Instaliraj ARC Termo oblogu",
+      "it": "Installa fodera termica ARC",
+      "ja": "ARC耐熱裏地を取り付ける",
+      "ko-KR": "아크 단열 안감 설치하기",
+      "no": "Installer ARC Termofôr",
+      "pl": "Zamontuj wyściółkę termiczną ARC",
+      "pt": "Instalar Revestimento Térmico ARC",
+      "pt-BR": "Instale o Revestimento Térmico ARC",
+      "ru": "Используйте термопрокладку ARC.",
+      "sr": "Instaliraj ARC Termo postavu",
+      "tr": "ARC Termal Kaplaması'nı yerleştir",
+      "uk": "Встановіть термопідкладку ARC",
+      "zh-CN": "安装ARC隔热衬里",
+      "zh-TW": "安裝ARC熱內襯"
+    },
+    {
+      "da": "Aktiver gondolprototypen",
+      "de": "Aktiviere den Gondel-Prototypen.",
+      "en": "Activate the Gondola Prototype",
+      "es": "Activa el prototipo de telecabina",
+      "fr": "Activer le prototype de télécabine",
+      "he": "הפעל את אב-הטיפוס של הגונדולה",
+      "hr": "Aktiviraj Prototip gondole",
+      "it": "Attiva il prototipo di Gondola",
+      "ja": "ゴンドラの試作機を起動する",
+      "ko-KR": "곤돌라 시제품 활성화하기",
+      "no": "Aktiver gondolprototypen",
+      "pl": "Aktywuj prototyp gondoli",
+      "pt": "Ativar o Protótipo de Gôndola",
+      "pt-BR": "Ative o Protótipo de Gôndola",
+      "ru": "Активируйте прототип гондолы.",
+      "sr": "Aktiviraj Prototip gondole",
+      "tr": "Gondol Prototipini Etkinleştir",
+      "uk": "Активуйте прототип гондоли",
+      "zh-CN": "启动吊舱原型机",
+      "zh-TW": "啟動纜車試作品"
+    },
+    {
+      "da": "Søg efter gondolprototypen i Farmlandet",
+      "de": "Suche im Ackerland nach dem Gondel-Prototypen.",
+      "en": "Search for the Gondola Prototype in the Farmlands",
+      "es": "Busca el prototipo de telecabina en las granjas",
+      "fr": "Chercher le prototype de télécabine dans les Terres arables",
+      "he": "מצא את אב-הטיפוס של הגונדולה בשטחי החקלאות",
+      "hr": "Potraži Prototip gondole u Poljoprivrednim područjima",
+      "it": "Cerca il prototipo di Gondola nei campi coltivati",
+      "ja": "農場でゴンドラの試作機を探す",
+      "ko-KR": "농지에서 곤돌라 시제품 찾기",
+      "no": "Finn gondolprototypen i Jordbruksområdene",
+      "pl": "Poszukaj prototypu gondoli na polach uprawnych",
+      "pt": "Procure pelo Protótipo de Gôndola nas Terras Agrícolas",
+      "pt-BR": "Procure pelo Protótipo de Gôndola nas Fazendas",
+      "ru": "Найдите прототип гондолы в сельхозугодьях.",
+      "sr": "Potraži Prototip gondole u Poljima",
+      "tr": "Çiftlik Alanlarında Gondol Prototipi'ni ara",
+      "uk": "Знайдіть прототип гондоли у Сільськогосподарських угіддях",
+      "zh-CN": "在农田区域搜寻吊舱原型机",
+      "zh-TW": "在農地搜尋纜車試作品"
+    },
+    {
+      "da": "Installer ARC-ydelsesstål",
+      "de": "Verbaue ARC-Hochleistungsstahl.",
+      "en": "Install ARC Performance Steel",
+      "es": "Instala el acero resistente ARC",
+      "fr": "Installer l'acier de performance ARC",
+      "he": "התקן פלדת ביצועי ARC",
+      "hr": "Instaliraj ARC Performansni čelik",
+      "it": "Installa acciaio performante ARC",
+      "ja": "ARC高性能スチールを取り付ける",
+      "ko-KR": "아크 고강도 강철 설치하기",
+      "no": "Installer ARC Ytelsesstål",
+      "pl": "Zamontuj wysoko wydajną stal ARC",
+      "pt": "Instalar Aço de Desempenho ARC",
+      "pt-BR": "Instale o Aço de Performance ARC",
+      "ru": "Используйте высокопрочную сталь ARC.",
+      "sr": "Instaliraj ARC Performans čelik",
+      "tr": "ARC Performans Çeliği'ni yerleştir",
+      "uk": "Встановіть продуктивну сталь ARC",
+      "zh-CN": "安装ARC高性能钢",
+      "zh-TW": "安裝ARC高性能鋼"
+    },
+    {
+      "da": "Installer ARC-pop-aftrækker",
+      "de": "Verbaue ARC-Pop-Auslöser.",
+      "en": "Install ARC Pop Trigger",
+      "es": "Instala el gatillo de tronador ARC",
+      "fr": "Installer le détonateur de Pop ARC",
+      "he": "התקן הדק קופצני ARC",
+      "hr": "Instaliraj ARC Pop okidač",
+      "it": "Installa grilletto di Pop ARC",
+      "ja": "ARCポップトリガーを取り付ける",
+      "ko-KR": "아크 팝 트리거 설치하기",
+      "no": "Installer ARC Pop-avtrekker",
+      "pl": "Zamontuj aktywator trzaskacza ARC",
+      "pt": "Instalar Gatilho Pop ARC",
+      "pt-BR": "Instale o Gatilho de Estalinho ARC",
+      "ru": "Используйте пусковое устройство «Взрывобота» ARC.",
+      "sr": "Instaliraj ARC Pop okidač",
+      "tr": "ARC Ani Tetiği'ni yerleştir",
+      "uk": "Встановіть спусковий гачок ARC \"Поп\"",
+      "zh-CN": "安装ARC“爆爆”触发器",
+      "zh-TW": "安裝ARC氣泡觸發器"
+    },
+    {
+      "da": "Installer ARC-syntetisk harpiks",
+      "de": "Verbaue ARC-Kunstharz.",
+      "en": "Install ARC Synthetic Resin",
+      "es": "Instala la resina sintética ARC",
+      "fr": "Installer la résine synthétique ARC",
+      "he": "התקן שרף סינתטי ARC",
+      "hr": "Instaliraj ARC Sintetičku smolu",
+      "it": "Installa resina sintetica ARC",
+      "ja": "ARC合成樹脂を取り付ける",
+      "ko-KR": "아크 합성수지 설치하기",
+      "no": "Installer ARC Syntetisk harpiks",
+      "pl": "Zamontuj żywicę syntetyczną ARC",
+      "pt": "Instalar Resina Sintética ARC",
+      "pt-BR": "Instale a Resina Sintética ARC",
+      "ru": "Используйте синтетическую смолу ARC.",
+      "sr": "Instaliraj ARC Sintetičku smolu",
+      "tr": "ARC Sentetik Reçinesi'ni yerleştir",
+      "uk": "Встановіть синтетичну смолу ARC",
+      "zh-CN": "安装ARC合成树脂",
+      "zh-TW": "安裝ARC合成樹脂"
+    },
+    {
+      "da": "Installer ARC-termoforing",
+      "de": "Verbaue ARC-Thermofütterung.",
+      "en": "Install ARC Thermo Lining",
+      "es": "Instala el revestimiento térmico ARC",
+      "fr": "Installer la doublure thermique ARC",
+      "he": "התקן ריפוד תרמי ARC",
+      "hr": "Instaliraj ARC Termo oblogu",
+      "it": "Installa fodera termica ARC",
+      "ja": "ARC耐熱裏地を取り付ける",
+      "ko-KR": "아크 단열 안감 설치하기",
+      "no": "Installer ARC Termofôr",
+      "pl": "Zamontuj wyściółkę termiczną ARC",
+      "pt": "Instalar Revestimento Térmico ARC",
+      "pt-BR": "Instale o Revestimento Térmico ARC",
+      "ru": "Используйте термопрокладку ARC.",
+      "sr": "Instaliraj ARC Termo postavu",
+      "tr": "ARC Termal Kaplaması'nı yerleştir",
+      "uk": "Встановіть термопідкладку ARC",
+      "zh-CN": "安装ARC隔热衬里",
+      "zh-TW": "安裝ARC熱內襯"
+    },
+    {
+      "da": "Aktiver gondolprototypen",
+      "de": "Aktiviere den Gondel-Prototypen.",
+      "en": "Activate the Gondola Prototype",
+      "es": "Activa el prototipo de telecabina",
+      "fr": "Activer le prototype de télécabine",
+      "he": "הפעל את אב-הטיפוס של הגונדולה",
+      "hr": "Aktiviraj Prototip gondole",
+      "it": "Attiva il prototipo di Gondola",
+      "ja": "ゴンドラの試作機を起動する",
+      "ko-KR": "곤돌라 시제품 활성화하기",
+      "no": "Aktiver gondolprototypen",
+      "pl": "Aktywuj prototyp gondoli",
+      "pt": "Ativar o Protótipo de Gôndola",
+      "pt-BR": "Ative o Protótipo de Gôndola",
+      "ru": "Активируйте прототип гондолы.",
+      "sr": "Aktiviraj Prototip gondole",
+      "tr": "Gondol Prototipini Etkinleştir",
+      "uk": "Активуйте прототип гондоли",
+      "zh-CN": "启动吊舱原型机",
+      "zh-TW": "啟動纜車試作品"
+    },
+    {
+      "da": "Søg efter gondolprototypen i Øst-Sletterne",
+      "de": "Suche in den östlichen Ebenen nach dem Gondel-Prototypen.",
+      "en": "Search for the Gondola Prototype in the East Plains",
+      "es": "Busca el prototipo de telecabina en la planicie este",
+      "fr": "Chercher le prototype de télécabine dans les Plaines orientales",
+      "he": "מצא את אב-הטיפוס של הגונדולה במישורים המזרחיים",
+      "hr": "Potraži Prototip gondole u Istočnim ravnicama",
+      "it": "Cerca il prototipo di Gondola nelle pianure orientali",
+      "ja": "東平原でゴンドラの試作機を探す",
+      "ko-KR": "동쪽 평원에서 곤돌라 시제품 찾기",
+      "no": "Finn gondolprototypen i Østmarkene",
+      "pl": "Poszukaj prototypu gondoli w Równinach Wschodnich",
+      "pt": "Procure pelo Protótipo de Gôndola nas Planícies Orientais",
+      "pt-BR": "Procure pelo Protótipo de Gôndola nas Planícies do Leste",
+      "ru": "Найдите прототип гондолы в Восточных равнинах.",
+      "sr": "Potraži Prototip gondole u Istočnim ravnicama",
+      "tr": "Doğu Ovalarında Gondol Prototipi'ni ara",
+      "uk": "Знайдіть прототип гондоли у Східних Рівнинах",
+      "zh-CN": "在东部平原搜寻吊舱原型机",
+      "zh-TW": "在東部平原搜尋纜車試作品"
+    },
+    {
+      "da": "Installer ARC-ydelsesstål",
+      "de": "Verbaue ARC-Hochleistungsstahl.",
+      "en": "Install ARC Performance Steel",
+      "es": "Instala el acero resistente ARC",
+      "fr": "Installer l'acier de performance ARC",
+      "he": "התקן פלדת ביצועי ARC",
+      "hr": "Instaliraj ARC Performansni čelik",
+      "it": "Installa acciaio performante ARC",
+      "ja": "ARC高性能スチールを取り付ける",
+      "ko-KR": "아크 고강도 강철 설치하기",
+      "no": "Installer ARC Ytelsesstål",
+      "pl": "Zamontuj wysoko wydajną stal ARC",
+      "pt": "Instalar Aço de Desempenho ARC",
+      "pt-BR": "Instale o Aço de Performance ARC",
+      "ru": "Используйте высокопрочную сталь ARC.",
+      "sr": "Instaliraj ARC Performans čelik",
+      "tr": "ARC Performans Çeliği'ni yerleştir",
+      "uk": "Встановіть продуктивну сталь ARC",
+      "zh-CN": "安装ARC高性能钢",
+      "zh-TW": "安裝ARC高性能鋼"
+    },
+    {
+      "da": "Installer ARC-pop-aftrækker",
+      "de": "Verbaue ARC-Pop-Auslöser.",
+      "en": "Install ARC Pop Trigger",
+      "es": "Instala el gatillo de tronador ARC",
+      "fr": "Installer le détonateur de Pop ARC",
+      "he": "התקן הדק קופצני ARC",
+      "hr": "Instaliraj ARC Pop okidač",
+      "it": "Installa grilletto di Pop ARC",
+      "ja": "ARCポップトリガーを取り付ける",
+      "ko-KR": "아크 팝 트리거 설치하기",
+      "no": "Installer ARC Pop-avtrekker",
+      "pl": "Zamontuj aktywator trzaskacza ARC",
+      "pt": "Instalar Gatilho Pop ARC",
+      "pt-BR": "Instale o Gatilho de Estalinho ARC",
+      "ru": "Используйте пусковое устройство «Взрывобота» ARC.",
+      "sr": "Instaliraj ARC Pop okidač",
+      "tr": "ARC Ani Tetiği'ni yerleştir",
+      "uk": "Встановіть спусковий гачок ARC \"Поп\"",
+      "zh-CN": "安装ARC“爆爆”触发器",
+      "zh-TW": "安裝ARC氣泡觸發器"
+    },
+    {
+      "da": "Installer ARC-syntetisk harpiks",
+      "de": "Verbaue ARC-Kunstharz.",
+      "en": "Install ARC Synthetic Resin",
+      "es": "Instala la resina sintética ARC",
+      "fr": "Installer la résine synthétique ARC",
+      "he": "התקן שרף סינתטי ARC",
+      "hr": "Instaliraj ARC Sintetičku smolu",
+      "it": "Installa resina sintetica ARC",
+      "ja": "ARC合成樹脂を取り付ける",
+      "ko-KR": "아크 합성수지 설치하기",
+      "no": "Installer ARC Syntetisk harpiks",
+      "pl": "Zamontuj żywicę syntetyczną ARC",
+      "pt": "Instalar Resina Sintética ARC",
+      "pt-BR": "Instale a Resina Sintética ARC",
+      "ru": "Используйте синтетическую смолу ARC.",
+      "sr": "Instaliraj ARC Sintetičku smolu",
+      "tr": "ARC Sentetik Reçinesi'ni yerleştir",
+      "uk": "Встановіть синтетичну смолу ARC",
+      "zh-CN": "安装ARC合成树脂",
+      "zh-TW": "安裝ARC合成樹脂"
+    },
+    {
+      "da": "Installer ARC-termoforing",
+      "de": "Verbaue ARC-Thermofütterung.",
+      "en": "Install ARC Thermo Lining",
+      "es": "Instala el revestimiento térmico ARC",
+      "fr": "Installer la doublure thermique ARC",
+      "he": "התקן ריפוד תרמי ARC",
+      "hr": "Instaliraj ARC Termo oblogu",
+      "it": "Installa fodera termica ARC",
+      "ja": "ARC耐熱裏地を取り付ける",
+      "ko-KR": "아크 단열 안감 설치하기",
+      "no": "Installer ARC Termofôr",
+      "pl": "Zamontuj wyściółkę termiczną ARC",
+      "pt": "Instalar Revestimento Térmico ARC",
+      "pt-BR": "Instale o Revestimento Térmico ARC",
+      "ru": "Используйте термопрокладку ARC.",
+      "sr": "Instaliraj ARC Termo postavu",
+      "tr": "ARC Termal Kaplaması'nı yerleştir",
+      "uk": "Встановіть термопідкладку ARC",
+      "zh-CN": "安装ARC隔热衬里",
+      "zh-TW": "安裝ARC熱內襯"
+    },
+    {
+      "da": "Aktiver gondolprototypen",
+      "de": "Aktiviere den Gondel-Prototypen.",
+      "en": "Activate the Gondola Prototype",
+      "es": "Activa el prototipo de telecabina",
+      "fr": "Activer le prototype de télécabine",
+      "he": "הפעל את אב-הטיפוס של הגונדולה",
+      "hr": "Aktiviraj Prototip gondole",
+      "it": "Attiva il prototipo di Gondola",
+      "ja": "ゴンドラの試作機を起動する",
+      "ko-KR": "곤돌라 시제품 활성화하기",
+      "no": "Aktiver gondolprototypen",
+      "pl": "Aktywuj prototyp gondoli",
+      "pt": "Ativar o Protótipo de Gôndola",
+      "pt-BR": "Ative o Protótipo de Gôndola",
+      "ru": "Активируйте прототип гондолы.",
+      "sr": "Aktiviraj Prototip gondole",
+      "tr": "Gondol Prototipini Etkinleştir",
+      "uk": "Активуйте прототип гондоли",
+      "zh-CN": "启动吊舱原型机",
+      "zh-TW": "啟動纜車試作品"
+    },
+    {
+      "da": "Søg efter gondolprototypen på toppen af det Tørre Flodleje",
+      "de": "Suche oben auf dem ausgetrockneten Flussbett nach dem Gondel-Prototypen.",
+      "en": "Search for the Gondola Prototype at the top of the Dried Riverbed",
+      "es": "Busca el prototipo de telecabina en lo alto del lecho del río seco",
+      "fr": "Chercher le prototype de télécabine au sommet de la Rivière asséchée",
+      "he": "מצא את אב-הטיפוס של הגונדולה בראש אפיק הנהר היבש",
+      "hr": "Potraži Prototip gondole na vrhu Suhog riječnog korita",
+      "it": "Cerca il prototipo di Gondola in cima al fiume prosciugato",
+      "ja": "枯れ川の上流にあるゴンドラの試作機を探す",
+      "ko-KR": "메마른 강 위쪽에서 곤돌라 시제품 찾기",
+      "no": "Finn gondolprototypen på toppen av det Tørre elveleiet",
+      "pl": "Poszukaj prototypu gondoli na szczycie wyschniętej rzeki",
+      "pt": "Procure pelo Protótipo de Gôndola no topo do Leito do Rio Seco",
+      "pt-BR": "Procure pelo Protótipo de Gôndola no topo do Rio Seco",
+      "ru": "Найдите прототип гондолы в высохшем русле реки.",
+      "sr": "Potraži Prototip gondole na vrhu presušenog rečnog korita",
+      "tr": "Kurumuş Nehir Yatağı’nın tepesinde Gondol Prototipi'ni ara",
+      "uk": "Знайдіть прототип гондоли на верхівці Висохлого русла річки",
+      "zh-CN": "在干河床顶端搜寻吊舱原型机",
+      "zh-TW": "在乾河頂部搜尋纜車試作品"
+    },
+    {
+      "da": "Installer ARC-ydelsesstål",
+      "de": "Verbaue ARC-Hochleistungsstahl.",
+      "en": "Install ARC Performance Steel",
+      "es": "Instala el acero resistente ARC",
+      "fr": "Installer l'acier de performance ARC",
+      "he": "התקן פלדת ביצועי ARC",
+      "hr": "Instaliraj ARC Performansni čelik",
+      "it": "Installa acciaio performante ARC",
+      "ja": "ARC高性能スチールを取り付ける",
+      "ko-KR": "아크 고강도 강철 설치하기",
+      "no": "Installer ARC Ytelsesstål",
+      "pl": "Zamontuj wysoko wydajną stal ARC",
+      "pt": "Instalar Aço de Desempenho ARC",
+      "pt-BR": "Instale o Aço de Performance ARC",
+      "ru": "Используйте высокопрочную сталь ARC.",
+      "sr": "Instaliraj ARC Performans čelik",
+      "tr": "ARC Performans Çeliği'ni yerleştir",
+      "uk": "Встановіть продуктивну сталь ARC",
+      "zh-CN": "安装ARC高性能钢",
+      "zh-TW": "安裝ARC高性能鋼"
+    },
+    {
+      "da": "Installer ARC-pop-aftrækker",
+      "de": "Verbaue ARC-Pop-Auslöser.",
+      "en": "Install ARC Pop Trigger",
+      "es": "Instala el gatillo de tronador ARC",
+      "fr": "Installer le détonateur de Pop ARC",
+      "he": "התקן הדק קופצני ARC",
+      "hr": "Instaliraj ARC Pop okidač",
+      "it": "Installa grilletto di Pop ARC",
+      "ja": "ARCポップトリガーを取り付ける",
+      "ko-KR": "아크 팝 트리거 설치하기",
+      "no": "Installer ARC Pop-avtrekker",
+      "pl": "Zamontuj aktywator trzaskacza ARC",
+      "pt": "Instalar Gatilho Pop ARC",
+      "pt-BR": "Instale o Gatilho de Estalinho ARC",
+      "ru": "Используйте пусковое устройство «Взрывобота» ARC.",
+      "sr": "Instaliraj ARC Pop okidač",
+      "tr": "ARC Ani Tetiği'ni yerleştir",
+      "uk": "Встановіть спусковий гачок ARC \"Поп\"",
+      "zh-CN": "安装ARC“爆爆”触发器",
+      "zh-TW": "安裝ARC氣泡觸發器"
+    },
+    {
+      "da": "Installer ARC-syntetisk harpiks",
+      "de": "Verbaue ARC-Kunstharz.",
+      "en": "Install ARC Synthetic Resin",
+      "es": "Instala la resina sintética ARC",
+      "fr": "Installer la résine synthétique ARC",
+      "he": "התקן שרף סינתטי ARC",
+      "hr": "Instaliraj ARC Sintetičku smolu",
+      "it": "Installa resina sintetica ARC",
+      "ja": "ARC合成樹脂を取り付ける",
+      "ko-KR": "아크 합성수지 설치하기",
+      "no": "Installer ARC Syntetisk harpiks",
+      "pl": "Zamontuj żywicę syntetyczną ARC",
+      "pt": "Instalar Resina Sintética ARC",
+      "pt-BR": "Instale a Resina Sintética ARC",
+      "ru": "Используйте синтетическую смолу ARC.",
+      "sr": "Instaliraj ARC Sintetičku smolu",
+      "tr": "ARC Sentetik Reçinesi'ni yerleştir",
+      "uk": "Встановіть синтетичну смолу ARC",
+      "zh-CN": "安装ARC合成树脂",
+      "zh-TW": "安裝ARC合成樹脂"
+    },
+    {
+      "da": "Installer ARC-termoforing",
+      "de": "Verbaue ARC-Thermofütterung.",
+      "en": "Install ARC Thermo Lining",
+      "es": "Instala el revestimiento térmico ARC",
+      "fr": "Installer la doublure thermique ARC",
+      "he": "התקן ריפוד תרמי ARC",
+      "hr": "Instaliraj ARC Termo oblogu",
+      "it": "Installa fodera termica ARC",
+      "ja": "ARC耐熱裏地を取り付ける",
+      "ko-KR": "아크 단열 안감 설치하기",
+      "no": "Installer ARC Termofôr",
+      "pl": "Zamontuj wyściółkę termiczną ARC",
+      "pt": "Instalar Revestimento Térmico ARC",
+      "pt-BR": "Instale o Revestimento Térmico ARC",
+      "ru": "Используйте термопрокладку ARC.",
+      "sr": "Instaliraj ARC Termo postavu",
+      "tr": "ARC Termal Kaplaması'nı yerleştir",
+      "uk": "Встановіть термопідкладку ARC",
+      "zh-CN": "安装ARC隔热衬里",
+      "zh-TW": "安裝ARC熱內襯"
+    },
+    {
+      "da": "Aktiver gondolprototypen",
+      "de": "Aktiviere den Gondel-Prototypen.",
+      "en": "Activate the Gondola Prototype",
+      "es": "Activa el prototipo de telecabina",
+      "fr": "Activer le prototype de télécabine",
+      "he": "הפעל את אב-הטיפוס של הגונדולה",
+      "hr": "Aktiviraj Prototip gondole",
+      "it": "Attiva il prototipo di Gondola",
+      "ja": "ゴンドラの試作機を起動する",
+      "ko-KR": "곤돌라 시제품 활성화하기",
+      "no": "Aktiver gondolprototypen",
+      "pl": "Aktywuj prototyp gondoli",
+      "pt": "Ativar o Protótipo de Gôndola",
+      "pt-BR": "Ative o Protótipo de Gôndola",
+      "ru": "Активируйте прототип гондолы.",
+      "sr": "Aktiviraj Prototip gondole",
+      "tr": "Gondol Prototipini Etkinleştir",
+      "uk": "Активуйте прототип гондоли",
+      "zh-CN": "启动吊舱原型机",
+      "zh-TW": "啟動纜車試作品"
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "arc_performance_steel",
+      "quantity": 3
+    },
+    {
+      "itemId": "arc_thermo_lining",
+      "quantity": 3
+    },
+    {
+      "itemId": "arc_synthetic_resin",
+      "quantity": 3
+    }
+  ],
+  "xp": 8000,
+  "previousQuestIds": ["ss4"],
+  "nextQuestIds": [],
+  "videoUrl": "https://youtu.be/nDgb3jmql7Y",
+  "updatedAt": "10/07/2026",
+  "objectiveTree": {
+    "id": "386172361",
+    "children": [
+      {
+        "id": "485522059",
+        "children": [
+          {
+            "id": "302501732",
+            "index": 0,
+            "type": "step"
+          },
+          {
+            "id": "630628537",
+            "index": 1,
+            "type": "step"
+          }
+        ],
+        "type": "all"
+      },
+      {
+        "id": "385418326",
+        "children": [
+          {
+            "id": "364664969",
+            "children": [
+              {
+                "id": "587749617",
+                "index": 2,
+                "type": "step"
+              },
+              {
+                "id": "935833307",
+                "children": [
+                  {
+                    "id": "433497709",
+                    "index": 3,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_performance_steel"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "879591109",
+                    "index": 4,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "pop_trigger"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "347766763",
+                    "index": 5,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_synthetic_resin"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "120061977",
+                    "index": 6,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_thermo_lining"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  }
+                ],
+                "type": "all"
+              },
+              {
+                "id": "827966999",
+                "index": 7,
+                "type": "step"
+              }
+            ],
+            "type": "sequence"
+          },
+          {
+            "id": "968334249",
+            "children": [
+              {
+                "id": "990881024",
+                "index": 8,
+                "type": "step"
+              },
+              {
+                "id": "829692148",
+                "children": [
+                  {
+                    "id": "852014522",
+                    "index": 9,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_performance_steel"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "761967976",
+                    "index": 10,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "pop_trigger"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "571521533",
+                    "index": 11,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_synthetic_resin"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "149943075",
+                    "index": 12,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_thermo_lining"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  }
+                ],
+                "type": "all"
+              },
+              {
+                "id": "360478485",
+                "index": 13,
+                "type": "step"
+              }
+            ],
+            "type": "sequence"
+          },
+          {
+            "id": "449687809",
+            "children": [
+              {
+                "id": "660296722",
+                "index": 14,
+                "type": "step"
+              },
+              {
+                "id": "612710540",
+                "children": [
+                  {
+                    "id": "982608586",
+                    "index": 15,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_performance_steel"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "777392778",
+                    "index": 16,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "pop_trigger"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "993704755",
+                    "index": 17,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_synthetic_resin"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "952748688",
+                    "index": 18,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_thermo_lining"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  }
+                ],
+                "type": "all"
+              },
+              {
+                "id": "108876128",
+                "index": 19,
+                "type": "step"
+              }
+            ],
+            "type": "sequence"
+          },
+          {
+            "id": "748910829",
+            "children": [
+              {
+                "id": "774265477",
+                "index": 20,
+                "type": "step"
+              },
+              {
+                "id": "784892026",
+                "children": [
+                  {
+                    "id": "788768512",
+                    "index": 21,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_performance_steel"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "215658284",
+                    "index": 22,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "pop_trigger"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "348513519",
+                    "index": 23,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_synthetic_resin"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  },
+                  {
+                    "id": "330497776",
+                    "index": 24,
+                    "items": [
+                      {
+                        "amount": 1,
+                        "itemId": "arc_thermo_lining"
+                      }
+                    ],
+                    "itemUse": "consume",
+                    "type": "step"
+                  }
+                ],
+                "type": "all"
+              },
+              {
+                "id": "638097326",
+                "index": 25,
+                "type": "step"
+              }
+            ],
+            "type": "sequence"
+          }
+        ],
+        "type": "choose"
+      }
+    ],
+    "type": "sequence"
+  },
+  "slug": "to-the-skies"
+}
