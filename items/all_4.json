@@ -1,207 +1,5 @@
 [
   {
-    "id": "draped_debris_g",
-    "name": {
-      "da": "Draperet Vragdel G",
-      "de": "Verhüllte Trümmer G",
-      "en": "Draped Debris G",
-      "es": "Escombros cubiertos G",
-      "fr": "Débris drapés G",
-      "he": "הריסות מכוסות ז'",
-      "hr": "Prekrivene ruševine G",
-      "it": "Detriti drappeggiati G",
-      "ja": "布で覆われたガレキ G",
-      "ko-KR": "드리운 잔해 G",
-      "no": "Drapert rusk G",
-      "pl": "Przystrojone szczątki G",
-      "pt": "Detritos Drapeados G",
-      "pt-BR": "Detritos Drapeados G",
-      "ru": "Драпированные обломки G",
-      "sr": "Prekriveni otpaci G",
-      "tr": "Örtülü Moloz G",
-      "uk": "Задраповані уламки Ґ",
-      "zh-CN": "披挂残骸 G",
-      "zh-TW": "披覆碎片 G"
-    },
-    "type": "Outpost Furniture",
-    "rarity": "Common",
-    "stackSize": 1,
-    "recyclesInto": {
-      "planks": 5
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/draped_debris_g.png",
-    "updatedAt": "10/08/2026",
-    "addedIn": "2.0"
-  },
-  {
-    "id": "dried_out_arc_resin",
-    "name": {
-      "da": "Udtørret ARC-harpiks",
-      "de": "Ausgetrocknetes ARC-Harz",
-      "en": "Dried-Out ARC Resin",
-      "es": "Resina ARC seca",
-      "fr": "Résine ARC desséchée",
-      "he": "שרף ARC מיובש",
-      "hr": "Isušena ARC Smola",
-      "it": "Resina ARC essiccata",
-      "ja": "乾燥したARC樹脂",
-      "ko-KR": "말라버린 아크 수지",
-      "no": "Uttørket ARC-harpiks",
-      "pl": "Wysuszona żywica ARC",
-      "pt": "Resina ARC seca",
-      "pt-BR": "Resina ARC Ressecada",
-      "ru": "Засохшая смола ARC",
-      "sr": "Isušena ARC Smola",
-      "tr": "Kurumuş ARC Reçinesi",
-      "uk": "Висохла смола ARC",
-      "zh-CN": "干涸的ARC树脂",
-      "zh-TW": "乾掉的ARC樹脂"
-    },
-    "description": {
-      "da": "Kan genbruges til fremstillingsmaterialer.",
-      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Can be recycled into crafting materials.",
-      "es": "Se puede reciclar para obtener materiales de fabricación.",
-      "fr": "Peut être recyclé en matériaux d'artisanat.",
-      "he": "ניתן למחזר לחומרי יצירה.",
-      "hr": "Može se reciklirati u materijale za izradu.",
-      "it": "Si può riciclare in materiali da creazione.",
-      "ja": "リサイクルすると製作用素材になる。",
-      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
-      "no": "Kan resirkuleres til fremstillingsmaterialer.",
-      "pl": "Można wykorzystać ponownie do wytworzenia materiałów.",
-      "pt": "Pode ser reciclado em materiais de criação.",
-      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
-      "ru": "Можно переработать, чтобы получить материалы.",
-      "sr": "Može se reciklirati u materijale za izradu.",
-      "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафтингу.",
-      "zh-CN": "可回收为制作材料。",
-      "zh-TW": "可回收成製作材料。"
-    },
-    "type": "Recyclable",
-    "rarity": "Uncommon",
-    "foundIn": "ARC",
-    "value": 640,
-    "weightKg": 1,
-    "stackSize": 3,
-    "recyclesInto": {
-      "plastic_parts": 9
-    },
-    "salvagesInto": {
-      "plastic_parts": 4
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/dried_out_arc_resin.png",
-    "updatedAt": "01/09/2026",
-    "_community": [
-      "foundIn"
-    ],
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "CraftingMaterial.Recyclable",
-        "itemType": [
-          "Misc"
-        ],
-        "theme": [
-          "ARC"
-        ]
-      }
-    }
-  },
-  {
-    "id": "duct_tape",
-    "name": {
-      "da": "Gaffatape",
-      "de": "Isolierband",
-      "en": "Duct Tape",
-      "es": "Cinta americana",
-      "fr": "Ruban adhésif",
-      "he": "סרט הדבקה",
-      "hr": "Ljepljiva Traka",
-      "it": "Nastro adesivo",
-      "ja": "ダクトテープ",
-      "ko-KR": "덕트 테이프",
-      "no": "Gaffateip",
-      "pl": "Mocna taśma klejąca",
-      "pt": "Fita adesiva",
-      "pt-BR": "Fita Adesiva",
-      "ru": "Скотч",
-      "sr": "Lepljiva Traka",
-      "tr": "Koli Bandı",
-      "uk": "Клейка стрічка",
-      "zh-CN": "胶带",
-      "zh-TW": "大力膠帶"
-    },
-    "description": {
-      "da": "Bruges til at fremstille en lang række genstande. Kan genbruges til fremstillingsmaterialer.",
-      "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden.",
-      "en": "Used to craft a wide range of items. Can be recycled into crafting materials.",
-      "es": "Sirve para fabricar una gran variedad de objetos. Se puede reciclar para obtener materiales de fabricación.",
-      "fr": "Permet de fabriquer toute une panoplie d'objets. Peut être recyclé en matériaux d'artisanat.",
-      "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזר לחומרי יצירה.",
-      "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
-      "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione.",
-      "ja": "さまざまなアイテムの製作に使用。リサイクルすると製作用素材になる。",
-      "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용할 수 있습니다.",
-      "no": "Brukes til å fremstille et bredt utvalg av gjenstander. Kan resirkuleres til fremstillingsmaterialer.",
-      "pl": "Rzecz służąca do wytwarzania szerokiej gamy przedmiotów. Można przetworzyć na materiały do wytwarzania.",
-      "pt": "Usado para criar uma grande variedade de itens. Pode ser reciclado em materiais de criação.",
-      "pt-BR": "Serve para fabricar uma ampla gama de itens. Pode reciclar por materiais de fabricação.",
-      "ru": "Можно пустить на изготовление разных предметов или переработать, чтобы получить материалы.",
-      "sr": "Koristi se za izradu raznih predmeta. Može se reciklirati u materijale za izradu.",
-      "tr": "Çeşitli eşyalar üretmede kullanılır. Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Використовується для створення різноманітних предметів. Можна переробити на матеріали для крафтингу.",
-      "zh-CN": "用于制作各种物品。可回收为制作材料。",
-      "zh-TW": "用來製作多種物品。可回收成製作材料。"
-    },
-    "type": "Topside Material",
-    "rarity": "Uncommon",
-    "foundIn": "Residential, Commercial",
-    "value": 300,
-    "weightKg": 0.25,
-    "stackSize": 15,
-    "recyclesInto": {
-      "fabric": 3
-    },
-    "salvagesInto": {
-      "fabric": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/duct_tape.png",
-    "updatedAt": "03/22/2026",
-    "_community": [
-      "foundIn"
-    ],
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "CraftingMaterial.Topside",
-        "dropType": [
-          "QuestItem",
-          "Salvage.Material.Uncommon"
-        ],
-        "itemType": [
-          "Misc"
-        ],
-        "theme": [
-          "Commercial",
-          "Residential"
-        ]
-      }
-    },
-    "vendors": [
-      {
-        "cost": {
-          "assorted_seeds": 6
-        },
-        "limit": 10,
-        "refreshSeconds": 86400,
-        "requiredLevel": 7,
-        "trader": "Celeste"
-      }
-    ]
-  },
-  {
     "id": "durable_cloth",
     "name": {
       "da": "Holdbart stof",
@@ -11799,6 +11597,298 @@
         "theme": [
           "Residential"
         ]
+      }
+    }
+  },
+  {
+    "id": "garlic_press",
+    "name": {
+      "da": "Hvidløgspresser",
+      "de": "Knoblauchpresse",
+      "en": "Garlic Press",
+      "es": "Prensa de ajos",
+      "fr": "Presse-ail",
+      "he": "כותש שום",
+      "hr": "Preša za češnjak",
+      "it": "Schiaccia-aglio",
+      "ja": "ニンニクおろし器",
+      "ko-KR": "마늘 다지개",
+      "no": "Hvitløkspresse",
+      "pl": "Wyciskarka do czosnku",
+      "pt": "Espremedor de Alho",
+      "pt-BR": "Prensa de Alho",
+      "ru": "Пресс для чеснока",
+      "sr": "Presa za beli luk",
+      "tr": "Sarımsak Ezici",
+      "uk": "Давилка для часнику",
+      "zh-CN": "压蒜器",
+      "zh-TW": "壓蒜器"
+    },
+    "description": {
+      "da": "Den presser hvidløg, oliven og sandsynligvis mange andre ting.",
+      "de": "Hiermit kann man Knoblauch, Oliven und wahrscheinlich noch viele andere Dinge pressen.",
+      "en": "It'll press garlic, olives, and probably many other things.",
+      "es": "Prensa ajos, aceitunas y seguro que muchas otras cosas más.",
+      "fr": "Il presse l'ail, les olives et sûrement bien d'autres choses.",
+      "he": "זה יכתוש שום, זיתים, וכנראה עוד הרבה דברים אחרים.",
+      "hr": "Prešat će češnjak, masline i vjerojatno mnoge druge stvari.",
+      "it": "Schiaccia aglio, olive, e probabilmente molto altro.",
+      "ja": "ニンニクとか、オリーブとか、他にもいろいろすり潰してくれる。",
+      "ko-KR": "마늘, 올리브를 시원하게 다집니다. 아마 다른 것도요.",
+      "no": "Den presser hvitløk, oliven og sannsynligvis mange andre ting.",
+      "pl": "Można tym zgnieść czosnek, oliwki i pewnie jeszcze wiele innych rzeczy.",
+      "pt": "Vai espremer alho, azeitonas e provavelmente muitas outras coisas.",
+      "pt-BR": "Prensa alho, azeitonas e provavelmente mais um monte de coisas.",
+      "ru": "С его помощью можно давить чеснок, оливки и, наверное, многое другое.",
+      "sr": "Presaće beli luk, masline i verovatno mnoge druge stvari.",
+      "tr": "Sarımsak, zeytin ve daha birçok şeyi ezer.",
+      "uk": "Може давити часник, оливки і, ймовірно, багато чого іншого.",
+      "zh-CN": "你能用它压碎大蒜、橄榄，说不定还能压些其他东西。",
+      "zh-TW": "可以用來壓碎大蒜、橄欖，還有許多其他東西大概也能壓。"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "foundIn": "Residential, Commercial",
+    "value": 1000,
+    "weightKg": 0.8,
+    "stackSize": 3,
+    "recyclesInto": {
+      "metal_parts": 12
+    },
+    "salvagesInto": {
+      "metal_parts": 7
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/garlic_press.png",
+    "updatedAt": "11/04/2025",
+    "_community": [
+      "foundIn"
+    ],
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "CraftingMaterial.Recyclable",
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Commercial",
+          "Residential"
+        ]
+      }
+    }
+  },
+  {
+    "id": "garnet",
+    "name": {
+      "da": "Garnet",
+      "de": "Granat",
+      "en": "Garnet",
+      "es": "Granate",
+      "fr": "Grenat",
+      "he": "גארנט",
+      "hr": "Granat",
+      "it": "Granato",
+      "ja": "ガーネット",
+      "ko-KR": "석류색",
+      "no": "Granat",
+      "pl": "Granatowy",
+      "pt": "Granada",
+      "pt-BR": "Granada",
+      "ru": "Гранат",
+      "sr": "Garnet",
+      "tr": "Nar Çiçeği",
+      "uk": "Гранат",
+      "zh-CN": "石榴石",
+      "zh-TW": "石榴石紅"
+    },
+    "type": "Stencil",
+    "rarity": "Uncommon",
+    "value": 5000,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/garnet.png",
+    "updatedAt": "10/08/2026",
+    "addedIn": "2.0",
+    "mechanics": {
+      "classification": {
+        "category": "Recipe.ItemSkin",
+        "dropType": [
+          "Stencil"
+        ],
+        "itemType": [
+          "Recipe.ItemSkin"
+        ]
+      }
+    }
+  },
+  {
+    "id": "gas_grenade_trap",
+    "name": {
+      "da": "Gasgranatefælde",
+      "de": "Laserfalle: Gas",
+      "en": "Gas Grenade Trap",
+      "es": "Trampa láser: gas",
+      "fr": "Piège laser - Gaz",
+      "he": "מלכודת רימון גז",
+      "hr": "Zamka s Plinskom Granatom",
+      "it": "Trappola laser: Gas",
+      "ja": "レーザートラップ：ガス",
+      "ko-KR": "가스 수류탄 함정",
+      "no": "Gassgranatefelle",
+      "pl": "Pułapka laserowa: gaz",
+      "pt": "Armadilha de granada de gás",
+      "pt-BR": "Armadilha a laser: gás",
+      "ru": "Лазерная ловушка: газ",
+      "sr": "Zamka sa Gasnom Granatom",
+      "tr": "Lazer Tuzağı: Gaz",
+      "uk": "Пастка з газовою гранатою",
+      "zh-CN": "激光陷阱：毒气",
+      "zh-TW": "雷射陷阱：瓦斯"
+    },
+    "description": {
+      "da": "En lasertråd der detonerer en gasgranat.",
+      "de": "Ein Laser-Stolperdraht, der eine Gasgranate detonieren lässt.",
+      "en": "A laser trip wire that detonates a Gas Grenade.",
+      "es": "Un cable trampa láser que detona una granada de gas.",
+      "fr": "Un piège à détection laser qui active une grenade à gaz.",
+      "he": "חוט תיל לייזר המפוצץ רימון גז.",
+      "hr": "Laserska žica zamka koja detonira Plinsku Granatu.",
+      "it": "Un cavo d'innesco laser che fa detonare una granata a gas.",
+      "ja": "ガス・グレネードに取り付けて爆発させられる、レーザートリップワイヤー。",
+      "ko-KR": "가스 수류탄을 폭발시킬 수 있는 레이저 트립 와이어입니다.",
+      "no": "En lasertråd som detonerer en gassgranat.",
+      "pl": "Pułapka laserowa z granatem gazowym.",
+      "pt": "Um fio de disparo a laser que detona uma granada de gás.",
+      "pt-BR": "Armadilha a laser que detona uma Granada de Gás.",
+      "ru": "Лазерная растяжка, взрывающая газовую гранату.",
+      "sr": "Laserska žica zamka koja detonira Gasnu Granatu.",
+      "tr": "Gaz Bombası patlatan bir lazer tuzağı.",
+      "uk": "Лазерна розтяжка, що підриває газову гранату.",
+      "zh-CN": "用于引爆毒气手雷的激光拌线。",
+      "zh-TW": "一種雷射絆索，可引爆瓦斯手榴彈。"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 3,
+    "blueprintLocked": true,
+    "effects": {
+      "Duration": {
+        "value": "20s",
+        "da": "Varighed",
+        "de": "Dauer",
+        "en": "Duration",
+        "es": "Duración",
+        "fr": "Durée",
+        "he": "משך",
+        "hr": "Trajanje",
+        "it": "Durata",
+        "ja": "持続時間",
+        "ko-KR": "지속 시간",
+        "no": "Varighet",
+        "pl": "Czas trwania",
+        "pt": "Duração",
+        "pt-BR": "Duração",
+        "ru": "Длительность",
+        "sr": "Trajanje",
+        "tr": "Süre",
+        "uk": "Тривалість",
+        "zh-CN": "持续时间",
+        "zh-TW": "持續時間"
+      },
+      "Radius": {
+        "value": "7.5m",
+        "da": "Radius",
+        "de": "Radius",
+        "en": "Radius",
+        "es": "Radio",
+        "fr": "Rayon",
+        "he": "רדיוס",
+        "hr": "Radijus",
+        "it": "Raggio",
+        "ja": "範囲",
+        "ko-KR": "반경",
+        "no": "Radius",
+        "pl": "Promień",
+        "pt": "Raio",
+        "pt-BR": "Raio",
+        "ru": "Радиус",
+        "sr": "Radijus",
+        "tr": "Yarıçap",
+        "uk": "Радіус",
+        "zh-CN": "范围",
+        "zh-TW": "範圍"
+      },
+      "Stamina Drain": {
+        "value": "25/s",
+        "da": "Udholdenhedstab",
+        "de": "Ausdauerabzug",
+        "en": "Stamina Drain",
+        "es": "Drenaje de resistencia",
+        "fr": "Drain d'endurance",
+        "he": "דלדול סיבולת",
+        "hr": "Iscrpljivanje Izdržljivosti",
+        "it": "Drenaggio stamina",
+        "ja": "スタミナ消耗",
+        "ko-KR": "스태미나 소모",
+        "no": "Utmattelsestap",
+        "pl": "Wyczerpanie kondycji",
+        "pt": "Dreno de stamina",
+        "pt-BR": "Drenagem de vigor",
+        "ru": "Истощение выносливости",
+        "sr": "Iscrpljivanje Izdržljivosti",
+        "tr": "Dayanıklılık Tükenmesi",
+        "uk": "Виснаження витривалості",
+        "zh-CN": "体力消耗",
+        "zh-TW": "體力消耗"
+      }
+    },
+    "craftBench": [
+      "in_raid",
+      "workbench"
+    ],
+    "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_5c",
+        "surv_3r"
+      ],
+      "workbench": [
+        "surv_5c"
+      ]
+    },
+    "recipe": {
+      "gas_grenade": 1,
+      "wires": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade_trap.png",
+    "updatedAt": "05/30/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "card": {
+        "durationSec": 20,
+        "radiusM": 7.5,
+        "staminaDrain": 25
+      },
+      "classification": {
+        "category": "Utility.Mine",
+        "dropType": [
+          "Consumable.Deployable"
+        ],
+        "itemType": [
+          "Deployable"
+        ],
+        "questGroups": [
+          "Items.Deployable.AllTrapsAndMines"
+        ]
+      },
+      "deployable": {
+        "deploymentTimeSec": 1,
+        "deployRangeM": 5,
+        "maxHealth": 5
       }
     }
   }

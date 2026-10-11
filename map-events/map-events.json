@@ -709,41 +709,6 @@
       "category": "minor",
       "disabled": false
     },
-    "unmapped--1064764405": {
-      "displayName": "Hurricane",
-      "icon": "https://cdn.arctracker.io/map-events/hurricane.png",
-      "translationKey": "hurricane",
-      "localizations": {
-        "da": "Orkan",
-        "de": "Hurrikan",
-        "en": "Hurricane",
-        "es": "Huracán",
-        "fr": "Ouragan",
-        "he": "הוריקן",
-        "hr": "Uragan",
-        "it": "Uragano",
-        "ja": "ハリケーン",
-        "ko": "허리케인",
-        "no": "Orkan",
-        "pl": "Huragan",
-        "pt": "Furacão",
-        "pt-BR": "Furacão",
-        "ru": "Ураган",
-        "sr": "Uragan",
-        "tr": "Kasırga",
-        "uk": "Ураган",
-        "zh-CN": "飓风",
-        "zh-TW": "颶風"
-      },
-      "category": "major"
-    },
-    "unmapped-1675344979": {
-      "displayName": "Close Scrutiny",
-      "icon": "https://cdn.arctracker.io/map-events/close-scrutiny.png",
-      "translationKey": "closeScrutiny",
-      "localizations": {},
-      "category": "major"
-    },
     "windswept": {
       "displayName": "Windswept",
       "icon": "https://cdn.arctracker.io/map-events/hurricane.png",
@@ -797,8 +762,8 @@
         "5": "frigate",
         "7": "night-raid",
         "8": "frigate",
-        "11": "electromagnetic-storm",
-        "14": "night-raid",
+        "11": "hurricane",
+        "12": "frigate",
         "15": "electromagnetic-storm",
         "17": "frigate",
         "20": "frigate"
@@ -806,7 +771,6 @@
       "minor": {
         "2": "prospecting-probes",
         "10": "matriarch",
-        "13": "prospecting-probes",
         "16": "prospecting-probes",
         "18": "matriarch",
         "21": "matriarch",
@@ -818,9 +782,9 @@
         "2": "frigate",
         "5": "night-raid",
         "8": "night-raid",
-        "13": "frigate",
+        "11": "frigate",
         "16": "night-raid",
-        "17": "unmapped-1675344979",
+        "17": "close-scrutiny",
         "19": "frigate"
       },
       "minor": {
@@ -829,7 +793,7 @@
         "4": "bird-city",
         "7": "bird-city",
         "10": "bird-city",
-        "12": "bird-city",
+        "13": "bird-city",
         "15": "bird-city",
         "18": "bird-city",
         "21": "bird-city",
@@ -842,7 +806,8 @@
         "1": "frigate",
         "3": "night-raid",
         "9": "frigate",
-        "12": "frigate",
+        "13": "hurricane",
+        "14": "frigate",
         "15": "frigate",
         "18": "frigate",
         "21": "electromagnetic-storm"
@@ -850,7 +815,7 @@
       "minor": {
         "5": "prospecting-probes",
         "8": "matriarch",
-        "13": "harvester",
+        "11": "lush-blooms",
         "16": "matriarch",
         "17": "uncovered-caches",
         "20": "harvester",
@@ -862,8 +827,7 @@
         "1": "night-raid",
         "3": "frigate",
         "6": "frigate",
-        "11": "frigate",
-        "14": "frigate",
+        "12": "night-raid",
         "18": "night-raid",
         "21": "frigate",
         "23": "frigate"
@@ -871,7 +835,7 @@
       "minor": {
         "6": "redirection",
         "9": "redirection",
-        "14": "redirection",
+        "12": "redirection",
         "17": "redirection",
         "21": "redirection"
       }
@@ -880,7 +844,6 @@
       "major": {
         "6": "night-raid",
         "10": "night-raid",
-        "12": "night-raid",
         "20": "night-raid",
         "22": "night-raid"
       },
@@ -889,8 +852,8 @@
         "3": "beachcombing",
         "6": "beachcombing",
         "9": "beachcombing",
-        "11": "beachcombing",
-        "14": "beachcombing",
+        "12": "beachcombing",
+        "13": "prospecting-probes",
         "17": "beachcombing",
         "19": "uncovered-caches",
         "20": "beachcombing"
@@ -902,6 +865,7 @@
         "4": "night-raid",
         "6": "night-raid",
         "10": "night-raid",
+        "14": "night-raid",
         "15": "night-raid",
         "22": "night-raid"
       },
@@ -913,7 +877,7 @@
         "4": "frigate",
         "7": "frigate",
         "10": "frigate",
-        "13": "electromagnetic-storm",
+        "13": "frigate",
         "16": "frigate",
         "19": "electromagnetic-storm",
         "22": "frigate",
@@ -929,6 +893,7 @@
         "8": "harvester",
         "9": "lush-blooms",
         "11": "prospecting-probes",
+        "12": "matriarch",
         "14": "matriarch"
       }
     }
