@@ -58,7 +58,25 @@ async function run() {
     }
   }
 
-  if (updated === 0 && added === 0) {
+  // Projects the API no longer lists are past seasonal projects. Keep them
+  // (history, existing pages) but make sure they are marked as disabled.
+  // Nothing is deleted here, so only guard against an empty API response.
+  if (Object.keys(payload.projects).length === 0) {
+    throw new Error(
+      "API returned no projects; refusing to disable all of them"
+    );
+  }
+  let disabled = 0;
+  for (let i = 0; i < next.length; i += 1) {
+    const project = next[i];
+    if (!project?.id || project.id in payload.projects) continue;
+    if (project.disabled !== true) {
+      next[i] = { ...project, disabled: true };
+      disabled += 1;
+    }
+  }
+
+  if (updated === 0 && added === 0 && disabled === 0) {
     console.log("No project changes detected");
     return;
   }
@@ -66,7 +84,7 @@ async function run() {
   await writeFile(targetPath, `${JSON.stringify(next, null, 2)}\n`);
 
   console.log(
-    `Updated projects.json: ${updated} project(s) changed, ${added} project(s) added`
+    `Updated projects.json: ${updated} project(s) changed, ${added} project(s) added, ${disabled} project(s) disabled`
   );
 }
 

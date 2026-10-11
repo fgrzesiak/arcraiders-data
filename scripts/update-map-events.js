@@ -3,6 +3,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { assertSafeToPrune } from "./lib/sync-utils.js";
 
 const API_URL = "https://arctracker.io/api/map-events";
 
@@ -135,7 +136,13 @@ function resolveEventSlug(eventName, displayNameToSlug, eventTypes) {
 }
 
 function mergeEventTypes(localEventTypes = {}, remoteEventTypes = {}) {
-  const next = { ...localEventTypes };
+  // Only event types the API still knows survive; stale/unmapped ones are dropped.
+  assertSafeToPrune(
+    "map-events",
+    Object.keys(localEventTypes).length,
+    Object.keys(remoteEventTypes).length
+  );
+  const next = {};
 
   for (const [slug, remoteConfig] of Object.entries(remoteEventTypes)) {
     const localConfig = localEventTypes[slug] ?? {};
@@ -147,7 +154,7 @@ function mergeEventTypes(localEventTypes = {}, remoteEventTypes = {}) {
         remoteConfig?.localizations &&
         typeof remoteConfig.localizations === "object"
           ? remoteConfig.localizations
-          : localConfig.localizations ?? {}
+          : (localConfig.localizations ?? {})
     };
   }
 

@@ -3,6 +3,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { pruneStaleFiles } from "./lib/sync-utils.js";
 
 const API_URL = "https://arctracker.io/api/items";
 
@@ -57,13 +58,20 @@ async function run() {
     }
   }
 
-  if (updated === 0 && added === 0) {
+  // Remove entries the API no longer delivers (renamed/removed upstream).
+  const removed = await pruneStaleFiles(
+    targetDir,
+    payload.items.map((item) => item?.id).filter(Boolean),
+    "items"
+  );
+
+  if (updated === 0 && added === 0 && removed.length === 0) {
     console.log("No item changes detected");
     return;
   }
 
   console.log(
-    `Updated items: ${updated} item(s) changed, ${added} item(s) added`
+    `Updated items: ${updated} item(s) changed, ${added} item(s) added, ${removed.length} item(s) removed`
   );
 }
 

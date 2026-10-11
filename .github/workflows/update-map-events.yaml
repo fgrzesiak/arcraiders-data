@@ -5,18 +5,19 @@ on:
         - cron: "0 5 * * *"
     workflow_dispatch:
         inputs:
-            head-branch:
-                description: "Branch name to push map event updates"
-                type: string
-                default: "automation/map-events-update"
             base-branch:
-                description: "Target branch for the pull request"
+                description: "Only sync this branch (empty = main and mainv2)"
                 type: string
-                default: "main"
+                default: ""
 
 jobs:
     update-map-events:
         runs-on: ubuntu-latest
+        strategy:
+            fail-fast: false
+            matrix:
+                # The app reads mainv2 in production; main is the default branch.
+                base: ${{ fromJSON(inputs.base-branch && format('["{0}"]', inputs.base-branch) || '["main", "mainv2"]') }}
         permissions:
             contents: write
             pull-requests: write
@@ -24,6 +25,7 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
               with:
+                  ref: ${{ matrix.base }}
                   fetch-depth: 0
 
             - name: Install Bun
@@ -41,9 +43,9 @@ jobs:
               uses: peter-evans/create-pull-request@v6
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: ${{ inputs.head-branch || 'automation/map-events-update' }}
-                  base: ${{ inputs.base-branch || 'main' }}
-                  title: "Update map events"
+                  branch: ${{ matrix.base == 'main' && 'automation/map-events-update' || format('automation/map-events-update-{0}', matrix.base) }}
+                  base: ${{ matrix.base }}
+                  title: "Update map events (${{ matrix.base }})"
                   body: |
                       Automated sync of map-events from arctracker.io.
 
