@@ -59,7 +59,9 @@ async function run() {
     return;
   }
 
-  console.log(`Updated quests: ${updated} quest(s) changed, ${added} quest(s) added`);
+  console.log(
+    `Updated quests: ${updated} quest(s) changed, ${added} quest(s) added`
+  );
 }
 
 run().catch((error) => {

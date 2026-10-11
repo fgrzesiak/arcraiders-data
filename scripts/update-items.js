@@ -62,7 +62,9 @@ async function run() {
     return;
   }
 
-  console.log(`Updated items: ${updated} item(s) changed, ${added} item(s) added`);
+  console.log(
+    `Updated items: ${updated} item(s) changed, ${added} item(s) added`
+  );
 }
 
 run().catch((error) => {
