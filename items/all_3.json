@@ -231,7 +231,9 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.SMG",
-        "itemType": ["Weapon.Firearm"],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
         "questGroups": [
           "Items.AllWeapons",
           "Items.MediumAmmoWeapon",
@@ -250,7 +252,11 @@
           "firePower": 70000,
           "fireRate": 850,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -259,18 +265,51 @@
           "reloadTimeSec": 3.5
         },
         "damageFalloff": [
-          [0, 1.001],
-          [150, 1.001],
-          [170, 0.6]
+          [
+            0,
+            1.001
+          ],
+          [
+            150,
+            1.001
+          ],
+          [
+            170,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.1,
           "adsScale": 0.6,
           "fireGain": [
-            [0, 0.2, -0.0009838603, 0, "cubic"],
-            [2, 0.2, 0, 0, "linear"],
-            [6, 0.8, 0, 0, "linear"],
-            [30, 0.8, 0, 0.00034750637, "cubic"]
+            [
+              0,
+              0.2,
+              -0.0009838603,
+              0,
+              "cubic"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.8,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              30,
+              0.8,
+              0,
+              0.00034750637,
+              "cubic"
+            ]
           ],
           "fireMax": 2.5,
           "linearRecovery": true,
@@ -372,7 +411,11 @@
           "popMax": 0.1,
           "popRecoverySpeed": 0.05,
           "recoverySpeed": 2.8,
-          "unset": ["adsRecoveryMultiplier", "velocityMax", "velocity"],
+          "unset": [
+            "adsRecoveryMultiplier",
+            "velocityMax",
+            "velocity"
+          ],
           "velocityRecovery": 8
         },
         "equipTimeSec": 0.6,
@@ -393,33 +436,156 @@
           "adsGainMultiplier": 0.8,
           "lerpSpeed": 0.35,
           "pitch": [
-            [0, 0, 1.7013026, 1.7013168, "cubic"],
-            [3, 3.695467, 0.7664208, 0.7664239, "cubic"],
-            [16, 8, 0.041508995, 0.041507922, "cubic"]
+            [
+              0,
+              0,
+              1.7013026,
+              1.7013168,
+              "cubic"
+            ],
+            [
+              3,
+              3.695467,
+              0.7664208,
+              0.7664239,
+              "cubic"
+            ],
+            [
+              16,
+              8,
+              0.041508995,
+              0.041507922,
+              "cubic"
+            ]
           ],
-          "pitchProceduralRange": [0.05, 0.05],
+          "pitchProceduralRange": [
+            0.05,
+            0.05
+          ],
           "proceduralSwingSpeed": 5,
           "sampleCount": 30,
-          "unset": ["recoverySpeed", "recoveryDelay"],
-          "yaw": [
-            [0, 0, 0.04709477, 0, "cubic"],
-            [2, 0.1, 0, 0, "linear"],
-            [4, -0.2, 0, 0, "linear"],
-            [6, 0.1, 0, 0, "linear"],
-            [8.057065, -0.4, 0, 0, "linear"],
-            [10, -0.3, 0, 0, "linear"],
-            [12, -0.6, 0, 0, "linear"],
-            [14, -0.8, 0, 0, "linear"],
-            [16, -1.1, 0, 0, "linear"],
-            [18, -1, 0, 0, "linear"],
-            [20, -1.1, 0, 0, "linear"],
-            [22, -0.9, 0, 0, "linear"],
-            [24, -0.6, 0, 0, "linear"],
-            [26, -0.2, 0, 0, "linear"],
-            [28, 0.2, 0, 0, "linear"],
-            [30, 0, 0, 0, "linear"]
+          "unset": [
+            "recoverySpeed",
+            "recoveryDelay"
           ],
-          "yawProceduralRange": [-0.3, 0.3]
+          "yaw": [
+            [
+              0,
+              0,
+              0.04709477,
+              0,
+              "cubic"
+            ],
+            [
+              2,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              -0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              8.057065,
+              -0.4,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              10,
+              -0.3,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              12,
+              -0.6,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              14,
+              -0.8,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              16,
+              -1.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              18,
+              -1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              20,
+              -1.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              22,
+              -0.9,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              24,
+              -0.6,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              26,
+              -0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              28,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              30,
+              0,
+              0,
+              0,
+              "linear"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.3,
+            0.3
+          ]
         },
         "statBarOffsets": {
           "stability": 4.5
@@ -541,14 +707,24 @@
     "stackSize": 3,
     "imageFilename": "https://cdn.arctracker.io/items/v2/cat_bed.png",
     "updatedAt": "02/24/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.Trinket", "Salvage.UpgradeItems"],
-        "itemType": ["Misc.Trinket"],
-        "theme": ["Commercial", "Residential"]
+        "dropType": [
+          "Salvage.Trinket",
+          "Salvage.UpgradeItems"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "Commercial",
+          "Residential"
+        ]
       }
     }
   },
@@ -610,7 +786,9 @@
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "itemType": ["Misc.Trinket"]
+        "itemType": [
+          "Misc.Trinket"
+        ]
       }
     }
   },
@@ -648,8 +826,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.ItemSkin",
-        "dropType": ["Stencil"],
-        "itemType": ["Recipe.ItemSkin"]
+        "dropType": [
+          "Stencil"
+        ],
+        "itemType": [
+          "Recipe.ItemSkin"
+        ]
       }
     }
   },
@@ -718,8 +900,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -802,8 +988,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -886,7 +1076,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -958,8 +1150,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -1051,14 +1247,24 @@
     "stackSize": 50,
     "imageFilename": "https://cdn.arctracker.io/items/v2/chemicals.png",
     "updatedAt": "03/17/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Basic",
-        "dropType": ["Salvage.Material.Common"],
-        "itemType": ["Misc"],
-        "theme": ["Mechanical", "Medical", "Residential"]
+        "dropType": [
+          "Salvage.Material.Common"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Mechanical",
+          "Medical",
+          "Residential"
+        ]
       }
     },
     "vendors": [
@@ -1104,8 +1310,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -1208,14 +1418,22 @@
     "stackSize": 3,
     "imageFilename": "https://cdn.arctracker.io/items/v2/coffee_pot.png",
     "updatedAt": "02/24/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.Trinket"],
-        "itemType": ["Misc.Trinket"],
-        "theme": ["Residential"]
+        "dropType": [
+          "Salvage.Trinket"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "Residential"
+        ]
       }
     }
   },
@@ -2017,7 +2235,11 @@
               "zh-CN": "每5秒恢复1点生命值。受到伤害时，该效果暂停30秒。",
               "zh-TW": "每5秒恢復1點生命值。受到傷害時，效果會暫停30秒。"
             },
-            "values": [1, 5, 30]
+            "values": [
+              1,
+              5,
+              30
+            ]
           }
         ],
         "slots": {
@@ -2108,8 +2330,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     }
   },
@@ -2460,7 +2686,11 @@
               "zh-CN": "每5秒恢复2点生命值。受到伤害时，该效果暂停30秒。",
               "zh-TW": "每5秒恢復2點生命值。受到傷害時，效果會暫停30秒。"
             },
-            "values": [2, 5, 30]
+            "values": [
+              2,
+              5,
+              30
+            ]
           }
         ],
         "slots": {
@@ -2540,8 +2770,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -2904,7 +3138,9 @@
               "zh-CN": "已收起或卸下的手枪和大口径手枪的装备速度增加33%。",
               "zh-TW": "針對已收起或解除裝備的手槍和手砲，裝備速度加快33%。"
             },
-            "values": [33]
+            "values": [
+              33
+            ]
           }
         ],
         "slots": {
@@ -3047,13 +3283,21 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/comet_igniter.png",
     "updatedAt": "02/24/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "1.17",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Improvised", "Misc", "Throwable"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Improvised",
+          "Misc",
+          "Throwable"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -3265,8 +3509,12 @@
     "mechanics": {
       "classification": {
         "category": "Modification.Firearm.Muzzle",
-        "dropType": ["Equipment.Modification.Weapon"],
-        "itemType": ["Modification.Firearm.Muzzle"]
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Muzzle"
+        ]
       },
       "mod": {
         "modifiers": [
@@ -3366,8 +3614,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -3519,8 +3771,12 @@
     "mechanics": {
       "classification": {
         "category": "Modification.Firearm.Muzzle",
-        "dropType": ["Equipment.Modification.Weapon"],
-        "itemType": ["Modification.Firearm.Muzzle"]
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Muzzle"
+        ]
       },
       "mod": {
         "modifiers": [
@@ -3619,8 +3875,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     }
   },
@@ -3783,8 +4043,12 @@
     "mechanics": {
       "classification": {
         "category": "Modification.Firearm.Muzzle",
-        "dropType": ["Equipment.Modification.Weapon"],
-        "itemType": ["Modification.Firearm.Muzzle"]
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Muzzle"
+        ]
       },
       "mod": {
         "modifiers": [
@@ -3884,8 +4148,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -3969,14 +4237,23 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/complex_gun_parts.png",
     "updatedAt": "03/22/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Topside",
-        "dropType": ["Salvage.GunParts", "Salvage.Material.Epic"],
-        "itemType": ["Misc"],
-        "theme": ["Security"]
+        "dropType": [
+          "Salvage.GunParts",
+          "Salvage.Material.Epic"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Security"
+        ]
       }
     },
     "vendors": [
@@ -4025,8 +4302,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -4125,14 +4406,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/coolant.png",
     "updatedAt": "11/07/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Mechanical"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Mechanical"
+        ]
       }
     }
   },
@@ -4197,14 +4486,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/cooling_coil.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Industrial"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Industrial"
+        ]
       }
     }
   },
@@ -4269,14 +4566,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/cooling_fan.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Technological"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Technological"
+        ]
       }
     }
   },
@@ -4341,14 +4646,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/cracked_bioscanner.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Medical"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Medical"
+        ]
       }
     }
   },
@@ -4409,8 +4722,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -4502,7 +4819,10 @@
         "zh-TW": "安全墜落高度"
       }
     },
-    "craftBench": ["in_raid", "utility_bench"],
+    "craftBench": [
+      "in_raid",
+      "utility_bench"
+    ],
     "stationLevelRequired": 2,
     "recipe": {
       "durable_cloth": 1,
@@ -4524,8 +4844,12 @@
       },
       "classification": {
         "category": "Utility.Grenade",
-        "dropType": ["Consumable.Throwable.Grenade"],
-        "itemType": ["Throwable"]
+        "dropType": [
+          "Consumable.Throwable.Grenade"
+        ],
+        "itemType": [
+          "Throwable"
+        ]
       },
       "pickup": {
         "amount": 3
@@ -4645,14 +4969,25 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/crude_explosives.png",
     "updatedAt": "03/17/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Refined",
-        "dropType": ["QuestItem", "Salvage.Material.Uncommon"],
-        "itemType": ["Improvised", "Throwable"],
-        "theme": ["Industrial", "Security"]
+        "dropType": [
+          "QuestItem",
+          "Salvage.Material.Uncommon"
+        ],
+        "itemType": [
+          "Improvised",
+          "Throwable"
+        ],
+        "theme": [
+          "Industrial",
+          "Security"
+        ]
       }
     }
   },
@@ -4716,14 +5051,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/crumpled_plastic_bottle.png",
     "updatedAt": "11/04/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Residential"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Residential"
+        ]
       }
     }
   },
@@ -4784,8 +5127,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.TheDam", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.TheDam",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "dam_battlegrounds",
@@ -4851,8 +5199,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.TheDam", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.TheDam",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "dam_battlegrounds",
@@ -4918,8 +5271,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.TheDam", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.TheDam",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "dam_battlegrounds",
@@ -4985,8 +5343,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.TheDam", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.TheDam",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "dam_battlegrounds",
@@ -5052,8 +5415,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.TheDam", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.TheDam",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "dam_battlegrounds",
@@ -5122,13 +5490,19 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_arc_motion_core.png",
     "updatedAt": "01/20/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Misc"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5192,13 +5566,19 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_arc_powercell.png",
     "updatedAt": "03/17/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Misc"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5262,15 +5642,25 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_fireball_burner.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropEnemy": ["Fireball"],
-        "itemType": ["Misc"],
-        "questGroups": ["Items.DronePart"],
-        "theme": ["ARC"]
+        "dropEnemy": [
+          "Fireball"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "questGroups": [
+          "Items.DronePart"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5335,14 +5725,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_heat_sink.png",
     "updatedAt": "11/06/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Technological"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Technological"
+        ]
       }
     }
   },
@@ -5406,15 +5804,25 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_hornet_driver.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropEnemy": ["Hornet"],
-        "itemType": ["Misc"],
-        "questGroups": ["Items.DronePart"],
-        "theme": ["ARC"]
+        "dropEnemy": [
+          "Hornet"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "questGroups": [
+          "Items.DronePart"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5478,14 +5886,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_rocketeer_driver.png",
     "updatedAt": "02/24/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Misc"],
-        "questGroups": ["Items.DronePart"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Misc"
+        ],
+        "questGroups": [
+          "Items.DronePart"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5543,14 +5959,22 @@
     "stackSize": 3,
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_snitch_scanner.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Misc"],
-        "questGroups": ["Items.DronePart"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Misc"
+        ],
+        "questGroups": [
+          "Items.DronePart"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5614,15 +6038,25 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_tick_pod.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropEnemy": ["Tick"],
-        "itemType": ["Misc"],
-        "questGroups": ["Items.DronePart"],
-        "theme": ["ARC"]
+        "dropEnemy": [
+          "Tick"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "questGroups": [
+          "Items.DronePart"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5686,15 +6120,25 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/damaged_wasp_driver.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropEnemy": ["Wasp"],
-        "itemType": ["Misc"],
-        "questGroups": ["Items.DronePart"],
-        "theme": ["ARC"]
+        "dropEnemy": [
+          "Wasp"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "questGroups": [
+          "Items.DronePart"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -5752,14 +6196,23 @@
     "stackSize": 3,
     "imageFilename": "https://cdn.arctracker.io/items/v2/dart_board.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.Trinket"],
-        "itemType": ["Misc.Trinket"],
-        "theme": ["Commercial", "Residential"]
+        "dropType": [
+          "Salvage.Trinket"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "Commercial",
+          "Residential"
+        ]
       }
     }
   },
@@ -5820,8 +6273,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -5985,8 +6442,12 @@
       },
       "classification": {
         "category": "Utility.Mine",
-        "dropType": ["Consumable.Deployable"],
-        "itemType": ["Deployable"]
+        "dropType": [
+          "Consumable.Deployable"
+        ],
+        "itemType": [
+          "Deployable"
+        ]
       },
       "deployable": {
         "chargeTimerSec": 2,
@@ -6063,8 +6524,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -6180,7 +6645,10 @@
         "zh-TW": "使用時間"
       }
     },
-    "craftBench": ["in_raid", "med_station"],
+    "craftBench": [
+      "in_raid",
+      "med_station"
+    ],
     "stationLevelRequired": 2,
     "recipe": {
       "moss": 1,
@@ -6203,8 +6671,12 @@
       },
       "classification": {
         "category": "Utility.Regenerative",
-        "dropType": ["Consumable.Healing.Health"],
-        "itemType": ["Consumable"]
+        "dropType": [
+          "Consumable.Healing.Health"
+        ],
+        "itemType": [
+          "Consumable"
+        ]
       },
       "use": {
         "useTimeSec": 1.5
@@ -6281,14 +6753,23 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/deflated_football.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["QuestItem", "Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Residential"]
+        "dropType": [
+          "QuestItem",
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Residential"
+        ]
       }
     }
   },
@@ -6352,13 +6833,19 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/degraded_arc_rubber.png",
     "updatedAt": "10/30/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Misc"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -6418,9 +6905,16 @@
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.Trinket"],
-        "itemType": ["Misc.Trinket"],
-        "theme": ["Commercial", "Residential"]
+        "dropType": [
+          "Salvage.Trinket"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "Commercial",
+          "Residential"
+        ]
       }
     }
   },
@@ -6488,9 +6982,16 @@
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Electrical", "Technological"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Electrical",
+          "Technological"
+        ]
       }
     }
   },
@@ -6528,8 +7029,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6612,8 +7117,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6696,8 +7205,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6780,8 +7293,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -6853,8 +7370,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6937,8 +7458,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7047,14 +7572,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/diving_goggles.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Residential"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Residential"
+        ]
       }
     }
   },
@@ -7140,8 +7673,12 @@
     "mechanics": {
       "classification": {
         "category": "Gadget",
-        "dropType": ["Equipment.Gadget"],
-        "itemType": ["Gadget"]
+        "dropType": [
+          "Equipment.Gadget"
+        ],
+        "itemType": [
+          "Gadget"
+        ]
       }
     },
     "repairCost": {
@@ -7218,7 +7755,9 @@
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "itemType": ["Misc.Trinket"]
+        "itemType": [
+          "Misc.Trinket"
+        ]
       }
     }
   },
@@ -7283,14 +7822,23 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/dog_collar.png",
     "updatedAt": "10/30/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables", "Salvage.UpgradeItems"],
-        "itemType": ["Misc"],
-        "theme": ["Residential"]
+        "dropType": [
+          "Salvage.Recyclables",
+          "Salvage.UpgradeItems"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Residential"
+        ]
       }
     }
   },
@@ -7351,8 +7899,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     }
   },
@@ -7499,7 +8051,9 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.Shotgun",
-        "itemType": ["Weapon.Firearm"],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
         "questGroups": [
           "Items.AllWeapons",
           "Items.EnergyAmmoWeapon",
@@ -7507,7 +8061,9 @@
           "Items.Shotguns"
         ]
       },
-      "partial": ["projectileSpeed"],
+      "partial": [
+        "projectileSpeed"
+      ],
       "weapon": {
         "ammoItem": "energy_clip",
         "arc": {
@@ -7544,7 +8100,11 @@
             }
           ],
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -7552,7 +8112,10 @@
           "physicalDamage": 25,
           "projectilesPerShot": 19,
           "rangeByDispersion": {
-            "fromDefault": ["highRangeM", "lowDispersion"],
+            "fromDefault": [
+              "highRangeM",
+              "lowDispersion"
+            ],
             "highDispersion": 10,
             "highRangeM": 20,
             "lowDispersion": 1.5,
@@ -7561,14 +8124,31 @@
           "reloadTimeSec": 3.25
         },
         "damageFalloff": [
-          [0, 1.001],
-          [20, 1.001],
-          [100, 0.8]
+          [
+            0,
+            1.001
+          ],
+          [
+            20,
+            1.001
+          ],
+          [
+            100,
+            0.8
+          ]
         ],
         "dispersion": {
           "adsDuration": 4,
           "adsScale": 0.1,
-          "fireGain": [[0.19625935, 10, 0, 0, "linear"]],
+          "fireGain": [
+            [
+              0.19625935,
+              10,
+              0,
+              0,
+              "linear"
+            ]
+          ],
           "fireMax": 10,
           "max": 10,
           "min": 1.5,
@@ -7667,7 +8247,11 @@
           },
           "popRecoverySpeed": 0.2,
           "recoverySpeed": 4,
-          "unset": ["adsRecoveryMultiplier", "popMax", "linearRecovery"],
+          "unset": [
+            "adsRecoveryMultiplier",
+            "popMax",
+            "linearRecovery"
+          ],
           "velocity": 0,
           "velocityMax": 0,
           "velocityRecovery": 10
@@ -7678,26 +8262,100 @@
           "adsGainMultiplier": 0.9,
           "lerpSpeed": 0.4,
           "pitch": [
-            [0, 0, 2.676612, 0, "linear"],
-            [8, 10, 0.835413, 0.835414, "linear"]
+            [
+              0,
+              0,
+              2.676612,
+              0,
+              "linear"
+            ],
+            [
+              8,
+              10,
+              0.835413,
+              0.835414,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0.5, 0.5],
+          "pitchProceduralRange": [
+            0.5,
+            0.5
+          ],
           "recoveryDelay": 0.2,
           "recoverySpeed": 1.5,
           "sampleCount": 6,
-          "unset": ["proceduralSwingSpeed"],
-          "yaw": [
-            [0, 0, 0.693051, 0, "cubic"],
-            [1, 0.25, 0, 0, "linear"],
-            [2, 0, 0, 0, "linear"],
-            [3, 0.25, 0, 0, "linear"],
-            [4, 0.5, 0, 0, "linear"],
-            [5, 0.25, 0, 0, "linear"],
-            [6, 0.5, 0, 0, "linear"],
-            [7, 0.15, 0, 0, "linear"],
-            [8, 0, 0, 0, "linear"]
+          "unset": [
+            "proceduralSwingSpeed"
           ],
-          "yawProceduralRange": [-0.25, 0.25]
+          "yaw": [
+            [
+              0,
+              0,
+              0.693051,
+              0,
+              "cubic"
+            ],
+            [
+              1,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.5,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              5,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.5,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              7,
+              0.15,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              8,
+              0,
+              0,
+              0,
+              "linear"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.25,
+            0.25
+          ]
         },
         "tier": 1,
         "unequipTimeSec": 0.4
@@ -7766,8 +8424,14 @@
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.RubberDuck"],
-        "itemType": ["Improvised", "Misc.Trinket", "Throwable"]
+        "dropType": [
+          "Salvage.RubberDuck"
+        ],
+        "itemType": [
+          "Improvised",
+          "Misc.Trinket",
+          "Throwable"
+        ]
       }
     }
   },
@@ -7840,8 +8504,12 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Tools",
-        "dropType": ["Consumable.Deployable.Defensive"],
-        "itemType": ["Deployable"]
+        "dropType": [
+          "Consumable.Deployable.Defensive"
+        ],
+        "itemType": [
+          "Deployable"
+        ]
       }
     },
     "vendors": [
@@ -7887,8 +8555,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.ItemSkin",
-        "dropType": ["Recipe.ItemSkin"],
-        "itemType": ["Recipe.ItemSkin"]
+        "dropType": [
+          "Recipe.ItemSkin"
+        ],
+        "itemType": [
+          "Recipe.ItemSkin"
+        ]
       }
     }
   },
@@ -7926,7 +8598,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -7998,7 +8672,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -8070,7 +8746,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -8142,7 +8820,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -8214,7 +8894,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -8286,7 +8968,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   }

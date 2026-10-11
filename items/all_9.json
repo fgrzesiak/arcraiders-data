@@ -33,8 +33,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -130,8 +134,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.Spaceport", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.Spaceport",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "the_spaceport",
@@ -197,8 +206,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.Spaceport", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.Spaceport",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "the_spaceport",
@@ -264,8 +278,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.Spaceport", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.Spaceport",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "the_spaceport",
@@ -331,8 +350,13 @@
     "mechanics": {
       "classification": {
         "category": "Utility.Key",
-        "dropType": ["Salvage.Key.Spaceport", "Salvage.Material.UtilityKey"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Key.Spaceport",
+          "Salvage.Material.UtilityKey"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "the_spaceport",
@@ -402,14 +426,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/speaker_component.png",
     "updatedAt": "03/22/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Topside",
-        "dropType": ["Salvage.Material.Rare"],
-        "itemType": ["Misc"],
-        "theme": ["Commercial"]
+        "dropType": [
+          "Salvage.Material.Rare"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Commercial"
+        ]
       }
     },
     "vendors": [
@@ -485,14 +517,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/spectrometer.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "1.2",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Exodus"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Exodus"
+        ]
       }
     }
   },
@@ -557,14 +597,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/spectrum_analyzer.png",
     "updatedAt": "02/24/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "1.2",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Exodus"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Exodus"
+        ]
       }
     }
   },
@@ -629,14 +677,23 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/spotter_relay.png",
     "updatedAt": "10/31/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropEnemy": ["Pinger"],
-        "itemType": ["Deployable", "Improvised"],
-        "theme": ["ARC"]
+        "dropEnemy": [
+          "Pinger"
+        ],
+        "itemType": [
+          "Deployable",
+          "Improvised"
+        ],
+        "theme": [
+          "ARC"
+        ]
       },
       "deployable": {
         "armingTimeSec": 3,
@@ -645,7 +702,9 @@
         "detectionRangeM": 30,
         "maxHealth": 5
       },
-      "partial": ["placedItem"]
+      "partial": [
+        "placedItem"
+      ]
     }
   },
   {
@@ -709,14 +768,23 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/spring_cushion.png",
     "updatedAt": "11/04/2025",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Commercial", "Residential"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Commercial",
+          "Residential"
+        ]
       }
     }
   },
@@ -855,8 +923,12 @@
     "mechanics": {
       "classification": {
         "category": "Modification.Firearm.Stock",
-        "dropType": ["Equipment.Modification.Weapon"],
-        "itemType": ["Modification.Firearm.Stock"]
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Stock"
+        ]
       },
       "mod": {
         "modifiers": [
@@ -945,8 +1017,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -1099,8 +1175,12 @@
     "mechanics": {
       "classification": {
         "category": "Modification.Firearm.Stock",
-        "dropType": ["Equipment.Modification.Weapon"],
-        "itemType": ["Modification.Firearm.Stock"]
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Stock"
+        ]
       },
       "mod": {
         "modifiers": [
@@ -1208,8 +1288,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     }
   },
@@ -1396,8 +1480,12 @@
     "mechanics": {
       "classification": {
         "category": "Modification.Firearm.Stock",
-        "dropType": ["Equipment.Modification.Weapon"],
-        "itemType": ["Modification.Firearm.Stock"]
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Stock"
+        ]
       },
       "mod": {
         "modifiers": [
@@ -1520,7 +1608,9 @@
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "itemType": ["Misc.Trinket"]
+        "itemType": [
+          "Misc.Trinket"
+        ]
       }
     }
   },
@@ -1578,14 +1668,23 @@
     "stackSize": 3,
     "imageFilename": "https://cdn.arctracker.io/items/v2/statuette.png",
     "updatedAt": "03/17/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.Trinket.Birdnest"],
-        "itemType": ["Misc.Trinket"],
-        "theme": ["OldWorld", "Residential"]
+        "dropType": [
+          "Salvage.Trinket.Birdnest"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "OldWorld",
+          "Residential"
+        ]
       }
     }
   },
@@ -1652,8 +1751,12 @@
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ]
       }
     },
     "vendors": [
@@ -1728,14 +1831,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/steel_spring.png",
     "updatedAt": "03/22/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Topside",
-        "dropType": ["Salvage.Material.Uncommon"],
-        "itemType": ["Misc"],
-        "theme": ["Industrial"]
+        "dropType": [
+          "Salvage.Material.Uncommon"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Industrial"
+        ]
       }
     },
     "vendors": [
@@ -1836,7 +1947,9 @@
           "Salvage.Key.MountainCompound",
           "Salvage.Material.UtilityKey"
         ],
-        "itemType": ["Misc"]
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "stella_montis",
@@ -1906,7 +2019,9 @@
           "Salvage.Key.MountainCompound",
           "Salvage.Material.UtilityKey"
         ],
-        "itemType": ["Misc"]
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "stella_montis",
@@ -2001,7 +2116,9 @@
           "Salvage.Key.MountainCompound",
           "Salvage.Material.UtilityKey"
         ],
-        "itemType": ["Misc"]
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "stella_montis",
@@ -2071,7 +2188,9 @@
           "Salvage.Key.MountainCompound",
           "Salvage.Material.UtilityKey"
         ],
-        "itemType": ["Misc"]
+        "itemType": [
+          "Misc"
+        ]
       },
       "key": {
         "map": "stella_montis",
@@ -2137,9 +2256,17 @@
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Basic",
-        "dropType": ["Salvage.Material.OutpostMaterial"],
-        "itemType": ["Misc"],
-        "theme": ["Commercial", "Industrial", "Residential"]
+        "dropType": [
+          "Salvage.Material.OutpostMaterial"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Commercial",
+          "Industrial",
+          "Residential"
+        ]
       }
     }
   },
@@ -2289,9 +2416,15 @@
       },
       "classification": {
         "category": "Utility.Regenerative",
-        "dropType": ["Consumable.Healing.Health"],
-        "itemType": ["Consumable"],
-        "questGroups": ["Items.HealingItem"]
+        "dropType": [
+          "Consumable.Healing.Health"
+        ],
+        "itemType": [
+          "Consumable"
+        ],
+        "questGroups": [
+          "Items.HealingItem"
+        ]
       },
       "use": {
         "downedStabilizeSec": 35,
@@ -2370,8 +2503,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -2575,15 +2712,21 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.BattleRifle",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
         "questGroups": [
           "Items.AllWeapons",
           "Items.LightAmmoWeapon",
           "Items.SpecificWeapon.Stiletto"
         ]
       },
-      "partial": ["projectileRadius"],
+      "partial": [
+        "projectileRadius"
+      ],
       "weapon": {
         "ammoItem": "light_ammo",
         "arc": {
@@ -2596,7 +2739,11 @@
           "firePower": 75000,
           "fireRate": 190,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -2605,21 +2752,66 @@
           "reloadTimeSec": 2.8
         },
         "damageFalloff": [
-          [0, 1],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.7,
           "adsRecoveryMultiplier": 10,
           "adsScale": 0.25,
           "fireGain": [
-            [0, 0.65, 0, 0, "linear"],
-            [1, 0.25, 0, 0, "linear"],
-            [2, 0.35, 0, 0, "linear"],
-            [3, 0.65, 0, 0, "linear"],
-            [4, 0.8, 0, 0, "linear"],
-            [12, 1.1, 14.410254, 14.410301, "cubic"]
+            [
+              0,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.35,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.8,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              12,
+              1.1,
+              14.410254,
+              14.410301,
+              "cubic"
+            ]
           ],
           "fireMax": 6,
           "max": 10,
@@ -2720,7 +2912,9 @@
           "popMax": 0,
           "popRecoverySpeed": 0.2,
           "recoverySpeed": 2,
-          "unset": ["linearRecovery"],
+          "unset": [
+            "linearRecovery"
+          ],
           "velocity": 4.5,
           "velocityMax": 5,
           "velocityRecovery": 6.5
@@ -2741,10 +2935,25 @@
           "adsGainMultiplier": 0.7,
           "lerpSpeed": 0.18,
           "pitch": [
-            [0, 0, 2.676612, 0, "linear"],
-            [1, 6, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.676612,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              6,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 1],
+          "pitchProceduralRange": [
+            0,
+            1
+          ],
           "recoverySpeed": 0.2,
           "sampleCount": 8,
           "unset": [
@@ -2753,13 +2962,55 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.09388064, 0.09388064, "cubic"],
-            [0.982044, 0.092194915, -0.15011495, -0.15011495, "cubic"],
-            [1.962317, -0.29457313, 0.23744586, 0.23744586, "cubic"],
-            [2.968783, 0.56393784, -0.15939699, -0.15939699, "cubic"],
-            [3.863273, -0.5975797, -0.15460664, -0.15460664, "cubic"],
-            [4.936072, 0.259782, -0.03970945, -0.03970945, "cubic"],
-            [6.011811, -0.682897, -0.8763083, -0.8763083, "cubic"]
+            [
+              0,
+              0,
+              0.09388064,
+              0.09388064,
+              "cubic"
+            ],
+            [
+              0.982044,
+              0.092194915,
+              -0.15011495,
+              -0.15011495,
+              "cubic"
+            ],
+            [
+              1.962317,
+              -0.29457313,
+              0.23744586,
+              0.23744586,
+              "cubic"
+            ],
+            [
+              2.968783,
+              0.56393784,
+              -0.15939699,
+              -0.15939699,
+              "cubic"
+            ],
+            [
+              3.863273,
+              -0.5975797,
+              -0.15460664,
+              -0.15460664,
+              "cubic"
+            ],
+            [
+              4.936072,
+              0.259782,
+              -0.03970945,
+              -0.03970945,
+              "cubic"
+            ],
+            [
+              6.011811,
+              -0.682897,
+              -0.8763083,
+              -0.8763083,
+              "cubic"
+            ]
           ]
         },
         "statBarOffsets": {
@@ -3051,15 +3302,21 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.BattleRifle",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
         "questGroups": [
           "Items.AllWeapons",
           "Items.LightAmmoWeapon",
           "Items.SpecificWeapon.Stiletto"
         ]
       },
-      "partial": ["projectileRadius"],
+      "partial": [
+        "projectileRadius"
+      ],
       "weapon": {
         "ammoItem": "light_ammo",
         "arc": {
@@ -3072,7 +3329,11 @@
           "firePower": 75000,
           "fireRate": 190,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -3081,21 +3342,66 @@
           "reloadTimeSec": 2.8
         },
         "damageFalloff": [
-          [0, 1],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.7,
           "adsRecoveryMultiplier": 10,
           "adsScale": 0.25,
           "fireGain": [
-            [0, 0.65, 0, 0, "linear"],
-            [1, 0.25, 0, 0, "linear"],
-            [2, 0.35, 0, 0, "linear"],
-            [3, 0.65, 0, 0, "linear"],
-            [4, 0.8, 0, 0, "linear"],
-            [12, 1.1, 14.410254, 14.410301, "cubic"]
+            [
+              0,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.35,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.8,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              12,
+              1.1,
+              14.410254,
+              14.410301,
+              "cubic"
+            ]
           ],
           "fireMax": 6,
           "max": 10,
@@ -3196,7 +3502,9 @@
           "popMax": 0,
           "popRecoverySpeed": 0.2,
           "recoverySpeed": 2,
-          "unset": ["linearRecovery"],
+          "unset": [
+            "linearRecovery"
+          ],
           "velocity": 4.5,
           "velocityMax": 5,
           "velocityRecovery": 6.5
@@ -3217,10 +3525,25 @@
           "adsGainMultiplier": 0.7,
           "lerpSpeed": 0.18,
           "pitch": [
-            [0, 0, 2.676612, 0, "linear"],
-            [1, 6, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.676612,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              6,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 1],
+          "pitchProceduralRange": [
+            0,
+            1
+          ],
           "recoverySpeed": 0.2,
           "sampleCount": 8,
           "unset": [
@@ -3229,13 +3552,55 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.09388064, 0.09388064, "cubic"],
-            [0.982044, 0.092194915, -0.15011495, -0.15011495, "cubic"],
-            [1.962317, -0.29457313, 0.23744586, 0.23744586, "cubic"],
-            [2.968783, 0.56393784, -0.15939699, -0.15939699, "cubic"],
-            [3.863273, -0.5975797, -0.15460664, -0.15460664, "cubic"],
-            [4.936072, 0.259782, -0.03970945, -0.03970945, "cubic"],
-            [6.011811, -0.682897, -0.8763083, -0.8763083, "cubic"]
+            [
+              0,
+              0,
+              0.09388064,
+              0.09388064,
+              "cubic"
+            ],
+            [
+              0.982044,
+              0.092194915,
+              -0.15011495,
+              -0.15011495,
+              "cubic"
+            ],
+            [
+              1.962317,
+              -0.29457313,
+              0.23744586,
+              0.23744586,
+              "cubic"
+            ],
+            [
+              2.968783,
+              0.56393784,
+              -0.15939699,
+              -0.15939699,
+              "cubic"
+            ],
+            [
+              3.863273,
+              -0.5975797,
+              -0.15460664,
+              -0.15460664,
+              "cubic"
+            ],
+            [
+              4.936072,
+              0.259782,
+              -0.03970945,
+              -0.03970945,
+              "cubic"
+            ],
+            [
+              6.011811,
+              -0.682897,
+              -0.8763083,
+              -0.8763083,
+              "cubic"
+            ]
           ]
         },
         "tier": 2,
@@ -3523,15 +3888,21 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.BattleRifle",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
         "questGroups": [
           "Items.AllWeapons",
           "Items.LightAmmoWeapon",
           "Items.SpecificWeapon.Stiletto"
         ]
       },
-      "partial": ["projectileRadius"],
+      "partial": [
+        "projectileRadius"
+      ],
       "weapon": {
         "ammoItem": "light_ammo",
         "arc": {
@@ -3544,7 +3915,11 @@
           "firePower": 75000,
           "fireRate": 190,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -3553,21 +3928,66 @@
           "reloadTimeSec": 2.8
         },
         "damageFalloff": [
-          [0, 1],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.7,
           "adsRecoveryMultiplier": 10,
           "adsScale": 0.25,
           "fireGain": [
-            [0, 0.65, 0, 0, "linear"],
-            [1, 0.25, 0, 0, "linear"],
-            [2, 0.35, 0, 0, "linear"],
-            [3, 0.65, 0, 0, "linear"],
-            [4, 0.8, 0, 0, "linear"],
-            [12, 1.1, 14.410254, 14.410301, "cubic"]
+            [
+              0,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.35,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.8,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              12,
+              1.1,
+              14.410254,
+              14.410301,
+              "cubic"
+            ]
           ],
           "fireMax": 6,
           "max": 10,
@@ -3668,7 +4088,9 @@
           "popMax": 0,
           "popRecoverySpeed": 0.2,
           "recoverySpeed": 2,
-          "unset": ["linearRecovery"],
+          "unset": [
+            "linearRecovery"
+          ],
           "velocity": 4.5,
           "velocityMax": 5,
           "velocityRecovery": 6.5
@@ -3689,10 +4111,25 @@
           "adsGainMultiplier": 0.7,
           "lerpSpeed": 0.18,
           "pitch": [
-            [0, 0, 2.676612, 0, "linear"],
-            [1, 6, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.676612,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              6,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 1],
+          "pitchProceduralRange": [
+            0,
+            1
+          ],
           "recoverySpeed": 0.2,
           "sampleCount": 8,
           "unset": [
@@ -3701,13 +4138,55 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.09388064, 0.09388064, "cubic"],
-            [0.982044, 0.092194915, -0.15011495, -0.15011495, "cubic"],
-            [1.962317, -0.29457313, 0.23744586, 0.23744586, "cubic"],
-            [2.968783, 0.56393784, -0.15939699, -0.15939699, "cubic"],
-            [3.863273, -0.5975797, -0.15460664, -0.15460664, "cubic"],
-            [4.936072, 0.259782, -0.03970945, -0.03970945, "cubic"],
-            [6.011811, -0.682897, -0.8763083, -0.8763083, "cubic"]
+            [
+              0,
+              0,
+              0.09388064,
+              0.09388064,
+              "cubic"
+            ],
+            [
+              0.982044,
+              0.092194915,
+              -0.15011495,
+              -0.15011495,
+              "cubic"
+            ],
+            [
+              1.962317,
+              -0.29457313,
+              0.23744586,
+              0.23744586,
+              "cubic"
+            ],
+            [
+              2.968783,
+              0.56393784,
+              -0.15939699,
+              -0.15939699,
+              "cubic"
+            ],
+            [
+              3.863273,
+              -0.5975797,
+              -0.15460664,
+              -0.15460664,
+              "cubic"
+            ],
+            [
+              4.936072,
+              0.259782,
+              -0.03970945,
+              -0.03970945,
+              "cubic"
+            ],
+            [
+              6.011811,
+              -0.682897,
+              -0.8763083,
+              -0.8763083,
+              "cubic"
+            ]
           ]
         },
         "statBarOffsets": {
@@ -3998,15 +4477,21 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.BattleRifle",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
         "questGroups": [
           "Items.AllWeapons",
           "Items.LightAmmoWeapon",
           "Items.SpecificWeapon.Stiletto"
         ]
       },
-      "partial": ["projectileRadius"],
+      "partial": [
+        "projectileRadius"
+      ],
       "weapon": {
         "ammoItem": "light_ammo",
         "arc": {
@@ -4019,7 +4504,11 @@
           "firePower": 75000,
           "fireRate": 190,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -4028,21 +4517,66 @@
           "reloadTimeSec": 2.8
         },
         "damageFalloff": [
-          [0, 1],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.7,
           "adsRecoveryMultiplier": 10,
           "adsScale": 0.25,
           "fireGain": [
-            [0, 0.65, 0, 0, "linear"],
-            [1, 0.25, 0, 0, "linear"],
-            [2, 0.35, 0, 0, "linear"],
-            [3, 0.65, 0, 0, "linear"],
-            [4, 0.8, 0, 0, "linear"],
-            [12, 1.1, 14.410254, 14.410301, "cubic"]
+            [
+              0,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              0.25,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.35,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.65,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.8,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              12,
+              1.1,
+              14.410254,
+              14.410301,
+              "cubic"
+            ]
           ],
           "fireMax": 6,
           "max": 10,
@@ -4143,7 +4677,9 @@
           "popMax": 0,
           "popRecoverySpeed": 0.2,
           "recoverySpeed": 2,
-          "unset": ["linearRecovery"],
+          "unset": [
+            "linearRecovery"
+          ],
           "velocity": 4.5,
           "velocityMax": 5,
           "velocityRecovery": 6.5
@@ -4164,10 +4700,25 @@
           "adsGainMultiplier": 0.7,
           "lerpSpeed": 0.18,
           "pitch": [
-            [0, 0, 2.676612, 0, "linear"],
-            [1, 6, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.676612,
+              0,
+              "linear"
+            ],
+            [
+              1,
+              6,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 1],
+          "pitchProceduralRange": [
+            0,
+            1
+          ],
           "recoverySpeed": 0.2,
           "sampleCount": 8,
           "unset": [
@@ -4176,13 +4727,55 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.09388064, 0.09388064, "cubic"],
-            [0.982044, 0.092194915, -0.15011495, -0.15011495, "cubic"],
-            [1.962317, -0.29457313, 0.23744586, 0.23744586, "cubic"],
-            [2.968783, 0.56393784, -0.15939699, -0.15939699, "cubic"],
-            [3.863273, -0.5975797, -0.15460664, -0.15460664, "cubic"],
-            [4.936072, 0.259782, -0.03970945, -0.03970945, "cubic"],
-            [6.011811, -0.682897, -0.8763083, -0.8763083, "cubic"]
+            [
+              0,
+              0,
+              0.09388064,
+              0.09388064,
+              "cubic"
+            ],
+            [
+              0.982044,
+              0.092194915,
+              -0.15011495,
+              -0.15011495,
+              "cubic"
+            ],
+            [
+              1.962317,
+              -0.29457313,
+              0.23744586,
+              0.23744586,
+              "cubic"
+            ],
+            [
+              2.968783,
+              0.56393784,
+              -0.15939699,
+              -0.15939699,
+              "cubic"
+            ],
+            [
+              3.863273,
+              -0.5975797,
+              -0.15460664,
+              -0.15460664,
+              "cubic"
+            ],
+            [
+              4.936072,
+              0.259782,
+              -0.03970945,
+              -0.03970945,
+              "cubic"
+            ],
+            [
+              6.011811,
+              -0.682897,
+              -0.8763083,
+              -0.8763083,
+              "cubic"
+            ]
           ]
         },
         "statBarOffsets": {
@@ -4446,7 +5039,10 @@
         "zh-TW": "彈匣容量"
       }
     },
-    "craftBench": ["weapon_bench", "workbench"],
+    "craftBench": [
+      "weapon_bench",
+      "workbench"
+    ],
     "stationLevelRequired": 1,
     "recipe": {
       "metal_parts": 8,
@@ -4465,9 +5061,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.SMG",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.LightAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.LightAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "light_ammo",
@@ -4483,7 +5086,11 @@
           "firePower": 35000,
           "fireRate": 680,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -4492,21 +5099,60 @@
           "reloadTimeSec": 2.5
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.1,
           "adsRecoveryMultiplier": 0.65,
           "adsScale": 0.6,
           "fireGain": [
-            [0, 0.1, -0.0009838603, 0, "cubic"],
-            [2, 0.1, 0, 0, "linear"],
-            [6, 0.4, 0, 0, "linear"],
-            [20, 0.4, 0, 0.00034750637, "cubic"]
+            [
+              0,
+              0.1,
+              -0.0009838603,
+              0,
+              "cubic"
+            ],
+            [
+              2,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.4,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              20,
+              0.4,
+              0,
+              0.00034750637,
+              "cubic"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -4522,7 +5168,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "crouchMoving": {
               "adsDuration": 1.1,
@@ -4533,7 +5181,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "falling": {
               "dispersion": 2,
@@ -4570,7 +5220,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "standMoving": {
               "adsDuration": 1.1,
@@ -4581,7 +5233,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "uncontrollable": {
               "dispersion": 2,
@@ -4619,11 +5273,32 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.4,
           "pitch": [
-            [0, 0, 0.13754433, 0.13754411, "cubic"],
-            [4.0531116, 2, 0.28929195, 0.28929317, "cubic"],
-            [16, 6, 0.041509077, 0.04150799, "cubic"]
+            [
+              0,
+              0,
+              0.13754433,
+              0.13754411,
+              "cubic"
+            ],
+            [
+              4.0531116,
+              2,
+              0.28929195,
+              0.28929317,
+              "cubic"
+            ],
+            [
+              16,
+              6,
+              0.041509077,
+              0.04150799,
+              "cubic"
+            ]
           ],
-          "pitchProceduralRange": [0.1, 0.3],
+          "pitchProceduralRange": [
+            0.1,
+            0.3
+          ],
           "recoverySpeed": 0.7,
           "sampleCount": 20,
           "unset": [
@@ -4632,20 +5307,104 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.04709477, 0, "cubic"],
-            [1.8440523, 0.29292393, -0.014401935, -0.014401935, "cubic"],
-            [3.9471598, -0.056846738, 0.16706817, 0.16706817, "cubic"],
-            [5.962009, 0.9809034, 0.110504024, 0.110504024, "cubic"],
-            [7.8541403, 0.37489033, 0.14819475, 0.14819475, "cubic"],
-            [10.152638, 1.6019326, 0.037206624, 0.037206624, "cubic"],
-            [12.129221, 0.53395164, -0.16727981, -0.16727981, "cubic"],
-            [14.363624, 0.8975198, -0.21667361, -0.21667361, "cubic"],
-            [16.009487, -0.30679965, -0.22474433, -0.22474433, "cubic"],
-            [18.00344, 0.079491496, -0.12225464, -0.12225464, "cubic"],
-            [19.72681, -0.7612597, 0.01151958, 0.01151958, "cubic"],
-            [21.948553, 0.124937534, 0.11325179, 0.11325179, "cubic"],
-            [24.08946, -0.26718175, 0.019158486, 0.019158486, "cubic"],
-            [25.943127, 0.20146751, 0, 0.16320054, "cubic"]
+            [
+              0,
+              0,
+              0.04709477,
+              0,
+              "cubic"
+            ],
+            [
+              1.8440523,
+              0.29292393,
+              -0.014401935,
+              -0.014401935,
+              "cubic"
+            ],
+            [
+              3.9471598,
+              -0.056846738,
+              0.16706817,
+              0.16706817,
+              "cubic"
+            ],
+            [
+              5.962009,
+              0.9809034,
+              0.110504024,
+              0.110504024,
+              "cubic"
+            ],
+            [
+              7.8541403,
+              0.37489033,
+              0.14819475,
+              0.14819475,
+              "cubic"
+            ],
+            [
+              10.152638,
+              1.6019326,
+              0.037206624,
+              0.037206624,
+              "cubic"
+            ],
+            [
+              12.129221,
+              0.53395164,
+              -0.16727981,
+              -0.16727981,
+              "cubic"
+            ],
+            [
+              14.363624,
+              0.8975198,
+              -0.21667361,
+              -0.21667361,
+              "cubic"
+            ],
+            [
+              16.009487,
+              -0.30679965,
+              -0.22474433,
+              -0.22474433,
+              "cubic"
+            ],
+            [
+              18.00344,
+              0.079491496,
+              -0.12225464,
+              -0.12225464,
+              "cubic"
+            ],
+            [
+              19.72681,
+              -0.7612597,
+              0.01151958,
+              0.01151958,
+              "cubic"
+            ],
+            [
+              21.948553,
+              0.124937534,
+              0.11325179,
+              0.11325179,
+              "cubic"
+            ],
+            [
+              24.08946,
+              -0.26718175,
+              0.019158486,
+              0.019158486,
+              "cubic"
+            ],
+            [
+              25.943127,
+              0.20146751,
+              0,
+              0.16320054,
+              "cubic"
+            ]
           ]
         },
         "statBarOffsets": {
@@ -4996,9 +5755,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.SMG",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.LightAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.LightAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "light_ammo",
@@ -5014,7 +5780,11 @@
           "firePower": 35000,
           "fireRate": 680,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -5023,21 +5793,60 @@
           "reloadTimeSec": 2.5
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.1,
           "adsRecoveryMultiplier": 0.65,
           "adsScale": 0.6,
           "fireGain": [
-            [0, 0.1, -0.0009838603, 0, "cubic"],
-            [2, 0.1, 0, 0, "linear"],
-            [6, 0.4, 0, 0, "linear"],
-            [20, 0.4, 0, 0.00034750637, "cubic"]
+            [
+              0,
+              0.1,
+              -0.0009838603,
+              0,
+              "cubic"
+            ],
+            [
+              2,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.4,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              20,
+              0.4,
+              0,
+              0.00034750637,
+              "cubic"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -5053,7 +5862,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "crouchMoving": {
               "adsDuration": 1.1,
@@ -5064,7 +5875,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "falling": {
               "dispersion": 2,
@@ -5101,7 +5914,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "standMoving": {
               "adsDuration": 1.1,
@@ -5112,7 +5927,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "uncontrollable": {
               "dispersion": 2,
@@ -5150,11 +5967,32 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.4,
           "pitch": [
-            [0, 0, 0.13754433, 0.13754411, "cubic"],
-            [4.0531116, 2, 0.28929195, 0.28929317, "cubic"],
-            [16, 6, 0.041509077, 0.04150799, "cubic"]
+            [
+              0,
+              0,
+              0.13754433,
+              0.13754411,
+              "cubic"
+            ],
+            [
+              4.0531116,
+              2,
+              0.28929195,
+              0.28929317,
+              "cubic"
+            ],
+            [
+              16,
+              6,
+              0.041509077,
+              0.04150799,
+              "cubic"
+            ]
           ],
-          "pitchProceduralRange": [0.1, 0.3],
+          "pitchProceduralRange": [
+            0.1,
+            0.3
+          ],
           "recoverySpeed": 0.7,
           "sampleCount": 20,
           "unset": [
@@ -5163,20 +6001,104 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.04709477, 0, "cubic"],
-            [1.8440523, 0.29292393, -0.014401935, -0.014401935, "cubic"],
-            [3.9471598, -0.056846738, 0.16706817, 0.16706817, "cubic"],
-            [5.962009, 0.9809034, 0.110504024, 0.110504024, "cubic"],
-            [7.8541403, 0.37489033, 0.14819475, 0.14819475, "cubic"],
-            [10.152638, 1.6019326, 0.037206624, 0.037206624, "cubic"],
-            [12.129221, 0.53395164, -0.16727981, -0.16727981, "cubic"],
-            [14.363624, 0.8975198, -0.21667361, -0.21667361, "cubic"],
-            [16.009487, -0.30679965, -0.22474433, -0.22474433, "cubic"],
-            [18.00344, 0.079491496, -0.12225464, -0.12225464, "cubic"],
-            [19.72681, -0.7612597, 0.01151958, 0.01151958, "cubic"],
-            [21.948553, 0.124937534, 0.11325179, 0.11325179, "cubic"],
-            [24.08946, -0.26718175, 0.019158486, 0.019158486, "cubic"],
-            [25.943127, 0.20146751, 0, 0.16320054, "cubic"]
+            [
+              0,
+              0,
+              0.04709477,
+              0,
+              "cubic"
+            ],
+            [
+              1.8440523,
+              0.29292393,
+              -0.014401935,
+              -0.014401935,
+              "cubic"
+            ],
+            [
+              3.9471598,
+              -0.056846738,
+              0.16706817,
+              0.16706817,
+              "cubic"
+            ],
+            [
+              5.962009,
+              0.9809034,
+              0.110504024,
+              0.110504024,
+              "cubic"
+            ],
+            [
+              7.8541403,
+              0.37489033,
+              0.14819475,
+              0.14819475,
+              "cubic"
+            ],
+            [
+              10.152638,
+              1.6019326,
+              0.037206624,
+              0.037206624,
+              "cubic"
+            ],
+            [
+              12.129221,
+              0.53395164,
+              -0.16727981,
+              -0.16727981,
+              "cubic"
+            ],
+            [
+              14.363624,
+              0.8975198,
+              -0.21667361,
+              -0.21667361,
+              "cubic"
+            ],
+            [
+              16.009487,
+              -0.30679965,
+              -0.22474433,
+              -0.22474433,
+              "cubic"
+            ],
+            [
+              18.00344,
+              0.079491496,
+              -0.12225464,
+              -0.12225464,
+              "cubic"
+            ],
+            [
+              19.72681,
+              -0.7612597,
+              0.01151958,
+              0.01151958,
+              "cubic"
+            ],
+            [
+              21.948553,
+              0.124937534,
+              0.11325179,
+              0.11325179,
+              "cubic"
+            ],
+            [
+              24.08946,
+              -0.26718175,
+              0.019158486,
+              0.019158486,
+              "cubic"
+            ],
+            [
+              25.943127,
+              0.20146751,
+              0,
+              0.16320054,
+              "cubic"
+            ]
           ]
         },
         "tier": 2,
@@ -5516,9 +6438,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.SMG",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.LightAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.LightAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "light_ammo",
@@ -5534,7 +6463,11 @@
           "firePower": 35000,
           "fireRate": 680,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -5543,21 +6476,60 @@
           "reloadTimeSec": 2.5
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.1,
           "adsRecoveryMultiplier": 0.65,
           "adsScale": 0.6,
           "fireGain": [
-            [0, 0.1, -0.0009838603, 0, "cubic"],
-            [2, 0.1, 0, 0, "linear"],
-            [6, 0.4, 0, 0, "linear"],
-            [20, 0.4, 0, 0.00034750637, "cubic"]
+            [
+              0,
+              0.1,
+              -0.0009838603,
+              0,
+              "cubic"
+            ],
+            [
+              2,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.4,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              20,
+              0.4,
+              0,
+              0.00034750637,
+              "cubic"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -5573,7 +6545,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "crouchMoving": {
               "adsDuration": 1.1,
@@ -5584,7 +6558,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "falling": {
               "dispersion": 2,
@@ -5621,7 +6597,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "standMoving": {
               "adsDuration": 1.1,
@@ -5632,7 +6610,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "uncontrollable": {
               "dispersion": 2,
@@ -5670,11 +6650,32 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.4,
           "pitch": [
-            [0, 0, 0.13754433, 0.13754411, "cubic"],
-            [4.0531116, 2, 0.28929195, 0.28929317, "cubic"],
-            [16, 6, 0.041509077, 0.04150799, "cubic"]
+            [
+              0,
+              0,
+              0.13754433,
+              0.13754411,
+              "cubic"
+            ],
+            [
+              4.0531116,
+              2,
+              0.28929195,
+              0.28929317,
+              "cubic"
+            ],
+            [
+              16,
+              6,
+              0.041509077,
+              0.04150799,
+              "cubic"
+            ]
           ],
-          "pitchProceduralRange": [0.1, 0.3],
+          "pitchProceduralRange": [
+            0.1,
+            0.3
+          ],
           "recoverySpeed": 0.7,
           "sampleCount": 20,
           "unset": [
@@ -5683,20 +6684,104 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.04709477, 0, "cubic"],
-            [1.8440523, 0.29292393, -0.014401935, -0.014401935, "cubic"],
-            [3.9471598, -0.056846738, 0.16706817, 0.16706817, "cubic"],
-            [5.962009, 0.9809034, 0.110504024, 0.110504024, "cubic"],
-            [7.8541403, 0.37489033, 0.14819475, 0.14819475, "cubic"],
-            [10.152638, 1.6019326, 0.037206624, 0.037206624, "cubic"],
-            [12.129221, 0.53395164, -0.16727981, -0.16727981, "cubic"],
-            [14.363624, 0.8975198, -0.21667361, -0.21667361, "cubic"],
-            [16.009487, -0.30679965, -0.22474433, -0.22474433, "cubic"],
-            [18.00344, 0.079491496, -0.12225464, -0.12225464, "cubic"],
-            [19.72681, -0.7612597, 0.01151958, 0.01151958, "cubic"],
-            [21.948553, 0.124937534, 0.11325179, 0.11325179, "cubic"],
-            [24.08946, -0.26718175, 0.019158486, 0.019158486, "cubic"],
-            [25.943127, 0.20146751, 0, 0.16320054, "cubic"]
+            [
+              0,
+              0,
+              0.04709477,
+              0,
+              "cubic"
+            ],
+            [
+              1.8440523,
+              0.29292393,
+              -0.014401935,
+              -0.014401935,
+              "cubic"
+            ],
+            [
+              3.9471598,
+              -0.056846738,
+              0.16706817,
+              0.16706817,
+              "cubic"
+            ],
+            [
+              5.962009,
+              0.9809034,
+              0.110504024,
+              0.110504024,
+              "cubic"
+            ],
+            [
+              7.8541403,
+              0.37489033,
+              0.14819475,
+              0.14819475,
+              "cubic"
+            ],
+            [
+              10.152638,
+              1.6019326,
+              0.037206624,
+              0.037206624,
+              "cubic"
+            ],
+            [
+              12.129221,
+              0.53395164,
+              -0.16727981,
+              -0.16727981,
+              "cubic"
+            ],
+            [
+              14.363624,
+              0.8975198,
+              -0.21667361,
+              -0.21667361,
+              "cubic"
+            ],
+            [
+              16.009487,
+              -0.30679965,
+              -0.22474433,
+              -0.22474433,
+              "cubic"
+            ],
+            [
+              18.00344,
+              0.079491496,
+              -0.12225464,
+              -0.12225464,
+              "cubic"
+            ],
+            [
+              19.72681,
+              -0.7612597,
+              0.01151958,
+              0.01151958,
+              "cubic"
+            ],
+            [
+              21.948553,
+              0.124937534,
+              0.11325179,
+              0.11325179,
+              "cubic"
+            ],
+            [
+              24.08946,
+              -0.26718175,
+              0.019158486,
+              0.019158486,
+              "cubic"
+            ],
+            [
+              25.943127,
+              0.20146751,
+              0,
+              0.16320054,
+              "cubic"
+            ]
           ]
         },
         "statBarOffsets": {
@@ -6039,9 +7124,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.SMG",
-        "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.LightAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.LightAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "light_ammo",
@@ -6057,7 +7149,11 @@
           "firePower": 35000,
           "fireRate": 680,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -6066,21 +7162,60 @@
           "reloadTimeSec": 2.5
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [130, 1.001],
-          [150, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 1.1,
           "adsRecoveryMultiplier": 0.65,
           "adsScale": 0.6,
           "fireGain": [
-            [0, 0.1, -0.0009838603, 0, "cubic"],
-            [2, 0.1, 0, 0, "linear"],
-            [6, 0.4, 0, 0, "linear"],
-            [20, 0.4, 0, 0.00034750637, "cubic"]
+            [
+              0,
+              0.1,
+              -0.0009838603,
+              0,
+              "cubic"
+            ],
+            [
+              2,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              0.4,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              20,
+              0.4,
+              0,
+              0.00034750637,
+              "cubic"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -6096,7 +7231,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "crouchMoving": {
               "adsDuration": 1.1,
@@ -6107,7 +7244,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "falling": {
               "dispersion": 2,
@@ -6144,7 +7283,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 2.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "standMoving": {
               "adsDuration": 1.1,
@@ -6155,7 +7296,9 @@
               "overrideAdsDispersion": true,
               "overrideRecoverySpeed": true,
               "recoverySpeed": 3.5,
-              "unset": ["fireDispersionMultiplier"]
+              "unset": [
+                "fireDispersionMultiplier"
+              ]
             },
             "uncontrollable": {
               "dispersion": 2,
@@ -6193,11 +7336,32 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.4,
           "pitch": [
-            [0, 0, 0.13754433, 0.13754411, "cubic"],
-            [4.0531116, 2, 0.28929195, 0.28929317, "cubic"],
-            [16, 6, 0.041509077, 0.04150799, "cubic"]
+            [
+              0,
+              0,
+              0.13754433,
+              0.13754411,
+              "cubic"
+            ],
+            [
+              4.0531116,
+              2,
+              0.28929195,
+              0.28929317,
+              "cubic"
+            ],
+            [
+              16,
+              6,
+              0.041509077,
+              0.04150799,
+              "cubic"
+            ]
           ],
-          "pitchProceduralRange": [0.1, 0.3],
+          "pitchProceduralRange": [
+            0.1,
+            0.3
+          ],
           "recoverySpeed": 0.7,
           "sampleCount": 20,
           "unset": [
@@ -6206,20 +7370,104 @@
             "recoveryDelay"
           ],
           "yaw": [
-            [0, 0, 0.04709477, 0, "cubic"],
-            [1.8440523, 0.29292393, -0.014401935, -0.014401935, "cubic"],
-            [3.9471598, -0.056846738, 0.16706817, 0.16706817, "cubic"],
-            [5.962009, 0.9809034, 0.110504024, 0.110504024, "cubic"],
-            [7.8541403, 0.37489033, 0.14819475, 0.14819475, "cubic"],
-            [10.152638, 1.6019326, 0.037206624, 0.037206624, "cubic"],
-            [12.129221, 0.53395164, -0.16727981, -0.16727981, "cubic"],
-            [14.363624, 0.8975198, -0.21667361, -0.21667361, "cubic"],
-            [16.009487, -0.30679965, -0.22474433, -0.22474433, "cubic"],
-            [18.00344, 0.079491496, -0.12225464, -0.12225464, "cubic"],
-            [19.72681, -0.7612597, 0.01151958, 0.01151958, "cubic"],
-            [21.948553, 0.124937534, 0.11325179, 0.11325179, "cubic"],
-            [24.08946, -0.26718175, 0.019158486, 0.019158486, "cubic"],
-            [25.943127, 0.20146751, 0, 0.16320054, "cubic"]
+            [
+              0,
+              0,
+              0.04709477,
+              0,
+              "cubic"
+            ],
+            [
+              1.8440523,
+              0.29292393,
+              -0.014401935,
+              -0.014401935,
+              "cubic"
+            ],
+            [
+              3.9471598,
+              -0.056846738,
+              0.16706817,
+              0.16706817,
+              "cubic"
+            ],
+            [
+              5.962009,
+              0.9809034,
+              0.110504024,
+              0.110504024,
+              "cubic"
+            ],
+            [
+              7.8541403,
+              0.37489033,
+              0.14819475,
+              0.14819475,
+              "cubic"
+            ],
+            [
+              10.152638,
+              1.6019326,
+              0.037206624,
+              0.037206624,
+              "cubic"
+            ],
+            [
+              12.129221,
+              0.53395164,
+              -0.16727981,
+              -0.16727981,
+              "cubic"
+            ],
+            [
+              14.363624,
+              0.8975198,
+              -0.21667361,
+              -0.21667361,
+              "cubic"
+            ],
+            [
+              16.009487,
+              -0.30679965,
+              -0.22474433,
+              -0.22474433,
+              "cubic"
+            ],
+            [
+              18.00344,
+              0.079491496,
+              -0.12225464,
+              -0.12225464,
+              "cubic"
+            ],
+            [
+              19.72681,
+              -0.7612597,
+              0.01151958,
+              0.01151958,
+              "cubic"
+            ],
+            [
+              21.948553,
+              0.124937534,
+              0.11325179,
+              0.11325179,
+              "cubic"
+            ],
+            [
+              24.08946,
+              -0.26718175,
+              0.019158486,
+              0.019158486,
+              "cubic"
+            ],
+            [
+              25.943127,
+              0.20146751,
+              0,
+              0.16320054,
+              "cubic"
+            ]
           ]
         },
         "statBarOffsets": {
@@ -6338,8 +7586,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -6412,8 +7664,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6496,8 +7752,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -6569,8 +7829,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6653,8 +7917,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -6726,8 +7994,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6810,8 +8082,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -6894,7 +8170,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -6966,7 +8244,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -7038,8 +8318,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7122,8 +8406,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7206,8 +8494,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7256,8 +8548,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7374,8 +8670,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7458,8 +8758,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     },
     "research": [
@@ -7542,7 +8846,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -7614,8 +8920,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "dropType": ["FurnitureDesigns"],
-        "itemType": ["Recipe.OutpostFurniture"]
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -7687,7 +8997,9 @@
     "mechanics": {
       "classification": {
         "category": "Recipe.OutpostFurniture",
-        "itemType": ["Recipe.OutpostFurniture"]
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
       }
     }
   },
@@ -7782,8 +9094,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -7971,9 +9287,15 @@
       },
       "classification": {
         "category": "Utility.Tools",
-        "dropType": ["Consumable.Deployable"],
-        "itemType": ["Deployable"],
-        "questGroups": ["Items.Deployable.AllTrapsAndMines"]
+        "dropType": [
+          "Consumable.Deployable"
+        ],
+        "itemType": [
+          "Deployable"
+        ],
+        "questGroups": [
+          "Items.Deployable.AllTrapsAndMines"
+        ]
       },
       "deployable": {
         "armingTimeSec": 3,
@@ -7982,7 +9304,9 @@
         "effectIntervalSec": 0.5,
         "maxHealth": 40
       },
-      "partial": ["placedItem"]
+      "partial": [
+        "placedItem"
+      ]
     },
     "vendors": [
       {
@@ -8117,8 +9441,12 @@
       },
       "classification": {
         "category": "Utility.Regenerative",
-        "dropType": ["Consumable.Healing.Armor"],
-        "itemType": ["Consumable"]
+        "dropType": [
+          "Consumable.Healing.Armor"
+        ],
+        "itemType": [
+          "Consumable"
+        ]
       }
     },
     "vendors": [
@@ -8194,14 +9522,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/surveyor_vault.png",
     "updatedAt": "01/13/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropEnemy": ["Rollbot"],
-        "itemType": ["Misc"],
-        "theme": ["ARC"]
+        "dropEnemy": [
+          "Rollbot"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -8314,14 +9650,23 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/synthesized_fuel.png",
     "updatedAt": "03/22/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Topside",
-        "dropType": ["Salvage.Material.Rare"],
-        "itemType": ["Improvised", "Throwable"],
-        "theme": ["Exodus"]
+        "dropType": [
+          "Salvage.Material.Rare"
+        ],
+        "itemType": [
+          "Improvised",
+          "Throwable"
+        ],
+        "theme": [
+          "Exodus"
+        ]
       }
     },
     "vendors": [
@@ -8397,14 +9742,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/syringe.png",
     "updatedAt": "03/22/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Topside",
-        "dropType": ["Salvage.Material.Rare"],
-        "itemType": ["Misc"],
-        "theme": ["Medical"]
+        "dropType": [
+          "Salvage.Material.Rare"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Medical"
+        ]
       }
     },
     "vendors": [
@@ -9146,8 +10499,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -9652,8 +11009,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     }
   },
@@ -10027,7 +11388,11 @@
               "zh-CN": "在倒地状态下被救援时会释放一片治疗云，在3秒内恢复45点生命值，冷却时间为45秒。",
               "zh-TW": "從被擊倒的狀態下復活後，釋放治療煙霧，能在3秒內恢復45點生命值。冷卻時間為45秒。"
             },
-            "values": [45, 3, 45]
+            "values": [
+              45,
+              3,
+              45
+            ]
           }
         ],
         "slots": {
@@ -10118,8 +11483,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -10545,7 +11914,11 @@
               "zh-CN": "每5秒恢复1点生命值。受到伤害时，该效果暂停30秒。",
               "zh-TW": "每5秒恢復1點生命值。受到傷害時，效果會暫停30秒。"
             },
-            "values": [1, 5, 30]
+            "values": [
+              1,
+              5,
+              30
+            ]
           }
         ],
         "slots": {
@@ -10619,8 +11992,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -11021,7 +12398,9 @@
       "classification": {
         "category": "Augment"
       },
-      "partial": ["maxWeight"]
+      "partial": [
+        "maxWeight"
+      ]
     },
     "repairCost": {
       "advanced_electrical_components": 1,
@@ -11086,8 +12465,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     },
     "research": [
@@ -11226,9 +12609,15 @@
       },
       "classification": {
         "category": "Utility.Grenade",
-        "dropType": ["Consumable.Throwable.Grenade"],
-        "itemType": ["Throwable"],
-        "questGroups": ["Items.Grenade"]
+        "dropType": [
+          "Consumable.Throwable.Grenade"
+        ],
+        "itemType": [
+          "Throwable"
+        ],
+        "questGroups": [
+          "Items.Grenade"
+        ]
       },
       "throwable": {
         "effectDurationSec": 10,
@@ -11381,13 +12770,19 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/tattered_arc_lining.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "itemType": ["Misc"],
-        "theme": ["ARC"]
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "ARC"
+        ]
       }
     }
   },
@@ -11451,14 +12846,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/tattered_clothes.png",
     "updatedAt": "02/24/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "base",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Residential"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Residential"
+        ]
       }
     }
   },
@@ -11523,14 +12926,22 @@
     },
     "imageFilename": "https://cdn.arctracker.io/items/v2/telemetry_transceiver.png",
     "updatedAt": "01/09/2026",
-    "_community": ["foundIn"],
+    "_community": [
+      "foundIn"
+    ],
     "addedIn": "1.2",
     "mechanics": {
       "classification": {
         "category": "CraftingMaterial.Recyclable",
-        "dropType": ["Salvage.Recyclables"],
-        "itemType": ["Misc"],
-        "theme": ["Exodus"]
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Exodus"
+        ]
       }
     }
   },
@@ -11591,8 +13002,12 @@
     "mechanics": {
       "classification": {
         "category": "Misc.Trinket",
-        "dropType": ["Salvage.Trinket"],
-        "itemType": ["Misc.Trinket"]
+        "dropType": [
+          "Salvage.Trinket"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ]
       }
     }
   },
@@ -11653,8 +13068,12 @@
     "mechanics": {
       "classification": {
         "category": "Recipe",
-        "dropType": ["Recipe"],
-        "itemType": ["Recipe"]
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
       }
     }
   },
@@ -11894,9 +13313,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.AssaultRifle",
-        "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.MediumAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.MediumAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "medium_ammo",
@@ -11911,7 +13337,11 @@
           "firePower": 70000,
           "fireRate": 550,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -11920,21 +13350,60 @@
           "reloadTimeSec": 2.75
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [150, 1.001],
-          [170, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            150,
+            1.001
+          ],
+          [
+            170,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 2,
           "adsRecoveryMultiplier": 0.75,
           "adsScale": 0.4,
           "fireGain": [
-            [0, 0.05, 0, 0, "linear"],
-            [4, 0.05, 0.05625, 0.05625, "cubic"],
-            [8, 0.5, 0, 0, "cubic"],
-            [25, 0.5, 0, 0, "linear"]
+            [
+              0,
+              0.05,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.05,
+              0.05625,
+              0.05625,
+              "cubic"
+            ],
+            [
+              8,
+              0.5,
+              0,
+              0,
+              "cubic"
+            ],
+            [
+              25,
+              0.5,
+              0,
+              0,
+              "linear"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -12054,24 +13523,93 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.3,
           "pitch": [
-            [0, 0, 2.8229413, 0, "linear"],
-            [2, 0.2, 0, 0, "linear"],
-            [6, 2, 0.07372187, 0.07372336, "linear"],
-            [16, 7, 0.031883117, 0.03188288, "linear"],
-            [27.810873, 10, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.8229413,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              2,
+              0.07372187,
+              0.07372336,
+              "linear"
+            ],
+            [
+              16,
+              7,
+              0.031883117,
+              0.03188288,
+              "linear"
+            ],
+            [
+              27.810873,
+              10,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 0.1],
+          "pitchProceduralRange": [
+            0,
+            0.1
+          ],
           "recoverySpeed": 0.6,
           "sampleCount": 25,
-          "unset": ["proceduralSwingSpeed", "recoveryDelay"],
-          "yaw": [
-            [0, 0, -0.009839253, -0.009840206, "cubic"],
-            [7.903513, -0.12433219, -0.24865048, -0.24865021, "cubic"],
-            [15.802044, 0.6794237, -0.017511474, -0.017511474, "cubic"],
-            [21.71209, -0.36614072, 0, 0, "linear"],
-            [27.98605, 0.30393875, 0, 0.14261085, "cubic"]
+          "unset": [
+            "proceduralSwingSpeed",
+            "recoveryDelay"
           ],
-          "yawProceduralRange": [-0.7, 0.7]
+          "yaw": [
+            [
+              0,
+              0,
+              -0.009839253,
+              -0.009840206,
+              "cubic"
+            ],
+            [
+              7.903513,
+              -0.12433219,
+              -0.24865048,
+              -0.24865021,
+              "cubic"
+            ],
+            [
+              15.802044,
+              0.6794237,
+              -0.017511474,
+              -0.017511474,
+              "cubic"
+            ],
+            [
+              21.71209,
+              -0.36614072,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              27.98605,
+              0.30393875,
+              0,
+              0.14261085,
+              "cubic"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.7,
+            0.7
+          ]
         },
         "statBarOffsets": {
           "stability": -0.5
@@ -12405,9 +13943,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.AssaultRifle",
-        "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.MediumAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.MediumAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "medium_ammo",
@@ -12422,7 +13967,11 @@
           "firePower": 70000,
           "fireRate": 550,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -12431,21 +13980,60 @@
           "reloadTimeSec": 2.75
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [150, 1.001],
-          [170, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            150,
+            1.001
+          ],
+          [
+            170,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 2,
           "adsRecoveryMultiplier": 0.75,
           "adsScale": 0.4,
           "fireGain": [
-            [0, 0.05, 0, 0, "linear"],
-            [4, 0.05, 0.05625, 0.05625, "cubic"],
-            [8, 0.5, 0, 0, "cubic"],
-            [25, 0.5, 0, 0, "linear"]
+            [
+              0,
+              0.05,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.05,
+              0.05625,
+              0.05625,
+              "cubic"
+            ],
+            [
+              8,
+              0.5,
+              0,
+              0,
+              "cubic"
+            ],
+            [
+              25,
+              0.5,
+              0,
+              0,
+              "linear"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -12565,24 +14153,93 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.3,
           "pitch": [
-            [0, 0, 2.8229413, 0, "linear"],
-            [2, 0.2, 0, 0, "linear"],
-            [6, 2, 0.07372187, 0.07372336, "linear"],
-            [16, 7, 0.031883117, 0.03188288, "linear"],
-            [27.810873, 10, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.8229413,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              2,
+              0.07372187,
+              0.07372336,
+              "linear"
+            ],
+            [
+              16,
+              7,
+              0.031883117,
+              0.03188288,
+              "linear"
+            ],
+            [
+              27.810873,
+              10,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 0.1],
+          "pitchProceduralRange": [
+            0,
+            0.1
+          ],
           "recoverySpeed": 0.6,
           "sampleCount": 25,
-          "unset": ["proceduralSwingSpeed", "recoveryDelay"],
-          "yaw": [
-            [0, 0, -0.009839253, -0.009840206, "cubic"],
-            [7.903513, -0.12433219, -0.24865048, -0.24865021, "cubic"],
-            [15.802044, 0.6794237, -0.017511474, -0.017511474, "cubic"],
-            [21.71209, -0.36614072, 0, 0, "linear"],
-            [27.98605, 0.30393875, 0, 0.14261085, "cubic"]
+          "unset": [
+            "proceduralSwingSpeed",
+            "recoveryDelay"
           ],
-          "yawProceduralRange": [-0.7, 0.7]
+          "yaw": [
+            [
+              0,
+              0,
+              -0.009839253,
+              -0.009840206,
+              "cubic"
+            ],
+            [
+              7.903513,
+              -0.12433219,
+              -0.24865048,
+              -0.24865021,
+              "cubic"
+            ],
+            [
+              15.802044,
+              0.6794237,
+              -0.017511474,
+              -0.017511474,
+              "cubic"
+            ],
+            [
+              21.71209,
+              -0.36614072,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              27.98605,
+              0.30393875,
+              0,
+              0.14261085,
+              "cubic"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.7,
+            0.7
+          ]
         },
         "tier": 2,
         "unequipTimeSec": 0.52
@@ -12913,9 +14570,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.AssaultRifle",
-        "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.MediumAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.MediumAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "medium_ammo",
@@ -12930,7 +14594,11 @@
           "firePower": 70000,
           "fireRate": 550,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -12939,21 +14607,60 @@
           "reloadTimeSec": 2.75
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [150, 1.001],
-          [170, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            150,
+            1.001
+          ],
+          [
+            170,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 2,
           "adsRecoveryMultiplier": 0.75,
           "adsScale": 0.4,
           "fireGain": [
-            [0, 0.05, 0, 0, "linear"],
-            [4, 0.05, 0.05625, 0.05625, "cubic"],
-            [8, 0.5, 0, 0, "cubic"],
-            [25, 0.5, 0, 0, "linear"]
+            [
+              0,
+              0.05,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.05,
+              0.05625,
+              0.05625,
+              "cubic"
+            ],
+            [
+              8,
+              0.5,
+              0,
+              0,
+              "cubic"
+            ],
+            [
+              25,
+              0.5,
+              0,
+              0,
+              "linear"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -13073,24 +14780,93 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.3,
           "pitch": [
-            [0, 0, 2.8229413, 0, "linear"],
-            [2, 0.2, 0, 0, "linear"],
-            [6, 2, 0.07372187, 0.07372336, "linear"],
-            [16, 7, 0.031883117, 0.03188288, "linear"],
-            [27.810873, 10, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.8229413,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              2,
+              0.07372187,
+              0.07372336,
+              "linear"
+            ],
+            [
+              16,
+              7,
+              0.031883117,
+              0.03188288,
+              "linear"
+            ],
+            [
+              27.810873,
+              10,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 0.1],
+          "pitchProceduralRange": [
+            0,
+            0.1
+          ],
           "recoverySpeed": 0.6,
           "sampleCount": 25,
-          "unset": ["proceduralSwingSpeed", "recoveryDelay"],
-          "yaw": [
-            [0, 0, -0.009839253, -0.009840206, "cubic"],
-            [7.903513, -0.12433219, -0.24865048, -0.24865021, "cubic"],
-            [15.802044, 0.6794237, -0.017511474, -0.017511474, "cubic"],
-            [21.71209, -0.36614072, 0, 0, "linear"],
-            [27.98605, 0.30393875, 0, 0.14261085, "cubic"]
+          "unset": [
+            "proceduralSwingSpeed",
+            "recoveryDelay"
           ],
-          "yawProceduralRange": [-0.7, 0.7]
+          "yaw": [
+            [
+              0,
+              0,
+              -0.009839253,
+              -0.009840206,
+              "cubic"
+            ],
+            [
+              7.903513,
+              -0.12433219,
+              -0.24865048,
+              -0.24865021,
+              "cubic"
+            ],
+            [
+              15.802044,
+              0.6794237,
+              -0.017511474,
+              -0.017511474,
+              "cubic"
+            ],
+            [
+              21.71209,
+              -0.36614072,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              27.98605,
+              0.30393875,
+              0,
+              0.14261085,
+              "cubic"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.7,
+            0.7
+          ]
         },
         "statBarOffsets": {
           "stability": 0.5
@@ -13424,9 +15200,16 @@
     "mechanics": {
       "classification": {
         "category": "Firearm.AssaultRifle",
-        "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
-        "itemType": ["Weapon.Firearm"],
-        "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+        "dropType": [
+          "Equipment.Weapon.Firearm.MediumAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.MediumAmmoWeapon"
+        ]
       },
       "weapon": {
         "ammoItem": "medium_ammo",
@@ -13441,7 +15224,11 @@
           "firePower": 70000,
           "fireRate": 550,
           "multiShotPattern": {
-            "fromDefault": ["move", "grow", "minSize"],
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
             "grow": 1,
             "minSize": 0,
             "move": 0
@@ -13450,21 +15237,60 @@
           "reloadTimeSec": 2.75
         },
         "damageFalloff": [
-          [0, 1.2],
-          [5, 1.2],
-          [15, 1.001],
-          [150, 1.001],
-          [170, 0.6]
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            150,
+            1.001
+          ],
+          [
+            170,
+            0.6
+          ]
         ],
         "dispersion": {
           "adsDuration": 2,
           "adsRecoveryMultiplier": 0.75,
           "adsScale": 0.4,
           "fireGain": [
-            [0, 0.05, 0, 0, "linear"],
-            [4, 0.05, 0.05625, 0.05625, "cubic"],
-            [8, 0.5, 0, 0, "cubic"],
-            [25, 0.5, 0, 0, "linear"]
+            [
+              0,
+              0.05,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              4,
+              0.05,
+              0.05625,
+              0.05625,
+              "cubic"
+            ],
+            [
+              8,
+              0.5,
+              0,
+              0,
+              "cubic"
+            ],
+            [
+              25,
+              0.5,
+              0,
+              0,
+              "linear"
+            ]
           ],
           "fireMax": 2,
           "linearRecovery": true,
@@ -13584,24 +15410,93 @@
           "adsGainMultiplier": 0.6,
           "lerpSpeed": 0.3,
           "pitch": [
-            [0, 0, 2.8229413, 0, "linear"],
-            [2, 0.2, 0, 0, "linear"],
-            [6, 2, 0.07372187, 0.07372336, "linear"],
-            [16, 7, 0.031883117, 0.03188288, "linear"],
-            [27.810873, 10, 0, 0, "linear"]
+            [
+              0,
+              0,
+              2.8229413,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              2,
+              0.07372187,
+              0.07372336,
+              "linear"
+            ],
+            [
+              16,
+              7,
+              0.031883117,
+              0.03188288,
+              "linear"
+            ],
+            [
+              27.810873,
+              10,
+              0,
+              0,
+              "linear"
+            ]
           ],
-          "pitchProceduralRange": [0, 0.1],
+          "pitchProceduralRange": [
+            0,
+            0.1
+          ],
           "recoverySpeed": 0.6,
           "sampleCount": 25,
-          "unset": ["proceduralSwingSpeed", "recoveryDelay"],
-          "yaw": [
-            [0, 0, -0.009839253, -0.009840206, "cubic"],
-            [7.903513, -0.12433219, -0.24865048, -0.24865021, "cubic"],
-            [15.802044, 0.6794237, -0.017511474, -0.017511474, "cubic"],
-            [21.71209, -0.36614072, 0, 0, "linear"],
-            [27.98605, 0.30393875, 0, 0.14261085, "cubic"]
+          "unset": [
+            "proceduralSwingSpeed",
+            "recoveryDelay"
           ],
-          "yawProceduralRange": [-0.7, 0.7]
+          "yaw": [
+            [
+              0,
+              0,
+              -0.009839253,
+              -0.009840206,
+              "cubic"
+            ],
+            [
+              7.903513,
+              -0.12433219,
+              -0.24865048,
+              -0.24865021,
+              "cubic"
+            ],
+            [
+              15.802044,
+              0.6794237,
+              -0.017511474,
+              -0.017511474,
+              "cubic"
+            ],
+            [
+              21.71209,
+              -0.36614072,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              27.98605,
+              0.30393875,
+              0,
+              0.14261085,
+              "cubic"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.7,
+            0.7
+          ]
         },
         "statBarOffsets": {
           "stability": 0.5
