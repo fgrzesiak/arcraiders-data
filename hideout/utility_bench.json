@@ -4,27 +4,28 @@
     "da": "Værktøjsstation",
     "de": "Gebrauchsgegenstand-Station",
     "en": "Utility Station",
-    "es": "Estación de utilidad",
+    "es": "Puesto de utilidad",
     "fr": "Station utilitaire",
     "he": "עמדת עזרים",
     "hr": "Pomoćna stanica",
-    "it": "Stazione Utilità",
+    "it": "Postazione di funzionalità",
     "ja": "ユーティリティステーション",
     "ko-KR": "유틸리티 스테이션",
     "no": "Verktøystasjon",
-    "pl": "Stacja użytkowa",
+    "pl": "Stacja przedmiotów użytkowych",
     "pt": "Estação utilitária",
     "pt-BR": "Estação de Utilidades",
     "ru": "Верстак для инструментов",
     "sr": "Pomoćna stanica",
-    "tr": "Ekipman İstasyonu",
+    "tr": "Alet İstasyonu",
     "uk": "Станція спорядження",
     "zh-CN": "工具工作台",
-    "zh-TW": "實用工具站"
+    "zh-TW": "功能物品站"
   },
   "maxLevel": 3,
   "levels": [
     {
+      "image": "/images/hideout/levels/utility_bench/1.png",
       "level": 1,
       "requirementItemIds": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/utility_bench/2.png",
       "level": 2,
       "requirementItemIds": [
         {
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/utility_bench/3.png",
       "level": 3,
       "requirementItemIds": [
         {

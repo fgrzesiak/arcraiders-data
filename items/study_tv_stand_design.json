@@ -1,0 +1,50 @@
+{
+  "id": "study_tv_stand_design",
+  "name": {
+    "da": "Studie-TV-bord-design",
+    "de": "Entwurf: Arbeitszimmer-Fernsehständer",
+    "en": "Study TV Stand Design",
+    "es": "Estudiar diseño de mueble para televisión",
+    "fr": "Design du Meuble TV d'étude",
+    "he": "עיצוב מעמד טלוויזיה ללימוד",
+    "hr": "Nacrt TV stalka za radnu sobu",
+    "it": "Design del Supporto TV dello studio",
+    "ja": "書斎用テレビ台デザイン",
+    "ko-KR": "서재용 TV 스탠드 디자인",
+    "no": "Stude-TV-benk-design",
+    "pl": "Projekt Szafki RTV do gabinetu",
+    "pt": "Design de Suporte de TV de Estudo",
+    "pt-BR": "Projeto do Suporte de TV de Estudo",
+    "ru": "Схема тумбы под телевизор (кабинет)",
+    "sr": "Dizajn TV stalka za radnu sobu",
+    "tr": "TV Sehpası Tasarımını İncele",
+    "uk": "Дизайн тумби під телевізор для кабінету",
+    "zh-CN": "学习电视柜设计图",
+    "zh-TW": "學習電視櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/study_tv_stand.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_brackets": 1
+      },
+      "level": 1,
+      "offerId": 892310028,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

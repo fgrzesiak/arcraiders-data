@@ -1,0 +1,50 @@
+{
+  "id": "chambers_lamp_design",
+  "name": {
+    "da": "Chambers Lampe Design",
+    "de": "Kammerlampe-Entwurf",
+    "en": "Chambers Lamp Design",
+    "es": "Diseño de la Lámpara Chambers",
+    "fr": "Design de Lampe de chambre",
+    "he": "עיצוב מנורת Chambers",
+    "hr": "Dizajn Chambers lampe",
+    "it": "Design Lampada delle camere",
+    "ja": "チェンバーズのランプのデザイン",
+    "ko-KR": "챔버스 램프 디자인",
+    "no": "Design: Kammerlampe",
+    "pl": "Projekt lampy komory",
+    "pt": "Projeto de Lâmpada Chambers",
+    "pt-BR": "Projeto de Luminária Chambers",
+    "ru": "Схема Лампы в Камерах",
+    "sr": "Nacrt lampe 'Chambers'",
+    "tr": "Chambers Lamba Tasarımı",
+    "uk": "Дизайн камерної лампи",
+    "zh-CN": "钱伯斯灯设计图",
+    "zh-TW": "商會燈具設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/chambers_lamp.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "broken_flashlight": 1
+      },
+      "level": 2,
+      "offerId": 562146619,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

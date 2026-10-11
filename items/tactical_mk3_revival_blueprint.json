@@ -4,23 +4,23 @@
     "da": "Taktisk Mk. 3 (Genoplivning)-tegning",
     "de": "Bauplan: Taktisch-Marke 3 (Wiederbelebung)",
     "en": "Tactical Mk. 3 (Revival) Blueprint",
-    "es": "Plano Táctico Mk. 3 (Reanimación)",
-    "fr": "Schéma Tactique Mk. 3 (Réanimation)",
+    "es": "Proyecto de Táctico ver. 3 (reanimación)",
+    "fr": "Schéma : Tactique 3 (renaissance)",
     "he": "שרטוט טקטי Mk. 3 (החייאה)",
     "hr": "Nacrt za Taktički Mk. 3 (Oživljavanje)",
-    "it": "Progetto Tattico Mk. 3 (Rianimazione)",
-    "ja": "タクティカル Mk. 3 (リバイバル) の設計図",
-    "ko-KR": "전술 Mk. 3 (소생) 설계도",
+    "it": "Progetto Tattico Mk. 3 (rianimazione)",
+    "ja": "戦術Mk3（リバイバル）設計図",
+    "ko-KR": "전술 마크 3(부활형) 설계도",
     "no": "Taktisk Mk. 3 (Gjenopplivning)-arbeidstegning",
-    "pl": "Schemat: Taktyczne Mk. 3 (Reanimacja)",
+    "pl": "Plan: taktyka wer. 3 (odrodzenie)",
     "pt": "Diagrama Tático Mk. 3 (Reanimação)",
-    "pt-BR": "Projeto Tático Mk. 3 (Reanimação)",
-    "ru": "Чертеж: Тактика Мк. 3 (Реанимация)",
+    "pt-BR": "Esquema de Tático Mk. 3 (Reanimador)",
+    "ru": "Чертеж для стратегии 3 (восстановление)",
     "sr": "Taktički nacrt Mk. 3 (Oživljavanje)",
     "tr": "Taktiksel Mod. 3 (Diriltici) Taslağı",
     "uk": "Креслення: Тактика Мк. 3 (Реанімація)",
-    "zh-CN": "战术 Mk. 3 (复苏) 蓝图",
-    "zh-TW": "戰術 Mk. 3 (復甦) 藍圖"
+    "zh-CN": "战术Mk. 3（复苏）蓝图",
+    "zh-TW": "戰術第3型（復活）藍圖"
   },
   "description": {
     "da": "En augmentering med fokus på genoplivning, designet til holdstøtte. Gendanner 1 helbred hvert 5. sekund. Når man tager skade, pauses effekten i 30 sekunder. Inkluderer en integreret Defibrillator med uendelig brug og 240 sekunders nedkøling.",
@@ -51,5 +51,24 @@
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/v2/tactical_mk3_revival_blueprint.png",
   "updatedAt": "02/02/2026",
-  "addedIn": "1.13"
+  "addedIn": "1.13",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "antiseptic": 3,
+        "arc_circuitry": 5
+      },
+      "level": 3,
+      "offerId": 832696044,
+      "points": 3000,
+      "station": "research_station"
+    }
+  ]
 }

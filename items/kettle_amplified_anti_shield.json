@@ -1,0 +1,290 @@
+{
+  "id": "kettle_amplified_anti_shield",
+  "name": {
+    "da": "Forstærket Kettle · Antiskjold",
+    "de": "Verstärkter Kettle · Anti-Schild",
+    "en": "Amplified Kettle · Anti-Shield",
+    "es": "Caldero amplificado · Antiescudos",
+    "fr": "Fondoir amplifié · Anti-bouclier",
+    "he": "Kettle מוגבר · נגד מגן",
+    "hr": "Pojačani Kettle · Protivštitni",
+    "it": "Stormo amplificato · Anti-scudo",
+    "ja": "強化版ケトル · アンチシールド",
+    "ko-KR": "증폭된 케틀 · 실드 파괴",
+    "no": "Forsterket Kettle · Anti-skjold",
+    "pl": "Wzmocniony Kociołek · Rozwiązanie przeciwko osłonom",
+    "pt": "Kettle Amplificada · Anti-Escudo",
+    "pt-BR": "Chaleira Amplificada · Antiescudo",
+    "ru": "Усовершенствованный Чайник · Антищит",
+    "sr": "Pojačani Kettle · Protiv-štit",
+    "tr": "Güçlendirilmiş Isıtıcı · Kalkan Kıran",
+    "uk": "Посилений Kettle · Антищит",
+    "zh-CN": "增强型“水壶” · 破盾强化",
+    "zh-TW": "增幅水壺 · 反護盾"
+  },
+  "description": {
+    "da": "En forstærket variant af Kettle.",
+    "de": "Eine verstärkte Variante des Kettle.",
+    "en": "An amplified variant of the Kettle.",
+    "es": "Una variante amplificada del Caldero.",
+    "fr": "Une variante amplifiée du Fondoir.",
+    "he": "גרסה מוגברת של ה-Kettle.",
+    "hr": "Pojačana varijanta Kettlea.",
+    "it": "Una variante amplificata dello Stormo.",
+    "ja": "ケトルの強化版。",
+    "ko-KR": "증폭된 케틀입니다.",
+    "no": "En forsterket variant av Kettle.",
+    "pl": "Wzmocniony wariant Kociołka.",
+    "pt": "Uma variante amplificada da Kettle.",
+    "pt-BR": "Uma variante amplificada de Chaleira.",
+    "ru": "Усовершенствованная версия Чайника.",
+    "sr": "Pojačana varijanta Kettle-a.",
+    "tr": "Isıtıcı'nın güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Kettle.",
+    "zh-CN": "“水壶”的增强型变体。",
+    "zh-TW": "水壺的增幅版。"
+  },
+  "type": "Assault Rifle",
+  "rarity": "Legendary",
+  "value": 11200,
+  "weightKg": 7,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Light Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Very Weak",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2.5x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Semi-Automatic",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Increased Bullet Velocity": {
+      "value": "75%",
+      "da": "Øget kuglehastighed",
+      "de": "Erhöhte Geschossgeschwindigkeit",
+      "en": "Increased Bullet Velocity",
+      "es": "Velocidad de bala aumentada",
+      "fr": "Vélocité des balles augmentée",
+      "he": "מהירות קליע מוגברת",
+      "hr": "Povećana brzina metka",
+      "it": "Velocità proiettile aumentata",
+      "ja": "弾速増加",
+      "ko-KR": "탄환 속도 증가",
+      "no": "Økt kulehastighet",
+      "pl": "Zwiększona prędkość pocisku",
+      "pt": "Velocidade de bala aumentada",
+      "pt-BR": "Aumento da Velocidade do Projétil",
+      "ru": "Увеличенная скорость пули",
+      "sr": "Povećana brzina metka",
+      "tr": "Artırılmış Mermi Hızı",
+      "uk": "Збільшена швидкість кулі",
+      "zh-CN": "子弹速度提升",
+      "zh-TW": "子彈速度提升"
+    },
+    "Reduced Reload Time": {
+      "value": "40%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 10
+  },
+  "salvagesInto": {
+    "amplified_fragments": 6
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_amplified_anti_shield.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.AssaultRifle",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.LightAmmoWeapon",
+        "Items.SpecificWeapon.Kettle"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "light_ammo",
+      "arc": {
+        "armorMultiplier": 0.2,
+        "propagationMultiplier": 0.1
+      },
+      "base": {
+        "adsTimeSec": 0.6,
+        "burnRate": 0.001607,
+        "burstSize": 1,
+        "clipSize": 20,
+        "firePower": 40000,
+        "fireRate": 450,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 8.5,
+        "reloadTimeSec": 4.5
+      },
+      "equipTimeSec": 1,
+      "headshotMultiplier": 2.5,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.4
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "magazine": [
+      "extended_light_mag_i",
+      "extended_light_mag_ii",
+      "extended_light_mag_iii"
+    ],
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 17
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "pneumatic_actuator": 3
+      },
+      "to": "kettle_amplified_anti_shield_full_auto"
+    }
+  ]
+}

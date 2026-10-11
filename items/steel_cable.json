@@ -1,0 +1,79 @@
+{
+  "id": "steel_cable",
+  "name": {
+    "da": "Stålkabel",
+    "de": "Stahlseil",
+    "en": "Steel Cable",
+    "es": "Cable de acero",
+    "fr": "Câble en acier",
+    "he": "כבל פלדה",
+    "hr": "Čelično uže",
+    "it": "Cavo d'acciaio",
+    "ja": "鋼ケーブル",
+    "ko-KR": "강철 케이블",
+    "no": "Stålkabel",
+    "pl": "Stalowa lina",
+    "pt": "Cabo de Aço",
+    "pt-BR": "Cabo de Aço",
+    "ru": "Стальной трос",
+    "sr": "Čelični kabl",
+    "tr": "Çelik Kablo",
+    "uk": "Сталевий Трос",
+    "zh-CN": "钢缆",
+    "zh-TW": "鋼纜"
+  },
+  "description": {
+    "da": "Kan genanvendes til fremstillingsmaterialer.",
+    "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+    "en": "Can be recycled into crafting materials.",
+    "es": "Se puede reciclar para obtener materiales de fabricación.",
+    "fr": "Peut être recyclé en matériaux d'artisanat.",
+    "he": "ניתן למחזר לחומרי יצירה.",
+    "hr": "Može se reciklirati u materijale za izradu.",
+    "it": "Si può riciclare in materiali da creazione.",
+    "ja": "リサイクルすると製作用素材になる。",
+    "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+    "no": "Kan resirkuleres til håndverksmaterialer.",
+    "pl": "Można wykorzystać ponownie do wytworzenia materiałów.",
+    "pt": "Pode ser reciclado em materiais de criação.",
+    "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+    "ru": "Можно переработать, чтобы получить материалы.",
+    "sr": "Može se reciklirati u materijale za izradu.",
+    "tr": "Üretim materyallerine geri dönüştürülebilir.",
+    "uk": "Можна переробити на матеріали для виготовлення.",
+    "zh-CN": "可回收为制作材料。",
+    "zh-TW": "可回收成製作材料。"
+  },
+  "type": "Recyclable",
+  "rarity": "Rare",
+  "value": 270,
+  "weightKg": 0.5,
+  "stackSize": 5,
+  "recyclesInto": {
+    "wires": 1
+  },
+  "salvagesInto": {
+    "rubber_parts": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/steel_cable.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Recyclable",
+      "dropType": ["Salvage.Recyclables"],
+      "itemType": ["Misc"]
+    }
+  },
+  "vendors": [
+    {
+      "cost": {
+        "assorted_seeds": 20
+      },
+      "limit": 5,
+      "refreshSeconds": 86400,
+      "requiredLevel": 12,
+      "trader": "Celeste"
+    }
+  ]
+}

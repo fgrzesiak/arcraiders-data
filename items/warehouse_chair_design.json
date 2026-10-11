@@ -1,0 +1,50 @@
+{
+  "id": "warehouse_chair_design",
+  "name": {
+    "da": "Lagerstolsdesign",
+    "de": "Lagerhausstuhl-Entwurf",
+    "en": "Warehouse Chair Design",
+    "es": "Diseño de silla del almacén",
+    "fr": "Design de chaise d'entrepôt",
+    "he": "עיצוב כיסא מחסן",
+    "hr": "Dizajn skladišne stolice",
+    "it": "Design della Sedia del magazzino",
+    "ja": "倉庫の椅子デザイン",
+    "ko-KR": "창고 의자 디자인",
+    "no": "Lagerstol-design",
+    "pl": "Projekt krzesła magazynowego",
+    "pt": "Projeto de Cadeira de Armazém",
+    "pt-BR": "Projeto de Cadeira do Armazém",
+    "ru": "Схема складского стула",
+    "sr": "Nacrt skladišne stolice",
+    "tr": "Depo Sandalye Tasarımı",
+    "uk": "Дизайн складського стільця",
+    "zh-CN": "仓库椅子设计图",
+    "zh-TW": "倉庫椅子設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/warehouse_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_parts": 15
+      },
+      "level": 1,
+      "offerId": 393278030,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

@@ -12,17 +12,17 @@
     "ja": "保管庫",
     "ko-KR": "보관함",
     "no": "Oppbevaring",
-    "pl": "Schowek",
+    "pl": "Skrytka",
     "pt": "Esconderijo",
     "pt-BR": "Armazenamento",
     "ru": "Хранилище",
     "sr": "Skladište",
-    "tr": "Depo",
+    "tr": "Zula",
     "uk": "Схованка",
     "zh-CN": "储备箱",
     "zh-TW": "儲藏箱"
   },
-  "maxLevel": 10,
+  "maxLevel": 12,
   "levels": [
     {
       "description": "64 slots",
@@ -56,31 +56,43 @@
     {
       "description": "+24 slots (184 total)",
       "level": 6,
-      "otherRequirements": ["40000 Coins"],
+      "otherRequirements": ["50000 Coins"],
       "requirementItemIds": []
     },
     {
       "description": "+24 slots (208 total)",
       "level": 7,
-      "otherRequirements": ["60000 Coins"],
+      "otherRequirements": ["80000 Coins"],
       "requirementItemIds": []
     },
     {
       "description": "+24 slots (232 total)",
       "level": 8,
-      "otherRequirements": ["90000 Coins"],
+      "otherRequirements": ["100000 Coins"],
       "requirementItemIds": []
     },
     {
       "description": "+24 slots (256 total)",
       "level": 9,
-      "otherRequirements": ["130000 Coins"],
+      "otherRequirements": ["150000 Coins"],
       "requirementItemIds": []
     },
     {
       "description": "+24 slots (280 total)",
       "level": 10,
-      "otherRequirements": ["200000 Coins"],
+      "otherRequirements": ["300000 Coins"],
+      "requirementItemIds": []
+    },
+    {
+      "description": "+24 slots (304 total)",
+      "level": 11,
+      "otherRequirements": ["750000 Coins"],
+      "requirementItemIds": []
+    },
+    {
+      "description": "+24 slots (328 total)",
+      "level": 12,
+      "otherRequirements": ["1500000 Coins"],
       "requirementItemIds": []
     }
   ]

@@ -1,0 +1,73 @@
+{
+  "id": "yank_grenade_blueprint",
+  "name": {
+    "da": "Rykgranat-tegning",
+    "de": "Bauplan: Zuggranate",
+    "en": "Yank Grenade Blueprint",
+    "es": "Proyecto de la granada de tracción",
+    "fr": "Schéma de grenade tractrice",
+    "he": "תכנית רימון משיכה",
+    "hr": "Nacrt Privlačne Granate",
+    "it": "Progetto Granata a strappo",
+    "ja": "牽引グレネードの設計図",
+    "ko-KR": "견인 수류탄 설계도",
+    "no": "Rykkgranat-tegning",
+    "pl": "Plan: granat szarpiący",
+    "pt": "Projeto: Granada Puxão",
+    "pt-BR": "Esquema de Granada de Arrepelação",
+    "ru": "Чертеж — Притягивающая граната",
+    "sr": "Nacrt Vučne Granate",
+    "tr": "Çekişli Bomba Taslağı",
+    "uk": "Кресленик Ривкової Гранати",
+    "zh-CN": "系索弹蓝图",
+    "zh-TW": "拉曳手榴彈藍圖"
+  },
+  "description": {
+    "da": "Lader dig fremstille en Rykgranat",
+    "de": "Damit stellst du eine Zuggranate her",
+    "en": "Lets you craft a Yank Grenade",
+    "es": "Te permite fabricar una granada de tracción.",
+    "fr": "Vous permet de fabriquer une grenade tractrice",
+    "he": "מאפשר ליצור רימון משיכה.",
+    "hr": "Omogućuje izradu Privlačne Granate.",
+    "it": "Ti permette di creare una Granata a strappo",
+    "ja": "牽引グレネードが製作可能になる",
+    "ko-KR": "견인 수류탄 제작법입니다.",
+    "no": "Lar deg lage en Rykkgranat",
+    "pl": "Pozwala wytworzyć granat szarpiący",
+    "pt": "Permite fabricar uma Granada Puxão.",
+    "pt-BR": "Permite fabricar uma Granada de Arrepelação",
+    "ru": "Позволяет создать притягивающую гранату.",
+    "sr": "Omogućava izradu Vučne Granate",
+    "tr": "Çekişli Bomba üretmeni sağlar",
+    "uk": "Дозволяє створити Ривкову Гранату",
+    "zh-CN": "可以制作系索弹",
+    "zh-TW": "可製作拉曳手榴彈"
+  },
+  "type": "Blueprint",
+  "rarity": "Common",
+  "value": 5000,
+  "weightKg": 0,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/yank_grenade_blueprint.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "steel_cable": 8
+      },
+      "level": 1,
+      "offerId": 671668268,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

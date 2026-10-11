@@ -1,0 +1,50 @@
+{
+  "id": "sturdy_faculty_table_design",
+  "name": {
+    "da": "Robust Fakultetsbord Design",
+    "de": "Entwurf: Robuster Fakultätstisch",
+    "en": "Sturdy Faculty Table Design",
+    "es": "Diseño de mesa de la facultad robusta",
+    "fr": "Design de la Table de la faculté robuste",
+    "he": "עיצוב שולחן סגל מחוזק",
+    "hr": "Nacrt čvrstog fakultetskog stola",
+    "it": "Design del Tavolo resistente della facoltà",
+    "ja": "頑丈な教員用テーブル デザイン",
+    "ko-KR": "견고한 학부 테이블 디자인",
+    "no": "Solid Lærerbord-design",
+    "pl": "Projekt solidnego stołu wydziałowego",
+    "pt": "Projeto de Mesa de Faculdade Robusta",
+    "pt-BR": "Projeto da Mesa Resistente do Corpo Docente",
+    "ru": "Схема Крепкого факультетского стола",
+    "sr": "Robusan dizajn fakultetskog stola",
+    "tr": "Sağlam Fakülte Masası Tasarımı",
+    "uk": "Креслення міцного факультетського столу",
+    "zh-CN": "坚固学院桌子设计图",
+    "zh-TW": "牢固學院桌設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/sturdy_faculty_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 5
+      },
+      "level": 2,
+      "offerId": 839426017,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

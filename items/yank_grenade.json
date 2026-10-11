@@ -1,0 +1,128 @@
+{
+  "id": "yank_grenade",
+  "name": {
+    "da": "Rykgranat",
+    "de": "Zuggranate",
+    "en": "Yank Grenade",
+    "es": "Granada de tracción",
+    "fr": "Grenade tractrice",
+    "he": "רימון משיכה",
+    "hr": "Privlačna Granata",
+    "it": "Granata a strappo",
+    "ja": "牽引グレネード",
+    "ko-KR": "견인 수류탄",
+    "no": "Rykkgranat",
+    "pl": "Granat szarpiący",
+    "pt": "Granada Puxão",
+    "pt-BR": "Granada de Arrepelação",
+    "ru": "Притягивающая граната",
+    "sr": "Vučna Granata",
+    "tr": "Çekişli Bomba",
+    "uk": "Ривкова Граната",
+    "zh-CN": "系索弹",
+    "zh-TW": "拉曳手榴彈"
+  },
+  "description": {
+    "da": "En granat, der forankrer en line til det, den rammer, og trækker målet mod nedslagspunktet.",
+    "de": "Eine Granate, die eine Leine an allem verankert, was sie trifft, und das Ziel so zum Einschlagpunkt heranzieht.",
+    "en": "A grenade that anchors a line to whatever it hits, pulling the target toward the point of impact.",
+    "es": "Una granada que ancla un cable en cualquier superficie en la que impacte y tira del objetivo hacia el lugar de impacto.",
+    "fr": "Une grenade qui accroche une ligne à tout ce qu'elle touche et attire la cible vers le point d'impact.",
+    "he": "רימון שמעגן כבל לכל מה שהוא פוגע בו, ומושך את המטרה אל נקודת הפגיעה.",
+    "hr": "Granata koja zakači sajlu za ono što pogodi, povlačeći metu prema mjestu udara.",
+    "it": "Una granata che fissa una fune a qualsiasi cosa colpisca, trascinando il bersaglio verso il punto d'impatto.",
+    "ja": "命中した対象にワイヤーを固定し、その標的を着弾点へと引き寄せるグレネード。",
+    "ko-KR": "명중한 대상에 줄을 고정해 충돌 지점 쪽으로 끌어당기는 수류탄입니다.",
+    "no": "En granat som fester en line til det den treffer, og trekker målet mot nedslagspunktet.",
+    "pl": "Granat, który do trafionego obiektu przyczepia linę, przyciągając cel w stronę pola rażenia.",
+    "pt": "Uma granada que prende uma linha no que atinge, puxando o alvo para o ponto de impacto.",
+    "pt-BR": "Uma granada que prende uma linha ao que atingir, puxando o alvo para o ponto de impacto.",
+    "ru": "Граната, которая закрепляет трос в месте попадания и подтягивает цель к этой точке.",
+    "sr": "Granata koja zakači sajlu za sve što pogodi, povlačeći metu ka tački udara.",
+    "tr": "İsabet ettiği şeye ip tutturan ve hedefini etki noktasına çeken bir el bombası.",
+    "uk": "Граната, яка прикріплює трос до всього, у що влучає, притягуючи ціль до точки влучання.",
+    "zh-CN": "这种手雷命中任何物体后，都会在该物体上系上一条索线，并把目标拉向撞击点。",
+    "zh-TW": "此手榴彈會將一條繩索固定在任何擊中的地點，並將目標拉向該地點。"
+  },
+  "type": "Quick Use",
+  "rarity": "Uncommon",
+  "value": 550,
+  "weightKg": 0.35,
+  "stackSize": 3,
+  "blueprintLocked": true,
+  "effects": {
+    "Radius": {
+      "value": "8.5m",
+      "da": "Radius",
+      "de": "Radius",
+      "en": "Radius",
+      "es": "Radio",
+      "fr": "Rayon",
+      "he": "רדיוס",
+      "hr": "Radijus",
+      "it": "Raggio",
+      "ja": "半径",
+      "ko-KR": "반경",
+      "no": "Radius",
+      "pl": "Promień",
+      "pt": "Raio",
+      "pt-BR": "Raio",
+      "ru": "Радиус",
+      "sr": "Radijus",
+      "tr": "Alan",
+      "uk": "Радіус",
+      "zh-CN": "半径",
+      "zh-TW": "半徑"
+    },
+    "Tether Duration": {
+      "value": "1s",
+      "da": "Koblingsvarighed",
+      "de": "Leinendauer",
+      "en": "Tether Duration",
+      "es": "Duración del anclaje",
+      "fr": "Durée d'amarrage",
+      "he": "משך קשירה",
+      "hr": "Trajanje konopca",
+      "it": "Durata aggancio",
+      "ja": "テザー時間",
+      "ko-KR": "테더 지속 시간",
+      "no": "Lenkevarighet",
+      "pl": "Czas trwania uwięzi",
+      "pt": "Duração da Amarra",
+      "pt-BR": "Duração da amarração",
+      "ru": "Продолжительность крепления",
+      "sr": "Trajanje Tethea",
+      "tr": "Bağlama İpi Süresi",
+      "uk": "Тривалість Тросу",
+      "zh-CN": "系索持续时间",
+      "zh-TW": "繫繩持續時間"
+    }
+  },
+  "craftBench": "explosives_bench",
+  "stationLevelRequired": 2,
+  "recipe": {
+    "crude_explosives": 1,
+    "rope": 1
+  },
+  "recyclesInto": {
+    "rope": 1
+  },
+  "salvagesInto": {
+    "fabric": 3
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/yank_grenade.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "card": {
+      "radiusM": 8.5
+    },
+    "classification": {
+      "category": "Utility.Grenade",
+      "dropType": ["Consumable.Throwable.Grenade"],
+      "itemType": ["Throwable"],
+      "questGroups": ["Items.Grenade"]
+    },
+    "partial": ["placedItem"]
+  }
+}

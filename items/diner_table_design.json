@@ -1,0 +1,50 @@
+{
+  "id": "diner_table_design",
+  "name": {
+    "da": "Diner Bord-design",
+    "de": "Diner-Tisch-Entwurf",
+    "en": "Diner Table Design",
+    "es": "Diseño de mesa de cafetería",
+    "fr": "Design de Table de diner",
+    "he": "עיצוב שולחן: דיינר",
+    "hr": "Nacrt Diner stola",
+    "it": "Design del Tavolo del diner",
+    "ja": "ダイナーのテーブルデザイン",
+    "ko-KR": "다이너 테이블 디자인",
+    "no": "Diner Bord Design",
+    "pl": "Projekt stołu w dinerze",
+    "pt": "Projeto: Mesa de Lanchonete",
+    "pt-BR": "Projeto da Mesa da Lanchonete",
+    "ru": "Схема столика в закусочной",
+    "sr": "Nacrt stola 'Diner'",
+    "tr": "Diner Masa Tasarımı",
+    "uk": "Дизайн столу 'Закусочна'",
+    "zh-CN": "餐馆餐桌设计图",
+    "zh-TW": "小餐館桌設計"
+  },
+  "type": "Design",
+  "rarity": "Epic",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/diner_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "statuette": 1
+      },
+      "level": 3,
+      "offerId": 299052681,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
+}

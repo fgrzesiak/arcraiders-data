@@ -1,0 +1,70 @@
+{
+  "id": "frigate_diagnostic_node",
+  "name": {
+    "da": "Fregatdiagnostisk node",
+    "de": "Fregatten-Diagnoseknoten",
+    "en": "Frigate Diagnostic Node",
+    "es": "Nodo diagnóstico de fragata",
+    "fr": "Nœud de diagnostic de Frégate",
+    "he": "צומת אבחון פריגטה",
+    "hr": "Dijagnostički čvor fregate.",
+    "it": "Nodo diagnostico della Fregata",
+    "ja": "フリゲート診断ノード",
+    "ko-KR": "프리깃 진단 노드",
+    "no": "Fregatt-diagnosenode",
+    "pl": "Węzeł diagnostyczny fregaty",
+    "pt": "Nó de Diagnóstico de Fragata",
+    "pt-BR": "Nó de Diagnóstico de Fragata",
+    "ru": "Диагностический узел «Фрегата»",
+    "sr": "Dijagnostički čvor fregate",
+    "tr": "Fırkateyn Teşhis Düğümü",
+    "uk": "Діагностичний вузол фрегата",
+    "zh-CN": "“护卫者”诊断节点",
+    "zh-TW": "巡防艦診斷節點"
+  },
+  "description": {
+    "da": "Fundet i kølvandet på ARC-fregatter. Disse noders elektromagnetiske signaturer viser sig at være delvist tydbare.",
+    "de": "Die elektromagnetischen Signaturen dieser Knotenpunkte, die entlang der Wege von ARC-Fregatten zu finden sind, lassen sich teilweise entschlüsseln.",
+    "en": "Found in the trail of ARC Frigates, the electromagnetic signatures of these nodes turn out to be partially decipherable.",
+    "es": "Un objeto hallado tras el paso de fragatas ARC. Se pueden descifrar parcialmente las señales electromagnéticas que emiten estos nodos.",
+    "fr": "Trouvés dans le sillage des Frégates ARC, ces nœuds émettent des signatures électromagnétiques partiellement déchiffrables.",
+    "he": "נמצא בעקבות פריגטות ARC. חתימותיהם האלקטרומגנטיות של צמתים אלה מתגלות כניתנות לפיענוח חלקי.",
+    "hr": "Pronađeni u tragu ARC fregata, elektromagnetski potpisi ovih čvorova pokazali su se djelomično dešifriranima.",
+    "it": "Ritrovate sulla scia delle Fregate ARC, le firme elettromagnetiche di questi nodi risultano essere parzialmente decifrabili.",
+    "ja": "ARCフリゲートの航跡から発見された。このノードの電磁シグネチャは、部分的に解読可能だと判明している。",
+    "ko-KR": "아크 프리깃이 지나간 길목에서 발견되는 이 노드들의 전자기 신호는 일부나마 해독할 수 있습니다.",
+    "no": "Funnet i kjølvannet av ARC-fregatter. De elektromagnetiske signaturene fra disse nodene viser seg å være delvis tydbare.",
+    "pl": "Węzły te występują w smugach pozostawianych przez fregaty ARC i zawierają sygnatury elektromagnetyczne, które można częściowo rozszyfrować.",
+    "pt": "Encontrado no rastro de Fragatas ARC, as assinaturas eletromagnéticas desses nós revelam-se parcialmente decifráveis.",
+    "pt-BR": "Encontrados no rastro de Fragatas ARC, as assinaturas eletromagnéticas desses nós pode ser parcialmente decifrada.",
+    "ru": "Их оставляют после себя «Фрегаты» ARC. Электромагнитные сигнатуры этих модулей можно частично расшифровать.",
+    "sr": "Pronađeni na tragu ARC fregata, elektromagnetni potpisi ovih čvorova ispostavili su se delimično dešifrovanim.",
+    "tr": "ARC Fırkateynlerinin izinde bulunan bu düğümlerin elektromanyetik imzalarının kısmen deşifre edilebileceği ortaya çıktı.",
+    "uk": "Знайдені в кільватері фрегатів ARC, електромагнітні сигнали цих вузлів виявляються частково розшифровуваними.",
+    "zh-CN": "在ARC“护卫者”行迹中发现的节点，其电磁信号已可被部分破译。",
+    "zh-TW": "在ARC巡防艦的殘跡中發現，這些節點中的電磁信號有一部分是可解讀的。"
+  },
+  "type": "Misc",
+  "rarity": "Legendary",
+  "value": 3000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/frigate_diagnostic_node.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.StudyItem",
+      "dropType": ["Salvage.Material.Legendary"],
+      "itemType": ["Misc"],
+      "theme": ["ARC"]
+    }
+  },
+  "researchPoints": [
+    {
+      "level": 1,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

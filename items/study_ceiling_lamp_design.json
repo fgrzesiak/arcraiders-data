@@ -1,0 +1,50 @@
+{
+  "id": "study_ceiling_lamp_design",
+  "name": {
+    "da": "Studie-loftslampe-design",
+    "de": "Entwurf: Arbeitszimmer-Deckenlampe",
+    "en": "Study Ceiling Lamp Design",
+    "es": "Diseño de lámpara de techo para el estudio",
+    "fr": "Plafonnier d'étude Design",
+    "he": "עיצוב מנורת תקרה ללימוד",
+    "hr": "Nacrt stropne svjetiljke za radnu sobu",
+    "it": "Plafoniera dello studio Design",
+    "ja": "書斎用天井ランプのデザイン",
+    "ko-KR": "서재용 천장 램프 디자인",
+    "no": "Stude-taklampe-design",
+    "pl": "Projekt lampy sufitowej do gabinetu",
+    "pt": "Design de Lâmpada de Teto de Estudo",
+    "pt-BR": "Projeto da Luminária de Teto do Estudo",
+    "ru": "Схема потолочной лампы для кабинета",
+    "sr": "Dizajn plafonske lampe za radnu sobu",
+    "tr": "Tavan Lambası Tasarımını İncele",
+    "uk": "Дизайн стельової лампи для кабінету",
+    "zh-CN": "研究吸顶灯设计图",
+    "zh-TW": "研究天花板燈設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/study_ceiling_lamp.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "broken_taser": 3
+      },
+      "level": 3,
+      "offerId": 538107368,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

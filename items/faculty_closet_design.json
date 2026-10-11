@@ -1,0 +1,50 @@
+{
+  "id": "faculty_closet_design",
+  "name": {
+    "da": "Fakultetsskabsdesign",
+    "de": "Entwurf: Fakultätsschrank",
+    "en": "Faculty Closet Design",
+    "es": "Diseño de armario del profesorado",
+    "fr": "Design du Placard de la faculté",
+    "he": "עיצוב ארון סגל",
+    "hr": "Nacrt fakultetskog ormara.",
+    "it": "Design del Guardaroba della facoltà",
+    "ja": "教員用クローゼットのデザイン",
+    "ko-KR": "학부 보관실 디자인",
+    "no": "Fakultetsskapdesign",
+    "pl": "Projekt schowka wydziałowego",
+    "pt": "Projeto de Armário da Faculdade",
+    "pt-BR": "Projeto do Armário do Corpo Docente",
+    "ru": "Схема Кладовки факультета",
+    "sr": "Nacrt fakultetskog ormara",
+    "tr": "Personel Gardırop Tasarımı",
+    "uk": "Дизайн шафи \"Факультет\"",
+    "zh-CN": "教职员衣柜设计图",
+    "zh-TW": "教職員衣櫥設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/faculty_closet.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rusted_bolts": 3
+      },
+      "level": 3,
+      "offerId": 116412127,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

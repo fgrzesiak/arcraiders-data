@@ -1,0 +1,120 @@
+{
+  "id": "research_station",
+  "name": {
+    "da": "Forskningsstation",
+    "de": "Forschungsstation",
+    "en": "Research Station",
+    "es": "Estación de Investigación",
+    "fr": "Station de recherche",
+    "he": "תחנת מחקר",
+    "hr": "Istraživačka stanica",
+    "it": "Stazione di ricerca",
+    "ja": "研究ステーション",
+    "ko-KR": "연구소",
+    "no": "Forskningstasjon",
+    "pl": "Stacja badawcza",
+    "pt": "Estação de Pesquisa",
+    "pt-BR": "Estação de Pesquisa",
+    "ru": "Станция исследований",
+    "sr": "Istraživačka stanica",
+    "tr": "Araştırma İstasyonu",
+    "uk": "Дослідницька станція",
+    "zh-CN": "研究站",
+    "zh-TW": "研究站"
+  },
+  "maxLevel": 4,
+  "levels": [
+    {
+      "image": "/images/hideout/levels/research_station/1.png",
+      "level": 1,
+      "requirementItemIds": [
+        {
+          "itemId": "planks",
+          "quantity": 35
+        },
+        {
+          "itemId": "battered_paperback",
+          "quantity": 5
+        },
+        {
+          "itemId": "mini_pump",
+          "quantity": 3
+        }
+      ],
+      "requires": [
+        {
+          "outpostRooms": 1
+        }
+      ]
+    },
+    {
+      "image": "/images/hideout/levels/research_station/2.png",
+      "level": 2,
+      "requirementItemIds": [
+        {
+          "itemId": "calculator",
+          "quantity": 3
+        },
+        {
+          "itemId": "raider_logbook",
+          "quantity": 3
+        },
+        {
+          "itemId": "skulker_targeter",
+          "quantity": 5
+        }
+      ],
+      "requires": [
+        {
+          "outpostRooms": 2
+        }
+      ]
+    },
+    {
+      "image": "/images/hideout/levels/research_station/3.png",
+      "level": 3,
+      "requirementItemIds": [
+        {
+          "itemId": "differential_microphone",
+          "quantity": 3
+        },
+        {
+          "itemId": "exodus_technical_handbook",
+          "quantity": 3
+        },
+        {
+          "itemId": "bully_fragmenter",
+          "quantity": 6
+        }
+      ],
+      "requires": [
+        {
+          "outpostRooms": 3
+        }
+      ]
+    },
+    {
+      "image": "/images/hideout/levels/research_station/4.png",
+      "level": 4,
+      "requirementItemIds": [
+        {
+          "itemId": "thermal_shaker",
+          "quantity": 3
+        },
+        {
+          "itemId": "arc_data_module",
+          "quantity": 3
+        },
+        {
+          "itemId": "frigate_inductor",
+          "quantity": 1
+        }
+      ],
+      "requires": [
+        {
+          "outpostRooms": 4
+        }
+      ]
+    }
+  ]
+}

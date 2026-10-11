@@ -4,20 +4,20 @@
     "da": "Mellem ammunition",
     "de": "Mittlere Munition",
     "en": "Medium Ammo",
-    "es": "Munición media",
-    "fr": "Munitions Moyennes",
+    "es": "Munición mediana",
+    "fr": "Munitions moyennes",
     "he": "תחמושת בינונית",
     "hr": "Srednje streljivo",
     "it": "Munizioni medie",
     "ja": "中型弾薬",
-    "ko-KR": "중량 탄약",
+    "ko-KR": "준중량 탄약",
     "no": "Middels ammunisjon",
     "pl": "Średnia amunicja",
     "pt": "Munição média",
     "pt-BR": "Munição Média",
     "ru": "Патрон среднего калибра",
     "sr": "Srednje streljivo",
-    "tr": "Orta Cephane ",
+    "tr": "Orta Cephane",
     "uk": "Середні патрони",
     "zh-CN": "中型弹药",
     "zh-TW": "中型彈藥"
@@ -51,7 +51,7 @@
   "stackSize": 80,
   "craftQuantity": 20,
   "compatibleWith": ["Arpeggio", "Rattler", "Tempest", "Renegade", "Torrente"],
-  "craftBench": "workbench",
+  "craftBench": ["in_raid", "workbench"],
   "stationLevelRequired": 1,
   "recipe": {
     "chemicals": 2,
@@ -60,11 +60,24 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/medium_ammo.png",
   "updatedAt": "02/24/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "RiflePayload",
+      "dropType": ["Ammo.MediumAmmo"],
+      "itemType": ["Ammunition"],
+      "questGroups": ["Items.AllAmmo"]
+    },
+    "pickup": {
+      "max": 16,
+      "min": 8
+    }
+  },
   "vendors": [
     {
       "cost": {
         "coins": 900
       },
+      "quantity": 20,
       "trader": "Tian Wen"
     }
   ]

@@ -1,0 +1,50 @@
+{
+  "id": "work_light_design",
+  "name": {
+    "da": "Arbejdslampedesign",
+    "de": "Arbeitslampen-Entwurf",
+    "en": "Work Light Design",
+    "es": "Diseño de Lámpara de trabajo",
+    "fr": "Design de Lampe de travail",
+    "he": "עיצוב מנורת עבודה",
+    "hr": "Dizajn radne svjetiljke",
+    "it": "Design Lampada da lavoro",
+    "ja": "作業灯の設計図",
+    "ko-KR": "작업등 디자인",
+    "no": "Arbeidslys-design",
+    "pl": "Projekt lampy warsztatowej",
+    "pt": "Projeto de Luminária de Trabalho",
+    "pt-BR": "Projeto da Luminária de Trabalho",
+    "ru": "Схема рабочей лампы",
+    "sr": "Nacrt radne lampe",
+    "tr": "İş Lambası Tasarımı",
+    "uk": "Дизайн робочого світильника",
+    "zh-CN": "工作灯设计图",
+    "zh-TW": "工作燈設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/work_light.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "electrical_components": 3
+      },
+      "level": 1,
+      "offerId": 676043938,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

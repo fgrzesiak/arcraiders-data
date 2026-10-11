@@ -1,0 +1,50 @@
+{
+  "id": "sturdy_shelf_design",
+  "name": {
+    "da": "Robust Hylde Design",
+    "de": "Entwurf: Robustes Regal",
+    "en": "Sturdy Shelf Design",
+    "es": "Diseño de estantería robusta",
+    "fr": "Design d'Étagère robuste",
+    "he": "עיצוב מדף מחוזק",
+    "hr": "Nacrt čvrste police",
+    "it": "Design Mensola resistente",
+    "ja": "頑丈な棚のデザイン",
+    "ko-KR": "견고한 선반 디자인",
+    "no": "Solid Hylle-design",
+    "pl": "Projekt Solidnej półki",
+    "pt": "Projeto de Prateleira Robusta",
+    "pt-BR": "Projeto de Prateleira Resistente",
+    "ru": "Схема: Крепкая полка",
+    "sr": "Robusan dizajn police",
+    "tr": "Sağlam Raf Tasarımı",
+    "uk": "Креслення міцної полиці",
+    "zh-CN": "坚固架子设计图",
+    "zh-TW": "牢固書架設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/sturdy_shelf.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rusted_bolts": 1
+      },
+      "level": 2,
+      "offerId": 680489706,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

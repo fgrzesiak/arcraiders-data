@@ -16,33 +16,33 @@
     "pt": "Tempestade II",
     "pt-BR": "Temporal II",
     "ru": "Буря II",
-    "sr": "Олуја II",
+    "sr": "Oluja II",
     "tr": "Bora II",
     "uk": "Буря II",
     "zh-CN": "风暴 II",
-    "zh-TW": "風暴 II"
+    "zh-TW": "暴風雨II"
   },
   "description": {
-    "da": "Fuldt automatisk angrebsriffel med moderat skudhastighed og præcision.",
-    "de": "Vollautomatisches Sturmgewehr mit mittlerer Feuerrate und Genauigkeit.",
+    "da": "Fuldautomatisk stormgevær med moderat skudhastighed og præcision.",
+    "de": "Ein vollautomatisches Sturmgewehr mit moderater Feuerrate und Genauigkeit.",
     "en": "Fully automatic assault rifle with moderate fire rate and accuracy.",
-    "es": "Rifle de asalto totalmente automático con una cadencia de fuego y precisión moderadas.",
-    "fr": "Fusil d'assaut entièrement automatique avec cadence de tir et précision modérées.",
-    "he": "רובה סער אוטומטי מלא בעל קצב אש ודיוק בינוניים.",
+    "es": "Fusil de asalto totalmente automático con una cadencia de disparo y una precisión moderadas.",
+    "fr": "Fusil d'assaut automatique doté d'une cadence de tir et d'une précision modérées.",
+    "he": "רובה סער אוטומטי לחלוטין בעל קצב אש ודיוק בינוניים.",
     "hr": "Potpuno automatska jurišna puška s umjerenom brzinom paljbe i preciznošću.",
-    "it": "Fucile d'assalto completamente automatico con cadenza di fuoco e precisione moderate.",
-    "ja": "完全自動のアサルトライフル。連射速度と精度は中程度。",
-    "ko-KR": "완전 자동 돌격소총으로, 발사 속도와 정확도가 보통입니다.",
-    "no": "Helautomatisk angrepsrifle med moderat skuddtakt og presisjon.",
-    "pl": "W pełni automatyczny karabin szturmowy o umiarkowanej szybkostrzelności i celności.",
-    "pt": "Rifle de assalto totalmente automático com taxa de disparo e precisão moderadas.",
-    "pt-BR": "Fuzil de assalto totalmente automático com cadência de tiro e precisão moderadas.",
-    "ru": "Полностью автоматическая штурмовая винтовка с умеренной скорострельностью и точностью.",
-    "sr": "Потпуно аутоматска јуришна пушка са умереном брзином паљбе и прецизношћу.",
-    "tr": "Tam otomatik bir saldırı tüfeği, orta düzeyde atış hızı ve isabet oranına sahiptir.",
-    "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкістю стрільби та точністю.",
-    "zh-CN": "全自动突击步枪，射速和精度适中。",
-    "zh-TW": "全自動突擊步槍，射速和精準度適中。"
+    "it": "Fucile d'assalto completamente automatico con cadenza di fuoco e precisione di livello medio.",
+    "ja": "フルオートのアサルトライフル。発射速度と精度は平均的。",
+    "ko-KR": "적당한 발사 속도와 정확도를 지닌 전자동 돌격 소총입니다.",
+    "no": "Helautomatisk stormgevær med moderat skuddtakt og treffsikkerhet.",
+    "pl": "W pełni automatyczny karabin szturmowy o umiarkowanej szybkostrzelności i celności.",
+    "pt": "Fuzil de assalto totalmente automático com cadência de tiro e precisão moderadas.",
+    "pt-BR": "Fuzil de assalto automático com cadência de tiro e precisão moderadas.",
+    "ru": "Полностью автоматическая штурмовая винтовка с умеренной скоростью стрельбы и точностью.",
+    "sr": "Potpuno automatska jurišna puška sa umerenom brzinom paljbe i preciznošću.",
+    "tr": "Orta düzeyde bir atış hızı ve isabet oranına sahip tam otomatik taarruz tüfeği.",
+    "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкострільністю та точністю.",
+    "zh-CN": "全自动射击的突击步枪，射速适中，精准度良好。",
+    "zh-TW": "全自動突擊步槍，射速和精準度中等。"
   },
   "type": "Assault Rifle",
   "rarity": "Epic",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC护甲穿透",
       "zh-TW": "ARC護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "1.5x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "150-170 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "110/110",
@@ -228,6 +274,192 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/tempest_ii.png",
   "updatedAt": "03/17/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.AssaultRifle",
+      "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "arc": {
+        "armorMultiplier": 0.8
+      },
+      "base": {
+        "adsTimeSec": 0.6,
+        "burnRate": 0.001056,
+        "burstSize": 1,
+        "clipSize": 25,
+        "firePower": 70000,
+        "fireRate": 550,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 10,
+        "reloadTimeSec": 2.75
+      },
+      "damageFalloff": [
+        [0, 1.2],
+        [5, 1.2],
+        [15, 1.001],
+        [150, 1.001],
+        [170, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 2,
+        "adsRecoveryMultiplier": 0.75,
+        "adsScale": 0.4,
+        "fireGain": [
+          [0, 0.05, 0, 0, "linear"],
+          [4, 0.05, 0.05625, 0.05625, "cubic"],
+          [8, 0.5, 0, 0, "cubic"],
+          [25, 0.5, 0, 0, "linear"]
+        ],
+        "fireMax": 2,
+        "linearRecovery": true,
+        "max": 6,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 2,
+            "adsFireDispersionMultiplier": 0.55,
+            "adsRecoveryMultiplier": 0.65,
+            "adsScale": 0.1,
+            "dispersion": 1.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 2,
+            "adsFireDispersionMultiplier": 0.55,
+            "adsRecoveryMultiplier": 0.65,
+            "adsScale": 0.1,
+            "dispersion": 1.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.75,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.75,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 2,
+            "adsFireDispersionMultiplier": 0.65,
+            "adsRecoveryMultiplier": 0.75,
+            "adsScale": 0.1,
+            "dispersion": 2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 2,
+            "adsFireDispersionMultiplier": 0.65,
+            "adsRecoveryMultiplier": 0.75,
+            "adsScale": 0.1,
+            "dispersion": 2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.75,
+            "dispersion": 3,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.15,
+        "popRecoverySpeed": 0.1,
+        "recoverySpeed": 3.125,
+        "velocity": 2.5,
+        "velocityMax": 3,
+        "velocityRecovery": 5.5
+      },
+      "equipTimeSec": 1.2,
+      "headshotMultiplier": 1.5,
+      "modifiers": {
+        "durabilityBurnRate": -0.1,
+        "horizontalRecoil": 0,
+        "reloadSpeed": 0.5
+      },
+      "projectileGravityScale": 1.5,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.6,
+        "lerpSpeed": 0.3,
+        "pitch": [
+          [0, 0, 2.8229413, 0, "linear"],
+          [2, 0.2, 0, 0, "linear"],
+          [6, 2, 0.07372187, 0.07372336, "linear"],
+          [16, 7, 0.031883117, 0.03188288, "linear"],
+          [27.810873, 10, 0, 0, "linear"]
+        ],
+        "pitchProceduralRange": [0, 0.1],
+        "recoverySpeed": 0.6,
+        "sampleCount": 25,
+        "unset": ["proceduralSwingSpeed", "recoveryDelay"],
+        "yaw": [
+          [0, 0, -0.009839253, -0.009840206, "cubic"],
+          [7.903513, -0.12433219, -0.24865048, -0.24865021, "cubic"],
+          [15.802044, 0.6794237, -0.017511474, -0.017511474, "cubic"],
+          [21.71209, -0.36614072, 0, 0, "linear"],
+          [27.98605, 0.30393875, 0, 0.14261085, "cubic"]
+        ],
+        "yawProceduralRange": [-0.7, 0.7]
+      },
+      "tier": 2,
+      "unequipTimeSec": 0.52
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -263,5 +495,14 @@
     "medium_gun_parts": 3
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 2,
+        "medium_gun_parts": 3
+      },
+      "to": "tempest_iii"
+    }
+  ],
   "upgradesTo": "tempest_iii"
 }

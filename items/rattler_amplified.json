@@ -1,0 +1,256 @@
+{
+  "id": "rattler_amplified",
+  "name": {
+    "da": "Forstærket Rattler",
+    "de": "Verstärkter Rattler",
+    "en": "Amplified Rattler",
+    "es": "Crótalo amplificado",
+    "fr": "Crotale amplifié",
+    "he": "ראטלר מוגבר",
+    "hr": "Pojačani Rattler",
+    "it": "Rattler amplificato",
+    "ja": "強化版ラトラー",
+    "ko-KR": "증폭된 래틀러",
+    "no": "Forsterket Rattler",
+    "pl": "Wzmocniony Grzechotnik",
+    "pt": "Rattler Amplificado",
+    "pt-BR": "Matraca Amplificada",
+    "ru": "Усовершенствованная Трещотка",
+    "sr": "Pojačani Rattler",
+    "tr": "Güçlendirilmiş Çıngırak",
+    "uk": "Посилений Ґримучник",
+    "zh-CN": "增强型“响尾蛇”",
+    "zh-TW": "增幅響尾蛇"
+  },
+  "description": {
+    "da": "En forstærket variant af Rattler.",
+    "de": "Eine verstärkte Variante des Rattlers.",
+    "en": "An amplified variant of the Rattler.",
+    "es": "Una variante amplificada del Crótalo.",
+    "fr": "Une variante amplifiée du Crotale.",
+    "he": "גרסה מוגברת של הראטלר.",
+    "hr": "Pojačana varijanta Rattlera.",
+    "it": "Una variante amplificata del Rattler.",
+    "ja": "ラトラーの強化版。",
+    "ko-KR": "증폭된 래틀러입니다.",
+    "no": "En forsterket variant av Rattleren.",
+    "pl": "Wzmocniony wariant Grzechotnika.",
+    "pt": "Uma variante amplificada do Rattler.",
+    "pt-BR": "Uma variante amplificada de Matraca.",
+    "ru": "Усовершенствованная версия Трещотки.",
+    "sr": "Pojačana varijanta Rattlera.",
+    "tr": "Çıngırak'ın güçlendirilmiş bir çeşidi.",
+    "uk": "Посилений варіант Ґримучника.",
+    "zh-CN": "“响尾蛇”的增强型变体。",
+    "zh-TW": "響尾蛇的增幅版。"
+  },
+  "type": "Assault Rifle",
+  "rarity": "Legendary",
+  "value": 11200,
+  "weightKg": 6,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Medium Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Moderate",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Firing Mode": {
+      "value": "Fully-Automatic",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    }
+  },
+  "recyclesInto": {
+    "amplified_fragments": 4
+  },
+  "salvagesInto": {
+    "amplified_fragments": 2
+  },
+  "upgradeCost": {
+    "amplification_module_mk_i": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/rattler_amplified.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.AssaultRifle",
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.MediumAmmoWeapon",
+        "Items.SpecificWeapon.Rattler"
+      ]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "base": {
+        "adsTimeSec": 0.6,
+        "burnRate": 0.001945,
+        "burstSize": 1,
+        "clipSize": 16,
+        "firePower": 70000,
+        "fireRate": 500,
+        "looping": {
+          "entrySec": 0.8,
+          "exitSec": 0.2,
+          "fromAnimation": ["loopSec"],
+          "loopSec": 0.415,
+          "perLoop": 2
+        },
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 9,
+        "reloadTimeSec": 3
+      },
+      "equipTimeSec": 1,
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "class",
+      "unequipTimeSec": 0.44
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "amplified_fragments": 7
+  },
+  "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "fossilized_lightning": 3
+      },
+      "requires": [
+        {
+          "itemId": "thermite_tipped_rounds"
+        }
+      ],
+      "to": "rattler_amplified_incendiary_rounds"
+    },
+    {
+      "cost": {
+        "propellant_valve_assembly": 2
+      },
+      "to": "rattler_amplified_more_reload"
+    }
+  ]
+}

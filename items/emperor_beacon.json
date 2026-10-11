@@ -1,0 +1,66 @@
+{
+  "id": "emperor_beacon",
+  "name": {
+    "da": "Kejser-fyr",
+    "de": "Kaiser-Leuchtfeuer",
+    "en": "Emperor Beacon",
+    "es": "Baliza de emperador",
+    "fr": "Balise d'Empereur",
+    "he": "משואת קיסר",
+    "hr": "Emperor Svjetionik",
+    "it": "Faro dell'Imperatore",
+    "ja": "エンペラービーコン",
+    "ko-KR": "엠퍼러 신호기",
+    "no": "Keiserfyr",
+    "pl": "Nadajnik cesarza",
+    "pt": "Sinalizador Emperor",
+    "pt-BR": "Baliza de Imperador",
+    "ru": "Радиомаяк «Императора»",
+    "sr": "Emperor Svetionik",
+    "tr": "İmparator Feneri",
+    "uk": "Маяк «Emperor»",
+    "zh-CN": "“帝王”信标",
+    "zh-TW": "皇帝信標"
+  },
+  "description": {
+    "da": "Et fyr med en kopi af Kejserens identifikationssignal. Udlæg i et åbent område for at tilkalde høster-leverancer.",
+    "de": "Ein Leuchtfeuer mit einer Kopie des Identifikationssignals des Kaisers. Stelle es auf offenem Gelände auf, um Ernter-Fracht zu dir umzuleiten.",
+    "en": "A beacon with a copy of the Emperor's identifier signal. Deploy in an open area to call in Harvester Payloads.",
+    "es": "Una baliza con una copia de la señal identificadora del emperador. Colócala en un lugar abierto para solicitar cargamentos de cosechadora.",
+    "fr": "Une balise contenant une copie du signal d'identification de l'Empereur. Déployez-la dans une zone dégagée pour appeler des cargaisons de Récolteur.",
+    "he": "משואה עם עותק של אות הזיהוי של הקיסר. פרוס באזור פתוח כדי לקרוא למטעני קצרנים.",
+    "hr": "Svjetionik s kopijom identifikacijskog signala Cara. Postavite na otvorenom području kako biste prizvali teret Žetelaca.",
+    "it": "Un segnalatore con una copia del segnale identificativo dell'Imperatore. Posizionalo in un'area aperta per richiamare i carichi del Raccoglitore.",
+    "ja": "エンペラーの識別信号を複製したビーコン。開けた場所に展開すると、ハーベスターの運輸ロケットを呼び寄せることができる。",
+    "ko-KR": "엠퍼러의 식별 신호 사본이 담긴 신호기입니다. 탁 트인 곳에 배치하면 채취기 화물을 호출할 수 있습니다.",
+    "no": "Et fyr med en kopi av Keiserens identifikasjonssignal. Utplasser i et åpent område for å tilkalle innhøstingslaster.",
+    "pl": "Nadajnik z kopią sygnału identyfikatora cesarza. Użyj na otwartym terenie, aby wezwać ładunki kombajnu.",
+    "pt": "Um sinalizador com uma cópia do sinal de identificação do Emperor. Implante em uma área aberta para invocar Cargas de Coletor.",
+    "pt-BR": "Uma baliza com uma cópia do sinal de identificação do Imperador. Coloque em uma área aberta para chamar Carregamentos de Ceifadora.",
+    "ru": "Радиомаяк с копией идентификационного сигнала «Императора». Разместите на открытом участке, чтобы получить груз «Сборщика».",
+    "sr": "Svetionik sa kopijom identifikacionog signala Imperatora. Postavite ga na otvorenom prostoru da prizovete teret Žetelaca.",
+    "tr": "İmparator'un tanımlayıcı sinyalinin kopyasına sahip bir işaret feneri. Biçerdöver Yükleri'ni çağırmak için açık alana yerleştir.",
+    "uk": "Маяк з копією ідентифікаційного сигналу Emperor. Розгорніть на відкритій місцевості, щоб викликати вантажі Жниваря.",
+    "zh-CN": "内置“帝王”识别信号副本的信标。部署在开阔区域，即可召唤“收割者”空投。",
+    "zh-TW": "一個含有皇帝識別信號的信標。裝設在開闊區域即可呼叫收割機物資。"
+  },
+  "type": "Quick Use",
+  "rarity": "Epic",
+  "value": 1000,
+  "weightKg": 2,
+  "stackSize": 3,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/emperor_beacon.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Utility.Tools",
+      "itemType": ["Deployable", "Misc.Transmitter"]
+    },
+    "deployable": {
+      "deploymentTimeSec": 2.5,
+      "deployRangeM": 3
+    },
+    "partial": ["placedItem"]
+  }
+}

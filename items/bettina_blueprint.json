@@ -4,15 +4,15 @@
     "da": "Bettina-tegning",
     "de": "Bauplan: Bettina",
     "en": "Bettina Blueprint",
-    "es": "Plano Bettina",
-    "fr": "Schéma Bettina",
+    "es": "Proyecto del Bettina",
+    "fr": "Schéma de Bettina",
     "he": "שרטוט בטינה",
     "hr": "Nacrt Bettina",
     "it": "Progetto Bettina",
-    "ja": "ベティーナ設計図",
+    "ja": "ベティーナの設計図",
     "ko-KR": "베티나 설계도",
     "no": "Bettina-tegning",
-    "pl": "Projekt Bettina",
+    "pl": "Plan: Bettina",
     "pt": "Projeto Bettina",
     "pt-BR": "Esquema de Bettina",
     "ru": "Чертеж — Беттина",
@@ -51,5 +51,24 @@
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/v2/bettina_blueprint.png",
   "updatedAt": "12/07/2025",
-  "addedIn": "base"
+  "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "complex_gun_parts": 1,
+        "rocketeer_driver": 5
+      },
+      "level": 3,
+      "offerId": 367326735,
+      "points": 4500,
+      "station": "research_station"
+    }
+  ]
 }

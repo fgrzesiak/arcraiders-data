@@ -20,29 +20,29 @@
     "tr": "Torrente II",
     "uk": "Torrente II",
     "zh-CN": "奔流 II",
-    "zh-TW": "奔流 II"
+    "zh-TW": "奔流II"
   },
   "description": {
-    "da": "Har en stor ammunitionskapacitet, men er kun præcis i hugsiddende stilling.",
-    "de": "Hat eine große Munitionskapazität, ist aber nur in der Hocke präzise.",
-    "en": "Has a large ammo capacity, but is only accurate while crouched.",
-    "es": "Tiene una gran capacidad de munición, pero solo es preciso agachado.",
-    "fr": "A une grande capacité de munitions, mais n'est précis qu'en position accroupie.",
-    "he": "בעל קיבולת תחמושת גדולה, אך מדויק רק במצב כריעה.",
-    "hr": "Ima veliki kapacitet streljiva, ali je precizan samo dok ste čučeći.",
-    "it": "Ha una grande capacità di munizioni, ma è preciso solo quando accovacciato.",
-    "ja": "大容量の弾薬を持つが、しゃがんでいる時のみ正確。",
-    "ko-KR": "탄약 용량이 크지만 웅크리고 있을 때만 정확합니다.",
-    "no": "Har stor ammunisjonskapasitet, men er bare nøyaktig når du sitter på huk.",
-    "pl": "Ma dużą pojemność amunicji, ale jest celny tylko w kucnięciu.",
-    "pt": "Tem uma grande capacidade de munição, mas só é preciso agachado.",
-    "pt-BR": "Possui grande capacidade de munição, mas só é precisa ao agachar.",
-    "ru": "Имеет большую ёмкость магазина, но точен только в положении сидя.",
-    "sr": "Ima veliki kapacitet municije, ali je precizan samo dok ste čučeći.",
-    "tr": "Yüksek cephane kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
-    "uk": "Має великий запас боєприпасів, але точний лише присівши.",
-    "zh-CN": "拥有大容量弹药，但只有在蹲下时才准确。",
-    "zh-TW": "擁有大容量彈藥，但只有在蹲下時才準確。"
+    "da": "Fuldautomatisk let maskingevær. Har en stor ammunitionskapacitet, men er kun præcist, når man sidder på hug.",
+    "de": "Vollautomatisches leichtes Maschinengewehr. Hat eine große Munitionskapazität, zielt aber nur in geduckter Haltung präzise.",
+    "en": "Fully automatic light machine gun. Has a large ammo capacity, but is only accurate while crouched.",
+    "es": "Ametralladora ligera automática. Tiene una gran capacidad de munición, pero solo es precisa al disparar estando a gachas.",
+    "fr": "Fusil-mitrailleur automatique. Dispose d'une grande capacité de munitions, mais n'est précis qu'en position accroupie.",
+    "he": "מקלע קל אוטומטי לחלוטין. בעל קיבולת תחמושת גדולה, אך מדויק רק בזמן כריעה.",
+    "hr": "Potpuno automatska laka strojnica. Ima veliki kapacitet streljiva, ali je precizna samo u čučnju.",
+    "it": "Mitragliatrice leggera completamente automatica. Ha un'ottima capienza in termini di munizioni, ma è precisa solo da abbassati.",
+    "ja": "フルオートの軽マシンガン。弾薬容量の面では優秀だが、しゃがまないと正確な射撃ができない。",
+    "ko-KR": "대용량 탄창을 지녔지만, 웅크린 상태에서만 정확하게 발사할 수 있는 전자동 경기관총입니다.",
+    "no": "Helautomatisk lett maskingevær. Har stor ammunisjonskapasitet, men er bare treffsikkert når man sitter på huk.",
+    "pl": "W pełni automatyczny lekki karabin maszynowy. Ma dużą pojemność amunicji, ale żeby oddać celny strzał, trzeba kucnąć.",
+    "pt": "Metralhadora leve totalmente automática. Tem uma grande capacidade de munição, mas só é precisa quando agachado.",
+    "pt-BR": "Submetralhadora leve automática. Tem grande capacidade de munição, mas é preciso se agachar para aumentar a precisão.",
+    "ru": "Полностью автоматический ручной пулемет. Имеет большой боезапас, но точен лишь при стрельбе в приседе.",
+    "sr": "Potpuno automatski laki mitraljez. Ima veliki kapacitet municije, ali je precizan samo u čučnju.",
+    "tr": "Tam otomatik hafif makineli tüfek. Büyük mermi kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
+    "uk": "Повністю автоматичний легкий кулемет. Має великий запас набоїв, але зберігає точність лише в положенні сидячи.",
+    "zh-CN": "全自动轻机枪。弹药携带量较大，但只有在蹲伏姿态时精准度才有保证。",
+    "zh-TW": "全自動輕機槍。彈藥容量大，但只有蹲下時才能精準射擊。"
   },
   "type": "LMG",
   "rarity": "Rare",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC 护甲穿透",
       "zh-TW": "ARC 護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "150-170 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "110/110",
@@ -205,6 +251,179 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/torrente_ii.png",
   "updatedAt": "02/24/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.LMG",
+      "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+    },
+    "partial": ["projectileSpeed"],
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "base": {
+        "adsTimeSec": 0.6,
+        "burnRate": 0.000899,
+        "burstSize": 1,
+        "clipSize": 70,
+        "firePower": 70000,
+        "fireRate": 800,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 8,
+        "reloadTimeSec": 7
+      },
+      "damageFalloff": [
+        [0, 1.001],
+        [15, 1.001],
+        [150, 1.001],
+        [170, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 2,
+        "adsRecoveryMultiplier": 0.95,
+        "adsScale": 0.8,
+        "fireGain": [
+          [0, 0.01, 0, 0, "linear"],
+          [4, 0.01, 0.0039999997, 0.0039999997, "cubic"],
+          [10, 0.05, 0, 0, "cubic"],
+          [80, 0.05, 0, 0, "linear"]
+        ],
+        "fireMax": 1,
+        "linearRecovery": true,
+        "max": 8,
+        "min": 0.5,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 2,
+            "adsFireDispersionMultiplier": 0.5,
+            "adsRecoveryMultiplier": 0.85,
+            "adsScale": 0.8,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 2,
+            "adsFireDispersionMultiplier": 0.5,
+            "adsRecoveryMultiplier": 0.85,
+            "adsScale": 0.8,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.95,
+            "dispersion": 6,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.95,
+            "dispersion": 6,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 4,
+            "adsFireDispersionMultiplier": 0.8,
+            "adsRecoveryMultiplier": 0.95,
+            "adsScale": 0.8,
+            "dispersion": 4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 4,
+            "adsFireDispersionMultiplier": 0.8,
+            "adsRecoveryMultiplier": 0.95,
+            "adsScale": 0.8,
+            "dispersion": 4,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.95,
+            "dispersion": 6,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.2,
+        "popRecoverySpeed": 0.05,
+        "recoverySpeed": 4,
+        "velocity": 0,
+        "velocityMax": 0,
+        "velocityRecovery": 10
+      },
+      "equipTimeSec": 1.3,
+      "headshotMultiplier": 2,
+      "modifiers": {
+        "clipSize": 0,
+        "durabilityBurnRate": -0.1,
+        "reloadSpeed": 0
+      },
+      "recoil": {
+        "lerpSpeed": 0.2,
+        "pitch": [
+          [0, 0, 2.0863473, 0.82244396, "cubic"],
+          [1, 2.5, 0, 0.2, "cubic"]
+        ],
+        "pitchProceduralRange": [0.2, 0.2],
+        "proceduralSwingSpeed": 0.2,
+        "sampleCount": 1,
+        "unset": ["recoverySpeed", "recoveryDelay", "adsGainMultiplier"],
+        "yaw": [
+          [0, 0, 0.13018873, 0.13018765, "cubic"],
+          [1, -0.12433219, -0.119539805, -0.119539775, "cubic"]
+        ],
+        "yawProceduralRange": [-0.3, 0.3]
+      },
+      "tier": 2,
+      "unequipTimeSec": 0.7
+    }
+  },
   "modSlots": {
     "magazine": [
       "extended_medium_mag_i",
@@ -239,5 +458,14 @@
     "medium_gun_parts": 1
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 1,
+        "medium_gun_parts": 2
+      },
+      "to": "torrente_iii"
+    }
+  ],
   "upgradesTo": "torrente_iii"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "res_sofa_01_y150_a_design",
+  "name": {
+    "da": "Studielænestol-design",
+    "de": "Arbeitszimmersessel-Entwurf",
+    "en": "Study Armchair Design",
+    "es": "Diseño de sillón de estudio",
+    "fr": "Design de fauteuil d'étude",
+    "he": "עיצוב כורסת לימוד",
+    "hr": "Nacrt fotelje za radnu sobu",
+    "it": "Design della Poltrona da studio",
+    "ja": "書斎用アームチェアのデザイン",
+    "ko-KR": "서재용 안락의자 디자인",
+    "no": "Stude-lenestol-design",
+    "pl": "Projekt fotela do gabinetu",
+    "pt": "Design de Poltrona de Estudo",
+    "pt-BR": "Projeto de Poltrona de Estudo",
+    "ru": "Схема кабинетного кресла",
+    "sr": "Dizajn fotelje za radnu sobu",
+    "tr": "Oturma Koltuğu Tasarımını Öğren",
+    "uk": "Дизайн крісла для кабінету",
+    "zh-CN": "学习扶手椅设计图",
+    "zh-TW": "學習扶手椅設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/res_sofa_01_y150_a.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "very_comfortable_pillow": 1
+      },
+      "level": 2,
+      "offerId": 410063179,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

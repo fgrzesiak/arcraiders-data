@@ -1,0 +1,72 @@
+{
+  "id": "harmonica",
+  "name": {
+    "da": "Mundharmonika",
+    "de": "Mundharmonika",
+    "en": "Harmonica",
+    "es": "Armónica",
+    "fr": "Harmonica",
+    "he": "מפוחית",
+    "hr": "Usna harmonika",
+    "it": "Armonica",
+    "ja": "ハーモニカ",
+    "ko-KR": "하모니카",
+    "no": "Munnspill",
+    "pl": "Harmonijka",
+    "pt": "Gaita",
+    "pt-BR": "Gaita",
+    "ru": "Губная гармошка",
+    "sr": "Usna harmonika",
+    "tr": "Armonika",
+    "uk": "Гармошка",
+    "zh-CN": "口琴",
+    "zh-TW": "口風琴"
+  },
+  "description": {
+    "da": "En spilbar mundharmonika, der bruges til at tiltrække ARC's opmærksomhed og imponere andre Raiders.",
+    "de": "Eine spielbare Mundharmonika, mit der man die Aufmerksamkeit von ARC auf sich ziehen und andere Raider beeindrucken kann.",
+    "en": "A playable harmonica used to attract ARC's attention, and impress other Raiders.",
+    "es": "Una armónica que puedes tocar para llamar la atención de las ARC, y para dejar a otros Raiders boquiabiertos.",
+    "fr": "Un harmonica jouable utilisé pour attirer l'attention des ARC et impressionner les autres Raiders.",
+    "he": "מפוחית שניתן לנגן בה, המשמשת למשוך את תשומת ליבם של ה-ARC, ולהרשים ריידרים אחרים.",
+    "hr": "Usna harmonika koja se može svirati, koristi se za privlačenje pažnje ARC-a i impresioniranje drugih Raidersa.",
+    "it": "Un'armonica suonabile usata per attirare l'attenzione degli ARC e fare colpo sugli altri Raider.",
+    "ja": "演奏可能なハーモニカ。ARCの注意を引き、レイダーから注目を集める。",
+    "ko-KR": "아크의 이목을 끌고, 다른 레이더의 감탄을 사기 위해 연주할 수 있는 하모니카입니다.",
+    "no": "Et spillbart munnspill som brukes til å tiltrekke seg ARC sin oppmerksomhet, og imponere andre Raiders.",
+    "pl": "Działająca harmonijka, dzięki której można odwrócić uwagę maszyn ARC i zaimponować innym łupieżcom.",
+    "pt": "Uma gaita tocável usada para atrair a atenção do ARC e impressionar outros Raiders.",
+    "pt-BR": "Gaita que pode ser tocada para chamar atenção de ARCs e impressionar outros Raiders.",
+    "ru": "На этой губной гармошке можно сыграть, чтобы привлечь машины ARC или впечатлить других рейдеров.",
+    "sr": "Harmonika koja se može svirati, koristi se za privlačenje pažnje ARC-a i impresioniranje drugih Raidera.",
+    "tr": "ARC'ları çekmek ve diğer Raider'ları etkilemek için çalınabilen bir armonika.",
+    "uk": "Гармошка, на якій можна грати, використовується для привернення уваги ARC та враження інших Рейдерів.",
+    "zh-CN": "一只能吹奏的口琴，既可用于引起ARC的注意，也能让其他奇袭者刮目相看。",
+    "zh-TW": "一個可吹奏的口風琴，可用來吸引ARC的注意，也可以讓其他掠手印象深刻。"
+  },
+  "type": "Quick Use",
+  "rarity": "Uncommon",
+  "value": 1000,
+  "weightKg": 0.2,
+  "stackSize": 1,
+  "recyclesInto": {
+    "metal_parts": 4
+  },
+  "salvagesInto": {
+    "metal_parts": 2
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/harmonica.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Gadget",
+      "dropType": ["QuestItem", "Salvage.Trinket"],
+      "itemType": ["Gadget"],
+      "theme": ["Residential"]
+    },
+    "gadget": {
+      "noiseRangeM": 7
+    }
+  }
+}

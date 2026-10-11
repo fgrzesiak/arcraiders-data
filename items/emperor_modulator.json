@@ -1,0 +1,66 @@
+{
+  "id": "emperor_modulator",
+  "name": {
+    "da": "Kejser-modulator",
+    "de": "Kaiser-Modulator",
+    "en": "Emperor Modulator",
+    "es": "Modulador de emperador",
+    "fr": "Modulateur d'Empereur",
+    "he": "מווסת קיסר",
+    "hr": "Emperor Modulator",
+    "it": "Modulatore dell'Imperatore",
+    "ja": "エンペラーモジュレーター",
+    "ko-KR": "엠퍼러 변조기",
+    "no": "Keisermodulator",
+    "pl": "Modulator cesarza",
+    "pt": "Modulador Emperor",
+    "pt-BR": "Modulador de Imperador",
+    "ru": "Модулятор «Императора»",
+    "sr": "Emperor Modulator",
+    "tr": "İmparator Modülatörü",
+    "uk": "Модулятор «Emperor»",
+    "zh-CN": "“帝王”调制器",
+    "zh-TW": "皇帝調幅器"
+  },
+  "description": {
+    "da": "Kan bruges til at opgradere Bøssemageren.",
+    "de": "Kann zum Verbessern der Waffenstation verwendet werden.",
+    "en": "Can be used to upgrade the Gunsmith.",
+    "es": "Se puede usar para mejorar el armero.",
+    "fr": "Permet d'améliorer la station d'armurier.",
+    "he": "ניתן לשימוש לשדרוג הנשקן.",
+    "hr": "Može se koristiti za nadogradnju Oružara.",
+    "it": "Utilizzabile per migliorare il banco delle armi.",
+    "ja": "ガンスミスのアップグレードに使用可能。",
+    "ko-KR": "총기 제작대를 업그레이드하는 데 사용할 수 있습니다.",
+    "no": "Kan brukes til å oppgradere Våpensmeden.",
+    "pl": "Można użyć do ulepszenia stacji rusznikarskiej.",
+    "pt": "Pode ser usado para aprimorar o Armeiro.",
+    "pt-BR": "Serve para aprimorar o Armeiro.",
+    "ru": "Может использоваться для улучшения оружейного верстака.",
+    "sr": "Služi za nadogradnju Oružara.",
+    "tr": "Silahçı'yı yükseltmek için kullanılabilir.",
+    "uk": "Можна використовувати для покращення Зброяра.",
+    "zh-CN": "可用于升级武器工作台。",
+    "zh-TW": "可用來升級槍械站。"
+  },
+  "type": "Topside Material",
+  "rarity": "Legendary",
+  "value": 7000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "salvagesInto": {
+    "arc_motion_core": 2
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/emperor_modulator.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.Material.Legendary"],
+      "itemType": ["Misc"],
+      "theme": ["ARC"]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "battered_lab_cabinet_design",
+  "name": {
+    "da": "Slidt Laboratorieskab Design",
+    "de": "Entwurf: Ramponierter Laborschrank",
+    "en": "Battered Lab Cabinet Design",
+    "es": "Diseño de armario de laboratorio maltrecho",
+    "fr": "Design de l'Armoire de laboratoire abîmée",
+    "he": "עיצוב ארון מעבדה בלוי",
+    "hr": "Nacrt oštećenog laboratorijskog ormarića",
+    "it": "Armadietto del laboratorio rovinato Design",
+    "ja": "傷んだラボキャビネットのデザイン",
+    "ko-KR": "낡은 연구소 캐비닛 디자인",
+    "no": "Medtatt Laboratorieskap Design",
+    "pl": "Projekt Zniszczonej szafki laboratoryjnej",
+    "pt": "Projeto de Armário de Laboratório Desgastado",
+    "pt-BR": "Projeto do Armário de Laboratório Surrado",
+    "ru": "Схема потрепанного лабораторного шкафа",
+    "sr": "Dizajn Istrošenog Laboratorijskog Ormarića",
+    "tr": "Yıpranmış Laboratuvar Dolabı Tasarımı",
+    "uk": "Дизайн пошарпаної лабораторної шафи",
+    "zh-CN": "破旧实验室橱柜设计图",
+    "zh-TW": "破損實驗室櫥櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_lab_cabinet.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 3
+      },
+      "level": 2,
+      "offerId": 394925869,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

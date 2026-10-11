@@ -1,0 +1,79 @@
+{
+  "id": "basic_camera",
+  "name": {
+    "da": "Simpelt kamera",
+    "de": "Einfache Kamera",
+    "en": "Basic Camera",
+    "es": "Cámara básica",
+    "fr": "Appareil photo de base",
+    "he": "מצלמה בסיסית",
+    "hr": "Osnovna kamera",
+    "it": "Fotocamera base",
+    "ja": "簡易カメラ",
+    "ko-KR": "기본 카메라",
+    "no": "Grunnleggende kamera",
+    "pl": "Zwykły aparat",
+    "pt": "Câmera Básica",
+    "pt-BR": "Câmera Básica",
+    "ru": "Простая камера",
+    "sr": "Osnovna kamera",
+    "tr": "Temel Kamera",
+    "uk": "Базова камера",
+    "zh-CN": "简易相机",
+    "zh-TW": "基本相機"
+  },
+  "description": {
+    "da": "Et simpelt lille kamera, der gør arbejdet.",
+    "de": "Eine einfache kleine Kamera, die ihren Zweck erfüllt.",
+    "en": "A simple little camera that gets the job done.",
+    "es": "Una cámara de fotos normal y corriente que hace su función.",
+    "fr": "Un petit appareil photo simple qui fait le travail.",
+    "he": "מצלמה קטנה ופשוטה שעושה את העבודה.",
+    "hr": "Jednostavna mala kamera koja obavlja posao.",
+    "it": "Una fotocamera semplice e compatta che fa il suo dovere.",
+    "ja": "シンプルでコンパクトなカメラだが、しっかり役目を果たしてくれる。",
+    "ko-KR": "기본에 충실한 소형 카메라입니다.",
+    "no": "Et enkelt lite kamera som gjør jobben.",
+    "pl": "Mały, prosty aparat, który robi spełnia swoje zadanie.",
+    "pt": "Uma câmera simples que cumpre o seu papel.",
+    "pt-BR": "Uma camerazinha básica que dá conta do recado.",
+    "ru": "Простой фотоаппарат для простых снимков.",
+    "sr": "Jednostavna mala kamera koja obavlja posao.",
+    "tr": "İşini görecek küçük, basit bir kamera.",
+    "uk": "Проста маленька камера, яка просто робить свою справу.",
+    "zh-CN": "一款简单实用的小型相机。",
+    "zh-TW": "簡單的小相機，拍照功能沒問題。"
+  },
+  "type": "Quick Use",
+  "rarity": "Uncommon",
+  "value": 640,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "craftBench": "workbench",
+  "stationLevelRequired": 1,
+  "recipe": {
+    "plastic_parts": 8,
+    "wires": 1
+  },
+  "recyclesInto": {
+    "plastic_parts": 5
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/basic_camera.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Gadget",
+      "itemType": ["Gadget"]
+    },
+    "partial": ["gadget"]
+  },
+  "vendors": [
+    {
+      "cost": {
+        "coins": 1920
+      },
+      "trader": "Shani"
+    }
+  ]
+}

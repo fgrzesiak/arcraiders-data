@@ -1,0 +1,74 @@
+{
+  "id": "extended_burst_cycles",
+  "name": {
+    "da": "Forlængede Bygecyklusser",
+    "de": "Verlängerte Schnellfeuer-Zyklen",
+    "en": "Extended Burst Cycles",
+    "es": "Ciclos de ráfaga extendidos",
+    "fr": "Cycles de rafale prolongés",
+    "he": "מחזורי צרור מוארכים",
+    "hr": "Produženi rafalni ciklusi",
+    "it": "Cicli di raffica estesi",
+    "ja": "バーストサイクルの延長",
+    "ko-KR": "점사 주기 연장",
+    "no": "Utvidede Skuddserier",
+    "pl": "Wydłużone cykle serii",
+    "pt": "Ciclos de Rajada Estendidos",
+    "pt-BR": "Ciclos de Rajada Estendidos",
+    "ru": "Расширенный залповый цикл",
+    "sr": "Produženi rafalni ciklusi",
+    "tr": "Uzatılmış Seri Atış Döngüleri",
+    "uk": "Збільшені цикли черг",
+    "zh-CN": "延长连发周期",
+    "zh-TW": "加長點放循環"
+  },
+  "description": {
+    "da": "En skudsalve har en begyndelse, en midte og en ende. Midten kunne nok godt bruge flere kugler. Lad os undersøge det.",
+    "de": "Eine Salve hat einen Anfang, einen Mittelteil und ein Ende. Im Mittelteil könnten wahrscheinlich noch ein paar Kugeln fehlen. Schauen wir mal nach.",
+    "en": "A burst has a beginning, a middle, and an end. The middle could probably use more bullets. Let's investigate.",
+    "es": "Una ráfaga tiene un principio, un nudo y un desenlace. No vendría mal añadirle más balas al nudo. Investiguemos.",
+    "fr": "Une rafale a un début, un milieu et une fin. Le milieu pourrait probablement contenir davantage de balles. Étudions cela.",
+    "he": "למטח יש התחלה, אמצע וסוף. כנראה שהאמצע צריך יותר כדורים. בואו נבדוק.",
+    "hr": "Rafal ima početak, sredinu i kraj. Sredina bi vjerojatno mogla iskoristiti više metaka. Istražimo to.",
+    "it": "Una raffica ha un inizio, una parte centrale e una fine. La parte centrale potrebbe probabilmente trarre giovamento da più proiettili. Approfondiamo.",
+    "ja": "バーストには「始まり」「中間」「終わり」がある。中間部分の弾数をもう少し増やした方がいいのではないか。調べてみよう。",
+    "ko-KR": "점사에는 시작과 중간과 끝이 있습니다. 중간에는 탄환이 좀 더 많아도 될 것 같군요. 조사해 봅시다.",
+    "no": "Et ildstøt har en begynnelse, en midte og en slutt. Midten kunne nok trengt flere kuler. La oss undersøke.",
+    "pl": "Każda seria ma swój początek, środek i koniec. Na etapie środkowym przydałoby się chyba więcej pocisków. Warto się temu przyjrzeć.",
+    "pt": "Uma rajada tem um início, um meio e um fim. O meio provavelmente precisaria de mais balas. Vamos investigar.",
+    "pt-BR": "Uma rajada tem um começo, meio e fim. O meio provavelmente poderia ter mais projéteis. Vamos investigar.",
+    "ru": "У залпа есть начало, середина и конец. Середине не помешало бы больше пуль. Надо изучить этот вопрос.",
+    "sr": "Rafal ima početak, sredinu i kraj. Sredini bi verovatno dobrodošlo više metaka. Hajde da istražimo.",
+    "tr": "Seri atışın başı, ortası ve sonu vardır. Ortası herhalde daha çok mermi harcar. Bakalım görelim.",
+    "uk": "Черга має початок, середину та кінець. Середині, мабуть, знадобиться більше куль. Розслідуймо це.",
+    "zh-CN": "连发有起势、中段和收尾。中段的子弹可以再加多点，咱们研究一下。",
+    "zh-TW": "點放分為前中後三段。中間那段或許可以多一點子彈。我們來調查看看吧。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/extended_burst_cycles.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "comet_igniter": 10
+      },
+      "level": 4,
+      "offerId": 901456531,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "extended_burst_cycles"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

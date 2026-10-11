@@ -1,0 +1,74 @@
+{
+  "id": "thermite_tipped_rounds",
+  "name": {
+    "da": "Termit-Spidsede Skud",
+    "de": "Geschosse mit Thermitspitze",
+    "en": "Thermite-Tipped Rounds",
+    "es": "Munición de termita",
+    "fr": "Munitions à pointe thermite",
+    "he": "קליעי תרמיט",
+    "hr": "Termitni međuci",
+    "it": "Munizioni a punta di termite",
+    "ja": "テルミット弾頭弾",
+    "ko-KR": "테르밋 탄두탄",
+    "no": "Termittspissede Skudd",
+    "pl": "Pociski termitowe",
+    "pt": "Projéteis com Ponta de Termita",
+    "pt-BR": "Projéteis com Ponta de Termite",
+    "ru": "Термитные патроны",
+    "sr": "Meci sa termitskim vrhom",
+    "tr": "Termit Uçlu Mermiler",
+    "uk": "Термітові набої",
+    "zh-CN": "铝热剂弹头",
+    "zh-TW": "鋁熱彈頭"
+  },
+  "description": {
+    "da": "Impactskade er nyttig. At sætte problemet i brand bagefter virker som en fornuftig forbedring.",
+    "de": "Aufprallschaden ist nützlich. Das Problem anschließend in Brand zu setzen, scheint eine sinnvolle Verbesserung zu sein.",
+    "en": "Impact damage is useful. Setting the problem on fire afterward feels like a reasonable improvement.",
+    "es": "El daño de impacto es útil, pero prenderle fuego al problema después del impacto es una gran mejora.",
+    "fr": "C'est bien d'infliger des dégâts d'impact, mais mettre la cible en feu ensuite semble être une amélioration particulièrement appréciable.",
+    "he": "נזק פגיעה מועיל. אך להעלות את הבעיה באש לאחר מכן מרגיש כמו שיפור הגיוני.",
+    "hr": "Oštećenje od udarca je korisno. Zapaliti problem nakon toga čini se kao razumno poboljšanje.",
+    "it": "Il danno da impatto è utile. Dare fuoco al bersaglio successivamente sembra un miglioramento ragionevole.",
+    "ja": "衝撃によるダメージは有用だ。そのあと炎上させるのは理にかなった改良と言えるだろう。",
+    "ko-KR": "충격 대미지도 유용합니다. 거기에 대상을 불태우는 효과까지 더하면 꽤 괜찮은 개선이겠군요.",
+    "no": "Impaktskade er nyttig. Å deretter sette problemet i brann føles som en fornuftig forbedring.",
+    "pl": "Obrażenia zadawane po trafieniu są przydatne, ale możliwość podpalenia trafionego celu wydaje się rozsądnym usprawnieniem.",
+    "pt": "Dano de impacto é útil. Incendiar o problema depois parece uma melhoria razoável.",
+    "pt-BR": "O dano do impacto é útil. Botar fogo no problema em seguida me parece uma melhoria razoável.",
+    "ru": "Нанести урон при попадании — здорово. Но поджечь источник проблем — еще лучше.",
+    "sr": "Udarna šteta je korisna. Zapaliti problem nakon toga deluje kao razumno poboljšanje.",
+    "tr": "Darbe hasarı kullanışlıdır. Sorunu sonrasında ateşe vermek makul bir gelişme gibi geliyor.",
+    "uk": "Урон від зіткнення корисний. А підпалити проблему після цього здається цілком логічним покращенням.",
+    "zh-CN": "冲击伤害很实用。要是炸完再放把火，效果应该会更好。",
+    "zh-TW": "衝擊傷害很實用。衝擊完再往麻煩貨身上放火，感覺是個很合理的改良。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/thermite_tipped_rounds.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "firefly_burner": 5
+      },
+      "level": 4,
+      "offerId": 184455076,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "thermite_tipped_rounds"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

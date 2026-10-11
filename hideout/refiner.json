@@ -4,27 +4,28 @@
     "da": "Raffinaderi",
     "de": "Veredler",
     "en": "Refiner",
-    "es": "Refinería",
+    "es": "Refinadora",
     "fr": "Raffineur",
     "he": "מזקק",
     "hr": "Rafinerija",
-    "it": "Raffineria",
+    "it": "Rifinitore",
     "ja": "精錬機",
     "ko-KR": "가공기",
     "no": "Raffineri",
-    "pl": "Rafineria",
+    "pl": "Stacja usprawnień",
     "pt": "Refinaria",
     "pt-BR": "Refinador",
     "ru": "Очиститель",
     "sr": "Rafinerija",
-    "tr": "Rafine Ünitesi",
+    "tr": "Dönüştürücü",
     "uk": "Очисник",
     "zh-CN": "精加工机",
-    "zh-TW": "精煉站"
+    "zh-TW": "精煉機"
   },
   "maxLevel": 3,
   "levels": [
     {
+      "image": "/images/hideout/levels/refiner/1.png",
       "level": 1,
       "requirementItemIds": [
         {
@@ -38,6 +39,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/refiner/2.png",
       "level": 2,
       "requirementItemIds": [
         {
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "image": "/images/hideout/levels/refiner/3.png",
       "level": 3,
       "requirementItemIds": [
         {

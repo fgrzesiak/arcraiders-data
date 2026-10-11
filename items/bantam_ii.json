@@ -1,0 +1,422 @@
+{
+  "id": "bantam_ii",
+  "name": {
+    "da": "Bantam II",
+    "de": "Bantam II",
+    "en": "Bantam II",
+    "es": "Bantam II",
+    "fr": "Bantam II",
+    "he": "בנטם II",
+    "hr": "Bantam II",
+    "it": "Bantam II",
+    "ja": "バンタム II",
+    "ko-KR": "밴텀 II",
+    "no": "Bantam II",
+    "pl": "Bantam II",
+    "pt": "Bantam II",
+    "pt-BR": "Garnisé II",
+    "ru": "Задира II",
+    "sr": "Bantam II",
+    "tr": "Bantam II",
+    "uk": "Бантам II",
+    "zh-CN": "“小钢炮” II",
+    "zh-TW": "矮腳雞 II"
+  },
+  "description": {
+    "da": "Revolver med kort løb, varierende skudhastighed, god håndtering og skade, men med lav præcision, kontrol og rækkevidde.",
+    "de": "Revolver mit kurzem Lauf, variabler Feuerrate, guter Handhabung und hohem Schaden, aber geringer Genauigkeit, Kontrolle und Reichweite.",
+    "en": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
+    "es": "Revólver de cañón corto con una cadencia de disparo variable y un manejo y daño buenos. Sin embargo, tiene una precisión, un control y un alcance pobres.",
+    "fr": "Revolver à canon court avec une cadence de tir variable et des dégâts et un maniement corrects, mais il souffre d'une précision, d'une portée et d'un contrôle limités.",
+    "he": "אקדח תופי עם קנה קצר בעל קצב אש משתנה, נוחות אחיזה ונזק טובים, אך עם דיוק, שליטה וטווח נמוכים.",
+    "hr": "Revolver kratke cijevi s promjenjivom brzinom paljbe, dobrim rukovanjem i oštećenjem, ali niskom preciznošću, kontrolom i dometom.",
+    "it": "Revolver a canna corta con cadenza di fuoco variabile, buona maneggevolezza e danno, ma con scarsa precisione, controllo e gittata.",
+    "ja": "発射速度にばらつきがあり、取り回しやダメージ性能は良好だが、精度・制御性・射程に劣る短銃身リボルバー。",
+    "ko-KR": "발사 속도가 다양하고 조작성과 대미지가 좋은 단총신 리볼버입니다. 하지만 정확도, 제어력, 사거리가 낮습니다.",
+    "no": "Kortløpet revolver med variert skuddhastighet, god håndtering og skade, men med lav presisjon, kontroll og rekkevidde.",
+    "pl": "Rewolwer krótkolufowy o zmiennej szybkostrzelności i dobrej poręczności. Zadaje dobre obrażenia, ale ma małą celność, niewielki zasięg i trudno nad nim zapanować.",
+    "pt": "Revólver de cano curto com cadência de tiro variada, boa empunhadura e dano, mas com baixa precisão, controle e alcance.",
+    "pt-BR": "Revólver de cano curto com cadência de tiro variável, bom dano e manuseio, mas com baixa precisão, controle e alcance.",
+    "ru": "Простой в обращении короткоствольный револьвер с неравномерной скоростью стрельбы и хорошим уроном, но низкой точностью, управляемостью и небольшой дальностью.",
+    "sr": "Revolver sa kratkom cevi, promenljivom brzinom paljbe, dobrim rukovanjem i štetom, ali niskom preciznošću, kontrolom i dometom.",
+    "tr": "Değişken atış hızı, iyi kullanım ve hasara sahip ancak isabetliliği, kontrolü ve menzili düşük kısa namlulu altıpatlar.",
+    "uk": "Короткоствольний револьвер зі змінною скорострільністю, гарною керованістю та шкодою, але низькою точністю, контролем і дальністю.",
+    "zh-CN": "短管左轮手枪，射速多变、操控性和伤害表现不俗，但精准度、控制力和射程较为逊色。",
+    "zh-TW": "短槍管左輪手槍，具備可變的射速、良好的操控性與傷害，但精準度與穩定度較低，射程也較短。"
+  },
+  "type": "Hand Cannon",
+  "rarity": "Uncommon",
+  "value": 6000,
+  "weightKg": 3,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Heavy Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Strong",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Damage Falloff Range": {
+      "value": "180-200 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
+    },
+    "Firing Mode": {
+      "value": "Double-Action",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Increased Dispersion Recovery Time": {
+      "value": "6.25%",
+      "da": "Øget gendannelsestid for spredning",
+      "de": "Erhöhte Streuungs-Erholungszeit",
+      "en": "Increased Dispersion Recovery Time",
+      "es": "Tiempo de recuperación de dispersión aumentado",
+      "fr": "Temps de récupération de la dispersion augmenté",
+      "he": "זמן התאוששות פיזור מוגבר",
+      "hr": "Povećano vrijeme oporavka disperzije",
+      "it": "Tempo di recupero della dispersione aumentato",
+      "ja": "拡散回復時間増加",
+      "ko-KR": "분산 회복 시간 증가",
+      "no": "Økt spredningsgjenopprettingstid",
+      "pl": "Zwiększony czas zmniejszania rozrzutu",
+      "pt": "Tempo de Recuperação de Dispersão Aumentado",
+      "pt-BR": "Tempo de Recuperação da Dispersão Aumentado",
+      "ru": "Увеличенное время восстановления разброса",
+      "sr": "Povećano vreme oporavka rasipanja",
+      "tr": "Artırılmış Dağılım Toparlanma Süresi",
+      "uk": "Збільшений час відновлення розсіювання",
+      "zh-CN": "增加散布恢复时间",
+      "zh-TW": "增加準星擴散回復時間"
+    },
+    "Reduced Per-Shot Dispersion": {
+      "value": "8.1%",
+      "da": "Reduceret spredning pr. skud",
+      "de": "Verringerte Streuung pro Schuss",
+      "en": "Reduced Per-Shot Dispersion",
+      "es": "Dispersión por disparo reducida",
+      "fr": "Dispersion par tir réduite",
+      "he": "פיזור מופחת בכל ירייה",
+      "hr": "Smanjeno Raspršenje po Hicu",
+      "it": "Dispersione per colpo ridotta",
+      "ja": "射撃ごとの拡散軽減",
+      "ko-KR": "발사당 분산도 감소",
+      "no": "Redusert spredning per skudd",
+      "pl": "Zmniejszony rozrzut na strzał",
+      "pt": "Dispersão por tiro reduzida",
+      "pt-BR": "Redução na Dispersão por Disparo",
+      "ru": "Снижение разброса за выстрел",
+      "sr": "Smanjeno Rasipanje po Hicu",
+      "tr": "Atış Başına Dağılım Azaltma",
+      "uk": "Зменшення розкиду за постріл",
+      "zh-CN": "降低每发扩散度",
+      "zh-TW": "降低每發擴散度"
+    },
+    "Reduced Reload Time": {
+      "value": "14.7%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
+    }
+  },
+  "recyclesInto": {
+    "mechanical_components": 2,
+    "simple_gun_parts": 2
+  },
+  "salvagesInto": {
+    "simple_gun_parts": 2
+  },
+  "upgradeCost": {
+    "mechanical_components": 3,
+    "simple_gun_parts": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/bantam_ii.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.HandCannon",
+      "dropType": ["Equipment.Weapon.Firearm.HeavyAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.HeavyAmmoWeapon",
+        "Items.SpecificWeapon.Bantam"
+      ]
+    },
+    "partial": ["base", "headshotMultiplier", "projectileSpeed"],
+    "weapon": {
+      "ammoItem": "heavy_ammo",
+      "damageFalloff": [
+        [0, 1.001],
+        [180, 1.001],
+        [200, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 1.2,
+        "adsRecoveryMultiplier": 0.7,
+        "adsScale": 0.25,
+        "fireGain": [
+          [0.0049762726, 1.156887, 0, 0, "linear"],
+          [1.0077703, 0.856887, 14.4102545, 0, "linear"],
+          [2.0077703, 1.456887, 0, 0, "linear"],
+          [3.0026462, 1.656887, 0, 0, "linear"],
+          [6.0077705, 1.8, 0, 0, "linear"]
+        ],
+        "fireMax": 7,
+        "max": 10,
+        "min": 0.15,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 0.9,
+            "adsFireDispersionMultiplier": 0.6,
+            "adsRecoveryMultiplier": 0.5,
+            "adsScale": 0.35,
+            "dispersion": 2.3,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 0.9,
+            "adsFireDispersionMultiplier": 0.6,
+            "adsRecoveryMultiplier": 0.5,
+            "adsScale": 0.35,
+            "dispersion": 2.3,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.8,
+            "dispersion": 5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.8,
+            "dispersion": 5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 0.7,
+            "adsFireDispersionMultiplier": 0.7,
+            "adsRecoveryMultiplier": 0.5,
+            "adsScale": 0.35,
+            "dispersion": 3,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 0.7,
+            "adsFireDispersionMultiplier": 0.7,
+            "adsRecoveryMultiplier": 0.5,
+            "adsScale": 0.35,
+            "dispersion": 3,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.8,
+            "dispersion": 5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.5,
+        "popRecoverySpeed": 1,
+        "recoverySpeed": 3,
+        "unset": ["linearRecovery"],
+        "velocity": 1.5,
+        "velocityMax": 4.5,
+        "velocityRecovery": 6
+      },
+      "equipTimeSec": 0.65,
+      "fireRateModifier": "rpm",
+      "modifiers": {
+        "dispersionRecovery": 0,
+        "durabilityBurnRate": -0.1,
+        "fireDispersionGain": 0,
+        "fireDispersionMax": 0,
+        "fireRate": 0,
+        "reloadTime": 0
+      },
+      "recoil": {
+        "lerpSpeed": 0.3,
+        "pitch": [
+          [0, 0, 4.7003984, 0, "linear"],
+          [1, 2.2, 0, 0, "linear"],
+          [3, 4, 1.8147848, 1.8147887, "linear"],
+          [8, 6.5, 0, 0.8354143, "linear"]
+        ],
+        "pitchProceduralRange": [1, 1],
+        "recoveryDelay": 0.4,
+        "recoverySpeed": 1.2,
+        "sampleCount": 8,
+        "unset": [
+          "yawProceduralRange",
+          "proceduralSwingSpeed",
+          "adsGainMultiplier"
+        ],
+        "yaw": [
+          [0, 0, 0.693051, 0, "cubic"],
+          [1, 0.4, 0.05028604, 0.050285634, "cubic"],
+          [2, -0.2, 0.7534582, 0.75345767, "cubic"],
+          [3, 0.6, -0.050000012, -0.050000012, "cubic"],
+          [4, -0.3, -0.11589588, -0.11589588, "cubic"],
+          [4.889346, 0.3810326, -0.071406916, -0.071406916, "cubic"],
+          [5.9972525, -0.44261765, -0.052488625, -0.052488625, "cubic"],
+          [6.9540806, 0.2726575, 0, 0.003391655, "cubic"],
+          [8, -0.4358027, 0, 0, "cubic"]
+        ]
+      },
+      "tier": 2,
+      "unequipTimeSec": 0.4
+    }
+  },
+  "repairCost": {
+    "mechanical_components": 2,
+    "simple_gun_parts": 2
+  },
+  "repairDurability": 0.25,
+  "upgrades": [
+    {
+      "cost": {
+        "mechanical_components": 3,
+        "simple_gun_parts": 1
+      },
+      "to": "bantam_iii"
+    }
+  ],
+  "upgradesTo": "bantam_iii"
+}

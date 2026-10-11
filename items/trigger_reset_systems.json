@@ -1,0 +1,74 @@
+{
+  "id": "trigger_reset_systems",
+  "name": {
+    "da": "Aftrækker-Nulstillingssystemer",
+    "de": "Auslöser-Rücksetzsysteme",
+    "en": "Trigger Reset Systems",
+    "es": "Sistemas de recuperación del gatillo",
+    "fr": "Systèmes de réinitialisation de détente",
+    "he": "מערכות איפוס הדק",
+    "hr": "Sustavi za resetiranje okidača",
+    "it": "Sistemi ripristino grilletti",
+    "ja": "トリガーリセットシステム",
+    "ko-KR": "방아쇠 복귀 시스템",
+    "no": "Systemer for avtrekkertilbakestilling",
+    "pl": "Systemy resetowania spustu",
+    "pt": "Sistemas de Redefinição de Gatilho",
+    "pt-BR": "Sistemas de Redefinição de Gatilho",
+    "ru": "Перезагрузка спусковой системы",
+    "sr": "Sistemi za resetovanje okidača",
+    "tr": "Tetikleme Sıfırlama Sistemleri",
+    "uk": "Системи скидання курка",
+    "zh-CN": "扳机复位系统",
+    "zh-TW": "扳機重設系統"
+  },
+  "description": {
+    "da": "Hurtigtbevægende trusler levner kun lidt plads til tøven. Nære møder med Skulkers kunne afsløre måder at forbedre kampeffektiviteten i tempofyldte situationer på.",
+    "de": "Schnell auftretende Bedrohungen lassen kaum Raum zum Zögern. Nahkämpfe mit Skulkern könnten Wege aufzeigen, wie man die Effektivität im temporeichen Kampf verbessern kann.",
+    "en": "Fast-moving threats leave little margin for hesitation. Close encounters with Skulkers could reveal ways to improve paced combat effectiveness.",
+    "es": "Las amenazas ágiles ofrecen muy poco margen de indecisión. Puede que los enfrentamientos a corta distancia contra los merodeadores nos ayuden a encontrar formas de mejorar la eficacia en combates acelerados.",
+    "fr": "Les menaces rapides laissent peu de place à l'hésitation. Des affrontements rapprochés avec des Rôdeurs pourraient révéler des moyens d'améliorer l'efficacité des combats rythmés.",
+    "he": "איומים מהירי-תנועה אינם מותירים מקום רב להיסוס. מפגשים קרובים עם Skulkers עשויים לחשוף דרכים לשיפור יעילות הלחימה בקצב נכון.",
+    "hr": "Brze prijetnje ne ostavljaju puno prostora za oklijevanje. Bliski susreti sa Skulkerima mogli bi otkriti načine za poboljšanje taktičke borbene učinkovitosti.",
+    "it": "Le minacce in rapido movimento lasciano poco margine per l'esitazione. Gli scontri ravvicinati con gli Skulker potrebbero rivelare modi per migliorare l'efficacia del combattimento a ritmo sostenuto.",
+    "ja": "急速に迫る脅威を前に、躊躇している暇ななどほとんどない。スカルカーと至近距離で遭遇すれば、高速戦闘の効率を高めるための方法がわかるかもしれない。",
+    "ko-KR": "빠르게 움직이는 위협을 상대할 때는 망설일 여유가 거의 없습니다. 스컬커와 근접 교전을 벌이면 빠른 템포의 교전에서 효율을 높일 방법을 알아낼 수 있을지도 모릅니다.",
+    "no": "Rasktbevegelige trusler gir lite rom for nøling. Nære møter med Skulkers kan avsløre måter å forbedre kampflyten på.",
+    "pl": "W walce z poruszającymi się szybko przeciwnikami nie ma miejsca na zawahanie. Bliskie starcia z zerkaczami mogą pomóc odkryć sposoby na zwiększenie skuteczności w szybkiej walce.",
+    "pt": "Ameaças em movimento rápido deixam pouca margem para hesitação. Encontros próximos com Skulkers podem revelar formas de melhorar a eficácia em combate cadenciado.",
+    "pt-BR": "Ameaças ágeis oferecem pouco tempo para hesitar. Encontros imediatos com Espreitadores podem revelar formas de melhorar a efetividade em combates acelerados.",
+    "ru": "Быстро передвигающиеся угрозы почти не оставляют времени на раздумья. Ближние столкновения с «Пронырами» могут помочь эффективнее действовать в стремительном бою.",
+    "sr": "Brzorastuće pretnje ostavljaju malo prostora za oklevanje. Bliski susreti sa Skulkerima mogli bi otkriti načine za poboljšanje efikasnosti borbe u tempu.",
+    "tr": "Hızlı hareket eden tehditler tereddüte pay bırakmaz. Pusucu'larla yakın temasa geçmek tempolu savaşların etkililiğini geliştirme yollarını açığa çıkarabilir.",
+    "uk": "Швидкісні загрози не залишають місця для вагань. Близькі зустрічі зі Скалкерами можуть розкрити способи покращення ефективності бою в темпі.",
+    "zh-CN": "对付快速移动的敌人容不得半点犹豫。与“潜伏者”近距离交手，或许能找到提升节奏性作战效率的方法。",
+    "zh-TW": "快速移動的威脅，讓人沒有多少猶豫的餘地。與潛行者近距離交戰，也許能揭露改善快節奏戰鬥效率的方式。"
+  },
+  "type": "Research",
+  "rarity": "Common",
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/trigger_reset_systems.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Research"
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "vaporizer_regulator": 4
+      },
+      "level": 4,
+      "offerId": 645336889,
+      "points": 5000,
+      "requires": [
+        {
+          "questId": "trigger_reset_systems"
+        }
+      ],
+      "station": "research_station"
+    }
+  ]
+}

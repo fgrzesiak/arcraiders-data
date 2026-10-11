@@ -1,0 +1,70 @@
+{
+  "id": "emperor_gateway_conduit",
+  "name": {
+    "da": "Kejserens Portrør",
+    "de": "Kaiser-Portalleiter",
+    "en": "Emperor Gateway Conduit",
+    "es": "Conducto del acceso del emperador",
+    "fr": "Conduit de passerelle de l'Empereur",
+    "he": "מוליך שער קיסר",
+    "hr": "Emperor Provodnik Vrata",
+    "it": "Condotto dell'Imperatore",
+    "ja": "エンペラーゲートウェイコンジット",
+    "ko-KR": "엠퍼러 게이트웨이 도관",
+    "no": "Keiserportledning",
+    "pl": "Łącznik bramy cesarza",
+    "pt": "Condutor do Portal Emperor",
+    "pt-BR": "Conduíte de Entrada de Imperador",
+    "ru": "Переходник для шлюза «Императора»",
+    "sr": "Emperor Provodnik prolaza",
+    "tr": "İmparator Ağ Geçidi Kanalı",
+    "uk": "Канал шлюзу «Emperor»",
+    "zh-CN": "“帝王”通道导管",
+    "zh-TW": "皇帝通道導管"
+  },
+  "description": {
+    "da": "Denne rørledning kombinerer tre særskilte koblinger, og den ser ud til at passe ind i den Faldne Kejser ved Pendola Pass.",
+    "de": "Da dieser Leiter aus drei verschiedenen Kupplungen besteht, scheint er in den Gefallenen Kaiser am Pendola-Pass zu passen.",
+    "en": "Combining three distinct couplers, this conduit seems to fit into the Fallen Emperor at Pendola Pass.",
+    "es": "Este conducto, que combina tres manguitos de unión, parece encajar en el emperador caído que se encuentra en el Paso Pendola.",
+    "fr": "Composé de trois coupleurs distincts, ce conduit semble pouvoir s'insérer dans l'Empereur au Col de Pendola.",
+    "he": "בשילוב שלושה מצמדים נפרדים, המוליך הזה נראה שמתאים לקיסר שנפל ב-Pendola Pass.",
+    "hr": "Kombinirajući tri različita spojnika, ovaj provodnik se čini da pristaje u Palu Caru kod prijevoja Pendola.",
+    "it": "Combinando tre giunti distinti, questo condotto sembra inserirsi nell'Imperatore caduto al Passo di Pendola.",
+    "ja": "この導管は3種類の異なるカプラーを組み合わせており、ペンドラ峠にある「破壊されたエンペラー」に属するようだ。",
+    "ko-KR": "서로 다른 커플러 3개를 결합한 도관입니다. 펜돌라 고개의 쓰러진 엠퍼러에 꼭 맞는 듯합니다.",
+    "no": "Denne ledningen kombinerer tre forskjellige koblinger og ser ut til å passe inn i den Falne Keiseren ved Pendola-passet.",
+    "pl": "Ten łączący w sobie trzy odrębne sprzęgacze element zdaje się pasować do upadłego cesarza w przełęczy Pendola.",
+    "pt": "Combinando três acopladores distintos, este condutor parece se encaixar no Fallen Emperor em Pendola Pass.",
+    "pt-BR": "Combinando três acopladores diferentes, esse conduíte parece se encaixar no Imperador caído na Passagem Pendola.",
+    "ru": "Переходник, составленный из трех уникальных муфт, подходит павшему «Императору» на перевале Пендолы.",
+    "sr": "Kombinujući tri različita spojnika, ovaj provodnik izgleda da se uklapa u Palog Imperatora kod Pendola Pass-a.",
+    "tr": "Üç farklı bağlama kolunu birleştiren bu kablo borusu Pendola Geçidi'ndeki Düşmüş İmparator'a tam oturacak gibi duruyor.",
+    "uk": "Поєднуючи три окремі з'єднувачі, цей канал, здається, пасує до поваленого Emperor на перевалі Пендола.",
+    "zh-CN": "这根导管由三种不同的耦合器拼接而成，似乎可接入彭多拉山口的“陨落帝王”残骸。",
+    "zh-TW": "這個導管擁有三個不同的接頭，似乎可以裝進彭多拉隘口的倒地皇帝體內。"
+  },
+  "type": "Key",
+  "rarity": "Legendary",
+  "value": 1000,
+  "weightKg": 0.5,
+  "stackSize": 1,
+  "blueprintLocked": true,
+  "craftBench": "workbench",
+  "stationLevelRequired": 1,
+  "recipe": {
+    "arc_conductive_coupler": 1,
+    "arc_insulated_coupler": 1,
+    "arc_plated_coupler": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/emperor_gateway_conduit.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Utility.Key",
+      "itemType": ["Misc"]
+    },
+    "partial": ["key"]
+  }
+}

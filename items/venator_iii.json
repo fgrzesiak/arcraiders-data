@@ -20,29 +20,29 @@
     "tr": "Avcı III",
     "uk": "Venator III",
     "zh-CN": "复仇者 III",
-    "zh-TW": "复仇者 III"
+    "zh-TW": "獵人III"
   },
   "description": {
     "da": "Halvautomatisk pistol. Affyrer to skud ad gangen.",
-    "de": "Feuert zwei Schüsse gleichzeitig.",
+    "de": "Halbautomatische Pistole. Feuert zwei Schüsse gleichzeitig.",
     "en": "Semi-automatic pistol. Fires two shots at a time.",
-    "es": "Pistola semiautomática. Dispara dos tiros a la vez.",
+    "es": "Pistola semiautomática. Dispara dos balas al mismo tiempo.",
     "fr": "Pistolet semi-automatique. Tire deux coups à la fois.",
-    "he": "אקדח חצי-אוטומטי. יורה שני כדורים בבת אחת.",
+    "he": "אקדח חצי-אוטומטי. יורה שתי יריות בכל פעם.",
     "hr": "Poluautomatski pištolj. Ispaljuje dva hica odjednom.",
     "it": "Pistola semiautomatica. Spara due colpi alla volta.",
-    "ja": "セミオートマチックピストル。一度に2発発射。",
-    "ko-KR": "반자동 권총. 한 번에 두 발을 발사합니다.",
-    "no": "Halvautomatisk pistol. Avfyrer to skudd om gangen.",
-    "pl": "Pistolet półautomatyczny. Wystrzeliwuje dwa pociski naraz.",
-    "pt": "Pistola semiautomática. Dispara dois tiros de cada vez.",
+    "ja": "セミオートピストル。一度に2発撃つ。",
+    "ko-KR": "한 번에 두 발씩 발사하는 반자동 피스톨입니다.",
+    "no": "Halvautomatisk pistol. Skyter to skudd om gangen.",
+    "pl": "Pistolet samopowtarzalny. Jednocześnie wystrzeliwuje dwa pociski.",
+    "pt": "Pistola semiautomática. Dispara dois tiros por vez.",
     "pt-BR": "Pistola semiautomática. Dispara dois tiros por vez.",
-    "ru": "Полуавтоматический пистолет. Стреляет двумя выстрелами одновременно.",
-    "sr": "Poluautomatski pištolj. Ispaljuje dva hica odjednom.",
+    "ru": "Полуавтоматический пистолет. Стреляет двумя пулями за раз.",
+    "sr": "Poluautomatski pištolj. Ispaljuje po dva metka.",
     "tr": "Yarı otomatik tabanca. Aynı anda iki mermi ateşler.",
-    "uk": "Напівавтоматичний пістолет. Стріляє двома пострілами одночасно.",
+    "uk": "Напівавтоматичний пістолет. Стріляє по два постріли за раз.",
     "zh-CN": "半自动手枪。一次发射两发子弹。",
-    "zh-TW": "半自動手槍。一次發射兩發子彈。"
+    "zh-TW": "半自動手槍。一次射擊兩發。"
   },
   "type": "Pistol",
   "rarity": "Rare",
@@ -96,6 +96,52 @@
       "uk": "Пробиття броні ARC",
       "zh-CN": "ARC护甲穿透",
       "zh-TW": "ARC護甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "2x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "150-170 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
     },
     "Durability": {
       "value": "120/120",
@@ -251,6 +297,204 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/venator_iii.png",
   "updatedAt": "03/17/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.Pistol",
+      "dropType": ["Equipment.Weapon.Firearm.MediumAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
+    },
+    "weapon": {
+      "ammoItem": "medium_ammo",
+      "arc": {
+        "armorMultiplier": 0.8
+      },
+      "base": {
+        "adsTimeSec": 0.2,
+        "burnRate": 0.001378,
+        "burstSize": 1,
+        "clipSize": 10,
+        "firePower": 70000,
+        "fireRate": 255,
+        "multiShot": [
+          {
+            "extra": 0.1,
+            "frac": 0.4,
+            "halfOffset": true,
+            "projectiles": 2
+          }
+        ],
+        "multiShotPattern": {
+          "grow": 0.2,
+          "minSize": 0.8,
+          "move": 0.8
+        },
+        "physicalDamage": 8,
+        "projectilesPerShot": 2,
+        "reloadTimeSec": 3
+      },
+      "damageFalloff": [
+        [0, 1.001],
+        [5, 1.001],
+        [15, 1.001],
+        [150, 1.001],
+        [170, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 1.1,
+        "adsRecoveryMultiplier": 0.65,
+        "adsScale": 0.5,
+        "fireGain": [
+          [0, 0.1, 0.3289369, 0, "cubic"],
+          [1, 0.7, 0.089999996, 0.089999996, "linear"],
+          [10, 0.7, 0, 0, "linear"]
+        ],
+        "linearRecovery": true,
+        "max": 10,
+        "min": 0.1,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 1.1,
+            "adsFireDispersionMultiplier": 0.5,
+            "adsRecoveryMultiplier": 0.55,
+            "adsScale": 0.5,
+            "overrideAdsDispersion": true,
+            "recoverySpeed": 1.2,
+            "unset": [
+              "dispersion",
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 1.1,
+            "adsFireDispersionMultiplier": 0.5,
+            "adsRecoveryMultiplier": 0.55,
+            "adsScale": 0.5,
+            "overrideAdsDispersion": true,
+            "recoverySpeed": 2.8,
+            "unset": [
+              "dispersion",
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.65,
+            "dispersion": 4,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.65,
+            "dispersion": 4,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 1.1,
+            "adsFireDispersionMultiplier": 0.6,
+            "adsRecoveryMultiplier": 0.65,
+            "adsScale": 0.5,
+            "dispersion": 1.5,
+            "overrideAdsDispersion": true,
+            "recoverySpeed": 1.2,
+            "unset": ["fireDispersionMultiplier", "overrideRecoverySpeed"]
+          },
+          "standMoving": {
+            "adsDuration": 1.1,
+            "adsFireDispersionMultiplier": 0.6,
+            "adsRecoveryMultiplier": 0.65,
+            "adsScale": 0.5,
+            "dispersion": 1.5,
+            "overrideAdsDispersion": true,
+            "recoverySpeed": 2.8,
+            "unset": ["fireDispersionMultiplier", "overrideRecoverySpeed"]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.65,
+            "dispersion": 4,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.2,
+        "popRecoverySpeed": 0.15,
+        "recoverySpeed": 2,
+        "unset": ["fireMax"],
+        "velocity": 1.5,
+        "velocityMax": 2,
+        "velocityRecovery": 7
+      },
+      "equipTimeSec": 0.55,
+      "fireRateModifier": "rpm",
+      "headshotMultiplier": 2,
+      "headshotMultiplierFrom": "default",
+      "modifiers": {
+        "durabilityBurnRate": -0.2,
+        "fireRate": 30,
+        "reloadTime": -0.5
+      },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "recoil": {
+        "adsGainMultiplier": 0.6,
+        "lerpSpeed": 0.35,
+        "pitch": [
+          [0, 0, 1.6382433, 1.638242, "cubic"],
+          [8, 8, 0.035074104, 0.035073455, "cubic"]
+        ],
+        "pitchProceduralRange": [0.2, 0.5],
+        "proceduralSwingSpeed": 1,
+        "recoverySpeed": 1,
+        "sampleCount": 12,
+        "unset": ["yawProceduralRange", "recoveryDelay"],
+        "yaw": [
+          [0, 0, 0.14871103, 0, "cubic"],
+          [0.93238354, -0.002274692, 0.049266417, 0.049266417, "cubic"],
+          [1.9627035, 0.09669536, 0.14348659, 0.14348659, "cubic"],
+          [2.9960651, 0.29383594, 0.18675913, 0.18675913, "cubic"],
+          [3.8632731, 0.4516441, -0.08462535, -0.08462535, "cubic"],
+          [4.8913984, 0.1334427, -0.09086133, -0.09086133, "cubic"],
+          [6.0074415, 0.2568221, 0.25516486, 0.25516486, "cubic"],
+          [6.9743896, 0.6649488, -0.22214656, -0.22214656, "cubic"],
+          [8.09576, -0.20709074, -0.45493895, -0.45493895, "cubic"],
+          [9.200372, -0.3477372, 0.09078498, 0.09078498, "cubic"],
+          [9.886132, -0.04455185, 0.3780058, 0.3780058, "cubic"],
+          [11.020372, 0.34023362, -0.05627311, -0.05627311, "cubic"],
+          [11.878611, -0.1566748, 0, -0.48498642, "cubic"]
+        ]
+      },
+      "statBarOffsets": {
+        "fireRate": 3,
+        "stability": -3.5
+      },
+      "tier": 3,
+      "unequipTimeSec": 0.35
+    }
+  },
   "modSlots": {
     "grip": [
       "angled_grip_i",
@@ -272,5 +516,14 @@
     "medium_gun_parts": 3
   },
   "repairDurability": 0.5,
+  "upgrades": [
+    {
+      "cost": {
+        "advanced_mechanical_components": 2,
+        "medium_gun_parts": 2
+      },
+      "to": "venator_iv"
+    }
+  ],
   "upgradesTo": "venator_iv"
 }

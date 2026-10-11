@@ -4,18 +4,18 @@
     "da": "Torrente-tegning",
     "de": "Bauplan: Torrente",
     "en": "Torrente Blueprint",
-    "es": "Plano de Torrente",
+    "es": "Proyecto de la Torrente",
     "fr": "Schéma de Torrente",
     "he": "שרטוט Torrente",
     "hr": "Torrente Nacrt",
     "it": "Progetto Torrente",
-    "ja": "トレンテ設計図",
+    "ja": "トレンテの設計図",
     "ko-KR": "토렌테 설계도",
     "no": "Torrente-tegning",
-    "pl": "Projekt Torrente",
+    "pl": "Plan: Torrente",
     "pt": "Projeto de Torrente",
     "pt-BR": "Esquema de Torrente",
-    "ru": "Чертеж Torrente",
+    "ru": "Чертеж — Торренте",
     "sr": "Torrente Nacrt",
     "tr": "Torrente Taslağı",
     "uk": "Креслення Torrente",
@@ -23,26 +23,26 @@
     "zh-TW": "奔流藍圖"
   },
   "description": {
-    "da": "Har stor ammunitionskapacitet, men er kun præcis når man sidder på hug.",
-    "de": "Hat eine große Munitionskapazität, ist aber nur in der Hocke präzise.",
-    "en": "Has a large ammo capacity, but is only accurate while crouched.",
-    "es": "Tiene una gran capacidad de munición, pero solo es preciso agachado.",
-    "fr": "A une grande capacité de munitions, mais n'est précis qu'en position accroupie.",
-    "he": "בעל קיבולת תחמושת גדולה, אך מדויק רק במצב כריעה.",
-    "hr": "Ima veliki kapacitet streljiva, ali je precizan samo dok ste čučeći.",
-    "it": "Ha una grande capacità di munizioni, ma è preciso solo accovacciato.",
-    "ja": "大容量の弾薬を持つが、しゃがみ時のみ正確。",
-    "ko-KR": "탄약 용량이 크지만 웅크릴 때만 정확합니다.",
-    "no": "Har stor ammunisjonskapasitet, men er bare nøyaktig når man sitter på huk.",
-    "pl": "Ma dużą pojemność amunicji, ale jest celny tylko w kucnięciu.",
-    "pt": "Tem uma grande capacidade de munição, mas só é preciso agachado.",
-    "pt-BR": "Tem grande capacidade de munição, mas só é precisa quando agachado.",
-    "ru": "Имеет большую емкость магазина, но точен только в положении сидя.",
-    "sr": "Ima veliki kapacitet streljiva, ali je precizan samo dok ste čučeći.",
-    "tr": "Yüksek cephane kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
-    "uk": "Має велику ємність магазину, але точний лише в положенні сидячи.",
-    "zh-CN": "弹药容量大，但只有蹲下时才准确。",
-    "zh-TW": "彈藥容量大，但只有蹲下時才準確。"
+    "da": "Lader dig fremstille en Torrente",
+    "de": "Damit stellst du ein Torrente her",
+    "en": "Lets you craft a Torrente",
+    "es": "Te permite fabricar una Torrente.",
+    "fr": "Vous permet de fabriquer un Torrente",
+    "he": "מאפשר לך ליצור טורנטה",
+    "hr": "Omogućuje izradu Torrentea",
+    "it": "Ti permette di creare un Torrente",
+    "ja": "トレンテが製作可能になる",
+    "ko-KR": "토렌테 제작법입니다.",
+    "no": "Lar deg lage en Torrente",
+    "pl": "Pozwala wytworzyć Torrente",
+    "pt": "Permite fabricar uma Torrente",
+    "pt-BR": "Permite fabricar uma Torrente",
+    "ru": "Позволяет создать Торренте.",
+    "sr": "Omogućava izradu oružja Torrente",
+    "tr": "Torrente üretmeni sağlar",
+    "uk": "Дозволяє створити Torrente",
+    "zh-CN": "可以制作奔流",
+    "zh-TW": "可製作奔流"
   },
   "type": "Blueprint",
   "rarity": "Common",
@@ -51,5 +51,24 @@
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/v2/torrente_blueprint.png",
   "updatedAt": "01/13/2026",
-  "addedIn": "base"
+  "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "bastion_cell": 3,
+        "cooling_fan": 1
+      },
+      "level": 2,
+      "offerId": 566836868,
+      "points": 3000,
+      "station": "research_station"
+    }
+  ]
 }

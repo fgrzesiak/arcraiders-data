@@ -1,0 +1,50 @@
+{
+  "id": "polished_faculty_table_design",
+  "name": {
+    "da": "Poleret Fakultetsbordsdesign",
+    "de": "Polierter Fakultätstisch-Entwurf",
+    "en": "Polished Faculty Table Design",
+    "es": "Diseño de Mesa Pulida de la Facultad",
+    "fr": "Design de la Table de la faculté polie",
+    "he": "עיצוב שולחן סגל מלוטש",
+    "hr": "Polirani dizajn uredskog stola",
+    "it": "Design del Tavolo lucidato della facoltà",
+    "ja": "磨かれた教員用テーブルのデザイン",
+    "ko-KR": "광택 있는 학부 테이블 디자인",
+    "no": "Polert Fakultetsbord Design",
+    "pl": "Projekt wypolerowanego stołu wydziałowego",
+    "pt": "Design de Mesa Polida de Faculdade",
+    "pt-BR": "Projeto da Mesa Polida do Corpo Docente",
+    "ru": "Схема Полированного стола факультета",
+    "sr": "Polirani dizajn stola za fakultet",
+    "tr": "Cilalı Fakülte Masası Tasarımı",
+    "uk": "Дизайн полірованого столу факультету",
+    "zh-CN": "抛光学院桌子设计图",
+    "zh-TW": "拋光學院桌子設計"
+  },
+  "type": "Design",
+  "rarity": "Rare",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/polished_faculty_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "laser_level": 1
+      },
+      "level": 3,
+      "offerId": 272085041,
+      "points": 1500,
+      "station": "research_station"
+    }
+  ]
+}

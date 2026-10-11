@@ -1,0 +1,50 @@
+{
+  "id": "blue_lab_cabinet_design",
+  "name": {
+    "da": "Blå Labskab Design",
+    "de": "Entwurf: Blauer Laborschrank",
+    "en": "Blue Lab Cabinet Design",
+    "es": "Diseño del armario de laboratorio azul",
+    "fr": "Design de l'Armoire de laboratoire bleue",
+    "he": "עיצוב ארון מעבדה כחול",
+    "hr": "Dizajn plavog laboratorijskog ormara",
+    "it": "Design Armadio blu del laboratorio",
+    "ja": "ラボキャビネット（青）デザイン",
+    "ko-KR": "파란색 연구소 캐비닛 디자인",
+    "no": "Design: Blått lab-skap",
+    "pl": "Projekt Niebieskiej szafki laboratoryjnej",
+    "pt": "Projeto de Armário de Laboratório Azul",
+    "pt-BR": "Projeto do Armário de Laboratório Azul",
+    "ru": "Схема синего лабораторного шкафа",
+    "sr": "Nacrt plavog laboratorijskog ormarića",
+    "tr": "Mavi Laboratuvar Dolabı Tasarımı",
+    "uk": "Дизайн синьої лабораторної шафи",
+    "zh-CN": "蓝色实验室橱柜设计图",
+    "zh-TW": "藍色實驗室櫥櫃設計"
+  },
+  "type": "Design",
+  "rarity": "Uncommon",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/blue_lab_cabinet.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rusted_bolts": 1
+      },
+      "level": 2,
+      "offerId": 604026912,
+      "points": 1000,
+      "station": "research_station"
+    }
+  ]
+}

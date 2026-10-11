@@ -1,0 +1,74 @@
+{
+  "id": "tether_launcher_blueprint",
+  "name": {
+    "da": "Koblingskaster-tegning",
+    "de": "Bauplan: Leinenwerfer",
+    "en": "Tether Launcher Blueprint",
+    "es": "Proyecto del lanzador de anclajes",
+    "fr": "Schéma de lanceur d'amarres",
+    "he": "תוכנית: משגר קשירה",
+    "hr": "Nacrt za Lansirač konopca",
+    "it": "Progetto Lanciafune",
+    "ja": "テザーランチャーの設計図",
+    "ko-KR": "테더 발사기 설계도",
+    "no": "Lenkekaster-skjema",
+    "pl": "Plan: wyrzutnia uwięzi",
+    "pt": "Projeto Lançador de Amarras",
+    "pt-BR": "Esquema de Lançador de Amarração",
+    "ru": "Чертеж — Тросомет",
+    "sr": "Nacrt: Tether bacač",
+    "tr": "Bağlama İpi Fırlatıcısı Taslağı",
+    "uk": "Креслення Запускача Тросів",
+    "zh-CN": "系索发射器蓝图",
+    "zh-TW": "繫繩發射器藍圖"
+  },
+  "description": {
+    "da": "Lader dig fremstille en Koblingskaster.",
+    "de": "Damit stellst du einen Leinenwerfer her",
+    "en": "Lets you craft a Tether Launcher",
+    "es": "Te permite fabricar un lanzador de anclajes.",
+    "fr": "Vous permet de fabriquer un lanceur d'amarres",
+    "he": "מאפשר ליצור משגר קשירה.",
+    "hr": "Omogućuje vam izradu Lansirača konopca",
+    "it": "Ti permette di creare un Lanciafune",
+    "ja": "テザーランチャーが製作可能になる",
+    "ko-KR": "테더 발사기 제작법입니다.",
+    "no": "Lar deg lage en Lenkekaster",
+    "pl": "Pozwala wytworzyć wyrzutnię uwięzi",
+    "pt": "Permite fabricar um Lançador de Amarras",
+    "pt-BR": "Permite fabricar um Lançador de Amarração",
+    "ru": "Позволяет создать тросомет.",
+    "sr": "Omogućava ti izradu Tether bacača",
+    "tr": "Bağlama İpi Fırlatıcısı üretmeni sağlar",
+    "uk": "Дозволяє виготовити Запускач Тросів.",
+    "zh-CN": "可制作系索发射器",
+    "zh-TW": "可製作繫繩發射器"
+  },
+  "type": "Blueprint",
+  "rarity": "Common",
+  "value": 5000,
+  "weightKg": 0,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/tether_launcher_blueprint.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "steel_cable": 3,
+        "unusable_weapon": 1
+      },
+      "level": 2,
+      "offerId": 609088306,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
+}

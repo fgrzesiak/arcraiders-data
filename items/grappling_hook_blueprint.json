@@ -1,0 +1,73 @@
+{
+  "id": "grappling_hook_blueprint",
+  "name": {
+    "da": "Gribekrog-tegning",
+    "de": "Bauplan: Enterhaken",
+    "en": "Grappling Hook Blueprint",
+    "es": "Proyecto del gancho",
+    "fr": "Schéma de grappin",
+    "he": "שרטוט וו טיפוס",
+    "hr": "Nacrt kuke za hvatanje",
+    "it": "Progetto Rampino",
+    "ja": "グラップル・フックの設計図",
+    "ko-KR": "그래플링 훅 설계도",
+    "no": "Gripehaketegning",
+    "pl": "Plan: kotwiczka",
+    "pt": "Projeto: Gancho de Escalada",
+    "pt-BR": "Esquema de Arpéu",
+    "ru": "Чертеж — Абордажный крюк",
+    "sr": "Nacrt kuke za hvatanje",
+    "tr": "Tutma Kancası Taslağı",
+    "uk": "Креслення гака-кішки",
+    "zh-CN": "钩爪蓝图",
+    "zh-TW": "抓鉤藍圖"
+  },
+  "description": {
+    "da": "Lader dig fremstille en Gribekrog",
+    "de": "Damit stellst du einen Enterhaken her",
+    "en": "Lets you craft a Grappling Hook",
+    "es": "Te permite fabricar un gancho.",
+    "fr": "Vous permet de fabriquer un grappin",
+    "he": "מאפשר לך ליצור וו טיפוס.",
+    "hr": "Omogućuje vam izradu Kuke za hvatanje",
+    "it": "Ti permette di creare un Rampino",
+    "ja": "グラップル・フックが製作可能になる",
+    "ko-KR": "그래플링 훅 제작법입니다.",
+    "no": "Lar deg lage en Gripehake.",
+    "pl": "Pozwala wytworzyć kotwiczkę",
+    "pt": "Permite fabricar um Gancho de Escalada.",
+    "pt-BR": "Permite fabricar um Arpéu",
+    "ru": "Позволяет создать абордажный крюк.",
+    "sr": "Omogućava izradu kuke za hvatanje.",
+    "tr": "Tutma Kancası üretmeni sağlar",
+    "uk": "Дозволяє виготовити гак-кішку",
+    "zh-CN": "可以制作钩爪",
+    "zh-TW": "可製作抓鉤"
+  },
+  "type": "Blueprint",
+  "rarity": "Common",
+  "value": 5000,
+  "weightKg": 0,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/grappling_hook_blueprint.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe",
+      "dropType": ["Recipe"],
+      "itemType": ["Recipe"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "rope": 10
+      },
+      "level": 1,
+      "offerId": 467118970,
+      "points": 2000,
+      "station": "research_station"
+    }
+  ]
+}

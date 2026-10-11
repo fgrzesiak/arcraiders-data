@@ -1,0 +1,69 @@
+{
+  "id": "hand_drill",
+  "name": {
+    "da": "Håndbor",
+    "de": "Handbohrmaschine",
+    "en": "Hand Drill",
+    "es": "Taladro de mano",
+    "fr": "Perceuse à main",
+    "he": "מקדחה ידנית",
+    "hr": "Ručna bušilica",
+    "it": "Trapano manuale",
+    "ja": "ハンドドリル",
+    "ko-KR": "핸드 드릴",
+    "no": "Hånddrill",
+    "pl": "Wiertło ręczne",
+    "pt": "Furadeira Manual",
+    "pt-BR": "Furadeira Manual",
+    "ru": "Ручное сверло",
+    "sr": "Ručna bušilica",
+    "tr": "El Matkabı",
+    "uk": "Ручний бур",
+    "zh-CN": "手持电钻",
+    "zh-TW": "手鑽"
+  },
+  "description": {
+    "da": "Bruges til fremstilling.",
+    "de": "Wird bei der Herstellung verwendet.",
+    "en": "Used in crafting.",
+    "es": "Se usa para fabricar objetos.",
+    "fr": "Sert à la fabrication.",
+    "he": "משמש ליצירה.",
+    "hr": "Koristi se za izradu.",
+    "it": "Utile per le creazioni.",
+    "ja": "製作に使用する。",
+    "ko-KR": "제작에 사용될 수도 있습니다.",
+    "no": "Brukes i håndverk.",
+    "pl": "Rzecz przydatna do wytwarzania.",
+    "pt": "Usado na criação.",
+    "pt-BR": "Serve para fabricações.",
+    "ru": "Используется для создания предметов.",
+    "sr": "Koristi se u izradi.",
+    "tr": "Üretimde kullanılır.",
+    "uk": "Використовується для виготовлення.",
+    "zh-CN": "用于制作。",
+    "zh-TW": "用於製作。"
+  },
+  "type": "Topside Material",
+  "rarity": "Rare",
+  "value": 640,
+  "weightKg": 0.5,
+  "stackSize": 3,
+  "recyclesInto": {
+    "mechanical_components": 1
+  },
+  "salvagesInto": {
+    "metal_parts": 2
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/hand_drill.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "CraftingMaterial.Topside",
+      "dropType": ["Salvage.Material.Rare"],
+      "itemType": ["Misc"],
+      "theme": ["Industrial", "Mechanical"]
+    }
+  }
+}

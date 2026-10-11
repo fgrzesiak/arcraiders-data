@@ -5,7 +5,7 @@
     "de": "Leichte Munition",
     "en": "Light Ammo",
     "es": "Munición ligera",
-    "fr": "Munitions Légères",
+    "fr": "Munitions légères",
     "he": "תחמושת קלה",
     "hr": "Lako streljivo",
     "it": "Munizioni leggere",
@@ -51,7 +51,7 @@
   "stackSize": 100,
   "craftQuantity": 25,
   "compatibleWith": ["Kettle", "Burletta", "Hairpin", "Bobcat", "Stitcher"],
-  "craftBench": "workbench",
+  "craftBench": ["in_raid", "workbench"],
   "stationLevelRequired": 1,
   "recipe": {
     "chemicals": 2,
@@ -60,11 +60,24 @@
   "imageFilename": "https://cdn.arctracker.io/items/v2/light_ammo.png",
   "updatedAt": "02/24/2026",
   "addedIn": "base",
+  "mechanics": {
+    "classification": {
+      "category": "RiflePayload",
+      "dropType": ["Ammo.LightAmmo"],
+      "itemType": ["Ammunition"],
+      "questGroups": ["Items.AllAmmo"]
+    },
+    "pickup": {
+      "max": 20,
+      "min": 10
+    }
+  },
   "vendors": [
     {
       "cost": {
         "coins": 900
       },
+      "quantity": 25,
       "trader": "Tian Wen"
     }
   ]

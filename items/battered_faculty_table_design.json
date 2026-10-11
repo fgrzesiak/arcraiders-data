@@ -1,0 +1,50 @@
+{
+  "id": "battered_faculty_table_design",
+  "name": {
+    "da": "Slidt Fakultetsbord Design",
+    "de": "Entwurf: Ramponierter Fakultätstisch",
+    "en": "Battered Faculty Table Design",
+    "es": "Diseño de mesa maltrecha de la facultad",
+    "fr": "Design de la Table de la faculté abîmée",
+    "he": "עיצוב שולחן סגל בלוי",
+    "hr": "Nacrt oštećenog stola za osoblje",
+    "it": "Design Tavolo rovinato della facoltà",
+    "ja": "傷んだ教員用テーブルのデザイン",
+    "ko-KR": "낡은 학부 테이블 디자인",
+    "no": "Medtatt Fakultetsbord Design",
+    "pl": "Projekt: Zniszczony stół wydziałowy",
+    "pt": "Projeto de Mesa de Faculdade Desgastada",
+    "pt-BR": "Projeto da Mesa Surrada do Corpo Docente",
+    "ru": "Схема: Потрепанный факультетский стол",
+    "sr": "Dizajn Istrošenog Fakultetskog Stola",
+    "tr": "Yıpranmış Fakülte Masası Tasarımı",
+    "uk": "Дизайн пошарпаного столу з викладацької",
+    "zh-CN": "破旧学院桌子设计图",
+    "zh-TW": "破舊學院桌子藍圖"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_faculty_table.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "metal_brackets": 2
+      },
+      "level": 1,
+      "offerId": 391647835,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}

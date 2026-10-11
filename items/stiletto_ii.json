@@ -1,0 +1,472 @@
+{
+  "id": "stiletto_ii",
+  "name": {
+    "da": "Stiletto II",
+    "de": "Stiletto II",
+    "en": "Stiletto II",
+    "es": "Stiletto II",
+    "fr": "Stiletto II",
+    "he": "סטילטו II",
+    "hr": "Stiletto II",
+    "it": "Stiletto II",
+    "ja": "スティレット II",
+    "ko-KR": "스틸레토 II",
+    "no": "Stiletto II",
+    "pl": "Stiletto II",
+    "pt": "Stiletto II",
+    "pt-BR": "Estilete II",
+    "ru": "Шпилька II",
+    "sr": "Stiletto II",
+    "tr": "Stiletto II",
+    "uk": "Stiletto II",
+    "zh-CN": "“细剑” II",
+    "zh-TW": "短劍 II"
+  },
+  "description": {
+    "da": "Halvautomatisk riffel med høj præcision, god håndtering og lavt indledende rekyl, men bliver sværere at styre ved vedvarende skud.",
+    "de": "Ein halbautomatisches Gewehr mit hoher Präzision, guter Handhabung und geringem anfänglichem Rückstoß, das bei Dauerfeuer jedoch schwerer zu handhaben ist.",
+    "en": "Semi-automatic rifle with high accuracy, good handling and low initial recoil, but becomes harder to handle with sustained fire.",
+    "es": "Fusil semiautomático que cuenta con una gran precisión, un buen manejo y un retroceso inicial bajo. Sin embargo, se vuelve más difícil de controlar al disparar de forma continuada.",
+    "fr": "Fusil semi-automatique très précis, maniable et doté d'un faible recul initial, mais qui devient plus difficile à manier lors des tirs soutenus.",
+    "he": "רובה חצי-אוטומטי בעל דיוק גבוה, שליטה טובה ורתיעה התחלתית נמוכה, אך הופך קשה יותר לשליטה בירי ממושך.",
+    "hr": "Poluautomatska puška s visokom preciznošću, dobrim rukovanjem i niskim početnim trzajem, ali postaje teža za kontrolu pri dugotrajnoj paljbi.",
+    "it": "Fucile semiautomatico con elevata precisione, buona maneggevolezza e basso rinculo iniziale, ma che diventa più difficile da gestire con il fuoco prolungato.",
+    "ja": "高精度で扱いやすく、初期の反動も小さいセミオートのライフルだが、連射を続けると扱いが難しくなる。",
+    "ko-KR": "정확도가 높고 조작성도 좋으며 초기 반동이 적은 반자동 소총입니다. 하지만 연속 사격할수록 다루기 어려워집니다.",
+    "no": "Halvautomatisk rifle med høy presisjon, god håndtering og lavt innledende rekyl, men blir vanskeligere å kontrollere ved vedvarende skyting.",
+    "pl": "Karabin samopowtarzalny o dużej celności, dobrej poręczności i małym odrzucie początkowym, jednak im dłużej się z niego strzela, tym jest to trudniejsze.",
+    "pt": "Fuzil semiautomático com alta precisão, boa manuseabilidade e baixo recuo inicial, mas que se torna mais difícil de controlar com fogo sustentado.",
+    "pt-BR": "Rifle semiautomático com alta precisão, bom manuseio e baixo recuo inicial, porém fica mais difícil de controlar com disparos contínuos.",
+    "ru": "Полуавтоматическая винтовка с высокой точностью и небольшой изначальной отдачей. Простая в обращении, но чем дольше продолжается огонь, тем сложнее ей управлять.",
+    "sr": "Poluautomatska puška visoke preciznosti, dobrog rukovanja i niskog početnog trzaja, ali postaje teža za kontrolu pri neprekidnoj paljbi.",
+    "tr": "Yüksek isabetlilik, iyi kullanım ve düşük başlangıç geri tepmesine sahip ancak sürekli ateş ederken kullanması zorlaşan yarı otomatik bir tüfek.",
+    "uk": "Напівавтоматична гвинтівка з високою точністю, зручним керуванням та низькою початковою віддачею, але стає складніше контролювати при тривалому вогні.",
+    "zh-CN": "半自动步枪，精准度高、操控性佳、初始后坐力小，但持续射击后操控难度会上升。",
+    "zh-TW": "精準度高、操控性好且初始後座力低的半自動步槍，但在持續射擊時會變得難以掌控。"
+  },
+  "type": "Battle Rifle",
+  "rarity": "Uncommon",
+  "value": 6000,
+  "weightKg": 7,
+  "stackSize": 1,
+  "isWeapon": true,
+  "effects": {
+    "Ammo Type": {
+      "value": "Light Ammo",
+      "da": "Ammunitionstype",
+      "de": "Munitionstyp",
+      "en": "Ammo Type",
+      "es": "Tipo de munición",
+      "fr": "Type de munitions",
+      "he": "סוג תחמושת",
+      "hr": "Vrsta streljiva",
+      "it": "Tipo di munizioni",
+      "ja": "弾薬タイプ",
+      "ko-KR": "탄약 유형",
+      "no": "Ammunisjonstype",
+      "pl": "Typ amunicji",
+      "pt": "Tipo de munição",
+      "pt-BR": "Tipo de munição",
+      "ru": "Тип патронов",
+      "sr": "Vrsta streljiva",
+      "tr": "Mermi Türü",
+      "uk": "Тип патронів",
+      "zh-CN": "弹药类型",
+      "zh-TW": "彈藥類型"
+    },
+    "ARC Armor Penetration": {
+      "value": "Weak",
+      "da": "ARC rustningspenetrering",
+      "de": "ARC-Panzerungsdurchdringung",
+      "en": "ARC Armor Penetration",
+      "es": "Penetración del blindaje de las ARC",
+      "fr": "Perforation du blindage ARC",
+      "he": "חדירת שריון ARC",
+      "hr": "ARC probijanje oklopa",
+      "it": "Penetrazione armature ARC",
+      "ja": "ARC装甲貫通",
+      "ko-KR": "아크 장갑판 관통력",
+      "no": "ARC rustningspenetrering",
+      "pl": "Penetracja pancerza ARC",
+      "pt": "Penetração de armadura ARC",
+      "pt-BR": "Penetração contra blindagem ARC",
+      "ru": "Пробитие брони ARC",
+      "sr": "ARC probijanje oklopa",
+      "tr": "ARC Zırh Delimi",
+      "uk": "Пробиття броні ARC",
+      "zh-CN": "ARC护甲穿透",
+      "zh-TW": "ARC裝甲穿透"
+    },
+    "Critical Hit Multiplier": {
+      "value": "1.8x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
+    "Damage Falloff Range": {
+      "value": "130-150 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
+    },
+    "Firing Mode": {
+      "value": "Semi-Automatic",
+      "da": "Skydningstilstand",
+      "de": "Feuermodus",
+      "en": "Firing Mode",
+      "es": "Modo de disparo",
+      "fr": "Mode de tir",
+      "he": "מצב ירי",
+      "hr": "Način pucanja",
+      "it": "Modalità di fuoco",
+      "ja": "射撃モード",
+      "ko-KR": "발사 모드",
+      "no": "Skytemodus",
+      "pl": "Tryb strzału",
+      "pt": "Modo de disparo",
+      "pt-BR": "Modo de disparo",
+      "ru": "Режим стрельбы",
+      "sr": "Način pucanja",
+      "tr": "Ateş Modu",
+      "uk": "Режим стрільби",
+      "zh-CN": "射击模式",
+      "zh-TW": "射擊模式"
+    },
+    "Increased Fire Rate": {
+      "value": "8.6%",
+      "da": "Øget skudhastighed",
+      "de": "Erhöhte Feuerrate",
+      "en": "Increased Fire Rate",
+      "es": "Aumento de la cadencia de fuego",
+      "fr": "Cadence de tir augmentée",
+      "he": "קצב אש מוגבר",
+      "hr": "Povećana brzina paljbe",
+      "it": "Cadenza di fuoco aumentata",
+      "ja": "連射速度上昇",
+      "ko-KR": "발사 속도 증가",
+      "no": "Økt skuddtakt",
+      "pl": "Zwiększona szybkostrzelność",
+      "pt": "Taxa de disparo aumentada",
+      "pt-BR": "Cadência de Tiro Aumentada",
+      "ru": "Повышенная скорострельность",
+      "sr": "Povećana brzina paljbe",
+      "tr": "Artırılmış atış hızı",
+      "uk": "Підвищена швидкість стрільби",
+      "zh-CN": "射速增加",
+      "zh-TW": "提高射速"
+    },
+    "Reduced Reload Time": {
+      "value": "10.5%",
+      "da": "Reduceret genindlæsningstid",
+      "de": "Verringerte Nachladezeit",
+      "en": "Reduced Reload Time",
+      "es": "Tiempo de recarga reducido",
+      "fr": "Temps de rechargement réduit",
+      "he": "זמן טעינה מופחת",
+      "hr": "Smanjeno vrijeme punjenja",
+      "it": "Tempo di ricarica ridotto",
+      "ja": "リロード時間短縮",
+      "ko-KR": "재장전 시간 감소",
+      "no": "Redusert ladetid",
+      "pl": "Skrócony czas przeładowania",
+      "pt": "Tempo de recarga reduzido",
+      "pt-BR": "Tempo de Recarga Reduzido",
+      "ru": "Сокращённое время перезарядки",
+      "sr": "Smanjeno vrijeme punjenja",
+      "tr": "Azaltılmış yeniden doldurma süresi",
+      "uk": "Скорочений час перезаряджання",
+      "zh-CN": "装弹时间缩短",
+      "zh-TW": "降低換彈時間"
+    }
+  },
+  "recyclesInto": {
+    "mechanical_components": 2,
+    "simple_gun_parts": 2
+  },
+  "salvagesInto": {
+    "simple_gun_parts": 2
+  },
+  "upgradeCost": {
+    "mechanical_components": 3,
+    "simple_gun_parts": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/v2/stiletto_ii.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Firearm.BattleRifle",
+      "dropType": ["Equipment.Weapon.Firearm.LightAmmo"],
+      "itemType": ["Weapon.Firearm"],
+      "questGroups": [
+        "Items.AllWeapons",
+        "Items.LightAmmoWeapon",
+        "Items.SpecificWeapon.Stiletto"
+      ]
+    },
+    "partial": ["projectileRadius"],
+    "weapon": {
+      "ammoItem": "light_ammo",
+      "arc": {
+        "armorMultiplier": 0.4,
+        "propagationMultiplier": 0.2
+      },
+      "base": {
+        "burstSize": 1,
+        "clipSize": 12,
+        "firePower": 75000,
+        "fireRate": 190,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 19,
+        "reloadTimeSec": 2.8
+      },
+      "damageFalloff": [
+        [0, 1],
+        [130, 1.001],
+        [150, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 1.7,
+        "adsRecoveryMultiplier": 10,
+        "adsScale": 0.25,
+        "fireGain": [
+          [0, 0.65, 0, 0, "linear"],
+          [1, 0.25, 0, 0, "linear"],
+          [2, 0.35, 0, 0, "linear"],
+          [3, 0.65, 0, 0, "linear"],
+          [4, 0.8, 0, 0, "linear"],
+          [12, 1.1, 14.410254, 14.410301, "cubic"]
+        ],
+        "fireMax": 6,
+        "max": 10,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 1.5,
+            "adsRecoveryMultiplier": 0.75,
+            "adsScale": 0.12,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 1.5,
+            "adsRecoveryMultiplier": 1.1,
+            "adsScale": 0.12,
+            "dispersion": 2.5,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "falling": {
+            "dispersion": 4,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "dispersion": 4,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 1.7,
+            "adsRecoveryMultiplier": 0.8,
+            "adsScale": 0.2,
+            "dispersion": 3,
+            "fireDispersionMultiplier": 1.2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 1.7,
+            "adsRecoveryMultiplier": 1.2,
+            "adsScale": 0.2,
+            "dispersion": 3,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "uncontrollable": {
+            "dispersion": 4,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0,
+        "popRecoverySpeed": 0.2,
+        "recoverySpeed": 2,
+        "unset": ["linearRecovery"],
+        "velocity": 4.5,
+        "velocityMax": 5,
+        "velocityRecovery": 6.5
+      },
+      "equipTimeSec": 0.65,
+      "fireRateModifier": "rpm",
+      "headshotMultiplier": 1.8,
+      "modifiers": {
+        "clipSize": 0,
+        "durabilityBurnRate": -0.1,
+        "fireRate": 0,
+        "reloadSpeed": 0,
+        "reloadTime": 0
+      },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "recoil": {
+        "adsGainMultiplier": 0.7,
+        "lerpSpeed": 0.18,
+        "pitch": [
+          [0, 0, 2.676612, 0, "linear"],
+          [1, 6, 0, 0, "linear"]
+        ],
+        "pitchProceduralRange": [0, 1],
+        "recoverySpeed": 0.2,
+        "sampleCount": 8,
+        "unset": [
+          "yawProceduralRange",
+          "proceduralSwingSpeed",
+          "recoveryDelay"
+        ],
+        "yaw": [
+          [0, 0, 0.09388064, 0.09388064, "cubic"],
+          [0.982044, 0.092194915, -0.15011495, -0.15011495, "cubic"],
+          [1.962317, -0.29457313, 0.23744586, 0.23744586, "cubic"],
+          [2.968783, 0.56393784, -0.15939699, -0.15939699, "cubic"],
+          [3.863273, -0.5975797, -0.15460664, -0.15460664, "cubic"],
+          [4.936072, 0.259782, -0.03970945, -0.03970945, "cubic"],
+          [6.011811, -0.682897, -0.8763083, -0.8763083, "cubic"]
+        ]
+      },
+      "tier": 2,
+      "unequipTimeSec": 0.55
+    }
+  },
+  "modSlots": {
+    "grip": [
+      "angled_grip_i",
+      "angled_grip_ii",
+      "angled_grip_iii",
+      "horizontal_grip",
+      "vertical_grip_i",
+      "vertical_grip_ii",
+      "vertical_grip_iii"
+    ],
+    "muzzle": [
+      "compensator_i",
+      "compensator_ii",
+      "compensator_iii",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_iii",
+      "muzzle_brake_i",
+      "muzzle_brake_ii",
+      "muzzle_brake_iii",
+      "silencer_i",
+      "silencer_ii",
+      "silencer_iii"
+    ],
+    "stock": [
+      "kinetic_converter",
+      "lightweight_stock",
+      "padded_stock",
+      "stable_stock_i",
+      "stable_stock_ii",
+      "stable_stock_iii"
+    ]
+  },
+  "repairCost": {
+    "mechanical_components": 2,
+    "simple_gun_parts": 2
+  },
+  "repairDurability": 0.25,
+  "upgrades": [
+    {
+      "cost": {
+        "mechanical_components": 3,
+        "simple_gun_parts": 1
+      },
+      "to": "stiletto_iii"
+    }
+  ],
+  "upgradesTo": "stiletto_iii"
+}

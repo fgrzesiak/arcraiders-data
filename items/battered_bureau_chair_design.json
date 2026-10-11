@@ -1,0 +1,50 @@
+{
+  "id": "battered_bureau_chair_design",
+  "name": {
+    "da": "Slidt Kontorstol Design",
+    "de": "Entwurf: Ramponierter Bürostuhl",
+    "en": "Battered Bureau Chair Design",
+    "es": "Diseño de silla de escritorio maltrecha",
+    "fr": "Design de Chaise de bureau abîmée",
+    "he": "עיצוב כיסא משרדי בלוי",
+    "hr": "Nacrt oštećene uredske stolice",
+    "it": "Sedia da ufficio rovinata Design",
+    "ja": "傷んだビューローチェアのデザイン",
+    "ko-KR": "낡은 사무실 의자 디자인",
+    "no": "Medtatt Kontorstol Design",
+    "pl": "Projekt Zniszczonego krzesła biurowego",
+    "pt": "Projeto de Cadeira de Escritório Desgastada",
+    "pt-BR": "Projeto de Cadeira de Escritório Surrada",
+    "ru": "Схема: Потрепанное кресло бюро",
+    "sr": "Dizajn Istrošene Kancelarijske Stolice",
+    "tr": "Yıpranmış Büro Koltuğu Tasarımı",
+    "uk": "Дизайн пошарпаного офісного крісла",
+    "zh-CN": "破旧写字台椅设计图",
+    "zh-TW": "破舊辦公椅設計"
+  },
+  "type": "Design",
+  "rarity": "Common",
+  "value": 5000,
+  "stackSize": 1,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/battered_bureau_chair.png",
+  "updatedAt": "10/08/2026",
+  "addedIn": "2.0",
+  "mechanics": {
+    "classification": {
+      "category": "Recipe.OutpostFurniture",
+      "dropType": ["FurnitureDesigns"],
+      "itemType": ["Recipe.OutpostFurniture"]
+    }
+  },
+  "research": [
+    {
+      "cost": {
+        "mechanical_components": 3
+      },
+      "level": 1,
+      "offerId": 307624920,
+      "points": 500,
+      "station": "research_station"
+    }
+  ]
+}
