@@ -27,7 +27,8 @@
   "requiredItemIds": [
     {
       "itemId": "broken_compass",
-      "quantity": 1
+      "quantity": 1,
+      "questItem": true
     }
   ],
   "grantedItemIds": [
@@ -190,8 +191,9 @@
   ],
   "xp": 2500,
   "previousQuestIds": ["taking_stock"],
-  "nextQuestIds": [],
-  "updatedAt": "10/07/2026",
+  "nextQuestIds": ["divided"],
+  "videoUrl": "https://youtu.be/hcSlS-G0TFQ",
+  "updatedAt": "10/13/2026",
   "objectiveTree": {
     "id": "460229677",
     "children": [

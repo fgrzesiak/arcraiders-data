@@ -24,6 +24,12 @@
   },
   "map": ["buried_city"],
   "trader": "Lance",
+  "grantedItemIds": [
+    {
+      "itemId": "basic_camera",
+      "quantity": 1
+    }
+  ],
   "description": {
     "da": "Dette sted kunne godt bruge en overhaling, men jeg vil ikke have, at det ligner jeres lasede Raider Dens. Se, om du kan finde ud af, hvordan mine fantastiske medicinske kolleger plejede at bo. ",
     "de": "Dieser Ort könnte eine Verschönerung vertragen, aber ich will nicht, dass er am Ende wie eure schäbigen Raider-Höhlen aussieht. Finde heraus, wie meine medizinischen Vorfahren gelebt haben. ",
@@ -176,7 +182,7 @@
   "previousQuestIds": ["ss10x13"],
   "nextQuestIds": ["a_toxic_trail", "ss10x15"],
   "videoUrl": "https://youtu.be/Ubw1KyhvOlA",
-  "updatedAt": "10/07/2026",
+  "updatedAt": "10/13/2026",
   "objectiveTree": {
     "id": "513484629",
     "children": [

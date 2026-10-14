@@ -25,6 +25,12 @@
   "map": ["riven_tide"],
   "trader": "Apollo",
   "otherRequirements": ["20x Raids"],
+  "grantedItemIds": [
+    {
+      "itemId": "basic_camera",
+      "quantity": 1
+    }
+  ],
   "description": {
     "da": "Vi havde håbet, at bølgebryderne ved Riven Tides kunne tilbyde os lidt beskyttelse mod elementerne, men det lader til, at orkanerne heller ikke var nådige mod dette sted.",
     "de": "Wir hatten gehofft, dass uns die Ufermauern in Riven Tides etwas Schutz vor den Elementen bieten würden, aber anscheinend haben die Hurrikane auch diesen Ort nicht verschont.",
@@ -129,7 +135,7 @@
   "previousQuestIds": ["ss4"],
   "nextQuestIds": [],
   "videoUrl": "https://youtu.be/3Vgpogj0-eg",
-  "updatedAt": "10/07/2026",
+  "updatedAt": "10/13/2026",
   "objectiveTree": {
     "id": "188919370",
     "children": [
