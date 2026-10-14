@@ -219,7 +219,6 @@
         "Items.SpecificWeapon.Rascal"
       ]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "launcher_ammo",
       "arc": {
@@ -365,6 +364,9 @@
         "durabilityBurnRate": 0,
         "reloadTime": 0.25
       },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.8,
         "lerpSpeed": 0.35,

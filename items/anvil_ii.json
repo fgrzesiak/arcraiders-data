@@ -285,7 +285,6 @@
         "Items.SpecificWeapon.Anvil"
       ]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "heavy_ammo",
       "arc": {
@@ -438,6 +437,10 @@
         "durabilityBurnRate": -0.1,
         "fireRate": 0
       },
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.8,
         "lerpSpeed": 0.3,
