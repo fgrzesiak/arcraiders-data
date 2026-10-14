@@ -97,6 +97,29 @@
       "zh-CN": "ARC护甲穿透",
       "zh-TW": "ARC裝甲穿透"
     },
+    "Critical Hit Multiplier": {
+      "value": "1.5x",
+      "da": "Kritisk Træffer Multiplikator",
+      "de": "Kritischer-Treffer-Multiplikator",
+      "en": "Critical Hit Multiplier",
+      "es": "Multiplicador de golpe crítico",
+      "fr": "Multiplicateur de coup critique",
+      "he": "מכפיל מכה קריטית",
+      "hr": "Množitelj kritičnog pogotka",
+      "it": "Moltiplicatore colpi critici",
+      "ja": "クリティカルヒット倍率",
+      "ko-KR": "치명타 배수",
+      "no": "Kritisk treff-multiplikator",
+      "pl": "Mnożnik obrażeń krytycznych",
+      "pt": "Multiplicador de Dano Crítico",
+      "pt-BR": "Multiplicador de acerto crítico",
+      "ru": "Множитель критического урона",
+      "sr": "Množilac kritičnog pogotka",
+      "tr": "Kritik Vuruş Çarpanı",
+      "uk": "Множник критичного удару",
+      "zh-CN": "暴击系数",
+      "zh-TW": "爆擊倍率"
+    },
     "Damage Falloff Range": {
       "value": "180-200 m",
       "da": "Skadesfald-afstand",
@@ -238,9 +261,27 @@
         "Items.SpecificWeapon.Bantam"
       ]
     },
-    "partial": ["base", "headshotMultiplier", "projectileSpeed"],
     "weapon": {
       "ammoItem": "heavy_ammo",
+      "arc": {
+        "armorMultiplier": 1.5,
+        "propagationMultiplier": 1
+      },
+      "base": {
+        "adsTimeSec": 0.25,
+        "burstSize": 1,
+        "clipSize": 8,
+        "firePower": 37000,
+        "fireRate": 300,
+        "multiShotPattern": {
+          "fromDefault": ["move", "grow", "minSize"],
+          "grow": 1,
+          "minSize": 0,
+          "move": 0
+        },
+        "physicalDamage": 24,
+        "reloadTimeSec": 2.9
+      },
       "damageFalloff": [
         [0, 1.001],
         [180, 1.001],
@@ -363,6 +404,13 @@
       },
       "equipTimeSec": 0.65,
       "fireRateModifier": "rpm",
+      "firing": {
+        "aimedSettleSec": 0.25,
+        "kind": "doubleAction",
+        "triggerDelayAimedSec": 0.2,
+        "triggerDelaySec": 0.06
+      },
+      "headshotMultiplier": 1.5,
       "modifiers": {
         "dispersionRecovery": -0.4,
         "durabilityBurnRate": -0.3,
@@ -371,6 +419,9 @@
         "fireRate": 20,
         "reloadTime": -1
       },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "lerpSpeed": 0.3,
         "pitch": [

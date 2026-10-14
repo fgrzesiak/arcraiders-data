@@ -342,7 +342,6 @@
         "Items.SpecificWeapon.Osprey"
       ]
     },
-    "partial": ["projectileRadius"],
     "weapon": {
       "ammoItem": "medium_ammo",
       "arc": {
@@ -493,6 +492,7 @@
       },
       "projectileGravityScale": 0.6,
       "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.45,
         "lerpSpeed": 0.3,

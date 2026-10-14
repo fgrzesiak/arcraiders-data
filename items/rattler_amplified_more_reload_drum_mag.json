@@ -120,6 +120,29 @@
       "zh-CN": "暴击系数",
       "zh-TW": "爆擊倍率"
     },
+    "Damage Falloff Range": {
+      "value": "150-170 m",
+      "da": "Skadesfald-afstand",
+      "de": "Schadensabfall-Reichweite",
+      "en": "Damage Falloff Range",
+      "es": "Alcance de pérdida de daño",
+      "fr": "Portée de perte de dégâts",
+      "he": "טווח דעיכת נזק",
+      "hr": "Domet opadanja štete",
+      "it": "Raggio di calo del danno",
+      "ja": "ダメージ減衰距離",
+      "ko-KR": "피해 감소 거리",
+      "no": "Skadefall-rekkevidde",
+      "pl": "Zasięg spadku obrażeń",
+      "pt": "Alcance da queda de dano",
+      "pt-BR": "Alcance da queda de dano",
+      "ru": "Дистанция спада урона",
+      "sr": "Domet opadanja štete",
+      "tr": "Hasar Azalma Menzili",
+      "uk": "Дистанція спаду шкоди",
+      "zh-CN": "伤害衰减距离",
+      "zh-TW": "傷害衰減距離"
+    },
     "Firing Mode": {
       "value": "Fully-Automatic",
       "da": "Skydningstilstand",
@@ -188,9 +211,206 @@
         "physicalDamage": 9,
         "reloadTimeSec": 3
       },
+      "damageFalloff": [
+        [0, 1.001],
+        [15, 1.001],
+        [150, 1.001],
+        [170, 0.6]
+      ],
+      "dispersion": {
+        "adsDuration": 2.1,
+        "adsRecoveryMultiplier": 0.7,
+        "adsScale": 0.1,
+        "fireGain": [
+          [0, 0.06, 0, 0, "linear"],
+          [2, 0.06, 0.135, 0.135, "cubic"],
+          [4, 0.6, 0, 0, "cubic"],
+          [14, 0.6, 0, 0, "linear"]
+        ],
+        "fireMax": 2,
+        "linearRecovery": true,
+        "max": 6,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsDuration": 2.1,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.6,
+            "adsScale": 0.1,
+            "dispersion": 1.8,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "crouchMoving": {
+            "adsDuration": 2.1,
+            "adsFireDispersionMultiplier": 0.75,
+            "adsRecoveryMultiplier": 0.6,
+            "adsScale": 0.1,
+            "dispersion": 1.8,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "falling": {
+            "adsRecoveryMultiplier": 0.7,
+            "dispersion": 6,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "adsRecoveryMultiplier": 0.7,
+            "dispersion": 6,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsDuration": 2.1,
+            "adsFireDispersionMultiplier": 0.85,
+            "adsRecoveryMultiplier": 0.7,
+            "adsScale": 0.1,
+            "dispersion": 2.2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "standMoving": {
+            "adsDuration": 2.1,
+            "adsFireDispersionMultiplier": 0.85,
+            "adsRecoveryMultiplier": 0.7,
+            "adsScale": 0.1,
+            "dispersion": 2.2,
+            "overrideAdsDispersion": true,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed"
+            ]
+          },
+          "uncontrollable": {
+            "adsRecoveryMultiplier": 0.7,
+            "dispersion": 6,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.2,
+        "popRecoverySpeed": 0.05,
+        "recoverySpeed": 3.75,
+        "velocity": 2.5,
+        "velocityMax": 3.5,
+        "velocityRecovery": 5.5
+      },
       "equipTimeSec": 1,
       "headshotMultiplier": 2,
       "headshotMultiplierFrom": "class",
+      "modifiers": {
+        "bulletsLoaded": -0.6,
+        "clipSize": 8,
+        "durabilityBurnRate": -0.3
+      },
+      "perks": [
+        {
+          "node": "DA_Upgrade_AssaultRifle_LowTier_01_MoreReload",
+          "ops": [
+            {
+              "add": 2,
+              "stat": "loopingReloadAmount"
+            }
+          ]
+        },
+        {
+          "node": "DA_Upgrade_AssaultRifle_LowTier_01_DrumMag",
+          "ops": [
+            {
+              "add": 40,
+              "stat": "clipSize"
+            },
+            {
+              "addMultiply": 1.5,
+              "stat": "horizontalRecoil"
+            },
+            {
+              "addMultiply": 1.5,
+              "stat": "verticalRecoil"
+            },
+            {
+              "addMultiply": 1.5,
+              "stat": "fireDispersionMax"
+            },
+            {
+              "addMultiply": 1.3,
+              "stat": "baseDispersion"
+            },
+            {
+              "addMultiply": 1.3,
+              "stat": "zoomDispersionScale"
+            },
+            {
+              "addMultiply": 0.9,
+              "stat": "zoomSpeed"
+            }
+          ]
+        }
+      ],
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "qualityTier": 4,
+      "recoil": {
+        "adsGainMultiplier": 0.75,
+        "lerpSpeed": 0.4,
+        "pitch": [
+          [0, 0, 2.8229413, 0, "linear"],
+          [2, 0.75, 0, 0, "linear"],
+          [6, 1.75, 0.07372187, 0.07372336, "linear"],
+          [10, 2.5, 0.031883117, 0.03188288, "linear"],
+          [15, 2.5, 0, 0, "linear"]
+        ],
+        "pitchProceduralRange": [-0.01, 0.1],
+        "proceduralSwingSpeed": 0.5,
+        "recoverySpeed": 0.6,
+        "sampleCount": 25,
+        "unset": ["recoveryDelay"],
+        "yaw": [
+          [0, 0, -0.009839253, -0.009840206, "cubic"],
+          [5, -0.15, 0.027341835, 0.027341945, "cubic"],
+          [10, 0.3, 0.0050000013, 0.0050000013, "cubic"],
+          [15, -0.1, 0, 0, "linear"]
+        ],
+        "yawProceduralRange": [-0.15, 0.15]
+      },
       "unequipTimeSec": 0.44
     }
   },

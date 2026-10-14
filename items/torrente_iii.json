@@ -258,7 +258,6 @@
       "itemType": ["Weapon.Firearm"],
       "questGroups": ["Items.AllWeapons", "Items.MediumAmmoWeapon"]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "medium_ammo",
       "base": {
@@ -404,6 +403,10 @@
         "durabilityBurnRate": -0.2,
         "reloadSpeed": -1
       },
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "lerpSpeed": 0.2,
         "pitch": [

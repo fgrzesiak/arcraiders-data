@@ -250,7 +250,6 @@
         "Items.SpecificWeapon.Hullcracker"
       ]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "launcher_ammo",
       "arc": {
@@ -262,6 +261,8 @@
         "bulletRadius": 7,
         "burnRate": 0.004644,
         "burstSize": 1,
+        "clipSize": 5,
+        "clipSizeFrom": "default",
         "firePower": 15000,
         "fireRate": 40,
         "looping": {
@@ -401,6 +402,9 @@
         "durabilityBurnRate": -0.1,
         "fireRate": 0
       },
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.8,
         "lerpSpeed": 0.15,

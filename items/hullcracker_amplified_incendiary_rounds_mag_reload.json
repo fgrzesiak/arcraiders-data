@@ -197,6 +197,8 @@
         "bulletRadius": 7,
         "burnRate": 0.004644,
         "burstSize": 1,
+        "clipSize": 5,
+        "clipSizeFrom": "default",
         "firePower": 15000,
         "fireRate": 40,
         "multiShotPattern": {
@@ -209,9 +211,172 @@
         "physicalDamage": 0,
         "reloadTimeSec": 3
       },
+      "dispersion": {
+        "adsDuration": 0.4,
+        "adsScale": 0.5,
+        "fireGain": [
+          [0, 0, 0, 0, "linear"],
+          [1, 0.5, 0, 0, "linear"]
+        ],
+        "fireMax": 1,
+        "max": 3,
+        "min": 0.05,
+        "perStance": {
+          "crouching": {
+            "adsRecoveryMultiplier": 0.5,
+            "dispersion": 0.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "crouchMoving": {
+            "adsRecoveryMultiplier": 0.5,
+            "dispersion": 0.5,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "falling": {
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "sprinting": {
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standing": {
+            "adsRecoveryMultiplier": 0.5,
+            "unset": [
+              "dispersion",
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "standMoving": {
+            "adsRecoveryMultiplier": 0.5,
+            "unset": [
+              "dispersion",
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          },
+          "uncontrollable": {
+            "dispersion": 2,
+            "unset": [
+              "fireDispersionMultiplier",
+              "overrideRecoverySpeed",
+              "recoverySpeed",
+              "adsRecoveryMultiplier",
+              "overrideAdsDispersion",
+              "adsScale",
+              "adsDuration",
+              "adsFireDispersionMultiplier"
+            ]
+          }
+        },
+        "popMax": 0.2,
+        "recoverySpeed": 1.5,
+        "unset": [
+          "adsRecoveryMultiplier",
+          "velocityMax",
+          "velocity",
+          "popRecoverySpeed",
+          "linearRecovery"
+        ],
+        "velocityRecovery": 4
+      },
       "equipTimeSec": 1.05,
+      "fireRateModifier": "fraction",
       "headshotMultiplier": 2,
       "headshotMultiplierFrom": "default",
+      "modifiers": {
+        "durabilityBurnRate": -0.3,
+        "fireRate": 0.3
+      },
+      "perks": [
+        {
+          "node": "DA_Upgrade_Launcher_AntiArc_Medium_01_IncendiaryRounds",
+          "ops": [
+            {
+              "addMultiply": 0.5,
+              "stat": "launchSpeed"
+            }
+          ]
+        },
+        {
+          "node": "DA_Upgrade_Launcher_AntiArc_Medium_01_MagReload",
+          "ops": [
+            {
+              "add": 2,
+              "stat": "reloadTime"
+            }
+          ]
+        }
+      ],
+      "projectileGravityScale": 1.2,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
+      "qualityTier": 4,
+      "recoil": {
+        "adsGainMultiplier": 0.8,
+        "lerpSpeed": 0.15,
+        "pitch": [
+          [0, 0, 20, 0, "cubic"],
+          [0.1, 3, 0, 0, "cubic"]
+        ],
+        "recoverySpeed": 4,
+        "sampleCount": 3,
+        "unset": [
+          "yawProceduralRange",
+          "pitchProceduralRange",
+          "proceduralSwingSpeed",
+          "recoveryDelay"
+        ],
+        "yaw": [
+          [0, 0, 0, 0, "cubic"],
+          [0.1, 0.5, 0, 0, "cubic"]
+        ]
+      },
       "unequipTimeSec": 0.45
     }
   },

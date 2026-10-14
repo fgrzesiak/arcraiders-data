@@ -259,7 +259,6 @@
       "itemType": ["Weapon.Firearm"],
       "questGroups": ["Items.AllWeapons", "Items.HeavyAmmoWeapon"]
     },
-    "partial": ["projectileRadius"],
     "weapon": {
       "ammoItem": "heavy_ammo",
       "arc": {
@@ -409,6 +408,7 @@
       },
       "projectileGravityScale": 1.2,
       "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.7,
         "lerpSpeed": 0.4,
