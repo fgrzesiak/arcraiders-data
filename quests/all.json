@@ -1,10 +1,13 @@
 {
-  "chunks": ["all_1.json", "all_2.json"],
-  "count": 137,
+  "chunks": [
+    "all_1.json",
+    "all_2.json"
+  ],
+  "count": 138,
   "policy": {
+    "type": "count",
     "maxItemsPerFile": 100,
-    "minItemsPerFile": 10,
-    "type": "count"
+    "minItemsPerFile": 10
   },
-  "version": "2bb71b6964e9d0bda2b948fec8d19fd6352e5484"
+  "version": "ae8aa3229ed7816d517618d67b1a3d835946d893"
 }

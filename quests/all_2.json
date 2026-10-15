@@ -1,5 +1,196 @@
 [
   {
+    "id": "ss10x8",
+    "name": {
+      "da": "Et varmt sted at hvile",
+      "de": "Ein warmes Plätzchen für ein Päuschen",
+      "en": "A Warm Place To Rest",
+      "es": "Un lugar cálido donde descansar",
+      "fr": "Un nid douillet",
+      "he": "מקום חם לנוח בו",
+      "hr": "Toplo mjesto za odmor",
+      "it": "Un posto caldo in cui riposare",
+      "ja": "暖かい休息場所",
+      "ko-KR": "따뜻한 쉼터",
+      "no": "Et varmt sted å hvile",
+      "pl": "Ciepło i wygodnie",
+      "pt": "Um Lugar Quente Para Descansar",
+      "pt-BR": "Um lugar aconchegante para descansar",
+      "ru": "Место покоя",
+      "sr": "Toplo mesto za odmor",
+      "tr": "Dinlenmek İçin Sıcak Bir Yer",
+      "uk": "Тепле місце для відпочинку",
+      "zh-CN": "温暖的休憩之地",
+      "zh-TW": "溫暖的休息處"
+    },
+    "map": [
+      "buried_city"
+    ],
+    "trader": "Apollo",
+    "description": {
+      "da": "En af mine kunder så en familie søge dækning i en gammel lejr i Buried City. Jeg betaler enhver, der kan finde dem og eskortere dem tilbage i sikkerhed.",
+      "de": "Einer meiner Kunden hat gesehen, wie eine Familie in einem alten Lager in der Begrabenen Stadt Unterschlupf gesucht hat. Ich bezahle gut dafür, dass jemand sie findet und sicher hierher geleitet.",
+      "en": "A customer of mine saw a family taking cover in an old encampment in Buried City. I'll pay anyone who manages to find them and escort them back to safety.",
+      "es": "Uno de mis clientes vio a una familia refugiándose en un antiguo campamento de Ciudad enterrada. Recompensaré a quien la encuentre y la escolte hasta aquí sana y salva.",
+      "fr": "Un de mes clients a vu une famille se mettre à l'abri dans un ancien campement de la Ville enfouie. Je récompenserai quiconque parviendra à les retrouver et les conduire à l'abri.",
+      "he": "לקוח שלי ראה משפחה מסתתרת במחנה ישן ב-Buried City. אשלם לכל מי שיצליח למצוא אותם וללוות אותם חזרה למקום מבטחים.",
+      "hr": "Jedan moj kupac vidio je obitelj koja se sklonila u starom logoru u Buried Cityju. Platit ću onome tko ih uspije pronaći i otpratiti na sigurno.",
+      "it": "Un mio cliente ha visto una famiglia rifugiarsi in un vecchio accampamento nella Città sepolta. Pagherò chiunque riesca a trovarli e a portarli al sicuro.",
+      "ja": "客の一人が、埋もれた街の古い野営地に身を潜めている家族を見かけたんだ。彼らを見つけて、安全な場所に案内してくれる人がいたら報酬を出してやる。",
+      "ko-KR": "손님 한 분이 파묻힌 도시에 몸을 숨기고 있는 한 가족을 목격했대요. 그 가족을 찾아서 무사히 데려오는 사람에게 사례할 생각이에요.",
+      "no": "En av kundene mine så en familie søke dekning i en gammel leir i Buried City. Jeg betaler den som klarer å finne dem og eskortere dem tilbake i sikkerhet.",
+      "pl": "Jeden z moich klientów widział jakąś rodzinę ukrywającą się w starym obozowisku w Pogrzebanym Mieście. Zapłacę każdemu, kto znajdzie tych ludzi i odeskortuje ich w bezpieczne miejsce.",
+      "pt": "Um cliente meu viu uma família se abrigando em um antigo acampamento em Buried City. Pagarei a quem conseguir encontrá-los e escoltá-los de volta à segurança.",
+      "pt-BR": "Um cliente meu viu uma família se escondendo em um acampamento antigo na Cidade Soterrada. Vou recompensar quem conseguir encontrá-los e escoltá-los para um lugar seguro.",
+      "ru": "Мой клиент заметил семью, укрывшуюся в старом палаточном лагере в Погребенном городе. Я заплачу любому, кто сможет отыскать их и привести в безопасное место.",
+      "sr": "Jedna moja mušterija je videla porodicu kako se skriva u starom logoru u Buried City. Platiću svakome ko uspe da ih pronađe i bezbedno doprati nazad.",
+      "tr": "Müşterilerimden biri Gömülü Şehir'de eski bir kampa sığınan bir aile görmüş. Onları bulup güvenli bir yere götürene para vereceğim.",
+      "uk": "Один мій клієнт бачив сім'ю, яка переховувалась у старому таборі в Buried City. Я заплачу тому, хто зможе знайти їх та супроводити в безпечне місце.",
+      "zh-CN": "我的一个客户看到有一家人在掩埋废城中的一个旧营地中避难。谁要是能找到并护送他们回到安全地带，可以到我这来领赏。",
+      "zh-TW": "我的一位顧客看到有一家人躲在埋藏都市的一處舊營地。誰能找到他們並護送他們回到安全的地方，我就付錢犒賞。"
+    },
+    "objectives": [
+      {
+        "da": "Find Abandoned Highway Camp",
+        "de": "Das verlassene Straßenlager finden",
+        "en": "Locate the Abandoned Highway Camp",
+        "es": "Encuentra el campamento de carretera abandonado.",
+        "fr": "Localiser le camp d'autoroute abandonné",
+        "he": "אתר את מחנה הכביש המהיר הנטוש",
+        "hr": "Pronađi Napušteni kamp na autocesti",
+        "it": "Trova l'accampamento dell'autostrada abbandonato",
+        "ja": "放棄された高速道路の野営地を見つけた",
+        "ko-KR": "버려진 고속도로 캠프 찾기",
+        "no": "Finn Abandoned Highway Camp",
+        "pl": "Znajdź opuszczony obóz przy autostradzie",
+        "pt": "Localize o Acampamento Abandonado da Rodovia",
+        "pt-BR": "Encontre o Acampamento de Rodovia Abandonado",
+        "ru": "Найдите покинутый лагерь на шоссе.",
+        "sr": "Pronađi Napušteni logor na autoputu",
+        "tr": "Terk Edilmiş Otoban Kampı'nı bul",
+        "uk": "Знайдіть Покинутий табір на шосе",
+        "zh-CN": "找到废弃的高速公路营地",
+        "zh-TW": "找到廢棄的高速公路營地"
+      },
+      {
+        "da": "Led efter tegn på overlevende",
+        "de": "Nach Anzeichen von Überlebenden suchen",
+        "en": "Search for any signs of survivors",
+        "es": "Busca algún rastro de supervivientes.",
+        "fr": "Chercher des traces de survivants",
+        "he": "חפש סימנים לניצולים",
+        "hr": "Potraži bilo kakve znakove preživjelih",
+        "it": "Cerca qualsiasi traccia di sopravvissuti",
+        "ja": "生存者の痕跡を探した",
+        "ko-KR": "생존자 흔적 찾기",
+        "no": "Let etter tegn til overlevende",
+        "pl": "Poszukaj śladów ocalałych osób",
+        "pt": "Procure por quaisquer sinais de sobreviventes",
+        "pt-BR": "Procure por sinais de sobreviventes",
+        "ru": "Узнайте, есть ли выжившие.",
+        "sr": "Potraži bilo kakve tragove preživelih",
+        "tr": "Hayatta kalanların izlerini ara",
+        "uk": "Шукайте будь-які ознаки вцілілих",
+        "zh-CN": "寻找幸存者的痕迹",
+        "zh-TW": "搜索生還者的跡象"
+      },
+      {
+        "da": "Følg de røde markeringer",
+        "de": "Folge den roten Markierungen.",
+        "en": "Follow the red markers",
+        "es": "Sigue los marcadores rojos.",
+        "fr": "Suivre les marqueurs rouges",
+        "he": "עקוב אחר הסימונים האדומים",
+        "hr": "Slijedi crvene oznake",
+        "it": "Segui gli indicatori rossi",
+        "ja": "赤いマーカーを辿った",
+        "ko-KR": "붉은 표식 따라가기",
+        "no": "Følg de røde markørene",
+        "pl": "Podążaj za czerwonymi znacznikami",
+        "pt": "Siga os marcadores vermelhos",
+        "pt-BR": "Siga os marcadores vermelhos",
+        "ru": "Идите по красным меткам.",
+        "sr": "Prati crvene markere",
+        "tr": "Kırmızı işaretleri takip et",
+        "uk": "Йдіть за червоними маркерами",
+        "zh-CN": "追踪红色标记",
+        "zh-TW": "追蹤紅色標記"
+      },
+      {
+        "da": "Undersøg graven",
+        "de": "Untersuche das Grab.",
+        "en": "Inspect the grave",
+        "es": "Inspecciona la tumba.",
+        "fr": "Inspecter la tombe",
+        "he": "בדוק את הקבר",
+        "hr": "Pregledaj grob",
+        "it": "Ispeziona la tomba",
+        "ja": "墓を調べる",
+        "ko-KR": "무덤 조사하기",
+        "no": "Undersøk graven",
+        "pl": "Zbadaj grób",
+        "pt": "Inspecione o túmulo",
+        "pt-BR": "Investigue o túmulo",
+        "ru": "Осмотрите могилу.",
+        "sr": "Pregledaj grob",
+        "tr": "Mezarı incele",
+        "uk": "Огляньте могилу",
+        "zh-CN": "检查坟墓",
+        "zh-TW": "檢查墓穴"
+      }
+    ],
+    "rewardItemIds": [
+      {
+        "itemId": "noisemaker",
+        "quantity": 3
+      },
+      {
+        "itemId": "blue_light_stick",
+        "quantity": 5
+      },
+      {
+        "itemId": "rosary",
+        "quantity": 1
+      }
+    ],
+    "xp": 5000,
+    "previousQuestIds": [
+      "ss10x7"
+    ],
+    "nextQuestIds": [
+      "ss10x9"
+    ],
+    "videoUrl": "https://youtu.be/7UULWAp2n6w",
+    "updatedAt": "10/07/2026",
+    "objectiveTree": {
+      "id": "219784506",
+      "children": [
+        {
+          "id": "856252550",
+          "index": 0,
+          "type": "step"
+        },
+        {
+          "id": "138213350",
+          "index": 1,
+          "type": "step"
+        },
+        {
+          "id": "270197256",
+          "index": 2,
+          "type": "step"
+        },
+        {
+          "id": "147685956",
+          "index": 3,
+          "type": "step"
+        }
+      ],
+      "type": "sequence"
+    },
+    "slug": "a-warm-place-to-rest"
+  },
+  {
     "id": "ss10x9",
     "name": {
       "da": "Fortidens recepter",
@@ -23,7 +214,9 @@
       "zh-CN": "昔日的药方",
       "zh-TW": "過去的處方"
     },
-    "map": ["the_spaceport"],
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Lance",
     "description": {
       "da": "Jeg har længe været nysgerrig på det medicinske område i The Spaceport. Noget siger mig, at det har lige præcis det, jeg har brug for, for at blive dette steds ubestridte mester.",
@@ -130,8 +323,12 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["ss10x8"],
-    "nextQuestIds": ["ss10x10"],
+    "previousQuestIds": [
+      "ss10x8"
+    ],
+    "nextQuestIds": [
+      "ss10x10"
+    ],
     "videoUrl": "https://youtu.be/K4_boRgGuB4",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -182,7 +379,9 @@
       "zh-CN": "风雨过后",
       "zh-TW": "雨過天晴"
     },
-    "map": ["buried_city"],
+    "map": [
+      "buried_city"
+    ],
     "trader": "Celeste",
     "requiredItemIds": [
       {
@@ -283,8 +482,12 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["ss10s"],
-    "nextQuestIds": ["ss10x4"],
+    "previousQuestIds": [
+      "ss10s"
+    ],
+    "nextQuestIds": [
+      "ss10x4"
+    ],
     "videoUrl": "https://youtu.be/e8XBdxZpZFo",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -340,7 +543,9 @@
       "zh-CN": "我们在上面的据点",
       "zh-TW": "我們在上頭的勢力"
     },
-    "map": ["dam_battlegrounds"],
+    "map": [
+      "dam_battlegrounds"
+    ],
     "trader": "Shani",
     "description": {
       "da": "ARC ændrer sig måske, men vi ændrer os endelig med dem. Lad os gøre de forposter færdige og revolutionere måden, vi sporer dem, flankerer dem og smadrer dem i småstykker på.",
@@ -447,8 +652,12 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss10w"],
-    "nextQuestIds": ["ss11b"],
+    "previousQuestIds": [
+      "ss10w"
+    ],
+    "nextQuestIds": [
+      "ss11b"
+    ],
     "videoUrl": "https://youtu.be/tUk4IIJPFZo",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -499,7 +708,9 @@
       "zh-CN": "首个立足点",
       "zh-TW": "第一個立足點"
     },
-    "map": ["the_blue_gate"],
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Apollo",
     "grantedItemIds": [
       {
@@ -634,8 +845,12 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss4"],
-    "nextQuestIds": ["ss11a"],
+    "previousQuestIds": [
+      "ss4"
+    ],
+    "nextQuestIds": [
+      "ss11a"
+    ],
     "videoUrl": "https://youtu.be/5BcaLUrrnDo",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -690,11 +905,17 @@
       "zh-CN": "化为废墟",
       "zh-TW": "化為瓦礫"
     },
-    "map": ["the_blue_gate"],
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "grantedItemIds": [
       {
         "itemId": "binoculars",
+        "quantity": 1
+      },
+      {
+        "itemId": "basic_camera",
         "quantity": 1
       }
     ],
@@ -825,10 +1046,14 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss11"],
-    "nextQuestIds": ["ss11bx"],
-    "videoUrl": "https://youtu.be/m8sRgdUk0EU",
-    "updatedAt": "10/07/2026",
+    "previousQuestIds": [
+      "ss11"
+    ],
+    "nextQuestIds": [
+      "ss11bx"
+    ],
+    "videoUrl": "https://youtu.be/sMMLPbwl-bA",
+    "updatedAt": "10/13/2026",
     "objectiveTree": {
       "id": "996345259",
       "children": [
@@ -881,7 +1106,9 @@
       "zh-CN": "迷失在传输中",
       "zh-TW": "傳送遺失"
     },
-    "map": ["the_spaceport"],
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Shani",
     "grantedItemIds": [
       {
@@ -1008,8 +1235,12 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss10z"],
-    "nextQuestIds": ["ss11b2"],
+    "previousQuestIds": [
+      "ss10z"
+    ],
+    "nextQuestIds": [
+      "ss11b2"
+    ],
     "videoUrl": "https://youtu.be/w5cHOWqRTb4",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -1066,7 +1297,9 @@
       "zh-CN": "通讯隐蔽处",
       "zh-TW": "通訊躲藏點"
     },
-    "map": ["buried_city"],
+    "map": [
+      "buried_city"
+    ],
     "trader": "Shani",
     "description": {
       "da": "Vi har mistet signalet i nogle områder af Buried City — mit gæt er, at vores udstyr driller. Du er ret skrap til at reparere, er du ikke? Kan du tjekke det?",
@@ -1213,8 +1446,12 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss11b"],
-    "nextQuestIds": ["ss10x5"],
+    "previousQuestIds": [
+      "ss11b"
+    ],
+    "nextQuestIds": [
+      "ss10x5"
+    ],
     "videoUrl": "https://youtu.be/s5TkIzcEiF4",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -1275,7 +1512,9 @@
       "zh-CN": "蛛丝马迹",
       "zh-TW": "追查痕跡"
     },
-    "map": ["the_blue_gate"],
+    "map": [
+      "the_blue_gate"
+    ],
     "trader": "Shani",
     "description": {
       "da": "Den nedlagte maskine… Det var ikke os, der gjorde det. Vi ved, at der er omstrejfende overlevende derude, men det her? Det går langt ud over en enkelt person.",
@@ -1400,8 +1639,13 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss11a"],
-    "nextQuestIds": ["ss10x20", "the_clean_dream"],
+    "previousQuestIds": [
+      "ss11a"
+    ],
+    "nextQuestIds": [
+      "ss10x20",
+      "the_clean_dream"
+    ],
     "videoUrl": "https://youtu.be/EwiNETQK6Hw",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -1542,8 +1786,12 @@
       }
     ],
     "xp": 1000,
-    "previousQuestIds": ["ss1"],
-    "nextQuestIds": ["ss4"],
+    "previousQuestIds": [
+      "ss1"
+    ],
+    "nextQuestIds": [
+      "ss4"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "890532018",
@@ -1685,8 +1933,12 @@
       }
     ],
     "xp": 1000,
-    "previousQuestIds": ["ss1"],
-    "nextQuestIds": ["ss4"],
+    "previousQuestIds": [
+      "ss1"
+    ],
+    "nextQuestIds": [
+      "ss4"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "543647154",
@@ -1731,7 +1983,12 @@
       "zh-CN": "销声匿迹",
       "zh-TW": "遠離雷達"
     },
-    "map": ["buried_city", "the_spaceport", "dam_battlegrounds", "riven_tide"],
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "dam_battlegrounds",
+      "riven_tide"
+    ],
     "trader": "Shani",
     "grantedItemIds": [
       {
@@ -1814,7 +2071,10 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["ss2", "ss3"],
+    "previousQuestIds": [
+      "ss2",
+      "ss3"
+    ],
     "nextQuestIds": [
       "to_the_skies",
       "ss11",
@@ -1932,8 +2192,15 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss4"],
-    "nextQuestIds": ["12_in_my_image", "ss8", "ss7", "ss5a"],
+    "previousQuestIds": [
+      "ss4"
+    ],
+    "nextQuestIds": [
+      "12_in_my_image",
+      "ss8",
+      "ss7",
+      "ss5a"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "root",
@@ -2052,8 +2319,12 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["ss5"],
-    "nextQuestIds": ["ss6"],
+    "previousQuestIds": [
+      "ss5"
+    ],
+    "nextQuestIds": [
+      "ss6"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "605984496",
@@ -2098,7 +2369,12 @@
       "zh-CN": "踏实补给",
       "zh-TW": "腳踏實地"
     },
-    "map": ["buried_city", "the_spaceport", "dam_battlegrounds", "riven_tide"],
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "dam_battlegrounds",
+      "riven_tide"
+    ],
     "trader": "Shani",
     "grantedItemIds": [
       {
@@ -2207,8 +2483,12 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss5a"],
-    "nextQuestIds": ["ss9"],
+    "previousQuestIds": [
+      "ss5a"
+    ],
+    "nextQuestIds": [
+      "ss9"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "264765067",
@@ -2371,8 +2651,12 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["ss5"],
-    "nextQuestIds": ["ss10"],
+    "previousQuestIds": [
+      "ss5"
+    ],
+    "nextQuestIds": [
+      "ss10"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "998695324",
@@ -2497,8 +2781,13 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss5"],
-    "nextQuestIds": ["ss8a", "collision_course"],
+    "previousQuestIds": [
+      "ss5"
+    ],
+    "nextQuestIds": [
+      "ss8a",
+      "collision_course"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "root",
@@ -2602,8 +2891,12 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["ss8"],
-    "nextQuestIds": ["ss8b"],
+    "previousQuestIds": [
+      "ss8"
+    ],
+    "nextQuestIds": [
+      "ss8b"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "root",
@@ -2747,8 +3040,13 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss8a"],
-    "nextQuestIds": ["the_league", "ss10v"],
+    "previousQuestIds": [
+      "ss8a"
+    ],
+    "nextQuestIds": [
+      "the_league",
+      "ss10v"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "880755088",
@@ -3017,8 +3315,13 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss6"],
-    "nextQuestIds": ["ss10b", "dust_on_the_wires"],
+    "previousQuestIds": [
+      "ss6"
+    ],
+    "nextQuestIds": [
+      "ss10b",
+      "dust_on_the_wires"
+    ],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "790303754",
@@ -3098,7 +3401,9 @@
       "zh-CN": "稳固住宅",
       "zh-TW": "穩定住宅"
     },
-    "map": ["stella_montis"],
+    "map": [
+      "stella_montis"
+    ],
     "trader": "Tian Wen",
     "requiredItemIds": [
       {
@@ -3301,7 +3606,9 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["with_a_view"],
+    "previousQuestIds": [
+      "with_a_view"
+    ],
     "nextQuestIds": [],
     "videoUrl": "https://youtu.be/2uZH4SY90DY",
     "updatedAt": "10/07/2026",
@@ -3537,8 +3844,13 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["clean_hands"],
-    "nextQuestIds": ["a_path_not_yours"],
+    "previousQuestIds": [
+      "clean_hands"
+    ],
+    "nextQuestIds": [
+      "a_path_not_yours"
+    ],
+    "videoUrl": "https://youtu.be/mmt4sQTvw70",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "599948421",
@@ -3859,7 +4171,9 @@
       }
     ],
     "xp": 2500,
-    "previousQuestIds": ["the_league"],
+    "previousQuestIds": [
+      "the_league"
+    ],
     "nextQuestIds": [],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -3914,12 +4228,16 @@
       "zh-CN": "净梦计划",
       "zh-TW": "純淨之夢"
     },
-    "map": ["the_spaceport", "the_blue_gate"],
+    "map": [
+      "the_spaceport",
+      "the_blue_gate"
+    ],
     "trader": "Apollo",
     "requiredItemIds": [
       {
         "itemId": "purification_system_blueprint",
-        "quantity": 1
+        "quantity": 1,
+        "questItem": true
       }
     ],
     "grantedItemIds": [
@@ -4121,7 +4439,9 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss11bx"],
+    "previousQuestIds": [
+      "ss11bx"
+    ],
     "nextQuestIds": [
       "keeping_an_eye_out",
       "outstanding_balance",
@@ -4226,7 +4546,11 @@
       "zh-CN": "初代游民",
       "zh-TW": "初代遊牧者"
     },
-    "map": ["the_spaceport", "the_blue_gate", "stella_montis"],
+    "map": [
+      "the_spaceport",
+      "the_blue_gate",
+      "stella_montis"
+    ],
     "trader": "Shani",
     "description": {
       "da": "Den kugle du fik øje på i Udkantsbunkeren… De minder mig om de uhyggelige indretninger, som Nomaderne har efterladt sig.",
@@ -4875,7 +5199,10 @@
       "zh-CN": "球队",
       "zh-TW": "聯賽"
     },
-    "map": ["dam_battlegrounds", "buried_city"],
+    "map": [
+      "dam_battlegrounds",
+      "buried_city"
+    ],
     "trader": "Apollo",
     "requiredItemIds": [
       {
@@ -4895,6 +5222,10 @@
       {
         "itemId": "red_light_stick",
         "quantity": 5
+      },
+      {
+        "itemId": "basic_camera",
+        "quantity": 1
       }
     ],
     "description": {
@@ -5064,10 +5395,14 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["ss8b"],
-    "nextQuestIds": ["test_case"],
-    "videoUrl": "https://youtu.be/Wv1OctjHB-k",
-    "updatedAt": "10/07/2026",
+    "previousQuestIds": [
+      "ss8b"
+    ],
+    "nextQuestIds": [
+      "test_case"
+    ],
+    "videoUrl": "https://youtu.be/6ERQQnL4fp8",
+    "updatedAt": "10/13/2026",
     "objectiveTree": {
       "id": "120039895",
       "children": [
@@ -5132,7 +5467,9 @@
       "zh-CN": "腐败的恶臭",
       "zh-TW": "腐敗惡臭"
     },
-    "map": ["the_spaceport"],
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Shani",
     "description": {
       "da": "Den nøgle du fandt i tøndelastbilen... Jeg vil ikke komme med anklager endnu, men det her stinker af et internt job. Vil du undersøge en mistanke, jeg har?",
@@ -5284,7 +5621,9 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["a_toxic_trail"],
+    "previousQuestIds": [
+      "a_toxic_trail"
+    ],
     "nextQuestIds": [],
     "videoUrl": "https://youtu.be/PgvcAy3O110",
     "updatedAt": "10/07/2026",
@@ -6096,7 +6435,9 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["ss4"],
+    "previousQuestIds": [
+      "ss4"
+    ],
     "nextQuestIds": [],
     "videoUrl": "https://youtu.be/nDgb3jmql7Y",
     "updatedAt": "10/07/2026",
@@ -6575,7 +6916,9 @@
       "zh-CN": "巨兽踪迹",
       "zh-TW": "野獸的蹤跡"
     },
-    "map": ["pendola_pass"],
+    "map": [
+      "pendola_pass"
+    ],
     "trader": "Shani",
     "requiredItemIds": [
       {
@@ -6760,8 +7103,13 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["exploring_pendola_pass"],
-    "nextQuestIds": ["belly_of_the_beast", "bait_fetch_blast"],
+    "previousQuestIds": [
+      "exploring_pendola_pass"
+    ],
+    "nextQuestIds": [
+      "belly_of_the_beast",
+      "bait_fetch_blast"
+    ],
     "videoUrl": "https://youtu.be/voCnVrx-tng",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -6975,7 +7323,9 @@
       "zh-CN": "唤醒安保网络",
       "zh-TW": "喚醒網絡"
     },
-    "map": ["the_spaceport"],
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Shani",
     "description": {
       "da": "Der er et problem med vores sensordækning på The Spaceport. Sikkerhedsnetværket er gammelt, så måske driller det bare. Hvis du kunne få det i gang igen, ville det spare mig for mange søvnløse nætter.",
@@ -7082,7 +7432,9 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["dust_on_the_wires"],
+    "previousQuestIds": [
+      "dust_on_the_wires"
+    ],
     "nextQuestIds": [],
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -7132,7 +7484,9 @@
       "zh-CN": "万物崩塌之时",
       "zh-TW": "一切殞落之時"
     },
-    "map": ["the_spaceport"],
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Shani",
     "grantedItemIds": [
       {
@@ -7359,7 +7713,9 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["empathetic_prototypes"],
+    "previousQuestIds": [
+      "empathetic_prototypes"
+    ],
     "nextQuestIds": [],
     "videoUrl": "https://youtu.be/Z1frqDBks38",
     "updatedAt": "10/07/2026",
@@ -7463,7 +7819,11 @@
       "zh-CN": "线路交错",
       "zh-TW": "溝通不良"
     },
-    "map": ["buried_city", "the_spaceport", "the_blue_gate"],
+    "map": [
+      "buried_city",
+      "the_spaceport",
+      "the_blue_gate"
+    ],
     "trader": "Celeste",
     "requiredItemIds": [
       {
@@ -7588,8 +7948,13 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["exploring_pendola_pass"],
-    "nextQuestIds": ["ruins_and_reverberations"],
+    "previousQuestIds": [
+      "exploring_pendola_pass"
+    ],
+    "nextQuestIds": [
+      "ruins_and_reverberations"
+    ],
+    "videoUrl": "https://youtu.be/DRbHoDRV0tQ",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
       "id": "901357140",
@@ -7659,7 +8024,9 @@
       "zh-CN": "风景如画",
       "zh-TW": "一窺天象"
     },
-    "map": ["stella_montis"],
+    "map": [
+      "stella_montis"
+    ],
     "trader": "Shani",
     "requiredItemIds": [
       {
@@ -7820,8 +8187,13 @@
       }
     ],
     "xp": 5000,
-    "previousQuestIds": ["12_snap_and_salvage"],
-    "nextQuestIds": ["stable_housing", "movie_night"],
+    "previousQuestIds": [
+      "12_snap_and_salvage"
+    ],
+    "nextQuestIds": [
+      "stable_housing",
+      "movie_night"
+    ],
     "videoUrl": "https://youtu.be/YvD2KJtxNj4",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
@@ -7889,7 +8261,9 @@
       "zh-CN": "电池的“盐”伸",
       "zh-TW": "鹽出必行"
     },
-    "map": ["the_spaceport"],
+    "map": [
+      "the_spaceport"
+    ],
     "trader": "Celeste",
     "description": {
       "da": "Jeg fandt noter om, at nogle elektroingeniører på Spaceport arbejdede på avancerede, saltbaserede batterier. Hvis vi kan få fingrene i et, vil det måske forhindre omfattende strømafbrydelser næste gang et loft braser sammen.",
@@ -8033,8 +8407,12 @@
       }
     ],
     "xp": 8000,
-    "previousQuestIds": ["groundbreaking"],
-    "nextQuestIds": ["on_deaf_ears"],
+    "previousQuestIds": [
+      "groundbreaking"
+    ],
+    "nextQuestIds": [
+      "on_deaf_ears"
+    ],
     "videoUrl": "https://youtu.be/VuRmrDCt8aI",
     "updatedAt": "10/07/2026",
     "objectiveTree": {
