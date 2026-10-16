@@ -149,7 +149,6 @@
         "Items.Shotguns"
       ]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "energy_clip",
       "arc": {
@@ -316,6 +315,9 @@
       },
       "equipTimeSec": 1,
       "headshotMultiplier": 1,
+      "projectileGravityScale": 0,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.9,
         "lerpSpeed": 0.4,

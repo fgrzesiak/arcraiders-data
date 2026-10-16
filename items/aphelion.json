@@ -44,7 +44,7 @@
     "zh-CN": "一把两连发战斗步枪，能发射高速能量弹。",
     "zh-TW": "可發射高速能量彈的兩發點放戰鬥步槍。"
   },
-  "type": "Special",
+  "type": "Battle Rifle",
   "rarity": "Legendary",
   "value": 27500,
   "weightKg": 10,
@@ -218,7 +218,6 @@
         "Items.SpecificWeapon.Aphelion"
       ]
     },
-    "partial": ["projectileRadius"],
     "weapon": {
       "ammoItem": "energy_clip",
       "arc": {
@@ -366,6 +365,7 @@
       "modifiers": {},
       "projectileGravityScale": 1.2,
       "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.7,
         "lerpSpeed": 0.25,

@@ -238,7 +238,6 @@
         "Items.SpecificWeapon.Stiletto"
       ]
     },
-    "partial": ["projectileRadius"],
     "weapon": {
       "ammoItem": "light_ammo",
       "arc": {
@@ -392,6 +391,7 @@
       },
       "projectileGravityScale": 1.2,
       "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.7,
         "lerpSpeed": 0.18,

@@ -44,7 +44,7 @@
     "zh-CN": "高容量实验性光束步枪。",
     "zh-TW": "高容量的實驗性光束步槍。"
   },
-  "type": "LMG",
+  "type": "Special",
   "rarity": "Legendary",
   "value": 27500,
   "weightKg": 14,
@@ -230,7 +230,6 @@
         "Items.SpecificWeapon.Equalizer"
       ]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "energy_clip",
       "arc": {
@@ -378,8 +377,16 @@
         ]
       },
       "equipTimeSec": 1.3,
+      "firing": {
+        "firstShotDelaySec": 1,
+        "kind": "beam"
+      },
       "headshotMultiplier": 2,
       "headshotMultiplierFrom": "default",
+      "projectileGravityScale": 1,
+      "projectileGravityScaleFrom": "default",
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.6,
         "lerpSpeed": 0.2,

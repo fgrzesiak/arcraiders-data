@@ -253,7 +253,6 @@
         "Items.SpecificWeapon.Jupiter"
       ]
     },
-    "partial": ["projectileSpeed"],
     "weapon": {
       "ammoItem": "energy_clip",
       "arc": {
@@ -264,6 +263,8 @@
         "adsTimeSec": 1,
         "burnRate": 0.0045,
         "burstSize": 1,
+        "clipSize": 5,
+        "clipSizeFrom": "default",
         "cooldownSec": 2,
         "firePower": 150000,
         "fireRate": 45,
@@ -395,9 +396,30 @@
         ]
       },
       "equipTimeSec": 1.05,
+      "firing": {
+        "chargeSec": 0.75,
+        "fromDefault": [
+          "hipExtraSec",
+          "noHipExtraInCombat",
+          "depthCm",
+          "maxHits",
+          "perHitMultiplier"
+        ],
+        "hipExtraSec": 0.2,
+        "kind": "railgun",
+        "noHipExtraInCombat": true,
+        "penetration": {
+          "depthM": 10,
+          "maxHits": 6,
+          "perHitMultiplier": 0.75
+        }
+      },
       "headshotMultiplier": 2,
       "headshotMultiplierFrom": "default",
       "modifiers": {},
+      "projectileGravityScale": 0,
+      "projectileInitialSpeedMs": 350,
+      "projectileRadiusM": 0.1,
       "recoil": {
         "adsGainMultiplier": 0.8,
         "lerpSpeed": 0.25,
