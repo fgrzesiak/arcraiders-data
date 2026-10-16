@@ -122,5 +122,10 @@
       "itemType": ["Gadget"]
     },
     "partial": ["gadget"]
-  }
+  },
+  "repairCost": {
+    "mechanical_components": 1,
+    "steel_cable": 1
+  },
+  "repairDurability": 0.5
 }

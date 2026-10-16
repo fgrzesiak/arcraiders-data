@@ -100,7 +100,9 @@
       "category": "Gadget",
       "itemType": ["Gadget"]
     },
-    "partial": ["gadget"]
+    "gadget": {
+      "activationCost": 0
+    }
   },
   "repairCost": {
     "cable_stripper": 1,
