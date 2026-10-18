@@ -14,7 +14,8 @@
     "quests:format": "prettier --write quests/*.json",
     "hideout:update": "node scripts/update-hideout.js && bun run hideout:format",
     "hideout:format": "prettier --write hideout/*.json",
-    "sync": "node scripts/update-items.js && node scripts/update-quests.js && node scripts/update-hideout.js && node scripts/update-projects.js && node scripts/update-map-events.js && prettier --write \"items/*.json\" \"quests/*.json\" \"hideout/*.json\" projects.json map-events/map-events.json && node scripts/aggregate.mjs"
+    "arcs:update": "node scripts/update-arcs.js && prettier --write bots.json",
+    "sync": "node scripts/update-items.js && node scripts/update-quests.js && node scripts/update-hideout.js && node scripts/update-projects.js && node scripts/update-map-events.js && node scripts/update-arcs.js && prettier --write \"items/*.json\" \"quests/*.json\" \"hideout/*.json\" projects.json map-events/map-events.json bots.json && node scripts/aggregate.mjs"
   },
   "devDependencies": {
     "prettier": "^3.6.2",

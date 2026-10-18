@@ -1,7 +1,7 @@
 [
   {
     "id": "arc_bastion",
-    "name": "BASTION",
+    "name": "Bastion",
     "type": "Heavy Assault",
     "threat": "Critical",
     "description": "Massive, crab-like machines that are slow but devastating. They're capable of shredding shields and dealing massive damage with heavy attacks.",
@@ -9,169 +9,1088 @@
     "maps": [
       "dam_battlegrounds",
       "the_spaceport",
-      "the_blue_gate",
       "buried_city",
-      "stella_montis_lower",
-      "stella_montis_upper"
+      "the_blue_gate",
+      "riven_tides",
+      "pendola_pass",
+      "stella_montis"
     ],
     "destroyXp": 500,
     "lootXp": 250,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
-      "arc_motion_core",
+      "bastion_cell",
+      "advanced_arc_powercell",
       "arc_circuitry",
-      "bastion_cell"
+      "arc_flex_rubber",
+      "arc_motion_core",
+      "arc_performance_steel",
+      "medium_gun_parts",
+      "arc_alloy",
+      "mechanical_components",
+      "arc_powercell",
+      "medium_ammo"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_bastion.png"
+    "image": "https://cdn.arctracker.io/arcs/bastion.webp",
+    "arctrackerSlug": "bastion",
+    "attacks": [
+      {
+        "damage": 6.5,
+        "kind": "gun"
+      }
+    ],
+    "nameTranslations": {
+      "en": "Bastion",
+      "es": "Bastión",
+      "it": "Bastione",
+      "ja": "バスティオン",
+      "ko": "바스티온",
+      "pt": "Baluarte",
+      "ru": "Бастион",
+      "tr": "Burç"
+    },
+    "parts": ["core", "head", "weapon", "arm", "leg", "joint"],
+    "perception": {
+      "fieldOfViewDeg": 240,
+      "losesBeyondM": 65,
+      "spotsFromM": 60
+    },
+    "plating": ["medium"],
+    "related": [
+      "arc_hornet",
+      "arc_comet",
+      "arc_firefly",
+      "arc_wasp",
+      "arc_bombardier",
+      "arc_leaper"
+    ],
+    "spawns": [
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 9
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 9
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 6
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 5
+      },
+      {
+        "map": "riven_tides",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 5
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 4
+      },
+      {
+        "map": "stella_montis",
+        "movement": "patrol",
+        "sites": 1
+      }
+    ],
+    "tags": ["Ground", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 6,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": true
   },
   {
     "id": "arc_bombardier",
-    "name": "BOMBARDIER",
+    "name": "Bombardier",
     "type": "Heavy Artillery",
     "threat": "Critical",
     "description": "A massive artillery unit designed for long-range bombardment. Equipped with devastating explosive capabilities and heavy armor, it can rain destruction from great distances.",
     "weakness": "Shooting at the yellow rear canister deals direct damage to it's core.",
     "maps": [
-      "dam_battlegrounds",
-      "the_spaceport",
       "the_blue_gate",
+      "the_spaceport",
+      "dam_battlegrounds",
+      "riven_tides",
+      "pendola_pass",
       "buried_city"
     ],
     "destroyXp": 500,
     "lootXp": 300,
     "drops": [
-      "arc_alloy",
-      "advanced_arc_powercell",
       "bombardier_cell",
-      "launcher_ammo"
+      "advanced_arc_powercell",
+      "arc_flex_rubber",
+      "arc_motion_core",
+      "arc_performance_steel",
+      "heavy_gun_parts",
+      "launcher_ammo",
+      "arc_alloy",
+      "mechanical_components",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_bombardier.png"
+    "image": "https://cdn.arctracker.io/arcs/bombardier.webp",
+    "arctrackerSlug": "bombardier",
+    "attacks": [
+      {
+        "damage": 90,
+        "kind": "mortar"
+      },
+      {
+        "damage": 55,
+        "kind": "coreBurst"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Kanonier",
+      "en": "Bombardier",
+      "es": "Bombardero",
+      "it": "Bombardiere",
+      "ja": "ボンバルディア",
+      "ko": "봄바디어",
+      "pt": "Bombardeiro",
+      "ru": "Бомбардир",
+      "tr": "Bombardımancı"
+    },
+    "parts": ["core", "head", "weapon", "arm", "leg", "joint"],
+    "perception": {
+      "fieldOfViewDeg": 240,
+      "losesBeyondM": 65,
+      "spotsFromM": 60
+    },
+    "related": [
+      "arc_bastion",
+      "arc_hornet",
+      "arc_comet",
+      "arc_firefly",
+      "arc_wasp",
+      "arc_leaper"
+    ],
+    "spawns": [
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 8
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 8
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 5
+      },
+      {
+        "map": "riven_tides",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 5
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 4
+      },
+      {
+        "map": "buried_city",
+        "movement": "patrol",
+        "sites": 3
+      }
+    ],
+    "tags": ["Ground", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 5,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": true
+  },
+  {
+    "id": "arc_bully",
+    "name": "Bully",
+    "maps": ["pendola_pass"],
+    "drops": ["arc_alloy", "arc_powercell"],
+    "image": "https://cdn.arctracker.io/arcs/bully.webp",
+    "arctrackerSlug": "bully",
+    "attacks": [
+      {
+        "damage": 85,
+        "kind": "melee"
+      },
+      {
+        "damage": 15,
+        "kind": "gun"
+      }
+    ],
+    "nameTranslations": {
+      "en": "Bully",
+      "es": "Matón",
+      "fr": "Brute",
+      "ja": "ブリー",
+      "ko": "불리",
+      "pl": "Zbir",
+      "pt": "Brigão",
+      "ru": "Задира",
+      "tr": "Zorba"
+    },
+    "parts": ["head", "weapon", "leg", "joint"],
+    "perception": {
+      "fieldOfViewDeg": 220,
+      "losesBeyondM": 200,
+      "spotsFromM": 150
+    },
+    "plating": ["light", "heavy", "head"],
+    "related": ["arc_hornet", "arc_wasp"],
+    "spawns": [
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 8
+      }
+    ],
+    "tags": ["Ground", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 4,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": false
+  },
+  {
+    "id": "arc_comet",
+    "name": "Comet",
+    "maps": [
+      "the_spaceport",
+      "the_blue_gate",
+      "buried_city",
+      "dam_battlegrounds",
+      "riven_tides",
+      "pendola_pass",
+      "stella_montis"
+    ],
+    "drops": [
+      "advanced_arc_powercell",
+      "arc_coolant",
+      "arc_thermo_lining",
+      "comet_igniter",
+      "explosive_compound",
+      "arc_alloy",
+      "crude_explosives",
+      "arc_powercell"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/comet.webp",
+    "arctrackerSlug": "comet",
+    "attacks": [],
+    "nameTranslations": {
+      "de": "Komet",
+      "en": "Comet",
+      "es": "Cometa",
+      "fr": "Comète",
+      "it": "Cometa",
+      "ja": "コメット",
+      "ko": "코멧",
+      "pl": "Kometa",
+      "pt": "Cometa",
+      "ru": "Комета",
+      "tr": "Kuyruklu Yıldız"
+    },
+    "parts": ["core"],
+    "perception": {
+      "fieldOfViewDeg": 208,
+      "losesBeyondM": 45,
+      "spotsFromM": 40
+    },
+    "plating": ["heavy"],
+    "related": [
+      "arc_pop",
+      "arc_bastion",
+      "arc_firefly",
+      "arc_hornet",
+      "arc_leaper",
+      "arc_wasp"
+    ],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "static",
+        "sites": 4015
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "static",
+        "sites": 3018
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["hurricane"],
+        "movement": "static",
+        "sites": 2512
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "static",
+        "sites": 2321
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 79
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 61
+      },
+      {
+        "map": "stella_montis",
+        "sites": 1
+      }
+    ],
+    "tags": ["Ground", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 18,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_fireball",
-    "name": "FIREBALL",
+    "name": "Fireball",
     "type": "Area Denial",
     "threat": "High",
     "description": "Small armored rolling ARC that spits flame. Opens front panel when near Raiders to burn them alive, exposing its soft core.",
     "weakness": "Exposes it's core, when it's using the flamethrower.",
     "maps": [
-      "dam_battlegrounds",
       "the_spaceport",
-      "the_blue_gate",
       "buried_city",
-      "stella_montis_lower",
-      "stella_montis_upper"
+      "dam_battlegrounds",
+      "pendola_pass",
+      "stella_montis",
+      "the_blue_gate",
+      "riven_tides"
     ],
     "destroyXp": 100,
     "lootXp": 100,
-    "drops": ["arc_alloy", "arc_powercell", "fireball_burner"],
-    "image": "https://cdn.arctracker.io/bots/arc_fireball.png"
+    "drops": [
+      "arc_coolant",
+      "arc_thermo_lining",
+      "arc_alloy",
+      "crude_explosives",
+      "fireball_burner",
+      "arc_powercell",
+      "damaged_fireball_burner"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/fireball.webp",
+    "arctrackerSlug": "fireball",
+    "attacks": [],
+    "nameTranslations": {
+      "de": "Feuerball",
+      "en": "Fireball",
+      "es": "Esferígneo",
+      "fr": "Bolide",
+      "it": "Sfera infuocata",
+      "ja": "ファイアボール",
+      "ko": "파이어볼",
+      "pl": "Ogniomiot",
+      "pt": "Bola de Fogo",
+      "ru": "Огнешар",
+      "tr": "Ateş Topu"
+    },
+    "parts": ["weapon"],
+    "perception": {
+      "fieldOfViewDeg": 360,
+      "losesBeyondM": 45,
+      "spotsFromM": 40
+    },
+    "plating": ["heavy"],
+    "related": ["arc_pop", "arc_tick"],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 3319
+      },
+      {
+        "map": "buried_city",
+        "movement": "static",
+        "sites": 2322
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 2312
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 1810
+      },
+      {
+        "map": "stella_montis",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 1714
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 1611
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 122
+      }
+    ],
+    "tags": ["Ground", "Fragile"],
+    "toughness": {
+      "of": 24,
+      "rank": 22,
+      "step": 1,
+      "steps": 5,
+      "tier": "fragile"
+    },
+    "weakPointMarked": false
+  },
+  {
+    "id": "arc_firefly",
+    "name": "Firefly",
+    "maps": [
+      "the_spaceport",
+      "the_blue_gate",
+      "dam_battlegrounds",
+      "buried_city",
+      "riven_tides",
+      "pendola_pass",
+      "stella_montis"
+    ],
+    "drops": [
+      "arc_synthetic_resin",
+      "firefly_burner",
+      "synthesized_fuel",
+      "arc_alloy",
+      "simple_gun_parts",
+      "arc_powercell",
+      "chemicals"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/firefly.webp",
+    "arctrackerSlug": "firefly",
+    "attacks": [
+      {
+        "damage": 30,
+        "kind": "melee"
+      },
+      {
+        "damage": 25,
+        "kind": "flamethrower"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Glühwürmchen",
+      "en": "Firefly",
+      "es": "Luciérnaga",
+      "fr": "Luciole",
+      "it": "Lucciola",
+      "ja": "ファイアフライ",
+      "ko": "파이어플라이",
+      "pl": "Świetlik",
+      "pt": "Vagalume",
+      "ru": "Светлячок",
+      "tr": "Ateşböceği"
+    },
+    "parts": ["core", "head", "weapon", "thruster"],
+    "perception": {
+      "fieldOfViewDeg": 192,
+      "losesBeyondM": 75,
+      "spotsFromM": 65
+    },
+    "plating": ["light", "medium", "heavy", "body"],
+    "related": [
+      "arc_hornet",
+      "arc_wasp",
+      "arc_comet",
+      "arc_leaper",
+      "arc_bastion",
+      "arc_vaporizer"
+    ],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 5522
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 4624
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 3125
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 2214
+      },
+      {
+        "map": "riven_tides",
+        "movement": "patrol",
+        "sites": 1314
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 81
+      },
+      {
+        "map": "stella_montis",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 52
+      }
+    ],
+    "tags": ["Flying", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 15,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_hornet",
-    "name": "HORNET",
+    "name": "Hornet",
     "type": "Medium Drone",
     "threat": "High",
     "description": "Medium-class drone with armored rotors. It fires focused, high-speed projectiles with a brief red laser warning. Designed to shred shields and light armor.",
     "weakness": "Unarmored rear thrusters.",
     "maps": [
-      "dam_battlegrounds",
       "the_spaceport",
+      "dam_battlegrounds",
       "the_blue_gate",
-      "buried_city"
+      "buried_city",
+      "riven_tides",
+      "pendola_pass",
+      "stella_montis"
     ],
     "destroyXp": 150,
     "lootXp": 250,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
+      "arc_performance_steel",
+      "arc_synthetic_resin",
       "hornet_driver",
+      "arc_alloy",
       "simple_gun_parts",
+      "arc_powercell",
+      "damaged_hornet_driver",
       "medium_ammo"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_hornet.png"
+    "image": "https://cdn.arctracker.io/arcs/hornet.webp",
+    "arctrackerSlug": "hornet",
+    "attacks": [
+      {
+        "damage": 30,
+        "kind": "melee"
+      },
+      {
+        "damage": 25,
+        "kind": "taser"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Hornisse",
+      "en": "Hornet",
+      "es": "Avispón",
+      "fr": "Frelon",
+      "it": "Calabrone",
+      "ja": "ホーネット",
+      "ko": "호넷",
+      "pl": "Szerszeń",
+      "pt": "Marimbondo",
+      "ru": "Шершень",
+      "tr": "Yaban Arısı"
+    },
+    "parts": ["weapon", "thruster"],
+    "perception": {
+      "fieldOfViewDeg": 192,
+      "losesBeyondM": 75,
+      "spotsFromM": 65
+    },
+    "plating": ["light", "medium", "heavy"],
+    "related": [
+      "arc_wasp",
+      "arc_snitch",
+      "arc_firefly",
+      "arc_comet",
+      "arc_vaporizer",
+      "arc_leaper"
+    ],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 6232
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 4237
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 2745
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["Night Raid or Hurricane"],
+        "movement": "patrol",
+        "sites": 2022
+      },
+      {
+        "map": "riven_tides",
+        "movement": "patrol",
+        "sites": 1713
+      },
+      {
+        "map": "pendola_pass",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 1613
+      },
+      {
+        "map": "stella_montis",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 24
+      }
+    ],
+    "tags": ["Flying", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 15,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": true
+  },
+  {
+    "id": "arc_hydra",
+    "name": "Hydra",
+    "maps": [
+      "pendola_pass",
+      "the_blue_gate",
+      "buried_city",
+      "dam_battlegrounds",
+      "the_spaceport"
+    ],
+    "drops": ["arc_alloy", "arc_powercell"],
+    "image": "https://cdn.arctracker.io/arcs/hydra.webp",
+    "arctrackerSlug": "hydra",
+    "attacks": [
+      {
+        "damage": 1,
+        "kind": "gun"
+      }
+    ],
+    "nameTranslations": {
+      "en": "Hydra",
+      "es": "Hidra",
+      "fr": "Hydre",
+      "ja": "ハイドラ",
+      "ko": "히드라",
+      "pt": "Hidra",
+      "ru": "Гидра",
+      "tr": "Hidra"
+    },
+    "parts": ["core", "weapon", "joint"],
+    "perception": {
+      "fieldOfViewDeg": 360,
+      "losesBeyondM": 80,
+      "spotsFromM": 65
+    },
+    "plating": ["any"],
+    "related": ["arc_sentinel", "arc_turret"],
+    "spawns": [
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 8
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "static",
+        "sites": 1
+      },
+      {
+        "map": "buried_city",
+        "movement": "static",
+        "sites": 1
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "static",
+        "sites": 1
+      },
+      {
+        "map": "the_spaceport",
+        "movement": "static",
+        "sites": 1
+      }
+    ],
+    "tags": ["Stationary", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 10,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_leaper",
-    "name": "LEAPER",
+    "name": "Leaper",
     "type": "Siege Engine",
     "threat": "Critical",
     "description": "Massive, arachnid-like siege engine with heavy armor and gravity-defying leap ability. Can clear impossible gaps and reach high vantage points.",
     "weakness": "Fire is most effective. Additionally you can shoot into it's eye.",
     "maps": [
-      "dam_battlegrounds",
-      "the_spaceport",
       "the_blue_gate",
-      "buried_city"
+      "dam_battlegrounds",
+      "buried_city",
+      "the_spaceport",
+      "pendola_pass",
+      "riven_tides"
     ],
     "destroyXp": 500,
     "lootXp": 500,
     "drops": [
+      "leaper_pulse_unit",
       "advanced_arc_powercell",
-      "arc_alloy",
-      "arc_circuitry",
       "arc_flex_rubber",
       "arc_motion_core",
       "arc_performance_steel",
-      "arc_powercell",
       "explosive_compound",
-      "leaper_pulse_unit",
-      "mechanical_components"
+      "arc_alloy",
+      "mechanical_components",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_leaper.png"
+    "image": "https://cdn.arctracker.io/arcs/leaper.webp",
+    "arctrackerSlug": "leaper",
+    "attacks": [
+      {
+        "damage": 85,
+        "kind": "coreBurst"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Springer",
+      "en": "Leaper",
+      "es": "Saltador",
+      "fr": "Bondisseur",
+      "ja": "リーパー",
+      "ko": "리퍼",
+      "pl": "Skoczek",
+      "pt": "Saltador",
+      "ru": "Прыгун",
+      "tr": "Sıçrayıcı"
+    },
+    "parts": ["core", "leg"],
+    "perception": {
+      "fieldOfViewDeg": 240,
+      "losesBeyondM": 120,
+      "spotsFromM": 100
+    },
+    "plating": ["light", "medium", "heavy"],
+    "related": [
+      "arc_hornet",
+      "arc_comet",
+      "arc_firefly",
+      "arc_wasp",
+      "arc_bastion",
+      "arc_bombardier"
+    ],
+    "spawns": [
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 12
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 12
+      },
+      {
+        "map": "buried_city",
+        "movement": "patrol",
+        "sites": 6
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 6
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 5
+      },
+      {
+        "map": "riven_tides",
+        "movement": "patrol",
+        "sites": 3
+      }
+    ],
+    "tags": ["Ground", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 8,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_matriarch",
-    "name": "MATRIARCH",
+    "name": "Matriarch",
     "type": "Boss",
     "threat": "Extreme",
     "description": "The Matriarch is an imposing ARC machine that makes the Queen look friendly and can be found during a specific map condition.",
     "weakness": "Central glowing core, which becomes exposed when it attacks. Leg joints are vulnerable too, as well as the red areas on the crown.",
-    "maps": ["dam_battlegrounds"],
+    "maps": [
+      "the_spaceport",
+      "riven_tides",
+      "pendola_pass",
+      "the_blue_gate",
+      "dam_battlegrounds"
+    ],
     "destroyXp": 1000,
     "lootXp": 500,
     "drops": [
-      "arc_alloy",
-      "arc_circuitry",
-      "arc_performance_steel",
-      "advanced_arc_powercell",
-      "arc_flex_rubber",
-      "arc_synthetic_resin",
+      "matriarch_reactor",
+      "complex_gun_parts",
       "magnetic_accelerator",
-      "matriarch_reactor"
+      "advanced_arc_powercell",
+      "advanced_electrical_components",
+      "advanced_mechanical_components",
+      "arc_circuitry",
+      "arc_coolant",
+      "arc_flex_rubber",
+      "arc_motion_core",
+      "arc_performance_steel",
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "arc_alloy",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_matriarch.png"
+    "image": "https://cdn.arctracker.io/arcs/matriarch.webp",
+    "arctrackerSlug": "matriarch",
+    "attacks": [
+      {
+        "damage": 100,
+        "kind": "blast"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Matriarchin",
+      "en": "Matriarch",
+      "es": "Matriarca",
+      "fr": "Matriarche",
+      "it": "Matriarca",
+      "ja": "マトリアーク",
+      "ko": "마트리아크",
+      "pl": "Matriarchini",
+      "pt": "Matriarca",
+      "ru": "Матриарх",
+      "tr": "Maderşah"
+    },
+    "parts": ["core", "head", "weapon", "leg"],
+    "perception": {
+      "fieldOfViewDeg": 210,
+      "losesBeyondM": 70,
+      "spotsFromM": 60
+    },
+    "plating": ["any"],
+    "related": ["arc_the_queen"],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "movement": "static",
+        "sites": 5
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 4
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 3
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "static",
+        "sites": 2
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "static",
+        "sites": 1
+      }
+    ],
+    "tags": [],
+    "toughness": {
+      "of": 24,
+      "rank": 1,
+      "step": 5,
+      "steps": 5,
+      "tier": "boss"
+    },
+    "weakPointMarked": true
   },
   {
     "id": "arc_pop",
-    "name": "POP",
+    "name": "Pop",
     "type": "Explosive",
     "threat": "Moderate",
     "description": "Small explosive ARC that detonates when approached. Quick elimination required to prevent area damage.",
     "weakness": "Just shoot it.",
     "maps": [
-      "dam_battlegrounds",
       "the_spaceport",
-      "the_blue_gate",
       "buried_city",
-      "stella_montis_lower",
-      "stella_montis_upper"
+      "dam_battlegrounds",
+      "pendola_pass",
+      "the_blue_gate",
+      "stella_montis",
+      "riven_tides"
     ],
     "destroyXp": 50,
     "lootXp": 100,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
+      "arc_coolant",
       "arc_thermo_lining",
+      "arc_alloy",
       "crude_explosives",
-      "pop_trigger"
+      "pop_trigger",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_pop.png"
+    "image": "https://cdn.arctracker.io/arcs/pop.webp",
+    "arctrackerSlug": "pop",
+    "attacks": [],
+    "nameTranslations": {
+      "en": "Pop",
+      "es": "Tronador",
+      "ja": "ポップ",
+      "ko": "팝",
+      "pl": "Trzaskacz",
+      "pt": "Estalinho",
+      "ru": "Взрывобот",
+      "tr": "Patlayıcı"
+    },
+    "parts": ["head", "arm", "flap"],
+    "related": ["arc_fireball", "arc_tick"],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "movement": "static",
+        "sites": 3411
+      },
+      {
+        "map": "buried_city",
+        "movement": "static",
+        "sites": 3213
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 228
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 208
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "static",
+        "sites": 177
+      },
+      {
+        "map": "stella_montis",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 1417
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 212
+      }
+    ],
+    "tags": ["Ground", "Fragile"],
+    "toughness": {
+      "of": 24,
+      "rank": 22,
+      "step": 1,
+      "steps": 5,
+      "tier": "fragile"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_rocketeer",
-    "name": "ROCKETEER",
+    "name": "Rocketeer",
     "type": "Flying Artillery",
     "threat": "Critical",
     "description": "A formidable flying ARC that dominates airspace with powerful rocket attacks and devastating area-of-effect damage. Designed to saturate areas with explosions.",
@@ -180,65 +1099,360 @@
       "dam_battlegrounds",
       "the_spaceport",
       "the_blue_gate",
+      "riven_tides",
       "buried_city"
     ],
     "destroyXp": 500,
     "lootXp": 500,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
-      "arc_motion_core",
-      "arc_circuitry",
-      "advanced_arc_powercell",
-      "heavy_gun_parts",
       "rocketeer_driver",
-      "heavy_ammo"
+      "advanced_arc_powercell",
+      "arc_circuitry",
+      "arc_motion_core",
+      "heavy_gun_parts",
+      "launcher_ammo",
+      "arc_alloy",
+      "electrical_components",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_rocketeer.png"
+    "image": "https://cdn.arctracker.io/arcs/rocketeer.webp",
+    "arctrackerSlug": "rocketeer",
+    "attacks": [
+      {
+        "damage": 90,
+        "kind": "missiles"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Raketenkanonier",
+      "en": "Rocketeer",
+      "es": "Cohetero",
+      "fr": "Artificier",
+      "it": "Lanciarazzi",
+      "ja": "ロケッティア",
+      "ko": "로켓티어",
+      "pl": "Rakietowiec",
+      "pt": "Fogueteiro",
+      "ru": "Ракетчик",
+      "tr": "Roketçi"
+    },
+    "parts": ["weapon", "thruster"],
+    "perception": {
+      "fieldOfViewDeg": 192,
+      "losesBeyondM": 200,
+      "spotsFromM": 150
+    },
+    "plating": ["light", "medium", "heavy"],
+    "related": ["arc_wasp", "arc_vaporizer", "arc_hornet"],
+    "spawns": [
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["Night Raid or Hurricane"],
+        "movement": "patrol",
+        "sites": 22
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 19
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["Night Raid or Hurricane"],
+        "movement": "patrol",
+        "sites": 12
+      },
+      {
+        "map": "riven_tides",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 8
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 6
+      }
+    ],
+    "tags": ["Flying", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 8,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": true
   },
   {
     "id": "arc_sentinel",
-    "name": "SENTINEL",
+    "name": "Sentinel",
     "type": "Sniper Turret",
     "threat": "High",
     "description": "Stationary but deadly turrets that perch on high vantage points. They scan for targets with long-range precision and lock onto players from a distance.",
     "weakness": "The yellow unarmored canister will be your main target.",
     "maps": [
-      "dam_battlegrounds",
       "the_spaceport",
       "the_blue_gate",
-      "buried_city"
+      "buried_city",
+      "dam_battlegrounds",
+      "riven_tides",
+      "pendola_pass",
+      "stella_montis"
     ],
     "destroyXp": 200,
     "lootXp": 300,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
+      "advanced_arc_powercell",
       "arc_coolant",
+      "arc_flex_rubber",
+      "arc_motion_core",
       "arc_synthetic_resin",
       "arc_thermo_lining",
-      "arc_motion_core",
+      "medium_gun_parts",
       "sentinel_firing_core",
+      "arc_alloy",
+      "simple_gun_parts",
+      "arc_powercell",
       "heavy_ammo"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_sentinel.png"
+    "image": "https://cdn.arctracker.io/arcs/sentinel.webp",
+    "arctrackerSlug": "sentinel",
+    "attacks": [
+      {
+        "damage": 80,
+        "kind": "railgun"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Wächter",
+      "en": "Sentinel",
+      "es": "Centinela",
+      "fr": "Sentinelle",
+      "it": "Sentinella",
+      "ja": "センチネル",
+      "ko": "센티넬",
+      "pl": "Strażnik",
+      "pt": "Sentinela",
+      "ru": "Часовой",
+      "tr": "Nöbetçi"
+    },
+    "parts": ["head", "weapon", "arm"],
+    "perception": {
+      "fieldOfViewDeg": 21,
+      "losesBeyondM": 150,
+      "spotsFromM": 150
+    },
+    "related": ["arc_hydra", "arc_turret"],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["frigate"],
+        "movement": "static",
+        "sites": 14
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["ARC Frigate or Night Raid"],
+        "movement": "static",
+        "sites": 13
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["frigate"],
+        "movement": "static",
+        "sites": 12
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["frigate"],
+        "movement": "static",
+        "sites": 12
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 5
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 3
+      },
+      {
+        "map": "stella_montis",
+        "movement": "static",
+        "sites": 1
+      }
+    ],
+    "tags": ["Stationary", "Sturdy"],
+    "toughness": {
+      "of": 24,
+      "rank": 12,
+      "step": 3,
+      "steps": 5,
+      "tier": "sturdy"
+    },
+    "weakPointMarked": true
   },
   {
     "id": "arc_shredder",
-    "name": "SHREDDER",
+    "name": "Shredder",
     "type": "Area Denial",
     "threat": "High",
     "description": "The Shredder appears in Stella Montis, challenging Raiders to stay sharp in close-quarter encounters.",
     "weakness": "Primary weakness is the 'eye-bar' at it's head. You may see the orange core between it's armour plates, which you can shoot too.",
-    "maps": ["stella_montis_lower", "stella_montis_upper"],
+    "maps": [
+      "stella_montis",
+      "buried_city",
+      "the_spaceport",
+      "dam_battlegrounds",
+      "the_blue_gate",
+      "pendola_pass",
+      "riven_tides"
+    ],
     "destroyXp": 200,
     "lootXp": 250,
-    "drops": ["arc_alloy", "arc_powercell", "shredder_gyro", "shotgun_ammo"],
-    "image": "https://cdn.arctracker.io/bots/arc_shredder.png"
+    "drops": [
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "shredder_gyro",
+      "arc_alloy",
+      "mechanical_components",
+      "simple_gun_parts",
+      "arc_powercell",
+      "shotgun_ammo"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/shredder.webp",
+    "arctrackerSlug": "shredder",
+    "attacks": [
+      {
+        "damage": 25,
+        "kind": "blast"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Schredder",
+      "en": "Shredder",
+      "es": "Triturador",
+      "fr": "Déchiqueteuse",
+      "it": "Trituratore",
+      "ja": "シュレッダー",
+      "ko": "슈레더",
+      "pl": "Siekacz",
+      "pt": "Triturador",
+      "ru": "Измельчитель",
+      "tr": "Öğütücü"
+    },
+    "parts": ["head", "weapon", "thruster", "eye", "actuator"],
+    "perception": {
+      "fieldOfViewDeg": 210,
+      "losesBeyondM": 55,
+      "spotsFromM": 45
+    },
+    "plating": ["medium", "heavy"],
+    "related": [],
+    "spawns": [
+      {
+        "map": "stella_montis",
+        "movement": "static",
+        "sites": 20
+      },
+      {
+        "map": "buried_city",
+        "movement": "static",
+        "sites": 12
+      },
+      {
+        "map": "the_spaceport",
+        "movement": "static",
+        "sites": 12
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "static",
+        "sites": 9
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "static",
+        "sites": 8
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 7
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 7
+      }
+    ],
+    "tags": ["Ground", "Sturdy"],
+    "toughness": {
+      "of": 24,
+      "rank": 11,
+      "step": 3,
+      "steps": 5,
+      "tier": "sturdy"
+    },
+    "weakPointMarked": false
+  },
+  {
+    "id": "arc_skulker",
+    "name": "Skulker",
+    "maps": ["pendola_pass"],
+    "drops": ["arc_alloy", "arc_powercell"],
+    "image": "https://cdn.arctracker.io/arcs/skulker.webp",
+    "arctrackerSlug": "skulker",
+    "attacks": [
+      {
+        "damage": 12,
+        "kind": "gun"
+      }
+    ],
+    "nameTranslations": {
+      "en": "Skulker",
+      "es": "Merodeador",
+      "fr": "Rôdeur",
+      "ja": "スカルカー",
+      "ko": "스컬커",
+      "pl": "Zerkacz",
+      "pt": "Espreitador",
+      "ru": "Проныра",
+      "tr": "Pusucu"
+    },
+    "parts": ["head", "weapon", "arm", "leg", "thruster"],
+    "perception": {
+      "fieldOfViewDeg": 210,
+      "losesBeyondM": 55,
+      "spotsFromM": 45
+    },
+    "plating": ["light", "medium"],
+    "related": [],
+    "spawns": [
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 14
+      }
+    ],
+    "tags": ["Ground", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 14,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_snitch",
-    "name": "SNITCH",
+    "name": "Snitch",
     "type": "Scout Drone",
     "threat": "Moderate",
     "description": "A swift, unarmored scout drone with three rotors. While fragile, it acts as an aerial alarm system, calling in reinforcements when it spots Raiders.",
@@ -247,22 +1461,94 @@
       "dam_battlegrounds",
       "the_spaceport",
       "the_blue_gate",
-      "buried_city"
+      "buried_city",
+      "pendola_pass",
+      "riven_tides"
     ],
     "destroyXp": 100,
     "lootXp": 200,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
       "arc_synthetic_resin",
+      "arc_thermo_lining",
       "sensors",
-      "snitch_scanner"
+      "arc_alloy",
+      "snitch_scanner",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_snitch.png"
+    "image": "https://cdn.arctracker.io/arcs/snitch.webp",
+    "arctrackerSlug": "snitch",
+    "attacks": [],
+    "nameTranslations": {
+      "de": "Spitzel",
+      "en": "Snitch",
+      "es": "Delator",
+      "fr": "Mouchard",
+      "it": "Spia",
+      "ja": "スニッチ",
+      "ko": "스니치",
+      "pl": "Kapuś",
+      "pt": "Dedo-duro",
+      "ru": "Стукач",
+      "tr": "Muhbir"
+    },
+    "parts": ["head", "radar"],
+    "perception": {
+      "fieldOfViewDeg": 56,
+      "losesBeyondM": 105,
+      "spotsFromM": 100
+    },
+    "plating": ["light"],
+    "related": ["arc_wasp", "arc_hornet"],
+    "spawns": [
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 14
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 12
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 10
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 9
+      },
+      {
+        "map": "pendola_pass",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 6
+      },
+      {
+        "map": "riven_tides",
+        "movement": "patrol",
+        "sites": 3
+      }
+    ],
+    "tags": ["Flying", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 17,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_spotter",
-    "name": "SPOTTER",
+    "name": "Spotter",
     "type": "Scout Drone",
     "threat": "High",
     "description": "Spotters are flying support drones for the Bombardier. They will point a laser at any Raider in line-of-sight so the Bombardier can accurately target them. If both Spotters are destroyed a new pair will respawn. When the Bombardier is destroyed the Spotters will fly away.",
@@ -275,117 +1561,775 @@
     ],
     "destroyXp": 100,
     "lootXp": 200,
-    "drops": ["spotter_relay", "arc_alloy", "arc_powercell", "sensors"],
-    "image": "https://cdn.arctracker.io/bots/arc_spotter.png"
+    "drops": [
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "sensors",
+      "arc_alloy",
+      "spotter_relay",
+      "arc_powercell"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/spotter.webp",
+    "arctrackerSlug": "spotter",
+    "attacks": [],
+    "nameTranslations": {
+      "de": "Aufklärer",
+      "en": "Spotter",
+      "es": "Vigía",
+      "fr": "Observateur",
+      "ja": "スポッター",
+      "ko": "스포터",
+      "pl": "Czuwacz",
+      "pt": "Olheiro",
+      "ru": "Наводчик",
+      "tr": "Gözleyici"
+    },
+    "parts": ["head", "radar"],
+    "perception": {
+      "fieldOfViewDeg": 140,
+      "losesBeyondM": 95,
+      "spotsFromM": 80
+    },
+    "related": ["arc_bombardier"],
+    "spawns": [],
+    "tags": ["Flying", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 20,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_surveyor",
-    "name": "SURVEYOR",
+    "name": "ARC Surveyor",
     "type": "Reconnaissance",
     "threat": "Low",
     "description": "The largest of the rolling ARC. It stops periodically to transmit signals. Rarely attacks, usually runs away from Raiders. Breaks into many pieces as damage is taken.",
     "weakness": "Exposes his energy core when shooting his blue beam into the sky.",
     "maps": [
-      "dam_battlegrounds",
-      "the_spaceport",
       "the_blue_gate",
-      "buried_city"
+      "dam_battlegrounds",
+      "buried_city",
+      "the_spaceport",
+      "riven_tides"
     ],
     "destroyXp": 200,
     "lootXp": 300,
     "drops": [
-      "arc_alloy",
-      "arc_powercell",
-      "arc_motion_core",
+      "advanced_arc_powercell",
       "arc_circuitry",
-      "surveyor_vault"
+      "arc_coolant",
+      "arc_motion_core",
+      "arc_performance_steel",
+      "sensors",
+      "surveyor_vault",
+      "arc_alloy",
+      "mechanical_components",
+      "arc_powercell",
+      "tactical_mk3_defensive_blueprint",
+      "vita_shot_blueprint",
+      "vita_spray_blueprint"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_surveyor.png"
+    "image": "https://cdn.arctracker.io/arcs/arc-surveyor.webp",
+    "arctrackerSlug": "arc-surveyor",
+    "attacks": [],
+    "nameTranslations": {
+      "de": "ARC-Beobachter",
+      "en": "ARC Surveyor",
+      "es": "Vigilante ARC",
+      "fr": "Guetteur ARC",
+      "it": "Supervisore ARC",
+      "ja": "ARC サーベイヤー",
+      "ko": "아크 서베이어",
+      "pl": "Szperacz ARC",
+      "pt": "Inspetor ARC",
+      "ru": "Наблюдатель ARC",
+      "tr": "ARC Gözetleyicisi"
+    },
+    "parts": ["core", "antenna"],
+    "perception": {
+      "fieldOfViewDeg": 360,
+      "losesBeyondM": 75,
+      "spotsFromM": 45
+    },
+    "plating": ["light", "heavy"],
+    "related": ["arc_hornet", "arc_vaporizer", "arc_wasp"],
+    "spawns": [
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["close-scrutiny"],
+        "movement": "static",
+        "sites": 24
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["close-scrutiny"],
+        "movement": "static",
+        "sites": 24
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["close-scrutiny"],
+        "movement": "static",
+        "sites": 18
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["close-scrutiny"],
+        "movement": "static",
+        "sites": 17
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 10
+      }
+    ],
+    "tags": ["Ground", "Sturdy"],
+    "toughness": {
+      "of": 24,
+      "rank": 13,
+      "step": 3,
+      "steps": 5,
+      "tier": "sturdy"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_the_queen",
-    "name": "THE QUEEN",
+    "name": "Queen",
     "type": "Boss",
     "threat": "Extreme",
     "description": "A colossal machine deployed during Harvester Events. It's the Goliath of the ARC forces with incredible durability and lethal arsenal. Requires full squad coordination.",
     "weakness": "The yellow joints on her legs. Exposes her core when firing the laser.",
-    "maps": ["dam_battlegrounds", "the_spaceport", "the_blue_gate"],
+    "maps": [
+      "the_blue_gate",
+      "riven_tides",
+      "the_spaceport",
+      "pendola_pass",
+      "dam_battlegrounds"
+    ],
     "destroyXp": 1000,
     "lootXp": 1000,
     "drops": [
-      "arc_alloy",
+      "queen_reactor",
+      "complex_gun_parts",
+      "magnetic_accelerator",
       "advanced_arc_powercell",
-      "arc_motion_core",
+      "advanced_electrical_components",
+      "advanced_mechanical_components",
       "arc_circuitry",
       "arc_coolant",
       "arc_flex_rubber",
-      "arc_thermo_lining",
-      "arc_synthetic_resin",
+      "arc_motion_core",
       "arc_performance_steel",
-      "advanced_mechanical_components",
-      "advanced_electrical_components",
-      "complex_gun_parts",
-      "magnetic_accelerator",
-      "queen_reactor"
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "arc_alloy",
+      "arc_powercell"
     ],
-    "image": "https://cdn.arctracker.io/bots/arc_the_queen.png"
+    "image": "https://cdn.arctracker.io/arcs/queen.webp",
+    "arctrackerSlug": "queen",
+    "attacks": [
+      {
+        "damage": 100,
+        "kind": "blast"
+      },
+      {
+        "damage": 5,
+        "kind": "laser"
+      },
+      {
+        "damage": 5,
+        "kind": "shockwave"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Königin",
+      "en": "Queen",
+      "es": "Reina",
+      "fr": "Reine",
+      "it": "Regina",
+      "ja": "クイーン",
+      "ko": "퀸",
+      "pl": "Królowa",
+      "pt": "Rainha",
+      "ru": "Королева",
+      "tr": "Kraliçe"
+    },
+    "parts": ["core", "head", "leg"],
+    "perception": {
+      "fieldOfViewDeg": 210,
+      "losesBeyondM": 70,
+      "spotsFromM": 60
+    },
+    "plating": ["any"],
+    "related": ["arc_matriarch"],
+    "spawns": [
+      {
+        "map": "the_blue_gate",
+        "movement": "static",
+        "sites": 4
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 4
+      },
+      {
+        "map": "the_spaceport",
+        "movement": "static",
+        "sites": 4
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 3
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "static",
+        "sites": 1
+      }
+    ],
+    "tags": [],
+    "toughness": {
+      "of": 24,
+      "rank": 1,
+      "step": 5,
+      "steps": 5,
+      "tier": "boss"
+    },
+    "weakPointMarked": true
   },
   {
     "id": "arc_tick",
-    "name": "TICK",
+    "name": "Tick",
     "type": "Ambush Predator",
     "threat": "Moderate",
     "description": "Small, spider-like robots that leap onto players, attaching themselves to your head. They're fast and disorienting, designed to punish careless Raiders.",
     "weakness": "Just shoot it. It's also one-hit with your melee weapon.",
     "maps": [
-      "dam_battlegrounds",
+      "pendola_pass",
       "the_spaceport",
-      "the_blue_gate",
       "buried_city",
-      "stella_montis_lower",
-      "stella_montis_upper"
+      "dam_battlegrounds",
+      "the_blue_gate",
+      "stella_montis",
+      "riven_tides"
     ],
     "destroyXp": 50,
     "lootXp": 100,
-    "drops": ["arc_alloy", "tick_pod"],
-    "image": "https://cdn.arctracker.io/bots/arc_tick.png"
+    "drops": [
+      "arc_flex_rubber",
+      "arc_thermo_lining",
+      "arc_alloy",
+      "tick_pod",
+      "arc_powercell",
+      "damaged_tick_pod"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/tick.webp",
+    "arctrackerSlug": "tick",
+    "attacks": [
+      {
+        "damage": 5,
+        "kind": "melee"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Zecke",
+      "en": "Tick",
+      "es": "Garrapata",
+      "fr": "Tique",
+      "it": "Pulce",
+      "ja": "チック",
+      "ko": "틱",
+      "pl": "Kleszcz",
+      "pt": "Carrapato",
+      "ru": "Клещ",
+      "tr": "Kene"
+    },
+    "parts": ["core", "leg", "claw"],
+    "perception": {
+      "fieldOfViewDeg": 360,
+      "losesBeyondM": 50,
+      "spotsFromM": 45
+    },
+    "plating": ["light"],
+    "related": ["arc_fireball", "arc_pop"],
+    "spawns": [
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 62
+      },
+      {
+        "map": "the_spaceport",
+        "movement": "static",
+        "sites": 42
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 36
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 32
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 28
+      },
+      {
+        "map": "stella_montis",
+        "moreDuring": ["night-raid"],
+        "movement": "static",
+        "sites": 17
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 15
+      }
+    ],
+    "tags": ["Ground", "Fragile"],
+    "toughness": {
+      "of": 24,
+      "rank": 24,
+      "step": 1,
+      "steps": 5,
+      "tier": "fragile"
+    },
+    "weakPointMarked": false
+  },
+  {
+    "id": "arc_turbine",
+    "name": "ARC Turbine",
+    "maps": [
+      "the_spaceport",
+      "the_blue_gate",
+      "dam_battlegrounds",
+      "riven_tides",
+      "buried_city",
+      "pendola_pass"
+    ],
+    "drops": [
+      "turbine_compressor",
+      "advanced_arc_powercell",
+      "arc_coolant",
+      "arc_flex_rubber",
+      "arc_motion_core",
+      "arc_performance_steel",
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "launcher_ammo",
+      "medium_gun_parts",
+      "arc_alloy",
+      "arc_powercell"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/arc-turbine.webp",
+    "arctrackerSlug": "arc-turbine",
+    "attacks": [
+      {
+        "damage": 30,
+        "kind": "missiles"
+      }
+    ],
+    "nameTranslations": {
+      "de": "ARC-Turbine",
+      "en": "ARC Turbine",
+      "es": "Turbina ARC",
+      "fr": "Turbine ARC",
+      "it": "Turbina ARC",
+      "ja": "ARCタービン",
+      "ko": "아크 터빈",
+      "pl": "Turbina ARC",
+      "pt": "Turbina ARC",
+      "ru": "Турбина ARC",
+      "tr": "ARC Türbini"
+    },
+    "parts": ["core", "leg", "thruster", "flap", "spinner"],
+    "perception": {
+      "fieldOfViewDeg": 360,
+      "losesBeyondM": 85,
+      "spotsFromM": 75
+    },
+    "plating": ["medium", "heavy", "head", "body", "core"],
+    "related": [],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "movement": "patrol",
+        "sites": 12
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "patrol",
+        "sites": 11
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "patrol",
+        "sites": 11
+      },
+      {
+        "map": "riven_tides",
+        "movement": "patrol",
+        "sites": 9
+      },
+      {
+        "map": "buried_city",
+        "movement": "patrol",
+        "sites": 8
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 6
+      }
+    ],
+    "tags": ["Flying", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 3,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": false
   },
   {
     "id": "arc_turret",
-    "name": "TURRET",
+    "name": "Turret",
     "type": "Defense System",
     "threat": "Moderate",
     "description": "Small, unarmored turret providing close-quarters defense. Mounted on interior walls, it scans for movement and unleashes rapid fire when it spots Raiders.",
     "weakness": "Unarmored. Shooting it is enough.",
     "maps": [
-      "dam_battlegrounds",
+      "stella_montis",
       "the_spaceport",
-      "the_blue_gate",
       "buried_city",
-      "stella_montis_lower",
-      "stella_montis_upper"
+      "dam_battlegrounds",
+      "pendola_pass",
+      "the_blue_gate",
+      "riven_tides"
     ],
     "destroyXp": 100,
     "lootXp": 200,
-    "drops": ["arc_alloy", "light_ammo", "simple_gun_parts"],
-    "image": "https://cdn.arctracker.io/bots/arc_turret.png"
+    "drops": [
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "arc_alloy",
+      "simple_gun_parts",
+      "arc_powercell",
+      "light_ammo"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/turret.webp",
+    "arctrackerSlug": "turret",
+    "attacks": [
+      {
+        "damage": 2.5,
+        "kind": "gun"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Geschützturm",
+      "en": "Turret",
+      "es": "Torreta",
+      "fr": "Tourelle",
+      "it": "Torretta",
+      "ja": "タレット",
+      "ko": "포탑",
+      "pl": "Wieżyczka",
+      "pt": "Torreta",
+      "ru": "Турель",
+      "tr": "Taret"
+    },
+    "parts": ["head", "weapon"],
+    "perception": {
+      "fieldOfViewDeg": 56,
+      "losesBeyondM": 55,
+      "spotsFromM": 45
+    },
+    "related": ["arc_hydra", "arc_sentinel"],
+    "spawns": [
+      {
+        "map": "stella_montis",
+        "movement": "static",
+        "sites": 23
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["frigate"],
+        "movement": "static",
+        "sites": 23
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["ARC Frigate or Night Raid"],
+        "movement": "static",
+        "sites": 21
+      },
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["Night Raid or ARC Frigate"],
+        "movement": "static",
+        "sites": 19
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "static",
+        "sites": 16
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["ARC Frigate or Night Raid"],
+        "movement": "static",
+        "sites": 15
+      },
+      {
+        "map": "riven_tides",
+        "movement": "static",
+        "sites": 8
+      }
+    ],
+    "tags": ["Stationary", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 20,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": false
+  },
+  {
+    "id": "arc_vaporizer",
+    "name": "Vaporizer",
+    "maps": [
+      "the_spaceport",
+      "the_blue_gate",
+      "riven_tides",
+      "dam_battlegrounds",
+      "buried_city",
+      "stella_montis"
+    ],
+    "drops": [
+      "vaporizer_regulator",
+      "advanced_arc_powercell",
+      "arc_circuitry",
+      "arc_flex_rubber",
+      "energy_clip",
+      "heavy_gun_parts",
+      "arc_alloy",
+      "electrical_components",
+      "arc_powercell"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/vaporizer.webp",
+    "arctrackerSlug": "vaporizer",
+    "attacks": [
+      {
+        "damage": 2,
+        "kind": "laser"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Verdampfer",
+      "en": "Vaporizer",
+      "es": "Atomizador",
+      "fr": "Vaporisateur",
+      "it": "Vaporizzatore",
+      "ja": "ヴェイパライザー",
+      "ko": "베이퍼라이저",
+      "pl": "Spopielacz",
+      "pt": "Vaporizador",
+      "ru": "Испепелитель",
+      "tr": "Buharlaştırıcı"
+    },
+    "parts": ["weapon", "thruster", "flap", "hatch"],
+    "perception": {
+      "fieldOfViewDeg": 192,
+      "losesBeyondM": 200,
+      "spotsFromM": 150
+    },
+    "plating": ["light", "heavy"],
+    "related": [
+      "arc_wasp",
+      "arc_hornet",
+      "arc_surveyor",
+      "arc_firefly",
+      "arc_rocketeer"
+    ],
+    "spawns": [
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 86
+      },
+      {
+        "map": "the_blue_gate",
+        "moreDuring": ["Night Raid or Hurricane"],
+        "movement": "patrol",
+        "sites": 77
+      },
+      {
+        "map": "riven_tides",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 61
+      },
+      {
+        "map": "dam_battlegrounds",
+        "movement": "patrol",
+        "sites": 56
+      },
+      {
+        "map": "buried_city",
+        "moreDuring": ["night-raid"],
+        "movement": "patrol",
+        "sites": 26
+      },
+      {
+        "map": "stella_montis",
+        "movement": "patrol",
+        "sites": 1
+      }
+    ],
+    "tags": ["Flying", "Heavy"],
+    "toughness": {
+      "of": 24,
+      "rank": 7,
+      "step": 4,
+      "steps": 5,
+      "tier": "heavy"
+    },
+    "weakPointMarked": true
   },
   {
     "id": "arc_wasp",
-    "name": "WASP",
+    "name": "Wasp",
     "type": "Flying Drone",
     "threat": "Moderate",
     "description": "Flying, drone-like robots equipped with powerful machine guns. They operate in swarms, are fast, agile, and relentless. Their buzzing and screeching audio cues are your first warning.",
     "weakness": "Unarmored thrusters.",
     "maps": [
       "dam_battlegrounds",
+      "pendola_pass",
+      "riven_tides",
       "the_spaceport",
+      "buried_city",
       "the_blue_gate",
-      "buried_city"
+      "stella_montis"
     ],
     "destroyXp": 100,
     "lootXp": 200,
-    "drops": ["arc_alloy", "arc_powercell", "wasp_driver", "light_ammo"],
-    "image": "https://cdn.arctracker.io/bots/arc_wasp.png"
+    "drops": [
+      "arc_synthetic_resin",
+      "arc_thermo_lining",
+      "wasp_driver",
+      "arc_alloy",
+      "simple_gun_parts",
+      "arc_powercell",
+      "damaged_wasp_driver",
+      "light_ammo"
+    ],
+    "image": "https://cdn.arctracker.io/arcs/wasp.webp",
+    "arctrackerSlug": "wasp",
+    "attacks": [
+      {
+        "damage": 30,
+        "kind": "explosion"
+      },
+      {
+        "damage": 2.5,
+        "kind": "gun"
+      }
+    ],
+    "nameTranslations": {
+      "de": "Wespe",
+      "en": "Wasp",
+      "es": "Avispa",
+      "fr": "Guêpe",
+      "it": "Vespa",
+      "ja": "ワスプ",
+      "ko": "와스프",
+      "pl": "Osa",
+      "pt": "Vespa",
+      "ru": "Оса",
+      "tr": "Eşek Arısı"
+    },
+    "parts": ["head", "weapon", "thruster"],
+    "perception": {
+      "fieldOfViewDeg": 192,
+      "losesBeyondM": 75,
+      "spotsFromM": 65
+    },
+    "plating": ["light", "any"],
+    "related": [
+      "arc_snitch",
+      "arc_hornet",
+      "arc_firefly",
+      "arc_rocketeer",
+      "arc_vaporizer",
+      "arc_comet"
+    ],
+    "spawns": [
+      {
+        "map": "dam_battlegrounds",
+        "moreDuring": ["Hurricane or Night Raid"],
+        "movement": "patrol",
+        "sites": 2062
+      },
+      {
+        "map": "pendola_pass",
+        "movement": "patrol",
+        "sites": 1221
+      },
+      {
+        "map": "riven_tides",
+        "movement": "patrol",
+        "sites": 823
+      },
+      {
+        "map": "the_spaceport",
+        "moreDuring": ["hurricane"],
+        "movement": "patrol",
+        "sites": 658
+      },
+      {
+        "map": "buried_city",
+        "movement": "patrol",
+        "sites": 430
+      },
+      {
+        "map": "the_blue_gate",
+        "movement": "patrol",
+        "sites": 348
+      },
+      {
+        "map": "stella_montis",
+        "movement": "patrol",
+        "sites": 15
+      }
+    ],
+    "tags": ["Flying", "Light"],
+    "toughness": {
+      "of": 24,
+      "rank": 19,
+      "step": 2,
+      "steps": 5,
+      "tier": "light"
+    },
+    "weakPointMarked": true
   }
 ]

@@ -49,7 +49,7 @@ jobs:
                   base: ${{ matrix.base }}
                   title: "Sync data from arctracker.io (${{ matrix.base }})"
                   body: |
-                      Automated sync of items, quests, hideout, projects and map events from arctracker.io, including the rebuilt aggregate files.
+                      Automated sync of items, quests, hideout, projects, map events and ARC enemies (bots.json) from arctracker.io, including the rebuilt aggregate files.
 
                       - Triggered by: ${{ github.actor }}
                   commit-message: "chore: sync data from arctracker.io"
@@ -61,6 +61,7 @@ jobs:
                       hideout/
                       projects.json
                       map-events/map-events.json
+                      bots.json
                       items.json
                       quests.json
                       hideoutModules.json
