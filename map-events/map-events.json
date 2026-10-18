@@ -758,97 +758,89 @@
   "schedule": {
     "blue-gate": {
       "major": {
-        "1": "night-raid",
-        "2": "night-raid",
-        "6": "night-raid",
+        "0": "frigate",
+        "5": "frigate",
+        "8": "frigate",
         "11": "frigate",
         "13": "night-raid",
         "14": "frigate",
         "17": "hurricane",
         "18": "frigate",
-        "19": "locked-gate",
-        "21": "frigate",
-        "22": "frigate"
+        "19": "locked-gate"
       },
       "minor": {
-        "4": "harvester",
-        "8": "prospecting-probes",
+        "2": "husk-graveyard",
+        "4": "lush-blooms",
+        "7": "husk-graveyard",
         "16": "matriarch",
-        "20": "lush-blooms",
-        "23": "prospecting-probes"
+        "21": "lush-blooms",
+        "22": "harvester"
       }
     },
     "buried-city": {
       "major": {
         "2": "frigate",
-        "3": "night-raid",
-        "8": "frigate",
+        "5": "night-raid",
         "11": "night-raid",
         "14": "night-raid",
         "15": "hurricane",
         "17": "frigate",
-        "20": "frigate",
-        "23": "night-raid"
+        "21": "frigate"
       },
       "minor": {
-        "1": "bird-city",
-        "4": "bird-city",
-        "5": "prospecting-probes",
-        "6": "lush-blooms",
-        "7": "bird-city",
+        "1": "lush-blooms",
+        "3": "bird-city",
+        "6": "bird-city",
         "10": "bird-city",
         "13": "bird-city",
         "16": "bird-city",
         "19": "bird-city",
-        "21": "bird-city",
-        "22": "bird-city"
+        "23": "husk-graveyard"
       }
     },
     "dam-battleground": {
       "major": {
-        "7": "frigate",
+        "1": "frigate",
+        "3": "night-raid",
         "9": "night-raid",
         "10": "electromagnetic-storm",
         "13": "hurricane",
         "15": "frigate",
-        "20": "close-scrutiny",
-        "23": "frigate"
+        "20": "frigate",
+        "21": "electromagnetic-storm"
       },
       "minor": {
-        "2": "prospecting-probes",
-        "5": "matriarch",
+        "5": "husk-graveyard",
+        "8": "matriarch",
         "11": "prospecting-probes",
         "14": "matriarch",
-        "17": "lush-blooms"
+        "17": "lush-blooms",
+        "23": "matriarch"
       }
     },
     "pendola-pass": {
       "major": {
-        "0": "frigate",
+        "1": "night-raid",
         "3": "frigate",
-        "5": "frigate",
-        "7": "night-raid",
+        "6": "frigate",
         "9": "frigate",
         "12": "frigate",
-        "18": "night-raid"
+        "18": "night-raid",
+        "23": "frigate"
       },
       "minor": {
-        "0": "redirection",
-        "3": "redirection",
+        "2": "redirection",
+        "6": "redirection",
         "12": "redirection",
         "15": "redirection",
         "18": "redirection",
-        "21": "redirection",
-        "23": "redirection"
+        "22": "redirection"
       }
     },
     "riven-tides": {
       "major": {
-        "4": "night-raid",
         "12": "night-raid",
-        "16": "night-raid",
-        "21": "night-raid",
-        "22": "night-raid"
+        "16": "night-raid"
       },
       "minor": {
         "0": "beachcombing",
@@ -859,39 +851,42 @@
         "15": "beachcombing",
         "18": "beachcombing",
         "19": "prospecting-probes",
-        "20": "beachcombing"
+        "21": "beachcombing",
+        "22": "lush-blooms"
       }
     },
     "stella-montis": {
       "major": {
         "0": "night-raid",
+        "2": "night-raid",
         "4": "night-raid",
+        "6": "night-raid",
         "8": "night-raid",
         "10": "night-raid",
         "12": "night-raid",
-        "16": "night-raid"
+        "16": "night-raid",
+        "20": "night-raid",
+        "22": "night-raid"
       },
       "minor": {}
     },
     "the-spaceport": {
       "major": {
-        "1": "frigate",
         "4": "frigate",
-        "5": "night-raid",
-        "6": "frigate",
+        "7": "frigate",
         "10": "frigate",
         "13": "frigate",
         "16": "frigate",
         "19": "frigate",
-        "21": "night-raid",
-        "22": "night-raid"
+        "22": "frigate",
+        "23": "night-raid"
       },
       "minor": {
-        "0": "matriarch",
+        "1": "harvester",
         "2": "matriarch",
-        "3": "harvester",
-        "7": "harvester",
-        "8": "matriarch",
+        "5": "matriarch",
+        "7": "launch-tower-loot",
+        "8": "harvester",
         "9": "launch-tower-loot",
         "11": "launch-tower-loot",
         "12": "harvester",
@@ -899,9 +894,7 @@
         "15": "lush-blooms",
         "17": "prospecting-probes",
         "18": "matriarch",
-        "21": "matriarch",
-        "22": "matriarch",
-        "23": "lush-blooms"
+        "20": "matriarch"
       }
     }
   }
