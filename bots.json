@@ -39,11 +39,14 @@
       }
     ],
     "nameTranslations": {
+      "de": "Bastion",
       "en": "Bastion",
       "es": "Bastión",
+      "fr": "Bastion",
       "it": "Bastione",
       "ja": "バスティオン",
       "ko": "바스티온",
+      "pl": "Bastion",
       "pt": "Baluarte",
       "ru": "Бастион",
       "tr": "Burç"
@@ -160,9 +163,11 @@
       "de": "Kanonier",
       "en": "Bombardier",
       "es": "Bombardero",
+      "fr": "Bombardier",
       "it": "Bombardiere",
       "ja": "ボンバルディア",
       "ko": "봄바디어",
+      "pl": "Bombardier",
       "pt": "Bombardeiro",
       "ru": "Бомбардир",
       "tr": "Bombardımancı"
@@ -190,7 +195,7 @@
       },
       {
         "map": "the_spaceport",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 8
       },
@@ -245,9 +250,11 @@
       }
     ],
     "nameTranslations": {
+      "de": "Bully",
       "en": "Bully",
       "es": "Matón",
       "fr": "Brute",
+      "it": "Bully",
       "ja": "ブリー",
       "ko": "불리",
       "pl": "Zbir",
@@ -547,13 +554,13 @@
     "spawns": [
       {
         "map": "the_spaceport",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 5522
       },
       {
         "map": "the_blue_gate",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 4624
       },
@@ -565,7 +572,7 @@
       },
       {
         "map": "buried_city",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 2214
       },
@@ -667,7 +674,7 @@
     "spawns": [
       {
         "map": "the_spaceport",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 6232
       },
@@ -679,13 +686,13 @@
       },
       {
         "map": "the_blue_gate",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 2745
       },
       {
         "map": "buried_city",
-        "moreDuring": ["Night Raid or Hurricane"],
+        "moreDuring": ["night-raid", "hurricane"],
         "movement": "patrol",
         "sites": 2022
       },
@@ -737,11 +744,14 @@
       }
     ],
     "nameTranslations": {
+      "de": "Hydra",
       "en": "Hydra",
       "es": "Hidra",
       "fr": "Hydre",
+      "it": "Hydra",
       "ja": "ハイドラ",
       "ko": "히드라",
+      "pl": "Hydra",
       "pt": "Hidra",
       "ru": "Гидра",
       "tr": "Hidra"
@@ -832,6 +842,7 @@
       "en": "Leaper",
       "es": "Saltador",
       "fr": "Bondisseur",
+      "it": "Leaper",
       "ja": "リーパー",
       "ko": "리퍼",
       "pl": "Skoczek",
@@ -863,7 +874,7 @@
       },
       {
         "map": "dam_battlegrounds",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 12
       },
@@ -1028,8 +1039,11 @@
     "arctrackerSlug": "pop",
     "attacks": [],
     "nameTranslations": {
+      "de": "Pop",
       "en": "Pop",
       "es": "Tronador",
+      "fr": "Pop",
+      "it": "Pop",
       "ja": "ポップ",
       "ko": "팝",
       "pl": "Trzaskacz",
@@ -1147,7 +1161,7 @@
     "spawns": [
       {
         "map": "dam_battlegrounds",
-        "moreDuring": ["Night Raid or Hurricane"],
+        "moreDuring": ["night-raid", "hurricane"],
         "movement": "patrol",
         "sites": 22
       },
@@ -1159,7 +1173,7 @@
       },
       {
         "map": "the_blue_gate",
-        "moreDuring": ["Night Raid or Hurricane"],
+        "moreDuring": ["night-raid", "hurricane"],
         "movement": "patrol",
         "sites": 12
       },
@@ -1255,7 +1269,7 @@
       },
       {
         "map": "the_blue_gate",
-        "moreDuring": ["ARC Frigate or Night Raid"],
+        "moreDuring": ["frigate", "night-raid"],
         "movement": "static",
         "sites": 13
       },
@@ -1415,9 +1429,11 @@
       }
     ],
     "nameTranslations": {
+      "de": "Skulker",
       "en": "Skulker",
       "es": "Merodeador",
       "fr": "Rôdeur",
+      "it": "Skulker",
       "ja": "スカルカー",
       "ko": "스컬커",
       "pl": "Zerkacz",
@@ -1502,7 +1518,7 @@
     "spawns": [
       {
         "map": "dam_battlegrounds",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 14
       },
@@ -1577,6 +1593,7 @@
       "en": "Spotter",
       "es": "Vigía",
       "fr": "Observateur",
+      "it": "Spotter",
       "ja": "スポッター",
       "ko": "스포터",
       "pl": "Czuwacz",
@@ -2075,13 +2092,13 @@
       },
       {
         "map": "buried_city",
-        "moreDuring": ["ARC Frigate or Night Raid"],
+        "moreDuring": ["frigate", "night-raid"],
         "movement": "static",
         "sites": 21
       },
       {
         "map": "dam_battlegrounds",
-        "moreDuring": ["Night Raid or ARC Frigate"],
+        "moreDuring": ["night-raid", "frigate"],
         "movement": "static",
         "sites": 19
       },
@@ -2092,7 +2109,7 @@
       },
       {
         "map": "the_blue_gate",
-        "moreDuring": ["ARC Frigate or Night Raid"],
+        "moreDuring": ["frigate", "night-raid"],
         "movement": "static",
         "sites": 15
       },
@@ -2178,7 +2195,7 @@
       },
       {
         "map": "the_blue_gate",
-        "moreDuring": ["Night Raid or Hurricane"],
+        "moreDuring": ["night-raid", "hurricane"],
         "movement": "patrol",
         "sites": 77
       },
@@ -2286,7 +2303,7 @@
     "spawns": [
       {
         "map": "dam_battlegrounds",
-        "moreDuring": ["Hurricane or Night Raid"],
+        "moreDuring": ["hurricane", "night-raid"],
         "movement": "patrol",
         "sites": 2062
       },
