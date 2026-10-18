@@ -21,6 +21,8 @@ const BASE_URL = "https://arctracker.io";
 const USER_AGENT =
   "arcraiders-data-sync (+https://github.com/fgrzesiak/arcraiders-data)";
 const REQUEST_DELAY_MS = 400;
+/** Share of English-identical names above which a locale counts as untranslated. */
+const UNTRANSLATED_RATIO = 0.8;
 
 /** Locales of the consuming app (en is scraped as the base). */
 const LOCALES = [
@@ -264,7 +266,7 @@ function parseList(html, prefix) {
 
 function parseEventIds(text, eventIdsByName) {
   return text
-    .split(/,| and | & /)
+    .split(/,| and | or | & /)
     .map((s) => s.trim())
     .filter(Boolean)
     .map((name) => eventIdsByName.get(name.toLowerCase()) ?? name);
@@ -399,10 +401,22 @@ async function run() {
       await fetchHtml(`${BASE_URL}/${lang}/arc`),
       `/${lang}`
     );
-    for (const [slug, card] of Object.entries(list)) {
-      // Identical to English = not translated upstream (e.g. uk, sr); skip so
-      // the app can fall back to its own translation instead of a transliteration.
-      if (card.name === enList[slug]?.name) continue;
+    const entries = Object.entries(list);
+    // A locale where (almost) every name equals English is not translated
+    // upstream (currently uk, sr): skip it so the app falls back to its own
+    // translation instead of an English name or a transliteration. In
+    // translated locales an identical name is correct ("Bully" in German).
+    const identical = entries.filter(
+      ([slug, card]) => card.name === enList[slug]?.name
+    ).length;
+    if (
+      entries.length === 0 ||
+      identical / entries.length > UNTRANSLATED_RATIO
+    ) {
+      console.log(`[arcs] ${lang}: names not translated upstream, skipped`);
+      continue;
+    }
+    for (const [slug, card] of entries) {
       (names[slug] ??= {})[lang] = cleanName(card.name, lang);
     }
   }
