@@ -1,0 +1,88 @@
+name: Changelog
+
+# Records what changed in the game data whenever mainv2 (read by the app in
+# production) receives new data, and opens an issue linking the share kit so
+# the update can be posted right away.
+on:
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "Compare from this ref"
+        required: true
+      to:
+        description: "Compare to this ref"
+        default: "HEAD"
+  push:
+    branches: [mainv2]
+    paths:
+      - "items/**"
+      - "quests/**"
+      - "hideout/**"
+      - "projects.json"
+      - "maps.json"
+
+concurrency:
+  group: changelog
+  cancel-in-progress: false
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts || npm install --ignore-scripts
+
+      - name: Build changelog entry
+        id: build
+        env:
+          FROM: ${{ inputs.from || github.event.before }}
+          TO: ${{ inputs.to || github.sha }}
+        run: |
+          if [ -z "$FROM" ] || [ "$FROM" = "0000000000000000000000000000000000000000" ]; then
+            echo "No previous ref to compare against"
+            exit 0
+          fi
+          node scripts/build-changelog.mjs --from "$FROM" --to "$TO"
+          npx prettier --write changelog
+
+      - name: Commit and push
+        if: steps.build.outputs.id
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add changelog
+          git commit -m "chore: changelog ${{ steps.build.outputs.id }} (CI)"
+          # The aggregate workflow pushes to the same branch at the same time.
+          for attempt in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - name: Open share kit issue
+        if: steps.build.outputs.id
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ID: ${{ steps.build.outputs.id }}
+        run: |
+          gh issue create \
+            --title "Neues Update $ID – Share-Kit bereit" \
+            --body "Der Changelog für **$ID** ist erstellt.
+
+          - Update-Seite: https://www.arcscrappy.com/en/updates/$ID
+          - Share-Kit (Bilder + Post-Texte): https://www.arcscrappy.com/en/admin/share/$ID
+
+          Die App lädt neue Daten mit kurzer Verzögerung (Cache), die Seiten können also ein paar Minuten brauchen."

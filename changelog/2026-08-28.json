@@ -1,0 +1,84 @@
+{
+  "id": "2026-08-28",
+  "date": "2026-08-28",
+  "from": "7116346774288cadc243a9f84ed906888ac804aa",
+  "to": "8bb6e5a91bb02e60e9d414ac07545d380f20800e",
+  "items": {
+    "added": [
+      "glitched_arc_circuitry",
+      "glitched_arc_light_ring",
+      "glitched_arc_phased_array",
+      "glitched_arc_power_converter",
+      "glitched_arc_transmitter"
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "colorful_shoes_red",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 3
+          }
+        ]
+      },
+      {
+        "id": "equatorial_sundial",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 3
+          }
+        ]
+      },
+      {
+        "id": "sextant",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 5
+          }
+        ]
+      },
+      {
+        "id": "train_model",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 10
+          }
+        ]
+      },
+      {
+        "id": "vintage_steering_wheel",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 5
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "hideout": {
+    "changed": []
+  },
+  "projects": {
+    "added": ["phantom_targets_project", "phantom_targets_part_2_project"],
+    "removed": [],
+    "changed": []
+  },
+  "maps": {
+    "added": []
+  }
+}

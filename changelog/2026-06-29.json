@@ -1,0 +1,78 @@
+{
+  "id": "2026-06-29",
+  "date": "2026-06-29",
+  "from": "96a5d1ca3fb025dfbc584f20814f35e368ac17bc",
+  "to": "8b638f110d9101b6e160413f1beb0fea2c6ad1c7",
+  "items": {
+    "added": [
+      "colorful_shoes_green",
+      "colorful_shoes_red",
+      "colorful_shoes_silver",
+      "elephant_obelisk",
+      "equatorial_sundial",
+      "sextant",
+      "tellurion",
+      "train_model",
+      "vintage_steering_wheel"
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "sirena_dorata_ship_model",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 3
+          }
+        ]
+      },
+      {
+        "id": "twilight_compass_ship_model",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 5
+          }
+        ]
+      },
+      {
+        "id": "velocity_ship_model",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 3
+          }
+        ]
+      },
+      {
+        "id": "wind_sprite_ship_model",
+        "changes": [
+          {
+            "field": "stackSize",
+            "from": 1,
+            "to": 10
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "hideout": {
+    "changed": []
+  },
+  "projects": {
+    "added": ["converging_paths_project"],
+    "removed": [],
+    "changed": []
+  },
+  "maps": {
+    "added": []
+  }
+}

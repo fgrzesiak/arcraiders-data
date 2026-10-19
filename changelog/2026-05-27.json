@@ -1,0 +1,233 @@
+{
+  "id": "2026-05-27",
+  "date": "2026-05-27",
+  "from": "3649432f2570ab172d98088229ea1200fbb3135e",
+  "to": "1d6663cf4d0b9c6305450288868a7b574dbdcd97",
+  "items": {
+    "added": [
+      "expired_security_code",
+      "extended_barrel_i",
+      "extended_barrel_ii",
+      "extended_barrel_ii_blueprint",
+      "extended_barrel_iii",
+      "extended_barrel_iii_blueprint",
+      "hidden_bunker_key",
+      "marano_market_business_card",
+      "raider_flag",
+      "rascal_blueprint",
+      "rascal_i",
+      "rascal_ii",
+      "rascal_iii",
+      "rascal_iv",
+      "riven_tides_classified_records_keycard",
+      "riven_tides_crane_house_keycard",
+      "riven_tides_hotel_keycard_no_102",
+      "riven_tides_hotel_keycard_no_113",
+      "riven_tides_hotel_keycard_no_205",
+      "riven_tides_hotel_keycard_no_208",
+      "riven_tides_hotel_keycard_no_311",
+      "riven_tides_hotel_keycard_no_404",
+      "riven_tides_secure_storage_keycard",
+      "seed_vault_box_key"
+    ],
+    "removed": [
+      {
+        "id": "dam_utility_key",
+        "name": {
+          "da": "Dæmningens forsyningsnøgle",
+          "de": "Damm-Versorgungsschlüssel",
+          "en": "Dam Utility Key",
+          "es": "Llave de servicios de la presa",
+          "fr": "Clé utilitaire du barrage",
+          "he": "מפתח חדר שירות בסכר",
+          "hr": "Ključ pomoćnih prostorija brane",
+          "it": "Chiave di servizio della diga",
+          "ja": "ダム施設の鍵",
+          "ko-KR": "댐 시설 열쇠",
+          "no": "Dammens verktøynøkkel",
+          "pl": "Klucz użytkowy zapory",
+          "pt": "Chave de utilidades da represa",
+          "pt-BR": "Chave de Serviços da Represa",
+          "ru": "Ключ от подсобных помещений дамбы",
+          "sr": "Ključ pomoćnih prostorija brane",
+          "tr": "Baraj Tesis Anahtarı",
+          "uk": "Ключ від підсобних приміщень дамби",
+          "zh-CN": "大坝设施钥匙",
+          "zh-TW": "水壩設施鑰匙"
+        }
+      },
+      {
+        "id": "extended_barrel",
+        "name": {
+          "da": "Forlænget løb",
+          "de": "Verlängerter Lauf",
+          "en": "Extended Barrel",
+          "es": "Cañón extendido",
+          "fr": "Canon Allongé",
+          "he": "קנה מוארך",
+          "hr": "Produžena cijev",
+          "it": "Canna estesa",
+          "ja": "拡張バレル",
+          "ko-KR": "확장형 총열",
+          "no": "Forlenget løp",
+          "pl": "Wydłużona lufa",
+          "pt": "Cano estendido",
+          "pt-BR": "Cano Estendido",
+          "ru": "Удлиненный ствол",
+          "sr": "Produžena cev",
+          "tr": "Uzatılmış Namlu",
+          "uk": "Подовжений ствол",
+          "zh-CN": "加长枪管",
+          "zh-TW": "加長槍管"
+        }
+      },
+      {
+        "id": "extended_barrel_blueprint",
+        "name": {
+          "da": "Forlaenget lob-tegning",
+          "de": "Bauplan: Verlangerter Lauf",
+          "en": "Extended Barrel Blueprint",
+          "es": "Plano de Canon extendido",
+          "fr": "Schema Canon Allonge",
+          "he": "שרטוט לקנה מוארך",
+          "hr": "Produzena cijev Nacrt",
+          "it": "Progetto Canna estesa",
+          "ja": "拡張バレル 設計図",
+          "ko-KR": "확장형 총열 설계도",
+          "no": "Forlenget lop-tegning",
+          "pl": "Projekt Wydluzona lufa",
+          "pt": "Projeto de Cano estendido",
+          "pt-BR": "Esquema de Cano Estendido",
+          "ru": "Чертеж — Удлиненный ствол",
+          "sr": "Produzena cev Nacrt",
+          "tr": "Uzatilmis Namlu Taslağı",
+          "uk": "Креслення Подовжений ствол",
+          "zh-CN": "加长枪管 蓝图",
+          "zh-TW": "加長槍管 藍圖"
+        }
+      }
+    ],
+    "changed": [
+      {
+        "id": "canto_i",
+        "changes": [
+          {
+            "field": "rarity",
+            "from": "Legendary",
+            "to": "Rare"
+          }
+        ]
+      },
+      {
+        "id": "canto_ii",
+        "changes": [
+          {
+            "field": "rarity",
+            "from": "Legendary",
+            "to": "Rare"
+          }
+        ]
+      },
+      {
+        "id": "canto_iii",
+        "changes": [
+          {
+            "field": "rarity",
+            "from": "Legendary",
+            "to": "Rare"
+          }
+        ]
+      },
+      {
+        "id": "canto_iv",
+        "changes": [
+          {
+            "field": "rarity",
+            "from": "Legendary",
+            "to": "Rare"
+          }
+        ]
+      },
+      {
+        "id": "dam_controlled_access_zone_key",
+        "changes": [
+          {
+            "field": "rarity",
+            "from": "Epic",
+            "to": "Rare"
+          }
+        ]
+      },
+      {
+        "id": "free_loadout_augment",
+        "changes": [
+          {
+            "field": "value",
+            "from": 100,
+            "to": 660
+          }
+        ]
+      },
+      {
+        "id": "photoelectric_cloak",
+        "changes": [
+          {
+            "field": "weightKg",
+            "from": 1,
+            "to": 3
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "battening_down",
+        "slug": "battening-down",
+        "changes": [
+          {
+            "field": "map",
+            "from": ["riven_tide"],
+            "to": ["riven_tides"]
+          }
+        ]
+      },
+      {
+        "id": "safe_harbor",
+        "slug": "safe-harbor",
+        "changes": [
+          {
+            "field": "map",
+            "from": ["riven_tide"],
+            "to": ["riven_tides"]
+          }
+        ]
+      },
+      {
+        "id": "shoring_up_defenses",
+        "slug": "shoring-up-defenses",
+        "changes": [
+          {
+            "field": "map",
+            "from": ["riven_tide"],
+            "to": ["riven_tides"]
+          }
+        ]
+      }
+    ]
+  },
+  "hideout": {
+    "changed": []
+  },
+  "projects": {
+    "added": [],
+    "removed": [],
+    "changed": ["avian_alarm_project", "expedition_project_s4"]
+  },
+  "maps": {
+    "added": ["riven_tides"]
+  }
+}

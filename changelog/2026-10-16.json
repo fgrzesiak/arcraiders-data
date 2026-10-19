@@ -1,0 +1,212 @@
+{
+  "id": "2026-10-16",
+  "date": "2026-10-16",
+  "from": "bd60ce6a9b84ed3691bc3dda7a640ee263b010b2",
+  "to": "307b2840d955aba786bdfc8a5ead09a8f0a069be",
+  "items": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "aphelion",
+        "changes": [
+          {
+            "field": "type",
+            "from": "Special",
+            "to": "Battle Rifle"
+          }
+        ]
+      },
+      {
+        "id": "banjo",
+        "changes": [
+          {
+            "field": "value",
+            "from": 2000,
+            "to": 1000
+          },
+          {
+            "field": "recyclesInto",
+            "from": {
+              "steel_cable": 3
+            },
+            "to": {
+              "steel_cable": 1
+            }
+          },
+          {
+            "field": "salvagesInto",
+            "from": {
+              "planks": 6
+            },
+            "to": {
+              "plastic_parts": 6
+            }
+          },
+          {
+            "field": "recipe",
+            "from": {
+              "planks": 6,
+              "steel_cable": 3
+            },
+            "to": {
+              "plastic_parts": 6,
+              "steel_cable": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "battered_faculty_table",
+        "changes": [
+          {
+            "field": "recyclesInto",
+            "from": {
+              "sheetmetal": 20
+            },
+            "to": {
+              "sheetmetal": 15
+            }
+          }
+        ]
+      },
+      {
+        "id": "battered_lab_cabinet_wide",
+        "changes": [
+          {
+            "field": "recyclesInto",
+            "from": {
+              "sheetmetal": 25
+            },
+            "to": {
+              "sheetmetal": 20
+            }
+          }
+        ]
+      },
+      {
+        "id": "equalizer",
+        "changes": [
+          {
+            "field": "type",
+            "from": "LMG",
+            "to": "Special"
+          }
+        ]
+      },
+      {
+        "id": "glitched_arc_circuitry",
+        "changes": [
+          {
+            "field": "phasedOut",
+            "from": false,
+            "to": true
+          }
+        ]
+      },
+      {
+        "id": "glitched_arc_light_ring",
+        "changes": [
+          {
+            "field": "phasedOut",
+            "from": false,
+            "to": true
+          }
+        ]
+      },
+      {
+        "id": "glitched_arc_phased_array",
+        "changes": [
+          {
+            "field": "phasedOut",
+            "from": false,
+            "to": true
+          }
+        ]
+      },
+      {
+        "id": "glitched_arc_power_converter",
+        "changes": [
+          {
+            "field": "phasedOut",
+            "from": false,
+            "to": true
+          }
+        ]
+      },
+      {
+        "id": "glitched_arc_transmitter",
+        "changes": [
+          {
+            "field": "phasedOut",
+            "from": false,
+            "to": true
+          }
+        ]
+      },
+      {
+        "id": "sturdy_bureau_sofa",
+        "changes": [
+          {
+            "field": "recyclesInto",
+            "from": {
+              "sheetmetal": 12
+            },
+            "to": {
+              "sheetmetal": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "sturdy_lab_cabinet_wide",
+        "changes": [
+          {
+            "field": "recyclesInto",
+            "from": {
+              "sheetmetal": 20
+            },
+            "to": {
+              "sheetmetal": 15
+            }
+          }
+        ]
+      },
+      {
+        "id": "weather_station_chair",
+        "changes": [
+          {
+            "field": "recyclesInto",
+            "from": {
+              "sheetmetal": 8
+            },
+            "to": {
+              "sheetmetal": 6
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "added": [
+      {
+        "id": "divided",
+        "slug": "divided"
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  "hideout": {
+    "changed": []
+  },
+  "projects": {
+    "added": [],
+    "removed": [],
+    "changed": ["sheltered_retreat_project"]
+  },
+  "maps": {
+    "added": []
+  }
+}
