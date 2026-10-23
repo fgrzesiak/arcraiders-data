@@ -1,0 +1,59 @@
+name: Sync map events
+
+# Map events change almost daily and the app reads them from the live API
+# anyway, so they are committed directly instead of opening a pull request.
+on:
+    schedule:
+        - cron: "0 5 * * *"
+    workflow_dispatch:
+        inputs:
+            base-branch:
+                description: "Only sync this branch (empty = main and mainv2)"
+                type: string
+                default: ""
+
+concurrency:
+    group: sync-map-events
+    cancel-in-progress: false
+
+jobs:
+    sync:
+        runs-on: ubuntu-latest
+        strategy:
+            fail-fast: false
+            matrix:
+                base: ${{ fromJSON(inputs.base-branch && format('["{0}"]', inputs.base-branch) || '["main", "mainv2"]') }}
+        permissions:
+            contents: write
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  ref: ${{ matrix.base }}
+
+            - name: Install Bun
+              uses: oven-sh/setup-bun@v1
+              with:
+                  bun-version: "1.1.24"
+
+            - name: Install dependencies
+              run: bun install --frozen-lockfile
+
+            - name: Sync map events
+              run: bun run map-events:update
+
+            - name: Commit and push if changed
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add map-events/map-events.json
+                  if git diff --cached --quiet; then
+                      echo "No changes to commit"
+                      exit 0
+                  fi
+                  git commit -m "chore: sync map events from arctracker.io"
+                  for attempt in 1 2 3; do
+                      git pull --rebase && git push && exit 0
+                      sleep 5
+                  done
+                  exit 1
