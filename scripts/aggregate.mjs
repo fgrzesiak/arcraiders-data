@@ -3,13 +3,14 @@
 // Intended for the arcraiders-data fork repo.
 // - Generates per-directory: items/all.json, quests/all.json, hideout/all.json
 // - Generates legacy root files: items.json (with { version, items }), quests.json, hideoutModules.json
-// Version is sourced from env.GITHUB_SHA if available.
+// Version is a hash of the aggregated content, so it only changes when the data
+// does (the app uses it as a cache buster for the chunk files).
 
+import { createHash } from "node:crypto";
 import { readdir, readFile, writeFile, stat, rm } from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const VERSION = process.env.GITHUB_SHA || null;
 // Count-based chunking configuration
 const MAX_ITEMS_PER_FILE = Number.parseInt(
   process.env.AGGREGATE_MAX_ITEMS_PER_FILE || "100",
@@ -68,6 +69,13 @@ async function readJsonDir(dir) {
   return out;
 }
 
+function contentVersion(values) {
+  return createHash("sha256")
+    .update(JSON.stringify(values))
+    .digest("hex")
+    .slice(0, 16);
+}
+
 async function writeJson(file, value) {
   const json = JSON.stringify(value, null, 2) + "\n";
   await writeFile(path.join(ROOT, file), json, "utf8");
@@ -103,7 +111,7 @@ async function cleanAllFiles(dir) {
  *  - Last file must have >= MIN_ITEMS_PER_FILE (default 10), otherwise leftover is merged into previous file
  * Produces all_1.json, all_2.json, ... and handles an all.json helper.
  * - If only one chunk: write all.json as the array (backward compatible)
- * - If multiple chunks: write all.json as a small manifest { chunks, count, policy, version? }
+ * - If multiple chunks: write all.json as a small manifest { chunks, count, policy, version }
  * Returns list of chunk file names written.
  */
 async function writeChunkedAll(dir, values) {
@@ -170,7 +178,7 @@ async function writeChunkedAll(dir, values) {
         maxItemsPerFile: MAX_ITEMS_PER_FILE,
         minItemsPerFile: MIN_ITEMS_PER_FILE,
       },
-      ...(VERSION ? { version: VERSION } : {}),
+      version: contentVersion(values),
     };
     await writeJson(path.join(dir, "all.json"), manifest);
   }
@@ -199,8 +207,7 @@ async function aggregate() {
 
   // Legacy root files
   if (items.length > 0) {
-    const legacy = VERSION ? { version: VERSION, items } : { items };
-    await writeJson("items.json", legacy);
+    await writeJson("items.json", { version: contentVersion(items), items });
   }
   if (quests.length > 0) await writeJson("quests.json", quests);
   if (hideout.length > 0) await writeJson("hideoutModules.json", hideout);

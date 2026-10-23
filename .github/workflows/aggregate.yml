@@ -35,8 +35,6 @@ jobs:
 
       - name: Aggregate directories
         run: node scripts/aggregate.mjs
-        env:
-          GITHUB_SHA: ${{ github.sha }}
 
       - name: Commit and push if changed
         run: |
