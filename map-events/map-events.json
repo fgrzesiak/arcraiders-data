@@ -758,141 +758,142 @@
   "schedule": {
     "blue-gate": {
       "major": {
-        "3": "frigate",
-        "5": "night-raid",
-        "7": "night-raid",
-        "9": "night-raid",
-        "10": "close-scrutiny",
-        "12": "locked-gate",
-        "16": "frigate",
-        "18": "close-scrutiny",
-        "19": "frigate",
-        "20": "night-raid"
+        "4": "frigate",
+        "6": "night-raid",
+        "8": "night-raid",
+        "10": "frigate",
+        "11": "hurricane",
+        "15": "hurricane",
+        "17": "frigate",
+        "19": "hurricane",
+        "20": "frigate",
+        "21": "night-raid",
+        "22": "night-raid"
       },
       "minor": {
-        "2": "uncovered-caches",
-        "12": "uncovered-caches",
-        "13": "harvester",
-        "21": "harvester",
-        "22": "harvester",
+        "0": "harvester",
+        "3": "uncovered-caches",
+        "13": "uncovered-caches",
+        "14": "harvester",
         "23": "harvester"
       }
     },
     "buried-city": {
       "major": {
-        "1": "night-raid",
-        "2": "frigate",
-        "12": "frigate",
-        "15": "frigate",
-        "16": "close-scrutiny",
-        "18": "night-raid"
+        "2": "night-raid",
+        "3": "frigate",
+        "13": "frigate",
+        "16": "frigate",
+        "17": "cold-snap",
+        "19": "night-raid"
       },
       "minor": {
-        "0": "bird-city",
-        "3": "bird-city",
-        "6": "bird-city",
-        "9": "bird-city",
-        "10": "uncovered-caches",
-        "11": "bird-city",
-        "14": "bird-city",
-        "17": "bird-city",
-        "20": "bird-city",
-        "23": "husk-graveyard"
+        "0": "husk-graveyard",
+        "1": "bird-city",
+        "4": "bird-city",
+        "7": "bird-city",
+        "10": "husk-graveyard",
+        "11": "uncovered-caches",
+        "12": "bird-city",
+        "15": "bird-city",
+        "18": "bird-city",
+        "21": "bird-city",
+        "22": "bird-city"
       }
     },
     "dam-battleground": {
       "major": {
-        "1": "frigate",
-        "3": "night-raid",
-        "5": "frigate",
-        "8": "frigate",
-        "10": "frigate",
-        "13": "frigate",
-        "14": "electromagnetic-storm",
-        "17": "frigate",
-        "20": "close-scrutiny"
+        "2": "frigate",
+        "4": "night-raid",
+        "6": "frigate",
+        "9": "frigate",
+        "11": "frigate",
+        "14": "frigate",
+        "18": "frigate",
+        "21": "electromagnetic-storm"
       },
       "minor": {
-        "7": "harvester",
-        "12": "matriarch",
-        "15": "harvester",
-        "16": "matriarch",
-        "19": "harvester",
-        "21": "uncovered-caches",
-        "22": "uncovered-caches",
+        "0": "uncovered-caches",
+        "8": "harvester",
+        "13": "matriarch",
+        "16": "harvester",
+        "17": "matriarch",
+        "20": "harvester",
         "23": "uncovered-caches"
       }
     },
     "pendola-pass": {
       "major": {
-        "0": "frigate",
-        "4": "frigate",
-        "7": "frigate",
-        "18": "frigate",
-        "21": "frigate",
-        "22": "frigate"
+        "1": "frigate",
+        "5": "frigate",
+        "8": "frigate",
+        "19": "frigate",
+        "23": "frigate"
       },
       "minor": {
-        "3": "redirection",
-        "7": "redirection",
-        "13": "redirection",
-        "17": "redirection",
-        "21": "redirection"
+        "4": "redirection",
+        "8": "redirection",
+        "10": "redirection",
+        "14": "redirection",
+        "18": "redirection",
+        "22": "redirection"
       }
     },
     "riven-tides": {
       "major": {},
       "minor": {
-        "0": "beachcombing",
-        "3": "beachcombing",
-        "4": "uncovered-caches",
-        "6": "beachcombing",
-        "9": "beachcombing",
-        "11": "beachcombing",
-        "14": "beachcombing",
-        "17": "beachcombing",
-        "18": "uncovered-caches",
-        "20": "beachcombing"
+        "1": "beachcombing",
+        "4": "beachcombing",
+        "5": "uncovered-caches",
+        "7": "beachcombing",
+        "12": "beachcombing",
+        "15": "beachcombing",
+        "18": "beachcombing",
+        "19": "uncovered-caches",
+        "21": "beachcombing",
+        "22": "beachcombing"
       }
     },
     "stella-montis": {
       "major": {
-        "0": "night-raid",
-        "2": "night-raid",
-        "4": "night-raid",
-        "6": "night-raid",
-        "8": "night-raid",
-        "11": "night-raid",
-        "13": "night-raid",
-        "15": "night-raid",
-        "17": "night-raid",
-        "19": "night-raid",
-        "21": "night-raid",
-        "22": "night-raid"
+        "1": "night-raid",
+        "3": "night-raid",
+        "5": "night-raid",
+        "7": "night-raid",
+        "9": "night-raid",
+        "10": "night-raid",
+        "12": "night-raid",
+        "14": "night-raid",
+        "16": "night-raid",
+        "18": "night-raid",
+        "20": "night-raid",
+        "23": "night-raid"
       },
       "minor": {}
     },
     "the-spaceport": {
       "major": {
-        "6": "frigate",
-        "9": "frigate",
-        "11": "frigate",
-        "14": "frigate",
-        "20": "frigate",
-        "23": "frigate"
+        "0": "frigate",
+        "7": "frigate",
+        "12": "frigate",
+        "13": "close-scrutiny",
+        "15": "frigate",
+        "21": "frigate",
+        "22": "frigate"
       },
       "minor": {
-        "1": "launch-tower-loot",
-        "2": "harvester",
-        "4": "launch-tower-loot",
-        "5": "harvester",
-        "7": "uncovered-caches",
-        "8": "husk-graveyard",
-        "10": "matriarch",
-        "13": "husk-graveyard",
-        "15": "husk-graveyard",
-        "16": "uncovered-caches",
-        "18": "matriarch"
+        "2": "launch-tower-loot",
+        "3": "harvester",
+        "5": "launch-tower-loot",
+        "6": "harvester",
+        "8": "uncovered-caches",
+        "9": "husk-graveyard",
+        "10": "harvester",
+        "11": "matriarch",
+        "14": "husk-graveyard",
+        "16": "husk-graveyard",
+        "17": "uncovered-caches",
+        "19": "matriarch"
       }
     }
   }
