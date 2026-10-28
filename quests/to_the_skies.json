@@ -506,25 +506,25 @@
     },
     {
       "da": "Søg efter gondolprototypen på toppen af det Tørre Flodleje",
-      "de": "Suche oben auf dem ausgetrockneten Flussbett nach dem Gondel-Prototypen.",
+      "de": "Suche am ausgetrockneten Flussbett nach dem Gondel-Prototypen.",
       "en": "Search for the Gondola Prototype at the top of the Dried Riverbed",
       "es": "Busca el prototipo de telecabina en lo alto del lecho del río seco",
-      "fr": "Chercher le prototype de télécabine au sommet de la Rivière asséchée",
+      "fr": "Chercher le prototype de télécabine au sommet du Lit de rivière asséché",
       "he": "מצא את אב-הטיפוס של הגונדולה בראש אפיק הנהר היבש",
       "hr": "Potraži Prototip gondole na vrhu Suhog riječnog korita",
-      "it": "Cerca il prototipo di Gondola in cima al fiume prosciugato",
-      "ja": "枯れ川の上流にあるゴンドラの試作機を探す",
-      "ko-KR": "메마른 강 위쪽에서 곤돌라 시제품 찾기",
+      "it": "Cerca il prototipo di Gondola in cima al letto del fiume prosciugato",
+      "ja": "乾いた川底の上流で、ゴンドラの試作機を探す",
+      "ko-KR": "메마른 강바닥 위쪽에서 곤돌라 시제품 찾기",
       "no": "Finn gondolprototypen på toppen av det Tørre elveleiet",
       "pl": "Poszukaj prototypu gondoli na szczycie wyschniętej rzeki",
       "pt": "Procure pelo Protótipo de Gôndola no topo do Leito do Rio Seco",
-      "pt-BR": "Procure pelo Protótipo de Gôndola no topo do Rio Seco",
-      "ru": "Найдите прототип гондолы в высохшем русле реки.",
+      "pt-BR": "Procure pelo Protótipo de Gôndola no topo do Leito Seco do Rio",
+      "ru": "Найдите прототип гондолы в высохшем русле реки",
       "sr": "Potraži Prototip gondole na vrhu presušenog rečnog korita",
-      "tr": "Kurumuş Nehir Yatağı’nın tepesinde Gondol Prototipi'ni ara",
+      "tr": "Kurumuş Nehir Yatağı'nın tepesinde Gondol Prototipi'ni ara",
       "uk": "Знайдіть прототип гондоли на верхівці Висохлого русла річки",
-      "zh-CN": "在干河床顶端搜寻吊舱原型机",
-      "zh-TW": "在乾河頂部搜尋纜車試作品"
+      "zh-CN": "在干涸河床顶端搜寻吊舱原型机",
+      "zh-TW": "在乾涸河床頂部搜尋纜車試作品"
     },
     {
       "da": "Installer ARC-ydelsesstål",
@@ -655,7 +655,7 @@
   "previousQuestIds": ["ss4"],
   "nextQuestIds": [],
   "videoUrl": "https://youtu.be/nDgb3jmql7Y",
-  "updatedAt": "10/07/2026",
+  "updatedAt": "10/27/2026",
   "objectiveTree": {
     "id": "386172361",
     "children": [
@@ -959,7 +959,7 @@
             "type": "sequence"
           }
         ],
-        "type": "choose"
+        "type": "any"
       }
     ],
     "type": "sequence"

@@ -1,0 +1,62 @@
+{
+  "id": "railway_lantern",
+  "name": {
+    "da": "Jernbanelygte",
+    "de": "Eisenbahnlaterne",
+    "en": "Railway Lantern",
+    "es": "Linterna ferroviaria",
+    "fr": "Lanterne de chemin de fer",
+    "he": "פנס רכבת",
+    "hr": "Željeznička svjetiljka",
+    "it": "Lanterna ferroviaria",
+    "ja": "鉄道用ランタン",
+    "ko-KR": "철도 신호 랜턴",
+    "no": "Jernbanelykt",
+    "pl": "Latarnia kolejowa",
+    "pt": "Lanterna Ferroviária",
+    "pt-BR": "Lanterna Ferroviária",
+    "ru": "Железнодорожный фонарь",
+    "sr": "Železnički fenjer",
+    "tr": "Demir Yolu Feneri",
+    "uk": "Залізничний ліхтар",
+    "zh-CN": "铁路灯",
+    "zh-TW": "鐵路提燈"
+  },
+  "description": {
+    "da": "Holdt engang tog fra at køre ind i hinanden i mørket.",
+    "de": "Hat früher verhindert, dass Züge im Dunkeln ineinanderfuhren.",
+    "en": "Once kept trains from running into each other in the dark.",
+    "es": "Antaño evitaba que los trenes chocaran entre sí en la oscuridad.",
+    "fr": "Autrefois, elle empêchait les trains de se percuter dans l'obscurité.",
+    "he": "פעם מנע מרכבות להתנגש זו בזו בחושך.",
+    "hr": "Nekoć je sprječavala sudare vlakova u mraku.",
+    "it": "Un tempo serviva a impedire che i treni si scontrassero nel buio.",
+    "ja": "かつては暗闇の中で電車同士がぶつかるのを防いでくれていた。",
+    "ko-KR": "한때 어둠 속에서 기차끼리 충돌하는 일을 막아 주었습니다.",
+    "no": "Pleide å hindre tog i å kjøre på hverandre i mørket.",
+    "pl": "Oświetlenie, które kiedyś zapobiegało kraksom pociągów w ciemnościach.",
+    "pt": "Outrora impedia que os comboios colidissem uns com os outros no escuro.",
+    "pt-BR": "Em outros tempos, prevenia colisões entre trens no escuro.",
+    "ru": "Когда-то спасал поезда от столкновения во мраке.",
+    "sr": "Nekada je u mraku sprečavao da vozovi udare jedni u druge.",
+    "tr": "Bir zamanlar trenlerin karanlıkta çarpışmasını engellerdi.",
+    "uk": "Колись у темряві не давав потягам зіткнутися.",
+    "zh-CN": "以前用来防止列车在黑暗中相撞。",
+    "zh-TW": "曾用來防止火車在黑暗中相撞。"
+  },
+  "type": "Trinket",
+  "rarity": "Rare",
+  "value": 3000,
+  "weightKg": 0.5,
+  "stackSize": 3,
+  "imageFilename": "https://cdn.arctracker.io/items/v2/railway_lantern.png",
+  "updatedAt": "10/27/2026",
+  "addedIn": "2.3",
+  "mechanics": {
+    "classification": {
+      "category": "Misc.Trinket",
+      "dropType": ["Salvage.Trinket"],
+      "itemType": ["Misc.Trinket"]
+    }
+  }
+}

@@ -1,27 +1,873 @@
 [
   {
+    "id": "kettle_iv",
+    "name": {
+      "da": "Kedel IV",
+      "de": "Kettle IV",
+      "en": "Kettle IV",
+      "es": "Caldero IV",
+      "fr": "Fondoir IV",
+      "he": "קטל IV",
+      "hr": "Kotlić IV",
+      "it": "Stormo IV",
+      "ja": "ケトル IV",
+      "ko-KR": "케틀 IV",
+      "no": "Kjele IV",
+      "pl": "Kociołek IV",
+      "pt": "Chaleira IV",
+      "pt-BR": "Chaleira IV",
+      "ru": "Чайник IV",
+      "sr": "Čajnik IV",
+      "tr": "Isıtıcı IV",
+      "uk": "Чайник IV",
+      "zh-CN": "水壶 IV",
+      "zh-TW": "水壺 IV"
+    },
+    "description": {
+      "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
+      "de": "Ein halbautomatisches Sturmgewehr. Es ist schnell und präzise, doch die Kugeln fliegen recht langsam und das Nachladen dauert lange.",
+      "en": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time to reload.",
+      "es": "Fusil de asalto semiautomático. Es rápido y preciso, pero cuenta con una velocidad de las balas baja y se tarda mucho en recargar.",
+      "fr": "Fusil d'assaut semi-automatique. Rapide et précis, mais la vitesse de ses balles est faible et son rechargement est long.",
+      "he": "רובה סער חצי-אוטומטי. מהיר ומדויק, אך בעל מהירות קליע נמוכה ולוקח זמן רב לטעון אותו מחדש.",
+      "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se ponovno puni.",
+      "it": "Fucile d'assalto semiautomatico. È rapido e preciso, ma ha una velocità dei proiettili ridotta e richiede molto tempo per essere ricaricato.",
+      "ja": "セミオートのアサルトライフル。素早くて正確だが弾速は遅く、リロードに時間がかかる。",
+      "ko-KR": "빠르고 정확하게 발사하지만 탄속이 느리고 재장전 시간이 오래 걸리는 반자동 돌격 소총입니다.",
+      "no": "Halvautomatisk automatgevær. Raskt og presist, men har lav kulehastighet og tar lang tid å lade om.",
+      "pl": "Szturmowy karabin samopowtarzalny. Szybki i celny, ale wystrzeliwuje pociski z małą prędkością, a przeładowywanie go zajmuje dużo czasu.",
+      "pt": "Fuzil de assalto semiautomático. Rápido e preciso, mas possui baixa velocidade de projétil e demora muito para recarregar.",
+      "pt-BR": "Fuzil de assalto semiautomático. Veloz e preciso, mas tem baixa velocidade de projétil e demora muito tempo para recarregar.",
+      "ru": "Полуавтоматическая штурмовая винтовка. Быстрая и точная, но отличается низкой скоростью пуль и требует много времени на перезарядку.",
+      "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se puni.",
+      "tr": "Yarı otomatik taarruz tüfeği. Hızlı ve isabetlidir ancak mermi hızı düşük ve yeniden doldurma süresi uzundur.",
+      "uk": "Напівавтоматична штурмова гвинтівка. Швидка та точна, але має низьку швидкість польоту кулі та довго перезаряджається.",
+      "zh-CN": "半自动射击的突击步枪，射速快，精准度高，但子弹初速较低，且装弹时间长。",
+      "zh-TW": "半自動突擊步槍。快速而準確，但子彈速度較低且裝填時間較長。"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 7,
+    "stackSize": 1,
+    "isWeapon": true,
+    "effects": {
+      "Ammo Type": {
+        "value": "Light Ammo",
+        "da": "Ammunitionstype",
+        "de": "Munitionstyp",
+        "en": "Ammo Type",
+        "es": "Tipo de munición",
+        "fr": "Type de munitions",
+        "he": "סוג תחמושת",
+        "hr": "Vrsta streljiva",
+        "it": "Tipo di munizioni",
+        "ja": "弾薬タイプ",
+        "ko-KR": "탄약 유형",
+        "no": "Ammunisjonstype",
+        "pl": "Typ amunicji",
+        "pt": "Tipo de munição",
+        "pt-BR": "Tipo de munição",
+        "ru": "Тип боеприпасов",
+        "sr": "Vrsta municije",
+        "tr": "Mermi Türü",
+        "uk": "Тип боєприпасів",
+        "zh-CN": "弹药类型",
+        "zh-TW": "彈藥類型"
+      },
+      "ARC Armor Penetration": {
+        "value": "Very Weak",
+        "da": "ARC-rustningspenetrering",
+        "de": "ARC-Panzerungsdurchdringung",
+        "en": "ARC Armor Penetration",
+        "es": "Penetración de armadura ARC",
+        "fr": "Pénétration d'armure ARC",
+        "he": "חדירת שריון ARC",
+        "hr": "ARC probijanje oklopa",
+        "it": "Penetrazione armature ARC",
+        "ja": "ARC装甲貫通",
+        "ko-KR": "아크 장갑판 관통력",
+        "no": "ARC-rustningspenetrering",
+        "pl": "Przebicie pancerza ARC",
+        "pt": "Penetração de armadura ARC",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "ru": "Пробитие брони ARC",
+        "sr": "ARC probijanje oklopa",
+        "tr": "ARC Zırh Delme",
+        "uk": "Пробиття броні ARC",
+        "zh-CN": "ARC 护甲穿透",
+        "zh-TW": "ARC 護甲穿透"
+      },
+      "Critical Hit Multiplier": {
+        "value": "2.5x",
+        "da": "Kritisk Træffer Multiplikator",
+        "de": "Kritischer-Treffer-Multiplikator",
+        "en": "Critical Hit Multiplier",
+        "es": "Multiplicador de golpe crítico",
+        "fr": "Multiplicateur de coup critique",
+        "he": "מכפיל מכה קריטית",
+        "hr": "Množitelj kritičnog pogotka",
+        "it": "Moltiplicatore colpi critici",
+        "ja": "クリティカルヒット倍率",
+        "ko-KR": "치명타 배수",
+        "no": "Kritisk treff-multiplikator",
+        "pl": "Mnożnik obrażeń krytycznych",
+        "pt": "Multiplicador de Dano Crítico",
+        "pt-BR": "Multiplicador de acerto crítico",
+        "ru": "Множитель критического урона",
+        "sr": "Množilac kritičnog pogotka",
+        "tr": "Kritik Vuruş Çarpanı",
+        "uk": "Множник критичного удару",
+        "zh-CN": "暴击系数",
+        "zh-TW": "爆擊倍率"
+      },
+      "Damage Falloff Range": {
+        "value": "130-150 m",
+        "da": "Skadesfald-afstand",
+        "de": "Schadensabfall-Reichweite",
+        "en": "Damage Falloff Range",
+        "es": "Alcance de pérdida de daño",
+        "fr": "Portée de perte de dégâts",
+        "he": "טווח דעיכת נזק",
+        "hr": "Domet opadanja štete",
+        "it": "Raggio di calo del danno",
+        "ja": "ダメージ減衰距離",
+        "ko-KR": "피해 감소 거리",
+        "no": "Skadefall-rekkevidde",
+        "pl": "Zasięg spadku obrażeń",
+        "pt": "Alcance da queda de dano",
+        "pt-BR": "Alcance da queda de dano",
+        "ru": "Дистанция спада урона",
+        "sr": "Domet opadanja štete",
+        "tr": "Hasar Azalma Menzili",
+        "uk": "Дистанція спаду шкоди",
+        "zh-CN": "伤害衰减距离",
+        "zh-TW": "傷害衰減距離"
+      },
+      "Durability": {
+        "value": "130/130",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Firing Mode": {
+        "value": "Semi-Automatic",
+        "da": "Skydningstilstand",
+        "de": "Feuermodus",
+        "en": "Firing Mode",
+        "es": "Modo de disparo",
+        "fr": "Mode de tir",
+        "he": "מצב ירי",
+        "hr": "Način pucanja",
+        "it": "Modalità di fuoco",
+        "ja": "射撃モード",
+        "ko-KR": "발사 모드",
+        "no": "Skyttemodus",
+        "pl": "Tryb ognia",
+        "pt": "Modo de disparo",
+        "pt-BR": "Modo de disparo",
+        "ru": "Режим стрельбы",
+        "sr": "Režim pucanja",
+        "tr": "Atış Modu",
+        "uk": "Режим стрільби",
+        "zh-CN": "射击模式",
+        "zh-TW": "射擊模式"
+      },
+      "Increased Bullet Velocity": {
+        "value": "75%",
+        "da": "Øget kuglehastighed",
+        "de": "Erhöhte Geschossgeschwindigkeit",
+        "en": "Increased Bullet Velocity",
+        "es": "Velocidad de bala aumentada",
+        "fr": "Vélocité des balles augmentée",
+        "he": "מהירות קליע מוגברת",
+        "hr": "Povećana brzina metka",
+        "it": "Velocità proiettile aumentata",
+        "ja": "弾速増加",
+        "ko-KR": "탄환 속도 증가",
+        "no": "Økt kulehastighet",
+        "pl": "Zwiększona prędkość pocisku",
+        "pt": "Velocidade de bala aumentada",
+        "pt-BR": "Aumento da Velocidade do Projétil",
+        "ru": "Увеличенная скорость пули",
+        "sr": "Povećana brzina metka",
+        "tr": "Artırılmış Mermi Hızı",
+        "uk": "Збільшена швидкість кулі",
+        "zh-CN": "子弹速度提升",
+        "zh-TW": "子彈速度提升"
+      },
+      "Magazine Size": {
+        "value": 20,
+        "da": "Magasinstørrelse",
+        "de": "Magazingröße",
+        "en": "Magazine Size",
+        "es": "Tamaño del cargador",
+        "fr": "Taille du chargeur",
+        "he": "גודל מחסנית",
+        "hr": "Veličina spremnika",
+        "it": "Dimensioni caricatore",
+        "ja": "マガジンサイズ",
+        "ko-KR": "탄창 크기",
+        "no": "Magasinstørrelse",
+        "pl": "Rozmiar magazynka",
+        "pt": "Tamanho do carregador",
+        "pt-BR": "Tamanho do Pente",
+        "ru": "Размер магазина",
+        "sr": "Veličina okvira",
+        "tr": "Şarjör Boyutu",
+        "uk": "Розмір магазину",
+        "zh-CN": "弹匣容量",
+        "zh-TW": "彈匣容量"
+      },
+      "Reduced Reload Time": {
+        "value": "40%",
+        "da": "Reduceret genindlæsningstid",
+        "de": "Verringerte Nachladezeit",
+        "en": "Reduced Reload Time",
+        "es": "Tiempo de recarga reducido",
+        "fr": "Temps de rechargement réduit",
+        "he": "זמן טעינה מופחת",
+        "hr": "Smanjeno vrijeme punjenja",
+        "it": "Tempo di ricarica ridotto",
+        "ja": "リロード時間短縮",
+        "ko-KR": "재장전 시간 감소",
+        "no": "Redusert ladetid",
+        "pl": "Skrócony czas przeładowania",
+        "pt": "Tempo de recarga reduzido",
+        "pt-BR": "Tempo de Recarga Reduzido",
+        "ru": "Сокращённое время перезарядки",
+        "sr": "Smanjeno vrijeme punjenja",
+        "tr": "Azaltılmış yeniden doldurma süresi",
+        "uk": "Скорочений час перезаряджання",
+        "zh-CN": "装弹时间缩短",
+        "zh-TW": "降低換彈時間"
+      }
+    },
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
+    "upgradeCost": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iv.png",
+    "updatedAt": "02/24/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Firearm.AssaultRifle",
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.LightAmmoWeapon",
+          "Items.SpecificWeapon.Kettle"
+        ]
+      },
+      "weapon": {
+        "ammoItem": "light_ammo",
+        "arc": {
+          "armorMultiplier": 0.2,
+          "propagationMultiplier": 0.1
+        },
+        "base": {
+          "adsTimeSec": 0.6,
+          "burnRate": 0.001607,
+          "burstSize": 1,
+          "clipSize": 20,
+          "firePower": 40000,
+          "fireRate": 450,
+          "multiShotPattern": {
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
+            "grow": 1,
+            "minSize": 0,
+            "move": 0
+          },
+          "physicalDamage": 8.5,
+          "reloadTimeSec": 4.5
+        },
+        "damageFalloff": [
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
+        ],
+        "dispersion": {
+          "adsDuration": 1.7,
+          "adsRecoveryMultiplier": 0.725,
+          "adsScale": 0.4,
+          "fireGain": [
+            [
+              0,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.1,
+              0.14,
+              0.14,
+              "cubic"
+            ],
+            [
+              5,
+              0.8,
+              0,
+              0,
+              "cubic"
+            ],
+            [
+              20,
+              0.8,
+              0,
+              0,
+              "linear"
+            ]
+          ],
+          "fireMax": 2,
+          "linearRecovery": true,
+          "max": 6,
+          "min": 0.05,
+          "perStance": {
+            "crouching": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.7,
+              "adsRecoveryMultiplier": 0.625,
+              "adsScale": 0.1,
+              "dispersion": 1.5,
+              "overrideAdsDispersion": true,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed"
+              ]
+            },
+            "crouchMoving": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.7,
+              "adsRecoveryMultiplier": 0.625,
+              "adsScale": 0.1,
+              "dispersion": 1.5,
+              "overrideAdsDispersion": true,
+              "recoverySpeed": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed"
+              ]
+            },
+            "falling": {
+              "dispersion": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed",
+                "adsRecoveryMultiplier",
+                "overrideAdsDispersion",
+                "adsScale",
+                "adsDuration",
+                "adsFireDispersionMultiplier"
+              ]
+            },
+            "sprinting": {
+              "adsRecoveryMultiplier": 0.725,
+              "dispersion": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed",
+                "overrideAdsDispersion",
+                "adsScale",
+                "adsDuration",
+                "adsFireDispersionMultiplier"
+              ]
+            },
+            "standing": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.8,
+              "adsRecoveryMultiplier": 0.725,
+              "adsScale": 0.1,
+              "dispersion": 2.5,
+              "overrideAdsDispersion": true,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed"
+              ]
+            },
+            "standMoving": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.8,
+              "adsRecoveryMultiplier": 0.725,
+              "adsScale": 0.1,
+              "dispersion": 2.5,
+              "overrideAdsDispersion": true,
+              "recoverySpeed": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed"
+              ]
+            },
+            "uncontrollable": {
+              "adsRecoveryMultiplier": 0.725,
+              "dispersion": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed",
+                "overrideAdsDispersion",
+                "adsScale",
+                "adsDuration",
+                "adsFireDispersionMultiplier"
+              ]
+            }
+          },
+          "popMax": 0.1,
+          "popRecoverySpeed": 0.05,
+          "recoverySpeed": 3.5,
+          "velocity": 2.5,
+          "velocityMax": 3,
+          "velocityRecovery": 6
+        },
+        "equipTimeSec": 1,
+        "headshotMultiplier": 2.5,
+        "modifiers": {
+          "bulletVelocity": 16000,
+          "durabilityBurnRate": -0.3,
+          "reloadSpeed": -1
+        },
+        "projectileGravityScale": 0.8,
+        "projectileInitialSpeedMs": 350,
+        "projectileRadiusM": 0.1,
+        "recoil": {
+          "adsGainMultiplier": 0.6,
+          "lerpSpeed": 0.4,
+          "pitch": [
+            [
+              0,
+              0,
+              2.8229413,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              2,
+              0.07372187,
+              0.07372336,
+              "linear"
+            ],
+            [
+              16,
+              7,
+              0.031883117,
+              0.03188288,
+              "linear"
+            ],
+            [
+              27.810873,
+              10,
+              0,
+              0,
+              "linear"
+            ]
+          ],
+          "pitchProceduralRange": [
+            0,
+            0.1
+          ],
+          "recoverySpeed": 0.6,
+          "sampleCount": 25,
+          "unset": [
+            "proceduralSwingSpeed",
+            "recoveryDelay"
+          ],
+          "yaw": [
+            [
+              0,
+              0,
+              -0.009839253,
+              -0.009840206,
+              "cubic"
+            ],
+            [
+              7.903513,
+              -0.12433219,
+              -0.24865048,
+              -0.24865021,
+              "cubic"
+            ],
+            [
+              15.802044,
+              0.6794237,
+              -0.017511474,
+              -0.017511474,
+              "cubic"
+            ],
+            [
+              21.71209,
+              -0.36614072,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              27.98605,
+              0.30393875,
+              0,
+              0.14261085,
+              "cubic"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.7,
+            0.7
+          ]
+        },
+        "statBarOffsets": {
+          "range": 9.5
+        },
+        "tier": 4,
+        "unequipTimeSec": 0.4
+      }
+    },
+    "modSlots": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "repairCost": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
+    "repairDurability": 0.5,
+    "upgrades": [
+      {
+        "cost": {
+          "amplification_module_mk_i": 1
+        },
+        "requires": [
+          {
+            "level": 4,
+            "station": "weapon_bench"
+          }
+        ],
+        "to": "kettle_amplified"
+      }
+    ],
+    "upgradesTo": "kettle_amplified"
+  },
+  {
+    "id": "kinetic_converter",
+    "name": {
+      "da": "Kinetisk konverter",
+      "de": "Kinetischer Konverter",
+      "en": "Kinetic Converter",
+      "es": "Convertidor cinético",
+      "fr": "Convertisseur cinétique",
+      "he": "ממיר קינטי",
+      "hr": "Kinetički pretvarač",
+      "it": "Convertitore cinetico",
+      "ja": "キネティック・コンバーター",
+      "ko-KR": "키네틱 컨버터",
+      "no": "Kinetisk konverter",
+      "pl": "Konwerter kinetyczny",
+      "pt": "Conversor cinético",
+      "pt-BR": "Conversor Cinético",
+      "ru": "Кинетический преобразователь",
+      "sr": "Kinetički pretvarač",
+      "tr": "Kinetik Dönüştürücü",
+      "uk": "Кінетичний перетворювач",
+      "zh-CN": "动能转换器",
+      "zh-TW": "動能轉換器"
+    },
+    "description": {
+      "da": "Øger skudhastigheden moderat.",
+      "de": "Erhöht die Feuerrate moderat.",
+      "en": "Moderately increases fire rate.",
+      "es": "Aumenta moderadamente la cadencia de disparo.",
+      "fr": "Augmente modérément la cadence de tir.",
+      "he": "מגדיל במידה בינונית את קצב האש.",
+      "hr": "Umjereno povećava brzinu paljbe.",
+      "it": "Aumenta moderatamente la cadenza di fuoco.",
+      "ja": "発射速度が中程度増加する。",
+      "ko-KR": "발사 속도를 적당히 높여줍니다.",
+      "no": "Øker skuddhastigheten moderat.",
+      "pl": "Umiarkowanie zwiększa szybkostrzelność.",
+      "pt": "Aumenta moderadamente a cadência de tiro.",
+      "pt-BR": "Aumenta de forma moderada a cadência de tiro.",
+      "ru": "Умеренно увеличивает скорость стрельбы.",
+      "sr": "Umereno povećava brzinu paljbe.",
+      "tr": "Atış hızını orta düzeyde artırır.",
+      "uk": "Помірно збільшує швидкострільність.",
+      "zh-CN": "中幅度提高射速。",
+      "zh-TW": "中度提升射速。"
+    },
+    "type": "Modification",
+    "rarity": "Legendary",
+    "value": 7000,
+    "weightKg": 0.75,
+    "stackSize": 1,
+    "compatibleWith": [
+      "Aphelion",
+      "Arpeggio",
+      "Bettina",
+      "Bobcat",
+      "Canto",
+      "Ferro",
+      "Hullcracker",
+      "Il Toro",
+      "Kettle",
+      "Osprey",
+      "Rattler",
+      "Renegade",
+      "Stiletto",
+      "Stitcher",
+      "Torrente",
+      "Vulcano"
+    ],
+    "effects": {
+      "Increased Fire Rate": {
+        "value": "15%",
+        "da": "Øget skudhastighed",
+        "de": "Erhöhte Feuerrate",
+        "en": "Increased Fire Rate",
+        "es": "Cadencia de disparo aumentada",
+        "fr": "Cadence de tir augmentée",
+        "he": "קצב אש מוגבר",
+        "hr": "Povećana brzina paljbe",
+        "it": "Cadenza di fuoco aumentata",
+        "ja": "射撃速度増加",
+        "ko-KR": "연사 속도 증가",
+        "no": "Økt skuddfrekvens",
+        "pl": "Zwiększona szybkostrzelność",
+        "pt": "Taxa de disparo aumentada",
+        "pt-BR": "Cadência de Tiro Aumentada",
+        "ru": "Увеличенная скорострельность",
+        "sr": "Povećana brzina paljbe",
+        "tr": "Artırılmış Atış Hızı",
+        "uk": "Збільшена швидкострільність",
+        "zh-CN": "射速提升",
+        "zh-TW": "射速提升"
+      },
+      "Increased Horizontal Recoil": {
+        "value": "20%",
+        "da": "Øget vandret rekyl",
+        "de": "Erhöhter horizontaler Rückstoß",
+        "en": "Increased Horizontal Recoil",
+        "es": "Retroceso horizontal aumentado",
+        "fr": "Recul horizontal augmenté",
+        "he": "רתע אופקי מוגבר",
+        "hr": "Povećan horizontalni trzaj",
+        "it": "Rinculo orizzontale aumentato",
+        "ja": "水平反動増加",
+        "ko-KR": "수평 반동 증가",
+        "no": "Økt horisontal rekyl",
+        "pl": "Zwiększony odrzut poziomy",
+        "pt": "Recuo horizontal aumentado",
+        "pt-BR": "Recuo Horizontal Aumentado",
+        "ru": "Увеличенная горизонтальная отдача",
+        "sr": "Povećan horizontalni trzaj",
+        "tr": "Artırılmış Yatay Tepme",
+        "uk": "Збільшена горизонтальна віддача",
+        "zh-CN": "水平后坐力增加",
+        "zh-TW": "水平後座力增加"
+      },
+      "Increased Vertical Recoil": {
+        "value": "20%",
+        "da": "Øget lodret rekyl",
+        "de": "Erhöhter vertikaler Rückstoß",
+        "en": "Increased Vertical Recoil",
+        "es": "Retroceso vertical aumentado",
+        "fr": "Recul vertical augmenté",
+        "he": "רתע אנכי מוגבר",
+        "hr": "Povećan vertikalni trzaj",
+        "it": "Rinculo verticale aumentato",
+        "ja": "垂直反動増加",
+        "ko-KR": "수직 반동 증가",
+        "no": "Økt vertikal rekyl",
+        "pl": "Zwiększony odrzut pionowy",
+        "pt": "Recuo vertical aumentado",
+        "pt-BR": "Recuo Vertical Aumentado",
+        "ru": "Увеличенная вертикальная отдача",
+        "sr": "Povećan vertikalni trzaj",
+        "tr": "Artırılmış Dikey Tepme",
+        "uk": "Збільшена вертикальна віддача",
+        "zh-CN": "垂直后坐力增加",
+        "zh-TW": "垂直後座力增加"
+      }
+    },
+    "recyclesInto": {
+      "duct_tape": 2,
+      "mod_components": 1
+    },
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kinetic_converter.png",
+    "updatedAt": "01/13/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Modification.Firearm.Stock",
+        "dropType": [
+          "Equipment.Modification.Weapon"
+        ],
+        "itemType": [
+          "Modification.Firearm.Stock"
+        ]
+      },
+      "mod": {
+        "modifiers": [
+          {
+            "amount": 15,
+            "benefit": "positive",
+            "direction": "up",
+            "stat": "fireRate",
+            "unit": "percent"
+          },
+          {
+            "amount": 20,
+            "benefit": "negative",
+            "direction": "up",
+            "stat": "verticalRecoil",
+            "unit": "percent"
+          },
+          {
+            "amount": 20,
+            "benefit": "negative",
+            "direction": "up",
+            "stat": "horizontalRecoil",
+            "unit": "percent"
+          }
+        ],
+        "ops": [
+          {
+            "addMultiply": 1.15,
+            "stat": "fireRate"
+          },
+          {
+            "addMultiply": 1.2,
+            "stat": "horizontalRecoil"
+          },
+          {
+            "addMultiply": 1.2,
+            "stat": "verticalRecoil"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "lab_ceiling_light_design",
     "name": {
       "da": "Labloftslampedesign",
-      "de": "Labor-Deckenleuchte-Entwurf",
+      "de": "Entwurf: Labor-Deckenlampe",
       "en": "Lab Ceiling Light Design",
-      "es": "Diseño de lámpara de techo de laboratorio",
-      "fr": "Design du Plafonnier du laboratoire",
+      "es": "Diseño de la luz de techo de laboratorio",
+      "fr": "Design de lampe de plafond de laboratoire",
       "he": "עיצוב תאורת תקרה למעבדה",
       "hr": "Nacrt laboratorijske stropne lampe.",
-      "it": "Design della Plafoniera del laboratorio",
-      "ja": "ラボ天井ランプのデザイン",
-      "ko-KR": "연구소 천장 조명 디자인",
+      "it": "Design lampada da soffitto laboratorio",
+      "ja": "実験室の天井照明のデザイン",
+      "ko-KR": "연구실 천장 조명 디자인",
       "no": "Labtaklysdesign",
-      "pl": "Projekt: Lampa sufitowa laboratoryjna",
+      "pl": "Projekt: Oświetlenie sufitowe do laboratorium",
       "pt": "Projeto de Luminária de Teto de Laboratório",
-      "pt-BR": "Projeto da Luminária de Teto do Laboratório",
-      "ru": "Схема потолочной лампы лаборатории",
+      "pt-BR": "Projeto de Luminária de Teto de Laboratório",
+      "ru": "Схема — Лабораторный светильник",
       "sr": "Nacrt laboratorijske plafonske lampe",
       "tr": "Laboratuvar Tavan Lambası Tasarımı",
       "uk": "Дизайн лабораторного стельового світильника",
-      "zh-CN": "实验室吸顶灯设计图",
-      "zh-TW": "實驗室天花板燈設計"
+      "zh-CN": "实验室吊灯设计图",
+      "zh-TW": "實驗室吊燈設計"
     },
     "type": "Design",
     "rarity": "Uncommon",
@@ -57,25 +903,25 @@
     "id": "lab_ceiling_light",
     "name": {
       "da": "Labloftlampe",
-      "de": "Labor-Deckenleuchte",
+      "de": "Labor-Deckenlampe",
       "en": "Lab Ceiling Light",
-      "es": "Lámpara de techo del laboratorio",
-      "fr": "Plafonnier du laboratoire",
+      "es": "Luz de techo de laboratorio",
+      "fr": "Lampe de plafond de laboratoire",
       "he": "תאורת תקרה למעבדה",
       "hr": "Laboratorijsko stropno svjetlo",
-      "it": "Plafoniera del laboratorio",
-      "ja": "ラボ天井ランプ",
-      "ko-KR": "연구소 천장 조명",
+      "it": "Lampada da soffitto laboratorio",
+      "ja": "実験室の天井照明",
+      "ko-KR": "연구실 천장 조명",
       "no": "Labtaklampe",
-      "pl": "Lampa sufitowa laboratoryjna",
+      "pl": "Oświetlenie sufitowe do laboratorium",
       "pt": "Luminária de Teto de Laboratório",
-      "pt-BR": "Luminária de Teto do Laboratório",
-      "ru": "Потолочная лампа лаборатории",
+      "pt-BR": "Luminária de Teto de Laboratório",
+      "ru": "Лабораторный светильник",
       "sr": "Laboratorijsko Plafonsko Svetlo",
       "tr": "Laboratuvar Tavan Lambası",
       "uk": "Лабораторний стельовий світильник",
-      "zh-CN": "实验室吸顶灯",
-      "zh-TW": "實驗室吸頂燈"
+      "zh-CN": "实验室吊灯",
+      "zh-TW": "實驗室吊燈"
     },
     "type": "Outpost Furniture",
     "rarity": "Uncommon",
@@ -93,23 +939,23 @@
       "da": "Labskammeldesign",
       "de": "Entwurf: Laborhocker",
       "en": "Lab Stool Design",
-      "es": "Diseño de taburete de laboratorio",
-      "fr": "Schéma de tabouret de laboratoire",
+      "es": "Diseño del taburete de laboratorio",
+      "fr": "Design de tabouret de laboratoire",
       "he": "עיצוב שרפרף מעבדה",
       "hr": "Nacrt laboratorijskog stolca.",
-      "it": "Design Sgabello del laboratorio",
-      "ja": "ラボスツールのデザイン",
-      "ko-KR": "연구소 스툴 디자인",
+      "it": "Design sgabello laboratorio",
+      "ja": "実験室用スツールのデザイン",
+      "ko-KR": "연구실 스툴 디자인",
       "no": "Labkrakkdesign",
-      "pl": "Projekt stołka laboratoryjnego",
+      "pl": "Projekt: Stołek laboratoryjny",
       "pt": "Projeto de Banco de Laboratório",
-      "pt-BR": "Projeto da Banqueta de Laboratório",
-      "ru": "Схема: Лабораторный табурет",
+      "pt-BR": "Projeto de Banco de Laboratório",
+      "ru": "Схема — Лабораторный табурет",
       "sr": "Nacrt laboratorijske stolice",
       "tr": "Laboratuvar Taburesi Tasarımı",
       "uk": "Дизайн лабораторного табурета",
-      "zh-CN": "实验室凳子设计图",
-      "zh-TW": "實驗室凳設計"
+      "zh-CN": "实验室高凳设计图",
+      "zh-TW": "實驗室高腳椅設計"
     },
     "type": "Design",
     "rarity": "Common",
@@ -151,19 +997,19 @@
       "fr": "Tabouret de laboratoire",
       "he": "שרפרף מעבדה",
       "hr": "Laboratorijska hoklica",
-      "it": "Sgabello del laboratorio",
-      "ja": "ラボスツール",
-      "ko-KR": "연구소 스툴",
+      "it": "Sgabello laboratorio",
+      "ja": "実験室用スツール",
+      "ko-KR": "연구실 스툴",
       "no": "Labkrakk",
       "pl": "Stołek laboratoryjny",
       "pt": "Banco de Laboratório",
-      "pt-BR": "Banqueta de Laboratório",
+      "pt-BR": "Banco de Laboratório",
       "ru": "Лабораторный табурет",
       "sr": "Laboratorijska Hoklica",
       "tr": "Laboratuvar Taburesi",
       "uk": "Лабораторний табурет",
-      "zh-CN": "实验室凳",
-      "zh-TW": "實驗室凳"
+      "zh-CN": "实验室高凳",
+      "zh-TW": "實驗室高腳椅"
     },
     "type": "Outpost Furniture",
     "rarity": "Common",
@@ -5052,6 +5898,75 @@
     }
   },
   {
+    "id": "mask_fragment",
+    "name": {
+      "da": "Maskefragment",
+      "de": "Maskenfragment",
+      "en": "Mask Fragment",
+      "es": "Fragmento de máscara",
+      "fr": "Morceau de masque",
+      "he": "שבר מסכה",
+      "hr": "Fragment maske",
+      "it": "Frammento di maschera",
+      "ja": "仮面の破片",
+      "ko-KR": "가면 파편",
+      "no": "Maskefragment",
+      "pl": "Fragment maski",
+      "pt": "Fragmento de Máscara",
+      "pt-BR": "Fragmento de Máscara",
+      "ru": "Фрагмент маски",
+      "sr": "Fragment maske",
+      "tr": "Maske Parçası",
+      "uk": "Фрагмент маски",
+      "zh-CN": "面具碎片",
+      "zh-TW": "面罩碎片"
+    },
+    "description": {
+      "da": "Et halvt ansigt, støbt i bronze.",
+      "de": "Ein halbes Gesicht, in Bronze gegossen.",
+      "en": "Half a face, cast in bronze.",
+      "es": "Media cara fundida en bronce.",
+      "fr": "La moitié d'un visage, moulée dans le bronze.",
+      "he": "חצי פנים, יצוקים בברונזה.",
+      "hr": "Pola lica, odliveno u bronci.",
+      "it": "Mezzo volto, fuso in bronzo.",
+      "ja": "顔の半分。ブロンズ製。",
+      "ko-KR": "청동으로 주조한 얼굴 반쪽입니다.",
+      "no": "Halvparten av et ansikt, støpt i bronse.",
+      "pl": "Połówka twarzy odlana z brązu.",
+      "pt": "Meia cara, fundida em bronze.",
+      "pt-BR": "Meia face, forjada em bronze.",
+      "ru": "Половина лица, отлитая в бронзе.",
+      "sr": "Pola lica, odlivena u bronzi.",
+      "tr": "Bronz döküm bir yüzün yarısı",
+      "uk": "Половина обличчя, відлита з бронзи.",
+      "zh-CN": "半张脸部，以青铜铸就。",
+      "zh-TW": "半張臉，以青銅鑄成。"
+    },
+    "type": "Trinket",
+    "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.5,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/mask_fragment.png",
+    "updatedAt": "10/27/2026",
+    "addedIn": "2.3",
+    "mechanics": {
+      "classification": {
+        "category": "Misc.Trinket",
+        "dropType": [
+          "Salvage.Trinket.Birdnest"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "OldWorld"
+        ]
+      }
+    }
+  },
+  {
     "id": "matriarch_reactor",
     "name": {
       "da": "Matriarkreactor",
@@ -6756,25 +7671,25 @@
     "id": "multicolored_geometric_sofa_design",
     "name": {
       "da": "Mangefarvet Geometrisk Sofadesign",
-      "de": "Entwurf: Mehrfarbiges geometrisches Sofa",
+      "de": "Entwurf: Sofa (mehrfarbiger geometrischer Stoff)",
       "en": "Multicolored Geometric Sofa Design",
-      "es": "Diseño de sofá geométrico multicolor",
-      "fr": "Design du Canapé géométrique multicolore",
+      "es": "Diseño del sofá de patrón geométrico multicolor",
+      "fr": "Design de canapé géométrique multicolore",
       "he": "עיצוב ספה גאומטרי רב-גוני",
       "hr": "Višebojni Geometrijski Dizajn Sofe",
-      "it": "Design Divano geometrico multicolore",
-      "ja": "カラフルな幾何学模様のソファデザイン",
-      "ko-KR": "다채로운 기하학 무늬 소파 디자인",
+      "it": "Design divano geometrico multicolore",
+      "ja": "カラフルな幾何学模様ソファのデザイン",
+      "ko-KR": "알록달록한 기하학무늬 소파 디자인",
       "no": "Flerfarget Geometrisk Sofadesign",
-      "pl": "Projekt wielobarwnej sofy o geometrycznym wzorze",
+      "pl": "Projekt: Sofa z wielobarwnym geometrycznym wzorem",
       "pt": "Design de Sofá Geométrico Multicolorido",
       "pt-BR": "Projeto de Sofá Geométrico Multicolorido",
-      "ru": "Схема: Разноцветный геометрический диван",
+      "ru": "Схема — Диван с разноцветным геометрическим рисунком",
       "sr": "Višebojni geometrijski dizajn sofe",
-      "tr": "Rengarenk Geometrik Kanepe Tasarımı",
+      "tr": "Çok Renkli Geometrik Kanepe Tasarımı",
       "uk": "Дизайн різнокольорового геометричного дивана",
-      "zh-CN": "多彩几何沙发设计图",
-      "zh-TW": "多彩幾何沙發設計"
+      "zh-CN": "多色几何沙发设计图",
+      "zh-TW": "多色幾何沙發設計"
     },
     "type": "Design",
     "rarity": "Rare",
@@ -6799,25 +7714,25 @@
     "id": "multicolored_geometric_sofa",
     "name": {
       "da": "Flerfarvet geometrisk sofa",
-      "de": "Mehrfarbiges geometrisches Sofa",
+      "de": "Sofa (mehrfarbiger geometrischer Stoff)",
       "en": "Multicolored Geometric Sofa",
-      "es": "Sofá geométrico multicolor",
+      "es": "Sofá de patrón geométrico multicolor",
       "fr": "Canapé géométrique multicolore",
       "he": "ספה גאומטרית רב-צבעית",
       "hr": "Višebojna geometrijska sofa",
       "it": "Divano geometrico multicolore",
-      "ja": "カラフルな幾何学模様のソファ",
-      "ko-KR": "다채로운 기하학 무늬 소파",
+      "ja": "カラフルな幾何学模様ソファ",
+      "ko-KR": "알록달록한 기하학무늬 소파",
       "no": "Flerfarget geometrisk sofa",
-      "pl": "Wielobarwna sofa o geometrycznym wzorze",
+      "pl": "Sofa z wielobarwnym geometrycznym wzorem",
       "pt": "Sofá Geométrico Multicolorido",
       "pt-BR": "Sofá Geométrico Multicolorido",
-      "ru": "Разноцветный геометрический диван",
+      "ru": "Диван с разноцветным геометрическим рисунком",
       "sr": "Višebojna Geometrijska Sofa",
-      "tr": "Rengarenk Geometrik Kanepe",
+      "tr": "Çok Renkli Geometrik Kanepe",
       "uk": "Різнокольоровий геометричний диван",
-      "zh-CN": "多彩几何沙发",
-      "zh-TW": "繽紛幾何沙發"
+      "zh-CN": "多色几何沙发",
+      "zh-TW": "多色幾何沙發"
     },
     "type": "Outpost Furniture",
     "rarity": "Rare",
@@ -8259,6 +9174,76 @@
     }
   },
   {
+    "id": "offering_display_table_design",
+    "name": {
+      "da": "Udstillingsbord til offergaver-tegning",
+      "de": "Entwurf: Opfergabentisch",
+      "en": "Offering Display Table Design",
+      "es": "Diseño de la mesa de ofrendas",
+      "fr": "Design de table d'offrandes",
+      "he": "עיצוב שולחן תצוגת מנחות",
+      "hr": "Nacrt stola za prikaz prinosa",
+      "it": "Design tavolo espositivo offerte",
+      "ja": "捧げもの陳列テーブルのデザイン",
+      "ko-KR": "봉헌물 진열대 디자인",
+      "no": "Design: Offerutstillingsbord",
+      "pl": "Projekt: Stół ofertowy",
+      "pt": "Projeto de Mesa de Exposição de Oferendas",
+      "pt-BR": "Projeto de Mesa de Exibição de Oferenda",
+      "ru": "Схема — Стол для подношений",
+      "sr": "Dizajn stola za izlaganje ponuda",
+      "tr": "Adak Sergileme Masası Tasarımı",
+      "uk": "Схема: Стіл для підношень",
+      "zh-CN": "供品展示桌设计图",
+      "zh-TW": "供品展示桌設計"
+    },
+    "type": "Design",
+    "rarity": "Legendary",
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/offering_display_table.png",
+    "updatedAt": "10/27/2026",
+    "addedIn": "2.3",
+    "mechanics": {
+      "classification": {
+        "category": "Recipe.OutpostFurniture",
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
+      }
+    }
+  },
+  {
+    "id": "offering_display_table",
+    "name": {
+      "da": "Udstillingsbord til offergaver",
+      "de": "Opfergabentisch",
+      "en": "Offering Display Table",
+      "es": "Mesa de ofrendas",
+      "fr": "Table d'offrandes",
+      "he": "שולחן תצוגת מנחות",
+      "hr": "Stol za prikaz prinosa",
+      "it": "Tavolo espositivo offerte",
+      "ja": "捧げもの陳列テーブル",
+      "ko-KR": "봉헌물 진열대",
+      "no": "Offerutstillingsbord",
+      "pl": "Stół ofertowy",
+      "pt": "Mesa de Exposição de Oferendas",
+      "pt-BR": "Mesa de Exibição de Oferenda",
+      "ru": "Стол для подношений",
+      "sr": "Sto za izlaganje ponuda",
+      "tr": "Adak Sergileme Masası",
+      "uk": "Стіл для підношень",
+      "zh-CN": "供品展示桌",
+      "zh-TW": "供品展示桌"
+    },
+    "type": "Outpost Furniture",
+    "rarity": "Legendary",
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/offering_display_table.png",
+    "updatedAt": "10/27/2026",
+    "addedIn": "2.3"
+  },
+  {
     "id": "official_shutdown_documentation",
     "name": {
       "da": "Officiel dokumentation om nedlukning",
@@ -8616,25 +9601,25 @@
     "id": "ornate_den_bed_design",
     "name": {
       "da": "Udsmykket Opholdsrumssengedesign",
-      "de": "Entwurf: Verziertes Raider-Bett",
+      "de": "Entwurf: Verziertes Budenbett",
       "en": "Ornate Den Bed Design",
-      "es": "Diseño de cama ornamentada de la Guarida",
-      "fr": "Design de Lit de Raider orné",
+      "es": "Diseño de la cama de refugio decorada",
+      "fr": "Design de lit de repaire orné",
       "he": "עיצוב מיטת מאורה מעוטרת",
       "hr": "Ukrašeni dizajn kreveta za sobu",
-      "it": "Design Letto ornato del covo Raider",
-      "ja": "装飾されたレイダーのベッドデザイン",
-      "ko-KR": "화려한 레이더 은신처 침대 디자인",
+      "it": "Design letto tana decorato",
+      "ja": "華美なアジト用ベッドのデザイン",
+      "ko-KR": "화려한 은신처 침대 디자인",
       "no": "Utsmykket Huleseng Design",
-      "pl": "Projekt ozdobnego łóżka do kryjówki łupieżcy",
+      "pl": "Projekt: Zdobione łóżko do kryjówki",
       "pt": "Design de Cama Ornamentada do Refúgio",
-      "pt-BR": "Projeto de Cama Ornamentada da Toca de Raider",
-      "ru": "Схема украшенной кровати рейдерской базы",
+      "pt-BR": "Projeto de Cama de Toca Ornamentada",
+      "ru": "Схема — Затейливая кровать с базы",
       "sr": "Kitnjast dizajn kreveta za odaju",
-      "tr": "Süslü İn Yatağı Tasarımı",
+      "tr": "İşlemeli İn Yatağı Tasarımı",
       "uk": "Дизайн вишуканого ліжка для кабінету",
       "zh-CN": "华丽巢穴床设计图",
-      "zh-TW": "華麗掠手小窩床設計"
+      "zh-TW": "華麗小窩床設計"
     },
     "type": "Design",
     "rarity": "Epic",
@@ -8656,25 +9641,25 @@
     "id": "ornate_den_bed",
     "name": {
       "da": "Udsmykket alkoveseng",
-      "de": "Verziertes Raider-Bett",
+      "de": "Verziertes Budenbett",
       "en": "Ornate Den Bed",
-      "es": "Cama ornamentada de la guarida de Raiders",
-      "fr": "Lit de Raider orné",
+      "es": "Cama de refugio decorada",
+      "fr": "Lit de repaire orné",
       "he": "מיטת מאורה מהודרת",
       "hr": "Ukrašeni krevet za utočište",
-      "it": "Letto ornato del covo Raider",
-      "ja": "装飾されたレイダーのベッド",
-      "ko-KR": "화려한 레이더 은신처 침대",
+      "it": "Letto tana decorato",
+      "ja": "華美なアジト用ベッド",
+      "ko-KR": "화려한 은신처 침대",
       "no": "Utsmykket huleseng",
-      "pl": "Ozdobne łóżko do kryjówki łupieżcy",
+      "pl": "Zdobione łóżko do kryjówki",
       "pt": "Cama Ornamentada de Recanto",
-      "pt-BR": "Cama Ornamentada da Toca de Raider",
-      "ru": "Украшенная кровать рейдерской базы",
+      "pt-BR": "Cama de Toca Ornamentada",
+      "ru": "Затейливая кровать с базы",
       "sr": "Ukrašeni Krevet za Brlog",
-      "tr": "Süslü Raider İni Yatağı",
+      "tr": "İşlemeli İn Yatağı",
       "uk": "Оздоблене ліжко лігва",
-      "zh-CN": "华丽奇袭者巢穴床",
-      "zh-TW": "華麗掠手小窩床"
+      "zh-CN": "华丽巢穴床",
+      "zh-TW": "華麗小窩床"
     },
     "type": "Outpost Furniture",
     "rarity": "Epic",
@@ -8690,25 +9675,25 @@
     "id": "ornate_den_shelf_design",
     "name": {
       "da": "Udsmykket Opholdsrumsreoldesign",
-      "de": "Verziertes Raider-Regal-Entwurf",
+      "de": "Entwurf: Verziertes Budenregal",
       "en": "Ornate Den Shelf Design",
-      "es": "Diseño de estantería ornamentada para la Guarida de Raiders",
-      "fr": "Design de l'Étagère de Raider ornée",
+      "es": "Diseño de la estantería de refugio decorada",
+      "fr": "Design d'étagère de repaire ornée",
       "he": "עיצוב מדף מאורה מעוטר",
       "hr": "Ukrašeni dizajn police za sobu",
-      "it": "Mensola ornata del covo Raider Design",
-      "ja": "装飾されたレイダーの棚のデザイン",
-      "ko-KR": "화려한 레이더 은신처 선반 디자인",
+      "it": "Design mensola tana decorata",
+      "ja": "華美なアジト用棚のデザイン",
+      "ko-KR": "화려한 은신처 선반 디자인",
       "no": "Utsmykket Hulehylle Design",
-      "pl": "Projekt Ozdobnej półki kryjówki łupieżcy",
+      "pl": "Projekt: Zdobiona półka do kryjówki",
       "pt": "Design de Prateleira Ornamentada do Refúgio",
-      "pt-BR": "Projeto de Prateleira Ornamentada da Toca de Raider",
-      "ru": "Схема украшенной полки рейдерской базы",
+      "pt-BR": "Projeto de Prateleira de Toca Ornamentada",
+      "ru": "Схема — Затейливая полка с базы",
       "sr": "Kitnjast dizajn police za odaju",
-      "tr": "Süslü İni Raf Tasarımı",
+      "tr": "İşlemeli İn Rafı Tasarımı",
       "uk": "Дизайн вишуканої полиці для кабінету",
-      "zh-CN": "华丽巢穴架子设计图",
-      "zh-TW": "華麗掠手小窩書架設計"
+      "zh-CN": "华丽巢穴书架设计图",
+      "zh-TW": "華麗小窩層架設計"
     },
     "type": "Design",
     "rarity": "Epic",
@@ -8730,25 +9715,25 @@
     "id": "ornate_den_shelf",
     "name": {
       "da": "Udsmykket alkovehylde",
-      "de": "Verziertes Raider-Regal",
+      "de": "Verziertes Budenregal",
       "en": "Ornate Den Shelf",
-      "es": "Estantería ornamentada de la guarida de Raiders",
-      "fr": "Étagère de Raider ornée",
+      "es": "Estantería de refugio decorada",
+      "fr": "Étagère de repaire ornée",
       "he": "מדף מאורה מהודר",
       "hr": "Ukrašena polica za utočište",
-      "it": "Mensola ornata del covo Raider",
-      "ja": "装飾されたレイダーの棚",
-      "ko-KR": "화려한 레이더 은신처 선반",
+      "it": "Mensola tana decorata",
+      "ja": "華美なアジト用棚",
+      "ko-KR": "화려한 은신처 선반",
       "no": "Utsmykket hulehylle",
-      "pl": "Ozdobna półka kryjówki łupieżcy",
+      "pl": "Zdobiona półka do kryjówki",
       "pt": "Prateleira Ornamentada de Recanto",
-      "pt-BR": "Prateleira Ornamentada da Toca de Raider",
-      "ru": "Украшенная полка рейдерской базы",
+      "pt-BR": "Prateleira de Toca Ornamentada",
+      "ru": "Затейливая полка с базы",
       "sr": "Ukrašena Polica za Brlog",
-      "tr": "Süslü Raider İni Rafı",
+      "tr": "İşlemeli İn Rafı",
       "uk": "Оздоблена полиця лігва",
-      "zh-CN": "华丽奇袭者巢穴架子",
-      "zh-TW": "華麗掠手小窩書架"
+      "zh-CN": "华丽巢穴书架",
+      "zh-TW": "華麗小窩層架"
     },
     "type": "Outpost Furniture",
     "rarity": "Epic",
@@ -8766,20 +9751,20 @@
       "da": "Udsmykket Stash-design",
       "de": "Entwurf: Verziertes Lager",
       "en": "Ornate Stash Design",
-      "es": "Diseño de Alijo ornamentado",
-      "fr": "Design de Réserve ornée",
+      "es": "Diseño de la caja fuerte decorada",
+      "fr": "Design de réserve ornée",
       "he": "עיצוב מחסן מעוטר",
       "hr": "Ukrašeni dizajn spremnika",
-      "it": "Design del Deposito ornato",
-      "ja": "装飾された保管庫のデザイン",
+      "it": "Design deposito decorato",
+      "ja": "華美な保管庫のデザイン",
       "ko-KR": "화려한 보관함 디자인",
       "no": "Utsmykket Lagerdesign",
-      "pl": "Projekt Ozdobnej skrytki",
+      "pl": "Projekt: Zdobiona skrytka",
       "pt": "Design de Estoque Ornamentado",
-      "pt-BR": "Projeto de Armazenamento Ornamentado",
-      "ru": "Схема: Украшенное хранилище",
+      "pt-BR": "Projeto de Estoque Ornamentado",
+      "ru": "Схема — Затейливый сейф",
       "sr": "Kitnjast dizajn skladišta",
-      "tr": "Süslemeli Zula Tasarımı",
+      "tr": "İşlemeli Zula Tasarımı",
       "uk": "Дизайн вишуканої схованки",
       "zh-CN": "华丽储备箱设计图",
       "zh-TW": "華麗儲藏箱設計"
@@ -8806,20 +9791,20 @@
       "da": "Udsmykket lager",
       "de": "Verziertes Lager",
       "en": "Ornate Stash",
-      "es": "Alijo ornamentado",
+      "es": "Caja fuerte decorada",
       "fr": "Réserve ornée",
       "he": "מטמון מהודר",
       "hr": "Ukrašeno skladište",
-      "it": "Deposito ornato",
-      "ja": "装飾された保管庫",
+      "it": "Deposito decorato",
+      "ja": "華美な保管庫",
       "ko-KR": "화려한 보관함",
       "no": "Utsmykket lagerenhet",
-      "pl": "Ozdobna skrytka",
+      "pl": "Zdobiona skrytka",
       "pt": "Baú Ornamentado",
-      "pt-BR": "Armazenamento Ornamentado",
-      "ru": "Украшенное хранилище",
+      "pt-BR": "Estoque Ornamentado",
+      "ru": "Затейливый сейф",
       "sr": "Ukrašeni Sejf",
-      "tr": "Süslü Zula",
+      "tr": "İşlemeli Zula",
       "uk": "Оздоблена схованка",
       "zh-CN": "华丽储备箱",
       "zh-TW": "華麗儲藏箱"
@@ -8838,22 +9823,22 @@
     "id": "ornate_wardrobe_design",
     "name": {
       "da": "Udsmykket Garderobeskabsdesign",
-      "de": "Verzierter Kleiderschrank-Entwurf",
+      "de": "Entwurf: Verzierter Kleiderschrank",
       "en": "Ornate Wardrobe Design",
-      "es": "Diseño de Armario Ornamentado",
-      "fr": "Design de Garde-robe ornée",
+      "es": "Diseño del ropero decorado",
+      "fr": "Design d'armoire ornée",
       "he": "עיצוב ארון בגדים מעוטר",
       "hr": "Ukrašeni dizajn ormara",
-      "it": "Design del Guardaroba ornato",
-      "ja": "装飾されたワードローブのデザイン",
+      "it": "Design guardaroba decorato",
+      "ja": "華美なワードローブのデザイン",
       "ko-KR": "화려한 옷장 디자인",
       "no": "Utsmykket Garderobedesign",
-      "pl": "Projekt ozdobnej szafy",
+      "pl": "Projekt: Zdobiona szafa",
       "pt": "Design de Guarda-Roupa Ornamentado",
       "pt-BR": "Projeto de Guarda-roupa Ornamentado",
-      "ru": "Схема: Украшенный шкаф для одежды",
+      "ru": "Схема — Затейливый шкаф",
       "sr": "Kitnjast dizajn ormara",
-      "tr": "Süslemeli Gardırop Tasarımı",
+      "tr": "İşlemeli Gardırop Tasarımı",
       "uk": "Дизайн вишуканої шафи",
       "zh-CN": "华丽衣柜设计图",
       "zh-TW": "華麗衣櫥設計"
@@ -8883,20 +9868,20 @@
       "da": "Udsmykket garderobeskab",
       "de": "Verzierter Kleiderschrank",
       "en": "Ornate Wardrobe",
-      "es": "Armario ornamentado",
-      "fr": "Garde-robe ornée",
+      "es": "Ropero decorado",
+      "fr": "Armoire ornée",
       "he": "ארון בגדים מהודר",
       "hr": "Ukrašeni ormar",
-      "it": "Guardaroba ornato",
-      "ja": "装飾されたワードローブ",
+      "it": "Guardaroba decorato",
+      "ja": "華美なワードローブ",
       "ko-KR": "화려한 옷장",
       "no": "Utsmykket garderobeskap",
-      "pl": "Ozdobna szafa",
+      "pl": "Zdobiona szafa",
       "pt": "Guarda-roupa Ornamentado",
       "pt-BR": "Guarda-roupa Ornamentado",
-      "ru": "Украшенный шкаф для одежды",
+      "ru": "Затейливый шкаф",
       "sr": "Ukrašeni Garderober",
-      "tr": "Süslü Gardırop",
+      "tr": "İşlemeli Gardırop",
       "uk": "Оздоблений гардероб",
       "zh-CN": "华丽衣柜",
       "zh-TW": "華麗衣櫥"
@@ -12170,7 +13155,7 @@
       "tr": "Kartal I",
       "uk": "Оспрей I",
       "zh-CN": "鱼鹰 I",
-      "zh-TW": "魚鷹I"
+      "zh-TW": "魚鷹 I"
     },
     "description": {
       "da": "En bolt-action snigskytteriffel med kikkertsigte, pålidelig skade og præcision.",
@@ -12736,7 +13721,7 @@
       "tr": "Kartal II",
       "uk": "Оспрей II",
       "zh-CN": "鱼鹰 II",
-      "zh-TW": "魚鷹II"
+      "zh-TW": "魚鷹 II"
     },
     "description": {
       "da": "En bolt-action snigskytteriffel med kikkertsigte, pålidelig skade og præcision.",
@@ -13367,7 +14352,7 @@
       "tr": "Kartal III",
       "uk": "Оспрей III",
       "zh-CN": "鱼鹰 III",
-      "zh-TW": "魚鷹III"
+      "zh-TW": "魚鷹 III"
     },
     "description": {
       "da": "En bolt-action snigskytteriffel med kikkertsigte, pålidelig skade og præcision.",
@@ -13979,1136 +14964,5 @@
       }
     ],
     "upgradesTo": "osprey_iv"
-  },
-  {
-    "id": "osprey_iv",
-    "name": {
-      "da": "Fiskeørn IV",
-      "de": "Osprey IV",
-      "en": "Osprey IV",
-      "es": "Halieto IV",
-      "fr": "Balbuzard IV",
-      "he": "אוספריי IV",
-      "hr": "Bukoč IV",
-      "it": "Falco pescatore IV",
-      "ja": "オスプレー IV",
-      "ko-KR": "오스프레이 IV",
-      "no": "Fiskeørn IV",
-      "pl": "Rybołów IV",
-      "pt": "Águia-Pescadora IV",
-      "pt-BR": "Águia-Pescadora IV",
-      "ru": "Ястреб IV",
-      "sr": "Orao ribar IV",
-      "tr": "Kartal IV",
-      "uk": "Оспрей IV",
-      "zh-CN": "鱼鹰 IV",
-      "zh-TW": "魚鷹IV"
-    },
-    "description": {
-      "da": "En bolt-action snigskytteriffel med kikkertsigte, pålidelig skade og præcision.",
-      "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, das soliden Schaden anrichtet und gute Genauigkeit bietet.",
-      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-      "es": "Fusil de francotirador de cerrojo con mira que tiene un daño y una precisión fiables.",
-      "fr": "Un fusil de précision à verrou doté d'une lunette. Précision et puissance de feu fiables.",
-      "he": "רובה צלפים בעל פעולת בריח וכוונת, עם תפוקת נזק ודיוק אמינים.",
-      "hr": "Repetirajuća snajperska puška s optikom, pouzdanom štetom i preciznošću.",
-      "it": "Fucile di precisione bolt-action con mirino, con potenza di danno e precisione affidabili.",
-      "ja": "スコープが付いたボルトアクションのスナイパーライフル。ダメージ量と命中率が安定している。",
-      "ko-KR": "피해량과 정확도가 준수하고, 조준경이 달린 볼트 액션 저격 소총입니다.",
-      "no": "En bolt-action snikskytterrifle med kikkertsikte, med pålitelig skade og presisjon.",
-      "pl": "Karabin snajperski typu bolt-action z lunetą. Cechuje się solidnym potencjałem obrażeń i celnością.",
-      "pt": "Um fuzil de precisão com mira telescópica e ação por ferrolho, com dano causado e precisão confiáveis.",
-      "pt-BR": "Fuzil de precisão de ação de ferrolho e luneta, com poder de fogo e precisão confiáveis.",
-      "ru": "Снайперская винтовка с оптический прицелом и скользящим затвором. Стабильно наносит урон и отличается высокой точностью.",
-      "sr": "Snajperska puška repetirka sa optikom, pouzdanom štetom i preciznošću.",
-      "tr": "İyi bir hasar ve isabet oranı sunan sürgülü bir keskin nişancı tüfeği.",
-      "uk": "Снайперська гвинтівка з ковзним затвором і прицілом, що забезпечує стабільну шкоду та точність.",
-      "zh-CN": "带瞄准镜的栓动式狙击步枪，伤害和精准度均较高。",
-      "zh-TW": "附有瞄準鏡的栓式狙擊槍，具有穩定的傷害輸出和精準度。"
-    },
-    "type": "Sniper Rifle",
-    "rarity": "Rare",
-    "value": 17000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Medium Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Tip municije",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип боеприпасов",
-        "sr": "Tip municije",
-        "tr": "Mermi Tipi",
-        "uk": "Тип боєприпасів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Moderate",
-        "da": "ARC rustningspenetrering",
-        "de": "ARC-Rüstungsdurchdringung",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración de armadura ARC",
-        "fr": "Pénétration d'armure ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC アーマー貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC rustningspenetrering",
-        "pl": "Przebicie pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delme",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC 护甲穿透",
-        "zh-TW": "ARC 護甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Damage Falloff Range": {
-        "value": "150-170 m",
-        "da": "Skadesfald-afstand",
-        "de": "Schadensabfall-Reichweite",
-        "en": "Damage Falloff Range",
-        "es": "Alcance de pérdida de daño",
-        "fr": "Portée de perte de dégâts",
-        "he": "טווח דעיכת נזק",
-        "hr": "Domet opadanja štete",
-        "it": "Raggio di calo del danno",
-        "ja": "ダメージ減衰距離",
-        "ko-KR": "피해 감소 거리",
-        "no": "Skadefall-rekkevidde",
-        "pl": "Zasięg spadku obrażeń",
-        "pt": "Alcance da queda de dano",
-        "pt-BR": "Alcance da queda de dano",
-        "ru": "Дистанция спада урона",
-        "sr": "Domet opadanja štete",
-        "tr": "Hasar Azalma Menzili",
-        "uk": "Дистанція спаду шкоди",
-        "zh-CN": "伤害衰减距离",
-        "zh-TW": "傷害衰減距離"
-      },
-      "Durability": {
-        "value": "130/130",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久性",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Firing Mode": {
-        "value": "Bolt-Action",
-        "da": "Skydningstilstand",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način paljbe",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skyttemodus",
-        "pl": "Tryb ognia",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Režim paljbe",
-        "tr": "Ateş Modu",
-        "uk": "Режим вогню",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Magazine Size": {
-        "value": 8,
-        "da": "Magasinstørrelse",
-        "de": "Magazingröße",
-        "en": "Magazine Size",
-        "es": "Tamaño del cargador",
-        "fr": "Taille du chargeur",
-        "he": "גודל מחסנית",
-        "hr": "Veličina spremnika",
-        "it": "Capacità caricatore",
-        "ja": "マガジンサイズ",
-        "ko-KR": "탄창 크기",
-        "no": "Magasinstørrelse",
-        "pl": "Pojemność magazynka",
-        "pt": "Tamanho do carregador",
-        "pt-BR": "Tamanho do Pente",
-        "ru": "Размер магазина",
-        "sr": "Veličina okvira",
-        "tr": "Şarjör Kapasitesi",
-        "uk": "Розмір магазину",
-        "zh-CN": "弹匣容量",
-        "zh-TW": "彈匣容量"
-      },
-      "Reduced Bolt Action Time": {
-        "value": "60%",
-        "da": "Reduceret bundstykketid",
-        "de": "Reduzierte Repetierzeit",
-        "en": "Reduced Bolt Action Time",
-        "es": "Tiempo de acción del cerrojo reducido",
-        "fr": "Temps d'action du verrou réduit",
-        "he": "זמן דריכה מופחת",
-        "hr": "Smanjeno vrijeme repetiranja",
-        "it": "Tempo di azionamento otturatore ridotto",
-        "ja": "ボルトアクション時間短縮",
-        "ko-KR": "볼트 작동 시간 감소",
-        "no": "Redusert repeteringstid",
-        "pl": "Skrócony czas przeładowania zamka",
-        "pt": "Tempo de ação do ferrolho reduzido",
-        "pt-BR": "Tempo de Ação do Ferrolho Reduzido",
-        "ru": "Уменьшенное время перезарядки затвора",
-        "sr": "Smanjeno vreme repetiranja",
-        "tr": "Azaltılmış Sürgü Süresi",
-        "uk": "Зменшений час перезарядження затвора",
-        "zh-CN": "减少拉栓时间",
-        "zh-TW": "減少拉栓時間"
-      },
-      "Reduced Bolt-Action Time": {
-        "value": "60%",
-        "da": "Reduceret Bolt-Action Tid",
-        "de": "Verkürzte Repetierzeit",
-        "en": "Reduced Bolt-Action Time",
-        "es": "Tiempo de cerrojo reducido",
-        "fr": "Temps de réarmement réduit",
-        "he": "זמן פעולת בריח מופחת",
-        "hr": "Smanjeno vrijeme repetiranja",
-        "it": "Ciclo otturatore ridotto",
-        "ja": "ボルトアクション時間短縮",
-        "ko-KR": "볼트액션 시간 감소",
-        "no": "Redusert bolttid",
-        "pl": "Szybsze ryglowanie zamka",
-        "pt": "Tempo de Ferrolho Reduzido",
-        "pt-BR": "Tempo de Ferrolhamento Reduzido",
-        "ru": "Ускорение затвора",
-        "sr": "Smanjeno Vreme Repetiranja",
-        "tr": "Bolt-Aksiyon Süresi Azaltma",
-        "uk": "Зменшений час роботи затвора",
-        "zh-CN": "栓动时间缩短",
-        "zh-TW": "縮短栓動時間"
-      },
-      "Reduced Reload Time": {
-        "value": "37.5%",
-        "da": "Reduceret genladningstid",
-        "de": "Reduzierte Nachladezeit",
-        "en": "Reduced Reload Time",
-        "es": "Tiempo de recarga reducido",
-        "fr": "Temps de rechargement réduit",
-        "he": "זמן טעינה מופחת",
-        "hr": "Smanjeno vrijeme punjenja",
-        "it": "Tempo di ricarica ridotto",
-        "ja": "リロード時間短縮",
-        "ko-KR": "재장전 시간 감소",
-        "no": "Redusert ladetid",
-        "pl": "Skrócony czas przeładowania",
-        "pt": "Tempo de recarga reduzido",
-        "pt-BR": "Tempo de Recarga Reduzido",
-        "ru": "Уменьшенное время перезарядки",
-        "sr": "Smanjeno vreme punjenja",
-        "tr": "Azaltılmış Şarjör Değiştirme Süresi",
-        "uk": "Зменшений час перезарядження",
-        "zh-CN": "减少装填时间",
-        "zh-TW": "減少裝填時間"
-      },
-      "Special Trait": {
-        "value": "Scoped",
-        "da": "Særlig egenskab",
-        "de": "Besondere Eigenschaft",
-        "en": "Special Trait",
-        "es": "Rasgo especial",
-        "fr": "Trait spécial",
-        "he": "תכונה מיוחדת",
-        "hr": "Posebna osobina",
-        "it": "Caratteristica speciale",
-        "ja": "特殊特性",
-        "ko-KR": "특수 특성",
-        "no": "Spesiell egenskap",
-        "pl": "Cecha specjalna",
-        "pt": "Traço especial",
-        "pt-BR": "Característica especial",
-        "ru": "Особая черта",
-        "sr": "Posebna osobina",
-        "tr": "Özel Özellik",
-        "uk": "Особлива риса",
-        "zh-CN": "特殊特性",
-        "zh-TW": "特殊特性"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "recyclesInto": {
-      "advanced_mechanical_components": 3,
-      "medium_gun_parts": 3
-    },
-    "salvagesInto": {
-      "medium_gun_parts": 3
-    },
-    "upgradeCost": {
-      "advanced_mechanical_components": 2,
-      "medium_gun_parts": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_iv.png",
-    "updatedAt": "02/24/2026",
-    "_community": [
-      "damage",
-      "fireRate",
-      "range",
-      "stability",
-      "agility",
-      "stealth"
-    ],
-    "addedIn": "base",
-    "agility": 45.9,
-    "damage": 45,
-    "fireRate": 17.7,
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.SniperRifle",
-        "dropType": [
-          "Equipment.Weapon.Firearm.MediumAmmo"
-        ],
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.MediumAmmoWeapon",
-          "Items.SpecificWeapon.Osprey"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "medium_ammo",
-        "arc": {
-          "armorMultiplier": 0.8,
-          "propagationMultiplier": 0.4,
-          "weakSpotMultiplier": 1
-        },
-        "base": {
-          "adsTimeSec": 1,
-          "burnRate": 0.00675,
-          "burstSize": 1,
-          "clipSize": 8,
-          "cooldownSec": 1.5,
-          "firePower": 90000,
-          "fireRate": 45,
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 45,
-          "reloadTimeSec": 3.5
-        },
-        "damageFalloff": [
-          [
-            0,
-            1.001
-          ],
-          [
-            15,
-            1.001
-          ],
-          [
-            150,
-            1.001
-          ],
-          [
-            170,
-            0.6
-          ]
-        ],
-        "dispersion": {
-          "adsScale": 0,
-          "fireGain": [
-            [
-              0.196259,
-              5,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "fireMax": 8,
-          "max": 30,
-          "perStance": {
-            "crouching": {
-              "dispersion": 5,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "crouchMoving": {
-              "dispersion": 5,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "falling": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "sprinting": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standing": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standMoving": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "uncontrollable": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            }
-          },
-          "popMax": 0,
-          "recoverySpeed": 0.8,
-          "unset": [
-            "min",
-            "adsDuration",
-            "adsRecoveryMultiplier",
-            "velocityMax",
-            "velocity",
-            "velocityRecovery",
-            "popRecoverySpeed",
-            "linearRecovery"
-          ]
-        },
-        "equipTimeSec": 1.1,
-        "headshotMultiplier": 2,
-        "modifiers": {
-          "cooldownTime": -0.3,
-          "durabilityBurnRate": -0.6,
-          "reloadTime": -1
-        },
-        "projectileGravityScale": 0.6,
-        "projectileInitialSpeedMs": 350,
-        "projectileRadiusM": 0.1,
-        "recoil": {
-          "adsGainMultiplier": 0.45,
-          "lerpSpeed": 0.3,
-          "pitch": [
-            [
-              0,
-              0,
-              24.157364,
-              0,
-              "linear"
-            ],
-            [
-              1,
-              10,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "pitchProceduralRange": [
-            -0.1,
-            1
-          ],
-          "recoveryDelay": 0.5,
-          "recoverySpeed": 2,
-          "sampleCount": 5,
-          "unset": [
-            "yawProceduralRange",
-            "proceduralSwingSpeed"
-          ],
-          "yaw": [
-            [
-              0,
-              0,
-              -3.74278,
-              0,
-              "linear"
-            ],
-            [
-              1,
-              -2.5,
-              0,
-              0,
-              "linear"
-            ]
-          ]
-        },
-        "statBarOffsets": {
-          "agility": 1,
-          "fireRate": 0.5
-        },
-        "tier": 4,
-        "unequipTimeSec": 0.6
-      }
-    },
-    "modSlots": {
-      "grip": [
-        "angled_grip_i",
-        "angled_grip_ii",
-        "angled_grip_iii",
-        "horizontal_grip",
-        "vertical_grip_i",
-        "vertical_grip_ii",
-        "vertical_grip_iii"
-      ],
-      "magazine": [
-        "extended_medium_mag_i",
-        "extended_medium_mag_ii",
-        "extended_medium_mag_iii"
-      ],
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "range": 80.3,
-    "repairCost": {
-      "advanced_mechanical_components": 3,
-      "medium_gun_parts": 3
-    },
-    "repairDurability": 0.5,
-    "stability": 89.4,
-    "stealth": 12,
-    "upgrades": [
-      {
-        "cost": {
-          "amplification_module_mk_iii": 1
-        },
-        "requires": [
-          {
-            "level": 4,
-            "station": "weapon_bench"
-          }
-        ],
-        "to": "osprey_amplified"
-      }
-    ],
-    "upgradesTo": "osprey_amplified"
-  },
-  {
-    "id": "padded_stock_blueprint",
-    "name": {
-      "da": "Blåttryk: Polstret kolbe",
-      "de": "Bauplan: Gepolsterter Kolben",
-      "en": "Padded Stock Blueprint",
-      "es": "Proyecto de la culata acolchada",
-      "fr": "Schéma de crosse rembourrée",
-      "he": "שרטוט קת מרופדת",
-      "hr": "Nacrt: Podstavljeno kundak",
-      "it": "Progetto calcio imbottito",
-      "ja": "パッド付き銃床の設計図",
-      "ko-KR": "패드 개머리판 설계도",
-      "no": "Blåkopi: Polstret kolbe",
-      "pl": "Plan: wyściełana kolba",
-      "pt": "Projeto: Coronha acolchoada",
-      "pt-BR": "Esquema de Coronha com Almofada",
-      "ru": "Чертеж — Обитый приклад",
-      "sr": "Nacrt: Podstavljeno kundak",
-      "tr": "Yastıklı Dipçik Taslağı",
-      "uk": "Креслення: М'який приклад",
-      "zh-CN": "减震枪托蓝图",
-      "zh-TW": "加墊槍托藍圖"
-    },
-    "description": {
-      "da": "Lader dig fremstille en polstret kolbe",
-      "de": "Damit stellst du einen gepolsterten Kolben her",
-      "en": "Lets you craft a Padded Stock",
-      "es": "Te permite fabricar una culata acolchada.",
-      "fr": "Vous permet de fabriquer une crosse rembourrée",
-      "he": "מאפשר לך ליצור קת מרופדת",
-      "hr": "Omogućuje izradu podstavljenog kundaka",
-      "it": "Ti permette di creare un calcio imbottito",
-      "ja": "パッド・ストックが製作可能になる",
-      "ko-KR": "패드 개머리판 제작법입니다.",
-      "no": "Lar deg lage en polstret kolbe",
-      "pl": "Pozwala wytworzyć wyściełaną kolbę",
-      "pt": "Permite fabricar uma Coronha Acolchoada",
-      "pt-BR": "Permite fabricar uma Coronha com Almofada",
-      "ru": "Позволяет создать обитый приклад.",
-      "sr": "Omogućava izradu tapaciranog kundaka",
-      "tr": "Yastıklı Dipçik üretmeni sağlar",
-      "uk": "Дозволяє створити пом'якшений приклад",
-      "zh-CN": "可以制作减震枪托",
-      "zh-TW": "可製作加墊槍托"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/padded_stock_blueprint.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Recipe",
-        "dropType": [
-          "Recipe"
-        ],
-        "itemType": [
-          "Recipe"
-        ]
-      }
-    }
-  },
-  {
-    "id": "padded_stock",
-    "name": {
-      "da": "Polstret kolbe",
-      "de": "Gepolsterter Kolben",
-      "en": "Padded Stock",
-      "es": "Culata acolchada",
-      "fr": "Crosse rembourrée",
-      "he": "קת מרופדת",
-      "hr": "Podstavljeno kundak",
-      "it": "Calcio imbottito",
-      "ja": "パッド・ストック",
-      "ko-KR": "패드 개머리판",
-      "no": "Polstret kolbe",
-      "pl": "Wyściełana kolba",
-      "pt": "Coronha acolchoada",
-      "pt-BR": "Coronha com Almofada",
-      "ru": "Обитый приклад",
-      "sr": "Podstavljeno kundak",
-      "tr": "Yastıklı Dipçik",
-      "uk": "М'який приклад",
-      "zh-CN": "减震枪托",
-      "zh-TW": "加墊槍托"
-    },
-    "description": {
-      "da": "Forbedrer stabiliteten betydeligt.",
-      "de": "Erhöht die Stabilität erheblich.",
-      "en": "Significantly improves stability.",
-      "es": "Aumenta significativamente la estabilidad.",
-      "fr": "Améliore considérablement la stabilité.",
-      "he": "משפר את היציבות באופן משמעותי.",
-      "hr": "Znatno poboljšava stabilnost.",
-      "it": "Migliora significativamente la stabilità.",
-      "ja": "安定性が大幅に上昇する。",
-      "ko-KR": "안정성을 상당히 높여줍니다.",
-      "no": "Forbedrer stabiliteten betydelig.",
-      "pl": "Znacznie zwiększa stabilność.",
-      "pt": "Melhora significativamente a estabilidade.",
-      "pt-BR": "Melhora de forma significativa a estabilidade.",
-      "ru": "Значительно улучшает устойчивость оружия.",
-      "sr": "Značajno poboljšava stabilnost.",
-      "tr": "Stabiliteyi önemli ölçüde artırır.",
-      "uk": "Значно покращує стабільність.",
-      "zh-CN": "大幅度提高稳定性。",
-      "zh-TW": "大幅改善穩定性。"
-    },
-    "type": "Modification",
-    "rarity": "Epic",
-    "value": 5000,
-    "weightKg": 0.5,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Aphelion",
-      "Arpeggio",
-      "Bettina",
-      "Bobcat",
-      "Canto",
-      "Ferro",
-      "Hullcracker",
-      "Il Toro",
-      "Kettle",
-      "Osprey",
-      "Rattler",
-      "Renegade",
-      "Stiletto",
-      "Stitcher",
-      "Torrente",
-      "Vulcano"
-    ],
-    "blueprintLocked": true,
-    "effects": {
-      "Increased Equip Time": {
-        "value": "20%",
-        "da": "Øget udstyrstid",
-        "de": "Erhöhte Ausrüstungszeit",
-        "en": "Increased Equip Time",
-        "es": "Tiempo de equipamiento aumentado",
-        "fr": "Temps d'équipement augmenté",
-        "he": "זמן שליפה מוגבר",
-        "hr": "Povećano vrijeme opremanja",
-        "it": "Tempo di equipaggiamento aumentato",
-        "ja": "装備時間増加",
-        "ko-KR": "장착 시간 증가",
-        "no": "Økt utstyringstid",
-        "pl": "Zwiększony czas dobywania",
-        "pt": "Tempo de equipar aumentado",
-        "pt-BR": "Tempo de Equipar Aumentado",
-        "ru": "Увеличенное время экипировки",
-        "sr": "Povećano vreme opremanja",
-        "tr": "Artırılmış Kuşanma Süresi",
-        "uk": "Збільшений час екіпірування",
-        "zh-CN": "增加装备时间",
-        "zh-TW": "增加裝備時間"
-      },
-      "Increased Unequip Time": {
-        "value": "20%",
-        "da": "Øget afmonteringstid",
-        "de": "Erhöhte Ablagezeit",
-        "en": "Increased Unequip Time",
-        "es": "Tiempo de desequipamiento aumentado",
-        "fr": "Temps de déséquipement augmenté",
-        "he": "זמן החזרה מוגבר",
-        "hr": "Povećano vrijeme skidanja",
-        "it": "Tempo di rimozione aumentato",
-        "ja": "収納時間増加",
-        "ko-KR": "해제 시간 증가",
-        "no": "Økt avutstyringstid",
-        "pl": "Zwiększony czas chowania",
-        "pt": "Tempo de desequipar aumentado",
-        "pt-BR": "Tempo de Desequipar Aumentado",
-        "ru": "Увеличенное время снятия",
-        "sr": "Povećano vreme skidanja",
-        "tr": "Artırılmış Çıkarma Süresi",
-        "uk": "Збільшений час зняття",
-        "zh-CN": "增加卸下时间",
-        "zh-TW": "增加卸下時間"
-      },
-      "Reduced ADS Speed": {
-        "value": "30%",
-        "da": "Reduceret sigtehastighed",
-        "de": "Verringerte Zielgeschwindigkeit",
-        "en": "Reduced ADS Speed",
-        "es": "Velocidad de apuntado reducida",
-        "fr": "Vitesse de visée réduite",
-        "he": "מהירות כניסה לכוונת מופחתת",
-        "hr": "Smanjena brzina nišanjenja",
-        "it": "Velocità di mira ridotta",
-        "ja": "ADS速度低下",
-        "ko-KR": "조준 속도 감소",
-        "no": "Redusert siktehastighet",
-        "pl": "Zmniejszona szybkość celowania",
-        "pt": "Velocidade de mira reduzida",
-        "pt-BR": "Velocidade de Mira Reduzida",
-        "ru": "Уменьшенная скорость прицеливания",
-        "sr": "Smanjena brzina nišanjenja",
-        "tr": "Azaltılmış Nişan Alma Hızı",
-        "uk": "Зменшена швидкість прицілювання",
-        "zh-CN": "降低瞄准速度",
-        "zh-TW": "降低瞄準速度"
-      },
-      "Reduced Horizontal Recoil": {
-        "value": "15%",
-        "da": "Reduceret horisontal rekyl",
-        "de": "Verringerter horizontaler Rückstoß",
-        "en": "Reduced Horizontal Recoil",
-        "es": "Retroceso horizontal reducido",
-        "fr": "Recul horizontal réduit",
-        "he": "רתע אופקי מופחת",
-        "hr": "Smanjen horizontalni trzaj",
-        "it": "Rinculo orizzontale ridotto",
-        "ja": "水平反動軽減",
-        "ko-KR": "수평 반동 감소",
-        "no": "Redusert horisontal rekyl",
-        "pl": "Zmniejszony odrzut poziomy",
-        "pt": "Recuo horizontal reduzido",
-        "pt-BR": "Redução no Recuo Horizontal",
-        "ru": "Уменьшенная горизонтальная отдача",
-        "sr": "Smanjen horizontalni trzaj",
-        "tr": "Azaltılmış Yatay Tepme",
-        "uk": "Зменшена горизонтальна віддача",
-        "zh-CN": "降低水平后坐力",
-        "zh-TW": "降低水平後座力"
-      },
-      "Reduced Per-Shot Dispersion": {
-        "value": "20%",
-        "da": "Reduceret spredning pr. skud",
-        "de": "Verringerte Streuung pro Schuss",
-        "en": "Reduced Per-Shot Dispersion",
-        "es": "Dispersión por disparo reducida",
-        "fr": "Dispersion par tir réduite",
-        "he": "פיזור לכל ירייה מופחת",
-        "hr": "Smanjeno rasipanje po hicu",
-        "it": "Dispersione per colpo ridotta",
-        "ja": "射撃ごとの拡散軽減",
-        "ko-KR": "발사당 분산도 감소",
-        "no": "Redusert spredning per skudd",
-        "pl": "Zmniejszone rozrzucenie na strzał",
-        "pt": "Dispersão por tiro reduzida",
-        "pt-BR": "Dispersão por Tiro Reduzida",
-        "ru": "Уменьшенный разброс за выстрел",
-        "sr": "Smanjeno rasipanje po hicu",
-        "tr": "Azaltılmış Atış Başına Dağılma",
-        "uk": "Зменшене розсіювання за постріл",
-        "zh-CN": "降低每发散布",
-        "zh-TW": "降低每發散布"
-      },
-      "Reduced Vertical Recoil": {
-        "value": "15%",
-        "da": "Reduceret vertikal rekyl",
-        "de": "Verringerter vertikaler Rückstoß",
-        "en": "Reduced Vertical Recoil",
-        "es": "Retroceso vertical reducido",
-        "fr": "Recul vertical réduit",
-        "he": "רתע אנכי מופחת",
-        "hr": "Smanjen vertikalni trzaj",
-        "it": "Rinculo verticale ridotto",
-        "ja": "垂直反動軽減",
-        "ko-KR": "수직 반동 감소",
-        "no": "Redusert vertikal rekyl",
-        "pl": "Zmniejszony odrzut pionowy",
-        "pt": "Recuo vertical reduzido",
-        "pt-BR": "Redução no Recuo Vertical",
-        "ru": "Уменьшенная вертикальная отдача",
-        "sr": "Smanjen vertikalni trzaj",
-        "tr": "Azaltılmış Dikey Tepme",
-        "uk": "Зменшена вертикальна віддача",
-        "zh-CN": "降低垂直后坐力",
-        "zh-TW": "降低垂直後座力"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "stationLevelRequired": 3,
-    "recipe": {
-      "duct_tape": 5,
-      "mod_components": 2
-    },
-    "recyclesInto": {
-      "duct_tape": 1,
-      "mod_components": 1
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/padded_stock.png",
-    "updatedAt": "03/22/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Modification.Firearm.Stock",
-        "dropType": [
-          "Equipment.Modification.Weapon"
-        ],
-        "itemType": [
-          "Modification.Firearm.Stock"
-        ]
-      },
-      "mod": {
-        "modifiers": [
-          {
-            "amount": 15,
-            "benefit": "positive",
-            "direction": "down",
-            "stat": "verticalRecoil",
-            "unit": "percent"
-          },
-          {
-            "amount": 15,
-            "benefit": "positive",
-            "direction": "down",
-            "stat": "horizontalRecoil",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "positive",
-            "direction": "down",
-            "stat": "fireDispersionGain",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "negative",
-            "direction": "up",
-            "stat": "equipTime",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "negative",
-            "direction": "up",
-            "stat": "unequipTime",
-            "unit": "percent"
-          },
-          {
-            "amount": 30,
-            "benefit": "negative",
-            "direction": "down",
-            "stat": "adsSpeed",
-            "unit": "percent"
-          }
-        ],
-        "ops": [
-          {
-            "addMultiply": 0.85,
-            "stat": "horizontalRecoil"
-          },
-          {
-            "addMultiply": 0.85,
-            "stat": "verticalRecoil"
-          },
-          {
-            "addMultiply": 0.8,
-            "stat": "fireDispersionGain"
-          },
-          {
-            "addMultiply": 0.7,
-            "stat": "zoomSpeed"
-          },
-          {
-            "addMultiply": 1.2,
-            "stat": "equipTime"
-          },
-          {
-            "addMultiply": 1.2,
-            "stat": "unequipTime"
-          }
-        ]
-      }
-    },
-    "vendors": [
-      {
-        "cost": {
-          "coins": 15000
-        },
-        "limit": 1,
-        "refreshSeconds": 86400,
-        "requiredLevel": 20,
-        "trader": "Tian Wen"
-      }
-    ]
-  },
-  {
-    "id": "painted_box",
-    "name": {
-      "da": "Malet kasse",
-      "de": "Bemalte Schachtel",
-      "en": "Painted Box",
-      "es": "Caja pintada",
-      "fr": "Boîte peinte",
-      "he": "קופסה צבועה",
-      "hr": "Oslikana Kutija",
-      "it": "Scatola dipinta",
-      "ja": "ペンキが塗られた箱",
-      "ko-KR": "페인트칠한 상자",
-      "no": "Malt boks",
-      "pl": "Pomalowane pudełko",
-      "pt": "Caixa pintada",
-      "pt-BR": "Caixa Pintada",
-      "ru": "Раскрашенная коробка",
-      "sr": "Oslikana Kutija",
-      "tr": "Boyalı Kutu",
-      "uk": "Розписна скринька",
-      "zh-CN": "彩绘盒子",
-      "zh-TW": "彩繪盒"
-    },
-    "description": {
-      "da": "Kan være nogle mønter værd.",
-      "de": "Vielleicht ein paar Münzen wert.",
-      "en": "May be worth a few coins.",
-      "es": "Puede venderse por algunas monedas.",
-      "fr": "Pourrait rapporter quelques pièces.",
-      "he": "עשויה להיות שווה כמה מטבעות.",
-      "hr": "Možda vrijedi nekoliko novčića.",
-      "it": "Potrebbe valere qualcosina.",
-      "ja": "コイン数枚分の価値はあるかも。",
-      "ko-KR": "몇 푼 값어치는 있을지도 모릅니다.",
-      "no": "Kan være verdt noen mynter.",
-      "pl": "Można za to dostać garść monet.",
-      "pt": "Pode valer algumas moedas.",
-      "pt-BR": "Pode valer algumas moedas.",
-      "ru": "Стоит несколько монет.",
-      "sr": "Možda vredi nekoliko novčića.",
-      "tr": "Üç beş kuruş ederi olabilir.",
-      "uk": "Може коштувати кілька монет.",
-      "zh-CN": "可能值几个钱。",
-      "zh-TW": "可能值幾枚錢幣。"
-    },
-    "type": "Trinket",
-    "rarity": "Uncommon",
-    "foundIn": "Old World",
-    "value": 2000,
-    "weightKg": 0.3,
-    "stackSize": 3,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/painted_box.png",
-    "updatedAt": "03/17/2026",
-    "_community": [
-      "foundIn"
-    ],
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Misc.Trinket",
-        "dropType": [
-          "Salvage.Trinket.Birdnest"
-        ],
-        "itemType": [
-          "Misc.Trinket"
-        ],
-        "theme": [
-          "OldWorld"
-        ]
-      }
-    }
-  },
-  {
-    "id": "panoramic_room",
-    "name": {
-      "da": "Panoramaværelse",
-      "de": "Panoramazimmer",
-      "en": "Panoramic Room",
-      "es": "Sala panorámica",
-      "fr": "Pièce panoramique",
-      "he": "חדר פנורמי",
-      "hr": "Panoramska soba",
-      "it": "Stanza panoramica",
-      "ja": "パノラマの部屋",
-      "ko-KR": "파노라마 방",
-      "no": "Panoramisk rom",
-      "pl": "Pokój panoramiczny",
-      "pt": "Sala Panorâmica",
-      "pt-BR": "Sala Panorâmica",
-      "ru": "Панорамная комната",
-      "sr": "Panoramska Soba",
-      "tr": "Panoramik Oda",
-      "uk": "Панорамна кімната",
-      "zh-CN": "全景房间",
-      "zh-TW": "全景房間"
-    },
-    "type": "Outpost Room",
-    "rarity": "Common",
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/panoramic_room.png",
-    "updatedAt": "10/08/2026",
-    "addedIn": "2.0"
   }
 ]
