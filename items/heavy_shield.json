@@ -51,7 +51,7 @@
   "stackSize": 1,
   "effects": {
     "Charge": {
-      "value": 80,
+      "value": 90,
       "da": "Ladning",
       "de": "Ladung",
       "en": "Charge",
@@ -169,8 +169,8 @@
       "questGroups": ["Items.AllArmor"]
     },
     "shield": {
-      "charge": 80,
-      "chargePerPlate": 80,
+      "charge": 90,
+      "chargePerPlate": 90,
       "damageReductionPercent": 52.5,
       "movementSpeedPercent": -10,
       "plates": 1
@@ -182,7 +182,7 @@
     "voltage_converter": 1
   },
   "repairDurability": 0.5,
-  "shieldCharge": 80,
+  "shieldCharge": 90,
   "vendors": [
     {
       "cost": {
