@@ -1,0 +1,162 @@
+{
+  "id": "2026-10-29",
+  "date": "2026-10-29",
+  "from": "77bfd3b64c36bc7f6670cf15116a4e498ad5025b",
+  "to": "2e1304009b90ca85fbe1535c9e2a9cbb10e5a8d6",
+  "items": {
+    "added": [
+      "dead_flowers",
+      "fancy_plate",
+      "mask_fragment",
+      "offering_display_table",
+      "offering_display_table_design",
+      "railway_lantern",
+      "rock_salt"
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "anvil_splitter",
+        "changes": [
+          {
+            "field": "name",
+            "from": "Anvil Splitter",
+            "to": "Deprecated Anvil Splitter"
+          }
+        ]
+      },
+      {
+        "id": "sheetmetal",
+        "changes": [
+          {
+            "field": "name",
+            "from": "SheetMetal",
+            "to": "Sheet Metal"
+          }
+        ]
+      },
+      {
+        "id": "tactical_mk3_revival_blueprint",
+        "changes": [
+          {
+            "field": "name",
+            "from": "Tactical Mk. 3 (Revival) Blueprint",
+            "to": "Tactical Mk.3 (Revival) Blueprint"
+          }
+        ]
+      },
+      {
+        "id": "tactical_mk3_smoke_blueprint",
+        "changes": [
+          {
+            "field": "name",
+            "from": "Tactical Mk. 3 (Smoke) Blueprint",
+            "to": "Tactical Mk.3 (Smoke) Blueprint"
+          }
+        ]
+      }
+    ]
+  },
+  "quests": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "a_rising_tide",
+        "slug": "a-rising-tide",
+        "changes": [
+          {
+            "field": "rewardItemIds",
+            "from": [
+              {
+                "itemId": "anvil_ii",
+                "quantity": 1
+              },
+              {
+                "itemId": "anvil_splitter",
+                "quantity": 1
+              },
+              {
+                "itemId": "extended_barrel_iii",
+                "quantity": 1
+              },
+              {
+                "itemId": "heavy_ammo",
+                "quantity": 40
+              }
+            ],
+            "to": [
+              {
+                "itemId": "anvil_ii",
+                "quantity": 1
+              },
+              {
+                "itemId": "extended_barrel_iii",
+                "quantity": 1
+              },
+              {
+                "itemId": "silencer_ii",
+                "quantity": 1
+              },
+              {
+                "itemId": "heavy_ammo",
+                "quantity": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "belly_of_the_beast",
+        "slug": "belly-of-the-beast",
+        "changes": [
+          {
+            "field": "requiredItemIds",
+            "from": [
+              {
+                "itemId": "wires",
+                "quantity": 1
+              },
+              {
+                "itemId": "emperor_modulator",
+                "quantity": 1
+              }
+            ],
+            "to": [
+              {
+                "itemId": "emperor_gateway_conduit",
+                "quantity": 1
+              },
+              {
+                "itemId": "emperor_modulator",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "boarding_the_frigate",
+        "slug": "boarding-the-frigate",
+        "changes": [
+          {
+            "field": "trader",
+            "from": "Celeste",
+            "to": "Shani"
+          }
+        ]
+      }
+    ]
+  },
+  "hideout": {
+    "changed": []
+  },
+  "projects": {
+    "added": ["souls_offering_project"],
+    "removed": [],
+    "changed": []
+  },
+  "maps": {
+    "added": []
+  }
+}
