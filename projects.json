@@ -5885,7 +5885,7 @@
   },
   {
     "id": "ascending_the_mountain_project",
-    "disabled": false,
+    "disabled": true,
     "name": {
       "da": "Bestigning af Bjerget",
       "de": "Den Berg hinauf",
@@ -6263,5 +6263,400 @@
     ],
     "endDate": 1791331200,
     "startDate": 1788854400
+  },
+  {
+    "id": "souls_offering_project",
+    "disabled": false,
+    "name": {
+      "da": "Sjælens Offergave",
+      "de": "Opfer der Seelen",
+      "en": "Soul's Offering",
+      "es": "Ofrenda de las almas",
+      "fr": "Offrande des âmes",
+      "he": "מנחת הנשמה",
+      "hr": "Prinos duša",
+      "it": "Offerta dell'anima",
+      "ja": "魂の捧げもの",
+      "ko-KR": "영혼을 위한 봉헌",
+      "no": "Sjelens offer",
+      "pl": "Ofiara Duszy",
+      "pt": "Oferenda Espiritual",
+      "pt-BR": "Oferenda Espiritual",
+      "ru": "Душеприношение",
+      "sr": "Ponuda duša",
+      "tr": "Ruh Adağı",
+      "uk": "Підношення душ",
+      "zh-CN": "奉灵节",
+      "zh-TW": "奉靈節"
+    },
+    "description": {
+      "da": "Mens kampen mod ARC raser på overfladen, har nogle i Toledo holdt pause for at forholde sig til fortiden. Raiders fra Toledos forskellige contradaer – de flittige Ferrovians, de forseglede Vaultons og de viljestærke Murtetans – fejrer Sjælens Offergave ved at bygge helligdomme for de Raiders, der kom før.",
+      "de": "Während der Kampf gegen die ARC an der Oberfläche weiter wütet, halten einige in Toledo inne und setzen sich mit der Vergangenheit auseinander. Raider aus den verschiedenen Contradas von Toledo – die fleißigen Ferrovianer, die abgeschotteten Vaultoner und die sturen Murtetaner – feiern „Opfer der Seelen“, indem sie Schreine für die Raider errichten, die vor ihnen kamen.",
+      "en": "As the fight against ARC rages on the surface, some in Toledo have paused to grapple with the past. Raiders from the different contradas of Toledo – the industrious Ferrovians, the sealed off Vaultons, and the willful Murtetans – celebrate Soul's Offering by building shrines to the Raiders who came before.",
+      "es": "La lucha contra las ARC arrecia en la superficie, pero hay gente de Toledo que ha decidido parar un momento para recordar el pasado. Muchos Raiders de distintas contradas de Toledo —los diligentes de Ferrovia, los solitarios de Vaulto y los obstinados de Murteta— celebran la Ofrenda de las almas irguiendo santuarios en honor a los Raiders que los precedieron.",
+      "fr": "Alors que le combat contre l'ARC fait rage à la Surface, certains habitants de Toledo se sont arrêtés un instant pour se pencher sur le passé. Les Raiders des différentes contradas de Toledo, à savoir les Ferroviens industrieux, les Vaultons isolationnistes et les Murtetans obstinés, célèbrent l'Offrande des âmes en érigeant des sanctuaires en l'honneur des Raiders qui les ont précédés.",
+      "he": "בזמן שהמאבק נגד ARC משתולל על פני השטח, כמה מתושבי טולדו עצרו כדי להתמודד עם העבר. ריידרים מהקונטרדות השונות של טולדו - תושבי פרוביה החרוצים, תושבי ולטו הסגורים ותושבי מורטטה העקשניים - חוגגים את מנחת הנשמה ובונים מקדשים לריידרים שהיו לפניהם.",
+      "hr": "Dok se borba protiv ARC-a nastavlja na površini, neki u Toledu zastali su kako bi se suočili s prošlošću. Raideri iz različitih contrada Toleda - marljivi Ferrovijanci, zatvoreni Vaultonci i prkosni Murtetanci - slave Prinos duša gradnjom svetišta Raiderima koji su došli prije njih.",
+      "it": "Mentre in superficie infuria la lotta contro l'ARC, alcuni abitanti di Toledo si fermano a fare i conti con il passato. I Raider delle diverse contrade di Toledo (gli industriosi Ferroviani, i Vaultoni isolati e i caparbi Murtetani) celebrano l'Offerta dell'anima costruendo altari in onore dei Raider che li hanno preceduti.",
+      "ja": "地表でARCとの激しい戦いが続く中、トレドの人々の中には、立ち止まって過去と向き合う者がいる。トレドの各コントラーダ（勤勉なフェロヴィア、孤立したヴォルト、頑固なムルテタ）のレイダーたちは、先人のレイダーを祀る祠を築き、「魂の捧げもの」を執り行います。",
+      "ko-KR": "지상에서 아크와의 전투가 격렬하게 이어지는 가운데, 톨레도의 일부 주민은 잠시 걸음을 멈추고 과거와 마주합니다. 근면한 페로비아 주민들, 외부와 단절된 볼토 주민들, 고집 센 무르테타 주민들 등 톨레도의 여러 콘트라다 출신 레이더들은 '영혼을 위한 봉헌'을 맞아 앞서 떠난 레이더들을 기리는 제단을 세웁니다.",
+      "no": "Mens kampen mot ARC raser på overflaten, har noen i Toledo tatt en pause for å gjøre opp med fortiden. Raidere fra de ulike contradaene i Toledo, de flittige Ferrovians, de avstengte Vaultons og de viljesterke Murtetans, feirer Sjelens offer ved å bygge helligdommer for raiderne som kom før.",
+      "pl": "Podczas gdy walka z ARC na powierzchni trwa w najlepsze, niektórzy mieszkańcy Toledo zatrzymują się na chwilę, by spojrzeć w przeszłość. Łupieżcy z poszczególnych contradas w Toledo – pracowici Ferrovianie, skryci Vaultończycy i uparci Murtetanie – celebrują Ofiarę Duszy, budując kapliczki ku pamięci łupieżców, którzy byli tu wcześniej.",
+      "pt": "Enquanto a luta contra as ARC continua à superfície, alguns em Toledo fizeram uma pausa para acertar contas com o passado. Os Raiders das diferentes contradas de Toledo, os industriosos ferrovianos, os isolados vaultonos e os obstinados murtetanos, celebram a Oferenda Espiritual construindo altares aos Raiders que vieram antes.",
+      "pt-BR": "Enquanto a luta contra as ARCs continua na superfície, alguns em Toledo pararam para prestar homenagem ao passado. Raiders das diferentes contradas de Toledo - os industriosos ferrovianos, os isolados vaultonos e os geniosos murtetanos - celebram a Oferenda Espiritual construindo altares para os Raiders que vieram antes.",
+      "ru": "Пока наверху не утихает борьба с машинами ARC, в Толедо некоторые жители взяли передышку, чтобы отдать дань прошлому. Рейдеры из разных районов Толедо — трудолюбивые ферровианцы, закрытые волтонцы и своенравные муртетанцы — отмечают Душеприношение, воздвигая святилища в честь рейдеров, которые были здесь до них.",
+      "sr": "Dok se borba protiv ARC-a nastavlja na površini, neki stanovnici Toleda zastali su da se suoče s prošlošću. Rejderi iz različitih kontrada Toleda, marljivi Ferovijani, izolovani Vaultoni i tvrdoglavi Murtetani slave Ponudu duša gradeći svetilišta rejderima koji su došli pre njih.",
+      "tr": "Yüzeyde ARC'a karşı savaş tüm şiddetiyle sürerken Toledo'daki bazıları geçmişle yüzleşmek için bir anlığına durdu. Çalışkan Ferrovia'lılar, dış dünyayla bağını kesen Vaulto'lular ve dikbaşlı Murteta'lılar dâhil Toledo'nun farklı mahallelerinden gelen Raider'lar, kendilerinden önce gelen Raider'lar için sunaklar inşa ederek Ruh Adağı'nı kutluyor.",
+      "uk": "Поки на поверхні триває боротьба з машинами ARC, дехто з Толедо зупинився, щоб згадати минуле. Рейдери з різних контрад Толедо, працьовиті ферровійці, замкнені волтонці та вперті муртетанці, відзначають Підношення душ, зводячи святині на честь рейдерів, що були тут до них.",
+      "zh-CN": "在对抗ARC的战斗于地表愈演愈烈时，托雷多却有些人停下了脚步，开始审视过去。来自托雷多不同街区的奇袭者：勤劳的费罗维亚人、与世隔绝的沃尔托人，以及任性倔强的穆尔泰塔人，通过为先行的奇袭者们建造神龛，来共庆奉灵节。",
+      "zh-TW": "當地表與ARC的戰鬥持續延燒之際，托雷多有些人卻停下腳步，開始反思過去。來自托雷多不同分區的掠手，包括勤奮的費洛維亞人、與世隔絕的華爾托人，以及我行我素的穆爾特塔人，紛紛為先前的掠手建造神龕，來慶祝「奉靈節」。"
+    },
+    "phases": [
+      {
+        "name": {
+          "da": "Byg Vaultos Offergave",
+          "de": "Errichte das Opfer von Vaulto",
+          "en": "Construct Vaulto's Offering",
+          "es": "Construye la ofrenda de Vaulto",
+          "fr": "Composer l'offrande de Vaulto",
+          "he": "בנה את מנחת ולטו",
+          "hr": "Izgradite Vaultov prinos",
+          "it": "Costruisci l'offerta di Vaulto",
+          "ja": "ヴォルトの捧げものを作る",
+          "ko-KR": "볼토의 봉헌물 제작하기",
+          "no": "Bygg Vaultos offer",
+          "pl": "Zbuduj ofiarę Vaulto",
+          "pt": "Construir a Oferenda de Vaulto",
+          "pt-BR": "Construa a Oferenda de Vaulto",
+          "ru": "Соберите подношение Волто",
+          "sr": "Izgradite Vaultovu ponudu",
+          "tr": "Vaulto'nun Adağı'nı Hazırla",
+          "uk": "Збудуйте підношення Волто",
+          "zh-CN": "构建沃尔托的供品神龛",
+          "zh-TW": "建造華爾托的供品神龕"
+        },
+        "description": {
+          "da": "Saml forsyninger, så beboerne i Vaulto kan bygge deres offergave.",
+          "de": "Sammle Vorräte, um den Bewohnern von Vaulto mit ihrer Opfergabe zu helfen.",
+          "en": "Collect supplies to help the residents of Vaulto build their offering.",
+          "es": "Reúne suministros para ayudar a los habitantes de Vaulto a construir su ofrenda.",
+          "fr": "Récupérez des provisions pour aider les habitants de Vaulto à préparer leur offrande.",
+          "he": "אסוף אספקה כדי לעזור לתושבי ולטו לבנות את המנחה שלהם.",
+          "hr": "Prikupite zalihe kako bi stanovnici Vaulta izgradili svoj prinos.",
+          "it": "Raccogli rifornimenti per aiutare gli abitanti di Vaulto a preparare la loro offerta.",
+          "ja": "ヴォルトの住民の捧げものづくりを手伝うために物資を集める。",
+          "ko-KR": "보급품을 모아 볼토 주민들의 봉헌물 제작을 도우세요.",
+          "no": "Samle forsyninger for å hjelpe innbyggerne i Vaulto med å bygge offeret sitt.",
+          "pl": "Zbierz zapasy, by pomóc mieszkańcom Vaulto zbudować ofiarę.",
+          "pt": "Recolha suprimentos para ajudar os residentes de Vaulto a montar a sua oferenda.",
+          "pt-BR": "Colete suprimentos para ajudar os residentes de Vaulto a montar sua oferenda.",
+          "ru": "Соберите материалы, необходимые жителям Волто для подношения.",
+          "sr": "Prikupite zalihe kako biste pomogli stanovnicima Vaulta da izgrade svoju ponudu.",
+          "tr": "Vaulto sakinlerinin adaklarını hazırlamalarına yardım etmek için erzak topla.",
+          "uk": "Зберіть матеріали, щоб допомогти мешканцям Волто збудувати їхнє підношення.",
+          "zh-CN": "搜集物资帮助沃尔托居民准备供品",
+          "zh-TW": "收集物資，協助華爾托居民建造供品神龕。"
+        },
+        "phase": 1,
+        "requirementItemIds": [
+          {
+            "itemId": "dead_flowers",
+            "quantity": 1
+          },
+          {
+            "itemId": "rock_salt",
+            "quantity": 2
+          },
+          {
+            "itemId": "arc_alloy",
+            "quantity": 15
+          },
+          {
+            "itemId": "expired_respirator",
+            "quantity": 1
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "stiletto_ii",
+            "quantity": 1
+          },
+          {
+            "itemId": "extended_barrel_i",
+            "quantity": 1
+          },
+          {
+            "itemId": "angled_grip_ii",
+            "quantity": 1
+          },
+          {
+            "itemId": "stable_stock_ii",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Byg Ferrovias Offergave",
+          "de": "Errichte das Opfer von Ferrovia",
+          "en": "Construct Ferrovia's Offering",
+          "es": "Construye la ofrenda de Ferrovia",
+          "fr": "Composer l'offrande de Ferrovia",
+          "he": "בנה את מנחת פרוביה",
+          "hr": "Izgradite Ferrovijin prinos",
+          "it": "Costruisci l'offerta di Ferrovia",
+          "ja": "フェロヴィアの捧げものを作る",
+          "ko-KR": "페로비아의 봉헌물 제작하기",
+          "no": "Bygg Ferrovias offer",
+          "pl": "Zbuduj ofiarę Ferrovii",
+          "pt": "Construir a Oferenda de Ferrovia",
+          "pt-BR": "Construa a Oferenda de Ferrovia",
+          "ru": "Соберите подношение Ферровии",
+          "sr": "Izgradite Ferovijinu ponudu",
+          "tr": "Ferrovia'nın Adağı'nı Hazırla",
+          "uk": "Збудуйте підношення Ферровії",
+          "zh-CN": "构建费罗维亚的供品神龛",
+          "zh-TW": "建造費洛維亞的供品神龕"
+        },
+        "description": {
+          "da": "Saml forsyninger, så beboerne i Ferrovia kan bygge deres offergave.",
+          "de": "Sammle Vorräte, um den Bewohnern von Ferrovia mit ihrer Opfergabe zu helfen.",
+          "en": "Collect supplies to help the residents of Ferrovia build their offering.",
+          "es": "Reúne suministros para ayudar a los habitantes de Ferrovia a construir su ofrenda.",
+          "fr": "Récupérez des provisions pour aider les habitants de Ferrovia à préparer leur offrande.",
+          "he": "אסוף אספקה כדי לעזור לתושבי פרוביה לבנות את המנחה שלהם.",
+          "hr": "Prikupite zalihe kako bi stanovnici Ferrovije izgradili svoj prinos.",
+          "it": "Raccogli rifornimenti per aiutare gli abitanti di Ferrovia a preparare la loro offerta.",
+          "ja": "フェロヴィアの住民の捧げものづくりを手伝うために物資を集める。",
+          "ko-KR": "보급품을 모아 페로비아 주민들의 봉헌물 제작을 도우세요.",
+          "no": "Samle forsyninger for å hjelpe innbyggerne i Ferrovia med å bygge offeret sitt.",
+          "pl": "Zbierz zapasy, by pomóc mieszkańcom Ferrovii zbudować ofiarę.",
+          "pt": "Recolha suprimentos para ajudar os residentes de Ferrovia a montar a sua oferenda.",
+          "pt-BR": "Colete suprimentos para ajudar os residentes de Ferrovia a montar sua oferenda.",
+          "ru": "Соберите материалы, необходимые жителям Ферровии для подношения.",
+          "sr": "Prikupite zalihe kako biste pomogli stanovnicima Ferovije da izgrade svoju ponudu.",
+          "tr": "Ferrovia sakinlerinin adaklarını hazırlamalarına yardım etmek için erzak topla.",
+          "uk": "Зберіть матеріали, щоб допомогти мешканцям Ферровії збудувати їхнє підношення.",
+          "zh-CN": "搜集物资帮助费罗维亚居民准备供品",
+          "zh-TW": "收集物資，協助費洛維亞居民建造供品神龕。"
+        },
+        "phase": 2,
+        "requirementItemIds": [
+          {
+            "itemId": "dead_flowers",
+            "quantity": 3
+          },
+          {
+            "itemId": "railway_lantern",
+            "quantity": 2
+          },
+          {
+            "itemId": "advanced_arc_powercell",
+            "quantity": 15
+          },
+          {
+            "itemId": "remote_raider_flare",
+            "quantity": 10
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "torrente_ii",
+            "quantity": 1
+          },
+          {
+            "itemId": "compensator_iii",
+            "quantity": 1
+          },
+          {
+            "itemId": "extended_medium_mag_iii",
+            "quantity": 1
+          },
+          {
+            "itemId": "stable_stock_iii",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Byg Murtetas Offergave",
+          "de": "Errichte das Opfer von Murteta",
+          "en": "Construct Murteta's Offering",
+          "es": "Construye la ofrenda de Murteta",
+          "fr": "Composer l'offrande de Murteta",
+          "he": "בנה את מנחת מורטטה",
+          "hr": "Izgradite Murtetin prinos",
+          "it": "Costruisci l'offerta di Murteta",
+          "ja": "ムルテタの捧げものを作る",
+          "ko-KR": "무르테타의 봉헌물 제작하기",
+          "no": "Bygg Murtetas offer",
+          "pl": "Zbuduj ofiarę Murtety",
+          "pt": "Construir a Oferenda de Murteta",
+          "pt-BR": "Construa a Oferenda de Murteta",
+          "ru": "Соберите подношение Муртеты",
+          "sr": "Izgradite Murtetinu ponudu",
+          "tr": "Murteta'nın Adağı'nı Hazırla",
+          "uk": "Збудуйте підношення Муртети",
+          "zh-CN": "构建穆尔泰塔的供品神龛",
+          "zh-TW": "建造穆爾特塔的供品神龕"
+        },
+        "description": {
+          "da": "Saml forsyninger, så beboerne i Murteta kan bygge deres offergave.",
+          "de": "Sammle Vorräte, um den Bewohnern von Murteta mit ihrer Opfergabe zu helfen.",
+          "en": "Collect supplies to help the residents of Murteta build their offering.",
+          "es": "Reúne suministros para ayudar a los habitantes de Murteta a construir su ofrenda.",
+          "fr": "Récupérez des provisions pour aider les habitants de Murteta à préparer leur offrande.",
+          "he": "אסוף אספקה כדי לעזור לתושבי מורטטה לבנות את המנחה שלהם.",
+          "hr": "Prikupite zalihe kako bi stanovnici Murtete izgradili svoj prinos.",
+          "it": "Raccogli rifornimenti per aiutare gli abitanti di Murteta a preparare la loro offerta.",
+          "ja": "ムルテタの住民の捧げものづくりを手伝うために物資を集める。",
+          "ko-KR": "보급품을 모아 무르테타 주민들의 봉헌물 제작을 도우세요.",
+          "no": "Samle forsyninger for å hjelpe innbyggerne i Murteta med å bygge offeret sitt.",
+          "pl": "Zbierz zapasy, by pomóc mieszkańcom Murtety zbudować ofiarę.",
+          "pt": "Recolha suprimentos para ajudar os residentes de Murteta a montar a sua oferenda.",
+          "pt-BR": "Colete suprimentos para ajudar os residentes de Murteta a montar sua oferenda.",
+          "ru": "Соберите материалы, необходимые жителям Муртеты для подношения.",
+          "sr": "Prikupite zalihe kako biste pomogli stanovnicima Murtete da izgrade svoju ponudu.",
+          "tr": "Murteta sakinlerinin adaklarını hazırlamalarına yardım etmek için erzak topla.",
+          "uk": "Зберіть матеріали, щоб допомогти мешканцям Муртети збудувати їхнє підношення.",
+          "zh-CN": "搜集物资帮助穆尔泰塔居民准备供品",
+          "zh-TW": "收集物資，協助穆爾特塔居民建造供品神龕。"
+        },
+        "phase": 3,
+        "requirementItemIds": [
+          {
+            "itemId": "fancy_plate",
+            "quantity": 2
+          },
+          {
+            "itemId": "mask_fragment",
+            "quantity": 1
+          },
+          {
+            "itemId": "insulation_roll",
+            "quantity": 1
+          },
+          {
+            "itemId": "fertilizer",
+            "quantity": 5
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "vulcano_i",
+            "quantity": 1
+          },
+          {
+            "itemId": "shotgun_silencer",
+            "quantity": 1
+          },
+          {
+            "itemId": "extended_shotgun_mag_iii",
+            "quantity": 1
+          },
+          {
+            "itemId": "fireworks_box",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Ær de faldne",
+          "de": "Die Gefallenen ehren",
+          "en": "Honor The Fallen",
+          "es": "Honra a los caídos",
+          "fr": "Honorer les morts",
+          "he": "כבד את הנופלים",
+          "hr": "Odajte počast palima",
+          "it": "Onora i caduti",
+          "ja": "戦没者の追悼",
+          "ko-KR": "전사자 기리기",
+          "no": "Hedre de falne",
+          "pl": "Uczcij poległych",
+          "pt": "Honrar os Caídos",
+          "pt-BR": "Honrando os Mortos",
+          "ru": "Почтите павших",
+          "sr": "Odajte počast palima",
+          "tr": "Ölüleri Onurlandır",
+          "uk": "Вшануйте полеглих",
+          "zh-CN": "致敬逝者",
+          "zh-TW": "緬懷逝者"
+        },
+        "description": {
+          "da": "Affyr et fyrværkeri på taget af Santa Maria Houses for at ære de faldne.",
+          "de": "Entzünde auf dem Dach der Santa-Maria-Häuser ein Feuerwerk, um die Gefallenen zu ehren.",
+          "en": "Set off a firework on the rooftop of the Santa Maria Houses to honor the fallen.",
+          "es": "Lanza un fuego artificial en el tejado de las casas Santa María para honrar a los caídos.",
+          "fr": "Tirez un feu d'artifice sur le toit des Résidences Santa Maria pour honorer les morts.",
+          "he": "הצית זיקוקים על גג בתי סנטה מריה לכבוד הנופלים.",
+          "hr": "Ispalite vatromet na krovu kuća Santa Maria kako biste odali počast palima.",
+          "it": "Accendi un fuoco d'artificio sul tetto delle Residenze Santa Maria per onorare i caduti.",
+          "ja": "戦没者を追悼するため、サンタマリアの家々の屋上で花火を打ち上げる。",
+          "ko-KR": "산타 마리아 주택가 옥상에서 폭죽을 터뜨려 전사자 기리기",
+          "no": "Skyt opp et fyrverkeri på taket av Santa Maria-husene for å hedre de falne.",
+          "pl": "Odpal sztuczne ognie na dachu osiedla Santa Maria, aby uczcić poległych.",
+          "pt": "Lance um fogo de artifício no telhado das Casas Santa Maria para honrar os caídos.",
+          "pt-BR": "Lance fogos de artifício no telhado das Casas Santa Maria para honrar aqueles que se foram.",
+          "ru": "Запустите фейерверк с крыши комплекса «Санта Мария» в память о павших.",
+          "sr": "Ispalite vatromet na krovu kuća Santa Maria da odate počast palima.",
+          "tr": "Ölüleri onurlandırmak için Santa Maria Evleri'nin çatısında bir havai fişek ateşle.",
+          "uk": "Запустіть феєрверк на даху будинків «Санта Марія», щоб вшанувати полеглих.",
+          "zh-CN": "在圣玛丽亚住宅区的屋顶上燃放烟花以向逝者致敬。",
+          "zh-TW": "在聖瑪麗亞住宅的屋頂施放煙火來緬懷逝者。"
+        },
+        "cosmeticRewards": [
+          {
+            "cosmeticId": "backpack-pilgrim"
+          },
+          {
+            "cosmeticId": "backpack-pilgrim",
+            "option": "red",
+            "setting": "color"
+          },
+          {
+            "cosmeticId": "backpack-pilgrim",
+            "option": "on",
+            "setting": "emissive"
+          }
+        ],
+        "phase": 4,
+        "requirementCategories": [
+          {
+            "category": "QuestObjectives",
+            "kind": "checkbox",
+            "localizations": {
+              "da": "Affyr et fyrværkeri på taget af Santa Maria Houses for at ære de faldne.",
+              "de": "Entzünde auf dem Dach der Santa-Maria-Häuser ein Feuerwerk, um die Gefallenen zu ehren.",
+              "en": "Set off a firework on the rooftop of the Santa Maria Houses to honor the fallen.",
+              "es": "Lanza un fuego artificial en el tejado de las casas Santa María para honrar a los caídos.",
+              "fr": "Tirez un feu d'artifice sur le toit des Résidences Santa Maria pour honorer les morts.",
+              "he": "הצית זיקוקים על גג בתי סנטה מריה לכבוד הנופלים.",
+              "hr": "Ispalite vatromet na krovu kuća Santa Maria kako biste odali počast palima.",
+              "it": "Accendi un fuoco d'artificio sul tetto delle Residenze Santa Maria per onorare i caduti.",
+              "ja": "戦没者を追悼するため、サンタマリアの家々の屋上で花火を打ち上げる。",
+              "ko-KR": "산타 마리아 주택가 옥상에서 폭죽을 터뜨려 전사자 기리기",
+              "no": "Skyt opp et fyrverkeri på taket av Santa Maria-husene for å hedre de falne.",
+              "pl": "Odpal sztuczne ognie na dachu osiedla Santa Maria, aby uczcić poległych.",
+              "pt": "Lance um fogo de artifício no telhado das Casas Santa Maria para honrar os caídos.",
+              "pt-BR": "Lance fogos de artifício no telhado das Casas Santa Maria para honrar aqueles que se foram.",
+              "ru": "Запустите фейерверк с крыши комплекса «Санта Мария» в память о павших.",
+              "sr": "Ispalite vatromet na krovu kuća Santa Maria da odate počast palima.",
+              "tr": "Ölüleri onurlandırmak için Santa Maria Evleri'nin çatısında bir havai fişek ateşle.",
+              "uk": "Запустіть феєрверк на даху будинків «Санта Марія», щоб вшанувати полеглих.",
+              "zh-CN": "在圣玛丽亚住宅区的屋顶上燃放烟花以向逝者致敬。",
+              "zh-TW": "在聖瑪麗亞住宅的屋頂施放煙火來緬懷逝者。"
+            },
+            "questGameAssetId": "487490555",
+            "tiers": [1],
+            "valueRequired": 1
+          }
+        ],
+        "requirementItemIds": []
+      }
+    ],
+    "endDate": 1794787200,
+    "startDate": 1790553600
   }
 ]

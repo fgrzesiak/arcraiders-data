@@ -1,5 +1,217 @@
 [
   {
+    "id": "garnet",
+    "name": {
+      "da": "Garnet",
+      "de": "Granat",
+      "en": "Garnet",
+      "es": "Granate",
+      "fr": "Grenat",
+      "he": "גארנט",
+      "hr": "Granat",
+      "it": "Granato",
+      "ja": "ガーネット",
+      "ko-KR": "석류색",
+      "no": "Granat",
+      "pl": "Granatowy",
+      "pt": "Granada",
+      "pt-BR": "Granada",
+      "ru": "Гранат",
+      "sr": "Garnet",
+      "tr": "Nar Çiçeği",
+      "uk": "Гранат",
+      "zh-CN": "石榴石",
+      "zh-TW": "石榴石紅"
+    },
+    "type": "Stencil",
+    "rarity": "Uncommon",
+    "value": 5000,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/garnet.png",
+    "updatedAt": "10/08/2026",
+    "addedIn": "2.0",
+    "mechanics": {
+      "classification": {
+        "category": "Recipe.ItemSkin",
+        "dropType": [
+          "Stencil"
+        ],
+        "itemType": [
+          "Recipe.ItemSkin"
+        ]
+      }
+    }
+  },
+  {
+    "id": "gas_grenade_trap",
+    "name": {
+      "da": "Gasgranatefælde",
+      "de": "Laserfalle: Gas",
+      "en": "Gas Grenade Trap",
+      "es": "Trampa láser: gas",
+      "fr": "Piège laser - Gaz",
+      "he": "מלכודת רימון גז",
+      "hr": "Zamka s Plinskom Granatom",
+      "it": "Trappola laser: Gas",
+      "ja": "レーザートラップ：ガス",
+      "ko-KR": "가스 수류탄 함정",
+      "no": "Gassgranatefelle",
+      "pl": "Pułapka laserowa: gaz",
+      "pt": "Armadilha de granada de gás",
+      "pt-BR": "Armadilha a laser: gás",
+      "ru": "Лазерная ловушка: газ",
+      "sr": "Zamka sa Gasnom Granatom",
+      "tr": "Lazer Tuzağı: Gaz",
+      "uk": "Пастка з газовою гранатою",
+      "zh-CN": "激光陷阱：毒气",
+      "zh-TW": "雷射陷阱：瓦斯"
+    },
+    "description": {
+      "da": "En lasertråd der detonerer en gasgranat.",
+      "de": "Ein Laser-Stolperdraht, der eine Gasgranate detonieren lässt.",
+      "en": "A laser trip wire that detonates a Gas Grenade.",
+      "es": "Un cable trampa láser que detona una granada de gas.",
+      "fr": "Un piège à détection laser qui active une grenade à gaz.",
+      "he": "חוט תיל לייזר המפוצץ רימון גז.",
+      "hr": "Laserska žica zamka koja detonira Plinsku Granatu.",
+      "it": "Un cavo d'innesco laser che fa detonare una granata a gas.",
+      "ja": "ガス・グレネードに取り付けて爆発させられる、レーザートリップワイヤー。",
+      "ko-KR": "가스 수류탄을 폭발시킬 수 있는 레이저 트립 와이어입니다.",
+      "no": "En lasertråd som detonerer en gassgranat.",
+      "pl": "Pułapka laserowa z granatem gazowym.",
+      "pt": "Um fio de disparo a laser que detona uma granada de gás.",
+      "pt-BR": "Armadilha a laser que detona uma Granada de Gás.",
+      "ru": "Лазерная растяжка, взрывающая газовую гранату.",
+      "sr": "Laserska žica zamka koja detonira Gasnu Granatu.",
+      "tr": "Gaz Bombası patlatan bir lazer tuzağı.",
+      "uk": "Лазерна розтяжка, що підриває газову гранату.",
+      "zh-CN": "用于引爆毒气手雷的激光拌线。",
+      "zh-TW": "一種雷射絆索，可引爆瓦斯手榴彈。"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 3,
+    "blueprintLocked": true,
+    "effects": {
+      "Duration": {
+        "value": "20s",
+        "da": "Varighed",
+        "de": "Dauer",
+        "en": "Duration",
+        "es": "Duración",
+        "fr": "Durée",
+        "he": "משך",
+        "hr": "Trajanje",
+        "it": "Durata",
+        "ja": "持続時間",
+        "ko-KR": "지속 시간",
+        "no": "Varighet",
+        "pl": "Czas trwania",
+        "pt": "Duração",
+        "pt-BR": "Duração",
+        "ru": "Длительность",
+        "sr": "Trajanje",
+        "tr": "Süre",
+        "uk": "Тривалість",
+        "zh-CN": "持续时间",
+        "zh-TW": "持續時間"
+      },
+      "Radius": {
+        "value": "7.5m",
+        "da": "Radius",
+        "de": "Radius",
+        "en": "Radius",
+        "es": "Radio",
+        "fr": "Rayon",
+        "he": "רדיוס",
+        "hr": "Radijus",
+        "it": "Raggio",
+        "ja": "範囲",
+        "ko-KR": "반경",
+        "no": "Radius",
+        "pl": "Promień",
+        "pt": "Raio",
+        "pt-BR": "Raio",
+        "ru": "Радиус",
+        "sr": "Radijus",
+        "tr": "Yarıçap",
+        "uk": "Радіус",
+        "zh-CN": "范围",
+        "zh-TW": "範圍"
+      },
+      "Stamina Drain": {
+        "value": "25/s",
+        "da": "Udholdenhedstab",
+        "de": "Ausdauerabzug",
+        "en": "Stamina Drain",
+        "es": "Drenaje de resistencia",
+        "fr": "Drain d'endurance",
+        "he": "דלדול סיבולת",
+        "hr": "Iscrpljivanje Izdržljivosti",
+        "it": "Drenaggio stamina",
+        "ja": "スタミナ消耗",
+        "ko-KR": "스태미나 소모",
+        "no": "Utmattelsestap",
+        "pl": "Wyczerpanie kondycji",
+        "pt": "Dreno de stamina",
+        "pt-BR": "Drenagem de vigor",
+        "ru": "Истощение выносливости",
+        "sr": "Iscrpljivanje Izdržljivosti",
+        "tr": "Dayanıklılık Tükenmesi",
+        "uk": "Виснаження витривалості",
+        "zh-CN": "体力消耗",
+        "zh-TW": "體力消耗"
+      }
+    },
+    "craftBench": [
+      "in_raid",
+      "workbench"
+    ],
+    "stationLevelRequired": 1,
+    "craftSkills": {
+      "in_raid": [
+        "surv_5c",
+        "surv_3r"
+      ],
+      "workbench": [
+        "surv_5c"
+      ]
+    },
+    "recipe": {
+      "gas_grenade": 1,
+      "wires": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade_trap.png",
+    "updatedAt": "05/30/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "card": {
+        "durationSec": 20,
+        "radiusM": 7.5,
+        "staminaDrain": 25
+      },
+      "classification": {
+        "category": "Utility.Mine",
+        "dropType": [
+          "Consumable.Deployable"
+        ],
+        "itemType": [
+          "Deployable"
+        ],
+        "questGroups": [
+          "Items.Deployable.AllTrapsAndMines"
+        ]
+      },
+      "deployable": {
+        "deploymentTimeSec": 1,
+        "deployRangeM": 5,
+        "maxHealth": 5
+      }
+    }
+  },
+  {
     "id": "gas_grenade",
     "name": {
       "da": "Gasgranat",
@@ -568,25 +780,25 @@
     "id": "geometric_fabric_chair_design",
     "name": {
       "da": "Geometrisk stofstolsdesign",
-      "de": "Geometrischer Stoffstuhl-Entwurf",
+      "de": "Entwurf: Stuhl (geometrischer Stoff)",
       "en": "Geometric Fabric Chair Design",
-      "es": "Diseño de silla geométrica de tela",
+      "es": "Diseño de la silla de patrón geométrico",
       "fr": "Design de chaise en tissu géométrique",
       "he": "עיצוב כיסא בד גאומטרי",
       "hr": "Nacrt geometrijske platnene stolice.",
-      "it": "Design della sedia in stoffa geometrica",
-      "ja": "幾何学模様の布椅子デザイン",
-      "ko-KR": "기하학 무늬 직물 의자 디자인",
+      "it": "Design sedia in tessuto geometrico",
+      "ja": "幾何学模様椅子のデザイン",
+      "ko-KR": "기하학무늬 패브릭 의자 디자인",
       "no": "Geometrisk stoffstoldesign",
-      "pl": "Projekt krzesła z geometryczną tkaniną",
+      "pl": "Projekt: Fotel z geometrycznym obiciem",
       "pt": "Projeto de Cadeira de Tecido Geométrico",
       "pt-BR": "Projeto de Cadeira de Tecido Geométrico",
-      "ru": "Схема геометрического тканевого стула",
+      "ru": "Схема — Тканевое кресло с геометрическим рисунком",
       "sr": "Nacrt stolice sa geometrijskim uzorkom",
       "tr": "Geometrik Kumaş Sandalye Tasarımı",
       "uk": "Дизайн геометричного тканинного стільця",
-      "zh-CN": "几何布料座椅设计图",
-      "zh-TW": "幾何布料座椅設計"
+      "zh-CN": "几何布料椅设计图",
+      "zh-TW": "幾何布椅設計"
     },
     "type": "Design",
     "rarity": "Rare",
@@ -611,25 +823,25 @@
     "id": "geometric_fabric_chair",
     "name": {
       "da": "Geometrisk stofstol",
-      "de": "Geometrischer Stoffstuhl",
+      "de": "Stuhl (geometrischer Stoff)",
       "en": "Geometric Fabric Chair",
-      "es": "Silla de tela geométrica",
+      "es": "Silla de patrón geométrico",
       "fr": "Chaise en tissu géométrique",
       "he": "כיסא בד גאומטרי",
       "hr": "Geometrijska platnena stolica",
-      "it": "Sedia in stoffa geometrica",
-      "ja": "幾何学模様の布椅子",
-      "ko-KR": "기하학 무늬 직물 의자",
+      "it": "Sedia in tessuto geometrico",
+      "ja": "幾何学模様椅子",
+      "ko-KR": "기하학무늬 패브릭 의자",
       "no": "Geometrisk stoffstol",
-      "pl": "Krzesło z geometryczną tkaniną",
+      "pl": "Fotel z geometrycznym obiciem",
       "pt": "Cadeira de Tecido Geométrico",
       "pt-BR": "Cadeira de Tecido Geométrico",
-      "ru": "Геометрический тканевый стул",
+      "ru": "Тканевое кресло с геометрическим рисунком",
       "sr": "Geometrijska Stolica od Tkanine",
       "tr": "Geometrik Kumaş Sandalye",
       "uk": "Геометричне тканинне крісло",
-      "zh-CN": "几何布料座椅",
-      "zh-TW": "幾何布料座椅"
+      "zh-CN": "几何布料椅",
+      "zh-TW": "幾何布椅"
     },
     "type": "Outpost Furniture",
     "rarity": "Rare",
@@ -645,25 +857,25 @@
     "id": "glass_ceiling_lamp_design",
     "name": {
       "da": "Glasloftslampedesign",
-      "de": "Glas-Deckenlampe Entwurf",
+      "de": "Entwurf: Glas-Deckenlampe",
       "en": "Glass Ceiling Lamp Design",
-      "es": "Diseño de lámpara de techo de cristal",
-      "fr": "Design du Plafonnier en verre",
+      "es": "Diseño de la lámpara de techo de cristal",
+      "fr": "Design de lampe de plafond en verre",
       "he": "עיצוב מנורת תקרה מזכוכית",
       "hr": "Nacrt staklene stropne lampe.",
-      "it": "Design Plafoniera in vetro",
-      "ja": "ガラス製天井ランプのデザイン",
-      "ko-KR": "글래스 천장 램프 디자인",
+      "it": "Design lampada da soffitto in vetro",
+      "ja": "ガラスの天井照明のデザイン",
+      "ko-KR": "유리 천장 등 디자인",
       "no": "Glasstaklampled design",
-      "pl": "Projekt Szklanej lampy sufitowej",
+      "pl": "Projekt: Szklana lampa sufitowa",
       "pt": "Projeto de Luminária de Teto de Vidro",
-      "pt-BR": "Projeto de Luminária de Teto de Vidro",
-      "ru": "Схема потолочной стеклянной лампы",
+      "pt-BR": "Projeto de Lâmpada de Teto de Vidro",
+      "ru": "Схема — Стеклянный светильник",
       "sr": "Nacrt staklene plafonske lampe",
       "tr": "Cam Tavan Lambası Tasarımı",
       "uk": "Дизайн скляного стельового світильника",
-      "zh-CN": "玻璃吸顶灯设计图",
-      "zh-TW": "玻璃吸頂燈設計"
+      "zh-CN": "玻璃吊灯设计图",
+      "zh-TW": "玻璃吊燈設計"
     },
     "type": "Design",
     "rarity": "Epic",
@@ -691,22 +903,22 @@
       "de": "Glas-Deckenlampe",
       "en": "Glass Ceiling Lamp",
       "es": "Lámpara de techo de cristal",
-      "fr": "Plafonnier en verre",
+      "fr": "Lampe de plafond en verre",
       "he": "מנורת תקרה מזכוכית",
       "hr": "Staklena stropna lampa",
-      "it": "Plafoniera in vetro",
-      "ja": "ガラス製天井ランプ",
-      "ko-KR": "글래스 천장 램프",
+      "it": "Lampada da soffitto in vetro",
+      "ja": "ガラスの天井照明",
+      "ko-KR": "유리 천장 등",
       "no": "Glasstaklampe",
       "pl": "Szklana lampa sufitowa",
       "pt": "Lâmpada de Teto de Vidro",
-      "pt-BR": "Luminária de Teto de Vidro",
-      "ru": "Потолочная стеклянная лампа",
+      "pt-BR": "Lâmpada de Teto de Vidro",
+      "ru": "Стеклянный светильник",
       "sr": "Staklena Plafonska Lampa",
       "tr": "Cam Tavan Lambası",
       "uk": "Скляний стельовий світильник",
-      "zh-CN": "玻璃吸顶灯",
-      "zh-TW": "玻璃吸頂燈"
+      "zh-CN": "玻璃吊灯",
+      "zh-TW": "玻璃吊燈"
     },
     "type": "Outpost Furniture",
     "rarity": "Epic",
@@ -1405,25 +1617,25 @@
     "id": "green_geometric_chair_design",
     "name": {
       "da": "Grønt geometrisk stolsdesign",
-      "de": "Grüner geometrischer Stuhlentwurf",
+      "de": "Entwurf: Stuhl (grüner geometrischer Stoff)",
       "en": "Green Geometric Chair Design",
-      "es": "Diseño de silla geométrica verde",
-      "fr": "Design de chaise géométrique verte",
+      "es": "Diseño de la silla de patrón geométrico verde",
+      "fr": "Design de chaise verte à motif géométrique",
       "he": "עיצוב כיסא גאומטרי ירוק",
       "hr": "Nacrt zelene geometrijske stolice.",
-      "it": "Design della sedia geometrica verde",
-      "ja": "幾何学模様のグリーンチェアのデザイン",
-      "ko-KR": "그린 기하학 무늬 의자 디자인",
+      "it": "Design sedia geometrica verde",
+      "ja": "緑の幾何学模様椅子のデザイン",
+      "ko-KR": "그린 기하학무늬 의자 디자인",
       "no": "Grønn geometrisk stoldesign",
-      "pl": "Projekt zielonego geometrycznego krzesła",
+      "pl": "Projekt: Fotel z zielonym geometrycznym obiciem",
       "pt": "Projeto de Cadeira Geométrica Verde",
       "pt-BR": "Projeto de Cadeira Geométrica Verde",
-      "ru": "Схема зеленого геометрического стула",
+      "ru": "Схема — Кресло с зеленым геометрическим рисунком",
       "sr": "Nacrt zelene geometrijske stolice",
-      "tr": "Yeşil Geometrik Sandalye Tasarımı",
+      "tr": "Yeşil Geometrik Kumaş Sandalye Tasarımı",
       "uk": "Дизайн зеленого геометричного стільця",
-      "zh-CN": "绿色几何椅子设计图",
-      "zh-TW": "綠色幾何座椅設計"
+      "zh-CN": "绿色几何椅设计图",
+      "zh-TW": "綠色幾何椅設計"
     },
     "type": "Design",
     "rarity": "Rare",
@@ -1448,20 +1660,20 @@
     "id": "green_geometric_chair",
     "name": {
       "da": "Grøn geometrisk stol",
-      "de": "Grüner geometrischer Stuhl",
+      "de": "Stuhl (grüner geometrischer Stoff)",
       "en": "Green Geometric Chair",
-      "es": "Silla geométrica verde",
-      "fr": "Chaise géométrique verte",
+      "es": "Silla de patrón geométrico verde",
+      "fr": "Chaise verte à motif géométrique",
       "he": "כיסא גאומטרי ירוק",
       "hr": "Zelena geometrijska stolica",
       "it": "Sedia geometrica verde",
-      "ja": "幾何学模様のグリーンチェア",
-      "ko-KR": "그린 기하학 무늬 의자",
+      "ja": "緑の幾何学模様椅子",
+      "ko-KR": "그린 기하학무늬 의자",
       "no": "Grønn geometrisk stol",
-      "pl": "Zielone geometryczne krzesło",
+      "pl": "Fotel z zielonym geometrycznym obiciem",
       "pt": "Cadeira Geométrica Verde",
       "pt-BR": "Cadeira Geométrica Verde",
-      "ru": "Зеленый геометрический стул",
+      "ru": "Кресло с зеленым геометрическим рисунком",
       "sr": "Zelena Geometrijska Stolica",
       "tr": "Yeşil Geometrik Sandalye",
       "uk": "Зелене геометричне крісло",
@@ -1482,20 +1694,20 @@
     "id": "green_geometric_sofa_design",
     "name": {
       "da": "Grønt geometrisk sofadesign",
-      "de": "Entwurf: Grünes geometrisches Sofa",
+      "de": "Entwurf: Sofa (grüner geometrischer Stoff)",
       "en": "Green Geometric Sofa Design",
-      "es": "Diseño de sofá geométrico verde",
+      "es": "Diseño del sofá de patrón geométrico verde",
       "fr": "Design de canapé géométrique vert",
       "he": "עיצוב ספה גאומטרית ירוקה",
       "hr": "Nacrt zelene geometrijske sofe.",
-      "it": "Design del divano geometrico verde",
-      "ja": "幾何学模様のグリーンソファのデザイン",
-      "ko-KR": "그린 기하학 무늬 소파 디자인",
+      "it": "Design divano geometrico verde",
+      "ja": "緑の幾何学模様ソファのデザイン",
+      "ko-KR": "그린 기하학무늬 소파 디자인",
       "no": "Grønn geometrisk sofadesign",
-      "pl": "Projekt zielonej geometrycznej sofy",
+      "pl": "Projekt: Sofa z zielonym geometrycznym wzorem",
       "pt": "Projeto de Sofá Geométrico Verde",
       "pt-BR": "Projeto de Sofá Geométrico Verde",
-      "ru": "Схема: Зеленый геометрический диван",
+      "ru": "Схема — Диван с зеленым геометрическим рисунком",
       "sr": "Nacrt zelene geometrijske sofe",
       "tr": "Yeşil Geometrik Kanepe Tasarımı",
       "uk": "Дизайн зеленого геометричного дивана",
@@ -1525,20 +1737,20 @@
     "id": "green_geometric_sofa",
     "name": {
       "da": "Grøn geometrisk sofa",
-      "de": "Grünes geometrisches Sofa",
+      "de": "Sofa (grüner geometrischer Stoff)",
       "en": "Green Geometric Sofa",
-      "es": "Sofá geométrico verde",
+      "es": "Sofá de patrón geométrico verde",
       "fr": "Canapé géométrique vert",
       "he": "ספה גאומטרית ירוקה",
       "hr": "Zelena geometrijska sofa",
       "it": "Divano geometrico verde",
-      "ja": "幾何学模様のグリーンソファ",
-      "ko-KR": "그린 기하학 무늬 소파",
+      "ja": "緑の幾何学模様ソファ",
+      "ko-KR": "그린 기하학무늬 소파",
       "no": "Grønn geometrisk sofa",
-      "pl": "Zielona geometryczna sofa",
+      "pl": "Sofa z zielonym geometrycznym wzorem",
       "pt": "Sofá Geométrico Verde",
       "pt-BR": "Sofá Geométrico Verde",
-      "ru": "Зеленый геометрический диван",
+      "ru": "Диван с зеленым геометрическим рисунком",
       "sr": "Zelena Geometrijska Sofa",
       "tr": "Yeşil Geometrik Kanepe",
       "uk": "Зелений геометричний диван",
@@ -1559,22 +1771,22 @@
     "id": "green_lab_sofa_design",
     "name": {
       "da": "Grønt labsofadesign",
-      "de": "Grünes Laborsofa-Entwurf",
+      "de": "Entwurf: Grünes Laborsofa",
       "en": "Green Lab Sofa Design",
-      "es": "Diseño de sofá del Laboratorio Verde",
-      "fr": "Design du Canapé vert de laboratoire",
+      "es": "Diseño del sofá de laboratorio verde",
+      "fr": "Design de canapé de laboratoire vert",
       "he": "עיצוב ספת מעבדה ירוקה",
       "hr": "Nacrt zelene laboratorijske sofe.",
-      "it": "Design del Divano verde da laboratorio",
-      "ja": "グリーンラボソファデザイン",
-      "ko-KR": "그린 연구소 소파 디자인",
+      "it": "Design divano laboratorio verde",
+      "ja": "緑の実験室用ソファのデザイン",
+      "ko-KR": "그린 연구실 소파 디자인",
       "no": "Grønn labsofadesign",
-      "pl": "Projekt Zielonej sofy laboratoryjnej",
+      "pl": "Projekt: Zielona sofa do laboratorium",
       "pt": "Projeto de Sofá de Laboratório Verde",
       "pt-BR": "Projeto de Sofá de Laboratório Verde",
-      "ru": "Схема зеленого лабораторного дивана",
+      "ru": "Схема — Зеленый лабораторный диван",
       "sr": "Nacrt zelene laboratorijske sofe",
-      "tr": "Yeşil Laboratuvar Kanepe Tasarımı",
+      "tr": "Yeşil Laboratuvar Kanepesi Tasarımı",
       "uk": "Дизайн зеленого лабораторного дивана",
       "zh-CN": "绿色实验室沙发设计图",
       "zh-TW": "綠色實驗室沙發設計"
@@ -1604,20 +1816,20 @@
       "da": "Grøn labsofa",
       "de": "Grünes Laborsofa",
       "en": "Green Lab Sofa",
-      "es": "Sofá verde de laboratorio",
-      "fr": "Canapé vert de laboratoire",
+      "es": "Sofá de laboratorio verde",
+      "fr": "Canapé de laboratoire vert",
       "he": "ספת מעבדה ירוקה",
       "hr": "Zelena laboratorijska sofa",
-      "it": "Divano verde da laboratorio",
-      "ja": "グリーンラボソファ",
-      "ko-KR": "그린 연구소 소파",
+      "it": "Divano laboratorio verde",
+      "ja": "緑の実験室用ソファ",
+      "ko-KR": "그린 연구실 소파",
       "no": "Grønn labsofa",
-      "pl": "Zielona sofa laboratoryjna",
+      "pl": "Zielona sofa do laboratorium",
       "pt": "Sofá de Laboratório Verde",
       "pt-BR": "Sofá de Laboratório Verde",
       "ru": "Зеленый лабораторный диван",
       "sr": "Zelena Laboratorijska Sofa",
-      "tr": "Yeşil Laboratuvar Kanepe",
+      "tr": "Yeşil Laboratuvar Kanepesi",
       "uk": "Зелений лабораторний диван",
       "zh-CN": "绿色实验室沙发",
       "zh-TW": "綠色實驗室沙發"
@@ -4792,7 +5004,7 @@
       "tr": "Toka I",
       "uk": "Шпилька I",
       "zh-CN": "发夹 I",
-      "zh-TW": "髮夾I"
+      "zh-TW": "髮夾 I"
     },
     "description": {
       "da": "Single-action pistol med indbygget lyddæmper. Fremragende til stealth, men svær at bruge i kamp.",
@@ -5411,7 +5623,7 @@
       "tr": "Toka II",
       "uk": "Шпилька II",
       "zh-CN": "发夹 II",
-      "zh-TW": "髮夾II"
+      "zh-TW": "髮夾 II"
     },
     "description": {
       "da": "Single-action pistol med indbygget lyddæmper. Fremragende til stealth, men svær at bruge i kamp.",
@@ -6059,7 +6271,7 @@
       "tr": "Toka III",
       "uk": "Шпилька III",
       "zh-CN": "发夹 III",
-      "zh-TW": "髮夾III"
+      "zh-TW": "髮夾 III"
     },
     "description": {
       "da": "Single-action pistol med indbygget lyddæmper. Fremragende til stealth, men svær at bruge i kamp.",
@@ -6713,7 +6925,7 @@
       "tr": "Toka IV",
       "uk": "Шпилька IV",
       "zh-CN": "发夹 IV",
-      "zh-TW": "髮夾IV"
+      "zh-TW": "髮夾 IV"
     },
     "description": {
       "da": "Single-action pistol med indbygget lyddæmper. Fremragende til stealth, men svær at bruge i kamp.",
@@ -7448,7 +7660,7 @@
       "tr": "Armonika",
       "uk": "Гармошка",
       "zh-CN": "口琴",
-      "zh-TW": "口風琴"
+      "zh-TW": "口琴"
     },
     "description": {
       "da": "En spilbar mundharmonika, der bruges til at tiltrække ARC's opmærksomhed og imponere andre Raiders.",
@@ -7470,7 +7682,7 @@
       "tr": "ARC'ları çekmek ve diğer Raider'ları etkilemek için çalınabilen bir armonika.",
       "uk": "Гармошка, на якій можна грати, використовується для привернення уваги ARC та враження інших Рейдерів.",
       "zh-CN": "一只能吹奏的口琴，既可用于引起ARC的注意，也能让其他奇袭者刮目相看。",
-      "zh-TW": "一個可吹奏的口風琴，可用來吸引ARC的注意，也可以讓其他掠手印象深刻。"
+      "zh-TW": "一個可吹奏的口琴，可用來吸引ARC的注意，也可以讓其他掠手印象深刻。"
     },
     "type": "Quick Use",
     "rarity": "Uncommon",
@@ -8057,7 +8269,7 @@
     "stackSize": 1,
     "effects": {
       "Charge": {
-        "value": 80,
+        "value": 90,
         "da": "Ladning",
         "de": "Ladung",
         "en": "Charge",
@@ -8181,8 +8393,8 @@
         ]
       },
       "shield": {
-        "charge": 80,
-        "chargePerPlate": 80,
+        "charge": 90,
+        "chargePerPlate": 90,
         "damageReductionPercent": 52.5,
         "movementSpeedPercent": -10,
         "plates": 1
@@ -8194,7 +8406,7 @@
       "voltage_converter": 1
     },
     "repairDurability": 0.5,
-    "shieldCharge": 80,
+    "shieldCharge": 90,
     "vendors": [
       {
         "cost": {
@@ -8539,24 +8751,24 @@
     "id": "holly_bush_design",
     "name": {
       "da": "Kristtornbuskdesign",
-      "de": "Stechpalmenstrauch-Entwurf",
+      "de": "Entwurf: Stechpalme",
       "en": "Holly Bush Design",
-      "es": "Diseño de arbusto de acebo",
-      "fr": "Design de Buisson de houx",
+      "es": "Diseño del acebo",
+      "fr": "Design de houx en pot",
       "he": "עיצוב שיח צינית",
       "hr": "Nacrt grma božikovine.",
-      "it": "Design del Cespuglio di agrifoglio",
-      "ja": "ヒイラギの茂みデザイン",
+      "it": "Design cespuglio agrifoglio",
+      "ja": "ヒイラギの低木のデザイン",
       "ko-KR": "호랑가시나무 덤불 디자인",
       "no": "Kristtornbuskdesign",
-      "pl": "Projekt krzewu ostrokrzewu",
+      "pl": "Projekt: Ostrokrzew",
       "pt": "Projeto de Arbusto de Azevinho",
       "pt-BR": "Projeto de Arbusto de Azevinho",
-      "ru": "Схема куста падуба",
+      "ru": "Схема — Куст остролиста",
       "sr": "Nacrt žbuna božikovine",
       "tr": "Çobanpüskülü Çalısı Tasarımı",
       "uk": "Дизайн куща падуба",
-      "zh-CN": "冬青丛设计图",
+      "zh-CN": "冬青灌木设计图",
       "zh-TW": "冬青灌木設計"
     },
     "type": "Design",
@@ -8593,24 +8805,24 @@
     "id": "holly_bush",
     "name": {
       "da": "Kristtornbusk",
-      "de": "Stechpalmenstrauch",
+      "de": "Stechpalme",
       "en": "Holly Bush",
-      "es": "Arbusto de acebo",
-      "fr": "Buisson de houx",
+      "es": "Acebo",
+      "fr": "Houx en pot",
       "he": "שיח הולי",
       "hr": "Grm božikovine",
-      "it": "Cespuglio di agrifoglio",
-      "ja": "ヒイラギの茂み",
+      "it": "Cespuglio agrifoglio",
+      "ja": "ヒイラギの低木",
       "ko-KR": "호랑가시나무 덤불",
       "no": "Kristtornbusk",
-      "pl": "Krzew ostrokrzewu",
+      "pl": "Ostrokrzew",
       "pt": "Arbusto de Azevinho",
       "pt-BR": "Arbusto de Azevinho",
-      "ru": "Куст падуба",
+      "ru": "Куст остролиста",
       "sr": "Žbun Božikovine",
-      "tr": "Ilex Çalısı",
+      "tr": "Çobanpüskülü Çalısı",
       "uk": "Кущ падуба",
-      "zh-CN": "冬青丛",
+      "zh-CN": "冬青灌木",
       "zh-TW": "冬青灌木"
     },
     "type": "Outpost Furniture",
@@ -8986,22 +9198,22 @@
     "id": "hotel_chair_design",
     "name": {
       "da": "Hotelstolsdesign",
-      "de": "Hotelstuhl-Entwurf",
+      "de": "Entwurf: Hotelstuhl",
       "en": "Hotel Chair Design",
-      "es": "Diseño de silla de hotel",
-      "fr": "Design de Chaise d'hôtel",
+      "es": "Diseño de la silla de hotel",
+      "fr": "Design de chaise d'hôtel",
       "he": "עיצוב כיסא מלון",
       "hr": "Nacrt hotelske stolice.",
-      "it": "Design della Sedia dell'hotel",
-      "ja": "ホテルの椅子デザイン",
+      "it": "Design sedia hotel",
+      "ja": "ホテルの椅子のデザイン",
       "ko-KR": "호텔 의자 디자인",
       "no": "Hotellstoldesign",
-      "pl": "Projekt krzesła hotelowego",
+      "pl": "Projekt: Krzesło do hotelu",
       "pt": "Projeto de Cadeira de Hotel",
       "pt-BR": "Projeto de Cadeira de Hotel",
-      "ru": "Схема отельного кресла",
+      "ru": "Схема — Отельное кресло",
       "sr": "Nacrt hotelske stolice",
-      "tr": "Otel Sandalye Tasarımı",
+      "tr": "Otel Sandalyesi Tasarımı",
       "uk": "Дизайн готельного стільця",
       "zh-CN": "酒店椅设计图",
       "zh-TW": "飯店椅子設計"
@@ -9046,19 +9258,19 @@
       "fr": "Chaise d'hôtel",
       "he": "כיסא מלון",
       "hr": "Hotelska stolica",
-      "it": "Sedia dell'hotel",
+      "it": "Sedia hotel",
       "ja": "ホテルの椅子",
       "ko-KR": "호텔 의자",
       "no": "Hotellstol",
-      "pl": "Krzesło hotelowe",
+      "pl": "Krzesło do hotelu",
       "pt": "Cadeira de Hotel",
       "pt-BR": "Cadeira de Hotel",
       "ru": "Отельное кресло",
       "sr": "Hotelska Stolica",
       "tr": "Otel Sandalyesi",
       "uk": "Готельне крісло",
-      "zh-CN": "酒店座椅",
-      "zh-TW": "飯店座椅"
+      "zh-CN": "酒店椅",
+      "zh-TW": "飯店椅子"
     },
     "type": "Outpost Furniture",
     "rarity": "Uncommon",
@@ -11056,7 +11268,7 @@
       "tr": "Kabukkıran I",
       "uk": "Корпусолом I",
       "zh-CN": "裂甲者 I",
-      "zh-TW": "碎甲者I"
+      "zh-TW": "碎甲者 I"
     },
     "description": {
       "da": "En pump-action granatkaster, hvis projektiler kun detonerer, når de rammer ARC.",
@@ -11550,7 +11762,7 @@
       "tr": "Kabukkıran II",
       "uk": "Корпусолом II",
       "zh-CN": "裂甲者 II",
-      "zh-TW": "碎甲者II"
+      "zh-TW": "碎甲者 II"
     },
     "description": {
       "da": "En pump-action granatkaster, hvis projektiler kun detonerer, når de rammer ARC.",
@@ -12063,7 +12275,7 @@
       "tr": "Kabukkıran III",
       "uk": "Корпусолом III",
       "zh-CN": "裂甲者 III",
-      "zh-TW": "碎甲者III"
+      "zh-TW": "碎甲者 III"
     },
     "description": {
       "da": "En pump-action granatkaster, hvis projektiler kun detonerer, når de rammer ARC.",
@@ -12580,7 +12792,7 @@
       "tr": "Kabukkıran IV",
       "uk": "Корпусолом IV",
       "zh-CN": "裂甲者 IV",
-      "zh-TW": "碎甲者IV"
+      "zh-TW": "碎甲者 IV"
     },
     "description": {
       "da": "En pump-action granatkaster, hvis projektiler kun detonerer, når de rammer ARC.",
@@ -15560,7 +15772,7 @@
       "tr": "Il Toro I",
       "uk": "Ель-Торо I",
       "zh-CN": "公牛 I",
-      "zh-TW": "公牛I"
+      "zh-TW": "公牛 I"
     },
     "description": {
       "da": "Pump-action haglgevær med stor spredning, skarpt skadesfald og høj skade.",
@@ -16158,7 +16370,7 @@
       "tr": "Il Toro II",
       "uk": "Ель-Торо II",
       "zh-CN": "公牛 II",
-      "zh-TW": "公牛II"
+      "zh-TW": "公牛 II"
     },
     "description": {
       "da": "Pump-action haglgevær med stor spredning, skarpt skadesfald og høj skade.",
@@ -16761,7 +16973,7 @@
       "tr": "Il Toro III",
       "uk": "Ель-Торо III",
       "zh-CN": "公牛 III",
-      "zh-TW": "公牛III"
+      "zh-TW": "公牛 III"
     },
     "description": {
       "da": "Pump-action haglgevær med stor spredning, skarpt skadesfald og høj skade.",
@@ -17382,7 +17594,7 @@
       "tr": "Il Toro IV",
       "uk": "Ель-Торо IV",
       "zh-CN": "公牛 IV",
-      "zh-TW": "公牛IV"
+      "zh-TW": "公牛 IV"
     },
     "description": {
       "da": "Pump-action haglgevær med stor spredning, skarpt skadesfald og høj skade.",
@@ -26051,7 +26263,7 @@
       "tr": "Isıtıcı I",
       "uk": "Чайник I",
       "zh-CN": "水壶 I",
-      "zh-TW": "水壺I"
+      "zh-TW": "水壺 I"
     },
     "description": {
       "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
@@ -26657,7 +26869,7 @@
       "tr": "Isıtıcı II",
       "uk": "Чайник II",
       "zh-CN": "水壶 II",
-      "zh-TW": "水壺II"
+      "zh-TW": "水壺 II"
     },
     "description": {
       "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
@@ -27248,7 +27460,7 @@
       "tr": "Isıtıcı III",
       "uk": "Чайник III",
       "zh-CN": "水壶 III",
-      "zh-TW": "水壺III"
+      "zh-TW": "水壺 III"
     },
     "description": {
       "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
@@ -27865,851 +28077,5 @@
       }
     ],
     "upgradesTo": "kettle_iv"
-  },
-  {
-    "id": "kettle_iv",
-    "name": {
-      "da": "Kedel IV",
-      "de": "Kettle IV",
-      "en": "Kettle IV",
-      "es": "Caldero IV",
-      "fr": "Fondoir IV",
-      "he": "קטל IV",
-      "hr": "Kotlić IV",
-      "it": "Stormo IV",
-      "ja": "ケトル IV",
-      "ko-KR": "케틀 IV",
-      "no": "Kjele IV",
-      "pl": "Kociołek IV",
-      "pt": "Chaleira IV",
-      "pt-BR": "Chaleira IV",
-      "ru": "Чайник IV",
-      "sr": "Čajnik IV",
-      "tr": "Isıtıcı IV",
-      "uk": "Чайник IV",
-      "zh-CN": "水壶 IV",
-      "zh-TW": "水壺IV"
-    },
-    "description": {
-      "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
-      "de": "Ein halbautomatisches Sturmgewehr. Es ist schnell und präzise, doch die Kugeln fliegen recht langsam und das Nachladen dauert lange.",
-      "en": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time to reload.",
-      "es": "Fusil de asalto semiautomático. Es rápido y preciso, pero cuenta con una velocidad de las balas baja y se tarda mucho en recargar.",
-      "fr": "Fusil d'assaut semi-automatique. Rapide et précis, mais la vitesse de ses balles est faible et son rechargement est long.",
-      "he": "רובה סער חצי-אוטומטי. מהיר ומדויק, אך בעל מהירות קליע נמוכה ולוקח זמן רב לטעון אותו מחדש.",
-      "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se ponovno puni.",
-      "it": "Fucile d'assalto semiautomatico. È rapido e preciso, ma ha una velocità dei proiettili ridotta e richiede molto tempo per essere ricaricato.",
-      "ja": "セミオートのアサルトライフル。素早くて正確だが弾速は遅く、リロードに時間がかかる。",
-      "ko-KR": "빠르고 정확하게 발사하지만 탄속이 느리고 재장전 시간이 오래 걸리는 반자동 돌격 소총입니다.",
-      "no": "Halvautomatisk automatgevær. Raskt og presist, men har lav kulehastighet og tar lang tid å lade om.",
-      "pl": "Szturmowy karabin samopowtarzalny. Szybki i celny, ale wystrzeliwuje pociski z małą prędkością, a przeładowywanie go zajmuje dużo czasu.",
-      "pt": "Fuzil de assalto semiautomático. Rápido e preciso, mas possui baixa velocidade de projétil e demora muito para recarregar.",
-      "pt-BR": "Fuzil de assalto semiautomático. Veloz e preciso, mas tem baixa velocidade de projétil e demora muito tempo para recarregar.",
-      "ru": "Полуавтоматическая штурмовая винтовка. Быстрая и точная, но отличается низкой скоростью пуль и требует много времени на перезарядку.",
-      "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se puni.",
-      "tr": "Yarı otomatik taarruz tüfeği. Hızlı ve isabetlidir ancak mermi hızı düşük ve yeniden doldurma süresi uzundur.",
-      "uk": "Напівавтоматична штурмова гвинтівка. Швидка та точна, але має низьку швидкість польоту кулі та довго перезаряджається.",
-      "zh-CN": "半自动射击的突击步枪，射速快，精准度高，但子弹初速较低，且装弹时间长。",
-      "zh-TW": "半自動突擊步槍。快速而準確，但子彈速度較低且裝填時間較長。"
-    },
-    "type": "Assault Rifle",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Light Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Vrsta streljiva",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип боеприпасов",
-        "sr": "Vrsta municije",
-        "tr": "Mermi Türü",
-        "uk": "Тип боєприпасів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Very Weak",
-        "da": "ARC-rustningspenetrering",
-        "de": "ARC-Panzerungsdurchdringung",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración de armadura ARC",
-        "fr": "Pénétration d'armure ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC装甲貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC-rustningspenetrering",
-        "pl": "Przebicie pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delme",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC 护甲穿透",
-        "zh-TW": "ARC 護甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2.5x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Damage Falloff Range": {
-        "value": "130-150 m",
-        "da": "Skadesfald-afstand",
-        "de": "Schadensabfall-Reichweite",
-        "en": "Damage Falloff Range",
-        "es": "Alcance de pérdida de daño",
-        "fr": "Portée de perte de dégâts",
-        "he": "טווח דעיכת נזק",
-        "hr": "Domet opadanja štete",
-        "it": "Raggio di calo del danno",
-        "ja": "ダメージ減衰距離",
-        "ko-KR": "피해 감소 거리",
-        "no": "Skadefall-rekkevidde",
-        "pl": "Zasięg spadku obrażeń",
-        "pt": "Alcance da queda de dano",
-        "pt-BR": "Alcance da queda de dano",
-        "ru": "Дистанция спада урона",
-        "sr": "Domet opadanja štete",
-        "tr": "Hasar Azalma Menzili",
-        "uk": "Дистанція спаду шкоди",
-        "zh-CN": "伤害衰减距离",
-        "zh-TW": "傷害衰減距離"
-      },
-      "Durability": {
-        "value": "130/130",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久性",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Firing Mode": {
-        "value": "Semi-Automatic",
-        "da": "Skydningstilstand",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način pucanja",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skyttemodus",
-        "pl": "Tryb ognia",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Režim pucanja",
-        "tr": "Atış Modu",
-        "uk": "Режим стрільби",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Increased Bullet Velocity": {
-        "value": "75%",
-        "da": "Øget kuglehastighed",
-        "de": "Erhöhte Geschossgeschwindigkeit",
-        "en": "Increased Bullet Velocity",
-        "es": "Velocidad de bala aumentada",
-        "fr": "Vélocité des balles augmentée",
-        "he": "מהירות קליע מוגברת",
-        "hr": "Povećana brzina metka",
-        "it": "Velocità proiettile aumentata",
-        "ja": "弾速増加",
-        "ko-KR": "탄환 속도 증가",
-        "no": "Økt kulehastighet",
-        "pl": "Zwiększona prędkość pocisku",
-        "pt": "Velocidade de bala aumentada",
-        "pt-BR": "Aumento da Velocidade do Projétil",
-        "ru": "Увеличенная скорость пули",
-        "sr": "Povećana brzina metka",
-        "tr": "Artırılmış Mermi Hızı",
-        "uk": "Збільшена швидкість кулі",
-        "zh-CN": "子弹速度提升",
-        "zh-TW": "子彈速度提升"
-      },
-      "Magazine Size": {
-        "value": 20,
-        "da": "Magasinstørrelse",
-        "de": "Magazingröße",
-        "en": "Magazine Size",
-        "es": "Tamaño del cargador",
-        "fr": "Taille du chargeur",
-        "he": "גודל מחסנית",
-        "hr": "Veličina spremnika",
-        "it": "Dimensioni caricatore",
-        "ja": "マガジンサイズ",
-        "ko-KR": "탄창 크기",
-        "no": "Magasinstørrelse",
-        "pl": "Rozmiar magazynka",
-        "pt": "Tamanho do carregador",
-        "pt-BR": "Tamanho do Pente",
-        "ru": "Размер магазина",
-        "sr": "Veličina okvira",
-        "tr": "Şarjör Boyutu",
-        "uk": "Розмір магазину",
-        "zh-CN": "弹匣容量",
-        "zh-TW": "彈匣容量"
-      },
-      "Reduced Reload Time": {
-        "value": "40%",
-        "da": "Reduceret genindlæsningstid",
-        "de": "Verringerte Nachladezeit",
-        "en": "Reduced Reload Time",
-        "es": "Tiempo de recarga reducido",
-        "fr": "Temps de rechargement réduit",
-        "he": "זמן טעינה מופחת",
-        "hr": "Smanjeno vrijeme punjenja",
-        "it": "Tempo di ricarica ridotto",
-        "ja": "リロード時間短縮",
-        "ko-KR": "재장전 시간 감소",
-        "no": "Redusert ladetid",
-        "pl": "Skrócony czas przeładowania",
-        "pt": "Tempo de recarga reduzido",
-        "pt-BR": "Tempo de Recarga Reduzido",
-        "ru": "Сокращённое время перезарядки",
-        "sr": "Smanjeno vrijeme punjenja",
-        "tr": "Azaltılmış yeniden doldurma süresi",
-        "uk": "Скорочений час перезаряджання",
-        "zh-CN": "装弹时间缩短",
-        "zh-TW": "降低換彈時間"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "recyclesInto": {
-      "mechanical_components": 2,
-      "simple_gun_parts": 2
-    },
-    "salvagesInto": {
-      "simple_gun_parts": 2
-    },
-    "upgradeCost": {
-      "mechanical_components": 3,
-      "simple_gun_parts": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iv.png",
-    "updatedAt": "02/24/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.AssaultRifle",
-        "dropType": [
-          "Equipment.Weapon.Firearm.LightAmmo"
-        ],
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.LightAmmoWeapon",
-          "Items.SpecificWeapon.Kettle"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "light_ammo",
-        "arc": {
-          "armorMultiplier": 0.2,
-          "propagationMultiplier": 0.1
-        },
-        "base": {
-          "adsTimeSec": 0.6,
-          "burnRate": 0.001607,
-          "burstSize": 1,
-          "clipSize": 20,
-          "firePower": 40000,
-          "fireRate": 450,
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 8.5,
-          "reloadTimeSec": 4.5
-        },
-        "damageFalloff": [
-          [
-            0,
-            1.2
-          ],
-          [
-            5,
-            1.2
-          ],
-          [
-            15,
-            1.001
-          ],
-          [
-            130,
-            1.001
-          ],
-          [
-            150,
-            0.6
-          ]
-        ],
-        "dispersion": {
-          "adsDuration": 1.7,
-          "adsRecoveryMultiplier": 0.725,
-          "adsScale": 0.4,
-          "fireGain": [
-            [
-              0,
-              0.1,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              3,
-              0.1,
-              0.14,
-              0.14,
-              "cubic"
-            ],
-            [
-              5,
-              0.8,
-              0,
-              0,
-              "cubic"
-            ],
-            [
-              20,
-              0.8,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "fireMax": 2,
-          "linearRecovery": true,
-          "max": 6,
-          "min": 0.05,
-          "perStance": {
-            "crouching": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.7,
-              "adsRecoveryMultiplier": 0.625,
-              "adsScale": 0.1,
-              "dispersion": 1.5,
-              "overrideAdsDispersion": true,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed"
-              ]
-            },
-            "crouchMoving": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.7,
-              "adsRecoveryMultiplier": 0.625,
-              "adsScale": 0.1,
-              "dispersion": 1.5,
-              "overrideAdsDispersion": true,
-              "recoverySpeed": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed"
-              ]
-            },
-            "falling": {
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "sprinting": {
-              "adsRecoveryMultiplier": 0.725,
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standing": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.8,
-              "adsRecoveryMultiplier": 0.725,
-              "adsScale": 0.1,
-              "dispersion": 2.5,
-              "overrideAdsDispersion": true,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed"
-              ]
-            },
-            "standMoving": {
-              "adsDuration": 1.7,
-              "adsFireDispersionMultiplier": 0.8,
-              "adsRecoveryMultiplier": 0.725,
-              "adsScale": 0.1,
-              "dispersion": 2.5,
-              "overrideAdsDispersion": true,
-              "recoverySpeed": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed"
-              ]
-            },
-            "uncontrollable": {
-              "adsRecoveryMultiplier": 0.725,
-              "dispersion": 3,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            }
-          },
-          "popMax": 0.1,
-          "popRecoverySpeed": 0.05,
-          "recoverySpeed": 3.5,
-          "velocity": 2.5,
-          "velocityMax": 3,
-          "velocityRecovery": 6
-        },
-        "equipTimeSec": 1,
-        "headshotMultiplier": 2.5,
-        "modifiers": {
-          "bulletVelocity": 16000,
-          "durabilityBurnRate": -0.3,
-          "reloadSpeed": -1
-        },
-        "projectileGravityScale": 0.8,
-        "projectileInitialSpeedMs": 350,
-        "projectileRadiusM": 0.1,
-        "recoil": {
-          "adsGainMultiplier": 0.6,
-          "lerpSpeed": 0.4,
-          "pitch": [
-            [
-              0,
-              0,
-              2.8229413,
-              0,
-              "linear"
-            ],
-            [
-              2,
-              0.2,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              6,
-              2,
-              0.07372187,
-              0.07372336,
-              "linear"
-            ],
-            [
-              16,
-              7,
-              0.031883117,
-              0.03188288,
-              "linear"
-            ],
-            [
-              27.810873,
-              10,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "pitchProceduralRange": [
-            0,
-            0.1
-          ],
-          "recoverySpeed": 0.6,
-          "sampleCount": 25,
-          "unset": [
-            "proceduralSwingSpeed",
-            "recoveryDelay"
-          ],
-          "yaw": [
-            [
-              0,
-              0,
-              -0.009839253,
-              -0.009840206,
-              "cubic"
-            ],
-            [
-              7.903513,
-              -0.12433219,
-              -0.24865048,
-              -0.24865021,
-              "cubic"
-            ],
-            [
-              15.802044,
-              0.6794237,
-              -0.017511474,
-              -0.017511474,
-              "cubic"
-            ],
-            [
-              21.71209,
-              -0.36614072,
-              0,
-              0,
-              "linear"
-            ],
-            [
-              27.98605,
-              0.30393875,
-              0,
-              0.14261085,
-              "cubic"
-            ]
-          ],
-          "yawProceduralRange": [
-            -0.7,
-            0.7
-          ]
-        },
-        "statBarOffsets": {
-          "range": 9.5
-        },
-        "tier": 4,
-        "unequipTimeSec": 0.4
-      }
-    },
-    "modSlots": {
-      "grip": [
-        "angled_grip_i",
-        "angled_grip_ii",
-        "angled_grip_iii",
-        "horizontal_grip",
-        "vertical_grip_i",
-        "vertical_grip_ii",
-        "vertical_grip_iii"
-      ],
-      "magazine": [
-        "extended_light_mag_i",
-        "extended_light_mag_ii",
-        "extended_light_mag_iii"
-      ],
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "repairCost": {
-      "mechanical_components": 2,
-      "simple_gun_parts": 2
-    },
-    "repairDurability": 0.5,
-    "upgrades": [
-      {
-        "cost": {
-          "amplification_module_mk_i": 1
-        },
-        "requires": [
-          {
-            "level": 4,
-            "station": "weapon_bench"
-          }
-        ],
-        "to": "kettle_amplified"
-      }
-    ],
-    "upgradesTo": "kettle_amplified"
-  },
-  {
-    "id": "kinetic_converter",
-    "name": {
-      "da": "Kinetisk konverter",
-      "de": "Kinetischer Konverter",
-      "en": "Kinetic Converter",
-      "es": "Convertidor cinético",
-      "fr": "Convertisseur cinétique",
-      "he": "ממיר קינטי",
-      "hr": "Kinetički pretvarač",
-      "it": "Convertitore cinetico",
-      "ja": "キネティック・コンバーター",
-      "ko-KR": "키네틱 컨버터",
-      "no": "Kinetisk konverter",
-      "pl": "Konwerter kinetyczny",
-      "pt": "Conversor cinético",
-      "pt-BR": "Conversor Cinético",
-      "ru": "Кинетический преобразователь",
-      "sr": "Kinetički pretvarač",
-      "tr": "Kinetik Dönüştürücü",
-      "uk": "Кінетичний перетворювач",
-      "zh-CN": "动能转换器",
-      "zh-TW": "動能轉換器"
-    },
-    "description": {
-      "da": "Øger skudhastigheden moderat.",
-      "de": "Erhöht die Feuerrate moderat.",
-      "en": "Moderately increases fire rate.",
-      "es": "Aumenta moderadamente la cadencia de disparo.",
-      "fr": "Augmente modérément la cadence de tir.",
-      "he": "מגדיל במידה בינונית את קצב האש.",
-      "hr": "Umjereno povećava brzinu paljbe.",
-      "it": "Aumenta moderatamente la cadenza di fuoco.",
-      "ja": "発射速度が中程度増加する。",
-      "ko-KR": "발사 속도를 적당히 높여줍니다.",
-      "no": "Øker skuddhastigheten moderat.",
-      "pl": "Umiarkowanie zwiększa szybkostrzelność.",
-      "pt": "Aumenta moderadamente a cadência de tiro.",
-      "pt-BR": "Aumenta de forma moderada a cadência de tiro.",
-      "ru": "Умеренно увеличивает скорость стрельбы.",
-      "sr": "Umereno povećava brzinu paljbe.",
-      "tr": "Atış hızını orta düzeyde artırır.",
-      "uk": "Помірно збільшує швидкострільність.",
-      "zh-CN": "中幅度提高射速。",
-      "zh-TW": "中度提升射速。"
-    },
-    "type": "Modification",
-    "rarity": "Legendary",
-    "value": 7000,
-    "weightKg": 0.75,
-    "stackSize": 1,
-    "compatibleWith": [
-      "Aphelion",
-      "Arpeggio",
-      "Bettina",
-      "Bobcat",
-      "Canto",
-      "Ferro",
-      "Hullcracker",
-      "Il Toro",
-      "Kettle",
-      "Osprey",
-      "Rattler",
-      "Renegade",
-      "Stiletto",
-      "Stitcher",
-      "Torrente",
-      "Vulcano"
-    ],
-    "effects": {
-      "Increased Fire Rate": {
-        "value": "15%",
-        "da": "Øget skudhastighed",
-        "de": "Erhöhte Feuerrate",
-        "en": "Increased Fire Rate",
-        "es": "Cadencia de disparo aumentada",
-        "fr": "Cadence de tir augmentée",
-        "he": "קצב אש מוגבר",
-        "hr": "Povećana brzina paljbe",
-        "it": "Cadenza di fuoco aumentata",
-        "ja": "射撃速度増加",
-        "ko-KR": "연사 속도 증가",
-        "no": "Økt skuddfrekvens",
-        "pl": "Zwiększona szybkostrzelność",
-        "pt": "Taxa de disparo aumentada",
-        "pt-BR": "Cadência de Tiro Aumentada",
-        "ru": "Увеличенная скорострельность",
-        "sr": "Povećana brzina paljbe",
-        "tr": "Artırılmış Atış Hızı",
-        "uk": "Збільшена швидкострільність",
-        "zh-CN": "射速提升",
-        "zh-TW": "射速提升"
-      },
-      "Increased Horizontal Recoil": {
-        "value": "20%",
-        "da": "Øget vandret rekyl",
-        "de": "Erhöhter horizontaler Rückstoß",
-        "en": "Increased Horizontal Recoil",
-        "es": "Retroceso horizontal aumentado",
-        "fr": "Recul horizontal augmenté",
-        "he": "רתע אופקי מוגבר",
-        "hr": "Povećan horizontalni trzaj",
-        "it": "Rinculo orizzontale aumentato",
-        "ja": "水平反動増加",
-        "ko-KR": "수평 반동 증가",
-        "no": "Økt horisontal rekyl",
-        "pl": "Zwiększony odrzut poziomy",
-        "pt": "Recuo horizontal aumentado",
-        "pt-BR": "Recuo Horizontal Aumentado",
-        "ru": "Увеличенная горизонтальная отдача",
-        "sr": "Povećan horizontalni trzaj",
-        "tr": "Artırılmış Yatay Tepme",
-        "uk": "Збільшена горизонтальна віддача",
-        "zh-CN": "水平后坐力增加",
-        "zh-TW": "水平後座力增加"
-      },
-      "Increased Vertical Recoil": {
-        "value": "20%",
-        "da": "Øget lodret rekyl",
-        "de": "Erhöhter vertikaler Rückstoß",
-        "en": "Increased Vertical Recoil",
-        "es": "Retroceso vertical aumentado",
-        "fr": "Recul vertical augmenté",
-        "he": "רתע אנכי מוגבר",
-        "hr": "Povećan vertikalni trzaj",
-        "it": "Rinculo verticale aumentato",
-        "ja": "垂直反動増加",
-        "ko-KR": "수직 반동 증가",
-        "no": "Økt vertikal rekyl",
-        "pl": "Zwiększony odrzut pionowy",
-        "pt": "Recuo vertical aumentado",
-        "pt-BR": "Recuo Vertical Aumentado",
-        "ru": "Увеличенная вертикальная отдача",
-        "sr": "Povećan vertikalni trzaj",
-        "tr": "Artırılmış Dikey Tepme",
-        "uk": "Збільшена вертикальна віддача",
-        "zh-CN": "垂直后坐力增加",
-        "zh-TW": "垂直後座力增加"
-      }
-    },
-    "recyclesInto": {
-      "duct_tape": 2,
-      "mod_components": 1
-    },
-    "salvagesInto": {
-      "mechanical_components": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/kinetic_converter.png",
-    "updatedAt": "01/13/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Modification.Firearm.Stock",
-        "dropType": [
-          "Equipment.Modification.Weapon"
-        ],
-        "itemType": [
-          "Modification.Firearm.Stock"
-        ]
-      },
-      "mod": {
-        "modifiers": [
-          {
-            "amount": 15,
-            "benefit": "positive",
-            "direction": "up",
-            "stat": "fireRate",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "negative",
-            "direction": "up",
-            "stat": "verticalRecoil",
-            "unit": "percent"
-          },
-          {
-            "amount": 20,
-            "benefit": "negative",
-            "direction": "up",
-            "stat": "horizontalRecoil",
-            "unit": "percent"
-          }
-        ],
-        "ops": [
-          {
-            "addMultiply": 1.15,
-            "stat": "fireRate"
-          },
-          {
-            "addMultiply": 1.2,
-            "stat": "horizontalRecoil"
-          },
-          {
-            "addMultiply": 1.2,
-            "stat": "verticalRecoil"
-          }
-        ]
-      }
-    }
   }
 ]

@@ -1,5 +1,97 @@
 [
   {
+    "id": "duct_tape",
+    "name": {
+      "da": "Gaffatape",
+      "de": "Isolierband",
+      "en": "Duct Tape",
+      "es": "Cinta americana",
+      "fr": "Ruban adhésif",
+      "he": "סרט הדבקה",
+      "hr": "Ljepljiva Traka",
+      "it": "Nastro adesivo",
+      "ja": "ダクトテープ",
+      "ko-KR": "덕트 테이프",
+      "no": "Gaffateip",
+      "pl": "Mocna taśma klejąca",
+      "pt": "Fita adesiva",
+      "pt-BR": "Fita Adesiva",
+      "ru": "Скотч",
+      "sr": "Lepljiva Traka",
+      "tr": "Koli Bandı",
+      "uk": "Клейка стрічка",
+      "zh-CN": "胶带",
+      "zh-TW": "大力膠帶"
+    },
+    "description": {
+      "da": "Bruges til at fremstille en lang række genstande. Kan genbruges til fremstillingsmaterialer.",
+      "de": "Wird zur Herstellung verschiedenster Gegenstände verwendet. Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+      "es": "Sirve para fabricar una gran variedad de objetos. Se puede reciclar para obtener materiales de fabricación.",
+      "fr": "Permet de fabriquer toute une panoplie d'objets. Peut être recyclé en matériaux d'artisanat.",
+      "he": "משמש ליצירת מגוון רחב של פריטים. ניתן למחזר לחומרי יצירה.",
+      "hr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
+      "it": "Si usa per creare una vasta gamma di oggetti. Si può riciclare in materiali da creazione.",
+      "ja": "さまざまなアイテムの製作に使用。リサイクルすると製作用素材になる。",
+      "ko-KR": "다양한 아이템 제작에 사용됩니다. 제작 재료로 재활용할 수 있습니다.",
+      "no": "Brukes til å fremstille et bredt utvalg av gjenstander. Kan resirkuleres til fremstillingsmaterialer.",
+      "pl": "Rzecz służąca do wytwarzania szerokiej gamy przedmiotów. Można przetworzyć na materiały do wytwarzania.",
+      "pt": "Usado para criar uma grande variedade de itens. Pode ser reciclado em materiais de criação.",
+      "pt-BR": "Serve para fabricar uma ampla gama de itens. Pode reciclar por materiais de fabricação.",
+      "ru": "Можно пустить на изготовление разных предметов или переработать, чтобы получить материалы.",
+      "sr": "Koristi se za izradu raznih predmeta. Može se reciklirati u materijale za izradu.",
+      "tr": "Çeşitli eşyalar üretmede kullanılır. Üretim materyallerine geri dönüştürülebilir.",
+      "uk": "Використовується для створення різноманітних предметів. Можна переробити на матеріали для крафтингу.",
+      "zh-CN": "用于制作各种物品。可回收为制作材料。",
+      "zh-TW": "用來製作多種物品。可回收成製作材料。"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "foundIn": "Residential, Commercial",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
+    "recyclesInto": {
+      "fabric": 3
+    },
+    "salvagesInto": {
+      "fabric": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/duct_tape.png",
+    "updatedAt": "03/22/2026",
+    "_community": [
+      "foundIn"
+    ],
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "CraftingMaterial.Topside",
+        "dropType": [
+          "QuestItem",
+          "Salvage.Material.Uncommon"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Commercial",
+          "Residential"
+        ]
+      }
+    },
+    "vendors": [
+      {
+        "cost": {
+          "assorted_seeds": 6
+        },
+        "limit": 10,
+        "refreshSeconds": 86400,
+        "requiredLevel": 7,
+        "trader": "Celeste"
+      }
+    ]
+  },
+  {
     "id": "durable_cloth",
     "name": {
       "da": "Holdbart stof",
@@ -8012,25 +8104,25 @@
     "id": "faculty_closet_design",
     "name": {
       "da": "Fakultetsskabsdesign",
-      "de": "Entwurf: Fakultätsschrank",
+      "de": "Entwurf: Professoren-Wandschrank",
       "en": "Faculty Closet Design",
-      "es": "Diseño de armario del profesorado",
-      "fr": "Design du Placard de la faculté",
+      "es": "Diseño del armario académico",
+      "fr": "Design de placard universitaire",
       "he": "עיצוב ארון סגל",
       "hr": "Nacrt fakultetskog ormara.",
-      "it": "Design del Guardaroba della facoltà",
-      "ja": "教員用クローゼットのデザイン",
-      "ko-KR": "학부 보관실 디자인",
+      "it": "Design armadio facoltà",
+      "ja": "大学のクローゼットのデザイン",
+      "ko-KR": "직원용 옷장 디자인",
       "no": "Fakultetsskapdesign",
-      "pl": "Projekt schowka wydziałowego",
+      "pl": "Projekt: Szafa do pokoju kadry",
       "pt": "Projeto de Armário da Faculdade",
-      "pt-BR": "Projeto do Armário do Corpo Docente",
-      "ru": "Схема Кладовки факультета",
+      "pt-BR": "Projeto de Armário de Faculdade",
+      "ru": "Схема — Профессорский шкаф",
       "sr": "Nacrt fakultetskog ormara",
-      "tr": "Personel Gardırop Tasarımı",
+      "tr": "Fakülte Elbise Dolabı Tasarımı",
       "uk": "Дизайн шафи \"Факультет\"",
-      "zh-CN": "教职员衣柜设计图",
-      "zh-TW": "教職員衣櫥設計"
+      "zh-CN": "教职员衣橱设计图",
+      "zh-TW": "教職員衣櫃設計"
     },
     "type": "Design",
     "rarity": "Rare",
@@ -8066,25 +8158,25 @@
     "id": "faculty_closet",
     "name": {
       "da": "Fakultetsskab",
-      "de": "Fakultätsschrank",
+      "de": "Professoren-Wandschrank",
       "en": "Faculty Closet",
-      "es": "Armario de la facultad",
-      "fr": "Placard de la faculté",
+      "es": "Armario académico",
+      "fr": "Placard universitaire",
       "he": "ארון סגל",
       "hr": "Sveučilišni ormar",
-      "it": "Guardaroba della facoltà",
-      "ja": "教員用クローゼット",
-      "ko-KR": "학부 보관실",
+      "it": "Armadio facoltà",
+      "ja": "大学のクローゼット",
+      "ko-KR": "직원용 옷장",
       "no": "Fakultetskap",
-      "pl": "Schowek wydziałowy",
+      "pl": "Szafa do pokoju kadry",
       "pt": "Armário de Faculdade",
-      "pt-BR": "Armário do Corpo Docente",
-      "ru": "Кладовка факультета",
+      "pt-BR": "Armário de Faculdade",
+      "ru": "Профессорский шкаф",
       "sr": "Fakultetski Ormar",
-      "tr": "Fakülte Dolabı",
+      "tr": "Fakülte Elbise Dolabı",
       "uk": "Шафа факультету",
-      "zh-CN": "教职员储物间",
-      "zh-TW": "教職員儲物室"
+      "zh-CN": "教职员衣橱",
+      "zh-TW": "教職員衣櫃"
     },
     "type": "Outpost Furniture",
     "rarity": "Rare",
@@ -8100,25 +8192,25 @@
     "id": "faculty_dresser_design",
     "name": {
       "da": "Fakultetskommodedesign",
-      "de": "Fakultätskommode-Entwurf",
+      "de": "Entwurf: Professorenkommode",
       "en": "Faculty Dresser Design",
-      "es": "Diseño de cómoda de la facultad",
-      "fr": "Design de la commode de la faculté",
+      "es": "Diseño del tocador académico",
+      "fr": "Design de commode universitaire",
       "he": "עיצוב שידת סגל",
       "hr": "Nacrt fakultetske komode.",
-      "it": "Design della cassettiera della facoltà",
-      "ja": "教員用ドレッサーデザイン",
-      "ko-KR": "학부 서랍장 디자인",
+      "it": "Design comò facoltà",
+      "ja": "大学のドレッサーのデザイン",
+      "ko-KR": "직원용 화장대 디자인",
       "no": "Fakultetskommodedesign",
-      "pl": "Projekt komody wydziałowej",
+      "pl": "Projekt: Komoda do pokoju kadry",
       "pt": "Projeto de Cômoda da Faculdade",
-      "pt-BR": "Projeto da Cômoda do Corpo Docente",
-      "ru": "Схема Комода факультета",
+      "pt-BR": "Projeto de Cômoda de Faculdade",
+      "ru": "Схема — Профессорский комод",
       "sr": "Nacrt fakultetske komode",
-      "tr": "Fakülte Şifonyer Tasarımı",
+      "tr": "Fakülte Şifonyeri Tasarımı",
       "uk": "Дизайн комода \"Факультет\"",
-      "zh-CN": "学院梳妆台设计图",
-      "zh-TW": "教職員斗櫃設計"
+      "zh-CN": "教职员梳妆台设计图",
+      "zh-TW": "教職員梳妝台設計"
     },
     "type": "Design",
     "rarity": "Rare",
@@ -8154,25 +8246,25 @@
     "id": "faculty_dresser",
     "name": {
       "da": "Fakultetskommode",
-      "de": "Fakultätskommode",
+      "de": "Professorenkommode",
       "en": "Faculty Dresser",
-      "es": "Cómoda de la facultad",
-      "fr": "Commode de la faculté",
+      "es": "Tocador académico",
+      "fr": "Commode universitaire",
       "he": "שידת סגל",
       "hr": "Sveučilišna komoda",
-      "it": "Cassettiera della facoltà",
-      "ja": "教員用ドレッサー",
-      "ko-KR": "학부 서랍장",
+      "it": "Comò facoltà",
+      "ja": "大学のドレッサー",
+      "ko-KR": "직원용 화장대",
       "no": "Fakultetskommode",
-      "pl": "Komoda wydziałowa",
+      "pl": "Komoda do pokoju kadry",
       "pt": "Cômoda de Faculdade",
-      "pt-BR": "Cômoda do Corpo Docente",
-      "ru": "Комод факультета",
+      "pt-BR": "Cômoda de Faculdade",
+      "ru": "Профессорский комод",
       "sr": "Fakultetska Komoda",
       "tr": "Fakülte Şifonyeri",
       "uk": "Комод факультету",
-      "zh-CN": "教职员五斗柜",
-      "zh-TW": "教職員五斗櫃"
+      "zh-CN": "教职员梳妆台",
+      "zh-TW": "教職員梳妝台"
     },
     "type": "Outpost Furniture",
     "rarity": "Rare",
@@ -8327,6 +8419,75 @@
     }
   },
   {
+    "id": "fancy_plate",
+    "name": {
+      "da": "Fint fad",
+      "de": "Dekorativer Teller",
+      "en": "Fancy Plate",
+      "es": "Plato elegante",
+      "fr": "Belle assiette",
+      "he": "צלחת מעוטרת",
+      "hr": "Otmjeni tanjur",
+      "it": "Piatto elegante",
+      "ja": "おしゃれな皿",
+      "ko-KR": "고급 접시",
+      "no": "Fin tallerken",
+      "pl": "Elegancki talerz",
+      "pt": "Prato Chique",
+      "pt-BR": "Prato Chique",
+      "ru": "Красивая тарелка",
+      "sr": "Otmeni tanjir",
+      "tr": "Süslü Tabak",
+      "uk": "Вишукана тарілка",
+      "zh-CN": "精致餐盘",
+      "zh-TW": "精美餐盤"
+    },
+    "description": {
+      "da": "Pas på, så den ikke går i stykker.",
+      "de": "Geh damit vorsichtig um.",
+      "en": "Careful not to shatter it.",
+      "es": "Cuidado, no vayas a romperlo.",
+      "fr": "Attention à ne pas la briser.",
+      "he": "היזהר לא לשבור אותה.",
+      "hr": "Pazite da ga ne razbijete.",
+      "it": "Fai attenzione a non frantumarlo.",
+      "ja": "くれぐれも割らないように。",
+      "ko-KR": "깨뜨리지 않게 조심하세요.",
+      "no": "Pass på at den ikke knuses.",
+      "pl": "Uważaj, żeby tego nie rozbić.",
+      "pt": "Cuidado para não o partir.",
+      "pt-BR": "Cuidado para não quebrar.",
+      "ru": "Только не разбейте!",
+      "sr": "Pazite da ga ne razbijete.",
+      "tr": "Kırmamaya dikkat et.",
+      "uk": "Обережно, не розбийте.",
+      "zh-CN": "小心别碰碎了。",
+      "zh-TW": "小心別摔破了。"
+    },
+    "type": "Trinket",
+    "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.5,
+    "stackSize": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/fancy_plate.png",
+    "updatedAt": "10/27/2026",
+    "addedIn": "2.3",
+    "mechanics": {
+      "classification": {
+        "category": "Misc.Trinket",
+        "dropType": [
+          "Salvage.Trinket"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ],
+        "theme": [
+          "OldWorld"
+        ]
+      }
+    }
+  },
+  {
     "id": "ferro_i",
     "name": {
       "da": "Ferro I",
@@ -8348,7 +8509,7 @@
       "tr": "Ferro I",
       "uk": "Ферро I",
       "zh-CN": "生铁 I",
-      "zh-TW": "鐵桿I"
+      "zh-TW": "鐵桿 I"
     },
     "description": {
       "da": "Tung break-action riffel. Slår hårdt, men skal genlades mellem hvert skud.",
@@ -8894,7 +9055,7 @@
       "tr": "Ferro II",
       "uk": "Ферро II",
       "zh-CN": "生铁 II",
-      "zh-TW": "鐵桿II"
+      "zh-TW": "鐵桿 II"
     },
     "description": {
       "da": "Tung break-action riffel. Slår hårdt, men skal genlades mellem hvert skud.",
@@ -9444,7 +9605,7 @@
       "tr": "Ferro III",
       "uk": "Ферро III",
       "zh-CN": "生铁 III",
-      "zh-TW": "鐵桿III"
+      "zh-TW": "鐵桿 III"
     },
     "description": {
       "da": "Tung break-action riffel. Slår hårdt, men skal genlades mellem hvert skud.",
@@ -9998,7 +10159,7 @@
       "tr": "Ferro IV",
       "uk": "Ферро IV",
       "zh-CN": "生铁 IV",
-      "zh-TW": "鐵桿IV"
+      "zh-TW": "鐵桿 IV"
     },
     "description": {
       "da": "Tung break-action riffel. Slår hårdt, men skal genlades mellem hvert skud.",
@@ -11579,7 +11740,7 @@
     "stackSize": 1,
     "effects": {
       "Damage": {
-        "value": "10/s",
+        "value": "13/s",
         "da": "Skade",
         "de": "Schaden",
         "en": "Damage",
@@ -11647,7 +11808,7 @@
     "addedIn": "base",
     "mechanics": {
       "card": {
-        "damageOverTime": 10
+        "damageOverTime": 13
       },
       "classification": {
         "category": "Gadget",
@@ -11737,22 +11898,22 @@
     "id": "floor_lamp_design",
     "name": {
       "da": "Gulvlampedesign",
-      "de": "Stehlampenentwurf",
+      "de": "Entwurf: Bodenlampe",
       "en": "Floor Lamp Design",
-      "es": "Diseño de Lámpara de pie",
+      "es": "Diseño de la lámpara de suelo",
       "fr": "Design de lampadaire",
       "he": "עיצוב מנורת רצפה",
       "hr": "Nacrt podne lampe.",
-      "it": "Design della lampada da terra",
+      "it": "Design lampada da terra",
       "ja": "フロアランプのデザイン",
       "ko-KR": "플로어 램프 디자인",
       "no": "Gulvlampedesign",
-      "pl": "Projekt lampy podłogowej",
+      "pl": "Projekt: Lampa stojąca",
       "pt": "Projeto de Luminária de Chão",
-      "pt-BR": "Projeto de Luminária de Chão",
-      "ru": "Схема напольной лампы",
+      "pt-BR": "Projeto de Luminária de Piso",
+      "ru": "Схема — Напольная лампа",
       "sr": "Nacrt podne lampe",
-      "tr": "Ayaklı Lamba Tasarımı",
+      "tr": "Lambader Tasarımı",
       "uk": "Дизайн торшера",
       "zh-CN": "落地灯设计图",
       "zh-TW": "落地燈設計"
@@ -11780,9 +11941,9 @@
     "id": "floor_lamp",
     "name": {
       "da": "Gulvlampe",
-      "de": "Stehlampe",
+      "de": "Bodenlampe",
       "en": "Floor Lamp",
-      "es": "Lámpara de pie",
+      "es": "Lámpara de suelo",
       "fr": "Lampadaire",
       "he": "מנורת רצפה",
       "hr": "Podna lampa",
@@ -11790,12 +11951,12 @@
       "ja": "フロアランプ",
       "ko-KR": "플로어 램프",
       "no": "Gulvlampe",
-      "pl": "Lampa podłogowa",
+      "pl": "Lampa stojąca",
       "pt": "Abajur de Chão",
-      "pt-BR": "Luminária de Chão",
+      "pt-BR": "Luminária de Piso",
       "ru": "Напольная лампа",
       "sr": "Podna Lampa",
-      "tr": "Ayaklı Lamba",
+      "tr": "Lambader",
       "uk": "Торшер",
       "zh-CN": "落地灯",
       "zh-TW": "落地燈"
@@ -11958,44 +12119,44 @@
     "id": "fluted_rotor_core",
     "name": {
       "da": "Rillet Rotorkerne",
-      "de": "Fluted Rotor Core",
+      "de": "Gerillter Rotorkern",
       "en": "Fluted Rotor Core",
-      "es": "Fluted Rotor Core",
-      "fr": "Fluted Rotor Core",
+      "es": "Núcleo del rotor acanalado",
+      "fr": "Noyau de rotor cannelé",
       "he": "ליבת רוטור מצולעת",
       "hr": "Žljebasta jezgra rotora",
-      "it": "Fluted Rotor Core",
-      "ja": "Fluted Rotor Core",
-      "ko-KR": "Fluted Rotor Core",
+      "it": "Nucleo di rotore scanalato",
+      "ja": "溝付きローターコア",
+      "ko-KR": "홈이 파인 회전자 코어",
       "no": "Rillet Rotorkjerne",
-      "pl": "Fluted Rotor Core",
+      "pl": "Żłobkowany rdzeń wirnikowy",
       "pt": "Núcleo de Rotor Estriado",
-      "pt-BR": "Fluted Rotor Core",
-      "ru": "Fluted Rotor Core",
+      "pt-BR": "Núcleo de Rotor Acanelado",
+      "ru": "Сердечник ротора с пазами",
       "sr": "Žljebljeno jezgro rotora",
-      "tr": "Fluted Rotor Core",
+      "tr": "Yivli Rotor Çekirdeği",
       "uk": "Рифлений сердечник ротора",
-      "zh-CN": "Fluted Rotor Core",
-      "zh-TW": "Fluted Rotor Core"
+      "zh-CN": "槽纹转子核心",
+      "zh-TW": "開槽轉子核心"
     },
     "description": {
       "da": "Anvendes til at fremstille forstærkede våben.",
-      "de": "Used to craft amplified weapons.",
+      "de": "Wird zur Herstellung von verstärkten Waffen verwendet.",
       "en": "Used to craft amplified weapons.",
-      "es": "Used to craft amplified weapons.",
-      "fr": "Used to craft amplified weapons.",
+      "es": "Sirve para fabricar armas amplificadas.",
+      "fr": "Permet de fabriquer des armes amplifiées.",
       "he": "משמש ליצירת כלי נשק מוגברים.",
       "hr": "Koristi se za izradu pojačanog oružja.",
-      "it": "Used to craft amplified weapons.",
-      "ja": "Used to craft amplified weapons.",
-      "ko-KR": "Used to craft amplified weapons.",
+      "it": "Si usa per creare armi amplificate.",
+      "ja": "強化武器の製作に使用。",
+      "ko-KR": "증폭된 무기를 제작하는 데 사용됩니다.",
       "no": "Brukes til å lage forsterkede våpen.",
-      "pl": "Used to craft amplified weapons.",
+      "pl": "Rzecz służąca do wytwarzania wzmocnionych broni.",
       "pt": "Usado para fabricar armas amplificadas.",
-      "pt-BR": "Used to craft amplified weapons.",
-      "ru": "Used to craft amplified weapons.",
+      "pt-BR": "Serve para fabricar armas amplificadas.",
+      "ru": "Используется для создания усовершенствованного оружия.",
       "sr": "Koristi se za izradu pojačanih oružja.",
-      "tr": "Used to craft amplified weapons.",
+      "tr": "Güçlendirilmiş silahlar üretmede kullanılır.",
       "uk": "Використовується для виготовлення підсиленої зброї.",
       "zh-CN": "用于制作增强武器。",
       "zh-TW": "用來製作增幅武器。"
@@ -13245,218 +13406,6 @@
           "Commercial",
           "Residential"
         ]
-      }
-    }
-  },
-  {
-    "id": "garnet",
-    "name": {
-      "da": "Garnet",
-      "de": "Granat",
-      "en": "Garnet",
-      "es": "Granate",
-      "fr": "Grenat",
-      "he": "גארנט",
-      "hr": "Granat",
-      "it": "Granato",
-      "ja": "ガーネット",
-      "ko-KR": "석류색",
-      "no": "Granat",
-      "pl": "Granatowy",
-      "pt": "Granada",
-      "pt-BR": "Granada",
-      "ru": "Гранат",
-      "sr": "Garnet",
-      "tr": "Nar Çiçeği",
-      "uk": "Гранат",
-      "zh-CN": "石榴石",
-      "zh-TW": "石榴石紅"
-    },
-    "type": "Stencil",
-    "rarity": "Uncommon",
-    "value": 5000,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/garnet.png",
-    "updatedAt": "10/08/2026",
-    "addedIn": "2.0",
-    "mechanics": {
-      "classification": {
-        "category": "Recipe.ItemSkin",
-        "dropType": [
-          "Stencil"
-        ],
-        "itemType": [
-          "Recipe.ItemSkin"
-        ]
-      }
-    }
-  },
-  {
-    "id": "gas_grenade_trap",
-    "name": {
-      "da": "Gasgranatefælde",
-      "de": "Laserfalle: Gas",
-      "en": "Gas Grenade Trap",
-      "es": "Trampa láser: gas",
-      "fr": "Piège laser - Gaz",
-      "he": "מלכודת רימון גז",
-      "hr": "Zamka s Plinskom Granatom",
-      "it": "Trappola laser: Gas",
-      "ja": "レーザートラップ：ガス",
-      "ko-KR": "가스 수류탄 함정",
-      "no": "Gassgranatefelle",
-      "pl": "Pułapka laserowa: gaz",
-      "pt": "Armadilha de granada de gás",
-      "pt-BR": "Armadilha a laser: gás",
-      "ru": "Лазерная ловушка: газ",
-      "sr": "Zamka sa Gasnom Granatom",
-      "tr": "Lazer Tuzağı: Gaz",
-      "uk": "Пастка з газовою гранатою",
-      "zh-CN": "激光陷阱：毒气",
-      "zh-TW": "雷射陷阱：瓦斯"
-    },
-    "description": {
-      "da": "En lasertråd der detonerer en gasgranat.",
-      "de": "Ein Laser-Stolperdraht, der eine Gasgranate detonieren lässt.",
-      "en": "A laser trip wire that detonates a Gas Grenade.",
-      "es": "Un cable trampa láser que detona una granada de gas.",
-      "fr": "Un piège à détection laser qui active une grenade à gaz.",
-      "he": "חוט תיל לייזר המפוצץ רימון גז.",
-      "hr": "Laserska žica zamka koja detonira Plinsku Granatu.",
-      "it": "Un cavo d'innesco laser che fa detonare una granata a gas.",
-      "ja": "ガス・グレネードに取り付けて爆発させられる、レーザートリップワイヤー。",
-      "ko-KR": "가스 수류탄을 폭발시킬 수 있는 레이저 트립 와이어입니다.",
-      "no": "En lasertråd som detonerer en gassgranat.",
-      "pl": "Pułapka laserowa z granatem gazowym.",
-      "pt": "Um fio de disparo a laser que detona uma granada de gás.",
-      "pt-BR": "Armadilha a laser que detona uma Granada de Gás.",
-      "ru": "Лазерная растяжка, взрывающая газовую гранату.",
-      "sr": "Laserska žica zamka koja detonira Gasnu Granatu.",
-      "tr": "Gaz Bombası patlatan bir lazer tuzağı.",
-      "uk": "Лазерна розтяжка, що підриває газову гранату.",
-      "zh-CN": "用于引爆毒气手雷的激光拌线。",
-      "zh-TW": "一種雷射絆索，可引爆瓦斯手榴彈。"
-    },
-    "type": "Quick Use",
-    "rarity": "Common",
-    "value": 300,
-    "weightKg": 0.25,
-    "stackSize": 3,
-    "blueprintLocked": true,
-    "effects": {
-      "Duration": {
-        "value": "20s",
-        "da": "Varighed",
-        "de": "Dauer",
-        "en": "Duration",
-        "es": "Duración",
-        "fr": "Durée",
-        "he": "משך",
-        "hr": "Trajanje",
-        "it": "Durata",
-        "ja": "持続時間",
-        "ko-KR": "지속 시간",
-        "no": "Varighet",
-        "pl": "Czas trwania",
-        "pt": "Duração",
-        "pt-BR": "Duração",
-        "ru": "Длительность",
-        "sr": "Trajanje",
-        "tr": "Süre",
-        "uk": "Тривалість",
-        "zh-CN": "持续时间",
-        "zh-TW": "持續時間"
-      },
-      "Radius": {
-        "value": "7.5m",
-        "da": "Radius",
-        "de": "Radius",
-        "en": "Radius",
-        "es": "Radio",
-        "fr": "Rayon",
-        "he": "רדיוס",
-        "hr": "Radijus",
-        "it": "Raggio",
-        "ja": "範囲",
-        "ko-KR": "반경",
-        "no": "Radius",
-        "pl": "Promień",
-        "pt": "Raio",
-        "pt-BR": "Raio",
-        "ru": "Радиус",
-        "sr": "Radijus",
-        "tr": "Yarıçap",
-        "uk": "Радіус",
-        "zh-CN": "范围",
-        "zh-TW": "範圍"
-      },
-      "Stamina Drain": {
-        "value": "25/s",
-        "da": "Udholdenhedstab",
-        "de": "Ausdauerabzug",
-        "en": "Stamina Drain",
-        "es": "Drenaje de resistencia",
-        "fr": "Drain d'endurance",
-        "he": "דלדול סיבולת",
-        "hr": "Iscrpljivanje Izdržljivosti",
-        "it": "Drenaggio stamina",
-        "ja": "スタミナ消耗",
-        "ko-KR": "스태미나 소모",
-        "no": "Utmattelsestap",
-        "pl": "Wyczerpanie kondycji",
-        "pt": "Dreno de stamina",
-        "pt-BR": "Drenagem de vigor",
-        "ru": "Истощение выносливости",
-        "sr": "Iscrpljivanje Izdržljivosti",
-        "tr": "Dayanıklılık Tükenmesi",
-        "uk": "Виснаження витривалості",
-        "zh-CN": "体力消耗",
-        "zh-TW": "體力消耗"
-      }
-    },
-    "craftBench": [
-      "in_raid",
-      "workbench"
-    ],
-    "stationLevelRequired": 1,
-    "craftSkills": {
-      "in_raid": [
-        "surv_5c",
-        "surv_3r"
-      ],
-      "workbench": [
-        "surv_5c"
-      ]
-    },
-    "recipe": {
-      "gas_grenade": 1,
-      "wires": 1
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/gas_grenade_trap.png",
-    "updatedAt": "05/30/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "card": {
-        "durationSec": 20,
-        "radiusM": 7.5,
-        "staminaDrain": 25
-      },
-      "classification": {
-        "category": "Utility.Mine",
-        "dropType": [
-          "Consumable.Deployable"
-        ],
-        "itemType": [
-          "Deployable"
-        ],
-        "questGroups": [
-          "Items.Deployable.AllTrapsAndMines"
-        ]
-      },
-      "deployable": {
-        "deploymentTimeSec": 1,
-        "deployRangeM": 5,
-        "maxHealth": 5
       }
     }
   }
