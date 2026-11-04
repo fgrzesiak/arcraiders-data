@@ -758,141 +758,140 @@
   "schedule": {
     "blue-gate": {
       "major": {
-        "4": "frigate",
-        "7": "night-raid",
-        "10": "frigate",
-        "17": "frigate",
-        "20": "frigate"
+        "5": "frigate",
+        "8": "night-raid",
+        "18": "frigate",
+        "21": "frigate",
+        "22": "frigate"
       },
       "minor": {
-        "1": "matriarch",
-        "3": "uncovered-caches",
-        "9": "matriarch",
-        "12": "harvester",
-        "14": "harvester",
-        "15": "matriarch",
-        "18": "prospecting-probes",
-        "21": "matriarch",
-        "22": "matriarch"
+        "2": "matriarch",
+        "4": "uncovered-caches",
+        "11": "matriarch",
+        "13": "harvester",
+        "15": "harvester",
+        "16": "matriarch",
+        "19": "prospecting-probes",
+        "23": "matriarch"
       }
     },
     "buried-city": {
       "major": {
-        "3": "frigate",
-        "5": "night-raid",
-        "13": "frigate",
-        "16": "frigate",
-        "18": "hurricane"
+        "4": "frigate",
+        "6": "night-raid",
+        "14": "frigate",
+        "17": "frigate"
       },
       "minor": {
-        "0": "bird-city",
-        "1": "prospecting-probes",
-        "3": "bird-city",
-        "6": "bird-city",
-        "8": "bird-city",
-        "11": "bird-city",
-        "12": "prospecting-probes",
-        "14": "bird-city",
-        "15": "uncovered-caches",
-        "17": "bird-city",
-        "20": "bird-city"
+        "1": "bird-city",
+        "2": "prospecting-probes",
+        "4": "bird-city",
+        "7": "bird-city",
+        "10": "bird-city",
+        "12": "bird-city",
+        "13": "prospecting-probes",
+        "15": "bird-city",
+        "16": "uncovered-caches",
+        "18": "bird-city",
+        "21": "bird-city",
+        "22": "bird-city"
       }
     },
     "dam-battleground": {
       "major": {
-        "2": "frigate",
-        "6": "frigate",
-        "8": "frigate",
-        "10": "electromagnetic-storm",
-        "11": "frigate",
-        "12": "hurricane",
-        "14": "frigate",
-        "18": "frigate",
-        "20": "night-raid"
+        "3": "frigate",
+        "7": "frigate",
+        "10": "frigate",
+        "12": "frigate",
+        "13": "close-scrutiny",
+        "15": "frigate",
+        "19": "frigate",
+        "21": "night-raid",
+        "22": "night-raid"
       },
       "minor": {
         "0": "uncovered-caches",
-        "4": "prospecting-probes",
-        "7": "matriarch",
-        "9": "uncovered-caches",
-        "13": "matriarch",
-        "16": "harvester",
-        "17": "matriarch",
-        "23": "uncovered-caches"
+        "1": "uncovered-caches",
+        "5": "prospecting-probes",
+        "8": "matriarch",
+        "11": "uncovered-caches",
+        "14": "matriarch",
+        "17": "harvester",
+        "18": "matriarch"
       }
     },
     "pendola-pass": {
       "major": {
-        "1": "frigate",
-        "3": "night-raid",
-        "5": "frigate",
-        "19": "frigate",
-        "23": "frigate"
+        "0": "frigate",
+        "2": "frigate",
+        "4": "night-raid",
+        "6": "frigate",
+        "9": "frigate",
+        "20": "frigate"
       },
       "minor": {
-        "10": "redirection",
-        "12": "redirection",
-        "22": "redirection"
+        "0": "redirection",
+        "9": "redirection",
+        "13": "redirection",
+        "23": "redirection"
       }
     },
     "riven-tides": {
       "major": {
-        "12": "night-raid",
-        "18": "night-raid"
+        "13": "night-raid",
+        "19": "night-raid"
       },
       "minor": {
-        "2": "beachcombing",
-        "5": "beachcombing",
-        "7": "prospecting-probes",
-        "10": "beachcombing",
-        "13": "beachcombing",
-        "16": "beachcombing",
-        "19": "beachcombing",
-        "21": "prospecting-probes",
-        "22": "prospecting-probes",
-        "23": "beachcombing"
+        "0": "beachcombing",
+        "3": "beachcombing",
+        "6": "beachcombing",
+        "8": "prospecting-probes",
+        "9": "beachcombing",
+        "14": "beachcombing",
+        "17": "beachcombing",
+        "20": "beachcombing",
+        "23": "prospecting-probes"
       }
     },
     "stella-montis": {
       "major": {
-        "0": "night-raid",
-        "2": "night-raid",
-        "4": "night-raid",
-        "6": "night-raid",
+        "1": "night-raid",
+        "3": "night-raid",
+        "5": "night-raid",
+        "7": "night-raid",
         "9": "night-raid",
         "11": "night-raid",
-        "13": "night-raid",
-        "15": "night-raid",
-        "17": "night-raid",
-        "19": "night-raid",
-        "21": "night-raid",
-        "22": "night-raid"
+        "12": "night-raid",
+        "14": "night-raid",
+        "16": "night-raid",
+        "18": "night-raid",
+        "20": "night-raid",
+        "23": "night-raid"
       },
       "minor": {}
     },
     "the-spaceport": {
       "major": {
-        "0": "frigate",
-        "1": "night-raid",
-        "7": "frigate",
-        "8": "night-raid",
-        "9": "frigate",
-        "12": "frigate",
-        "14": "hidden-bunker",
-        "15": "frigate",
-        "16": "hidden-bunker",
-        "21": "frigate",
-        "22": "frigate",
-        "23": "night-raid"
+        "0": "night-raid",
+        "1": "frigate",
+        "2": "night-raid",
+        "8": "frigate",
+        "10": "night-raid",
+        "11": "frigate",
+        "13": "frigate",
+        "15": "close-scrutiny",
+        "16": "frigate",
+        "17": "hidden-bunker",
+        "23": "frigate"
       },
       "minor": {
-        "2": "launch-tower-loot",
-        "4": "matriarch",
-        "5": "launch-tower-loot",
-        "10": "harvester",
-        "11": "matriarch",
-        "18": "harvester",
-        "19": "matriarch"
+        "3": "launch-tower-loot",
+        "5": "matriarch",
+        "6": "launch-tower-loot",
+        "9": "uncovered-caches",
+        "12": "matriarch",
+        "19": "harvester",
+        "20": "matriarch"
       }
     }
   }
