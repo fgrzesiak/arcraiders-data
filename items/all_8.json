@@ -1,5 +1,197 @@
 [
   {
+    "id": "red_light_stick",
+    "name": {
+      "da": "Rød lysstav",
+      "de": "Roter Leuchtstab",
+      "en": "Red Light Stick",
+      "es": "Barra luminosa roja",
+      "fr": "Bâton lumineux rouge",
+      "he": "מקל אור אדום",
+      "hr": "Crvena svjetleća štapić",
+      "it": "Lightstick rosso",
+      "ja": "赤色のグロースティック",
+      "ko-KR": "빨간색 발광봉",
+      "no": "Rød lysstav",
+      "pl": "Czerwone światło chemiczne",
+      "pt": "Bastão luminoso vermelho",
+      "pt-BR": "Bastão Luminoso Vermelho",
+      "ru": "Красный химический фонарь",
+      "sr": "Crveni svetleći štapić",
+      "tr": "Kırmızı Işık Çubuğu",
+      "uk": "Світлячок червоний",
+      "zh-CN": "红色荧光棒",
+      "zh-TW": "紅色螢光棒"
+    },
+    "description": {
+      "da": "Et kastbart kemisk lys, der oplyser området omkring det.",
+      "de": "Ein werfbares chemisches Licht, das seine Umgebung erhellt.",
+      "en": "A throwable chemical light that illuminates the area around it.",
+      "es": "Una luz química arrojadiza que ilumina el área a su alrededor.",
+      "fr": "Une lampe chimique jetable qui éclaire la zone qui l'entoure.",
+      "he": "מקל אור כימי להשלכה המאיר את האזור שסביבו.",
+      "hr": "Kemijsko svjetlo za bacanje koje osvjetljava područje oko sebe.",
+      "it": "Una luce chimica lanciabile che illumina l'area circostante.",
+      "ja": "周囲を照らす投擲可能なケミカルライト。",
+      "ko-KR": "투척 시 주변을 밝히는 화학 조명탄입니다.",
+      "no": "Et kastbart kjemisk lys som lyser opp området rundt det.",
+      "pl": "Miotane światło chemiczne, które oświetla okolicę.",
+      "pt": "Uma luz química arremessável que ilumina a área ao seu redor.",
+      "pt-BR": "Um bastão luminoso arremessável que ilumina a área ao redor.",
+      "ru": "Химический источник света. Можно бросить, чтобы осветить окружение.",
+      "sr": "Hemijsko svetlo za bacanje koje osvetljava oblast oko sebe.",
+      "tr": "Etrafını aydınlatan fırlatılabilir bir kimyasal ışık.",
+      "uk": "Хімічний світлячок, який можна кинути, щоб він освітлював область навколо себе.",
+      "zh-CN": "一种能照亮周围区域的可投掷荧光棒。",
+      "zh-TW": "一種可投擲的化學燈，可照亮周圍區域。"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "value": 150,
+    "weightKg": 0.15,
+    "stackSize": 5,
+    "blueprintLocked": true,
+    "effects": {
+      "Duration": {
+        "value": "40s",
+        "da": "Varighed",
+        "de": "Dauer",
+        "en": "Duration",
+        "es": "Duración",
+        "fr": "Durée",
+        "he": "משך זמן",
+        "hr": "Trajanje",
+        "it": "Durata",
+        "ja": "持続時間",
+        "ko-KR": "지속 시간",
+        "no": "Varighet",
+        "pl": "Czas trwania",
+        "pt": "Duração",
+        "pt-BR": "Duração",
+        "ru": "Длительность",
+        "sr": "Trajanje",
+        "tr": "Süre",
+        "uk": "Тривалість",
+        "zh-CN": "持续时间",
+        "zh-TW": "持續時間"
+      },
+      "Illumination Radius": {
+        "value": "7m",
+        "da": "Belysningsradius",
+        "de": "Beleuchtungsradius",
+        "en": "Illumination Radius",
+        "es": "Radio de iluminación",
+        "fr": "Rayon d'illumination",
+        "he": "רדיוס תאורה",
+        "hr": "Radijus osvjetljenja",
+        "it": "Raggio di illuminazione",
+        "ja": "照明範囲",
+        "ko-KR": "조명 반경",
+        "no": "Belysningsradius",
+        "pl": "Zasięg oświetlenia",
+        "pt": "Raio de iluminação",
+        "pt-BR": "Raio de Iluminação",
+        "ru": "Радиус освещения",
+        "sr": "Radijus osvetljenja",
+        "tr": "Aydınlatma Yarıçapı",
+        "uk": "Радіус освітлення",
+        "zh-CN": "照明范围",
+        "zh-TW": "照明範圍"
+      }
+    },
+    "craftBench": "utility_bench",
+    "stationLevelRequired": 1,
+    "recipe": {
+      "chemicals": 3
+    },
+    "recyclesInto": {
+      "chemicals": 1
+    },
+    "salvagesInto": {
+      "chemicals": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/red_light_stick.png",
+    "updatedAt": "03/22/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "card": {
+        "durationSec": 40,
+        "illuminationRadiusM": 7
+      },
+      "classification": {
+        "category": "Utility.Grenade",
+        "dropType": [
+          "Consumable.Throwable.Glowstick"
+        ],
+        "itemType": [
+          "Throwable"
+        ]
+      }
+    },
+    "vendors": [
+      {
+        "cost": {
+          "coins": 3000
+        },
+        "trader": "Shani"
+      }
+    ]
+  },
+  {
+    "id": "red_study_sofa_design",
+    "name": {
+      "da": "Rødt studiesofa-design",
+      "de": "Entwurf: Rotes Studierzimmer-Sofa",
+      "en": "Red Study Sofa Design",
+      "es": "Diseño del sofá de estudio rojo",
+      "fr": "Design de canapé rouge de bureau",
+      "he": "עיצוב ספת לימוד אדומה",
+      "hr": "Nacrt crvene sofe za radnu sobu",
+      "it": "Design divano studio rosso",
+      "ja": "赤い書斎ソファのデザイン",
+      "ko-KR": "빨간색 서재 소파 디자인",
+      "no": "Rød Studesofa-design",
+      "pl": "Projekt: Czerwona sofa do gabinetu",
+      "pt": "Design de Sofá de Estudo Vermelho",
+      "pt-BR": "Projeto de Sofá de Escritório Vermelho",
+      "ru": "Схема — Красный диван из кабинета",
+      "sr": "Dizajn crvene sofe za radnu sobu",
+      "tr": "Kırmızı Çalışma Odası Sağlam Kanepe Tasarımı",
+      "uk": "Дизайн червоного дивана для кабінету",
+      "zh-CN": "红色书房沙发设计图",
+      "zh-TW": "紅色書房沙發設計"
+    },
+    "type": "Design",
+    "rarity": "Rare",
+    "value": 5000,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/red_study_sofa.png",
+    "updatedAt": "10/08/2026",
+    "addedIn": "2.0",
+    "mechanics": {
+      "classification": {
+        "category": "Recipe.OutpostFurniture",
+        "dropType": [
+          "FurnitureDesigns"
+        ],
+        "itemType": [
+          "Recipe.OutpostFurniture"
+        ]
+      }
+    },
+    "research": [
+      {
+        "cost": {
+          "very_comfortable_pillow": 1
+        },
+        "level": 3,
+        "offerId": 593985327,
+        "points": 1500,
+        "station": "research_station"
+      }
+    ]
+  },
+  {
     "id": "red_study_sofa",
     "name": {
       "da": "Rød Studiesofa",
@@ -53,7 +245,7 @@
       "ru": "Код безопасности укрепленной стойки администрации",
       "sr": "Bezbednosni kod Reinforced Receptiona",
       "tr": "Güçlendirilmiş Resepsiyon Güvenlik Kodu",
-      "uk": "Код безпеки Укріпленої Рецепції",
+      "uk": "Код безпеки посиленого приймального пункту",
       "zh-CN": "加固前台安全码",
       "zh-TW": "強化櫃台安全代碼"
     },
@@ -75,7 +267,7 @@
       "ru": "Временный код безопасности от главных ворот.",
       "sr": "Privremeni bezbednosni kod za otključavanje glavne kapije.",
       "tr": "Ana kapının kilidini açan geçici güvenlik kodu.",
-      "uk": "Тимчасовий код безпеки для розблокування головних воріт.",
+      "uk": "Тимчасовий код для відмикання головних воріт.",
       "zh-CN": "可解锁主门的临时安全码。",
       "zh-TW": "可打開主要大門的暫時性安全代碼。"
     },
@@ -142,7 +334,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -222,7 +414,7 @@
       "ru": "Позволяет создать устройство дистанционного пуска рейдерской ракеты.",
       "sr": "Omogućava izradu daljinske signalne rakete za Rejdere",
       "tr": "Kumandalı Raider Fişeği üretmeni sağlar",
-      "uk": "Дозволяє створити дистанційну сигнальну ракету рейдера",
+      "uk": "Дає змогу створити дистанційну сигнальну ракету",
       "zh-CN": "可以制作远程奇袭者信号弹",
       "zh-TW": "可製作遙控掠手信號彈"
     },
@@ -299,7 +491,7 @@
       "ru": "Размещаемое устройство, которое после ручной активации запускает рейдерскую сигнальную ракету.",
       "sr": "Uređaj za postavljanje koji, kada se ručno aktivira, ispaljuje Raider raketu za pomoć.",
       "tr": "Manuel olarak tetiklendiğinde bir Raider Yardım Fişeği fırlatan kurulabilir bir cihaz.",
-      "uk": "Пристрій, який при ручній активації запускає сигнальну ракету лиха рейдера.",
+      "uk": "Розміщуваний пристрій, який після активації вручну запускає рейдерську сигнальну ракету.",
       "zh-CN": "一种可部署装置，手动触发后可以发射奇袭者求救信号弹。",
       "zh-TW": "一種部署式裝置，手動觸發時會發射掠手求救信號彈。"
     },
@@ -370,7 +562,7 @@
       "ru": "Усовершенствованный Бунтарь · Увеличенная перезарядка + Прицел",
       "sr": "Pojačani Renegade · Brže punjenje + Sa optikom",
       "tr": "Güçlendirilmiş Kaçak · Daha Fazla Yeniden Doldurma + Dürbünlü",
-      "uk": "Посилений Ренегат · Швидша перезарядка + З прицілом",
+      "uk": "Посилений Ренегат · Прискорене перезаряджання + З прицілом",
       "zh-CN": "增强型“叛逆” · 高效装填 + 加装瞄准镜",
       "zh-TW": "增幅叛將 · 裝填更多 + 加裝瞄準鏡"
     },
@@ -936,7 +1128,7 @@
       "ru": "Усовершенствованный Бунтарь · Увеличенная перезарядка",
       "sr": "Pojačani Renegade · Brže punjenje",
       "tr": "Güçlendirilmiş Kaçak · Daha Fazla Yeniden Doldurma",
-      "uk": "Посилений Ренегат · Швидша перезарядка",
+      "uk": "Посилений Ренегат · Прискорене перезаряджання",
       "zh-CN": "增强型“叛逆” · 高效装填",
       "zh-TW": "增幅叛將 · 裝填更多"
     },
@@ -2659,7 +2851,7 @@
       "ru": "Бунтарь I",
       "sr": "Renegat I",
       "tr": "Kaçak I",
-      "uk": "Бунтар I",
+      "uk": "Ренегат I",
       "zh-CN": "叛逆 I",
       "zh-TW": "叛將 I"
     },
@@ -2681,7 +2873,7 @@
       "ru": "Боевая винтовка рычажного действия с высоким уроном и точностью. Наносит увеличенный урон при попадании в голову.",
       "sr": "Borbena puška sa polužnim mehanizmom, odlikuje se velikom štetom, preciznošću i štetom od pogotka u glavu.",
       "tr": "Hasarı, isabeti ve kafadan vuruş hasarı yüksek olan levyeli çatışma tüfeği.",
-      "uk": "Бойова гвинтівка важільної дії з високою шкодою, точністю та додатковою шкодою в голову.",
+      "uk": "Важільна бойова рушниця з високими показниками шкоди, точності та шкоди влучання в голову.",
       "zh-CN": "杠杆式战斗步枪，伤害高、精准度高，且爆头伤害尤其高。",
       "zh-TW": "槓動式戰鬥步槍，具有高傷害輸出、高精準度和高爆頭傷害。"
     },
@@ -3252,7 +3444,7 @@
       "ru": "Бунтарь II",
       "sr": "Renegat II",
       "tr": "Kaçak II",
-      "uk": "Бунтар II",
+      "uk": "Ренегат II",
       "zh-CN": "叛逆 II",
       "zh-TW": "叛將 II"
     },
@@ -3274,7 +3466,7 @@
       "ru": "Боевая винтовка рычажного действия с высоким уроном и точностью. Наносит увеличенный урон при попадании в голову.",
       "sr": "Borbena puška sa polužnim mehanizmom, odlikuje se velikom štetom, preciznošću i štetom od pogotka u glavu.",
       "tr": "Hasarı, isabeti ve kafadan vuruş hasarı yüksek olan levyeli çatışma tüfeği.",
-      "uk": "Бойова гвинтівка важільної дії з високою шкодою, точністю та додатковою шкодою в голову.",
+      "uk": "Важільна бойова рушниця з високими показниками шкоди, точності та шкоди влучання в голову.",
       "zh-CN": "杠杆式战斗步枪，伤害高、精准度高，且爆头伤害尤其高。",
       "zh-TW": "槓動式戰鬥步槍，具有高傷害輸出、高精準度和高爆頭傷害。"
     },
@@ -3887,7 +4079,7 @@
       "ru": "Бунтарь III",
       "sr": "Renegat III",
       "tr": "Kaçak III",
-      "uk": "Бунтар III",
+      "uk": "Ренегат III",
       "zh-CN": "叛逆 III",
       "zh-TW": "叛將 III"
     },
@@ -3909,7 +4101,7 @@
       "ru": "Боевая винтовка рычажного действия с высоким уроном и точностью. Наносит увеличенный урон при попадании в голову.",
       "sr": "Borbena puška sa polužnim mehanizmom, odlikuje se velikom štetom, preciznošću i štetom od pogotka u glavu.",
       "tr": "Hasarı, isabeti ve kafadan vuruş hasarı yüksek olan levyeli çatışma tüfeği.",
-      "uk": "Бойова гвинтівка важільної дії з високою шкодою, точністю та додатковою шкодою в голову.",
+      "uk": "Важільна бойова рушниця з високими показниками шкоди, точності та шкоди влучання в голову.",
       "zh-CN": "杠杆式战斗步枪，伤害高、精准度高，且爆头伤害尤其高。",
       "zh-TW": "槓動式戰鬥步槍，具有高傷害輸出、高精準度和高爆頭傷害。"
     },
@@ -4527,7 +4719,7 @@
       "ru": "Бунтарь IV",
       "sr": "Renegat IV",
       "tr": "Kaçak IV",
-      "uk": "Бунтар IV",
+      "uk": "Ренегат IV",
       "zh-CN": "叛逆 IV",
       "zh-TW": "叛將 IV"
     },
@@ -4549,7 +4741,7 @@
       "ru": "Боевая винтовка рычажного действия с высоким уроном и точностью. Наносит увеличенный урон при попадании в голову.",
       "sr": "Borbena puška sa polužnim mehanizmom, odlikuje se velikom štetom, preciznošću i štetom od pogotka u glavu.",
       "tr": "Hasarı, isabeti ve kafadan vuruş hasarı yüksek olan levyeli çatışma tüfeği.",
-      "uk": "Бойова гвинтівка важільної дії з високою шкодою, точністю та додатковою шкодою в голову.",
+      "uk": "Важільна бойова рушниця з високими показниками шкоди, точності та шкоди влучання в голову.",
       "zh-CN": "杠杆式战斗步枪，伤害高、精准度高，且爆头伤害尤其高。",
       "zh-TW": "槓動式戰鬥步槍，具有高傷害輸出、高精準度和高爆頭傷害。"
     },
@@ -5282,7 +5474,7 @@
       "ru": "Постепенно восстанавливает немного здоровья.",
       "sr": "Može se koristiti za postepeno obnavljanje male količine zdravlja tokom vremena.",
       "tr": "Zaman içinde az bir miktarda can yenilemek için kullanılabilir.",
-      "uk": "Можна використати для поступового відновлення невеликої кількості здоров'я з часом.",
+      "uk": "Можна використати для поступового відновлення невеликої частки здоров’я з плином часу.",
       "zh-CN": "使用后在一段时间内逐渐恢复少量生命值。",
       "zh-TW": "使用後可隨時間逐漸恢復少量生命值。"
     },
@@ -5414,7 +5606,7 @@
       "ru": "Схема — Ресторанный стол",
       "sr": "Dizajn restoranskog stola",
       "tr": "Restoran Masası Tasarımı",
-      "uk": "Дизайн ресторанного столу",
+      "uk": "Дизайн ресторанного стола",
       "zh-CN": "餐厅桌子设计图",
       "zh-TW": "餐廳桌子設計"
     },
@@ -5524,7 +5716,7 @@
       "ru": "Пережиток тех былых времен, когда в моде была яркая одежда.",
       "sr": "Ostatak davno izgubljenog vremena, kada je bilo moderno isticati se.",
       "tr": "Göze batmanın moda olduğu, yiteli çok olmuş bir zamanın kalıntısı.",
-      "uk": "Відгомін давно забутих часів, коли було модно виділятися.",
+      "uk": "Нагадування про давно минулі часи, коли було модно виділятися з-посеред інших.",
       "zh-CN": "这是旧时代留下的东西。在那时，人人都想显得与众不同。",
       "zh-TW": "這是早已逝去的時代遺留下來的東西，在那個時代，引人注目還是一種時尚。"
     },
@@ -5579,7 +5771,7 @@
       "ru": "Ключ-карта от комнаты с секретной документацией в Бурных потоках",
       "sr": "Kartica za poverljivu evidenciju Riven Tidesa",
       "tr": "Riven Tides Gizli Kayıtlar Kart Anahtarı",
-      "uk": "Картка-ключ до секретних архівів Riven Tides",
+      "uk": "Ключ-карта до кімнати секретної документації «Рівен тайдс»",
       "zh-CN": "裂潮镇机密档案室门禁卡",
       "zh-TW": "裂潮鎮飯店機密檔案室門禁卡"
     },
@@ -5601,7 +5793,7 @@
       "ru": "Открывает дверь в комнату с секретной документацией в администрации порта в Бурных потоках.",
       "sr": "Otključava vrata prostorije za poverljivu evidenciju u zgradi Lučke uprave u Riven Tidesu.",
       "tr": "Riven Tides'daki Liman İdaresi Binasında, Gizli Kayıtlar odasının kapısını açar.",
-      "uk": "Відмикає двері до кімнати секретних архівів у будівлі портового управління в Riven Tides.",
+      "uk": "Відмикає двері кімнати секретної документації в будівлі адміністрації порту в «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇港务局大楼机密档案室的门。",
       "zh-TW": "可打開裂潮鎮港口事務大樓內機密檔案室的一扇門。"
     },
@@ -5652,7 +5844,7 @@
       "ru": "Ключ-карта от управления кранами в Бурных потоках",
       "sr": "Kartica za kućicu dizalice u Riven Tidesu",
       "tr": "Riven Tides Vinç Evi Kart Anahtarı",
-      "uk": "Картка-ключ до кранового будиночка Riven Tides",
+      "uk": "Ключ-карта до будівлі управління краном «Рівен тайдс»",
       "zh-CN": "裂潮镇起重机控制室门禁卡",
       "zh-TW": "裂潮鎮起重機房門禁卡"
     },
@@ -5674,7 +5866,7 @@
       "ru": "Открывает дверь в управлении кранами в Бурных потоках.",
       "sr": "Otključava vrata u jednoj od kućica dizalice u Riven Tidesu.",
       "tr": "Riven Tides'daki Vinç Evlerinden birinin kapısını açar.",
-      "uk": "Відмикає двері в одному з кранових будиночків у Riven Tides.",
+      "uk": "Відмикає двері однієї з будівель керуваня кранами «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇某个起重机控制室的门。",
       "zh-TW": "可打開裂潮鎮其中一座起重機房內的一扇門。"
     },
@@ -5725,7 +5917,7 @@
       "ru": "Ключ-карта от номера 102 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 102",
       "tr": "Riven Tides Otel Kart Anahtarı No. 102",
-      "uk": "Картка-ключ готелю Riven Tides № 102",
+      "uk": "Ключ-карта № 102 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店102号房卡",
       "zh-TW": "裂潮鎮飯店102號房門禁卡"
     },
@@ -5747,7 +5939,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -5798,7 +5990,7 @@
       "ru": "Ключ-карта от номера 107 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 107",
       "tr": "Riven Tides Otel Kart Anahtarı No. 107",
-      "uk": "Картка-ключ готелю Riven Tides № 107",
+      "uk": "Ключ-карта № 107 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店107号房卡",
       "zh-TW": "裂潮鎮飯店107號房門禁卡"
     },
@@ -5820,7 +6012,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -5870,7 +6062,7 @@
       "ru": "Ключ-карта от номера 113 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 113",
       "tr": "Riven Tides Otel Kart Anahtarı No. 113",
-      "uk": "Картка-ключ готелю Riven Tides № 113",
+      "uk": "Ключ-карта № 113 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店113号房卡",
       "zh-TW": "裂潮鎮飯店113號房門禁卡"
     },
@@ -5892,7 +6084,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -5943,7 +6135,7 @@
       "ru": "Ключ-карта от номера 205 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 205",
       "tr": "Riven Tides Otel Kart Anahtarı No. 205",
-      "uk": "Картка-ключ готелю Riven Tides № 205",
+      "uk": "Ключ-карта № 205 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店205号房卡",
       "zh-TW": "裂潮鎮飯店205號房門禁卡"
     },
@@ -5965,7 +6157,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -6016,7 +6208,7 @@
       "ru": "Ключ-карта от номера 208 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 208",
       "tr": "Riven Tides Otel Kart Anahtarı No. 208",
-      "uk": "Картка-ключ готелю Riven Tides № 208",
+      "uk": "Ключ-карта № 208 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店208号房卡",
       "zh-TW": "裂潮鎮飯店208號房門禁卡"
     },
@@ -6038,7 +6230,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -6088,7 +6280,7 @@
       "ru": "Ключ-карта от номера 311 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 311",
       "tr": "Riven Tides Otel Kart Anahtarı No. 311",
-      "uk": "Картка-ключ готелю Riven Tides № 311",
+      "uk": "Ключ-карта № 311 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店311号房卡",
       "zh-TW": "裂潮鎮飯店311號房門禁卡"
     },
@@ -6110,7 +6302,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -6160,7 +6352,7 @@
       "ru": "Ключ-карта от номера 404 в отеле Бурных потоков",
       "sr": "Hotelska kartica Riven Tides br. 404",
       "tr": "Riven Tides Otel Kart Anahtarı No. 404",
-      "uk": "Картка-ключ готелю Riven Tides № 404",
+      "uk": "Ключ-карта № 404 готелю «Рівен тайдс»",
       "zh-CN": "裂潮镇酒店404号房卡",
       "zh-TW": "裂潮鎮飯店404號房門禁卡"
     },
@@ -6182,7 +6374,7 @@
       "ru": "Открывает дверь одного из множества номеров отеля «Панорама Адзурро» в Бурных потоках.",
       "sr": "Otključava vrata jednog od mnogih apartmana Panorama Azzurra u Riven Tidesu",
       "tr": "Riven Tides'daki birçok Panorama Azzuro süitinden birinin kapısını açar.",
-      "uk": "Відмикає двері до одного з численних люксів Panorama Azzurro в Riven Tides",
+      "uk": "Відмикає двері одного з номерів готелю «Панорама Ацурро» у «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇蔚蓝全景酒店某间套房的门。",
       "zh-TW": "可打開裂潮鎮蔚藍全景飯店其中一間套房的房門。"
     },
@@ -6232,7 +6424,7 @@
       "ru": "Ключ-карта от защищенного хранилища в Бурных потоках",
       "sr": "Kartica za bezbedno skladište Riven Tidesa",
       "tr": "Riven Tides Güvenli Depo Kart Anahtarı",
-      "uk": "Картка-ключ до захищеного сховища Riven Tides",
+      "uk": "Ключ-карта до захищеного сховища «Рівен тайдс»",
       "zh-CN": "裂潮镇安全储藏室门禁卡",
       "zh-TW": "裂潮鎮安全儲藏室門禁卡"
     },
@@ -6254,7 +6446,7 @@
       "ru": "Открывает дверь в защищенное хранилище в администрации порта в Бурных потоках.",
       "sr": "Otključava vrata prostorije bezbednog skladišta u zgradi Lučke uprave u Riven Tidesu",
       "tr": "Riven Tides'daki Liman İdaresi Binasında, Güvenli Depo odasının kapısını açar.",
-      "uk": "Відмикає двері до кімнати захищеного сховища в будівлі портового управління в Riven Tides",
+      "uk": "Відмикає двері захищеного сховища в будівлі адміністрації порту в «Рівен тайдс».",
       "zh-CN": "可开启裂潮镇港务局大楼安全储藏室的门。",
       "zh-TW": "可打開裂潮鎮港口事務大樓安全儲藏室的一扇門。"
     },
@@ -6327,7 +6519,7 @@
       "ru": "Носит декоративный характер, в пищу не употреблять.",
       "sr": "Ukrasna, ne za večeru.",
       "tr": "Süs eşyası, akşam yemeği değildir.",
-      "uk": "Декоративна, не для страв.",
+      "uk": "Декоративна, а не їстівна.",
       "zh-CN": "仅供装饰，不可食用。",
       "zh-TW": "裝飾用的，不能當晚餐。"
     },
@@ -6371,7 +6563,7 @@
       "ru": "Ракетный двигатель",
       "sr": "Raketni potisnik",
       "tr": "İtici Roket",
-      "uk": "Ракетний двигун",
+      "uk": "Ракетний прискорювач",
       "zh-CN": "火箭推进器",
       "zh-TW": "火箭推進器"
     },
@@ -6393,7 +6585,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6451,7 +6643,7 @@
       "ru": "Драйвер «Ракетчика»",
       "sr": "Raketni pogon",
       "tr": "Roketçi Sürücüsü",
-      "uk": "Драйвер ракетника",
+      "uk": "Двигун Ракетника",
       "zh-CN": "“火箭手”引擎",
       "zh-TW": "火箭兵驅動器"
     },
@@ -6473,7 +6665,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6635,7 +6827,7 @@
       "ru": "Используется для создания предметов.",
       "sr": "Koristi se u izradi.",
       "tr": "Üretimde kullanılır.",
-      "uk": "Використовується для крафтингу.",
+      "uk": "Використовується у створенні предметів.",
       "zh-CN": "用于制作。",
       "zh-TW": "用於製作。"
     },
@@ -6704,7 +6896,7 @@
       "ru": "Розарий",
       "sr": "Brojanica",
       "tr": "Tespih",
-      "uk": "Чотки",
+      "uk": "Розарій",
       "zh-CN": "念珠",
       "zh-TW": "念珠"
     },
@@ -6778,7 +6970,7 @@
       "ru": "Поворотный преобразователь",
       "sr": "Rotacioni enkoder",
       "tr": "Dönen Kodlayıcı",
-      "uk": "Поворотний енкодер",
+      "uk": "Поворотний шифратор",
       "zh-CN": "回转式编码器",
       "zh-TW": "旋轉編碼器"
     },
@@ -6800,7 +6992,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6880,7 +7072,7 @@
       "ru": "Всегда выслушает.",
       "sr": "Uvek je tu da vas sasluša, ako vam zatreba.",
       "tr": "İçini dökmek istediğinde her zaman seni dinler.",
-      "uk": "Завжди поруч, щоб вислухати, якщо це знадобиться.",
+      "uk": "Якщо тобі конче треба комусь побідкатися, вона завжди готова тебе вислухати.",
       "zh-CN": "它总会在你需要的时候倾听你的心声。",
       "zh-TW": "只要你有需要，它隨時都願意傾聽。"
     },
@@ -6927,7 +7119,7 @@
       "ru": "Резиновый коврик",
       "sr": "Gumena Podloga",
       "tr": "Kauçuk Yastık",
-      "uk": "Гумова прокладка",
+      "uk": "Гумова підкладка",
       "zh-CN": "橡胶垫",
       "zh-TW": "橡膠墊"
     },
@@ -7028,7 +7220,7 @@
       "ru": "Используется для создания разных предметов.",
       "sr": "Koristi se za izradu širokog spektra predmeta.",
       "tr": "Çeşitli eşyaları üretmede kullanılır.",
-      "uk": "Використовується для створення широкого спектру предметів.",
+      "uk": "Використовується для створення широкого спектра предметів.",
       "zh-CN": "用于制作各种物品。",
       "zh-TW": "用來製作多種物品。"
     },
@@ -7089,7 +7281,7 @@
       "ru": "Сломанный аккордеон",
       "sr": "Uništena Harmonika",
       "tr": "Mahvolmuş Akordiyon",
-      "uk": "Зруйнований акордеон",
+      "uk": "Зламаний акордеон",
       "zh-CN": "损毁的手风琴",
       "zh-TW": "損毀的手風琴"
     },
@@ -7111,7 +7303,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7169,7 +7361,7 @@
       "ru": "Испорченный усилитель",
       "sr": "Uništeno Poboljšanje",
       "tr": "Bozuk Yükseltici",
-      "uk": "Зіпсований аугмент",
+      "uk": "Зруйнований підсилювач",
       "zh-CN": "损毁的强化",
       "zh-TW": "損毀的強化"
     },
@@ -7191,7 +7383,7 @@
       "ru": "Сломанный усилитель, который невозможно починить.",
       "sr": "Augment nepopravljivo uništen.",
       "tr": "Tamir edilemeyecek kadar yıpranmış bir yükseltici.",
-      "uk": "Аугмент, знищений без можливості відновлення.",
+      "uk": "Підсилювач зламаний і ремонту не підлягає.",
       "zh-CN": "已损毁到无法修复的强化。",
       "zh-TW": "已損毀到無法修理的強化。"
     },
@@ -7243,7 +7435,7 @@
       "ru": "Сломанная дубинка",
       "sr": "Uništena Palica",
       "tr": "Mahvolmuş Cop",
-      "uk": "Зіпсована дубинка",
+      "uk": "Зруйнований кийок",
       "zh-CN": "损毁的警棍",
       "zh-TW": "損毀的警棍"
     },
@@ -7265,7 +7457,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити в матеріали для крафту",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7323,7 +7515,7 @@
       "ru": "Сломанный радиомаяк «Императора»",
       "sr": "Uništen Svetionik Imperatora",
       "tr": "Mahvolmuş İmparator Feneri",
-      "uk": "Зруйнований Маяк Імператора",
+      "uk": "Знищений маяк Імператора",
       "zh-CN": "损毁的“帝王”信标",
       "zh-TW": "損毀的皇帝信標"
     },
@@ -7345,7 +7537,7 @@
       "ru": "Радиомаяк отключен и не может отправить сигнал.",
       "sr": "Ovaj svetionik više nema snage da pošalje signal.",
       "tr": "Bu işaret fenerinin sinyal gönderecek gücü kalmamış.",
-      "uk": "Цей маяк більше не має живлення для надсилання сигналу.",
+      "uk": "Маяку бракує заряду, щоб надіслати сигнал.",
       "zh-CN": "这座信标已失去电力，无法发送信号。",
       "zh-TW": "這個信標已經沒有電力可以發送信號了。"
     },
@@ -7386,7 +7578,7 @@
       "ru": "Сломанные наручники",
       "sr": "Uništeni lisičini",
       "tr": "Mahvolmuş Kelepçe",
-      "uk": "Зіпсовані наручники",
+      "uk": "Зламані наручники",
       "zh-CN": "损毁的手铐",
       "zh-TW": "損毀的手銬"
     },
@@ -7408,7 +7600,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Mogu se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7465,7 +7657,7 @@
       "ru": "Сломанный парашют",
       "sr": "Uništeni padobran",
       "tr": "Kırık Paraşüt",
-      "uk": "Зіпсований парашут",
+      "uk": "Зруйнований парашут",
       "zh-CN": "坏掉的降落伞",
       "zh-TW": "破損的降落傘"
     },
@@ -7487,7 +7679,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7544,7 +7736,7 @@
       "ru": "Испорченный полицейский щит",
       "sr": "Uništeni štit za neredi",
       "tr": "Mahvolmuş İsyan Kalkanı",
-      "uk": "Зруйнований щит",
+      "uk": "Зруйнований поліцейський щит",
       "zh-CN": "损毁的防暴盾",
       "zh-TW": "損毀的鎮暴盾"
     },
@@ -7566,7 +7758,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7624,7 +7816,7 @@
       "ru": "Порванный тактический жилет",
       "sr": "Uništen taktički prsluk",
       "tr": "Mahvolmuş Taktiksel Yelek",
-      "uk": "Зруйнований тактичний жилет",
+      "uk": "Зіпсований тактичний жилет",
       "zh-CN": "损毁的战术背心",
       "zh-TW": "損毀的戰術背心"
     },
@@ -7646,7 +7838,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7806,7 +7998,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7865,7 +8057,7 @@
       "ru": "Аптечка с ржавым замком",
       "sr": "Zahrđali Zatvoreni Medicinski Komplet",
       "tr": "Paslı Kapalı Tıbbi Kit",
-      "uk": "Заіржавіла аптечка",
+      "uk": "Іржавий замкнутий медичний набір",
       "zh-CN": "因生锈而难以打开的医药箱",
       "zh-TW": "生鏽打不開的醫療包"
     },
@@ -7887,7 +8079,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафтингу.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -8050,7 +8242,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафтингу.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -8169,7 +8361,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -8227,7 +8419,7 @@
       "ru": "Записка разведчиков",
       "sr": "Beleška izviđačke patrole",
       "tr": "İzci Devriyesi Notu",
-      "uk": "Записка розвідувального патруля",
+      "uk": "Записка патруля розвідників",
       "zh-CN": "侦察巡逻报告",
       "zh-TW": "偵察兵巡邏隊筆記"
     },
@@ -8249,7 +8441,7 @@
       "ru": "Записка с расписанием патрулей и кодами доступа.",
       "sr": "Beleška koja navodno dokumentuje raspored patrola i pristupne šifre.",
       "tr": "Devriye programlarını ve erişim kodlarını belgelediği anlaşılan not.",
-      "uk": "Записка, що, схоже, документує графіки патрулювання та коди доступу.",
+      "uk": "Записка з інформацію про розклад патрулів і коди доступу.",
       "zh-CN": "一张疑似记录巡逻时间表和准入码的纸条。",
       "zh-TW": "似乎記錄著巡邏時程與存取代碼的筆記。"
     },
@@ -8291,7 +8483,7 @@
       "ru": "Информация о тайных встречах",
       "sr": "Informacije o tajnom sastanku",
       "tr": "Gizli Toplantı Bilgileri",
-      "uk": "Інформація про секретну зустріч",
+      "uk": "Інформація про секретні зустрічі",
       "zh-CN": "秘密集会情报",
       "zh-TW": "秘密會面資訊"
     },
@@ -8313,7 +8505,7 @@
       "ru": "Подробные записи тайных встреч исследователей в «Стелла Монтис».",
       "sr": "Detaljna dokumentacija tajnih sastanaka istraživača u okolini objekta Stella Montis.",
       "tr": "Stella Montis tesisinde araştırmacılar tarafından düzenlenen gizli toplantıların ayrıntılı belgeleri.",
-      "uk": "Детальна документація таємних зустрічей, проведених дослідниками навколо об'єкта Stella Montis.",
+      "uk": "Докладні стенограми секретних зустрічей дослідників комплексу «Стелла монтіс».",
       "zh-CN": "研究人员在星辰山设施周边召开秘密集会的完整记录。",
       "zh-TW": "研究人員在星辰山設施周邊秘密會面的詳細紀錄。"
     },
@@ -8355,7 +8547,7 @@
       "ru": "Схема — Стул охраны",
       "sr": "Dizajn stolice za obezbeđenje",
       "tr": "Güvenlik Sandalyesi Tasarımı",
-      "uk": "Дизайн крісла для охорони",
+      "uk": "Дизайн стільця охоронця",
       "zh-CN": "安保椅设计图",
       "zh-TW": "保全座椅設計"
     },
@@ -8443,7 +8635,7 @@
       "ru": "Ключ от ячейки сейфа с семенами",
       "sr": "Ključ kutije trezora za seme",
       "tr": "Tohum Kasası Kutu Anahtarı",
-      "uk": "Ключ від ящика сховища насіння",
+      "uk": "Ключ від скрині в сховищі насіння",
       "zh-CN": "种子库箱子钥匙",
       "zh-TW": "種子庫箱子鑰匙"
     },
@@ -8465,7 +8657,7 @@
       "ru": "Ключ, открывающий конкретную ячейку в сейфе с семенами в «Стелла Монтис».",
       "sr": "Ključ koji otvara određenu kutiju u trezoru semena Stelle Montis.",
       "tr": "Stella Montis'in tohum kasasında belirli bir kutuyu açan anahtar.",
-      "uk": "Ключ, що відкриває певну скриньку в сховищі насіння Стелли Монтіс.",
+      "uk": "Ключ від певної скрині у сховищі насіння «Стелла монтіс».",
       "zh-CN": "一把能打开星辰山种子库特定箱子的钥匙。",
       "zh-TW": "可開啟星辰山種子庫某個箱子的鑰匙。"
     },
@@ -8507,7 +8699,7 @@
       "ru": "Чертеж — Самонаводящаяся граната",
       "sr": "Nacrt Tragačke granate",
       "tr": "Güdümlü Bomba Taslağı",
-      "uk": "Креслення самонавідної гранати",
+      "uk": "Креслення гранати-шукачки",
       "zh-CN": "追踪手雷蓝图",
       "zh-TW": "追蹤手榴彈藍圖"
     },
@@ -8529,7 +8721,7 @@
       "ru": "Позволяет создать самонаводящуюся гранату.",
       "sr": "Omogućava izradu granate tragača",
       "tr": "Güdümlü Bomba üretmeni sağlar",
-      "uk": "Дозволяє створити самонавідну гранату",
+      "uk": "Дає змогу створити гранату-шукачку",
       "zh-CN": "可以制作追踪手雷",
       "zh-TW": "可製作追蹤手榴彈"
     },
@@ -8584,7 +8776,7 @@
       "ru": "Самонаводящаяся граната",
       "sr": "Tragačka granata",
       "tr": "Güdümlü Bomba",
-      "uk": "Самонавідна граната",
+      "uk": "Граната-шукачка",
       "zh-CN": "追踪手雷",
       "zh-TW": "追蹤手榴彈"
     },
@@ -8606,7 +8798,7 @@
       "ru": "Граната с самонаведением, которая при ударе наносит взрывной урон конкретной машине ARC поблизости.",
       "sr": "Granata sa navođenjem koja cilja jedan obližnji ARC i nanosi eksplozivnu štetu pri udaru.",
       "tr": "Yakındaki tek bir ARC'ı hedef alan ve isabet ettiğinde patlayıcı hasar veren güdümlü bir bomba.",
-      "uk": "Самонавідна граната, яка наводиться на одного найближчого ARC і завдає вибухової шкоди при влученні.",
+      "uk": "Самонавідна граната, що уражає один ARC поблизу, завдаючи вибухових ушкоджень при ударі.",
       "zh-CN": "一枚追踪手雷，锁定附近单个ARC并在撞击时造成爆炸伤害。",
       "zh-TW": "導引手榴彈，可鎖定附近的一個ARC，在擊中時造成爆炸傷害。"
     },
@@ -8732,7 +8924,7 @@
       "ru": "Датчики",
       "sr": "Senzori",
       "tr": "Sensörler",
-      "uk": "Датчики",
+      "uk": "Сенсори",
       "zh-CN": "传感器",
       "zh-TW": "感應器"
     },
@@ -8754,7 +8946,7 @@
       "ru": "Используется для создания предметов.",
       "sr": "Koristi se u izradi.",
       "tr": "Üretimde kullanılır.",
-      "uk": "Використовується для крафтингу.",
+      "uk": "Використовується у створенні предметів.",
       "zh-CN": "用于制作。",
       "zh-TW": "用於製作。"
     },
@@ -8825,7 +9017,7 @@
       "ru": "Огневое ядро «Часового»",
       "sr": "Stražarsko jezgro za paljbu",
       "tr": "Nöbetçi Ateşleme Çekirdeği",
-      "uk": "Вогневе ядро вартового",
+      "uk": "Ядро стрільби Вартового",
       "zh-CN": "“哨卫”发射核心",
       "zh-TW": "哨兵射擊核心"
     },
@@ -8847,7 +9039,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -8905,7 +9097,7 @@
       "ru": "Серак",
       "sr": "Serac",
       "tr": "Buz Bacası",
-      "uk": "Serac",
+      "uk": "Серак",
       "zh-CN": "冰塔",
       "zh-TW": "冰峰"
     },
@@ -8970,7 +9162,7 @@
       "ru": "Ранее считалось, что это прототип примитивного космического корабля, но сейчас кочевники утверждают, что он использовался в сложном процессе записи путешествий.",
       "sr": "Nekada smatran rudimentarnim prototipom svemirskog broda, Nomadi tvrde da je to sofisticirana metoda za dokumentovanje putovanja.",
       "tr": "Bir zamanlar ilkel bir uzay gemisi prototipi olduğu düşünülürken Göçebeler bunun gezi kaydı tutmanın karmaşık bir yöntemi olduğunu iddia ediyor.",
-      "uk": "Колись вважався рудиментарним прототипом космічного корабля, але кочівники стверджують, що це витончений метод документування своїх подорожей.",
+      "uk": "Раніше цю штуку вважали примітивною моделлю зорельота, але кочівники стверджують, що це хитромудрий прилад для відстеження маршруту подорожі.",
       "zh-CN": "它曾被误认为是简易飞船原型，而游牧者表示，这是用来记录旅途轨迹的精密器具。",
       "zh-TW": "曾被認為只是一個簡陋的太空船原型，但遊牧者聲稱這是用來記錄旅行路途的精密方式。"
     },
@@ -9014,7 +9206,7 @@
       "ru": "Маракас",
       "sr": "Marakas",
       "tr": "Marakas",
-      "uk": "Маракас",
+      "uk": "Шейкер",
       "zh-CN": "摇铃",
       "zh-TW": "沙鈴"
     },
@@ -9036,7 +9228,7 @@
       "ru": "Ритмичный инструмент, с помощью которого можно привлечь машины ARC или впечатлить других рейдеров.",
       "sr": "Ritmički instrument koji se koristi za privlačenje pažnje ARC-a i impresioniranje drugih Raidera.",
       "tr": "ARC’ların dikkatini çekmek ve diğer Raider’ları etkilemek için çalınabilen bir ritim enstrümanı.",
-      "uk": "Ритмічний інструмент, який використовується для привернення уваги ARC та враження інших Рейдерів.",
+      "uk": "Ритмічний музичний інструмент, який використовується, щоб привернути увагу машин ARC або справити враження на інших рейдерів.",
       "zh-CN": "一种颇具节奏感的乐器，既可用于引起ARC的注意，也能让其他奇袭者刮目相看。",
       "zh-TW": "一種節奏樂器，可用來吸引ARC的注意，也可以讓其他掠手印象深刻。"
     },
@@ -9142,7 +9334,7 @@
       "ru": "Используется для создания предметов.",
       "sr": "Koristi se u izradi.",
       "tr": "Üretimde kullanılır.",
-      "uk": "Використовується для виготовлення.",
+      "uk": "Використовується у створенні предметів.",
       "zh-CN": "用于制作。",
       "zh-TW": "用於製作。"
     },
@@ -9216,7 +9408,7 @@
       "ru": "Переносной набор, который постепенно заряжает щит.",
       "sr": "Ručni komplet koji postepeno puni štit tokom vremena.",
       "tr": "Zamanla kalkan dolduran cep boy bir kit.",
-      "uk": "Портативний набір, який поступово відновлює щит з часом.",
+      "uk": "Портативний набір, який поступово перезаряджає щит із плином часу.",
       "zh-CN": "一个手持包，可随时间逐渐充能护盾。",
       "zh-TW": "可逐漸恢復護盾的手持套件。"
     },
@@ -9392,7 +9584,7 @@
       "ru": "Продолжительное нанесение урона по щиту помогло бы определить, из-за чего именно он ломается и как этот процесс ускорить. Чисто из научных интересов.",
       "sr": "Kontinuirana šteta mogla bi otkriti šta tačno uzrokuje otkazivanje štita — i kako to ubrzati. Naravno, u svrhu nauke.",
       "tr": "Sürekli hasar, bir kalkanın ne zaman dağılacağını ve bunun nasıl daha hızlı gerçekleşeceğini tam olarak ortaya çıkarabilir. Bilim adına elbette.",
-      "uk": "Тривале пошкодження може виявити, чому саме щит виходить з ладу — і як прискорити цей процес. Звісно, заради науки.",
+      "uk": "Тривала шкода може показати, від чого саме виходить із ладу щит і як прискорити цей процес. Звісно ж, заради науки.",
       "zh-CN": "持续伤害能帮我们摸清护盾失效的原理，以及如何加速这一过程。当然，都是为了科学。",
       "zh-TW": "持續傷害可以準確揭露什麼會使護盾失效，以及如何使其更快失效。當然，這是為了科學。"
     },
@@ -9444,7 +9636,7 @@
       "ru": "Патрон для дробовика",
       "sr": "Streljivo za Sačmaru",
       "tr": "Av Tüfeği Cephanesi",
-      "uk": "Патрони для дробовика",
+      "uk": "Набої для дробовика",
       "zh-CN": "霰弹枪弹药",
       "zh-TW": "霰彈槍彈藥"
     },
@@ -9540,7 +9732,7 @@
       "ru": "Чок для дробовика I",
       "sr": "Sačmarski Čok I",
       "tr": "Av Tüfeği Boğumlu Namlusu I",
-      "uk": "Чок для дробовика I",
+      "uk": "Звужувач дробовика I",
       "zh-CN": "霰弹枪收束器 I",
       "zh-TW": "霰彈槍收束器I"
     },
@@ -9562,7 +9754,7 @@
       "ru": "Немного снижает базовый разброс.",
       "sr": "Blago smanjuje osnovno rasipanje.",
       "tr": "Temel sapmayı biraz azaltır.",
-      "uk": "Трохи зменшує базове розсіювання.",
+      "uk": "Трохи зменшує базовий розкид картечі.",
       "zh-CN": "小幅度降低基础弹道散布。",
       "zh-TW": "稍微降低基本分散程度。"
     },
@@ -9675,7 +9867,7 @@
       "ru": "Чертеж — Чок для дробовика II",
       "sr": "Sacmarica cok II Nacrt",
       "tr": "Av Tüfeği Boğumlu Namlusu II Taslağı",
-      "uk": "Креслення Дульне звуження II",
+      "uk": "Креслення звужувача дробовика II",
       "zh-CN": "霰弹枪收束器 II蓝图",
       "zh-TW": "霰彈槍收束器II藍圖"
     },
@@ -9697,7 +9889,7 @@
       "ru": "Позволяет создать чок для дробовика II.",
       "sr": "Omogućava izradu čoka za sačmaricu II",
       "tr": "Av Tüfeği Boğumlu Namlusu II üretmeni sağlar",
-      "uk": "Дозволяє створити чок для дробовика II",
+      "uk": "Дає змогу створити звужувач дробовика II",
       "zh-CN": "可以制作霰弹枪收束器 II",
       "zh-TW": "可製作霰彈槍收束器II"
     },
@@ -9753,7 +9945,7 @@
       "ru": "Чок для дробовика II",
       "sr": "Sačmarica čok II",
       "tr": "Av Tüfeği Boğumlu Namlusu II",
-      "uk": "Дульне звуження II",
+      "uk": "Звужувач дробовика II",
       "zh-CN": "霰弹枪收束器 II",
       "zh-TW": "霰彈槍收束器II"
     },
@@ -9775,7 +9967,7 @@
       "ru": "Умеренно снижает базовый разброс.",
       "sr": "Umereno smanjuje osnovno rasipanje.",
       "tr": "Temel sapmayı orta düzeyde azaltır.",
-      "uk": "Помірно зменшує базове розсіювання.",
+      "uk": "Помірно зменшує базовий розкид картечі.",
       "zh-CN": "中幅度降低基础弹道散布。",
       "zh-TW": "中度降低基本分散程度。"
     },
@@ -9890,7 +10082,7 @@
       "ru": "Чертеж — Чок для дробовика III",
       "sr": "Sacmarica Prigusnica III Nacrt",
       "tr": "Av Tüfeği Boğumlu Namlusu III Taslağı",
-      "uk": "Креслення Дульне звуження III",
+      "uk": "Креслення звужувача дробовика III",
       "zh-CN": "霰弹枪收束器 III蓝图",
       "zh-TW": "霰彈槍收束器III藍圖"
     },
@@ -9912,7 +10104,7 @@
       "ru": "Позволяет создать чок для дробовика III.",
       "sr": "Omogućava izradu čoka za sačmaricu III",
       "tr": "Av Tüfeği Boğumlu Namlusu III üretmeni sağlar",
-      "uk": "Дозволяє створити чок для дробовика III",
+      "uk": "Дає змогу створити звужувач дробовика III",
       "zh-CN": "可以制作霰弹枪收束器 III",
       "zh-TW": "可製作霰彈槍收束器III"
     },
@@ -9956,7 +10148,7 @@
       "ru": "Чок для дробовика III",
       "sr": "Sačmarica Prigušnica III",
       "tr": "Av Tüfeği Boğumlu Namlusu III",
-      "uk": "Дульне звуження III",
+      "uk": "Звужувач дробовика III",
       "zh-CN": "霰弹枪收束器 III",
       "zh-TW": "霰彈槍收束器III"
     },
@@ -9978,7 +10170,7 @@
       "ru": "Значительно снижает базовый разброс.",
       "sr": "Značajno smanjuje osnovno raspršenje.",
       "tr": "Temel sapmayı önemli ölçüde azaltır.",
-      "uk": "Значно зменшує базовий розкид.",
+      "uk": "Значно зменшує базовий розкид картечі.",
       "zh-CN": "大幅度降低基础弹道散布。",
       "zh-TW": "大幅降低基本分散程度。"
     },
@@ -10116,7 +10308,7 @@
       "ru": "Чертеж — Глушитель для дробовика",
       "sr": "Prigusivac za sacmaru Nacrt",
       "tr": "Av Tüfeği Susturucusu Taslağı",
-      "uk": "Креслення Глушник для дробовика",
+      "uk": "Креслення глушника дробовика",
       "zh-CN": "霰弹枪消音器蓝图",
       "zh-TW": "霰彈槍消音器藍圖"
     },
@@ -10138,7 +10330,7 @@
       "ru": "Позволяет создать глушитель для дробовика.",
       "sr": "Omogućava izradu prigušivača za sačmaricu",
       "tr": "Av Tüfeği Susturucusu üretmeni sağlar",
-      "uk": "Дозволяє створити глушник для дробовика",
+      "uk": "Дає змогу створити глушник для дробовика",
       "zh-CN": "可以制作霰弹枪消音器",
       "zh-TW": "可製作霰彈槍消音器"
     },
@@ -10182,7 +10374,7 @@
       "ru": "Глушитель для дробовика",
       "sr": "Prigušivač za sačmaru",
       "tr": "Av Tüfeği Susturucusu",
-      "uk": "Глушник для дробовика",
+      "uk": "Глушник дробовика",
       "zh-CN": "霰弹枪消音器",
       "zh-TW": "霰彈槍消音器"
     },
@@ -10204,7 +10396,7 @@
       "ru": "Умеренно снижает уровень шума при стрельбе.",
       "sr": "Umereno smanjuje količinu buke pri pucanju.",
       "tr": "Ateş edilirken ortaya çıkan sesi orta düzeyde azaltır.",
-      "uk": "Помірно зменшує рівень шуму при стрільбі.",
+      "uk": "Помірно зменшує шум стрільби.",
       "zh-CN": "中幅度降低开火时的噪音。",
       "zh-TW": "中度降低射擊時產生的噪音。"
     },
@@ -10302,7 +10494,7 @@
       "ru": "Чертеж — Коронный номер",
       "sr": "Showstopper Nacrt",
       "tr": "Efsane Taslağı",
-      "uk": "Креслення Шоустопер",
+      "uk": "Креслення Шоустопера",
       "zh-CN": "耀眼明星蓝图",
       "zh-TW": "震撼彈藍圖"
     },
@@ -10324,7 +10516,7 @@
       "ru": "Позволяет создать Коронный номер.",
       "sr": "Omogućava izradu oružja Showstopper",
       "tr": "Efsane üretmeni sağlar",
-      "uk": "Дозволяє створити Showstopper",
+      "uk": "Дає змогу створити Шоустопер",
       "zh-CN": "可以制作耀眼明星",
       "zh-TW": "可製作震撼彈"
     },
@@ -10402,7 +10594,7 @@
       "ru": "Граната, которая взрывается после задержки и оглушает врагов в радиусе действия.",
       "sr": "Granata koja detonira nakon odlaganja, omamljujući neprijatelje u svom radijusu.",
       "tr": "Bir gecikmenin ardından patlayıp tesir alanındaki düşmanları sersemleten bir bomba.",
-      "uk": "Граната із затримкою вибуху, що оглушуєворогів у радіусі дії.",
+      "uk": "Граната, що вибухає із затримкою, оглушуючи ворогів у своєму радіусі.",
       "zh-CN": "延迟爆炸的手雷，会使爆炸范围内的敌人昏迷。",
       "zh-TW": "一種手榴彈，會在一小段延遲後爆炸，使其半徑範圍內的敵人暈眩。"
     },
@@ -10562,7 +10754,7 @@
       "ru": "Самодельная граната с детонатором, при взрыве выбрасывает множество острых осколков.",
       "sr": "Improvizovana granata sa fitiljem koja se pri detonaciji rasprskava u oštre fragmente.",
       "tr": "Patladığında jilet gibi keskin parçalara ayrılan, el yapımı bir fünye bombası.",
-      "uk": "Саморобна граната із запалом, яка під час детонації розривається на гострі, як бритва, уламки.",
+      "uk": "Саморобна запальна граната, що вибухає, розкидаючи довкола гострі, мов леза, фрагменти.",
       "zh-CN": "一款应急引信手雷，引爆时会喷射出锋利的碎片。",
       "zh-TW": "湊合做出的引信手榴彈，爆炸時尖銳的破片會噴飛而出。"
     },
@@ -10688,7 +10880,7 @@
       "ru": "Гироскоп измельчителя",
       "sr": "Shredder žiroskop",
       "tr": "Öğütücü Jiroskop",
-      "uk": "Гіроскоп шредера",
+      "uk": "Гіроскоп Роздиральника",
       "zh-CN": "“粉碎者”陀螺仪",
       "zh-TW": "切碎機陀螺儀"
     },
@@ -10710,7 +10902,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -10787,7 +10979,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -10867,7 +11059,7 @@
       "ru": "Позволяет создать глушитель I.",
       "sr": "Omogućava izradu prigušivača I",
       "tr": "Susturucu I üretmeni sağlar",
-      "uk": "Дозволяє створити глушник I",
+      "uk": "Дає змогу створити глушник I",
       "zh-CN": "可以制作消音器 I",
       "zh-TW": "可製作消音器I"
     },
@@ -10945,7 +11137,7 @@
       "ru": "Немного снижает уровень шума при стрельбе.",
       "sr": "Blago smanjuje količinu buke proizvedene pri pucanju.",
       "tr": "Ateş edilirken ortaya çıkan sesi biraz azaltır.",
-      "uk": "Трохи знижує рівень шуму під час стрільби.",
+      "uk": "Трохи зменшує шум стрільби.",
       "zh-CN": "小幅度降低开火时的噪音。",
       "zh-TW": "稍微降低射擊時產生的噪音。"
     },
@@ -11089,7 +11281,7 @@
       "ru": "Позволяет создать глушитель II.",
       "sr": "Omogućava izradu prigušivača II",
       "tr": "Susturucu II üretmeni sağlar",
-      "uk": "Дозволяє створити глушник II",
+      "uk": "Дає змогу створити глушник II",
       "zh-CN": "可以制作消音器 II",
       "zh-TW": "可製作消音器II"
     },
@@ -11167,7 +11359,7 @@
       "ru": "Умеренно снижает уровень шума при стрельбе.",
       "sr": "Umereno smanjuje količinu buke pri pucanju.",
       "tr": "Ateş edilirken ortaya çıkan sesi orta düzeyde azaltır.",
-      "uk": "Помірно зменшує рівень шуму під час стрільби.",
+      "uk": "Помірно зменшує шум стрільби.",
       "zh-CN": "中幅度降低开火时的噪音。",
       "zh-TW": "中度降低射擊時產生的噪音。"
     },
@@ -11300,7 +11492,7 @@
       "ru": "Значительно снижает уровень шума при стрельбе.",
       "sr": "Značajno smanjuje količinu buke pri pucanju.",
       "tr": "Ateş edilirken ortaya çıkan sesi önemli ölçüde azaltır.",
-      "uk": "Значно зменшує рівень шуму під час стрільби.",
+      "uk": "Значно зменшує шум стрільби.",
       "zh-CN": "大幅度降低开火时的噪音。",
       "zh-TW": "大幅降低射擊時產生的噪音。"
     },
@@ -11462,7 +11654,7 @@
       "ru": "Блестящий, изящный, утонченный, роскошный набор.",
       "sr": "Sjajan, svetlucav set profinjenosti i elegancije.",
       "tr": "İncelik ve zarafet kokan parlak bir set.",
-      "uk": "Блискучий, мерехтливий набір витонченості та елегантності.",
+      "uk": "Блискучий набір вишуканого столового приладдя.",
       "zh-CN": "一套闪耀着光芒、精致优雅的配套餐具。",
       "zh-TW": "一組閃閃發光的精緻優雅設計。"
     },
@@ -11607,7 +11799,7 @@
       "ru": "Фигурка «Сирена Дората»",
       "sr": "Maketa broda \"Sirena Dorata\"",
       "tr": "\"Sirena Dorata\" Gemi Modeli",
-      "uk": "Фігурка «Сирена Дората»",
+      "uk": "Модель судна «Сирена Дората»",
       "zh-CN": "“金色海妖”舰船模型",
       "zh-TW": "「金色美人魚號」船隻模型"
     },
@@ -11629,7 +11821,7 @@
       "ru": "Средиземноморское солнце отражается от корпуса этой яркой яхты, вечного символа морского великолепия.",
       "sr": "Dok mediteransko sunce blista na njenom trupu, ova živopisna jahta je bezvremenski vrhunac slankastog sjaja.",
       "tr": "Gövdesinden Akdeniz güneşinin parıldadığı bu renkli yat, tuzlu suyun ihtişamının zamansız bir simgesi.",
-      "uk": "Коли середземноморське сонце виграє на її корпусі, ця яскрава яхта — позачасове втілення солоної розкоші.",
+      "uk": "Коли середземноморське сонце освітлює палубу, ця стильна яхта виглядає непідвладним часу символом романтики морських просторів.",
       "zh-CN": "地中海阳光洒在船身熠熠生辉，这艘明艳游艇是海上风华的永恒典范。",
       "zh-TW": "地中海的陽光在船身上閃閃發亮，這艘容光煥發的遊艇正是鹹水風光的雋永風貌。"
     },
@@ -11673,7 +11865,7 @@
       "ru": "Драйвер «Проныры»",
       "sr": "Skulker Drajver",
       "tr": "Pusucu Sürücüsü",
-      "uk": "Привід Skulker",
+      "uk": "Двигун Нишпорки",
       "zh-CN": "“潜伏者”引擎",
       "zh-TW": "潛行者驅動器"
     },
@@ -11730,7 +11922,7 @@
       "ru": "Прицельная система «Проныры»",
       "sr": "Skulker Ciljač",
       "tr": "Pusucu Hedefleyicisi",
-      "uk": "Приціл Skulker",
+      "uk": "Націлювач Нишпорки",
       "zh-CN": "“潜伏者”瞄准组件",
       "zh-TW": "潛行者標定器"
     },
@@ -11752,7 +11944,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для виготовлення.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -11865,7 +12057,7 @@
       "ru": "Аэродинамика",
       "sr": "Slipstream",
       "tr": "Hava Akımı",
-      "uk": "Сліпстрім",
+      "uk": "Повітряний потік",
       "zh-CN": "滑流",
       "zh-TW": "滑流"
     },
@@ -11908,7 +12100,7 @@
       "ru": "Схема — Маленькая лабораторная тумбочка",
       "sr": "Dizajn malog laboratorijskog ormarića",
       "tr": "Küçük Laboratuvar Dolabı Tasarımı",
-      "uk": "Дизайн маленької лабораторної шафи",
+      "uk": "Дизайн малої лабораторної шафи",
       "zh-CN": "小型实验室储物柜设计图",
       "zh-TW": "小型實驗室櫃設計"
     },
@@ -11996,7 +12188,7 @@
       "ru": "Чертеж — дымовая граната",
       "sr": "Dimna granata Nacrt",
       "tr": "Sis Bombası Taslağı",
-      "uk": "Креслення Димова граната",
+      "uk": "Креслення димової гранати",
       "zh-CN": "烟雾手雷蓝图",
       "zh-TW": "煙霧手榴彈藍圖"
     },
@@ -12018,7 +12210,7 @@
       "ru": "Позволяет создать дымовую гранату.",
       "sr": "Omogućava izradu dimne granate",
       "tr": "Sis Bombası üretmeni sağlar",
-      "uk": "Дозволяє створити димову гранату",
+      "uk": "Дає змогу створити димову гранату",
       "zh-CN": "可以制作烟雾手雷",
       "zh-TW": "可製作煙霧手榴彈"
     },
@@ -12074,7 +12266,7 @@
       "ru": "Лазерная ловушка: дым",
       "sr": "Zamka sa dimnom granatom",
       "tr": "Lazer Tuzağı: Sis",
-      "uk": "Пастка з димовою гранатою",
+      "uk": "Димова пастка-граната",
       "zh-CN": "激光陷阱：烟雾",
       "zh-TW": "雷射陷阱：煙霧"
     },
@@ -12241,7 +12433,7 @@
       "ru": "Граната, которая при попадании образует густое облако дыма, закрывающее обзор машинам ARC и другим рейдерам.",
       "sr": "Granata koja stvara dugotrajan oblak dima pri udaru, blokirajući vidljivost ARC-u i drugim Raiderima.",
       "tr": "Temas hâlinde kalıcı bir sis bulutu oluşturarak ARC'ların ve diğer Raider'ların görüşünü engelleyen bir bomba.",
-      "uk": "Граната, що створює при ударі хмару диму, яка блокує видимість для ARC та інших рейдерів.",
+      "uk": "Граната, що створює стійку димову хмару після удару, закриваючи огляд для ARC та інших рейдерів.",
       "zh-CN": "撞击时会在爆炸范围内产生烟雾的手雷，可阻挡ARC及其他奇袭者的视线。",
       "zh-TW": "一種手榴彈，在撞擊時會產生久久不散的煙霧，阻擋ARC和其他掠手的視線。"
     },
@@ -12349,217 +12541,5 @@
         "trader": "Apollo"
       }
     ]
-  },
-  {
-    "id": "snap_blast_grenade",
-    "name": {
-      "da": "Lyneksplosionsgranat",
-      "de": "Snapshot-Granate",
-      "en": "Snap Blast Grenade",
-      "es": "Granada de ráfaga",
-      "fr": "Grenade adhésive",
-      "he": "רימון הדף נצמד",
-      "hr": "Snap eksplozivna granata",
-      "it": "Granata a rapida esplosione",
-      "ja": "スナップブラスト・グレネード",
-      "ko-KR": "스냅 블래스트 수류탄",
-      "no": "Lyneksplosjonsgranate",
-      "pl": "Granat szybko wybuchający",
-      "pt": "Granada de explosão rápida",
-      "pt-BR": "Granada de Explosão Rápida",
-      "ru": "Разрывная граната",
-      "sr": "Snap eksplozivna granata",
-      "tr": "Seri Patlama Bombası",
-      "uk": "Граната з липучкою",
-      "zh-CN": "闪爆手雷",
-      "zh-TW": "瞬爆手榴彈"
-    },
-    "description": {
-      "da": "En granat, der hæfter til overflader og giver eksplosiv skade efter en kort forsinkelse.",
-      "de": "Eine Granate, die an Oberflächen haftet und nach kurzer Verzögerung Explosionsschaden verursacht.",
-      "en": "A grenade that sticks to surfaces, dealing explosive damage after a short delay.",
-      "es": "Una granada que se adhiere a las superficies y causa daño explosivo tras un pequeño retardo.",
-      "fr": "Une grenade qui adhère aux surfaces et inflige des dégâts explosifs après un court délai.",
-      "he": "רימון שנצמד למשטחים וגורם נזק פיצוץ לאחר השהיה קצרה.",
-      "hr": "Granata koja se lijepi za površine i nanosi eksplozivnu štetu nakon kratke odgode.",
-      "it": "Una granata che si attacca alle superfici, infliggendo danni esplosivi poco dopo la sua applicazione.",
-      "ja": "表面にくっつけることができ、少し遅れて爆発ダメージを与えるグレネード。",
-      "ko-KR": "물체 표면에 접착할 수 있는 수류탄으로, 잠시 후 폭발해 커다란 대미지를 줍니다.",
-      "no": "En granat som fester seg til overflater og gir eksplosiv skade etter en kort forsinkelse.",
-      "pl": "Granat, który przykleja się do powierzchni, a po krótkim czasie zadaje obrażenia od wybuchów.",
-      "pt": "Uma granada que gruda em superfícies, causando dano explosivo após um breve atraso.",
-      "pt-BR": "Granada que adere à superfícies, causando dano explosivo após um breve intervalo.",
-      "ru": "Граната, которая прилипает к поверхностям и наносит взрывной урон после небольшой задержки.",
-      "sr": "Granata koja se lepi za površine i nanosi eksplozivnu štetu nakon kratkog kašnjenja.",
-      "tr": "Yüzeylere yapışıp kısa bir gecikmenin ardından patlayıcı hasar veren bir bomba.",
-      "uk": "Граната, яка прилипає до поверхонь і завдає вибухової шкоди після короткої затримки.",
-      "zh-CN": "可以粘附在表面并在短暂延迟后引发爆炸的手雷。",
-      "zh-TW": "一種手榴彈，會黏附在表面，短暫延遲後造成爆炸傷害。"
-    },
-    "type": "Quick Use",
-    "rarity": "Uncommon",
-    "value": 800,
-    "weightKg": 0.2,
-    "stackSize": 3,
-    "effects": {
-      "Damage": {
-        "value": 70,
-        "da": "Skade",
-        "de": "Schaden",
-        "en": "Damage",
-        "es": "Daño",
-        "fr": "Dégâts",
-        "he": "נזק",
-        "hr": "Šteta",
-        "it": "Danni",
-        "ja": "ダメージ",
-        "ko-KR": "피해",
-        "no": "Skade",
-        "pl": "Obrażenia",
-        "pt": "Dano",
-        "pt-BR": "Dano",
-        "ru": "Урон",
-        "sr": "Šteta",
-        "tr": "Hasar",
-        "uk": "Шкода",
-        "zh-CN": "伤害",
-        "zh-TW": "傷害"
-      },
-      "Radius": {
-        "value": "7.5m",
-        "da": "Radius",
-        "de": "Radius",
-        "en": "Radius",
-        "es": "Radio",
-        "fr": "Rayon",
-        "he": "רדיוס",
-        "hr": "Radijus",
-        "it": "Raggio",
-        "ja": "範囲",
-        "ko-KR": "반경",
-        "no": "Radius",
-        "pl": "Zasięg",
-        "pt": "Raio",
-        "pt-BR": "Raio",
-        "ru": "Радиус",
-        "sr": "Radijus",
-        "tr": "Yarıçap",
-        "uk": "Радіус",
-        "zh-CN": "范围",
-        "zh-TW": "範圍"
-      }
-    },
-    "craftBench": "explosives_bench",
-    "stationLevelRequired": 2,
-    "recipe": {
-      "crude_explosives": 2,
-      "magnet": 1
-    },
-    "recyclesInto": {
-      "chemicals": 1,
-      "magnet": 1
-    },
-    "salvagesInto": {
-      "chemicals": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/snap_blast_grenade.png",
-    "updatedAt": "03/22/2026",
-    "addedIn": "base",
-    "mechanics": {
-      "card": {
-        "damage": 70,
-        "radiusM": 7.5
-      },
-      "classification": {
-        "category": "Utility.Grenade",
-        "dropType": [
-          "Consumable.Throwable.Grenade"
-        ],
-        "itemType": [
-          "Throwable"
-        ],
-        "questGroups": [
-          "Items.Grenade",
-          "Items.StickyGrenade"
-        ]
-      }
-    },
-    "vendors": [
-      {
-        "cost": {
-          "coins": 2400
-        },
-        "limit": 3,
-        "refreshSeconds": 86400,
-        "requiredLevel": 7,
-        "trader": "Apollo"
-      }
-    ]
-  },
-  {
-    "id": "snap_hook_blueprint",
-    "name": {
-      "da": "Snap Hook-tegning",
-      "de": "Bauplan: Karabinerhaken",
-      "en": "Snap Hook Blueprint",
-      "es": "Proyecto del mosquetón",
-      "fr": "Schéma de mousqueton",
-      "he": "שרטוט וו קפיצי",
-      "hr": "Nacrt Snap Hook",
-      "it": "Progetto gancio a scatto",
-      "ja": "スナップ・フックの設計図",
-      "ko-KR": "스냅 훅 설계도",
-      "no": "Snap Hook-tegning",
-      "pl": "Plan: karabińczyk",
-      "pt": "Projeto de Snap Hook",
-      "pt-BR": "Esquema de Mosquetão",
-      "ru": "Чертеж — Крюк с защелкой",
-      "sr": "Nacrt Snap Hook",
-      "tr": "Kanca Taslağı",
-      "uk": "Креслення Snap Hook",
-      "zh-CN": "安全钩蓝图",
-      "zh-TW": "扣鉤藍圖"
-    },
-    "description": {
-      "da": "Lader dig fremstille en karabinhage",
-      "de": "Damit stellst du einen Karabinerhaken her",
-      "en": "Lets you craft a Snap Hook",
-      "es": "Te permite fabricar un mosquetón.",
-      "fr": "Vous permet de fabriquer un mousqueton",
-      "he": "מאפשר לך ליצור טבעת חיבור",
-      "hr": "Omogućuje izradu karabinera",
-      "it": "Ti permette di creare un gancio a scatto",
-      "ja": "スナップ・フックが製作可能になる",
-      "ko-KR": "스냅 훅 제작법입니다.",
-      "no": "Lar deg lage en karabinkrok",
-      "pl": "Pozwala wytworzyć karabińczyk",
-      "pt": "Permite fabricar um Mosquetão",
-      "pt-BR": "Permite fabricar um Mosquetão",
-      "ru": "Позволяет создать крюк с защелкой.",
-      "sr": "Omogućava izradu karabinjera",
-      "tr": "Kanca üretmeni sağlar",
-      "uk": "Дозволяє створити карабін",
-      "zh-CN": "可以制作安全钩",
-      "zh-TW": "可製作扣鉤"
-    },
-    "type": "Blueprint",
-    "rarity": "Common",
-    "value": 5000,
-    "weightKg": 0,
-    "stackSize": 1,
-    "imageFilename": "https://cdn.arctracker.io/items/v2/snap_hook_blueprint.png",
-    "updatedAt": "11/14/2025",
-    "addedIn": "base",
-    "mechanics": {
-      "classification": {
-        "category": "Recipe",
-        "dropType": [
-          "Recipe"
-        ],
-        "itemType": [
-          "Recipe"
-        ]
-      }
-    }
   }
 ]

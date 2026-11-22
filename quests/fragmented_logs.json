@@ -18,7 +18,7 @@
     "ru": "Разрозненные записи",
     "sr": "Fragmentirani zapisi",
     "tr": "Parçalanmış Kayıtlar",
-    "uk": "Фрагментовані записи",
+    "uk": "Фрагменти журналів",
     "zh-CN": "碎片日志",
     "zh-TW": "紀錄片段"
   },
@@ -42,7 +42,7 @@
     "ru": "Мы освоились в «Стелла Монтис», но кое-кто предлагает разузнать побольше о прошлом этого комплекса. Но для этого нужно запустить хотя бы часть этих старых машин — тогда можно будет покопаться в имеющихся данных. ",
     "sr": "Sada kada smo učvrstili našu poziciju na Stella Montis-u, nekoliko strana je zainteresovano da zakopa malo dublje i vidi šta možemo da saznamo o prošlosti ovog mesta. Međutim, da bismo to uradili, moraćemo da pokrenemo neke od ovih starih mašina kako bismo mogli da počnemo sa pretraživanjem podataka. ",
     "tr": "Stella Montis'te yerimizi sağlamlaştırdığımıza göre çeşitli taraflar daha derinlere inip bu yerin geçmişi hakkında neler öğrenebileceğimizi görmekle ilgileniyor. Ancak bunu yaparken verileri incelemeye başlayabilmemiz için bu eski makinelerin bazılarını çalıştırmamız gerekecek. ",
-    "uk": "Тепер, коли ми закріпилися на Stella Montis, кілька груп зацікавлені в тому, щоб копнути трохи глибше і дізнатися більше про минуле цього місця. Однак для цього нам потрібно буде заживити деякі з цих старих машин, щоб ми могли почати перебирати дані. ",
+    "uk": "Тепер, коли ми закріпилися в комплексі «Стелла монтіс», кілька груп бажають дізнатися більше про минуле цього місця. Але для цього треба ввімкнути деякі зі старих машин, щоб ми могли розпочати перегляд даних. ",
     "zh-CN": "我们在星辰山站稳脚跟后，多方势力都想深入挖掘此地的过往。但要做到这一点，我们得给这些老旧机械供电，才能梳理数据。 ",
     "zh-TW": "現在我們已在星辰山站穩腳跟，多方人馬都對深入挖掘這片土地的過往深感興趣。然而，要實現這個目標，我們必須啟動這些陳舊的機器，才能開始梳理其中的資料。 "
   },
@@ -65,7 +65,7 @@
       "ru": "Зайдите в любую диспетчерскую песочницы для роботов и используйте 1 электротехнический компонент, чтобы починить неработающий терминал.",
       "sr": "U bilo kojoj od kontrolnih soba Robotic Sandbox-a, popravi terminal van funkcije sa 1 Električnom komponentom",
       "tr": "Robotik Kumluk Alan kontrol odalarından birinde 1 Elektrik Bileşen ile arızalı terminali onar",
-      "uk": "У будь-якій із диспетчерських Robotic Sandbox відремонтуйте неробочий термінал за допомогою 1 електричного компонента",
+      "uk": "Відремонтувати несправний термінал в одній із диспетчерських тестової зони роботів, використавши 1 електричний компонент",
       "zh-CN": "在机器人沙盘的任意控制室，使用1个电子元件修复故障终端",
       "zh-TW": "在任一機械沙盒控制室中，使用1個電子元件修理故障的終端機"
     },
@@ -87,7 +87,7 @@
       "ru": "Включите питание в любом кабельном помещении рядом с песочницей для роботов.",
       "sr": "Uključi napajanje u bilo kojoj od stražnjih soba sa instalacijama blizu Robotic Sandbox-ova",
       "tr": "Robotik Kumluk Alan yakınındaki İletken Arka Odalardan birinde gücü etkinleştir",
-      "uk": "Увімкніть живлення в будь-якому з кабельних підсобних приміщень поблизу Robotic Sandboxes",
+      "uk": "Увімкнути живлення в будь-яких із кабельних службових приміщень біля тестової зони роботів",
       "zh-CN": "接通机器人沙盘附近的任意管道后勤室的电源",
       "zh-TW": "啟用機械沙盒附近任一導管後室的電源"
     },
@@ -109,7 +109,7 @@
       "ru": "Запустите главный терминал в технических помещениях культурного архива.",
       "sr": "Pokreni terminal podataka glavnog servera u zadnjim prostorijama Cultural Archives-a",
       "tr": "Kültürel Arşiv servis arka odalarındaki ana çerçeve Veri Terminali'ni başlat",
-      "uk": "Запустіть термінал даних мейнфрейму в підсобних приміщеннях Культурних архівів",
+      "uk": "Завантажити термінал даних центрального блока у службових приміщеннях культурних архівів",
       "zh-CN": "启动文化档案馆后勤室的主机数据终端",
       "zh-TW": "啟動文化檔案庫服務後室的主機資料終端機"
     }
@@ -127,7 +127,7 @@
   "xp": 5000,
   "previousQuestIds": ["a_dead_end", "dust_on_the_wires"],
   "nextQuestIds": ["furtive_meetings"],
-  "updatedAt": "10/07/2026",
+  "updatedAt": "11/20/2026",
   "objectiveTree": {
     "id": "697804536",
     "children": [
