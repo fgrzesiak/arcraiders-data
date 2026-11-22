@@ -18,7 +18,7 @@
     "ru": "Пробуждение сети",
     "sr": "Buđenje mreže",
     "tr": "Şebekeyi Uyandırma",
-    "uk": "Пробудження мережі",
+    "uk": "Активація мережі",
     "zh-CN": "唤醒安保网络",
     "zh-TW": "喚醒網絡"
   },
@@ -42,7 +42,7 @@
     "ru": "У нас проблемы с датчиками в космопорте. Может, это просто сама система безопасности барахлит — старая уже. Если сумеешь включить их, я буду спать спокойнее.",
     "sr": "Imamo problem sa pokrivenošću senzorima na lokaciji The Spaceport. Bezbednosna mreža je stara, pa možda samo pravi probleme. Ako bi mogao ponovo da je pokreneš, spasio bi me mnogih neprospavanih noći.",
     "tr": "Uzaylimanı'ndaki sensör kapsama alanımızla ilgili bir sorun var. Güvenlik şebekesi eski olduğu için arızalanıyor olabilir. Tekrar çalışır hâle getirebilirsen beni birçok uykusuz geceden kurtarırsın.",
-    "uk": "Маємо проблему з покриттям датчиків на Spaceport. Мережа безпеки стара, тому, можливо, вона просто дає збої. Якщо ти зможеш відновити її роботу, це врятує мене від багатьох безсонних ночей.",
+    "uk": "У нас виникла проблема з системою датчиків на космодромі. Мережа безпеки вже стара, тож, можливо, це просто збій. Якщо тобі вдасться її знову запустити, це подарує мені кілька ночей спокійного сну.",
     "zh-CN": "太空港的传感器覆盖出了问题。考虑到安保网络过于老旧，可能只是故障。如果能让它恢复运行，我就能睡个安稳觉了。",
     "zh-TW": "我們在太空港的感應器覆蓋狀況出了點問題。由於保全網本就很老舊，可能只是單純的故障。如果你能修好，我就不會一直失眠了。"
   },
@@ -65,7 +65,7 @@
       "ru": "Включите датчики системы безопасности в охранной вышке.",
       "sr": "Aktiviraj bezbednosne senzore u jednoj od Stražarskih kula",
       "tr": "Nöbetçi Kulelerinden birindeki güvenlik sensörlerini etkinleştir",
-      "uk": "Активуй датчики безпеки в одній з Охоронних веж",
+      "uk": "Активувати датчики системи безпеки в одній зі сторожових веж",
       "zh-CN": "在任意守卫塔启动安保传感器",
       "zh-TW": "啟動其中一座守衛塔的保全感應器"
     },
@@ -87,7 +87,7 @@
       "ru": "Запустите центр обеспечения безопасности в зоне отправления.",
       "sr": "Pokreni Bezbednosni kontrolni centar u Zgradi za polaske",
       "tr": "Gidiş Binası'ndaki Güvenlik Kontrol Merkezi'ni başlat",
-      "uk": "Запусти Центр управління безпекою в Будівлі відправлення",
+      "uk": "Запустити центр керування служби безпеки в зоні відправлення",
       "zh-CN": "在候机楼中启动安保控制中心",
       "zh-TW": "啟動出境大樓的保全控制中心"
     },
@@ -109,7 +109,7 @@
       "ru": "Поищите свидетельства взлома в станции данных в зоне прилета.",
       "sr": "Potraži bilo kakve tragove bezbednosnog proboja u Kancelariji za podatke u Zgradi za dolaske",
       "tr": "Geliş Binası Veri Ofisi'nde güvenlik ihlali izleri olup olmadığını araştır",
-      "uk": "Знайди будь-які сліди порушення безпеки в Офісі даних Будівлі прибуття",
+      "uk": "Пошукати будь-які сліди зламу системи безпеки у відділі обробки даних зони прибуття",
       "zh-CN": "搜寻到达楼数据办公室的安保入侵痕迹",
       "zh-TW": "在入境大樓資料辦公室內搜尋保全漏洞的跡象"
     }
@@ -131,7 +131,7 @@
   "xp": 8000,
   "previousQuestIds": ["dust_on_the_wires"],
   "nextQuestIds": [],
-  "updatedAt": "10/07/2026",
+  "updatedAt": "11/20/2026",
   "objectiveTree": {
     "id": "435605344",
     "children": [

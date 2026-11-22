@@ -18,7 +18,7 @@
     "ru": "Различные семена",
     "sr": "Raznovrsno Seme",
     "tr": "Çeşitli Tohumlar",
-    "uk": "Різні насіння",
+    "uk": "Змішане насіння",
     "zh-CN": "混合种子",
     "zh-TW": "綜合種子"
   },
@@ -40,7 +40,7 @@
     "ru": "Горсть семян. Селесте они пригодятся.",
     "sr": "Pregršt semenja. Celeste bi mogla tražiti ovo.",
     "tr": "Bir avuç tohum. Celeste bunları istiyor olabilir.",
-    "uk": "Жменя насіння. Можливо, Селеста їх шукає.",
+    "uk": "Жменя насіння. Селеста може шукати саме його.",
     "zh-CN": "一把种子。也许正是塞莱斯特要找的。",
     "zh-TW": "一把種子。莎莉絲特可能在找這個。"
   },
@@ -61,5 +61,6 @@
       "itemType": ["Misc"],
       "theme": ["Nature"]
     }
-  }
+  },
+  "tradeCurrencyOf": ["Celeste"]
 }

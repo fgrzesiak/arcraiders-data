@@ -18,7 +18,7 @@
     "ru": "Усилитель: бесплатное снаряжение",
     "sr": "Besplatno poboljšanje opreme",
     "tr": "Ücretsiz Mühimmat Yükseltici",
-    "uk": "Безкоштовне покращення спорядження",
+    "uk": "Підсилювач спорядження (безкоштовно)",
     "zh-CN": "免费配装强化",
     "zh-TW": "免費配備強化"
   },
@@ -40,7 +40,7 @@
     "ru": "Базовый усилитель для салаг, немного увеличивает размер рюкзака и позволяет нести больший вес.",
     "sr": "Osnovno poboljšanje za početničke Raidere, nudi malo više prostora u rancu i nosivosti.",
     "tr": "Çaylak Raider'lar için temel bir yükselticidir. Biraz daha fazla sırt çantası alanı ve taşıma kapasitesi sağlar.",
-    "uk": "Базове покращення для новачків-рейдерів, що надає трохи більше місця в рюкзаку та вантажопідйомності.",
+    "uk": "Базовий підсилювач для рейдерів-початківців, трохи збільшує місткість рюкзака й вантажопідйомність.",
     "zh-CN": "为新手奇袭者设计的基础强化，提供略大的背包空间与负重上限。",
     "zh-TW": "適合菜鳥掠手的基本強化，提供稍微多一些的背包空間和攜帶容量。"
   },
@@ -211,5 +211,6 @@
     "classification": {
       "category": "Augment"
     }
-  }
+  },
+  "tradeCurrencyOf": ["Lance"]
 }
