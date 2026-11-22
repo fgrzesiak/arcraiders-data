@@ -1,5 +1,237 @@
 [
   {
+    "id": "taurus",
+    "name": {
+      "da": "Tyren",
+      "en": "Taurus",
+      "he": "טאורוס",
+      "hr": "Taurus",
+      "no": "Taurus",
+      "pt": "Taurus",
+      "sr": "Taurus",
+      "uk": "Таурус"
+    },
+    "type": "Stencil",
+    "rarity": "Epic",
+    "value": 5000,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/taurus.png",
+    "updatedAt": "11/20/2026",
+    "addedIn": "2.6"
+  },
+  {
+    "id": "telemetry_transceiver",
+    "name": {
+      "da": "Telemetri-transceiver",
+      "de": "Telemetrie-Empfänger",
+      "en": "Telemetry Transceiver",
+      "es": "Transceptor de telemetría",
+      "fr": "Émetteur-récepteur télémétrique",
+      "he": "מקמ\"ש טלמטריה",
+      "hr": "Telemetrijski primopredajnik",
+      "it": "Ricetrasmettitore di telemetria",
+      "ja": "テレメトリー送受信機",
+      "ko-KR": "텔레미터 송수신기",
+      "no": "Telemetri-transceiver",
+      "pl": "Telemetryczny aparat nadawczo-odbiorczy",
+      "pt": "Transceptor de telemetria",
+      "pt-BR": "Transceptor de Telemetria",
+      "ru": "Телеметрический приемопередатчик",
+      "sr": "Telemetrijski primopredajnik",
+      "tr": "Telemetri Telsiz",
+      "uk": "Телеметричний передавач",
+      "zh-CN": "遥测收发器",
+      "zh-TW": "遙測收發器"
+    },
+    "description": {
+      "da": "Kan genbruges til håndværksmaterialer.",
+      "de": "Kann zu Herstellungsmaterialien recycelt werden.",
+      "en": "Can be recycled into crafting materials.",
+      "es": "Se puede reciclar para obtener materiales de fabricación.",
+      "fr": "Peut être recyclé en matériaux d'artisanat.",
+      "he": "ניתן למחזר לחומרי יצירה.",
+      "hr": "Može se reciklirati u materijale za izradu.",
+      "it": "Si può riciclare in materiali da creazione.",
+      "ja": "リサイクルすると製作用素材になる。",
+      "ko-KR": "제작 재료로 재활용할 수 있습니다.",
+      "no": "Kan resirkuleres til håndverksmateriell.",
+      "pl": "Można wykorzystać ponownie do wytworzenia materiałów.",
+      "pt": "Pode ser reciclado em materiais de fabricação.",
+      "pt-BR": "Pode ser reciclado em materiais de fabricação.",
+      "ru": "Можно переработать, чтобы получить материалы.",
+      "sr": "Može se reciklirati u materijale za izradu.",
+      "tr": "Üretim materyallerine geri dönüştürülebilir.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
+      "zh-CN": "可回收为制作材料。",
+      "zh-TW": "可回收成製作材料。"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "foundIn": "Exodus",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "salvagesInto": {
+      "electrical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/telemetry_transceiver.png",
+    "updatedAt": "01/09/2026",
+    "_community": [
+      "foundIn"
+    ],
+    "addedIn": "1.2",
+    "mechanics": {
+      "classification": {
+        "category": "CraftingMaterial.Recyclable",
+        "dropType": [
+          "Salvage.Recyclables"
+        ],
+        "itemType": [
+          "Misc"
+        ],
+        "theme": [
+          "Exodus"
+        ]
+      }
+    }
+  },
+  {
+    "id": "tellurion",
+    "name": {
+      "da": "Tellurium",
+      "de": "Tellurium",
+      "en": "Tellurion",
+      "es": "Telurio astronómico",
+      "fr": "Tellurion",
+      "he": "טלוריון",
+      "hr": "Telurij",
+      "it": "Tellurio",
+      "ja": "地動儀",
+      "ko-KR": "삼구의",
+      "no": "Tellurium",
+      "pl": "Tellurium",
+      "pt": "Telúrio",
+      "pt-BR": "Telúrio",
+      "ru": "Теллурий",
+      "sr": "Telurijum",
+      "tr": "Tellur",
+      "uk": "Телурій",
+      "zh-CN": "地球天象仪",
+      "zh-TW": "地球天象儀"
+    },
+    "description": {
+      "da": "Et vidunder af ældgammel opfindsomhed; de med en forkærlighed for stjernekiggeri vil måske finde de fascinerende mønstre mærkeligt velkendte.",
+      "de": "Ein Wunderwerk antiker Genialität – wer gerne in die Sterne schaut, wird diese faszinierenden Muster vielleicht seltsam vertraut finden.",
+      "en": "A marvel of ancient ingenuity, those with a penchant for stargazing may find the mesmerizing patterns oddly familiar.",
+      "es": "Un maravilla de la ingeniería de la antigüedad. Sus patrones hipnotizantes les resultarán extrañamente familiares a aquellos aficionados a la astronomía.",
+      "fr": "Merveille d'ingéniosité ancienne, ceux qui ont un goût pour l'observation des étoiles pourraient trouver ses fascinants motifs étrangement familiers.",
+      "he": "פלא של כושר המצאה עתיק. חובבי צפייה בכוכבים עשויים למצוא את הדפוסים המהפנטים מוכרים באופן מוזר.",
+      "hr": "Čudo drevne genijalnosti, oni skloni promatranju zvijezda možda će hipnotizirajuće uzorke pronaći čudno poznatima.",
+      "it": "Una meraviglia dell'ingegno antico: chi ama osservare le stelle potrebbe trovare questi motivi affascinanti stranamente familiari.",
+      "ja": "古代の知恵の結晶。星空を眺めるのが好きな人なら、その魅惑的な模様に奇妙な親しみを覚えるかもしれない。",
+      "ko-KR": "고대의 독창성이 빚어낸 경이로운 물건입니다. 별을 바라보는 것을 좋아하는 이라면, 이 황홀한 무늬가 묘하게 익숙하게 느껴질지도 모릅니다.",
+      "no": "Et mesterverk av eldgammel oppfinnsomhet. De med en forkjærlighet for stjernekikking vil kanskje finne de fascinerende mønstrene merkelig kjente.",
+      "pl": "Cudo starożytnej techniki, którego wzory mogą wydać się znajome tym, którzy zwykli obserwować gwiazdy.",
+      "pt": "Uma maravilha da engenhosidade ancestral, observadores de estrelas podem achar os padrões hipnotizantes estranhamente familiares.",
+      "pt-BR": "Uma obra-prima da engenhosidade antiga. Quem tem gosto por observar as estrelas talvez ache seus padrões hipnotizantes estranhamente familiares.",
+      "ru": "Чудо изобретательности. Любители смотреть на звезды могут найти в завораживающих узорах кое-что знакомое.",
+      "sr": "Čudo drevne genijalnosti, oni koji vole da posmatraju zvezde možda će ove hipnotizirajuće šare smatrati čudno poznatim.",
+      "tr": "Eskilerin maharetinin bir mucizesi. Yıldız gözlemeyi sevenlere bu büyüleyici desenler ilginç bir şekilde tanıdık gelebilir.",
+      "uk": "Рух цього хитрого механізму, створеного стародавніми майстрами, може видаватися на диво знайомим тим, хто любить витріщатися на зоряне небо.",
+      "zh-CN": "这是古人智慧的精妙造物，喜爱观星之人会发现其上变幻的纹路似曾相识。",
+      "zh-TW": "古代智慧的傑作。喜愛觀星的人或許會覺得那些迷人的圖案十分眼熟。"
+    },
+    "type": "Trinket",
+    "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.5,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/tellurion.png",
+    "updatedAt": "06/16/2026",
+    "addedIn": "1.33",
+    "mechanics": {
+      "classification": {
+        "category": "Misc.Trinket",
+        "dropType": [
+          "Salvage.Trinket"
+        ],
+        "itemType": [
+          "Misc.Trinket"
+        ]
+      }
+    }
+  },
+  {
+    "id": "tempest_blueprint",
+    "name": {
+      "da": "Tempest-tegning",
+      "de": "Bauplan: Tempest",
+      "en": "Tempest Blueprint",
+      "es": "Proyecto de la Tempestad",
+      "fr": "Schéma de Tempête",
+      "he": "שרטוט טמפסט",
+      "hr": "Oluja Nacrt",
+      "it": "Granata Tempesta",
+      "ja": "テンペストの設計図",
+      "ko-KR": "템페스트 설계도",
+      "no": "Tempest-tegning",
+      "pl": "Plan: Burza",
+      "pt": "Projeto de Tempestade",
+      "pt-BR": "Esquema de Temporal",
+      "ru": "Чертеж — Буря",
+      "sr": "Oluja Nacrt",
+      "tr": "Bora Taslağı",
+      "uk": "Креслення Шквалу",
+      "zh-CN": "风暴蓝图",
+      "zh-TW": "暴風雨藍圖"
+    },
+    "description": {
+      "da": "Lader dig fremstille en Tempest",
+      "de": "Damit stellst du eine Tempest her",
+      "en": "Lets you craft a Tempest",
+      "es": "Te permite fabricar una Tempestad.",
+      "fr": "Vous permet de fabriquer une Tempête",
+      "he": "מאפשר לך ליצור טמפסט",
+      "hr": "Omogućuje izradu Tempesta",
+      "it": "Ti permette di creare un Tempesta",
+      "ja": "テンペストが製作可能になる",
+      "ko-KR": "템페스트 제작법입니다.",
+      "no": "Lar deg lage en Tempest",
+      "pl": "Pozwala wytworzyć Burzę",
+      "pt": "Permite fabricar uma Tempest",
+      "pt-BR": "Permite fabricar um Temporal",
+      "ru": "Позволяет создать Бурю.",
+      "sr": "Omogućava izradu oružja Tempest",
+      "tr": "Bora üretmeni sağlar",
+      "uk": "Дає змогу створити Шквал",
+      "zh-CN": "可以制作风暴",
+      "zh-TW": "可製作暴風雨"
+    },
+    "type": "Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/tempest_blueprint.png",
+    "updatedAt": "01/13/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Recipe",
+        "dropType": [
+          "Recipe"
+        ],
+        "itemType": [
+          "Recipe"
+        ]
+      }
+    }
+  },
+  {
     "id": "tempest_i",
     "name": {
       "da": "Storm I",
@@ -19,7 +251,7 @@
       "ru": "Буря I",
       "sr": "Oluja I",
       "tr": "Bora I",
-      "uk": "Буря I",
+      "uk": "Шквал I",
       "zh-CN": "风暴 I",
       "zh-TW": "暴風雨 I"
     },
@@ -41,7 +273,7 @@
       "ru": "Полностью автоматическая штурмовая винтовка с умеренной скоростью стрельбы и точностью.",
       "sr": "Potpuno automatska jurišna puška sa umerenom brzinom paljbe i preciznošću.",
       "tr": "Orta düzeyde bir atış hızı ve isabet oranına sahip tam otomatik taarruz tüfeği.",
-      "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкострільністю та точністю.",
+      "uk": "Повністю автоматична штурмова гвинтівка; має середні скорострільність і точність.",
       "zh-CN": "全自动射击的突击步枪，射速适中，精准度良好。",
       "zh-TW": "全自動突擊步槍，射速和精準度中等。"
     },
@@ -606,7 +838,7 @@
       "ru": "Буря II",
       "sr": "Oluja II",
       "tr": "Bora II",
-      "uk": "Буря II",
+      "uk": "Шквал II",
       "zh-CN": "风暴 II",
       "zh-TW": "暴風雨 II"
     },
@@ -628,7 +860,7 @@
       "ru": "Полностью автоматическая штурмовая винтовка с умеренной скоростью стрельбы и точностью.",
       "sr": "Potpuno automatska jurišna puška sa umerenom brzinom paljbe i preciznošću.",
       "tr": "Orta düzeyde bir atış hızı ve isabet oranına sahip tam otomatik taarruz tüfeği.",
-      "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкострільністю та точністю.",
+      "uk": "Повністю автоматична штурмова гвинтівка; має середні скорострільність і точність.",
       "zh-CN": "全自动射击的突击步枪，射速适中，精准度良好。",
       "zh-TW": "全自動突擊步槍，射速和精準度中等。"
     },
@@ -1233,7 +1465,7 @@
       "ru": "Буря III",
       "sr": "Oluja III",
       "tr": "Bora III",
-      "uk": "Буря III",
+      "uk": "Шквал III",
       "zh-CN": "风暴 III",
       "zh-TW": "暴風雨 III"
     },
@@ -1255,7 +1487,7 @@
       "ru": "Полностью автоматическая штурмовая винтовка с умеренной скоростью стрельбы и точностью.",
       "sr": "Potpuno automatska jurišna puška sa umerenom brzinom paljbe i preciznošću.",
       "tr": "Orta düzeyde bir atış hızı ve isabet oranına sahip tam otomatik taarruz tüfeği.",
-      "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкострільністю та точністю.",
+      "uk": "Повністю автоматична штурмова гвинтівка; має середні скорострільність і точність.",
       "zh-CN": "全自动射击的突击步枪，射速适中，精准度良好。",
       "zh-TW": "全自動突擊步槍，射速和精準度中等。"
     },
@@ -1863,7 +2095,7 @@
       "ru": "Буря IV",
       "sr": "Oluja IV",
       "tr": "Bora IV",
-      "uk": "Буря IV",
+      "uk": "Шквал IV",
       "zh-CN": "风暴 IV",
       "zh-TW": "暴風雨 IV"
     },
@@ -1885,7 +2117,7 @@
       "ru": "Полностью автоматическая штурмовая винтовка с умеренной скоростью стрельбы и точностью.",
       "sr": "Potpuno automatska jurišna puška sa umerenom brzinom paljbe i preciznošću.",
       "tr": "Orta düzeyde bir atış hızı ve isabet oranına sahip tam otomatik taarruz tüfeği.",
-      "uk": "Повністю автоматична штурмова гвинтівка з помірною швидкострільністю та точністю.",
+      "uk": "Повністю автоматична штурмова гвинтівка; має середні скорострільність і точність.",
       "zh-CN": "全自动射击的突击步枪，射速适中，精准度良好。",
       "zh-TW": "全自動突擊步槍，射速和精準度中等。"
     },
@@ -2483,7 +2715,7 @@
       "ru": "Чертеж — Тросомет",
       "sr": "Nacrt: Tether bacač",
       "tr": "Bağlama İpi Fırlatıcısı Taslağı",
-      "uk": "Креслення Запускача Тросів",
+      "uk": "Креслення пускової установки тросів",
       "zh-CN": "系索发射器蓝图",
       "zh-TW": "繫繩發射器藍圖"
     },
@@ -2505,7 +2737,7 @@
       "ru": "Позволяет создать тросомет.",
       "sr": "Omogućava ti izradu Tether bacača",
       "tr": "Bağlama İpi Fırlatıcısı üretmeni sağlar",
-      "uk": "Дозволяє виготовити Запускач Тросів.",
+      "uk": "Дозволяє створити пускову установку тросів",
       "zh-CN": "可制作系索发射器",
       "zh-TW": "可製作繫繩發射器"
     },
@@ -2561,7 +2793,7 @@
       "ru": "Тросомет",
       "sr": "Tether bacač",
       "tr": "Bağlama İpi Fırlatıcısı",
-      "uk": "Запускач Тросів",
+      "uk": "Пускова установка тросів",
       "zh-CN": "系索发射器",
       "zh-TW": "繫繩發射器"
     },
@@ -2583,7 +2815,7 @@
       "ru": "Двухзарядное пусковое устройство, которое закрепляет трос в точках попадания, соединяя их между собой.",
       "sr": "Bacač Tethea sa dva hica koji vezuje liniju za sve što pogodi, spajajući obe tačke.",
       "tr": "İsabet ettiği şeye ip tutturarak iki noktayı birleştiren iki atışlık bir bağlama ipi fırlatıcısı.",
-      "uk": "Двозарядний запускач тросів, який закріплює лінію до місця влучання, з'єднуючи обидві точки.",
+      "uk": "Двозарядна пускова установка, що закріплює трос на будь-якій точці влучання, з’єднуючи його із цією точкою.",
       "zh-CN": "双发式系索发射器，命中任何物体后都会在该物体上系上一条索线，并把目标拉向撞击点。",
       "zh-TW": "雙發式繫繩發射器，能將一條繩索固定在任何擊中的地點，並將兩點連接起來。"
     },
@@ -2698,7 +2930,7 @@
       "ru": "Термошейкер",
       "sr": "Termalni Potresač",
       "tr": "Termal Çalkalayıcı",
-      "uk": "Термальний Шейкер",
+      "uk": "Термошейкер",
       "zh-CN": "恒温振荡仪",
       "zh-TW": "恆溫震盪器"
     },
@@ -2720,7 +2952,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для виготовлення.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -2775,7 +3007,7 @@
       "ru": "Термитные патроны",
       "sr": "Meci sa termitskim vrhom",
       "tr": "Termit Uçlu Mermiler",
-      "uk": "Термітові набої",
+      "uk": "Набої з термітним наконечником",
       "zh-CN": "铝热剂弹头",
       "zh-TW": "鋁熱彈頭"
     },
@@ -2797,7 +3029,7 @@
       "ru": "Нанести урон при попадании — здорово. Но поджечь источник проблем — еще лучше.",
       "sr": "Udarna šteta je korisna. Zapaliti problem nakon toga deluje kao razumno poboljšanje.",
       "tr": "Darbe hasarı kullanışlıdır. Sorunu sonrasında ateşe vermek makul bir gelişme gibi geliyor.",
-      "uk": "Урон від зіткнення корисний. А підпалити проблему після цього здається цілком логічним покращенням.",
+      "uk": "Шкода від удару корисна, але підпалити ціль після влучання — цілком доречне покращення.",
       "zh-CN": "冲击伤害很实用。要是炸完再放把火，效果应该会更好。",
       "zh-TW": "衝擊傷害很實用。衝擊完再往麻煩貨身上放火，感覺是個很合理的改良。"
     },
@@ -2871,7 +3103,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -2929,7 +3161,7 @@
       "ru": "Оболочка «Клеща»",
       "sr": "Krpeljeva Mahuna",
       "tr": "Kene Kozası",
-      "uk": "Капсула кліща",
+      "uk": "Капсула Кліща",
       "zh-CN": "“跳蚤”收纳舱",
       "zh-TW": "蜱蟲囊艙"
     },
@@ -2951,7 +3183,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -3065,7 +3297,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити в матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -3124,7 +3356,7 @@
       "ru": "Донастройка устанавливаемого прицела",
       "sr": "Prepravke za gornju montažu optike",
       "tr": "Üstten Takılan Optik İyileştirmesi",
-      "uk": "Модифікації оптики верхнього кріплення",
+      "uk": "Модифікація верхнього оптичного прицілу",
       "zh-CN": "顶置光学瞄具改装",
       "zh-TW": "頂部固定式光學改裝"
     },
@@ -3146,7 +3378,7 @@
       "ru": "С возвышенности открывается хороший обзор для стрельбы. Полевые данные о «Ястребе», собранные в таких условиях, могут помочь улучшить увеличение прицела.",
       "sr": "Povišene pozicije za pucanje pružaju jasan vidik. Terenski podaci od Ospreja pod tim uslovima mogli bi podržati razvoj poboljšanog uveličavanja.",
       "tr": "Yüksek ateş mevzileri net görüş hattı sağlar. O şartlarda edinilen Kartal saha verileri daha iyi büyütme oranı geliştirilmesine katkıda bulunabilir.",
-      "uk": "Піднесені вогневі позиції забезпечують чіткий огляд. Польові дані Osprey, зібрані в таких умовах, можуть посприяти розробці покращеного збільшення.",
+      "uk": "Високі вогневі позиції забезпечують чудову оглядовість. Польові дані Оспрея за таких умов допоможуть створити оптику з більшою кратністю.",
       "zh-CN": "高位射击点视野开阔。“鱼鹰”在这类场景下的实战数据，能用来研发更高倍率的瞄准镜。",
       "zh-TW": "升高發射位置能提供清楚的視線。魚鷹在這種條件下的實地資料能支援改良放大倍率的開發。"
     },
@@ -3198,7 +3430,7 @@
       "ru": "Рваное одеяло",
       "sr": "Poderana Ćebe",
       "tr": "Parçalanmış Battaniye",
-      "uk": "Порване ковдру",
+      "uk": "Порвана ковдра",
       "zh-CN": "破损的毯子",
       "zh-TW": "撕破的毛毯"
     },
@@ -3279,7 +3511,7 @@
       "ru": "Разорванная книга",
       "sr": "Poderana Knjiga",
       "tr": "Parçalanmış Kitap",
-      "uk": "Порвана книга",
+      "uk": "Порвана книжка",
       "zh-CN": "旧书",
       "zh-TW": "撕破的書本"
     },
@@ -3301,7 +3533,7 @@
       "ru": "Оставшиеся страницы повествуют о героях, вампирах и алчущих взорах.",
       "sr": "Preostale stranice govore o izabranim herojima, vampirima i mnogo čežnjivih pogleda.",
       "tr": "Geriye kalan sayfalarda seçilmiş kahramanlardan, vampirlerden ve özlem dolu bakışlardan bahsediliyor.",
-      "uk": "Сторінки, що залишилися, розповідають про обраних героїв, вампірів та безліч тужливих поглядів.",
+      "uk": "На сторінках, що залишилися, йдеться про обраних героїв, підступних вампірів і хтиві погляди.",
       "zh-CN": "残存的书页中提到了被命运选中的英雄、吸血的怪物，以及许多描述众人景仰的场面。",
       "zh-TW": "餘下的篇幅講述了被選中的英雄、吸血鬼，以及許多殷殷盼望的目光。"
     },
@@ -3353,7 +3585,7 @@
       "ru": "Чертеж — Торренте",
       "sr": "Torrente Nacrt",
       "tr": "Torrente Taslağı",
-      "uk": "Креслення Torrente",
+      "uk": "Креслення Торренте",
       "zh-CN": "奔流蓝图",
       "zh-TW": "奔流藍圖"
     },
@@ -3375,7 +3607,7 @@
       "ru": "Позволяет создать Торренте.",
       "sr": "Omogućava izradu oružja Torrente",
       "tr": "Torrente üretmeni sağlar",
-      "uk": "Дозволяє створити Torrente",
+      "uk": "Дає змогу створити Торренте",
       "zh-CN": "可以制作奔流",
       "zh-TW": "可製作奔流"
     },
@@ -3431,7 +3663,7 @@
       "ru": "Торренте I",
       "sr": "Torrente I",
       "tr": "Torrente I",
-      "uk": "Torrente I",
+      "uk": "Торренте I",
       "zh-CN": "奔流 I",
       "zh-TW": "奔流 I"
     },
@@ -3453,7 +3685,7 @@
       "ru": "Полностью автоматический ручной пулемет. Имеет большой боезапас, но точен лишь при стрельбе в приседе.",
       "sr": "Potpuno automatski laki mitraljez. Ima veliki kapacitet municije, ali je precizan samo u čučnju.",
       "tr": "Tam otomatik hafif makineli tüfek. Büyük mermi kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
-      "uk": "Повністю автоматичний легкий кулемет. Має великий запас набоїв, але зберігає точність лише в положенні сидячи.",
+      "uk": "Легкий кулемет, стріляє лише чергами. Має великий магазин, але прийнятна точність стрільби досягається лише у присіді.",
       "zh-CN": "全自动轻机枪。弹药携带量较大，但只有在蹲伏姿态时精准度才有保证。",
       "zh-TW": "全自動輕機槍。彈藥容量大，但只有蹲下時才能精準射擊。"
     },
@@ -3980,7 +4212,7 @@
       "ru": "Торренте II",
       "sr": "Torrente II",
       "tr": "Torrente II",
-      "uk": "Torrente II",
+      "uk": "Торренте II",
       "zh-CN": "奔流 II",
       "zh-TW": "奔流 II"
     },
@@ -4002,7 +4234,7 @@
       "ru": "Полностью автоматический ручной пулемет. Имеет большой боезапас, но точен лишь при стрельбе в приседе.",
       "sr": "Potpuno automatski laki mitraljez. Ima veliki kapacitet municije, ali je precizan samo u čučnju.",
       "tr": "Tam otomatik hafif makineli tüfek. Büyük mermi kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
-      "uk": "Повністю автоматичний легкий кулемет. Має великий запас набоїв, але зберігає точність лише в положенні сидячи.",
+      "uk": "Легкий кулемет, стріляє лише чергами. Має великий магазин, але прийнятна точність стрільби досягається лише у присіді.",
       "zh-CN": "全自动轻机枪。弹药携带量较大，但只有在蹲伏姿态时精准度才有保证。",
       "zh-TW": "全自動輕機槍。彈藥容量大，但只有蹲下時才能精準射擊。"
     },
@@ -4535,7 +4767,7 @@
       "ru": "Торренте III",
       "sr": "Torrente III",
       "tr": "Torrente III",
-      "uk": "Torrente III",
+      "uk": "Торренте III",
       "zh-CN": "奔流 III",
       "zh-TW": "奔流 III"
     },
@@ -4557,7 +4789,7 @@
       "ru": "Полностью автоматический ручной пулемет. Имеет большой боезапас, но точен лишь при стрельбе в приседе.",
       "sr": "Potpuno automatski laki mitraljez. Ima veliki kapacitet municije, ali je precizan samo u čučnju.",
       "tr": "Tam otomatik hafif makineli tüfek. Büyük mermi kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
-      "uk": "Повністю автоматичний легкий кулемет. Має великий запас набоїв, але зберігає точність лише в положенні сидячи.",
+      "uk": "Легкий кулемет, стріляє лише чергами. Має великий магазин, але прийнятна точність стрільби досягається лише у присіді.",
       "zh-CN": "全自动轻机枪。弹药携带量较大，但只有在蹲伏姿态时精准度才有保证。",
       "zh-TW": "全自動輕機槍。彈藥容量大，但只有蹲下時才能精準射擊。"
     },
@@ -5090,7 +5322,7 @@
       "ru": "Торренте IV",
       "sr": "Torrente IV",
       "tr": "Torrente IV",
-      "uk": "Torrente IV",
+      "uk": "Торренте IV",
       "zh-CN": "奔流 IV",
       "zh-TW": "奔流 IV"
     },
@@ -5112,7 +5344,7 @@
       "ru": "Полностью автоматический ручной пулемет. Имеет большой боезапас, но точен лишь при стрельбе в приседе.",
       "sr": "Potpuno automatski laki mitraljez. Ima veliki kapacitet municije, ali je precizan samo u čučnju.",
       "tr": "Tam otomatik hafif makineli tüfek. Büyük mermi kapasitesine sahiptir ancak sadece çömelmişken isabetlidir.",
-      "uk": "Повністю автоматичний легкий кулемет. Має великий запас набоїв, але зберігає точність лише в положенні сидячи.",
+      "uk": "Легкий кулемет, стріляє лише чергами. Має великий магазин, але прийнятна точність стрільби досягається лише у присіді.",
       "zh-CN": "全自动轻机枪。弹药携带量较大，但只有在蹲伏姿态时精准度才有保证。",
       "zh-TW": "全自動輕機槍。彈藥容量大，但只有蹲下時才能精準射擊。"
     },
@@ -5681,7 +5913,7 @@
       "ru": "Чертеж — Зажигалка",
       "sr": "Nacrt Trailblazera",
       "tr": "Yol Açan Taslağı",
-      "uk": "Креслення Trailblazer",
+      "uk": "Креслення Трейлблейзера",
       "zh-CN": "开拓者蓝图",
       "zh-TW": "先驅者藍圖"
     },
@@ -5703,7 +5935,7 @@
       "ru": "Позволяет создать Зажигалку.",
       "sr": "Omogućava izradu oružja Trailblazer",
       "tr": "Yol Açan üretmeni sağlar",
-      "uk": "Дозволяє створити Trailblazer",
+      "uk": "Дає змогу створити Трейлблейзер",
       "zh-CN": "可以制作开拓者",
       "zh-TW": "可製作先驅者"
     },
@@ -5759,7 +5991,7 @@
       "ru": "Зажигалка",
       "sr": "Tragač",
       "tr": "Yol Açan",
-      "uk": "Першопрохідець",
+      "uk": "Трейлблейзер",
       "zh-CN": "开拓者",
       "zh-TW": "先驅者"
     },
@@ -5781,7 +6013,7 @@
       "ru": "Граната, которая в полете выпускает горючий газ, что вызывает цепную реакцию при возгорании.",
       "sr": "Granata koja emituje trag zapaljivog gasa duž svoje putanje, izazivajući eksplozivnu lančanu reakciju kada se zapali.",
       "tr": "Yol boyunca yanıcı bir gaz izi bırakan ve ateşlendiğinde patlayıcı zincirleme reaksiyona yol açan bir bomba.",
-      "uk": "Граната, що виділяє слід горючого газу вздовж своєї траєкторії, викликаючи вибухову ланцюгову реакцію при займанні.",
+      "uk": "Граната, що залишає за собою смугу займистого газу, яка спричиняє ланцюговий вибух під час займання.",
       "zh-CN": "一种手雷，会沿路径释放可燃气体，点燃后引发连锁爆炸。",
       "zh-TW": "這顆手榴彈投擲後會沿途散布易燃氣體，並於引爆時造成連環爆炸。"
     },
@@ -5930,7 +6162,7 @@
       "ru": "Эти собранные вручную и детально проработанные модели позволяют взглянуть на сложное строение средств передвижения, используемых до Исхода.",
       "sr": "Ručno izrađeni sa potpunim detaljima podvozja, ovi modeli nude iznenađujuće zamršenu šemu pre-Egzodus lokomocije.",
       "tr": "Kapsamlı bir gövde altı detaylandırmasıyla elde yapılmış bu maketler, Exodus öncesi seyahatin şaşırtıcı derecede karmaşık olan şemasını gözler önüne seriyor.",
-      "uk": "Виготовлені вручну з повним деталюванням днища, ці моделі пропонують напрочуд складну схему пересування до Виходу.",
+      "uk": "Ці моделі ручної роботи мають детально відтворену ходову частину й дають непогане уявлення про конструкцію транспортних засобів, що використовувалися до Виходу.",
       "zh-CN": "纯手工制作，底盘细节完整复刻，清晰展现了“离巢”时代之前机车复杂的内部构造。",
       "zh-TW": "手工製作的模型，底部細節的處理相當精細，呈現出逃時代之前的移動方式，其複雜程度令人驚訝。"
     },
@@ -5996,7 +6228,7 @@
       "ru": "Позволяет создать триггер-гранату.",
       "sr": "Omogućava izradu potezne granate",
       "tr": "Tetikleme Bombası üretmeni sağlar",
-      "uk": "Дозволяє створити тригерну гранату",
+      "uk": "Дає змогу створити гранату тригерного підриву",
       "zh-CN": "可以制作触发式手雷",
       "zh-TW": "可製作觸發手榴彈"
     },
@@ -6052,7 +6284,7 @@
       "ru": "Триггер-граната",
       "sr": "Daljinska Granata",
       "tr": "Tetikleme Bombası",
-      "uk": "Керована граната",
+      "uk": "Граната тригерного підриву",
       "zh-CN": "触发式手雷",
       "zh-TW": "觸發手榴彈"
     },
@@ -6074,7 +6306,7 @@
       "ru": "Граната дистанционного подрыва, которая может цепляться к поверхности и машинам ARC. При срабатывании наносит взрывной урон.",
       "sr": "Granata sa daljinskom detonacijom koja se može zalepiti za površine i ARC, nanoseći eksplozivnu štetu kada se aktivira.",
       "tr": "Yüzeyler ile ARC'a yapışabilen ve tetiklendiğinde patlayıcı hasar veren uzaktan kumandalı bir bomba.",
-      "uk": "Граната з дистанційним підривом, яка прилипає до поверхонь і ARC, завдаючи вибухової шкоди при активації.",
+      "uk": "Граната з дистанційною активацією, що може прилипати до поверхонь та ARC, завдаючи вибухових ушкоджень під час підриву.",
       "zh-CN": "遥控引爆的手雷，可以粘附在表面或ARC上，触发时造成爆炸伤害。",
       "zh-TW": "一種遙控引爆手榴彈，可以黏附在表面和ARC上，觸發時造成爆炸傷害。"
     },
@@ -6199,7 +6431,7 @@
       "ru": "Перезагрузка спусковой системы",
       "sr": "Sistemi za resetovanje okidača",
       "tr": "Tetikleme Sıfırlama Sistemleri",
-      "uk": "Системи скидання курка",
+      "uk": "Системи скидання спускового механізму",
       "zh-CN": "扳机复位系统",
       "zh-TW": "扳機重設系統"
     },
@@ -6221,7 +6453,7 @@
       "ru": "Быстро передвигающиеся угрозы почти не оставляют времени на раздумья. Ближние столкновения с «Пронырами» могут помочь эффективнее действовать в стремительном бою.",
       "sr": "Brzorastuće pretnje ostavljaju malo prostora za oklevanje. Bliski susreti sa Skulkerima mogli bi otkriti načine za poboljšanje efikasnosti borbe u tempu.",
       "tr": "Hızlı hareket eden tehditler tereddüte pay bırakmaz. Pusucu'larla yakın temasa geçmek tempolu savaşların etkililiğini geliştirme yollarını açığa çıkarabilir.",
-      "uk": "Швидкісні загрози не залишають місця для вагань. Близькі зустрічі зі Скалкерами можуть розкрити способи покращення ефективності бою в темпі.",
+      "uk": "Стрімкі загрози не залишають часу на вагання. Ближні бої з Нишпорками допоможуть підвищити ефективність у динамічному протистоянні.",
       "zh-CN": "对付快速移动的敌人容不得半点犹豫。与“潜伏者”近距离交手，或许能找到提升节奏性作战效率的方法。",
       "zh-TW": "快速移動的威脅，讓人沒有多少猶豫的餘地。與潛行者近距離交戰，也許能揭露改善快節奏戰鬥效率的方式。"
     },
@@ -6295,7 +6527,7 @@
       "ru": "Она тихонько мечтает о том, чтобы взлететь в небеса вместе со своими сородичами.",
       "sr": "Tiho sanja da poleti u nebo sa svojom braćom.",
       "tr": "Sessizce kardeşleriyle birlikte göklerde süzülmeyi hayal ediyor.",
-      "uk": "Воно тихо мріє піднятися в небо разом зі своїми побратимами.",
+      "uk": "Вона мріє злетіти в небо разом зі своїми родичами.",
       "zh-CN": "它静静地梦想着与同族一起翱翔天际。",
       "zh-TW": "牠靜靜地夢想與兄弟們飛上青天。"
     },
@@ -6341,7 +6573,7 @@
       "ru": "Схема — Стеганый диван",
       "sr": "Nacrt prošivene sofe",
       "tr": "Kapitone Kanepe Tasarımı",
-      "uk": "Дизайн дивана «Капітоне»",
+      "uk": "Дизайн стьобаного дивана",
       "zh-CN": "簇绒沙发设计图",
       "zh-TW": "拉釦沙發設計"
     },
@@ -6429,7 +6661,7 @@
       "ru": "Компрессор «Турбины»",
       "sr": "Turbinski kompresor",
       "tr": "Türbin Kompresörü",
-      "uk": "Турбінний компресор",
+      "uk": "Компресор Турбіни",
       "zh-CN": "“涡轮”压缩机",
       "zh-TW": "渦輪機壓縮機"
     },
@@ -6451,7 +6683,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6531,7 +6763,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6589,7 +6821,7 @@
       "ru": "Фигурка «Сумрачный компас»",
       "sr": "Maketa broda \"Twilight Compass\"",
       "tr": "\"Alaca Karanlık Pusulası\" Gemi Modeli",
-      "uk": "Фігурка «Сутінковий компас»",
+      "uk": "Модель судна «Присмерковий компас»",
       "zh-CN": "“暮光指南针”舰船模型",
       "zh-TW": "「暮光羅盤號」船隻模型"
     },
@@ -6611,7 +6843,7 @@
       "ru": "Бойкий двухмачтовый новичок, который осмелился отправиться чуть дальше горизонта.",
       "sr": "Energični novajlija u usponu, ovaj dvojarbol poznat je po tome što plovi tek nešto malo iza horizonta.",
       "tr": "Enerjik ve gelecek vaat eden bu iki direkli geminin, ufkun birazcık ötesine kadar yelken açtığı biliniyor.",
-      "uk": "Енергійний висхідний новачок, цей двомачтовик відомий тим, що пливе ледь-ледь за горизонт.",
+      "uk": "Це двощоглове судно революційної конструкції швидко зникало за обрієм, залишаючи позаду конкурентів.",
       "zh-CN": "作为意气风发的后起之秀，这艘双桅船总能稍稍驶出海平线之外。",
       "zh-TW": "一艘意氣風發的新銳雙桅船，以曾經航行到水平線外稍遠之處而聞名。"
     },
@@ -6655,7 +6887,7 @@
       "ru": "Неизвестные электронные схемы ARC",
       "sr": "Nepoznata ARC Elektronika",
       "tr": "Bilinmeyen ARC Devresi",
-      "uk": "Невідомі схеми ARC",
+      "uk": "Невідомі плати ARC",
       "zh-CN": "不明ARC电路",
       "zh-TW": "未知的ARC電路"
     },
@@ -6677,7 +6909,7 @@
       "ru": "Несколько схем машин ARC незнакомого вида и устройства.",
       "sr": "Snop ARC elektronike, nepoznate i po rasporedu i po dizajnu.",
       "tr": "Düzeni de tasarımı da bilinmedik bir yığın ARC devresi",
-      "uk": "Зв'язка схем ARC, незвичних за компонуванням і дизайном.",
+      "uk": "В’язка плат ARC із незнайомою схемою та конструкцією.",
       "zh-CN": "一捆ARC电路，布局和设计都十分陌生。",
       "zh-TW": "一捆ARC電路，配置與設計都很陌生。"
     },
@@ -6739,7 +6971,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6797,7 +7029,7 @@
       "ru": "Регулятор «Испепелителя»",
       "sr": "Regulator isparivača",
       "tr": "Buharlaştırıcı Regülatör",
-      "uk": "Регулятор «Спопелювача»",
+      "uk": "Регулятор Випарника",
       "zh-CN": "“汽化者”调节器",
       "zh-TW": "雷射汽化兵調節器"
     },
@@ -6819,7 +7051,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для виготовлення.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6895,7 +7127,7 @@
       "ru": "Стоит целое состояние.",
       "sr": "Vredi malo bogatstvo.",
       "tr": "Ufak bir servet değerinde.",
-      "uk": "Коштує невеликого статку.",
+      "uk": "Коштує чималих грошей.",
       "zh-CN": "价值不菲。",
       "zh-TW": "價值不菲。"
     },
@@ -6948,7 +7180,7 @@
       "ru": "Фигурка «Натиск»",
       "sr": "Maketa broda \"Velocity\"",
       "tr": "\"Sürat\" Gemi Modeli",
-      "uk": "Фігурка «Натиск»",
+      "uk": "Модель судна «Швидкість»",
       "zh-CN": "“极速”舰船模型",
       "zh-TW": "「疾速號」船隻模型"
     },
@@ -6970,7 +7202,7 @@
       "ru": "С этим исключительно эффективным чудом технологий остается надеяться, что вы не слишком плотно пообедали.",
       "sr": "Optimizovan za performanse, ovo tehnološko čudo iskreno se nada da niste planirali da spakujete naročito razrađen ručak.",
       "tr": "Performans odaklı bu teknoloji harikasına binenlerin çok güzel bir öğle yemeği yemek istememesi daha iyi olur.",
-      "uk": "Оптимізоване для швидкості, це диво техніки дуже сподівається, що ви не планували брати з собою особливо вишуканий обід.",
+      "uk": "Це чудо суднобудівних технологій було оптимізоване для максимальної швидкості руху, тому з повним шлунком на його палубі нема чого робити.",
       "zh-CN": "这台科技杰只为性能极致而造，显然不希望你在上头享用什么精致午餐。",
       "zh-TW": "這是一艘追求極致性能的科技傑作，希望您沒打算將一份特別豪華的午餐帶上船。"
     },
@@ -7014,7 +7246,7 @@
       "ru": "Чертеж — Охотник",
       "sr": "Venator Nacrt",
       "tr": "Avcı Taslağı",
-      "uk": "Креслення Venator",
+      "uk": "Креслення Венатора",
       "zh-CN": "复仇者蓝图",
       "zh-TW": "獵人藍圖"
     },
@@ -7036,7 +7268,7 @@
       "ru": "Позволяет создать Охотника.",
       "sr": "Omogućava izradu oružja Venator",
       "tr": "Avcı üretmeni sağlar",
-      "uk": "Дозволяє створити Venator",
+      "uk": "Дає змогу створити Венатор",
       "zh-CN": "可以制作复仇者",
       "zh-TW": "可製作獵人"
     },
@@ -7092,7 +7324,7 @@
       "ru": "Охотник I",
       "sr": "Venator I",
       "tr": "Avcı I",
-      "uk": "Venator I",
+      "uk": "Венатор I",
       "zh-CN": "复仇者 I",
       "zh-TW": "獵人 I"
     },
@@ -7114,7 +7346,7 @@
       "ru": "Полуавтоматический пистолет. Стреляет двумя пулями за раз.",
       "sr": "Poluautomatski pištolj. Ispaljuje po dva metka.",
       "tr": "Yarı otomatik tabanca. Aynı anda iki mermi ateşler.",
-      "uk": "Напівавтоматичний пістолет. Стріляє по два постріли за раз.",
+      "uk": "Самозарядний пістолет. Випускає дві кулі за раз.",
       "zh-CN": "半自动手枪。一次发射两发子弹。",
       "zh-TW": "半自動手槍。一次射擊兩發。"
     },
@@ -7722,7 +7954,7 @@
       "ru": "Охотник II",
       "sr": "Venator II",
       "tr": "Avcı II",
-      "uk": "Venator II",
+      "uk": "Венатор II",
       "zh-CN": "复仇者 II",
       "zh-TW": "獵人 II"
     },
@@ -7744,7 +7976,7 @@
       "ru": "Полуавтоматический пистолет. Стреляет двумя пулями за раз.",
       "sr": "Poluautomatski pištolj. Ispaljuje po dva metka.",
       "tr": "Yarı otomatik tabanca. Aynı anda iki mermi ateşler.",
-      "uk": "Напівавтоматичний пістолет. Стріляє по два постріли за раз.",
+      "uk": "Самозарядний пістолет. Випускає дві кулі за раз.",
       "zh-CN": "半自动手枪。一次发射两发子弹。",
       "zh-TW": "半自動手槍。一次射擊兩發。"
     },
@@ -8391,7 +8623,7 @@
       "ru": "Охотник III",
       "sr": "Venator III",
       "tr": "Avcı III",
-      "uk": "Venator III",
+      "uk": "Венатор III",
       "zh-CN": "复仇者 III",
       "zh-TW": "獵人 III"
     },
@@ -8413,7 +8645,7 @@
       "ru": "Полуавтоматический пистолет. Стреляет двумя пулями за раз.",
       "sr": "Poluautomatski pištolj. Ispaljuje po dva metka.",
       "tr": "Yarı otomatik tabanca. Aynı anda iki mermi ateşler.",
-      "uk": "Напівавтоматичний пістолет. Стріляє по два постріли за раз.",
+      "uk": "Самозарядний пістолет. Випускає дві кулі за раз.",
       "zh-CN": "半自动手枪。一次发射两发子弹。",
       "zh-TW": "半自動手槍。一次射擊兩發。"
     },
@@ -9064,7 +9296,7 @@
       "ru": "Охотник IV",
       "sr": "Venator IV",
       "tr": "Avcı IV",
-      "uk": "Venator IV",
+      "uk": "Венатор IV",
       "zh-CN": "复仇者 IV",
       "zh-TW": "獵人 IV"
     },
@@ -9086,7 +9318,7 @@
       "ru": "Полуавтоматический пистолет. Стреляет двумя пулями за раз.",
       "sr": "Poluautomatski pištolj. Ispaljuje po dva metka.",
       "tr": "Yarı otomatik tabanca. Aynı anda iki mermi ateşler.",
-      "uk": "Напівавтоматичний пістолет. Стріляє по два постріли за раз.",
+      "uk": "Самозарядний пістолет. Випускає дві кулі за раз.",
       "zh-CN": "半自动手枪。一次发射两发子弹。",
       "zh-TW": "半自動手槍。一次射擊兩發。"
     },
@@ -9804,7 +10036,7 @@
       "ru": "Патина",
       "sr": "Verdigris",
       "tr": "Bakır Yeşili",
-      "uk": "Вердигрі",
+      "uk": "Мідянка",
       "zh-CN": "铜绿",
       "zh-TW": "銅綠"
     },
@@ -9847,7 +10079,7 @@
       "ru": "Вертикальная рукоятка I",
       "sr": "Vertikalni Držač I",
       "tr": "Dikey Tutamaç I",
-      "uk": "Вертикальна рукоятка I",
+      "uk": "Вертикальне руків’я I",
       "zh-CN": "垂直握把 I",
       "zh-TW": "垂直握把I"
     },
@@ -9869,7 +10101,7 @@
       "ru": "Немного снижает вертикальную отдачу.",
       "sr": "Blago smanjuje vertikalni trzaj.",
       "tr": "Dikey geri tepmeyi biraz azaltır.",
-      "uk": "Трохи зменшує вертикальну віддачу.",
+      "uk": "Трохи зменшує вертикальну складову віддачі.",
       "zh-CN": "小幅度降低垂直后坐力。",
       "zh-TW": "稍微降低垂直後座力。"
     },
@@ -9996,7 +10228,7 @@
       "ru": "Чертеж — Вертикальная рукоятка II",
       "sr": "Vertikalni Drzac II Nacrt",
       "tr": "Dikey Tutamaç II Taslağı",
-      "uk": "Креслення Вертикальна рукоятка II",
+      "uk": "Креслення вертикального руківʼя II",
       "zh-CN": "垂直握把 II蓝图",
       "zh-TW": "垂直握把II藍圖"
     },
@@ -10018,7 +10250,7 @@
       "ru": "Позволяет создать вертикальную рукоятку II.",
       "sr": "Omogućava izradu vertikalnog rukohvata II",
       "tr": "Dikey Tutamaç II üretmeni sağlar",
-      "uk": "Дозволяє створити вертикальне руків'я II",
+      "uk": "Дає змогу створити вертикальне руків’я II",
       "zh-CN": "可以制作垂直握把 II",
       "zh-TW": "可製作垂直握把II"
     },
@@ -10074,7 +10306,7 @@
       "ru": "Вертикальная рукоятка II",
       "sr": "Vertikalni Držač II",
       "tr": "Dikey Tutamaç II",
-      "uk": "Вертикальна рукоятка II",
+      "uk": "Вертикальне руків’я II",
       "zh-CN": "垂直握把 II",
       "zh-TW": "垂直握把II"
     },
@@ -10096,7 +10328,7 @@
       "ru": "Умеренно снижает вертикальную отдачу.",
       "sr": "Umereno smanjuje vertikalni trzaj.",
       "tr": "Dikey geri tepmeyi orta düzeyde azaltır.",
-      "uk": "Помірно зменшує вертикальну віддачу.",
+      "uk": "Помірно зменшує вертикальну складову віддачі.",
       "zh-CN": "中幅度降低垂直后坐力。",
       "zh-TW": "中度降低垂直後座力。"
     },
@@ -10225,7 +10457,7 @@
       "ru": "Чертеж — Вертикальная рукоятка III",
       "sr": "Nacrt vertikalnog rukohvata III",
       "tr": "Dikey Tutamaç III Taslağı",
-      "uk": "Креслення вертикальної рукоятки III",
+      "uk": "Креслення вертикального руківʼя III",
       "zh-CN": "垂直握把 III蓝图",
       "zh-TW": "垂直握把III藍圖"
     },
@@ -10247,7 +10479,7 @@
       "ru": "Позволяет создать вертикальную рукоятку III.",
       "sr": "Omogućava izradu vertikalnog rukohvata III",
       "tr": "Dikey Tutamaç III üretmeni sağlar",
-      "uk": "Дозволяє створити вертикальне руків'я III",
+      "uk": "Дає змогу створити вертикальне руків’я III",
       "zh-CN": "可以制作垂直握把 III",
       "zh-TW": "可製作垂直握把III"
     },
@@ -10303,7 +10535,7 @@
       "ru": "Вертикальная рукоятка III",
       "sr": "Vertikalni rukohvat III",
       "tr": "Dikey Tutamaç III",
-      "uk": "Вертикальна рукоятка III",
+      "uk": "Вертикальне руків’я III",
       "zh-CN": "垂直握把 III",
       "zh-TW": "垂直握把III"
     },
@@ -10325,7 +10557,7 @@
       "ru": "Значительно снижает вертикальную отдачу.",
       "sr": "Značajno smanjuje vertikalni trzaj.",
       "tr": "Dikey geri tepmeyi önemli ölçüde azaltır.",
-      "uk": "Значно зменшує вертикальну віддачу.",
+      "uk": "Значно зменшує вертикальну складову віддачі.",
       "zh-CN": "大幅度降低垂直后坐力。",
       "zh-TW": "大幅降低垂直後座力。"
     },
@@ -10499,7 +10731,7 @@
       "ru": "Мечта каждого рейдера — поспать на подобном эргономичном облачке.",
       "sr": "Zavist svakog pljačkaša. Kao spavanje na posebno ergonomskom oblaku.",
       "tr": "Her Raider'ın hayali. Ergonomik bir bulutta uyuyormuş hissi verir.",
-      "uk": "Заздрість кожного Рейдера. Наче спати на особливо ergonomічній хмарі.",
+      "uk": "Об’єкт заздрощів кожного рейдера. Спати на ній — все одно що спати на ергономічній хмарі.",
       "zh-CN": "每一个奇袭者的梦想。脑袋就像躺在一片特别符合人体工程学的云朵上一样。",
       "zh-TW": "每個掠手都羨慕不已的東西。就像睡在一朵特別符合人體工學的雲上一樣。"
     },
@@ -10552,7 +10784,7 @@
       "ru": "Винтажное рулевое колесо",
       "sr": "Retro volan",
       "tr": "Klasik Dümen",
-      "uk": "Вінтажне кермо",
+      "uk": "Старовинне кермо",
       "zh-CN": "复古方向盘",
       "zh-TW": "復古方向盤"
     },
@@ -10574,7 +10806,7 @@
       "ru": "Симметричный артефакт. Некоторые кочевники считают, что эта реликвия воплощает в себе единство Луны, Солнца и Земли.",
       "sr": "Harmoničan artefakt trojne simetrije, neki Nomadi veruju da je ovo drevni relikvijar koji poštuje lunarno, solarno i terestrično.",
       "tr": "Üç yönlü simetriye sahip ahenkli bir eser. Kimi Göçebeler bunun Ay, Güneş ve Dünya'yı onurlandıran kutsal bir kutu olduğuna inanıyor.",
-      "uk": "Гармонійний артефакт тристоронньої симетрії. Деякі Кочівники вважають це стародавнім релікварієм, що вшановує місячне, сонячне та земне.",
+      "uk": "Через гармонійні форми та трибічну симетрію дехто з кочівників вважає цей артефакт стародавнім предметом культу, який вшановує місячне, сонячне та земне буття.",
       "zh-CN": "这件古物呈现出均衡的三向对称结构，部分游牧者认为，它是祭祀月、日、大地三界的古老圣物。",
       "zh-TW": "一件三向對稱、具和諧美感的工藝品，有些遊牧者相信這是用來讚頌月亮、太陽和大地的古老聖物。"
     },
@@ -10618,7 +10850,7 @@
       "ru": "Чертеж — Витаминная сыворотка",
       "sr": "Nacrt Vita Injekcije",
       "tr": "Sağlık İğnesi Taslağı",
-      "uk": "Креслення Віта-ін'єкції",
+      "uk": "Креслення інʼєкції Віта",
       "zh-CN": "生命针剂蓝图",
       "zh-TW": "維生劑注射藍圖"
     },
@@ -10640,7 +10872,7 @@
       "ru": "Позволяет создать витаминную сыворотку.",
       "sr": "Omogućava izradu Vita injekcije",
       "tr": "Sağlık İğnesi üretmeni sağlar",
-      "uk": "Дозволяє створити ін'єктор Vita",
+      "uk": "Дає змогу створити ін’єкцію Віта",
       "zh-CN": "可以制作生命针剂",
       "zh-TW": "可製作維生劑注射"
     },
@@ -10696,7 +10928,7 @@
       "ru": "Витаминная сыворотка",
       "sr": "Vita Injekcija",
       "tr": "Sağlık İğnesi",
-      "uk": "Віта-ін'єкція",
+      "uk": "Ін’єкція Віта",
       "zh-CN": "生命针剂",
       "zh-TW": "維生劑注射"
     },
@@ -10718,7 +10950,7 @@
       "ru": "Медицинское изделие, восстанавливающее большое количество здоровья.",
       "sr": "Medicinski predmet koji obnavlja veliku količinu zdravlja.",
       "tr": "Büyük miktarda can yenileyen bir tıbbi eşya.",
-      "uk": "Медичний предмет, що відновлює велику кількість здоров'я.",
+      "uk": "Медичний предмет, який відновлює значну кількість здоров’я.",
       "zh-CN": "一种医疗物品，能恢复大量生命值。",
       "zh-TW": "一種醫療物品，可恢復大量生命值。"
     },
@@ -10837,7 +11069,7 @@
       "ru": "Чертеж — Витаминный спрей",
       "sr": "Nacrt za Vita sprej",
       "tr": "Sağlık Spreyi Taslağı",
-      "uk": "Креслення Віта-спрею",
+      "uk": "Креслення спрею Віта",
       "zh-CN": "补水喷雾蓝图",
       "zh-TW": "維生劑噴霧藍圖"
     },
@@ -10859,7 +11091,7 @@
       "ru": "Позволяет создать витаминный спрей.",
       "sr": "Omogućava ti da izradiš Vita sprej",
       "tr": "Sağlık Spreyi üretmeni sağlar",
-      "uk": "Дозволяє створити Віта-спрей",
+      "uk": "Дає змогу створити спрей Віта",
       "zh-CN": "可以制作补水喷雾",
       "zh-TW": "可製作維生劑噴霧"
     },
@@ -10915,7 +11147,7 @@
       "ru": "Витаминный спрей",
       "sr": "Vita Sprej",
       "tr": "Sağlık Spreyi",
-      "uk": "Віта-спрей",
+      "uk": "Спрей Віта",
       "zh-CN": "补水喷雾",
       "zh-TW": "維生劑噴霧"
     },
@@ -10937,7 +11169,7 @@
       "ru": "Медицинское изделие, которое непрерывно восстанавливает здоровье во время использования. Можно лечить как себя, так и союзников.",
       "sr": "Medicinski predmet koji kontinuirano obnavlja zdravlje tokom korišćenja. Može se koristiti na sebi ili saveznicima.",
       "tr": "Kullanıldığı süre boyunca canı devamlı olarak yenileyen bir tıbbi eşya. Kendin veya müttefiklerin için kullanabilirsin.",
-      "uk": "Медичний предмет, що безперервно відновлює здоров'я під час використання. Можна використовувати на собі або союзниках.",
+      "uk": "Медичний предмет, який безперервно відновлює здоров’я під час його використання. Його можна застосувати до себе чи до союзників.",
       "zh-CN": "一种医疗物品，在使用过程中不断恢复生命值。可以对自己或盟友使用。",
       "zh-TW": "使用時會持續恢復生命值的醫療物品。可用於自己或隊友。"
     },
@@ -11201,7 +11433,7 @@
       "ru": "Используется для создания предметов.",
       "sr": "Koristi se u izradi.",
       "tr": "Üretimde kullanılır.",
-      "uk": "Використовується для крафтингу.",
+      "uk": "Використовується у створенні предметів.",
       "zh-CN": "用于制作。",
       "zh-TW": "用於製作。"
     },
@@ -11270,7 +11502,7 @@
       "ru": "Чертеж — Вулкан",
       "sr": "Vulcano Nacrt",
       "tr": "Yanardağ Taslağı",
-      "uk": "Креслення Vulcano",
+      "uk": "Креслення Вулкана",
       "zh-CN": "火山蓝图",
       "zh-TW": "火山藍圖"
     },
@@ -11292,7 +11524,7 @@
       "ru": "Позволяет создать Вулкан.",
       "sr": "Omogućava ti da izradiš Vulcano",
       "tr": "Yanardağ üretmeni sağlar",
-      "uk": "Дозволяє створити Вулкано",
+      "uk": "Дає змогу створити Вулкано",
       "zh-CN": "可以制作火山",
       "zh-TW": "可製作火山"
     },
@@ -11336,7 +11568,7 @@
       "ru": "Вулкан I",
       "sr": "Vulcano I",
       "tr": "Yanardağ I",
-      "uk": "Вулкан I",
+      "uk": "Вулкано I",
       "zh-CN": "火山 I",
       "zh-TW": "火山 I"
     },
@@ -11358,7 +11590,7 @@
       "ru": "Полуавтоматический дробовик с высокой кучностью, однако урон от стрельбы со временем резко снижается.",
       "sr": "Poluautomatska sačmarica sa dobrim rasipanjem, ali naglim padom štete.",
       "tr": "Fişekleri iyi saçılan ancak kısa sürede yere düşen yarı otomatik av tüfeği.",
-      "uk": "Напівавтоматичний дробовик із хорошим розкидом дробу, але різким падінням шкоди на відстані.",
+      "uk": "Самозарядний дробовик із непоганою купчастістю, але швидким зниженням шкоди з відстанню.",
       "zh-CN": "半自动射击的霰弹枪，弹道散布范围适中，伤害衰减明显。",
       "zh-TW": "半自動霰彈槍，子彈擴散範圍大，但傷害衰減幅度大。"
     },
@@ -11950,7 +12182,7 @@
       "ru": "Вулкан II",
       "sr": "Vulcano II",
       "tr": "Yanardağ II",
-      "uk": "Вулкан II",
+      "uk": "Вулкано II",
       "zh-CN": "火山 II",
       "zh-TW": "火山 II"
     },
@@ -11972,7 +12204,7 @@
       "ru": "Полуавтоматический дробовик с высокой кучностью, однако урон от стрельбы со временем резко снижается.",
       "sr": "Poluautomatska sačmarica sa dobrim rasipanjem, ali naglim padom štete.",
       "tr": "Fişekleri iyi saçılan ancak kısa sürede yere düşen yarı otomatik av tüfeği.",
-      "uk": "Напівавтоматичний дробовик із хорошим розкидом дробу, але різким падінням шкоди на відстані.",
+      "uk": "Самозарядний дробовик із непоганою купчастістю, але швидким зниженням шкоди з відстанню.",
       "zh-CN": "半自动射击的霰弹枪，弹道散布范围适中，伤害衰减明显。",
       "zh-TW": "半自動霰彈槍，子彈擴散範圍大，但傷害衰減幅度大。"
     },
@@ -12602,7 +12834,7 @@
       "ru": "Вулкан III",
       "sr": "Vulcano III",
       "tr": "Yanardağ III",
-      "uk": "Вулкан III",
+      "uk": "Вулкано III",
       "zh-CN": "火山 III",
       "zh-TW": "火山 III"
     },
@@ -12624,7 +12856,7 @@
       "ru": "Полуавтоматический дробовик с высокой кучностью, однако урон от стрельбы со временем резко снижается.",
       "sr": "Poluautomatska sačmarica sa dobrim rasipanjem, ali naglim padom štete.",
       "tr": "Fişekleri iyi saçılan ancak kısa sürede yere düşen yarı otomatik av tüfeği.",
-      "uk": "Напівавтоматичний дробовик із хорошим розкидом дробу, але різким падінням шкоди на відстані.",
+      "uk": "Самозарядний дробовик із непоганою купчастістю, але швидким зниженням шкоди з відстанню.",
       "zh-CN": "半自动射击的霰弹枪，弹道散布范围适中，伤害衰减明显。",
       "zh-TW": "半自動霰彈槍，子彈擴散範圍大，但傷害衰減幅度大。"
     },
@@ -13239,7 +13471,7 @@
       "ru": "Вулкан IV",
       "sr": "Vulcano IV",
       "tr": "Yanardağ IV",
-      "uk": "Вулкан IV",
+      "uk": "Вулкано IV",
       "zh-CN": "火山 IV",
       "zh-TW": "火山 IV"
     },
@@ -13261,7 +13493,7 @@
       "ru": "Полуавтоматический дробовик с высокой кучностью, однако урон от стрельбы со временем резко снижается.",
       "sr": "Poluautomatska sačmarica sa dobrim rasipanjem, ali naglim padom štete.",
       "tr": "Fişekleri iyi saçılan ancak kısa sürede yere düşen yarı otomatik av tüfeği.",
-      "uk": "Напівавтоматичний дробовик із хорошим розкидом дробу, але різким падінням шкоди на відстані.",
+      "uk": "Самозарядний дробовик із непоганою купчастістю, але швидким зниженням шкоди з відстанню.",
       "zh-CN": "半自动射击的霰弹枪，弹道散布范围适中，伤害衰减明显。",
       "zh-TW": "半自動霰彈槍，子彈擴散範圍大，但傷害衰減幅度大。"
     },
@@ -13968,7 +14200,7 @@
       "ru": "Схема — Стол со склада",
       "sr": "Nacrt skladišnog radnog stola",
       "tr": "Depo Masası Tasarımı",
-      "uk": "Дизайн складського столу",
+      "uk": "Дизайн складського письмового стола",
       "zh-CN": "仓库办公桌设计图",
       "zh-TW": "倉庫辦公桌設計"
     },
@@ -14133,7 +14365,7 @@
       "ru": "Драйвер «Осы»",
       "sr": "Osinjak",
       "tr": "Eşek Arısı Sürücüsü",
-      "uk": "Осиний драйвер",
+      "uk": "Двигун Оси",
       "zh-CN": "“黄蜂”引擎",
       "zh-TW": "黃蜂驅動器"
     },
@@ -14266,7 +14498,7 @@
       "ru": "Фильтр для воды",
       "sr": "Filter za Vodu",
       "tr": "Su Filtresi",
-      "uk": "Водяний фільтр",
+      "uk": "Фільтр води",
       "zh-CN": "滤水器",
       "zh-TW": "淨水器"
     },
@@ -14288,7 +14520,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафтингу.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -14369,7 +14601,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -14517,7 +14749,7 @@
       "ru": "Схема — Стол с метеостанции",
       "sr": "Nacrt stola meteorološke stanice",
       "tr": "Hava İstasyonu Masası Tasarımı",
-      "uk": "Дизайн столу метеостанції",
+      "uk": "Дизайн стола метеостанції",
       "zh-CN": "气象站桌子设计图",
       "zh-TW": "氣象站桌子設計"
     },
@@ -14627,7 +14859,7 @@
       "ru": "Позволяет создать белый флаг.",
       "sr": "Omogućava izradu Bele zastave.",
       "tr": "Beyaz Bayrak üretmeni sağlar",
-      "uk": "Дозволяє створити Білий прапор",
+      "uk": "Дає змогу створити білий прапор",
       "zh-CN": "可以制作白旗",
       "zh-TW": "可製作白旗"
     },
@@ -14704,7 +14936,7 @@
       "ru": "Размещаемый белый флаг.",
       "sr": "Bela zastava koja može da se postavi",
       "tr": "Kurulabilir beyaz bir bayrak.",
-      "uk": "Білий прапор, який можна встановити",
+      "uk": "Розміщуваний білий прапор.",
       "zh-CN": "一面可部署的白旗。",
       "zh-TW": "一種部署式白旗。"
     },
@@ -14773,7 +15005,7 @@
       "ru": "Фигурка «Дух ветра»",
       "sr": "Maketa broda \"Wind Sprite\"",
       "tr": "\"Rüzgâr Perisi\" Gemi Modeli",
-      "uk": "Фігурка «Дух вітру»",
+      "uk": "Модель судна «Дух вітру»",
       "zh-CN": "“风灵”舰船模型",
       "zh-TW": "「風靈號」船隻模型"
     },
@@ -14795,7 +15027,7 @@
       "ru": "Это проворное одномачтовое судно не стесняется своих маленьких размеров и храбро встречает даже относительно высокие волны.",
       "sr": "Neustrašiv pred svojom većom braćom, ovaj okretni jednojarbol poznat je po prkošenju talasima tek nešto malo iznad proseka.",
       "tr": "Daha büyük emsallerinin karşısında hiç yılmayan bu çevik tek direkli geminin, normalin biraz üzerinde olan dalgalara bile göğüs gerdiği biliniyor.",
-      "uk": "Незламний перед лицем своїх більших побратимів, цей моторний одномачтовик відомий тим, що кидає виклик навіть хвилям, що ледь вищі за середні.",
+      "uk": "Це вертке однощоглове судно колись долало великі хвилі не гірше за своїх більших родичів.",
       "zh-CN": "这艘灵活的单桅船，在面对体型更大的舰船时毫不畏惧，略高于平均高度的浪涛更是不放在眼里。",
       "zh-TW": "即使面對規模更大的船隻，這艘敏捷的單桅船也毫不畏懼，以勇於挑戰略高於平均高度的海浪而聞名。"
     },
@@ -14839,7 +15071,7 @@
       "ru": "Схема — Зимний стол",
       "sr": "Nacrt zimskog stola",
       "tr": "Kış Masası Tasarımı",
-      "uk": "Дизайн зимового столу",
+      "uk": "Дизайн зимового стола",
       "zh-CN": "冬季桌子设计图",
       "zh-TW": "冬季桌子設計"
     },
@@ -14949,7 +15181,7 @@
       "ru": "Можно пустить на изготовление разных предметов или переработать, чтобы получить материалы.",
       "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
       "tr": "Çeşitli eşyalar üretmede kullanılır. Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Використовується для створення різноманітних предметів. Можна переробити на матеріали для крафтингу.",
+      "uk": "Використовується для створення широкого спектра предметів. Можна переробити на матеріали для створення предметів.",
       "zh-CN": "用于制作各种物品。可回收为制作材料。",
       "zh-TW": "用來製作多種物品。可回收成製作材料。"
     },
@@ -15020,7 +15252,7 @@
       "ru": "Чертеж — Волчья стая",
       "sr": "Nacrt Wolfpack",
       "tr": "Kurt Sürüsü Taslağı",
-      "uk": "Креслення Зграї вовків",
+      "uk": "Креслення «Вовчої зграї»",
       "zh-CN": "狼群蓝图",
       "zh-TW": "狼群藍圖"
     },
@@ -15042,7 +15274,7 @@
       "ru": "Позволяет создать Волчью стаю.",
       "sr": "Omogućava ti da izradiš Wolfpack",
       "tr": "Kurt Sürüsü üretmeni sağlar",
-      "uk": "Дозволяє створити Вовчу зграю",
+      "uk": "Дає змогу створити «Вовчу зграю»",
       "zh-CN": "可以制作狼群",
       "zh-TW": "可製作狼群"
     },
@@ -15083,7 +15315,7 @@
       "ru": "Волчья стая",
       "sr": "Čopor Vukova",
       "tr": "Kurt Sürüsü",
-      "uk": "Зграя вовків",
+      "uk": "«Вовча зграя»",
       "zh-CN": "狼群",
       "zh-TW": "狼群"
     },
@@ -15105,7 +15337,7 @@
       "ru": "Граната, распадающаяся на несколько самонаводящихся ракет, каждая из которых нацеливается на машины ARC и при попадании наносит взрывной урон.",
       "sr": "Granata koja se raspršuje u više samonavođenih projektila, od kojih svaki cilja ARC i nanosi eksplozivnu štetu pri udaru.",
       "tr": "Her biri ARC'ı hedef alan ve temas hâlinde patlayıcı hasar veren birden fazla güdümlü füzeye ayrılan bir bomba.",
-      "uk": "Граната, що розпадається на кілька самонавідних ракет, кожна з яких націлюється на ARC і завдає вибухової шкоди при влученні.",
+      "uk": "Граната, що розлітається на кілька самонавідних ракет, кожна з яких уражає ARC і завдає вибухових ушкоджень при ударі.",
       "zh-CN": "手雷，爆炸后会分裂成多枚追踪导弹。每颗导弹都会锁定ARC，并在命中时造成爆炸伤害。",
       "zh-TW": "一種手榴彈，會散開成多枚導彈，每一枚都會瞄準ARC，並在撞擊時造成爆炸傷害。"
     },
@@ -15222,7 +15454,7 @@
       "ru": "Схема — Рабочий свет",
       "sr": "Nacrt radne lampe",
       "tr": "Çalışma Lambası Tasarımı",
-      "uk": "Дизайн робочого світильника",
+      "uk": "Дизайн робочого освітлення",
       "zh-CN": "工作灯设计图",
       "zh-TW": "工作燈設計"
     },
@@ -15310,7 +15542,7 @@
       "ru": "Чертеж — Притягивающая граната",
       "sr": "Nacrt Vučne Granate",
       "tr": "Çekişli Bomba Taslağı",
-      "uk": "Кресленик Ривкової Гранати",
+      "uk": "Креслення притягувальної гранати",
       "zh-CN": "系索弹蓝图",
       "zh-TW": "拉曳手榴彈藍圖"
     },
@@ -15332,7 +15564,7 @@
       "ru": "Позволяет создать притягивающую гранату.",
       "sr": "Omogućava izradu Vučne Granate",
       "tr": "Çekişli Bomba üretmeni sağlar",
-      "uk": "Дозволяє створити Ривкову Гранату",
+      "uk": "Дозволяє створити притягувальну гранату",
       "zh-CN": "可以制作系索弹",
       "zh-TW": "可製作拉曳手榴彈"
     },
@@ -15387,7 +15619,7 @@
       "ru": "Притягивающая граната",
       "sr": "Vučna Granata",
       "tr": "Çekişli Bomba",
-      "uk": "Ривкова Граната",
+      "uk": "Притягувальна граната",
       "zh-CN": "系索弹",
       "zh-TW": "拉曳手榴彈"
     },
@@ -15409,7 +15641,7 @@
       "ru": "Граната, которая закрепляет трос в месте попадания и подтягивает цель к этой точке.",
       "sr": "Granata koja zakači sajlu za sve što pogodi, povlačeći metu ka tački udara.",
       "tr": "İsabet ettiği şeye ip tutturan ve hedefini etki noktasına çeken bir el bombası.",
-      "uk": "Граната, яка прикріплює трос до всього, у що влучає, притягуючи ціль до точки влучання.",
+      "uk": "Граната, що закріплює трос на будь-якій точці влучання та притягує ціль до місця удару.",
       "zh-CN": "这种手雷命中任何物体后，都会在该物体上系上一条索线，并把目标拉向撞击点。",
       "zh-TW": "此手榴彈會將一條繩索固定在任何擊中的地點，並將目標拉向該地點。"
     },
@@ -15520,7 +15752,7 @@
       "ru": "Чертеж — Желтый химический фонарь",
       "sr": "Žuti svetleći štapić",
       "tr": "Sarı Işık Çubuğu Taslağı",
-      "uk": "Жовта світлова паличка",
+      "uk": "Креслення світлячка жовтого",
       "zh-CN": "黄色荧光棒蓝图",
       "zh-TW": "黃色螢光棒藍圖"
     },
@@ -15542,7 +15774,7 @@
       "ru": "Позволяет создать желтый химический фонарь.",
       "sr": "Omogućava ti da izradiš žuti svetleći štapić",
       "tr": "Sarı Işık Çubuğu üretmeni sağlar",
-      "uk": "Дозволяє створити жовту світлову паличку",
+      "uk": "Дає змогу створити світлячок жовтий",
       "zh-CN": "可以制作黄色荧光棒",
       "zh-TW": "可製作黃色螢光棒"
     },
@@ -15586,7 +15818,7 @@
       "ru": "Желтый химический фонарь",
       "sr": "Žuti svetleći štapić",
       "tr": "Sarı Işık Çubuğu",
-      "uk": "Жовта світлова паличка",
+      "uk": "Світлячок жовтий",
       "zh-CN": "黄色荧光棒",
       "zh-TW": "黃色螢光棒"
     },
@@ -15608,7 +15840,7 @@
       "ru": "Химический источник света. Можно бросить, чтобы осветить окружение.",
       "sr": "Hemijsko svetlo za bacanje koje osvetljava oblast oko sebe.",
       "tr": "Etrafını aydınlatan fırlatılabilir bir kimyasal ışık.",
-      "uk": "Хімічне джерело світла, що кидається і освітлює область навколо себе.",
+      "uk": "Хімічний світлячок, який можна кинути, щоб він освітлював область навколо себе.",
       "zh-CN": "一种能照亮周围区域的可投掷荧光棒。",
       "zh-TW": "一種可投擲的化學燈，可照亮周圍區域。"
     },
@@ -15724,7 +15956,7 @@
       "ru": "Зиплайн",
       "sr": "Užad",
       "tr": "Halat Makarası",
-      "uk": "Тросова дорога",
+      "uk": "Тролей",
       "zh-CN": "滑索",
       "zh-TW": "溜索"
     },
@@ -15746,7 +15978,7 @@
       "ru": "Размещаемый зиплайн, позволяющий быстро переместиться из одного места в другое.",
       "sr": "Postavljiva užad koja vam omogućava brzo kretanje između dve lokacije.",
       "tr": "İki konum arasında hızlıca hareket etmeni sağlayan kurulabilir bir halat makarası.",
-      "uk": "Тросова дорога, що дозволяє швидко переміщатися між двома точками.",
+      "uk": "Тролей, щоб швидко переміщатися між двома точками.",
       "zh-CN": "一种可部署滑索，用于在两个位置之间快速移动。",
       "zh-TW": "一種部署式溜索，可讓您在兩個地點之間快速移動。"
     },

@@ -42,7 +42,7 @@
       "ru": "Используйте детали машин ARC, чтобы создать витрину для ваших охотничьих трофеев. Их вид заткнет любого, кто будет сомневаться в ваших подвигах на Поверхности.",
       "sr": "Napravite vlastiti Prikaz Trofeja kako biste ubrali nagrade. Sakupite trofeje od pobeđenih ARC jedinica i pokažite svoju veštinu.",
       "tr": "Avcılık ganimetlerini sergileyebileceğin bir vitrin inşa etmek için ARC parçalarını kullan. Böylece yeryüzündeki cesur maceralarını anlattığında seni sorgulayanları açıkça susturabilirsin.",
-      "uk": "Створіть свою Вітрину трофеїв, щоб отримати нагороди. Збирайте трофеї з переможених юнітів ARC та демонструйте свою майстерність.",
+      "uk": "Використай частини ARC, щоб побудувати стійку для мисливських трофеїв і заткнути пельку всім, хто ставить під сумнів твої захопливі історії про епічні пригоди на поверхні.",
       "zh-CN": "使用ARC零件搭建你的狩猎战利品展示架，以此巧妙驳斥那些质疑你上层冒险传奇的人。",
       "zh-TW": "使用ARC零件來打造狩獵戰利品的展示架，彰顯您在頂層冒險的勇猛傳奇，令質疑的人無言以對。"
     },
@@ -66,7 +66,7 @@
           "ru": "Блуждающие противники",
           "sr": "Lutajuće Pretnje",
           "tr": "Gezen Tehditler",
-          "uk": "Блукаючі загрози",
+          "uk": "Блукаюча загроза",
           "zh-CN": "游荡的威胁",
           "zh-TW": "遊蕩威脅"
         },
@@ -88,7 +88,7 @@
           "ru": "Наземные машины катаются и бродят по поверхности, заставляя рейдеров всегда быть начеку.",
           "sr": "Pobedite prizemne ARC jedinice i sakupite trofeje iz njihovih ostataka.",
           "tr": "Yüzeyde gezen makineler yüzünden Raider'ların attıkları her adıma dikkat etmesi gerekiyor.",
-          "uk": "Переможіть наземні юніти ARC та зберіть трофеї з їхніх залишків.",
+          "uk": "Наземні машини, які їздять або крокують поверхнею, змушуючи рейдерів постійно бути насторожі.",
           "zh-CN": "在地表横行霸道的陆行机械，迫使奇袭者们时刻保持警惕。",
           "zh-TW": "陸行機器持續在地表上滾動行走，迫使掠手必須步步為營。"
         },
@@ -155,7 +155,7 @@
           "ru": "Парящие угрозы",
           "sr": "Lebdeće Opasnosti",
           "tr": "Havadaki Risk",
-          "uk": "Летючі загрози",
+          "uk": "Повітряна тривога",
           "zh-CN": "翱翔的灾厄",
           "zh-TW": "翱翔災害"
         },
@@ -177,7 +177,7 @@
           "ru": "Летающие машины контролируют воздушное пространство, неся гибель зазевавшимся рейдерам.",
           "sr": "Oborite vazdušne ARC jedinice i sakupite njihove jedinstvene komponente.",
           "tr": "Göklere hükmeden uçan makineler, Raider'ların üzerine ölüm yağdırıyor.",
-          "uk": "Збивайте повітряні юніти ARC та збирайте їхні унікальні компоненти.",
+          "uk": "Літаючі машини, які захопили небо й атакують згори, застаючи рейдерів зненацька.",
           "zh-CN": "主宰苍穹的空中机械，随时准备猎杀毫无防备的奇袭者。",
           "zh-TW": "飛行機器是空中的霸主，能從天上向掉以輕心的掠手降下無窮災禍。"
         },
@@ -244,7 +244,7 @@
           "ru": "Свирепые враги",
           "sr": "Žestoki Neprijatelji",
           "tr": "Acımasız Düşmanlar",
-          "uk": "Лютi вороги",
+          "uk": "Люті вороги",
           "zh-CN": "凶暴的敌兽",
           "zh-TW": "兇猛敵人"
         },
@@ -266,7 +266,7 @@
           "ru": "Эти машины значительно превосходят все прочие угрозы на Поверхности. Они способны жестоко наказать самоуверенных рейдеров.",
           "sr": "Savladajte moćne ARC jedinice i izvucite njihovu naprednu tehnologiju.",
           "tr": "Yeryüzündeki tehlikeleri bir hayli artıran bu makineler, kendine fazla güvenen birçok Raider'ı ciddi şekilde cezalandırdı.",
-          "uk": "Подолайте потужні юніти ARC та витягніть їхню передову технологію.",
+          "uk": "Наочний приклад зростання небезпеки на поверхні, ці машини не раз вминали в землю надто зухвалих рейдерів.",
           "zh-CN": "这些机器是上层危险逐步升级的代言人，那些过于自信的奇袭者都遭受过它们的严厉惩罚。",
           "zh-TW": "這些機器明顯使得頂層變得更加兇險，它們狠狠教訓了過於自負的掠手。"
         },
@@ -287,7 +287,7 @@
             "quantity": 5,
             "rewardItemIds": [
               {
-                "itemId": "anvil_splitter",
+                "itemId": "horizontal_grip",
                 "quantity": 3
               }
             ]
@@ -333,7 +333,7 @@
           "ru": "Доминирующие опасности",
           "sr": "Dominantne Opasnosti",
           "tr": "Güçlü Tehlikeler",
-          "uk": "Домінуючі небезпеки",
+          "uk": "Смертельна небезпека",
           "zh-CN": "危险的主宰",
           "zh-TW": "霸道凶險"
         },
@@ -355,7 +355,7 @@
           "ru": "Грозные противники, оставляющие за собой след из выведенных из строя рейдеров. Упорно и уверенно господствуют на своей территории.",
           "sr": "Suočite se sa elitnim ARC jedinicama i sakupite njihove retke trofeje.",
           "tr": "Vahşi tehditler arkalarında düşürülmüş Raider'lardan oluşan bir iz bırakıyor. Çevrelerindeki her şeye azimli ve dayanıklı bir şekilde hükmediyorlar.",
-          "uk": "Протистояйте елітним юнітам ARC та зберіть їхні рідкісні трофеї.",
+          "uk": "Найнебезпечніші машини, на рахунку яких сотні виведених із ладу рейдерів; стійкі й невблаганні, вони завжди мають перевагу на полі бою.",
           "zh-CN": "凶残的敌人以顽强与悍勇主宰着自己的领地，所过之处留下遍地的奇袭者尸骸。",
           "zh-TW": "兇惡威脅的身後滿佈著被擊倒的掠手，它們以其不屈不撓的意志力壓制著周遭領域。"
         },
@@ -422,7 +422,7 @@
           "ru": "Грандиозные тяжеловесы",
           "sr": "Impozantni Divovi",
           "tr": "Zorlu Devler",
-          "uk": "Вражаючі бегемоти",
+          "uk": "Сталеві велетні",
           "zh-CN": "巍峨的巨兽",
           "zh-TW": "龐大巨獸"
         },
@@ -444,7 +444,7 @@
           "ru": "Враждебные громадины, от движения которых дрожит земля. Желанная добыча для настоящих охотников. ",
           "sr": "Pobedite najstrašnije ARC jedinice i osigurajte njihove ultimativne trofeje.",
           "tr": "Devasa düşmanlar yeri sarsıyor ve büyük av ortamı oluşturuyor. ",
-          "uk": "Переможіть найгрізніші юніти ARC та заволодійте їхніми остаточними трофеями.",
+          "uk": "Механічні велетні, від кроків яких здригається земля, вершина полювання на велику дичину. ",
           "zh-CN": "那些令大地震颤的庞然巨物，象征着大型狩猎的终极挑战。 ",
           "zh-TW": "巨大敵人的每一步都能撼動大地，是「大型獵物狩獵」的象徵。 "
         },
@@ -3105,378 +3105,318 @@
   },
   {
     "id": "flickering_flames_project",
-    "disabled": true,
+    "disabled": false,
     "name": {
       "da": "Flakkende flammer",
       "de": "Flackernde Flammen",
       "en": "Flickering Flames",
-      "es": "Llamas parpadeantes",
+      "es": "Llamas titilantes",
       "fr": "Flammes vacillantes",
       "he": "להבות מרצדות",
       "hr": "Treperavi plamenovi",
       "it": "Fiamme tremolanti",
-      "ja": "ゆらめく炎",
-      "ko-KR": "깜빡이는 불꽃",
+      "ja": "揺らめく炎",
+      "ko-KR": "점멸하는 불꽃",
       "no": "Flakkende flammer",
-      "pl": "Migoczące płomienie",
+      "pl": "Migocące Płomienie",
       "pt": "Chamas tremeluzentes",
       "pt-BR": "Chamas Trêmulas",
-      "ru": "Мерцающее пламя",
+      "ru": "Мерцающие огоньки",
       "sr": "Treperavi plamenovi",
-      "tr": "Titreyen Alevler",
+      "tr": "Titrek Alevler",
       "uk": "Мерехтливе полум'я",
-      "zh-CN": "闪烁的火焰",
-      "zh-TW": "閃爍的火焰"
+      "zh-CN": "摇曳火光",
+      "zh-TW": "閃爍之光"
     },
     "description": {
-      "da": "En festival med modstandsdygtig varme, centreret omkring den hårdføre lysbærbusk. Speranzanere er kendt for at afholde lokale fejringer, og da de er konkurrencemindede, søger de at overgå hinanden ved enhver lejlighed. Nogle har formået at forvandle den beskedne lysbærbusk til et festmåltid værdigt selv de mest kræsne gourmands.",
-      "de": "Ein Fest der widerstandsfähigen Wärme, das sich um den robusten Kerzenbeeren-Busch dreht. Die Speranzaner sind dafür bekannt, lokale Feste zu veranstalten, und da sie wettbewerbsorientiert sind, versuchen sie sich bei jeder Gelegenheit zu übertreffen. Einige haben es geschafft, den schlichten Kerzenbeeren-Busch in ein Bankett zu verwandeln, das selbst der anspruchsvollsten Feinschmecker würdig ist.",
-      "en": "A festival of resilient warmth, centered around the hardy candleberry bush. Speranzans have been known to host local celebrations, and being competitive, they seek to outdo each other at every turn. Some have managed to turn the homely candleberry bush into a banquet worthy of even the most discerning gourmands.",
-      "es": "Un festival de calidez resiliente, centrado en el resistente arbusto de bayas de vela. Los speranzanos son conocidos por organizar celebraciones locales, y siendo competitivos, buscan superarse unos a otros en cada oportunidad. Algunos han logrado convertir el humilde arbusto de bayas de vela en un banquete digno de los gourmands más exigentes.",
-      "fr": "Un festival de chaleur résiliente, centré autour du robuste arbuste à baies de bougie. Les Speranzans sont connus pour organiser des célébrations locales, et étant compétitifs, ils cherchent à se surpasser les uns les autres à chaque occasion. Certains ont réussi à transformer le modeste arbuste à baies de bougie en un banquet digne des gourmands les plus exigeants.",
-      "he": "פסטיבל של חמימות ועמידות, המתרכז סביב שיח הקנדלברי הקשוח. הספרנזים ידועים בעריכת חגיגות מקומיות, ובהיותם תחרותיים, הם מנסים להתעלות זה על זה בכל הזדמנות. חלקם הצליחו להפוך את שיח הקנדלברי הפשוט למשתה הראוי אפילו לאניני הטעם הגדולים ביותר.",
-      "hr": "Festival otporne topline, usredotočen na izdržljivi grm svijećnjaka. Speranzanci su poznati po organiziranju lokalnih proslava, a budući da su natjecateljski nastrojeni, nastoje se nadmašiti jedni druge u svakoj prilici. Nekima je uspjelo pretvoriti skromni grm svijećnjaka u gozbu dostojnu čak i najzahtjevnijih gurmana.",
-      "it": "Un festival di calore resiliente, incentrato sul resistente cespuglio di candleberry. Gli Speranzani sono noti per organizzare celebrazioni locali, e essendo competitivi, cercano di superarsi a vicenda in ogni occasione. Alcuni sono riusciti a trasformare l'umile cespuglio di candleberry in un banchetto degno dei buongustai più esigenti.",
-      "ja": "丈夫なキャンドルベリーの茂みを中心とした、しなやかな温もりの祭典。スペランザンの人々は地元の祝祭を開催することで知られており、競争心旺盛な彼らはあらゆる機会で互いを凌ごうとします。中には、この素朴なキャンドルベリーの茂みを、最も目の肥えた美食家にもふさわしい宴に変えることに成功した者もいます。",
-      "ko-KR": "견고한 캔들베리 덤불을 중심으로 한 회복력 있는 따뜻함의 축제입니다. 스페란잔 사람들은 지역 축하 행사를 개최하는 것으로 알려져 있으며, 경쟁심이 강한 그들은 매 순간 서로를 능가하려 합니다. 일부는 소박한 캔들베리 덤불을 가장 까다로운 미식가도 만족시킬 만한 연회로 바꾸는 데 성공했습니다.",
-      "no": "En festival med motstandsdyktig varme, sentrert rundt den hardføre stearinlys-bærbusken. Speranzanere er kjent for å arrangere lokale feiringer, og som konkurransemennesker prøver de å overgå hverandre ved enhver anledning. Noen har klart å forvandle den enkle stearinlys-bærbusken til et festmåltid verdig selv de mest kresne gourmands.",
-      "pl": "Festiwal odpornego ciepła, skupiony wokół wytrzymałego krzewu świecowych jagód. Speranzanie słyną z organizowania lokalnych uroczystości, a będąc rywalizującymi, starają się prześcigać nawzajem przy każdej okazji. Niektórym udało się przemienić skromny krzew świecowych jagód w ucztę godną nawet najbardziej wymagających smakoszy.",
-      "pt": "Um festival de calor resiliente, centrado no resistente arbusto de candleberry. Os speranzanos são conhecidos por organizar celebrações locais, e sendo competitivos, buscam superar uns aos outros em cada oportunidade. Alguns conseguiram transformar o humilde arbusto de candleberry em um banquete digno dos gourmands mais exigentes.",
-      "pt-BR": "Um festival de aconchego resiliente, centrado no robusto arbusto de bagavela. Os speranzanos são conhecidos por organizar celebrações locais, e sendo competitivos, procuram sempre superar uns aos outros. Alguns conseguiram transformar o simples arbusto de bagavela em um banquete digno até dos gastrônomos mais exigentes.",
-      "ru": "Праздник стойкого тепла, посвящённый выносливому кусту восковника. Сперанзанцы известны своими местными праздниками, и будучи соревновательными, они стремятся превзойти друг друга при каждой возможности. Некоторым удалось превратить скромный куст восковника в пиршество, достойное самых взыскательных гурманов.",
-      "sr": "Festival otporne topline, usredsređen na izdržljivi grm svećnjaka. Speranzanci su poznati po organizovanju lokalnih proslava, a budući da su takmičarski nastrojeni, nastoje da se nadmaše jedni druge u svakoj prilici. Nekima je uspelo da pretvore skromni grm svećnjaka u gozbu dostojnu čak i najzahtevnijih gurmana.",
-      "tr": "Dayanıklı mum çileği çalısı etrafında şekillenen dirençli sıcaklık festivali. Speranzalılar yerel kutlamalar düzenlemeleriyle tanınır ve rekabetçi oldukları için her fırsatta birbirlerini geçmeye çalışırlar. Bazıları mütevazı mum çileği çalısını en seçici gurmelere bile layık bir ziyafete dönüştürmeyi başarmıştır.",
-      "uk": "Свято стійкого тепла, зосереджене навколо витривалого куща восковниці. Сперанзанці відомі своїми місцевими святкуваннями, і будучи конкурентними, вони прагнуть перевершити один одного при кожній нагоді. Деяким вдалося перетворити скромний кущ восковниці на бенкет, гідний найвибагливіших гурманів.",
-      "zh-CN": "一个围绕着坚韧的蜡莓灌木举办的温暖节日。斯佩兰赞人以举办当地庆典而闻名，由于竞争意识强烈，他们总是试图在每一个机会上超越彼此。有些人已经成功地将朴素的蜡莓灌木变成了即使是最挑剔的美食家也值得享用的盛宴。",
-      "zh-TW": "一個圍繞著堅韌的蠟莓灌木舉辦的溫暖節日。斯佩蘭贊人以舉辦當地慶典而聞名，由於競爭意識強烈，他們總是試圖在每一個機會上超越彼此。有些人已經成功地將樸素的蠟莓灌木變成了即使是最挑剔的美食家也值得享用的盛宴。"
+      "da": "Lysene brænder klart i Speranza. For første gang samler Celeste medlemmer fra alle fire contradas for at deltage i feiringen af lyset. Efterhånden som ARC bliver mere voldsom på overfladen, er det vigtigere end nogensinde at holde lyset tændt i mørket.",
+      "de": "Die Kerzen brennen hell in Speranza. Zum ersten Mal versammelt Celeste Leute aus allen vier Contradas, um das Licht zu feiern. Jetzt, wo die ARC an der Oberfläche immer bösartiger werden, ist das Licht in der Dunkelheit wichtiger denn je.",
+      "en": "The candles are burning bright in Speranza. For the first time, Celeste is gathering members of all four contradas to join in on the celebration of light. As ARC grows more ferocious on the surface, maintaining light in the darkness matters now more than ever.",
+      "es": "Las velas brillan con intensidad en Speranza. Por primera vez, Celeste va a reunir a miembros de las cuatro contradas para una celebración de la luz. Ahora que las ARC se han vuelto más feroces en la superficie, mantener encendida una luz en la oscuridad es más importante que nunca.",
+      "fr": "Les bougies brillent de mille feux à Speranza. Pour la première fois, Celeste réunit des membres des quatre contradas pour la fête de la lumière. Alors que les machines ARC sont de plus en plus agressives en Surface, préserver la lumière dans les ténèbres est plus important que jamais.",
+      "he": "הנרות בוערים בבהירות בספרנצה. בפעם הראשונה, Celeste אוספת חברים מארבע הקונטראדות כדי להצטרף לחגיגת האור. ככל ש-ARC הופך לאכזרי יותר על פני השטח, שמירה על האור בתוך החושך חשובה עכשיו יותר מתמיד.",
+      "hr": "Svijeće gore svijetlo u Speranzi. Po prvi put Celeste okuplja članove svih četiriju kontrada da se pridruže slavlju svjetla. Kako ARC na površini postaje sve žešći, održavanje svjetla u mraku sada je važnije nego ikad.",
+      "it": "Le candele brillano luminose a Speranza. Per la prima volta, Celeste sta riunendo i membri di tutte e quattro le contrade per partecipare alla celebrazione della luce. Mentre l'ARC diventa sempre più feroce in superficie, mantenere la luce nell'oscurità è ora più importante che mai.",
+      "ja": "スペランザでは、ろうそくの灯りが明るく輝いている。セレステが4つすべてのコントラーダから人々を招き、光を祝う祭典を開くのは、これが初めてだ。地上ではARCの凶暴化が進んでいる。だからこそ今、暗闇の中に光を灯し続けることが、かつてないほど重要なのだ。",
+      "ko-KR": "스페란자에 촛불이 환하게 타오르고 있습니다. 셀레스테는 처음으로 4개 콘트라다의 사람들을 모두 모아 빛의 축제를 열려고 합니다. 지상에서 아크가 갈수록 흉포해지는 지금, 어둠 속의 빛을 지키는 일은 그 어느 때보다 중요합니다.",
+      "no": "Lysene brenner klart i Speranza. For første gang samler Celeste medlemmer fra alle fire contradaene for å feire lyset. Etter hvert som ARC blir farligere på overflaten, betyr det mer enn noensinne å holde lyset oppe i mørket.",
+      "pl": "Speranzę rozświetlają świece. Po raz pierwszy Celeste gromadzi wokół ich blasku członków wszystkich czterech contradas. Utrzymanie światła w ciemnościach jest niezwykle ważne w czasach, gdy na powierzchni maszyny ARC stają się coraz bardziej zaciekłe.",
+      "pt": "As velas estão a iluminar Speranza. Pela primeira vez, a Celeste está a reunir membros das quatro contradas para se juntarem à celebração da luz. Com a ARC cada vez mais feroz à superfície, manter a luz na escuridão importa agora mais do que nunca.",
+      "pt-BR": "As velas estão iluminando Speranza. Pela primeira vez, Celeste está reunindo integrantes das quatro contradas para se juntarem na celebração da luz. Conforme a ARC fica cada vez mais feroz na superfície, manter a luz na escuridão agora importa mais do que nunca.",
+      "ru": "Сперанца сияет от света свечей. Селесте впервые удалось собрать жителей всех четырех районов на этом празднике света. Машины ARC на Поверхности свирепствуют всё сильнее, и не дать свету затухнуть, растворившись во тьме, сейчас важно как никогда.",
+      "sr": "Sveće gore jasno u Speranzi. Po prvi put, Celeste okuplja članove sve četiri kontrade da se pridruže proslavi svetla. Dok ARC na površini postaje sve žešći, održavanje svetla u mraku sada je važnije nego ikad.",
+      "tr": "Speranza'da mumlar parıl parıl yanıyor. Celeste, tarihte ilk defa dört mahallenin de üyelerini bir araya getirip bir ışık kutlaması düzenliyor. Yüzeydeki ARC'lar giderek hırçınlaştığı için karanlığı aydınlatan ışıkları muhafaza etmek hiç olmadığı kadar önemli hâle geldi.",
+      "uk": "У Сперанці яскраво горять свічки. Це вперше Селеста збирає людей з усіх чотирьох контрад, аби разом справити свято світла. Машини ARC на Поверхні стають дедалі лютішими, тож підтримування світла в пітьмі є як ніколи важливим.",
+      "zh-CN": "斯佩兰扎烛火通明。塞莱斯特首次邀请来全部四个街区的成员，加入这场光明庆典。现在地表上的ARC变得越发凶险，在这片黑暗中维持光明也变得前所未有的重要。",
+      "zh-TW": "斯佩蘭薩的蠟燭正燦爛地燃燒著。莎莉絲特首次召集四個分區的成員，一同參與這場光明慶典。隨著地面上的ARC變得愈發兇猛，在黑暗中維持光明比以往更加重要。"
     },
     "phases": [
       {
         "name": {
-          "da": "Stearinlys",
-          "de": "Kerzenlicht",
-          "en": "Candlelight",
-          "es": "Luz de vela",
-          "fr": "Lueur de bougie",
-          "he": "אור נרות",
-          "hr": "Svjetlost svijeće",
-          "it": "Luce di candela",
-          "ja": "キャンドルの灯り",
-          "ko-KR": "촛불",
-          "no": "Stearinlys",
-          "pl": "Światło świec",
-          "pt": "Luz de vela",
-          "pt-BR": "Luz de Vela",
-          "ru": "Свет свечи",
-          "sr": "Svetlost sveće",
-          "tr": "Mum Işığı",
-          "uk": "Свічкове світло",
-          "zh-CN": "烛光",
-          "zh-TW": "燭光"
+          "da": "Banketens grundlag",
+          "de": "Das kleine Einmaleins: Festmahle",
+          "en": "Banquet Basics",
+          "es": "Fundamentos del banquete",
+          "fr": "Les bases du banquet",
+          "he": "יסודות הסעודה",
+          "hr": "Osnove gozbe",
+          "it": "Basi del banchetto",
+          "ja": "宴の基本",
+          "ko-KR": "연회의 기본",
+          "no": "Grunnleggende bankett",
+          "pl": "Podstawowe elementy bankietu",
+          "pt": "Básicos do Banquete",
+          "pt-BR": "Básico do Banquete",
+          "ru": "Азы организации банкета",
+          "sr": "Osnove gozbe",
+          "tr": "Ziyafet Temelleri",
+          "uk": "Основи бенкету",
+          "zh-CN": "宴会基础用品",
+          "zh-TW": "盛宴基礎"
         },
         "description": {
-          "da": "Den navngivende brug af lysbær: Speranzanere koger frugten til en tyk voks, der brænder rent og velduftende.",
-          "de": "Die namensgebende Verwendung der Kerzenbeere: Speranzaner kochen die Frucht zu einem dicken Wachs, das sauber und duftend brennt.",
-          "en": "The namesake use for the candleberry, Speranzans boil the fruit into a thick wax that burns cleanly and fragrantly.",
-          "es": "El uso que da nombre a las bayas de vela: los speranzanos hierven el fruto hasta obtener una cera espesa que arde limpia y fragante.",
-          "fr": "L'usage éponyme de la baie de bougie : les Speranzans font bouillir le fruit pour obtenir une cire épaisse qui brûle proprement et avec un parfum agréable.",
-          "he": "השימוש שעל שמו נקרא הצמח; הספרנזים מרתיחים את פרי הקנדלברי לכדי שעווה סמיכה, הבוערת בנקיות ומפיצה ניחוח נעים.",
-          "hr": "Imenjenska uporaba svijećnih bobica: Speranzanci kuhaju plod u gusti vosak koji gori čisto i mirisno.",
-          "it": "L'uso che dà il nome alle bacche di candela: gli Speranzani fanno bollire il frutto fino a ottenere una cera densa che brucia in modo pulito e profumato.",
-          "ja": "キャンドルベリーの名の由来となる使い方。スペランザンたちは果実を煮詰めて、きれいに燃えて香りも良い濃いロウにする。",
-          "ko-KR": "캔들베리의 이름 그대로의 용도: 스페란잔들은 열매를 끓여 깨끗하고 향기롭게 타는 진한 왁스로 만듭니다.",
-          "no": "Den navnegivende bruken av stearinbær: speranzanere koker frukten til en tykk voks som brenner rent og velduftende.",
-          "pl": "Najbardziej oczywiste zastosowanie jagód świecowych: Speranzanie gotują owoce na gęsty wosk, który pali się czysto i pachnąco.",
-          "pt": "O uso que dá nome às bagas de vela: os speranzanos fervem o fruto até virar uma cera espessa que queima de forma limpa e perfumada.",
-          "pt-BR": "O uso que dá nome à baga-de-cera; os Speranzanos fervem a fruta em uma cera espessa que queima de forma limpa e perfumada.",
-          "ru": "Главное применение свечных ягод: сперанзанцы вываривают плоды до густого воска, который горит чисто и ароматно.",
-          "sr": "Imenjska upotreba svećnih bobica: Speranzanci kuvaju plod u gust vosak koji gori čisto i mirisno.",
-          "tr": "Mum meyvelerinin adaş kullanımında Speranzalılar meyveyi kaynatıp temiz ve hoş kokulu yanan yoğun bir muma dönüştürür.",
-          "uk": "Основне застосування свічкових ягід: сперанзанці виварюють плоди до густого воску, що горить чисто й пахуче.",
-          "zh-CN": "蜡莓的招牌用途：斯佩兰赞人会把果实煮成浓稠的蜡，燃烧干净且散发清香。",
-          "zh-TW": "蠟莓的招牌用途：斯佩蘭贊人會把果實煮成濃稠的蠟，燃燒乾淨且散發清香。"
+          "da": "Banketens grundlag",
+          "de": "Das kleine Einmaleins: Festmahle",
+          "en": "Banquet Basics",
+          "es": "Fundamentos del banquete",
+          "fr": "Les bases du banquet",
+          "he": "יסודות הסעודה",
+          "hr": "Osnove gozbe",
+          "it": "Basi del banchetto",
+          "ja": "宴の基本",
+          "ko-KR": "연회의 기본",
+          "no": "Grunnleggende bankett",
+          "pl": "Podstawowe elementy bankietu",
+          "pt": "Básicos do Banquete",
+          "pt-BR": "Básico do Banquete",
+          "ru": "Азы организации банкета",
+          "sr": "Osnove gozbe",
+          "tr": "Ziyafet Temelleri",
+          "uk": "Основи бенкету",
+          "zh-CN": "宴会基础用品",
+          "zh-TW": "盛宴基礎"
         },
         "phase": 1,
         "requirementItemIds": [
           {
-            "itemId": "empty_wine_bottle",
-            "quantity": 1
-          },
-          {
-            "itemId": "plastic_parts",
-            "quantity": 25
-          },
-          {
             "itemId": "durable_cloth",
+            "quantity": 10
+          },
+          {
+            "itemId": "battery",
+            "quantity": 10
+          },
+          {
+            "itemId": "pop_trigger",
             "quantity": 5
           },
           {
             "itemId": "candleberries",
-            "quantity": 20
+            "quantity": 5
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "grappling_hook",
+            "quantity": 1
+          },
+          {
+            "itemId": "harmonica",
+            "quantity": 1
+          },
+          {
+            "itemId": "il_toro_iv",
+            "quantity": 1
+          },
+          {
+            "itemId": "shotgun_choke_ii",
+            "quantity": 1
           }
         ]
       },
       {
         "name": {
-          "da": "Dekorationer",
-          "de": "Dekorationen",
-          "en": "Decorations",
-          "es": "Decoraciones",
-          "fr": "Décorations",
-          "he": "קישוטים",
-          "hr": "Dekoracije",
-          "it": "Decorazioni",
-          "ja": "飾り付け",
-          "ko-KR": "장식",
-          "no": "Dekorasjoner",
-          "pl": "Dekoracje",
-          "pt": "Decorações",
-          "pt-BR": "Decorações",
-          "ru": "Украшения",
-          "sr": "Dekoracije",
-          "tr": "Süslemeler",
-          "uk": "Декорації",
-          "zh-CN": "装饰",
-          "zh-TW": "裝飾"
+          "da": "Lys og borddækning",
+          "de": "Beleuchtung und Geschirr",
+          "en": "Lights and Tableware",
+          "es": "Iluminación y vajilla",
+          "fr": "Éclairage et vaisselle",
+          "he": "תאורה וכלי שולחן",
+          "hr": "Svjetla i posuđe",
+          "it": "Luci e stoviglie",
+          "ja": "照明と食器類",
+          "ko-KR": "조명과 식기",
+          "no": "Lys og servise",
+          "pl": "Oświetlenie i zastawa stołowa",
+          "pt": "Luzes e Loiça",
+          "pt-BR": "Luzes e Utensílios de Mesa",
+          "ru": "Освещение и посуда",
+          "sr": "Svetla i posuđe",
+          "tr": "Işıklar ve Çatal Bıçak",
+          "uk": "Освітлення та посуд",
+          "zh-CN": "灯光和餐具",
+          "zh-TW": "燈飾與餐具"
         },
         "description": {
-          "da": "Mange speranzanere er blevet overraskende dygtige til kunsten at bringe skønhed og grønt ind i hjemmet.",
-          "de": "Viele Speranzaner sind überraschend geschickt darin geworden, Schönheit und Grün ins Zuhause zu bringen.",
-          "en": "Many Speranzans have become surprisingly adept at the art of bringing beauty and greenery into the home.",
-          "es": "Muchos speranzanos se han vuelto sorprendentemente hábiles en el arte de llevar belleza y vegetación al hogar.",
-          "fr": "De nombreux Speranzans sont devenus étonnamment doués pour faire entrer beauté et verdure dans la maison.",
-          "he": "ספרנזים רבים פיתחו מיומנות מפתיעה באומנות הכנסת היופי והצמחייה אל תוך הבית.",
-          "hr": "Mnogi Speranzanci postali su iznenađujuće vješti u umjetnosti unošenja ljepote i zelenila u dom.",
-          "it": "Molti Speranzani sono diventati sorprendentemente abili nell'arte di portare bellezza e verde in casa.",
-          "ja": "多くのスペランザンは、家に美しさと緑を取り入れる術に驚くほど長けてきた。",
-          "ko-KR": "많은 스페란잔들이 집 안에 아름다움과 초록을 들이는 일에 놀랄 만큼 능숙해졌습니다.",
-          "no": "Mange speranzanere har blitt overraskende flinke i kunsten å bringe skjønnhet og grønt inn i hjemmet.",
-          "pl": "Wielu Speranzan stało się zaskakująco biegłych w sztuce wnoszenia piękna i zieleni do domu.",
-          "pt": "Muitos speranzanos tornaram-se surpreendentemente hábeis na arte de levar beleza e verde para dentro de casa.",
-          "pt-BR": "Muitos speranzanos tornaram-se surpreendentemente hábeis na arte de levar beleza e verde para dentro de casa.",
-          "ru": "Многие сперанзанцы стали на удивление искусны в том, как привнести в дом красоту и зелень.",
-          "sr": "Mnogi Speranzanci postali su iznenađujuće vešti u umetnosti unošenja lepote i zelenila u dom.",
-          "tr": "Birçok Speranzalı, güzelliği ve yeşilliği eve taşıma sanatında şaşırtıcı derecede ustalaştı.",
-          "uk": "Багато сперанзанців несподівано вправно опанували мистецтво приносити до оселі красу й зелень.",
-          "zh-CN": "许多斯佩兰赞人出人意料地擅长把美感与绿意带进家中。",
-          "zh-TW": "許多斯佩蘭贊人出人意料地擅長把美感與綠意帶進家中。"
+          "da": "Lys og borddækning",
+          "de": "Beleuchtung und Geschirr",
+          "en": "Lights and Tableware",
+          "es": "Iluminación y vajilla",
+          "fr": "Éclairage et vaisselle",
+          "he": "תאורה וכלי שולחן",
+          "hr": "Svjetla i posuđe",
+          "it": "Luci e stoviglie",
+          "ja": "照明と食器類",
+          "ko-KR": "조명과 식기",
+          "no": "Lys og servise",
+          "pl": "Oświetlenie i zastawa stołowa",
+          "pt": "Luzes e Loiça",
+          "pt-BR": "Luzes e Utensílios de Mesa",
+          "ru": "Освещение и посуда",
+          "sr": "Svetla i posuđe",
+          "tr": "Işıklar ve Çatal Bıçak",
+          "uk": "Освітлення та посуд",
+          "zh-CN": "灯光和餐具",
+          "zh-TW": "燈飾與餐具"
         },
         "phase": 2,
         "requirementItemIds": [
           {
-            "itemId": "candle_holder",
-            "quantity": 3
-          },
-          {
-            "itemId": "light_bulb",
-            "quantity": 3
-          },
-          {
-            "itemId": "industrial_battery",
-            "quantity": 1
-          },
-          {
-            "itemId": "candleberries",
-            "quantity": 50
-          }
-        ]
-      },
-      {
-        "name": {
-          "da": "Gaver",
-          "de": "Geschenke",
-          "en": "Presents",
-          "es": "Regalos",
-          "fr": "Cadeaux",
-          "he": "מתנות",
-          "hr": "Darovi",
-          "it": "Regali",
-          "ja": "贈り物",
-          "ko-KR": "선물",
-          "no": "Gaver",
-          "pl": "Prezenty",
-          "pt": "Presentes",
-          "pt-BR": "Presentes",
-          "ru": "Подарки",
-          "sr": "Pokloni",
-          "tr": "Hediyeler",
-          "uk": "Подарунки",
-          "zh-CN": "礼物",
-          "zh-TW": "禮物"
-        },
-        "description": {
-          "da": "Snedige speranzanere har forvandlet lysbær til et væld af gaver. Det omfatter parfumer og sæber samt gaver, der ikke har noget med modtagerens lugt at gøre.",
-          "de": "Einfallsreiche Speranzaner haben die Kerzenbeeren in eine Fülle von Geschenken verwandelt. Dazu gehören Parfüms und Seifen, aber auch Geschenke, die nichts mit dem Geruch des Empfängers zu tun haben.",
-          "en": "Crafty Speranzans have turned the candleberries into a wealth of gifts. These include perfumes and soaps, as well as gifts unrelated to the recipient's odors.",
-          "es": "Los ingeniosos speranzanos han convertido las bayas de vela en un sinfín de regalos. Incluyen perfumes y jabones, así como obsequios que no tienen relación con los olores del destinatario.",
-          "fr": "Les Speranzans ingénieux ont transformé les baies de bougie en une foule de cadeaux. On y trouve des parfums et des savons, ainsi que des présents sans rapport avec les odeurs du destinataire.",
-          "he": "ספרנזים יצירתיים הפכו את הקנדלברי לשפע של מתנות. אלו כוללות בשמים וסבונים, כמו גם מתנות שאינן קשורות לריחות של המקבל.",
-          "hr": "Spretni Speranzanci pretvorili su svijećne bobice u obilje darova. To uključuje parfeme i sapune, kao i darove nepovezane s mirisima primatelja.",
-          "it": "Gli ingegnosi Speranzani hanno trasformato le bacche di candela in una ricchezza di regali. Tra questi ci sono profumi e saponi, oltre a doni non legati agli odori del destinatario.",
-          "ja": "器用なスペランザンたちはキャンドルベリーをたくさんの贈り物に変えた。香水や石けんのほか、受け取る人の匂いとは無関係な贈り物も含まれる。",
-          "ko-KR": "손재주 좋은 스페란잔들은 캔들베리를 다양한 선물로 바꿔 놓았습니다. 향수와 비누는 물론, 받는 사람의 냄새와는 상관없는 선물도 포함되어 있습니다.",
-          "no": "Oppfinnsomme speranzanere har gjort stearinbær om til et vell av gaver. Dette inkluderer parfymer og såper, samt gaver som ikke har noe med mottakerens lukt å gjøre.",
-          "pl": "Pomysłowi Speranzanie zamienili jagody świecowe w prawdziwe bogactwo prezentów. Są wśród nich perfumy i mydła, a także podarki niezwiązane z zapachem obdarowywanej osoby.",
-          "pt": "Speranzanos habilidosos transformaram as bagas de vela em uma grande variedade de presentes. Entre eles há perfumes e sabonetes, além de presentes sem relação com os odores do destinatário.",
-          "pt-BR": "Speranzanos engenhosos transformaram as bagavelas em uma grande variedade de presentes. Entre eles estão perfumes e sabonetes, além de itens sem relação nenhuma com o cheiro do presenteado.",
-          "ru": "Изобретательные сперанзанцы превратили свечные ягоды в целое богатство подарков. Среди них — духи и мыло, а также подарки, не связанные с запахами получателя.",
-          "sr": "Spretni Speranzanci pretvorili su svećne bobice u obilje poklona. Tu su parfemi i sapuni, kao i pokloni koji nisu povezani sa mirisima primaoca.",
-          "tr": "Becerikli Speranzalılar mum meyvelerini sayısız hediyeye dönüştürdü. Bunlara parfümler ve sabunlar ile alıcının kokusuyla ilgisi olmayan hediyeler de dahil.",
-          "uk": "Кмітливі сперанзанці перетворили свічкові ягоди на ціле багатство подарунків. Серед них — парфуми та мило, а також дарунки, не пов'язані із запахами одержувача.",
-          "zh-CN": "心灵手巧的斯佩兰赞人把蜡莓变成了琳琅满目的礼物：香水、肥皂，以及与收礼人气味无关的各种赠品。",
-          "zh-TW": "心靈手巧的斯佩蘭贊人把蠟莓變成了琳瑯滿目的禮物：香水、肥皂，以及與收禮人味道無關的各種贈品。"
-        },
-        "phase": 3,
-        "requirementItemIds": [
-          {
-            "itemId": "snap_blast_grenade",
+            "itemId": "advanced_electrical_components",
             "quantity": 5
           },
           {
-            "itemId": "duct_tape",
-            "quantity": 10
+            "itemId": "silver_teaspoon_set",
+            "quantity": 2
           },
           {
-            "itemId": "film_reel",
+            "itemId": "firefly_burner",
+            "quantity": 5
+          },
+          {
+            "itemId": "candleberries",
+            "quantity": 10
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "anvil_iv",
             "quantity": 1
           },
           {
-            "itemId": "candleberries",
-            "quantity": 60
+            "itemId": "extended_barrel_ii",
+            "quantity": 1
+          },
+          {
+            "itemId": "tether_launcher",
+            "quantity": 1
+          },
+          {
+            "itemId": "mountaineers_detector",
+            "quantity": 1
           }
         ]
       },
       {
         "name": {
-          "da": "Drikkevarer",
-          "de": "Getränke",
-          "en": "Beverages",
-          "es": "Bebidas",
-          "fr": "Boissons",
-          "he": "משקאות",
-          "hr": "Napitci",
-          "it": "Bevande",
-          "ja": "飲み物",
-          "ko-KR": "음료",
-          "no": "Drikkevarer",
-          "pl": "Napoje",
-          "pt": "Bebidas",
-          "pt-BR": "Bebidas",
-          "ru": "Напитки",
-          "sr": "Napitci",
-          "tr": "İçecekler",
-          "uk": "Напої",
-          "zh-CN": "饮品",
-          "zh-TW": "飲品"
+          "da": "Ryd vejen",
+          "de": "Den Weg freimachen",
+          "en": "Clear The Way",
+          "es": "Despeja el camino",
+          "fr": "Dégager la voie",
+          "he": "פינוי הדרך",
+          "hr": "Očistiti put",
+          "it": "Libera il passaggio",
+          "ja": "道を切り開く",
+          "ko-KR": "길 확보하기",
+          "no": "Rydd veien",
+          "pl": "Utoruj drogę",
+          "pt": "Abrir Caminho",
+          "pt-BR": "Abra Caminho",
+          "ru": "Расчистить путь",
+          "sr": "Očistite put",
+          "tr": "Yolu Temizle",
+          "uk": "Розчищання шляху",
+          "zh-CN": "清理道路",
+          "zh-TW": "清出道路"
         },
         "description": {
-          "da": "Lysbær kan knuses til forfriskende juice, mens blade og rødder kan brygges til en te, der kan jage selv de sejeste forkølelser væk.",
-          "de": "Kerzenbeeren lassen sich zu erfrischenden Säften zerdrücken, während Blätter und Wurzeln einen Tee ergeben, der selbst die hartnäckigsten Erkältungen vertreibt.",
-          "en": "Candleberries can be crushed into refreshing juices, while the leaves and roots make for a tea that can drive out the toughest of colds.",
-          "es": "Las bayas de vela pueden triturarse para hacer jugos refrescantes, mientras que las hojas y raíces sirven para preparar un té capaz de ahuyentar los resfriados más duros.",
-          "fr": "Les baies de bougie peuvent être écrasées en jus rafraîchissants, tandis que les feuilles et les racines servent à préparer un thé capable de chasser les rhumes les plus tenaces.",
-          "he": "ניתן לסחוט את פרי הקנדלברי למיצים מרעננים, בעוד שהעלים והשורשים משמשים לחליטת תה שיכול לגרש גם את הצינון הקשה ביותר.",
-          "hr": "Svijećne bobice se mogu zgnječiti u osvježavajuće sokove, dok se od listova i korijenja može napraviti čaj koji može otjerati i najteže prehlade.",
-          "it": "Le bacche di candela possono essere pestate per ottenere succhi rinfrescanti, mentre foglie e radici danno vita a un tè capace di scacciare anche i raffreddori più duri.",
-          "ja": "キャンドルベリーは砕いて爽やかなジュースにでき、葉や根はどんなひどい風邪も追い払うお茶になる。",
-          "ko-KR": "캔들베리는 으깨서 상쾌한 주스로 만들 수 있고, 잎과 뿌리는 가장 심한 감기까지 물리칠 수 있는 차가 됩니다.",
-          "no": "Stearinbær kan knuses til forfriskende juice, mens bladene og røttene kan brygges til en te som kan jage bort selv de verste forkjølelsene.",
-          "pl": "Jagody świecowe można rozgnieść na orzeźwiające soki, a z liści i korzeni przygotować herbatę, która potrafi przegnać nawet najgorsze przeziębienie.",
-          "pt": "As bagas de vela podem ser esmagadas em sucos refrescantes, enquanto as folhas e raízes rendem um chá capaz de espantar até os resfriados mais difíceis.",
-          "pt-BR": "As bagavelas podem ser esmagadas em sucos refrescantes, enquanto as folhas e raízes rendem um chá capaz de espantar até os resfriados mais difíceis.",
-          "ru": "Свечные ягоды можно растолочь в освежающие соки, а из листьев и корней приготовить чай, способный прогнать даже самые стойкие простуды.",
-          "sr": "Svećne bobice se mogu zgnječiti u osvežavajuće sokove, dok se od listova i korenja može napraviti čaj koji može oterati i najteže prehlade.",
-          "tr": "Mum meyveleri ferahlatıcı meyve sularına ezilebilir; yaprakları ve kökleri ise en inatçı soğuk algınlıklarını bile söküp atabilecek bir çay yapar.",
-          "uk": "Свічкові ягоди можна розчавити на освіжаючі соки, а з листя та коріння заварити чай, що здатен прогнати навіть найміцнішу застуду.",
-          "zh-CN": "蜡莓可以捣碎成清爽的果汁，而叶子和根部还能泡成茶，足以驱散最顽固的感冒。",
-          "zh-TW": "蠟莓可以搗碎成清爽的果汁，而葉子和根部還能泡成茶，足以驅散最頑固的感冒。"
+          "da": "Helbred vildfarne Raiders eller hold ildsprudlende ARC stangen, så alle kommer hjem til middag i tide.",
+          "de": "Heile Raider auf Abwegen oder vertreibe ARC, die Feuer einsetzen, damit alle rechtzeitig zum Abendessen nach Hause kommen.",
+          "en": "Heal wayward Raiders or fend off fire-wielding ARC in order to get everyone home in time for dinner.",
+          "es": "Cura a Raiders rebeldes o repele ARC armadas con fuego para que todo el mundo vuelva a casa a tiempo para la cena",
+          "fr": "Soignez des Raiders égarés ou repoussez des ennemis ARC de feu pour que tout le monde puisse rentrer à temps pour le dîner.",
+          "he": "רפא ריידרים תועים או הדוף ARC חמושים באש, כדי שכולם יגיעו הביתה לארוחת הערב בזמן.",
+          "hr": "Liječiti zalutale Raidere ili se obraniti od ARC-a koji baca vatru kako bi svi na vrijeme stigli kući na večeru.",
+          "it": "Cura i Raider ribelli o respingi gli ARC che emanano fuoco per far tornare tutti a casa in tempo per la cena.",
+          "ja": "強情なレイダーたちを回復するか、炎を操るARCを撃退し、みんなが夕食までに無事スペランザへ戻れるようにする。",
+          "ko-KR": "길을 헤매는 레이더들을 치료하거나 화염을 사용하는 아크를 물리쳐 모두가 저녁 식사에 늦지 않게 돌아갈 수 있도록 하세요.",
+          "no": "Hel villfarne Raidere eller hold unna ildspyende ARC for å få alle hjem til middag i tide.",
+          "pl": "Ulecz zagubionych łupieżców lub odeprzyj maszyny ARC motające ogniem, aby wszyscy zdążyli do domu na kolację.",
+          "pt": "Curar Raiders teimosos ou repelir ARCs que usam fogo, para que todos cheguem a casa a tempo do jantar.",
+          "pt-BR": "Cure Raiders cabeças-duras ou rechace ARCs incendiárias para que todos possam voltar para casa a tempo do jantar.",
+          "ru": "Лечите самостоятельных рейдеров или отбивайтесь от машин ARC, которые атакуют огнем, чтобы все вернулись домой к обеду.",
+          "sr": "Izlečite zalutale rejdere ili odbijte ARC koji bacaju vatru da bi svi stigli kući na vreme za večeru.",
+          "tr": "Yoldan sapmış Raider'ları iyileştir ya da herkesin sağ salim eve dönüp karınlarını doyurabilmeleri için ateşli silah kullanan ARC'ların icabına bak.",
+          "uk": "Лікуй заблукалих рейдерів або відбивай атаки машин ARC, які використовують вогонь, щоб усі повернулися додому вчасно до вечері.",
+          "zh-CN": "治疗落单的奇袭者或击退使用火焰的ARC，让大家可以及时回家吃饭。",
+          "zh-TW": "治療迷途的掠手，或擊退操控火焰的ARC，讓所有人都能及時回家吃晚餐。"
         },
-        "phase": 4,
-        "requirementItemIds": [
+        "phase": 3,
+        "requirementCategories": [
           {
-            "itemId": "coffee_pot",
-            "quantity": 2
-          },
-          {
-            "itemId": "fireball_burner",
-            "quantity": 10
-          },
-          {
-            "itemId": "water_filter",
-            "quantity": 2
-          },
-          {
-            "itemId": "candleberries",
-            "quantity": 60
+            "category": "QuestObjectives",
+            "kind": "checkbox",
+            "localizations": {
+              "da": "Helbred vildfarne Raiders eller hold ildsprudlende ARC stangen, så alle kommer hjem til middag i tide.",
+              "de": "Heile Raider auf Abwegen oder vertreibe ARC, die Feuer einsetzen, damit alle rechtzeitig zum Abendessen nach Hause kommen.",
+              "en": "Heal wayward Raiders or fend off fire-wielding ARC in order to get everyone home in time for dinner.",
+              "es": "Cura a Raiders rebeldes o repele ARC armadas con fuego para que todo el mundo vuelva a casa a tiempo para la cena",
+              "fr": "Soignez des Raiders égarés ou repoussez des ennemis ARC de feu pour que tout le monde puisse rentrer à temps pour le dîner.",
+              "he": "רפא ריידרים תועים או הדוף ARC חמושים באש, כדי שכולם יגיעו הביתה לארוחת הערב בזמן.",
+              "hr": "Liječiti zalutale Raidere ili se obraniti od ARC-a koji baca vatru kako bi svi na vrijeme stigli kući na večeru.",
+              "it": "Cura i Raider ribelli o respingi gli ARC che emanano fuoco per far tornare tutti a casa in tempo per la cena.",
+              "ja": "強情なレイダーたちを回復するか、炎を操るARCを撃退し、みんなが夕食までに無事スペランザへ戻れるようにする。",
+              "ko-KR": "길을 헤매는 레이더들을 치료하거나 화염을 사용하는 아크를 물리쳐 모두가 저녁 식사에 늦지 않게 돌아갈 수 있도록 하세요.",
+              "no": "Hel villfarne Raidere eller hold unna ildspyende ARC for å få alle hjem til middag i tide.",
+              "pl": "Ulecz zagubionych łupieżców lub odeprzyj maszyny ARC motające ogniem, aby wszyscy zdążyli do domu na kolację.",
+              "pt": "Curar Raiders teimosos ou repelir ARCs que usam fogo, para que todos cheguem a casa a tempo do jantar.",
+              "pt-BR": "Cure Raiders cabeças-duras ou rechace ARCs incendiárias para que todos possam voltar para casa a tempo do jantar.",
+              "ru": "Лечите самостоятельных рейдеров или отбивайтесь от машин ARC, которые атакуют огнем, чтобы все вернулись домой к обеду.",
+              "sr": "Izlečite zalutale rejdere ili odbijte ARC koji bacaju vatru da bi svi stigli kući na vreme za večeru.",
+              "tr": "Yoldan sapmış Raider'ları iyileştir ya da herkesin sağ salim eve dönüp karınlarını doyurabilmeleri için ateşli silah kullanan ARC'ların icabına bak.",
+              "uk": "Лікуй заблукалих рейдерів або відбивай атаки машин ARC, які використовують вогонь, щоб усі повернулися додому вчасно до вечері.",
+              "zh-CN": "治疗落单的奇袭者或击退使用火焰的ARC，让大家可以及时回家吃饭。",
+              "zh-TW": "治療迷途的掠手，或擊退操控火焰的ARC，讓所有人都能及時回家吃晚餐。"
+            },
+            "questGameAssetId": "942776424",
+            "tiers": [1],
+            "valueRequired": 1
           }
-        ]
-      },
-      {
-        "name": {
-          "da": "Måltider",
-          "de": "Mahlzeiten",
-          "en": "Meals",
-          "es": "Comidas",
-          "fr": "Repas",
-          "he": "ארוחות",
-          "hr": "Obroci",
-          "it": "Pasti",
-          "ja": "食事",
-          "ko-KR": "식사",
-          "no": "Måltider",
-          "pl": "Posiłki",
-          "pt": "Refeições",
-          "pt-BR": "Refeições",
-          "ru": "Блюда",
-          "sr": "Obroci",
-          "tr": "Yemekler",
-          "uk": "Страви",
-          "zh-CN": "餐食",
-          "zh-TW": "餐食"
-        },
-        "description": {
-          "da": "Selvom lysbær-blade er bitre, giver de en jordagtig smag, når de simrer i gryderetter og supper – noget nostalgiske speranzanere er kommet til at elske.",
-          "de": "Obwohl Kerzenbeerenblätter bitter sind, verleiht ihr Köcheln in Eintöpfen und Suppen eine erdige Note, die nostalgische Speranzaner lieben gelernt haben.",
-          "en": "Though candleberry leaves are bitter, simmering them in stew and soups adds a touch of earthiness that nostalgic Speranzans have grown to love.",
-          "es": "Aunque las hojas de las bayas de vela son amargas, cocerlas a fuego lento en guisos y sopas añade un toque terroso que los speranzanos nostálgicos han llegado a adorar.",
-          "fr": "Bien que les feuilles des baies de bougie soient amères, les faire mijoter dans des ragoûts et des soupes ajoute une note terreuse que les Speranzans nostalgiques ont appris à aimer.",
-          "he": "למרות מרירותם של עלי הקנדלברי, בישולם בנזידים ובמרקים מוסיף טעם אדמה עדין שהספרנזים הנוסטלגיים למדו לאהוב.",
-          "hr": "Iako su listovi svijećnih bobica gorki, lagano krčkanje u varivima i juhama dodaje zemljani štih koji nostalgični Speranzanci obožavaju.",
-          "it": "Sebbene le foglie delle bacche di candela siano amare, farle sobbollire in stufati e zuppe aggiunge una nota terrosa che gli Speranzani nostalgici hanno imparato ad amare.",
-          "ja": "キャンドルベリーの葉は苦いが、シチューやスープで煮込むと土の香りが加わり、懐かしさを覚えるスペランザンたちに愛されている。",
-          "ko-KR": "캔들베리 잎은 쓰지만, 스튜와 수프에 오래 끓이면 흙내음이 살짝 더해져 향수를 품은 스페란잔들이 좋아하게 되었습니다.",
-          "no": "Selv om stearinbær-blader er bitre, gir de en jordlig smak når de småkoker i gryter og supper – noe nostalgiske speranzanere har lært å elske.",
-          "pl": "Choć liście jagód świecowych są gorzkie, ich gotowanie w gulaszach i zupach dodaje nuty ziemistości, którą nostalgiczni Speranzanie pokochali.",
-          "pt": "Embora as folhas das bagas de vela sejam amargas, cozinhá-las lentamente em ensopados e sopas adiciona um toque terroso que os speranzanos nostálgicos aprenderam a amar.",
-          "pt-BR": "Embora as folhas das bagavelas sejam amargas, cozinhá-las lentamente em ensopados e sopas adiciona um toque terroso que os speranzanos nostálgicos aprenderam a amar.",
-          "ru": "Хотя листья свечных ягод горькие, их томление в рагу и супах добавляет землистую нотку, которую ностальгирующие сперанзанцы полюбили.",
-          "sr": "Iako su listovi svećnih bobica gorki, lagano krčkanje u čorbama i gulašima dodaje zemljanu notu koju nostalgični Speranzanci vole.",
-          "tr": "Mum meyvelerinin yaprakları acı olsa da, yahni ve çorbalarda ağır ağır pişirmek nostaljik Speranzalıların sevdiği o topraksı dokunuşu katar.",
-          "uk": "Хоч листя свічкових ягід гірке, повільне томління в рагу та супах додає землістої нотки, яку ностальгійні сперанзанці полюбили.",
-          "zh-CN": "尽管蜡莓叶子略苦，但把它们慢炖进炖菜和汤里，会增添一丝泥土般的醇厚，怀旧的斯佩兰赞人也渐渐爱上了这种味道。",
-          "zh-TW": "儘管蠟莓葉子略苦，但把它們慢燉進燉菜和湯裡，會增添一絲泥土般的醇厚，懷舊的斯佩蘭贊人也漸漸愛上了這種味道。"
-        },
-        "phase": 5,
-        "requirementItemIds": [
+        ],
+        "requirementItemIds": [],
+        "rewards": [
           {
-            "itemId": "mushroom",
-            "quantity": 7
+            "itemId": "canto_iv",
+            "quantity": 1
           },
           {
-            "itemId": "frying_pan",
-            "quantity": 2
+            "itemId": "compensator_iii",
+            "quantity": 1
           },
           {
-            "itemId": "music_album",
-            "quantity": 2
+            "itemId": "angled_grip_iii",
+            "quantity": 1
           },
           {
-            "itemId": "candleberries",
-            "quantity": 70
+            "itemId": "padded_stock",
+            "quantity": 1
           }
         ]
       }
-    ]
+    ],
+    "endDate": 1798416000,
+    "startDate": 1795514400
   },
   {
     "id": "weather_monitor_system_project",
@@ -5625,7 +5565,7 @@
       "ru": "Проводите исследования, собирайте материалы и обезопасьте место строительства, чтобы обустроить свой уголок на Поверхности.",
       "sr": "Sprovodi istraživanja, sakupljaj zalihe i osiguraj gradilište kako bi isklesao svoj mali kutak Topside-a.",
       "tr": "Yeryüzünün küçük bir köşesinde kendine yer edinmek için araştırma yürüt, malzeme topla ve inşaat alanını güvence altına al.",
-      "uk": "Проводьте дослідження, збирайте припаси та захищайте будівельний майданчик, щоб створити свій власний невеличкий куточок на Топсайді.",
+      "uk": "Займайтеся дослідженнями, збирайте ресурси й пильно охороняйте будівельний майданчик, виборюючи власний затишний куточок на Поверхні.",
       "zh-CN": "开展研究、收集物资、保护建筑工地，在上层开辟属于你自己的一方天地。",
       "zh-TW": "實施研究、收集物資並保護建築工地，在頂層開闢出你的小天地。"
     },
@@ -5649,7 +5589,7 @@
           "ru": "Изучите жилищные условия на Поверхности.",
           "sr": "Istraži životne uslove na Topside-u",
           "tr": "Yeryüzünde yaşam şartlarını araştır",
-          "uk": "Дослідити умови життя на Топсайді",
+          "uk": "Дослідити умови життя на поверхні",
           "zh-CN": "研究上层生存环境",
           "zh-TW": "研究頂層生活條件"
         },
@@ -5671,7 +5611,7 @@
           "ru": "Чтобы построить надежный аванпост, стоит обратить внимание на те немногие здания, что выстояли.",
           "sr": "Da bi se izgradile ispostave koje opstaju, mudro je crpeti inspiraciju iz malobrojnih struktura koje su još uvek opstale.",
           "tr": "Uzun ömürlü Karakollar inşa etmek için hâlâ ayakta duran yapıları ayakta tutan şeylerden ilham almak mantıklı olur.",
-          "uk": "Щоб будувати довговічні аванпости, варто черпати натхнення з тих небагатьох споруд, що ще вціліли.",
+          "uk": "Надихайтеся вцілілими спорудами, щоб зводити надійні аванпости, які простоять довго.",
           "zh-CN": "要建造经久耐用的哨站，从现存的少数建筑中汲取灵感是明智之举。",
           "zh-TW": "若要建造歷久不衰的哨站，最好向至今仍屹立不搖的少數建築取經。"
         },
@@ -5698,7 +5638,7 @@
               "ru": "Чтобы построить надежный аванпост, стоит обратить внимание на те немногие здания, что выстояли.",
               "sr": "Da bi ispostave trajale, mudro je uzeti inspiraciju od onih nekoliko građevina koje su još uvek na nogama.",
               "tr": "Uzun ömürlü Karakollar inşa etmek için hâlâ ayakta duran yapıları ayakta tutan şeylerden ilham almak mantıklı olur.",
-              "uk": "Щоб будувати аванпости, що витримають час, варто взяти приклад із небагатьох споруд, які досі стоять.",
+              "uk": "Надихайтеся вцілілими спорудами, щоб зводити надійні аванпости, які простоять довго.",
               "zh-CN": "要建造经久耐用的哨站，从现存的少数建筑中汲取灵感是明智之举。",
               "zh-TW": "若要建造歷久不衰的哨站，最好向至今仍屹立不搖的少數建築取經。"
             },
@@ -5734,7 +5674,7 @@
           "ru": "Соберите строительные материалы.",
           "sr": "Sakupljaj građevinski materijal",
           "tr": "İnşaat materyalleri topla",
-          "uk": "Зібрати будівельні матеріали",
+          "uk": "Зібрати матеріали для будівництва",
           "zh-CN": "收集建筑材料",
           "zh-TW": "收集建築材料"
         },
@@ -5756,7 +5696,7 @@
           "ru": "Собирайте продвинутые материалы, чтобы вашему аванпосту были нипочем никакие угрозы.",
           "sr": "Prikupljaj napredne materijale kako bi osigurao da je tvoja Ispostava izdržljiva čak i pred pretnjom koja neprestano vreba.",
           "tr": "Gelişmiş materyaller toplayarak Karakol'unun sürekli kapını çalan tehditler karşısında bile dirençli olduğundan emin ol.",
-          "uk": "Збирайте передові матеріали, щоб ваш аванпост був стійким навіть перед обличчям постійно навислої загрози.",
+          "uk": "Накопичуйте висококласні матеріали, щоб споруда встояла навіть перед лицем постійної загрози.",
           "zh-CN": "收集高级材料，让你的哨站即便在步步紧逼的威胁面前也坚不可摧。",
           "zh-TW": "收集高階材料以確保你的哨站即使面對步步逼近的威脅也能保有韌性。"
         },
@@ -5805,7 +5745,7 @@
           "ru": "Обезопасьте место стройки.",
           "sr": "Osiguraj gradilište",
           "tr": "İnşaat alanını güvence altına al",
-          "uk": "Захистити будівельний майданчик",
+          "uk": "Убезпечення будівельного майданчика",
           "zh-CN": "保护建筑工地",
           "zh-TW": "確保施工現場安全"
         },
@@ -5827,7 +5767,7 @@
           "ru": "Отвлекайте и уничтожайте машины ARC, чтобы ничто не мешало стройке.",
           "sr": "Odvraćaj pažnju i uništavaj ARC mašine kako bi se građevinski radovi odvijali neometano.",
           "tr": "Yeryüzünde Karakol'unun inşa edilebilmesi için ARC makinelerinin dikkatini dağıt ve onları yok et.",
-          "uk": "Відволікайте та знищуйте машини ARC, щоб будівельні роботи могли відбуватися без перешкод.",
+          "uk": "Відверніть увагу й знищте машини ARC, щоб будівництво проходило без перешкод.",
           "zh-CN": "牵制并摧毁ARC机器，保障建造工作顺利进行。",
           "zh-TW": "引開ARC機器並將之摧毀，以確保施工不受干擾。"
         },
@@ -5854,7 +5794,7 @@
               "ru": "Отвлекайте и уничтожайте машины ARC, чтобы ничто не мешало стройке.",
               "sr": "Odvlačite pažnju i uništavajte ARC mašine kako bi građevinski radovi mogli da se odvijaju bez ometanja.",
               "tr": "Yeryüzünde Karakol'unun inşa edilebilmesi için ARC makinelerinin dikkatini dağıt ve onları yok et.",
-              "uk": "Відволікайте та знищуйте машини ARC, щоб будівельники могли працювати без перешкод.",
+              "uk": "Відверніть увагу й знищте машини ARC, щоб будівництво проходило без перешкод.",
               "zh-CN": "牵制并摧毁ARC机器，保障建造工作顺利进行。",
               "zh-TW": "引開ARC機器並將之摧毀，以確保施工不受干擾。"
             },
@@ -6307,7 +6247,7 @@
       "ru": "Пока наверху не утихает борьба с машинами ARC, в Толедо некоторые жители взяли передышку, чтобы отдать дань прошлому. Рейдеры из разных районов Толедо — трудолюбивые ферровианцы, закрытые волтонцы и своенравные муртетанцы — отмечают Душеприношение, воздвигая святилища в честь рейдеров, которые были здесь до них.",
       "sr": "Dok se borba protiv ARC-a nastavlja na površini, neki stanovnici Toleda zastali su da se suoče s prošlošću. Rejderi iz različitih kontrada Toleda, marljivi Ferovijani, izolovani Vaultoni i tvrdoglavi Murtetani slave Ponudu duša gradeći svetilišta rejderima koji su došli pre njih.",
       "tr": "Yüzeyde ARC'a karşı savaş tüm şiddetiyle sürerken Toledo'daki bazıları geçmişle yüzleşmek için bir anlığına durdu. Çalışkan Ferrovia'lılar, dış dünyayla bağını kesen Vaulto'lular ve dikbaşlı Murteta'lılar dâhil Toledo'nun farklı mahallelerinden gelen Raider'lar, kendilerinden önce gelen Raider'lar için sunaklar inşa ederek Ruh Adağı'nı kutluyor.",
-      "uk": "Поки на поверхні триває боротьба з машинами ARC, дехто з Толедо зупинився, щоб згадати минуле. Рейдери з різних контрад Толедо, працьовиті ферровійці, замкнені волтонці та вперті муртетанці, відзначають Підношення душ, зводячи святині на честь рейдерів, що були тут до них.",
+      "uk": "Доки на поверхні вирує боротьба проти ARC, дехто в Толедо зупиняється, щоб згадати минуле. Рейдери з різних контрад Толедо — працьовиті ферровійці, замкнені ваултонці й норовливі муртетанці — влаштовують Підношення для душ, споруджуючи вівтарі на честь рейдерів, які були тут до них.",
       "zh-CN": "在对抗ARC的战斗于地表愈演愈烈时，托雷多却有些人停下了脚步，开始审视过去。来自托雷多不同街区的奇袭者：勤劳的费罗维亚人、与世隔绝的沃尔托人，以及任性倔强的穆尔泰塔人，通过为先行的奇袭者们建造神龛，来共庆奉灵节。",
       "zh-TW": "當地表與ARC的戰鬥持續延燒之際，托雷多有些人卻停下腳步，開始反思過去。來自托雷多不同分區的掠手，包括勤奮的費洛維亞人、與世隔絕的華爾托人，以及我行我素的穆爾特塔人，紛紛為先前的掠手建造神龕，來慶祝「奉靈節」。"
     },
@@ -6315,7 +6255,7 @@
       {
         "name": {
           "da": "Byg Vaultos Offergave",
-          "de": "Errichte das Opfer von Vaulto",
+          "de": "Errichte das Opfer von Vaulto.",
           "en": "Construct Vaulto's Offering",
           "es": "Construye la ofrenda de Vaulto",
           "fr": "Composer l'offrande de Vaulto",
@@ -6328,10 +6268,10 @@
           "pl": "Zbuduj ofiarę Vaulto",
           "pt": "Construir a Oferenda de Vaulto",
           "pt-BR": "Construa a Oferenda de Vaulto",
-          "ru": "Соберите подношение Волто",
+          "ru": "Соберите подношение Волто.",
           "sr": "Izgradite Vaultovu ponudu",
           "tr": "Vaulto'nun Adağı'nı Hazırla",
-          "uk": "Збудуйте підношення Волто",
+          "uk": "Створи підношення для Ваулто",
           "zh-CN": "构建沃尔托的供品神龛",
           "zh-TW": "建造華爾托的供品神龕"
         },
@@ -6353,7 +6293,7 @@
           "ru": "Соберите материалы, необходимые жителям Волто для подношения.",
           "sr": "Prikupite zalihe kako biste pomogli stanovnicima Vaulta da izgrade svoju ponudu.",
           "tr": "Vaulto sakinlerinin adaklarını hazırlamalarına yardım etmek için erzak topla.",
-          "uk": "Зберіть матеріали, щоб допомогти мешканцям Волто збудувати їхнє підношення.",
+          "uk": "Збери припаси, щоб допомогти ваултонцям створити підношення.",
           "zh-CN": "搜集物资帮助沃尔托居民准备供品",
           "zh-TW": "收集物資，協助華爾托居民建造供品神龕。"
         },
@@ -6414,7 +6354,7 @@
           "ru": "Соберите подношение Ферровии",
           "sr": "Izgradite Ferovijinu ponudu",
           "tr": "Ferrovia'nın Adağı'nı Hazırla",
-          "uk": "Збудуйте підношення Ферровії",
+          "uk": "Створи підношення для ферровійців",
           "zh-CN": "构建费罗维亚的供品神龛",
           "zh-TW": "建造費洛維亞的供品神龕"
         },
@@ -6436,7 +6376,7 @@
           "ru": "Соберите материалы, необходимые жителям Ферровии для подношения.",
           "sr": "Prikupite zalihe kako biste pomogli stanovnicima Ferovije da izgrade svoju ponudu.",
           "tr": "Ferrovia sakinlerinin adaklarını hazırlamalarına yardım etmek için erzak topla.",
-          "uk": "Зберіть матеріали, щоб допомогти мешканцям Ферровії збудувати їхнє підношення.",
+          "uk": "Збери припаси, щоб допомогти ферровійцям створити підношення.",
           "zh-CN": "搜集物资帮助费罗维亚居民准备供品",
           "zh-TW": "收集物資，協助費洛維亞居民建造供品神龕。"
         },
@@ -6497,7 +6437,7 @@
           "ru": "Соберите подношение Муртеты",
           "sr": "Izgradite Murtetinu ponudu",
           "tr": "Murteta'nın Adağı'nı Hazırla",
-          "uk": "Збудуйте підношення Муртети",
+          "uk": "Створи підношення для муртетанців",
           "zh-CN": "构建穆尔泰塔的供品神龛",
           "zh-TW": "建造穆爾特塔的供品神龕"
         },
@@ -6519,7 +6459,7 @@
           "ru": "Соберите материалы, необходимые жителям Муртеты для подношения.",
           "sr": "Prikupite zalihe kako biste pomogli stanovnicima Murtete da izgrade svoju ponudu.",
           "tr": "Murteta sakinlerinin adaklarını hazırlamalarına yardım etmek için erzak topla.",
-          "uk": "Зберіть матеріали, щоб допомогти мешканцям Муртети збудувати їхнє підношення.",
+          "uk": "Збери припаси, щоб допомогти муртетанцям створити підношення.",
           "zh-CN": "搜集物资帮助穆尔泰塔居民准备供品",
           "zh-TW": "收集物資，協助穆爾特塔居民建造供品神龕。"
         },
@@ -6580,7 +6520,7 @@
           "ru": "Почтите павших",
           "sr": "Odajte počast palima",
           "tr": "Ölüleri Onurlandır",
-          "uk": "Вшануйте полеглих",
+          "uk": "Ушануй полеглих",
           "zh-CN": "致敬逝者",
           "zh-TW": "緬懷逝者"
         },
@@ -6602,7 +6542,7 @@
           "ru": "Запустите фейерверк с крыши комплекса «Санта Мария» в память о павших.",
           "sr": "Ispalite vatromet na krovu kuća Santa Maria da odate počast palima.",
           "tr": "Ölüleri onurlandırmak için Santa Maria Evleri'nin çatısında bir havai fişek ateşle.",
-          "uk": "Запустіть феєрверк на даху будинків «Санта Марія», щоб вшанувати полеглих.",
+          "uk": "Запусти феєрверк на даху будинків «Санта-Марія», щоб ушанувати полеглих.",
           "zh-CN": "在圣玛丽亚住宅区的屋顶上燃放烟花以向逝者致敬。",
           "zh-TW": "在聖瑪麗亞住宅的屋頂施放煙火來緬懷逝者。"
         },
@@ -6644,7 +6584,7 @@
               "ru": "Запустите фейерверк с крыши комплекса «Санта Мария» в память о павших.",
               "sr": "Ispalite vatromet na krovu kuća Santa Maria da odate počast palima.",
               "tr": "Ölüleri onurlandırmak için Santa Maria Evleri'nin çatısında bir havai fişek ateşle.",
-              "uk": "Запустіть феєрверк на даху будинків «Санта Марія», щоб вшанувати полеглих.",
+              "uk": "Запусти феєрверк на даху будинків «Санта-Марія», щоб ушанувати полеглих.",
               "zh-CN": "在圣玛丽亚住宅区的屋顶上燃放烟花以向逝者致敬。",
               "zh-TW": "在聖瑪麗亞住宅的屋頂施放煙火來緬懷逝者。"
             },
@@ -6658,5 +6598,488 @@
     ],
     "endDate": 1794787200,
     "startDate": 1790553600
+  },
+  {
+    "id": "the_guests_have_arrived_project",
+    "disabled": false,
+    "name": {
+      "da": "Gæsterne er ankommet",
+      "de": "Die Gäste sind eingetroffen",
+      "en": "The Guests Have Arrived",
+      "es": "Han llegado los invitados",
+      "fr": "Les invités sont arrivés",
+      "he": "האורחים הגיעו",
+      "hr": "Gosti su stigli",
+      "it": "Gli ospiti sono arrivati",
+      "ja": "客人が到着",
+      "ko-KR": "손님 도착",
+      "no": "Gjestene er ankommet",
+      "pl": "Przybyli goście",
+      "pt": "Chegaram os Convidados",
+      "pt-BR": "Os convidados chegaram",
+      "ru": "Гости прибыли",
+      "sr": "Gosti su stigli",
+      "tr": "Misafirler geldi",
+      "uk": "Гості прибули",
+      "zh-CN": "贵客临门",
+      "zh-TW": "貴客臨門"
+    },
+    "description": {
+      "da": "Bordet er næsten dækket. Repræsentanter fra Toledos contradas er på vej over, og Celeste venter nervøst på deres ankomst. Vil de gøre fremskridt hen imod samarbejde, eller vil den videre diskussion uddybe deres splittelse?",
+      "de": "Der Tisch ist fast gedeckt. Vertreter der Contradas von Toledo sind unterwegs, und Celeste erwartet ihre Ankunft nervös. Kommen sie bei der Zusammenarbeit voran, oder vertieft die weitere Diskussion ihre Spaltung?",
+      "en": "The table is almost set. Representative members of Toledo's contradas are on their way over, and Celeste is nervously awaiting their arrival. Will they make progress towards cooperation, or will further discussion deepen their division?",
+      "es": "La mesa casi está puesta. Los representantes de las contradas de Toledo están en camino, y Celeste espera con nerviosismo su llegada. ¿Avanzarán hacia la cooperación o la discusión ahondará sus divisiones?",
+      "fr": "La table est presque mise. Des représentants des contradas de Toledo sont en chemin, et Celeste attend leur arrivée avec nervosité. Feront-ils des progrès vers la coopération, ou la discussion va-t-elle creuser leurs divisions ?",
+      "he": "השולחן כמעט מוכן. נציגים מהקונטראדות של טולדו נמצאים בדרך, ו-Celeste מחכה להם בחרדה. האם הם יתקדמו לשיתוף פעולה, או שדיון נוסף יעמיק את המחלוקת ביניהם?",
+      "hr": "Stol je gotovo postavljen. Predstavnici contrada iz Toleda upravo dolaze, a Celeste s nelagodom čeka njihov dolazak. Hoće li napraviti korak prema suradnji ili će daljnja rasprava produbiti njihove podjele?",
+      "it": "La tavola è quasi pronta. I rappresentanti delle contrade di Toledo stanno arrivando e Celeste attende con ansia il loro arrivo. Riusciranno a fare progressi verso la collaborazione, o la discussione approfondirà le divisioni?",
+      "ja": "テーブルの準備はほぼ整いました。トレドのコントラーダの代表メンバーがこちらへ向かっており、セレステは緊張しながら到着を待っています。協力に向けて前進するのか、それとも話し合いによって対立がさらに深まるのでしょうか。",
+      "ko-KR": "테이블 준비가 거의 끝났어요. 톨레도 콘트라다의 대표 멤버들이 이쪽으로 오고 있고, 셀레스테는 초조하게 도착을 기다리고 있어요. 협력을 향한 진전이 있을까요, 아니면 논의가 분열을 더 깊게 만들까요?",
+      "no": "Bordet er nesten dekket. Representanter fra Toledos contradaer er på vei, og Celeste venter nervøst på ankomsten. Vil de komme fremover i samarbeidet, eller vil videre diskusjon bare utdype splittelsen?",
+      "pl": "Stół jest prawie nakryty. Przedstawiciele contradas z Toledo są już w drodze, a Celeste z niepokojem czeka na ich przybycie. Czy zrobią krok ku współpracy, czy dalsza dyskusja pogłębi ich podziały?",
+      "pt": "A mesa está quase posta. Representantes das contradas de Toledo estão a caminho, e a Celeste aguarda nervosa a sua chegada. Vão progredir rumo à cooperação ou a discussão vai aprofundar a divisão?",
+      "pt-BR": "A mesa está quase posta. Membros representativos das contradas de Toledo estão a caminho, e Celeste aguarda ansiosamente a chegada deles. Eles vão avançar rumo à cooperação, ou mais discussões vão aprofundar a divisão?",
+      "ru": "Стол почти накрыт. Представители районов Толедо уже в пути, а Селеста с тревогой ждёт их прихода. Продвинутся ли они к сотрудничеству или дальнейшие споры углубят их разногласия?",
+      "sr": "Sto je skoro postavljen. Predstavnici kontrada iz Toleda su na putu, a Celeste nervozno čeka njihov dolazak. Hoće li napraviti korak ka saradnji ili će dalja rasprava produbiti njihove podele?",
+      "tr": "Masa neredeyse kuruldu. Toledo'nun contradalarından temsilciler yola çıktı; Celeste ise gelişlerini gergin bir şekilde bekliyor. İş birliğine doğru ilerleme kaydedecekler mi, yoksa daha fazla tartışma aralarındaki ayrılığı mı derinleştirecek?",
+      "uk": "Стіл майже накритий. Представники контрад Толедо вже прямують сюди, а Селеста з хвилюванням чекає на їхній прихід. Чи зможуть вони порозумітися, чи нескінченні розмови лише поглиблять їхній розкол?",
+      "zh-CN": "餐桌快摆好了。托雷多各街区的代表正在赶来，塞莱斯特紧张地等待着他们的到来。他们能否在合作上取得进展，还是进一步的讨论只会加深分歧？",
+      "zh-TW": "餐桌快準備好了。托雷多各分區的代表正在趕來，莎莉絲特緊張地等待著他們的到來。他們能否在合作上取得進展，還是進一步的討論只會加深分歧？"
+    },
+    "phases": [
+      {
+        "name": {
+          "da": "Gaver",
+          "de": "Geschenke",
+          "en": "Presents",
+          "es": "Regalos",
+          "fr": "Cadeaux",
+          "he": "מתנות",
+          "hr": "Pokloni",
+          "it": "Regali",
+          "ja": "プレゼント",
+          "ko-KR": "선물",
+          "no": "Gaver",
+          "pl": "Prezenty",
+          "pt": "Presentes",
+          "pt-BR": "Presentes",
+          "ru": "Подарки",
+          "sr": "Pokloni",
+          "tr": "Hediyeler",
+          "uk": "Подарунки",
+          "zh-CN": "礼物",
+          "zh-TW": "禮物"
+        },
+        "description": {
+          "da": "Gaver",
+          "de": "Geschenke",
+          "en": "Presents",
+          "es": "Regalos",
+          "fr": "Cadeaux",
+          "he": "מתנות",
+          "hr": "Pokloni",
+          "it": "Regali",
+          "ja": "プレゼント",
+          "ko-KR": "선물",
+          "no": "Gaver",
+          "pl": "Prezenty",
+          "pt": "Presentes",
+          "pt-BR": "Presentes",
+          "ru": "Подарки",
+          "sr": "Pokloni",
+          "tr": "Hediyeler",
+          "uk": "Подарунки",
+          "zh-CN": "礼物",
+          "zh-TW": "禮物"
+        },
+        "phase": 1,
+        "requirementItemIds": [
+          {
+            "itemId": "bloated_tuna_can",
+            "quantity": 2
+          },
+          {
+            "itemId": "bully_fragmenter",
+            "quantity": 2
+          },
+          {
+            "itemId": "insulation_roll",
+            "quantity": 2
+          },
+          {
+            "itemId": "candleberries",
+            "quantity": 15
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "bettina_i",
+            "quantity": 1
+          },
+          {
+            "itemId": "extended_barrel_iii",
+            "quantity": 1
+          },
+          {
+            "itemId": "padded_stock",
+            "quantity": 1
+          },
+          {
+            "itemId": "tactical_mk3_revival",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Mad",
+          "de": "Nahrung",
+          "en": "Food",
+          "es": "Comida",
+          "fr": "Nourriture",
+          "he": "אוכל",
+          "hr": "Hrana",
+          "it": "Cibo",
+          "ja": "食料",
+          "ko-KR": "식량",
+          "no": "Mat",
+          "pl": "Jedzenie",
+          "pt": "Comida",
+          "pt-BR": "Comida",
+          "ru": "Еда",
+          "sr": "Hrana",
+          "tr": "Yiyecek",
+          "uk": "Їжа",
+          "zh-CN": "食物",
+          "zh-TW": "食物"
+        },
+        "description": {
+          "da": "Mad",
+          "de": "Nahrung",
+          "en": "Food",
+          "es": "Comida",
+          "fr": "Nourriture",
+          "he": "אוכל",
+          "hr": "Hrana",
+          "it": "Cibo",
+          "ja": "食料",
+          "ko-KR": "식량",
+          "no": "Mat",
+          "pl": "Jedzenie",
+          "pt": "Comida",
+          "pt-BR": "Comida",
+          "ru": "Еда",
+          "sr": "Hrana",
+          "tr": "Yiyecek",
+          "uk": "Їжа",
+          "zh-CN": "食物",
+          "zh-TW": "食物"
+        },
+        "phase": 2,
+        "requirementItemIds": [
+          {
+            "itemId": "expired_pasta",
+            "quantity": 2
+          },
+          {
+            "itemId": "vaporizer_regulator",
+            "quantity": 2
+          },
+          {
+            "itemId": "fancy_plate",
+            "quantity": 2
+          },
+          {
+            "itemId": "candleberries",
+            "quantity": 15
+          }
+        ],
+        "rewards": [
+          {
+            "itemId": "bobcat_i",
+            "quantity": 1
+          },
+          {
+            "itemId": "lightweight_stock",
+            "quantity": 1
+          },
+          {
+            "itemId": "vita_spray",
+            "quantity": 1
+          },
+          {
+            "itemId": "deadline",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Fest som Ferrovians",
+          "de": "Feiern wie die Ferrovianer",
+          "en": "Party Like The Ferrovians",
+          "es": "Fiesta como los de Ferrovia",
+          "fr": "Faire la fête comme les Ferroviens",
+          "he": "לחגוג כמו תושבי פרוביה",
+          "hr": "Slaviti kao Ferrovijanci",
+          "it": "Festa come i Ferroviani",
+          "ja": "フェロヴィア流パーティー",
+          "ko-KR": "페로비아 주민들처럼 파티하기",
+          "no": "Fest som Ferrovians",
+          "pl": "Bawić się jak Ferrovianie",
+          "pt": "Festejar Como os Ferrovianos",
+          "pt-BR": "Festa como os ferrovianos",
+          "ru": "Гулять как ферровианцы",
+          "sr": "Slavite kao Ferovijani",
+          "tr": "Ferrovia'lılar gibi eğlenin",
+          "uk": "Гуляйте, як ферровійці",
+          "zh-CN": "像费罗维亚人一样狂欢",
+          "zh-TW": "像費洛維亞人一樣狂歡"
+        },
+        "description": {
+          "da": "Fejr Flakkende flammer ligesom Ferrovians gør. Tid til en snebolddyst.",
+          "de": "Feiere „Flackernde Flammen“ wie die Ferrovianer. Zeit für eine Schneeballschlacht.",
+          "en": "Celebrate Flickering Flames like the Ferrovians do. Time for a snowball fight.",
+          "es": "Celebra las Llamas titilantes como los de Ferrovia. Es hora de una batalla de bolas de nieve.",
+          "fr": "Célèbre les Flammes vacillantes comme le font les Ferroviens. Il est temps pour une bataille de boules de neige.",
+          "he": "חגוג את להבות מרצדות כמו תושבי פרוביה. הגיע הזמן לקרב כדורי שלג.",
+          "hr": "Slaviti Treperave plamenove kao Ferrovijanci. Vrijeme je za bitku snježnim grudama.",
+          "it": "Festeggia le Fiamme tremolanti come fanno i Ferroviani. È il momento di una battaglia a palle di neve.",
+          "ja": "フェロヴィアの人々のように「揺らめく炎」を祝いましょう。雪合戦の時間です。",
+          "ko-KR": "페로비아 주민들처럼 '점멸하는 불꽃'을 즐기세요. 눈싸움할 시간이에요.",
+          "no": "Feir Flakkende flammer slik Ferrovians gjør. Tid for snøballkamp.",
+          "pl": "Świętuj Migocące Płomienie tak jak Ferrovianie. Czas na bitwę na śnieżki.",
+          "pt": "Celebrar as Chamas tremeluzentes como os ferrovianos. Está na hora de uma batalha de bolas de neve.",
+          "pt-BR": "Celebre as Chamas Trêmulas como os ferrovianos fazem. Hora de uma batalha de bolas de neve.",
+          "ru": "Отпразднуйте «Мерцающие огоньки», как это делают ферровианцы. Пора устроить снежный бой.",
+          "sr": "Proslavite Treperave plamenove kao što rade Ferovijani. Vreme je za bitku grudvama.",
+          "tr": "Ferrovia'lılar gibi Titrek Alevler'i kutlayın. Kartopu savaşı zamanı.",
+          "uk": "Святкуйте Мерехтливе полум'я так, як це роблять ферровійці. Час для сніжкової битви.",
+          "zh-CN": "像费罗维亚人那样庆祝摇曳火光吧，该打一场雪球大战了。",
+          "zh-TW": "像費洛維亞人那樣慶祝閃爍之光吧，該打一場雪球大戰了。"
+        },
+        "phase": 3,
+        "requirementCategories": [
+          {
+            "category": "QuestComplete_DamageInstance",
+            "kind": "checkbox",
+            "localizations": {
+              "da": "Fejr Flakkende flammer ligesom Ferrovians gør. Tid til en snebolddyst.",
+              "de": "Feiere „Flackernde Flammen“ wie die Ferrovianer. Zeit für eine Schneeballschlacht.",
+              "en": "Celebrate Flickering Flames like the Ferrovians do. Time for a snowball fight.",
+              "es": "Celebra las Llamas titilantes como los de Ferrovia. Es hora de una batalla de bolas de nieve.",
+              "fr": "Célèbre les Flammes vacillantes comme le font les Ferroviens. Il est temps pour une bataille de boules de neige.",
+              "he": "חגוג את להבות מרצדות כמו תושבי פרוביה. הגיע הזמן לקרב כדורי שלג.",
+              "hr": "Slaviti Treperave plamenove kao Ferrovijanci. Vrijeme je za bitku snježnim grudama.",
+              "it": "Festeggia le Fiamme tremolanti come fanno i Ferroviani. È il momento di una battaglia a palle di neve.",
+              "ja": "フェロヴィアの人々のように「揺らめく炎」を祝いましょう。雪合戦の時間です。",
+              "ko-KR": "페로비아 주민들처럼 '점멸하는 불꽃'을 즐기세요. 눈싸움할 시간이에요.",
+              "no": "Feir Flakkende flammer slik Ferrovians gjør. Tid for snøballkamp.",
+              "pl": "Świętuj Migocące Płomienie tak jak Ferrovianie. Czas na bitwę na śnieżki.",
+              "pt": "Celebrar as Chamas tremeluzentes como os ferrovianos. Está na hora de uma batalha de bolas de neve.",
+              "pt-BR": "Celebre as Chamas Trêmulas como os ferrovianos fazem. Hora de uma batalha de bolas de neve.",
+              "ru": "Отпразднуйте «Мерцающие огоньки», как это делают ферровианцы. Пора устроить снежный бой.",
+              "sr": "Proslavite Treperave plamenove kao što rade Ferovijani. Vreme je za bitku grudvama.",
+              "tr": "Ferrovia'lılar gibi Titrek Alevler'i kutlayın. Kartopu savaşı zamanı.",
+              "uk": "Святкуйте Мерехтливе полум'я так, як це роблять ферровійці. Час для сніжкової битви.",
+              "zh-CN": "像费罗维亚人那样庆祝摇曳火光吧，该打一场雪球大战了。",
+              "zh-TW": "像費洛維亞人那樣慶祝閃爍之光吧，該打一場雪球大戰了。"
+            },
+            "questGameAssetId": "160439747",
+            "tiers": [10],
+            "valueRequired": 10
+          }
+        ],
+        "requirementItemIds": [],
+        "rewards": [
+          {
+            "itemId": "acoustic_guitar",
+            "quantity": 1
+          },
+          {
+            "itemId": "fireworks_box",
+            "quantity": 3
+          },
+          {
+            "itemId": "harmonica",
+            "quantity": 1
+          },
+          {
+            "itemId": "grappling_hook",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "En tjeneste for Vaulto",
+          "de": "Ein Gefallen für Vaulto",
+          "en": "A Favor for Vaulto",
+          "es": "Un favor para Vaulto",
+          "fr": "Une faveur pour Vaulto",
+          "he": "טובה לוולטו",
+          "hr": "Usluga za Vaulto",
+          "it": "Un favore per Vaulto",
+          "ja": "ヴォルトの頼み事",
+          "ko-KR": "볼토를 위한 부탁",
+          "no": "En tjeneste for Vaulto",
+          "pl": "Przysługa dla Vaulto",
+          "pt": "Um Favor para o Vaulto",
+          "pt-BR": "Um favor para Vaulto",
+          "ru": "Одолжение для Волто",
+          "sr": "Usluga za Vaultoa",
+          "tr": "Vaulto İçin Bir İyilik",
+          "uk": "Послуга для Волто",
+          "zh-CN": "为沃尔托帮个忙",
+          "zh-TW": "幫華爾托一個忙"
+        },
+        "description": {
+          "da": "Vaulto gunstiger dem, der hjælper andre med at vende sikkert tilbage til Toledo. Undslip sammen med andre Raiders for at tjene lidt goodwill.",
+          "de": "Vaulto begünstigt jene, die anderen helfen, sicher nach Toledo zurückzukehren. Extrahiere gemeinsam mit anderen Raidern, um dir etwas Wohlwollen zu verdienen.",
+          "en": "Vaulto favors those who help others return to Toledo safely. Extract with your fellow Raiders to earn some goodwill.",
+          "es": "Vaulto favorece a quienes ayudan a otros a volver a Toledo sin peligro. Extrae con tus compañeros Raiders para ganar algo de buena voluntad.",
+          "fr": "Vaulto favorise ceux qui aident les autres à rentrer à Toledo sains et saufs. Extrais avec tes compagnons Raiders pour gagner un peu de bienveillance.",
+          "he": "ולטו מעניק את חסדו למי שעוזר לאחרים לחזור לטולדו בשלום. צא מהשטח עם שאר הריידרים כדי לצבור קצת רצון טוב.",
+          "hr": "Vaulto je naklonjen onima koji pomažu drugima da se sigurno vrate u Toledo. Izvući se zajedno s ostalim Raiderima i steći naklonost.",
+          "it": "Vaulto favorisce chi aiuta gli altri a tornare sani e salvi a Toledo. Evacua insieme ai tuoi compagni Raider per guadagnare un po' di buona volontà.",
+          "ja": "ヴォルトは、他の人がトレドへ無事に戻れるよう助けた者に好意を示します。仲間のレイダーと共に脱出して、好感を得ましょう。",
+          "ko-KR": "볼토는 다른 이들이 톨레도로 안전하게 돌아오도록 돕는 이들에게 호의를 베풀어요. 동료 레이더들과 함께 탈출해서 선의를 쌓으세요.",
+          "no": "Vaulto gunstiger dem som hjelper andre å komme trygt tilbake til Toledo. Ta deg ut sammen med andre Raidere for å tjene litt velvilje.",
+          "pl": "Vaulto sprzyja tym, którzy pomagają innym bezpiecznie wrócić do Toledo. Ewakuuj się z innymi łupieżcami, aby zyskać nieco dobrej woli.",
+          "pt": "O Vaulto favorece quem ajuda outros a regressar a Toledo em segurança. Extrair com os colegas Raiders para ganhar boa vontade.",
+          "pt-BR": "Vaulto favorece quem ajuda outros a voltar a Toledo em segurança. Extraia com seus companheiros Raiders para ganhar um pouco de boa vontade.",
+          "ru": "Волто благоволит тем, кто помогает другим безопасно вернуться в Толедо. Эвакуируйтесь вместе с другими рейдерами, чтобы заработать немного расположения.",
+          "sr": "Vaulto naklonjen je onima koji pomažu drugima da se bezbedno vrate u Toledo. Izvucite se sa saborcima rejderima da zaradite malo dobre volje.",
+          "tr": "Vaulto, başkalarının Toledo'ya güvenle dönmesine yardım edenleri kayırır. İyi niyet kazanmak için diğer Raider'larınızla birlikte çıkış yapın.",
+          "uk": "Волто прихильний до тих, хто допомагає іншим безпечно повернутися до Толедо. Евакуюйтеся разом з іншими рейдерами, щоб заслужити його прихильність.",
+          "zh-CN": "沃尔托会优待那些帮助他人安全返回托雷多的人。与其他奇袭者一起撤离，赢得些许善意。",
+          "zh-TW": "華爾托會優待那些幫助他人安全返回托雷多的人。與其他掠手一起撤離，贏得些許善意。"
+        },
+        "phase": 4,
+        "requirementCategories": [
+          {
+            "category": "QuestComplete_Extract",
+            "kind": "checkbox",
+            "localizations": {
+              "da": "Vaulto gunstiger dem, der hjælper andre med at vende sikkert tilbage til Toledo. Undslip sammen med andre Raiders for at tjene lidt goodwill.",
+              "de": "Vaulto begünstigt jene, die anderen helfen, sicher nach Toledo zurückzukehren. Extrahiere gemeinsam mit anderen Raidern, um dir etwas Wohlwollen zu verdienen.",
+              "en": "Vaulto favors those who help others return to Toledo safely. Extract with your fellow Raiders to earn some goodwill.",
+              "es": "Vaulto favorece a quienes ayudan a otros a volver a Toledo sin peligro. Extrae con tus compañeros Raiders para ganar algo de buena voluntad.",
+              "fr": "Vaulto favorise ceux qui aident les autres à rentrer à Toledo sains et saufs. Extrais avec tes compagnons Raiders pour gagner un peu de bienveillance.",
+              "he": "ולטו מעניק את חסדו למי שעוזר לאחרים לחזור לטולדו בשלום. צא מהשטח עם שאר הריידרים כדי לצבור קצת רצון טוב.",
+              "hr": "Vaulto je naklonjen onima koji pomažu drugima da se sigurno vrate u Toledo. Izvući se zajedno s ostalim Raiderima i steći naklonost.",
+              "it": "Vaulto favorisce chi aiuta gli altri a tornare sani e salvi a Toledo. Evacua insieme ai tuoi compagni Raider per guadagnare un po' di buona volontà.",
+              "ja": "ヴォルトは、他の人がトレドへ無事に戻れるよう助けた者に好意を示します。仲間のレイダーと共に脱出して、好感を得ましょう。",
+              "ko-KR": "볼토는 다른 이들이 톨레도로 안전하게 돌아오도록 돕는 이들에게 호의를 베풀어요. 동료 레이더들과 함께 탈출해서 선의를 쌓으세요.",
+              "no": "Vaulto gunstiger dem som hjelper andre å komme trygt tilbake til Toledo. Ta deg ut sammen med andre Raidere for å tjene litt velvilje.",
+              "pl": "Vaulto sprzyja tym, którzy pomagają innym bezpiecznie wrócić do Toledo. Ewakuuj się z innymi łupieżcami, aby zyskać nieco dobrej woli.",
+              "pt": "O Vaulto favorece quem ajuda outros a regressar a Toledo em segurança. Extrair com os colegas Raiders para ganhar boa vontade.",
+              "pt-BR": "Vaulto favorece quem ajuda outros a voltar a Toledo em segurança. Extraia com seus companheiros Raiders para ganhar um pouco de boa vontade.",
+              "ru": "Волто благоволит тем, кто помогает другим безопасно вернуться в Толедо. Эвакуируйтесь вместе с другими рейдерами, чтобы заработать немного расположения.",
+              "sr": "Vaulto naklonjen je onima koji pomažu drugima da se bezbedno vrate u Toledo. Izvucite se sa saborcima rejderima da zaradite malo dobre volje.",
+              "tr": "Vaulto, başkalarının Toledo'ya güvenle dönmesine yardım edenleri kayırır. İyi niyet kazanmak için diğer Raider'larınızla birlikte çıkış yapın.",
+              "uk": "Волто прихильний до тих, хто допомагає іншим безпечно повернутися до Толедо. Евакуюйтеся разом з іншими рейдерами, щоб заслужити його прихильність.",
+              "zh-CN": "沃尔托会优待那些帮助他人安全返回托雷多的人。与其他奇袭者一起撤离，赢得些许善意。",
+              "zh-TW": "華爾托會優待那些幫助他人安全返回托雷多的人。與其他掠手一起撤離，贏得些許善意。"
+            },
+            "questGameAssetId": "679920890",
+            "tiers": [2],
+            "valueRequired": 2
+          }
+        ],
+        "requirementItemIds": [],
+        "rewards": [
+          {
+            "itemId": "dolabra",
+            "quantity": 1
+          },
+          {
+            "itemId": "tether_launcher",
+            "quantity": 1
+          },
+          {
+            "itemId": "raider_hatch_key",
+            "quantity": 1
+          },
+          {
+            "itemId": "defibrillator",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": {
+          "da": "Afgørende handling",
+          "de": "Entscheidende Aktion",
+          "en": "Decisive Action",
+          "es": "Acción decisiva",
+          "fr": "Action décisive",
+          "he": "פעולה החלטית",
+          "hr": "Odlučna akcija",
+          "it": "Azione decisiva",
+          "ja": "決定的行動",
+          "ko-KR": "결정적 행동",
+          "no": "Avgjørende handling",
+          "pl": "Zdecydowane działanie",
+          "pt": "Ação Decisiva",
+          "pt-BR": "Ação decisiva",
+          "ru": "Решительные действия",
+          "sr": "Odlučujuća akcija",
+          "tr": "Kararlı eylem",
+          "uk": "Рішучі дії",
+          "zh-CN": "决定性行动",
+          "zh-TW": "決定性行動"
+        },
+        "description": {
+          "da": "Murteta har mistet mange Raiders i de voldsomme snestorme på Pendola Pas. De vil have dig til at hjælpe med at svække Queen.",
+          "de": "Murteta hat auf dem Pendola-Pass durch die heftigen Schneestürme viele Raider verloren. Sie wollen, dass du hilfst, die Königin zu schwächen.",
+          "en": "Murteta has been losing many Raiders to the fierce blizzards on Pendola Pass. They want you to help weaken the Queen.",
+          "es": "Murteta ha perdido a muchos Raiders por las feroces ventiscas del Paso Pendola. Quieren que les ayudes a debilitar a la Reina.",
+          "fr": "Murteta perd beaucoup de Raiders à cause des violentes tempêtes de neige au Col de Pendola. Ils veulent que tu les aides à affaiblir la Reine.",
+          "he": "ריידרים רבים של מורטטה אבדו לסופות השלג העזות במעבר פנדולה. הם רוצים שתעזור להחליש את המלכה.",
+          "hr": "Murteta gubi mnoge Raidere zbog žestokih mećava na Pendola Prolazu. Žele pomoć u slabljenju Kraljice.",
+          "it": "Murteta ha perso molti Raider a causa delle feroci bufere di neve sul Passo di Pendola. Vogliono che tu li aiuti a indebolire la Regina.",
+          "ja": "ムルテタは、ペンドラ・パスの猛吹雪によって多くのレイダーを失い続けています。クイーンの弱体化に力を貸してほしいとのことです。",
+          "ko-KR": "무르테타는 펜돌라 고개의 거센 눈보라에 많은 레이더를 잃고 있어요. 그들은 퀸을 약화시키는 일에 당신이 도와주기를 바라고 있어요.",
+          "no": "Murteta har mistet mange Raidere til de harde snøstormene på Pendola Pass. De vil at du skal hjelpe til med å svekke dronningen.",
+          "pl": "Murteta traci wielu łupieżców w srogich zamieciach na przełęczy Pendola. Chcą, żebyś pomógł osłabić Królową.",
+          "pt": "A Murteta tem perdido muitos Raiders para as ferozes tempestades de neve na Passagem Pendola. Pedem ajuda para enfraquecer a Rainha.",
+          "pt-BR": "Murteta vem perdendo muitos Raiders para as ferozes nevascas da Passagem Pendola. Eles querem que você ajude a enfraquecer a Rainha.",
+          "ru": "Муртета теряет много рейдеров в свирепых метелях на перевале Пендола. Они просят вас помочь ослабить «Королеву».",
+          "sr": "Murteta gubi mnoge rejdere zbog žestokih mećava na Pendola Prolazu. Traže da im pomognete da oslabe Queen.",
+          "tr": "Murteta, Pendola Geçidi'ndeki şiddetli tipilerde birçok Raider kaybediyor. Kraliçeyi zayıflatmanıza yardım etmenizi istiyorlar.",
+          "uk": "Муртета втрачає багатьох рейдерів через люті хуртовини на перевалі Пендола. Вони просять вас допомогти послабити Королеву.",
+          "zh-CN": "穆尔泰塔的许多奇袭者在彭多拉山口的猛烈暴风雪中折损。他们希望你帮忙削弱女王。",
+          "zh-TW": "穆爾特塔的許多掠手在彭多拉隘口的猛烈暴風雪中折損。他們希望你幫忙削弱女王。"
+        },
+        "phase": 5,
+        "requirementCategories": [
+          {
+            "category": "ArcDamage",
+            "kind": "damage_tiers",
+            "questGameAssetId": "820484356",
+            "tiers": [1500],
+            "valueRequired": 1500
+          }
+        ],
+        "requirementItemIds": [],
+        "rewards": [
+          {
+            "itemId": "snap_hook",
+            "quantity": 1
+          },
+          {
+            "itemId": "powered_descender",
+            "quantity": 1
+          },
+          {
+            "itemId": "wolfpack",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "endDate": 1798416000,
+    "startDate": 1796734800
   }
 ]

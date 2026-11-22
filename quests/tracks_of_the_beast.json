@@ -18,7 +18,7 @@
     "ru": "Следы чудища",
     "sr": "Tragovi Zveri",
     "tr": "Canavarın İzleri",
-    "uk": "Сліди Звіра",
+    "uk": "Слідами чудовиська",
     "zh-CN": "巨兽踪迹",
     "zh-TW": "野獸的蹤跡"
   },
@@ -58,7 +58,7 @@
     "ru": "Участок от Северных путей до «Императора» кишит незнакомой нам техникой ARC. Нужно понаблюдать за ней, чтобы не угодить в западню на самых подступах к «Императору».",
     "sr": "Deo od Severnih šina do Imperatora vrvi od nepoznatih ARC jedinica. Treba da ih uočim, ili bismo mogli da uletimo u smrtonosnu zamku pre nego što uopšte počnemo da se probijamo do Imperatora.",
     "tr": "Kuzey patikalarından İmparator'a uzanan alanda bilinmedik ARC birimleri kol geziyor. Onların gözetilmesi gerek. Yoksa İmparator'da gedik bile açamadan faka basarız.",
-    "uk": "Ділянка від Північних колій до Імператора кишить незнайомими підрозділами ARC. Мені потрібно їх виявити, інакше ми можемо потрапити в смертельну пастку, перш ніж ми зможемо навіть почати прорив до Імператора.",
+    "uk": "Ділянка від північної колії до Імператора кишить невідомими юнітами ARC. Мені потрібні розвіддані про них, інакше ми потрапимо в смертельну пастку ще до того, як взагалі спробуємо пробратися всередину Імператора.",
     "zh-CN": "从北部轨道到“帝王”机器的这一段，全是陌生的ARC单位。我得盯着它们，不然还没等我们攻破“帝王”机器，可能就已经自取灭亡了。",
     "zh-TW": "從北方軌道到皇帝之間的路段，到處都是陌生的ARC單位。我需要有人替我盯著它們，否則我們甚至還沒開始侵入皇帝，就可能已經踏進死亡陷阱了。"
   },
@@ -81,7 +81,7 @@
       "ru": "Отправляйтесь к Северным путям от перевала Пендола.",
       "sr": "Na prevoju Pendola, uputi se ka Severnim šinama",
       "tr": "Pendola Geçidi'nde Kuzey Raylarına git",
-      "uk": "На перевалі Пендола прямуйте до Північних колій",
+      "uk": "На маршруті Пендола вирушайте до північних колій",
       "zh-CN": "在彭多拉山口，前往北部铁轨",
       "zh-TW": "在彭多拉隘口，前往北方軌道"
     },
@@ -103,7 +103,7 @@
       "ru": "Найдите разрушенную станцию в конце путей.",
       "sr": "Pronađi uništenu stanicu na kraju šina",
       "tr": "Rayların sonundaki yok edilmiş istasyonu bul",
-      "uk": "Знайдіть зруйновану станцію наприкінці колій",
+      "uk": "Знайти зруйновану станцію в кінці колії",
       "zh-CN": "找到铁轨尽头的车站废墟",
       "zh-TW": "找到軌道盡頭被摧毀的車站"
     },
@@ -125,7 +125,7 @@
       "ru": "Отметьте «Задиру».",
       "sr": "Pinguj Bulija",
       "tr": "Bir Zorba işaretle",
-      "uk": "Відмітьте Задираку",
+      "uk": "Поставити пінг на Забіяку",
       "zh-CN": "标记1个“恶霸”",
       "zh-TW": "標記1台惡霸"
     },
@@ -147,7 +147,7 @@
       "ru": "Отметьте «Проныру».",
       "sr": "Pinguj Skulera",
       "tr": "Bir Pusucu işaretle",
-      "uk": "Відмітьте Скрадальника",
+      "uk": "Поставити пінг на Нишпорку",
       "zh-CN": "标记1个“潜伏者”",
       "zh-TW": "標記1台潛行者"
     },
@@ -169,7 +169,7 @@
       "ru": "Уничтожьте «Проныр»: 3.",
       "sr": "Uništi 3 Skulera",
       "tr": "3 Pusucu yok et",
-      "uk": "Знищіть 3 Скрадальників",
+      "uk": "Знищити Нишпорок: 3",
       "zh-CN": "摧毁3个“潜伏者”",
       "zh-TW": "摧毀3台潛行者"
     },
@@ -191,7 +191,7 @@
       "ru": "Доставьте Шани прицельную систему «Проныры».",
       "sr": "Dostavi Skuler nišan Šani",
       "tr": "Shani'ye bir Pusucu Hedefleyicisi teslim et",
-      "uk": "Доставте цілевказівник Скрадальника Шані",
+      "uk": "Доставити Шані націлювач Нишпорки",
       "zh-CN": "将1个“潜伏者”瞄准组件交付给萨尼",
       "zh-TW": "將一個潛行者標定器送去給珊妮"
     }
@@ -210,7 +210,7 @@
   "previousQuestIds": ["exploring_pendola_pass"],
   "nextQuestIds": ["belly_of_the_beast", "bait_fetch_blast"],
   "videoUrl": "https://youtu.be/voCnVrx-tng",
-  "updatedAt": "10/07/2026",
+  "updatedAt": "11/20/2026",
   "objectiveTree": {
     "id": "398535336",
     "children": [
@@ -266,7 +266,7 @@
       "ru": "Отследите «Проныру» и «Задиру».",
       "sr": "Prati Skulera i Bulija",
       "tr": "Pusucu ve Zorba'nın izini sür",
-      "uk": "Відстежте Скрадальника та Задираку",
+      "uk": "Відстежити Нишпорку й Забіяку",
       "zh-CN": "追踪“潜伏者”和“恶霸”",
       "zh-TW": "追蹤潛行者和惡霸"
     },

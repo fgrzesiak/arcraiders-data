@@ -1,5 +1,645 @@
 [
   {
+    "id": "kettle_iii",
+    "name": {
+      "da": "Kedel III",
+      "de": "Kettle III",
+      "en": "Kettle III",
+      "es": "Caldero III",
+      "fr": "Fondoir III",
+      "he": "קטל III",
+      "hr": "Kotlić III",
+      "it": "Stormo III",
+      "ja": "ケトル III",
+      "ko-KR": "케틀 III",
+      "no": "Kjele III",
+      "pl": "Kociołek III",
+      "pt": "Chaleira III",
+      "pt-BR": "Chaleira III",
+      "ru": "Чайник III",
+      "sr": "Čajnik III",
+      "tr": "Isıtıcı III",
+      "uk": "Казан III",
+      "zh-CN": "水壶 III",
+      "zh-TW": "水壺 III"
+    },
+    "description": {
+      "da": "Halvautomatisk stormgevær. Hurtigt og præcist, men har lav projektilhastighed og tager lang tid at genlade.",
+      "de": "Ein halbautomatisches Sturmgewehr. Es ist schnell und präzise, doch die Kugeln fliegen recht langsam und das Nachladen dauert lange.",
+      "en": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time to reload.",
+      "es": "Fusil de asalto semiautomático. Es rápido y preciso, pero cuenta con una velocidad de las balas baja y se tarda mucho en recargar.",
+      "fr": "Fusil d'assaut semi-automatique. Rapide et précis, mais la vitesse de ses balles est faible et son rechargement est long.",
+      "he": "רובה סער חצי-אוטומטי. מהיר ומדויק, אך בעל מהירות קליע נמוכה ולוקח זמן רב לטעון אותו מחדש.",
+      "hr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se ponovno puni.",
+      "it": "Fucile d'assalto semiautomatico. È rapido e preciso, ma ha una velocità dei proiettili ridotta e richiede molto tempo per essere ricaricato.",
+      "ja": "セミオートのアサルトライフル。素早くて正確だが弾速は遅く、リロードに時間がかかる。",
+      "ko-KR": "빠르고 정확하게 발사하지만 탄속이 느리고 재장전 시간이 오래 걸리는 반자동 돌격 소총입니다.",
+      "no": "Halvautomatisk automatgevær. Raskt og presist, men har lav kulehastighet og tar lang tid å lade om.",
+      "pl": "Szturmowy karabin samopowtarzalny. Szybki i celny, ale wystrzeliwuje pociski z małą prędkością, a przeładowywanie go zajmuje dużo czasu.",
+      "pt": "Fuzil de assalto semiautomático. Rápido e preciso, mas possui baixa velocidade de projétil e demora muito para recarregar.",
+      "pt-BR": "Fuzil de assalto semiautomático. Veloz e preciso, mas tem baixa velocidade de projétil e demora muito tempo para recarregar.",
+      "ru": "Полуавтоматическая штурмовая винтовка. Быстрая и точная, но отличается низкой скоростью пуль и требует много времени на перезарядку.",
+      "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se puni.",
+      "tr": "Yarı otomatik taarruz tüfeği. Hızlı ve isabetlidir ancak mermi hızı düşük ve yeniden doldurma süresi uzundur.",
+      "uk": "Самозарядна штурмова гвинтівка. Має високі точність і скорострільність, але низьку швидкість кулі і повільно перезаряджається.",
+      "zh-CN": "半自动射击的突击步枪，射速快，精准度高，但子弹初速较低，且装弹时间长。",
+      "zh-TW": "半自動突擊步槍。快速而準確，但子彈速度較低且裝填時間較長。"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "value": 3000,
+    "weightKg": 7,
+    "stackSize": 1,
+    "isWeapon": true,
+    "effects": {
+      "Ammo Type": {
+        "value": "Light Ammo",
+        "da": "Ammunitionstype",
+        "de": "Munitionstyp",
+        "en": "Ammo Type",
+        "es": "Tipo de munición",
+        "fr": "Type de munitions",
+        "he": "סוג תחמושת",
+        "hr": "Vrsta streljiva",
+        "it": "Tipo di munizioni",
+        "ja": "弾薬タイプ",
+        "ko-KR": "탄약 유형",
+        "no": "Ammunisjonstype",
+        "pl": "Typ amunicji",
+        "pt": "Tipo de munição",
+        "pt-BR": "Tipo de munição",
+        "ru": "Тип боеприпасов",
+        "sr": "Vrsta municije",
+        "tr": "Mermi Türü",
+        "uk": "Тип боєприпасів",
+        "zh-CN": "弹药类型",
+        "zh-TW": "彈藥類型"
+      },
+      "ARC Armor Penetration": {
+        "value": "Very Weak",
+        "da": "ARC-rustningspenetrering",
+        "de": "ARC-Panzerungsdurchdringung",
+        "en": "ARC Armor Penetration",
+        "es": "Penetración de armadura ARC",
+        "fr": "Pénétration d'armure ARC",
+        "he": "חדירת שריון ARC",
+        "hr": "ARC probijanje oklopa",
+        "it": "Penetrazione armature ARC",
+        "ja": "ARC装甲貫通",
+        "ko-KR": "아크 장갑판 관통력",
+        "no": "ARC-rustningspenetrering",
+        "pl": "Przebicie pancerza ARC",
+        "pt": "Penetração de armadura ARC",
+        "pt-BR": "Penetração contra blindagem ARC",
+        "ru": "Пробитие брони ARC",
+        "sr": "ARC probijanje oklopa",
+        "tr": "ARC Zırh Delme",
+        "uk": "Пробиття броні ARC",
+        "zh-CN": "ARC 护甲穿透",
+        "zh-TW": "ARC 護甲穿透"
+      },
+      "Critical Hit Multiplier": {
+        "value": "2.5x",
+        "da": "Kritisk Træffer Multiplikator",
+        "de": "Kritischer-Treffer-Multiplikator",
+        "en": "Critical Hit Multiplier",
+        "es": "Multiplicador de golpe crítico",
+        "fr": "Multiplicateur de coup critique",
+        "he": "מכפיל מכה קריטית",
+        "hr": "Množitelj kritičnog pogotka",
+        "it": "Moltiplicatore colpi critici",
+        "ja": "クリティカルヒット倍率",
+        "ko-KR": "치명타 배수",
+        "no": "Kritisk treff-multiplikator",
+        "pl": "Mnożnik obrażeń krytycznych",
+        "pt": "Multiplicador de Dano Crítico",
+        "pt-BR": "Multiplicador de acerto crítico",
+        "ru": "Множитель критического урона",
+        "sr": "Množilac kritičnog pogotka",
+        "tr": "Kritik Vuruş Çarpanı",
+        "uk": "Множник критичного удару",
+        "zh-CN": "暴击系数",
+        "zh-TW": "爆擊倍率"
+      },
+      "Damage Falloff Range": {
+        "value": "130-150 m",
+        "da": "Skadesfald-afstand",
+        "de": "Schadensabfall-Reichweite",
+        "en": "Damage Falloff Range",
+        "es": "Alcance de pérdida de daño",
+        "fr": "Portée de perte de dégâts",
+        "he": "טווח דעיכת נזק",
+        "hr": "Domet opadanja štete",
+        "it": "Raggio di calo del danno",
+        "ja": "ダメージ減衰距離",
+        "ko-KR": "피해 감소 거리",
+        "no": "Skadefall-rekkevidde",
+        "pl": "Zasięg spadku obrażeń",
+        "pt": "Alcance da queda de dano",
+        "pt-BR": "Alcance da queda de dano",
+        "ru": "Дистанция спада урона",
+        "sr": "Domet opadanja štete",
+        "tr": "Hasar Azalma Menzili",
+        "uk": "Дистанція спаду шкоди",
+        "zh-CN": "伤害衰减距离",
+        "zh-TW": "傷害衰減距離"
+      },
+      "Durability": {
+        "value": "120/120",
+        "da": "Holdbarhed",
+        "de": "Haltbarkeit",
+        "en": "Durability",
+        "es": "Durabilidad",
+        "fr": "Durabilité",
+        "he": "עמידות",
+        "hr": "Izdržljivost",
+        "it": "Tenuta",
+        "ja": "耐久性",
+        "ko-KR": "내구도",
+        "no": "Holdbarhet",
+        "pl": "Wytrzymałość",
+        "pt": "Durabilidade",
+        "pt-BR": "Durabilidade",
+        "ru": "Прочность",
+        "sr": "Izdržljivost",
+        "tr": "Dayanıklılık",
+        "uk": "Міцність",
+        "zh-CN": "耐久度",
+        "zh-TW": "耐久度"
+      },
+      "Firing Mode": {
+        "value": "Semi-Automatic",
+        "da": "Skydningstilstand",
+        "de": "Feuermodus",
+        "en": "Firing Mode",
+        "es": "Modo de disparo",
+        "fr": "Mode de tir",
+        "he": "מצב ירי",
+        "hr": "Način pucanja",
+        "it": "Modalità di fuoco",
+        "ja": "射撃モード",
+        "ko-KR": "발사 모드",
+        "no": "Skyttemodus",
+        "pl": "Tryb ognia",
+        "pt": "Modo de disparo",
+        "pt-BR": "Modo de disparo",
+        "ru": "Режим стрельбы",
+        "sr": "Režim pucanja",
+        "tr": "Atış Modu",
+        "uk": "Режим стрільби",
+        "zh-CN": "射击模式",
+        "zh-TW": "射擊模式"
+      },
+      "Increased Bullet Velocity": {
+        "value": "50%",
+        "da": "Øget kuglehastighed",
+        "de": "Erhöhte Geschossgeschwindigkeit",
+        "en": "Increased Bullet Velocity",
+        "es": "Velocidad de bala aumentada",
+        "fr": "Vélocité des balles augmentée",
+        "he": "מהירות קליע מוגברת",
+        "hr": "Povećana brzina metka",
+        "it": "Velocità proiettile aumentata",
+        "ja": "弾速増加",
+        "ko-KR": "탄환 속도 증가",
+        "no": "Økt kulehastighet",
+        "pl": "Zwiększona prędkość pocisku",
+        "pt": "Velocidade de bala aumentada",
+        "pt-BR": "Aumento da Velocidade do Projétil",
+        "ru": "Увеличенная скорость пули",
+        "sr": "Povećana brzina metka",
+        "tr": "Artırılmış Mermi Hızı",
+        "uk": "Збільшена швидкість кулі",
+        "zh-CN": "子弹速度提升",
+        "zh-TW": "子彈速度提升"
+      },
+      "Magazine Size": {
+        "value": 20,
+        "da": "Magasinstørrelse",
+        "de": "Magazingröße",
+        "en": "Magazine Size",
+        "es": "Tamaño del cargador",
+        "fr": "Taille du chargeur",
+        "he": "גודל מחסנית",
+        "hr": "Veličina spremnika",
+        "it": "Dimensioni caricatore",
+        "ja": "マガジンサイズ",
+        "ko-KR": "탄창 크기",
+        "no": "Magasinstørrelse",
+        "pl": "Rozmiar magazynka",
+        "pt": "Tamanho do carregador",
+        "pt-BR": "Tamanho do Pente",
+        "ru": "Размер магазина",
+        "sr": "Veličina okvira",
+        "tr": "Şarjör Boyutu",
+        "uk": "Розмір магазину",
+        "zh-CN": "弹匣容量",
+        "zh-TW": "彈匣容量"
+      },
+      "Reduced Reload Time": {
+        "value": "26%",
+        "da": "Reduceret genindlæsningstid",
+        "de": "Verringerte Nachladezeit",
+        "en": "Reduced Reload Time",
+        "es": "Tiempo de recarga reducido",
+        "fr": "Temps de rechargement réduit",
+        "he": "זמן טעינה מופחת",
+        "hr": "Smanjeno vrijeme punjenja",
+        "it": "Tempo di ricarica ridotto",
+        "ja": "リロード時間短縮",
+        "ko-KR": "재장전 시간 감소",
+        "no": "Redusert ladetid",
+        "pl": "Skrócony czas przeładowania",
+        "pt": "Tempo de recarga reduzido",
+        "pt-BR": "Tempo de Recarga Reduzido",
+        "ru": "Сокращённое время перезарядки",
+        "sr": "Smanjeno vrijeme punjenja",
+        "tr": "Azaltılmış yeniden doldurma süresi",
+        "uk": "Скорочений час перезаряджання",
+        "zh-CN": "装弹时间缩短",
+        "zh-TW": "降低換彈時間"
+      }
+    },
+    "craftBench": "weapon_bench",
+    "recyclesInto": {
+      "metal_parts": 12,
+      "simple_gun_parts": 1
+    },
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
+    "upgradeCost": {
+      "metal_parts": 10,
+      "simple_gun_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/v2/kettle_iii.png",
+    "updatedAt": "03/17/2026",
+    "addedIn": "base",
+    "mechanics": {
+      "classification": {
+        "category": "Firearm.AssaultRifle",
+        "dropType": [
+          "Equipment.Weapon.Firearm.LightAmmo"
+        ],
+        "itemType": [
+          "Weapon.Firearm"
+        ],
+        "questGroups": [
+          "Items.AllWeapons",
+          "Items.LightAmmoWeapon",
+          "Items.SpecificWeapon.Kettle"
+        ]
+      },
+      "weapon": {
+        "ammoItem": "light_ammo",
+        "arc": {
+          "armorMultiplier": 0.2,
+          "propagationMultiplier": 0.1
+        },
+        "base": {
+          "adsTimeSec": 0.6,
+          "burnRate": 0.001607,
+          "burstSize": 1,
+          "clipSize": 20,
+          "firePower": 40000,
+          "fireRate": 450,
+          "multiShotPattern": {
+            "fromDefault": [
+              "move",
+              "grow",
+              "minSize"
+            ],
+            "grow": 1,
+            "minSize": 0,
+            "move": 0
+          },
+          "physicalDamage": 8.5,
+          "reloadTimeSec": 4.5
+        },
+        "damageFalloff": [
+          [
+            0,
+            1.2
+          ],
+          [
+            5,
+            1.2
+          ],
+          [
+            15,
+            1.001
+          ],
+          [
+            130,
+            1.001
+          ],
+          [
+            150,
+            0.6
+          ]
+        ],
+        "dispersion": {
+          "adsDuration": 1.7,
+          "adsRecoveryMultiplier": 0.725,
+          "adsScale": 0.4,
+          "fireGain": [
+            [
+              0,
+              0.1,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              3,
+              0.1,
+              0.14,
+              0.14,
+              "cubic"
+            ],
+            [
+              5,
+              0.8,
+              0,
+              0,
+              "cubic"
+            ],
+            [
+              20,
+              0.8,
+              0,
+              0,
+              "linear"
+            ]
+          ],
+          "fireMax": 2,
+          "linearRecovery": true,
+          "max": 6,
+          "min": 0.05,
+          "perStance": {
+            "crouching": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.7,
+              "adsRecoveryMultiplier": 0.625,
+              "adsScale": 0.1,
+              "dispersion": 1.5,
+              "overrideAdsDispersion": true,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed"
+              ]
+            },
+            "crouchMoving": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.7,
+              "adsRecoveryMultiplier": 0.625,
+              "adsScale": 0.1,
+              "dispersion": 1.5,
+              "overrideAdsDispersion": true,
+              "recoverySpeed": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed"
+              ]
+            },
+            "falling": {
+              "dispersion": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed",
+                "adsRecoveryMultiplier",
+                "overrideAdsDispersion",
+                "adsScale",
+                "adsDuration",
+                "adsFireDispersionMultiplier"
+              ]
+            },
+            "sprinting": {
+              "adsRecoveryMultiplier": 0.725,
+              "dispersion": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed",
+                "overrideAdsDispersion",
+                "adsScale",
+                "adsDuration",
+                "adsFireDispersionMultiplier"
+              ]
+            },
+            "standing": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.8,
+              "adsRecoveryMultiplier": 0.725,
+              "adsScale": 0.1,
+              "dispersion": 2.5,
+              "overrideAdsDispersion": true,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed"
+              ]
+            },
+            "standMoving": {
+              "adsDuration": 1.7,
+              "adsFireDispersionMultiplier": 0.8,
+              "adsRecoveryMultiplier": 0.725,
+              "adsScale": 0.1,
+              "dispersion": 2.5,
+              "overrideAdsDispersion": true,
+              "recoverySpeed": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed"
+              ]
+            },
+            "uncontrollable": {
+              "adsRecoveryMultiplier": 0.725,
+              "dispersion": 3,
+              "unset": [
+                "fireDispersionMultiplier",
+                "overrideRecoverySpeed",
+                "recoverySpeed",
+                "overrideAdsDispersion",
+                "adsScale",
+                "adsDuration",
+                "adsFireDispersionMultiplier"
+              ]
+            }
+          },
+          "popMax": 0.1,
+          "popRecoverySpeed": 0.05,
+          "recoverySpeed": 3.5,
+          "velocity": 2.5,
+          "velocityMax": 3,
+          "velocityRecovery": 6
+        },
+        "equipTimeSec": 1,
+        "headshotMultiplier": 2.5,
+        "modifiers": {
+          "bulletVelocity": 8000,
+          "durabilityBurnRate": -0.2,
+          "reloadSpeed": -0.5
+        },
+        "projectileGravityScale": 0.8,
+        "projectileInitialSpeedMs": 350,
+        "projectileRadiusM": 0.1,
+        "recoil": {
+          "adsGainMultiplier": 0.6,
+          "lerpSpeed": 0.4,
+          "pitch": [
+            [
+              0,
+              0,
+              2.8229413,
+              0,
+              "linear"
+            ],
+            [
+              2,
+              0.2,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              6,
+              2,
+              0.07372187,
+              0.07372336,
+              "linear"
+            ],
+            [
+              16,
+              7,
+              0.031883117,
+              0.03188288,
+              "linear"
+            ],
+            [
+              27.810873,
+              10,
+              0,
+              0,
+              "linear"
+            ]
+          ],
+          "pitchProceduralRange": [
+            0,
+            0.1
+          ],
+          "recoverySpeed": 0.6,
+          "sampleCount": 25,
+          "unset": [
+            "proceduralSwingSpeed",
+            "recoveryDelay"
+          ],
+          "yaw": [
+            [
+              0,
+              0,
+              -0.009839253,
+              -0.009840206,
+              "cubic"
+            ],
+            [
+              7.903513,
+              -0.12433219,
+              -0.24865048,
+              -0.24865021,
+              "cubic"
+            ],
+            [
+              15.802044,
+              0.6794237,
+              -0.017511474,
+              -0.017511474,
+              "cubic"
+            ],
+            [
+              21.71209,
+              -0.36614072,
+              0,
+              0,
+              "linear"
+            ],
+            [
+              27.98605,
+              0.30393875,
+              0,
+              0.14261085,
+              "cubic"
+            ]
+          ],
+          "yawProceduralRange": [
+            -0.7,
+            0.7
+          ]
+        },
+        "statBarOffsets": {
+          "range": 5
+        },
+        "tier": 3,
+        "unequipTimeSec": 0.4
+      }
+    },
+    "modSlots": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "repairCost": {
+      "metal_parts": 12,
+      "simple_gun_parts": 1
+    },
+    "repairDurability": 0.5,
+    "upgrades": [
+      {
+        "cost": {
+          "mechanical_components": 3,
+          "simple_gun_parts": 1
+        },
+        "to": "kettle_iv"
+      }
+    ],
+    "upgradesTo": "kettle_iv"
+  },
+  {
     "id": "kettle_iv",
     "name": {
       "da": "Kedel IV",
@@ -19,7 +659,7 @@
       "ru": "Чайник IV",
       "sr": "Čajnik IV",
       "tr": "Isıtıcı IV",
-      "uk": "Чайник IV",
+      "uk": "Казан IV",
       "zh-CN": "水壶 IV",
       "zh-TW": "水壺 IV"
     },
@@ -41,7 +681,7 @@
       "ru": "Полуавтоматическая штурмовая винтовка. Быстрая и точная, но отличается низкой скоростью пуль и требует много времени на перезарядку.",
       "sr": "Poluautomatska jurišna puška. Brza i precizna, ali ima malu brzinu metka i dugo se puni.",
       "tr": "Yarı otomatik taarruz tüfeği. Hızlı ve isabetlidir ancak mermi hızı düşük ve yeniden doldurma süresi uzundur.",
-      "uk": "Напівавтоматична штурмова гвинтівка. Швидка та точна, але має низьку швидкість польоту кулі та довго перезаряджається.",
+      "uk": "Самозарядна штурмова гвинтівка. Має високі точність і скорострільність, але низьку швидкість кулі і повільно перезаряджається.",
       "zh-CN": "半自动射击的突击步枪，射速快，精准度高，但子弹初速较低，且装弹时间长。",
       "zh-TW": "半自動突擊步槍。快速而準確，但子彈速度較低且裝填時間較長。"
     },
@@ -686,7 +1326,7 @@
       "ru": "Умеренно увеличивает скорость стрельбы.",
       "sr": "Umereno povećava brzinu paljbe.",
       "tr": "Atış hızını orta düzeyde artırır.",
-      "uk": "Помірно збільшує швидкострільність.",
+      "uk": "Помірно збільшує скорострільність.",
       "zh-CN": "中幅度提高射速。",
       "zh-TW": "中度提升射速。"
     },
@@ -953,7 +1593,7 @@
       "ru": "Схема — Лабораторный табурет",
       "sr": "Nacrt laboratorijske stolice",
       "tr": "Laboratuvar Taburesi Tasarımı",
-      "uk": "Дизайн лабораторного табурета",
+      "uk": "Дизайн лабораторного сидіння",
       "zh-CN": "实验室高凳设计图",
       "zh-TW": "實驗室高腳椅設計"
     },
@@ -1063,7 +1703,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -1122,7 +1762,7 @@
       "ru": "Микстейп Лэнса (5-е издание)",
       "sr": "Lensova Mešavina (5. Izdanje)",
       "tr": "Lance'in Karışık Kaseti (5. sürüm)",
-      "uk": "Мікстейп Ленса (5-е видання)",
+      "uk": "Музична збірка Ленса (5-те видання)",
       "zh-CN": "兰斯的混音带（第5版）",
       "zh-TW": "蘭斯的混音帶（第5版）"
     },
@@ -1144,7 +1784,7 @@
       "ru": "Лэнс зачем-то самолично спрятал несколько таких кассет в разных местах Медного пояса.",
       "sr": "Lens je lično rasporedio nekoliko ovih po Pojasu Hrđe, iz nekog razloga.",
       "tr": "Lance bizzat bunlardan birkaç tanesini Paslı Kemer'e yerleştirdi. Nedeni bilinmez...",
-      "uk": "Ленс особисто розмістив декілька таких по всьому Іржавому Поясу, з якоїсь причини.",
+      "uk": "Ленс особисто розкидав велику кількість цих штуковин в різних частинах Мідного Поясу хтозна-чому.",
       "zh-CN": "出于某种原因，兰斯亲自在锈带周围放了不少这种磁带。",
       "zh-TW": "出於某種原因，蘭斯親自在鐵鏽帶各地藏了許多這樣的東西。"
     },
@@ -1218,7 +1858,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для виготовлення.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -1273,7 +1913,7 @@
       "ru": "Патрон для ракетницы",
       "sr": "Streljivo za Bacač",
       "tr": "Fırlatıcı Cephanesi",
-      "uk": "Патрони для гранатомета",
+      "uk": "Боєкомплект пускової установки",
       "zh-CN": "发射器弹药",
       "zh-TW": "發射器彈藥"
     },
@@ -1295,7 +1935,7 @@
       "ru": "Заряды, рассчитанные на применение против машин ARC. Используются главным образом в Бронеломе.",
       "sr": "Anti-ARC eksplozivna punjenja koja uglavnom koristi Hullcracker.",
       "tr": "Genelde Kabukkıran tarafından kullanılan ARC Karşıtı yükler.",
-      "uk": "Боєприпаси проти ARC, які переважно використовує Hullcracker.",
+      "uk": "Боєприпаси для боротьби з машинами ARC, призначені переважно для Бронелама.",
       "zh-CN": "反ARC弹头，主要供裂甲者使用。",
       "zh-TW": "反ARC彈藥，主要由碎甲者使用。"
     },
@@ -1368,7 +2008,7 @@
       "ru": "Импульсный блок «Прыгуна»",
       "sr": "Skakačeva pulsna jedinica",
       "tr": "Sıçrayıcı Vurucu Birimi",
-      "uk": "Імпульсний блок стрибуна",
+      "uk": "Імпульсний модуль Стрибуна",
       "zh-CN": "“跳跃者”脉冲单元",
       "zh-TW": "跳躍者脈衝單元"
     },
@@ -1390,7 +2030,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -1519,7 +2159,7 @@
       "ru": "Восстанавливает немного выносливости.",
       "sr": "Može se konzumirati za malu količinu izdržljivosti.",
       "tr": "Az bir miktarda enerji yenilemek için tüketilebilir.",
-      "uk": "Можна вжити для відновлення невеликої кількості витривалості.",
+      "uk": "Можна з’їсти, щоб відновити трохи сил.",
       "zh-CN": "食用后可恢复少量耐力。",
       "zh-TW": "食用後可恢復少量體力。"
     },
@@ -1633,7 +2273,7 @@
       "ru": "Фигурка «Корона левиафана»",
       "sr": "Maketa broda \"Leviathan's Crown\"",
       "tr": "\"Livyatan'ın Tacı\" Gemi Modeli",
-      "uk": "Фігурка «Корона левіафана»",
+      "uk": "Модель судна «Корона левіафана»",
       "zh-CN": "“利维坦之冠”舰船模型",
       "zh-TW": "「利維坦王冠號」船隻模型"
     },
@@ -1655,7 +2295,7 @@
       "ru": "Торговое судно, великолепное в любые времена и безразличное к аэродинамическим преимуществам стеклопластика.",
       "sr": "Veličanstven prizor u bilo kom dobu, ovaj žestoki trgovački brod ravnodušan je prema aerodinamičkim prednostima tehnologije staklenih vlakana.",
       "tr": "Her çağda görkemli bir manzara sergileyen bu güçlü ticaret gemisi, fiberglas teknolojisinin aerodinamik avantajlarına aldırış etmiyor.",
-      "uk": "Величне видовище в будь-яку епоху — цей лютий торговельний корабель байдужий до аеродинамічних переваг склопластикової технології.",
+      "uk": "Це торговельне судно ефектно виглядало б за будь-яких часів, хоч і позбавлене аеродинамічних переваг, які забезпечують композитні матеріали.",
       "zh-CN": "这艘强悍商船无论在哪个时代都尽显威严，全然不在意玻璃纤维的“那点”空气动力学优势。",
       "zh-TW": "一艘威風凜凜的商船，無論在任何時代都堪稱壯觀，但它對玻璃纖維技術所帶來的空氣動力學益處絲毫不為所動。"
     },
@@ -1699,7 +2339,7 @@
       "ru": "Книга из библиотеки",
       "sr": "Bibliotečka knjiga",
       "tr": "Kütüphane Kitabı",
-      "uk": "Бібліотечна книга",
+      "uk": "Бібліотечна книжка",
       "zh-CN": "图书馆书籍",
       "zh-TW": "圖書館書籍"
     },
@@ -1721,7 +2361,7 @@
       "ru": "Литературный шедевр, настоящая дверь в фантастические миры с бессердечно оставленными каким-то придурком загнутыми страницами.",
       "sr": "Književno remek-delo ispunjeno fantastičnim svetovima, bezdušno obeleženo od strane nekog neotesanog siledžije.",
       "tr": "Fantastik dünyalarla dolu bir edebî başyapıt. Kültürsüzün teki sayfa köşelerini kıvırmış.",
-      "uk": "Літературний шедевр, наповнений фантастичними світами, безжально зім'ятий якимось некультурним йолопом.",
+      "uk": "Літературний шедевр із зображенням фантастичних світів. Якийсь невихований бовдур позагинав кути сторінок.",
       "zh-CN": "一本描绘奇幻世界的文学巨作，却被某个粗鄙之人随意画上了记号。",
       "zh-TW": "一本描繪了各種奇幻世界的文學鉅著，卻被某個沒文化的傢伙沒心沒肺地摺了書角。"
     },
@@ -1763,7 +2403,7 @@
       "ru": "Лазерный локатор",
       "sr": "Lidar skener",
       "tr": "Işıklı Radar Tarayıcısı",
-      "uk": "Лідарний сканер",
+      "uk": "Лідар",
       "zh-CN": "激光雷达扫描仪",
       "zh-TW": "感光掃描儀"
     },
@@ -1785,7 +2425,7 @@
       "ru": "Лазерный сканер, который позволяет обнаруживать мельчайшие изменения на поверхности Земли.",
       "sr": "Skener zasnovan na laseru koji se koristi za otkrivanje najsitnijih promena na površini Zemlje",
       "tr": "Dünyanın yüzeyindeki en ince değişiklikleri bile tespit edebilen lazer tabanlı tarayıcı.",
-      "uk": "Лазерний сканер, що використовується для виявлення найтонших змін земної поверхні",
+      "uk": "Лазерний сканер, призначений для виявлення найменших змін земної поверхні.",
       "zh-CN": "一种基于激光的扫描仪，用于探测地球表面最细微的变化",
       "zh-TW": "用於探測地球表面極細微變化的雷射掃描儀"
     },
@@ -1827,7 +2467,7 @@
       "ru": "Легкий патрон",
       "sr": "Lako streljivo",
       "tr": "Hafif Cephane",
-      "uk": "Легкі патрони",
+      "uk": "Легкі набої",
       "zh-CN": "轻型弹药",
       "zh-TW": "輕型彈藥"
     },
@@ -1948,7 +2588,7 @@
       "ru": "Без света жизнь под землей просто немыслима.",
       "sr": "Bez svetla, život pod zemljom bi bio nemoguć.",
       "tr": "Işık olmasaydı yer altında yaşamak imkânsız olurdu.",
-      "uk": "Без світла життя під землею було б неможливим.",
+      "uk": "Без світла життя під землею було б неможливе.",
       "zh-CN": "要是没有光，人们就不可能在地下生活。",
       "zh-TW": "沒有光，在地下生活就是不可能的事。"
     },
@@ -1999,7 +2639,7 @@
       "ru": "Чертеж — Детали для легкого оружия",
       "sr": "Nacrt za lake delove oružja",
       "tr": "Hafif Silah Parçaları Taslağı",
-      "uk": "Креслення легких деталей зброї",
+      "uk": "Креслення легких частин зброї",
       "zh-CN": "轻型枪械零件蓝图",
       "zh-TW": "輕型槍枝零件藍圖"
     },
@@ -2021,7 +2661,7 @@
       "ru": "Позволяет создать детали для легкого оружия.",
       "sr": "Omogućava izradu lakih delova oružja",
       "tr": "Hafif Silah Parçaları üretmeni sağlar",
-      "uk": "Дозволяє створити легкі деталі зброї",
+      "uk": "Дає змогу створити деталі легкої зброї",
       "zh-CN": "可以制作轻型枪械零件",
       "zh-TW": "可製作輕型槍枝零件"
     },
@@ -2197,7 +2837,7 @@
       "ru": "Граната, которая взрывается при попадании и наносит взрывной урон в пределах небольшого радиуса.",
       "sr": "Granata koja detonira pri udaru, nanoseći eksplozivnu štetu u malom radijusu.",
       "tr": "Temas hâlinde patlayıp küçük bir tesir alanına patlayıcı hasar veren bir bomba.",
-      "uk": "Граната, що вибухає при ударі, завдаючи вибухової шкоди в невеликому радіусі.",
+      "uk": "Граната, що вибухає при ударі, завдаючи вибухових ушкоджень у малому радіусі.",
       "zh-CN": "遭受撞击即会爆炸的手雷，会在小范围内造成爆炸伤害。",
       "zh-TW": "一種手榴彈，會在撞擊時爆炸，對小範圍造成爆炸傷害。"
     },
@@ -2348,7 +2988,7 @@
       "ru": "Облегченный щит, который блокирует немного урона и не влияет на подвижность.",
       "sr": "Lagani štit koji blokira malu količinu dolazne štete bez uticaja na pokretljivost.",
       "tr": "Hareketliliği etkilemeden gelen hasarı küçük miktarda engelleyen hafif bir kalkan.",
-      "uk": "Легкий щит, що блокує невелику частину вхідної шкоди без впливу на мобільність.",
+      "uk": "Легкий щит, який блокує невелику частку шкоди, але не сповільнює рух носія.",
       "zh-CN": "一款轻型护盾，可抵挡受到的小部分伤害，但不会对机动性造成太大影响。",
       "zh-TW": "一種輕型護盾，可阻擋小部分的傷害，但不會影響機動性。"
     },
@@ -2525,7 +3165,7 @@
       "ru": "Позволяет создать облегченный приклад.",
       "sr": "Omogućava izradu lakog kundaka",
       "tr": "Hafif Dipçik üretmeni sağlar",
-      "uk": "Дозволяє створити полегшений приклад",
+      "uk": "Дає змогу створити полегшений приклад",
       "zh-CN": "可以制作轻型枪托",
       "zh-TW": "可製作輕量槍托"
     },
@@ -2591,7 +3231,7 @@
       "ru": "Умеренно улучшает стрельбу при прицеливании и скорость извлечения оружия.",
       "sr": "Umereno poboljšava ADS i brzinu izvlačenja.",
       "tr": "Nişan alma ve silah çekme hızını orta düzeyde artırır.",
-      "uk": "Помірно покращує швидкість прицілювання та діставання зброї.",
+      "uk": "Помірно покращує прицілювання через приціл і швидкість виймання зброї.",
       "zh-CN": "中幅度提高开镜和拔枪速度。",
       "zh-TW": "中度改善瞄準射擊和拔槍速度。"
     },
@@ -2867,7 +3507,7 @@
       "ru": "Граната, которая при попадании образует небольшое густое облако дыма, закрывающее обзор машинам ARC и другим рейдерам.",
       "sr": "Granata koja stvara gust ali mali oblak dima pri udaru, blokirajući vidljivost od ARC-a i drugih Rajdera.",
       "tr": "Temas hâlinde yoğun ama küçük bir sis bulutu oluşturarak ARC'ların ve diğer Raider'ların görüşünü engelleyen bir bomba.",
-      "uk": "Граната, яка створює густу, але невелику хмару диму при ударі, блокуючи видимість для ARC та інших Рейдерів.",
+      "uk": "Граната, що створює щільну, але компактну димову хмару після удару, закриваючи огляд для ARC та інших рейдерів.",
       "zh-CN": "撞击时会在爆炸范围内喷出小范围浓密烟雾的手雷，可阻挡ARC及其他奇袭者的视线。",
       "zh-TW": "一種手榴彈，撞擊時會釋放出濃密但範圍小的煙霧，阻擋ARC和其他掠手的視線。"
     },
@@ -2987,7 +3627,7 @@
       "ru": "Добыча 1",
       "sr": "Pljačkanje Mk. 1",
       "tr": "Yağmalama Mod. 1",
-      "uk": "Мародерство Mk. 1",
+      "uk": "Збиральний Mk. 1",
       "zh-CN": "搜刮Mk. 1",
       "zh-TW": "搜刮第1型"
     },
@@ -3009,7 +3649,7 @@
       "ru": "Базовый усилитель добычи. Больше места в инвентаре и выше допустимый вес, но низкая защита и стратегичность.",
       "sr": "Osnovno poboljšanje za pljačkanje. Više mesta u rancu i nosivosti, ali niska odbrambena i taktička sposobnost.",
       "tr": "Temel yağmalama yükseltici. Daha fazla sırt çantası yuvası ve ağırlık kapasitesi vardır ama düşük savunma ve taktiksel beceri sağlar.",
-      "uk": "Базове покращення для мародерства. Більше слотів рюкзака та вантажопідйомності, але низькі захисні та тактичні можливості.",
+      "uk": "Базовий підсилювач шукача здобичі. Більше слотів рюкзака та краща вантажопідйомність, але обмежені захист і тактичні можливості.",
       "zh-CN": "搜刮强化的基础版本。拥有更多背包栏位和负重上限，但防护性能和战术功能较弱。",
       "zh-TW": "基本搜刮強化。具有更多背包欄位和更高的負重能力，但防禦性和戰術能力偏低。"
     },
@@ -3259,13 +3899,13 @@
       "ru": "Добыча 2",
       "sr": "Pljačkanje Mk. 2",
       "tr": "Yağmalama Mod. 2",
-      "uk": "Мародерство Mk. 2",
+      "uk": "Збиральний Mk. 2",
       "zh-CN": "搜刮Mk. 2",
       "zh-TW": "搜刮第2型"
     },
     "description": {
       "da": "Øger loot-potentialet betydeligt; tilføjer pladser til trinkets.",
-      "de": "Erhöht das Plünderpotenzial erheblich; fügt Plätze für wertlose Gegenstände hinzu.",
+      "de": "Erhöht das Plünderpotenzial erheblich; fügt Plätze für Schnickschnack hinzu.",
       "en": "Significantly increases looting potential; adds slots for trinkets.",
       "es": "Aumenta significativamente la capacidad para saquear, ya que añade espacios para quincallas.",
       "fr": "Augmente considérablement le potentiel de pillage. Ajoute des emplacements pour les babioles.",
@@ -3281,7 +3921,7 @@
       "ru": "Дополнительные возможности сбора добычи. Добавляет ячейки для безделушек.",
       "sr": "Značajno povećava potencijal za sakupljanje plena; dodaje mesta za priveske.",
       "tr": "Yağmalama potansiyelini büyük ölçüde artırır ve andaçlar için yuva ekler.",
-      "uk": "Значно збільшує потенціал для збирання здобичі; додає комірки для брелоків.",
+      "uk": "Значно розширює можливості пошуку здобичі; додає слоти для дрібниць.",
       "zh-CN": "能够极大幅提升战利品搜刮能力，还提供更多饰品栏位。",
       "zh-TW": "顯著提升搜刮潛力；新增飾品欄位。"
     },
@@ -3664,7 +4304,7 @@
       "ru": "Добыча 3 (осторожность)",
       "sr": "Pljačkanje Mk. 3 (Oprezno)",
       "tr": "Yağmalama Mod. 3 (Dikkatli)",
-      "uk": "Мародерство Mk. 3 (Обережне)",
+      "uk": "Збиральний Mk. 3 (обережний)",
       "zh-CN": "搜刮Mk. 3（谨慎型）",
       "zh-TW": "搜刮第3型（謹慎）"
     },
@@ -3686,7 +4326,7 @@
       "ru": "Усилитель добычи, который жертвует допустимым весом в угоду выживаемости.",
       "sr": "Dodatak za sakupljanje plena koji menja deo kapaciteta nosivosti za povećanu šansu za preživljavanje.",
       "tr": "Hayatta kalma kabiliyetini artırmak için taşıma kapasitesinin bir kısmından ödün veren bir yağmalama yükseltici.",
-      "uk": "Модифікатор для збирання здобичі, який жертвує частиною вантажопідйомності заради підвищення виживання.",
+      "uk": "Орієнтований на здобич підсилювач, який знижує вантажопідйомність, але покращує шанси вижити.",
       "zh-CN": "通过牺牲部分负重上限来增强生存能力的搜刮强化。",
       "zh-TW": "可用部分攜帶容量換取生存能力提升的搜刮強化。"
     },
@@ -4106,7 +4746,7 @@
       "ru": "Чертеж для добычи 3 (хранитель)",
       "sr": "Nacrt za sakupljanje Mk. 3 (Čuvar)",
       "tr": "Yağmalama Mod. 3 (Koruyucu) Taslağı",
-      "uk": "Креслення: Збирання Мк. 3 (Зберігач)",
+      "uk": "Креслення: збиральний підсилювач Mk. 3 (безпечне зберігання)",
       "zh-CN": "搜刮Mk. 3（守护者）蓝图",
       "zh-TW": "搜刮第3型（保管）藍圖"
     },
@@ -4184,7 +4824,7 @@
       "ru": "Добыча 3 (хранитель)",
       "sr": "Pljačkanje Mk. 3 (Čuvar)",
       "tr": "Yağmalama Mod. 3 (Koruyucu)",
-      "uk": "Мародерство Mk. 3 (Охоронець)",
+      "uk": "Збиральний Mk. 3 (безпечне зберігання)",
       "zh-CN": "搜刮Mk. 3（守护者）",
       "zh-TW": "搜刮第3型（保管）"
     },
@@ -4206,7 +4846,7 @@
       "ru": "Усилитель добычи, который расширяет возможности сбора добычи за счет переносимого веса и эффективности.",
       "sr": "Dodatak za sakupljanje plena koji žrtvuje težinu i korisnost zarad većeg potencijala za sakupljanje plena.",
       "tr": "Yağmalama potansiyelini artırırken ağırlığı ve işlevi azaltan bir Yağmalama yükseltici.",
-      "uk": "Модифікатор для збирання здобичі, який жертвує вагою та корисністю заради підвищення потенціалу збирання.",
+      "uk": "Збиральний підсилювач, який збільшує можливості пошуку здобичі за рахунок ваги та допоміжних параметрів.",
       "zh-CN": "一种以牺牲负重和功能性换取更多战利品的搜刮强化。",
       "zh-TW": "犧牲重量和功能性換取搜刮可能性的搜刮強化。"
     },
@@ -4536,7 +5176,7 @@
       "ru": "Чертеж для добычи 3 (выживший)",
       "sr": "Pljačkaški Mk. 3 (Preživeli) Nacrt",
       "tr": "Yağmalama Mod. 3 (Hayatta Kalan) Taslağı",
-      "uk": "Креслення мародерського Mk. 3 (вижилий)",
+      "uk": "Креслення збирального Mk. 3 виживальника",
       "zh-CN": "搜刮Mk. 3（生存型）蓝图",
       "zh-TW": "搜刮第3型（求生）藍圖"
     },
@@ -4614,7 +5254,7 @@
       "ru": "Добыча 3 (выживший)",
       "sr": "Pljačkaški Mk. 3 (Preživeli)",
       "tr": "Yağmalama Mod. 3 (Hayatta Kalan)",
-      "uk": "Мародерський Mk. 3 (вижилий)",
+      "uk": "Збиральний Mk. 3 (виживальник)",
       "zh-CN": "搜刮Mk. 3（生存型）",
       "zh-TW": "搜刮第3型（求生）"
     },
@@ -4636,7 +5276,7 @@
       "ru": "Усилитель а-ля нагруженный мул. Высокий допустимый вес и огромная вместительность рюкзака.",
       "sr": "Dodatak tipa teške tovarne mazge. Veliki kapacitet težine i puno prostora u rancu.",
       "tr": "Ağır iş kaldırabilen bir yük katırı yükseltici. Yüksek ağırlık kapasitesi ve yüksek sırt çantası alanı bulunur.",
-      "uk": "Модифікатор посиленого в'ючного мула. Велика вантажопідйомність і багато місця в рюкзаку.",
+      "uk": "Потужний орієнтований на носіння вантажів підсилювач. Забезпечує велику вантажопідйомність і багато місця в рюкзаку.",
       "zh-CN": "一款重载运输用强化。拥有强大的负重上限和宽敞的背包空间。",
       "zh-TW": "重型運貨強化。負重能力高，並具有大量背包空間。"
     },
@@ -5009,7 +5649,7 @@
       "ru": "Чертеж — Граната-приманка",
       "sr": "Nacrt Mamac Granate",
       "tr": "Yem Bombası Taslağı",
-      "uk": "Креслення гранати-принади",
+      "uk": "Креслення гранати-приманки",
       "zh-CN": "诱捕手雷蓝图",
       "zh-TW": "誘餌手榴彈藍圖"
     },
@@ -5031,7 +5671,7 @@
       "ru": "Позволяет создать гранату-приманку.",
       "sr": "Omogućava izradu mamac granate",
       "tr": "Yem Bombası üretmeni sağlar",
-      "uk": "Дозволяє створити гранату-приманку",
+      "uk": "Дає змогу створити гранату-приманку",
       "zh-CN": "可以制作诱捕手雷",
       "zh-TW": "可製作誘餌手榴彈"
     },
@@ -5086,7 +5726,7 @@
       "ru": "Лазерная ловушка: приманка",
       "sr": "Zamka sa mamac granatom",
       "tr": "Lazer Tuzağı: Yem",
-      "uk": "Пастка з принадною гранатою",
+      "uk": "Пастка-граната для приманки",
       "zh-CN": "激光陷阱：诱捕",
       "zh-TW": "雷射陷阱：誘餌"
     },
@@ -5108,7 +5748,7 @@
       "ru": "Лазерная растяжка, взрывающая гранату-приманку.",
       "sr": "Laserska žica zamka koja detonira mamac granatu.",
       "tr": "Yem Bombası patlatan bir lazer tuzağı.",
-      "uk": "Лазерна розтяжка, яка детонує принадну гранату.",
+      "uk": "Лазерна розтяжка, яка підриває гранату-приманку.",
       "zh-CN": "用于引爆诱捕手雷的激光拌线。",
       "zh-TW": "一種雷射絆索，可引爆誘餌手榴彈。"
     },
@@ -5232,7 +5872,7 @@
       "ru": "Граната-приманка",
       "sr": "Granata mamac",
       "tr": "Yem Bombası",
-      "uk": "Принадна граната",
+      "uk": "Граната-приманка",
       "zh-CN": "诱捕手雷",
       "zh-TW": "誘餌手榴彈"
     },
@@ -5254,7 +5894,7 @@
       "ru": "Шумное устройство, которое цепляется к поверхностям и отвлекает ближайшие машины ARC, принимая их выстрелы на себя.",
       "sr": "Uređaj za buku koji se lepi na površine, odvlačeći pažnju obližnjih ARC mašina i privlačeći njihovu vatru.",
       "tr": "Yüzeylere yapışarak yakındaki ARC makinelerinin dikkatini çekip oraya ateş etmelerini sağlayan ses çıkarıcı bir cihaz.",
-      "uk": "Звуковий пристрій, який прилипає до поверхонь, відвертаючи увагу найближчих машин ARC і притягуючи їхній вогонь.",
+      "uk": "Шумовий пристрій, що прилипає до поверхонь, відволікаючи найближчих ARC і змушуючи їх відкривати вогонь по ньому.",
       "zh-CN": "会发出噪音的设备，可以粘附在表面上，分散ARC机器的注意力并引开它们的攻击。",
       "zh-TW": "一種會發出噪音的裝置，可黏附在表面，分散附近ARC機器的注意力並吸引其開火。"
     },
@@ -5370,7 +6010,7 @@
       "ru": "Устройство магазина для чайников",
       "sr": "Geometrija okvira 101",
       "tr": "Şarjör Geometrisi 101",
-      "uk": "Геометрія магазина 101",
+      "uk": "Основи геометрії магазина",
       "zh-CN": "弹匣结构入门",
       "zh-TW": "彈匣幾何學入門"
     },
@@ -5392,7 +6032,7 @@
       "ru": "Обычный магазин со своей задачей справляется, но много в него не поместится. Стоит изучить конструкцию барабанного магазина, чтобы понять, как в нем используется дополнительное пространство и где еще можно применить тот же принцип.",
       "sr": "Standardni magacin obavlja svoj posao, ali može da primi samo ograničenu količinu municije. Upoznavanje sa dizajnom bubnja moglo bi da otkrije kako se taj dodatni prostor koristi i gde bi se ista ideja mogla primeniti.",
       "tr": "Standart bir şarjör iş görür ancak mermi kapasitesi ortadadır. Tambur tasarımını deneyince fazladan kapasitenin uygulamaya nasıl koyulduğunu ve aynı fikrin başka nerelere yakışabileceğini görebilirsin.",
-      "uk": "Стандартний магазин виконує свою функцію, але його місткість обмежена. Ознайомлення з конструкцією барабанного живлення може розкрити, як використовується додатковий простір, і де ту саму ідею можна застосувати в інших місцях.",
+      "uk": "Стандартний магазин робить свою справу, але його місткість невелика. Ознайомившись із конструкцією барабана, можна з’ясувати, як використати додаткове місце й де ще застосувати цю ідею.",
       "zh-CN": "标准弹匣够用，但容量毕竟有限。研究弹鼓供弹设计，既能弄清扩容的原理，也能看看这套思路还能用在什么地方。",
       "zh-TW": "一般彈匣也堪用，但容量有限。熟悉彈鼓式設計，也許能揭露利用額外空間的方式，以及相同概念可能適合哪些其他地方。"
     },
@@ -5466,7 +6106,7 @@
       "ru": "Можно пустить на изготовление разных предметов или переработать, чтобы получить материалы.",
       "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
       "tr": "Çeşitli eşyalar üretmede kullanılır. Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Використовується для створення широкого спектру предметів. Можна переробити в матеріали для крафту.",
+      "uk": "Використовується для створення широкого спектра предметів. Можна переробити на матеріали для створення предметів.",
       "zh-CN": "用于制作各种物品。可回收为制作材料。",
       "zh-TW": "用來製作多種物品。可回收成製作材料。"
     },
@@ -5556,7 +6196,7 @@
       "ru": "Используется для создания продвинутого оружия.",
       "sr": "Koristi se za izradu naprednog oružja.",
       "tr": "Gelişmiş silahlar üretmede kullanılır.",
-      "uk": "Використовується для створення передової зброї.",
+      "uk": "Використовується для створення покращеної зброї.",
       "zh-CN": "用于制作高级武器。",
       "zh-TW": "用來製作進階武器。"
     },
@@ -5642,7 +6282,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -5700,7 +6340,7 @@
       "ru": "Памятные вещи майора Айвы",
       "sr": "Uspomene majorke Ajve",
       "tr": "Binbaşı Avia'nın Yadigârları",
-      "uk": "Пам'ятні речі майора Айви",
+      "uk": "Пам’ятні речі майора Айви",
       "zh-CN": "艾娃少校的纪念品",
       "zh-TW": "艾瓦少校的遺物"
     },
@@ -5722,7 +6362,7 @@
       "ru": "Плотно закрытая коробка, покрытая многолетним слоем пыли.",
       "sr": "Čvrsto zatvorena kutija, prekrivena višegodišnjom prašinom.",
       "tr": "Onlarca yıllık tozla kaplanmış, sımsıkı kapalı bir kutu.",
-      "uk": "Щільно зачинена скринька, вкрита багаторічним пилом.",
+      "uk": "Щільно закрита коробка, вкрита багаторічним шаром пилу.",
       "zh-CN": "一个紧紧关着的箱子，上面积满了经年累月的尘土。",
       "zh-TW": "一個緊緊闔上的盒子，覆滿了陳年累月的灰塵。"
     },
@@ -5764,7 +6404,7 @@
       "ru": "Нашивка майора Айвы",
       "sr": "Oznaka majora Aive",
       "tr": "Binbaşı Avia'nın Yaması",
-      "uk": "Нашивка майора Айви",
+      "uk": "Шеврон майора Айви",
       "zh-CN": "艾娃少校的臂章",
       "zh-TW": "艾瓦少校的制服章"
     },
@@ -5786,7 +6426,7 @@
       "ru": "Рваная нашивка, найденная среди развалин.",
       "sr": "Pocepana oznaka, pronađena među ruševinama i ruševinama.",
       "tr": "Molozların ve harabelerin arasında bulunmuş yırtık bir bez parçası.",
-      "uk": "Порвана нашивка, знайдена серед уламків і руїн.",
+      "uk": "Подертий патч, знайдений серед руїн.",
       "zh-CN": "一块在废墟中发现的破裂的补丁。",
       "zh-TW": "在瓦礫與廢墟中發現的一塊撕破的繡章。"
     },
@@ -5834,6 +6474,26 @@
     }
   },
   {
+    "id": "malocchio",
+    "name": {
+      "da": "Malocchio",
+      "en": "Malocchio",
+      "he": "מלוקיו",
+      "hr": "Malocchio",
+      "no": "Malocchio",
+      "pt": "Malocchio",
+      "sr": "Malocchio",
+      "uk": "Мальоккйо"
+    },
+    "type": "Stencil",
+    "rarity": "Epic",
+    "value": 5000,
+    "stackSize": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/v2/malocchio.png",
+    "updatedAt": "11/20/2026",
+    "addedIn": "2.6"
+  },
+  {
     "id": "marano_market_business_card",
     "name": {
       "da": "Visitkort fra Marano Marked",
@@ -5853,7 +6513,7 @@
       "ru": "Визитка рынка Марано",
       "sr": "Vizitkarta pijace Marano",
       "tr": "Marano Pazarı Kartviziti",
-      "uk": "Візитка ринку Марано",
+      "uk": "Візитна картка працівника ринку Марано",
       "zh-CN": "马拉诺市集名片",
       "zh-TW": "馬拉諾市場名片"
     },
@@ -5875,7 +6535,7 @@
       "ru": "За каракулями едва можно разобрать логотип рынка Марано.",
       "sr": "Iškrabani tekst na ovoj vizitkarti gotovo prekriva logo pijace Marano.",
       "tr": "Bu kartvizite karalanmış yazı, Marano pazarının logosunu neredeyse tamamen kapatmış.",
-      "uk": "Нашкрябаний напис на цій візитці майже закриває логотип ринку Марано.",
+      "uk": "Напис від руки, зроблений на цій візитній картці, майже повністю закриває логотип ринку Марано.",
       "zh-CN": "这张名片上的潦草字迹，几乎遮住了马拉诺市集的标志。",
       "zh-TW": "這張名片上的潦草字跡幾乎把馬拉諾市場的標誌都遮掉了。"
     },
@@ -5939,7 +6599,7 @@
       "ru": "Половина лица, отлитая в бронзе.",
       "sr": "Pola lica, odlivena u bronzi.",
       "tr": "Bronz döküm bir yüzün yarısı",
-      "uk": "Половина обличчя, відлита з бронзи.",
+      "uk": "Половина обличчя, вилита з бронзи.",
       "zh-CN": "半张脸部，以青铜铸就。",
       "zh-TW": "半張臉，以青銅鑄成。"
     },
@@ -6008,7 +6668,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6084,7 +6744,7 @@
       "ru": "Можно пустить на изготовление разных предметов или переработать, чтобы получить материалы.",
       "sr": "Koristi se za izradu širokog spektra predmeta. Može se reciklirati u materijale za izradu.",
       "tr": "Çeşitli eşyalar üretmede kullanılır. Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Використовується для створення різноманітних предметів. Можна переробити на матеріали для крафту.",
+      "uk": "Використовується для створення широкого спектра предметів. Можна переробити на матеріали для створення предметів.",
       "zh-CN": "用于制作各种物品。可回收为制作材料。",
       "zh-TW": "用來製作多種物品。可回收成製作材料。"
     },
@@ -6148,7 +6808,7 @@
       "ru": "Патрон среднего калибра",
       "sr": "Srednje streljivo",
       "tr": "Orta Cephane",
-      "uk": "Середні патрони",
+      "uk": "Середні набої",
       "zh-CN": "中型弹药",
       "zh-TW": "中型彈藥"
     },
@@ -6247,7 +6907,7 @@
       "ru": "Чертеж — Детали для оружия среднего калибра",
       "sr": "Nacrt za srednje delove oružja",
       "tr": "Orta Silah Parçaları Taslağı",
-      "uk": "Креслення середніх деталей зброї",
+      "uk": "Креслення частин середньої зброї",
       "zh-CN": "中型枪械零件蓝图",
       "zh-TW": "中型槍枝零件藍圖"
     },
@@ -6269,7 +6929,7 @@
       "ru": "Позволяет создать детали для оружия среднего калибра.",
       "sr": "Omogućava izradu srednjih delova oružja",
       "tr": "Orta Silah Parçaları üretmeni sağlar",
-      "uk": "Дозволяє створити середні деталі зброї",
+      "uk": "Дає змогу створити деталі середньої зброї",
       "zh-CN": "可以制作中型枪械零件",
       "zh-TW": "可製作中型槍枝零件"
     },
@@ -6325,7 +6985,7 @@
       "ru": "Детали для оружия среднего калибра",
       "sr": "Srednji Delovi Oružja",
       "tr": "Orta Silah Parçaları",
-      "uk": "Середні зброярські деталі",
+      "uk": "Деталі середньої зброї",
       "zh-CN": "中型枪械零件",
       "zh-TW": "中型槍枝零件"
     },
@@ -6347,7 +7007,7 @@
       "ru": "Различные запчасти для винтовок.",
       "sr": "Razni rezervni delovi koji se koriste za puške.",
       "tr": "Tüfekler için kullanılan çeşitli yedek parçalar.",
-      "uk": "Різноманітні запасні частини для гвинтівок.",
+      "uk": "Різноманітні запасні частини для рушниць.",
       "zh-CN": "各种用于步枪的备用零件。",
       "zh-TW": "用於步槍的各種零件。"
     },
@@ -6445,7 +7105,7 @@
       "ru": "Стандартный щит, который средне блокирует урон и в умеренной степени ухудшает подвижность.",
       "sr": "Standardni štit koji blokira srednju količinu dolazne štete uz umereno smanjenje pokretljivosti.",
       "tr": "Hareketliliği orta derecede etkileyerek gelen hasarı orta miktarda engelleyen standart bir kalkan.",
-      "uk": "Стандартний щит, що блокує середню частину вхідної шкоди з помірним зниженням мобільності.",
+      "uk": "Стандартний щит, який блокує помірну частку шкоди та помірно сповільнює рух носія.",
       "zh-CN": "一款标准护盾，可抵挡受到的中量伤害，对机动性造成中等程度的影响。",
       "zh-TW": "一種標準護盾，可阻擋中等程度的傷害，但也會對機動性造成中等程度的影響。"
     },
@@ -6727,7 +7387,7 @@
       "ru": "Используется для создания разных предметов.",
       "sr": "Koristi se za izradu širokog spektra predmeta. Koristi se za izradu: Bacačka Municija, Ukosnica, Teška Municija, Ferro, Kotlić",
       "tr": "Çeşitli eşyaları üretmede kullanılır.",
-      "uk": "Використовується для створення широкого спектру предметів. Використовується для крафту: Боєприпаси для гранатомета, Шпилька, Важкі боєприпаси, Ферро, Казанок",
+      "uk": "Використовується для створення широкого спектра предметів.",
       "zh-CN": "用于制作各种物品。",
       "zh-TW": "用來製作多種物品。"
     },
@@ -6811,7 +7471,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -6869,7 +7529,7 @@
       "ru": "Молочная терракота",
       "sr": "Mlečna terakota",
       "tr": "Sütlü Kızıl Kahverengi",
-      "uk": "Молочна теракота",
+      "uk": "Світло-теракотовий",
       "zh-CN": "奶白陶土",
       "zh-TW": "乳白陶土"
     },
@@ -6934,7 +7594,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7014,7 +7674,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для виготовлення.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7069,7 +7729,7 @@
       "ru": "Приспособление для стрельбы на бегу",
       "sr": "Poboljšanja rukohvata za mobilno pucanje",
       "tr": "Hareketli Ateş Kabza Aparatları",
-      "uk": "Кріплення для мобільної стрільби",
+      "uk": "Накладки на руків’я для стрільби в русі",
       "zh-CN": "移动射击握把配件",
       "zh-TW": "機動射擊握把配件"
     },
@@ -7091,7 +7751,7 @@
       "ru": "Быстро бежать здорово только до тех пор, пока не понадобится стрелять. Было бы неплохо иметь оружие, с которым бы не пришлось замедляться.",
       "sr": "Brzo kretanje je korisno sve dok oružje ne stupi u akciju. Oružje koje održava korak sa tim tempom bilo bi korisno.",
       "tr": "Hızlı hareket etmek silahlar konuşmaya başlayana dek faydalıdır. Hıza ayak uyduran silahlar kullanışlı olur.",
-      "uk": "Швидке пересування корисне до моменту, коли знадобиться зброя. Було б корисною зброя, що не відстає від темпу.",
+      "uk": "Швидко рухатися корисно, аж доки не треба пустити в хід зброю. Тож зброя, що не сповільнює темп, стала б у пригоді.",
       "zh-CN": "高速移动很实用，但拔枪射击时就麻烦了。要是有一把能跟上快节奏移动的武器就好了。",
       "zh-TW": "快速移動相當有用，但要是得使用武器就不方便了。要是有武器能跟上節奏，一定很有用。"
     },
@@ -7143,7 +7803,7 @@
       "ru": "Компоненты для модификаций",
       "sr": "Komponente za modove",
       "tr": "Mod Bileşenleri",
-      "uk": "Компоненти модифікацій",
+      "uk": "Компоненти модифікатора",
       "zh-CN": "改装零件",
       "zh-TW": "模組元件"
     },
@@ -7165,7 +7825,7 @@
       "ru": "Используется для создания модификаций оружия. Можно переработать, чтобы получить материалы.",
       "sr": "Koristi se za izradu modifikacija za oružje. Može se reciklirati u materijale za izradu.",
       "tr": "Silah modları üretmede kullanılır. Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Використовується для створення модифікацій зброї. Можна переробити на матеріали для крафту.",
+      "uk": "Використовується для створення модифікацій зброї. Можна переробити на матеріали для створення предметів.",
       "zh-CN": "用于制作武器改装。可回收为制作材料。",
       "zh-TW": "用來製作武器模組。可回收成製作材料。"
     },
@@ -7229,7 +7889,7 @@
       "ru": "Измеритель влажности",
       "sr": "Merač vlage",
       "tr": "Nem Ölçer",
-      "uk": "Вимірювач вологості",
+      "uk": "Вологомір",
       "zh-CN": "水分测量仪",
       "zh-TW": "濕度測定儀"
     },
@@ -7251,7 +7911,7 @@
       "ru": "Измеряет уровень влажности почвы для точного управления ирригацией.",
       "sr": "Meri nivo vlage u zemljištu za preciznu kontrolu navodnjavanja.",
       "tr": "Toprak nem seviyesini ölçerek sulamayı daha hassas bir şekilde kontrol etmeyi sağlar.",
-      "uk": "Вимірює рівень вологості ґрунту для точного контролю зрошення.",
+      "uk": "Вимріює вміст вологи у ґрунті для точного регулювання іригації.",
       "zh-CN": "测量土壤湿度以实现精准灌溉。",
       "zh-TW": "可測量土壤濕度，以進行精確的灌溉控制。"
     },
@@ -7315,7 +7975,7 @@
       "ru": "Восстанавливает немного здоровья.",
       "sr": "Može se koristiti za obnavljanje male količine zdravlja.",
       "tr": "Az bir miktarda can yenilemek için kullanılabilir.",
-      "uk": "Можна використати для відновлення невеликої кількості здоров'я.",
+      "uk": "Можна використати, щоб відновити трохи здоров’я.",
       "zh-CN": "使用后可恢复少量生命值。",
       "zh-TW": "使用後可恢復少量生命值。"
     },
@@ -7486,7 +8146,7 @@
       "ru": "Можно переработать, чтобы получить материалы.",
       "sr": "Može se reciklirati u materijale za izradu.",
       "tr": "Üretim materyallerine geri dönüştürülebilir.",
-      "uk": "Можна переробити на матеріали для крафту.",
+      "uk": "Можна переробити на матеріали для створення предметів.",
       "zh-CN": "可回收为制作材料。",
       "zh-TW": "可回收成製作材料。"
     },
@@ -7545,7 +8205,7 @@
       "ru": "Детектор альпиниста",
       "sr": "Planinarski detektor",
       "tr": "Dağcı'nın Dedektörü",
-      "uk": "Альпіністський детектор",
+      "uk": "Детектор альпініста",
       "zh-CN": "登山者探测器",
       "zh-TW": "登山者探測器"
     },
@@ -7567,7 +8227,7 @@
       "ru": "Пригодится для поисков полезностей в снегах. На песке работает ничем не хуже.",
       "sr": "Korisno za pronalaženje stranih predmeta skrivenih u snegu. Kao dodatni bonus, funkcioniše podjednako dobro na pesku.",
       "tr": "Karda gizlenen yabancı nesneleri bulmada kullanışlı. Ek olarak kumda da bir o kadar iyi çalışıyor.",
-      "uk": "Корисний для пошуку сторонніх предметів, прихованих у снігу. Як додатковий бонус, він так само добре працює на піску.",
+      "uk": "Допомагає знаходити сторонні предмети під снігом. Додаткова перевага — на піску працює так само ефективно.",
       "zh-CN": "可用于探测积雪下埋藏的异物。附带的惊喜是，它在沙地中同样好用。",
       "zh-TW": "適合用於尋找隱藏在雪地中的異物。它的另一個好處就是在沙地上也同樣管用。"
     },
@@ -7641,7 +8301,7 @@
       "ru": "Кажется, технологии зашли слишком далеко.",
       "sr": "Da li je tehnologija otišla predaleko?",
       "tr": "Teknoloji fazla mı ileriye gitti?",
-      "uk": "Чи зайшли технології надто далеко?",
+      "uk": "Чи не задалеко зайшли технології?",
       "zh-CN": "科技是否已经走得太远了？",
       "zh-TW": "科技是不是有點發展過頭了？"
     },
@@ -7786,7 +8446,7 @@
       "ru": "Восстанавливает немного здоровья.",
       "sr": "Može se konzumirati za povrat male količine zdravlja.",
       "tr": "Az bir miktarda can yenilemek için tüketilebilir.",
-      "uk": "Можна вжити для відновлення невеликої кількості здоров'я.",
+      "uk": "Можна з’їсти, щоб відновити трохи здоров’я.",
       "zh-CN": "食用后可恢复少量生命值。",
       "zh-TW": "食用後可恢復少量生命值。"
     },
@@ -7916,7 +8576,7 @@
       "ru": "Вы можете провести уютный вечер дома, устроить приятные посиделки или дать концерт на воображаемой гитаре.",
       "sr": "Savršen za opuštajuće večeri kod kuće, ležerna druženja i privatne koncerte vazdušne gitare.",
       "tr": "Evde huzurlu geceler, arkadaş buluşmaları ve hayali gitar konserleri için birebir.",
-      "uk": "Ідеально підходить для спокійних вечорів вдома, невимушених посиденьок та приватних концертів на уявній гітарі.",
+      "uk": "Ідеальний варіант для домашніх вечірок, зустрічей із друзями та квартирників з гітарою.",
       "zh-CN": "适合的场景：在家放松的夜晚、休闲聚会，以及个人的空气吉他演奏会。",
       "zh-TW": "非常適合在家裡的輕鬆夜晚、休閒聚會和私人空氣吉他演奏會。"
     },
@@ -7990,7 +8650,7 @@
       "ru": "Стоит целое состояние.",
       "sr": "Vredi malo bogatstvo.",
       "tr": "Ufak bir servet değerinde.",
-      "uk": "Коштує невеликий статок.",
+      "uk": "Коштує чималих грошей.",
       "zh-CN": "价值不菲。",
       "zh-TW": "價值不菲。"
     },
@@ -8044,7 +8704,7 @@
       "ru": "Дульный тормоз I",
       "sr": "Kočnica Cijevi I",
       "tr": "Namlu Ağzı Freni I",
-      "uk": "Дульний гальмо I",
+      "uk": "Дульне гальмо I",
       "zh-CN": "枪口制退器 I",
       "zh-TW": "槍口制退器I"
     },
@@ -8066,7 +8726,7 @@
       "ru": "Немного снижает вертикальную и горизонтальную отдачу оружия.",
       "sr": "Blago smanjuje i vertikalni i horizontalni trzaj.",
       "tr": "Dikey ve yatay geri tepmeyi biraz azaltır.",
-      "uk": "Трохи зменшує як вертикальну, так і горизонтальну віддачу.",
+      "uk": "Трохи зменшує вертикальну й горизонтальну складові віддачі.",
       "zh-CN": "小幅度减少垂直后坐力和水平后坐力。",
       "zh-TW": "稍微降低垂直後座力和水平後座力。"
     },
@@ -8248,7 +8908,7 @@
       "ru": "Позволяет создать дульный тормоз II.",
       "sr": "Omogućava izradu gasne kočnice II",
       "tr": "Namlu Ağzı Freni II üretmeni sağlar",
-      "uk": "Дозволяє створити дульне гальмо II",
+      "uk": "Дає змогу створити дульне гальмо II",
       "zh-CN": "可以制作枪口制退器 II",
       "zh-TW": "可製作槍口制退器II"
     },
@@ -8352,7 +9012,7 @@
       "ru": "Дульный тормоз II",
       "sr": "Usporivač cevi II",
       "tr": "Namlu Ağzı Freni II",
-      "uk": "Дульний гальмо II",
+      "uk": "Дульне гальмо II",
       "zh-CN": "枪口制退器 II",
       "zh-TW": "槍口制退器II"
     },
@@ -8374,7 +9034,7 @@
       "ru": "Умеренно снижает вертикальную и горизонтальную отдачу оружия.",
       "sr": "Umereno smanjuje i vertikalni i horizontalni trzaj.",
       "tr": "Dikey ve yatay geri tepmeyi orta düzeyde azaltır.",
-      "uk": "Помірно зменшує як вертикальну, так і горизонтальну віддачу.",
+      "uk": "Помірно зменшує вертикальну й горизонтальну складові віддачі.",
       "zh-CN": "中幅度减少垂直后坐力和水平后坐力。",
       "zh-TW": "中度降低垂直後座力和水平後座力。"
     },
@@ -8525,7 +9185,7 @@
       "ru": "Чертеж — Дульный тормоз III",
       "sr": "Kocnica Cevi III Nacrt",
       "tr": "Namlu Ağzı Freni III Taslağı",
-      "uk": "Креслення Дульний гальмо III",
+      "uk": "Креслення дульного гальма III",
       "zh-CN": "枪口制退器 III蓝图",
       "zh-TW": "槍口制退器III藍圖"
     },
@@ -8547,7 +9207,7 @@
       "ru": "Позволяет создать дульный тормоз III.",
       "sr": "Omogućava izradu gasne kočnice III",
       "tr": "Namlu Ağzı Freni III üretmeni sağlar",
-      "uk": "Дозволяє створити дульне гальмо III",
+      "uk": "Дає змогу створити дульне гальмо III",
       "zh-CN": "可以制作枪口制退器 III",
       "zh-TW": "可製作槍口制退器III"
     },
@@ -8591,7 +9251,7 @@
       "ru": "Дульный тормоз III",
       "sr": "Kočnica Cevi III",
       "tr": "Namlu Ağzı Freni III",
-      "uk": "Дульний гальмо III",
+      "uk": "Дульне гальмо III",
       "zh-CN": "枪口制退器 III",
       "zh-TW": "槍口制退器III"
     },
@@ -8613,7 +9273,7 @@
       "ru": "Значительно снижает вертикальную и горизонтальную отдачу оружия.",
       "sr": "Značajno smanjuje i vertikalni i horizontalni trzaj.",
       "tr": "Dikey ve yatay geri tepmeyi önemli ölçüde azaltır.",
-      "uk": "Значно зменшує як вертикальну, так і горизонтальну віддачу.",
+      "uk": "Значно зменшує вертикальну й горизонтальну складові віддачі.",
       "zh-CN": "大幅度减少垂直后坐力和水平后坐力。",
       "zh-TW": "大幅降低垂直後座力和水平後座力。"
     },
@@ -8798,7 +9458,7 @@
       "ru": "Шумелка",
       "sr": "Zvučni alarm",
       "tr": "Yaygaracı",
-      "uk": "Шумовик",
+      "uk": "Шумовий пристрій",
       "zh-CN": "发声器",
       "zh-TW": "噪音產生器"
     },
@@ -8820,7 +9480,7 @@
       "ru": "Размещаемый датчик присутствия, предупреждает о приближении вражеских рейдеров.",
       "sr": "Postavljivi senzor blizine koji aktivira alarm kada se otkriju neprijateljski Rajderi.",
       "tr": "Düşman Raider'lar tespit edildiğinde alarm çalan, kurulabilir bir yakınlık sensörü.",
-      "uk": "Встановлюваний датчик наближення, який подає сигнал тривоги при виявленніворожих рейдерів.",
+      "uk": "Розміщуваний датчик наближення, який видає звуковий сигнал у разі виявлення ворожих рейдерів.",
       "zh-CN": "一种可部署的近距离传感器，一旦探测到敌方奇袭者便会发出警报。",
       "zh-TW": "一種部署式近接感應器，偵測到敵方掠手時會發出警報。"
     },
@@ -8945,7 +9605,7 @@
       "ru": "Техника кочевников",
       "sr": "Nomadska tehnološka stavka",
       "tr": "Göçebe Teknolojisi Eşyası",
-      "uk": "Номадський технічний предмет",
+      "uk": "Технічний предмет кочівників",
       "zh-CN": "游牧科技物品",
       "zh-TW": "遊牧者科技物品"
     },
@@ -8967,7 +9627,7 @@
       "ru": "Любопытная находка. Селеста наверняка заинтересуется.",
       "sr": "Neobičan pronalazak. Celeste bi bila veoma zainteresovana za ovo.",
       "tr": "İlginç bir bulgu. Celeste'in ilgisini çekecektir.",
-      "uk": "Дивна знахідка. Селеста дуже зацікавилася б цим.",
+      "uk": "Дивна знахідка. Вона точно неабияк зацікавить Селесту.",
       "zh-CN": "稀奇之物，塞莱斯特肯定会很感兴趣。",
       "zh-TW": "相當奇特的發現。莎莉絲特肯定會很有興趣。"
     },
@@ -9108,7 +9768,7 @@
       "ru": "Подходит для слежения за уровнем питательных веществ в почве и воде в теплицах и на полях.",
       "sr": "Idealno za praćenje nivoa hranljivih materija u zemljištu i vodi u staklenicima ili na poljima.",
       "tr": "Tarlalarda veya seralarda toprak besin miktarını ölçmek için ideal.",
-      "uk": "Ідеально підходить для моніторингу рівня поживних речовин у ґрунті та воді в теплицях або на полях.",
+      "uk": "Ефективний засіб контролю вмісту поживних речовин у воді та ґрунті на полях і в теплицях.",
       "zh-CN": "在温室或田间监测土壤和水体营养水平的理想工具。",
       "zh-TW": "適合用來監控溫室或田地中土壤和水的營養程度。"
     },
@@ -9150,7 +9810,7 @@
       "ru": "Охра",
       "sr": "Oker",
       "tr": "Kil",
-      "uk": "Охра",
+      "uk": "Вохра",
       "zh-CN": "赭石",
       "zh-TW": "赭黃"
     },
@@ -9193,7 +9853,7 @@
       "ru": "Схема — Стол для подношений",
       "sr": "Dizajn stola za izlaganje ponuda",
       "tr": "Adak Sergileme Masası Tasarımı",
-      "uk": "Схема: Стіл для підношень",
+      "uk": "Дизайн демонстраційного стола для підношень",
       "zh-CN": "供品展示桌设计图",
       "zh-TW": "供品展示桌設計"
     },
@@ -9263,7 +9923,7 @@
       "ru": "Официальная документация о закрытии проекта",
       "sr": "Službena dokumentacija o gašenju",
       "tr": "Resmî Kapanış Belgeleri",
-      "uk": "Офіційна документація про припинення роботи",
+      "uk": "Офіційна документація закриття проєкту",
       "zh-CN": "官方关停文件",
       "zh-TW": "有關計畫終止的官方文件"
     },
@@ -9285,7 +9945,7 @@
       "ru": "Сверхсекретные протоколы, описывающие закрытие проекта «Вечная зелень».",
       "sr": "Strogo poverljivi protokoli koji ocrtavaju gašenje Projekta Heartwood.",
       "tr": "Heartwood Projesi'nin sonlandırılmasını özetleyen çok gizli protokoller.",
-      "uk": "Цілком таємні протоколи, що регламентують закриття Project Heartwood.",
+      "uk": "Секретні протоколи, що визначають процедуру згортання проєкту «Серцевина».",
       "zh-CN": "“心材计划”终止的最高机密协议。",
       "zh-TW": "記載「心材計畫」終止過程的最高機密文件。"
     },
@@ -9418,7 +10078,7 @@
       "ru": "Книги старого мира",
       "sr": "Knjige Starog sveta",
       "tr": "Eski Dünya Kitabı",
-      "uk": "Книги Старого світу",
+      "uk": "Книжки Старого світу",
       "zh-CN": "旧世界之书",
       "zh-TW": "舊世界書本"
     },
@@ -9440,7 +10100,7 @@
       "ru": "Прошлое выживает в осколках, часто простых и неприметных, но бесценных для тех, кто им интересуется.",
       "sr": "Prošlost opstaje u fragmentima, često dosadnim ili običnim, ali neprocenjivim za pravu osobu.",
       "tr": "Geçmiş, çoğu zaman sıkıcı veya sıradan fakat doğru kişi için paha biçilemez olan parçalar hâlinde hayatta kalır.",
-      "uk": "Минуле збереглося у фрагментах, часто нудних або звичайних, проте безцінних для правильної людини.",
+      "uk": "Сліди минулого зберігаються у фрагментах, часто нудних чи буденних, але тим не менш безцінних для того, хто їх шукає.",
       "zh-CN": "过去留存于支离破碎的残片中，往往黯淡无奇，但对特定的人而言却无比珍贵。",
       "zh-TW": "留在殘缺不全記憶中的過去往往平凡無奇，對特定的人而言卻無比珍貴。"
     },
@@ -9504,7 +10164,7 @@
       "ru": "Восстанавливает немного выносливости.",
       "sr": "Može se konzumirati za malu količinu izdržljivosti.",
       "tr": "Az bir miktarda enerji yenilemek için tüketilebilir.",
-      "uk": "Можна вжити для відновлення невеликої кількості витривалості.",
+      "uk": "Можна з’їсти, щоб відновити трохи сил.",
       "zh-CN": "食用后可恢复少量耐力。",
       "zh-TW": "食用後可恢復少量體力。"
     },
@@ -9617,7 +10277,7 @@
       "ru": "Схема — Затейливая кровать с базы",
       "sr": "Kitnjast dizajn kreveta za odaju",
       "tr": "İşlemeli İn Yatağı Tasarımı",
-      "uk": "Дизайн вишуканого ліжка для кабінету",
+      "uk": "Дизайн прикрашеного ліжка для лігва",
       "zh-CN": "华丽巢穴床设计图",
       "zh-TW": "華麗小窩床設計"
     },
@@ -9691,7 +10351,7 @@
       "ru": "Схема — Затейливая полка с базы",
       "sr": "Kitnjast dizajn police za odaju",
       "tr": "İşlemeli İn Rafı Tasarımı",
-      "uk": "Дизайн вишуканої полиці для кабінету",
+      "uk": "Дизайн прикрашеної полиці для лігва",
       "zh-CN": "华丽巢穴书架设计图",
       "zh-TW": "華麗小窩層架設計"
     },
@@ -9765,7 +10425,7 @@
       "ru": "Схема — Затейливый сейф",
       "sr": "Kitnjast dizajn skladišta",
       "tr": "İşlemeli Zula Tasarımı",
-      "uk": "Дизайн вишуканої схованки",
+      "uk": "Дизайн прикрашеної схованки",
       "zh-CN": "华丽储备箱设计图",
       "zh-TW": "華麗儲藏箱設計"
     },
@@ -9839,7 +10499,7 @@
       "ru": "Схема — Затейливый шкаф",
       "sr": "Kitnjast dizajn ormara",
       "tr": "İşlemeli Gardırop Tasarımı",
-      "uk": "Дизайн вишуканої шафи",
+      "uk": "Дизайн прикрашеного гардероба",
       "zh-CN": "华丽衣柜设计图",
       "zh-TW": "華麗衣櫥設計"
     },
@@ -9916,7 +10576,7 @@
       "ru": "Усовершенствованный Ястреб · Антислабость",
       "sr": "Pojačani Osprey · Protiv slabih tačaka",
       "tr": "Güçlendirilmiş Kartal · Zayıf Nokta Kıran",
-      "uk": "Посилений Osprey · Проти вразливих місць",
+      "uk": "Посилений Оспрей · Противразливість",
       "zh-CN": "增强型“鱼鹰” · 弱点专攻",
       "zh-TW": "增幅魚鷹 · 反弱點"
     },
@@ -9938,7 +10598,7 @@
       "ru": "Усовершенствованная версия Ястреба.",
       "sr": "Pojačana varijanta Osprey-a.",
       "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Osprey.",
+      "uk": "Посилений варіант Оспрея.",
       "zh-CN": "“鱼鹰”的增强型变体。",
       "zh-TW": "魚鷹的增幅版。"
     },
@@ -10446,7 +11106,7 @@
       "ru": "Усовершенствованный Ястреб · Эргономичный затвор + Антислабость",
       "sr": "Pojačani Osprey · Ergonomski zatvarač + Protiv slabih tačaka",
       "tr": "Güçlendirilmiş Kartal · Ergonomik Sürgü + Zayıf Nokta Kıran",
-      "uk": "Посилений Osprey · Ергономічний затвор + Проти вразливих місць",
+      "uk": "Посилений Оспрей · Ергономічний затвор + Противразливість",
       "zh-CN": "增强型“鱼鹰” · 人体工学枪栓 + 弱点专攻",
       "zh-TW": "增幅魚鷹 · 人體工學槍栓 + 反弱點"
     },
@@ -10468,7 +11128,7 @@
       "ru": "Усовершенствованная версия Ястреба.",
       "sr": "Pojačana varijanta Osprey-a.",
       "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Osprey.",
+      "uk": "Посилений варіант Оспрея.",
       "zh-CN": "“鱼鹰”的增强型变体。",
       "zh-TW": "魚鷹的增幅版。"
     },
@@ -10960,7 +11620,7 @@
       "ru": "Усовершенствованный Ястреб · Эргономичный затвор",
       "sr": "Pojačani Osprey · Ergonomski zatvarač",
       "tr": "Güçlendirilmiş Kartal · Ergonomik Sürgü",
-      "uk": "Посилений Osprey · Ергономічний затвор",
+      "uk": "Посилений Оспрей · Ергономічний затвор",
       "zh-CN": "增强型“鱼鹰” · 人体工学枪栓",
       "zh-TW": "增幅魚鷹 · 人體工學槍栓"
     },
@@ -10982,7 +11642,7 @@
       "ru": "Усовершенствованная версия Ястреба.",
       "sr": "Pojačana varijanta Osprey-a.",
       "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Osprey.",
+      "uk": "Посилений варіант Оспрея.",
       "zh-CN": "“鱼鹰”的增强型变体。",
       "zh-TW": "魚鷹的增幅版。"
     },
@@ -11484,7 +12144,7 @@
       "ru": "Усовершенствованный Ястреб · Отслеживающие снаряды + Эргономичный затвор",
       "sr": "Pojačani Osprey · Metak tragač + Ergonomski zatvarač",
       "tr": "Güçlendirilmiş Kartal · İz Sürücü Mermiler + Ergonomik Sürgü",
-      "uk": "Посилений Osprey · Патрони-трекери + Ергономічний затвор",
+      "uk": "Посилений Оспрей · Набої-трекери + Ергономічний затвор",
       "zh-CN": "增强型“鱼鹰” · 追踪弹 + 人体工学枪栓",
       "zh-TW": "增幅魚鷹 · 追蹤彈 + 人體工學槍栓"
     },
@@ -11506,7 +12166,7 @@
       "ru": "Усовершенствованная версия Ястреба.",
       "sr": "Pojačana varijanta Osprey-a.",
       "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Osprey.",
+      "uk": "Посилений варіант Оспрея.",
       "zh-CN": "“鱼鹰”的增强型变体。",
       "zh-TW": "魚鷹的增幅版。"
     },
@@ -12002,7 +12662,7 @@
       "ru": "Усовершенствованный Ястреб · Отслеживающие снаряды",
       "sr": "Pojačani Osprey · Metak tragač",
       "tr": "Güçlendirilmiş Kartal · İz Sürücü Mermiler",
-      "uk": "Посилений Osprey · Патрони-трекери",
+      "uk": "Посилений Оспрей · Набої-трекери",
       "zh-CN": "增强型“鱼鹰” · 追踪弹",
       "zh-TW": "增幅魚鷹 · 追蹤彈"
     },
@@ -12024,7 +12684,7 @@
       "ru": "Усовершенствованная версия Ястреба.",
       "sr": "Pojačana varijanta Osprey-a.",
       "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Osprey.",
+      "uk": "Посилений варіант Оспрея.",
       "zh-CN": "“鱼鹰”的增强型变体。",
       "zh-TW": "魚鷹的增幅版。"
     },
@@ -12536,7 +13196,7 @@
       "ru": "Усовершенствованный Ястреб",
       "sr": "Pojačani Osprey",
       "tr": "Güçlendirilmiş Kartal",
-      "uk": "Посилений Osprey",
+      "uk": "Посилений Оспрей",
       "zh-CN": "增强型“鱼鹰”",
       "zh-TW": "增幅魚鷹"
     },
@@ -12558,7 +13218,7 @@
       "ru": "Усовершенствованная версия Ястреба.",
       "sr": "Pojačana varijanta Osprey-a.",
       "tr": "Kartal'ın güçlendirilmiş bir çeşidi.",
-      "uk": "Посилений варіант Osprey.",
+      "uk": "Посилений варіант Оспрея.",
       "zh-CN": "“鱼鹰”的增强型变体。",
       "zh-TW": "魚鷹的增幅版。"
     },
@@ -13075,7 +13735,7 @@
       "ru": "Чертеж — Ястреб",
       "sr": "Osprey Nacrt",
       "tr": "Kartal Taslağı",
-      "uk": "Креслення Osprey",
+      "uk": "Креслення Оспрея",
       "zh-CN": "鱼鹰蓝图",
       "zh-TW": "魚鷹藍圖"
     },
@@ -13097,7 +13757,7 @@
       "ru": "Позволяет создать Ястреба.",
       "sr": "Omogućava izradu oružja Osprey",
       "tr": "Kartal üretmeni sağlar",
-      "uk": "Дозволяє створити Osprey",
+      "uk": "Дає змогу створити Оспрей",
       "zh-CN": "可以制作鱼鹰",
       "zh-TW": "可製作魚鷹"
     },
@@ -13175,7 +13835,7 @@
       "ru": "Снайперская винтовка с оптический прицелом и скользящим затвором. Стабильно наносит урон и отличается высокой точностью.",
       "sr": "Snajperska puška repetirka sa optikom, pouzdanom štetom i preciznošću.",
       "tr": "İyi bir hasar ve isabet oranı sunan sürgülü bir keskin nişancı tüfeği.",
-      "uk": "Снайперська гвинтівка з ковзним затвором і прицілом, що забезпечує стабільну шкоду та точність.",
+      "uk": "Несамозарядна снайперська гвинтівка з оптичним прицілом; має стабільно високі показники шкоди й точності.",
       "zh-CN": "带瞄准镜的栓动式狙击步枪，伤害和精准度均较高。",
       "zh-TW": "附有瞄準鏡的栓式狙擊槍，具有穩定的傷害輸出和精準度。"
     },
@@ -13698,1271 +14358,5 @@
         "trader": "Tian Wen"
       }
     ]
-  },
-  {
-    "id": "osprey_ii",
-    "name": {
-      "da": "Fiskeørn II",
-      "de": "Osprey II",
-      "en": "Osprey II",
-      "es": "Halieto II",
-      "fr": "Balbuzard II",
-      "he": "אוספריי II",
-      "hr": "Bukoč II",
-      "it": "Falco pescatore II",
-      "ja": "オスプレー II",
-      "ko-KR": "오스프레이 II",
-      "no": "Fiskeørn II",
-      "pl": "Rybołów II",
-      "pt": "Águia-Pescadora II",
-      "pt-BR": "Águia-Pescadora II",
-      "ru": "Ястреб II",
-      "sr": "Orao ribar II",
-      "tr": "Kartal II",
-      "uk": "Оспрей II",
-      "zh-CN": "鱼鹰 II",
-      "zh-TW": "魚鷹 II"
-    },
-    "description": {
-      "da": "En bolt-action snigskytteriffel med kikkertsigte, pålidelig skade og præcision.",
-      "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, das soliden Schaden anrichtet und gute Genauigkeit bietet.",
-      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-      "es": "Fusil de francotirador de cerrojo con mira que tiene un daño y una precisión fiables.",
-      "fr": "Un fusil de précision à verrou doté d'une lunette. Précision et puissance de feu fiables.",
-      "he": "רובה צלפים בעל פעולת בריח וכוונת, עם תפוקת נזק ודיוק אמינים.",
-      "hr": "Repetirajuća snajperska puška s optikom, pouzdanom štetom i preciznošću.",
-      "it": "Fucile di precisione bolt-action con mirino, con potenza di danno e precisione affidabili.",
-      "ja": "スコープが付いたボルトアクションのスナイパーライフル。ダメージ量と命中率が安定している。",
-      "ko-KR": "피해량과 정확도가 준수하고, 조준경이 달린 볼트 액션 저격 소총입니다.",
-      "no": "En bolt-action snikskytterrifle med kikkertsikte, med pålitelig skade og presisjon.",
-      "pl": "Karabin snajperski typu bolt-action z lunetą. Cechuje się solidnym potencjałem obrażeń i celnością.",
-      "pt": "Um fuzil de precisão com mira telescópica e ação por ferrolho, com dano causado e precisão confiáveis.",
-      "pt-BR": "Fuzil de precisão de ação de ferrolho e luneta, com poder de fogo e precisão confiáveis.",
-      "ru": "Снайперская винтовка с оптический прицелом и скользящим затвором. Стабильно наносит урон и отличается высокой точностью.",
-      "sr": "Snajperska puška repetirka sa optikom, pouzdanom štetom i preciznošću.",
-      "tr": "İyi bir hasar ve isabet oranı sunan sürgülü bir keskin nişancı tüfeği.",
-      "uk": "Снайперська гвинтівка з ковзним затвором і прицілом, що забезпечує стабільну шкоду та точність.",
-      "zh-CN": "带瞄准镜的栓动式狙击步枪，伤害和精准度均较高。",
-      "zh-TW": "附有瞄準鏡的栓式狙擊槍，具有穩定的傷害輸出和精準度。"
-    },
-    "type": "Sniper Rifle",
-    "rarity": "Rare",
-    "value": 10000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Medium Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Tip streljiva",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип боеприпасов",
-        "sr": "Tip municije",
-        "tr": "Mermi Türü",
-        "uk": "Тип боєприпасів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Moderate",
-        "da": "ARC rustningspenetration",
-        "de": "ARC-Rüstungsdurchschlag",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración de armadura ARC",
-        "fr": "Pénétration d'armure ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC アーマー貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC rustningspenetrasjon",
-        "pl": "Przebicie pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delme",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC 护甲穿透",
-        "zh-TW": "ARC 護甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Damage Falloff Range": {
-        "value": "150-170 m",
-        "da": "Skadesfald-afstand",
-        "de": "Schadensabfall-Reichweite",
-        "en": "Damage Falloff Range",
-        "es": "Alcance de pérdida de daño",
-        "fr": "Portée de perte de dégâts",
-        "he": "טווח דעיכת נזק",
-        "hr": "Domet opadanja štete",
-        "it": "Raggio di calo del danno",
-        "ja": "ダメージ減衰距離",
-        "ko-KR": "피해 감소 거리",
-        "no": "Skadefall-rekkevidde",
-        "pl": "Zasięg spadku obrażeń",
-        "pt": "Alcance da queda de dano",
-        "pt-BR": "Alcance da queda de dano",
-        "ru": "Дистанция спада урона",
-        "sr": "Domet opadanja štete",
-        "tr": "Hasar Azalma Menzili",
-        "uk": "Дистанція спаду шкоди",
-        "zh-CN": "伤害衰减距离",
-        "zh-TW": "傷害衰減距離"
-      },
-      "Durability": {
-        "value": "110/110",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久性",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Firing Mode": {
-        "value": "Bolt-Action",
-        "da": "Skydemetode",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način paljbe",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skyttemodus",
-        "pl": "Tryb ognia",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Režim paljbe",
-        "tr": "Ateş Modu",
-        "uk": "Режим вогню",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Magazine Size": {
-        "value": 8,
-        "da": "Magasinstørrelse",
-        "de": "Magazingröße",
-        "en": "Magazine Size",
-        "es": "Tamaño del cargador",
-        "fr": "Taille du chargeur",
-        "he": "גודל מחסנית",
-        "hr": "Veličina spremnika",
-        "it": "Capacità caricatore",
-        "ja": "マガジンサイズ",
-        "ko-KR": "탄창 크기",
-        "no": "Magasinstørrelse",
-        "pl": "Pojemność magazynka",
-        "pt": "Tamanho do carregador",
-        "pt-BR": "Tamanho do Pente",
-        "ru": "Размер магазина",
-        "sr": "Veličina okvira",
-        "tr": "Şarjör Kapasitesi",
-        "uk": "Розмір магазину",
-        "zh-CN": "弹匣容量",
-        "zh-TW": "彈匣容量"
-      },
-      "Reduced Bolt Action Time": {
-        "value": "20%",
-        "da": "Reduceret bundstykketid",
-        "de": "Reduzierte Repetierzeit",
-        "en": "Reduced Bolt Action Time",
-        "es": "Tiempo de acción del cerrojo reducido",
-        "fr": "Temps d'armement réduit",
-        "he": "זמן דריכה מופחת",
-        "hr": "Smanjeno vrijeme repetiranja",
-        "it": "Tempo di azionamento otturatore ridotto",
-        "ja": "ボルトアクション時間短縮",
-        "ko-KR": "볼트 작동 시간 감소",
-        "no": "Redusert repetertid",
-        "pl": "Skrócony czas przeładowania zamka",
-        "pt": "Tempo de ação do ferrolho reduzido",
-        "pt-BR": "Tempo de Ação do Ferrolho Reduzido",
-        "ru": "Сокращённое время перезарядки затвора",
-        "sr": "Smanjeno vreme repetiranja",
-        "tr": "Azaltılmış Sürgü Süresi",
-        "uk": "Зменшений час перезарядження затвора",
-        "zh-CN": "减少拉栓时间",
-        "zh-TW": "減少拉栓時間"
-      },
-      "Reduced Bolt-Action Time": {
-        "value": "20%",
-        "da": "Reduceret Bolt-Action Tid",
-        "de": "Verkürzte Repetierzeit",
-        "en": "Reduced Bolt-Action Time",
-        "es": "Tiempo de cerrojo reducido",
-        "fr": "Temps de réarmement réduit",
-        "he": "זמן פעולת בריח מופחת",
-        "hr": "Smanjeno vrijeme repetiranja",
-        "it": "Ciclo otturatore ridotto",
-        "ja": "ボルトアクション時間短縮",
-        "ko-KR": "볼트액션 시간 감소",
-        "no": "Redusert bolttid",
-        "pl": "Szybsze ryglowanie zamka",
-        "pt": "Tempo de Ferrolho Reduzido",
-        "pt-BR": "Tempo de Ferrolhamento Reduzido",
-        "ru": "Ускорение затвора",
-        "sr": "Smanjeno Vreme Repetiranja",
-        "tr": "Bolt-Aksiyon Süresi Azaltma",
-        "uk": "Зменшений час роботи затвора",
-        "zh-CN": "栓动时间缩短",
-        "zh-TW": "縮短栓動時間"
-      },
-      "Reduced Reload Time": {
-        "value": "12.5%",
-        "da": "Reduceret genladningstid",
-        "de": "Reduzierte Nachladezeit",
-        "en": "Reduced Reload Time",
-        "es": "Tiempo de recarga reducido",
-        "fr": "Temps de rechargement réduit",
-        "he": "זמן טעינה מופחת",
-        "hr": "Smanjeno vrijeme punjenja",
-        "it": "Tempo di ricarica ridotto",
-        "ja": "リロード時間短縮",
-        "ko-KR": "재장전 시간 감소",
-        "no": "Redusert ladetid",
-        "pl": "Skrócony czas przeładowania",
-        "pt": "Tempo de recarga reduzido",
-        "pt-BR": "Tempo de Recarga Reduzido",
-        "ru": "Сокращённое время перезарядки",
-        "sr": "Smanjeno vreme punjenja",
-        "tr": "Azaltılmış Şarjör Değiştirme Süresi",
-        "uk": "Зменшений час перезарядження",
-        "zh-CN": "减少装填时间",
-        "zh-TW": "減少裝填時間"
-      },
-      "Special Trait": {
-        "value": "Scoped",
-        "da": "Særlig egenskab",
-        "de": "Besondere Eigenschaft",
-        "en": "Special Trait",
-        "es": "Rasgo especial",
-        "fr": "Trait spécial",
-        "he": "תכונה מיוחדת",
-        "hr": "Posebna osobina",
-        "it": "Caratteristica speciale",
-        "ja": "特殊特性",
-        "ko-KR": "특수 특성",
-        "no": "Spesiell egenskap",
-        "pl": "Specjalna cecha",
-        "pt": "Característica especial",
-        "pt-BR": "Traço Especial",
-        "ru": "Особая черта",
-        "sr": "Posebna osobina",
-        "tr": "Özel Özellik",
-        "uk": "Особлива властивість",
-        "zh-CN": "特殊特性",
-        "zh-TW": "特殊特性"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "recyclesInto": {
-      "advanced_mechanical_components": 2,
-      "medium_gun_parts": 2
-    },
-    "salvagesInto": {
-      "medium_gun_parts": 2
-    },
-    "upgradeCost": {
-      "advanced_mechanical_components": 1,
-      "medium_gun_parts": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_ii.png",
-    "updatedAt": "02/24/2026",
-    "_community": [
-      "damage",
-      "fireRate",
-      "range",
-      "stability",
-      "agility",
-      "stealth"
-    ],
-    "addedIn": "base",
-    "agility": 45.9,
-    "damage": 45,
-    "fireRate": 17.7,
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.SniperRifle",
-        "dropType": [
-          "Equipment.Weapon.Firearm.MediumAmmo"
-        ],
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.MediumAmmoWeapon",
-          "Items.SpecificWeapon.Osprey"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "medium_ammo",
-        "arc": {
-          "armorMultiplier": 0.8,
-          "propagationMultiplier": 0.4,
-          "weakSpotMultiplier": 1
-        },
-        "base": {
-          "adsTimeSec": 1,
-          "burnRate": 0.00675,
-          "burstSize": 1,
-          "clipSize": 8,
-          "cooldownSec": 1.5,
-          "firePower": 90000,
-          "fireRate": 45,
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 45,
-          "reloadTimeSec": 3.5
-        },
-        "damageFalloff": [
-          [
-            0,
-            1.001
-          ],
-          [
-            15,
-            1.001
-          ],
-          [
-            150,
-            1.001
-          ],
-          [
-            170,
-            0.6
-          ]
-        ],
-        "dispersion": {
-          "adsScale": 0,
-          "fireGain": [
-            [
-              0.196259,
-              5,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "fireMax": 8,
-          "max": 30,
-          "perStance": {
-            "crouching": {
-              "dispersion": 5,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "crouchMoving": {
-              "dispersion": 5,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "falling": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "sprinting": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standing": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standMoving": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "uncontrollable": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            }
-          },
-          "popMax": 0,
-          "recoverySpeed": 0.8,
-          "unset": [
-            "min",
-            "adsDuration",
-            "adsRecoveryMultiplier",
-            "velocityMax",
-            "velocity",
-            "velocityRecovery",
-            "popRecoverySpeed",
-            "linearRecovery"
-          ]
-        },
-        "equipTimeSec": 1.1,
-        "headshotMultiplier": 2,
-        "modifiers": {
-          "cooldownTime": -0.1,
-          "durabilityBurnRate": 0,
-          "reloadTime": 0
-        },
-        "projectileGravityScale": 0.6,
-        "projectileInitialSpeedMs": 350,
-        "projectileRadiusM": 0.1,
-        "recoil": {
-          "adsGainMultiplier": 0.45,
-          "lerpSpeed": 0.3,
-          "pitch": [
-            [
-              0,
-              0,
-              24.157364,
-              0,
-              "linear"
-            ],
-            [
-              1,
-              10,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "pitchProceduralRange": [
-            -0.1,
-            1
-          ],
-          "recoveryDelay": 0.5,
-          "recoverySpeed": 2,
-          "sampleCount": 5,
-          "unset": [
-            "yawProceduralRange",
-            "proceduralSwingSpeed"
-          ],
-          "yaw": [
-            [
-              0,
-              0,
-              -3.74278,
-              0,
-              "linear"
-            ],
-            [
-              1,
-              -2.5,
-              0,
-              0,
-              "linear"
-            ]
-          ]
-        },
-        "tier": 2,
-        "unequipTimeSec": 0.6
-      }
-    },
-    "modSlots": {
-      "grip": [
-        "angled_grip_i",
-        "angled_grip_ii",
-        "angled_grip_iii",
-        "horizontal_grip",
-        "vertical_grip_i",
-        "vertical_grip_ii",
-        "vertical_grip_iii"
-      ],
-      "magazine": [
-        "extended_medium_mag_i",
-        "extended_medium_mag_ii",
-        "extended_medium_mag_iii"
-      ],
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "range": 80.3,
-    "repairCost": {
-      "advanced_mechanical_components": 2,
-      "medium_gun_parts": 1
-    },
-    "repairDurability": 0.5,
-    "stability": 89.4,
-    "stealth": 12,
-    "upgrades": [
-      {
-        "cost": {
-          "advanced_mechanical_components": 1,
-          "medium_gun_parts": 2
-        },
-        "to": "osprey_iii"
-      }
-    ],
-    "upgradesTo": "osprey_iii"
-  },
-  {
-    "id": "osprey_iii",
-    "name": {
-      "da": "Fiskeørn III",
-      "de": "Osprey III",
-      "en": "Osprey III",
-      "es": "Halieto III",
-      "fr": "Balbuzard III",
-      "he": "אוספריי III",
-      "hr": "Bukoč III",
-      "it": "Falco pescatore III",
-      "ja": "オスプレー III",
-      "ko-KR": "오스프레이 III",
-      "no": "Fiskeørn III",
-      "pl": "Rybołów III",
-      "pt": "Águia-Pescadora III",
-      "pt-BR": "Águia-Pescadora III",
-      "ru": "Ястреб III",
-      "sr": "Orao ribar III",
-      "tr": "Kartal III",
-      "uk": "Оспрей III",
-      "zh-CN": "鱼鹰 III",
-      "zh-TW": "魚鷹 III"
-    },
-    "description": {
-      "da": "En bolt-action snigskytteriffel med kikkertsigte, pålidelig skade og præcision.",
-      "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, das soliden Schaden anrichtet und gute Genauigkeit bietet.",
-      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-      "es": "Fusil de francotirador de cerrojo con mira que tiene un daño y una precisión fiables.",
-      "fr": "Un fusil de précision à verrou doté d'une lunette. Précision et puissance de feu fiables.",
-      "he": "רובה צלפים בעל פעולת בריח וכוונת, עם תפוקת נזק ודיוק אמינים.",
-      "hr": "Repetirajuća snajperska puška s optikom, pouzdanom štetom i preciznošću.",
-      "it": "Fucile di precisione bolt-action con mirino, con potenza di danno e precisione affidabili.",
-      "ja": "スコープが付いたボルトアクションのスナイパーライフル。ダメージ量と命中率が安定している。",
-      "ko-KR": "피해량과 정확도가 준수하고, 조준경이 달린 볼트 액션 저격 소총입니다.",
-      "no": "En bolt-action snikskytterrifle med kikkertsikte, med pålitelig skade og presisjon.",
-      "pl": "Karabin snajperski typu bolt-action z lunetą. Cechuje się solidnym potencjałem obrażeń i celnością.",
-      "pt": "Um fuzil de precisão com mira telescópica e ação por ferrolho, com dano causado e precisão confiáveis.",
-      "pt-BR": "Fuzil de precisão de ação de ferrolho e luneta, com poder de fogo e precisão confiáveis.",
-      "ru": "Снайперская винтовка с оптический прицелом и скользящим затвором. Стабильно наносит урон и отличается высокой точностью.",
-      "sr": "Snajperska puška repetirka sa optikom, pouzdanom štetom i preciznošću.",
-      "tr": "İyi bir hasar ve isabet oranı sunan sürgülü bir keskin nişancı tüfeği.",
-      "uk": "Снайперська гвинтівка з ковзним затвором і прицілом, що забезпечує стабільну шкоду та точність.",
-      "zh-CN": "带瞄准镜的栓动式狙击步枪，伤害和精准度均较高。",
-      "zh-TW": "附有瞄準鏡的栓式狙擊槍，具有穩定的傷害輸出和精準度。"
-    },
-    "type": "Sniper Rifle",
-    "rarity": "Rare",
-    "value": 13000,
-    "weightKg": 7,
-    "stackSize": 1,
-    "isWeapon": true,
-    "effects": {
-      "Ammo Type": {
-        "value": "Medium Ammo",
-        "da": "Ammunitionstype",
-        "de": "Munitionstyp",
-        "en": "Ammo Type",
-        "es": "Tipo de munición",
-        "fr": "Type de munitions",
-        "he": "סוג תחמושת",
-        "hr": "Tip streljiva",
-        "it": "Tipo di munizioni",
-        "ja": "弾薬タイプ",
-        "ko-KR": "탄약 유형",
-        "no": "Ammunisjonstype",
-        "pl": "Typ amunicji",
-        "pt": "Tipo de munição",
-        "pt-BR": "Tipo de munição",
-        "ru": "Тип боеприпасов",
-        "sr": "Tip municije",
-        "tr": "Mermi Türü",
-        "uk": "Тип боєприпасів",
-        "zh-CN": "弹药类型",
-        "zh-TW": "彈藥類型"
-      },
-      "ARC Armor Penetration": {
-        "value": "Moderate",
-        "da": "ARC rustningspenetration",
-        "de": "ARC-Rüstungsdurchschlag",
-        "en": "ARC Armor Penetration",
-        "es": "Penetración de armadura ARC",
-        "fr": "Pénétration d'armure ARC",
-        "he": "חדירת שריון ARC",
-        "hr": "ARC probijanje oklopa",
-        "it": "Penetrazione armature ARC",
-        "ja": "ARC アーマー貫通",
-        "ko-KR": "아크 장갑판 관통력",
-        "no": "ARC rustningspenetrasjon",
-        "pl": "Przebicie pancerza ARC",
-        "pt": "Penetração de armadura ARC",
-        "pt-BR": "Penetração contra blindagem ARC",
-        "ru": "Пробитие брони ARC",
-        "sr": "ARC probijanje oklopa",
-        "tr": "ARC Zırh Delme",
-        "uk": "Пробиття броні ARC",
-        "zh-CN": "ARC 护甲穿透",
-        "zh-TW": "ARC 護甲穿透"
-      },
-      "Critical Hit Multiplier": {
-        "value": "2x",
-        "da": "Kritisk Træffer Multiplikator",
-        "de": "Kritischer-Treffer-Multiplikator",
-        "en": "Critical Hit Multiplier",
-        "es": "Multiplicador de golpe crítico",
-        "fr": "Multiplicateur de coup critique",
-        "he": "מכפיל מכה קריטית",
-        "hr": "Množitelj kritičnog pogotka",
-        "it": "Moltiplicatore colpi critici",
-        "ja": "クリティカルヒット倍率",
-        "ko-KR": "치명타 배수",
-        "no": "Kritisk treff-multiplikator",
-        "pl": "Mnożnik obrażeń krytycznych",
-        "pt": "Multiplicador de Dano Crítico",
-        "pt-BR": "Multiplicador de acerto crítico",
-        "ru": "Множитель критического урона",
-        "sr": "Množilac kritičnog pogotka",
-        "tr": "Kritik Vuruş Çarpanı",
-        "uk": "Множник критичного удару",
-        "zh-CN": "暴击系数",
-        "zh-TW": "爆擊倍率"
-      },
-      "Damage Falloff Range": {
-        "value": "150-170 m",
-        "da": "Skadesfald-afstand",
-        "de": "Schadensabfall-Reichweite",
-        "en": "Damage Falloff Range",
-        "es": "Alcance de pérdida de daño",
-        "fr": "Portée de perte de dégâts",
-        "he": "טווח דעיכת נזק",
-        "hr": "Domet opadanja štete",
-        "it": "Raggio di calo del danno",
-        "ja": "ダメージ減衰距離",
-        "ko-KR": "피해 감소 거리",
-        "no": "Skadefall-rekkevidde",
-        "pl": "Zasięg spadku obrażeń",
-        "pt": "Alcance da queda de dano",
-        "pt-BR": "Alcance da queda de dano",
-        "ru": "Дистанция спада урона",
-        "sr": "Domet opadanja štete",
-        "tr": "Hasar Azalma Menzili",
-        "uk": "Дистанція спаду шкоди",
-        "zh-CN": "伤害衰减距离",
-        "zh-TW": "傷害衰減距離"
-      },
-      "Durability": {
-        "value": "120/120",
-        "da": "Holdbarhed",
-        "de": "Haltbarkeit",
-        "en": "Durability",
-        "es": "Durabilidad",
-        "fr": "Durabilité",
-        "he": "עמידות",
-        "hr": "Izdržljivost",
-        "it": "Tenuta",
-        "ja": "耐久性",
-        "ko-KR": "내구도",
-        "no": "Holdbarhet",
-        "pl": "Wytrzymałość",
-        "pt": "Durabilidade",
-        "pt-BR": "Durabilidade",
-        "ru": "Прочность",
-        "sr": "Izdržljivost",
-        "tr": "Dayanıklılık",
-        "uk": "Міцність",
-        "zh-CN": "耐久度",
-        "zh-TW": "耐久度"
-      },
-      "Firing Mode": {
-        "value": "Bolt-Action",
-        "da": "Skydemetode",
-        "de": "Feuermodus",
-        "en": "Firing Mode",
-        "es": "Modo de disparo",
-        "fr": "Mode de tir",
-        "he": "מצב ירי",
-        "hr": "Način paljbe",
-        "it": "Modalità di fuoco",
-        "ja": "射撃モード",
-        "ko-KR": "발사 모드",
-        "no": "Skyttemodus",
-        "pl": "Tryb ognia",
-        "pt": "Modo de disparo",
-        "pt-BR": "Modo de disparo",
-        "ru": "Режим стрельбы",
-        "sr": "Režim paljbe",
-        "tr": "Ateş Modu",
-        "uk": "Режим вогню",
-        "zh-CN": "射击模式",
-        "zh-TW": "射擊模式"
-      },
-      "Magazine Size": {
-        "value": 8,
-        "da": "Magasinstørrelse",
-        "de": "Magazingröße",
-        "en": "Magazine Size",
-        "es": "Tamaño del cargador",
-        "fr": "Taille du chargeur",
-        "he": "גודל מחסנית",
-        "hr": "Veličina spremnika",
-        "it": "Capacità caricatore",
-        "ja": "マガジンサイズ",
-        "ko-KR": "탄창 크기",
-        "no": "Magasinstørrelse",
-        "pl": "Pojemność magazynka",
-        "pt": "Tamanho do carregador",
-        "pt-BR": "Tamanho do Pente",
-        "ru": "Размер магазина",
-        "sr": "Veličina okvira",
-        "tr": "Şarjör Kapasitesi",
-        "uk": "Розмір магазину",
-        "zh-CN": "弹匣容量",
-        "zh-TW": "彈匣容量"
-      },
-      "Reduced Bolt Action Time": {
-        "value": "40%",
-        "da": "Reduceret bundstykketid",
-        "de": "Reduzierte Repetierzeit",
-        "en": "Reduced Bolt Action Time",
-        "es": "Tiempo de acción del cerrojo reducido",
-        "fr": "Temps d'armement réduit",
-        "he": "זמן דריכה מופחת",
-        "hr": "Smanjeno vrijeme repetiranja",
-        "it": "Tempo di azionamento otturatore ridotto",
-        "ja": "ボルトアクション時間短縮",
-        "ko-KR": "볼트 작동 시간 감소",
-        "no": "Redusert repetertid",
-        "pl": "Skrócony czas przeładowania zamka",
-        "pt": "Tempo de ação do ferrolho reduzido",
-        "pt-BR": "Tempo de Ação do Ferrolho Reduzido",
-        "ru": "Сокращённое время перезарядки затвора",
-        "sr": "Smanjeno vreme repetiranja",
-        "tr": "Azaltılmış Sürgü Süresi",
-        "uk": "Зменшений час перезарядження затвора",
-        "zh-CN": "减少拉栓时间",
-        "zh-TW": "減少拉栓時間"
-      },
-      "Reduced Bolt-Action Time": {
-        "value": "40%",
-        "da": "Reduceret Bolt-Action Tid",
-        "de": "Verkürzte Repetierzeit",
-        "en": "Reduced Bolt-Action Time",
-        "es": "Tiempo de cerrojo reducido",
-        "fr": "Temps de réarmement réduit",
-        "he": "זמן פעולת בריח מופחת",
-        "hr": "Smanjeno vrijeme repetiranja",
-        "it": "Ciclo otturatore ridotto",
-        "ja": "ボルトアクション時間短縮",
-        "ko-KR": "볼트액션 시간 감소",
-        "no": "Redusert bolttid",
-        "pl": "Szybsze ryglowanie zamka",
-        "pt": "Tempo de Ferrolho Reduzido",
-        "pt-BR": "Tempo de Ferrolhamento Reduzido",
-        "ru": "Ускорение затвора",
-        "sr": "Smanjeno Vreme Repetiranja",
-        "tr": "Bolt-Aksiyon Süresi Azaltma",
-        "uk": "Зменшений час роботи затвора",
-        "zh-CN": "栓动时间缩短",
-        "zh-TW": "縮短栓動時間"
-      },
-      "Reduced Reload Time": {
-        "value": "25%",
-        "da": "Reduceret genladningstid",
-        "de": "Reduzierte Nachladezeit",
-        "en": "Reduced Reload Time",
-        "es": "Tiempo de recarga reducido",
-        "fr": "Temps de rechargement réduit",
-        "he": "זמן טעינה מופחת",
-        "hr": "Smanjeno vrijeme punjenja",
-        "it": "Tempo di ricarica ridotto",
-        "ja": "リロード時間短縮",
-        "ko-KR": "재장전 시간 감소",
-        "no": "Redusert ladetid",
-        "pl": "Skrócony czas przeładowania",
-        "pt": "Tempo de recarga reduzido",
-        "pt-BR": "Tempo de Recarga Reduzido",
-        "ru": "Сокращённое время перезарядки",
-        "sr": "Smanjeno vreme punjenja",
-        "tr": "Azaltılmış Şarjör Değiştirme Süresi",
-        "uk": "Зменшений час перезарядження",
-        "zh-CN": "减少装填时间",
-        "zh-TW": "減少裝填時間"
-      },
-      "Special Trait": {
-        "value": "Scoped",
-        "da": "Særlig egenskab",
-        "de": "Besondere Eigenschaft",
-        "en": "Special Trait",
-        "es": "Rasgo especial",
-        "fr": "Trait spécial",
-        "he": "תכונה מיוחדת",
-        "hr": "Posebna osobina",
-        "it": "Caratteristica speciale",
-        "ja": "特殊特性",
-        "ko-KR": "특수 특성",
-        "no": "Spesiell egenskap",
-        "pl": "Specjalna cecha",
-        "pt": "Característica especial",
-        "pt-BR": "Traço Especial",
-        "ru": "Особая черта",
-        "sr": "Posebna osobina",
-        "tr": "Özel Özellik",
-        "uk": "Особлива властивість",
-        "zh-CN": "特殊特性",
-        "zh-TW": "特殊特性"
-      }
-    },
-    "craftBench": "weapon_bench",
-    "recyclesInto": {
-      "advanced_mechanical_components": 2,
-      "medium_gun_parts": 3
-    },
-    "salvagesInto": {
-      "medium_gun_parts": 3
-    },
-    "upgradeCost": {
-      "advanced_mechanical_components": 1,
-      "medium_gun_parts": 2
-    },
-    "imageFilename": "https://cdn.arctracker.io/items/v2/osprey_iii.png",
-    "updatedAt": "03/17/2026",
-    "_community": [
-      "damage",
-      "fireRate",
-      "range",
-      "stability",
-      "agility",
-      "stealth"
-    ],
-    "addedIn": "base",
-    "agility": 45.9,
-    "damage": 45,
-    "fireRate": 17.7,
-    "mechanics": {
-      "classification": {
-        "category": "Firearm.SniperRifle",
-        "dropType": [
-          "Equipment.Weapon.Firearm.MediumAmmo"
-        ],
-        "itemType": [
-          "Weapon.Firearm"
-        ],
-        "questGroups": [
-          "Items.AllWeapons",
-          "Items.MediumAmmoWeapon",
-          "Items.SpecificWeapon.Osprey"
-        ]
-      },
-      "weapon": {
-        "ammoItem": "medium_ammo",
-        "arc": {
-          "armorMultiplier": 0.8,
-          "propagationMultiplier": 0.4,
-          "weakSpotMultiplier": 1
-        },
-        "base": {
-          "adsTimeSec": 1,
-          "burnRate": 0.00675,
-          "burstSize": 1,
-          "clipSize": 8,
-          "cooldownSec": 1.5,
-          "firePower": 90000,
-          "fireRate": 45,
-          "multiShotPattern": {
-            "fromDefault": [
-              "move",
-              "grow",
-              "minSize"
-            ],
-            "grow": 1,
-            "minSize": 0,
-            "move": 0
-          },
-          "physicalDamage": 45,
-          "reloadTimeSec": 3.5
-        },
-        "damageFalloff": [
-          [
-            0,
-            1.001
-          ],
-          [
-            15,
-            1.001
-          ],
-          [
-            150,
-            1.001
-          ],
-          [
-            170,
-            0.6
-          ]
-        ],
-        "dispersion": {
-          "adsScale": 0,
-          "fireGain": [
-            [
-              0.196259,
-              5,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "fireMax": 8,
-          "max": 30,
-          "perStance": {
-            "crouching": {
-              "dispersion": 5,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "crouchMoving": {
-              "dispersion": 5,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "falling": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "sprinting": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standing": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "standMoving": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            },
-            "uncontrollable": {
-              "dispersion": 8,
-              "unset": [
-                "fireDispersionMultiplier",
-                "overrideRecoverySpeed",
-                "recoverySpeed",
-                "adsRecoveryMultiplier",
-                "overrideAdsDispersion",
-                "adsScale",
-                "adsDuration",
-                "adsFireDispersionMultiplier"
-              ]
-            }
-          },
-          "popMax": 0,
-          "recoverySpeed": 0.8,
-          "unset": [
-            "min",
-            "adsDuration",
-            "adsRecoveryMultiplier",
-            "velocityMax",
-            "velocity",
-            "velocityRecovery",
-            "popRecoverySpeed",
-            "linearRecovery"
-          ]
-        },
-        "equipTimeSec": 1.1,
-        "headshotMultiplier": 2,
-        "modifiers": {
-          "cooldownTime": -0.2,
-          "durabilityBurnRate": -0.3,
-          "reloadTime": -0.5
-        },
-        "projectileGravityScale": 0.6,
-        "projectileInitialSpeedMs": 350,
-        "projectileRadiusM": 0.1,
-        "recoil": {
-          "adsGainMultiplier": 0.45,
-          "lerpSpeed": 0.3,
-          "pitch": [
-            [
-              0,
-              0,
-              24.157364,
-              0,
-              "linear"
-            ],
-            [
-              1,
-              10,
-              0,
-              0,
-              "linear"
-            ]
-          ],
-          "pitchProceduralRange": [
-            -0.1,
-            1
-          ],
-          "recoveryDelay": 0.5,
-          "recoverySpeed": 2,
-          "sampleCount": 5,
-          "unset": [
-            "yawProceduralRange",
-            "proceduralSwingSpeed"
-          ],
-          "yaw": [
-            [
-              0,
-              0,
-              -3.74278,
-              0,
-              "linear"
-            ],
-            [
-              1,
-              -2.5,
-              0,
-              0,
-              "linear"
-            ]
-          ]
-        },
-        "statBarOffsets": {
-          "agility": 1,
-          "fireRate": 0.5
-        },
-        "tier": 3,
-        "unequipTimeSec": 0.6
-      }
-    },
-    "modSlots": {
-      "grip": [
-        "angled_grip_i",
-        "angled_grip_ii",
-        "angled_grip_iii",
-        "horizontal_grip",
-        "vertical_grip_i",
-        "vertical_grip_ii",
-        "vertical_grip_iii"
-      ],
-      "magazine": [
-        "extended_medium_mag_i",
-        "extended_medium_mag_ii",
-        "extended_medium_mag_iii"
-      ],
-      "muzzle": [
-        "compensator_i",
-        "compensator_ii",
-        "compensator_iii",
-        "extended_barrel_i",
-        "extended_barrel_ii",
-        "extended_barrel_iii",
-        "muzzle_brake_i",
-        "muzzle_brake_ii",
-        "muzzle_brake_iii",
-        "silencer_i",
-        "silencer_ii",
-        "silencer_iii"
-      ],
-      "stock": [
-        "kinetic_converter",
-        "lightweight_stock",
-        "padded_stock",
-        "stable_stock_i",
-        "stable_stock_ii",
-        "stable_stock_iii"
-      ]
-    },
-    "range": 80.3,
-    "repairCost": {
-      "advanced_mechanical_components": 2,
-      "medium_gun_parts": 3
-    },
-    "repairDurability": 0.5,
-    "stability": 89.4,
-    "stealth": 12,
-    "upgrades": [
-      {
-        "cost": {
-          "advanced_mechanical_components": 2,
-          "medium_gun_parts": 2
-        },
-        "to": "osprey_iv"
-      }
-    ],
-    "upgradesTo": "osprey_iv"
   }
 ]
