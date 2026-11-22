@@ -18,7 +18,7 @@
     "ru": "Прогулка по перевалу Пендола",
     "sr": "Istraživanje Pendola Passa",
     "tr": "Pendola Geçidi Keşfi",
-    "uk": "Розвідка Перевалу Пендола",
+    "uk": "Розвідка маршруту Пендола",
     "zh-CN": "探索彭多拉山口",
     "zh-TW": "探索彭多拉隘口"
   },
@@ -48,7 +48,7 @@
     "ru": "ARC всегда стягивались на стрельбу и шум, но мы никогда не видели, чтобы они собирались в одном месте, как это происходит на перевале Пендола.",
     "sr": "ARC je oduvek privlačila pucnjava i metež, ali nikada ih nismo videli da se okupljaju na jednom mestu kao u Pendola Passu.",
     "tr": "ARC, silah ateşine ve kargaşaya daima çekilir ancak Pendola Geçidi'ne üşüştükleri gibi başka bir yere toplandıklarına hiç şahit olmamıştık.",
-    "uk": "ARC завжди притягував вогонь і метушня, але ми ніколи не бачили, щоб вони так збиралися в одному місці, як на Перевалі Пендола.",
+    "uk": "ARC завжди приваблювали стрілянина й галас, але ми ще ніколи не бачили, щоб вони так масово зліталися в одне місце, як на маршруті Пендола.",
     "zh-CN": "ARC向来会被枪声和骚动吸引，但我们从没见过它们像在彭多拉山口这样，大规模聚集。",
     "zh-TW": "ARC一直都會被槍聲和騷動吸引，但我們從沒見過它們像在彭多拉隘口那樣，成群聚集到同一個地方。"
   },
@@ -71,7 +71,7 @@
       "ru": "Уничтожьте машины ARC (20)",
       "sr": "Uništi 20 ARC neprijatelja",
       "tr": "20 ARC düşmanı yok et",
-      "uk": "Знищити 20 ворогів ARC",
+      "uk": "Знищити ворогів типу ARC: 20",
       "zh-CN": "摧毁20个ARC敌人",
       "zh-TW": "摧毀20台ARC敵人"
     },
@@ -93,7 +93,7 @@
       "ru": "Найдите источник питания в диспетчерской обсерватории «Чело Серено».",
       "sr": "Pretraži kontrolnu sobu u Opservatorijumu Cielo Sereno u potrazi za napajanjem",
       "tr": "Cielo Sereno Gözlemevi'ndeki kontrol odasında güç ara",
-      "uk": "Обшукати диспетчерську на Обсерваторії Cielo Sereno для живлення",
+      "uk": "Пошукати джерело живлення в пункті управління обсерваторії «Чело Серено»",
       "zh-CN": "检查晴空天文台控制室的供电情况",
       "zh-TW": "在晴空天文台的控制室搜尋電力"
     },
@@ -115,7 +115,7 @@
       "ru": "Используйте 1 провод, чтобы подключиться к антенне на самой высокой башне на грузовой станции.",
       "sr": "Koristi 1 žicu da se povežeš na antenu na vrhu najvišeg tornja u Železničkoj stanici",
       "tr": "Demiryolu Sahası'ndaki en yüksek kulenin tepesindeki antene bağlanmak için 1 Kablo kullan",
-      "uk": "Використати 1 дріт, щоб підключитися до антени на вершині найвищої вежі на Залізничному дворі",
+      "uk": "Використати 1 дріт, щоб під’єднатися до антени на верхівці найвищої вежі Сортувальної станції",
       "zh-CN": "使用1根导线接入铁路站场最高塔顶的天线",
       "zh-TW": "使用1條電線連接到鐵路站最高塔頂端的天線"
     },
@@ -137,7 +137,7 @@
       "ru": "Осмотрите 3 контейнера в специальном супермаркете.",
       "sr": "Pretraži 3 kontejnera u Supermarketu Komision",
       "tr": "Askerî Süpermarket'in içinde 3 ganimet kaynağı ara",
-      "uk": "Обшукати 3 контейнери всередині Супермаркету Commissary",
+      "uk": "Обшукати контейнерів у супермаркеті Комісаріату: 3",
       "zh-CN": "在军需超市内搜查3个容器",
       "zh-TW": "在福利超市內搜索3個容器"
     }
@@ -160,7 +160,7 @@
   "previousQuestIds": ["ss4"],
   "nextQuestIds": ["wires_crossed", "tracks_of_the_beast"],
   "videoUrl": "https://youtu.be/awyoF7qn_dA",
-  "updatedAt": "10/23/2026",
+  "updatedAt": "11/20/2026",
   "objectiveTree": {
     "id": "591539553",
     "children": [

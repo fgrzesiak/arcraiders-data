@@ -18,7 +18,7 @@
     "ru": "Отключение энергии",
     "sr": "Nestanak struje",
     "tr": "Güç Kesintisi",
-    "uk": "Знеструмлення",
+    "uk": "Перебої з електропостачанням",
     "zh-CN": "电力不足",
     "zh-TW": "斷電"
   },
@@ -42,7 +42,7 @@
     "ru": "Это уже не просто случайность. Из-за чего-то — или кого-то — вырубилось несколько электроподстанций. Инженер, который должен был устранить поломку, не вернулся, так что все свободные рейдеры отправятся выяснять, в чем там дело. Включая тебя.",
     "sr": "Ovo je više od loše sreće. Nešto — ili neko — je onesposobio neke od naših trafostanica. Inženjer kog sam poslao da to popravi se nije vratio, pa su mi potrebni svi raspoloživi Raiders-i da to istraže. To uključuje i tebe.",
     "tr": "Bu kötü şansın da ötesi. Bir şey veya birisi bazı elektrik trafo merkezlerimizi mahvetti. Tamir etmesi için gönderdiğim mühendis geri dönmedi, bu yüzden tüm müsait Raider'lara ihtiyacım var. Sen de dâhilsin.",
-    "uk": "Це вже більше, ніж просто невдача. Щось — або хтось — вивів з ладу кілька наших електропідстанцій. Інженер, якого я відправив усе полагодити, не повернувся, тому мені потрібно, щоб усі доступні Рейдери розібралися з цим. Це стосується й тебе.",
+    "uk": "Це вже не просто невезіння. Щось чи хтось вивели з ладу кілька наших підстанцій. Інженер, якого я послала відремонтувати їх, так і не повернувся, тож я шукаю рейдерів, які б могли перевірити, що там трапилося. Не хочеш долучитися?",
     "zh-CN": "这不仅仅是倒霉了。某些东西或者某些人，摧毁了我们的部分变电站。我派去修理的工程师没有回来，所以我不得不调派所有能用的奇袭者去调查这件事。包括你。",
     "zh-TW": "這不是倒楣的問題而已。某種東西，或某個人，破壞了我們的幾個變電所。我派去修理的工程師還沒回來，所以我需要有空的掠手都去調查此事。包括你。"
   },
@@ -65,7 +65,7 @@
       "ru": "Найдите электроподстанцию к югу от космопорта.",
       "sr": "Pronađi trafostanicu južno od Spaceport-a",
       "tr": "Uzaylimanı'nın güneyindeki Elektrik Trafo Merkezi'ni bul",
-      "uk": "Знайти електропідстанцію на південь від Spaceport",
+      "uk": "Знайти електричну підстанцію на південь від Космодрому",
       "zh-CN": "到太空港南部找到变电站",
       "zh-TW": "找到太空港南方的變電所"
     },
@@ -131,7 +131,7 @@
       "ru": "Восстановите питание.",
       "sr": "Obnovi napajanje",
       "tr": "Elektriği aç",
-      "uk": "Відновити живлення",
+      "uk": "Відновити електропостачання",
       "zh-CN": "恢复电力",
       "zh-TW": "恢復供電"
     }
@@ -154,7 +154,7 @@
   "previousQuestIds": ["ss10x9"],
   "nextQuestIds": ["ss10x11"],
   "videoUrl": "https://youtu.be/XAvvSfpFs-M",
-  "updatedAt": "10/07/2026",
+  "updatedAt": "11/20/2026",
   "objectiveTree": {
     "id": "487706771",
     "children": [
