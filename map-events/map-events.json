@@ -758,144 +758,146 @@
   "schedule": {
     "blue-gate": {
       "major": {
-        "1": "cold-snap",
-        "4": "cold-snap",
-        "5": "frigate",
+        "2": "cold-snap",
+        "5": "cold-snap",
+        "6": "frigate",
         "10": "cold-snap",
         "13": "frigate",
-        "15": "electromagnetic-storm",
-        "16": "cold-snap",
-        "19": "locked-gate",
-        "20": "frigate",
-        "21": "close-scrutiny"
+        "15": "cold-snap",
+        "16": "locked-gate",
+        "17": "cold-snap",
+        "20": "close-scrutiny",
+        "21": "frigate",
+        "22": "frigate"
       },
       "minor": {
-        "0": "matriarch",
-        "2": "harvester",
-        "3": "matriarch",
-        "6": "uncovered-caches",
-        "7": "harvester",
+        "1": "matriarch",
+        "3": "harvester",
+        "4": "matriarch",
+        "7": "uncovered-caches",
+        "8": "harvester",
         "10": "matriarch",
         "11": "harvester",
         "12": "matriarch",
         "14": "lush-blooms",
-        "18": "matriarch"
+        "19": "matriarch"
       }
     },
     "buried-city": {
       "major": {
-        "5": "cold-snap",
         "6": "cold-snap",
+        "7": "cold-snap",
         "9": "frigate",
         "10": "close-scrutiny",
         "13": "cold-snap",
-        "15": "hurricane",
-        "16": "frigate",
-        "20": "cold-snap"
+        "16": "close-scrutiny",
+        "17": "frigate",
+        "21": "cold-snap",
+        "22": "cold-snap"
       },
       "minor": {
-        "2": "bird-city",
-        "3": "uncovered-caches",
-        "5": "bird-city",
-        "7": "lush-blooms",
-        "8": "bird-city",
+        "0": "bird-city",
+        "3": "bird-city",
+        "4": "uncovered-caches",
+        "6": "bird-city",
+        "8": "lush-blooms",
         "11": "bird-city",
         "14": "bird-city",
-        "16": "bird-city",
-        "19": "bird-city",
-        "21": "lush-blooms",
-        "22": "lush-blooms",
-        "23": "bird-city"
+        "17": "bird-city",
+        "20": "bird-city",
+        "23": "lush-blooms"
       }
     },
     "dam-battleground": {
       "major": {
-        "2": "cold-snap",
-        "7": "frigate",
+        "0": "frigate",
+        "3": "cold-snap",
+        "8": "frigate",
         "10": "hurricane",
         "11": "cold-snap",
         "14": "hurricane",
-        "18": "cold-snap",
-        "19": "close-scrutiny",
-        "22": "electromagnetic-storm",
-        "23": "frigate"
+        "15": "frigate",
+        "18": "hurricane",
+        "19": "cold-snap"
       },
       "minor": {
-        "1": "uncovered-caches",
-        "6": "matriarch",
+        "2": "uncovered-caches",
+        "7": "matriarch",
         "9": "harvester",
-        "20": "matriarch"
+        "21": "matriarch",
+        "22": "matriarch"
       }
     },
     "pendola-pass": {
       "major": {
-        "3": "frigate",
-        "8": "night-raid",
+        "4": "frigate",
+        "5": "night-raid",
         "10": "night-raid",
-        "15": "night-raid",
-        "21": "night-raid",
-        "22": "night-raid"
+        "16": "night-raid",
+        "23": "night-raid"
       },
       "minor": {
-        "1": "redirection",
-        "6": "redirection",
+        "2": "redirection",
+        "7": "redirection",
         "14": "uncovered-caches",
-        "16": "uncovered-caches",
-        "20": "uncovered-caches",
-        "21": "redirection"
+        "15": "redirection",
+        "17": "uncovered-caches",
+        "21": "uncovered-caches",
+        "22": "redirection"
       }
     },
     "riven-tides": {
       "major": {
-        "4": "night-raid",
         "5": "night-raid",
-        "7": "night-raid",
+        "6": "night-raid",
+        "8": "night-raid",
         "13": "night-raid",
-        "20": "night-raid"
+        "21": "night-raid",
+        "22": "night-raid"
       },
       "minor": {
-        "0": "uncovered-caches",
-        "1": "lush-blooms",
+        "1": "uncovered-caches",
+        "2": "lush-blooms",
         "9": "lush-blooms",
-        "17": "lush-blooms"
+        "18": "lush-blooms"
       }
     },
     "stella-montis": {
       "major": {
-        "0": "night-raid",
-        "3": "night-raid",
-        "6": "night-raid",
+        "1": "night-raid",
+        "4": "night-raid",
+        "7": "night-raid",
         "9": "night-raid",
         "12": "night-raid",
-        "17": "night-raid",
-        "20": "night-raid"
+        "15": "night-raid",
+        "18": "night-raid",
+        "21": "night-raid",
+        "22": "night-raid"
       },
       "minor": {}
     },
     "the-spaceport": {
       "major": {
-        "1": "frigate",
-        "2": "night-raid",
-        "8": "cold-snap",
+        "0": "cold-snap",
+        "2": "frigate",
+        "3": "night-raid",
         "11": "frigate",
         "12": "close-scrutiny",
         "14": "hidden-bunker",
-        "17": "hidden-bunker",
-        "18": "frigate",
-        "23": "cold-snap"
+        "19": "frigate",
+        "20": "electromagnetic-storm"
       },
       "minor": {
-        "4": "harvester",
-        "5": "launch-tower-loot",
-        "8": "matriarch",
+        "5": "harvester",
+        "6": "launch-tower-loot",
         "10": "uncovered-caches",
         "13": "harvester",
-        "15": "lush-blooms",
-        "16": "matriarch",
-        "17": "harvester",
-        "20": "lush-blooms",
-        "21": "harvester",
-        "22": "harvester"
+        "16": "lush-blooms",
+        "17": "matriarch",
+        "18": "harvester",
+        "21": "lush-blooms",
+        "22": "lush-blooms",
+        "23": "harvester"
       }
     }
   }
